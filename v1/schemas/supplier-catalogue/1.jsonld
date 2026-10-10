@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/schemas/supplier-catalogue/1",
   "type": "ptpge:Schema",
-  "version": "2026-10-06",
+  "version": "2026-10-10",
   "status": "proposed",
   "notation": "SCH:SUPPLIER-CATALOGUE",
   "level": "element",
@@ -16,13 +16,13 @@
   "stage": "draft",
   "writtenBy": "a paper or equipment maker",
   "holds": "the maker's series, grades and models, mapped to generic terms",
-  "jsonSchema": null,
+  "jsonSchema": "https://ptpge.org/v1/schemas/supplier-catalogue/1.schema.json",
   "definition": {
     "en": "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists.",
-    "nb": "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists."
+    "nb": "Produsentens egne serier, kvaliteter og modeller, hver knyttet til de generiske termene den representerer (substrat, vekt, teknologi). Skrives og holdes à jour av produsenten; bærer produsentens identitet (/v1/suppliers/…). Vokabularet holdes fritt for firmanavn fordi dette dokumentet finnes."
   },
   "created": "2026-10-06T19:16:59Z",
-  "modified": "2026-10-09T10:30:00Z",
+  "modified": "2026-10-10T21:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "location": "https://<domain>/.well-known/ptpge/catalogue.json",
   "carries": [
@@ -31,7 +31,7 @@
     "schemaVersion — the version of this schema the document follows"
   ],
   "note": {
-    "en": "Published by the maker on its own domain at the known path (SD-0101). The register at ptpge.org points at the domain and validates the document; it never stores a copy.",
-    "nb": "Publiseres av produsenten på eget domene på den kjente stien (SD-0101). Registeret på ptpge.org peker på domenet og validerer dokumentet; det lagrer aldri en kopi."
+    "en": "Published by the maker on its own domain at the known path (SD-0101). The register at ptpge.org points at the domain and validates the document; it never stores a copy. JSON Schema published 2026-10-10 (draft 2020-12): a flat list of items with stable ids and parent links — series, grades, shades, models — each with the vocabulary class it embodies and, per variable, the terms the maker states; product names live only here; a vendor declaration refers to an item as {supplier, item}. Reference validator: tools/validate_declaration.py.",
+    "nb": "Publiseres av produsenten på eget domene på den kjente stien (SD-0101). Registeret på ptpge.org peker på domenet og validerer dokumentet; det lagrer aldri en kopi. JSON Schema publisert 2026-10-10 (draft 2020-12): en flat liste av oppføringer med stabile id-er og foreldrelenker — serier, kvaliteter, nyanser, modeller — hver med vokabularklassen den representerer og, per variabel, termene produsenten oppgir; produktnavn finnes bare her; en leverandørdeklarasjon viser til en oppføring som {supplier, item}."
   }
 }

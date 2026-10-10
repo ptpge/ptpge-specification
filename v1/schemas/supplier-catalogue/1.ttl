@@ -6,19 +6,20 @@
 <https://ptpge.org/v1/schemas/supplier-catalogue/1> a ptpge:Schema ;
     dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-10T21:40:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/schemas> ;
     skos:definition "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists."@en,
-        "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists."@nb ;
+        "Produsentens egne serier, kvaliteter og modeller, hver knyttet til de generiske termene den representerer (substrat, vekt, teknologi). Skrives og holdes à jour av produsenten; bærer produsentens identitet (/v1/suppliers/…). Vokabularet holdes fritt for firmanavn fordi dette dokumentet finnes."@nb ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "SCH:SUPPLIER-CATALOGUE" ;
     skos:prefLabel "Supplier catalogue"@en,
         "Produsentkatalog"@nb ;
     ptpge:holds "the maker's series, grades and models, mapped to generic terms" ;
+    ptpge:jsonSchema <https://ptpge.org/v1/schemas/supplier-catalogue/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
     ptpge:stage "draft" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-06" ;
+    ptpge:version "2026-10-10" ;
     ptpge:writtenBy "a paper or equipment maker" .
 

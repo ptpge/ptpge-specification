@@ -16821,15 +16821,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16839,6 +16831,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16936,7 +16936,14 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16946,13 +16953,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17135,15 +17135,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17153,6 +17145,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17202,15 +17202,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17220,6 +17212,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17340,7 +17340,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/2" "1/2" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F4-1 (Single fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17350,14 +17358,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F4-1 (Single fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17481,14 +17481,7 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17498,6 +17491,13 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23526,18 +23526,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23722,18 +23722,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23785,18 +23785,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -26497,20 +26497,21 @@
 <https://ptpge.org/v1/schemas/supplier-catalogue/1> a ptpge:Schema ;
     dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-10T21:40:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/schemas> ;
     skos:definition "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists."@en,
-        "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists."@nb ;
+        "Produsentens egne serier, kvaliteter og modeller, hver knyttet til de generiske termene den representerer (substrat, vekt, teknologi). Skrives og holdes à jour av produsenten; bærer produsentens identitet (/v1/suppliers/…). Vokabularet holdes fritt for firmanavn fordi dette dokumentet finnes."@nb ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "SCH:SUPPLIER-CATALOGUE" ;
     skos:prefLabel "Supplier catalogue"@en,
         "Produsentkatalog"@nb ;
     ptpge:holds "the maker's series, grades and models, mapped to generic terms" ;
+    ptpge:jsonSchema <https://ptpge.org/v1/schemas/supplier-catalogue/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
     ptpge:stage "draft" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-06" ;
+    ptpge:version "2026-10-10" ;
     ptpge:writtenBy "a paper or equipment maker" .
 
 <https://ptpge.org/v1/schemas/ucp-manifest/1> a ptpge:Schema ;
@@ -38277,13 +38278,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -38618,16 +38619,16 @@
         "涂布"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -39902,16 +39903,16 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -40042,8 +40043,8 @@
     dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-10-10T19:20:00+00:00"^^xsd:dateTime ;
-    skos:definition "The five document forms the vocabulary is used in: vendor declaration and supplier catalogue (what a company is and offers, published on its own domain), request and quote (one deal between a buyer and a printer), UCP manifest (the identity on a checkout line). Each has a schema with a permanent URI and a version; a document carries its owner, the schema carries none. Status: draft. The vendor declaration has a published JSON Schema (2026-10-10); the other four follow, written from the first live documents. The rule every schema sets: what a document says about products and options, it says with term URIs, not labels."@en,
-        "De fem dokumentformene vokabularet brukes i: leverandørdeklarasjon og produsentkatalog (hva en virksomhet er og tilbyr, publisert på eget domene), forespørsel og tilbud (én handel mellom kjøper og trykkeri), UCP-manifest (identiteten på en kasselinje). Hvert har et skjema med permanent URI og versjon; et dokument bærer sin eier, skjemaet bærer ingen. Status: utkast. Leverandørdeklarasjonen har publisert JSON Schema (2026-10-10); de fire andre følger, skrevet ut fra de første dokumentene i drift. Regelen hvert skjema setter: det et dokument sier om produkter og valg, sier det med term-URI-er, ikke etiketter."@nb ;
+    skos:definition "The five document forms the vocabulary is used in: vendor declaration and supplier catalogue (what a company is and offers, published on its own domain), request and quote (one deal between a buyer and a printer), UCP manifest (the identity on a checkout line). Each has a schema with a permanent URI and a version; a document carries its owner, the schema carries none. Status: draft. The vendor declaration and the supplier catalogue have published JSON Schemas (2026-10-10); the other three follow, written from the first live documents. The rule every schema sets: what a document says about products and options, it says with term URIs, not labels."@en,
+        "De fem dokumentformene vokabularet brukes i: leverandørdeklarasjon og produsentkatalog (hva en virksomhet er og tilbyr, publisert på eget domene), forespørsel og tilbud (én handel mellom kjøper og trykkeri), UCP-manifest (identiteten på en kasselinje). Hvert har et skjema med permanent URI og versjon; et dokument bærer sin eier, skjemaet bærer ingen. Status: utkast. Leverandørdeklarasjonen og produsentkatalogen har publisert JSON Schema (2026-10-10); de tre andre følger, skrevet ut fra de første dokumentene i drift. Regelen hvert skjema setter: det et dokument sier om produkter og valg, sier det med term-URI-er, ikke etiketter."@nb ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/schemas/quote/1>,
         <https://ptpge.org/v1/schemas/request/1>,
@@ -43140,18 +43141,18 @@
         "范围从牛皮纸和天然纸（CIE 60–80，暖调）经象牙和灰色（中间）到白色和亮白色（CIE 90+）。选择影响印刷颜色的感知色调和产品的整体视觉特性。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;

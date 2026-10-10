@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ptpge.org/v1/schemas/supplier-catalogue/1.schema.json",
+  "title": "PTPGE supplier-catalogue/1",
+  "description": "A maker's own series, grades and models — paper, board, presses, finishing machines, inks — each mapped to the generic terms it embodies. Written and kept current by the maker and published on its own domain at /.well-known/ptpge/catalogue.json (SD-0101). The vocabulary stays free of company and product names because this document exists (SD-0097): a catalogue item is identified by the maker's identity plus the item's id, never by a term. Every vocabulary value is a term URI under https://ptpge.org/v1/ — never a label. No prices. Licence of the schema: CC BY 4.0.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "schemaVersion", "identity", "name", "domain", "country", "makes", "items", "modified"],
+  "properties": {
+    "schema":        { "const": "https://ptpge.org/v1/schemas/supplier-catalogue/1" },
+    "schemaVersion": { "const": 1 },
+    "identity":      { "$ref": "#/$defs/supplierUri", "description": "The maker's entry in the Suppliers register — the subject of this document." },
+    "name":          { "type": "string", "minLength": 1, "maxLength": 200 },
+    "legalName":     { "type": "string", "minLength": 1, "maxLength": 200 },
+    "domain":        { "$ref": "#/$defs/hostname", "description": "The domain this document is published on. Ownership is proven by the file being there." },
+    "website":       { "type": "string", "format": "uri", "pattern": "^https://" },
+    "country":       { "type": "string", "pattern": "^[A-Z]{2}$", "description": "ISO 3166-1 alpha-2." },
+    "logo":          { "type": "string", "pattern": "^(https://|data:image/(png|svg\\+xml|jpeg|webp);base64,)", "maxLength": 400000 },
+    "makes":         { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/termUri" }, "description": "The vocabulary classes the maker produces for — the same list as the register entry's `makes` (e.g. printing/substrates/sheet-materials/paper, printing/technologies/printing-finishing-equipment/printing-presses)." },
+    "items":         { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/item" }, "description": "The catalogue. Series, grades, shades, models — a flat list with `parent` links; ids are stable and referenced from vendor declarations as {supplier, item}." },
+    "modified":      { "type": "string", "format": "date-time" },
+    "generatedBy":   {
+      "type": "object",
+      "description": "Which tool wrote the document. Open: an implementation may add its own fields here — nothing under generatedBy is read by the register.",
+      "properties": { "tool": { "type": "string" }, "version": { "type": "string" } },
+      "additionalProperties": true
+    }
+  },
+
+  "$defs": {
+    "termUri":      { "type": "string", "pattern": "^https://ptpge\\.org/v1/(printing|ordering|variables)/[a-z0-9][a-z0-9/-]*$" },
+    "variableUri":  { "type": "string", "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$" },
+    "supplierUri":  { "type": "string", "pattern": "^https://ptpge\\.org/v1/suppliers/[a-z0-9-]+$" },
+    "hostname":     { "type": "string", "pattern": "^([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z]{2,63}$" },
+    "itemId":       { "type": "string", "pattern": "^[a-z0-9][a-z0-9/-]*$", "maxLength": 120, "description": "The maker's stable identifier for the item, as a slug path (scandia-2000/white, speedmaster-xl-106). Never renamed; a withdrawn item is marked discontinued." },
+    "range":        { "type": "object", "additionalProperties": false, "required": ["min", "max"], "properties": { "min": { "type": "number", "minimum": 0 }, "max": { "type": "number", "minimum": 0 } } },
+    "dimensionsMm": { "type": "object", "additionalProperties": false, "required": ["width", "height"], "properties": { "width": { "type": "number", "exclusiveMinimum": 0 }, "height": { "type": "number", "exclusiveMinimum": 0 } } },
+
+    "item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "kind", "name", "class"],
+      "properties": {
+        "id":          { "$ref": "#/$defs/itemId" },
+        "kind":        { "enum": ["paper-series", "paper-grade", "board", "roll-material", "press", "finishing-machine", "ink", "plate", "other"] },
+        "name":        { "type": "string", "minLength": 1, "maxLength": 160, "description": "The maker's own name for the item — the only place a product name lives." },
+        "parent":      { "$ref": "#/$defs/itemId", "description": "The item this one belongs to (a grade under its series, a shade under its grade)." },
+        "description": { "type": "string", "maxLength": 2000 },
+        "class":       { "$ref": "#/$defs/termUri", "description": "The vocabulary class the item embodies: a paper class, a board material, a press type, an equipment class." },
+        "terms":       {
+          "type": "object",
+          "description": "What the item is, in the vocabulary, per variable: substrate-coating, substrate-finish, substrate-color, substrate-fibre, certification, technology … — only what the maker states or what follows from it.",
+          "propertyNames": { "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$" },
+          "additionalProperties": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/termUri" } }
+        },
+        "grammages":   { "type": "array", "uniqueItems": true, "items": { "type": "integer", "minimum": 1 }, "description": "Stocked weights, g/m²." },
+        "weightGsm":   { "$ref": "#/$defs/range" },
+        "thicknessMm": { "type": "array", "uniqueItems": true, "items": { "type": "number", "exclusiveMinimum": 0 } },
+        "shades":      { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1, "maxLength": 60 }, "description": "The maker's named shades (Brick, Vanilla …). The vocabulary shade class goes in `terms` (substrate-color)." },
+        "sheetSizesMm": { "type": "array", "items": { "$ref": "#/$defs/dimensionsMm" } },
+        "rollWidthsMm": { "type": "array", "uniqueItems": true, "items": { "type": "number", "exclusiveMinimum": 0 } },
+        "maxFormatMm": { "$ref": "#/$defs/dimensionsMm", "description": "Presses and machines: the largest sheet." },
+        "inkStations": { "type": "integer", "minimum": 1, "maximum": 20 },
+        "perfecting":  { "type": "boolean" },
+        "serves":      { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/termUri" }, "description": "Finishing machines: the completions the model performs." },
+        "status":      { "enum": ["current", "discontinued"], "default": "current" },
+        "since":       { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2})?(-[0-9]{2})?$" },
+        "until":       { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2})?(-[0-9]{2})?$" },
+        "url":         { "type": "string", "format": "uri", "pattern": "^https://", "description": "The maker's own page for the item." },
+        "dataSheet":   { "type": "string", "format": "uri", "pattern": "^https://" },
+        "source":      { "type": "string", "maxLength": 300, "description": "Where the facts come from (the maker's data sheet, date)." }
+      }
+    }
+  }
+}
