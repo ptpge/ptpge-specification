@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/schemas/vendor-declaration/1",
   "type": "ptpge:Schema",
-  "version": "2026-10-06",
+  "version": "2026-10-10",
   "status": "proposed",
   "notation": "SCH:VENDOR-DECLARATION",
   "level": "element",
@@ -16,13 +16,13 @@
   "stage": "draft",
   "writtenBy": "a printer, or its MIS",
   "holds": "identity · capability · offerings",
-  "jsonSchema": null,
+  "jsonSchema": "https://ptpge.org/v1/schemas/vendor-declaration/1.schema.json",
   "definition": {
     "en": "What a printer is and can make, in the vocabulary: identity, production capability, the products it offers. Written by the printer or its MIS; carries the printer's identity (/v1/vendors/…).",
     "nb": "Hva et trykkeri er og kan lage, i vokabularet: identitet, produksjonskapasitet, produktene det tilbyr. Skrives av trykkeriet eller dets MIS; bærer trykkeriets identitet (/v1/vendors/…)."
   },
   "created": "2026-10-06T19:16:59Z",
-  "modified": "2026-10-09T10:30:00Z",
+  "modified": "2026-10-10T18:50:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "location": "https://<domain>/.well-known/ptpge/declaration.json",
   "carries": [
@@ -31,7 +31,7 @@
     "schemaVersion — the version of this schema the document follows"
   ],
   "note": {
-    "en": "Published by the printer on its own domain at the known path (SD-0101). The register at ptpge.org points at the domain and validates the document; it never stores a copy. Prices and price rules are not part of this document — they belong to the printer's agreement with whatever implementation quotes for it.",
-    "nb": "Publiseres av trykkeriet på eget domene på den kjente stien (SD-0101). Registeret på ptpge.org peker på domenet og validerer dokumentet; det lagrer aldri en kopi. Priser og prisregler er ikke del av dokumentet — de hører til trykkeriets avtale med den implementasjonen som gir tilbud."
+    "en": "Published by the printer on its own domain at the known path (SD-0101). The register at ptpge.org points at the domain and validates the document; it never stores a copy. Prices and price rules are not part of this document — they belong to the printer's agreement with whatever implementation quotes for it. JSON Schema published 2026-10-10 (draft 2020-12): every vocabulary value is a term URI, never a label; a press is a supplier URI plus the maker's model designation; an offering is a product template plus, per variable, the values accepted. Reference validator: tools/validate_declaration.py in the PTPGE repository.",
+    "nb": "Publiseres av trykkeriet på eget domene på den kjente stien (SD-0101). Registeret på ptpge.org peker på domenet og validerer dokumentet; det lagrer aldri en kopi. Priser og prisregler er ikke del av dokumentet — de hører til trykkeriets avtale med den implementasjonen som gir tilbud. JSON Schema publisert 2026-10-10 (draft 2020-12): alle vokabularverdier er term-URI-er, aldri etiketter; en presse er leverandør-URI pluss produsentens modellbetegnelse; et tilbud er en produktmal pluss, per variabel, de verdiene som aksepteres."
   }
 }
