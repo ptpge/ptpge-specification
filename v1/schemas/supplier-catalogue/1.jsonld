@@ -1,0 +1,37 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/schemas/supplier-catalogue/1",
+  "type": "ptpge:Schema",
+  "version": "2026-10-06",
+  "status": "proposed",
+  "notation": "SCH:SUPPLIER-CATALOGUE",
+  "level": "element",
+  "label": {
+    "en": "Supplier catalogue",
+    "nb": "Produsentkatalog"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/schemas",
+  "schemaVersion": 1,
+  "stage": "draft",
+  "writtenBy": "a paper or equipment maker",
+  "holds": "the maker's series, grades and models, mapped to generic terms",
+  "jsonSchema": null,
+  "definition": {
+    "en": "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists.",
+    "nb": "A maker's own series, grades and models, each mapped to the generic terms it embodies (substrate, weight, technology). Written and kept current by the maker; carries the maker's identity (/v1/suppliers/…). The vocabulary stays free of company names because this document exists."
+  },
+  "created": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "location": "https://<domain>/.well-known/ptpge/catalogue.json",
+  "carries": [
+    "identity — the maker's register URI (/v1/suppliers/<slug>)",
+    "logo — optional, URL or data URI; shown on the register entry",
+    "schemaVersion — the version of this schema the document follows"
+  ],
+  "note": {
+    "en": "Published by the maker on its own domain at the known path (SD-0101). The register at ptpge.org points at the domain and validates the document; it never stores a copy.",
+    "nb": "Publiseres av produsenten på eget domene på den kjente stien (SD-0101). Registeret på ptpge.org peker på domenet og validerer dokumentet; det lagrer aldri en kopi."
+  }
+}

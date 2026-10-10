@@ -1,0 +1,71 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/color-tuner-web",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Color Tuner // Web (CGS)",
+    "es": "Color Tuner//Web",
+    "zh-Hans": "Color Tuner//Web",
+    "nb": "Color Tuner // Web (CGS)",
+    "de": "Color Tuner // Web (CGS)",
+    "ja": "Color Tuner // Web (CGS)",
+    "sv": "Color Tuner//Web (CGS)",
+    "da": "Color Tuner // Web (CGS)",
+    "nl": "Color Tuner // Web (CGS)",
+    "pl": "Color Tuner // Web (CGS)",
+    "pt": "Color Tuner // Web (CGS)",
+    "hi": "Color Tuner // Web (CGS)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§COLOR-TUNER-WEB",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Color Tuner//Web (CGS) — web-based soft-proofing system from CGS (a German prepress technology vendor) for color-accurate online proof review and approval.",
+    "nb": "Color Tuner//Web (CGS) — webbasert soft-proofing-system fra CGS (en tysk prepress-teknologileverandør) for fargenøyaktig nettbasert proof-gjennomgang og godkjenning.",
+    "de": "Color Tuner//Web (CGS) — webbasiertes Soft-Proofing-System der CGS (deutscher Druckvorstufen-Technologieanbieter) für farbgenaue Online-Proof-Prüfung und Freigabe.",
+    "ja": "Color Tuner//Web（CGS）— CGS（ドイツの製版技術ベンダー）によるウェブベースのソフトプルーフシステム。色精度の高いオンライン校正レビューと承認を提供する。",
+    "es": "Solución web de gestión y prueba de color que permite verificación remota con cuentas separadas por cliente.",
+    "zh-Hans": "基于网络的色彩管理和校样解决方案，允许通过按客户分离的账户进行远程验证。",
+    "sv": "Color Tuner//Web (CGS) — webbaserat skärmprovssystem från CGS (tysk prepressteknikleverantör) för färgriktig granskning och godkännande av prov online.",
+    "da": "Color Tuner//Web (CGS) — webbaseret soft-proofing-system fra CGS (tysk prepress-teknologileverandør) til farvenøjagtig online prøvegennemgang og godkendelse.",
+    "nl": "Color Tuner//Web (CGS) — webgebaseerd soft-proofingsysteem van CGS (Duitse prepresstechnologieleverancier) voor kleurnauwkeurige online proefbeoordeling en goedkeuring.",
+    "pl": "Color Tuner//Web (CGS) — internetowy system soft-proofingu firmy CGS (niemieckiego dostawcy technologii prepress) do wiernej barwnie przeglądowej akceptacji proofów online.",
+    "pt": "Color Tuner//Web (CGS) — sistema de prova de tela via web da CGS (fornecedor alemão de tecnologia de pré-impressão) para revisão e aprovação online de provas com cor precisa.",
+    "hi": "Color Tuner//Web (CGS) — CGS (जर्मन प्रीप्रेस तकनीक विक्रेता) का वेब-आधारित सॉफ़्ट-प्रूफ़िंग सिस्टम, रंग-सटीक ऑनलाइन प्रूफ़ समीक्षा और अनुमोदन के लिए।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Colour Tuner // Web (CGS)"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

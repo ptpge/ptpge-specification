@@ -1,0 +1,92 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Spot UV Varnish",
+    "nb": "Spot UV-lakk",
+    "de": "Spot-UV-Lack",
+    "ja": "部分UVニス",
+    "es": "Barniz UV localizado",
+    "zh-Hans": "局部 UV 上光",
+    "nl": "Spot-UV-lak",
+    "sv": "Partiell UV-lack",
+    "da": "Partiel UV-lak",
+    "pl": "Lakier UV wybiórczy",
+    "pt": "Verniz UV localizado",
+    "hi": "स्पॉट UV वार्निश"
+  },
+  "altLabels": {
+    "en": [
+      "Spot UV",
+      "Partial UV Coating"
+    ],
+    "nb": [
+      "Spot-UV",
+      "Partiell UV-lakk",
+      "Punktlakk"
+    ],
+    "pl": [
+      "lakier UV punktowy",
+      "lakier wybiórczy UV",
+      "lakier UV częściowy"
+    ],
+    "pt": [
+      "UV localizado",
+      "verniz localizado",
+      "verniz UV reserva",
+      "spot UV"
+    ],
+    "hi": [
+      "स्पॉट UV",
+      "आंशिक UV कोटिंग",
+      "स्पॉट UV कोटिंग"
+    ]
+  },
+  "definition": {
+    "en": "UV-cured varnish applied to specific design elements only (logos, text, image highlights). The selective glossy areas contrast against the matte or natural finish of the surrounding surface, creating a tactile and visual highlight.",
+    "nb": "UV-herdet lakk påført spesifikke design-elementer (logoer, tekst, bilde-highlights). Selektive glansede områder kontrasterer mot matt eller naturlig overflate i omgivelsene, skaper taktil og visuell uthevingseffekt.",
+    "de": "UV-gehärteter Lack, der nur auf bestimmte Designelemente aufgebracht wird (Logos, Texte, Bild-Highlights).",
+    "ja": "デザインの特定要素（ロゴ、文字、画像のハイライト）にのみ塗布する UV 硬化ニス。選択的な光沢部が周囲のマットまたは素の仕上げと対比をなし、触覚的・視覚的なアクセントを生む。",
+    "es": "Barniz curado por UV aplicado solo a elementos concretos del diseño (logotipos, textos, realces de imagen). Las zonas brillantes selectivas contrastan con el acabado mate o natural del entorno, creando un realce táctil y visual.",
+    "zh-Hans": "仅施加于特定设计元素（标志、文字、图像亮部）的 UV 固化上光油。选择性亮光区域与周围哑光或本色表面形成对比，营造触觉与视觉焦点。",
+    "sv": "UV-härdad lack applicerad enbart på specifika designelement (logotyper, text, bildhöjdpunkter). De selektivt blanka ytorna kontrasterar mot omgivningens matta eller naturliga finish och skapar en taktil och visuell accent.",
+    "da": "UV-hærdet lak påført udvalgte designelementer alene (logoer, tekst, billedhøjdepunkter). De selektive blanke områder står i kontrast til den matte eller naturlige finish omkring og skaber dybde og taktil interesse.",
+    "nl": "UV-gehard lak uitsluitend op geselecteerde ontwerpelementen (logo's, tekst, beeldaccenten). De selectieve glanzende zones contrasteren met de matte of natuurlijke afwerking eromheen en creëren diepte en tactiele interesse.",
+    "pl": "Lakier utwardzany UV nanoszony tylko na wybrane elementy projektu (logo, tekst, akcenty obrazu). Wybiórcze błyszczące obszary kontrastują z matowym lub naturalnym wykończeniem otaczającej powierzchni, tworząc dotykowy i wizualny akcent.",
+    "pt": "Verniz curado por UV aplicado apenas em elementos específicos do design (logotipos, texto, destaques de imagem). As áreas brilhantes seletivas contrastam com o acabamento fosco ou natural ao redor, criando um destaque tátil e visual.",
+    "hi": "केवल विशिष्ट डिज़ाइन तत्वों (लोगो, पाठ, चित्र के हाइलाइट) पर लगाया गया UV-क्योर्ड वार्निश। चुनिंदा चमकीले हिस्से आसपास की मैट या प्राकृतिक फ़िनिश से कंट्रास्ट बनाते हैं — स्पर्श और दृश्य हाइलाइट।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments",
+  "properties": {
+    "selective": true,
+    "processType": "uv-cure",
+    "coverage": "selective"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§SPOT-UV-VARNISH",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ]
+}

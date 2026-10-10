@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/features/embellishment> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "फ़ॉइल और एम्बॉसिंग"@hi,
+        "सजावटी प्रभाव"@hi,
+        "स्पेशल इफ़ेक्ट"@hi,
+        "acabamento especial"@pt,
+        "efeitos especiais"@pt,
+        "hot stamping e relevo"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/features> ;
+    skos:definition "Konfigurerbar akse: Forædling. Et trykt produkt konfigureres langs denne variabel (enum, flervalg). Tilladte værdier hentes fra det refererede værdidomæne."@da,
+        "Konfigurierbare Achse: Veredelung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Mehrfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain."@de,
+        "Configurable axis: Embellishment. A printed product is configured along this variable (enum, multiple selection). Allowed values are drawn from the referenced valueDomain."@en,
+        "Eje configurable: Ornamentación. Un producto impreso se configura a lo largo de esta variable (enum, selección múltiple). Los valores permitidos provienen del valueDomain referenciado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: एम्बेलिशमेंट (सजावटी प्रभाव)। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, बहु-चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"@hi,
+        "構成可能な軸：加飾。印刷物はこの変数に沿って構成される（列挙型、複数選択）。許容値は参照先の valueDomain から取得される。"@ja,
+        "Konfigurerbar akse: Dekor. Et trykkprodukt konfigureres langs denne variabelen (enum, multiple valg). Verdier hentes fra value-domain."@nb,
+        "Configureerbare as: Veredeling. Een drukproduct wordt langs deze variabele geconfigureerd (enum, meerkeuze). Toegestane waarden komen uit het gerefereerde waardedomein."@nl,
+        "Oś konfigurowalna: Uszlachetnienie. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór wielokrotny). Dozwolone wartości pochodzą z przywołanej valueDomain."@pl,
+        "Eixo configurável: Enobrecimento. Um impresso é configurado ao longo desta variável (enumeração, seleção múltipla). Os valores permitidos vêm do valueDomain referenciado."@pt,
+        "Konfigurerbar axel: Dekor. En trycksak konfigureras längs denna variabel (uppräkning, flerval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain)."@sv,
+        "可配置轴：装饰工艺。印刷品沿此变量进行配置（枚举，多选）。允许的取值来自所引用的 valueDomain。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:FT§EMBELLISHMENT" ;
+    skos:prefLabel "Forædling"@da,
+        "Veredelung"@de,
+        "Embellishment"@en,
+        "Ornamentación"@es,
+        "एम्बेलिशमेंट"@hi,
+        "加飾"@ja,
+        "Dekor"@nb,
+        "Veredeling"@nl,
+        "Uszlachetnienie"@pl,
+        "Enobrecimento"@pt,
+        "Dekor"@sv,
+        "装饰工艺"@zh-Hans ;
+    ptpge:cardinality "multiple" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Nogen forædling?"@da,
+        "Eine Veredelung?"@de,
+        "Any embellishment?"@en,
+        "¿Algún embellecimiento?"@es,
+        "कोई सज्जा (एम्बेलिशमेंट)?"@hi,
+        "加飾はありますか？"@ja,
+        "Noen forsiring?"@nb,
+        "Een verfraaiing?"@nl,
+        "Jakieś uszlachetnienie?"@pl,
+        "Algum acabamento decorativo?"@pt,
+        "Någon förädling?"@sv,
+        "需要装饰工艺吗？"@zh-Hans ;
+    ptpge:scope "surface" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/features/embellishments> ;
+    ptpge:version "2026-06-05" .
+

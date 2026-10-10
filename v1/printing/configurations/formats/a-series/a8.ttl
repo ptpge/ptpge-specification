@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a8> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "5.2 x 7.4 cm"@en,
+        "52 x 74 mm"@en,
+        "52x74"@en,
+        "52×74"@en,
+        "DIN A8"@en,
+        "A8-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "52 × 74 mm (2.05 × 2.91 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A7. Omtrent som et kreditkort; bruges til kompakte tryksager og etiketter."@da,
+        "52 × 74 mm (2,05 × 2,91 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A7. Etwa Kreditkartengröße; eingesetzt für kompakte Druckprodukte und Etiketten."@de,
+        "52 × 74 mm (2.05 × 2.91 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A7. Roughly the size of a credit card; used for compact print products and labels."@en,
+        "Formato A8 de la serie A de ISO 216, dimensiones 52 × 74 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
+        "52 × 74 mm (2.05 × 2.91 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A7 का आधा क्षेत्रफल। लगभग क्रेडिट कार्ड जितना; कॉम्पैक्ट मुद्रित उत्पादों और लेबल में।"@hi,
+        "52×74mm（2.05×2.91インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A7の半分の面積。クレジットカード程度のサイズ。コンパクトな印刷物およびラベルに使用される。"@ja,
+        "52 × 74 mm (2,05 × 2,91 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A7. Omtrent på størrelse med et kredittkort; brukt til kompakte trykkprodukter og etiketter."@nb,
+        "52 × 74 mm (2.05 × 2.91 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A7. Ongeveer als een creditcard; gebruikt voor compact drukwerk en etiketten."@nl,
+        "52 × 74 mm (2,05 × 2,91 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A7. Mniej więcej rozmiar karty kredytowej; używany do kompaktowych druków i etykiet."@pl,
+        "52 × 74 mm (2.05 × 2.91 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A7. Aproximadamente o tamanho de um cartão de crédito; usado em impressos compactos e etiquetas."@pt,
+        "52 × 74 mm (2.05 × 2.91 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A7. Ungefär som ett kreditkort; används för kompakta trycksaker och etiketter."@sv,
+        "ISO 216 A系列A8开本，尺寸52 × 74 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A8" ;
+    skos:prefLabel "A8 (52 x 74 mm)"@da,
+        "A8 (52 x 74 mm)"@de,
+        "A8 (52 x 74 mm)"@en,
+        "A8 (52 × 74 mm)"@es,
+        "A8 (52 x 74 mm)"@hi,
+        "A8 (52 x 74 mm)"@ja,
+        "A8 (52 x 74 mm)"@nb,
+        "A8 (52 x 74 mm)"@nl,
+        "A8 (52 x 74 mm)"@pl,
+        "A8 (52 x 74 mm)"@pt,
+        "A8 (52 x 74 mm)"@sv,
+        "A8 (52 × 74 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 3848.0 ;
+            ptpge:aspectRatio 1.4231 ;
+            ptpge:height 74.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 52.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

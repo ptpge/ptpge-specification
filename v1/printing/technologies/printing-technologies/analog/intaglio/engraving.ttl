@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/engraving> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Engraved"@en,
+        "उत्कीर्णन"@hi,
+        "Gravering"@nb,
+        "Gravyr"@nb,
+        "grawiura"@pl,
+        "rytownictwo"@pl,
+        "staloryt"@pl,
+        "Gravura a buril"@pt,
+        "Talhe-doce"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio> ;
+    skos:definition "Kobbertryksteknik, hvor billedet ridses direkte i en metalplade med en gravstik (skarpt værktøj) — giver skarpe, præcist kontrollerede linjer. Den oprindelige grafikteknik brugt til sikkerhedstryk og kunst."@da,
+        "Stichtiefdruck-Technik, bei der das Bild mit einem Grabstichel (scharfes Werkzeug) direkt in eine Metallplatte eingeschnitten wird — sie erzeugt klare, präzise kontrollierte Linien. Die ursprüngliche Druckgrafiktechnik für Sicherheitsdruck und bildende Kunst."@de,
+        "Intaglio printmaking technique where the image is incised directly into a metal plate using a burin (sharp tool) — producing crisp, precisely-controlled lines. The original printmaking technique used for security printing and fine art."@en,
+        "Técnica de intaglio donde las líneas se incisan directamente con un buril en una plancha metálica. Resultado de líneas precisas y limpias."@es,
+        "इंटैग्लियो प्रिंटमेकिंग तकनीक जिसमें छवि ब्यूरिन (नुकीले औज़ार) से सीधे धातु की प्लेट में उकेरी जाती है — स्पष्ट, सटीक नियंत्रित रेखाएँ। सुरक्षा मुद्रण और ललित कला में प्रयुक्त मूल प्रिंटमेकिंग तकनीक।"@hi,
+        "ビュラン（鋭利な道具）を用いて画像を金属板に直接彫り込む凹版版画技法 — 鮮明で精密に制御された線を生み出す。セキュリティ印刷および美術に使用された元来の版画技法。"@ja,
+        "Intaglio-grafikkteknikk der bildet er skåret direkte inn i en metallplate ved hjelp av et stikkjern (skarpt verktøy) — gir skarpe, presist kontrollerte linjer. Den opprinnelige grafikkteknikken brukt til sikkerhetstrykk og kunstgrafikk."@nb,
+        "Koperdiepdruktechniek waarbij het beeld direct in een metalen plaat wordt gestoken met een burijn (scherp gereedschap) — geeft scherpe, precies gecontroleerde lijnen. De oorspronkelijke prenttechniek voor beveiligd drukwerk en kunst."@nl,
+        "Technika druku wklęsłego, w której obraz jest ryty bezpośrednio w metalowej płycie rylcem (ostrym narzędziem) — daje ostre, precyzyjnie kontrolowane linie. Pierwotna technika graficzna używana w druku zabezpieczonym i sztuce."@pl,
+        "Técnica de gravura calcográfica em que a imagem é incisa diretamente numa chapa metálica com um buril (ferramenta afiada) — produzindo linhas nítidas e precisamente controladas. A técnica original de gravura usada em impressão de segurança e belas-artes."@pt,
+        "Koppartrycksteknik där bilden ristas direkt i en metallplåt med en gravstickel (vasst verktyg) — ger skarpa, exakt kontrollerade linjer. Den ursprungliga grafiktekniken använd för säkerhetstryck och konst."@sv,
+        "凹版技术，线条直接用刻刀切入金属板。结果是精确清晰的线条。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§ENGRAVING" ;
+    skos:prefLabel "Gravure (stik)"@da,
+        "Gravur"@de,
+        "Engraving"@en,
+        "Grabado al Buril"@es,
+        "एनग्रेविंग"@hi,
+        "エングレービング"@ja,
+        "Gravering"@nb,
+        "Gravure (burijn)"@nl,
+        "Miedzioryt"@pl,
+        "Buril"@pt,
+        "Gravyr"@sv,
+        "刻凹版 (Engraving)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

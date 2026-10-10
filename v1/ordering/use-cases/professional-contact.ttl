@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases/professional-contact> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:definition "Produkter brugt til at etablere professionel eller forretningsmæssig kontakt, udveksling af kontaktoplysninger og løbende relationsopbygning. Primært eksempel: visitkort."@da,
+        "Produkte zur Erleichterung professioneller oder geschäftlicher Kontakte und zum Austausch von Kontaktinformationen. Hauptbeispiel: Visitenkarten."@de,
+        "Products used to facilitate professional or business contact, exchange of credentials, and ongoing relationship-building. Primary example: business cards."@en,
+        "Productos usados para facilitar el contacto profesional o comercial, el intercambio de credenciales y la construcción de relaciones. Ejemplo principal: tarjetas de visita."@es,
+        "पेशेवर या व्यावसायिक संपर्क, परिचय-विनिमय और निरंतर संबंध-निर्माण को सुगम बनाने वाले उत्पाद। मुख्य उदाहरण: विज़िटिंग कार्ड।"@hi,
+        "職業上・ビジネス上のコンタクト、名刺交換、継続的な関係構築を支える製品。代表例は名刺。"@ja,
+        "Produkter brukt for å forenkle profesjonell eller forretningsmessig kontakt, utveksling av legitimasjon og pågående relasjonsbygging. Hovedeksempel: visittkort."@nb,
+        "Producten voor professioneel of zakelijk contact, uitwisseling van gegevens en relatieopbouw. Belangrijkste voorbeeld: visitekaartjes."@nl,
+        "Produkty ułatwiające kontakt zawodowy lub biznesowy, wymianę danych kontaktowych i budowanie relacji. Podstawowy przykład: wizytówki."@pl,
+        "Produtos usados para facilitar o contato profissional ou comercial, a troca de credenciais e a construção contínua de relacionamento. Exemplo principal: cartões de visita."@pt,
+        "Produkter som underlättar professionell kontakt, utbyte av meriter och långsiktigt relationsbyggande. Främsta exempel: visitkort."@sv,
+        "用于促进职业或商务联系、交换资历信息与持续建立关系的产品。首要示例：名片。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:UC§PROFESSIONAL-CONTACT" ;
+    skos:prefLabel "Professionel kontakt"@da,
+        "Geschäftskontakt"@de,
+        "Professional Contact"@en,
+        "Contacto profesional"@es,
+        "पेशेवर संपर्क"@hi,
+        "ビジネス連絡"@ja,
+        "Profesjonell kontakt"@nb,
+        "Professioneel contact"@nl,
+        "Kontakt zawodowy"@pl,
+        "Contato profissional"@pt,
+        "Professionell kontakt"@sv,
+        "商务联系"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "use-cases" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

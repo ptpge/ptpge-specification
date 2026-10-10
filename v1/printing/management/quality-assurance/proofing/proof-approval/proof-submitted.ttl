@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/proof-submitted> a skos:Concept ;
+    dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval> ;
+    skos:definition "Tilstand: en prøve er leveret til kunden til gennemgang; produktionen afventer beslutningen."@da,
+        "Zustand: Ein Proof wurde dem Kunden zur Prüfung übergeben; die Produktion wartet auf die Entscheidung."@de,
+        "State: a proof has been delivered to the customer for review; production waits for the decision."@en,
+        "Estado: se ha entregado una prueba al cliente para su revisión; la producción espera la decisión."@es,
+        "अवस्था: समीक्षा के लिए ग्राहक को प्रूफ़ दिया गया; उत्पादन निर्णय की प्रतीक्षा में।"@hi,
+        "状態：校正が顧客のレビューのために提出され、生産は決定を待っている。"@ja,
+        "Tilstand: en korrektur er levert kunden for gjennomgang; produksjonen venter på beslutningen."@nb,
+        "Toestand: een proef is aan de klant geleverd ter beoordeling; de productie wacht op de beslissing."@nl,
+        "Stan: proof został dostarczony klientowi do przeglądu; produkcja czeka na decyzję."@pl,
+        "Estado: uma prova foi entregue ao cliente para revisão; a produção aguarda a decisão."@pt,
+        "Tillstånd: ett prov har levererats till kunden för granskning; produktionen väntar på beslutet."@sv,
+        "状态：样张已交付客户审阅；生产等待决定。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§PROOF-SUBMITTED" ;
+    skos:prefLabel "Prøve indsendt"@da,
+        "Proof eingereicht"@de,
+        "Proof Submitted"@en,
+        "Prueba presentada"@es,
+        "प्रूफ़ प्रस्तुत"@hi,
+        "校正提出済み"@ja,
+        "Korrektur sendt"@nb,
+        "Proef ingediend"@nl,
+        "Proof przekazany"@pl,
+        "Prova enviada"@pt,
+        "Prov inlämnat"@sv,
+        "样张已提交"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-07-18" .
+

@@ -1,0 +1,281 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/table-cards",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§TABLE-CARDS",
+  "elementType": "product",
+  "label": {
+    "en": "Table Cards",
+    "nb": "Bordkort",
+    "de": "Tisch- & Aufstellkarten",
+    "ja": "卓上カード",
+    "es": "Tarjetas de mesa",
+    "zh-Hans": "桌卡",
+    "nl": "Tafelkaarten",
+    "sv": "Bordsryttare",
+    "da": "Bordkort",
+    "pl": "Stojaczki na stół",
+    "pt": "Cartões de mesa",
+    "hi": "टेबल कार्ड"
+  },
+  "altLabels": {
+    "en": [
+      "table card",
+      "tent card",
+      "table talker",
+      "Strut cards",
+      "Table talkers"
+    ],
+    "nb": [
+      "bordkort",
+      "telt-kort",
+      "Bordoppsatser"
+    ],
+    "de": [
+      "Tischaufsteller",
+      "Aufstellkarten",
+      "Tischkarten"
+    ],
+    "pl": [
+      "karta stołowa",
+      "stojaczek",
+      "namiocik reklamowy",
+      "kartonik na stół"
+    ],
+    "sv": [
+      "bordsryttaren",
+      "bordspratare",
+      "tältkort",
+      "bordskort",
+      "bordsskylt"
+    ],
+    "da": [
+      "bordkortet",
+      "bordrytter",
+      "teltkort",
+      "bordskilt"
+    ],
+    "nl": [
+      "tafelkaart",
+      "tafelbordje",
+      "tentkaart",
+      "tafelstandaard"
+    ],
+    "pt": [
+      "cartão de mesa",
+      "display de mesa",
+      "cavalete de mesa",
+      "tenda de mesa",
+      "cartão tenda",
+      "número de mesa"
+    ],
+    "hi": [
+      "टेबल कार्ड",
+      "टेंट कार्ड",
+      "टेबल टॉकर",
+      "टेबल स्टैंडी",
+      "टेबल नंबर कार्ड"
+    ],
+    "es": [
+      "tarjeta de mesa",
+      "tarjeta tipo tienda",
+      "display de mesa",
+      "cartel de mesa",
+      "tarjeta de sobremesa"
+    ],
+    "ja": [
+      "テントカード",
+      "テーブルカード",
+      "卓上POP",
+      "三角POP"
+    ],
+    "zh-Hans": [
+      "台卡",
+      "帐篷卡",
+      "桌面立牌",
+      "台牌"
+    ]
+  },
+  "definition": {
+    "en": "A folded free-standing card for tables — menus, offers and table numbers in hospitality and events.",
+    "nb": "Et brettet, selvstående kort for bord — menyer, tilbud og bordnummer i servering og arrangementer.",
+    "de": "Eine gefalzte, freistehende Tischkarte.",
+    "ja": "テーブルに立てる折りたたみ式カード。メニューやおすすめ、テーブル番号の表示に。",
+    "es": "Una tarjeta plegada autoportante para mesas — menús, ofertas y números de mesa en hostelería y eventos.",
+    "zh-Hans": "立于桌面的折叠卡——餐饮和活动中的菜单、促销与桌号。",
+    "sv": "Ett vikt fristående kort för bord — menyer, erbjudanden och bordsnummer inom besöksnäring och evenemang.",
+    "da": "Et falset fritstående kort til borde — menuer, tilbud og bordnumre i restaurationsbranchen og til arrangementer.",
+    "nl": "Een gevouwen vrijstaande kaart voor tafels — menu's, aanbiedingen en tafelnummers in horeca en evenementen.",
+    "pl": "Składana wolnostojąca karta na stoły — menu, oferty i numery stolików w gastronomii i na wydarzeniach.",
+    "pt": "Cartão dobrado autoportante para mesas — cardápios, ofertas e números de mesa em hotelaria, restaurantes e eventos.",
+    "hi": "मेज़ के लिए मुड़ा, स्वयं खड़ा रहने वाला कार्ड — आतिथ्य और आयोजनों में मेन्यू, ऑफ़र और टेबल नंबर।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/single-fold"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a8",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a7",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/us/junior-legal"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "customSizeRange": {
+    "min": 50,
+    "max": 210,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/ivory-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper"
+  ],
+  "supportsFoldDirection": [
+    "https://ptpge.org/v1/printing/completions/fold-binding-edge/top"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsBackOrientation": [
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head",
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/finishing/edge",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/configuration/back-orientation",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

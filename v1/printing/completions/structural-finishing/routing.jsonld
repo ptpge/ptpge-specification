@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/structural-finishing/routing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§ROUTING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Routing",
+    "nb": "Fresing",
+    "de": "Fräsen",
+    "ja": "Routing",
+    "es": "Routing",
+    "zh-Hans": "Routing",
+    "sv": "Fräsning",
+    "da": "Fræsning",
+    "nl": "Frezen",
+    "pl": "Frezowanie",
+    "pt": "Fresagem",
+    "hi": "राउटिंग (CNC कटिंग)"
+  },
+  "definition": {
+    "en": "Cutting or trimming rigid substrates with a rotating router bit; typical of large-format and sign work.",
+    "nb": "Skjæring eller trimming av stive substrater med et roterende fresehode; typisk for storformat og skilt.",
+    "de": "Schneiden oder Beschneiden starrer Bedruckstoffe mit einem rotierenden Fräser; typisch für Großformat und Schilder.",
+    "ja": "回転するルータービットで硬質基材を切断・整形する。大判やサイン製作で典型的。",
+    "es": "Cortar o recortar sustratos rígidos con una fresa rotativa; típico del gran formato y la rotulación.",
+    "zh-Hans": "用旋转铣刀切割或修整硬质板材；常见于宽幅与标识制作。",
+    "sv": "Skärning eller trimning av styva substrat med roterande fräs; typiskt för storformat och skyltarbete.",
+    "da": "Skæring eller beskæring af stive substrater med et roterende fræsejern; typisk for storformat- og skiltearbejde.",
+    "nl": "Stijve substraten snijden of aftekenen met een roterende frees; typisch voor grootformaat- en bordwerk.",
+    "pl": "Cięcie lub przycinanie sztywnych podłoży obrotowym frezem; typowe dla prac wielkoformatowych i szyldów.",
+    "pt": "Corte ou refile de substratos rígidos com uma fresa rotativa; típico de grande formato e sinalização.",
+    "hi": "घूमते राउटर बिट से कठोर सब्सट्रेट की कटाई या ट्रिमिंग; लार्ज-फॉर्मेट और साइन के काम में आम।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Routed",
+      "CNC routing",
+      "Cut-to-shape",
+      "Milling"
+    ],
+    "nb": [
+      "Fresing",
+      "Frest"
+    ],
+    "pl": [
+      "frezowane",
+      "frezowanie CNC",
+      "cięcie do kształtu"
+    ],
+    "pt": [
+      "fresado",
+      "fresagem CNC",
+      "corte CNC",
+      "usinagem",
+      "corte no formato"
+    ],
+    "hi": [
+      "CNC राउटिंग",
+      "CNC कटिंग",
+      "मिलिंग",
+      "आकार में कटाई"
+    ]
+  }
+}

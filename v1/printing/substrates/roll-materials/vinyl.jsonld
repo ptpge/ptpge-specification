@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/roll-materials/vinyl",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Vinyl",
+    "es": "Vinilo",
+    "zh-Hans": "乙烯基",
+    "nb": "Vinyl",
+    "de": "Vinyl",
+    "ja": "ビニール",
+    "sv": "Vinyl",
+    "da": "Vinyl",
+    "nl": "Vinyl",
+    "pl": "Winyl",
+    "pt": "Vinil",
+    "hi": "विनाइल"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§VINYL",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/roll-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Polyvinyl chloride (PVC) film supplied on rolls — typically self-adhesive. Used for signage, vehicle wraps, decals, floor graphics, and outdoor banners.",
+    "nb": "Polyvinylkloridfilm (PVC) levert på rull — typisk selvklebende. Brukt til skilting, kjøretøy-wraps, klistremerker, gulvgrafikk og utendørsbannere.",
+    "de": "Polyvinylchlorid-Folie (PVC) in Rollen — typischerweise selbstklebend. Verwendet für Beschilderung, Fahrzeugbeschriftung, Aufkleber, Bodengrafiken und Außenbanner.",
+    "ja": "ロールで供給されるポリ塩化ビニル（PVC）フィルム — 通常自己粘着型。サイン、車両ラッピング、デカール、フロアグラフィック、屋外バナーに使用される。",
+    "es": "Vinilo adhesivo en bobina — sustrato dominante para señalética, rotulación de vehículos, vinilos decorativos y stickers.",
+    "zh-Hans": "卷筒粘性乙烯基 —— 标识、车辆贴膜、装饰贴膜和贴纸的主导承印物。",
+    "sv": "Polyvinylkloridfilm (PVC) på rulle — typiskt självhäftande. Används för skyltar, fordonsfoliering, dekaler, golvgrafik och utomhusbanderoller.",
+    "da": "Polyvinylchlorid-film (PVC) leveret på ruller — typisk selvklæbende. Bruges til skiltning, køretøjsindpakning, decals, gulvgrafik og udendørs bannere.",
+    "nl": "Polyvinylchloridefilm (pvc) op rollen — doorgaans zelfklevend. Gebruikt voor signalisatie, carwrapping, stickers, vloergraphics en buitenbanners.",
+    "pl": "Folia z polichlorku winylu (PCV) dostarczana w rolach — zwykle samoprzylepna. Używana do oznakowania, oklejania pojazdów, naklejek, grafik podłogowych i banerów zewnętrznych.",
+    "pt": "Filme de policloreto de vinila (PVC) fornecido em rolos — normalmente autoadesivo. Usado em sinalização, envelopamento de veículos, adesivos, gráficos de piso e banners externos.",
+    "hi": "रोल में दी जाने वाली पॉलीविनाइल क्लोराइड (PVC) फ़िल्म — आमतौर पर स्वयं-चिपकने वाली। साइनेज, वाहन रैप, डीकल, फ़्लोर ग्राफ़िक्स और बाहरी बैनरों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Self-adhesive vinyl",
+      "PVC vinyl",
+      "Adhesive vinyl"
+    ],
+    "nb": [
+      "Vinyl"
+    ],
+    "pl": [
+      "folia samoprzylepna",
+      "winyl PCV",
+      "folia winylowa"
+    ],
+    "pt": [
+      "vinil adesivo",
+      "vinil autoadesivo",
+      "vinil PVC",
+      "adesivo vinílico"
+    ],
+    "hi": [
+      "सेल्फ़-एडहेसिव विनाइल",
+      "PVC विनाइल",
+      "चिपकने वाला विनाइल",
+      "विनाइल रोल"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 31"
+    }
+  ]
+}

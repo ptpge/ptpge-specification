@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/object-materials/bootle> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bottle"@en,
+        "बॉटल"@hi,
+        "बोतल"@hi,
+        "शीशी"@hi,
+        "Flaske"@nb,
+        "butelki"@pl,
+        "frasco"@pt,
+        "garrafa"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/object-materials> ;
+    skos:definition "Flasker (glas, plast, aluminium) trykt direkte på den buede overflade — typisk via serigrafi, tampontryk eller specialiseret 360-graders inkjetudstyr. Almindeligt i drikkevare- og kosmetikemballage."@da,
+        "Flaschen (Glas, Kunststoff, Aluminium), die direkt auf ihrer gewölbten Oberfläche bedruckt werden — typischerweise mit Siebdruck, Tampondruck oder spezieller 360-Grad-Tintenstrahltechnik. Häufig bei Getränke- und Kosmetikverpackungen."@de,
+        "Bottles (glass, plastic, aluminium) printed directly on their curved surface — typically via screen printing, pad printing, or specialized 360-degree inkjet equipment. Common in beverage and cosmetics packaging."@en,
+        "Botellas impresas en su superficie curva mediante inyección de tinta UV o serigrafía rotatoria — habitual en cosmética, bebidas y farmacéutica."@es,
+        "घुमावदार सतह पर सीधे छपी बोतलें (काँच, प्लास्टिक, एल्युमिनियम) — आमतौर पर स्क्रीन प्रिंटिंग, पैड प्रिंटिंग या विशेष 360-डिग्री इंकजेट उपकरण से। पेय और सौंदर्य-प्रसाधन पैकेजिंग में आम।"@hi,
+        "曲面に直接印刷されるボトル（ガラス、プラスチック、アルミニウム）— 通常シルクスクリーン印刷、タンポ印刷、または専用の360度インクジェット機で印刷される。飲料および化粧品のパッケージで一般的。"@ja,
+        "Flasker (glass, plast, aluminium) trykt direkte på den buede overflaten — vanligvis via silketrykk, padtrykk eller spesialisert 360-graders inkjet-utstyr. Vanlig i drikke- og kosmetikkemballasje."@nb,
+        "Flessen (glas, kunststof, aluminium), direct bedrukt op het gebogen oppervlak — doorgaans via zeefdruk, tampondruk of gespecialiseerde 360-graden-inkjetapparatuur. Gebruikelijk in dranken- en cosmeticaverpakkingen."@nl,
+        "Butelki (szklane, plastikowe, aluminiowe) zadrukowywane bezpośrednio na zakrzywionej powierzchni — zwykle sitodrukiem, tampodrukiem lub specjalistycznymi urządzeniami atramentowymi 360°. Typowe w opakowaniach napojów i kosmetyków."@pl,
+        "Garrafas (vidro, plástico, alumínio) impressas diretamente na superfície curva — normalmente por serigrafia, tampografia ou equipamento especializado de jato de tinta 360°. Comum em embalagens de bebidas e cosméticos."@pt,
+        "Flaskor (glas, plast, aluminium) tryckta direkt på sin böjda yta — typiskt via screentryck, tampongtryck eller specialiserad 360-graders inkjetutrustning. Vanligt inom dryckes- och kosmetikförpackningar."@sv,
+        "通过UV喷墨或丝印旋转印刷在曲面上的瓶子 —— 常见于化妆品、饮料和制药。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§BOOTLE" ;
+    skos:prefLabel "Flaske"@da,
+        "Flasche"@de,
+        "Bottle"@en,
+        "Botellas"@es,
+        "बोतल"@hi,
+        "ボトル"@ja,
+        "Flaske"@nb,
+        "Fles"@nl,
+        "Butelka"@pl,
+        "Garrafa"@pt,
+        "Flaska"@sv,
+        "瓶子"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

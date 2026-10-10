@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykog",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "CMYKOG",
+    "sv": "CMYKOG",
+    "da": "CMYKOG",
+    "nl": "CMYKOG",
+    "pl": "CMYKOG",
+    "pt": "CMYKOG",
+    "hi": "CMYKOG"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§CMYKOG",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "Extended-gamut colour space adding Orange and Green inks to CMYK for a wider reproducible gamut.",
+    "nb": "Utvidet-gamut fargerom som legger oransje og grønt til CMYK for et bredere fargeområde.",
+    "de": "Erweiterter Farbraum, der CMYK um Orange und Grün ergänzt und den reproduzierbaren Gamut vergrößert.",
+    "es": "Espacio de color de gama extendida que añade tintas Naranja y Verde a CMYK para una gama reproducible más amplia.",
+    "ja": "CMYK にオレンジとグリーンを加え、再現可能なガモットを広げる拡張ガモット色空間。",
+    "zh-Hans": "在 CMYK 上加入橙、绿油墨以获得更宽可再现色域的扩展色域色彩空间。",
+    "sv": "Utökad färgrymd som lägger orange och grönt bläck till CMYK för bredare återgivbar färgomfattning.",
+    "da": "Udvidet farverum, der tilføjer orange og grøn farve til CMYK for et bredere gengiveligt farveomfang.",
+    "nl": "Uitgebreide kleurruimte die oranje en groene inkt aan CMYK toevoegt voor een breder weergeefbaar gamma.",
+    "pl": "Przestrzeń barw o rozszerzonym gamucie dodająca do CMYK farby pomarańczową i zieloną dla szerszego reprodukowalnego gamutu.",
+    "pt": "Espaço de cor de gamut estendido que adiciona tintas Laranja e Verde ao CMYK para um gamut reproduzível mais amplo.",
+    "hi": "विस्तारित-गैमट रंग स्पेस जो व्यापक पुनरुत्पादन-योग्य गैमट के लिए CMYK में नारंगी और हरी स्याही जोड़ता है।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

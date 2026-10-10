@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c4",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Envelope C4 (229 × 324 mm)",
+    "es": "C4 (229 × 324 mm)",
+    "zh-Hans": "C4 (229 × 324 mm)",
+    "nb": "Envelope C4 (229 × 324 mm)",
+    "de": "Envelope C4 (229 × 324 mm)",
+    "ja": "Envelope C4 (229 × 324 mm)",
+    "nl": "Envelop C4 (229 × 324 mm)",
+    "sv": "Kuvert C4 (229 × 324 mm)",
+    "da": "Kuvert C4 (229 × 324 mm)",
+    "pl": "Koperta C4 (229 × 324 mm)",
+    "pt": "Envelope C4 (229 × 324 mm)",
+    "hi": "लिफ़ाफ़ा C4 (229 × 324 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ENV-C4",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "229 × 324 mm. ISO 269 C4 envelope — holds an A4 sheet flat. Common for reports, contracts, and unfolded correspondence.",
+    "nb": "229 × 324 mm. ISO 269 C4-konvolutt — rommer et A4-ark uten brett. Vanlig for rapporter, kontrakter og ubrettet korrespondanse.",
+    "de": "229 × 324 mm. ISO-269-C4-Briefumschlag — fasst einen A4-Bogen ungefaltet. Üblich für Berichte, Verträge und ungefaltete Korrespondenz.",
+    "ja": "229×324mm。ISO 269 C4封筒 — A4シートを折らずに収納する。報告書、契約書、折らない通信で一般的。",
+    "es": "Sobre C4 de la serie C de ISO 269, dimensiones 229 × 324 mm. Diseñado para contener la hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C4信封，尺寸229 × 324 mm。设计用于装相同编号的A纸。",
+    "sv": "229 × 324 mm. C4-kuvert enligt ISO 269 — rymmer ett A4-ark plant. Vanligt för rapporter, kontrakt och ovikt korrespondens.",
+    "da": "229 × 324 mm. C4-kuvert efter ISO 269 — rummer et A4-ark fladt. Almindeligt til rapporter, kontrakter og ufoldet korrespondance.",
+    "nl": "229 × 324 mm. C4-envelop volgens ISO 269 — biedt plaats aan een vlak A4-vel. Gebruikelijk voor rapporten, contracten en ongevouwen correspondentie.",
+    "pl": "229 × 324 mm. Koperta ISO 269 C4 — mieści arkusz A4 na płasko. Typowa dla raportów, umów i niezłożonej korespondencji.",
+    "pt": "229 × 324 mm. Envelope C4 da ISO 269 — comporta uma folha A4 aberta. Comum em relatórios, contratos e correspondência sem dobra.",
+    "hi": "229 × 324 mm. ISO 269 C4 लिफ़ाफ़ा — A4 शीट सपाट समाती है। रिपोर्ट, अनुबंध और बिना मुड़े पत्राचार में आम।"
+  },
+  "properties": {
+    "width": 229,
+    "height": 324,
+    "unit": "mm",
+    "aspectRatio": 1.4148,
+    "standard": "ISO 269",
+    "area": 74196
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "229 x 324 mm",
+      "229x324",
+      "229×324",
+      "22.9 x 32.4 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

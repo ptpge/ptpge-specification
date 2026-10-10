@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/riso> a skos:Concept ;
+    dcterms:created "2026-05-19T23:30:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Risograph"@pl,
+        "riso"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems> ;
+    skos:definition "Risografens farvesystem — en stencilbaseret dupliceringsproces populær til kunstbøger, zines og kortserie-uddannelses-/kampagnemateriale. Begrænset men karakteristisk farvepalet med fluorescerende og metaleffektfarver. Hver farve trykkes som eget gennemløb med egen stencil."@da,
+        "Risograph-Farbsystem — ein schablonenbasiertes Vervielfältigungsverfahren, beliebt für Kunstbücher, Zines und kurze Auflagen von Bildungs-/Promotionsmaterialien."@de,
+        "Risograph color system — a stencil-based duplication process popular for art books, zines, and short-run educational/promotional materials. Limited but distinctive color palette including fluorescent and metallic-effect inks. Each color is printed as its own pass with its own stencil."@en,
+        "Sistema de color Risograph — un proceso de duplicación por estarcido popular para libros de arte, fanzines y materiales educativos/promocionales de tirada corta. Paleta limitada pero distintiva, con tintas fluorescentes y de efecto metálico. Cada color se imprime en una pasada propia con su propio estarcido."@es,
+        "Risograph रंग प्रणाली — कला पुस्तकों, ज़ीन और शॉर्ट-रन शैक्षिक/प्रचार सामग्री में लोकप्रिय स्टेंसिल-आधारित डुप्लीकेशन प्रक्रिया। सीमित पर विशिष्ट रंग पैलेट, जिसमें फ़्लोरोसेंट और मेटैलिक-प्रभाव स्याही। हर रंग अपने स्टेंसिल के साथ अपने पास में छपता है।"@hi,
+        "リソグラフのカラーシステム — アートブック、ジン、小ロットの教育・販促物で人気の孔版式複製プロセス。蛍光やメタリック効果のインキを含む、限られながらも個性的なパレット。各色は専用の版でそれぞれ1パスずつ刷られる。"@ja,
+        "Risograf-fargesystem — en stensil-basert dupliseringsprosess populær for kunstbøker, zines, og kortvolums utdannings/promo-materiale. Begrenset men distinktivt fargepalett inkludert fluorescerende og metallic-effekt blekk."@nb,
+        "Het kleursysteem van de risograaf — een sjabloongebaseerd dupliceerproces, populair voor kunstboeken, zines en educatief/promotioneel drukwerk in kleine oplagen. Beperkt maar karakteristiek kleurenpalet met fluorescerende en metaaleffectinkten. Elke kleur wordt als eigen doorgang met eigen sjabloon gedrukt."@nl,
+        "System barw Risograph — proces powielania oparty na matrycach, popularny w książkach artystycznych, zinach i krótkoseryjnych materiałach edukacyjnych/promocyjnych. Ograniczona, lecz charakterystyczna paleta obejmująca farby fluorescencyjne i o efekcie metalicznym. Każdy kolor drukowany jest w osobnym przelocie z własną matrycą."@pl,
+        "Sistema de cor Risograph — processo de duplicação a estêncil popular em livros de arte, zines e materiais educativos/promocionais de tiragem curta. Paleta limitada mas distinta, incluindo tintas fluorescentes e com efeito metálico. Cada cor é impressa em passagem própria com estêncil próprio."@pt,
+        "Risografens färgsystem — en schablonbaserad dupliceringsprocess populär för konstböcker, zines och kortserie-utbildnings-/kampanjmaterial. Begränsad men karakteristisk färgpalett med fluorescerande och metalleffektbläck. Varje kulör trycks som eget varv med egen schablon."@sv,
+        "理想孔版（Risograph）色彩系统 — 基于蜡纸孔版的复制工艺，流行于艺术书、独立杂志与短版教育/宣传品。色板有限但个性鲜明，含荧光与金属效果油墨。每种颜色使用独立版、单独走纸印刷。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§RISO" ;
+    skos:prefLabel "Riso (risograf)"@da,
+        "Riso (Risograph)"@de,
+        "Riso (Risograph)"@en,
+        "Riso (Risograph)"@es,
+        "Riso (Risograph)"@hi,
+        "Riso (Risograph)"@ja,
+        "Riso (Risograf)"@nb,
+        "Riso (risograaf)"@nl,
+        "Riso (Risograph)"@pl,
+        "Riso (Risograph)"@pt,
+        "Riso (risograf)"@sv,
+        "Riso (Risograph)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

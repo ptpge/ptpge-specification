@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/industry/trykt-i-norge> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Printed in Norway"@en,
+        "TIN"@en,
+        "TIN"@hi,
+        "नॉर्वे में मुद्रित"@hi,
+        "Trykt i Norge"@nb,
+        "TIN"@pl,
+        "Wydrukowano w Norwegii"@pl,
+        "Impresso na Noruega"@pt,
+        "TIN"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/industry> ;
+    skos:definition "Norsk oprindelsesmærke (Trykt i Norge / TIN) drevet af Grafill, der angiver at trykningen er udført af et norsk trykkeri."@da,
+        "Norwegische Herkunftskennzeichnung (Trykt i Norge / TIN), betrieben von Grafill, weist darauf hin, dass der Druck in einer norwegischen Druckerei erfolgt ist."@de,
+        "Norwegian country-of-origin certification mark (Trykt i Norge / TIN) operated by Grafill, indicating that printing was performed by a Norwegian print operation."@en,
+        "Marca noruega de certificación de país de origen (Trykt i Norge / TIN) operada por Grafill, que indica que la impresión fue realizada por una imprenta noruega."@es,
+        "Grafill द्वारा संचालित नॉर्वेजियन मूल-देश प्रमाणन चिह्न (Trykt i Norge / TIN), जो दर्शाता है कि मुद्रण नॉर्वेजियन प्रिंट संचालन द्वारा किया गया।"@hi,
+        "Grafillが運営するノルウェーの原産国認証マーク（Trykt i Norge / TIN）。印刷がノルウェーの印刷会社で行われたことを示す。"@ja,
+        "Norsk opprinnelsesmerke (Trykt i Norge / TIN) drevet av Grafill, som indikerer at trykkingen er utført ved et norsk trykkeri."@nb,
+        "Noors herkomstkeurmerk (Trykt i Norge / TIN), beheerd door Grafill, dat aangeeft dat het drukwerk door een Noorse drukkerij is uitgevoerd."@nl,
+        "Norweski znak certyfikacji kraju pochodzenia (Trykt i Norge / TIN) prowadzony przez Grafill, wskazujący, że druk został wykonany przez norweską drukarnię."@pl,
+        "Marca norueguesa de certificação de país de origem (Trykt i Norge / TIN) operada pela Grafill, indicando que a impressão foi realizada por uma gráfica norueguesa."@pt,
+        "Norskt ursprungsmärke (Trykt i Norge / TIN) som drivs av Grafill och anger att tryckningen utförts av ett norskt tryckeri."@sv,
+        "由Grafill运营的挪威原产地认证标志（Trykt i Norge / TIN），表明印刷由挪威印刷厂完成。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§TRYKT-I-NORGE" ;
+    skos:prefLabel "Trykt i Norge (TIN)"@da,
+        "Trykt i Norge (TIN)"@de,
+        "Trykt i Norge (TIN)"@en,
+        "Trykt i Norge (TIN)"@es,
+        "Trykt i Norge (TIN)"@hi,
+        "Trykt i Norge (TIN)"@ja,
+        "Trykt i Norge (TIN)"@nb,
+        "Trykt i Norge (TIN)"@nl,
+        "Trykt i Norge (TIN)"@pl,
+        "Trykt i Norge (TIN)"@pt,
+        "Trykt i Norge (TIN)"@sv,
+        "Trykt i Norge (TIN)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

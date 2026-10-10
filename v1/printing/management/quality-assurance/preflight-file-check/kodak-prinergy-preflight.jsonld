@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/kodak-prinergy-preflight",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Kodak Prinergy Preflight",
+    "es": "Kodak Prinergy Preflight",
+    "zh-Hans": "Kodak Prinergy Preflight",
+    "nb": "Kodak Prinergy Preflight",
+    "de": "Kodak Prinergy Preflight",
+    "ja": "Kodak Prinergy Preflight",
+    "sv": "Kodak Prinergy Preflight",
+    "da": "Kodak Prinergy Preflight",
+    "nl": "Kodak Prinergy Preflight",
+    "pl": "Kodak Prinergy Preflight",
+    "pt": "Kodak Prinergy Preflight",
+    "hi": "Kodak Prinergy Preflight"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§KODAK-PRINERGY-PREFLIGHT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Kodak Prinergy Preflight — preflight module within Kodak's Prinergy workflow system, providing comprehensive PDF checking integrated with the broader prepress automation pipeline.",
+    "nb": "Kodak Prinergy Preflight — preflight-modul i Kodaks Prinergy-arbeidsflytsystem, som gir omfattende PDF-sjekking integrert med den bredere prepress-automasjonsledningen.",
+    "de": "Kodak Prinergy Preflight — Preflight-Modul innerhalb von Kodaks Prinergy-Workflow-System, bietet umfassende PDF-Prüfung, integriert in die übergeordnete Druckvorstufen-Automatisierungspipeline.",
+    "ja": "Kodak Prinergy Preflight — KodakのPrinergyワークフローシステム内のプリフライトモジュールで、より広範な製版自動化パイプラインと統合された包括的なPDFチェックを提供する。",
+    "es": "Motor de preflight integrado en Kodak Prinergy — verifica automáticamente archivos PDF contra perfiles definidos como parte del flujo pre-prensa.",
+    "zh-Hans": "集成在Kodak Prinergy中的飞检引擎 —— 自动针对定义的配置文件验证PDF文件，作为印前流程的一部分。",
+    "sv": "Kodak Prinergy Preflight — preflightmodul i Kodaks arbetsflödessystem Prinergy, med omfattande PDF-kontroll integrerad i den bredare prepress-automationskedjan.",
+    "da": "Kodak Prinergy Preflight — preflight-modul i Kodaks Prinergy-workflowsystem, der giver omfattende PDF-kontrol integreret med den bredere prepress-automatisering.",
+    "nl": "Kodak Prinergy Preflight — preflightmodule binnen Kodaks Prinergy-workflowsysteem, met uitgebreide PDF-controle geïntegreerd in de bredere prepressautomatisering.",
+    "pl": "Kodak Prinergy Preflight — moduł preflight w systemie workflow Kodak Prinergy, zapewniający kompleksowe sprawdzanie PDF zintegrowane z szerszym potokiem automatyzacji prepress.",
+    "pt": "Kodak Prinergy Preflight — módulo de preflight dentro do sistema de fluxo de trabalho Prinergy da Kodak, com verificação abrangente de PDF integrada ao pipeline mais amplo de automação de pré-impressão.",
+    "hi": "Kodak Prinergy Preflight — Kodak के Prinergy वर्कफ़्लो सिस्टम के भीतर प्रीफ़्लाइट मॉड्यूल, व्यापक प्रीप्रेस स्वचालन पाइपलाइन से एकीकृत व्यापक PDF जाँच।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Preflight",
+        "PreflightParams",
+        "PreflightReport",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.4.14 · p.100",
+        "§6.64 · p.249",
+        "§6.65 · p.250",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 13"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

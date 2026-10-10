@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A6 (105 x 148 mm)",
+    "es": "A6 (105 × 148 mm)",
+    "zh-Hans": "A6 (105 × 148 mm)",
+    "nb": "A6 (105 x 148 mm)",
+    "de": "A6 (105 x 148 mm)",
+    "ja": "A6 (105 x 148 mm)",
+    "nl": "A6 (105 x 148 mm)",
+    "sv": "A6 (105 x 148 mm)",
+    "da": "A6 (105 x 148 mm)",
+    "pl": "A6 (105 x 148 mm)",
+    "pt": "A6 (105 x 148 mm)",
+    "hi": "A6 (105 x 148 mm)"
+  },
+  "altLabels": {
+    "en": [
+      "A6 Size",
+      "105 x 148 mm",
+      "105x148",
+      "105×148",
+      "10.5 x 14.8 cm",
+      "DIN A6"
+    ],
+    "nb": [
+      "A6-format",
+      "A6-størrelse"
+    ],
+    "pl": [
+      "format A6"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A6",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "105 × 148 mm (4.13 × 5.83 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A5. Used for postcards, small flyers, index cards, and pocket-size guides.",
+    "nb": "105 × 148 mm (4,13 × 5,83 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A5. Brukt til postkort, små flyers, registerkort og pocket-guider.",
+    "de": "105 × 148 mm (4,13 × 5,83 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A5. Verwendet für Postkarten, kleine Flyer, Karteikarten und Taschenformat-Wegweiser.",
+    "ja": "105×148mm（4.13×5.83インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A5の半分の面積。ハガキ、小チラシ、インデックスカード、ポケットサイズのガイドに使用される。",
+    "es": "Formato A6 de la serie A de ISO 216, dimensiones 105 × 148 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A.",
+    "zh-Hans": "ISO 216 A系列A6开本，尺寸105 × 148 mm。比例1:√2 —— 对折后得到下一个A尺寸。",
+    "sv": "105 × 148 mm (4.13 × 5.83 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A5. Används för vykort, små flygblad, registerkort och fickguider.",
+    "da": "105 × 148 mm (4.13 × 5.83 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A5. Bruges til postkort, små flyers, registerkort og fickguider.",
+    "nl": "105 × 148 mm (4.13 × 5.83 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A5. Gebruikt voor kaart, kleine flyers, registerkort en fickguider.",
+    "pl": "105 × 148 mm (4,13 × 5,83 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A5. Używany do pocztówek, małych ulotek, kart indeksowych i przewodników kieszonkowych.",
+    "pt": "105 × 148 mm (4.13 × 5.83 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A5. Usado em postais, flyers pequenos, fichas e guias de bolso.",
+    "hi": "105 × 148 mm (4.13 × 5.83 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A5 का आधा क्षेत्रफल। पोस्टकार्ड, छोटे फ़्लायर, इंडेक्स कार्ड और पॉकेट गाइड में।"
+  },
+  "properties": {
+    "width": 105,
+    "height": 148,
+    "unit": "mm",
+    "aspectRatio": 1.4095,
+    "standard": "ISO 216",
+    "area": 15540
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/measurement-systems> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "jednostki miary"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/standards> ;
+    skos:definition "Standardiserede enheder og konventioner til at måle fysiske og digitale dimensioner i trykproduktion og grafisk design."@da,
+        "Standardisierte Einheiten und Konventionen zur Messung physischer und digitaler Größen in der Druckproduktion und im Grafikdesign."@de,
+        "Standardized units and conventions for measuring physical and digital dimensions in print production and graphic design."@en,
+        "Unidades y convenciones estandarizadas para medir dimensiones físicas y digitales en la producción de impresión y el diseño gráfico."@es,
+        "प्रिंट उत्पादन और ग्राफ़िक डिज़ाइन में भौतिक और डिजिटल आयाम मापने की मानकीकृत इकाइयाँ और परंपराएँ।"@hi,
+        "印刷生産およびグラフィックデザインにおいて、物理的およびデジタルな寸法を測定するための標準化された単位および規約。"@ja,
+        "Standardiserte enheter og konvensjoner for måling av fysiske og digitale dimensjoner i trykkproduksjon og grafisk design."@nb,
+        "Gestandaardiseerde eenheden en conventies voor het meten van fysieke en digitale afmetingen in drukproductie en grafisch ontwerp."@nl,
+        "Ustandaryzowane jednostki i konwencje pomiaru wymiarów fizycznych i cyfrowych w produkcji poligraficznej i projektowaniu graficznym."@pl,
+        "Unidades e convenções padronizadas para medir dimensões físicas e digitais na produção gráfica e no design."@pt,
+        "Standardiserade enheter och konventioner för att mäta fysiska och digitala dimensioner i tryckproduktion och grafisk design."@sv,
+        "印刷生产和图形设计中用于测量物理和数字尺寸的标准化单位和约定。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/measurement-systems/imperial>,
+        <https://ptpge.org/v1/printing/standards/measurement-systems/metric>,
+        <https://ptpge.org/v1/printing/standards/measurement-systems/pixels> ;
+    skos:notation "P:ST-MSY" ;
+    skos:prefLabel "Målesystemer"@da,
+        "Maßsysteme"@de,
+        "Measurement Systems"@en,
+        "Sistemas de Medida"@es,
+        "मापन प्रणालियाँ"@hi,
+        "計測単位"@ja,
+        "Måle-systemer"@nb,
+        "Meetsystemen"@nl,
+        "Systemy miar"@pl,
+        "Sistemas de medição"@pt,
+        "Måttsystem"@sv,
+        "测量系统"@zh-Hans ;
+    skos:scopeNote "Umfasst metrische Einheiten (Millimeter, Zentimeter), imperiale Einheiten (Inch, Punkt, Pica) und digitale Einheiten (Pixel). Auflösungsmetriken (DPI, PPI) sind davon abgeleitet und werden separat geführt."@de,
+        "Covers metric units (millimeter, centimeter), imperial units (inch, point, pica), and digital units (pixels). Resolution metrics (DPI, PPI) are derived from these and tracked separately."@en,
+        "Cubre unidades métricas (milímetro, centímetro), unidades imperiales (pulgada, punto, pica) y unidades digitales (píxeles). Las métricas de resolución (DPI, PPI) se derivan de estas y se rastrean por separado."@es,
+        "मीट्रिक इकाइयाँ (मिलीमीटर, सेंटीमीटर), इंपीरियल इकाइयाँ (इंच, पॉइंट, पाइका) और डिजिटल इकाइयाँ (पिक्सेल) शामिल। रिज़ॉल्यूशन मेट्रिक (DPI, PPI) इनसे व्युत्पन्न और अलग दर्ज।"@hi,
+        "メートル単位（ミリメートル、センチメートル）、インペリアル単位（インチ、ポイント、パイカ）、デジタル単位（ピクセル）を扱う。解像度の指標（DPI、PPI）はこれらから派生し、別途扱う。"@ja,
+        "Dekker metriske enheter (millimeter, centimeter), imperialiske enheter (tomme, punkt, pica) og digitale enheter (piksler). Oppløsning (DPI, PPI) er avledet av disse og spores separat."@nb,
+        "Cobre unidades métricas (milímetro, centímetro), imperiais (polegada, ponto, paica) e digitais (pixels). Métricas de resolução (DPI, PPI) derivam destas e são registradas separadamente."@pt,
+        "涵盖公制单位（毫米、厘米）、英制单位（英寸、点、派卡）和数字单位（像素）。分辨率指标（DPI、PPI）由这些派生而来，单独跟踪。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ ptpge:mappingRow "crosswalk row 1" ;
+            ptpge:matchDegree "concept" ;
+            ptpge:sourceElement "—" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

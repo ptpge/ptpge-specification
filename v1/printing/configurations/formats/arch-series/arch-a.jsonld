@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-a",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Arch A (9 x 12 in)",
+    "es": "Arch A (229 × 305 mm / 9 × 12 in)",
+    "zh-Hans": "Arch A (229 × 305 mm / 9 × 12 in)",
+    "nb": "Arch A (9 x 12 in)",
+    "de": "Arch A (9 x 12 in)",
+    "ja": "Arch A (9 x 12 in)",
+    "sv": "Arch A (9 x 12 tum)",
+    "da": "Arch A (9 x 12 tum)",
+    "nl": "Arch A (9 x 12 tum)",
+    "pl": "Arch A (9 x 12 in)",
+    "pt": "Arch A (9 x 12 in)",
+    "hi": "Arch A (9 x 12 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ARCH-A",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/arch-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "9 × 12 in (228.6 × 304.8 mm). The smallest Arch size — used for architectural sketches and small technical drawings.",
+    "nb": "9 × 12 in (228,6 × 304,8 mm). Den minste Arch-størrelsen — brukt til arkitekturskisser og små tekniske tegninger.",
+    "de": "9 × 12 in (228,6 × 304,8 mm). Das kleinste Arch-Format — verwendet für architektonische Skizzen und kleine technische Zeichnungen.",
+    "ja": "9×12インチ（228.6×304.8mm）。最小のArchサイズ — 建築スケッチおよび小型技術図面に使用される。",
+    "es": "Tamaño arquitectónico Arch A para planos arquitectónicos y de ingeniería norteamericanos, 229 × 305 mm / 9 × 12 in.",
+    "zh-Hans": "建筑尺寸Arch A，用于北美建筑和工程图纸，229 × 305 mm / 9 × 12 in。",
+    "sv": "9 × 12 tum (228.6 × 304.8 mm). Det minsta Arch-formatet — används för arkitektskisser och små tekniska ritningar.",
+    "da": "9 × 12 tommer (228.6 × 304.8 mm). Det mindste Arch-format — bruges til arkitektskitser og små tekniske tegninger.",
+    "nl": "9 × 12 inch (228.6 × 304.8 mm). Het kleinste Arch-formaat — gebruikt voor architectuurschetsen en kleine technische tekeningen.",
+    "pl": "9 × 12 cali (228,6 × 304,8 mm). Najmniejszy format Arch — używany do szkiców architektonicznych i małych rysunków technicznych.",
+    "pt": "9 × 12 in (228.6 × 304.8 mm). O menor tamanho Arch — usado em esboços arquitetônicos e desenhos técnicos pequenos.",
+    "hi": "9 × 12 in (228.6 × 304.8 mm). सबसे छोटा Arch आकार — वास्तु रेखाचित्रों और छोटे तकनीकी चित्रों में।"
+  },
+  "properties": {
+    "width": 9,
+    "height": 12,
+    "unit": "in",
+    "aspectRatio": 1.3333,
+    "standard": "ANSI/ASME Y14.1",
+    "area": 108
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "9 x 12 in",
+      "9x12",
+      "9×12"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

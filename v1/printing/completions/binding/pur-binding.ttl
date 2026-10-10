@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/pur-binding> a skos:Concept ;
+    dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "PUR Adhesive Binding"@en,
+        "PUR Perfect Binding"@en,
+        "PUR"@hi,
+        "PUR गोंद बाइंडिंग"@hi,
+        "PUR परफेक्ट बाइंडिंग"@hi,
+        "klejenie PUR"@pl,
+        "oprawa PUR"@pl,
+        "PUR"@pt,
+        "cola PUR"@pt,
+        "lombada colada PUR"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "Limbinding med reaktiv polyurethanlim (PUR) — stærkere, mere fleksibel og mere temperaturbestandig end konventionel EVA-hotmelt; det eksklusive valg for flad åbning, bestrøgne papirer og krævende brug."@da,
+        "Klebebindung mit reaktivem Polyurethan-Klebstoff (PUR) — stärker, flexibler und temperaturbeständiger als konventioneller EVA-Hotmelt; die Premiumwahl für gutes Aufschlagverhalten, gestrichene Papiere und langlebige Publikationen."@de,
+        "Perfect binding using reactive polyurethane (PUR) adhesive — stronger, more flexible and more temperature-resistant than conventional EVA hotmelt; the premium choice for lay-flat behaviour, coated stocks and long-life publications."@en,
+        "Encuadernación encolada con adhesivo reactivo de poliuretano (PUR) — más fuerte, flexible y resistente a la temperatura que el hotmelt EVA convencional; la opción premium para buena apertura, papeles estucados y publicaciones duraderas."@es,
+        "रिएक्टिव पॉलीयूरेथेन (PUR) एडहेसिव से परफेक्ट बाइंडिंग — पारंपरिक EVA हॉटमेल्ट से अधिक मज़बूत, लचीली और तापमान-रोधी; सपाट खुलने, कोटेड काग़ज़ और लंबे समय चलने वाले प्रकाशनों के लिए प्रीमियम विकल्प।"@hi,
+        "反応性ポリウレタン（PUR）接着剤による無線綴じ。従来のEVAホットメルトより強く、柔軟で耐温度性が高い。開きの良さ、塗工紙、長寿命の出版物に対するプレミアムな選択。"@ja,
+        "Limfrest innbinding med reaktivt polyuretanlim (PUR) — sterkere, mer fleksibelt og mer temperaturbestandig enn konvensjonell EVA-hotmelt; førstevalget for god åpning, bestrøkne papirer og publikasjoner med lang levetid."@nb,
+        "Garenloos binden met reactieve polyurethaanlijm (PUR) — sterker, flexibeler en temperatuurbestendiger dan conventionele EVA-hotmelt; de premium keuze voor vlak opengaan, gestreken papieren en intensief gebruik."@nl,
+        "Oprawa klejona z użyciem reaktywnego kleju poliuretanowego (PUR) — mocniejsza, bardziej elastyczna i odporniejsza na temperaturę niż konwencjonalny hotmelt EVA; wybór premium dla płaskiego otwierania, papierów powlekanych i publikacji o długiej żywotności."@pl,
+        "Encadernação colada com adesivo de poliuretano reativo (PUR) — mais forte, mais flexível e mais resistente à temperatura que o hot melt EVA convencional; a escolha premium para abertura plana, papéis revestidos e publicações de longa vida."@pt,
+        "Limbindning med reaktivt polyuretanlim (PUR) — starkare, mer flexibelt och mer temperaturbeständigt än konventionellt EVA-smältlim; premiumvalet för planliggande uppslag, bestrukna papper och publikationer med lång livslängd."@sv,
+        "使用反应性聚氨酯（PUR）胶的无线胶装 — 比传统 EVA 热熔胶更强韧、更柔软、更耐温；是追求平摊性、涂布纸与长寿命出版物的高端选择。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§PUR-BINDING" ;
+    skos:prefLabel "PUR-limbinding"@da,
+        "PUR-Klebebindung"@de,
+        "PUR Binding"@en,
+        "Encuadernación PUR"@es,
+        "PUR बाइंडिंग"@hi,
+        "PUR製本"@ja,
+        "PUR-innbinding"@nb,
+        "PUR-binden"@nl,
+        "Oprawa klejona PUR"@pl,
+        "Encadernação PUR"@pt,
+        "PUR-bindning"@sv,
+        "PUR胶装"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.29 · p.128",
+                "§5.6.8 · p.116" ;
+            ptpge:mappingRow "crosswalk row 40" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "CoverApplication",
+                "SpinePreparation" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

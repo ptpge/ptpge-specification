@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "32.9 x 48.3 cm"@en,
+        "329 x 483 mm"@en,
+        "329x483"@en,
+        "329×483"@en,
+        "DIN A3+"@en,
+        "A3+-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "329 × 483 mm (12.95 × 19.02 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Overformatvariant af A3 med beskæringsmargin. Bruges i tryk, hvor A3 er det færdige beskårne format."@da,
+        "329 × 483 mm (12,95 × 19,02 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Übergrößenvariante von A3 mit Beschnittrand. Eingesetzt im Druck, wenn A3 das finale beschnittene Format ist."@de,
+        "329 × 483 mm (12.95 × 19.02 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Oversize variant of A3 with bleed margin. Used in printing where A3 is the final trimmed size."@en,
+        "Formato A3+ (también llamado Super A3) — habitual en impresoras de oficina y digital ligeramente más grande que A3 para imprimir A3 con sangrado."@es,
+        "329 × 483 mm (12.95 × 19.02 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A3 का बड़ा रूप, ब्लीड मार्जिन सहित। जब A3 अंतिम ट्रिम आकार हो।"@hi,
+        "329×483mm（12.95×19.02インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。ブリードマージン付きのA3のオーバーサイズ・バリアント。A3が最終断裁サイズとなる印刷で使用される。"@ja,
+        "329 × 483 mm (12,95 × 19,02 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Overdimensjonert variant av A3 med utfallsmargin. Brukt i trykk der A3 er den ferdig beskjærte størrelsen."@nb,
+        "329 × 483 mm (12.95 × 19.02 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Overmaatvariant van A3 met snijmarge. Gebruikt in drukwerk waarbij A3 het afgewerkte schoongesneden formaat is."@nl,
+        "329 × 483 mm (12,95 × 19,02 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Powiększony wariant A3 z marginesem na spad. Używany w druku, gdy A3 jest końcowym formatem po obcięciu."@pl,
+        "329 × 483 mm (12.95 × 19.02 in). Faz parte da série A da ISO 216, com proporção 1:√2. Variante superdimensionada do A3 com margem de sangria. Usada quando o A3 é o tamanho final refilado."@pt,
+        "329 × 483 mm (12.95 × 19.02 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Överformatvariant av A3 med utfallsmarginal. Används i tryck där A3 är det färdiga skurna formatet."@sv,
+        "A3+ —— 比A3稍大的办公和数码印刷常用格式，允许带出血印刷A3。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A3-PLUS" ;
+    skos:prefLabel "A3+ (329 x 483 mm)"@da,
+        "A3+ (329 x 483 mm)"@de,
+        "A3+ (329 x 483 mm)"@en,
+        "A3+ (329 × 483 mm)"@es,
+        "A3+ (329 x 483 mm)"@hi,
+        "A3+ (329 x 483 mm)"@ja,
+        "A3+ (329 x 483 mm)"@nb,
+        "A3+ (329 x 483 mm)"@nl,
+        "A3+ (329 x 483 mm)"@pl,
+        "A3+ (329 x 483 mm)"@pt,
+        "A3+ (329 x 483 mm)"@sv,
+        "A3+ (329 × 483 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 158907.0 ;
+            ptpge:aspectRatio 1.4681 ;
+            ptpge:height 483.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 329.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

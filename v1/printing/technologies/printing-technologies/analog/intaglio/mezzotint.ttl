@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/mezzotint> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Mezzotint"@en,
+        "sposób czarny"@pl,
+        "Maneira negra"@pt,
+        "Mezzotinta"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio> ;
+    skos:definition "Kobbertryksteknik, der arbejder fra sort mod lyst — hele pladen opruges først med et vuggejern, så den trykker helsort, og glattes derefter selektivt i lysere partier for at styre tonen. Karakteristisk for bløde, fløjlsagtige tonegraderinger."@da,
+        "Stichtiefdruck-Technik, die von Schwarz nach Hell arbeitet — die gesamte Platte wird zunächst mit der Wiege aufgeraut, sodass sie ein gleichmäßiges Schwarz druckt, und anschließend in helleren Bereichen selektiv geglättet, um Tonwerte zu steuern. Charakteristisch für weiche, samtige Tonabstufungen."@de,
+        "Intaglio printmaking technique that works from black to light — the entire plate is first roughened with a rocker tool to print solid black, then selectively smoothed in lighter areas to control tone. Distinctive for soft, velvety tonal gradations."@en,
+        "Técnica de intaglio que parte de una plancha rugosa negra; el artista alisa selectivamente con bruñidor y rascador para crear los tonos claros. Da gradaciones tonales muy suaves."@es,
+        "इंटैग्लियो प्रिंटमेकिंग तकनीक जो काले से हल्के की ओर काम करती है — पहले पूरी प्लेट रॉकर औज़ार से खुरदरी की जाती है ताकि ठोस काला छपे, फिर हल्के क्षेत्रों में चुनिंदा रूप से चिकनी की जाती है ताकि टोन नियंत्रित हो। कोमल, मखमली टोनल क्रमों के लिए विशिष्ट।"@hi,
+        "黒から白へ向かって作業する凹版版画技法 — まずロッカー道具で版全体を粗らせて一様な黒を印刷し、次に明るい領域を選択的に滑らかにして階調を制御する。柔らかくベルベットのような階調グラデーションが特徴。"@ja,
+        "Intaglio-grafikkteknikk som arbeider fra svart til lys — hele platen er først ruet med en rocker for å trykke heldekkende svart, deretter selektivt glattet i lysere områder for å kontrollere tone. Karakteristisk for myke, fløyelsmyke tonale graderinger."@nb,
+        "Koperdiepdruktechniek die van zwart naar licht werkt — de hele plaat wordt eerst met een wiegmes opgeruwd zodat hij egaal zwart drukt, en daarna selectief gladgemaakt in lichtere partijen om de toon te sturen. Kenmerkend voor zachte, fluweelachtige toongradaties."@nl,
+        "Technika druku wklęsłego pracująca od czerni do światła — cała płyta jest najpierw schropowacona kołyską, aby drukować pełną czerń, a następnie wybiórczo wygładzana w jaśniejszych partiach dla kontroli tonu. Charakterystyczna miękkimi, aksamitnymi gradacjami tonalnymi."@pl,
+        "Técnica de gravura calcográfica que trabalha do preto para o claro — toda a chapa é primeiro granulada com um berceau para imprimir preto sólido, depois alisada seletivamente nas áreas mais claras para controlar o tom. Distinta pelas gradações tonais suaves e aveludadas."@pt,
+        "Koppartrycksteknik som arbetar från svart mot ljust — hela plåten ruggas först upp med ett vaggjärn så att den trycker helsvart, och slätas sedan selektivt i ljusare partier för att styra tonen. Karakteristisk för mjuka, sammetslena tongraderingar."@sv,
+        "凹版技术，从粗糙的黑色板开始；艺术家用打磨棒和刮刀选择性地平滑以创造光亮色调。产生非常柔和的色调过渡。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§MEZZOTINT" ;
+    skos:prefLabel "Mezzotinte"@da,
+        "Mezzotinto"@de,
+        "Mezzotint"@en,
+        "Mezzotinto"@es,
+        "मेज़ोटिंट"@hi,
+        "メゾチント"@ja,
+        "Mezzotint"@nb,
+        "Mezzotint"@nl,
+        "Mezzotinta"@pl,
+        "Meia-tinta"@pt,
+        "Mezzotint"@sv,
+        "美柔汀"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

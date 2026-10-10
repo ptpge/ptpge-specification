@@ -1,0 +1,54 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/agfa-apogee",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Agfa Apogee",
+    "es": "Agfa Apogee",
+    "zh-Hans": "Agfa Apogee",
+    "nb": "Agfa Apogee",
+    "de": "Agfa Apogee",
+    "ja": "Agfa Apogee",
+    "sv": "Agfa Apogee",
+    "da": "Agfa Apogee",
+    "nl": "Agfa Apogee",
+    "pl": "Agfa Apogee",
+    "pt": "Agfa Apogee",
+    "hi": "Agfa Apogee"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§AGFA-APOGEE",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Agfa Apogee — workflow automation platform from Agfa Graphics covering job intake, preflight, color management, imposition, RIP, and proofing for offset and hybrid offset/digital production.",
+    "nb": "Agfa Apogee — workflow-automasjonsplattform fra Agfa Graphics som dekker jobb-mottak, preflight, fargestyring, impositioning, RIP og proofing for offset- og hybrid offset/digital-produksjon.",
+    "de": "Agfa Apogee — Workflow-Automatisierungsplattform von Agfa Graphics, die Auftragsannahme, Preflight, Farbmanagement, Ausschießen, RIP und Proofing für Offset- und hybride Offset-/Digitalproduktion abdeckt.",
+    "ja": "Agfa Apogee — Agfa Graphicsによるワークフロー自動化プラットフォーム。オフセットおよびオフセット／デジタル混成生産向けに、ジョブ受付、プリフライト、カラーマネジメント、面付け、RIP、校正を扱う。",
+    "es": "Plataforma de automatización de pre-prensa de Agfa Graphics, frecuente en imprentas comerciales de tamaño medio.",
+    "zh-Hans": "Agfa Graphics的印前自动化平台，在中型商业印刷厂中常见。",
+    "sv": "Agfa Apogee — plattform för arbetsflödesautomation från Agfa Graphics som täcker jobbintag, preflight, färghantering, utskjutning, RIP och provtryck för offset- och hybridproduktion offset/digitalt.",
+    "da": "Agfa Apogee — workflow-automatiseringsplatform fra Agfa Graphics, der dækker ordremodtagelse, preflight, farvestyring, udskydning, RIP og prøvetryk for offset- og hybrid offset/digital-produktion.",
+    "nl": "Agfa Apogee — workflowautomatiseringsplatform van Agfa Graphics voor orderintake, preflight, kleurbeheer, impositie, RIP en proeven voor offset- en hybride offset/digitale productie.",
+    "pl": "Agfa Apogee — platforma automatyzacji workflow firmy Agfa Graphics obejmująca przyjęcie zlecenia, preflight, zarządzanie barwą, impozycję, RIP i proofing dla produkcji offsetowej i hybrydowej offset/cyfra.",
+    "pt": "Agfa Apogee — plataforma de automação de fluxo de trabalho da Agfa Graphics que cobre entrada de trabalhos, preflight, gerenciamento de cor, imposição, RIP e provas para produção offset e híbrida offset/digital.",
+    "hi": "Agfa Apogee — Agfa Graphics का वर्कफ़्लो स्वचालन प्लेटफ़ॉर्म जो ऑफसेट और हाइब्रिड ऑफसेट/डिजिटल उत्पादन के लिए जॉब इनटेक, प्रीफ़्लाइट, रंग प्रबंधन, इम्पोज़िशन, RIP और प्रूफ़िंग को ढकता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

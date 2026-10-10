@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a6> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "10.5 x 14.8 cm"@en,
+        "105 x 148 mm"@en,
+        "105x148"@en,
+        "105×148"@en,
+        "A6 Size"@en,
+        "DIN A6"@en,
+        "A6-format"@nb,
+        "A6-størrelse"@nb,
+        "format A6"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "105 × 148 mm (4.13 × 5.83 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A5. Bruges til postkort, små flyers, registerkort og fickguider."@da,
+        "105 × 148 mm (4,13 × 5,83 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A5. Verwendet für Postkarten, kleine Flyer, Karteikarten und Taschenformat-Wegweiser."@de,
+        "105 × 148 mm (4.13 × 5.83 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A5. Used for postcards, small flyers, index cards, and pocket-size guides."@en,
+        "Formato A6 de la serie A de ISO 216, dimensiones 105 × 148 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
+        "105 × 148 mm (4.13 × 5.83 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A5 का आधा क्षेत्रफल। पोस्टकार्ड, छोटे फ़्लायर, इंडेक्स कार्ड और पॉकेट गाइड में।"@hi,
+        "105×148mm（4.13×5.83インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A5の半分の面積。ハガキ、小チラシ、インデックスカード、ポケットサイズのガイドに使用される。"@ja,
+        "105 × 148 mm (4,13 × 5,83 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A5. Brukt til postkort, små flyers, registerkort og pocket-guider."@nb,
+        "105 × 148 mm (4.13 × 5.83 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A5. Gebruikt voor kaart, kleine flyers, registerkort en fickguider."@nl,
+        "105 × 148 mm (4,13 × 5,83 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A5. Używany do pocztówek, małych ulotek, kart indeksowych i przewodników kieszonkowych."@pl,
+        "105 × 148 mm (4.13 × 5.83 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A5. Usado em postais, flyers pequenos, fichas e guias de bolso."@pt,
+        "105 × 148 mm (4.13 × 5.83 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A5. Används för vykort, små flygblad, registerkort och fickguider."@sv,
+        "ISO 216 A系列A6开本，尺寸105 × 148 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A6" ;
+    skos:prefLabel "A6 (105 x 148 mm)"@da,
+        "A6 (105 x 148 mm)"@de,
+        "A6 (105 x 148 mm)"@en,
+        "A6 (105 × 148 mm)"@es,
+        "A6 (105 x 148 mm)"@hi,
+        "A6 (105 x 148 mm)"@ja,
+        "A6 (105 x 148 mm)"@nb,
+        "A6 (105 x 148 mm)"@nl,
+        "A6 (105 x 148 mm)"@pl,
+        "A6 (105 x 148 mm)"@pt,
+        "A6 (105 x 148 mm)"@sv,
+        "A6 (105 × 148 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 15540.0 ;
+            ptpge:aspectRatio 1.4095 ;
+            ptpge:height 148.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 105.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding/roll-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Roll Fold",
+    "es": "Pliegue Enrollado",
+    "zh-Hans": "卷折",
+    "nb": "Rull-fold",
+    "de": "Wickelfalz",
+    "ja": "巻き折り",
+    "sv": "Rullfals",
+    "da": "Rullefals",
+    "nl": "Rolvouw (wikkelvouw)",
+    "pl": "Złam zwijany",
+    "pt": "Dobra envolvente",
+    "hi": "रोल फ़ोल्ड"
+  },
+  "altLabels": {
+    "en": [
+      "Barrel Fold"
+    ],
+    "nb": [
+      "Rullefals"
+    ],
+    "pl": [
+      "złam rolowany",
+      "zwijany"
+    ],
+    "pt": [
+      "dobra rolo",
+      "dobra em espiral",
+      "dobra barril"
+    ],
+    "hi": [
+      "बैरल फ़ोल्ड",
+      "लपेट फ़ोल्ड"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§ROLL-FOLD",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/completions/folding",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Multi-panel fold where each panel folds in turn around the previous one, creating a compact rolled-up structure. Each panel is slightly smaller than the next to nest cleanly. Used for brochures with progressive content reveal.",
+    "nb": "Flerpanel-folde der hvert panel folder seg etter tur rundt det forrige, og skaper en kompakt rullet struktur. Hvert panel er litt mindre enn det neste for å nestes rent. Brukt til brosjyrer med progressiv innholdsavsløring.",
+    "de": "Mehrteiliger Falz, bei dem jedes Feld der Reihe nach um das vorherige gerollt wird, wodurch eine kompakte aufgerollte Struktur entsteht. Jedes Feld ist geringfügig kleiner als das nächste, damit sie sauber ineinanderpassen. Verwendet für Broschüren mit progressiver Inhaltsoffenbarung.",
+    "ja": "各面が直前の面の周囲に順次折られ、コンパクトな巻き上げ構造を作る多面折り。各面はきれいに収まるように直前の面より少し小さくする。段階的に内容を見せるブローシュアに使用される。",
+    "es": "Múltiples pliegues paralelos en la misma dirección — el pliego se enrolla sobre sí mismo. Habitual en folletos compactos.",
+    "zh-Hans": "同一方向的多个平行折页 —— 纸张自身卷起来。常见于紧凑宣传册。",
+    "sv": "Flerpanelsfals där varje panel i tur och ordning viks runt den föregående och skapar en kompakt hoprullad struktur. Varje panel är något mindre än nästa för att gå rent in. Används för broschyrer med stegvis innehållsavslöjande.",
+    "da": "Flerpanelsfals, hvor hvert panel falses omkring det forrige og skaber en kompakt sammenrullet struktur. Hvert panel er en anelse mindre end det næste, så de passer rent ind i hinanden. Bruges til brochurer med progressiv afsløring.",
+    "nl": "Meerpaneelvouw waarbij elk paneel om het vorige heen vouwt en een compacte opgerolde structuur vormt. Elk paneel is net iets kleiner dan het volgende om netjes te nesten. Gebruikt voor brochures met progressieve onthulling.",
+    "pl": "Złam wieloskrzydłowy, w którym każde skrzydło składa się kolejno wokół poprzedniego, tworząc zwartą, zwiniętą strukturę. Każde skrzydło jest nieco mniejsze od następnego, aby czysto się zagnieżdżać. Stosowany w folderach ze stopniowym odsłanianiem treści.",
+    "pt": "Dobra de vários painéis em que cada painel se dobra por vez em torno do anterior, criando uma estrutura enrolada compacta. Cada painel é ligeiramente menor que o seguinte para encaixar bem. Usada em folhetos com revelação progressiva de conteúdo.",
+    "hi": "बहु-पैनल फ़ोल्ड जिसमें हर पैनल बारी-बारी पिछले के चारों ओर मुड़ता है, सघन लिपटी संरचना बनाता है। हर पैनल अगले से थोड़ा छोटा होता है ताकि साफ़ बैठे। क्रमशः खुलने वाली सामग्री वाले ब्रोशर में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

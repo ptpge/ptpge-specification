@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/color-management/adobe-color-management> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/quality-assurance/color-management> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:altLabel "Adobe Colour Management"@en ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/color-management> ;
+    skos:definition "Adobes farvestyringsramme integreret i Photoshop, Illustrator, InDesign og Acrobat — håndterer tildeling af ICC-profiler, konvertering og soft-proofing på tværs af Creative Suite."@da,
+        "Adobes Farbmanagement-Framework, integriert in Photoshop, Illustrator, InDesign und Acrobat — verwaltet die Zuweisung, Konvertierung und Soft-Proof-Vorschau von ICC-Profilen über die Creative Suite hinweg."@de,
+        "Adobe's color management framework integrated into Photoshop, Illustrator, InDesign, and Acrobat — handles ICC profile assignment, conversion, and soft-proofing across the Creative Suite."@en,
+        "Sistema de gestión de color integrado en las aplicaciones Adobe Creative Cloud, basado en perfiles ICC y configuraciones de color compartidas entre Photoshop, Illustrator, InDesign y Acrobat."@es,
+        "Photoshop, Illustrator, InDesign और Acrobat में एकीकृत Adobe का रंग प्रबंधन ढाँचा — पूरी Creative Suite में ICC प्रोफ़ाइल असाइनमेंट, रूपांतरण और सॉफ़्ट-प्रूफ़िंग संभालता है।"@hi,
+        "Photoshop、Illustrator、InDesign、Acrobatに統合されたAdobeのカラーマネジメントフレームワーク — Creative Suite全体にわたるICCプロファイルの割り当て、変換、ソフトプルーフを処理する。"@ja,
+        "Adobes fargestyrings-rammeverk integrert i Photoshop, Illustrator, InDesign og Acrobat — håndterer ICC-profiltildeling, konvertering og soft-proofing på tvers av Creative Suite."@nb,
+        "Adobes kleurbeheerraamwerk, geïntegreerd in Photoshop, Illustrator, InDesign en Acrobat — verzorgt ICC-profieltoewijzing, conversie en soft-proofing door de hele Creative Suite."@nl,
+        "Framework zarządzania barwą Adobe zintegrowany z Photoshopem, Illustratorem, InDesignem i Acrobatem — obsługuje przypisywanie profili ICC, konwersję i soft-proofing w całym pakiecie Creative Suite."@pl,
+        "Quadro de gerenciamento de cor da Adobe integrado ao Photoshop, Illustrator, InDesign e Acrobat — trata atribuição de perfil ICC, conversão e prova de tela em toda a Creative Suite."@pt,
+        "Adobes färghanteringsramverk integrerat i Photoshop, Illustrator, InDesign och Acrobat — hanterar tilldelning av ICC-profiler, konvertering och skärmprovtryck genom hela Creative Suite."@sv,
+        "集成在Adobe Creative Cloud应用程序中的色彩管理系统，基于ICC配置文件和Photoshop、Illustrator、InDesign及Acrobat之间共享的色彩设置。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ADOBE-COLOR-MANAGEMENT" ;
+    skos:prefLabel "Adobe Color Management"@da,
+        "Adobe Color Management"@de,
+        "Adobe Color Management"@en,
+        "Adobe Color Management"@es,
+        "Adobe Color Management"@hi,
+        "Adobe Color Management"@ja,
+        "Adobe Color Management"@nb,
+        "Adobe Color Management"@nl,
+        "Zarządzanie barwą Adobe"@pl,
+        "Adobe Color Management"@pt,
+        "Adobe Color Management"@sv,
+        "Adobe Color Management"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.4.2 · p.91",
+                "§5.4.3 · p.91",
+                "§6.68 · p.252" ;
+            ptpge:mappingRow "crosswalk row 12" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorCorrection",
+                "ColorSpaceConversion",
+                "PrintCondition" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

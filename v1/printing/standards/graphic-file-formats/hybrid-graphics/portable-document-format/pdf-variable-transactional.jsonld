@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-variable-transactional",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "PDF Variable & Transactional (PDF/VT)",
+    "es": "PDF/VT (Variable & Transactional)",
+    "zh-Hans": "PDF/VT (可变与事务性)",
+    "nb": "PDF Variable & Transactional (PDF/VT)",
+    "de": "PDF Variable & Transactional (PDF/VT)",
+    "ja": "PDF Variable & Transactional (PDF/VT)",
+    "sv": "PDF variabel- & transaktionstryck (PDF/VT)",
+    "da": "PDF variabel- & transaktionstryk (PDF/VT)",
+    "nl": "PDF variabel & transactioneel (PDF/VT)",
+    "pl": "PDF zmienny i transakcyjny (PDF/VT)",
+    "pt": "PDF variável e transacional (PDF/VT)",
+    "hi": "PDF वेरिएबल और ट्रांज़ैक्शनल (PDF/VT)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§PDF-VARIABLE-TRANSACTIONAL",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "PDF/VT — ISO 16612-2 specification for variable and transactional printing, optimized for high-volume personalized output (statements, direct mail, marketing collateral) where each page differs.",
+    "nb": "PDF/VT — ISO 16612-2-spesifikasjonen for variabelt og transaksjons-trykk, optimalisert for høyvolum personlig trykk (kontoutskrifter, direktreklame, markedsmateriell) der hver side er ulik.",
+    "de": "PDF/VT — ISO-Spezifikation 16612-2 für variablen und transaktionalen Druck, optimiert für hochvolumige personalisierte Ausgaben (Kontoauszüge, Direct Mail, Marketingunterlagen), bei denen sich jede Seite unterscheidet.",
+    "ja": "PDF/VT — 可変およびトランザクション印刷に関するISO 16612-2仕様。各ページが異なる大量のパーソナライズ出力（明細書、ダイレクトメール、マーケティング資材）に最適化されている。",
+    "es": "Sub-conjunto ISO de PDF optimizado para impresión variable y transaccional (ISO 16612), donde cada copia puede contener datos personalizados — facturas, mailings, billetes — generadas a alta velocidad.",
+    "zh-Hans": "针对可变和事务性印刷优化的PDF ISO子集（ISO 16612），每份副本可包含个性化数据——发票、邮件、票据——以高速生成。",
+    "sv": "PDF/VT — ISO 16612-2-specifikation för variabel- och transaktionstryck, optimerad för personaliserad utmatning i höga volymer (kontoutdrag, direktreklam, marknadsmaterial) där varje sida skiljer sig.",
+    "da": "PDF/VT — ISO 16612-2-specifikation for variabel- og transaktionstryk, optimeret til personaliseret output i store mængder (kontoudtog, direct mail, markedsføringsmateriale), hvor hver side er forskellig.",
+    "nl": "PDF/VT — ISO 16612-2-specificatie voor variabel en transactioneel drukwerk, geoptimaliseerd voor gepersonaliseerde output in hoge volumes (afschriften, direct mail, marketingmateriaal) waarbij elke pagina verschilt.",
+    "pl": "PDF/VT — specyfikacja ISO 16612-2 dla druku zmiennego i transakcyjnego, zoptymalizowana pod wysokonakładowe wyjście personalizowane (wyciągi, direct mail, materiały marketingowe), gdzie każda strona jest inna.",
+    "pt": "PDF/VT — especificação ISO 16612-2 para impressão variável e transacional, otimizada para saída personalizada em alto volume (extratos, mala direta, material de marketing) onde cada página difere.",
+    "hi": "PDF/VT — वेरिएबल और ट्रांज़ैक्शनल प्रिंटिंग का ISO 16612-2 विनिर्देश, उच्च-मात्रा वैयक्तिकृत आउटपुट (स्टेटमेंट, डायरेक्ट मेल, मार्केटिंग सामग्री) के लिए अनुकूलित, जहाँ हर पेज अलग हो।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "PDF",
+      ".pdf",
+      "print-ready PDF"
+    ],
+    "pl": [
+      "PDF",
+      ".pdf",
+      "PDF gotowy do druku"
+    ],
+    "pt": [
+      "PDF",
+      ".pdf",
+      "PDF pronto para impressão"
+    ],
+    "hi": [
+      "PDF",
+      ".pdf",
+      "प्रिंट-रेडी PDF"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

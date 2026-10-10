@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft/microsoft-word> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".docx"@en,
+        "Word"@en,
+        ".docx"@hi,
+        "Word"@hi,
+        ".docx"@pl,
+        "Word"@pl,
+        ".docx"@pt,
+        "Word"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft> ;
+    skos:definition "Programeget tekstbehandlingsformat (.docx) for Microsoft Word, det dominerende dokumentprogram — baseret på Office Open XML (ECMA-376 / ISO 29500)."@da,
+        "Anwendungseigenes Textverarbeitungsformat (.docx) von Microsoft Word, der dominierenden Dokumentanwendung im Geschäftsumfeld — basierend auf Office Open XML (ECMA-376 / ISO 29500)."@de,
+        "Native word-processing file format (.docx) for Microsoft Word, the dominant business document application — based on Office Open XML (ECMA-376 / ISO 29500)."@en,
+        "Formato Office Open XML (ECMA-376 / ISO 29500) para documentos de texto. La exportación a PDF es el estándar de entrega a imprenta."@es,
+        "Microsoft Word का नेटिव वर्ड-प्रोसेसिंग फ़ाइल फ़ॉर्मेट (.docx), प्रमुख व्यावसायिक दस्तावेज़ एप्लिकेशन — Office Open XML (ECMA-376 / ISO 29500) पर आधारित।"@hi,
+        "Microsoft Wordのネイティブワードプロセッシングファイル形式（.docx）。ビジネス向け文書アプリケーションの代表 — Office Open XML（ECMA-376 / ISO 29500）に基づく。"@ja,
+        "Programspesifikt tekstbehandlingsformat (.docx) for Microsoft Word, den dominerende dokumentapplikasjonen i næringslivet — basert på Office Open XML (ECMA-376 / ISO 29500)."@nb,
+        "Programma-eigen tekstverwerkingsformaat (.docx) voor Microsoft Word, het dominante documentprogramma — gebaseerd op Office Open XML (ECMA-376 / ISO 29500)."@nl,
+        "Natywny format edytora tekstu (.docx) programu Microsoft Word, dominującej biznesowej aplikacji do dokumentów — oparty na Office Open XML (ECMA-376 / ISO 29500)."@pl,
+        "Formato de arquivo nativo de processamento de texto (.docx) do Microsoft Word, o aplicativo de documentos empresarial dominante — baseado no Office Open XML (ECMA-376 / ISO 29500)."@pt,
+        "Programeget ordbehandlingsformat (.docx) för Microsoft Word, det dominerande dokumentprogrammet — baserat på Office Open XML (ECMA-376 / ISO 29500)."@sv,
+        "用于文本文档的Office Open XML格式（ECMA-376 / ISO 29500）。导出为PDF是印刷交付标准。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§MICROSOFT-WORD" ;
+    skos:prefLabel "Microsoft Word (.docx)"@da,
+        "Microsoft Word (.docx)"@de,
+        "Microsoft Word (.docx)"@en,
+        "Microsoft Word (.docx)"@es,
+        "Microsoft Word (.docx)"@hi,
+        "Microsoft Word (.docx)"@ja,
+        "Microsoft Word (.docx)"@nb,
+        "Microsoft Word (.docx)"@nl,
+        "Microsoft Word (.docx)"@pl,
+        "Microsoft Word (.docx)"@pt,
+        "Microsoft Word (.docx)"@sv,
+        "Microsoft Word (.docx)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

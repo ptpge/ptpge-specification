@@ -1,0 +1,98 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/configuration/custom-width",
+  "type": "skos:Concept",
+  "version": "2026-08-21",
+  "status": "proposed",
+  "notation": "VAR:CF§CUSTOM-WIDTH",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Custom Width",
+    "nb": "Tilpasset bredde",
+    "de": "Individuelle Breite",
+    "es": "Ancho personalizado",
+    "ja": "カスタム幅",
+    "zh-Hans": "自定义宽度",
+    "sv": "Anpassad bredd",
+    "da": "Tilpasset bredde",
+    "nl": "Breedte op maat",
+    "pl": "Szerokość niestandardowa",
+    "pt": "Largura personalizada",
+    "hi": "कस्टम चौड़ाई"
+  },
+  "altLabels": {
+    "en": [
+      "Custom size width",
+      "Bespoke width"
+    ],
+    "nb": [
+      "Egendefinert bredde"
+    ],
+    "pl": [
+      "szerokość własna",
+      "szerokość formatu niestandardowego"
+    ],
+    "pt": [
+      "largura do tamanho personalizado",
+      "largura sob medida"
+    ],
+    "hi": [
+      "कस्टम साइज़ चौड़ाई",
+      "मनचाही चौड़ाई"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Custom Width. The finished width of a custom-sized product in millimetres (numeric, single selection). Bound together with Custom Height if and only if Format = Customized. The canonical pair is normalized so that width ≤ height; rotation of use is expressed via the Orientation variable (SD-0066).",
+    "nb": "Konfigurerbar akse: Tilpasset bredde. Ferdig bredde for et tilpasset produkt i millimeter (numerisk, enkeltvalg). Bindes sammen med Tilpasset høyde hvis og bare hvis Format = Tilpasset. Kanonisk par normaliseres slik at bredde ≤ høyde; rotasjon uttrykkes via Orientering-variabelen (SD-0066).",
+    "de": "Konfigurierbare Achse: Individuelle Breite. Endbreite eines individuell formatierten Produkts in Millimetern (numerisch, Einfachauswahl). Wird genau dann zusammen mit Individuelle Höhe gebunden, wenn Format = Individuell. Das kanonische Paar wird so normalisiert, dass Breite ≤ Höhe; die Nutzungsrotation wird über die Variable Ausrichtung ausgedrückt (SD-0066).",
+    "es": "Eje configurable: Ancho personalizado. Ancho final de un producto de tamaño personalizado en milímetros (numérico, selección única). Se vincula junto con Alto personalizado si y solo si Formato = Personalizado. El par canónico se normaliza de modo que ancho ≤ alto; la rotación de uso se expresa mediante la variable Orientación (SD-0066).",
+    "ja": "構成可能な軸：カスタム幅。カスタムサイズ製品の仕上がり幅（ミリメートル、数値、単一選択）。フォーマット＝カスタマイズの場合に限り、カスタム高さと共に束縛される。正規形は幅 ≤ 高さであり、使用時の回転は「向き」変数で表現される（SD-0066）。",
+    "zh-Hans": "可配置轴：自定义宽度。定制尺寸产品的成品宽度，以毫米计（数值，单选）。当且仅当格式＝定制时，与自定义高度一同绑定。规范形式为宽度 ≤ 高度；使用方向的旋转通过方向变量表达（SD-0066）。",
+    "sv": "Konfigurerbar axel: Anpassad bredd. Färdig bredd för en anpassad produkt i millimeter (numerisk, enkelval). Binds tillsammans med Anpassad höjd om och endast om Format = Anpassat. Det kanoniska paret normaliseras så att bredd ≤ höjd; användningsrotation uttrycks via variabeln Orientering (SD-0066).",
+    "da": "Konfigurerbar akse: Tilpasset bredde. Færdig bredde for et tilpasset produkt i millimeter (numerisk, enkeltvalg). Bindes sammen med Tilpasset højde hvis og kun hvis Format = Tilpasset. Det kanoniske par normaliseres så bredde ≤ højde; brugsrotation udtrykkes via variablen Orientering (SD-0066).",
+    "nl": "Configureerbare as: Breedte op maat. Eindbreedte van een product op maat in millimeters (numeriek, enkelvoudig). Wordt samen met Hoogte op maat gebonden dan en slechts dan als Formaat = Op maat. Het canonieke paar wordt genormaliseerd zodat breedte ≤ hoogte; gebruiksrotatie wordt uitgedrukt via de variabele Oriëntatie (SD-0066).",
+    "pl": "Oś konfigurowalna: Szerokość niestandardowa. Szerokość gotowego produktu o niestandardowym formacie w milimetrach (numeryczna, wybór pojedynczy). Wiązana razem z Wysokością niestandardową wtedy i tylko wtedy, gdy Format = Niestandardowy. Kanoniczna para jest znormalizowana tak, że szerokość ≤ wysokość; obrót użycia wyraża zmienna Orientacja (SD-0066).",
+    "pt": "Eixo configurável: Largura Personalizada. A largura final de um produto de tamanho personalizado, em milímetros (numérico, seleção única). Vinculada junto com a Altura Personalizada se e somente se Formato = Personalizado. O par canônico é normalizado de modo que largura ≤ altura; a rotação de uso é expressa pela variável Orientação (SD-0066).",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: कस्टम चौड़ाई। कस्टम आकार के उत्पाद की तैयार चौड़ाई मिलीमीटर में (संख्यात्मक, एकल चयन)। कस्टम ऊँचाई के साथ तभी बाँधी जाती है जब फ़ॉर्मेट = कस्टम हो। मानक जोड़ी को इस तरह सामान्य किया जाता है कि चौड़ाई ≤ ऊँचाई; उपयोग की दिशा ओरिएंटेशन वेरिएबल से व्यक्त होती है (SD-0066)।"
+  },
+  "question": {
+    "en": "How wide?",
+    "nb": "Hvor bred?",
+    "de": "Wie breit?",
+    "es": "¿Qué anchura?",
+    "ja": "幅は？",
+    "zh-Hans": "多宽？",
+    "sv": "Hur bred?",
+    "da": "Hvor bred?",
+    "nl": "Hoe breed?",
+    "pl": "Jaka szerokość?",
+    "pt": "Que largura?",
+    "hi": "कितना चौड़ा?"
+  },
+  "datatype": "numeric",
+  "cardinality": "single",
+  "scope": "product",
+  "unit": "mm",
+  "rangeMin": 5,
+  "rangeMax": 50000,
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/configuration",
+  "created": "2026-08-21T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent"
+      ],
+      "refs": [
+        "§4.10 · p.78"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 23"
+    }
+  ]
+}

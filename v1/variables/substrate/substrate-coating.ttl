@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/substrate/substrate-coating> a skos:Concept ;
+    dcterms:created "2026-08-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "आर्ट पेपर या मैपलिथो"@hi,
+        "कोटेड / अनकोटेड"@hi,
+        "couché / offset"@pt,
+        "papel revestido ou não revestido"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/substrate> ;
+    skos:definition "Konfigurerbar akse: Bestrygning (bestrøget/ubestrøget; enum, enkeltvalg). Valgfri præcisering — overflade og nuance er køberens akser; bestrygning er fagets præcisionslag. Ubundet betyder uspecificeret, aldrig et krav (SD-0069)."@da,
+        "Konfigurierbare Achse: Papierstrich (gestrichen/ungestrichen; Enum, Einfachauswahl). Optionale Präzisierung — Oberfläche und Farbton sind die käufernahen Achsen; der Strich ist die Präzisionsebene des Fachs. Ungebunden bedeutet unspezifiziert, nie eine Pflicht (SD-0069)."@de,
+        "Configurable axis: Substrate Coating (coated / uncoated; enum, single selection). Optional refinement — surface and shade are the buyer-facing axes; coating is the trade's precision layer. Unbound means unspecified, never a requirement (SD-0069)."@en,
+        "Eje configurable: Estucado (estucado/sin estucar; enum, selección única). Refinamiento opcional: superficie y tono son los ejes del comprador; el estucado es la capa de precisión del sector. Sin vincular significa sin especificar, nunca un requisito (SD-0069)."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट कोटिंग (कोटेड / अनकोटेड; enum, एकल चयन)। वैकल्पिक परिष्करण — सतह और रंगत खरीदार-उन्मुख अक्ष हैं; कोटिंग बिरादरी की सटीकता वाली परत है। अनबाउंड का अर्थ अनिर्दिष्ट, कभी आवश्यकता नहीं (SD-0069)।"@hi,
+        "構成可能な軸：塗工（塗工紙／非塗工紙。列挙、単一選択）。任意の精密化 — 表面と色調が購入者向けの軸であり、塗工は業界の精密層。未束縛は未指定を意味し、必須ではない（SD-0069）。"@ja,
+        "Konfigurerbar akse: Bestrykning (bestrøket/ubestrøket; enum, enkeltvalg). Valgfri presisjon — overflate og nyanse er kjøperens akser; bestrykning er fagets presisjonslag. Ubundet betyr uspesifisert, aldri et krav (SD-0069)."@nb,
+        "Configureerbare as: Strijklaag (gestreken/ongestreken; enum, enkelvoudig). Optionele verfijning — oppervlak en tint zijn de kopersgerichte assen; de strijklaag is de precisielaag van het vak. Ongebonden betekent niet gespecificeerd, nooit een vereiste (SD-0069)."@nl,
+        "Oś konfigurowalna: Powlekanie podłoża (powlekany / niepowlekany; enum, wybór pojedynczy). Opcjonalne uściślenie — powierzchnia i odcień to osie skierowane do nabywcy; powlekanie to warstwa precyzji branży. Brak wartości oznacza nieokreślone, nigdy wymaganie (SD-0069)."@pl,
+        "Eixo configurável: Revestimento do Substrato (revestido/couché ou não revestido/offset; enumeração, seleção única). Refinamento opcional — superfície e tonalidade são os eixos voltados ao comprador; o revestimento é a camada de precisão do ofício. Não vinculado significa não especificado, nunca um requisito (SD-0069)."@pt,
+        "Konfigurerbar axel: Bestrykning (bestruket/obestruket; enum, enkelval). Valfri precisering — yta och nyans är köparens axlar; bestrykning är fackets precisionslager. Obundet betyder ospecificerat, aldrig ett krav (SD-0069)."@sv,
+        "可配置轴：涂布（涂布／非涂布；枚举，单选）。可选精化——表面与色调是面向买家的轴；涂布是行业的精度层。未绑定即未指定，绝非必填（SD-0069）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:SB§SUBSTRATE-COATING" ;
+    skos:prefLabel "Bestrygning"@da,
+        "Papierstrich"@de,
+        "Substrate Coating"@en,
+        "Estucado"@es,
+        "सब्सट्रेट कोटिंग"@hi,
+        "塗工"@ja,
+        "Bestrykning"@nb,
+        "Strijklaag"@nl,
+        "Powlekanie podłoża"@pl,
+        "Revestimento do substrato"@pt,
+        "Bestrykning"@sv,
+        "涂布"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Bestrøget eller ubestrøget?"@da,
+        "Gestrichen oder ungestrichen?"@de,
+        "Coated or uncoated?"@en,
+        "¿Estucado o sin estucar?"@es,
+        "कोटेड या अनकोटेड?"@hi,
+        "コート紙ですか、非コート紙ですか？"@ja,
+        "Bestrøket eller ubestrøket?"@nb,
+        "Gestreken of ongestreken?"@nl,
+        "Powlekany czy niepowlekany?"@pl,
+        "Revestido ou não revestido?"@pt,
+        "Bestruket eller obestruket?"@sv,
+        "涂布还是非涂布？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings> ;
+    ptpge:version "2026-08-22" .
+

@@ -1,0 +1,93 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/file-preparation/raster-image-processing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Raster Image Processing (RIP)",
+    "es": "Procesamiento de Imagen Raster (RIP)",
+    "zh-Hans": "光栅图像处理 (RIP)",
+    "nb": "Raster Image Processing (RIP)",
+    "de": "Raster Image Processing (RIP)",
+    "ja": "ラスターイメージプロセッサ（RIP）",
+    "sv": "Rasterbildsbehandling (RIP)",
+    "da": "Raster Image Processing (RIP)",
+    "nl": "Raster Image Processing (RIP)",
+    "pl": "Przetwarzanie rastrowe (RIP)",
+    "pt": "Processamento de imagem raster (RIP)",
+    "hi": "रास्टर इमेज प्रोसेसिंग (RIP)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§RASTER-IMAGE-PROCESSING",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow/file-preparation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Raster Image Processing (RIP) — conversion of vector and high-level page-description files (PostScript, PDF) into the bitmap format the press or digital print engine actually outputs. The RIP determines screening, color separation, and press-specific output characteristics.",
+    "nb": "Raster Image Processing (RIP) — konvertering av vektor- og høynivå sidebeskrivelse-filer (PostScript, PDF) til bitmap-formatet pressen eller digital trykkmotor faktisk utgir. RIP-en bestemmer rastrering, fargeseparasjon og presse-spesifikke utgangsegenskaper.",
+    "de": "Raster Image Processing (RIP) — Umwandlung von Vektor- und High-Level-Seitenbeschreibungsdateien (PostScript, PDF) in das Bitmap-Format, das die Druckmaschine oder Digitaldruck-Engine tatsächlich ausgibt. Der RIP bestimmt Rasterung, Farbseparation und maschinenspezifische Ausgabemerkmale.",
+    "ja": "ラスター画像処理（RIP）— ベクターおよび高水準のページ記述ファイル（PostScript、PDF）を、印刷機またはデジタル印刷エンジンが実際に出力するビットマップ形式に変換する。RIPはスクリーニング、色分解、印刷機固有の出力特性を決定する。",
+    "es": "Conversión de un archivo vectorial PDF en la rejilla de píxeles que necesita la prensa o el dispositivo de salida, aplicando perfiles de color y trapping.",
+    "zh-Hans": "将矢量PDF文件转换为印刷机或输出设备所需的像素网格，应用色彩配置文件和补漏白。",
+    "sv": "Rasterbildsbehandling (RIP) — konvertering av vektor- och sidbeskrivningsfiler på hög nivå (PostScript, PDF) till det bitmappsformat pressen eller den digitala tryckmotorn faktiskt matar ut. RIP:en avgör rastrering, färgseparation och presspecifika utdataegenskaper.",
+    "da": "Raster Image Processing (RIP) — konvertering af vektor- og sidebeskrivelsesfiler (PostScript, PDF) til det bitmapformat, pressen eller den digitale trykmotor faktisk udskriver. RIP'en håndterer også rastering og farveseparation.",
+    "nl": "Raster Image Processing (RIP) — conversie van vector- en paginabeschrijvingsbestanden (PostScript, PDF) naar het bitmapformaat dat de pers of digitale drukengine daadwerkelijk uitvoert. De RIP verzorgt ook rastering en kleurscheiding.",
+    "pl": "Przetwarzanie rastrowe (RIP) — konwersja plików wektorowych i wysokopoziomowych opisów strony (PostScript, PDF) do formatu bitmapowego, który faktycznie wyprowadza maszyna lub cyfrowy silnik druku. RIP decyduje o rastrowaniu, separacji barw i charakterystyce wyjścia właściwej dla maszyny.",
+    "pt": "Processamento de imagem raster (RIP) — conversão de arquivos vetoriais e de descrição de página de alto nível (PostScript, PDF) no formato bitmap que a máquina ou o motor de impressão digital efetivamente produz. O RIP determina a reticulagem, a separação de cor e as características de saída específicas da máquina.",
+    "hi": "रास्टर इमेज प्रोसेसिंग (RIP) — वेक्टर और उच्च-स्तरीय पेज-विवरण फ़ाइलों (PostScript, PDF) को उस बिटमैप फ़ॉर्मेट में बदलना जो प्रेस या डिजिटल प्रिंट इंजन वास्तव में आउटपुट करता है। RIP स्क्रीनिंग, रंग सेपरेशन और प्रेस-विशिष्ट आउटपुट विशेषताएँ तय करता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "RIP",
+      "rasterising",
+      "raster image processor"
+    ],
+    "nb": [
+      "RIP"
+    ],
+    "pl": [
+      "RIP",
+      "rasteryzacja",
+      "procesor rastrowy"
+    ],
+    "pt": [
+      "RIP",
+      "rasterização",
+      "processador de imagem raster"
+    ],
+    "hi": [
+      "RIP",
+      "रास्टराइज़िंग",
+      "रास्टर इमेज प्रोसेसर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Interpreting",
+        "Rendering",
+        "Screening",
+        "RasterReading"
+      ],
+      "refs": [
+        "§5.4.10 · p.98",
+        "§5.4.17 · p.103",
+        "§5.4.18 · p.103",
+        "§5.4.16 · p.102"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 9"
+    }
+  ]
+}

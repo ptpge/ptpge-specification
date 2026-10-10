@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/fold-binding-edge/top",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Top",
+    "nb": "Topp",
+    "de": "Oben",
+    "ja": "上",
+    "es": "Superior",
+    "zh-Hans": "顶部",
+    "sv": "Ovankant",
+    "da": "Top",
+    "nl": "Boven",
+    "pl": "Góra",
+    "pt": "Topo",
+    "hi": "ऊपर"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§TOP",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/completions/fold-binding-edge",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Fold or binding edge placed along the top of the product — used for notepads, flip-style calendars, presentation booklets, and landscape-orientation publications. Reader flips pages upward.",
+    "nb": "Folde- eller bindingskant plassert langs toppen av produktet — brukt til notatblokker, kalendere med vippefunksjon, presentasjonshefter og landskaps-orienterte publikasjoner. Leseren blar sidene oppover.",
+    "de": "Falz- oder Bindungskante an der Oberkante des Produkts — verwendet für Notizblöcke, Kalender im Flip-Stil, Präsentationshefte und Publikationen im Querformat. Der Leser blättert die Seiten nach oben.",
+    "ja": "折りまたは綴じの辺が印刷物の上部に配置される — ノート、フリップ式カレンダー、プレゼンテーション用ブックレット、横長の出版物に使用される。読者はページを上方向にめくる。",
+    "es": "Pliegue o encuadernación por la parte superior — habitual en blocs, calendarios y carpetas de presentación.",
+    "zh-Hans": "顶部折页或装订 —— 常见于便签、日历和演示文件夹。",
+    "sv": "Fals eller bindningskant placerad längs produktens ovankant — används för anteckningsblock, vändkalendrar, presentationshäften och publikationer i liggande orientering. Läsaren bläddrar sidorna uppåt.",
+    "da": "Fals- eller indbindingskant placeret langs produktets top — bruges til notesblokke, vendekalendere, præsentationshæfter og udgivelser i liggende orientering. Læseren vender siderne opad.",
+    "nl": "Vouw- of bindzijde langs de bovenkant van het product — gebruikt voor notitieblokken, omslagkalenders, presentatieboekjes en publicaties in liggende oriëntatie. De lezer slaat de pagina's naar boven om.",
+    "pl": "Krawędź złamu lub oprawy umieszczona wzdłuż górnej krawędzi produktu — stosowana w notatnikach, kalendarzach przerzucanych, broszurach prezentacyjnych i publikacjach poziomych. Czytelnik przerzuca strony w górę.",
+    "pt": "Dobra ou encadernação ao longo do topo do produto — usada em blocos de notas, calendários de virar, folhetos de apresentação e publicações em orientação paisagem. O leitor vira as páginas para cima.",
+    "hi": "उत्पाद के ऊपरी किनारे पर फ़ोल्ड या बाइंडिंग — नोटपैड, फ़्लिप-शैली कैलेंडर, प्रेज़ेंटेशन बुकलेट और लैंडस्केप प्रकाशनों में। पाठक पृष्ठ ऊपर की ओर पलटता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Top edge",
+      "Top-edge binding",
+      "Top fold",
+      "Top-bound",
+      "Calendar binding"
+    ],
+    "nb": [
+      "Topp kant",
+      "Toppbundet",
+      "Topp fals"
+    ],
+    "pl": [
+      "krawędź górna",
+      "oprawa górna",
+      "złam górny",
+      "oprawa kalendarzowa"
+    ],
+    "pt": [
+      "borda superior",
+      "encadernação no topo",
+      "dobra no topo",
+      "encadernação de calendário"
+    ],
+    "hi": [
+      "ऊपरी किनारा",
+      "ऊपर की बाइंडिंग",
+      "ऊपर का फ़ोल्ड",
+      "टॉप बाइंडिंग",
+      "कैलेंडर बाइंडिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent"
+      ],
+      "refs": [
+        "§4.3 · p.64"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 47"
+    }
+  ]
+}

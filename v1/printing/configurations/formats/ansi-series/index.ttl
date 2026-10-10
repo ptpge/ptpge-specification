@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/ansi-series> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Papirformater fra American National Standards Institute (ANSI A til E) — Nordamerikas modstykke til ISO A-serien til tekniske tegninger og ingeniørarbejde."@da,
+        "Papierformate des American National Standards Institute (ANSI A bis E), die nordamerikanische Entsprechung zur ISO-A-Reihe für Konstruktions- und technische Zeichnungen."@de,
+        "American National Standards Institute paper sizes (ANSI A through E), the engineering and technical drawing equivalents of the ISO A series in North America."@en,
+        "Tamaños de papel del American National Standards Institute (ANSI A a E), equivalentes para ingeniería y dibujo técnico de la serie ISO A en Norteamérica."@es,
+        "American National Standards Institute के काग़ज़ आकार (ANSI A से E), उत्तर अमेरिका में ISO A-सीरीज़ के इंजीनियरिंग और तकनीकी चित्र समकक्ष।"@hi,
+        "American National Standards Instituteの用紙寸法（ANSI A〜E）。北米におけるエンジニアリングおよび技術図面用のISO Aシリーズ相当。"@ja,
+        "American National Standards Institutes papirstørrelser (ANSI A til E), de nordamerikanske ekvivalentene til ISO A-serien for ingeniør- og tekniske tegninger."@nb,
+        "Papierformaten van het American National Standards Institute (ANSI A tot E) — de Noord-Amerikaanse tegenhanger van de ISO A-reeks voor technische tekeningen en engineering."@nl,
+        "Formaty papieru American National Standards Institute (ANSI A do E), północnoamerykańskie odpowiedniki serii ISO A dla rysunków inżynierskich i technicznych."@pl,
+        "Tamanhos de papel do American National Standards Institute (ANSI A a E), os equivalentes norte-americanos da série A da ISO para desenho técnico e de engenharia."@pt,
+        "Pappersformat från American National Standards Institute (ANSI A till E) — Nordamerikas motsvarighet till ISO A-serien för tekniska ritningar och ingenjörsarbete."@sv,
+        "美国国家标准协会的纸张尺寸（ANSI A到E），北美工程和技术制图领域对应ISO A系列的标准。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-a>,
+        <https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-b>,
+        <https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-c>,
+        <https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-d>,
+        <https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-e> ;
+    skos:notation "P:CF-FMT-ANSI" ;
+    skos:prefLabel "ANSI-serien"@da,
+        "ANSI-Reihe"@de,
+        "ANSI Series"@en,
+        "Serie ANSI"@es,
+        "ANSI सीरीज़"@hi,
+        "ANSI判"@ja,
+        "ANSI-serie"@nb,
+        "ANSI-reeks"@nl,
+        "Seria ANSI"@pl,
+        "Série ANSI"@pt,
+        "ANSI-serien"@sv,
+        "ANSI系列"@zh-Hans ;
+    skos:scopeNote "Fünf Größen: ANSI A (Letter, 8,5 × 11″), ANSI B (Tabloid, 11 × 17″), ANSI C (17 × 22″), ANSI D (22 × 34″), ANSI E (34 × 44″). Anders als die ISO-Reihe wechseln die ANSI-Formate beim Halbieren zwischen zwei Seitenverhältnissen."@de,
+        "Five sizes: ANSI A (Letter, 8.5×11\"), ANSI B (Tabloid, 11×17\"), ANSI C (17×22\"), ANSI D (22×34\"), ANSI E (34×44\"). Unlike the ISO series, ANSI sizes alternate between two aspect ratios when halved."@en,
+        "Cinco tamaños: ANSI A (Carta, 8,5×11\"), ANSI B (Tabloide, 11×17\"), ANSI C (17×22\"), ANSI D (22×34\"), ANSI E (34×44\"). A diferencia de la serie ISO, los tamaños ANSI alternan entre dos relaciones de aspecto al dividirlos por la mitad."@es,
+        "पाँच आकार: ANSI A (Letter, 8.5×11\"), ANSI B (Tabloid, 11×17\"), ANSI C (17×22\"), ANSI D (22×34\"), ANSI E (34×44\")। ISO सीरीज़ के विपरीत, ANSI आकार आधा करने पर दो अनुपातों के बीच बदलते हैं।"@hi,
+        "5つのサイズ：ANSI A（Letter、8.5×11インチ）、ANSI B（Tabloid、11×17インチ）、ANSI C（17×22インチ）、ANSI D（22×34インチ）、ANSI E（34×44インチ）。ISOシリーズと異なり、ANSIサイズは半分にしたとき2つのアスペクト比間で交互に変化する。"@ja,
+        "Fem størrelser: ANSI A (Letter, 8,5×11\"), ANSI B (Tabloid, 11×17\"), ANSI C (17×22\"), ANSI D (22×34\"), ANSI E (34×44\"). I motsetning til ISO-serien veksler ANSI-størrelsene mellom to sideforhold når de deles i to."@nb,
+        "Cinco tamanhos: ANSI A (Letter, 8,5×11\"), ANSI B (Tabloid, 11×17\"), ANSI C (17×22\"), ANSI D (22×34\"), ANSI E (34×44\"). Ao contrário da série ISO, os tamanhos ANSI alternam entre duas proporções quando divididos ao meio."@pt,
+        "五种尺寸：ANSI A（Letter，8.5×11英寸）、ANSI B（Tabloid，11×17英寸）、ANSI C（17×22英寸）、ANSI D（22×34英寸）、ANSI E（34×44英寸）。与ISO系列不同，ANSI对折后宽高比交替变化。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

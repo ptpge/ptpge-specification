@@ -1,0 +1,67 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/audiences",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "notation": "O:AU",
+  "label": {
+    "en": "Audiences",
+    "nb": "Målgrupper",
+    "de": "Zielgruppen",
+    "ja": "ターゲット",
+    "es": "Audiencias",
+    "zh-Hans": "目标受众",
+    "sv": "Målgrupper",
+    "da": "Målgrupper",
+    "nl": "Doelgroepen",
+    "pl": "Grupy odbiorców",
+    "pt": "Públicos",
+    "hi": "लक्षित वर्ग"
+  },
+  "definition": {
+    "en": "Controlled vocabulary describing typical audiences for printed products. Referenced by Product Templates via `ptpge:typicalAudience`, which is a list of URI references into this category. Provides standardised buyer-facing language for search, filtering, and product matching.",
+    "nb": "Kontrollert vokabular som beskriver typiske målgrupper for trykkprodukter. Refereres av Product Templates via `ptpge:typicalAudience`, som er en liste av URI-referanser inn i denne kategorien. Gir standardisert kjøper-rettet språk for søk, filtrering og produktmatching.",
+    "de": "Kontrolliertes Vokabular zur Beschreibung typischer Zielgruppen für Druckprodukte. Wird von Product Templates über `ptpge:typicalAudience` referenziert.",
+    "ja": "印刷物の典型的なターゲット層を記述する統制語彙。Product Templates から `ptpge:typicalAudience`（このカテゴリ内のURI参照のリスト）を介して参照される。検索、フィルタリング、製品マッチングのための、購入者向けに標準化された言語を提供する。",
+    "es": "Vocabulario controlado que describe las audiencias típicas de los productos impresos. Es referenciado por Product Templates mediante `ptpge:typicalAudience`, una lista de referencias URI dentro de esta categoría. Proporciona un lenguaje estandarizado orientado al comprador para búsqueda, filtrado y emparejamiento de productos.",
+    "zh-Hans": "用于描述印刷品典型受众群体的受控词汇。Product Templates 通过 `ptpge:typicalAudience`（指向本类目内 URI 引用的列表）进行引用。为搜索、筛选与产品匹配提供面向买方的标准化用语。",
+    "sv": "Kontrollerad vokabulär som beskriver typiska målgrupper för trycksaker. Refereras av produktmallar via `ptpge:typicalAudience`, en lista med URI-referenser in i denna kategori. Ger ett standardiserat köparvänt språk för sökning, filtrering och produktmatchning.",
+    "da": "Kontrolleret vokabular, der beskriver typiske målgrupper for trykte produkter. Refereres af produktskabeloner via `ptpge:typicalAudience`, som er en liste af URI-referencer ind i denne kategori. Giver standardiseret købersprog til søgning, filtrering og produktmatchning.",
+    "nl": "Gecontroleerd vocabulaire dat typische doelgroepen voor drukwerk beschrijft. Wordt door productsjablonen gerefereerd via `ptpge:typicalAudience`, een lijst van URI-verwijzingen naar deze categorie. Biedt gestandaardiseerde kopersgerichte taal voor zoeken, filteren en productmatching.",
+    "pl": "Kontrolowane słownictwo opisujące typowe grupy odbiorców produktów drukowanych. Przywoływane przez szablony produktów poprzez `ptpge:typicalAudience`, będące listą odwołań URI do tej kategorii. Dostarcza ustandaryzowanego języka zorientowanego na nabywcę do wyszukiwania, filtrowania i dopasowywania produktów.",
+    "pt": "Vocabulário controlado que descreve os públicos típicos dos impressos. Referenciado pelos Modelos de Produto via `ptpge:typicalAudience`, uma lista de referências URI para esta categoria. Fornece linguagem padronizada, voltada ao comprador, para busca, filtragem e correspondência de produtos.",
+    "hi": "मुद्रित उत्पादों के सामान्य लक्षित वर्गों का नियंत्रित शब्दकोश। उत्पाद टेम्पलेट `ptpge:typicalAudience` के ज़रिए इसे संदर्भित करते हैं — इस श्रेणी में URI संदर्भों की सूची। खोज, फ़िल्टर और उत्पाद मिलान के लिए खरीदार-उन्मुख मानकीकृत भाषा देता है।"
+  },
+  "scopeNote": {
+    "en": "v1 ships with 7 initial audiences covering the most common buyer-segment distinctions. The vocabulary expands as new product domains are modelled.",
+    "pt": "A v1 traz 7 públicos iniciais que cobrem as distinções mais comuns de segmento de comprador. O vocabulário cresce à medida que novos domínios de produto são modelados.",
+    "hi": "v1 में 7 प्रारंभिक लक्षित वर्ग हैं जो खरीदार-खंड के सबसे आम भेद कवर करते हैं। नए उत्पाद क्षेत्र मॉडल होने पर शब्दकोश बढ़ता है।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft",
+    "pt": "draft",
+    "hi": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "audiences",
+  "broader": "https://ptpge.org/v1/ordering",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/audiences/b2b",
+    "https://ptpge.org/v1/ordering/audiences/b2c",
+    "https://ptpge.org/v1/ordering/audiences/professional",
+    "https://ptpge.org/v1/ordering/audiences/consumer",
+    "https://ptpge.org/v1/ordering/audiences/institutional",
+    "https://ptpge.org/v1/ordering/audiences/educational",
+    "https://ptpge.org/v1/ordering/audiences/government"
+  ],
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

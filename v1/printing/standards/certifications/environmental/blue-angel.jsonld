@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/environmental/blue-angel",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Blue Angel",
+    "es": "Blue Angel (Der Blaue Engel)",
+    "zh-Hans": "Blue Angel（蓝天使）",
+    "nb": "Blue Angel",
+    "de": "Blue Angel",
+    "ja": "Blue Angel",
+    "sv": "Blue Angel (Der Blaue Engel)",
+    "da": "Blue Angel (Der Blaue Engel)",
+    "nl": "Blue Angel (Der Blaue Engel)",
+    "pl": "Błękitny Anioł",
+    "pt": "Anjo Azul",
+    "hi": "Blue Angel"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§BLUE-ANGEL",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/environmental",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "German government environmental ecolabel (Der Blaue Engel) administered since 1978, certifying products with reduced environmental impact across their full lifecycle.",
+    "nb": "Tysk statlig miljømerke (Der Blaue Engel) administrert siden 1978, som sertifiserer produkter med redusert miljøpåvirkning gjennom hele livssyklusen.",
+    "de": "Deutsches staatliches Umwelt-Ecolabel (Der Blaue Engel), seit 1978 vergeben, zertifiziert Produkte mit reduzierter Umweltbelastung über den gesamten Lebenszyklus.",
+    "ja": "ドイツ政府の環境エコラベル（Der Blaue Engel）。1978年以来運営されており、製品ライフサイクル全体にわたる環境負荷を低減した製品を認証する。",
+    "es": "Etiqueta ecológica del gobierno alemán (Der Blaue Engel) administrada desde 1978, que certifica productos con impacto ambiental reducido a lo largo de todo su ciclo de vida.",
+    "zh-Hans": "德国政府环境生态标签（Der Blaue Engel），自1978年起实施，认证产品在整个生命周期中具有较低环境影响。",
+    "sv": "Tysk statlig miljömärkning (Der Blaue Engel) administrerad sedan 1978, certifierar produkter med minskad miljöpåverkan genom hela livscykeln.",
+    "da": "Tysk statslig miljømærkning (Der Blaue Engel) administreret siden 1978, certificerer produkter med reduceret miljøpåvirkning gennem hele livscyklussen.",
+    "nl": "Duits overheidsecolabel (Der Blaue Engel), beheerd sinds 1978, certificeert producten met verminderde milieu-impact over de volledige levenscyclus.",
+    "pl": "Niemiecki rządowy ekoznak (Der Blaue Engel) prowadzony od 1978 r., certyfikujący produkty o ograniczonym wpływie na środowisko w całym cyklu życia.",
+    "pt": "Rótulo ecológico do governo alemão (Der Blaue Engel), administrado desde 1978, que certifica produtos com impacto ambiental reduzido ao longo de todo o ciclo de vida.",
+    "hi": "जर्मन सरकार का पर्यावरण इकोलेबल (Der Blaue Engel), 1978 से संचालित, जो पूरे जीवनचक्र में कम पर्यावरणीय प्रभाव वाले उत्पादों को प्रमाणित करता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Blauer Engel"
+    ],
+    "pl": [
+      "Blauer Engel",
+      "Blue Angel"
+    ],
+    "pt": [
+      "Blauer Engel",
+      "Blue Angel"
+    ],
+    "hi": [
+      "Blauer Engel",
+      "ब्लू एंजल"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

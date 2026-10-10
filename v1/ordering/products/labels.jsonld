@@ -1,0 +1,238 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/labels",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§LABELS",
+  "elementType": "product",
+  "label": {
+    "en": "Labels",
+    "nb": "Etiketter",
+    "de": "Etiketten",
+    "ja": "ラベル",
+    "es": "Etiquetas",
+    "zh-Hans": "标签",
+    "nl": "Etiketten",
+    "sv": "Etiketter",
+    "da": "Etiketter",
+    "pl": "Etykiety",
+    "pt": "Rótulos e etiquetas",
+    "hi": "लेबल"
+  },
+  "altLabels": {
+    "en": [
+      "Label",
+      "product label",
+      "roll label",
+      "adhesive label"
+    ],
+    "nb": [
+      "Etikett",
+      "etikett",
+      "rulletikett",
+      "produktetikett"
+    ],
+    "de": [
+      "Haftetiketten",
+      "Klebeetiketten",
+      "Rollenetiketten"
+    ],
+    "pl": [
+      "etykieta",
+      "etykieta produktowa",
+      "etykieta na roli",
+      "etykieta samoprzylepna"
+    ],
+    "sv": [
+      "etikett",
+      "produktetikett",
+      "rulletikett",
+      "självhäftande etikett",
+      "etikettark"
+    ],
+    "da": [
+      "etiket",
+      "produktetiket",
+      "rulleetiket",
+      "selvklæbende etiket",
+      "etiketark"
+    ],
+    "nl": [
+      "etiket",
+      "productetiket",
+      "roletiket",
+      "zelfklevend etiket",
+      "etikettenvel"
+    ],
+    "pt": [
+      "etiqueta",
+      "rótulo",
+      "etiqueta adesiva",
+      "rótulo de produto",
+      "etiqueta em rolo",
+      "etiqueta autoadesiva"
+    ],
+    "hi": [
+      "लेबल",
+      "स्टिकर लेबल",
+      "उत्पाद लेबल",
+      "रोल लेबल",
+      "चिपकने वाला लेबल"
+    ],
+    "es": [
+      "etiqueta",
+      "etiqueta adhesiva",
+      "etiqueta de producto",
+      "etiqueta en rollo",
+      "etiqueta autoadhesiva"
+    ],
+    "ja": [
+      "シール",
+      "商品ラベル",
+      "ロールラベル",
+      "粘着ラベル",
+      "ラベルシール"
+    ],
+    "zh-Hans": [
+      "不干胶标签",
+      "产品标签",
+      "卷筒标签",
+      "贴标",
+      "商标标签"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-23T10:00:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A self-adhesive printed label supplied on a roll or sheet — product, packaging, address and branding labels.",
+    "nb": "En selvklebende trykt etikett levert på rull eller ark — produkt-, emballasje-, adresse- og merkevareetiketter.",
+    "de": "Ein selbstklebendes bedrucktes Etikett auf Rolle oder Bogen — Produkt-, Verpackungs- und Adressetiketten.",
+    "ja": "ロールまたはシートで供給される粘着印刷ラベル。商品・包装・宛名・ブランド表示用。",
+    "es": "Una etiqueta impresa autoadhesiva suministrada en rollo o en hoja — etiquetas de producto, embalaje, dirección y marca.",
+    "zh-Hans": "卷装或张装的自粘印刷标签——产品、包装、地址和品牌标签。",
+    "sv": "En självhäftande tryckt etikett levererad på rulle eller ark — produkt-, förpacknings-, adress- och varumärkesetiketter.",
+    "da": "En selvklæbende trykt etiket leveret på rulle eller ark — produkt-, emballage-, adresse- og brandetiketter.",
+    "nl": "Een zelfklevend gedrukt etiket geleverd op rol of vel — product-, verpakkings-, adres- en merketiketten.",
+    "pl": "Samoprzylepna drukowana etykieta dostarczana na roli lub w arkuszu — etykiety produktowe, opakowaniowe, adresowe i brandingowe.",
+    "pt": "Etiqueta autoadesiva impressa fornecida em rolo ou folha — rótulos de produto, embalagem, endereço e marca.",
+    "hi": "रोल या शीट पर दिया जाने वाला स्वयं-चिपकने वाला मुद्रित लेबल — उत्पाद, पैकेजिंग, पता और ब्रांडिंग लेबल।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/roll"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/circle",
+    "https://ptpge.org/v1/printing/configurations/shape/ellipse",
+    "https://ptpge.org/v1/printing/configurations/shape/freeform"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/paper",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/vinyl",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/foil"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 10,
+    "max": 300,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "supportsWindingDirection": [
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-1",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-2",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-3",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-4",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-5",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-6",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-7",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-8"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/features/color-mode",
+    "https://ptpge.org/v1/variables/configuration/shape"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/configuration/winding-direction"
+  ]
+}

@@ -1,0 +1,19 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/vendors/trykkverk-norge> a ptpge:Vendor ;
+    dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T11:01:49+00:00"^^xsd:dateTime ;
+    dcterms:replaces <https://ptpge.org/v1/vendors/trykkverk> ;
+    skos:broader <https://ptpge.org/v1/vendors> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:prefLabel "Trykkverk Norge"@en ;
+    ptpge:identityClaimed true ;
+    ptpge:version "2026-10-06" ;
+    schema:addressCountry "NO" ;
+    schema:url <https://trykkverk.no> .
+

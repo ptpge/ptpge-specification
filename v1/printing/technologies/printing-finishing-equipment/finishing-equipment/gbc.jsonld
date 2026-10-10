@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/gbc",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "GBC (General Binding Corporation)",
+    "es": "GBC",
+    "zh-Hans": "GBC",
+    "nb": "GBC (General Binding Corporation)",
+    "de": "GBC (General Binding Corporation)",
+    "ja": "GBC (General Binding Corporation)",
+    "sv": "GBC (General Binding Corporation)",
+    "da": "GBC (General Binding Corporation)",
+    "nl": "GBC (General Binding Corporation)",
+    "pl": "GBC (General Binding Corporation)",
+    "pt": "GBC (General Binding Corporation)",
+    "hi": "GBC (General Binding Corporation)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "GBC (General Binding Corporation) — American manufacturer of binding equipment, including comb binding, wire binding, thermal binding, and laminating systems.",
+    "nb": "GBC (General Binding Corporation) — amerikansk produsent av innbindingsutstyr, inkludert kambinding, trådbinding, termisk binding og lamineringsystemer.",
+    "de": "GBC (General Binding Corporation) — US-amerikanischer Hersteller von Bindegeräten, einschließlich Plastikbindung, Drahtbindung, Thermobindung und Laminiersystemen.",
+    "ja": "GBC（General Binding Corporation）— 米国の製本機器メーカー。コーム綴じ、ワイヤー綴じ、サーマル綴じ、ラミネートシステムを扱う。",
+    "es": "General Binding Corporation (GBC) — fabricante estadounidense de equipo de encuadernación, plastificado y acabado para oficina y producción.",
+    "zh-Hans": "General Binding Corporation (GBC) —— 美国办公和生产装订、覆膜及印后设备制造商。",
+    "sv": "GBC (General Binding Corporation) — amerikansk tillverkare av bindningsutrustning, inklusive spiralbindning, wirebindning, termobindning och lamineringssystem.",
+    "da": "GBC (General Binding Corporation) — amerikansk producent af indbindingsudstyr, herunder spiralindbinding, wireindbinding, termoindbinding og lamineringssystemer.",
+    "nl": "GBC (General Binding Corporation) — Amerikaanse fabrikant van bindapparatuur, waaronder kambinding, draadbinding, thermobinding en lamineersystemen.",
+    "pl": "GBC (General Binding Corporation) — amerykański producent urządzeń do oprawy, w tym bindownic grzebieniowych, drutowych, termicznych i systemów laminowania.",
+    "pt": "GBC (General Binding Corporation) — fabricante americano de equipamentos de encadernação, incluindo espiral plástica (comb), wire-o, encadernação térmica e sistemas de laminação.",
+    "hi": "GBC (General Binding Corporation) — बाइंडिंग उपकरणों का अमेरिकी निर्माता, जिसमें कॉम्ब बाइंडिंग, वायर बाइंडिंग, थर्मल बाइंडिंग और लैमिनेटिंग सिस्टम शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-GBC",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

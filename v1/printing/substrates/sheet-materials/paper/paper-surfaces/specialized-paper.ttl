@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/specialized-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Special paper"@en,
+        "Specialty paper"@en,
+        "विशेष काग़ज़"@hi,
+        "सिंथेटिक पेपर"@hi,
+        "स्पेशल पेपर"@hi,
+        "Spesialpapir"@nb,
+        "papier specjalistyczny"@pl,
+        "papier specjalny"@pl,
+        "papel especial"@pt,
+        "papel sintético"@pt,
+        "papel técnico"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces> ;
+    skos:definition "Specialpapirer med ikke-standardoverflader — syntetiske film (vandafvisende til udendørs brug), fluorescerende papirer, sikkerhedspapirer og andre overflader designet til specifikke funktionelle krav."@da,
+        "Spezialpapiere mit nicht-standardisierten Oberflächen — Synthetikfolien (wasserfest für den Außeneinsatz), fluoreszierende Papiere, Sicherheitspapiere und andere Oberflächen, die für spezifische funktionale Anforderungen ausgelegt sind."@de,
+        "Specialty papers with non-standard surfaces — synthetic films (water-resistant for outdoor use), fluorescent papers, security papers, and other surfaces designed for specific functional requirements."@en,
+        "Papeles especiales con tratamientos o características funcionales específicas — magnéticos, transferibles, fluorescentes, papel para impresoras térmicas, etc."@es,
+        "ग़ैर-मानक सतहों वाले विशेष काग़ज़ — सिंथेटिक फ़िल्म (बाहरी उपयोग के लिए जल-रोधी), फ़्लोरेसेंट काग़ज़, सुरक्षा काग़ज़ और विशिष्ट कार्यात्मक आवश्यकताओं के लिए बनी अन्य सतहें।"@hi,
+        "標準外の表面を持つ特殊紙 — 合成フィルム（屋外用の耐水）、蛍光紙、セキュリティ紙、その他特定の機能要件のために設計された表面。"@ja,
+        "Spesialpapirer med ikke-standardiserte overflater — syntetiske filmer (vannbestandig for utendørs bruk), fluorescerende papirer, sikkerhetspapirer og andre overflater laget for spesifikke funksjonelle krav."@nb,
+        "Speciaalpapieren met afwijkende oppervlakken — synthetische films (watervast voor buitengebruik), fluorescerende papieren, veiligheidspapieren en andere oppervlakken voor specifieke functionele eisen."@nl,
+        "Papiery specjalne o niestandardowych powierzchniach — folie syntetyczne (wodoodporne do zastosowań zewnętrznych), papiery fluorescencyjne, papiery zabezpieczone i inne powierzchnie zaprojektowane pod konkretne wymagania funkcjonalne."@pl,
+        "Papéis especiais com superfícies não padrão — filmes sintéticos (resistentes à água para uso externo), papéis fluorescentes, papéis de segurança e outras superfícies projetadas para requisitos funcionais específicos."@pt,
+        "Specialpapper med icke-standardiserade ytor — syntetfilmer (vattenbeständiga för utomhusbruk), fluorescerande papper, säkerhetspapper och andra ytor designade för specifika funktionskrav."@sv,
+        "具有特定功能特性的特殊纸 —— 磁性、转印、荧光、热敏打印机用纸等。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§SPECIALIZED-PAPER" ;
+    skos:prefLabel "Specialpapir (variabel)"@da,
+        "Spezialpapier (variabel)"@de,
+        "Specialized Paper (Variable)"@en,
+        "Papel Especializado"@es,
+        "विशेष काग़ज़ (परिवर्तनशील)"@hi,
+        "特殊紙（可変）"@ja,
+        "Spesialpapir (variabel)"@nb,
+        "Speciaalpapier (variabel)"@nl,
+        "Papier specjalny (zmienne)"@pl,
+        "Papel especial (variável)"@pt,
+        "Specialpapper (varierande)"@sv,
+        "特殊纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

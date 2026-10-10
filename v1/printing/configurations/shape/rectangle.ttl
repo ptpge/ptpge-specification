@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/shape/rectangle> a skos:Concept ;
+    dcterms:created "2026-06-19T10:33:12+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Rectangular"@en,
+        "Square-cornered"@en,
+        "Standard shape"@en,
+        "आयताकार"@hi,
+        "मानक आकृति"@hi,
+        "सीधे कोने"@hi,
+        "Firkantet"@nb,
+        "Rektangulær"@nb,
+        "kształt standardowy"@pl,
+        "prostokątny"@pl,
+        "z prostymi rogami"@pl,
+        "cantos retos"@pt,
+        "forma padrão"@pt,
+        "retangular"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/shape> ;
+    skos:definition "Standard firesidet rektangulær kontur — grundformen for de fleste tryksager; kræver ingen særlig skæring."@da,
+        "Rechteckiger Standardumriss — die Grundform der meisten Druckprodukte, ohne Sonderschnitt."@de,
+        "Standard four-sided rectangular outline — the default form for most printed products, requiring no special cutting."@en,
+        "Contorno rectangular estándar de cuatro lados — la forma por defecto de la mayoría de los productos impresos, sin corte especial."@es,
+        "मानक चार-भुजा आयताकार रूपरेखा — अधिकांश मुद्रित उत्पादों का डिफ़ॉल्ट रूप, जिसमें विशेष कटाई नहीं चाहिए।"@hi,
+        "標準的な四辺形（長方形）の輪郭 — 特別な断裁を要しない、多くの印刷物の既定形状。"@ja,
+        "Standard firkantet rektangulært omriss — standardformen for de fleste trykkprodukter, krever ingen spesiell skjæring."@nb,
+        "Standaard vierzijdige rechthoekige contour — de basisvorm van het meeste drukwerk; vereist geen bijzondere snijbewerking."@nl,
+        "Standardowy czteroboczny obrys prostokątny — domyślna forma większości produktów drukowanych, niewymagająca specjalnego cięcia."@pl,
+        "Contorno retangular padrão de quatro lados — a forma padrão da maioria dos impressos, sem corte especial."@pt,
+        "Standardmässig fyrsidig rektangulär kontur — grundformen för de flesta trycksaker, kräver ingen särskild skärning."@sv,
+        "标准四边矩形轮廓 — 大多数印刷品的默认形状，无需特殊切割。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§RECTANGLE" ;
+    skos:prefLabel "Rektangel"@da,
+        "Rechteck"@de,
+        "Rectangle"@en,
+        "Rectángulo"@es,
+        "आयत"@hi,
+        "長方形"@ja,
+        "Rektangel"@nb,
+        "Rechthoek"@nl,
+        "Prostokąt"@pl,
+        "Retângulo"@pt,
+        "Rektangel"@sv,
+        "矩形"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.13 · p.81" ;
+            ptpge:mappingRow "crosswalk row 22" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "ShapeCuttingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

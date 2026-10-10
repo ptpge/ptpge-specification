@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/agfa-apogee-prepress",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Agfa Apogee Prepress",
+    "es": "Agfa Apogee Prepress",
+    "zh-Hans": "Agfa Apogee Prepress",
+    "nb": "Agfa Apogee Prepress",
+    "de": "Agfa Apogee Prepress",
+    "ja": "Agfa Apogee Prepress",
+    "sv": "Agfa Apogee Prepress",
+    "da": "Agfa Apogee Prepress",
+    "nl": "Agfa Apogee Prepress",
+    "pl": "Agfa Apogee Prepress",
+    "pt": "Agfa Apogee Prepress",
+    "hi": "Agfa Apogee Prepress"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§AGFA-APOGEE-PREPRESS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Agfa Apogee Prepress — automation system from Agfa Graphics that handles preflight, normalization, color management, and imposition for offset and digital print production.",
+    "nb": "Agfa Apogee Prepress — automasjonssystem fra Agfa Graphics som håndterer preflight, normalisering, fargestyring og impositioning for offset- og digital trykkproduksjon.",
+    "de": "Agfa Apogee Prepress — Automatisierungssystem von Agfa Graphics für Preflight, Normalisierung, Farbmanagement und Ausschießen in der Offset- und Digitalproduktion.",
+    "ja": "Agfa Apogee Prepress — Agfa Graphicsによる自動化システム。オフセットおよびデジタル印刷生産のためのプリフライト、正規化、カラーマネジメント、面付けを処理する。",
+    "es": "Solución integrada de pre-prensa de Agfa Graphics que incluye preflight de archivos como parte del flujo de procesamiento desde el envío del trabajo hasta la salida en plancha o digital.",
+    "zh-Hans": "Agfa Graphics的集成印前解决方案，文件飞检是从作业提交到印版或数码输出的处理流程的一部分。",
+    "sv": "Agfa Apogee Prepress — automationssystem från Agfa Graphics som hanterar preflight, normalisering, färghantering och utskjutning för offset- och digitaltryckproduktion.",
+    "da": "Agfa Apogee Prepress — automatiseringssystem fra Agfa Graphics, der håndterer preflight, normalisering, farvestyring og udskydning for offset- og digitaltrykproduktion.",
+    "nl": "Agfa Apogee Prepress — automatiseringssysteem van Agfa Graphics voor preflight, normalisatie, kleurbeheer en impositie voor offset- en digitale drukproductie.",
+    "pl": "Agfa Apogee Prepress — system automatyzacji firmy Agfa Graphics obsługujący preflight, normalizację, zarządzanie barwą i impozycję dla produkcji offsetowej i cyfrowej.",
+    "pt": "Agfa Apogee Prepress — sistema de automação da Agfa Graphics que trata preflight, normalização, gerenciamento de cor e imposição para produção de impressão offset e digital.",
+    "hi": "Agfa Apogee Prepress — Agfa Graphics का स्वचालन सिस्टम जो ऑफसेट और डिजिटल प्रिंट उत्पादन के लिए प्रीफ़्लाइट, नॉर्मलाइज़ेशन, रंग प्रबंधन और इम्पोज़िशन संभालता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Preflight",
+        "PreflightParams",
+        "PreflightReport",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.4.14 · p.100",
+        "§6.64 · p.249",
+        "§6.65 · p.250",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 13"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

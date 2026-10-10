@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+  "type": "skos:Concept",
+  "version": "2026-06-17",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "Fogra39",
+    "nb": "Fogra39",
+    "sv": "Fogra39",
+    "da": "Fogra39",
+    "nl": "Fogra39",
+    "pl": "Fogra39",
+    "pt": "Fogra39",
+    "hi": "Fogra39"
+  },
+  "notation": "P:ST§FOGRA39",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-06-17T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Fogra characterization dataset for ISO 12647-2 coated paper (FOGRA39), widely used for ICC profiling.",
+    "nb": "Fogra-karakteriseringsdatasett for ISO 12647-2 bestrøket papir (FOGRA39), mye brukt for ICC-profilering.",
+    "de": "Fogra-Charakterisierungsdatensatz für gestrichenes Papier nach ISO 12647-2 (FOGRA39), weit verbreitet für ICC-Profilierung.",
+    "es": "Conjunto de caracterización Fogra para papel estucado según ISO 12647-2 (FOGRA39), muy usado para perfilado ICC.",
+    "ja": "ISO 12647-2 塗工紙向けの Fogra 特性化データセット（FOGRA39）。ICC プロファイル作成に広く使われる。",
+    "zh-Hans": "ISO 12647-2 涂布纸的 Fogra 特性化数据集（FOGRA39），广泛用于 ICC 特性文件制作。",
+    "sv": "Fogra-karakteriseringsdata för bestruket papper enligt ISO 12647-2 (FOGRA39), brett använd för ICC-profilering.",
+    "da": "Fogra-karakteriseringsdata for bestrøget papir efter ISO 12647-2 (FOGRA39), bredt anvendt til ICC-profilering.",
+    "nl": "Fogra-karakteriseringsdata voor gestreken papier volgens ISO 12647-2 (FOGRA39), breed gebruikt voor ICC-profilering.",
+    "pl": "Zbiór charakteryzacji Fogra dla papieru powlekanego wg ISO 12647-2 (FOGRA39), szeroko używany do profilowania ICC.",
+    "pt": "Conjunto de dados de caracterização Fogra para papel revestido ISO 12647-2 (FOGRA39), amplamente usado para criação de perfis ICC.",
+    "hi": "ISO 12647-2 कोटेड काग़ज़ के लिए Fogra लक्षण-वर्णन डेटासेट (FOGRA39), ICC प्रोफ़ाइलिंग के लिए व्यापक रूप से प्रयुक्त।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "FOGRA39",
+      "Fogra 39",
+      "ISO Coated v2"
+    ],
+    "pl": [
+      "Fogra 39",
+      "ISO Coated v2"
+    ],
+    "pt": [
+      "FOGRA39",
+      "Fogra 39",
+      "ISO Coated v2"
+    ],
+    "hi": [
+      "FOGRA39",
+      "Fogra 39",
+      "ISO Coated v2"
+    ]
+  }
+}

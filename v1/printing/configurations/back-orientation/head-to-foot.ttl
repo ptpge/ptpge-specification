@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "TwoSidedHeadToFoot"@en,
+        "Work and tumble"@en,
+        "TwoSidedHeadToFoot"@hi,
+        "ऊपर से पलटना"@hi,
+        "वर्क एंड टंबल"@hi,
+        "TwoSidedHeadToFoot"@pl,
+        "odwracanie przez oś poprzeczną"@pl,
+        "TwoSidedHeadToFoot"@pt,
+        "virar pelo topo"@pt,
+        "work and tumble"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/back-orientation> ;
+    skos:definition "Bagsiden er roteret 180° i forhold til forsiden — blad arket over topkanten og begge læses retvendt. Typisk for vægkalendere. XJDF: TwoSidedHeadToFoot."@da,
+        "Die Rückseite ist um 180° gegenüber der Vorderseite gedreht — über die Oberkante gewendet lesen sich beide aufrecht. Typisch für Wandkalender. XJDF: TwoSidedHeadToFoot."@de,
+        "The back side is rotated 180° relative to the front — flip the sheet over the top edge and both read upright. Typical for wall calendars hung as a flipped sheet. XJDF: TwoSidedHeadToFoot."@en,
+        "El reverso está girado 180° respecto al anverso: al pasar la hoja por el borde superior, ambos se leen derechos. Típico de calendarios de pared. XJDF: TwoSidedHeadToFoot."@es,
+        "पिछला हिस्सा सामने के सापेक्ष 180° घूमा हुआ — शीट को ऊपरी किनारे से पलटें तो दोनों सीधे पढ़े जाते हैं। ऊपर से पलटकर टाँगे जाने वाले दीवार कैलेंडरों में सामान्य। XJDF: TwoSidedHeadToFoot।"@hi,
+        "裏面が表面に対して180°回転。用紙を上辺でめくると両面とも正しい向きで読める。壁掛けカレンダーに典型的。XJDF: TwoSidedHeadToFoot。"@ja,
+        "Baksiden er rotert 180° i forhold til forsiden — bla arket over toppkanten og begge leses rett. Typisk for veggkalendere. XJDF: TwoSidedHeadToFoot."@nb,
+        "De achterzijde is 180° gedraaid ten opzichte van de voorzijde — over de bovenrand omgeslagen lezen beide rechtop. Typisch voor wandkalenders. XJDF: TwoSidedHeadToFoot."@nl,
+        "Rewers obrócony o 180° względem awersu — po przewróceniu arkusza przez górną krawędź obie strony czyta się prosto. Typowe dla kalendarzy ściennych zawieszanych jako przewracany arkusz. XJDF: TwoSidedHeadToFoot."@pl,
+        "O verso está girado 180° em relação à frente — vire a folha pela borda superior e ambos ficam na posição de leitura. Típico de calendários de parede pendurados como folha virada. XJDF: TwoSidedHeadToFoot."@pt,
+        "Baksidan är roterad 180° i förhållande till framsidan — bläddra arket över överkanten och båda läses rättvända. Typiskt för väggkalendrar. XJDF: TwoSidedHeadToFoot."@sv,
+        "背面相对正面旋转180°——从顶边翻页时两面均正向可读。挂历的典型做法。XJDF：TwoSidedHeadToFoot。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§HEAD-TO-FOOT" ;
+    skos:prefLabel "Top-mod-fod"@da,
+        "Kopf-an-Fuß"@de,
+        "Head-to-foot"@en,
+        "Cabeza con pie"@es,
+        "हेड-टू-फ़ुट"@hi,
+        "天地逆"@ja,
+        "Topp-mot-bunn"@nb,
+        "Kop-aan-voet"@nl,
+        "Głowa do stopy"@pl,
+        "Cabeça com pé"@pt,
+        "Huvud-mot-fot"@sv,
+        "天对地"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78" ;
+            ptpge:mappingRow "LayoutIntent@Sides" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "LayoutIntent@Sides" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

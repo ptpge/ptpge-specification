@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/foil-stamping",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Foil Stamping",
+    "nb": "Foliepreging",
+    "de": "Folienprägung",
+    "ja": "箔押し",
+    "es": "Estampado con lámina",
+    "zh-Hans": "烫箔",
+    "sv": "Foliering",
+    "da": "Folieprægning",
+    "nl": "Foliedruk",
+    "pl": "Folia na gorąco",
+    "pt": "Hot stamping",
+    "hi": "फ़ॉइल स्टैंपिंग"
+  },
+  "altLabels": {
+    "en": [
+      "Hot Foil Stamping",
+      "Foil Printing"
+    ],
+    "nb": [
+      "Varmpreging",
+      "Folietrykk"
+    ],
+    "nl": [
+      "folie"
+    ],
+    "pl": [
+      "hot stamping",
+      "hot-print",
+      "złocenie folią",
+      "druk folią"
+    ],
+    "pt": [
+      "hot stamping",
+      "estampagem a quente",
+      "foil",
+      "impressão com foil",
+      "gravação a quente"
+    ],
+    "hi": [
+      "हॉट फ़ॉइल स्टैंपिंग",
+      "फ़ॉइल प्रिंटिंग",
+      "फ़ॉइलिंग",
+      "गोल्ड फ़ॉइल छपाई"
+    ]
+  },
+  "definition": {
+    "en": "Hot-foil stamping presses a thin metallic or pigmented foil onto the substrate using a heated die. The foil bonds to the substrate in the shape of the die. Provides reflective metallic finishes, holographic effects, or pigmented colour effects.",
+    "nb": "Varmfolie-preging presser en tynn metallisk eller pigmentert folie på substratet med en oppvarmet die. Folien binder seg til substratet i form av die-en. Gir reflekterende metalliske finisher, holografiske effekter eller pigmenterte fargeeffekter.",
+    "de": "Heißfolienprägung presst eine dünne metallische oder pigmentierte Folie mit einem beheizten Stempel auf das Substrat.",
+    "ja": "箔押しは、熱と圧力を用いて型で金属または顔料の箔を基材に施す装飾加工。光沢のある、反射する、または着色された層を生み出し、プレミアムパッケージ、表紙、招待状、名刺のアクセントによく使用される。",
+    "es": "El estampado con lámina es un embellecimiento decorativo que aplica una lámina metálica o pigmentada al sustrato mediante calor y presión con un troquel. Produce una capa brillante, reflectante o coloreada que se usa habitualmente para acentos en embalaje premium, portadas, invitaciones y tarjetas de visita.",
+    "zh-Hans": "烫箔（Foil Stamping）是一种装饰性加工，通过模具利用热与压力将金属或颜料箔片施加到承印物上。产生具光泽、反光或着色的层，常用于高档包装、封面、邀请函和名片上的装饰元素。",
+    "sv": "Varmfoliering pressar en tunn metallisk eller pigmenterad folie mot substratet med ett uppvärmt verktyg. Folien fäster på substratet i verktygets form. Ger reflekterande metalliska finisher, holografiska effekter eller pigmenterade färgeffekter.",
+    "da": "Varmfolieprægning presser en tynd metallisk eller pigmenteret folie på substratet med en opvarmet matrice. Folien binder til substratet i matricens form. Giver reflekterende metalfinish, holografiske effekter og dækkende farver.",
+    "nl": "Warmfoliedruk perst een dunne metallic of gepigmenteerde folie op het substraat met een verwarmde stempel. De folie hecht aan het substraat in de vorm van de stempel. Geeft reflecterende metallic afwerkingen, holografische effecten en dekkende kleuren.",
+    "pl": "Tłoczenie folią na gorąco dociska cienką folię metaliczną lub pigmentowaną do podłoża za pomocą podgrzanej matrycy. Folia wiąże się z podłożem w kształcie matrycy. Daje odbijające wykończenia metaliczne, efekty holograficzne lub efekty barwne pigmentowane.",
+    "pt": "O hot stamping prensa uma fina lâmina (foil) metálica ou pigmentada sobre o substrato com uma matriz aquecida. O foil adere ao substrato no formato da matriz. Dá acabamentos metálicos reflexivos, efeitos holográficos ou efeitos de cor pigmentada.",
+    "hi": "हॉट-फ़ॉइल स्टैंपिंग गर्म डाई से पतली मेटैलिक या रंजित फ़ॉइल को सब्सट्रेट पर दबाती है। फ़ॉइल डाई के आकार में सब्सट्रेट से चिपक जाती है। परावर्तक मेटैलिक फ़िनिश, होलोग्राफ़िक प्रभाव या रंजित रंग प्रभाव देती है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments",
+  "narrower": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/holographic",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/custom-foil"
+  ],
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT-EMB-FOIL",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent"
+      ],
+      "refs": [
+        "§4.6 · p.74"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 25"
+    }
+  ]
+}

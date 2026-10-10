@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics> ;
+    skos:definition "ISO 32000-standard for at repræsentere dokumenter uafhængigt af software, hardware og operativsystem — bevarer nøjagtigt layout, skrifter og grafik."@da,
+        "ISO-Standard 32000 zur Darstellung von Dokumenten unabhängig von Anwendungssoftware, Hardware und Betriebssystem — bewahrt Layout, Schriften und Grafiken exakt."@de,
+        "ISO 32000 standard for representing documents independently of application software, hardware, and operating systems — preserving exact layout, fonts, and graphics."@en,
+        "Norma ISO 32000 para representar documentos de forma independiente del software de aplicación, hardware y sistema operativo — preservando la maquetación, fuentes y gráficos exactos."@es,
+        "एप्लिकेशन सॉफ़्टवेयर, हार्डवेयर और ऑपरेटिंग सिस्टम से स्वतंत्र दस्तावेज़ प्रस्तुत करने का ISO 32000 मानक — सटीक लेआउट, फ़ॉन्ट और ग्राफ़िक्स संरक्षित।"@hi,
+        "アプリケーションソフトウェア、ハードウェア、オペレーティングシステムから独立して文書を表現するためのISO 32000規格 — 正確なレイアウト、フォント、グラフィックスを保持する。"@ja,
+        "ISO 32000-standarden for å representere dokumenter uavhengig av applikasjonsprogramvare, maskinvare og operativsystemer — med bevart eksakt layout, fonter og grafikk."@nb,
+        "ISO 32000-standaard voor het weergeven van documenten onafhankelijk van software, hardware en besturingssysteem — behoudt exacte lay-out, lettertypen en graphics."@nl,
+        "Norma ISO 32000 reprezentacji dokumentów niezależnie od oprogramowania, sprzętu i systemu operacyjnego — zachowująca dokładny układ, fonty i grafikę."@pl,
+        "Norma ISO 32000 para representar documentos independentemente de software, hardware e sistema operacional — preservando exatamente layout, fontes e gráficos."@pt,
+        "ISO 32000-standard för att representera dokument oberoende av programvara, hårdvara och operativsystem — bevarar exakt layout, typsnitt och grafik."@sv,
+        "ISO 32000标准，用于独立于应用软件、硬件和操作系统表示文档——保留确切的版面、字体和图形。"@zh-Hans ;
+    skos:exactMatch <https://www.iso.org/standard/75839.html> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-archiving>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-engineering>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-exchange>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-universal-accessibility>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-variable-transactional> ;
+    skos:notation "P:ST-GFF-HYBR-PDF" ;
+    skos:prefLabel "Portable Document Format (.pdf)"@da,
+        "Portable Document Format (.pdf)"@de,
+        "Portable Document Format (.pdf)"@en,
+        "Portable Document Format (.pdf)"@es,
+        "Portable Document Format (.pdf)"@hi,
+        "Portable Document Format（.pdf）"@ja,
+        "Portable Document Format (.pdf)"@nb,
+        "Portable Document Format (.pdf)"@nl,
+        "Portable Document Format (.pdf)"@pl,
+        "Portable Document Format (.pdf)"@pt,
+        "Portable Document Format (.pdf)"@sv,
+        "便携式文档格式（.pdf）"@zh-Hans ;
+    skos:scopeNote "Mehrere ISO-Untermengen zielen auf spezifische Anwendungsfälle: PDF/X für den Druckaustausch, PDF/A für die Archivierung, PDF/E für den Ingenieurbereich, PDF/UA für Barrierefreiheit, PDF/VT für variablen und transaktionalen Druck. Die Basis-PDF-Spezifikation ist das Fundament; jede Untermenge schränkt sie ein."@de,
+        "Multiple ISO subsets target specific use cases: PDF/X for print exchange, PDF/A for archiving, PDF/E for engineering, PDF/UA for accessibility, PDF/VT for variable and transactional printing. The base PDF specification is the foundation; each subset constrains it."@en,
+        "Múltiples sub-conjuntos ISO se dirigen a casos de uso específicos: PDF/X para intercambio de impresión, PDF/A para archivo, PDF/E para ingeniería, PDF/UA para accesibilidad, PDF/VT para impresión variable y transaccional. La especificación base PDF cubre la mayoría de los flujos de documento generales."@es,
+        "कई ISO उपसमुच्चय विशिष्ट उपयोग लक्षित करते हैं: प्रिंट विनिमय के लिए PDF/X, संग्रहण के लिए PDF/A, इंजीनियरिंग के लिए PDF/E, सुगम्यता के लिए PDF/UA, वेरिएबल और ट्रांज़ैक्शनल प्रिंटिंग के लिए PDF/VT। मूल PDF विनिर्देश आधार है; हर उपसमुच्चय उसे सीमित करता है।"@hi,
+        "複数のISOサブセットが特定のユースケースを対象とする：印刷交換用のPDF/X、アーカイブ用のPDF/A、エンジニアリング用のPDF/E、アクセシビリティ用のPDF/UA、可変・トランザクション印刷用のPDF/VT。基本のPDF仕様が基盤であり、各サブセットがそれを制約する。"@ja,
+        "Flere ISO-undermengder retter seg mot spesifikke brukstilfeller: PDF/X for trykkutveksling, PDF/A for arkivering, PDF/E for ingeniørarbeid, PDF/UA for tilgjengelighet, PDF/VT for variabelt og transaksjons-trykk. Grunn-PDF-spesifikasjonen er fundamentet; hver undermengde innskrenker den."@nb,
+        "Vários subconjuntos ISO visam casos de uso específicos: PDF/X para troca de impressão, PDF/A para arquivamento, PDF/E para engenharia, PDF/UA para acessibilidade, PDF/VT para impressão variável e transacional. A especificação PDF base é o fundamento; cada subconjunto a restringe."@pt,
+        "多个ISO子集针对特定用例：PDF/X用于印刷交换、PDF/A用于归档、PDF/E用于工程、PDF/UA用于无障碍、PDF/VT用于可变和事务性印刷。基础PDF规范涵盖大多数通用文档工作流程。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/varnish/gloss-varnish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:FT§GLOSS-VARNISH",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Gloss Varnish",
+    "nb": "Blank lakk",
+    "de": "Glanzlack",
+    "ja": "Gloss Varnish",
+    "es": "Gloss Varnish",
+    "zh-Hans": "Gloss Varnish",
+    "sv": "Blank lack",
+    "da": "Blank lak",
+    "nl": "Glanslak",
+    "pl": "Lakier błyszczący",
+    "pt": "Verniz brilho",
+    "hi": "ग्लॉस वार्निश"
+  },
+  "definition": {
+    "en": "A varnish that produces a high-sheen, reflective finish.",
+    "nb": "Lakk som gir et blankt, reflekterende uttrykk.",
+    "de": "Lack, der eine glänzende, reflektierende Oberfläche erzeugt.",
+    "ja": "高光沢で反射のある仕上げになるニス。",
+    "es": "Un barniz que produce un acabado reflectante de alto brillo.",
+    "zh-Hans": "产生高光泽反射效果的上光油。",
+    "sv": "En lack som ger en högglansig, reflekterande finish.",
+    "da": "En lak, der giver en stærkt skinnende, reflekterende finish.",
+    "nl": "Een lak die een sterk glanzende, reflecterende afwerking geeft.",
+    "pl": "Lakier dający wykończenie o wysokim połysku, odbijające światło.",
+    "pt": "Verniz que produz um acabamento reflexivo de alto brilho.",
+    "hi": "उच्च-चमक, परावर्तक फ़िनिश देने वाला वार्निश।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/varnish",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Glossy varnish",
+      "High-gloss varnish"
+    ],
+    "nb": [
+      "Blank lakk",
+      "Glanslakk"
+    ],
+    "pl": [
+      "lakier błysk",
+      "lakier wysokopołyskowy"
+    ],
+    "pt": [
+      "verniz brilhante",
+      "verniz alto brilho"
+    ],
+    "hi": [
+      "ग्लॉसी वार्निश",
+      "चमकीला वार्निश",
+      "हाई-ग्लॉस वार्निश"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ]
+}

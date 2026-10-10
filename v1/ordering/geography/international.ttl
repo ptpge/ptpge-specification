@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/international> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/geography> ;
+    skos:definition "International — geografisk facet for globalt anvendelige standarder og tilbud, brugt når en term eller et tilbud ikke er bundet til noget enkelt land eller nogen enkelt region."@da,
+        "International — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen."@de,
+        "International — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping."@en,
+        "International — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega."@es,
+        "अंतरराष्ट्रीय — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"@hi,
+        "International — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。"@ja,
+        "International — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning."@nb,
+        "Internationaal — geografische facet voor wereldwijd toepasbare standaarden en aanbiedingen, gebruikt wanneer een term of aanbieding niet aan één land of regio gebonden is."@nl,
+        "Międzynarodowy — aspekt geograficzny na poziomie kraju używany do specyfikacji produktu, dopasowania standardów regionalnych, listowania dostawców i zakresu wysyłki/dostawy."@pl,
+        "Internacional — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega."@pt,
+        "Internationell — geografisk facett för globalt tillämpliga standarder och erbjudanden, använd för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans."@sv,
+        "International——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:GY§INTERNATIONAL" ;
+    skos:prefLabel "International"@da,
+        "International"@de,
+        "International"@en,
+        "Internacional"@es,
+        "अंतरराष्ट्रीय"@hi,
+        "国際"@ja,
+        "Internasjonal"@nb,
+        "Internationaal"@nl,
+        "Międzynarodowy"@pl,
+        "Internacional"@pt,
+        "Internationell"@sv,
+        "国际"@zh-Hans ;
+    ptpge:group "geography" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

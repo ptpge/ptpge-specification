@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-eu",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Business Card EU (85 x 55 mm)",
+    "es": "Tarjeta de Visita UE (85 × 55 mm)",
+    "zh-Hans": "欧盟名片 (85 × 55 mm)",
+    "nb": "Business Card EU (85 x 55 mm)",
+    "de": "Business Card EU (85 x 55 mm)",
+    "ja": "Business Card EU (85 x 55 mm)",
+    "nl": "Visitekaartje EU (85 x 55 mm)",
+    "sv": "Visitkort EU (85 x 55 mm)",
+    "da": "Visitkort EU (85 x 55 mm)",
+    "pl": "Wizytówka UE (85 x 55 mm)",
+    "pt": "Cartão de visita UE (85 x 55 mm)",
+    "hi": "विज़िटिंग कार्ड EU (85 x 55 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§BUSINESS-CARD-EU",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/business-cards",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "85 × 55 mm. The standard business card size across most of Europe (except Scandinavia, which favors 90 × 55 mm). Same aspect ratio as a credit card; fits standard wallets and card holders.",
+    "nb": "85 × 55 mm. Standard visittkortstørrelse i det meste av Europa (unntatt Skandinavia, som foretrekker 90 × 55 mm). Samme sideforhold som et kredittkort; passer i standard lommebøker og kortholdere.",
+    "de": "85 × 55 mm. Das Standardvisitenkartenformat in den meisten Ländern Europas (außer Skandinavien, das 90 × 55 mm bevorzugt). Gleiches Seitenverhältnis wie eine Kreditkarte; passt in handelsübliche Geldbörsen und Kartenetuis.",
+    "ja": "85×55mm。欧州大陸の大半（90×55mmを好む北欧を除く）の標準名刺サイズ。クレジットカードと同じアスペクト比で、標準的な財布やカードホルダーに収まる。",
+    "es": "Tarjeta de visita estándar europea, 85 × 55 mm — misma relación de aspecto que una tarjeta de crédito (ISO/IEC 7810 ID-1).",
+    "zh-Hans": "欧洲标准名片，85 × 55 毫米 —— 与信用卡相同的宽高比（ISO/IEC 7810 ID-1）。",
+    "sv": "85 × 55 mm. Standardvisitkortsformatet i större delen av Europa (utom Skandinavien, som föredrar 90 × 55 mm). Samma proportioner som ett kreditkort; passar vanliga plånböcker och korthållare.",
+    "da": "85 × 55 mm. Standardvisitkortformatet i det meste af Europa (undtagen Skandinavien, som foretrækker 90 × 55 mm). Samme proportioner som et kreditkort; passer i almindelige punge og kortholdere.",
+    "nl": "85 × 55 mm. Het standaardformaat voor visitekaartjes in het grootste deel van Europa (behalve Scandinavië, dat de voorkeur geeft aan 90 × 55 mm). Dezelfde verhoudingen als een creditcard; past in gewone portemonnees en kaarthouders.",
+    "pl": "85 × 55 mm. Standardowy format wizytówki w większości Europy (poza Skandynawią, która preferuje 90 × 55 mm). Te same proporcje co karta kredytowa; mieści się w standardowych portfelach i wizytownikach.",
+    "pt": "85 × 55 mm. O tamanho padrão de cartão de visita na maior parte da Europa (exceto a Escandinávia, que prefere 90 × 55 mm). Mesma proporção de um cartão de crédito; cabe em carteiras e porta-cartões comuns.",
+    "hi": "85 × 55 mm. अधिकांश यूरोप का मानक विज़िटिंग कार्ड आकार (स्कैंडिनेविया को छोड़कर, जो 90 × 55 मिमी पसंद करता है)। क्रेडिट कार्ड जैसा अनुपात; सामान्य बटुओं और कार्ड होल्डरों में समाता है।"
+  },
+  "properties": {
+    "width": 85,
+    "height": 55,
+    "unit": "mm",
+    "aspectRatio": 1.5455,
+    "standard": "convention",
+    "area": 4675
+  },
+  "altLabels": {
+    "en": [
+      "85 x 55 mm",
+      "85x55",
+      "85×55",
+      "8.5 x 5.5 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

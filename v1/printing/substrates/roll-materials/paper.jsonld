@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/roll-materials/paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Paper",
+    "es": "Papel (Bobina)",
+    "zh-Hans": "纸（卷材）",
+    "nb": "Papir",
+    "de": "Papier",
+    "ja": "紙",
+    "sv": "Papper (rulle)",
+    "da": "Papir (rulle)",
+    "nl": "Papier (rol)",
+    "pl": "Papier",
+    "pt": "Papel em rolo",
+    "hi": "काग़ज़ (रोल)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/roll-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Continuous paper webs supplied on rolls — used in newspaper printing, magazine printing, and any high-volume operation where roll-fed presses are economical.",
+    "nb": "Kontinuerlige papirruller — brukt i avis- og magasintrykk, og i alle høyvolum-operasjoner der rull-matede presser er økonomiske.",
+    "de": "Endlos-Papierbahnen in Rollen — eingesetzt im Zeitungsdruck, Magazindruck und in jeder Hochvolumenproduktion, in der Rollen-Druckmaschinen wirtschaftlich sind.",
+    "ja": "ロールで供給される連続紙ウェブ — 新聞印刷、雑誌印刷、ロールフェッド印刷機が経済的な大量生産で使用される。",
+    "es": "Papel en bobina para prensas rotativas — periódicos, revistas, catálogos y producción de gran volumen.",
+    "zh-Hans": "用于旋转印刷机的卷筒纸 —— 报纸、杂志、目录和大容量生产。",
+    "sv": "Löpande pappersbanor levererade på rulle — används i tidningstryck, tidskriftstryck och all högvolymproduktion där rullmatade pressar är ekonomiska.",
+    "da": "Kontinuerlige papirbaner leveret på ruller — bruges i avistryk, magasintryk og enhver højvolumenproduktion, hvor rullebaserede presser er økonomiske.",
+    "nl": "Doorlopende papierbanen op rollen — gebruikt in krantendruk, magazinedruk en elke hoogvolumeproductie waar rotatiepersen economisch zijn.",
+    "pl": "Ciągłe wstęgi papieru dostarczane w rolach — używane w druku gazet, czasopism i każdej wysokonakładowej produkcji, gdzie maszyny zwojowe są ekonomiczne.",
+    "pt": "Bobinas contínuas de papel fornecidas em rolos — usadas na impressão de jornais, revistas e em qualquer operação de alto volume onde impressoras rotativas são econômicas.",
+    "hi": "रोल में दिए जाने वाले सतत काग़ज़ वेब — अख़बार, पत्रिका छपाई और किसी भी उच्च-मात्रा परिचालन में जहाँ रोल-फ़ेड प्रेस किफ़ायती हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Paper roll",
+      "Roll paper"
+    ],
+    "nb": [
+      "Papir"
+    ],
+    "pl": [
+      "papier w roli",
+      "rola papieru",
+      "papier zwojowy"
+    ],
+    "pt": [
+      "bobina de papel",
+      "rolo de papel",
+      "papel em bobina"
+    ],
+    "hi": [
+      "काग़ज़ का रोल",
+      "पेपर रील",
+      "रोल पेपर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 31"
+    }
+  ]
+}

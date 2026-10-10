@@ -1,0 +1,91 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Gold Foil",
+    "nb": "Gullfolie",
+    "de": "Goldfolie",
+    "ja": "金箔",
+    "es": "Lámina de oro",
+    "zh-Hans": "金箔",
+    "nl": "Goudfolie",
+    "sv": "Guldfolie",
+    "da": "Guldfolie",
+    "pl": "Folia złota",
+    "pt": "Foil dourado",
+    "hi": "गोल्ड फ़ॉइल"
+  },
+  "altLabels": {
+    "en": [
+      "Gold Foil Stamping",
+      "Gilding"
+    ],
+    "nb": [
+      "Gull",
+      "Gullpreg",
+      "Gullfoliepreging"
+    ],
+    "pl": [
+      "złocenie",
+      "złota folia na gorąco"
+    ],
+    "pt": [
+      "hot stamping dourado",
+      "dourado",
+      "douração",
+      "ouro"
+    ],
+    "hi": [
+      "गोल्ड फ़ॉइल स्टैंपिंग",
+      "सुनहरी फ़ॉइल",
+      "गिल्डिंग",
+      "सोने की फ़ॉइल"
+    ]
+  },
+  "definition": {
+    "en": "Hot-foil stamping with gold-coloured metallic foil. Variants include traditional yellow gold, rose gold, and antique gold.",
+    "nb": "Varmfolie-preging med gullfarget metallisk folie. Varianter inkluderer tradisjonelt gull, rosegull og antikkgull.",
+    "de": "Heißfolienprägung mit goldfarbener Metallfolie.",
+    "ja": "金色のメタリック箔によるホットフォイル。伝統的なイエローゴールド、ローズゴールド、アンティークゴールドなどのバリエーションがある。",
+    "es": "Estampación en caliente con foil metálico dorado. Las variantes incluyen oro amarillo tradicional, oro rosa y oro envejecido.",
+    "zh-Hans": "使用金色金属箔的烫印。变体包括传统黄金色、玫瑰金与古典金。",
+    "sv": "Varmfoliering med guldfärgad metallisk folie. Varianter inkluderar traditionellt gult guld, roséguld och antikguld.",
+    "da": "Varmfolieprægning med guldfarvet metallisk folie. Varianter omfatter traditionelt gult guld, rosaguld og antikguld.",
+    "nl": "Warmfoliedruk met goudkleurige metallic folie. Varianten omvatten traditioneel geelgoud, roségoud en antiekgoud.",
+    "pl": "Folia na gorąco w kolorze złotym metalicznym. Warianty obejmują tradycyjne złoto żółte, różowe i antyczne.",
+    "pt": "Hot stamping com foil metálico dourado. Variantes incluem dourado tradicional, ouro rosé e ouro envelhecido.",
+    "hi": "सुनहरे मेटैलिक फ़ॉइल से हॉट-फ़ॉइल स्टैंपिंग। पारंपरिक पीला सोना, रोज़ गोल्ड और एंटीक गोल्ड वेरिएंट।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments/foil-stamping",
+  "properties": {
+    "selective": true,
+    "processType": "hot-foil",
+    "coverage": "selective",
+    "foilColor": "gold"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§GOLD",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent"
+      ],
+      "refs": [
+        "§4.6 · p.74"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 25"
+    }
+  ]
+}

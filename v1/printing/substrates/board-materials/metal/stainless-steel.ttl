@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/metal/stainless-steel> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Inox"@en,
+        "Stainless"@en,
+        "SS शीट"@hi,
+        "इनॉक्स"@hi,
+        "स्टेनलेस"@hi,
+        "Rustfritt stål"@nb,
+        "Inox"@pl,
+        "nierdzewka"@pl,
+        "aço inox"@pt,
+        "inox"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/metal> ;
+    skos:definition "Kromlegeret stål af høj kvalitet med overlegen korrosionsbestandighed og poleret æstetik — bruges til eksklusive arkitektoniske elementer, maskinskilte og eksklusiv skiltning."@da,
+        "Hochwertiger, mit Chrom legierter Stahl mit überlegener Korrosionsbeständigkeit und polierter Optik — eingesetzt für hochwertige Architekturelemente, Geräteschilder und Premium-Beschilderung."@de,
+        "High-grade chromium-alloyed steel offering superior corrosion resistance and a polished aesthetic — used for premium architectural elements, equipment plates, and high-end signage."@en,
+        "Acero inoxidable premium para señalética arquitectónica, trofeos y aplicaciones de alto valor."@es,
+        "क्रोमियम-मिश्रित उच्च-श्रेणी स्टील, बेहतर जंग-प्रतिरोध और पॉलिश्ड रूप — प्रीमियम वास्तु तत्वों, उपकरण प्लेटों और हाई-एंड साइनेज में।"@hi,
+        "優れた耐食性と磨き上げられた美しさを備えた高品質クロム合金鋼 — 高級建築要素、機器プレート、ハイエンドサインに使用される。"@ja,
+        "Høygradig kromlegert stål med overlegen korrosjonsbestandighet og polert estetikk — brukt til premium arkitekturelementer, utstyrsplater og eksklusiv skilting."@nb,
+        "Hoogwaardig chroomgelegeerd staal met superieure corrosiebestendigheid en een gepolijste uitstraling — gebruikt voor exclusieve architectonische elementen, machineplaten en high-end signalisatie."@nl,
+        "Wysokogatunkowa stal stopowa z chromem, oferująca najwyższą odporność na korozję i polerowaną estetykę — używana do elementów architektonicznych premium, tabliczek urządzeń i ekskluzywnego oznakowania."@pl,
+        "Aço de alta qualidade ligado a cromo, com resistência superior à corrosão e estética polida — usado em elementos arquitetônicos premium, placas de equipamentos e sinalização de alto padrão."@pt,
+        "Kromlegerat stål av hög kvalitet med överlägsen korrosionsbeständighet och polerad estetik — används för exklusiva arkitektoniska element, maskinskyltar och påkostad skyltning."@sv,
+        "高端不锈钢，用于建筑标识、奖杯和高价值应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§STAINLESS-STEEL" ;
+    skos:prefLabel "Rustfrit stål"@da,
+        "Edelstahl"@de,
+        "Stainless Steel"@en,
+        "Acero Inoxidable"@es,
+        "स्टेनलेस स्टील"@hi,
+        "ステンレス鋼"@ja,
+        "Rustfritt stål"@nb,
+        "Roestvrij staal"@nl,
+        "Stal nierdzewna"@pl,
+        "Aço inoxidável"@pt,
+        "Rostfritt stål"@sv,
+        "不锈钢"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,67 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution/delivery-methods/postal-mail",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS§POSTAL-MAIL",
+  "level": "element",
+  "label": {
+    "en": "Postal / Mail",
+    "nb": "Post",
+    "de": "Postversand",
+    "es": "Correo postal",
+    "ja": "郵便",
+    "zh-Hans": "邮政",
+    "sv": "Post",
+    "da": "Post",
+    "nl": "Post",
+    "pl": "Poczta",
+    "pt": "Correio",
+    "hi": "डाक"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering/distribution/delivery-methods",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "Letter post",
+      "Mail",
+      "Parcel post"
+    ],
+    "pl": [
+      "przesyłka listowa",
+      "list",
+      "paczka pocztowa"
+    ],
+    "pt": [
+      "carta",
+      "correio",
+      "encomenda postal"
+    ],
+    "hi": [
+      "डाक द्वारा",
+      "पत्र डाक",
+      "पार्सल पोस्ट",
+      "स्पीड पोस्ट"
+    ]
+  },
+  "definition": {
+    "en": "Postal / Mail — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data.",
+    "nb": "Postal / Mail — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data.",
+    "de": "Postversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4).",
+    "es": "Correo postal — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4).",
+    "ja": "郵便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。",
+    "zh-Hans": "邮政——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。",
+    "sv": "Post — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4).",
+    "da": "Post — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4).",
+    "nl": "Post — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4).",
+    "pl": "Poczta — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4).",
+    "pt": "Correio — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4).",
+    "hi": "डाक — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"
+  }
+}

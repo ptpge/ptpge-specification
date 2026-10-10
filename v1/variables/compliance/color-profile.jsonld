@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/compliance/color-profile",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:CM§COLOR-PROFILE",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Color Profile",
+    "nb": "Fargeprofil",
+    "de": "Farbprofil",
+    "es": "Perfil de color",
+    "ja": "カラープロファイル",
+    "zh-Hans": "色彩配置文件",
+    "sv": "Färgprofil",
+    "da": "Farveprofil",
+    "nl": "Kleurprofiel",
+    "pl": "Profil barw",
+    "pt": "Perfil de cor",
+    "hi": "कलर प्रोफ़ाइल"
+  },
+  "definition": {
+    "en": "Configurable axis: Color Profile. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Fargeprofil. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Farbprofil. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Perfil de color. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：カラープロファイル。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：色彩配置文件。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Färgprofil. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Farveprofil. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Kleurprofiel. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Profil barw. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Perfil de Cor. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: कलर प्रोफ़ाइल। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Which colour profile?",
+    "nb": "Hvilken fargeprofil?",
+    "de": "Welches Farbprofil?",
+    "es": "¿Qué perfil de color?",
+    "ja": "カラープロファイルは？",
+    "zh-Hans": "什么色彩配置文件？",
+    "sv": "Vilken färgprofil?",
+    "da": "Hvilken farveprofil?",
+    "nl": "Welk kleurprofiel?",
+    "pl": "Jaki profil kolorów?",
+    "pt": "Que perfil de cor?",
+    "hi": "कौन-सा कलर प्रोफ़ाइल?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/standards/color-systems",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/compliance",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Colour Profile"
+    ],
+    "pl": [
+      "profil ICC"
+    ],
+    "pt": [
+      "perfil ICC",
+      "perfil de cores"
+    ],
+    "hi": [
+      "रंग प्रोफ़ाइल",
+      "ICC प्रोफ़ाइल"
+    ]
+  }
+}

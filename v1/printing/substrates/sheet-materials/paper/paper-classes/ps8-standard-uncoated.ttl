@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps8-standard-uncoated> a skos:Concept ;
+    dcterms:created "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes> ;
+    skos:definition "Standard ubestrøget træholdigt papir efter ISO 12647-2:2013 (PS8) — avispapir til aviser, gratisaviser og de billigste indstik; standardens klasse med lavest hvidhed og størst punktforøgelse."@da,
+        "Standard ungestrichenes holzhaltiges Papier nach ISO 12647-2:2013 (PS8) — Zeitungsdruckpapier für Zeitungen, Anzeigenblätter und die günstigsten Beilagen; die Klasse mit der geringsten Weiße und dem größten Tonwertzuwachs der Norm."@de,
+        "Standard uncoated wood-containing paper per ISO 12647-2:2013 (PS8) — newsprint-type stock for newspapers, free sheets and the cheapest inserts; the lowest-whiteness, highest-dot-gain class of the standard."@en,
+        "Papel no estucado estándar con pasta mecánica según ISO 12647-2:2013 (PS8): papel prensa para periódicos, gratuitos y los encartes más baratos; la clase de menor blancura y mayor ganancia de punto de la norma."@es,
+        "ISO 12647-2:2013 के अनुसार स्टैंडर्ड अनकोटेड वुड-कंटेनिंग काग़ज़ (PS8) — अख़बारों, मुफ़्त पत्रों और सबसे सस्ते इन्सर्ट के लिए न्यूज़प्रिंट प्रकार; मानक की सबसे कम सफ़ेदी और सबसे अधिक डॉट गेन वाली श्रेणी।"@hi,
+        "ISO 12647-2:2013 の標準非塗工紙（PS8）。新聞、フリーペーパー、最も安価な折込向けの新聞用紙タイプ。規格中で白色度が最も低く、ドットゲインが最も大きいクラス。"@ja,
+        "Standard ubestrøket treholdig papir etter ISO 12647-2:2013 (PS8) — avispapirkvalitet for aviser, gratisaviser og de rimeligste innstikkene; standardens klasse med lavest hvithet og størst punktforstørrelse."@nb,
+        "Standaard ongestreken houthoudend papier volgens ISO 12647-2:2013 (PS8) — krantenpapier voor kranten, huis-aan-huisbladen en de goedkoopste bijlagen; de klasse met de laagste witheid en de grootste puntverbreding van de norm."@nl,
+        "Standardowy papier niepowlekany drzewny wg ISO 12647-2:2013 (PS8) — papier gazetowy do gazet, bezpłatnych tygodników i najtańszych wkładek; klasa o najniższej białości i największym przyroście punktu w normie."@pl,
+        "Papel não revestido padrão com pasta mecânica segundo ISO 12647-2:2013 (PS8) — papel-jornal para jornais, gratuitos e os encartes mais baratos; a classe de menor brancura e maior ganho de ponto da norma."@pt,
+        "Standard obestruket trähaltigt papper enligt ISO 12647-2:2013 (PS8) — tidningspapper för dagstidningar, gratistidningar och de enklaste bilagorna; standardens klass med lägst vithet och störst punktförstoring."@sv,
+        "ISO 12647-2:2013 标准非涂布含机械浆纸（PS8）——用于报纸、免费报和最廉价插页的新闻纸类；该标准中白度最低、网点扩大最大的类别。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PS8" ;
+    skos:prefLabel "PS8 — Standard ubestrøget (træholdigt)"@da,
+        "PS8 — Standard ungestrichen (holzhaltig)"@de,
+        "PS8 — Standard uncoated (wood-containing)"@en,
+        "PS8 — No estucado estándar (con pasta mecánica)"@es,
+        "PS8 — स्टैंडर्ड अनकोटेड (वुड-कंटेनिंग)"@hi,
+        "PS8 — 標準非塗工紙（機械パルプ含有）"@ja,
+        "PS8 — Standard ubestrøket (treholdig)"@nb,
+        "PS8 — Standaard ongestreken (houthoudend)"@nl,
+        "PS8 — Niepowlekany standardowy (drzewny)"@pl,
+        "PS8 — Não revestido padrão (com pasta mecânica)"@pt,
+        "PS8 — Standard obestruket (trähaltigt)"@sv,
+        "PS8 — 标准非涂布纸（含机械浆）"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated> ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Table 1 — Printing substrate types" ;
+            ptpge:sourceStandard "ISO 12647-2" ;
+            ptpge:sourceVersion "2013" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-23" .
+

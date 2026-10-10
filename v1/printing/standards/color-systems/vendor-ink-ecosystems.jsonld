@@ -1,0 +1,75 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Vendor Ink Ecosystems",
+    "de": "Hersteller-Tintensysteme",
+    "es": "Ecosistemas de tinta de fabricantes",
+    "ja": "ベンダーインキ体系",
+    "zh-Hans": "厂商油墨体系",
+    "sv": "Leverantörers bläckekosystem",
+    "da": "Leverandørers farveøkosystemer",
+    "nl": "Inktecosystemen van leveranciers",
+    "pl": "Ekosystemy farb dostawców",
+    "pt": "Ecossistemas de tinta de fornecedores",
+    "hi": "विक्रेता स्याही पारितंत्र"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST-CSY-VINK",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/epson-ultrachrome",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hp-indichrome",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/efi-fiery-xf",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/pantone-touch7",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hexachrome",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/riso",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/seven-color"
+  ],
+  "definition": {
+    "en": "Proprietary vendor ink/colour and extended-gamut systems (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "nb": "Proprietære leverandør-blekk/-farge- og utvidet-gamut-systemer (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "de": "Proprietäre Hersteller-Farb-/Tintensysteme und Extended-Gamut-Systeme (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "es": "Sistemas propietarios de tinta/color de fabricantes y de gama extendida (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "ja": "ベンダー独自のインキ／カラーおよび拡張ガモットのシステム（Hexachrome、Touch 7、Riso、UltraChrome など）。",
+    "zh-Hans": "厂商专有的油墨/色彩及扩展色域系统（Hexachrome、Touch 7、Riso、UltraChrome 等）。",
+    "sv": "Proprietära leverantörssystem för bläck/färg och utökad färgomfattning (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "da": "Proprietære leverandørsystemer for farve og udvidet farveomfang (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "nl": "Eigen leverancierssystemen voor inkt/kleur en uitgebreid gamma (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "pl": "Własnościowe systemy farb/barw i rozszerzonego gamutu dostawców (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "pt": "Sistemas proprietários de tinta/cor e de gamut estendido de fornecedores (Hexachrome, Touch 7, Riso, UltraChrome …).",
+    "hi": "विक्रेताओं की स्वामित्व स्याही/रंग और विस्तारित-गैमट प्रणालियाँ (Hexachrome, Touch 7, Riso, UltraChrome …)।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ],
+  "replaces": [
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hp-indichrome",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/epson-ultrachrome",
+    "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/efi-fiery-xf"
+  ]
+}

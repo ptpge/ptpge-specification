@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Custom cut"@en,
+        "Die cut"@en,
+        "Die-cut"@en,
+        "Shaped cut"@en,
+        "आकार में कटाई"@hi,
+        "कस्टम कट"@hi,
+        "डाई कट"@hi,
+        "डाई पंचिंग"@hi,
+        "Stanset"@nb,
+        "Stansing"@nb,
+        "cięcie na kształt"@pl,
+        "sztancowanie"@pl,
+        "wykrawane"@pl,
+        "wykrojnik"@pl,
+        "corte com faca"@pt,
+        "corte e vinco"@pt,
+        "die cut"@pt,
+        "faca especial"@pt,
+        "recorte especial"@pt,
+        "Utstansning"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Skæring af substratet til en specialform med en stanseform af stålbånd."@da,
+        "Schneiden des Bedruckstoffs in eine individuelle Form mit einem Stanzwerkzeug."@de,
+        "Cutting the substrate to a custom shape using a steel-rule die."@en,
+        "Cortar el sustrato con una forma personalizada mediante un troquel de fleje de acero."@es,
+        "स्टील-रूल डाई से सब्सट्रेट को कस्टम आकार में काटना।"@hi,
+        "スチールルール刃の抜き型で基材を任意の形に切り抜く。"@ja,
+        "Skjæring av substratet til en egendefinert form med en stålknivform."@nb,
+        "Het substraat op maatwerkvorm snijden met een stansvorm van stalen messen."@nl,
+        "Cięcie podłoża do indywidualnego kształtu za pomocą wykrojnika z noży stalowych."@pl,
+        "Cortar o substrato em um formato personalizado com uma faca de corte (matriz de lâminas de aço)."@pt,
+        "Skärning av substratet till en anpassad form med ett stålbandsverktyg."@sv,
+        "使用钢刀模将承印材料切成自定义形状。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§DIE-CUTTING" ;
+    skos:prefLabel "Udstansning"@da,
+        "Stanzen"@de,
+        "Die Cutting"@en,
+        "Die Cutting"@es,
+        "डाई कटिंग"@hi,
+        "Die Cutting"@ja,
+        "Stansing"@nb,
+        "Stansen"@nl,
+        "Wykrawanie"@pl,
+        "Corte especial (faca)"@pt,
+        "Stansning"@sv,
+        "Die Cutting"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.13 · p.81",
+                "§5.6.11 · p.117",
+                "§5.6.27 · p.127" ;
+            ptpge:mappingRow "crosswalk row 28" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DieMaking",
+                "ShapeCutting",
+                "ShapeCuttingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

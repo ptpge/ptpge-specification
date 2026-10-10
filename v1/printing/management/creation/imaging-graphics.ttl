@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/creation/imaging-graphics> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "image editing"@en,
+        "imaging"@en,
+        "photo editing"@en,
+        "इमेजिंग"@hi,
+        "छवि संपादन"@hi,
+        "फ़ोटो संपादन"@hi,
+        "bildebehandling"@nb,
+        "edycja zdjęć"@pl,
+        "obróbka obrazu"@pl,
+        "retusz"@pl,
+        "edição de foto"@pt,
+        "edição de imagem"@pt,
+        "imagem"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/creation> ;
+    skos:definition "Fotoredigering, billedmanipulation og vektorgrafik — den tekniske klargøring af visuelle elementer til trykfiler. Værktøjer omfatter Adobe Photoshop (raster) og Illustrator (vektor)."@da,
+        "Bildbearbeitung, Bildmanipulation und Vektorgrafik-Erstellung — die technische Vorbereitung visueller Assets für die Verwendung in Druckdateien. Werkzeuge sind Adobe Photoshop (Raster) und Illustrator (Vektor)."@de,
+        "Photo editing, image manipulation, and vector graphic creation — the technical preparation of visual assets for inclusion in print files. Tools include Adobe Photoshop (raster) and Illustrator (vector)."@en,
+        "Tratamiento de imágenes y creación de elementos gráficos para el producto impreso — edición fotográfica, retoque, creación vectorial, gestión de capas."@es,
+        "फ़ोटो संपादन, छवि हेरफेर और वेक्टर ग्राफ़िक निर्माण — प्रिंट फ़ाइलों में शामिल करने के लिए दृश्य संपत्तियों की तकनीकी तैयारी। औज़ारों में Adobe Photoshop (रास्टर) और Illustrator (वेक्टर)।"@hi,
+        "写真編集、画像加工、ベクターグラフィック制作 — 印刷ファイルに含めるための視覚資産の技術的準備。ツールにはAdobe Photoshop（ラスター）とIllustrator（ベクター）がある。"@ja,
+        "Fotoredigering, bildemanipulasjon og opprettelse av vektorgrafikk — den tekniske forberedelsen av visuelle elementer for inkludering i trykkfiler. Verktøy inkluderer Adobe Photoshop (raster) og Illustrator (vektor)."@nb,
+        "Fotobewerking, beeldmanipulatie en vectorgraphics — de technische voorbereiding van visuele elementen voor drukbestanden. Tools zijn onder meer Adobe Photoshop (raster) en Illustrator (vector)."@nl,
+        "Edycja zdjęć, obróbka obrazów i tworzenie grafiki wektorowej — techniczne przygotowanie materiałów wizualnych do włączenia w pliki drukarskie. Narzędzia obejmują Adobe Photoshop (raster) i Illustrator (wektor)."@pl,
+        "Edição de fotos, manipulação de imagens e criação de gráficos vetoriais — a preparação técnica de ativos visuais para inclusão em arquivos de impressão. As ferramentas incluem Adobe Photoshop (raster) e Illustrator (vetor)."@pt,
+        "Bildredigering, bildbehandling och vektorgrafik — den tekniska förberedelsen av visuella tillgångar för tryckfiler. Verktyg inkluderar Adobe Photoshop (raster) och Illustrator (vektor)."@sv,
+        "印刷品图像处理和图形元素创建——照片编辑、修饰、矢量创建、图层管理。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§IMAGING-GRAPHICS" ;
+    skos:prefLabel "Billedbehandling & grafik"@da,
+        "Imaging & Grafik"@de,
+        "Imaging & Graphics"@en,
+        "Imagen y Gráficos"@es,
+        "इमेजिंग और ग्राफ़िक्स"@hi,
+        "イメージングとグラフィック"@ja,
+        "Bilde- & grafikkbehandling"@nb,
+        "Beeldbewerking & graphics"@nl,
+        "Obrazowanie i grafika"@pl,
+        "Imagem e gráficos"@pt,
+        "Bild & grafik"@sv,
+        "图像与图形"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.4.11 · p.98" ;
+            ptpge:mappingRow "crosswalk row 6" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "LayoutElementProduction" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

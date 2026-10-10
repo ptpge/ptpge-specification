@@ -1,0 +1,235 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/signs",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§SIGNS",
+  "elementType": "product",
+  "label": {
+    "en": "Signs",
+    "nb": "Skilt",
+    "de": "Schilder",
+    "ja": "サイン",
+    "es": "Letreros",
+    "zh-Hans": "标识",
+    "nl": "Borden",
+    "sv": "Skyltar",
+    "da": "Skilte",
+    "pl": "Tablice i szyldy",
+    "pt": "Placas",
+    "hi": "साइन बोर्ड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A rigid printed sign or panel for indoor or outdoor display — Foamex, Dibond, acrylic and Correx boards.",
+    "nb": "Et rigid trykt skilt eller panel for inne- eller utebruk — Foamex, Dibond, akryl og Correx-plater.",
+    "de": "Ein starres bedrucktes Schild oder Panel für drinnen oder draußen — Foamex, Dibond, Acryl und Correx.",
+    "ja": "屋内外用の硬質印刷サインパネル。Foamex（発泡PVC）、Dibond（アルミ複合板）、アクリル、Correx（プラダン）など。",
+    "es": "Un cartel o panel rígido impreso para interior o exterior — Foamex, Dibond, acrílico y Correx.",
+    "zh-Hans": "室内外用硬质印刷标牌/板材——PVC发泡板、铝塑板、亚克力和中空板。",
+    "sv": "En styv tryckt skylt eller panel för inom- eller utomhusbruk — Foamex-, Dibond-, akryl- och Correx-skivor.",
+    "da": "Et stift trykt skilt eller panel til indendørs eller udendørs brug — Foamex-, Dibond-, akryl- og Correx-plader.",
+    "nl": "Een stijf gedrukt bord of paneel voor binnen of buiten — Foamex-, Dibond-, acryl- en Correx-platen.",
+    "pl": "Sztywna drukowana tablica lub panel do ekspozycji wewnątrz lub na zewnątrz — płyty PCW spienione, Dibond, akryl i płyty polipropylenowe.",
+    "pt": "Placa ou painel rígido impresso para exposição interna ou externa — PVC expandido (Foamex), ACM (Dibond), acrílico e polipropileno alveolar (Correx).",
+    "hi": "इनडोर या आउटडोर प्रदर्शन के लिए कठोर मुद्रित साइन या पैनल — Foamex, Dibond, ऐक्रेलिक और Correx बोर्ड।"
+  },
+  "altLabels": {
+    "en": [
+      "Sign",
+      "Signage",
+      "Display sign",
+      "rigid sign",
+      "sign board",
+      "panel",
+      "Foamex sign",
+      "Dibond sign"
+    ],
+    "nb": [
+      "Skilt",
+      "skilt",
+      "skiltplate",
+      "foamex-skilt"
+    ],
+    "de": [
+      "Werbeschilder",
+      "Hinweisschilder"
+    ],
+    "es": [
+      "Rótulos",
+      "Señalética",
+      "letrero",
+      "rótulo",
+      "señal",
+      "cartel rígido",
+      "placa",
+      "señalización",
+      "panel de PVC"
+    ],
+    "pl": [
+      "szyld",
+      "tablica",
+      "oznakowanie",
+      "tablica sztywna",
+      "panel"
+    ],
+    "sv": [
+      "skylt",
+      "skyltning",
+      "skiva",
+      "tryckt skiva",
+      "foamskylt",
+      "dibondskylt",
+      "kapaskylt"
+    ],
+    "da": [
+      "skilt",
+      "skiltning",
+      "skumplade",
+      "dibond-skilt"
+    ],
+    "nl": [
+      "bord",
+      "paneel",
+      "bedrukt paneel",
+      "foamboard",
+      "dibond-bord",
+      "reclamebord"
+    ],
+    "pt": [
+      "placa",
+      "sinalização",
+      "placa rígida",
+      "placa de PVC",
+      "placa em ACM",
+      "placa em acrílico",
+      "painel",
+      "placa de sinalização"
+    ],
+    "hi": [
+      "साइन",
+      "साइनेज",
+      "साइन बोर्ड",
+      "डिस्प्ले साइन",
+      "कठोर साइन",
+      "ACP साइन",
+      "ऐक्रेलिक साइन"
+    ],
+    "ja": [
+      "看板",
+      "サインボード",
+      "表示板",
+      "案内板",
+      "プレート看板",
+      "アルミ複合板看板"
+    ],
+    "zh-Hans": [
+      "标识牌",
+      "招牌",
+      "指示牌",
+      "标牌",
+      "硬质标牌",
+      "PVC板标识"
+    ]
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a2",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/2a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/4a0",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-a",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-b",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-c",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-d",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-e"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/foam",
+    "https://ptpge.org/v1/printing/substrates/board-materials/plastic",
+    "https://ptpge.org/v1/printing/substrates/board-materials/acrylic",
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/composite",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/plywood",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/solid-board",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/routing",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 100,
+    "max": 3050,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series"
+  ],
+  "supportsSubstrateThickness": {
+    "min": 1,
+    "max": 30,
+    "unit": "mm"
+  },
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/substrate/substrate-thickness"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/shape/ellipse",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Ellipse",
+    "es": "Elipse",
+    "zh-Hans": "椭圆",
+    "nb": "Ellipse",
+    "de": "Ellipse",
+    "ja": "楕円",
+    "sv": "Ellips",
+    "da": "Ellipse",
+    "nl": "Ellips",
+    "pl": "Elipsa",
+    "pt": "Elipse",
+    "hi": "दीर्घवृत्त"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ELLIPSE",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/shape",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Oval (elliptical) outline — produced by die-cutting a rectangular print sheet to a curved shape. Used for stickers, labels, and decorative print products.",
+    "nb": "Oval (elliptisk) omriss — laget ved å stanse et rektangulært trykkark til en buet form. Brukt for klistremerker, etiketter og dekorative trykkprodukter.",
+    "de": "Ovale (elliptische) Außenkontur — hergestellt durch Stanzen eines rechteckigen Druckbogens auf eine kurvige Form. Verwendet für Aufkleber, Etiketten und dekorative Druckprodukte.",
+    "ja": "楕円形の輪郭 — 長方形の印刷シートを曲線形状に打ち抜いて生成される。ステッカー、ラベル、装飾的な印刷物に使用される。",
+    "es": "Producto impreso con forma elíptica, requiere troquelado especializado. Utilizado en etiquetas, calcomanías y aplicaciones decorativas.",
+    "zh-Hans": "椭圆形印刷品，需要专用模切。用于标签、贴纸和装饰应用。",
+    "sv": "Oval (elliptisk) kontur — framställd genom stansning av ett rektangulärt tryckark till en böjd form. Används för klistermärken, etiketter och dekorativa trycksaker.",
+    "da": "Oval (elliptisk) kontur — fremstillet ved udstansning af et rektangulært trykark til en buet form. Bruges til klistermærker, etiketter og dekorative tryksager.",
+    "nl": "Ovale (elliptische) contour — gemaakt door een rechthoekig drukvel tot een gebogen vorm te stansen. Gebruikt voor stickers, etiketten en decoratief drukwerk.",
+    "pl": "Owalny (eliptyczny) obrys — uzyskiwany przez wykrawanie prostokątnego arkusza drukowego do kształtu krzywoliniowego. Używany do naklejek, etykiet i dekoracyjnych produktów drukowanych.",
+    "pt": "Contorno oval (elíptico) — obtido por corte especial de uma folha retangular em forma curva. Usado em adesivos, rótulos e impressos decorativos.",
+    "hi": "अंडाकार (दीर्घवृत्ताकार) रूपरेखा — आयताकार प्रिंट शीट को वक्र आकार में डाई-कट करके। स्टिकर, लेबल और सजावटी मुद्रित उत्पादों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Oval",
+      "Elliptical"
+    ],
+    "nb": [
+      "Oval",
+      "Elliptisk"
+    ],
+    "pl": [
+      "owal",
+      "owalny",
+      "eliptyczny"
+    ],
+    "pt": [
+      "oval",
+      "elíptico"
+    ],
+    "hi": [
+      "अंडाकार",
+      "ओवल",
+      "एलिप्स"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ShapeCuttingIntent"
+      ],
+      "refs": [
+        "§4.13 · p.81"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 22"
+    }
+  ]
+}

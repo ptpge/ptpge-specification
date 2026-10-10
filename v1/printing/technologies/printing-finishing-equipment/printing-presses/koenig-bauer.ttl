@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/koenig-bauer> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "KBA"@en,
+        "Koenig & Bauer (KBA)"@en,
+        "KBA"@hi,
+        "Koenig & Bauer (KBA)"@hi,
+        "KBA"@pl,
+        "Koenig & Bauer (KBA)"@pl,
+        "KBA"@pt,
+        "Koenig & Bauer (KBA)"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Koenig & Bauer (KBA) — tysk trykpresseproducent grundlagt 1817 — verdens ældste presseproducent. Stærke positioner inden for offset-, flexo- og sikkerhedstrykpresser."@da,
+        "Koenig & Bauer (KBA) — deutscher Hersteller von Druckmaschinen, gegründet 1817 — der älteste Druckmaschinenhersteller der Welt. Starke Positionen im Offset-, Flexo- und Sicherheitsdruck."@de,
+        "Koenig & Bauer (KBA) — German manufacturer of printing presses, founded in 1817 — the world's oldest press manufacturer. Strong positions in offset, flexographic, and security printing presses."@en,
+        "Koenig & Bauer AG — el fabricante de prensas más antiguo del mundo, alemán, con líneas en offset, flexografía, huecograbado e impresión de seguridad."@es,
+        "Koenig & Bauer (KBA) — 1817 में स्थापित प्रिंटिंग प्रेस का जर्मन निर्माता — दुनिया का सबसे पुराना प्रेस निर्माता। ऑफसेट, फ़्लेक्सोग्राफ़िक और सुरक्षा मुद्रण प्रेस में मज़बूत स्थिति।"@hi,
+        "Koenig & Bauer（KBA）— 印刷機のドイツのメーカー。1817年創業 — 世界最古の印刷機メーカー。オフセット、フレキソ、セキュリティ印刷機で強い地位を占める。"@ja,
+        "Koenig & Bauer (KBA) — tysk produsent av trykkpresser, grunnlagt i 1817 — verdens eldste presseprodusent. Sterke posisjoner innen offset, fleksografi og sikkerhetstrykkpresser."@nb,
+        "Koenig & Bauer (KBA) — Duitse drukpersfabrikant, opgericht in 1817 — de oudste persfabrikant ter wereld. Sterke posities in offset-, flexo- en beveiligingsdrukpersen."@nl,
+        "Koenig & Bauer (KBA) — niemiecki producent maszyn drukujących, założony w 1817 r. — najstarszy producent maszyn drukarskich na świecie. Silna pozycja w maszynach offsetowych, fleksograficznych i do druku zabezpieczonego."@pl,
+        "Koenig & Bauer (KBA) — fabricante alemão de impressoras, fundado em 1817 — o fabricante de impressoras mais antigo do mundo. Posições fortes em impressoras offset, flexográficas e de impressão de segurança."@pt,
+        "Koenig & Bauer (KBA) — tysk tryckpresstillverkare grundad 1817 — världens äldsta presstillverkare. Starka positioner inom offset-, flexo- och säkerhetstryckpressar."@sv,
+        "Koenig & Bauer AG —— 世界上最古老的印刷机制造商，德国，在胶印、柔印、凹印和安全印刷领域有产品线。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-PRES-KOEN" ;
+    skos:prefLabel "Koenig & Bauer"@da,
+        "Koenig & Bauer"@de,
+        "Koenig & Bauer"@en,
+        "Koenig & Bauer"@es,
+        "Koenig & Bauer"@hi,
+        "Koenig & Bauer"@ja,
+        "Koenig & Bauer"@nb,
+        "Koenig & Bauer"@nl,
+        "Koenig & Bauer"@pl,
+        "Koenig & Bauer"@pt,
+        "Koenig & Bauer"@sv,
+        "Koenig & Bauer"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,67 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "group",
+  "label": {
+    "en": "Features",
+    "es": "Características",
+    "zh-Hans": "特性",
+    "nb": "Egenskaper",
+    "de": "Merkmale",
+    "ja": "特徴",
+    "sv": "Egenskaper",
+    "da": "Karakteristika",
+    "nl": "Kenmerken",
+    "pl": "Cechy",
+    "pt": "Características",
+    "hi": "फ़ीचर"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "notation": "P:FT",
+  "broader": "https://ptpge.org/v1/printing",
+  "narrower": [
+    "https://ptpge.org/v1/printing/features/colors",
+    "https://ptpge.org/v1/printing/features/embellishments",
+    "https://ptpge.org/v1/printing/features/surface-finish"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Visual and tactile characteristics that distinguish a printed piece beyond its base content: the color systems used to print it (CMYK, spot colors, hexachrome, seven-color) and the embellishments applied to it (metallic, varnish, spot varnish, embossing, debossing, die cutting, laser cutting). Features captures what makes a print catch the eye or carry through the hand.",
+    "nb": "Visuelle og taktile egenskaper som skiller et trykt produkt utover dets grunnleggende innhold: fargesystemene som brukes for å trykke det (CMYK, spotfarger, hexachrome, sjufargers) og embellishments som påføres det (metallisk, lakk, spotlakk, prege, debossing, stansing, laserkutting). Features beskriver det som gjør at en trykksak fanger blikket eller bærer gjennom hånden.",
+    "de": "Visuelle und haptische Eigenschaften, die ein Druckerzeugnis über seinen Grundinhalt hinaus auszeichnen: die zum Drucken verwendeten Farbsysteme (CMYK, Sonderfarben, Hexachrome, Sieben-Farb-Druck) und die angewandten Veredelungen (Metallic, Lack, Spotlack, Hochprägung, Tiefprägung, Stanzen, Laserschnitt). Features erfasst, was einen Druck ins Auge fallen oder sich besonders anfühlen lässt.",
+    "ja": "基本的な内容を超えて印刷物を特徴づける視覚的および触覚的な特性：印刷に使用されるカラーシステム（CMYK、特色、ヘキサクローム、7色印刷）と、印刷物に適用される加飾（メタリック、ニス、部分ニス、エンボス、デボス、抜き加工、レーザーカット）。Featuresは、印刷物が目を引く要素や、手で持ったときに伝わる質感を捉える。",
+    "es": "Atributos visuales y táctiles que distinguen una pieza impresa más allá de su contenido base: los sistemas de color con los que se imprime (CMYK, tintas planas, hexacromía, séptima tinta) y los embellecimientos aplicados (metálicos, barnices, barniz selectivo, estampado en relieve, gofrado, troquelado, corte láser). Características es la faceta visible para el cliente final.",
+    "zh-Hans": "区分印刷品超越基本内容的视觉与触感属性：用于印刷的色彩系统（CMYK、专色、六色、七色）以及施加的装饰效果（金属油墨、上光、局部上光、凹凸压印、烫金、模切、激光切割）。特性是客户最直观感受到的分面。",
+    "sv": "Visuella och taktila kännetecken som särskiljer en trycksak bortom dess grundinnehåll: färgsystemen den trycks med (CMYK, dekorfärger, hexachrome, sjufärgs) och dekoren som appliceras (metalliska effekter, lack, partiell lack, prägling, försänkt prägling, stansning, laserskärning). Egenskaper fångar det som får trycket att fånga ögat eller kännas i handen.",
+    "da": "Visuelle og taktile egenskaber, der adskiller en tryksag ud over dens grundindhold: farvesystemerne den trykkes med (CMYK, staffagefarver, hexachrome, syvfarve) og de forædlinger der påføres (folie, prægning, lak, laminering).",
+    "nl": "Visuele en tactiele eigenschappen die drukwerk onderscheiden voorbij de basisinhoud: de kleursystemen waarmee het wordt gedrukt (CMYK, steunkleuren, hexachrome, zevenkleuren) en de veredelingen die worden toegepast (folie, preging, lak, laminaat).",
+    "pl": "Wizualne i dotykowe właściwości odróżniające druk poza jego podstawową treścią: systemy barw użyte do druku (CMYK, kolory dodatkowe, hexachrome, siedem kolorów) oraz zastosowane uszlachetnienia (metaliczne, lakier, lakier wybiórczy, tłoczenie wypukłe, tłoczenie wklęsłe, wykrawanie, cięcie laserowe). Cechy to to, co sprawia, że druk przyciąga wzrok lub jest odczuwalny w dłoni.",
+    "pt": "Características visuais e táteis que distinguem um impresso além do seu conteúdo básico: os sistemas de cor com que é impresso (CMYK, cores especiais, hexacromia, sete cores) e os enobrecimentos aplicados (metalizado, verniz, verniz localizado, relevo alto, relevo baixo, corte especial, corte a laser). Características capta o que faz um impresso chamar a atenção ou marcar pelo toque.",
+    "hi": "वे दृश्य और स्पर्श विशेषताएँ जो मुद्रित सामग्री को उसकी मूल सामग्री से आगे अलग पहचान देती हैं: छपाई में प्रयुक्त रंग प्रणालियाँ (CMYK, स्पॉट रंग, हेक्साक्रोम, सात-रंग) और उस पर लगाए गए सजावटी प्रभाव (मेटैलिक, वार्निश, स्पॉट वार्निश, एम्बॉसिंग, डिबॉसिंग, डाई कटिंग, लेज़र कटिंग)। फ़ीचर वह है जो प्रिंट को आँख पकड़ने या हाथ में अलग महसूस होने लायक बनाता है।"
+  },
+  "scopeNote": {
+    "en": "Features covers decorative and tactile effects that are part of the printed object's character. Mechanical post-press operations — folding, binding, lamination, packaging — belong to Completions, even though they happen after printing.",
+    "nb": "Features dekker dekorative og taktile effekter som er en del av det trykte objektets karakter. Mekaniske post-press-operasjoner — folding, innbinding, laminering, pakking — hører til Completions, selv om de skjer etter trykking.",
+    "de": "Features umfasst dekorative und haptische Effekte, die zum Charakter des Druckobjekts gehören. Mechanische Weiterverarbeitungsschritte — Falzen, Bindung, Laminierung, Verpackung — gehören zu Completions, auch wenn sie nach dem Druck erfolgen.",
+    "ja": "Featuresは、印刷物の特徴の一部を成す装飾的および触覚的な効果を扱う。後加工の機械的工程 — 折り、製本、ラミネート、梱包 — は印刷後に行われるとはいえ、Completionsに属する。",
+    "es": "Características cubre efectos decorativos y táctiles que forman parte del carácter del objeto impreso. Las operaciones mecánicas post-prensa — plegado, encuadernación, plastificado, embalaje — pertenecen a Acabados, incluso cuando alteran la apariencia.",
+    "zh-Hans": "特性涵盖构成印刷品视觉与触感特征的装饰效果。机械性印后操作——折页、装订、覆膜、包装——属于印后加工，即使它们也改变外观。",
+    "pt": "Características cobre efeitos decorativos e táteis que fazem parte do caráter do objeto impresso. Operações mecânicas pós-impressão — dobra, encadernação, laminação, embalagem — pertencem a Acabamentos, mesmo que aconteçam depois da impressão.",
+    "hi": "फ़ीचर में वे सजावटी और स्पर्श प्रभाव आते हैं जो मुद्रित वस्तु के चरित्र का हिस्सा हैं। यांत्रिक पोस्ट-प्रेस क्रियाएँ — फ़ोल्डिंग, बाइंडिंग, लैमिनेशन, पैकेजिंग — फ़िनिशिंग के अंतर्गत आती हैं, भले ही छपाई के बाद हों।"
+  },
+  "visual": {
+    "color": "#FFC600",
+    "colorName": "PTPGE Yellow 1",
+    "palette": [
+      "#FFC600",
+      "#AD8819"
+    ],
+    "pantone": "P 7548 C"
+  }
+}

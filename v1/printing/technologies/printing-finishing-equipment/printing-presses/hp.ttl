@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/hp> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "HP Inc."@en,
+        "Hewlett-Packard"@en,
+        "HP Inc."@hi,
+        "Hewlett-Packard"@hi,
+        "HP Inc."@pl,
+        "Hewlett-Packard"@pl,
+        "HP Inc."@pt,
+        "Hewlett-Packard"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Hewlett-Packard (HP) — amerikansk producent af digitale produktionspresser, især Indigo-linjen med flydende ElectroInk (digital offset) og de industrielle inkjet-rotationspresser PageWide."@da,
+        "Hewlett-Packard (HP) — US-amerikanischer Hersteller digitaler Produktionsdruckmaschinen, insbesondere der Indigo-Reihe mit ElectroInk (Digitaloffset) sowie der industriellen PageWide-Inkjet-Rollendruckmaschinen."@de,
+        "Hewlett-Packard (HP) — American manufacturer of digital production presses, particularly the Indigo liquid-electroink line (digital offset) and the PageWide industrial inkjet web presses."@en,
+        "HP Inc. / HP Indigo — líder en prensas digitales de producción a color, con la serie Indigo (offset digital) y PageWide para inyección de tinta de alto volumen."@es,
+        "Hewlett-Packard (HP) — डिजिटल प्रोडक्शन प्रेस का अमेरिकी निर्माता, विशेषकर Indigo लिक्विड-इलेक्ट्रोइंक श्रृंखला (डिजिटल ऑफसेट) और PageWide औद्योगिक इंकजेट वेब प्रेस।"@hi,
+        "ヒューレット・パッカード（HP）— デジタル生産印刷機の米国のメーカー。特にIndigoの液状エレクトロインキライン（デジタルオフセット）と、PageWide工業用インクジェット輪転印刷機。"@ja,
+        "Hewlett-Packard (HP) — amerikansk produsent av digitale produksjonspresser, særlig Indigo-linjen med flytende elektro-blekk (digital offset) og PageWide industrielle inkjet web-presser."@nb,
+        "Hewlett-Packard (HP) — Amerikaanse fabrikant van digitale productiepersen, met name de Indigo-lijn met vloeibare ElectroInk (digitale offset) en de industriële PageWide-inkjetrotatiepersen."@nl,
+        "Hewlett-Packard (HP) — amerykański producent cyfrowych maszyn produkcyjnych, zwłaszcza linii Indigo z ciekłą farbą elektrostatyczną (cyfrowy offset) i przemysłowych zwojowych maszyn atramentowych PageWide."@pl,
+        "Hewlett-Packard (HP) — fabricante americano de impressoras digitais de produção, especialmente a linha Indigo de tinta eletrônica líquida (offset digital) e as impressoras industriais de jato de tinta em bobina PageWide."@pt,
+        "Hewlett-Packard (HP) — amerikansk tillverkare av digitala produktionspressar, särskilt Indigo-linjen med flytande ElectroInk (digital offset) och de industriella inkjet-rullpressarna PageWide."@sv,
+        "HP Inc. / HP Indigo —— 数码彩色生产印刷机领导者，Indigo系列（数码胶印）和用于大容量喷墨的PageWide。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/hp/indigo> ;
+    skos:notation "P:TC-PFE-PRES-HP" ;
+    skos:prefLabel "HP"@da,
+        "HP"@de,
+        "HP"@en,
+        "HP"@es,
+        "HP"@hi,
+        "HP"@ja,
+        "HP"@nb,
+        "HP"@nl,
+        "HP"@pl,
+        "HP"@pt,
+        "HP"@sv,
+        "HP"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

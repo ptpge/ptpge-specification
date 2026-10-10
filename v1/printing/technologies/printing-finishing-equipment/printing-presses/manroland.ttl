@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/manroland> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/suppliers/manroland> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Manroland — tysk producent af offsetpresser, med Manroland Sheetfed (kommerciel arkfødning) og Manroland Web Systems (avis- og publikationsrotationspresser) som separate selskaber efter en omstrukturering i 2012."@da,
+        "Manroland — deutscher Hersteller von Offsetdruckmaschinen, mit Manroland Sheetfed (kommerzieller Bogenoffset) und Manroland Web Systems (Zeitungs- und Akzidenzrollenoffset) als getrennte Unternehmen nach einer Restrukturierung im Jahr 2012."@de,
+        "Manroland — German manufacturer of offset printing presses, with Manroland Sheetfed (commercial sheet-fed) and Manroland Web Systems (newspaper and publication web-fed) as separate companies after a 2012 restructuring."@en,
+        "Manroland Sheetfed (y Manroland Web Systems) — fabricantes alemanes de prensas offset sheet-fed y web, herederos del histórico MAN Roland."@es,
+        "Manroland — ऑफसेट प्रिंटिंग प्रेस का जर्मन निर्माता, 2012 के पुनर्गठन के बाद Manroland Sheetfed (व्यावसायिक शीट-फ़ेड) और Manroland Web Systems (अख़बार और प्रकाशन वेब-फ़ेड) अलग कंपनियाँ।"@hi,
+        "Manroland — オフセット印刷機のドイツのメーカー。2012年の事業再編後、Manroland Sheetfed（商業枚葉）とManroland Web Systems（新聞および出版輪転）が別会社となった。"@ja,
+        "Manroland — tysk produsent av offset-trykkpresser, med Manroland Sheetfed (kommersiell ark-mate) og Manroland Web Systems (avis og publikasjon web-mate) som separate selskaper etter en restrukturering i 2012."@nb,
+        "Manroland — Duitse fabrikant van offsetpersen, met Manroland Sheetfed (commerciële vellenpersen) en Manroland Web Systems (kranten- en publicatierotatie) als aparte bedrijven na een herstructurering in 2012."@nl,
+        "Manroland — niemiecki producent maszyn offsetowych; po restrukturyzacji w 2012 r. Manroland Sheetfed (arkuszowe komercyjne) i Manroland Web Systems (zwojowe gazetowe i publikacyjne) działają jako osobne firmy."@pl,
+        "Manroland — fabricante alemão de impressoras offset, com Manroland Sheetfed (folha comercial) e Manroland Web Systems (rotativas de jornal e publicação) como empresas separadas após a reestruturação de 2012."@pt,
+        "Manroland — tysk tillverkare av offsetpressar, med Manroland Sheetfed (kommersiell arkmatning) och Manroland Web Systems (tidnings- och publikationsrullpressar) som separata bolag efter en omstrukturering 2012."@sv,
+        "Manroland Sheetfed（和Manroland Web Systems）—— 德国单张和卷筒胶印机制造商，传承自历史悠久的MAN Roland。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-PRES-MANR" ;
+    skos:prefLabel "Manroland"@da,
+        "Manroland"@de,
+        "Manroland"@en,
+        "Manroland"@es,
+        "Manroland"@hi,
+        "Manroland"@ja,
+        "Manroland"@nb,
+        "Manroland"@nl,
+        "Manroland"@pl,
+        "Manroland"@pt,
+        "Manroland"@sv,
+        "Manroland"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

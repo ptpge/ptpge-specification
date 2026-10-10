@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Microsoft",
+    "es": "Microsoft",
+    "zh-Hans": "Microsoft",
+    "nb": "Microsoft",
+    "de": "Microsoft",
+    "ja": "Microsoft",
+    "sv": "Microsoft",
+    "da": "Microsoft",
+    "nl": "Microsoft",
+    "pl": "Microsoft",
+    "pt": "Microsoft",
+    "hi": "Microsoft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft/microsoft-word",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft/microsoft-excel",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft/microsoft-powerpoint"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native file formats for Microsoft Office productivity applications.",
+    "nb": "Programspesifikke filformater for Microsoft Office-produktivitetsapplikasjoner.",
+    "de": "Anwendungseigene Dateiformate für die Microsoft-Office-Anwendungen.",
+    "ja": "Microsoft Officeの生産性アプリケーション用のネイティブファイル形式。",
+    "es": "Formatos de archivo nativos para las aplicaciones de productividad Microsoft Office.",
+    "zh-Hans": "Microsoft Office办公应用程序的原生文件格式。",
+    "sv": "Programegna filformat för Microsoft Office-programmen.",
+    "da": "Programegne filformater for Microsoft Office-programmerne.",
+    "nl": "Programma-eigen bestandsformaten voor de Microsoft Office-programma's.",
+    "pl": "Natywne formaty plików aplikacji biurowych Microsoft Office.",
+    "pt": "Formatos de arquivo nativos dos aplicativos de produtividade do Microsoft Office.",
+    "hi": "Microsoft Office उत्पादकता एप्लिकेशनों के नेटिव फ़ाइल फ़ॉर्मेट।"
+  },
+  "scopeNote": {
+    "en": "Covers Word (.docx) for documents, Excel (.xlsx) for spreadsheets, and PowerPoint (.pptx) for presentations — all based on the Office Open XML standard (ECMA-376 / ISO 29500). While occasionally accepted for print, PDF export is strongly preferred to ensure font and layout fidelity.",
+    "nb": "Dekker Word (.docx) for dokumenter, Excel (.xlsx) for regneark, og PowerPoint (.pptx) for presentasjoner — alle basert på Office Open XML-standarden (ECMA-376 / ISO 29500). Selv om disse av og til aksepteres for trykk, anbefales PDF-eksport sterkt for å sikre font- og layoutgjengivelse.",
+    "de": "Umfasst Word (.docx) für Dokumente, Excel (.xlsx) für Tabellenkalkulation und PowerPoint (.pptx) für Präsentationen — alle basierend auf dem Open-XML-Standard (ECMA-376 / ISO 29500). Obwohl gelegentlich für den Druck akzeptiert, wird der PDF-Export dringend bevorzugt, um Schrift- und Layouttreue zu gewährleisten.",
+    "ja": "文書用のWord（.docx）、表計算用のExcel（.xlsx）、プレゼンテーション用のPowerPoint（.pptx）を扱う — いずれもOffice Open XML規格（ECMA-376 / ISO 29500）に基づく。印刷で受け入れられる場合もあるが、フォントとレイアウトの忠実性を保証するため、PDFエクスポートが強く推奨される。",
+    "es": "Cubre Word (.docx) para documentos, Excel (.xlsx) para hojas de cálculo y PowerPoint (.pptx) para presentaciones — todos basados en la norma Office Open XML (ECMA-376 / ISO 29500). Aunque ocasionalmente se aceptan en producción rápida, el PDF exportado es la entrega estándar para imprenta.",
+    "zh-Hans": "涵盖用于文档的Word（.docx）、用于电子表格的Excel（.xlsx）和用于演示的PowerPoint（.pptx）——均基于Office Open XML标准（ECMA-376 / ISO 29500）。虽然偶尔在快速生产中接受，但导出的PDF是印刷交付标准。",
+    "pt": "Cobre Word (.docx) para documentos, Excel (.xlsx) para planilhas e PowerPoint (.pptx) para apresentações — todos baseados na norma Office Open XML (ECMA-376 / ISO 29500). Embora ocasionalmente aceitos para impressão, a exportação em PDF é fortemente preferida para garantir fidelidade de fontes e layout.",
+    "hi": "दस्तावेज़ों के लिए Word (.docx), स्प्रेडशीट के लिए Excel (.xlsx) और प्रस्तुतियों के लिए PowerPoint (.pptx) शामिल — सभी Office Open XML मानक (ECMA-376 / ISO 29500) पर आधारित। प्रिंट के लिए कभी-कभी स्वीकार्य, पर फ़ॉन्ट और लेआउट निष्ठा के लिए PDF निर्यात प्रबल रूप से पसंदीदा।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-GFF-NATV-MSFT",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

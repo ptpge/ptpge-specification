@@ -1,0 +1,137 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/compliment-slips> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "compliment slip"@da,
+        "kompliment-seddel"@da,
+        "med venlig hilsen-kort"@da,
+        "Beilegekarten"@de,
+        "Komplimentkarten"@de,
+        "Compliments cards"@en,
+        "compliment slip"@en,
+        "with-compliments slip"@en,
+        "nota de cortesía"@es,
+        "tarjeta con saludos"@es,
+        "tarjeta de saludo"@es,
+        "tarjetón de cortesía"@es,
+        "कॉम्प्लिमेंट स्लिप"@hi,
+        "शुभकामना पर्ची"@hi,
+        "सादर पर्ची"@hi,
+        "一筆箋"@ja,
+        "挨拶状"@ja,
+        "添え状"@ja,
+        "komplimentslipp"@nb,
+        "complimentkaartje"@nl,
+        "met-de-complimenten-kaart"@nl,
+        "karta grzecznościowa"@pl,
+        "kartka z pozdrowieniami"@pl,
+        "cartão de cumprimentos"@pt,
+        "com os cumprimentos"@pt,
+        "folha de cortesia"@pt,
+        "följesedel med hälsning"@sv,
+        "kompliment slip"@sv,
+        "致意卡"@zh-Hans,
+        "问候便条"@zh-Hans,
+        "随附卡"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En lille trykt seddel, der sendes med korrespondance eller varer og bærer brandets 'med venlig hilsen'-budskab."@da,
+        "Ein kleiner bedruckter Beleg, der mit Korrespondenz oder Waren versendet wird."@de,
+        "A small printed slip sent with correspondence or goods, carrying a brand's 'with compliments' message."@en,
+        "Una pequeña hoja impresa que acompaña la correspondencia o los envíos, con el mensaje de cortesía de la marca."@es,
+        "पत्राचार या माल के साथ भेजी जाने वाली छोटी मुद्रित पर्ची, जिस पर ब्रांड का «सादर» संदेश होता है।"@hi,
+        "書簡や商品に添える小さな印刷スリップ。ブランドの挨拶（with compliments）を伝える。"@ja,
+        "En liten trykt slipp som sendes med korrespondanse eller varer, med en 'med hilsen'-melding."@nb,
+        "Een klein gedrukt kaartje dat met correspondentie of goederen wordt meegestuurd, met de 'met vriendelijke groet'-boodschap van een merk."@nl,
+        "Mała drukowana karta dołączana do korespondencji lub towaru, z firmowym przesłaniem „z wyrazami szacunku”."@pl,
+        "Pequena folha impressa enviada com correspondência ou mercadorias, com a mensagem «com os cumprimentos» da marca."@pt,
+        "En liten tryckt lapp som skickas med korrespondens eller varor och bär ett varumärkes hälsning ('with compliments')."@sv,
+        "随信函或货品附赠的小型印刷便条，承载品牌的致意信息。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§COMPLIMENT-SLIPS" ;
+    skos:prefLabel "Kompliment-sedler"@da,
+        "Mit-Komplimenten-Karten"@de,
+        "Compliment Slips"@en,
+        "Tarjetas de saludo"@es,
+        "कॉम्प्लिमेंट स्लिप"@hi,
+        "コンプリメントスリップ"@ja,
+        "Komplimentslipper"@nb,
+        "Complimentkaartjes"@nl,
+        "Karty grzecznościowe"@pl,
+        "Cartões de cortesia"@pt,
+        "Komplimangkort"@sv,
+        "致意条"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-fibre>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFibre <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

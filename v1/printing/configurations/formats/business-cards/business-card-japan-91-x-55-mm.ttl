@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-japan-91-x-55-mm> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/business-cards> ;
+    skos:definition "91 × 55 mm. Standardvisitkortformatet i Japan (kallat meishi, 名刺). Udveksling af kort er et formelt ritual i japansk forretningskultur."@da,
+        "91 × 55 mm. Das Standardvisitenkartenformat in Japan (genannt meishi, 名刺). Der Austausch von Karten ist in der japanischen Geschäftskultur ein formelles Ritual."@de,
+        "91 × 55 mm. The standard business card size in Japan (called meishi, 名刺). Exchange of cards is a formal ritual in Japanese business culture."@en,
+        "Tarjeta de visita japonesa (meishi), 91 × 55 mm — referente cultural importante en el intercambio profesional en Japón."@es,
+        "91 × 55 mm. जापान का मानक विज़िटिंग कार्ड आकार (जिसे meishi, 名刺 कहते हैं)। कार्ड का आदान-प्रदान जापानी व्यावसायिक संस्कृति में औपचारिक रस्म है।"@hi,
+        "91×55mm。日本の標準名刺サイズ（名刺と呼ばれる）。名刺交換は日本のビジネス文化において形式的な儀礼である。"@ja,
+        "91 × 55 mm. Standard visittkortstørrelse i Japan (kalt meishi, 名刺). Utveksling av kort er et formelt ritual i japansk forretningskultur."@nb,
+        "91 × 55 mm. Standardvisitkortformatet in Japan (kallat meishi, 名刺). Het uitwisselen van kaartjes is een formeel ritueel in de Japanse zakencultuur."@nl,
+        "91 × 55 mm. Standardowy format wizytówki w Japonii (zwanej meishi, 名刺). Wymiana wizytówek jest formalnym rytuałem w japońskiej kulturze biznesowej."@pl,
+        "91 × 55 mm. O tamanho padrão de cartão de visita no Japão (chamado meishi, 名刺). A troca de cartões é um ritual formal na cultura empresarial japonesa."@pt,
+        "91 × 55 mm. Standardvisitkortsformatet i Japan (kallat meishi, 名刺). Utväxling av kort är en formell ritual i japansk affärskultur."@sv,
+        "日本名片（meishi/名刺），91 × 55 毫米 —— 在日本专业交流中具有重要文化意义。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§BUSINESS-CARD-JAPAN-91-X-55-MM" ;
+    skos:prefLabel "Visitkort Japan (91 x 55 mm)"@da,
+        "Business Card Japan 91 x 55 mm)"@de,
+        "Business Card Japan (91 x 55 mm)"@en,
+        "Tarjeta de Visita Japonesa (91 × 55 mm)"@es,
+        "विज़िटिंग कार्ड जापान (91 x 55 mm)"@hi,
+        "Business Card Japan 91 x 55 mm)"@ja,
+        "Business Card Japan 91 x 55 mm)"@nb,
+        "Visitekaartje Japan (91 x 55 mm)"@nl,
+        "Wizytówka Japonia (91 x 55 mm)"@pl,
+        "Cartão de visita Japão (91 x 55 mm)"@pt,
+        "Visitkort Japan (91 x 55 mm)"@sv,
+        "日本名片 (91 × 55 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 5005.0 ;
+            ptpge:aspectRatio 1.6545 ;
+            ptpge:height 55.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 91.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

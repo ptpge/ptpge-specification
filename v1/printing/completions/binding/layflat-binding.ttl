@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/layflat-binding> a skos:Concept ;
+    dcterms:created "2026-08-12T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Lay-Flat-Bindung"@de,
+        "Lay-flat"@en,
+        "Lay-flat binding"@en,
+        "Layflat"@en,
+        "Panoramic spreads"@en,
+        "पैनोरमिक स्प्रेड"@hi,
+        "फ़्लैट खुलने वाली बाइंडिंग"@hi,
+        "लेफ़्लैट"@hi,
+        "लेफ़्लैट एल्बम"@hi,
+        "合紙製本"@ja,
+        "Flatt oppslag"@nb,
+        "Lay-flat"@nb,
+        "layflat"@pl,
+        "oprawa płasko otwierana"@pl,
+        "rozkładówki panoramiczne"@pl,
+        "abertura plana"@pt,
+        "lay-flat"@pt,
+        "layflat"@pt,
+        "páginas panorâmicas"@pt,
+        "平摊装订"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "Åbner helt fladt uden tab i ryggen — bladene monteres ryg mod ryg, så et enkelt billede kan løbe hen over begge sider; den eksklusive konstruktion til fotobøger og album."@da,
+        "Aufschläge öffnen völlig flach ohne Verlust im Bund — die Blätter werden Rücken an Rücken montiert, sodass ein Bild über beide Seiten laufen kann; die Premium-Konstruktion für Fotobücher und Alben."@de,
+        "Spreads open completely flat with no gutter loss — leaves are mounted back-to-back so a single image can run across both pages; the premium construction for photo books and albums."@en,
+        "Se abre completamente plano sin pérdida en el lomo — las hojas van montadas dorso con dorso de modo que una sola imagen puede extenderse por ambas páginas; la construcción premium para álbumes y libros de fotos."@es,
+        "स्प्रेड पूरी तरह सपाट खुलते हैं, बीच (गटर) में कुछ छिपता नहीं — पत्ते पीठ-से-पीठ चिपके होते हैं ताकि एक ही चित्र दोनों पृष्ठों पर फैल सके; फ़ोटो बुक और एल्बम के लिए प्रीमियम निर्माण।"@hi,
+        "ノド落ちなく完全にフラットに開く — 用紙を背中合わせに貼り合わせるため、1枚の画像を見開き全体に渡せる。フォトブックやアルバムのプレミアム仕様。"@ja,
+        "Oppslag som åpner helt flatt uten tap i midten — arkene monteres rygg mot rygg slik at ett bilde kan løpe over begge sider; premiumkonstruksjonen for fotobøker og album."@nb,
+        "Opent volledig vlak zonder verlies in de rug — de bladen worden rug-aan-rug gemonteerd zodat één beeld over beide pagina's kan doorlopen; de premium constructie voor fotoboeken en albums."@nl,
+        "Rozkładówki otwierają się całkowicie płasko, bez straty w grzbiecie — karty są łączone grzbiet w grzbiet, więc jeden obraz może biec przez obie strony; konstrukcja premium dla fotoksiążek i albumów."@pl,
+        "As páginas duplas abrem totalmente planas sem perda no meio — as folhas são montadas costas com costas para que uma única imagem atravesse as duas páginas; a construção premium para fotolivros e álbuns."@pt,
+        "Uppslag som öppnas helt plant utan förlust i bindningen — bladen monteras rygg mot rygg så att en enda bild kan löpa över båda sidorna; premiumkonstruktionen för fotoböcker och album."@sv,
+        "完全平摊打开、无订口损失 — 页张背对背裱合，单幅图像可横贯双页；照片书与相册的高端工艺。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§LAYFLAT-BINDING" ;
+    skos:prefLabel "Layflat-indbinding"@da,
+        "Layflat-Bindung"@de,
+        "Layflat Binding"@en,
+        "Encuadernación layflat"@es,
+        "लेफ़्लैट बाइंडिंग"@hi,
+        "レイフラット製本"@ja,
+        "Layflat-innbinding"@nb,
+        "Layflat-binding"@nl,
+        "Oprawa layflat"@pl,
+        "Encadernação layflat"@pt,
+        "Layflat-bindning"@sv,
+        "蝴蝶装"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A5 (148 x 210 mm)",
+    "es": "A5 (148 × 210 mm)",
+    "zh-Hans": "A5 (148 × 210 mm)",
+    "nb": "A5 (148 x 210 mm)",
+    "de": "A5 (148 x 210 mm)",
+    "ja": "A5 (148 x 210 mm)",
+    "nl": "A5 (148 x 210 mm)",
+    "sv": "A5 (148 x 210 mm)",
+    "da": "A5 (148 x 210 mm)",
+    "pl": "A5 (148 x 210 mm)",
+    "pt": "A5 (148 x 210 mm)",
+    "hi": "A5 (148 x 210 mm)"
+  },
+  "altLabels": {
+    "en": [
+      "A5 Size",
+      "148 x 210 mm",
+      "148x210",
+      "148×210",
+      "14.8 x 21 cm",
+      "DIN A5"
+    ],
+    "nb": [
+      "A5-format",
+      "A5-størrelse"
+    ],
+    "pl": [
+      "format A5"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A5",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "148 × 210 mm (5.83 × 8.27 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A4. Common for booklets, notepads, flyers, and personal-size publications.",
+    "nb": "148 × 210 mm (5,83 × 8,27 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A4. Vanlig for hefter, notatblokker, flyers og personlig-størrelse publikasjoner.",
+    "de": "148 × 210 mm (5,83 × 8,27 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A4. Üblich für Broschüren, Notizblöcke, Flyer und Publikationen im persönlichen Format.",
+    "ja": "148×210mm（5.83×8.27インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A4の半分の面積。ブックレット、ノートパッド、チラシ、パーソナルサイズの出版物で一般的。",
+    "es": "Formato A5 de la serie A de ISO 216, dimensiones 148 × 210 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A.",
+    "zh-Hans": "ISO 216 A系列A5开本，尺寸148 × 210 mm。比例1:√2 —— 对折后得到下一个A尺寸。",
+    "sv": "148 × 210 mm (5.83 × 8.27 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A4. Vanligt för häften, anteckningsblock, flygblad och publikationer i personligt format.",
+    "da": "148 × 210 mm (5.83 × 8.27 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A4. Almindeligt til hæfter, notesblokke, flyers og udgivelser i personligt format.",
+    "nl": "148 × 210 mm (5.83 × 8.27 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A4. Gebruikelijk voor boekjes, notitieblokken, flyers en publicaties in persoonlijk formaat.",
+    "pl": "148 × 210 mm (5,83 × 8,27 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A4. Typowy dla broszur, notatników, ulotek i publikacji formatu osobistego.",
+    "pt": "148 × 210 mm (5.83 × 8.27 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A4. Comum em folhetos, blocos, flyers e publicações de bolso.",
+    "hi": "148 × 210 mm (5.83 × 8.27 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A4 का आधा क्षेत्रफल। बुकलेट, नोटपैड, फ़्लायर और निजी आकार के प्रकाशनों में आम।"
+  },
+  "properties": {
+    "width": 148,
+    "height": 210,
+    "unit": "mm",
+    "aspectRatio": 1.4189,
+    "standard": "ISO 216",
+    "area": 31080
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/configuration/shape",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:CF§SHAPE",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Shape",
+    "nb": "Form",
+    "de": "Form",
+    "es": "Forma",
+    "ja": "形状",
+    "zh-Hans": "形状",
+    "sv": "Form",
+    "da": "Form",
+    "nl": "Vorm",
+    "pl": "Kształt",
+    "pt": "Forma",
+    "hi": "आकृति"
+  },
+  "altLabels": {
+    "en": [
+      "Contour",
+      "Outline"
+    ],
+    "nb": [
+      "Omriss"
+    ],
+    "pl": [
+      "kontur",
+      "obrys"
+    ],
+    "pt": [
+      "contorno",
+      "silhueta",
+      "formato de corte"
+    ],
+    "hi": [
+      "शेप",
+      "रूपरेखा",
+      "कंटूर"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Shape. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Form. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Form. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Forma. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：形状。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：形状。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Form. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Form. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Vorm. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Kształt. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Forma. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: आकृति। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "What shape?",
+    "nb": "Hvilken form?",
+    "de": "Welche Form?",
+    "es": "¿Qué forma?",
+    "ja": "形状は？",
+    "zh-Hans": "什么形状？",
+    "sv": "Vilken form?",
+    "da": "Hvilken form?",
+    "nl": "Welke vorm?",
+    "pl": "Jaki kształt?",
+    "pt": "Que forma?",
+    "hi": "कौन-सा आकार (शेप)?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/configurations/shape",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/configuration",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

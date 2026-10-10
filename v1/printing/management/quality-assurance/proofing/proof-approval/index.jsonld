@@ -1,0 +1,70 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Proof Approval",
+    "nb": "Korrekturgodkjenning",
+    "de": "Proof-Freigabe",
+    "ja": "校正承認",
+    "es": "Aprobación de prueba",
+    "zh-Hans": "样张批准",
+    "sv": "Provgodkännande",
+    "da": "Prøvegodkendelse",
+    "nl": "Proefgoedkeuring",
+    "pl": "Akceptacja proofa",
+    "pt": "Aprovação de prova",
+    "hi": "प्रूफ़ अनुमोदन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG-QAS-PROF-APPR",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The customer-facing approval step of proofing: the formal release of a submitted proof to production, or the request for another correction cycle. Named as a concept so commerce protocols and workflow systems can reference the step and its states with stable URIs.",
+    "nb": "Det kundevendte godkjenningssteget i korrektur: den formelle frigivelsen av en innsendt korrektur til produksjon, eller anmodning om en ny korrekturrunde. Navngitt som konsept slik at handelsprotokoller og workflow-systemer kan referere steget og tilstandene med stabile URI-er.",
+    "de": "Der kundenseitige Freigabeschritt des Proofings: die formale Freigabe eines eingereichten Proofs zur Produktion oder die Anforderung einer weiteren Korrekturrunde. Als Konzept benannt, damit Commerce-Protokolle und Workflow-Systeme den Schritt und seine Zustände mit stabilen URIs referenzieren können.",
+    "ja": "校正における顧客側の承認ステップ：提出された校正の生産への正式なリリース、または追加の修正サイクルの要求。コマースプロトコルやワークフローシステムが安定したURIでこのステップと状態を参照できるよう、概念として命名。",
+    "es": "El paso de aprobación de cara al cliente en las pruebas: la liberación formal de una prueba presentada a producción, o la solicitud de otro ciclo de corrección. Nombrado como concepto para que protocolos de comercio y sistemas de flujo puedan referenciar el paso y sus estados con URIs estables.",
+    "zh-Hans": "打样中面向客户的批准步骤：将提交的样张正式放行至生产，或要求再一轮修改。作为概念命名，使商务协议和工作流系统能以稳定 URI 引用该步骤及其状态。",
+    "sv": "Provtryckets kundvända godkännandesteg: den formella frisläppningen av ett inlämnat prov till produktion, eller begäran om ytterligare en korrekturcykel. Namngivet som begrepp så att handelsprotokoll och arbetsflödessystem kan referera steget och dess tillstånd med stabila URI:er.",
+    "da": "Det kundevendte godkendelsestrin i prøvetryk: den formelle frigivelse af en indsendt prøve til produktion, eller anmodning om endnu en rettelsesrunde. Navngivet som begreb, så handelsprotokoller og agenter kan referere til tilstandene.",
+    "nl": "De klantgerichte goedkeuringsstap van het proeven: de formele vrijgave van een ingediende proef naar productie, of het verzoek om nog een correctieronde. Als concept benoemd zodat handelsprotocollen en agenten naar de toestanden kunnen verwijzen.",
+    "pl": "Etap proofingu skierowany do klienta: formalne zwolnienie przedłożonego proofa do produkcji lub prośba o kolejny cykl korekt. Nazwany jako pojęcie, aby protokoły handlowe i systemy workflow mogły odwoływać się do tego etapu i jego stanów stabilnymi URI.",
+    "pt": "A etapa de aprovação voltada ao cliente nas provas: a liberação formal de uma prova enviada para produção, ou o pedido de mais um ciclo de correção. Nomeada como conceito para que protocolos de comércio e sistemas de fluxo de trabalho possam referenciar a etapa e seus estados com URIs estáveis.",
+    "hi": "प्रूफ़िंग का ग्राहक-सम्मुख अनुमोदन चरण: प्रस्तुत प्रूफ़ को उत्पादन के लिए औपचारिक रूप से जारी करना, या एक और सुधार चक्र का अनुरोध। अवधारणा के रूप में नामित ताकि वाणिज्य प्रोटोकॉल और वर्कफ़्लो सिस्टम इस चरण और इसकी अवस्थाओं को स्थिर URI से संदर्भित कर सकें।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "narrower": [
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/proof-submitted",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/changes-requested",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/proof-approved"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

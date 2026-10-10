@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/scoring> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Crease"@en,
+        "Creasing"@en,
+        "Score line"@en,
+        "Scored"@en,
+        "क्रीज़"@hi,
+        "क्रीज़िंग"@hi,
+        "मोड़ की लाइन"@hi,
+        "स्कोर लाइन"@hi,
+        "Biging"@nb,
+        "Rillet"@nb,
+        "Rilling"@nb,
+        "big"@pl,
+        "bigowane"@pl,
+        "bigówka"@pl,
+        "linia bigu"@pl,
+        "linha de vinco"@pt,
+        "vincado"@pt,
+        "vincagem"@pt,
+        "vinco de dobra"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Presning af en rillelinje i substratet, så det falses rent uden at revne."@da,
+        "Eindrücken einer Rilllinie, damit der Bedruckstoff sauber und ohne Brechen gefalzt werden kann."@de,
+        "Pressing a crease line into the substrate so it folds cleanly without cracking."@en,
+        "Presionar una línea de hendido en el sustrato para que se pliegue limpiamente sin agrietarse."@es,
+        "सब्सट्रेट में क्रीज़ की लाइन दबाना ताकि वह बिना दरार के साफ़ मुड़े।"@hi,
+        "基材に折りスジを圧して入れ、割れずにきれいに折れるようにする。"@ja,
+        "Pressing av en rillelinje i substratet så det brettes rent uten å sprekke."@nb,
+        "Een rillijn in het substraat persen zodat het netjes vouwt zonder te breken."@nl,
+        "Wytłoczenie linii zagięcia w podłożu, aby składało się czysto, bez pękania."@pl,
+        "Marcar uma linha de vinco no substrato para que dobre limpo, sem rachar."@pt,
+        "Pressning av en veckningslinje i substratet så att det falsas rent utan att spricka."@sv,
+        "在承印材料上压出折痕线，使其折叠平整而不开裂。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§SCORING" ;
+    skos:prefLabel "Rilning"@da,
+        "Rillen"@de,
+        "Scoring"@en,
+        "Scoring"@es,
+        "स्कोरिंग (क्रीज़िंग)"@hi,
+        "Scoring"@ja,
+        "Rilling"@nb,
+        "Rillen"@nl,
+        "Bigowanie"@pl,
+        "Vinco"@pt,
+        "Bigning"@sv,
+        "Scoring"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.9 · p.117" ;
+            ptpge:mappingRow "crosswalk row 43" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Creasing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

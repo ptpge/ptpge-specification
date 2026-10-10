@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/wood/solid> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Solid"@en,
+        "असली लकड़ी"@hi,
+        "ठोस"@hi,
+        "सॉलिड वुड"@hi,
+        "Massiv"@nb,
+        "lite"@pl,
+        "maciça"@pt,
+        "madeira natural"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/wood> ;
+    skos:definition "Paneler af naturligt massivt træ."@da,
+        "Platten aus natürlichem Massivholz."@de,
+        "Panels made from natural solid timber."@en,
+        "Paneles de madera maciza natural."@es,
+        "प्राकृतिक ठोस लकड़ी से बने पैनल।"@hi,
+        "天然の無垢材から作られるパネル。"@ja,
+        "Paneler laget av naturlig heltre."@nb,
+        "Panelen van natuurlijk massief hout."@nl,
+        "Płyty wykonane z naturalnego litego drewna."@pl,
+        "Painéis feitos de madeira natural maciça."@pt,
+        "Skivor av naturligt massivt virke."@sv,
+        "由天然实木制成的板材。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/board-materials/wood/solid/edge-glued-panel> ;
+    skos:notation "P:SB-BRD-WOOD-SOL" ;
+    skos:prefLabel "Massivt træ"@da,
+        "Massivholz"@de,
+        "Solid Wood"@en,
+        "Madera maciza"@es,
+        "ठोस लकड़ी"@hi,
+        "無垢材"@ja,
+        "Heltre"@nb,
+        "Massief hout"@nl,
+        "Drewno lite"@pl,
+        "Madeira maciça"@pt,
+        "Massivt trä"@sv,
+        "实木"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

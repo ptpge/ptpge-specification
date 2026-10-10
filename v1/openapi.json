@@ -1,0 +1,380 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "PTPGE API",
+    "version": "2026-10-07",
+    "summary": "The open, semantic vocabulary for print — 873 terms with permanent URIs.",
+    "description": "REST surface of the PTPGE specification (Periodic Table of Print & Graphic Elements). Every term is a permanent, dereferenceable URI returning JSON-LD/SKOS; the same vocabulary backs the MCP server for AI agents (mcp.ptpge.org) and the ptpge-cfs/1 Configuration Fingerprint.\n\nContent negotiation: extensionless URLs return `application/ld+json` by default, `text/turtle` when the Accept header asks for it, and an HTML page in browsers. Append `?format=json` to receive the identical bytes with `Content-Type: application/json` (for clients that choke on ld+json). All endpoints are read-only (GET).",
+    "license": {
+      "name": "CC BY 4.0 (term data)",
+      "identifier": "CC-BY-4.0"
+    },
+    "contact": {
+      "name": "PTPGE",
+      "url": "https://ptpge.org"
+    }
+  },
+  "externalDocs": {
+    "description": "Specification, documentation and permanent home",
+    "url": "https://ptpge.org"
+  },
+  "servers": [
+    {
+      "url": "https://api.ptpge.org/v1",
+      "description": "Production (Public Beta — Bearer key required; apply at https://register.ptpge.org)"
+    },
+    {
+      "url": "https://internal.ptpge.org/v1",
+      "description": "Read-only beta mirror (no auth) — for evaluation only; may lag production"
+    }
+  ],
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Catalog / discovery document",
+        "description": "Top-level index of the vocabulary (groups, counts, entry points).",
+        "operationId": "getCatalog",
+        "responses": {
+          "200": {
+            "description": "index.jsonld",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scheme": {
+      "get": {
+        "summary": "The SKOS concept scheme",
+        "operationId": "getScheme",
+        "responses": {
+          "200": {
+            "description": "ConceptScheme (JSON-LD)",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/context": {
+      "get": {
+        "summary": "The JSON-LD context",
+        "operationId": "getContext",
+        "responses": {
+          "200": {
+            "description": "JSON-LD @context used by every document",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/version": {
+      "get": {
+        "summary": "Data release info",
+        "operationId": "getVersion",
+        "responses": {
+          "200": {
+            "description": "Release date, term counts, scheme URL",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "termCount": {
+                      "type": "integer"
+                    },
+                    "scheme_url": {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/terms": {
+      "get": {
+        "summary": "Full bundle — the scheme and every term in one @graph",
+        "description": "Large response; intended for bulk download / self-hosting. Also available as Turtle at /terms.ttl.",
+        "operationId": "getFullBundle",
+        "responses": {
+          "200": {
+            "description": "terms.jsonld",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search-index": {
+      "get": {
+        "summary": "Client-side search index",
+        "operationId": "getSearchIndex",
+        "responses": {
+          "200": {
+            "description": "Compact index of labels/notations for client-side search",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/mappings": {
+      "get": {
+        "summary": "Crosswalk discovery document",
+        "description": "Mappings to adjacent industry vocabularies (e.g. CIP4/XJDF) — one file per target under /mappings/{slug}.",
+        "operationId": "getMappings",
+        "responses": {
+          "200": {
+            "description": "mappings/index.jsonld",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/{termPath}": {
+      "get": {
+        "summary": "Any term, sub-tree index or top concept by its URI path",
+        "description": "The core of the API: `https://ptpge.org/v1/{termPath}` IS the term's permanent identifier. Examples: `/printing/standards/measurement-systems/metric`, `/ordering/products/brochures`, `/variables/configuration/format`. Internal nodes return an index of their children. NOTE: {termPath} contains slashes — OpenAPI path templating cannot express this formally, so treat it as a prefix pattern `[a-z0-9./-]+` rather than a single segment.",
+        "operationId": "getTerm",
+        "parameters": [
+          {
+            "name": "termPath",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9./-]+$"
+            },
+            "description": "Slash-separated term path (charset a-z 0-9 . / - — the ptpge-cfs/1 token charset)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The term document",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object",
+                  "description": "One PTPGE term (house format, JSON-LD).",
+                  "properties": {
+                    "@context": {
+                      "type": "string",
+                      "description": "https://ptpge.org/v1/context.jsonld"
+                    },
+                    "id": {
+                      "type": "string",
+                      "format": "uri",
+                      "description": "Permanent term URI (never changes; deprecated terms keep resolving)."
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "notation": {
+                      "type": "string",
+                      "description": "House notation, e.g. P:ST§SLUG / V:CM§SLUG."
+                    },
+                    "elementType": {
+                      "type": "string",
+                      "enum": [
+                        "group",
+                        "category",
+                        "sub-category",
+                        "element",
+                        "variable",
+                        "value",
+                        "concept",
+                        "context",
+                        "reference"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "proposed",
+                        "approved",
+                        "deprecated"
+                      ],
+                      "description": "Lifecycle. Fingerprints are treated as stable from 'approved'."
+                    },
+                    "version": {
+                      "type": "string",
+                      "description": "ISO date of the content release that last touched this term."
+                    },
+                    "label": {
+                      "type": "object",
+                      "description": "Multilingual labels keyed by BCP-47 code (en, nb, de, ja, es, zh-Hans, sv, da, nl, pl, pt, hi)."
+                    },
+                    "definition": {
+                      "type": "object",
+                      "description": "Multilingual definitions."
+                    },
+                    "broader": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "narrower": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "ordered": {
+                      "type": "boolean",
+                      "description": "On multi-value variables: true means value order is significant and serializes with '>' in ptpge-cfs/1."
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No such term"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Public Beta API key (ptpge_beta_…) issued via https://register.ptpge.org. Not needed on the internal mirror."
+      }
+    },
+    "schemas": {
+      "Term": {
+        "type": "object",
+        "description": "One PTPGE term (house format, JSON-LD).",
+        "properties": {
+          "@context": {
+            "type": "string",
+            "description": "https://ptpge.org/v1/context.jsonld"
+          },
+          "id": {
+            "type": "string",
+            "format": "uri",
+            "description": "Permanent term URI (never changes; deprecated terms keep resolving)."
+          },
+          "type": {
+            "type": "string"
+          },
+          "notation": {
+            "type": "string",
+            "description": "House notation, e.g. P:ST§SLUG / V:CM§SLUG."
+          },
+          "elementType": {
+            "type": "string",
+            "enum": [
+              "group",
+              "category",
+              "sub-category",
+              "element",
+              "variable",
+              "value",
+              "concept",
+              "context",
+              "reference"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "proposed",
+              "approved",
+              "deprecated"
+            ],
+            "description": "Lifecycle. Fingerprints are treated as stable from 'approved'."
+          },
+          "version": {
+            "type": "string",
+            "description": "ISO date of the content release that last touched this term."
+          },
+          "label": {
+            "type": "object",
+            "description": "Multilingual labels keyed by BCP-47 code (en, nb, de, ja, es, zh-Hans, sv, da, nl, pl, pt, hi)."
+          },
+          "definition": {
+            "type": "object",
+            "description": "Multilingual definitions."
+          },
+          "broader": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "narrower": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ordered": {
+            "type": "boolean",
+            "description": "On multi-value variables: true means value order is significant and serializes with '>' in ptpge-cfs/1."
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

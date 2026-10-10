@@ -1,0 +1,65 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/data-management",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Data Management",
+    "es": "Gestión de Datos",
+    "zh-Hans": "数据管理",
+    "nb": "Data-håndtering",
+    "de": "Datenmanagement",
+    "ja": "データ管理",
+    "sv": "Datahantering",
+    "da": "Datastyring",
+    "nl": "Databeheer",
+    "pl": "Zarządzanie danymi",
+    "pt": "Gestão de dados",
+    "hi": "डेटा प्रबंधन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§DATA-MANAGEMENT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Storage, organization, and lifecycle management of files, assets, and metadata associated with print jobs — encompassing customer files, working files, plates, archives, and audit trails.",
+    "nb": "Lagring, organisering og livssyklushåndtering av filer, eiendeler og metadata tilknyttet trykkjobber — omfatter kundefiler, arbeidsfiler, plater, arkiver og revisjonsspor.",
+    "de": "Speicherung, Organisation und Lebenszyklusverwaltung von Dateien, Assets und Metadaten zu Druckaufträgen — umfasst Kundendateien, Arbeitsdateien, Druckplatten, Archive und Auditprotokolle.",
+    "ja": "印刷ジョブに関連するファイル、資産、メタデータの保存、整理、ライフサイクル管理 — 顧客ファイル、作業ファイル、刷版、アーカイブ、監査証跡を包含する。",
+    "es": "Control de archivos, activos y metadatos a lo largo del trabajo — almacenamiento estructurado, búsqueda y trazabilidad.",
+    "zh-Hans": "在整个作业过程中控制文件、资产和元数据 —— 结构化存储、搜索和可追溯性。",
+    "sv": "Lagring, organisering och livscykelhantering av filer, tillgångar och metadata knutna till tryckjobb — omfattar kundfiler, arbetsfiler, plåtar, arkiv och revisionsspår.",
+    "da": "Lagring, organisering og livscyklusstyring af filer, aktiver og metadata knyttet til trykopgaver — kundefiler, arbejdsfiler, plader, arkiver og revisionsspor.",
+    "nl": "Opslag, organisatie en levenscyclusbeheer van bestanden, assets en metadata bij drukopdrachten — klantbestanden, werkbestanden, platen, archieven en audittrails.",
+    "pl": "Przechowywanie, organizacja i zarządzanie cyklem życia plików, zasobów i metadanych związanych ze zleceniami drukarskimi — obejmuje pliki klientów, pliki robocze, formy, archiwa i ślady audytowe.",
+    "pt": "Armazenamento, organização e gestão do ciclo de vida de arquivos, ativos e metadados associados a trabalhos de impressão — abrangendo arquivos do cliente, arquivos de trabalho, chapas, arquivos históricos e trilhas de auditoria.",
+    "hi": "प्रिंट जॉब से जुड़ी फ़ाइलों, संपत्तियों और मेटाडेटा का भंडारण, संगठन और जीवनचक्र प्रबंधन — ग्राहक फ़ाइलें, कार्य फ़ाइलें, प्लेटें, संग्रह और ऑडिट ट्रेल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "data handling"
+    ],
+    "nb": [
+      "datahåndtering"
+    ],
+    "pl": [
+      "obsługa danych"
+    ],
+    "pt": [
+      "tratamento de dados"
+    ],
+    "hi": [
+      "डेटा हैंडलिंग"
+    ]
+  }
+}

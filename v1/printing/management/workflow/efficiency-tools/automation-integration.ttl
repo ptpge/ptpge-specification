@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    dcterms:replaces <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/adobe-pdf-workflow>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/agfa-apogee>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/efi-fiery>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/enfocus-switch>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/esko-ae-wf>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/heidelberg-prinect>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/kodak-prinergy>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/xerox-freeflow-core> ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/efficiency-tools> ;
+    skos:definition "Workflow-automatiseringsplatforme, der forbinder, orkestrerer og automatiserer trin på tværs af trykproduktionskæden — fra ordremodtagelse gennem prepress, RIP, pressestyring og færdiggørelse."@da,
+        "Workflow-Automatisierungsplattformen, die Schritte in der gesamten Druckproduktionspipeline verbinden, orchestrieren und automatisieren — von der Auftragsannahme über Druckvorstufe, RIP, Maschinensteuerung bis zur Veredelung."@de,
+        "Workflow automation platforms that connect, orchestrate, and automate steps across the print production pipeline — from job intake through prepress, RIP, press control, and finishing."@en,
+        "Plataformas de automatización del flujo de trabajo que conectan, orquestan y automatizan pasos a lo largo de la cadena de producción de impresión — desde la entrada del trabajo hasta pre-prensa, RIP, control de prensa y acabado."@es,
+        "वर्कफ़्लो स्वचालन प्लेटफ़ॉर्म जो प्रिंट उत्पादन पाइपलाइन के चरणों को जोड़ते, संचालित और स्वचालित करते हैं — जॉब इनटेक से प्रीप्रेस, RIP, प्रेस नियंत्रण और फ़िनिशिंग तक।"@hi,
+        "印刷生産パイプライン全体の工程 — ジョブ受付から製版、RIP、印刷機制御、仕上げまで — を接続、統括、自動化するワークフロー自動化プラットフォーム。"@ja,
+        "Automasjonsplattformer for arbeidsflyt som kobler, orkestrerer og automatiserer trinn på tvers av trykkproduksjonsledningen — fra jobb-mottak gjennom prepress, RIP, pressestyring og etterbehandling."@nb,
+        "Workflowautomatiseringsplatformen die stappen in de drukproductieketen verbinden, orkestreren en automatiseren — van orderintake via prepress, RIP en persbesturing tot afwerking."@nl,
+        "Platformy automatyzacji workflow, które łączą, orkiestrują i automatyzują etapy w całym potoku produkcji poligraficznej — od przyjęcia zlecenia przez prepress, RIP, sterowanie maszyną po wykończenie."@pl,
+        "Plataformas de automação de fluxo de trabalho que conectam, orquestram e automatizam etapas ao longo do pipeline de produção gráfica — da entrada do trabalho à pré-impressão, RIP, controle de máquina e acabamento."@pt,
+        "Plattformar för arbetsflödesautomation som kopplar samman, orkestrerar och automatiserar steg genom tryckproduktionskedjan — från jobbintag via prepress, RIP och presstyrning till efterbehandling."@sv,
+        "在印刷生产管道中连接、协调和自动化各步骤的工作流自动化平台——从作业接收到印前、RIP、印刷控制和印后。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/adobe-pdf-workflow>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/agfa-apogee>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/efi-fiery>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/enfocus-switch>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/esko-ae-wf>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/heidelberg-prinect>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/kodak-prinergy>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/xerox-freeflow-core> ;
+    skos:notation "P:MG-WFL-EFFT-AUIN" ;
+    skos:prefLabel "Automatisering & integration"@da,
+        "Automatisierung & Integration"@de,
+        "Automation & Integration"@en,
+        "Automatización e Integración"@es,
+        "स्वचालन और एकीकरण"@hi,
+        "自動化と統合"@ja,
+        "Automatisering & integrasjon"@nb,
+        "Automatisering & integratie"@nl,
+        "Automatyzacja i integracja"@pl,
+        "Automação e integração"@pt,
+        "Automation & integration"@sv,
+        "自动化与集成"@zh-Hans ;
+    skos:scopeNote "Die wichtigsten Anbietersysteme sind Heidelberg Prinect (offsetdruck-zentriert), Kodak Prinergy (Druckvorstufe und farbkontrollierter Workflow), Agfa Apogee (Druckvorstufenautomatisierung), EFI Fiery (Frontend für Digitaldruck), Esko Automation Engine (verpackungsorientiert), Enfocus Switch (anbieterneutrale Middleware), Xerox FreeFlow Core (Xerox-zentriert) und Adobe PDF Workflow (Acrobat-basiert). Die meisten sind über JDF/JMF für anbieterübergreifende Kommunikation integriert."@de,
+        "The major vendor systems are Heidelberg Prinect (offset-press-centric), Kodak Prinergy (prepress and color-managed workflow), Agfa Apogee (prepress automation), EFI Fiery (digital-press front-end), Esko Automation Engine (packaging-focused), Enfocus Switch (vendor-neutral middleware), Xerox FreeFlow Core (Xerox-press-centric), and Adobe PDF Workflow (Acrobat-based). Most are integrated with JDF/JMF for cross-vendor communication."@en,
+        "Los principales sistemas de proveedor son Heidelberg Prinect (centrado en prensa offset), Kodak Prinergy (pre-prensa y flujo con gestión de color), Agfa Apogee (automatización de pre-prensa), EFI Fiery (front-end para prensa digital), Esko Automation Engine (orientado a packaging) y Enfocus Switch (orquestación independiente del vendor)."@es,
+        "प्रमुख विक्रेता सिस्टम: Heidelberg Prinect (ऑफसेट-प्रेस-केंद्रित), Kodak Prinergy (प्रीप्रेस और रंग-प्रबंधित वर्कफ़्लो), Agfa Apogee (प्रीप्रेस स्वचालन), EFI Fiery (डिजिटल-प्रेस फ़्रंट-एंड), Esko Automation Engine (पैकेजिंग-केंद्रित), Enfocus Switch (विक्रेता-तटस्थ मिडलवेयर), Xerox FreeFlow Core (Xerox-प्रेस-केंद्रित) और Adobe PDF Workflow (Acrobat-आधारित)। अधिकांश क्रॉस-वेंडर संचार के लिए JDF/JMF से एकीकृत।"@hi,
+        "主要なベンダーシステムは、Heidelberg Prinect（オフセット印刷機中心）、Kodak Prinergy（製版およびカラーマネジメントワークフロー）、Agfa Apogee（製版自動化）、EFI Fiery（デジタル印刷機フロントエンド）、Esko Automation Engine（パッケージ重視）、Enfocus Switch（ベンダー中立ミドルウェア）、Xerox FreeFlow Core（Xerox印刷機中心）、Adobe PDF Workflow（Acrobatベース）。大半はベンダー間通信のためにJDF/JMFと統合されている。"@ja,
+        "De store leverandørsystemene er Heidelberg Prinect (offset-presse-sentrisk), Kodak Prinergy (prepress og fargestyrt arbeidsflyt), Agfa Apogee (prepress-automasjon), EFI Fiery (digital-presse-frontend), Esko Automation Engine (emballasjefokusert), Enfocus Switch (leverandørnøytral middelvare), Xerox FreeFlow Core (Xerox-presse-sentrisk) og Adobe PDF Workflow (Acrobat-basert). De fleste er integrert med JDF/JMF for kommunikasjon på tvers av leverandører."@nb,
+        "Os principais sistemas de fornecedores são Heidelberg Prinect (centrado em máquinas offset), Kodak Prinergy (fluxo de pré-impressão com gerenciamento de cor), Agfa Apogee (automação de pré-impressão), EFI Fiery (front-end de impressora digital), Esko Automation Engine (voltado a embalagens), Enfocus Switch (middleware neutro), Xerox FreeFlow Core (centrado em impressoras Xerox) e Adobe PDF Workflow (baseado no Acrobat). A maioria é integrada com JDF/JMF para comunicação entre fornecedores."@pt,
+        "主要供应商系统包括Heidelberg Prinect（以胶印为中心）、Kodak Prinergy（印前和色彩管理工作流）、Agfa Apogee（印前自动化）、EFI Fiery（数码印刷前端）、Esko Automation Engine（面向包装）和Enfocus Switch（独立于供应商的编排）。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

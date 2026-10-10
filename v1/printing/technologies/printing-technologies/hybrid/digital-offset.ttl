@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "HP Indigo"@en,
+        "Liquid toner"@en,
+        "HP Indigo"@hi,
+        "लिक्विड टोनर"@hi,
+        "Digital offset"@nb,
+        "HP Indigo"@pl,
+        "toner ciekły"@pl,
+        "HP Indigo"@pt,
+        "Toner líquido"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid> ;
+    skos:definition "HP Indigos teknik med flydende ElectroInk — kombinerer digital variabilitet (hvert tryk kan afvige) med offsetlignende trykkvalitet gennem elektrisk ladede blækpartikler overført via en gummidug. Det dominerende «digital offset»-system i kommerciel produktion."@da,
+        "HP Indigos flüssige ElectroInk-Technologie — verbindet digitale Variabilität (jeder Druck kann anders sein) mit offsetähnlicher Druckqualität durch elektrisch geladene Tintenpartikel, die über ein Gummituch übertragen werden. Das dominante „Digitaloffset“-System in der kommerziellen Produktion."@de,
+        "HP Indigo's liquid ElectroInk technology — combines digital variability (each impression can differ) with offset-like print quality through electrically-charged ink particles transferred via a rubber blanket. The dominant 'digital offset' system in commercial production."@en,
+        "Tecnología híbrida — notablemente HP Indigo — que utiliza tinta electrónica líquida sobre un cilindro de caucho como en offset, pero el patrón es direccionable digitalmente. Combina la calidad offset con la flexibilidad digital."@es,
+        "HP Indigo की लिक्विड ElectroInk तकनीक — डिजिटल परिवर्तनशीलता (हर इंप्रेशन अलग हो सकता है) को रबर ब्लैंकेट से स्थानांतरित विद्युत-आवेशित स्याही कणों द्वारा ऑफसेट-जैसी गुणवत्ता से जोड़ती है। व्यावसायिक उत्पादन में प्रमुख «डिजिटल ऑफसेट» सिस्टम।"@hi,
+        "HP Indigoの液状ElectroInk技術 — ゴムブランケットを介して転写される電気的に帯電したインキ粒子により、デジタルの可変性（各印刷物が異なる場合がある）とオフセット品質の印刷品質を兼ね備える。商業生産における主要な「デジタルオフセット」システム。"@ja,
+        "HP Indigos flytende ElectroInk-teknologi — kombinerer digital variabilitet (hver avtrykk kan være forskjellig) med offset-lignende trykkkvalitet gjennom elektrisk ladede blekkpartikler overført via et gummiteppe. Det dominerende 'digital offset'-systemet i kommersiell produksjon."@nb,
+        "HP Indigo's technologie met vloeibare ElectroInk — combineert digitale variabiliteit (elke druk kan verschillen) met offsetachtige drukkwaliteit via elektrisch geladen inktdeeltjes, overgebracht via een rubberdoek. Het dominante «digitale offset»-systeem in commerciële productie."@nl,
+        "Technologia ciekłej farby ElectroInk firmy HP Indigo — łączy cyfrową zmienność (każda odbitka może być inna) z jakością druku zbliżoną do offsetu dzięki elektrycznie naładowanym cząstkom farby przenoszonym przez gumowy obciąg. Dominujący system «cyfrowego offsetu» w produkcji komercyjnej."@pl,
+        "A tecnologia de ElectroInk líquida da HP Indigo — combina variabilidade digital (cada impressão pode ser diferente) com qualidade de impressão semelhante ao offset por meio de partículas de tinta eletricamente carregadas transferidas por uma blanqueta de borracha. O sistema de «offset digital» dominante na produção comercial."@pt,
+        "HP Indigos teknik med flytande ElectroInk — kombinerar digital variabilitet (varje tryck kan skilja sig) med offsetlik tryckkvalitet genom elektriskt laddade bläckpartiklar överförda via en gummiduk. Det dominerande «digital offset»-systemet i kommersiell produktion."@sv,
+        "混合技术——尤其是HP Indigo——使用液体电子油墨在橡胶滚筒上，如胶印一样，但图案是数码可寻址的。结合胶印质量与数码灵活性。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§DIGITAL-OFFSET" ;
+    skos:prefLabel "Digital offset"@da,
+        "Digital-Offset"@de,
+        "Digital Offset"@en,
+        "Offset Digital"@es,
+        "डिजिटल ऑफसेट"@hi,
+        "デジタルオフセット"@ja,
+        "Digital offset"@nb,
+        "Digitale offset"@nl,
+        "Offset cyfrowy"@pl,
+        "Offset digital"@pt,
+        "Digital offset"@sv,
+        "数码胶印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

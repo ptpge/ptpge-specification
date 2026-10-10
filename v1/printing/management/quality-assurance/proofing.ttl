@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "akceptacja proofów"@pl,
+        "próbne odbitki"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance> ;
+    skos:definition "Verifikationsproces, hvor en prøve af det færdige trykprodukt (eller en simulering) gennemgås og godkendes før fuld produktion — fanger farve-, layout-, indholds- og materialefejl, mens de stadig er billige at rette."@da,
+        "Verifizierungsprozess, bei dem ein Muster des fertigen Druckerzeugnisses (oder eine Simulation davon) vor der Vollproduktion überprüft und freigegeben wird — fängt Farb-, Layout-, Inhalts- und Materialfehler an dem Punkt ab, an dem Korrekturen noch wirtschaftlich sind."@de,
+        "Verification process where a sample of the final printed product (or simulation thereof) is reviewed and approved before full production — catches color, layout, content, and material errors at the point where correction is still affordable."@en,
+        "Proceso de verificación en el que se revisa y aprueba una muestra del producto impreso final (o su simulación) antes de la producción completa — detecta errores de color, maquetación, contenido y material en el momento en que la corrección aún es asequible."@es,
+        "सत्यापन प्रक्रिया जिसमें अंतिम मुद्रित उत्पाद का नमूना (या उसका अनुकरण) पूर्ण उत्पादन से पहले समीक्षित और अनुमोदित होता है — रंग, लेआउट, सामग्री और सामग्री की त्रुटियाँ उस बिंदु पर पकड़ता है जहाँ सुधार अब भी किफ़ायती है।"@hi,
+        "最終印刷物（またはそのシミュレーション）のサンプルを完全生産前に審査・承認する検証工程 — 修正がまだ手頃な段階で色、レイアウト、内容、材料のエラーを捕捉する。"@ja,
+        "Verifikasjonsprosess der en prøve av det ferdige trykte produktet (eller en simulering) gjennomgås og godkjennes før full produksjon — fanger farge-, layout-, innholds- og materialfeil på det punktet der korrigering fortsatt er rimelig."@nb,
+        "Verificatieproces waarbij een monster van het eindproduct (of een simulatie daarvan) wordt beoordeeld en goedgekeurd vóór volledige productie — vangt kleur-, opmaak-, inhouds- en materiaalfouten terwijl ze nog goedkoop te herstellen zijn."@nl,
+        "Proces weryfikacji, w którym próbka końcowego produktu drukowanego (lub jej symulacja) jest przeglądana i zatwierdzana przed pełną produkcją — wyłapuje błędy barw, układu, treści i materiału w momencie, gdy korekta jest jeszcze tania."@pl,
+        "Processo de verificação em que uma amostra do produto impresso final (ou simulação dele) é revisada e aprovada antes da produção completa — captura erros de cor, layout, conteúdo e material no ponto em que a correção ainda é acessível."@pt,
+        "Verifieringsprocess där ett prov av den slutliga tryckprodukten (eller en simulering av den) granskas och godkänns före full produktion — fångar färg-, layout-, innehålls- och materialfel i det skede där rättelse fortfarande är billig."@sv,
+        "在全面生产前审核并批准最终印刷品样本（或其模拟）的验证过程——在仍可负担修正的环节捕获色彩、版式、内容和材料错误。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/quality-assurance/proofing/postpress-proofing>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/proofing/proofreading> ;
+    skos:notation "P:MG-QAS-PROF" ;
+    skos:prefLabel "Prøvetryk"@da,
+        "Proofing"@de,
+        "Proofing"@en,
+        "Pruebas"@es,
+        "प्रूफ़िंग"@hi,
+        "校正"@ja,
+        "Proofing"@nb,
+        "Proeven"@nl,
+        "Proofing"@pl,
+        "Provas"@pt,
+        "Provtryck"@sv,
+        "校样"@zh-Hans ;
+    skos:scopeNote "Umfasst Proofing in der Druckvorstufe (Soft Proofs auf kalibrierten Monitoren, Hard Proofs, gedruckt auf farbkontrollierten Geräten), Proofing nach dem Druck (Verifizierung nach dem Druckdurchlauf) und Korrekturlesen (abschließende Textprüfung). Soft-Proof-Werkzeuge wie GMG ColorProof und EFI Fiery XF dominieren in Großbetrieben; web-basierte Portale (Esko WebCenter, Kodak InSite) ermöglichen die Remote-Freigabe durch Kunden."@de,
+        "Includes prepress proofing (soft proofs on calibrated monitors, hard proofs printed on color-managed devices), post-press proofing (verification after the run), and proofreading (final text review). Soft-proof tools like GMG ColorProof and EFI Fiery XF dominate enterprise environments; web-based portals (Esko WebCenter, Kodak InSite) enable remote client approval."@en,
+        "Incluye pruebas pre-prensa (pruebas blandas en monitores calibrados, pruebas duras impresas en dispositivos con gestión de color), pruebas post-prensa (verificación tras la tirada) y corrección de textos (revisión final). Las pruebas son el último punto barato para detectar errores antes de comprometer tinta y sustrato."@es,
+        "प्रीप्रेस प्रूफ़िंग (अंशांकित मॉनिटर पर सॉफ़्ट प्रूफ़, रंग-प्रबंधित उपकरणों पर छपे हार्ड प्रूफ़), पोस्ट-प्रेस प्रूफ़िंग (रन के बाद सत्यापन) और प्रूफ़रीडिंग (अंतिम पाठ समीक्षा) शामिल। GMG ColorProof और EFI Fiery XF जैसे सॉफ़्ट-प्रूफ़ औज़ार उद्यम परिवेशों में प्रमुख; वेब-आधारित पोर्टल (Esko WebCenter, Kodak InSite) दूरस्थ ग्राहक अनुमोदन सक्षम करते हैं।"@hi,
+        "製版校正（キャリブレーション済みモニター上のソフトプルーフ、カラーマネジメントされた機器で印刷されたハードプルーフ）、刷り上がり校正（印刷後の検証）、文字校正（最終テキスト確認）を含む。GMG ColorProofやEFI Fiery XFなどのソフトプルーフツールがエンタープライズ環境を支配し、ウェブベースのポータル（Esko WebCenter、Kodak InSite）が遠隔顧客承認を可能にする。"@ja,
+        "Inkluderer prepress proofing (soft proofs på kalibrerte skjermer, hard proofs trykt på fargestyrte enheter), post-press proofing (verifikasjon etter opplaget) og korrekturlesing (endelig tekstgjennomgang). Soft-proof-verktøy som GMG ColorProof og EFI Fiery XF dominerer i enterprise-miljøer; web-baserte portaler (Esko WebCenter, Kodak InSite) muliggjør fjernklientgodkjenning."@nb,
+        "Inclui provas de pré-impressão (provas de tela em monitores calibrados, provas físicas impressas em dispositivos com gerenciamento de cor), provas pós-impressão (verificação após a tiragem) e revisão de texto (revisão final). Ferramentas de prova de tela como GMG ColorProof e EFI Fiery XF dominam ambientes corporativos; portais web (Esko WebCenter, Kodak InSite) permitem aprovação remota do cliente."@pt,
+        "包括印前校样（校准显示器上的软校样、色彩管理设备上的硬校样）、印后校样（印刷后验证）和校对（最终文字审核）。校样是检测错误的最后廉价时机。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

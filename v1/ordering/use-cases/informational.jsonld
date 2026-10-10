@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/use-cases/informational",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:UC§INFORMATIONAL",
+  "elementType": "context",
+  "label": {
+    "en": "Informational",
+    "nb": "Informativ",
+    "de": "Informativ",
+    "ja": "情報提供",
+    "es": "Informativo",
+    "zh-Hans": "信息类",
+    "sv": "Information",
+    "da": "Information",
+    "nl": "Informatie",
+    "pl": "Informacyjne",
+    "pt": "Informativo",
+    "hi": "सूचनात्मक"
+  },
+  "definition": {
+    "en": "Products used to inform, explain, or convey factual content to an audience. Includes leaflets, fact sheets, prospectuses, datasheets, and general reference documents.",
+    "nb": "Produkter brukt til å informere, forklare eller formidle faktisk innhold til en målgruppe. Inkluderer leaflets, faktaark, prospekter, datablad og generelle referansedokumenter.",
+    "de": "Produkte zur Information, Erklärung oder Vermittlung faktischer Inhalte an ein Publikum. Umfasst Faltblätter, Datenblätter, Prospekte und allgemeine Referenzdokumente.",
+    "ja": "読者に事実情報を伝え、説明するための製品。リーフレット、ファクトシート、案内書、データシート、一般参照資料を含む。",
+    "es": "Productos usados para informar, explicar o transmitir contenido factual a una audiencia. Incluye folletos, hojas informativas, prospectos, fichas técnicas y documentos de referencia general.",
+    "zh-Hans": "用于向受众告知、解释或传达事实内容的产品。包括宣传页、资料页、说明书、数据表与一般参考文件。",
+    "sv": "Produkter som informerar, förklarar eller förmedlar faktainnehåll till en publik. Omfattar foldrar, faktablad, prospekt, datablad och allmänna referensdokument.",
+    "da": "Produkter brugt til at informere, forklare eller formidle faktuelt indhold til en målgruppe. Omfatter foldere, faktaark, prospekter, datablade og generelle referencedokumenter.",
+    "nl": "Producten om een publiek te informeren, uit te leggen of feitelijke inhoud over te brengen. Omvat folders, factsheets, prospectussen, datasheets en algemene referentiedocumenten.",
+    "pl": "Produkty służące informowaniu, objaśnianiu lub przekazywaniu treści faktograficznych odbiorcom. Obejmuje ulotki, karty informacyjne, prospekty, karty katalogowe i ogólne dokumenty referencyjne.",
+    "pt": "Produtos usados para informar, explicar ou transmitir conteúdo factual a um público. Inclui folhetos, fichas técnicas, prospectos, datasheets e documentos de referência geral.",
+    "hi": "किसी वर्ग को सूचित करने, समझाने या तथ्यात्मक सामग्री देने के लिए उत्पाद। लीफ़लेट, फ़ैक्ट शीट, प्रॉस्पेक्टस, डेटाशीट और सामान्य संदर्भ दस्तावेज़ शामिल।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "use-cases",
+  "broader": "https://ptpge.org/v1/ordering/use-cases",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/InformAction"
+  ]
+}

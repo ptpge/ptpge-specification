@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/rollups",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "notation": "P:CF-FMT-RLUP",
+  "level": "sub-category",
+  "label": {
+    "en": "Roll-up Banner Sizes",
+    "nb": "Roll-up-formater",
+    "de": "Roll-up-Formate",
+    "es": "Formatos de roll-up",
+    "ja": "ロールアップサイズ",
+    "zh-Hans": "易拉宝尺寸",
+    "sv": "Roll-up-format",
+    "da": "Roll-up-formater",
+    "nl": "Roll-upformaten",
+    "pl": "Formaty roll-upów",
+    "pt": "Tamanhos de roll-up",
+    "hi": "रोल-अप बैनर आकार"
+  },
+  "definition": {
+    "en": "Standard cassette sizes for retractable roll-up banner stands, European (cm) and US (in) families. Each format names the visible graphic once mounted; the printed length adds a cassette-specific mounting allowance (production geometry, published nominally as mountingAllowance on each format).",
+    "nb": "Standard kassettstørrelser for uttrekkbare roll-up-bannerstativ, europeisk (cm) og amerikansk (in) familie. Hvert format angir den synlige grafikken i montert stand; trykklengden får et kassettspesifikt monteringstillegg (produksjonsgeometri, publisert nominelt som mountingAllowance på hvert format).",
+    "de": "Standard-Kassettengrößen für ausziehbare Roll-up-Bannerdisplays, europäische (cm) und US-amerikanische (in) Familien. Jedes Format benennt die sichtbare Grafik im montierten Zustand; die Drucklänge erhält eine kassettenspezifische Montagezugabe (Produktionsgeometrie, nominell als mountingAllowance je Format veröffentlicht).",
+    "es": "Tamaños de casete estándar para expositores enrollables retráctiles, familias europea (cm) y estadounidense (in). Cada formato nombra el gráfico visible una vez montado; la longitud impresa añade un margen de montaje específico del casete (geometría de producción, publicada nominalmente como mountingAllowance en cada formato).",
+    "ja": "引き出し式ロールアップバナースタンドの標準カセットサイズ。欧州（cm）系と米国（in）系。 各判型は設置後に見える印刷面を示す。印刷長にはカセット固有の取付余白が加わる（生産上の寸法。各判型に mountingAllowance として名目値を公開）。",
+    "zh-Hans": "可伸缩易拉宝展架的标准卡匣尺寸，分欧洲（cm）与美国（in）两个系列。 每个规格指安装后可见的画面；印刷长度需加上卡匣专属的安装余量（生产几何尺寸，以 mountingAllowance 在各规格上发布名义值）。",
+    "sv": "Standardkassettstorlekar för utdragbara roll-up-bannerställ, europeisk (cm) och amerikansk (in) familj. Varje format anger den synliga grafiken i monterat läge; trycklängden får ett kassettspecifikt monteringstillägg (produktionsgeometri, publicerat nominellt som mountingAllowance per format).",
+    "da": "Standardkassettestørrelser til udtrækkelige roll-up-bannerstandere, europæisk (cm) og amerikansk (in) familie. Hvert format angiver den synlige grafik i monteret stand; tryklængden får et kassettespecifikt monteringstillæg (produktionsgeometri, publiceret nominelt som mountingAllowance på hvert format).",
+    "nl": "Standaard cassetteformaten voor uittrekbare roll-upbannerdisplays, Europese (cm) en Amerikaanse (in) families. Elk formaat benoemt de zichtbare grafiek in gemonteerde toestand; de druklengte krijgt een cassettespecifieke montagetoeslag (productiegeometrie, nominaal gepubliceerd als mountingAllowance per formaat).",
+    "pl": "Standardowe rozmiary kaset zwijanych stojaków roll-up, rodziny europejska (cm) i amerykańska (cale). Każdy format nazywa widoczną grafikę po zamontowaniu; długość druku zwiększa się o naddatek montażowy właściwy dla kasety (geometria produkcyjna, publikowana nominalnie jako mountingAllowance na każdym formacie).",
+    "pt": "Tamanhos de cassete padrão para porta-banners retráteis roll-up, famílias europeia (cm) e americana (in). Cada formato nomeia o gráfico visível depois de montado; o comprimento impresso acrescenta uma folga de montagem específica do cassete (geometria de produção, publicada nominalmente como mountingAllowance em cada formato).",
+    "hi": "रिट्रैक्टेबल रोल-अप बैनर स्टैंड के मानक कैसेट आकार, यूरोपीय (सेमी) और US (इंच) परिवार। हर फ़ॉर्मेट लगाने के बाद दिखने वाले ग्राफ़िक का नाम है; छपी लंबाई में कैसेट-विशेष माउंटिंग भत्ता जुड़ता है (उत्पादन ज्यामिति, हर फ़ॉर्मेट पर mountingAllowance के रूप में नाममात्र प्रकाशित)।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats",
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-85x200",
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-100x200",
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-120x200",
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-150x200",
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-200x200",
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-23-5x80-in",
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-33-5x80-in",
+    "https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-47x80-in"
+  ],
+  "created": "2026-08-21T00:00:00Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

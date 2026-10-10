@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/c4m",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "C4M (318 x 229 mm)",
+    "es": "C4M (318 × 229 mm)",
+    "zh-Hans": "C4M (318 × 229 mm)",
+    "nb": "C4M (318 x 229 mm)",
+    "de": "C4M (318 x 229 mm)",
+    "ja": "C4M (318 x 229 mm)",
+    "sv": "C4M (318 x 229 mm)",
+    "da": "C4M (318 x 229 mm)",
+    "nl": "C4M (318 x 229 mm)",
+    "pl": "C4M (318 x 229 mm)",
+    "pt": "C4M (318 x 229 mm)",
+    "hi": "C4M (318 x 229 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§C4M",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "318 × 229 mm. C4 in landscape orientation — used where horizontal addressing is preferred.",
+    "nb": "318 × 229 mm. C4 i landskapsorientering — brukt der horisontal adressering foretrekkes.",
+    "de": "318 × 229 mm. C4 im Querformat — eingesetzt, wo eine horizontale Adressierung bevorzugt wird.",
+    "ja": "318×229mm。横向きのC4 — 横方向の宛名表示が好まれる場合に使用される。",
+    "es": "Sobre C4M — variante de C4 con dimensiones ligeramente ajustadas para mailings especializados.",
+    "zh-Hans": "C4M信封 —— 用于专业邮寄的略微调整尺寸的C4变体。",
+    "sv": "318 × 229 mm. C4 i liggande orientering — används där horisontell adressering föredras.",
+    "da": "318 × 229 mm. C4 i liggende orientering — bruges hvor vandret adressering foretrækkes.",
+    "nl": "318 × 229 mm. C4 in liggende oriëntatie — gebruikt waar horizontale adressering de voorkeur heeft.",
+    "pl": "318 × 229 mm. C4 w orientacji poziomej — używana tam, gdzie preferowane jest adresowanie poziome.",
+    "pt": "318 × 229 mm. C4 em orientação paisagem — usado onde se prefere o endereçamento horizontal.",
+    "hi": "318 × 229 mm. लैंडस्केप दिशा में C4 — जहाँ क्षैतिज पता लिखना पसंद हो।"
+  },
+  "properties": {
+    "width": 318,
+    "height": 229,
+    "unit": "mm",
+    "aspectRatio": 1.3886,
+    "standard": "ISO 269",
+    "area": 72822
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "318 x 229 mm",
+      "318x229",
+      "318×229",
+      "31.8 x 22.9 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

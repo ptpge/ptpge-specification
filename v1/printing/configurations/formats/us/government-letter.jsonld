@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Government Letter (8 x 10.5 in)",
+    "es": "Government Letter (203 × 267 mm / 8 × 10.5 in)",
+    "zh-Hans": "Government Letter (203 × 267 mm / 8 × 10.5 in)",
+    "nb": "Government Letter (8 x 10.5 in)",
+    "de": "Government Letter (8 x 10.5 in)",
+    "ja": "Government Letter (8 x 10.5 in)",
+    "sv": "Government Letter (8 x 10.5 tum)",
+    "da": "Government Letter (8 x 10.5 tum)",
+    "nl": "Government Letter (8 x 10.5 tum)",
+    "pl": "Government Letter (8 x 10.5 in)",
+    "pt": "Government Letter (8 x 10.5 in)",
+    "hi": "Government Letter (8 x 10.5 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§GOVERNMENT-LETTER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/us",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "8 × 10.5 in (203.2 × 266.7 mm). Used by US federal government agencies for general correspondence — slightly smaller than standard Letter.",
+    "nb": "8 × 10,5 in (203,2 × 266,7 mm). Brukt av amerikanske føderale myndigheter til generell korrespondanse — litt mindre enn standard Letter.",
+    "de": "8 × 10,5 in (203,2 × 266,7 mm). Verwendet von US-Bundesbehörden für allgemeine Korrespondenz — etwas kleiner als Standard-Letter.",
+    "ja": "8×10.5インチ（203.2×266.7mm）。米国連邦政府機関が一般通信に使用 — 標準Letterよりわずかに小さい。",
+    "es": "Government Letter — variante de Carta utilizada en correspondencia gubernamental estadounidense, ligeramente más pequeña que Carta estándar.",
+    "zh-Hans": "Government Letter —— 用于美国政府通信的Letter变体，比标准Letter略小。",
+    "sv": "8 × 10.5 tum (203.2 × 266.7 mm). Används av amerikanska federala myndigheter för allmän korrespondens — något mindre än standard-Letter.",
+    "da": "8 × 10.5 tommer (203.2 × 266.7 mm). Bruges af amerikanske føderale myndigheder til almindelig korrespondance — lidt mindre end standard-Letter.",
+    "nl": "8 × 10.5 inch (203.2 × 266.7 mm). Gebruikt door Amerikaanse federale overheden voor algemene correspondentie — iets kleiner dan standaard-Letter.",
+    "pl": "8 × 10,5 cala (203,2 × 266,7 mm). Używany przez amerykańskie agencje federalne do korespondencji ogólnej — nieco mniejszy niż standardowy Letter.",
+    "pt": "8 × 10.5 in (203.2 × 266.7 mm). Usado por órgãos federais dos EUA para correspondência geral — um pouco menor que o Letter padrão.",
+    "hi": "8 × 10.5 in (203.2 × 266.7 mm). US संघीय एजेंसियों द्वारा सामान्य पत्राचार के लिए — मानक Letter से थोड़ा छोटा।"
+  },
+  "properties": {
+    "width": 8,
+    "height": 10.5,
+    "unit": "in",
+    "aspectRatio": 1.3125,
+    "standard": "ANSI",
+    "area": 84
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "8 x 10.5 in",
+      "8x10.5",
+      "8×10.5"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/color-calibration> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Colour Calibration"@en,
+        "kalibracja kolorów"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance> ;
+    skos:definition "Proces til at måle og justere en trykenhed eller skærm, så dens faktiske farveoutput matcher et specificeret mål — med spektrofotometre til at aflæse trykte felter og software til at bygge korrektionskurver."@da,
+        "Verfahren zur Messung und Anpassung eines Druckgeräts oder Displays, sodass dessen tatsächliche Farbausgabe mit einem festgelegten Sollwert übereinstimmt — mithilfe von Spektralfotometern werden Druckmuster gemessen und Software erzeugt Kalibrierkurven."@de,
+        "Process of measuring and adjusting a printing device or display so its actual color output matches a specified target — using spectrophotometers to read printed patches and software to build calibration curves."@en,
+        "Proceso de ajustar dispositivos (monitores, escáneres, prensas) para que reproduzcan colores de forma consistente y conforme a un objetivo establecido."@es,
+        "मुद्रण उपकरण या डिस्प्ले को मापने और समायोजित करने की प्रक्रिया ताकि उसका वास्तविक रंग आउटपुट निर्दिष्ट लक्ष्य से मेल खाए — छपे पैच पढ़ने के लिए स्पेक्ट्रोफ़ोटोमीटर और अंशांकन वक्र बनाने के लिए सॉफ़्टवेयर।"@hi,
+        "印刷機またはディスプレイの実際の色出力が指定されたターゲットに一致するように測定および調整する工程 — 分光測色計で印刷パッチを読み取り、ソフトウェアでキャリブレーションカーブを作成する。"@ja,
+        "Prosess for å måle og justere en trykkenhet eller skjerm slik at faktisk fargeutgang matcher et spesifisert mål — bruker spektrofotometre til å avlese trykte patcher og programvare til å bygge kalibreringskurver."@nb,
+        "Proces van meten en bijstellen van een drukapparaat of scherm zodat de werkelijke kleuruitvoer overeenkomt met een gespecificeerd doel — met spectrofotometers die gedrukte velden meten en software die correctiecurven opbouwt."@nl,
+        "Proces pomiaru i regulacji urządzenia drukującego lub wyświetlacza tak, aby jego rzeczywisty wynik barwny odpowiadał zadanemu celowi — z użyciem spektrofotometrów do odczytu zadrukowanych pól i oprogramowania do budowy krzywych kalibracyjnych."@pl,
+        "Processo de medir e ajustar um dispositivo de impressão ou monitor para que sua saída real de cor corresponda a um alvo especificado — usando espectrofotômetros para ler amostras impressas e software para construir curvas de calibração."@pt,
+        "Processen att mäta och justera en tryckenhet eller bildskärm så att dess faktiska färgutmatning matchar ett angivet mål — med spektrofotometrar som läser tryckta fält och programvara som bygger kalibreringskurvor."@sv,
+        "调整设备（显示器、扫描仪、印刷机）以一致且符合既定目标地再现颜色的过程。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§COLOR-CALIBRATION" ;
+    skos:prefLabel "Farvekalibrering"@da,
+        "Farbkalibrierung"@de,
+        "Color Calibration"@en,
+        "Calibración de Color"@es,
+        "रंग अंशांकन"@hi,
+        "カラーキャリブレーション"@ja,
+        "Farge-kalibrering"@nb,
+        "Kleurkalibratie"@nl,
+        "Kalibracja barw"@pl,
+        "Calibração de cor"@pt,
+        "Färgkalibrering"@sv,
+        "色彩校准"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

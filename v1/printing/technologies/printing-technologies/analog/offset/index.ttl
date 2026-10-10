@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Offsettryk"@da,
+        "Litho"@en,
+        "Offset lithography"@en,
+        "Offset printing"@en,
+        "ऑफसेट मुद्रण"@hi,
+        "ऑफसेट लिथोग्राफ़ी"@hi,
+        "लिथो"@hi,
+        "Offsettrykk"@nb,
+        "druk offsetowy"@pl,
+        "lito"@pl,
+        "litografia offsetowa"@pl,
+        "Impressão offset"@pt,
+        "Litografia offset"@pt,
+        "Ofsete"@pt,
+        "Offsettryck"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "En trykproces, hvor det indfarvede billede overføres («offsettes») fra en metalplade til en gummidug og derfra til substratet. Dominerende for kommercielt tryk i mellemstore til store mængder på papir og karton takket være høj kvalitet og lav marginalomkostning pr. tryk."@da,
+        "Ein Druckverfahren, bei dem das eingefärbte Bild von einer Metallplatte auf ein Gummituch und von dort auf den Bedruckstoff übertragen („offset“) wird. Dominant für mittlere bis hohe Akzidenzauflagen auf Papier und Karton — wegen seiner hohen Qualität und niedriger Grenzkosten pro Druck."@de,
+        "A printing process in which the inked image is transferred ('offset') from a metal plate to a rubber blanket, and from there to the substrate. Dominant for medium-to-high volume commercial printing on paper and board because of its high quality and low marginal cost per impression."@en,
+        "Tecnología planográfica donde la tinta se transfiere de la plancha a un cilindro de caucho (mantilla) y de allí al sustrato. Dominante en impresión comercial por su calidad, repetibilidad y rentabilidad en tiradas medias y largas."@es,
+        "मुद्रण प्रक्रिया जिसमें स्याही लगी छवि धातु की प्लेट से रबर ब्लैंकेट पर («ऑफसेट») और वहाँ से सब्सट्रेट पर उतरती है। उच्च गुणवत्ता और प्रति इंप्रेशन कम सीमांत लागत के कारण काग़ज़ और बोर्ड पर मध्यम से उच्च-मात्रा व्यावसायिक मुद्रण में प्रमुख।"@hi,
+        "インキが付いた画像が金属版からゴムブランケットへ、そしてそこから基材へ「オフセット」される印刷工程。高品質と1部あたり低い限界費用ゆえに、紙および板への中～大量商業印刷で主流。"@ja,
+        "En trykkeprosess der det inntrykte bildet overføres fra en metallplate til et gummiduk, og videre til underlaget. Dominerende for kommersielle trykksaker i mellomstore til store opplag på papir og kartong, takket være høy kvalitet og lav marginalkostnad per trykk."@nb,
+        "Een drukproces waarbij het geïnkte beeld wordt overgebracht («ge-offset») van een metalen plaat naar een rubberdoek en vandaar naar het substraat. Dominant voor commercieel drukwerk in middelgrote tot grote volumes op papier en karton dankzij hoge kwaliteit en lage marginale kosten per druk."@nl,
+        "Proces druku, w którym obraz nafarbiony jest przenoszony («offset») z metalowej formy na gumowy obciąg, a stamtąd na podłoże. Dominujący dla średnio- i wysokonakładowego druku komercyjnego na papierze i tekturze dzięki wysokiej jakości i niskiemu kosztowi krańcowemu odbitki."@pl,
+        "Processo de impressão em que a imagem entintada é transferida («offset») de uma chapa metálica para uma blanqueta de borracha e daí para o substrato. Dominante na impressão comercial de médio a alto volume em papel e cartão, pela alta qualidade e baixo custo marginal por impressão."@pt,
+        "En tryckprocess där den infärgade bilden överförs («offsettas») från en metallplåt till en gummiduk, och därifrån till substratet. Dominerande för civiltryck i medelhöga till höga volymer på papper och kartong tack vare hög kvalitet och låg marginalkostnad per tryck."@sv,
+        "平版工艺，油墨从印版转移到橡胶滚筒（橡皮布），然后转移到承印物。在商业印刷中占主导地位，质量好、可重复性高，在中长印次中具成本效益。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q174985> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/coldset-web-offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/heatset-web-offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/sheet-fed-offset> ;
+    skos:notation "P:TC§OFFSET" ;
+    skos:prefLabel "Offset"@da,
+        "Offsetdruck"@de,
+        "Offset"@en,
+        "Offset"@es,
+        "ऑफसेट"@hi,
+        "オフセット印刷"@ja,
+        "Offset"@nb,
+        "Offset"@nl,
+        "Offset"@pl,
+        "Offset"@pt,
+        "Offset"@sv,
+        "胶印 (Offset)"@zh-Hans ;
+    skos:scopeNote "Umfasst Bogenoffset, Rollenoffset und wasserlose Offsetvarianten. Der hybride „Digitaloffset“ (HP Indigo und ähnliche) wird unter Hybrid-Technologien geführt."@de,
+        "Includes sheet-fed offset, web offset, and waterless offset variants. The hybrid 'digital offset' (HP Indigo and similar) belongs under Hybrid technologies."@en,
+        "शीट-फ़ेड ऑफसेट, वेब ऑफसेट और वाटरलेस ऑफसेट वेरिएंट शामिल। हाइब्रिड «डिजिटल ऑफसेट» (HP Indigo और समान) हाइब्रिड तकनीकों के अंतर्गत।"@hi,
+        "枚葉オフセット、輪転オフセット、水なしオフセットのバリアントを含む。ハイブリッド「デジタルオフセット」（HP Indigoなど）はHybrid技術に属する。"@ja,
+        "Inkluderer ark-matet offset, rull-offset og vannløs offset. Hybriden «digital offset» (HP Indigo og lignende) hører til under Hybrid-teknologier."@nb,
+        "Inclui as variantes offset de folha, offset de bobina e offset sem água (waterless). O «offset digital» híbrido (HP Indigo e similares) pertence às tecnologias híbridas."@pt ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

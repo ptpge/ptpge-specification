@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/corner-stapling> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Corner staple"@en,
+        "Corner stitch"@en,
+        "Single staple"@en,
+        "कॉर्नर स्टिच"@hi,
+        "कोने का स्टेपल"@hi,
+        "कोने की पिन"@hi,
+        "सिंगल स्टेपल"@hi,
+        "Hjørnestift"@nb,
+        "Hjørnestifting"@nb,
+        "zszycie narożne"@pl,
+        "zszywka w rogu"@pl,
+        "grampeado no canto"@pt,
+        "grampo de canto"@pt,
+        "grampo único"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "En enkelt klamme gennem ét hjørne af en stak ark."@da,
+        "Eine einzelne Heftklammer durch eine Ecke eines Stapels."@de,
+        "A single staple through one corner of a stack of sheets."@en,
+        "Una sola grapa a través de una esquina de la pila de hojas."@es,
+        "शीटों के ढेर के एक कोने में एक ही स्टेपल।"@hi,
+        "用紙の束の角1か所をステープル1本で綴じる。"@ja,
+        "En enkelt stift gjennom ett hjørne av en bunke ark."@nb,
+        "Eén nietje door één hoek van een stapel vellen."@nl,
+        "Pojedyncza zszywka przez jeden róg stosu arkuszy."@pl,
+        "Um único grampo atravessando um canto de um maço de folhas."@pt,
+        "En enda klammer genom ett hörn av en bunt ark."@sv,
+        "在一叠纸的一个角上打一枚订书钉。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§CORNER-STAPLING" ;
+    skos:prefLabel "Hjørnehæftning"@da,
+        "Eckheftung"@de,
+        "Corner Stapling"@en,
+        "Corner Stapling"@es,
+        "कॉर्नर स्टेपलिंग"@hi,
+        "Corner Stapling"@ja,
+        "Hjørnestifting"@nb,
+        "Hoeknieten"@nl,
+        "Zszywanie narożne"@pl,
+        "Grampo no canto"@pt,
+        "Hörnhäftning"@sv,
+        "Corner Stapling"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.32 · p.132" ;
+            ptpge:mappingRow "crosswalk row 39" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "Stitching" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

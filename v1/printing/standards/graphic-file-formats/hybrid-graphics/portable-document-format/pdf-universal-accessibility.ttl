@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-universal-accessibility> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".pdf"@en,
+        "PDF"@en,
+        "print-ready PDF"@en,
+        ".pdf"@hi,
+        "PDF"@hi,
+        "प्रिंट-रेडी PDF"@hi,
+        ".pdf"@pl,
+        "PDF"@pl,
+        "PDF gotowy do druku"@pl,
+        ".pdf"@pt,
+        "PDF"@pt,
+        "PDF pronto para impressão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format> ;
+    skos:definition "PDF/UA — ISO 14289-specifikation, der sikrer at PDF-dokumenter er tilgængelige for hjælpemidler, med korrekt tagging, læserækkefølge, alternativ tekst og sprogmetadata."@da,
+        "PDF/UA — ISO-Spezifikation 14289 stellt sicher, dass PDF-Dokumente für assistive Technologien zugänglich sind, mit korrekter Auszeichnung, Lesereihenfolge, Alternativtexten und Sprach-Metadaten."@de,
+        "PDF/UA — ISO 14289 specification ensuring that PDF documents are accessible to assistive technologies, with proper tagging, reading order, alternative text, and language metadata."@en,
+        "Sub-conjunto ISO de PDF para accesibilidad universal (ISO 14289), que define requisitos de etiquetado semántico, lectura asistida y descripción alternativa de imágenes para usuarios con discapacidad."@es,
+        "PDF/UA — ISO 14289 विनिर्देश जो सुनिश्चित करता है कि PDF दस्तावेज़ सहायक तकनीकों के लिए सुगम हों, उचित टैगिंग, पठन क्रम, वैकल्पिक पाठ और भाषा मेटाडेटा के साथ।"@hi,
+        "PDF/UA — PDF文書が支援技術にアクセス可能であることを保証するISO 14289仕様。適切なタグ付け、読み上げ順序、代替テキスト、言語メタデータを規定する。"@ja,
+        "PDF/UA — ISO 14289-spesifikasjonen som sikrer at PDF-dokumenter er tilgjengelige for hjelpemidler, med korrekt tagging, leserekkefølge, alternativ tekst og språkmetadata."@nb,
+        "PDF/UA — ISO 14289-specificatie die waarborgt dat PDF-documenten toegankelijk zijn voor hulptechnologie, met correcte tagging, leesvolgorde, alternatieve tekst en taalmetadata."@nl,
+        "PDF/UA — specyfikacja ISO 14289 zapewniająca dostępność dokumentów PDF dla technologii wspomagających, z właściwym tagowaniem, kolejnością czytania, tekstem alternatywnym i metadanymi języka."@pl,
+        "PDF/UA — especificação ISO 14289 que garante que documentos PDF sejam acessíveis a tecnologias assistivas, com marcação adequada, ordem de leitura, texto alternativo e metadados de idioma."@pt,
+        "PDF/UA — ISO 14289-specifikation som säkerställer att PDF-dokument är tillgängliga för hjälpmedel, med korrekt taggning, läsordning, alternativtext och språkmetadata."@sv,
+        "通用无障碍的PDF ISO子集（ISO 14289），定义语义标记、辅助阅读和图像替代描述的要求，供残障用户使用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PDF-UNIVERSAL-ACCESSIBILITY" ;
+    skos:prefLabel "PDF universel tilgængelighed (PDF/UA)"@da,
+        "PDF Universal Accessibility (PDF/UA)"@de,
+        "PDF Universal Accessibility (PDF/UA)"@en,
+        "PDF/UA (Universal Accessibility)"@es,
+        "PDF सार्वभौमिक सुगम्यता (PDF/UA)"@hi,
+        "PDF Universal Accessibility (PDF/UA)"@ja,
+        "PDF Universal Accessibility (PDF/UA)"@nb,
+        "PDF universele toegankelijkheid (PDF/UA)"@nl,
+        "PDF dostępny (PDF/UA)"@pl,
+        "PDF de acessibilidade universal (PDF/UA)"@pt,
+        "PDF universell tillgänglighet (PDF/UA)"@sv,
+        "PDF/UA (通用无障碍)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

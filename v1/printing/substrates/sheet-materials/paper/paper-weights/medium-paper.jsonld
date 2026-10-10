@@ -1,0 +1,94 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Medium Paper (150–179 gsm)",
+    "es": "Papel Medio (150–179 gsm)",
+    "zh-Hans": "中等纸 (150–179克)",
+    "nb": "Medium-papir (150–179 g/m²)",
+    "de": "Mittleres Papier (150–179 g/m²)",
+    "ja": "中量紙（150〜179 gsm）",
+    "nl": "Medium papier (150–179 g/m²)",
+    "sv": "Mellanpapper (150–179 g/m²)",
+    "da": "Mellempapir (150–179 g/m²)",
+    "pl": "Papier średni (150–179 g/m²)",
+    "pt": "Papel médio (150–179 g/m²)",
+    "hi": "मीडियम काग़ज़ (150–179 GSM)"
+  },
+  "altLabels": {
+    "en": [
+      "Mid-Weight Paper"
+    ],
+    "nb": [
+      "Litt tykt papir",
+      "Mellomtykt papir"
+    ],
+    "pl": [
+      "papier o średniej gramaturze"
+    ],
+    "pt": [
+      "papel de gramatura média",
+      "papel médio"
+    ],
+    "hi": [
+      "मध्यम वज़न का काग़ज़",
+      "मिड-वेट पेपर"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§MEDIUM-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights",
+  "properties": {
+    "minWeight": 150,
+    "maxWeight": 179,
+    "unit": "gsm",
+    "commonWeights": [
+      150,
+      160,
+      170
+    ]
+  },
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper in the 150–179 gsm range — used for quality flyers, magazine covers, and brochures where stiffness is desired but folding is still required.",
+    "nb": "Papir i området 150–179 gsm — brukt til kvalitets-flyers, magasinforsider og brosjyrer der stivhet er ønsket, men folding fortsatt kreves.",
+    "de": "Papier im Bereich 150–179 g/m² — eingesetzt für Qualitätsflyer, Magazintitelseiten und Broschüren, bei denen Steifigkeit erwünscht, Falzen aber dennoch erforderlich ist.",
+    "ja": "150〜179gsmの坪量範囲の紙 — 上質チラシ、雑誌の表紙、剛性が望まれるが折りも必要なブローシュアに使用される。",
+    "es": "Papel de gramaje medio, 120–179 gsm — utilizado para folletos premium, catálogos y publicaciones de calidad.",
+    "zh-Hans": "中等克重纸，120–179克 —— 用于优质宣传册、目录和出版物。",
+    "sv": "Papper i intervallet 150–179 g/m² — används för kvalitetsflygblad, tidskriftsomslag och broschyrer där styvhet önskas men falsning fortfarande krävs.",
+    "da": "Papir i området 150–179 g/m² — brugt til kvalitetsflyers, magasinomslag og brochurer, hvor stivhed ønskes, men falsning stadig kræves.",
+    "nl": "Papier in het bereik 150–179 g/m² — gebruikt voor kwaliteitsflyers, magazineomslagen en brochures waar stijfheid gewenst is maar vouwen nog vereist is.",
+    "pl": "Papier w zakresie 150–179 g/m² — używany do ulotek dobrej jakości, okładek czasopism i broszur, gdzie pożądana jest sztywność, lecz wciąż wymagane jest składanie.",
+    "pt": "Papel na faixa de 150–179 g/m² — usado em flyers de qualidade, capas de revista e folhetos onde se quer rigidez mas ainda é preciso dobrar.",
+    "hi": "150–179 GSM रेंज का काग़ज़ — अच्छे फ़्लायर, पत्रिका कवर और ऐसे ब्रोशर में जहाँ कड़ापन चाहिए पर मोड़ना भी ज़रूरी है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

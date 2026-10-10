@@ -1,0 +1,171 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/badges> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "badge-indlæg"@da,
+        "konferencebadge"@da,
+        "navnebadge"@da,
+        "navneskilt"@da,
+        "navneskilte"@da,
+        "Ansteckschilder"@de,
+        "Namensbadges"@de,
+        "Buttons"@en,
+        "badge insert"@en,
+        "conference badge"@en,
+        "event badge"@en,
+        "name badge"@en,
+        "acreditación"@es,
+        "chapa"@es,
+        "credencial"@es,
+        "gafete"@es,
+        "identificador de evento"@es,
+        "pin"@es,
+        "tarjeta identificativa"@es,
+        "इवेंट बैज"@hi,
+        "कॉन्फ़्रेंस बैज"@hi,
+        "नाम बैज"@hi,
+        "बटन बैज"@hi,
+        "बैज कार्ड"@hi,
+        "IDカード"@ja,
+        "イベントバッジ"@ja,
+        "ネームバッジ"@ja,
+        "ネームプレート"@ja,
+        "名札カード"@ja,
+        "缶バッジ"@ja,
+        "event-badge"@nb,
+        "konferansebadge"@nb,
+        "navneskilt"@nb,
+        "badge"@nl,
+        "badge-inlegkaart"@nl,
+        "congresbadge"@nl,
+        "naambadge"@nl,
+        "naambadges"@nl,
+        "identyfikator imienny"@pl,
+        "identyfikator konferencyjny"@pl,
+        "przypinki"@pl,
+        "wkładka do identyfikatora"@pl,
+        "botons"@pt,
+        "cartão para crachá"@pt,
+        "crachá de congresso"@pt,
+        "crachá de evento"@pt,
+        "crachá de identificação"@pt,
+        "eventbricka"@sv,
+        "konferensbricka"@sv,
+        "namnbricka"@sv,
+        "namnskylt"@sv,
+        "namnskyltar"@sv,
+        "会议胸牌"@zh-Hans,
+        "参会证"@zh-Hans,
+        "姓名牌"@zh-Hans,
+        "工作牌"@zh-Hans,
+        "徽章"@zh-Hans,
+        "胸章"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et trykt navne- eller eventbadge til konferencer, arrangementer og personaleidentifikation — kortindstik til holdere eller lanyards."@da,
+        "Ein bedrucktes Namens- oder Veranstaltungsschild für Konferenzen und Events."@de,
+        "A printed name or event badge for conferences, events and staff identification — card inserts for holders or lanyards."@en,
+        "Una credencial impresa con nombre o de evento para congresos, eventos e identificación del personal — tarjetas para fundas o lanyards."@es,
+        "सम्मेलनों, आयोजनों और स्टाफ़ की पहचान के लिए मुद्रित नाम-बैज या इवेंट-बैज — होल्डर या लैनयार्ड में लगाने वाले कार्ड।"@hi,
+        "会議やイベント、スタッフの身分表示に使う印刷ネームバッジ。ホルダーやストラップに入れるカード型。"@ja,
+        "Et trykt navne- eller event-skilt for konferanser, arrangementer og ansattidentifikasjon — kortinnlegg for holdere eller snorer."@nb,
+        "Een gedrukte naam- of evenementbadge voor congressen, evenementen en personeelsidentificatie — kaartinlays voor houders of keycords."@nl,
+        "Drukowany identyfikator imienny lub eventowy na konferencje, wydarzenia i do identyfikacji personelu — wkładki do holderów lub smyczy."@pl,
+        "Crachá impresso com nome ou de evento, para congressos, eventos e identificação de equipe — cartões para porta-crachá ou cordão."@pt,
+        "En tryckt namn- eller evenemangsbricka för konferenser, evenemang och personalidentifikation — kortinlägg för hållare eller nyckelband."@sv,
+        "用于会议、活动和员工身份识别的印刷胸卡——可插入卡套或挂绳使用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§BADGES" ;
+    skos:prefLabel "Badges"@da,
+        "Namensschilder"@de,
+        "Badges"@en,
+        "Acreditaciones"@es,
+        "बैज"@hi,
+        "名札"@ja,
+        "Navneskilt"@nb,
+        "Badges"@nl,
+        "Identyfikatory"@pl,
+        "Crachás"@pt,
+        "Namnbrickor"@sv,
+        "胸牌"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a10>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a7>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a8>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a9>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/packaging/bubble-wrap> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bubble packaging"@en,
+        "Bubble wrap"@en,
+        "बबल पैकेजिंग"@hi,
+        "बबल रैप"@hi,
+        "बबल शीट"@hi,
+        "Bobleplast"@nb,
+        "folia pęcherzykowa"@pl,
+        "opakowanie bąbelkowe"@pl,
+        "embalagem com bolhas"@pt,
+        "filme bolha"@pt,
+        "plástico bolha"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/packaging> ;
+    skos:definition "Plastemballage med regelmæssigt fordelte luftfyldte bobler — giver stødabsorberende beskyttelse under forsendelse. Bruges til enkeltprodukter, skrøbelige tryksager (indrammet kunst, keramik) og som fyldmateriale."@da,
+        "Kunststoffverpackungsmaterial mit regelmäßig angeordneten luftgefüllten Blasen — bietet Polsterungsschutz beim Versand. Verwendet für Einzelartikel, empfindliche Druckerzeugnisse (gerahmte Kunst, Keramik) und als Hohlraumfüllung."@de,
+        "Plastic packaging material with regularly-spaced air-filled bubbles — provides cushioning protection during shipping. Used for individual items, fragile printed products (framed art, ceramics), and as void fill."@en,
+        "Material protector con burbujas de aire encapsuladas — envuelve productos impresos para proteger durante el transporte."@es,
+        "नियमित दूरी पर हवा भरे बुलबुलों वाली प्लास्टिक पैकेजिंग सामग्री — शिपिंग में गद्दी की सुरक्षा। अलग-अलग वस्तुओं, नाज़ुक मुद्रित उत्पादों (फ़्रेम्ड आर्ट, सिरेमिक) और ख़ाली जगह भरने में।"@hi,
+        "等間隔に空気の入った気泡を持つプラスチック梱包材 — 輸送中に緩衝保護を提供する。個別商品、壊れやすい印刷物（額装作品、陶器）、空隙充填に使用される。"@ja,
+        "Plastemballasje-materiale med regelmessig fordelte luftfylte bobler — gir polstret beskyttelse under forsendelse. Brukt til individuelle gjenstander, skjøre trykte produkter (innrammet kunst, keramikk) og som fyllmateriale."@nb,
+        "Kunststof verpakkingsmateriaal met regelmatig verdeelde luchtbelletjes — biedt schokdempende bescherming tijdens verzending. Gebruikt voor losse producten, breekbaar drukwerk (ingelijste kunst, keramiek) en als vulmateriaal."@nl,
+        "Plastikowy materiał opakowaniowy z równomiernie rozmieszczonymi pęcherzykami powietrza — amortyzuje podczas transportu. Stosowany do pojedynczych przedmiotów, delikatnych produktów drukowanych (oprawione grafiki, ceramika) i jako wypełniacz."@pl,
+        "Material plástico de embalagem com bolhas de ar regularmente espaçadas — amortece durante o transporte. Usado em itens individuais, impressos frágeis (quadros, cerâmica) e como enchimento."@pt,
+        "Plastemballage med jämnt fördelade luftfyllda bubblor — ger stötdämpande skydd under frakt. Används för enskilda föremål, ömtåliga trycksaker (inramad konst, keramik) och som utfyllnad."@sv,
+        "带封装气泡的保护材料 —— 包裹印刷品在运输过程中保护。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§BUBBLE-WRAP" ;
+    skos:prefLabel "Bobleplast"@da,
+        "Luftpolsterfolie"@de,
+        "Bubble Wrap"@en,
+        "Plástico de Burbujas"@es,
+        "बबल रैप"@hi,
+        "気泡緩衝材"@ja,
+        "Boblepapir"@nb,
+        "Noppenfolie"@nl,
+        "Folia bąbelkowa"@pl,
+        "Plástico-bolha"@pt,
+        "Bubbelplast"@sv,
+        "气泡膜"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+                "§5.6.28 · p.128",
+                "§5.6.3 · p.113",
+                "§5.6.39 · p.135",
+                "§6.10 · p.161" ;
+            ptpge:mappingRow "crosswalk row 48" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BoxPacking",
+                "Bundle",
+                "Palletizing",
+                "Shrinking",
+                "Wrapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

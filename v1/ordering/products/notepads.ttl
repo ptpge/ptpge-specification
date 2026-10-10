@@ -1,0 +1,166 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/notepads> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "blok"@da,
+        "notesblok"@da,
+        "reklameblok"@da,
+        "skriveblok"@da,
+        "skriveunderlag"@da,
+        "Blöcke"@de,
+        "Haftnotizblöcke"@de,
+        "Schreibblöcke"@de,
+        "Writing Pads"@en,
+        "desk pad"@en,
+        "jotter"@en,
+        "writing pad"@en,
+        "bloc"@es,
+        "bloc de escritorio"@es,
+        "bloc de notas"@es,
+        "cuaderno de notas"@es,
+        "libreta de notas"@es,
+        "डेस्क पैड"@hi,
+        "नोटपैड"@hi,
+        "मेमो पैड"@hi,
+        "राइटिंग पैड"@hi,
+        "स्क्रिबल पैड"@hi,
+        "メモ帳"@ja,
+        "レポート用紙"@ja,
+        "便箋"@ja,
+        "卓上メモ"@ja,
+        "Blokker"@nb,
+        "Skriveblokker"@nb,
+        "blokk"@nb,
+        "notatblokk"@nb,
+        "skriveblokk"@nb,
+        "blok"@nl,
+        "bureaulegger"@nl,
+        "notitieblok"@nl,
+        "reclameblok"@nl,
+        "schrijfblok"@nl,
+        "bloczek"@pl,
+        "blok notatnikowy"@pl,
+        "notatnik klejony"@pl,
+        "podkład na biurko"@pl,
+        "bloco de anotações"@pt,
+        "bloco de mesa"@pt,
+        "bloco de notas"@pt,
+        "bloco de rascunho"@pt,
+        "bloquinho"@pt,
+        "block"@sv,
+        "reklamblock"@sv,
+        "skrivblock"@sv,
+        "skrivblocket"@sv,
+        "skrivunderlägg"@sv,
+        "便条本"@zh-Hans,
+        "便笺"@zh-Hans,
+        "台式便签"@zh-Hans,
+        "记事贴"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En blok af trykte eller blanke ark limet langs én kant — til noter, brandet til kontor- og promoveringsbrug."@da,
+        "Ein Block aus bedruckten oder leeren Blättern, an einer Kante geleimt."@de,
+        "A pad of printed or blank sheets glued at one edge — for notes and jotting, branded for office and promotional use."@en,
+        "Un bloc de hojas impresas o en blanco encoladas por un borde — para notas y apuntes, personalizado para oficina y promoción."@es,
+        "एक किनारे से चिपकी मुद्रित या सादी शीटों का पैड — नोट्स और लिखने के लिए, ऑफ़िस और प्रचार के लिए ब्रांडेड।"@hi,
+        "一辺を糊で固めた印刷／無地のメモパッド。オフィスや販促向けのブランド入りメモ用紙。"@ja,
+        "En blokk av trykte eller blanke ark limt i én kant — for notater, merket for kontor- og kampanjebruk."@nb,
+        "Een blok gedrukte of blanco vellen, gelijmd langs één kant — voor notities, met merkopdruk voor kantoor- en promotiegebruik."@nl,
+        "Bloczek zadrukowanych lub czystych kartek klejonych wzdłuż jednej krawędzi — do notatek, z brandingiem biurowym i promocyjnym."@pl,
+        "Bloco de folhas impressas ou em branco coladas por uma borda — para notas e rascunhos, personalizado para escritório e promoção."@pt,
+        "Ett block av tryckta eller blanka ark limmade i en kant — för anteckningar, profilerat för kontor och promotion."@sv,
+        "单边上胶的印刷或空白便笺本——办公与促销用的品牌记事本。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§NOTEPADS" ;
+    skos:prefLabel "Notesblokke"@da,
+        "Notizblöcke"@de,
+        "Notepads"@en,
+        "Blocs de notas"@es,
+        "नोटपैड"@hi,
+        "メモパッド"@ja,
+        "Notatblokker"@nb,
+        "Notitieblokken"@nl,
+        "Bloczki notatnikowe"@pl,
+        "Blocos de notas"@pt,
+        "Anteckningsblock"@sv,
+        "便签本"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/finishing/edge>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/page-count>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsFoldDirection <https://ptpge.org/v1/printing/completions/fold-binding-edge/top> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4h>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a5>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a7>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/half-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/junior-legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/letter> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

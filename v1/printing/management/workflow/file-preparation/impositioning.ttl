@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/file-preparation/impositioning> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "imposition"@en,
+        "page imposition"@en,
+        "इम्पोज़िशन"@hi,
+        "पेज इम्पोज़िशन"@hi,
+        "montasje"@nb,
+        "utskyting"@nb,
+        "impozycja stron"@pl,
+        "montaż elektroniczny"@pl,
+        "rozmieszczenie użytków"@pl,
+        "imposição de páginas"@pt,
+        "montagem"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/file-preparation> ;
+    skos:definition "Arrangering af flere sider på ét trykark, så siderne efter tryk, falsning og skæring står i korrekt rækkefølge i det færdige produkt. Kritisk for bøger, brochurer og alt flersidet."@da,
+        "Anordnung mehrerer Seiten auf einem einzelnen Druckbogen, sodass die Seiten nach Druck, Falzen und Schneiden in der korrekten Reihenfolge im fertigen Produkt erscheinen. Unverzichtbar für Bücher, Broschüren und alle bogenbasierten Bindungsarten."@de,
+        "Arrangement of multiple pages on a single press sheet so that, after printing, folding, and cutting, the pages appear in correct sequence in the finished product. Critical for books, brochures, and any signature-based bindery."@en,
+        "Disposición de páginas individuales sobre un pliego de impresión para que, tras imprimir, plegar y cortar, queden en el orden correcto en el producto final."@es,
+        "एक ही प्रेस शीट पर कई पेजों की व्यवस्था ताकि छपाई, फ़ोल्डिंग और कटिंग के बाद पेज तैयार उत्पाद में सही क्रम में आएँ। पुस्तकों, ब्रोशर और किसी भी सिग्नेचर-आधारित बाइंडरी के लिए महत्वपूर्ण।"@hi,
+        "印刷、折り、断裁の後、完成品でページが正しい順序で表示されるように、複数のページを1枚の印刷シートに配置する作業。書籍、ブローシュア、折り丁ベースの製本に不可欠。"@ja,
+        "Arrangering av flere sider på et enkelt presseark slik at sidene etter trykk, folding og kutting fremstår i riktig rekkefølge i det ferdige produktet. Kritisk for bøker, brosjyrer og enhver signaturbasert innbinding."@nb,
+        "Het schikken van meerdere pagina's op één drukvel zodat de pagina's na drukken, vouwen en snijden in de juiste volgorde in het eindproduct staan. Cruciaal voor boeken, brochures en alles wat meerpagina is."@nl,
+        "Rozmieszczenie wielu stron na jednym arkuszu drukowym tak, aby po zadrukowaniu, złożeniu i przycięciu strony pojawiły się we właściwej kolejności w gotowym produkcie. Kluczowe dla książek, broszur i każdej introligatorni pracującej na składkach."@pl,
+        "Arranjo de várias páginas numa única folha de máquina de modo que, após impressão, dobra e corte, as páginas apareçam na sequência correta no produto acabado. Crítico para livros, folhetos e qualquer encadernação baseada em cadernos."@pt,
+        "Placering av flera sidor på ett och samma tryckark så att sidorna efter tryck, falsning och skärning hamnar i rätt ordning i den färdiga produkten. Avgörande för böcker, broschyrer och all arkbaserad bokbindning."@sv,
+        "将单个页面在印刷纸张上的排布，使得在印刷、折页和裁切后页面在最终产品中按正确顺序排列。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§IMPOSITIONING" ;
+    skos:prefLabel "Udskydning"@da,
+        "Ausschießen"@de,
+        "Impositioning"@en,
+        "Imposición"@es,
+        "इम्पोज़िशनिंग"@hi,
+        "面付け"@ja,
+        "Påtegning / imposition"@nb,
+        "Impositie (uitschieten)"@nl,
+        "Impozycja"@pl,
+        "Imposição"@pt,
+        "Utskjutning"@sv,
+        "拼版"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.4.21 · p.105",
+                "§5.4.22 · p.107",
+                "§5.4.8 · p.94",
+                "§6.52 · p.212",
+                "§6.6 · p.147" ;
+            ptpge:mappingRow "crosswalk row 7" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BinderySignature",
+                "Imposition",
+                "Layout",
+                "SheetOptimizing",
+                "Stripping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

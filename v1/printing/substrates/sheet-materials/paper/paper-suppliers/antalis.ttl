@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/antalis> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/suppliers/antalis> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers> ;
+    skos:definition "Stor europæisk papirdistributør — repræsenterer mange eksklusive og kommercielle papirmærker. Egne produktlinjer som Keaykolor og Olin Colors sælges gennem Antalis."@da,
+        "Großer europäischer Papierdistributor — vertritt zahlreiche Premium- und Handelspapiermarken. Eigene Produktreihen wie Keaykolor und Olin Colors werden über Antalis vertrieben."@de,
+        "Major European paper distributor — represents many premium and commercial paper brands. Distinct product lines such as Keaykolor and Olin Colors are sold through Antalis."@en,
+        "Principal distribuidor europeo de papel — representa muchas marcas de papel premium y comercial. Líneas de producto distintivas como Keaykolor y Olin Colors se venden a través de Antalis."@es,
+        "प्रमुख यूरोपीय काग़ज़ वितरक — कई प्रीमियम और व्यावसायिक काग़ज़ ब्रांडों का प्रतिनिधित्व। Keaykolor और Olin Colors जैसी श्रृंखलाएँ Antalis के ज़रिए बिकती हैं।"@hi,
+        "欧州の主要紙ディストリビューター — 多くのプレミアムおよび商業紙ブランドを取り扱う。KeaykolorやOlin Colorsなどの独自製品ラインがAntalisを通じて販売される。"@ja,
+        "Stor europeisk papirdistributør — representerer mange premium- og kommersielle papirmerker. Distinkte produktlinjer som Keaykolor og Olin Colors selges gjennom Antalis."@nb,
+        "Grote Europese papierdistributeur — vertegenwoordigt veel premium en commerciële papiermerken. Eigen productlijnen zoals Keaykolor en Olin Colors worden via Antalis verkocht."@nl,
+        "Główny europejski dystrybutor papieru — reprezentuje wiele marek papierów premium i komercyjnych. Odrębne linie produktów, takie jak Keaykolor i Olin Colors, sprzedawane są przez Antalis."@pl,
+        "Grande distribuidor europeu de papel — representa muitas marcas premium e comerciais. Linhas distintas como Keaykolor e Olin Colors são vendidas pela Antalis."@pt,
+        "Stor europeisk pappersdistributör — representerar många premium- och civiltryckspappersmärken. Egna produktlinjer som Keaykolor och Olin Colors säljs genom Antalis."@sv,
+        "欧洲主要纸张分销商——代理众多优质和商业纸张品牌。Keaykolor和Olin Colors等独特产品线通过Antalis销售。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB-SHT-PAPR-PSUP-ANTA" ;
+    skos:prefLabel "Antalis"@da,
+        "Antalis"@de,
+        "Antalis"@en,
+        "Antalis"@es,
+        "Antalis"@hi,
+        "Antalis"@ja,
+        "Antalis"@nb,
+        "Antalis"@nl,
+        "Antalis"@pl,
+        "Antalis"@pt,
+        "Antalis"@sv,
+        "Antalis"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."@nb ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

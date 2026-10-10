@@ -1,0 +1,108 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/none",
+  "type": "skos:Concept",
+  "version": "2026-09-22",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "None (no embellishment)",
+    "nb": "Ingen (uten dekor)",
+    "de": "Keine (keine Veredelung)",
+    "ja": "なし（加飾なし）",
+    "es": "Ninguno (sin ornamentación)",
+    "zh-Hans": "无（无装饰工艺）",
+    "sv": "Ingen (utan dekor)",
+    "da": "Ingen (uden forædling)",
+    "nl": "Geen (zonder veredeling)",
+    "pl": "Brak (bez uszlachetnienia)",
+    "pt": "Nenhum (sem enobrecimento)",
+    "hi": "कोई नहीं (बिना सजावटी प्रभाव)"
+  },
+  "altLabels": {
+    "en": [
+      "No foil",
+      "No embossing",
+      "Plain",
+      "No finishing effects"
+    ],
+    "nb": [
+      "Uten folie",
+      "Uten preging",
+      "Uten effekter"
+    ],
+    "de": [
+      "Ohne Folie",
+      "Ohne Prägung",
+      "Ohne Veredelung"
+    ],
+    "nl": [
+      "Zonder folie",
+      "Zonder preging"
+    ],
+    "sv": [
+      "Utan folie",
+      "Utan prägling"
+    ],
+    "da": [
+      "Uden folie",
+      "Uden prægning"
+    ],
+    "es": [
+      "Sin estampado",
+      "Sin relieve",
+      "Sin efectos"
+    ],
+    "ja": [
+      "箔なし",
+      "エンボスなし"
+    ],
+    "zh-Hans": [
+      "不烫金",
+      "不压凹凸"
+    ],
+    "pl": [
+      "bez folii",
+      "bez tłoczenia"
+    ],
+    "pt": [
+      "sem foil",
+      "sem relevo",
+      "liso",
+      "sem efeitos"
+    ],
+    "hi": [
+      "बिना फ़ॉइल",
+      "बिना एम्बॉसिंग",
+      "सादा",
+      "बिना प्रभाव"
+    ]
+  },
+  "definition": {
+    "en": "No embellishment on the face: no foil, embossing, debossing or spot effect. An explicit statement, distinct from leaving the axis unspecified (which lets the vendor propose an effect). Stands alone: it tolerates no other embellishment value on the same face.",
+    "nb": "Ingen dekor på flaten: verken folie, preging eller punkteffekt. Et eksplisitt utsagn, forskjellig fra å la aksen stå uspesifisert (som lar leverandøren foreslå en effekt). Står alene: tåler ingen annen dekor-verdi på samme flate.",
+    "de": "Keine Veredelung auf der Seite: keine Folie, keine Prägung, kein Spot-Effekt. Eine ausdrückliche Aussage, im Unterschied zur offen gelassenen Achse (bei der der Anbieter einen Effekt vorschlagen darf). Steht allein: duldet keinen anderen Veredelungswert auf derselben Seite.",
+    "ja": "面に加飾を施さない：箔、エンボス、デボス、スポット効果なし。軸を未指定のままにするのとは異なる明示的な指定。単独値：同じ面に他の加飾値を許さない。",
+    "es": "Sin ornamentación en la cara: sin estampado, relieve, bajorrelieve ni efecto localizado. Una declaración explícita, distinta de dejar el eje sin especificar (que permite al proveedor proponer un efecto). Va sola: no tolera otro valor de ornamentación en la misma cara.",
+    "zh-Hans": "该面不作任何装饰工艺：不烫金、不压凸、不压凹、无局部效果。明确的声明，不同于将该轴留空（由供应商提议）。独立值：同一面上不容许其他装饰工艺值。",
+    "sv": "Ingen dekor på sidan: ingen folie, prägling eller punkteffekt. Ett uttryckligt påstående, skilt från att lämna axeln ospecificerad (vilket låter leverantören föreslå en effekt). Står ensam: tål inget annat dekorvärde på samma sida.",
+    "da": "Ingen forædling på fladen: ingen folie, prægning eller punkteffekt. Et udtrykkeligt udsagn, forskelligt fra at lade aksen stå uspecificeret (hvilket lader leverandøren foreslå en effekt). Står alene: tåler ingen anden forædlingsværdi på samme flade.",
+    "nl": "Geen veredeling op het vlak: geen folie, preging of spot-effect. Een expliciete uitspraak, anders dan de as open laten (waarbij de leverancier een effect mag voorstellen). Staat alleen: duldt geen andere veredelingswaarde op hetzelfde vlak.",
+    "pl": "Brak uszlachetnienia na tej stronie: bez folii, tłoczenia ani efektu punktowego. Wyraźne oświadczenie, w odróżnieniu od pozostawienia osi nieokreślonej (co pozwala dostawcy zaproponować efekt). Wartość samodzielna: nie toleruje innej wartości uszlachetnienia na tej samej stronie.",
+    "pt": "Nenhum enobrecimento na face: sem foil, relevo alto, relevo baixo ou efeito localizado. Uma declaração explícita, distinta de deixar o eixo sem especificar (o que permite ao fornecedor propor um efeito). Vai sozinho: não tolera outro valor de enobrecimento na mesma face.",
+    "hi": "सतह पर कोई सजावटी प्रभाव नहीं: न फ़ॉइल, न एम्बॉसिंग, न डिबॉसिंग, न स्पॉट प्रभाव। एक स्पष्ट कथन, अक्ष को अनिर्दिष्ट छोड़ने से अलग (जो विक्रेता को प्रभाव सुझाने देता है)। अकेला रहता है: उसी सतह पर कोई अन्य एम्बेलिशमेंट मान सहन नहीं करता।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments",
+  "created": "2026-09-22T11:55:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§NO-EMBELLISHMENT",
+  "elementType": "value",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "standalone": true
+}

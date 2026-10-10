@@ -1,0 +1,78 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-spot> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Pantone Solid"@da,
+        "Pantone Solid"@de,
+        "Pantone Solid"@en,
+        "Pantone Solid Coated"@en,
+        "Pantone Solid Uncoated"@en,
+        "Pantone Spot Colours"@en,
+        "Pantone Solid"@es,
+        "Pantone Solid"@hi,
+        "Pantone Solid Coated"@hi,
+        "Pantone Solid Uncoated"@hi,
+        "Pantone Spot Colours"@hi,
+        "パントン ソリッド"@ja,
+        "Pantone Solid"@nb,
+        "Tilleggsfarge"@nb,
+        "Pantone Solid"@nl,
+        "Pantone Solid"@pl,
+        "Pantone Solid Coated"@pl,
+        "Pantone Solid Uncoated"@pl,
+        "Pantone Solid"@pt,
+        "Pantone Solid Coated"@pt,
+        "Pantone Solid Uncoated"@pt,
+        "Pantone Spot Colours"@pt,
+        "Pantone Solid"@sv,
+        "潘通专色库"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system> ;
+    skos:definition "Tryk med staffagefarver fra Pantone Matching System (PMS). Hver Pantone-farve er en færdigblandet farve påført som egen separation. Bruges til præcis gengivelse af brandfarver, staffageopgaver i to til fire farver samt metalliske/fluorescerende effekter."@da,
+        "Druck mit Pantone Matching System (PMS) Sonderfarben. Jede Pantone-Farbe ist eine vorgemischte Druckfarbe, die als eigene Separation aufgetragen wird."@de,
+        "Pantone's base spot-colour library — the Solid Coated / Solid Uncoated ranges of pre-mixed inks that the numbered PMS colours are drawn from. The sibling libraries (Metallic, Neon, Pastel) sit alongside it. Naming a colour here specifies WHICH ink; printing it as its own separation is the colour layer printing/features/colors/spot-color."@en,
+        "Impresión con tintas planas del Pantone Matching System (PMS). Cada color Pantone es una tinta premezclada aplicada como separación propia. Para reproducción exacta de colores de marca, trabajos de dos a cuatro tintas planas y efectos metálicos/fluorescentes."@es,
+        "Pantone का मूल स्पॉट-कलर पुस्तकालय — Solid Coated / Solid Uncoated श्रेणियों की पूर्व-मिश्रित स्याही जिनसे क्रमांकित PMS रंग लिए जाते हैं। सहोदर पुस्तकालय (Metallic, Neon, Pastel) इसके साथ हैं। यहाँ रंग का नाम बताना निर्दिष्ट करता है कि कौन-सी स्याही; उसे अपने अलग सेपरेशन के रूप में छापना रंग परत printing/features/colors/spot-color है।"@hi,
+        "Pantone Matching System（PMS）の特色インキによる印刷。各 Pantone 色は調合済みインキで、それぞれ独自の分版として刷られる。ブランドカラーの正確な再現、特色2〜4色のジョブ、メタリック／蛍光効果に使われる。"@ja,
+        "Pantones basisbibliotek for spotfarger — Solid Coated / Solid Uncoated, seriene de nummererte PMS-fargene hentes fra. Metallic, Neon og Pastel er søsterbiblioteker. Å navngi en farge her sier HVILKET blekk; å trykke den som egen separasjon er fargelaget printing/features/colors/spot-color."@nb,
+        "Drukken met steunkleurinkten uit het Pantone Matching System (PMS). Elke Pantone-kleur is een voorgemengde inkt, aangebracht als eigen separatie. Gebruikt voor exacte reproductie van merkkleuren, steunkleurwerk in twee tot vier kleuren en metallic/fluorescerende effecten."@nl,
+        "Podstawowa biblioteka kolorów dodatkowych Pantone — zakresy Solid Coated / Solid Uncoated wstępnie zmieszanych farb, z których pochodzą numerowane kolory PMS. Biblioteki siostrzane (Metallic, Neon, Pastel) leżą obok niej. Nazwanie barwy tutaj określa KTÓRA farba; wydrukowanie jej jako osobnej separacji to warstwa barwna printing/features/colors/spot-color."@pl,
+        "Biblioteca base de cores especiais da Pantone — as gamas Solid Coated / Solid Uncoated de tintas pré-misturadas das quais provêm as cores PMS numeradas. As bibliotecas irmãs (Metallic, Neon, Pastel) ficam ao lado. Nomear uma cor aqui especifica QUAL tinta; imprimi-la como separação própria é a camada de cor printing/features/colors/spot-color."@pt,
+        "Tryck med dekorbläck ur Pantone Matching System (PMS). Varje Pantone-kulör är ett förblandat bläck applicerat som egen separation. Används för exakt återgivning av varumärkesfärger, dekorjobb i två till fyra färger samt metalliska/fluorescerande effekter."@sv,
+        "使用 Pantone 配色系统（PMS）专色油墨的印刷。每个 Pantone 色都是预混油墨，作为独立分色印刷。用于品牌色的精确再现、二至四专色作业及金属/荧光效果。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PANTONE-SPOT-COLORS" ;
+    skos:prefLabel "Pantone-staffagefarver"@da,
+        "Pantone-Sonderfarben"@de,
+        "Pantone Spot Colors"@en,
+        "Pantone Spot Colors"@es,
+        "Pantone स्पॉट रंग"@hi,
+        "Pantone Spot Colors"@ja,
+        "Pantone spot-farger"@nb,
+        "Pantone-steunkleuren"@nl,
+        "Kolory dodatkowe Pantone"@pl,
+        "Cores especiais Pantone"@pt,
+        "Pantone-dekorfärger"@sv,
+        "Pantone Spot Colors"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

@@ -1,0 +1,84 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Internationale kuvertformater, der bruges uden for Nordamerika — primært ISO 269 (C, DL) samt forskellige nationale og specialiserede formater (B-, E-, S-, R-, EC-, EX- og X-serierne)."@da,
+        "Internationale Briefumschlagformate, die außerhalb Nordamerikas verwendet werden — vor allem nach ISO 269 (C, DL) und in verschiedenen nationalen oder spezialisierten Formaten (B-, E-, S-, R-, EC-, EX-, X-Reihen)."@de,
+        "International envelope sizes used outside North America — primarily ISO 269 (C, DL) and various national/specialized formats (B, E, S, R, EC, EX, X series)."@en,
+        "Tamaños internacionales de sobre utilizados fuera de Norteamérica — principalmente ISO 269 (C, DL) y diversos formatos nacionales o especializados (series B, E, S, R, EC, EX, X)."@es,
+        "उत्तर अमेरिका के बाहर प्रयुक्त अंतरराष्ट्रीय लिफ़ाफ़ा आकार — मुख्यतः ISO 269 (C, DL) और विभिन्न राष्ट्रीय/विशेष फ़ॉर्मेट (B, E, S, R, EC, EX, X सीरीज़)।"@hi,
+        "北米以外で使用される国際封筒サイズ — 主にISO 269（C、DL）と、各種の国別／専門形式（B、E、S、R、EC、EX、Xシリーズ）。"@ja,
+        "Internasjonale konvoluttstørrelser brukt utenfor Nord-Amerika — primært ISO 269 (C, DL) og diverse nasjonale/spesialiserte formater (B-, E-, S-, R-, EC-, EX-, X-serien)."@nb,
+        "Internationale envelopformaten gebruikt buiten Noord-Amerika — voornamelijk ISO 269 (C, DL) plus diverse nationale en gespecialiseerde formaten (B-, E-, S-, R-, EC-, EX- en X-reeksen)."@nl,
+        "Międzynarodowe formaty kopert używane poza Ameryką Północną — głównie ISO 269 (C, DL) oraz różne formaty krajowe i specjalne (serie B, E, S, R, EC, EX, X)."@pl,
+        "Tamanhos de envelope internacionais usados fora da América do Norte — principalmente ISO 269 (C, DL) e vários formatos nacionais/especializados (séries B, E, S, R, EC, EX, X)."@pt,
+        "Internationella kuvertformat som används utanför Nordamerika — främst ISO 269 (C, DL) samt olika nationella och specialiserade format (B-, E-, S-, R-, EC-, EX- och X-serier)."@sv,
+        "在北美以外使用的国际信封尺寸——主要是ISO 269（C、DL）和各种国家/专用格式（B、E、S、R、EC、EX、X系列）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/c4m>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/c6-c5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ce4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ce64>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e56>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e6>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e65>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ec45>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ec5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b6>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c3>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c6>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c7>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ex5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/r7>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s65>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/x5> ;
+    skos:notation "P:CF-FMT-INTE" ;
+    skos:prefLabel "Internationella kuvert"@da,
+        "Internationale Umschläge"@de,
+        "International Envelopes"@en,
+        "Sobres Internacionales"@es,
+        "अंतरराष्ट्रीय लिफ़ाफ़े"@hi,
+        "国際規格の封筒"@ja,
+        "Internasjonale konvolutter"@nb,
+        "Internationella kuvert"@nl,
+        "Koperty międzynarodowe"@pl,
+        "Envelopes internacionais"@pt,
+        "Internationella kuvert"@sv,
+        "国际信封"@zh-Hans ;
+    skos:scopeNote "Im Mittelpunkt steht die ISO-269-C-Reihe (zur Aufnahme von A-Reihe-Bogen). Das DL-Format ist im Geschäftsverkehr am verbreitetsten und nimmt einen dreimal gefalteten A4-Bogen auf. Die B-Reihe-Briefumschläge fassen größere Dokumente; die E-, S-, R- und X-Reihen sind regionale oder spezialisierte Formate für bestimmte Anwendungen wie Grußkarten oder Einladungen."@de,
+        "Centered on the ISO 269 C-series (sized to hold A-series sheets). The DL is the most common in business correspondence, holding A4 folded in three. The B-series envelopes hold larger documents; the E-, S-, R-, and X-series are regional or specialized formats for specific use cases like greeting cards or invitations."@en,
+        "Centrado en la serie C de ISO 269 (dimensionada para contener hojas de la serie A). El DL es el más común en correspondencia comercial, conteniendo un A4 doblado en tres. Los sobres de serie B contienen documentos más grandes; las series E y otras son nichos."@es,
+        "ISO 269 C-सीरीज़ पर केंद्रित (A-सीरीज़ शीटों के लिए)। व्यावसायिक पत्राचार में DL सबसे आम, तीन में मुड़ा A4 समाता है। B-सीरीज़ लिफ़ाफ़े बड़े दस्तावेज़ रखते हैं; E, S, R और X सीरीज़ ग्रीटिंग कार्ड या निमंत्रण जैसे उपयोगों के क्षेत्रीय या विशेष फ़ॉर्मेट हैं।"@hi,
+        "ISO 269 Cシリーズ（Aシリーズシートを収納するように設計）を中心とする。DLはビジネス通信で最も一般的で、A4を3つ折りで収納する。Bシリーズ封筒はより大きな書類を収納する。E、S、R、Xシリーズはグリーティングカードや招待状などの特定用途向けの地域または専門形式。"@ja,
+        "Sentrert rundt ISO 269 C-serien (dimensjonert for å romme A-serie-ark). DL er den vanligste i forretningskorrespondanse, og rommer A4 brettet i tre. B-konvolutter rommer større dokumenter; E-, S-, R- og X-serien er regionale eller spesialiserte formater for bestemte bruksområder som gratulasjonskort eller invitasjoner."@nb,
+        "Centrado na série C da ISO 269 (dimensionada para folhas da série A). O DL é o mais comum na correspondência comercial, comportando A4 dobrado em três. Os envelopes da série B comportam documentos maiores; as séries E, S, R e X são formatos regionais ou especializados para casos como cartões ou convites."@pt,
+        "以ISO 269的C系列为中心（按A系列纸张尺寸设计）。DL是商务通信中最常见的，装入对折三次的A4。B系列信封装较大文件；E系列等是小众用途。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s4> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "25 x 33 cm"@en,
+        "250 x 330 mm"@en,
+        "250x330"@en,
+        "250×330"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "250 × 330 mm. Kuvert i S-serien, med lidt andre proportioner end C4."@da,
+        "250 × 330 mm. Briefumschlag der S-Reihe, mit leicht abweichenden Proportionen zu C4."@de,
+        "250 × 330 mm. S-series envelope, slightly different proportions to C4."@en,
+        "Sobre S4 — formato especializado para correspondencia europea."@es,
+        "250 × 330 mm. S-सीरीज़ लिफ़ाफ़ा, C4 से थोड़े अलग अनुपात।"@hi,
+        "250×330mm。Sシリーズ封筒、C4とわずかに異なる比例。"@ja,
+        "250 × 330 mm. S-serie-konvolutt, litt annerledes proporsjoner enn C4."@nb,
+        "250 × 330 mm. Envelop in de S-reeks, met net iets andere verhoudingen dan C4."@nl,
+        "250 × 330 mm. Koperta serii S o nieco innych proporcjach niż C4."@pl,
+        "250 × 330 mm. Envelope da série S, proporções ligeiramente diferentes do C4."@pt,
+        "250 × 330 mm. Kuvert i S-serien, med något andra proportioner än C4."@sv,
+        "S4信封 —— 欧洲通信的专业格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§S4" ;
+    skos:prefLabel "S4 (250 x 330 mm)"@da,
+        "S4 (250 x 330 mm)"@de,
+        "S4 (250 x 330 mm)"@en,
+        "S4 (250 × 330 mm)"@es,
+        "S4 (250 x 330 mm)"@hi,
+        "S4 (250 x 330 mm)"@ja,
+        "S4 (250 x 330 mm)"@nb,
+        "S4 (250 x 330 mm)"@nl,
+        "S4 (250 x 330 mm)"@pl,
+        "S4 (250 x 330 mm)"@pt,
+        "S4 (250 x 330 mm)"@sv,
+        "S4 (250 × 330 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 82500.0 ;
+            ptpge:aspectRatio 1.32 ;
+            ptpge:height 330.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 250.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

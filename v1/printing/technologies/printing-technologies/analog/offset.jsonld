@@ -1,0 +1,107 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Offset",
+    "es": "Offset",
+    "zh-Hans": "胶印 (Offset)",
+    "nb": "Offset",
+    "de": "Offsetdruck",
+    "ja": "オフセット印刷",
+    "sv": "Offset",
+    "da": "Offset",
+    "nl": "Offset",
+    "pl": "Offset",
+    "pt": "Offset",
+    "hi": "ऑफसेट"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§OFFSET",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printing process in which the inked image is transferred ('offset') from a metal plate to a rubber blanket, and from there to the substrate. Dominant for medium-to-high volume commercial printing on paper and board because of its high quality and low marginal cost per impression.",
+    "nb": "En trykkeprosess der det inntrykte bildet overføres fra en metallplate til et gummiduk, og videre til underlaget. Dominerende for kommersielle trykksaker i mellomstore til store opplag på papir og kartong, takket være høy kvalitet og lav marginalkostnad per trykk.",
+    "de": "Ein Druckverfahren, bei dem das eingefärbte Bild von einer Metallplatte auf ein Gummituch und von dort auf den Bedruckstoff übertragen („offset“) wird. Dominant für mittlere bis hohe Akzidenzauflagen auf Papier und Karton — wegen seiner hohen Qualität und niedriger Grenzkosten pro Druck.",
+    "ja": "インキが付いた画像が金属版からゴムブランケットへ、そしてそこから基材へ「オフセット」される印刷工程。高品質と1部あたり低い限界費用ゆえに、紙および板への中～大量商業印刷で主流。",
+    "es": "Tecnología planográfica donde la tinta se transfiere de la plancha a un cilindro de caucho (mantilla) y de allí al sustrato. Dominante en impresión comercial por su calidad, repetibilidad y rentabilidad en tiradas medias y largas.",
+    "zh-Hans": "平版工艺，油墨从印版转移到橡胶滚筒（橡皮布），然后转移到承印物。在商业印刷中占主导地位，质量好、可重复性高，在中长印次中具成本效益。",
+    "sv": "En tryckprocess där den infärgade bilden överförs («offsettas») från en metallplåt till en gummiduk, och därifrån till substratet. Dominerande för civiltryck i medelhöga till höga volymer på papper och kartong tack vare hög kvalitet och låg marginalkostnad per tryck.",
+    "da": "En trykproces, hvor det indfarvede billede overføres («offsettes») fra en metalplade til en gummidug og derfra til substratet. Dominerende for kommercielt tryk i mellemstore til store mængder på papir og karton takket være høj kvalitet og lav marginalomkostning pr. tryk.",
+    "nl": "Een drukproces waarbij het geïnkte beeld wordt overgebracht («ge-offset») van een metalen plaat naar een rubberdoek en vandaar naar het substraat. Dominant voor commercieel drukwerk in middelgrote tot grote volumes op papier en karton dankzij hoge kwaliteit en lage marginale kosten per druk.",
+    "pl": "Proces druku, w którym obraz nafarbiony jest przenoszony («offset») z metalowej formy na gumowy obciąg, a stamtąd na podłoże. Dominujący dla średnio- i wysokonakładowego druku komercyjnego na papierze i tekturze dzięki wysokiej jakości i niskiemu kosztowi krańcowemu odbitki.",
+    "pt": "Processo de impressão em que a imagem entintada é transferida («offset») de uma chapa metálica para uma blanqueta de borracha e daí para o substrato. Dominante na impressão comercial de médio a alto volume em papel e cartão, pela alta qualidade e baixo custo marginal por impressão.",
+    "hi": "मुद्रण प्रक्रिया जिसमें स्याही लगी छवि धातु की प्लेट से रबर ब्लैंकेट पर («ऑफसेट») और वहाँ से सब्सट्रेट पर उतरती है। उच्च गुणवत्ता और प्रति इंप्रेशन कम सीमांत लागत के कारण काग़ज़ और बोर्ड पर मध्यम से उच्च-मात्रा व्यावसायिक मुद्रण में प्रमुख।"
+  },
+  "scopeNote": {
+    "en": "Includes sheet-fed offset, web offset, and waterless offset variants. The hybrid 'digital offset' (HP Indigo and similar) belongs under Hybrid technologies.",
+    "nb": "Inkluderer ark-matet offset, rull-offset og vannløs offset. Hybriden «digital offset» (HP Indigo og lignende) hører til under Hybrid-teknologier.",
+    "de": "Umfasst Bogenoffset, Rollenoffset und wasserlose Offsetvarianten. Der hybride „Digitaloffset“ (HP Indigo und ähnliche) wird unter Hybrid-Technologien geführt.",
+    "ja": "枚葉オフセット、輪転オフセット、水なしオフセットのバリアントを含む。ハイブリッド「デジタルオフセット」（HP Indigoなど）はHybrid技術に属する。",
+    "pt": "Inclui as variantes offset de folha, offset de bobina e offset sem água (waterless). O «offset digital» híbrido (HP Indigo e similares) pertence às tecnologias híbridas.",
+    "hi": "शीट-फ़ेड ऑफसेट, वेब ऑफसेट और वाटरलेस ऑफसेट वेरिएंट शामिल। हाइब्रिड «डिजिटल ऑफसेट» (HP Indigo और समान) हाइब्रिड तकनीकों के अंतर्गत।"
+  },
+  "exactMatch": [
+    "http://www.wikidata.org/entity/Q174985"
+  ],
+  "altLabels": {
+    "en": [
+      "Offset lithography",
+      "Offset printing",
+      "Litho"
+    ],
+    "nb": [
+      "Offsettrykk"
+    ],
+    "sv": [
+      "Offsettryck"
+    ],
+    "da": [
+      "Offsettryk"
+    ],
+    "pl": [
+      "druk offsetowy",
+      "litografia offsetowa",
+      "lito"
+    ],
+    "pt": [
+      "Litografia offset",
+      "Impressão offset",
+      "Ofsete"
+    ],
+    "hi": [
+      "ऑफसेट लिथोग्राफ़ी",
+      "ऑफसेट मुद्रण",
+      "लिथो"
+    ]
+  },
+  "narrower": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/sheet-fed-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/heatset-web-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/coldset-web-offset"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ]
+}

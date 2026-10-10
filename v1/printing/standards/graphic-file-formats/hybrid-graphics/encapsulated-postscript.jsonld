@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/encapsulated-postscript",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Encapsulated PostScript (.eps)",
+    "es": "Encapsulated PostScript (.eps)",
+    "zh-Hans": "Encapsulated PostScript (.eps)",
+    "nb": "Encapsulated PostScript (.eps)",
+    "de": "Encapsulated PostScript (.eps)",
+    "ja": "Encapsulated PostScript (.eps)",
+    "sv": "Encapsulated PostScript (.eps)",
+    "da": "Encapsulated PostScript (.eps)",
+    "nl": "Encapsulated PostScript (.eps)",
+    "pl": "Encapsulated PostScript (.eps)",
+    "pt": "Encapsulated PostScript (.eps)",
+    "hi": "Encapsulated PostScript (.eps)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§ENCAPSULATED-POSTSCRIPT",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Adobe-developed file format (.eps) for self-contained PostScript graphics, used historically as the print-industry interchange format before being largely superseded by PDF.",
+    "nb": "Adobe-utviklet filformat (.eps) for selvstendige PostScript-grafikk, historisk brukt som utvekslingsformat i trykkbransjen før det i stor grad ble erstattet av PDF.",
+    "de": "Von Adobe entwickeltes Dateiformat (.eps) für eigenständige PostScript-Grafiken, historisch als Austauschformat in der Druckbranche eingesetzt, mittlerweile weitgehend durch PDF abgelöst.",
+    "ja": "Adobeが開発した自己完結型PostScriptグラフィックスのファイル形式（.eps）。PDFに大幅に置き換えられる以前は、印刷業界の交換形式として歴史的に使用されていた。",
+    "es": "Formato de archivo gráfico basado en PostScript (.eps), antiguo estándar para intercambio de gráficos vectoriales y mixtos antes de la adopción universal del PDF. Aún en uso en algunos flujos heredados.",
+    "zh-Hans": "基于PostScript的图形文件格式（.eps），在PDF普及之前是矢量和混合图形交换的旧标准。在某些遗留工作流程中仍在使用。",
+    "sv": "Adobe-utvecklat filformat (.eps) för självständig PostScript-grafik, historiskt använt som tryckbranschens utbytesformat innan det i stort ersattes av PDF.",
+    "da": "Adobe-udviklet filformat (.eps) til selvstændig PostScript-grafik, historisk brugt som trykbranchens udvekslingsformat, før det i vidt omfang blev afløst af PDF.",
+    "nl": "Door Adobe ontwikkeld bestandsformaat (.eps) voor zelfstandige PostScript-graphics, historisch het uitwisselformaat van de grafische industrie voordat het grotendeels werd vervangen door PDF.",
+    "pl": "Opracowany przez Adobe format pliku (.eps) dla samodzielnej grafiki PostScript, historycznie używany jako format wymiany w poligrafii, zanim został w dużej mierze zastąpiony przez PDF.",
+    "pt": "Formato de arquivo desenvolvido pela Adobe (.eps) para gráficos PostScript autocontidos, usado historicamente como formato de intercâmbio da indústria gráfica antes de ser amplamente substituído pelo PDF.",
+    "hi": "स्व-निहित PostScript ग्राफ़िक्स के लिए Adobe द्वारा विकसित फ़ाइल फ़ॉर्मेट (.eps), PDF द्वारा बड़े पैमाने पर प्रतिस्थापित होने से पहले ऐतिहासिक रूप से प्रिंट-उद्योग विनिमय फ़ॉर्मेट।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "EPS",
+      ".eps"
+    ],
+    "pl": [
+      "EPS",
+      ".eps"
+    ],
+    "pt": [
+      "EPS",
+      ".eps"
+    ],
+    "hi": [
+      "EPS",
+      ".eps"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

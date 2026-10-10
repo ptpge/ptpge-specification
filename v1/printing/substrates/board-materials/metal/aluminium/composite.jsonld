@@ -1,0 +1,119 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/composite",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§ALUMINIUM-COMPOSITE",
+  "label": {
+    "en": "Composite Aluminium",
+    "nb": "Komposittaluminium",
+    "de": "Aluminium-Verbund (ACM)",
+    "es": "Composite de aluminio (ACM)",
+    "ja": "アルミ複合板",
+    "zh-Hans": "铝塑复合板",
+    "sv": "Aluminiumkomposit",
+    "da": "Aluminiumskomposit",
+    "nl": "Aluminiumcomposiet",
+    "pl": "Aluminium kompozytowe",
+    "pt": "Alumínio composto (ACM)",
+    "hi": "एल्युमिनियम कंपोज़िट (ACP)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium",
+  "definition": {
+    "en": "Aluminium composite material — two thin aluminium skins bonded to a polymer core; lightweight rigid sign board.",
+    "nb": "Aluminium-komposittmateriale — to tynne aluminiumshud limt til en polymerkjerne; lett, rigid skiltplate.",
+    "de": "Aluminium-Verbundmaterial — zwei dünne Aluminiumdecklagen auf einem Polymerkern; leichte, starre Schildplatte.",
+    "ja": "アルミ複合材 — 2枚の薄いアルミ板をポリマー芯材に貼り合わせたもの。軽量で硬いサインボード。",
+    "es": "Material composite de aluminio — dos láminas finas de aluminio unidas a un núcleo polimérico; panel rígido y ligero para rotulación.",
+    "zh-Hans": "铝塑复合材料 — 两层薄铝板复合于聚合物芯材；轻质硬挺的标识板。",
+    "sv": "Aluminiumkompositmaterial — två tunna aluminiumskikt limmade mot en polymerkärna; lätt och styv skyltskiva.",
+    "da": "Aluminiumskompositmateriale — to tynde aluminiumsskind limet på en polymerkerne; let og stiv skilteplade.",
+    "nl": "Aluminium composietmateriaal — twee dunne aluminiumhuiden gelijmd op een polymeerkern; licht en stijf bordmateriaal.",
+    "pl": "Aluminiowy materiał kompozytowy — dwie cienkie okładziny aluminiowe połączone z rdzeniem polimerowym; lekka sztywna płyta reklamowa.",
+    "pt": "Material composto de alumínio — duas finas lâminas de alumínio coladas a um núcleo polimérico; chapa de sinalização rígida e leve.",
+    "hi": "एल्युमिनियम कंपोज़िट सामग्री — पॉलिमर कोर से चिपकी दो पतली एल्युमिनियम परतें; हल्का कठोर साइन बोर्ड।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "ACM",
+      "Dibond",
+      "aluminium composite panel",
+      "ACP",
+      "Aluminium Composite",
+      "Aluminium Composite (ACM)",
+      "Aluminium Composite Panel",
+      "aluminum composite",
+      "Alu-Dibond",
+      "Aluminium composite panel"
+    ],
+    "nb": [
+      "Dibond",
+      "ACM",
+      "Aluminiumskompositt"
+    ],
+    "de": [
+      "Alu-Dibond",
+      "Dibond",
+      "Aluminiumverbundplatte"
+    ],
+    "pl": [
+      "ACM",
+      "Dibond",
+      "płyta kompozytowa aluminiowa",
+      "ACP",
+      "kompozyt aluminiowy",
+      "Alu-Dibond",
+      "płyta warstwowa aluminiowa"
+    ],
+    "pt": [
+      "ACM",
+      "Dibond",
+      "painel composto de alumínio",
+      "ACP",
+      "Alu-Dibond",
+      "chapa composta de alumínio"
+    ],
+    "hi": [
+      "ACP",
+      "ACM",
+      "Dibond",
+      "एल्युमिनियम कंपोज़िट पैनल",
+      "एल्युमिनियम कंपोज़िट शीट",
+      "Alu-Dibond"
+    ]
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

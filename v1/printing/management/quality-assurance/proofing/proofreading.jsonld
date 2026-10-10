@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proofreading",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Proofreading",
+    "es": "Corrección de Textos",
+    "zh-Hans": "校对",
+    "nb": "Korrekturlesing",
+    "de": "Korrekturlesen",
+    "ja": "校正・校閲",
+    "sv": "Korrekturläsning",
+    "da": "Korrekturlæsning",
+    "nl": "Tekstcorrectie",
+    "pl": "Korekta tekstu",
+    "pt": "Revisão de texto",
+    "hi": "प्रूफ़रीडिंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§PROOFREADING",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Final review of textual content for spelling, grammar, factual errors, and consistency — performed by a human reviewer (or specialized software) before the file is committed to production. Distinct from technical preflight, which checks the file's structure rather than its content.",
+    "nb": "Endelig gjennomgang av tekstinnhold for stavemåte, grammatikk, faktafeil og konsistens — utført av en menneskelig korrekturleser (eller spesialisert programvare) før filen sendes til produksjon. Forskjellig fra teknisk preflight, som sjekker filens struktur i stedet for innholdet.",
+    "de": "Abschließende Prüfung von Textinhalten auf Rechtschreibung, Grammatik, sachliche Fehler und Konsistenz — durchgeführt von einem menschlichen Korrekturleser (oder spezialisierter Software), bevor die Datei für die Produktion freigegeben wird. Zu unterscheiden vom technischen Preflight, der die Struktur der Datei und nicht ihren Inhalt prüft.",
+    "ja": "ファイルが生産に確約される前に、人間のレビュアー（または専用ソフトウェア）によって行われる、テキスト内容のスペル、文法、事実誤認、一貫性に関する最終レビュー。ファイルの内容ではなく構造を検査する技術的プリフライトとは区別される。",
+    "es": "Revisión final del texto y de la maquetación antes de imprimir — captura erratas, errores gramaticales y problemas de coherencia editorial.",
+    "zh-Hans": "印刷前对文本和版面的最终审核——捕捉错字、语法错误和编辑一致性问题。",
+    "sv": "Slutlig granskning av textinnehåll för stavning, grammatik, sakfel och konsekvens — utförd av en mänsklig granskare (eller specialiserad programvara) innan filen binds till produktion. Skild från teknisk preflight, som kontrollerar filens struktur snarare än dess innehåll.",
+    "da": "Endelig gennemgang af tekstindhold for stavning, grammatik, faktuelle fejl og konsistens — udført af en menneskelig korrekturlæser (eller specialiseret software), før filen sendes til produktion.",
+    "nl": "Laatste beoordeling van tekstinhoud op spelling, grammatica, feitelijke fouten en consistentie — uitgevoerd door een menselijke corrector (of gespecialiseerde software) voordat het bestand naar productie gaat.",
+    "pl": "Końcowy przegląd treści tekstowej pod kątem ortografii, gramatyki, błędów rzeczowych i spójności — wykonywany przez recenzenta (lub specjalistyczne oprogramowanie) przed przekazaniem pliku do produkcji. W odróżnieniu od technicznego preflightu, który sprawdza strukturę pliku, a nie jego treść.",
+    "pt": "Revisão final do conteúdo textual quanto a ortografia, gramática, erros factuais e consistência — realizada por um revisor humano (ou software especializado) antes de o arquivo ser confiado à produção. Distinta do preflight técnico, que verifica a estrutura do arquivo e não seu conteúdo.",
+    "hi": "वर्तनी, व्याकरण, तथ्यात्मक त्रुटियों और संगति के लिए पाठ्य सामग्री की अंतिम समीक्षा — फ़ाइल को उत्पादन में सौंपने से पहले मानव समीक्षक (या विशेष सॉफ़्टवेयर) द्वारा। तकनीकी प्रीफ़्लाइट से भिन्न, जो सामग्री के बजाय फ़ाइल की संरचना जाँचता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "proof reading",
+      "copy-editing"
+    ],
+    "nb": [
+      "korrektur",
+      "korrekturlesing"
+    ],
+    "pl": [
+      "korekta",
+      "redakcja tekstu"
+    ],
+    "pt": [
+      "revisão",
+      "copidesque",
+      "revisão de provas"
+    ],
+    "hi": [
+      "प्रूफ़ रीडिंग",
+      "कॉपी-एडिटिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

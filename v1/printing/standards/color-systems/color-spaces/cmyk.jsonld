@@ -1,0 +1,75 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmyk",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "CMYK",
+    "es": "CMYK",
+    "zh-Hans": "CMYK",
+    "nb": "CMYK",
+    "de": "CMYK",
+    "ja": "CMYK",
+    "sv": "CMYK",
+    "da": "CMYK",
+    "nl": "CMYK",
+    "pl": "CMYK",
+    "pt": "CMYK",
+    "hi": "CMYK"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§CMYK",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The four-channel subtractive color model used in process printing: Cyan, Magenta, Yellow, and Key (black). Each channel corresponds to a printing plate or ink unit; combinations of the four reproduce most of the printable color space. Distinct from spot colors, which are pre-mixed inks rather than mixed at print time.",
+    "nb": "Den fire-kanals subtraktive fargemodellen som brukes i prosess-trykk: Cyan, Magenta, Yellow og Key (svart). Hver kanal tilsvarer en trykkplate eller blekkenhet; kombinasjoner av de fire gjengir det meste av det trykkbare fargespekteret. Forskjellig fra spotfarger, som er ferdigblandede blekk i stedet for blandet under trykk.",
+    "de": "Das vierkanalige subtraktive Farbmodell für den Skalendruck: Cyan, Magenta, Gelb und Key (Schwarz). Jeder Kanal entspricht einer Druckplatte oder einer Druckwerk-Einheit; Kombinationen der vier Farben reproduzieren den größten Teil des druckbaren Farbraums. Zu unterscheiden von Sonderfarben, die vorgemischte Druckfarben sind und nicht erst beim Druck gemischt werden.",
+    "ja": "プロセス印刷で使用される4チャネルの減法混色モデル：シアン、マゼンタ、イエロー、キー（黒）。各チャネルは1枚の刷版または1ユニットのインキに対応し、4色の組み合わせで印刷可能な色域の大部分を再現する。あらかじめ調合されたインキである特色（スポットカラー）とは異なり、印刷時に混色される。",
+    "es": "Modelo de color sustractivo de cuatro canales utilizado en la impresión por proceso: Cian, Magenta, Amarillo y Key (negro). Cada canal corresponde a una plancha o cuerpo de tinta; las combinaciones de los cuatro reproducen la mayor parte del espacio cromático imprimible. A diferencia de las tintas planas, que son tintas pre-mezcladas, las CMYK se mezclan en el momento de la impresión.",
+    "zh-Hans": "用于过程印刷的四通道减色色彩模型：青、品红、黄和Key（黑）。每个通道对应一个印版或油墨机组；四种组合再现可印刷色彩空间的大部分。与预先混合的专色不同，CMYK在印刷时混合。",
+    "sv": "Den fyrkanaliga subtraktiva färgmodellen i processtryck: cyan, magenta, gult och svart (Key). Varje kanal motsvarar en tryckplåt eller ett bläckverk; kombinationer av de fyra återger merparten av den tryckbara färgrymden. Skild från dekorfärger, som är förblandade bläck snarare än blandade vid tryck.",
+    "da": "Den firekanalede subtraktive farvemodel i procestryk: cyan, magenta, gul og sort (Key). Hver kanal svarer til en trykplade eller et farveværk; kombinationer af de fire gengiver størstedelen af det trykbare farverum. Adskilt fra staffagefarver, som er færdigblandede farver frem for blandet ved tryk.",
+    "nl": "Het vierkanaals subtractieve kleurmodel in procesdruk: cyaan, magenta, geel en zwart (Key). Elk kanaal komt overeen met een drukplaat of inktwerk; combinaties van de vier geven het merendeel van de drukbare kleurruimte weer. Onderscheiden van steunkleuren, die voorgemengde inkten zijn in plaats van gemengd bij het drukken.",
+    "pl": "Czterokanałowy subtraktywny model barw używany w druku procesowym: cyjan, magenta, żółty i Key (czarny). Każdy kanał odpowiada formie drukowej lub zespołowi farbowemu; kombinacje czterech kanałów odtwarzają większość drukowalnej przestrzeni barw. W odróżnieniu od kolorów dodatkowych, które są farbami wstępnie zmieszanymi, a nie mieszanymi podczas druku.",
+    "pt": "O modelo de cor subtrativo de quatro canais usado na impressão em processo: Ciano, Magenta, Amarelo e Preto (Key). Cada canal corresponde a uma chapa ou unidade de tinta; as combinações dos quatro reproduzem a maior parte do espaço de cor imprimível. Distinto das cores especiais, que são tintas pré-misturadas e não misturadas na hora da impressão.",
+    "hi": "प्रोसेस प्रिंटिंग में प्रयुक्त चार-चैनल व्यवकलनात्मक रंग मॉडल: सायन, मैजेंटा, पीला और की (काला)। हर चैनल एक प्रिंटिंग प्लेट या स्याही इकाई से मेल खाता है; चारों के संयोजन अधिकांश मुद्रण-योग्य रंग स्पेस पुनरुत्पादित करते हैं। स्पॉट रंगों से भिन्न, जो प्रिंट के समय मिलाने के बजाय पूर्व-मिश्रित स्याही हैं।"
+  },
+  "scopeNote": {
+    "en": "Process colors. To define an exact CMYK output, an ICC profile is required (e.g. FOGRA39 for European offset on coated paper).",
+    "nb": "Prosessfarger. For å definere et eksakt CMYK-utseende kreves en ICC-profil (f.eks. FOGRA39 for europeisk offset på belagt papir).",
+    "de": "Skalenfarben. Für eine genaue CMYK-Ausgabe ist ein ICC-Profil erforderlich (z. B. FOGRA39 für europäischen Offsetdruck auf gestrichenem Papier).",
+    "ja": "プロセスカラー。正確なCMYK出力を定義するには、ICCプロファイル（例：欧州オフセット用コート紙のFOGRA39）が必要である。",
+    "es": "Colores proceso. Para definir una salida CMYK exacta se requiere un perfil ICC (p. ej. FOGRA39 para offset europeo sobre papel estucado).",
+    "zh-Hans": "过程色。要定义确切的CMYK输出，需要ICC配置文件（如用于涂布纸欧式胶印的FOGRA39）。",
+    "pt": "Cores de processo. Para definir uma saída CMYK exata é necessário um perfil ICC (por exemplo, FOGRA39 para offset europeu em papel revestido).",
+    "hi": "प्रोसेस रंग। सटीक CMYK आउटपुट परिभाषित करने के लिए ICC प्रोफ़ाइल आवश्यक (जैसे कोटेड काग़ज़ पर यूरोपीय ऑफसेट के लिए FOGRA39)।"
+  },
+  "exactMatch": [
+    "http://www.wikidata.org/entity/Q139122"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

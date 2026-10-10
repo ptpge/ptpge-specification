@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bright white paper"@en,
+        "White paper"@en,
+        "ब्राइट व्हाइट पेपर"@hi,
+        "व्हाइट पेपर"@hi,
+        "सफ़ेद काग़ज़"@hi,
+        "Hvitt papir"@nb,
+        "papier biały"@pl,
+        "papier jasnobiały"@pl,
+        "branco brilhante"@pt,
+        "papel alvo"@pt,
+        "papel branco"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades> ;
+    skos:definition "Klart hvidt papir med CIE-hvidhedsindeks på 90 eller derover — høj hvidhed opnået gennem blegning og optisk hvidt. Standardvalget til hverdagstryk og farvegengivelse med høj kontrast."@da,
+        "Hochweißes Papier mit CIE-Weißegrad ab 90 — durch Bleichung und optische Aufheller erreicht. Standardwahl für alltäglichen Druck und kontrastreiche Farbreproduktion."@de,
+        "Bright-white paper with a CIE whiteness index of 90 or higher — high-quality white achieved through bleaching and optical brighteners. The default choice for everyday printing and high-contrast color reproduction."@en,
+        "Papel blanco estándar — el tono más común en impresión comercial, con índice CIE alrededor de 90."@es,
+        "90 या अधिक CIE सफ़ेदी सूचकांक वाला ब्राइट-व्हाइट काग़ज़ — ब्लीचिंग और ऑप्टिकल ब्राइटनर से प्राप्त उच्च गुणवत्ता की सफ़ेदी। रोज़मर्रा की छपाई और हाई-कंट्रास्ट रंग पुनरुत्पादन का डिफ़ॉल्ट विकल्प।"@hi,
+        "CIE白色度指数が90以上の明白色紙 — 漂白と蛍光増白剤による高品質の白色。日常的な印刷および高コントラストの色再現の標準的な選択。"@ja,
+        "Klart hvitt papir med CIE-hvithetsindeks på 90 eller høyere — høykvalitets hvit oppnådd gjennom bleking og optiske hvitemidler. Standardvalget for daglig trykk og høykontrast fargegjengivelse."@nb,
+        "Helderwit papier met een CIE-witheidsindex van 90 of hoger — hoge witheid bereikt door bleken en optische witmakers. De standaardkeuze voor dagelijks drukwerk en kleurweergave met hoog contrast."@nl,
+        "Jasnobiały papier o wskaźniku białości CIE 90 lub wyższym — wysokiej jakości biel uzyskana przez bielenie i rozjaśniacze optyczne. Domyślny wybór do codziennego druku i wysokokontrastowej reprodukcji barw."@pl,
+        "Papel branco brilhante com índice de brancura CIE de 90 ou mais — branco de alta qualidade obtido por branqueamento e alvejantes ópticos. A escolha padrão para impressão do dia a dia e reprodução de cor de alto contraste."@pt,
+        "Klarvitt papper med CIE-vithetsindex 90 eller högre — hög vithet uppnådd genom blekning och optiska vitmedel. Standardvalet för vardagstryck och färgåtergivning med hög kontrast."@sv,
+        "标准白色纸 —— 商业印刷中最常见的色调，CIE指数约为90。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§WHITE-PAPER" ;
+    skos:prefLabel "Hvidt papir (CIE 90–150)"@da,
+        "Weißes Papier (CIE 90–150)"@de,
+        "White Paper (CIE 90–150)"@en,
+        "Papel Blanco (CIE 90–150)"@es,
+        "सफ़ेद काग़ज़ (CIE 90–150)"@hi,
+        "白色紙（CIE 90〜150）"@ja,
+        "Hvitt papir (CIE 90–150)"@nb,
+        "Wit papier (CIE 90–150)"@nl,
+        "Papier biały (CIE 90–150)"@pl,
+        "Papel branco (CIE 90–150)"@pt,
+        "Vitt papper (CIE 90–150)"@sv,
+        "白色纸 (CIE 90–150)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

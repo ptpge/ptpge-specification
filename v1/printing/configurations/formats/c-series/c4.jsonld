@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/c-series/c4",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "C4 (229 x 324 mm)",
+    "es": "C4 (229 × 324 mm)",
+    "zh-Hans": "C4 (229 × 324 mm)",
+    "nb": "C4 (229 x 324 mm)",
+    "de": "C4 (229 x 324 mm)",
+    "ja": "C4 (229 x 324 mm)",
+    "sv": "C4 (229 x 324 mm)",
+    "da": "C4 (229 x 324 mm)",
+    "nl": "C4 (229 x 324 mm)",
+    "pl": "C4 (229 x 324 mm)",
+    "pt": "C4 (229 x 324 mm)",
+    "hi": "C4 (229 x 324 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§C4",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/c-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "229 × 324 mm (9.02 × 12.76 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A4 sheet flat — common for unfolded business correspondence and certificates.",
+    "nb": "229 × 324 mm (9,02 × 12,76 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A4-ark uten brett — vanlig for ubrettet forretningskorrespondanse og diplomer.",
+    "de": "229 × 324 mm (9,02 × 12,76 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen A4-Bogen ungefaltet — üblich für ungefaltete Geschäftskorrespondenz und Urkunden.",
+    "ja": "229×324mm（9.02×12.76インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A4シートを折らずに収納 — 折らないビジネス文書および証書で一般的。",
+    "es": "Sobre C4 de la serie C de ISO 269, dimensiones 229 × 324 mm. Diseñado para contener una hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C4信封，尺寸229 × 324 mm。设计用于装相同编号的A纸。",
+    "sv": "229 × 324 mm (9.02 × 12.76 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A4-ark plant — vanligt för ovikt affärskorrespondens och certifikat.",
+    "da": "229 × 324 mm (9.02 × 12.76 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A4-ark fladt — almindeligt til ufoldet forretningskorrespondance og certifikater.",
+    "nl": "229 × 324 mm (9.02 × 12.76 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een vlak A4-vel — gebruikelijk voor ongevouwen zakelijke correspondentie en certificaten.",
+    "pl": "229 × 324 mm (9,02 × 12,76 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A4 na płasko — typowa dla niezłożonej korespondencji biznesowej i certyfikatów.",
+    "pt": "229 × 324 mm (9.02 × 12.76 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A4 aberta — comum em correspondência comercial sem dobra e certificados.",
+    "hi": "229 × 324 mm (9.02 × 12.76 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A4 शीट सपाट समाती है — बिना मुड़े व्यावसायिक पत्राचार और प्रमाणपत्रों में आम।"
+  },
+  "properties": {
+    "width": 229,
+    "height": 324,
+    "unit": "mm",
+    "aspectRatio": 1.4148,
+    "standard": "ISO 269",
+    "area": 74196
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "229 x 324 mm",
+      "229x324",
+      "229×324",
+      "22.9 x 32.4 cm",
+      "DIN C4"
+    ],
+    "nb": [
+      "C4-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

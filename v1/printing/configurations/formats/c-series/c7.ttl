@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/c-series/c7> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "8.1 x 11.4 cm"@en,
+        "81 x 114 mm"@en,
+        "81x114"@en,
+        "81×114"@en,
+        "DIN C7"@en,
+        "C7-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/c-series> ;
+    skos:definition "81 × 114 mm (3.19 × 4.49 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A7-ark fladt. Specialformat til små invitationer og kort."@da,
+        "81 × 114 mm (3,19 × 4,49 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen A7-Bogen ungefaltet. Spezialformat für kleine Einladungen und Notizen."@de,
+        "81 × 114 mm (3.19 × 4.49 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A7 sheet flat. Specialty size for small invitations and notes."@en,
+        "Sobre C7 de la serie C de ISO 269, dimensiones 81 × 114 mm. Diseñado para contener una hoja A del mismo número."@es,
+        "81 × 114 mm (3.19 × 4.49 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A7 शीट सपाट समाती है। छोटे निमंत्रणों और नोट्स के लिए विशेष आकार।"@hi,
+        "81×114mm（3.19×4.49インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A7シートを折らずに収納。小型招待状およびノート用の特殊サイズ。"@ja,
+        "81 × 114 mm (3,19 × 4,49 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A7-ark uten brett. Spesialstørrelse for små invitasjoner og notater."@nb,
+        "81 × 114 mm (3.19 × 4.49 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een A7-ark vlak. Speciaal formaat voor kleine uitnodigingen en kaarten."@nl,
+        "81 × 114 mm (3,19 × 4,49 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A7 na płasko. Format specjalny dla małych zaproszeń i notatek."@pl,
+        "81 × 114 mm (3.19 × 4.49 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A7 aberta. Tamanho especial para convites pequenos e notas."@pt,
+        "81 × 114 mm (3.19 × 4.49 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A7-ark plant. Specialformat för små inbjudningar och kort."@sv,
+        "ISO 269 C系列C7信封，尺寸81 × 114 mm。设计用于装相同编号的A纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§C7" ;
+    skos:prefLabel "C7 (81 x 114 mm)"@da,
+        "C7 (81 x 114 mm)"@de,
+        "C7 (81 x 114 mm)"@en,
+        "C7 (81 × 114 mm)"@es,
+        "C7 (81 x 114 mm)"@hi,
+        "C7 (81 x 114 mm)"@ja,
+        "C7 (81 x 114 mm)"@nb,
+        "C7 (81 x 114 mm)"@nl,
+        "C7 (81 x 114 mm)"@pl,
+        "C7 (81 x 114 mm)"@pt,
+        "C7 (81 x 114 mm)"@sv,
+        "C7 (81 × 114 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 9234.0 ;
+            ptpge:aspectRatio 1.4074 ;
+            ptpge:height 114.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 81.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,106 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/saddle-stitching",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§SADDLE-STITCHING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 4,
+  "label": {
+    "en": "Saddle Stitching",
+    "nb": "Stifting",
+    "de": "Rückenstichheftung",
+    "ja": "Saddle Stitching",
+    "es": "Saddle Stitching",
+    "zh-Hans": "Saddle Stitching",
+    "sv": "Klammerhäftning",
+    "da": "Klammerhæftning",
+    "nl": "Nieten (hechten)",
+    "pl": "Szycie zeszytowe",
+    "pt": "Grampo canoa",
+    "hi": "सैडल स्टिचिंग (सेंटर पिनिंग)"
+  },
+  "definition": {
+    "en": "Folded sheets stapled through the spine fold; common for booklets and thin magazines.",
+    "nb": "Brettede ark stiftet gjennom ryggbretten; vanlig for hefter og tynne magasiner.",
+    "de": "Gefalzte Bogen, durch den Rückenfalz geheftet; üblich für Broschüren und dünne Magazine.",
+    "ja": "折り丁の背の折り目を針金で綴じる。小冊子や薄い雑誌で一般的。",
+    "es": "Hojas plegadas grapadas a través del pliegue del lomo; común en folletos y revistas finas.",
+    "zh-Hans": "对折页沿书脊折线穿钉装订；常见于小册子与薄杂志。",
+    "sv": "Falsade ark häftade genom ryggfalsen; vanligt för häften och tunna tidskrifter.",
+    "da": "Falsede ark hæftet med klammer gennem rygfalsen; almindeligt for hæfter og tynde magasiner.",
+    "nl": "Gevouwen vellen door de rugvouw geniet; gebruikelijk voor boekjes en dunne magazines.",
+    "pl": "Złożone arkusze zszyte przez złam grzbietu; typowe dla broszur i cienkich czasopism.",
+    "pt": "Folhas dobradas grampeadas pela dobra da lombada; comum em folhetos e revistas finas.",
+    "hi": "मुड़ी शीटें स्पाइन की तह पर स्टेपल से बँधी; बुकलेट और पतली पत्रिकाओं में आम।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "pageCountConstraint": "multipleOf(4)",
+  "pageCountRange": {
+    "min": 8,
+    "typicalMin": 8,
+    "typicalMax": 80
+  },
+  "altLabels": {
+    "en": [
+      "Saddle stitch",
+      "Saddle-stitched",
+      "Stapled",
+      "Stitched"
+    ],
+    "nb": [
+      "Stiftet",
+      "Stifting",
+      "Midtstiftet"
+    ],
+    "da": [
+      "Ryghæftning"
+    ],
+    "nl": [
+      "nieten",
+      "hechten"
+    ],
+    "pl": [
+      "zszywanie zeszytowe",
+      "oprawa zeszytowa",
+      "zszywane"
+    ],
+    "pt": [
+      "canoa",
+      "grampeado",
+      "grampo a cavalo",
+      "encadernação canoa",
+      "sela"
+    ],
+    "hi": [
+      "सैडल स्टिच",
+      "सेंटर पिन",
+      "सेंटर स्टेपल",
+      "पिनिंग",
+      "स्टेपल बाइंडिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "Stitching"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.32 · p.132"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 39"
+    }
+  ]
+}

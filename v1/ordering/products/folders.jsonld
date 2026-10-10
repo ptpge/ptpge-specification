@@ -1,0 +1,276 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/folders",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§FOLDERS",
+  "elementType": "product",
+  "label": {
+    "en": "Folders",
+    "nb": "Mapper",
+    "de": "Mappen",
+    "ja": "フォルダー",
+    "es": "Carpetas",
+    "zh-Hans": "文件夹",
+    "nl": "Presentatiemappen",
+    "sv": "Presentationsmappar",
+    "da": "Præsentationsmapper",
+    "pl": "Teczki",
+    "pt": "Pastas",
+    "hi": "फ़ोल्डर"
+  },
+  "altLabels": {
+    "en": [
+      "Presentation Folders",
+      "Pocket Folders",
+      "presentation folder",
+      "pocket folder",
+      "document folder",
+      "Document wallets",
+      "Presentation wallets"
+    ],
+    "nb": [
+      "Presentasjonsmapper",
+      "Tilbudsmapper",
+      "presentasjonsmappe",
+      "mappe",
+      "dokumentmappe"
+    ],
+    "de": [
+      "Präsentationsmappen",
+      "Angebotsmappen"
+    ],
+    "ja": [
+      "クリアファイル",
+      "紙ファイル",
+      "ポケットフォルダー",
+      "プレゼンテーションフォルダー",
+      "会社案内フォルダー",
+      "書類フォルダー"
+    ],
+    "pl": [
+      "teczka prezentacyjna",
+      "teczka ofertowa",
+      "teczka z kieszenią",
+      "teczka na dokumenty"
+    ],
+    "sv": [
+      "presentationsmapp",
+      "mapp",
+      "mappar",
+      "fickmapp",
+      "offertmapp",
+      "dokumentmapp"
+    ],
+    "da": [
+      "præsentationsmappe",
+      "mappe",
+      "mapper",
+      "lommemappe",
+      "tilbudsmappe",
+      "dokumentmappe"
+    ],
+    "nl": [
+      "presentatiemap",
+      "map",
+      "mappen",
+      "insteekmap",
+      "offertemap",
+      "documentenmap"
+    ],
+    "pt": [
+      "pasta de apresentação",
+      "pasta com bolso",
+      "pasta institucional",
+      "pasta para documentos",
+      "pasta corporativa"
+    ],
+    "hi": [
+      "प्रेज़ेंटेशन फ़ोल्डर",
+      "पॉकेट फ़ोल्डर",
+      "फ़ाइल फ़ोल्डर",
+      "दस्तावेज़ फ़ोल्डर",
+      "कंपनी फ़ोल्डर"
+    ],
+    "es": [
+      "carpeta",
+      "carpeta de presentación",
+      "carpeta con bolsillo",
+      "carpeta corporativa",
+      "portadocumentos",
+      "dosier"
+    ],
+    "zh-Hans": [
+      "插页文件夹",
+      "封套",
+      "资料夹",
+      "展示文件夹"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A die-cut presentation folder with pockets to hold loose sheets — for proposals, sales kits and document sets.",
+    "nb": "En stanset presentasjonsmappe med lommer for løse ark — for tilbud, salgsmapper og dokumentsett.",
+    "de": "Eine gestanzte Präsentationsmappe mit Taschen für lose Blätter.",
+    "ja": "ばら紙を収めるポケット付きの型抜きプレゼンテーションフォルダー。提案書や営業キット、書類一式に。",
+    "es": "Una carpeta de presentación troquelada con bolsillos para hojas sueltas — para propuestas, kits de venta y conjuntos de documentos.",
+    "zh-Hans": "带插袋的模切演示文件夹，用于收纳散页——适合提案、销售资料包和文件套装。",
+    "sv": "En stansad presentationsmapp med fickor för lösa ark — för offerter, säljmaterial och dokumentset.",
+    "da": "En udstanset præsentationsmappe med lommer til løse ark — til tilbud, salgsmateriale og dokumentsæt.",
+    "nl": "Een gestanste presentatiemap met insteekvakken voor losse vellen — voor offertes, verkoopsets en documentmappen.",
+    "pl": "Wykrawana teczka prezentacyjna z kieszeniami na luźne kartki — do ofert, zestawów sprzedażowych i kompletów dokumentów.",
+    "pt": "Pasta de apresentação com corte especial e bolsos para folhas soltas — para propostas, kits de vendas e conjuntos de documentos.",
+    "hi": "ढीली शीटें रखने के लिए जेब वाला डाई-कट प्रेज़ेंटेशन फ़ोल्डर — प्रस्तावों, सेल्स किट और दस्तावेज़ सेटों के लिए।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/us/letter"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver",
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/scoring"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver",
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 150,
+    "max": 400,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsBackOrientation": [
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head",
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/configuration/back-orientation",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

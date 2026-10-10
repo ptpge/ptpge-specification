@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/configuration/setup-model",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:CF§SETUP-MODEL",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Setup Model",
+    "nb": "Oppsettsmodell",
+    "de": "Setup-Modell",
+    "es": "Modelo de configuración física",
+    "ja": "セットアップモデル",
+    "zh-Hans": "构成方式",
+    "sv": "Uppbyggnadsmodell",
+    "da": "Opsætningsmodel",
+    "nl": "Opbouwmodel",
+    "pl": "Model konstrukcji",
+    "pt": "Modelo de montagem",
+    "hi": "सेटअप मॉडल"
+  },
+  "altLabels": {
+    "en": [
+      "Product Setup",
+      "Topology"
+    ],
+    "nb": [
+      "Oppsett",
+      "Produktoppsett"
+    ],
+    "pl": [
+      "konstrukcja produktu",
+      "topologia"
+    ],
+    "pt": [
+      "montagem do produto",
+      "topologia",
+      "tipo de montagem"
+    ],
+    "hi": [
+      "उत्पाद सेटअप",
+      "टोपोलॉजी",
+      "बनावट"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Setup Model. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Oppsettsmodell. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Setup-Modell. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Modelo de configuración física. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：セットアップモデル。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：构成方式。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Uppbyggnadsmodell. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Opsætningsmodel. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Opbouwmodel. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Model konstrukcji. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Modelo de Montagem. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: सेटअप मॉडल। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "How is it put together?",
+    "nb": "Hvordan er den satt sammen?",
+    "de": "Wie ist es aufgebaut?",
+    "es": "¿Cómo está compuesto?",
+    "ja": "どのような構成ですか？",
+    "zh-Hans": "它是如何构成的？",
+    "sv": "Hur är den uppbyggd?",
+    "da": "Hvordan er den sat sammen?",
+    "nl": "Hoe is het opgebouwd?",
+    "pl": "Jak jest zbudowany?",
+    "pt": "Como é montado?",
+    "hi": "यह कैसे बना है?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/configurations/setup-models",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/configuration",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

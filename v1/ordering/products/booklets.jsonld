@@ -1,0 +1,321 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/booklets",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§BOOKLETS",
+  "elementType": "product",
+  "label": {
+    "en": "Booklets",
+    "nb": "Hefter",
+    "de": "Broschüren",
+    "ja": "小冊子",
+    "es": "Folletos / Cuadernillos",
+    "zh-Hans": "小册子",
+    "nl": "Boekjes",
+    "sv": "Häften",
+    "da": "Hæfter",
+    "pl": "Broszury szyte",
+    "pt": "Folhetos encadernados",
+    "hi": "बुकलेट"
+  },
+  "altLabels": {
+    "en": [
+      "Booklet",
+      "Stapled Booklet",
+      "Stapled Booklets",
+      "Saddle-Stitched Booklet",
+      "Pamphlet",
+      "Programme",
+      "Program",
+      "Multi-page Document",
+      "Zines",
+      "Zine",
+      "Programs",
+      "Programmes",
+      "Event programmes",
+      "Order of service",
+      "Funeral programmes",
+      "Eulogy booklets",
+      "Reports",
+      "Report printing"
+    ],
+    "nb": [
+      "Hefte",
+      "Stiftet hefte",
+      "Stiftede hefter",
+      "Programhefte",
+      "Hefte med stifter",
+      "Programhefter",
+      "Ziner",
+      "Rapporter"
+    ],
+    "de": [
+      "Programmheft",
+      "Programmhefte",
+      "Zines",
+      "Berichte",
+      "Heftchen",
+      "Klammerheftung-Broschüren"
+    ],
+    "es": [
+      "Programas",
+      "Fanzine",
+      "cuadernillo",
+      "folleto grapado",
+      "folleto a caballete",
+      "programa",
+      "libreto",
+      "revista grapada"
+    ],
+    "ja": [
+      "プログラム冊子",
+      "ジン",
+      "中綴じ冊子",
+      "パンフレット",
+      "冊子",
+      "プログラム",
+      "ステープル綴じ冊子"
+    ],
+    "zh-Hans": [
+      "节目册",
+      "骑马钉小册子",
+      "宣传册",
+      "手册",
+      "画册"
+    ],
+    "pl": [
+      "broszura",
+      "zeszyt",
+      "broszura zszywana",
+      "program",
+      "raport",
+      "zin"
+    ],
+    "sv": [
+      "häfte",
+      "häftad broschyr",
+      "stiftat häfte",
+      "program",
+      "programblad"
+    ],
+    "da": [
+      "hæfte",
+      "hæftet brochure",
+      "klammehæftet",
+      "program",
+      "programhæfte"
+    ],
+    "nl": [
+      "boekje",
+      "brochure geniet",
+      "geniet boekje",
+      "programmaboekje",
+      "brochures (geniet)"
+    ],
+    "pt": [
+      "folheto grampeado",
+      "brochura grampeada",
+      "livreto",
+      "caderno",
+      "programa",
+      "fanzine",
+      "zine",
+      "relatório",
+      "documento multipágina"
+    ],
+    "hi": [
+      "बुकलेट",
+      "पुस्तिका",
+      "स्टेपल बुकलेट",
+      "सैडल-स्टिच बुकलेट",
+      "पैम्फलेट",
+      "कार्यक्रम पुस्तिका",
+      "ज़ीन",
+      "रिपोर्ट"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A multi-page printed product made from several sheets bound along one edge — used for programmes, catalogues, manuals, reports, and magazines. The interior page count is driven by the Page Count variable; the binding method (saddle-stitching, perfect binding, or wire-O) is chosen on the Binding axis. Built on the Multi-page Setup Model.",
+    "nb": "Et flersidig trykkprodukt laget av flere ark bundet langs én kant — brukes for programmer, kataloger, manualer, rapporter og magasiner. Antall innsider styres av Page Count-variabelen; bindingsmetoden (stifting, limfresing eller wire-O) velges på Binding-aksen. Bygget på Multi-page Setup Model.",
+    "de": "Ein mehrseitiges Druckprodukt aus mehreren an einer Kante gebundenen Bogen — für Programme, Kataloge, Handbücher, Berichte und Magazine. Die Seitenzahl steuert die Variable Page Count; die Bindeart (Rückenstichheftung, Klebebindung oder Wire-O) wird auf der Binding-Achse gewählt. Basiert auf dem Multi-page Setup Model.",
+    "ja": "複数の用紙を一辺で綴じた多ページ印刷物——プログラム、カタログ、マニュアル、報告書、雑誌などに使用。中面のページ数は Page Count 変数で決まり、綴じ方（中綴じ、無線綴じ、ワイヤーO）は Binding 軸で選択する。Multi-page Setup Model に基づく。",
+    "es": "Producto impreso de varias páginas formado por varias hojas encuadernadas por un borde — se usa para programas, catálogos, manuales, informes y revistas. El número de páginas interiores lo determina la variable Page Count; el método de encuadernación (grapado, encuadernación fresada o wire-O) se elige en el eje Binding. Basado en el Multi-page Setup Model.",
+    "zh-Hans": "由多张纸沿一边装订而成的多页印刷品——用于节目单、目录、手册、报告和杂志。内页页数由 Page Count 变量决定；装订方式（骑马钉、无线胶订或铁圈装订）在 Binding 轴上选择。基于 Multi-page Setup Model。",
+    "sv": "En flersidig trycksak av flera ark bundna längs en kant — används för program, kataloger, manualer, rapporter och tidskrifter. Inlagans sidantal styrs av variabeln Sidantal; bindningsmetoden (klammerhäftning, limbindning eller wire-O) väljs på Bindningsaxeln. Bygger på uppbyggnadsmodellen Flersidig.",
+    "da": "Et flersidet trykt produkt af flere ark indbundet langs én kant — brugt til programmer, kataloger, manualer, rapporter og magasiner. Antallet af indvendige sider styres af sideantal-variablen; indbindingsmetoden (klammerhæftning, limbinding eller wire-O) vælges på indbindingsaksen. Bygget på opsætningsmodellen Multi-page.",
+    "nl": "Een meerpaginaproduct van meerdere vellen, gebonden langs één kant — voor programma's, catalogi, handleidingen, rapporten en magazines. Het binnenwerkpaginatal wordt gestuurd door de variabele Paginatal; de bindwijze (nieten, garenloos binden of wire-O) wordt gekozen op de bindas. Gebouwd op het opbouwmodel Multi-page.",
+    "pl": "Wielostronicowy produkt drukowany z kilku arkuszy oprawionych wzdłuż jednej krawędzi — programy, katalogi, instrukcje, raporty i czasopisma. Liczbę stron wnętrza określa zmienna Liczba stron; sposób oprawy (szycie zeszytowe, oprawa klejona lub spirala wire-O) wybiera się na osi Oprawa. Oparte na modelu konfiguracji Wielostronicowy.",
+    "pt": "Impresso de várias páginas feito de folhas encadernadas por uma das bordas — para programas, catálogos, manuais, relatórios e revistas. O número de páginas do miolo é definido pela variável Número de Páginas; o método de encadernação (canoa/grampo, colada ou wire-o) é escolhido no eixo Encadernação. Baseado no Modelo de Montagem Multipágina.",
+    "hi": "एक किनारे से बाँधी गई कई शीटों से बना बहु-पृष्ठ मुद्रित उत्पाद — कार्यक्रम, कैटलॉग, मैनुअल, रिपोर्ट और पत्रिकाओं के लिए। भीतरी पृष्ठ संख्या पृष्ठ संख्या वेरिएबल से तय होती है; बाइंडिंग विधि (सैडल स्टिच, परफेक्ट बाइंडिंग या वायर-ओ) बाइंडिंग अक्ष पर चुनी जाती है। मल्टी-पेज सेटअप मॉडल पर आधारित।"
+  },
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/us/junior-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/half-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-legal"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsFoldDirection": [
+    "https://ptpge.org/v1/printing/completions/fold-binding-edge/left",
+    "https://ptpge.org/v1/printing/completions/fold-binding-edge/top"
+  ],
+  "supportsBinding": [
+    "https://ptpge.org/v1/printing/completions/binding/perfect-binding",
+    "https://ptpge.org/v1/printing/completions/binding/saddle-stitching",
+    "https://ptpge.org/v1/printing/completions/binding/wire-o-binding",
+    "https://ptpge.org/v1/printing/completions/binding/coil-binding"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/scoring"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm"
+  ],
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/multi-page"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/embossing/blind"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte"
+  ],
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "customSizeRange": {
+    "min": 100,
+    "max": 350,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsBackOrientation": [
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head",
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/configuration/page-count",
+    "https://ptpge.org/v1/variables/finishing/binding",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/finishing/edge",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/configuration/back-orientation",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

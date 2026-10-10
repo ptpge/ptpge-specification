@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Apple",
+    "es": "Apple",
+    "zh-Hans": "Apple",
+    "nb": "Apple",
+    "de": "Apple",
+    "ja": "Apple",
+    "sv": "Apple",
+    "da": "Apple",
+    "nl": "Apple",
+    "pl": "Apple",
+    "pt": "Apple",
+    "hi": "Apple"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/pages",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/numbers",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/apple-keynotes"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native file formats for Apple's iWork productivity suite.",
+    "nb": "Programspesifikke filformater for Apples iWork-produktivitetspakke.",
+    "de": "Anwendungseigene Dateiformate für Apples iWork-Bürosoftware-Suite.",
+    "ja": "AppleのiWork生産性スイート用のネイティブファイル形式。",
+    "es": "Formatos de archivo nativos para la suite de productividad iWork de Apple.",
+    "zh-Hans": "Apple iWork办公套件的原生文件格式。",
+    "sv": "Programegna filformat för Apples produktivitetssvit iWork.",
+    "da": "Programegne filformater for Apples produktivitetspakke iWork.",
+    "nl": "Programma-eigen bestandsformaten voor Apples productiviteitssuite iWork.",
+    "pl": "Natywne formaty plików pakietu biurowego Apple iWork.",
+    "pt": "Formatos de arquivo nativos da suíte de produtividade iWork da Apple.",
+    "hi": "Apple की iWork उत्पादकता सूट के नेटिव फ़ाइल फ़ॉर्मेट।"
+  },
+  "scopeNote": {
+    "en": "Includes Pages (.pages) for word processing and layout, Keynote (.key) for presentations, and Numbers (.numbers) for spreadsheets. These formats are uncommon in print production workflows; PDF export is the standard handoff.",
+    "nb": "Inkluderer Pages (.pages) for tekstbehandling og oppsett, Keynote (.key) for presentasjoner, og Numbers (.numbers) for regneark. Disse formatene er uvanlige i trykkproduksjon; PDF-eksport er standard overlevering.",
+    "de": "Umfasst Pages (.pages) für Textverarbeitung und Layout, Keynote (.key) für Präsentationen und Numbers (.numbers) für Tabellenkalkulation. Diese Formate sind in Druckproduktions-Workflows ungewöhnlich; PDF-Export ist die Standardübergabeform.",
+    "ja": "ワードプロセッシングおよびレイアウト用のPages（.pages）、プレゼンテーション用のKeynote（.key）、表計算用のNumbers（.numbers）を含む。これらの形式は印刷生産ワークフローでは一般的ではなく、PDFエクスポートが標準的な受け渡し形式となる。",
+    "es": "Incluye Pages (.pages) para procesamiento de texto y maquetación, Keynote (.key) para presentaciones y Numbers (.numbers) para hojas de cálculo. Estos formatos son poco comunes en los flujos de producción impresa; la exportación a PDF es la entrega práctica para imprenta.",
+    "zh-Hans": "包括用于文字处理和版面的Pages（.pages）、用于演示的Keynote（.key）和用于电子表格的Numbers（.numbers）。这些格式在印刷生产工作流程中不常见；导出为PDF是切实可行的印刷交付。",
+    "pt": "Inclui Pages (.pages) para processamento de texto e layout, Keynote (.key) para apresentações e Numbers (.numbers) para planilhas. Esses formatos são incomuns em fluxos de produção gráfica; a exportação em PDF é a entrega padrão.",
+    "hi": "वर्ड प्रोसेसिंग और लेआउट के लिए Pages (.pages), प्रस्तुतियों के लिए Keynote (.key) और स्प्रेडशीट के लिए Numbers (.numbers) शामिल। ये फ़ॉर्मेट प्रिंट उत्पादन वर्कफ़्लो में असामान्य; PDF निर्यात मानक हैंडऑफ़।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-GFF-NATV-APPL",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

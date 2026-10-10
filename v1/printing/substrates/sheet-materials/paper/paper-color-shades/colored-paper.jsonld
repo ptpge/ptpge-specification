@@ -1,0 +1,101 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Colored Paper (CIE Variable)",
+    "es": "Papel de Color",
+    "zh-Hans": "彩色纸",
+    "nb": "Farget papir (CIE-variabel)",
+    "de": "Farbpapier (CIE variabel)",
+    "ja": "色付き用紙（CIE可変）",
+    "sv": "Färgat papper (CIE varierande)",
+    "da": "Farvet papir (CIE variabel)",
+    "nl": "Gekleurd papier (CIE variabel)",
+    "pl": "Papier kolorowy (CIE zmienne)",
+    "pt": "Papel colorido (CIE variável)",
+    "hi": "रंगीन काग़ज़ (CIE परिवर्तनशील)"
+  },
+  "altLabels": {
+    "en": [
+      "Coloured Paper",
+      "Colored Stock",
+      "Coloured Paper (CIE Variable)"
+    ],
+    "nb": [
+      "Farget papir",
+      "Kulørt papir"
+    ],
+    "pl": [
+      "papier barwiony",
+      "papier barwiony w masie"
+    ],
+    "pt": [
+      "papel colorido",
+      "papel tingido na massa",
+      "papel color plus"
+    ],
+    "hi": [
+      "रंगीन काग़ज़",
+      "कलर्ड पेपर",
+      "रँगा हुआ काग़ज़"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§COLORED-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper dyed throughout to a specific non-white color — distinct from white paper that has been printed over. Used for design-driven applications where the substrate color is part of the visual identity.",
+    "nb": "Papir farget gjennom hele med en bestemt ikke-hvit farge — forskjellig fra hvitt papir som er trykt over. Brukt til designdrevne anvendelser der substratfargen er en del av den visuelle identiteten.",
+    "de": "Durchgehend in einer bestimmten Nicht-Weiß-Farbe gefärbtes Papier — zu unterscheiden von weißem Papier, das einfach überdruckt wurde. Eingesetzt bei designgetriebenen Anwendungen, in denen die Substratfarbe Teil der visuellen Identität ist.",
+    "ja": "白色紙の上から印刷したものとは異なり、繊維全体を特定の非白色に染めた紙。基材の色がビジュアルアイデンティティの一部となるデザイン主導の用途に使用される。",
+    "es": "Papel teñido en masa con un color específico — habitual para diseño editorial, papelería corporativa y aplicaciones decorativas.",
+    "zh-Hans": "按特定颜色整体染色的纸 —— 常用于编辑设计、企业文具和装饰应用。",
+    "sv": "Papper genomfärgat till en specifik icke-vit kulör — skilt från vitt papper som tryckts över. Används för designdrivna tillämpningar där substratets färg är del av den visuella identiteten.",
+    "da": "Papir gennemfarvet til en bestemt ikke-hvid farve — adskilt fra hvidt papir, der er trykt over. Bruges til designdrevne anvendelser, hvor substratfarven er en del af den visuelle identitet.",
+    "nl": "Papier dat door en door gekleurd is in een specifieke niet-witte kleur — te onderscheiden van wit papier dat is overdrukt. Gebruikt voor designgedreven toepassingen waarbij de substraatkleur deel is van de visuele identiteit.",
+    "pl": "Papier barwiony w masie na określony kolor inny niż biały — w odróżnieniu od białego papieru zadrukowanego. Używany w zastosowaniach projektowych, gdzie barwa podłoża jest częścią identyfikacji wizualnej.",
+    "pt": "Papel tingido na massa em uma cor específica não branca — distinto do papel branco impresso por cima. Usado em aplicações orientadas por design, em que a cor do substrato faz parte da identidade visual.",
+    "hi": "पूरी तरह किसी विशेष ग़ैर-सफ़ेद रंग में रँगा काग़ज़ — ऊपर से छपे सफ़ेद काग़ज़ से अलग। डिज़ाइन-प्रधान अनुप्रयोगों में जहाँ सब्सट्रेट का रंग दृश्य पहचान का हिस्सा है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 36"
+    }
+  ]
+}

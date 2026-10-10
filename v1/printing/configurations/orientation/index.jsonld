@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/orientation",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Orientation",
+    "nb": "Orientering",
+    "de": "Ausrichtung",
+    "ja": "向き",
+    "es": "Orientación",
+    "zh-Hans": "方向",
+    "sv": "Orientering",
+    "da": "Orientering",
+    "nl": "Oriëntatie",
+    "pl": "Orientacja",
+    "pt": "Orientação",
+    "hi": "ओरिएंटेशन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations",
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+    "https://ptpge.org/v1/printing/configurations/orientation/square"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The aspect-ratio orientation of a rectangular product — portrait, landscape or square. A separate axis from shape; selected via the Orientation variable.",
+    "nb": "Sideforhold-orienteringen til et rektangulært produkt — stående, liggende eller kvadratisk. En egen akse fra form; velges via Orientation-variabelen.",
+    "de": "Die Seitenverhältnis-Ausrichtung eines rechteckigen Produkts — Hochformat, Querformat oder quadratisch. Eine von der Form getrennte Achse; gewählt über die Variable Orientation.",
+    "es": "La orientación (relación de aspecto) de un producto rectangular — vertical, horizontal o cuadrado. Un eje separado de la forma; se selecciona mediante la variable Orientation.",
+    "ja": "長方形製品の縦横比の向き — 縦位置、横位置、正方形。形状とは別の軸で、Orientation 変数で選択される。",
+    "zh-Hans": "矩形产品的纵横比方向 — 竖向、横向或正方形。与形状相互独立的轴，通过 Orientation 变量选择。",
+    "sv": "En rektangulär produkts proportionsorientering — stående, liggande eller kvadratisk. En egen axel skild från form; väljs via variabeln Orientering.",
+    "da": "Et rektangulært produkts proportionsorientering — stående, liggende eller kvadratisk. En selvstændig akse adskilt fra form; vælges via variablen Orientering.",
+    "nl": "De verhoudingsoriëntatie van een rechthoekig product — staand, liggend of vierkant. Een eigen as, gescheiden van vorm; gekozen via de variabele Oriëntatie.",
+    "pl": "Orientacja proporcji prostokątnego produktu — pionowa, pozioma lub kwadratowa. Oś odrębna od kształtu; wybierana przez zmienną Orientacja.",
+    "pt": "A orientação de proporção de um produto retangular — retrato, paisagem ou quadrado. Eixo separado da forma; selecionado pela variável Orientação.",
+    "hi": "आयताकार उत्पाद का अनुपात-अभिविन्यास — पोर्ट्रेट, लैंडस्केप या वर्गाकार। आकृति से अलग अक्ष; ओरिएंटेशन वेरिएबल से चुना जाता है।"
+  },
+  "scopeNote": {
+    "en": "Covers rectangular orientations (portrait, landscape, square) and non-rectangular shapes (ellipse, organic / die-cut). Specific die-cutting tools and finishing methods used to achieve non-rectangular shapes are tracked under Completions › Finishing.",
+    "nb": "Dekker rektangulære orienteringer (portrett, landskap, kvadrat) og ikke-rektangulære former (ellipse, organisk / stanset). Spesifikke stanseverktøy og etterbehandlingsmetoder for å oppnå ikke-rektangulære former spores under Completions › Finishing.",
+    "de": "Umfasst rechteckige Ausrichtungen (Hochformat, Querformat, Quadrat) und nicht rechteckige Formen (Ellipse, organisch / gestanzt). Konkrete Stanzwerkzeuge und Weiterverarbeitungsmethoden zur Herstellung nicht rechteckiger Formen werden unter Completions › Finishing geführt.",
+    "ja": "長方形の向き（縦、横、正方形）と非長方形の形状（楕円、有機的／打抜き）を扱う。非長方形の形状を実現するための具体的な抜き型および後加工方法はCompletions › Finishingで扱う。",
+    "es": "Cubre orientaciones rectangulares (vertical, horizontal, cuadrado) y formas no rectangulares (elipse, orgánico/troquelado). Las herramientas de troquelado específicas y los métodos de acabado usados para obtener formas no rectangulares pertenecen a Acabados.",
+    "zh-Hans": "涵盖矩形方向（纵向、横向、方形）和非矩形形状（椭圆、有机/模切）。用于实现非矩形形状的具体模切工具和印后方法属于印后加工。",
+    "pt": "Cobre orientações retangulares (retrato, paisagem, quadrado) e formas não retangulares (elipse, orgânica / corte especial). As ferramentas de corte e os métodos de acabamento usados para formas não retangulares ficam em Acabamentos.",
+    "hi": "आयताकार अभिविन्यास (पोर्ट्रेट, लैंडस्केप, वर्गाकार) और ग़ैर-आयताकार आकृतियाँ (दीर्घवृत्त, मुक्त / डाई-कट) कवर करता है। ग़ैर-आयताकार आकृतियों के लिए विशिष्ट डाई-कटिंग उपकरण और फ़िनिशिंग विधियाँ फ़िनिशिंग के अंतर्गत हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:CF-ORI",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent"
+      ],
+      "refs": [
+        "§4.10 · p.78"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 21"
+    }
+  ]
+}

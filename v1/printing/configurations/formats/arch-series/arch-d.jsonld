@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-d",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Arch D (24 x 36 in)",
+    "es": "Arch D (610 × 914 mm / 24 × 36 in)",
+    "zh-Hans": "Arch D (610 × 914 mm / 24 × 36 in)",
+    "nb": "Arch D (24 x 36 in)",
+    "de": "Arch D (24 x 36 in)",
+    "ja": "Arch D (24 x 36 in)",
+    "sv": "Arch D (24 x 36 tum)",
+    "da": "Arch D (24 x 36 tum)",
+    "nl": "Arch D (24 x 36 tum)",
+    "pl": "Arch D (24 x 36 in)",
+    "pt": "Arch D (24 x 36 in)",
+    "hi": "Arch D (24 x 36 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ARCH-D",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/arch-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "24 × 36 in (609.6 × 914.4 mm). Twice the area of Arch C. Common size for full architectural plans.",
+    "nb": "24 × 36 in (609,6 × 914,4 mm). Dobbelt areal av Arch C. Vanlig størrelse for fullskala arkitekturplaner.",
+    "de": "24 × 36 in (609,6 × 914,4 mm). Doppelte Fläche von Arch C. Übliches Format für vollständige Architekturpläne.",
+    "ja": "24×36インチ（609.6×914.4mm）。Arch Cの2倍の面積。フルサイズの建築計画で一般的。",
+    "es": "Tamaño arquitectónico Arch D para planos arquitectónicos y de ingeniería norteamericanos, 610 × 914 mm / 24 × 36 in.",
+    "zh-Hans": "建筑尺寸Arch D，用于北美建筑和工程图纸，610 × 914 mm / 24 × 36 in。",
+    "sv": "24 × 36 tum (609.6 × 914.4 mm). Dubbla arean av Arch C. Vanligt format för fullständiga arkitektplaner.",
+    "da": "24 × 36 tommer (609.6 × 914.4 mm). Dubbla arealet av Arch C. Almindeligt format til komplette arkitektplaner.",
+    "nl": "24 × 36 inch (609.6 × 914.4 mm). Dubbel het oppervlak van Arch C. Gangbaar formaat voor complete architectuurplannen.",
+    "pl": "24 × 36 cali (609,6 × 914,4 mm). Dwukrotna powierzchnia Arch C. Typowy format pełnych planów architektonicznych.",
+    "pt": "24 × 36 in (609.6 × 914.4 mm). O dobro da área do Arch C. Tamanho comum para plantas arquitetônicas completas.",
+    "hi": "24 × 36 in (609.6 × 914.4 mm). Arch C का दोगुना क्षेत्रफल। पूर्ण वास्तु योजनाओं का आम आकार।"
+  },
+  "properties": {
+    "width": 24,
+    "height": 36,
+    "unit": "in",
+    "aspectRatio": 1.5,
+    "standard": "ANSI/ASME Y14.1",
+    "area": 864
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "24 x 36 in",
+      "24x36",
+      "24×36"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

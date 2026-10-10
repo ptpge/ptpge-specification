@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/finishing/edge> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Binding Edge"@en,
+        "Fold Direction"@en,
+        "फ़ोल्ड की दिशा"@hi,
+        "बाइंडिंग किनारा"@hi,
+        "बाइंडिंग साइड"@hi,
+        "Bretteretning"@nb,
+        "Falseretning"@nb,
+        "kierunek składania"@pl,
+        "krawędź oprawy"@pl,
+        "borda de encadernação"@pt,
+        "lado da lombada"@pt,
+        "sentido da dobra"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/finishing> ;
+    skos:definition "Konfigurerbar akse: Falsretning. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne."@da,
+        "Konfigurierbare Achse: Falzrichtung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain."@de,
+        "Configurable axis: Fold Direction. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain."@en,
+        "Eje configurable: Dirección de plegado. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: फ़ोल्ड की दिशा। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"@hi,
+        "構成可能な軸：折り方向。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。"@ja,
+        "Konfigurerbar akse: Bretteretning. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain."@nb,
+        "Configureerbare as: Vouwrichting. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein."@nl,
+        "Oś konfigurowalna: Kierunek składania. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain."@pl,
+        "Eixo configurável: Sentido da Dobra. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado."@pt,
+        "Konfigurerbar axel: Falsriktning. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain)."@sv,
+        "可配置轴：折页方向。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:FN§EDGE" ;
+    skos:prefLabel "Fals-/indbindingskant"@da,
+        "Falz-/Bindekante"@de,
+        "Fold / Binding Edge"@en,
+        "Borde de plegado / encuadernación"@es,
+        "फ़ोल्ड / बाइंडिंग किनारा"@hi,
+        "折り・綴じ辺"@ja,
+        "Brette-/innbindingskant"@nb,
+        "Vouw-/bindzijde"@nl,
+        "Krawędź składania / oprawy"@pl,
+        "Borda de dobra / encadernação"@pt,
+        "Fals-/bindningskant"@sv,
+        "折页/装订边"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken kantbehandling?"@da,
+        "Welche Kantenveredelung?"@de,
+        "Which edge finish?"@en,
+        "¿Qué acabado de borde?"@es,
+        "किनारे की फ़िनिश?"@hi,
+        "小口の仕上げは？"@ja,
+        "Hvilken kantbehandling?"@nb,
+        "Welke randafwerking?"@nl,
+        "Jakie wykończenie krawędzi?"@pl,
+        "Que acabamento de borda?"@pt,
+        "Vilken kantbehandling?"@sv,
+        "边缘如何处理？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/completions/fold-binding-edge> ;
+    ptpge:version "2026-09-20" .
+

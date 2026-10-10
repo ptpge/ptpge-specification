@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/us/tabloid",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Tabloid (11 x 17 in)",
+    "es": "Tabloid (279 × 432 mm / 11 × 17 in)",
+    "zh-Hans": "Tabloid (279 × 432 mm / 11 × 17 in)",
+    "nb": "Tabloid (11 x 17 in)",
+    "de": "Tabloid (11 x 17 in)",
+    "ja": "Tabloid (11 x 17 in)",
+    "sv": "Tabloid (11 x 17 tum)",
+    "da": "Tabloid (11 x 17 tum)",
+    "nl": "Tabloid (11 x 17 tum)",
+    "pl": "Tabloid (11 x 17 in)",
+    "pt": "Tabloid (11 x 17 in)",
+    "hi": "Tabloid (11 x 17 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§TABLOID",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/us",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "11 × 17 in (279.4 × 431.8 mm). Twice the area of Letter — used for newspapers, posters, and double-page spreads. Same dimensions as Ledger but in portrait orientation.",
+    "nb": "11 × 17 in (279,4 × 431,8 mm). Dobbelt areal av Letter — brukt til aviser, plakater og oppslagssider. Samme dimensjoner som Ledger, men i portrettorientering.",
+    "de": "11 × 17 in (279,4 × 431,8 mm). Doppelte Fläche von Letter — verwendet für Zeitungen, Plakate und doppelseitige Spreads. Gleiche Maße wie Ledger, aber im Hochformat.",
+    "ja": "11×17インチ（279.4×431.8mm）。Letterの2倍の面積 — 新聞、ポスター、見開きに使用される。Ledgerと同一寸法だが縦向き。",
+    "es": "Tamaño Tabloide, 11 × 17 pulgadas (orientación vertical). Habitual para periódicos pequeños, boletines y carteles A3-equivalentes.",
+    "zh-Hans": "Tabloid尺寸，11 × 17英寸（纵向）。常用于小报、通讯和A3等效海报。",
+    "sv": "11 × 17 tum (279.4 × 431.8 mm). Dubbla arean av Letter — används för tidningar, affischer och uppslag. Samma dimensioner som Ledger men i stående orientering.",
+    "da": "11 × 17 tommer (279.4 × 431.8 mm). Dobbelt areal af Letter — bruges til aviser, plakater og opslag. Samme dimensioner som Ledger, men i stående orientering.",
+    "nl": "11 × 17 inch (279.4 × 431.8 mm). Dubbel het oppervlak van Letter — gebruikt voor kranten, posters en spreads. Dezelfde afmetingen als Ledger, maar in staande oriëntatie.",
+    "pl": "11 × 17 cali (279,4 × 431,8 mm). Dwukrotna powierzchnia Letter — używany do gazet, plakatów i rozkładówek. Te same wymiary co Ledger, lecz w orientacji pionowej.",
+    "pt": "11 × 17 in (279.4 × 431.8 mm). O dobro da área do Letter — usado em jornais, pôsteres e páginas duplas. Mesmas dimensões do Ledger, mas em orientação retrato.",
+    "hi": "11 × 17 in (279.4 × 431.8 mm). Letter का दोगुना क्षेत्रफल — अख़बारों, पोस्टरों और डबल-पेज स्प्रेड में। Ledger जैसे ही आयाम पर पोर्ट्रेट दिशा में।"
+  },
+  "properties": {
+    "width": 11,
+    "height": 17,
+    "unit": "in",
+    "aspectRatio": 1.5455,
+    "standard": "ANSI",
+    "area": 187
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "11 x 17 in",
+      "11x17",
+      "11×17",
+      "Tabloid size",
+      "Ledger",
+      "ANSI B"
+    ],
+    "pl": [
+      "format Tabloid"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

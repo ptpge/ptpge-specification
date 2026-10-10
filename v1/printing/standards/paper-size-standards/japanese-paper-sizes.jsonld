@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/paper-size-standards/japanese-paper-sizes",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Japanese Paper Sizes (JIS)",
+    "es": "Tamaños Japoneses (JIS)",
+    "zh-Hans": "日本尺寸 (JIS)",
+    "nb": "Japanese Paper Sizes (JIS)",
+    "de": "Japanese Paper Sizes (JIS)",
+    "ja": "Japanese Paper Sizes (JIS)",
+    "sv": "Japanska pappersformat (JIS)",
+    "da": "Japanske papirformater (JIS)",
+    "nl": "Japanse papierformaten (JIS)",
+    "pl": "Japońskie formaty papieru (JIS)",
+    "pt": "Tamanhos de papel japoneses (JIS)",
+    "hi": "जापानी काग़ज़ आकार (JIS)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§JAPANESE-PAPER-SIZES",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/paper-size-standards",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Japanese Industrial Standards (JIS) paper sizes — the JIS B series differs from ISO B-series dimensions, optimized for the Japanese market and traditional documents.",
+    "nb": "Japanese Industrial Standards (JIS) papirstørrelser — JIS B-serien skiller seg fra ISO B-serien i dimensjoner, optimalisert for det japanske markedet og tradisjonelle dokumenter.",
+    "de": "Papierformate nach Japanese Industrial Standards (JIS) — die JIS-B-Reihe weicht von den Maßen der ISO-B-Reihe ab und ist für den japanischen Markt und traditionelle Dokumente optimiert.",
+    "ja": "日本産業規格（JIS）の用紙寸法 — JIS BシリーズはISO Bシリーズと寸法が異なり、日本市場および伝統的な文書に最適化されている。",
+    "es": "Norma japonesa Industrial Standard (JIS) para tamaños de papel — incluye la serie B japonesa, ligeramente diferente de la serie B de ISO 216.",
+    "zh-Hans": "日本工业标准（JIS）的纸张尺寸 —— 包括与ISO 216 B系列略有不同的日本B系列。",
+    "sv": "Pappersformat enligt Japanese Industrial Standards (JIS) — JIS B-serien skiljer sig från ISO B-seriens dimensioner och är optimerad för den japanska marknaden och traditionella dokument.",
+    "da": "Papirformater efter Japanese Industrial Standards (JIS) — JIS B-serien afviger fra ISO B-seriens dimensioner og er optimeret til det japanske marked og traditionelle dokumenter.",
+    "nl": "Papierformaten volgens Japanese Industrial Standards (JIS) — de JIS B-reeks wijkt af van de ISO B-reeksafmetingen en is geoptimaliseerd voor de Japanse markt en traditionele documenten.",
+    "pl": "Formaty papieru Japanese Industrial Standards (JIS) — seria JIS B różni się wymiarami od serii B ISO, zoptymalizowana pod rynek japoński i tradycyjne dokumenty.",
+    "pt": "Tamanhos de papel das Japanese Industrial Standards (JIS) — a série JIS B difere das dimensões da série B ISO, otimizada para o mercado japonês e documentos tradicionais.",
+    "hi": "Japanese Industrial Standards (JIS) काग़ज़ आकार — JIS B श्रृंखला ISO B-श्रृंखला के आयामों से भिन्न, जापानी बाज़ार और पारंपरिक दस्तावेज़ों के लिए अनुकूलित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "JIS",
+      "JIS B sizes"
+    ],
+    "pl": [
+      "JIS",
+      "formaty JIS B"
+    ],
+    "pt": [
+      "JIS",
+      "tamanhos JIS B"
+    ],
+    "hi": [
+      "JIS",
+      "JIS B आकार"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 2"
+    }
+  ]
+}

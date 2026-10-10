@@ -1,0 +1,33 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/schemas",
+  "type": "skos:Concept",
+  "version": "2026-10-09",
+  "status": "proposed",
+  "notation": "SCH",
+  "level": "top-concept",
+  "label": {
+    "en": "Schemas",
+    "nb": "Dokumentskjemaer",
+    "de": "Schemata",
+    "sv": "Scheman",
+    "da": "Skemaer",
+    "nl": "Schema's"
+  },
+  "definition": {
+    "en": "The five document forms the vocabulary is used in: vendor declaration and supplier catalogue (what a company is and offers, published on its own domain), request and quote (one deal between a buyer and a printer), UCP manifest (the identity on a checkout line). Each has a schema with a permanent URI and a version; a document carries its owner, the schema carries none. Status: draft — field definitions are written from the first live documents, vendor declaration first.",
+    "nb": "De fem dokumentformene vokabularet brukes i: leverandørdeklarasjon og produsentkatalog (hva en virksomhet er og tilbyr, publisert på eget domene), forespørsel og tilbud (én handel mellom kjøper og trykkeri), UCP-manifest (identiteten på en kasselinje). Hvert har et skjema med permanent URI og versjon; et dokument bærer sin eier, skjemaet bærer ingen. Status: utkast – feltdefinisjonene skrives ut fra de første dokumentene i drift, leverandørdeklarasjonen først."
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "topConceptOf": "https://ptpge.org/v1/scheme",
+  "created": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-09T17:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "narrower": [
+    "https://ptpge.org/v1/schemas/vendor-declaration/1",
+    "https://ptpge.org/v1/schemas/supplier-catalogue/1",
+    "https://ptpge.org/v1/schemas/request/1",
+    "https://ptpge.org/v1/schemas/quote/1",
+    "https://ptpge.org/v1/schemas/ucp-manifest/1"
+  ]
+}

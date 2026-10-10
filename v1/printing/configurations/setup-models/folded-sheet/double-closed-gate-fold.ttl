@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/double-closed-gate-fold> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "F8-4"@en,
+        "FoldCatalog F8-4"@en,
+        "F8-4"@hi,
+        "FoldCatalog F8-4"@hi,
+        "F8-4"@pl,
+        "FoldCatalog F8-4"@pl,
+        "F8-4"@pt,
+        "FoldCatalog F8-4"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet> ;
+    skos:definition "En portfalsvariant, hvor portene først foldes ind mod midten og opslaget derefter foldes på midten — giver 8 paneler i 2 flader. Kompakt lukket format, der åbnes i to trin."@da,
+        "Eine geschlossene Altarfalz, erneut entlang der vertikalen Mittellinie zur Hälfte gefaltet."@de,
+        "A closed gate-fold folded again in half along the vertical centerline, producing a compact 8-panel layout in 2 surfaces: Outside (4 panels visible when fully closed) and Inside (4 panels revealed in a phased opening — first the half-fold, then the gates). Used for layered storytelling, premium invitations, and multi-stage reveal marketing pieces."@en,
+        "Un plegado en ventana cerrado plegado de nuevo por la mitad a lo largo de la línea central vertical, que produce un diseño compacto de 8 paneles en 2 superficies: Outside (4 paneles visibles cuando está completamente cerrado) e Inside (4 paneles revelados en una apertura por fases — primero el medio pliegue, luego las puertas). Se usa para narración por capas, invitaciones premium y piezas de marketing de revelación en varias etapas."@es,
+        "बंद गेट-फ़ोल्ड को ऊर्ध्वाधर मध्य रेखा पर फिर से आधा मोड़ा हुआ, जिससे 8 पैनल का सघन लेआउट बनता है, 2 सतहों में: बाहरी (पूरी तरह बंद होने पर दिखने वाले 4 पैनल) और भीतरी (चरणबद्ध खुलने पर दिखने वाले 4 पैनल — पहले आधा फ़ोल्ड, फिर गेट)। परतदार कहानी, प्रीमियम निमंत्रणों और बहु-चरण रिवील मार्केटिंग में।"@hi,
+        "閉じた観音折りをさらに縦の中心線で半分に折ったもの。コンパクトな8パネル構成が2面に編成される：Outside（完全に閉じた状態で見える4パネル）と Inside（段階的に開いて現れる4パネル — まず半折り、次に扉）。層状のストーリーテリング、プレミアム招待状、多段階リビールのマーケティング資料に使われる。"@ja,
+        "En lukket gate-fold brettet på nytt på halvparten langs vertikal midtlinje, som produserer en kompakt 8-panels layout i 2 surfaces: Outside (4 paneler synlig når fullstendig lukket) og Inside (4 paneler avslørt i en fase-åpning — først halv-bretten, deretter gates)."@nb,
+        "Een luikvouwvariant waarbij de luiken eerst naar het midden vouwen en de spread daarna nogmaals doormidden wordt gevouwen — geeft 8 panelen in 2 vlakken. Compact gesloten formaat dat in twee stappen opent."@nl,
+        "Zamknięty złam okienkowy złożony ponownie na pół wzdłuż pionowej osi środkowej, dający kompaktowy układ 8 skrzydeł w 2 powierzchniach: Zewnętrzna (4 skrzydła widoczne po pełnym zamknięciu) i Wewnętrzna (4 skrzydła odsłaniane etapami — najpierw złam na pół, potem bramki). Używana do warstwowej narracji, zaproszeń premium i materiałów marketingowych z wieloetapowym odsłanianiem."@pl,
+        "Dobra janela fechada dobrada de novo ao meio pela linha central vertical, produzindo um layout compacto de 8 painéis em 2 faces: Exterior (4 painéis visíveis quando totalmente fechado) e Interior (4 painéis revelados em abertura faseada — primeiro a meia dobra, depois as portas). Usada em narrativa em camadas, convites premium e peças de marketing com revelação em etapas."@pt,
+        "En sluten portfals som viks ytterligare en gång på mitten längs den vertikala mittlinjen, vilket ger en kompakt 8-panelslayout i 2 ytor: utsida (4 paneler synliga när helt stängd) och insida (4 paneler som avslöjas i en stegvis öppning — först halvvikningen, sedan portarna). Används för skiktat berättande, exklusiva inbjudningar och marknadsmaterial med avslöjande i flera steg."@sv,
+        "将关门折再沿垂直中线对折一次，形成紧凑的8面板布局，分为2个表面：Outside（完全合拢时可见的4个面板）与 Inside（分阶段展开的4个面板 — 先开对折，再开门扇）。用于分层叙事、高档请柬与多阶段揭示式营销品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§DOUBLE-CLOSED-GATE-FOLD" ;
+    skos:prefLabel "Dobbelt lukket portfals"@da,
+        "Doppelter geschlossener Altarfalz-Setup"@de,
+        "Double Closed Gate-Fold Setup"@en,
+        "Configuración de doble plegado en puerta cerrada"@es,
+        "डबल बंद गेट-फ़ोल्ड सेटअप"@hi,
+        "ダブルクローズドゲートフォールド構成"@ja,
+        "Dobbel lukket gate-fold oppsett"@nb,
+        "Dubbele gesloten altaarvouw-opzet"@nl,
+        "Konfiguracja podwójny złam okienkowy zamknięty"@pl,
+        "Montagem dobra janela fechada dupla"@pt,
+        "Dubbel sluten portfals"@sv,
+        "双对开门折（闭合）结构"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/completions/folding/double-closed-gate-fold> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

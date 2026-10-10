@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/proof-approved> a skos:Concept ;
+    dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval> ;
+    skos:definition "Tilstand: kunden har godkendt prøven; opgaven frigives til produktion."@da,
+        "Zustand: Der Kunde hat den Proof freigegeben; der Auftrag geht in die Produktion."@de,
+        "State: the customer approved the proof; the job is released to production."@en,
+        "Estado: el cliente aprobó la prueba; el trabajo se libera a producción."@es,
+        "अवस्था: ग्राहक ने प्रूफ़ अनुमोदित किया; काम उत्पादन के लिए जारी।"@hi,
+        "状態：顧客が校正を承認し、ジョブは生産にリリースされる。"@ja,
+        "Tilstand: kunden godkjente korrekturen; jobben frigis til produksjon."@nb,
+        "Toestand: de klant heeft de proef goedgekeurd; de opdracht wordt vrijgegeven voor productie."@nl,
+        "Stan: klient zatwierdził proof; zlecenie jest zwolnione do produkcji."@pl,
+        "Estado: o cliente aprovou a prova; o trabalho é liberado para produção."@pt,
+        "Tillstånd: kunden har godkänt provet; jobbet frisläpps till produktion."@sv,
+        "状态：客户已批准样张；作业放行至生产。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§PROOF-APPROVED" ;
+    skos:prefLabel "Prøve godkendt"@da,
+        "Proof freigegeben"@de,
+        "Proof Approved"@en,
+        "Prueba aprobada"@es,
+        "प्रूफ़ अनुमोदित"@hi,
+        "校正承認済み"@ja,
+        "Korrektur godkjent"@nb,
+        "Proef goedgekeurd"@nl,
+        "Proof zatwierdzony"@pl,
+        "Prova aprovada"@pt,
+        "Prov godkänt"@sv,
+        "样张已批准"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-07-18" .
+

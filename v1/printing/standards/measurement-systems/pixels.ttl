@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/measurement-systems/pixels> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "px"@en,
+        "px"@hi,
+        "px"@pl,
+        "px"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/measurement-systems> ;
+    skos:definition "Diskret visningsenhed for digitale billeder, hvor opløsningen (pixels pr. tomme/centimeter) afgør egnet fysisk trykstørrelse for et givet billede."@da,
+        "Diskrete Bildschirmeinheit für digitale Bilder, wobei die Auflösung (Pixel pro Inch / Zentimeter) die geeignete physische Druckgröße für ein gegebenes Bild bestimmt."@de,
+        "Discrete display unit used for digital images, with resolution (pixels per inch / centimeter) determining suitable physical print size for a given image."@en,
+        "Unidad mínima de información en una imagen digital raster. La resolución se mide en píxeles de ancho × alto; combinada con tamaño físico, determina DPI/PPI."@es,
+        "डिजिटल छवियों की असतत प्रदर्शन इकाई; रिज़ॉल्यूशन (पिक्सेल प्रति इंच / सेंटीमीटर) किसी छवि का उपयुक्त भौतिक प्रिंट आकार तय करता है।"@hi,
+        "デジタル画像に使用される離散的な表示単位。解像度（インチあたり/センチメートルあたりのピクセル数）が、特定の画像に対して適切な物理的印刷サイズを決定する。"@ja,
+        "Diskret visningsenhet brukt for digitale bilder, der oppløsning (piksler per tomme / centimeter) avgjør egnet fysisk trykkstørrelse for et gitt bilde."@nb,
+        "Discrete weergave-eenheid voor digitale beelden, waarbij de resolutie (pixels per inch/centimeter) de geschikte fysieke drukgrootte voor een gegeven beeld bepaalt."@nl,
+        "Dyskretna jednostka wyświetlania obrazów cyfrowych; rozdzielczość (piksele na cal / centymetr) określa odpowiedni fizyczny rozmiar wydruku dla danego obrazu."@pl,
+        "Unidade discreta de exibição usada em imagens digitais, com a resolução (pixels por polegada / centímetro) determinando o tamanho físico de impressão adequado para uma dada imagem."@pt,
+        "Diskret visningsenhet för digitala bilder, där upplösningen (pixlar per tum/centimeter) avgör lämplig fysisk tryckstorlek för en given bild."@sv,
+        "数字位图图像中信息的最小单位。分辨率以宽×高的像素数衡量；与物理尺寸组合后确定DPI/PPI。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PIXELS" ;
+    skos:prefLabel "Pixels"@da,
+        "Pixel"@de,
+        "Pixels"@en,
+        "Píxeles"@es,
+        "पिक्सेल"@hi,
+        "ピクセル"@ja,
+        "Piksler"@nb,
+        "Pixels"@nl,
+        "Piksele"@pl,
+        "Pixels"@pt,
+        "Pixlar"@sv,
+        "像素"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

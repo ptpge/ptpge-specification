@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/distribution/delivery-methods/freight-pallet> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "LTL"@en,
+        "Pallet freight"@en,
+        "Palletised"@en,
+        "LTL"@hi,
+        "पैलेट फ़्रेट"@hi,
+        "पैलेट में"@hi,
+        "LTL"@pl,
+        "fracht paletowy"@pl,
+        "paletyzowane"@pl,
+        "carga fracionada"@pt,
+        "frete paletizado"@pt,
+        "paletizado"@pt ;
+    skos:broader <https://ptpge.org/v1/ordering/distribution/delivery-methods> ;
+    skos:definition "Fragt / palle — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4)."@da,
+        "Fracht/Palette — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4)."@de,
+        "Freight / Pallet — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data."@en,
+        "Carga/palé — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4)."@es,
+        "फ़्रेट / पैलेट — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"@hi,
+        "貨物・パレット便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。"@ja,
+        "Freight / Pallet — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data."@nb,
+        "Vracht / pallet — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4)."@nl,
+        "Fracht / paleta — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4)."@pl,
+        "Frete / palete — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4)."@pt,
+        "Frakt / pall — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4)."@sv,
+        "货运/托盘——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:DS§FREIGHT-PALLET" ;
+    skos:prefLabel "Fragt / palle"@da,
+        "Fracht/Palette"@de,
+        "Freight / Pallet"@en,
+        "Carga/palé"@es,
+        "फ़्रेट / पैलेट"@hi,
+        "貨物・パレット便"@ja,
+        "Frakt / pall"@nb,
+        "Vracht / pallet"@nl,
+        "Fracht / paleta"@pl,
+        "Frete / palete"@pt,
+        "Frakt / pall"@sv,
+        "货运/托盘"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "distribution" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

@@ -1,0 +1,189 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/photo-books> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "bryllupsalbum"@da,
+        "fotoalbum"@da,
+        "fotobog"@da,
+        "Bildband"@de,
+        "Bildbände"@de,
+        "Fotoalben"@de,
+        "Fotoalbum"@de,
+        "Hochzeitsalben"@de,
+        "Hochzeitsalbum"@de,
+        "Reisealbum"@de,
+        "Albums"@en,
+        "Baby photo books"@en,
+        "Coffee table books"@en,
+        "Photo Albums"@en,
+        "Photo albums"@en,
+        "Photography books"@en,
+        "Portfolio books"@en,
+        "Portfolios"@en,
+        "Travel albums"@en,
+        "Wedding album"@en,
+        "Wedding albums"@en,
+        "photo album"@en,
+        "photobook"@en,
+        "picture book"@en,
+        "fotolibro"@es,
+        "libro de fotos"@es,
+        "Álbum de boda"@es,
+        "Álbum de fotos"@es,
+        "álbum fotográfico"@es,
+        "एल्बम"@hi,
+        "कॉफ़ी टेबल बुक"@hi,
+        "पोर्टफ़ोलियो बुक"@hi,
+        "फ़ोटो एल्बम"@hi,
+        "फ़ोटो बुक"@hi,
+        "शादी का एल्बम"@hi,
+        "アルバム"@ja,
+        "ウェディングアルバム"@ja,
+        "フォトアルバム"@ja,
+        "写真集"@ja,
+        "結婚式アルバム"@ja,
+        "Babyalbum"@nb,
+        "Bryllupsalbum"@nb,
+        "Fotoalbum"@nb,
+        "Fotobok"@nb,
+        "Reisealbum"@nb,
+        "fotoalbum"@nb,
+        "fotobok"@nb,
+        "fotoalbum"@nl,
+        "fotoboek"@nl,
+        "trouwalbum"@nl,
+        "album zdjęciowy"@pl,
+        "album ślubny"@pl,
+        "fotoalbum"@pl,
+        "fotoksiążka"@pl,
+        "fotolivro"@pt,
+        "livro de fotos"@pt,
+        "livro de mesa"@pt,
+        "portfólio impresso"@pt,
+        "álbum de casamento"@pt,
+        "álbum de fotos"@pt,
+        "álbum fotográfico"@pt,
+        "bilderbok"@sv,
+        "bröllopsalbum"@sv,
+        "fotoalbum"@sv,
+        "fotobok"@sv,
+        "写真集"@zh-Hans,
+        "婚礼相册"@zh-Hans,
+        "影集"@zh-Hans,
+        "相册"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En indbundet bog med trykte fotografier — til album, porteføljer og gaver, i blødt eller hårdt bind."@da,
+        "Ein gebundenes Buch mit gedruckten Fotografien — für Alben, Portfolios und Geschenke."@de,
+        "A bound book of printed photographs — for albums, portfolios and gifts, in soft or hardcover."@en,
+        "Un libro encuadernado de fotografías impresas — para álbumes, portfolios y regalos, en tapa blanda o dura."@es,
+        "मुद्रित तस्वीरों की बँधी किताब — एल्बम, पोर्टफ़ोलियो और उपहार के लिए, सॉफ़्ट या हार्डकवर में।"@hi,
+        "印刷した写真を綴じたフォトブック。アルバムやポートフォリオ、ギフトに。ソフトカバー／ハードカバー。"@ja,
+        "En innbundet bok med trykte fotografier — for album, porteføljer og gaver, i myk eller hard perm."@nb,
+        "Een gebonden boek met gedrukte foto's — voor albums, portfolio's en geschenken, in soft- of hardcover."@nl,
+        "Oprawiona książka z wydrukowanymi zdjęciami — albumy, portfolio i prezenty, w oprawie miękkiej lub twardej."@pl,
+        "Livro encadernado de fotografias impressas — para álbuns, portfólios e presentes, em capa flexível ou dura."@pt,
+        "En bunden bok med tryckta fotografier — för album, portfolior och gåvor, i mjukt eller hårt band."@sv,
+        "装订成册的印刷照片书——相册、作品集和礼品，平装或精装。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§PHOTO-BOOKS" ;
+    skos:prefLabel "Fotobøger"@da,
+        "Fotobücher"@de,
+        "Photo Books"@en,
+        "Libros fotográficos"@es,
+        "फ़ोटो बुक"@hi,
+        "フォトブック"@ja,
+        "Fotobøker"@nb,
+        "Fotoboeken"@nl,
+        "Fotoksiążki"@pl,
+        "Fotolivros"@pt,
+        "Fotoböcker"@sv,
+        "照片书"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/back-orientation>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/configuration/spine-thickness>,
+        <https://ptpge.org/v1/variables/finishing/edge>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/page-count>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode>,
+        <https://ptpge.org/v1/variables/finishing/binding> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsBackOrientation <https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot>,
+        <https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head> ;
+    ptpge:supportsBinding <https://ptpge.org/v1/printing/completions/binding/case-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/layflat-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/perfect-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/sewn-binding> ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk> ;
+    ptpge:supportsFoldDirection <https://ptpge.org/v1/printing/completions/fold-binding-edge/left> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4h>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a5>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/half-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/junior-legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/letter> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait>,
+        <https://ptpge.org/v1/printing/configurations/orientation/square> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSpineThickness [ ptpge:max 60.0 ;
+            ptpge:min 3.0 ;
+            ptpge:unit "mm" ] ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

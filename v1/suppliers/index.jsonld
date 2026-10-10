@@ -1,0 +1,42 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/suppliers",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "proposed",
+  "notation": "SUP",
+  "level": "top-concept",
+  "label": {
+    "en": "Suppliers",
+    "nb": "Produsenter",
+    "de": "Hersteller",
+    "sv": "Leverantörer",
+    "da": "Leverandører",
+    "nl": "Fabrikanten"
+  },
+  "definition": {
+    "en": "The register of makers — press, printer, finishing-equipment and paper manufacturers — each with one permanent PTPGE identity. A supplier's series, grades and models live in its own supplier catalogue, not in the vocabulary. A register, not the specification: the vocabulary itself carries no company names.",
+    "nb": "Registeret over produsenter – presse-, skriver-, etterbehandlings- og papirprodusenter – hver med én permanent PTPGE-identitet. En produsents serier, kvaliteter og modeller lever i dens egen produsentkatalog, ikke i vokabularet. Et register, ikke spesifikasjonen: selve vokabularet bærer ingen firmanavn."
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "topConceptOf": "https://ptpge.org/v1/scheme",
+  "created": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "narrower": [
+    "https://ptpge.org/v1/suppliers/antalis",
+    "https://ptpge.org/v1/suppliers/canon",
+    "https://ptpge.org/v1/suppliers/harry-rochat",
+    "https://ptpge.org/v1/suppliers/heidelberg",
+    "https://ptpge.org/v1/suppliers/komori",
+    "https://ptpge.org/v1/suppliers/lessebo",
+    "https://ptpge.org/v1/suppliers/manroland",
+    "https://ptpge.org/v1/suppliers/mgi",
+    "https://ptpge.org/v1/suppliers/polar",
+    "https://ptpge.org/v1/suppliers/ricoh",
+    "https://ptpge.org/v1/suppliers/riso",
+    "https://ptpge.org/v1/suppliers/scodix",
+    "https://ptpge.org/v1/suppliers/swissqprint",
+    "https://ptpge.org/v1/suppliers/xerox"
+  ]
+}

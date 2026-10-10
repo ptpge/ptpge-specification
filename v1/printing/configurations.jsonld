@@ -1,0 +1,68 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "group",
+  "label": {
+    "en": "Configurations",
+    "es": "Configuraciones",
+    "zh-Hans": "配置",
+    "nb": "Konfigurasjoner",
+    "de": "Konfigurationen",
+    "ja": "構成",
+    "sv": "Konfigurationer",
+    "da": "Konfigurationer",
+    "nl": "Configuraties",
+    "pl": "Konfiguracje",
+    "pt": "Configurações",
+    "hi": "कॉन्फ़िगरेशन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF",
+  "broader": "https://ptpge.org/v1/printing",
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/formats",
+    "https://ptpge.org/v1/printing/configurations/orientation",
+    "https://ptpge.org/v1/printing/configurations/shape",
+    "https://ptpge.org/v1/printing/configurations/setup-models",
+    "https://ptpge.org/v1/printing/configurations/back-orientation",
+    "https://ptpge.org/v1/printing/configurations/winding-direction"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The structural setup of a printed product: its format (A4, Letter, business card, custom), its orientation or shape (portrait, landscape, square, ellipse, organic), and its Setup Model (flat sheet, folded sheet, multi-page). Configurations is what a buyer typically specifies first when describing a job — every other facet's choices are conditional on it.",
+    "nb": "Den strukturelle oppsettingen av et trykt produkt: formatet (A4, Letter, visittkort, tilpasset), orientering eller form (portrett, landskap, kvadrat, ellipse, organisk), og Setup Model (flat ark, folded sheet, multi-page). Configurations er det en kjøper typisk spesifiserer først når en jobb beskrives — alle andre fasetters valg er betinget av dette.",
+    "de": "Der strukturelle Aufbau eines Druckerzeugnisses: sein Format (A4, Letter, Visitenkarte, individuell), seine Orientierung oder Form (Hochformat, Querformat, quadratisch, elliptisch, organisch) und sein Setup Model (Flachbogen, gefalzter Bogen, mehrseitig). Configurations ist das, was ein Käufer typischerweise zuerst angibt, wenn er einen Auftrag beschreibt — alle weiteren Facetten hängen davon ab.",
+    "ja": "印刷物の構造的セットアップ：フォーマット（A4、Letter、名刺、カスタム）、向き／形状（縦、横、正方形、楕円、有機形状）、Setup Model（flat sheet、folded sheet、multi-page）。Configurations は買い手が最初に指定するもの — 他のすべてのファセットの選択はこれに依存する。",
+    "es": "La configuración estructural de un producto impreso: su formato (A4, Carta, tarjeta de visita, personalizado), su orientación o forma (vertical, horizontal, cuadrado, elipse, orgánico), y su Setup Model (hoja plana, hoja plegada, multi-página). Configuraciones suele ser lo primero que un comprador especifica al describir un trabajo — las opciones en las demás facetas se condicionan a partir de aquí.",
+    "zh-Hans": "印刷品的结构性设置：开本（A4、Letter、名片、定制）、方向或形状（纵向、横向、方形、椭圆、有机形状）、以及 Setup Model（平板、折叠、多页）。配置通常是买方描述作业时首先指定的——其他分面的选择都从这里推导。",
+    "sv": "En trycksaks strukturella uppbyggnad: dess format (A4, Letter, visitkort, anpassat), dess orientering eller form (stående, liggande, kvadratisk, ellips, friform) och dess uppbyggnadsmodell (plant ark, falsat ark, flersidig). Konfigurationen är det en köpare vanligtvis anger först när ett jobb beskrivs — alla andra facetters val är villkorade av den.",
+    "da": "En tryksags strukturelle opbygning: dens format (A4, Letter, visitkort, special), dens orientering eller form (stående, liggende, kvadratisk, ellipse, friform) og dens opsætningsmodel (fladt ark, falset ark, flersidet). Konfigurationen er det, en køber vælger, og det, en producent bygger.",
+    "nl": "De structurele opbouw van drukwerk: het formaat (A4, Letter, visitekaartje, maatwerk), de oriëntatie of vorm (staand, liggend, vierkant, ellips, vrije vorm) en het opbouwmodel (vlak vel, gevouwen vel, meerpagina). De configuratie is wat een koper kiest en wat een producent bouwt.",
+    "pl": "Strukturalne ustawienie produktu drukowanego: jego format (A4, Letter, wizytówka, niestandardowy), orientacja lub kształt (pionowy, poziomy, kwadrat, elipsa, organiczny) oraz model konfiguracji (arkusz płaski, arkusz złożony, wielostronicowy). Konfiguracje to zwykle pierwsze, co nabywca podaje, opisując zlecenie — wybory we wszystkich pozostałych aspektach są od nich zależne.",
+    "pt": "Como um impresso é montado e dimensionado: formatos, orientação, forma, modelos de montagem (folha plana, folha dobrada, multipágina …), orientação do verso e sentido de enrolamento — as decisões de geometria e estrutura que precedem substrato e acabamento.",
+    "hi": "मुद्रित उत्पाद कैसे बना और मापा गया है: फ़ॉर्मेट, ओरिएंटेशन, आकृति, सेटअप मॉडल (फ़्लैट शीट, फ़ोल्डेड शीट, मल्टी-पेज …), पीछे की दिशा और वाइंडिंग दिशा — ज्यामिति और संरचना के वे निर्णय जो सब्सट्रेट और फ़िनिशिंग से पहले आते हैं।"
+  },
+  "scopeNote": {
+    "en": "Configurations covers dimensions, orientation, shape, and structural Setup Models (flat sheet, folded sheet, multi-page). The folding sequences, cutting patterns, and binding that turn a configured sheet into a finished piece belong to Completions; the substrate it is printed on belongs to Substrates.",
+    "nb": "Configurations dekker dimensjoner, orientering, form og strukturelle Setup Models (flat ark, folded sheet, multi-page). Foldesekvenser, kutte-mønstre og innbinding som forvandler det konfigurerte arket til et ferdig produkt hører til Completions; substratet det trykkes på hører til Substrates.",
+    "de": "Configurations umfasst Maße, Orientierung, Form und strukturelle Setup Models (Flachbogen, gefalzter Bogen, mehrseitig). Die Falzsequenzen, Schnittmuster und Bindungen, die den konfigurierten Bogen in ein fertiges Produkt verwandeln, gehören zu Completions; der Bedruckstoff, auf dem gedruckt wird, gehört zu Substrates.",
+    "ja": "Configurations はサイズ、向き、形状、および構造的 Setup Model（flat sheet、folded sheet、multi-page）を扱う。折り順序、断裁パターン、製本など、構成されたシートを完成品に変えるものは Completions に、印刷される基材は Substrates に属する。",
+    "es": "Configuraciones cubre dimensiones, orientación, forma y Setup Models estructurales (hoja plana, hoja plegada, multi-página). Las secuencias de plegado, patrones de corte y encuadernación que convierten la hoja configurada en una pieza acabada pertenecen a Completions; el sustrato sobre el que se imprime pertenece a Substrates.",
+    "zh-Hans": "配置涵盖尺寸、方向、形状以及结构性 Setup Models（平板、折叠、多页）。将配置好的纸张转化为成品的折页顺序、裁切图案和装订属于印后加工；所用承印物属于承印物分组。"
+  },
+  "visual": {
+    "color": "#FF6C0E",
+    "colorName": "PTPGE Orange 1",
+    "palette": [
+      "#FF6C0E",
+      "#FF9C18"
+    ],
+    "pantone": "P 1585 C"
+  }
+}

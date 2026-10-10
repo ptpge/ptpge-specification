@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing> ;
+    skos:definition "Tværgående referencerammer, som al fremstilling peger tilbage til: målesystemer, papirformatstandarder, grafiske filformater, farvesystemer og de certificeringer, hvormed trykkerier, produkter og processer verificeres uafhængigt. Standarder er én af to tværgående grupper (jævnfør Administration); de gælder på tværs af alle fremstillingsfacetter frem for at være et selvstændigt produktionstrin."@da,
+        "Übergreifende Referenzrahmen, auf die sich jede Fertigungsaktivität bezieht: Maßsysteme, Papierformat-Normen, Grafikdateiformate, Farbsysteme sowie die Zertifizierungen, anhand derer Druckereien, Produkte und Prozesse unabhängig verifiziert werden. Standards ist eine von zwei übergreifenden Gruppen (neben Management); diese gelten über alle Fertigungsfacetten hinweg und stellen keinen eigenständigen Produktionsschritt dar."@de,
+        "Cross-cutting reference frameworks that all manufacturing activity points back to: measurement systems, paper size standards, graphic file formats, color systems, and the certifications by which printers, products, and processes are independently verified. Standards is one of two cross-cutting Groups (alongside Management); these apply across every manufacturing facet rather than being a distinct step in production."@en,
+        "Marcos de referencia transversales a los que toda la actividad de producción remite: sistemas de medida, normas de tamaños de papel, formatos de archivo gráfico, sistemas de color, y las certificaciones por las que imprentas, productos y procesos son verificados de forma independiente. Normas es uno de los dos grupos transversales — junto con Gestión — que aplican a toda actividad de fabricación."@es,
+        "वे व्यापक संदर्भ ढाँचे जिनकी ओर सारी निर्माण गतिविधि इशारा करती है: मापन प्रणालियाँ, काग़ज़ आकार मानक, ग्राफ़िक फ़ाइल फ़ॉर्मेट, रंग प्रणालियाँ और वे प्रमाणन जिनसे प्रिंटर, उत्पाद और प्रक्रियाएँ स्वतंत्र रूप से सत्यापित होती हैं। मानक दो व्यापक समूहों में से एक है (प्रबंधन के साथ); ये उत्पादन के अलग चरण के बजाय हर निर्माण पहलू पर लागू होते हैं।"@hi,
+        "全ての製造活動が拠り所とする横断的な参照基盤：計測単位、用紙寸法規格、グラフィックファイル形式、カラーシステム、および印刷会社・製品・工程を第三者が検証する認証制度。Standardsは、Managementと並ぶ二つの横断グループの一つであり、製造の各側面に共通して適用されるものであり、生産過程における独立した工程ではない。"@ja,
+        "Kryssgående referanserammeverk som all produksjonsaktivitet refererer tilbake til: målesystemer, papirformat-standarder, grafiske filformater, fargesystemer og sertifiseringene som trykkerier, produkter og prosesser kan verifiseres mot av uavhengige parter. Standards er en av to kryssgående grupper (sammen med Management); disse gjelder på tvers av alle produksjonsfasetter, ikke som et eget steg i produksjonen."@nb,
+        "Overkoepelende referentiekaders waar alle productie naar terugverwijst: meetsystemen, papierformaatstandaarden, grafische bestandsformaten, kleursystemen en de certificeringen waarmee drukkerijen, producten en processen onafhankelijk worden geverifieerd. Standaarden is één van twee overkoepelende groepen (naast Beheer); ze gelden over alle productiefacetten heen in plaats van een afzonderlijke productiestap te zijn."@nl,
+        "Przekrojowe ramy odniesienia, do których odwołuje się cała działalność produkcyjna: systemy miar, standardy formatów papieru, formaty plików graficznych, systemy barw oraz certyfikaty, którymi drukarnie, produkty i procesy są niezależnie weryfikowane. Standardy są jedną z dwóch grup przekrojowych (obok Zarządzania); dotyczą wszystkich aspektów produkcji, a nie stanowią osobnego etapu produkcji."@pl,
+        "Quadros de referência transversais aos quais toda a atividade de fabricação remete: sistemas de medição, normas de tamanho de papel, formatos de arquivo gráfico, sistemas de cor e as certificações pelas quais impressores, produtos e processos são verificados de forma independente. Normas é um dos dois Grupos transversais (junto com Gestão); aplicam-se a todas as facetas de fabricação em vez de ser uma etapa distinta da produção."@pt,
+        "Tvärgående referensramverk som all tillverkning pekar tillbaka till: måttsystem, pappersformatstandarder, grafiska filformat, färgsystem och de certifieringar genom vilka tryckerier, produkter och processer verifieras oberoende. Standarder är en av två tvärgående grupper (jämte Administration); de gäller över alla tillverkningsfacetter snarare än att vara ett eget produktionssteg."@sv,
+        "所有生产活动所参照的横向参考框架：测量系统、纸张尺寸标准、图形文件格式、色彩系统，以及对印刷厂、产品和工艺进行独立认证的认证体系。标准是两个横向分组之一——与管理一起——适用于所有制造活动。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/certifications>,
+        <https://ptpge.org/v1/printing/standards/color-systems>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats>,
+        <https://ptpge.org/v1/printing/standards/measurement-systems>,
+        <https://ptpge.org/v1/printing/standards/paper-size-standards>,
+        <https://ptpge.org/v1/printing/standards/print-standards>,
+        <https://ptpge.org/v1/printing/standards/regulations> ;
+    skos:notation "P:ST" ;
+    skos:prefLabel "Standarder"@da,
+        "Normen"@de,
+        "Standards"@en,
+        "Normas"@es,
+        "मानक"@hi,
+        "規格"@ja,
+        "Standarder"@nb,
+        "Standaarden"@nl,
+        "Standardy"@pl,
+        "Normas"@pt,
+        "Standarder"@sv,
+        "标准"@zh-Hans ;
+    skos:scopeNote "Gemäß PTPGEs Ein-Wort-Namenskonvention ist 'Standards' ein Sammelbegriff, der fünf Unterkategorien mit unterschiedlichem epistemischem Status abdeckt: Measurement Systems (Einheiten und Konventionen), Paper Size Standards (normative Formate), Graphic File Formats (Dateiformatspezifikationen), Color Systems (Farbvokabulare einschließlich proprietärer Systeme wie Pantone) und Certifications (drittparteiverifizierte Nachweise wie FSC und ISO 12647-7). Alles, was eine stabile, referenzierbare Konvention oder ein externes normatives Dokument ist, gehört hierher."@de,
+        "Per PTPGE's single-word naming convention, 'Standards' is an umbrella term covering five subcategories with different epistemic statuses: Measurement Systems (units and conventions), Paper Size Standards (normative formats), Graphic File Formats (file format specifications), Color Systems (color vocabularies including proprietary systems like Pantone), and Certifications (third-party-verified credentials such as FSC and ISO 12647-7). Anything that is a stable, reference-able convention or external normative document belongs here."@en,
+        "Según la convención de nombres de una sola palabra de PTPGE, 'Standards' es un término paraguas que cubre cinco subcategorías con distinto estatus epistémico: Measurement Systems (unidades y convenciones), Paper Size Standards (formatos normativos), Graphic File Formats (especificaciones de formato de archivo), Color Systems (vocabularios de color incluyendo sistemas propietarios como Pantone) y Certifications (credenciales verificadas por terceros como FSC e ISO 12647-7). Todo lo que sea una convención estable y referenciable, o un documento normativo externo, pertenece aquí."@es,
+        "PTPGE की एक-शब्द नामकरण परंपरा के अनुसार «मानक» एक छाता-शब्द है जो अलग-अलग ज्ञानमीमांसीय स्थिति वाली पाँच उप-श्रेणियों को ढकता है: मापन प्रणालियाँ (इकाइयाँ और परंपराएँ), काग़ज़ आकार मानक (मानक फ़ॉर्मेट), ग्राफ़िक फ़ाइल फ़ॉर्मेट (फ़ाइल फ़ॉर्मेट विनिर्देश), रंग प्रणालियाँ (Pantone जैसी स्वामित्व प्रणालियों सहित रंग शब्दावली) और प्रमाणन (FSC और ISO 12647-7 जैसे तृतीय-पक्ष सत्यापित प्रमाण)। जो कुछ भी स्थिर, संदर्भ-योग्य परंपरा या बाहरी मानक दस्तावेज़ है, वह यहाँ है।"@hi,
+        "PTPGEのワンワード命名規則により、『Standards』は5つのサブカテゴリーを包括する傘的な用語である：Measurement Systems（単位と慣習）、Paper Size Standards（規範的フォーマット）、Graphic File Formats（ファイル形式仕様）、Color Systems（Pantoneなどの独自システムを含む色彩語彙）、Certifications（FSCやISO 12647-7などの第三者認証）。安定して参照可能な慣習や外部規範文書はここに属する。"@ja,
+        "Etter PTPGE sin ett-ords-konvensjon er 'Standards' en samlebetegnelse som dekker fem underkategorier med ulik epistemisk status: Measurement Systems (enheter og konvensjoner), Paper Size Standards (normative formater), Graphic File Formats (filformatspesifikasjoner), Color Systems (fargevokabularer inkludert proprietære systemer som Pantone), og Certifications (tredjepartverifiserte legitimasjoner som FSC og ISO 12647-7). Alt som er en stabil, refererbar konvensjon eller eksternt normativt dokument hører hjemme her."@nb,
+        "Pela convenção de nome único do PTPGE, «Normas» é um termo guarda-chuva que cobre cinco subcategorias de status epistêmico diferente: Sistemas de medição (unidades e convenções), Normas de tamanho de papel (formatos normativos), Formatos de arquivo gráfico (especificações de formato), Sistemas de cor (vocabulários de cor, incluindo sistemas proprietários como Pantone) e Certificações (credenciais verificadas por terceiros, como FSC e ISO 12647-7). Tudo o que for uma convenção estável e referenciável ou um documento normativo externo pertence aqui."@pt,
+        "依据 PTPGE 的单字命名惯例，『Standards』是一个涵盖五个子类别的伞形术语，它们具有不同的认识论地位：Measurement Systems（单位与惯例）、Paper Size Standards（规范性规格）、Graphic File Formats（文件格式规范）、Color Systems（包括 Pantone 等专有系统的颜色词汇）、Certifications（FSC、ISO 12647-7 等第三方验证凭证）。任何稳定的、可引用的惯例或外部规范文件都归属于此。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" ;
+    ptpge:visual [ ptpge:color "#939598" ;
+            ptpge:colorName "PTPGE Gray 1" ;
+            ptpge:palette "#688373",
+                "#748A96",
+                "#927D89",
+                "#939598",
+                "#959480" ] .
+

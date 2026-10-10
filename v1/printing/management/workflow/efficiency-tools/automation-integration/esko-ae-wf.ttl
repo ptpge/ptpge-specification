@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/esko-ae-wf> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    skos:definition "Esko Automation Engine — omfattende workflow-automatisering til emballage- og etikettryk, der dækker preflight, farvestyring, step-and-repeat, prepress og prøvetryk."@da,
+        "Esko Automation Engine — umfassende Workflow-Automatisierung für Verpackungs- und Etikettendruck, abdeckend Preflight, Farbmanagement, Step-and-Repeat, Druckvorstufe und Proofing."@de,
+        "Esko Automation Engine — comprehensive workflow automation for packaging and label printing, covering preflight, color management, step-and-repeat, prepress, and proofing."@en,
+        "Motor de automatización de Esko orientado a packaging y etiquetas, con integración profunda con ArtPro+ y WebCenter."@es,
+        "Esko Automation Engine — पैकेजिंग और लेबल प्रिंटिंग के लिए व्यापक वर्कफ़्लो स्वचालन, प्रीफ़्लाइट, रंग प्रबंधन, स्टेप-एंड-रिपीट, प्रीप्रेस और प्रूफ़िंग को ढकता है।"@hi,
+        "Esko Automation Engine — パッケージおよびラベル印刷向けの包括的なワークフロー自動化。プリフライト、カラーマネジメント、ステップアンドリピート、製版、校正をカバーする。"@ja,
+        "Esko Automation Engine — omfattende arbeidsflyt-automasjon for emballasje- og etikettrykk, dekker preflight, fargestyring, step-and-repeat, prepress og proofing."@nb,
+        "Esko Automation Engine — veelomvattende workflowautomatisering voor verpakkings- en etikettendruk, met preflight, kleurbeheer, step-and-repeat, prepress en proeven."@nl,
+        "Esko Automation Engine — kompleksowa automatyzacja workflow dla druku opakowań i etykiet, obejmująca preflight, zarządzanie barwą, step-and-repeat, prepress i proofing."@pl,
+        "Esko Automation Engine — automação abrangente de fluxo de trabalho para impressão de embalagens e rótulos, cobrindo preflight, gerenciamento de cor, step-and-repeat, pré-impressão e provas."@pt,
+        "Esko Automation Engine — omfattande arbetsflödesautomation för förpacknings- och etikettryck, täcker preflight, färghantering, step-and-repeat, prepress och provtryck."@sv,
+        "Esko面向包装和标签的自动化引擎，与ArtPro+和WebCenter深度集成。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ESKO-AE-WF" ;
+    skos:prefLabel "Esko Automation Engine (workflow)"@da,
+        "Esko Automation Engine (Workflow)"@de,
+        "Esko Automation Engine (Workflow)"@en,
+        "Esko Automation Engine"@es,
+        "Esko Automation Engine (वर्कफ़्लो)"@hi,
+        "Esko Automation Engine (Workflow)"@ja,
+        "Esko Automation Engine (Workflow)"@nb,
+        "Esko Automation Engine (workflow)"@nl,
+        "Esko Automation Engine (Workflow)"@pl,
+        "Esko Automation Engine (Fluxo de trabalho)"@pt,
+        "Esko Automation Engine (arbetsflöde)"@sv,
+        "Esko Automation Engine"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

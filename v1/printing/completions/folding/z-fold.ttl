@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/z-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Zig-Zag Fold"@en,
+        "ज़िगज़ैग फ़ोल्ड"@hi,
+        "ज़ेड फ़ोल्ड"@hi,
+        "Z-fals"@nb,
+        "składanie w Z"@pl,
+        "złam zygzakowy"@pl,
+        "dobra em Z"@pt,
+        "dobra ziguezague"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Trefals-variant, hvor hver fals vender modsat den forrige og danner en zigzag (Z-form) set fra kanten. Gør alle tre paneler synlige på én gang, når den er delvist udfoldet."@da,
+        "Variante des Wickelfalzes, bei der jeder Falz in die entgegengesetzte Richtung des vorherigen verläuft und somit von der Seite betrachtet ein Zickzackmuster (Z-Form) ergibt. Ermöglicht, dass alle drei Felder beim teilweisen Aufklappen gleichzeitig sichtbar sind."@de,
+        "Tri-fold variant where each fold goes in the opposite direction from the previous, producing a zigzag (Z-shape) when viewed edge-on. Allows all three panels to be visible at once when partially extended."@en,
+        "Dos pliegues paralelos en direcciones alternas — el pliego se despliega en forma de Z. Habitual para mapas y planos plegables."@es,
+        "ट्राई-फ़ोल्ड का वह रूप जिसमें हर फ़ोल्ड पिछले से विपरीत दिशा में जाता है, किनारे से देखने पर ज़िगज़ैग (Z-आकार)। आंशिक रूप से खोलने पर तीनों पैनल एक साथ दिखते हैं।"@hi,
+        "三つ折りのバリアントで、各折りが直前の折りと反対方向に折られ、端から見るとジグザグ（Z字）形になる。部分的に開いたとき、3つの面すべてを同時に見せることができる。"@ja,
+        "Tri-fold-variant der hver folde går i motsatt retning fra den forrige, og produserer en sikksakk (Z-form) når den ses fra siden. Lar alle tre paneler være synlige samtidig når den er delvis utvidet."@nb,
+        "Wikkelvouwvariant waarbij elke vouw tegengesteld aan de vorige gaat, zodat van opzij een zigzag (Z-vorm) ontstaat. Alle drie de panelen zijn tegelijk zichtbaar wanneer deels uitgevouwen."@nl,
+        "Wariant złamu na trzy, w którym każdy złam biegnie w kierunku przeciwnym do poprzedniego, tworząc zygzak (kształt Z) widziany od krawędzi. Pozwala zobaczyć wszystkie trzy skrzydła naraz przy częściowym rozłożeniu."@pl,
+        "Variante do tríptico em que cada dobra vai na direção oposta à anterior, formando um ziguezague (forma de Z) vista de lado. Permite ver os três painéis de uma vez quando parcialmente aberta."@pt,
+        "C-falsvariant där varje fals går åt motsatt håll mot den föregående och bildar en sicksack (Z-form) sedd från kanten. Låter alla tre panelerna synas samtidigt när den delvis öppnas."@sv,
+        "两个方向交替的平行折页 —— 纸张展开形成Z字形。常用于可折叠地图和平面图。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§Z-FOLD" ;
+    skos:prefLabel "Z-fals"@da,
+        "Zickzackfalz"@de,
+        "Z-Fold"@en,
+        "Pliegue en Z"@es,
+        "Z-फ़ोल्ड"@hi,
+        "Z折り"@ja,
+        "Z-fold"@nb,
+        "Zigzagvouw (Z-vouw)"@nl,
+        "Złam w Z"@pl,
+        "Dobra Z"@pt,
+        "Z-fals"@sv,
+        "Z折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

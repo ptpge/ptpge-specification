@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards> ;
+    skos:definition "Tredjepartsprogrammer og standarder, der certificerer trykkerier, produkter eller processer mod kvalitets-, miljø-, sociale eller tekniske kriterier."@da,
+        "Drittparteien-Programme und Normen, die Druckereien, Produkte oder Prozesse anhand von Qualitäts-, Umwelt-, Sozial- oder technischen Kriterien zertifizieren."@de,
+        "Third-party programs and standards that certify printers, products, or processes against quality, environmental, social, or technical criteria."@en,
+        "Programas y normas de terceros que certifican imprentas, productos o procesos frente a criterios de calidad, ambientales, sociales o técnicos."@es,
+        "तृतीय-पक्ष कार्यक्रम और मानक जो प्रिंटरों, उत्पादों या प्रक्रियाओं को गुणवत्ता, पर्यावरणीय, सामाजिक या तकनीकी मानदंडों पर प्रमाणित करते हैं।"@hi,
+        "印刷会社、製品、または工程を、品質、環境、社会、技術の各基準に照らして認証する第三者機関のプログラムおよび規格。"@ja,
+        "Tredjepartsprogrammer og standarder som sertifiserer trykkerier, produkter eller prosesser mot kvalitets-, miljø-, sosiale eller tekniske kriterier."@nb,
+        "Programma's en standaarden van derden die drukkerijen, producten of processen certificeren tegen kwaliteits-, milieu-, sociale of technische criteria."@nl,
+        "Programy i standardy stron trzecich certyfikujące drukarnie, produkty lub procesy według kryteriów jakościowych, środowiskowych, społecznych lub technicznych."@pl,
+        "Programas e normas de terceiros que certificam impressores, produtos ou processos segundo critérios de qualidade, ambientais, sociais ou técnicos."@pt,
+        "Tredjepartsprogram och standarder som certifierar tryckerier, produkter eller processer mot kvalitets-, miljö-, sociala eller tekniska kriterier."@sv,
+        "由第三方对印刷厂、产品或工艺按照质量、环境、社会或技术标准进行认证的项目和规范。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/certifications/environmental>,
+        <https://ptpge.org/v1/printing/standards/certifications/industry>,
+        <https://ptpge.org/v1/printing/standards/certifications/process>,
+        <https://ptpge.org/v1/printing/standards/certifications/quality> ;
+    skos:notation "P:ST-CER" ;
+    skos:prefLabel "Certificeringer"@da,
+        "Zertifizierungen"@de,
+        "Certifications"@en,
+        "Certificaciones"@es,
+        "प्रमाणन"@hi,
+        "認証"@ja,
+        "Sertifiseringer"@nb,
+        "Certificeringen"@nl,
+        "Certyfikacje"@pl,
+        "Certificações"@pt,
+        "Certifieringar"@sv,
+        "认证"@zh-Hans ;
+    skos:scopeNote "Umfasst allgemeine Management-Zertifizierungen (ISO 9001 für Qualität), Druckprozess-Standards (ISO 12647 für Offset-Farbe), Umwelt- und Forstwirtschaftslabels (FSC, PEFC, EU-Ecolabel, Nordic Swan, Blauer Engel) sowie länderspezifische Kennzeichnungen (Trykt i Norge). Jede Zertifizierung hat ihre eigene ausgebende Stelle und Prüfsystematik."@de,
+        "Includes general management certifications (ISO 9001 for quality), printing-process standards (ISO 12647 for offset color), environmental and forestry labels (FSC, PEFC, EU Ecolabel, Nordic Swan, Blue Angel), and country-specific marks (Trykt i Norge). Each certification has its own issuing body and audit regime."@en,
+        "Incluye certificaciones generales de gestión (ISO 9001 de calidad), normas de procesos de impresión (ISO 12647 para color en offset), etiquetas ambientales y forestales (FSC, PEFC, Etiqueta Ecológica Europea, Cisne Nórdico, Ángel Azul) y certificaciones sociales."@es,
+        "सामान्य प्रबंधन प्रमाणन (गुणवत्ता के लिए ISO 9001), मुद्रण-प्रक्रिया मानक (ऑफसेट रंग के लिए ISO 12647), पर्यावरण और वानिकी लेबल (FSC, PEFC, EU Ecolabel, Nordic Swan, Blue Angel) और देश-विशिष्ट चिह्न (Trykt i Norge) शामिल। हर प्रमाणन का अपना जारीकर्ता निकाय और ऑडिट व्यवस्था।"@hi,
+        "一般的なマネジメント認証（品質に関するISO 9001）、印刷工程の規格（オフセット色再現に関するISO 12647）、環境および森林ラベル（FSC、PEFC、EUエコラベル、北欧スワン、ブルーエンジェル）、および国別マーク（Trykt i Norge）を含む。各認証は、それぞれの発行機関と監査制度を有する。"@ja,
+        "Inkluderer generelle ledelsessertifiseringer (ISO 9001 for kvalitet), trykkerispesifikke prosesstandarder (ISO 12647 for offset-farge), miljø- og skogbruksmerker (FSC, PEFC, EU Ecolabel, Svanen, Blue Angel), og landsspesifikke merker (Trykt i Norge). Hver sertifisering har sin egen utstederinstans og revisjonsregime."@nb,
+        "Inclui certificações gerais de gestão (ISO 9001 para qualidade), normas de processo de impressão (ISO 12647 para cor em offset), selos ambientais e florestais (FSC, PEFC, Rótulo Ecológico da UE, Cisne Nórdico, Anjo Azul) e marcas específicas de país (Trykt i Norge). Cada certificação tem seu próprio organismo emissor e regime de auditoria."@pt,
+        "包括通用管理认证（ISO 9001质量）、印刷工艺标准（ISO 12647胶印色彩）、环境与林业标签（FSC、PEFC、欧盟生态标签、北欧天鹅、蓝天使）和社会认证。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

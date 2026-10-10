@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/fold-binding-edge/left> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bound on the left"@en,
+        "Left edge"@en,
+        "Left fold"@en,
+        "Left-edge binding"@en,
+        "Left-hand binding"@en,
+        "बाईं बाइंडिंग"@hi,
+        "बायाँ किनारा"@hi,
+        "बायाँ फ़ोल्ड"@hi,
+        "लेफ़्ट बाइंडिंग"@hi,
+        "Venstre fals"@nb,
+        "Venstre kant"@nb,
+        "Venstrebundet"@nb,
+        "krawędź lewa"@pl,
+        "oprawa lewostronna"@pl,
+        "złam lewy"@pl,
+        "borda esquerda"@pt,
+        "dobra à esquerda"@pt,
+        "encadernado à esquerda"@pt,
+        "encadernação à esquerda"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/fold-binding-edge> ;
+    skos:definition "Fals- eller indbindingskant placeret på produktets venstre side — standarden for vestlige bøger, rapporter, magasiner og de fleste trykte udgivelser. Læseren åbner omslaget fra højre mod venstre."@da,
+        "Falz- oder Bindungskante an der linken Seite des Produkts — Standard für Bücher, Berichte, Magazine und die meisten gedruckten Publikationen in westlichen Sprachen. Der Leser öffnet das Cover von rechts nach links."@de,
+        "Fold or binding edge placed on the left side of the product — the default for Western-language books, reports, magazines, and most printed publications. Reader opens the cover from right to left."@en,
+        "Pliegue o encuadernación por el lado izquierdo — orientación predeterminada para libros e informes en lenguas occidentales."@es,
+        "उत्पाद के बाएँ किनारे पर फ़ोल्ड या बाइंडिंग — पश्चिमी भाषाओं की किताबों, रिपोर्टों, पत्रिकाओं और अधिकांश प्रकाशनों (हिंदी सहित) का डिफ़ॉल्ट। पाठक कवर दाएँ से बाएँ खोलता है।"@hi,
+        "折りまたは綴じの辺が印刷物の左側に配置される — 西欧語の書籍、報告書、雑誌、大半の印刷出版物の標準。読者は表紙を右から左に開く。"@ja,
+        "Folde- eller bindingskant plassert på venstre side av produktet — standard for vestlig-språklige bøker, rapporter, magasiner og de fleste trykte publikasjoner. Leseren åpner omslaget fra høyre til venstre."@nb,
+        "Vouw- of bindzijde aan de linkerkant van het product — de standaard voor westerse boeken, rapporten, magazines en de meeste gedrukte publicaties. De lezer opent het omslag van rechts naar links."@nl,
+        "Krawędź złamu lub oprawy umieszczona po lewej stronie produktu — domyślna dla książek, raportów, czasopism i większości publikacji w językach zachodnich. Czytelnik otwiera okładkę od prawej do lewej."@pl,
+        "Dobra ou encadernação no lado esquerdo do produto — o padrão para livros, relatórios, revistas e a maioria das publicações em línguas ocidentais. O leitor abre a capa da direita para a esquerda."@pt,
+        "Fals eller bindningskant placerad på produktens vänstra sida — standard för böcker, rapporter, tidskrifter och de flesta trycksaker på västerländska språk. Läsaren öppnar omslaget från höger till vänster."@sv,
+        "左侧折页或装订 —— 西方语言书籍和报告的默认方向。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§LEFT" ;
+    skos:prefLabel "Venstre"@da,
+        "Links"@de,
+        "Left"@en,
+        "Izquierda"@es,
+        "बाएँ"@hi,
+        "左"@ja,
+        "Venstre"@nb,
+        "Links"@nl,
+        "Lewa"@pl,
+        "Esquerda"@pt,
+        "Vänster"@sv,
+        "左"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64" ;
+            ptpge:mappingRow "crosswalk row 47" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

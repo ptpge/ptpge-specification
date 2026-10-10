@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/order/lead-time> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Delivery time"@en,
+        "Production time"@en,
+        "Turnaround"@en,
+        "उत्पादन समय"@hi,
+        "कितने दिन"@hi,
+        "टर्नअराउंड"@hi,
+        "डिलीवरी समय"@hi,
+        "Leveringstid"@nb,
+        "Produksjonstid"@nb,
+        "czas dostawy"@pl,
+        "czas produkcji"@pl,
+        "termin realizacji"@pl,
+        "lead time"@pt,
+        "prazo"@pt,
+        "prazo de entrega"@pt,
+        "tempo de produção"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/order> ;
+    skos:definition "Konfigurerbar akse: Leveringstid (numerisk, enkeltvalg, i dage). En numerisk literal — intet enumereret domæne."@da,
+        "Konfigurierbare Achse: Lieferzeit (numerisch, Einfachauswahl, in Tagen). Numerischer Wert — keine aufgezählte Wertemenge."@de,
+        "Configurable axis: Lead Time (numeric, single, in days). A numeric literal — no enumerated domain."@en,
+        "Eje configurable: Plazo de entrega (numérico, selección única, en días). Un literal numérico — sin dominio enumerado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: लीड टाइम (संख्यात्मक, एकल, दिनों में)। संख्यात्मक लिटरल — कोई enum डोमेन नहीं।"@hi,
+        "構成可能な軸：リードタイム（数値、単一選択、日数単位）。数値リテラル — 列挙された定義域はない。"@ja,
+        "Konfigurerbar akse: Ledetid (numerisk, single, i dager). Numerisk verdi — ingen opptalt domene."@nb,
+        "Configureerbare as: Levertijd (numeriek, enkelvoudig, in dagen). Een numerieke literal — geen opgesomd domein."@nl,
+        "Oś konfigurowalna: Czas realizacji (numeryczna, pojedynczy, w dniach). Literał liczbowy — brak dziedziny wyliczeniowej."@pl,
+        "Eixo configurável: Prazo de Produção (numérico, único, em dias). Literal numérico — sem domínio enumerado."@pt,
+        "Konfigurerbar axel: Ledtid (numerisk, enkelval, i dagar). En numerisk literal — ingen uppräknad domän."@sv,
+        "可配置轴：交货周期（数值，单选，以天计）。数值字面量——无枚举定义域。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:OR§LEAD-TIME" ;
+    skos:prefLabel "Leveringstid"@da,
+        "Lieferzeit"@de,
+        "Lead Time"@en,
+        "Plazo de entrega"@es,
+        "लीड टाइम"@hi,
+        "リードタイム"@ja,
+        "Ledetid"@nb,
+        "Levertijd"@nl,
+        "Czas realizacji"@pl,
+        "Prazo de produção"@pt,
+        "Ledtid"@sv,
+        "交货周期"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "numeric" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvornår skal du bruge den?"@da,
+        "Wann brauchen Sie es?"@de,
+        "When do you need it?"@en,
+        "¿Para cuándo lo necesita?"@es,
+        "कब तक चाहिए?"@hi,
+        "いつまでに必要ですか？"@ja,
+        "Når trenger du den?"@nb,
+        "Wanneer heeft u het nodig?"@nl,
+        "Na kiedy jest potrzebny?"@pl,
+        "Para quando precisa?"@pt,
+        "När behöver du den?"@sv,
+        "什么时候需要？"@zh-Hans ;
+    ptpge:rangeMin 0.0 ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:unit "days" ;
+    ptpge:version "2026-06-26" .
+

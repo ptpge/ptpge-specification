@@ -1,0 +1,238 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/panel-prints",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§PANEL-PRINTS",
+  "elementType": "product",
+  "label": {
+    "en": "Panel Prints",
+    "nb": "Panelbilder",
+    "de": "Paneldrucke",
+    "nl": "Paneelprints",
+    "sv": "Paneltryck",
+    "da": "Paneltryk",
+    "ja": "パネルプリント",
+    "es": "Impresiones en panel",
+    "zh-Hans": "面板打印",
+    "pl": "Wydruki na panelach",
+    "pt": "Impressões em painel",
+    "hi": "पैनल प्रिंट"
+  },
+  "altLabels": {
+    "en": [
+      "panel print",
+      "photo panel",
+      "wall art",
+      "acrylic print",
+      "metal print",
+      "aluminium print",
+      "wood print",
+      "gallery print",
+      "framed print",
+      "Dibond panels",
+      "Acrylic prints",
+      "Aluminium prints"
+    ],
+    "nb": [
+      "panelbilde",
+      "veggbilde",
+      "akrylbilde",
+      "metalltrykk",
+      "platetrykk"
+    ],
+    "de": [
+      "Plattendirektdruck",
+      "Bilder auf Platte"
+    ],
+    "pl": [
+      "wydruk na panelu",
+      "fotopanel",
+      "wydruk na akrylu",
+      "wydruk na aluminium",
+      "dekoracja ścienna"
+    ],
+    "sv": [
+      "fotopanel",
+      "akryltavla",
+      "aluminiumtavla",
+      "dibondtavla",
+      "fototavla på aluminium"
+    ],
+    "da": [
+      "fotopanel",
+      "akrylbillede",
+      "aluminiumsbillede",
+      "dibond",
+      "foto på aluminium"
+    ],
+    "nl": [
+      "paneelprint",
+      "fotopaneel",
+      "foto op aluminium",
+      "foto op plexiglas",
+      "dibond",
+      "aluminium print"
+    ],
+    "pt": [
+      "impressão em painel",
+      "quadro em acrílico",
+      "impressão em acrílico",
+      "impressão em alumínio",
+      "impressão em madeira",
+      "painel de foto",
+      "painel Dibond",
+      "quadro em metal"
+    ],
+    "hi": [
+      "पैनल प्रिंट",
+      "फ़ोटो पैनल",
+      "ऐक्रेलिक प्रिंट",
+      "मेटल प्रिंट",
+      "एल्युमिनियम प्रिंट",
+      "वुड प्रिंट",
+      "Dibond पैनल",
+      "फ़्रेम्ड प्रिंट"
+    ],
+    "es": [
+      "impresión en panel",
+      "panel rígido",
+      "foto en panel",
+      "impresión en aluminio",
+      "impresión en metacrilato",
+      "cuadro rígido"
+    ],
+    "ja": [
+      "パネル",
+      "パネル印刷",
+      "アクリルパネル",
+      "フォトパネル",
+      "看板パネル"
+    ],
+    "zh-Hans": [
+      "板材喷绘",
+      "铝塑板",
+      "亚克力画",
+      "KT板",
+      "硬板画"
+    ]
+  },
+  "definition": {
+    "en": "A printed image or graphic on a rigid panel for wall display — acrylic, aluminium (incl. dye-sublimation on coated metal), wood or foam board.",
+    "nb": "Et trykt bilde eller grafikk på stiv plate for vegg-visning — akryl, aluminium (inkl. dye-sublimering på coatet metall), tre eller skumplate.",
+    "de": "Ein gedrucktes Bild oder Grafik auf starrer Platte zur Wandpräsentation — Acryl, Aluminium (inkl. Sublimation auf beschichtetem Metall), Holz oder Schaumplatte.",
+    "nl": "Een gedrukt beeld of grafiek op een stijf paneel voor wandpresentatie — acryl, aluminium (incl. sublimatie op gecoat metaal), hout of schuimplaat.",
+    "sv": "En tryckt bild eller grafik på styv skiva för väggexponering — akryl, aluminium (inkl. sublimering på belagd metall), trä eller skumskiva.",
+    "da": "Et trykt billede eller grafik på stiv plade til vægophæng — akryl, aluminium (inkl. sublimering på coatet metal), træ eller skumplade.",
+    "ja": "壁面展示用に硬質パネルへプリントした画像やグラフィック。アクリル、アルミ（コート金属への昇華転写を含む）、木材、フォームボードなど。",
+    "es": "Una imagen o gráfico impreso sobre panel rígido para exhibición en pared — acrílico, aluminio (incl. sublimación sobre metal recubierto), madera o cartón pluma.",
+    "zh-Hans": "用于墙面展示的硬质板材印刷图像或图形——亚克力、铝板（含涂层金属上的热升华）、木板或泡沫板。",
+    "pl": "Obraz lub grafika wydrukowana na sztywnym panelu do ekspozycji ściennej — akryl, aluminium (w tym sublimacja na powlekanym metalu), drewno lub płyta piankowa.",
+    "pt": "Imagem ou gráfico impresso em painel rígido para exposição em parede — acrílico, alumínio (incl. sublimação em metal revestido), madeira ou foam board.",
+    "hi": "दीवार पर लगाने के लिए कठोर पैनल पर मुद्रित चित्र या ग्राफ़िक — ऐक्रेलिक, एल्युमिनियम (कोटेड मेटल पर डाई-सब्लिमेशन सहित), लकड़ी या फ़ोम बोर्ड।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a2",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/2a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/4a0",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-a",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-b",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-c",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-d",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e1",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+    "https://ptpge.org/v1/printing/configurations/orientation/square"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/acrylic",
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium",
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/composite",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/plywood",
+    "https://ptpge.org/v1/printing/substrates/board-materials/foam"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "customSizeRange": {
+    "min": 100,
+    "max": 3050,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series"
+  ],
+  "supportsSubstrateThickness": {
+    "min": 1,
+    "max": 30,
+    "unit": "mm"
+  },
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-thickness"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/europe/montenegro",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:GY§MONTENEGRO",
+  "elementType": "place",
+  "label": {
+    "en": "Montenegro",
+    "nb": "Montenegro",
+    "de": "Montenegro",
+    "ja": "モンテネグロ",
+    "es": "Montenegro",
+    "zh-Hans": "黑山",
+    "sv": "Montenegro",
+    "da": "Montenegro",
+    "nl": "Montenegro",
+    "pl": "Czarnogóra",
+    "pt": "Montenegro",
+    "hi": "मोंटेनेग्रो"
+  },
+  "altLabels": {
+    "en": [
+      "ME",
+      "MNE"
+    ],
+    "pl": [
+      "ME",
+      "MNE"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography/europe",
+  "properties": {
+    "iso3166Alpha2": "ME",
+    "iso3166Alpha3": "MNE"
+  },
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Montenegro — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping.",
+    "nb": "Montenegro — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Montenegro — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen.",
+    "ja": "Montenegro — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。",
+    "es": "Montenegro — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "Montenegro——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。",
+    "sv": "Montenegro — geografisk facett på landsnivå som används för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Montenegro — geografisk facet på landeniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Montenegro — geografische facet op landniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Czarnogóra — aspekt geograficzny na poziomie kraju używany do specyfikacji produktu, dopasowania standardów regionalnych, listowania dostawców i zakresu wysyłki/dostawy.",
+    "pt": "Montenegro — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "मोंटेनेग्रो — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"
+  }
+}

@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/knowledge> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering> ;
+    skos:definition "Ressourcer, der hjælper købere og producenter med at forstå og anvende PTPGE-begreberne i praksis. Organiseret i tre kategorier: Guider (forklarende dokumenter og best practice), Værktøjer (interaktive hjælpemidler — konfiguratorer, validatorer, omregnere) og Skabeloner (genbrugelige udgangspunkter for almindelige bestillings- og produktionsscenarier). Vidensressourcerne refererer til termer på tværs af begge topkoncepter."@da,
+        "Ressourcen, die Käufern und Produzenten helfen, PTPGE-Konzepte in der Praxis zu verstehen und anzuwenden. Gegliedert in drei Kategorien: Guides (erklärende Dokumente und Best-Practice-Playbooks), Tools (interaktive Werkzeuge — Konfiguratoren, Validatoren, Konverter) und Templates (wiederverwendbare Ausgangspunkte für gängige Bestell- und Produktionsszenarien). Knowledge-Ressourcen referenzieren Begriffe aus beiden Top-Konzepten (Druckprozess und Bestellprozess) und bilden die Kontextschicht, die rohe Taxonomie in umsetzbare Arbeitsabläufe überführt. Abgegrenzt von Begriffsdefinitionen: Knowledge-Ressourcen sind How-to-Material, das sich unabhängig von der Taxonomie selbst weiterentwickeln kann."@de,
+        "Resources that help buyers and producers understand and apply PTPGE concepts in practice. Organised into three categories: Guides (explanatory documents and best-practice playbooks), Tools (interactive utilities — configurators, validators, converters), and Templates (reusable starting points for common ordering and production scenarios). Knowledge resources reference terms across both top concepts (Printing Process and Ordering Process), providing the contextual layer that turns raw taxonomy into actionable workflows. Distinct from term-level definitions: knowledge resources are how-to material that may evolve independently of the taxonomy itself."@en,
+        "Recursos que ayudan a compradores y productores a entender y aplicar los conceptos de PTPGE en la práctica. Organizados en tres categorías: Guides (documentos explicativos y manuales de buenas prácticas), Tools (utilidades interactivas — configuradores, validadores, conversores) y Templates (puntos de partida reutilizables para escenarios comunes de pedido y producción). Los recursos de conocimiento hacen referencia a términos en ambos conceptos principales (Proceso de Impresión y Proceso de Pedido), proporcionando la capa contextual que convierte la taxonomía pura en flujos de trabajo accionables. Se distinguen de las definiciones de términos: los recursos de conocimiento son material de cómo hacer, que puede evolucionar de forma independiente de la propia taxonomía."@es,
+        "ऐसे संसाधन जो खरीदारों और उत्पादकों को PTPGE की संकल्पनाएँ व्यवहार में समझने और लागू करने में मदद करते हैं। तीन श्रेणियों में व्यवस्थित: गाइड (व्याख्यात्मक दस्तावेज़ और सर्वोत्तम-प्रथा पुस्तिकाएँ), टूल (इंटरैक्टिव उपयोगिताएँ — कॉन्फ़िगरेटर, वैलिडेटर, कन्वर्टर) और टेम्पलेट (सामान्य ऑर्डरिंग और उत्पादन परिदृश्यों के लिए पुन: प्रयोज्य प्रारंभ बिंदु)। ज्ञान संसाधन दोनों शीर्ष संकल्पनाओं (मुद्रण प्रक्रिया और ऑर्डरिंग प्रक्रिया) के पदों को संदर्भित करते हैं और वह प्रासंगिक परत देते हैं जो कच्चे वर्गीकरण को कार्रवाई योग्य कार्यप्रवाह में बदलती है। पद-स्तर की परिभाषाओं से अलग: ज्ञान संसाधन «कैसे करें» सामग्री हैं जो वर्गीकरण से स्वतंत्र विकसित हो सकती है।"@hi,
+        "PTPGEの概念を実践で理解し適用するための、購入者と生産者向けリソース。3つのカテゴリで構成される：Guides（解説書とベストプラクティス・プレイブック）、Tools（インタラクティブなユーティリティ——コンフィギュレータ、バリデータ、コンバータ）、Templates（一般的な発注・生産シナリオ向けの再利用可能な開始点）。ナレッジ・リソースは両方のトップコンセプト（印刷プロセスと発注プロセス）の用語を参照し、生のタクソノミーを実行可能なワークフローへと変換する文脈レイヤーを提供する。用語レベルの定義とは区別され、ナレッジ・リソースはタクソノミー本体とは独立して進化しうる how-to コンテンツである。"@ja,
+        "Ressurser som hjelper kjøpere og produsenter med å forstå og anvende PTPGE-konsepter i praksis. Organisert i tre kategorier: Guides (forklarende dokumenter og best-practice-playbooks), Tools (interaktive verktøy — konfiguratorer, validatorer, konverterere) og Templates (gjenbrukbare startpunkter for vanlige bestillings- og produksjonsscenarier). Kunnskapsressursene refererer termer på tvers av begge toppkonsepter (Trykkeprosess og Bestillingsprosess), og gir det kontekstuelle laget som gjør rå taksonomi om til handlingsorienterte arbeidsflyter. Skiller seg fra term-definisjoner: kunnskapsressurser er how-to-materiale som kan utvikles uavhengig av selve taksonomien."@nb,
+        "Bronnen die kopers en producenten helpen de PTPGE-concepten in de praktijk te begrijpen en toe te passen. Georganiseerd in drie categorieën: Gidsen (verklarende documenten en best practices), Hulpmiddelen (interactieve tools — configuratoren, validators, omrekenaars) en Sjablonen (herbruikbare startpunten voor veelvoorkomende bestel- en productiescenario's)."@nl,
+        "Zasoby pomagające nabywcom i producentom rozumieć i stosować pojęcia PTPGE w praktyce. Uporządkowane w trzy kategorie: Przewodniki (dokumenty objaśniające i zbiory dobrych praktyk), Narzędzia (interaktywne programy — konfiguratory, walidatory, konwertery) oraz Szablony (gotowe punkty wyjścia dla typowych scenariuszy zamawiania i produkcji). Zasoby wiedzy odwołują się do terminów z obu pojęć nadrzędnych (Proces drukowania i Proces zamawiania), tworząc warstwę kontekstu, która zamienia surową taksonomię w praktyczne procesy. W odróżnieniu od definicji terminów są to materiały instruktażowe, które mogą się rozwijać niezależnie od samej taksonomii."@pl,
+        "Recursos que ajudam compradores e produtores a entender e aplicar os conceitos do PTPGE na prática. Organizados em três categorias: Guias (documentos explicativos e manuais de boas práticas), Ferramentas (utilitários interativos — configuradores, validadores, conversores) e Modelos (pontos de partida reutilizáveis para cenários comuns de compra e produção). Os recursos de conhecimento referenciam termos dos dois conceitos de topo (Processo de Impressão e Processo de Compra), fornecendo a camada contextual que transforma taxonomia bruta em fluxos de trabalho acionáveis. Distintos das definições de termo: recursos de conhecimento são material de «como fazer» que pode evoluir independentemente da taxonomia."@pt,
+        "Resurser som hjälper köpare och producenter att förstå och tillämpa PTPGE-begreppen i praktiken. Organiserade i tre kategorier: Guider (förklarande dokument och best practice-handböcker), Verktyg (interaktiva hjälpmedel — konfiguratorer, validerare, konverterare) och Mallar (återanvändbara utgångspunkter för vanliga beställnings- och produktionsscenarier). Kunskapsresurser refererar termer under båda toppkoncepten (Tryckprocess och Beställningsprocess) och utgör kontextskiktet som förvandlar rå taxonomi till användbara arbetsflöden. Skiljer sig från termnivåns definitioner: kunskapsresurser är how-to-material som kan utvecklas oberoende av själva taxonomin."@sv,
+        "帮助买方与生产方在实践中理解和应用 PTPGE 概念的资源。分为三类：Guides（说明性文档和最佳实践手册）、Tools（交互式工具——配置器、验证器、转换器）以及 Templates（用于常见订购和生产场景的可复用起点）。知识资源引用两个顶层概念（印刷过程和订购过程）中的术语，提供将原始分类法转化为可执行工作流的语境层。与术语级定义不同，知识资源属于使用指南类内容，可独立于分类法本身演进。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/knowledge/guides>,
+        <https://ptpge.org/v1/ordering/knowledge/templates>,
+        <https://ptpge.org/v1/ordering/knowledge/tools> ;
+    skos:notation "O:KN" ;
+    skos:prefLabel "Viden"@da,
+        "Wissen"@de,
+        "Knowledge"@en,
+        "Conocimiento"@es,
+        "ज्ञान"@hi,
+        "知識"@ja,
+        "Kunnskap"@nb,
+        "Kennis"@nl,
+        "Wiedza"@pl,
+        "Conhecimento"@pt,
+        "Kunskap"@sv,
+        "知识"@zh-Hans ;
+    ptpge:group "knowledge" ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/paper-size-standards/iso-269-envelope-sizes",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "ISO 269 Envelope Sizes",
+    "es": "Tamaños ISO 269 (Sobres)",
+    "zh-Hans": "ISO 269 (信封)",
+    "nb": "ISO 269 Envelope Sizes",
+    "de": "ISO 269 Envelope Sizes",
+    "ja": "ISO 269 Envelope Sizes",
+    "sv": "ISO 269-kuvertformat",
+    "da": "ISO 269-kuvertformater",
+    "nl": "ISO 269-envelopformaten",
+    "pl": "Formaty kopert ISO 269",
+    "pt": "Tamanhos de envelope ISO 269",
+    "hi": "ISO 269 लिफ़ाफ़ा आकार"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§ISO-269-ENVELOPE-SIZES",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/paper-size-standards",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "ISO 269 envelope sizes (DL, C-series) designed to hold ISO 216 paper sheets when folded — DL holds A4 folded in thirds, C5 holds A4 folded in half, C4 holds A4 unfolded.",
+    "nb": "ISO 269 konvoluttstørrelser (DL, C-serien) designet til å romme ISO 216-papirark når de er brettet — DL rommer A4 brettet i tre, C5 rommer A4 brettet i to, C4 rommer A4 ubrettet.",
+    "de": "Briefumschlagformate nach ISO 269 (DL, C-Reihe), entwickelt, um ISO-216-Papierbogen gefalzt aufzunehmen — DL fasst A4 in Drittel gefaltet, C5 fasst A4 in der Hälfte gefaltet, C4 fasst A4 ungefalzt.",
+    "ja": "ISO 269封筒寸法（DL、Cシリーズ）。ISO 216用紙シートを折り畳んで収納するように設計されている — DLはA4を三つ折りに、C5はA4を二つ折りに、C4はA4を折らずに収納する。",
+    "es": "Norma internacional ISO 269 que define la serie C de sobres, dimensionados para contener hojas de la serie A correspondiente.",
+    "zh-Hans": "定义C系列信封的国际ISO 269标准，按对应A系列纸张尺寸设计。",
+    "sv": "Kuvertformat enligt ISO 269 (DL, C-serien) designade att rymma ISO 216-ark i vikt form — DL rymmer A4 vikt i tre delar, C5 rymmer A4 vikt på mitten, C4 rymmer A4 ovikt.",
+    "da": "Kuvertformater efter ISO 269 (DL, C-serien) designet til at rumme ISO 216-ark i foldet form — DL rummer A4 foldet i tre dele, C5 rummer A4 foldet på midten, C4 rummer A4 ufoldet.",
+    "nl": "Envelopformaten volgens ISO 269 (DL, C-reeks), ontworpen om gevouwen ISO 216-vellen te bevatten — DL bevat een in drieën gevouwen A4, C5 een doormidden gevouwen A4, C4 een ongevouwen A4.",
+    "pl": "Formaty kopert ISO 269 (DL, seria C) zaprojektowane do arkuszy ISO 216 po złożeniu — DL mieści A4 złożone na trzy, C5 mieści A4 złożone na pół, C4 mieści A4 bez składania.",
+    "pt": "Tamanhos de envelope ISO 269 (DL, série C) projetados para conter folhas ISO 216 dobradas — o DL comporta A4 dobrado em três, o C5 comporta A4 dobrado ao meio, o C4 comporta A4 sem dobrar.",
+    "hi": "मुड़ी ISO 216 काग़ज़ शीटों को रखने के लिए डिज़ाइन किए ISO 269 लिफ़ाफ़ा आकार (DL, C-श्रृंखला) — DL में तीन तह A4, C5 में आधा मुड़ा A4, C4 में बिना मुड़ा A4।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "ISO 269",
+      "C series envelopes"
+    ],
+    "pl": [
+      "ISO 269",
+      "koperty serii C"
+    ],
+    "pt": [
+      "ISO 269",
+      "envelopes série C"
+    ],
+    "hi": [
+      "ISO 269",
+      "C श्रृंखला लिफ़ाफ़े"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 2"
+    }
+  ]
+}

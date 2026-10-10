@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/north-america/canada",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:GY§CANADA",
+  "elementType": "place",
+  "label": {
+    "en": "Canada",
+    "nb": "Canada",
+    "de": "Kanada",
+    "ja": "カナダ",
+    "es": "Canadá",
+    "zh-Hans": "加拿大",
+    "sv": "Kanada",
+    "da": "Canada",
+    "nl": "Canada",
+    "pl": "Kanada",
+    "pt": "Canadá",
+    "hi": "कनाडा"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography/north-america",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Canada — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping.",
+    "nb": "Canada — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Canada — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen.",
+    "ja": "Canada — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。",
+    "es": "Canada — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "Canada——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。",
+    "sv": "Kanada — geografisk facett på landsnivå som används för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Canada — geografisk facet på landeniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Canada — geografische facet op landniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Kanada — aspekt geograficzny na poziomie kraju używany do specyfikacji produktu, dopasowania standardów regionalnych, listowania dostawców i zakresu wysyłki/dostawy.",
+    "pt": "Canadá — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "कनाडा — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"
+  },
+  "properties": {
+    "iso3166Alpha2": "CA",
+    "iso3166Alpha3": "CAN"
+  },
+  "altLabels": {
+    "en": [
+      "CA",
+      "CAN"
+    ],
+    "pl": [
+      "CA",
+      "CAN"
+    ]
+  }
+}

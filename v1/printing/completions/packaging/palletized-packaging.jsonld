@@ -1,0 +1,97 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/palletized-packaging",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Palletized Packaging",
+    "es": "Embalaje Paletizado",
+    "zh-Hans": "托盘式包装",
+    "nb": "Pall-emballasje",
+    "de": "Palettenverpackung",
+    "ja": "パレット梱包",
+    "sv": "Palleterat emballage",
+    "da": "Palleteret emballering",
+    "nl": "Palletverpakking",
+    "pl": "Pakowanie paletowe",
+    "pt": "Paletização",
+    "hi": "पैलेट पैकेजिंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§PALLETIZED-PACKAGING",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Stacking finished products on wooden or plastic pallets, secured with strapping or shrink wrap, for forklift handling and bulk shipping. Standard for large print runs delivered to distributors or warehouses.",
+    "nb": "Stabling av ferdige produkter på paller av tre eller plast, sikret med strapping eller krympeplast, for håndtering med truck og bulkforsendelse. Standard for store opplag levert til distributører eller lagerbygg.",
+    "de": "Stapelung fertiger Produkte auf Holz- oder Kunststoffpaletten, gesichert mit Bändern oder Schrumpffolie, für Gabelstaplerhandhabung und Großmengenversand. Standard für hohe Auflagen, die an Distributoren oder Lager geliefert werden.",
+    "ja": "完成品を木製またはプラスチック製のパレット上に積み上げ、ストラップまたはシュリンクラップで固定する梱包方式。フォークリフト取扱と大量輸送のための形態。流通業者または倉庫に納品する大ロット印刷物の標準。",
+    "es": "Productos agrupados sobre paletas estándar — habitual en producción de alto volumen para distribución industrial.",
+    "zh-Hans": "在标准托盘上分组的产品 —— 常见于大容量生产用于工业分销。",
+    "sv": "Stapling av färdiga produkter på trä- eller plastpallar, säkrade med bandning eller sträckfilm, för gaffeltruckshantering och bulkfrakt. Standard för stora upplagor som levereras till distributörer eller lager.",
+    "da": "Stabling af færdige produkter på træ- eller plastpaller, sikret med bånd eller krympefilm, til gaffeltruckhåndtering og bulkforsendelse. Standard for store oplag leveret til distributører eller lagre.",
+    "nl": "Afgewerkte producten stapelen op houten of kunststof pallets, vastgezet met banden of krimpfolie, voor heftruckhantering en bulkverzending. Standaard voor grote oplagen aan distributeurs of magazijnen.",
+    "pl": "Układanie gotowych produktów na paletach drewnianych lub plastikowych, zabezpieczonych taśmą lub folią stretch, do obsługi wózkiem widłowym i wysyłki hurtowej. Standard dla dużych nakładów dostarczanych do dystrybutorów lub magazynów.",
+    "pt": "Empilhar produtos acabados em paletes de madeira ou plástico, presos com fitas ou filme retrátil, para movimentação por empilhadeira e transporte a granel. Padrão para grandes tiragens entregues a distribuidores ou depósitos.",
+    "hi": "तैयार उत्पादों को लकड़ी या प्लास्टिक के पैलेट पर रखकर स्ट्रैपिंग या श्रिंक रैप से कसना, फ़ोर्कलिफ़्ट हैंडलिंग और थोक शिपिंग के लिए। वितरकों या गोदामों को जाने वाले बड़े प्रिंट रन के लिए मानक।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Pallet",
+      "Palletized",
+      "Palletised",
+      "Bulk pallet"
+    ],
+    "nb": [
+      "Pall",
+      "Pallepakking"
+    ],
+    "pl": [
+      "paleta",
+      "paletyzacja",
+      "paleta zbiorcza"
+    ],
+    "pt": [
+      "palete",
+      "paletizado",
+      "carga paletizada"
+    ],
+    "hi": [
+      "पैलेट",
+      "पैलेट में लदा",
+      "थोक पैलेट"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Matte Lamination",
+    "nb": "Matt laminering",
+    "de": "Matt-Laminierung",
+    "ja": "マットラミネート",
+    "es": "Laminado mate",
+    "zh-Hans": "哑膜覆膜",
+    "nl": "Matlaminaat",
+    "sv": "Matt laminering",
+    "da": "Mat laminering",
+    "pl": "Laminowanie matowe",
+    "pt": "Laminação fosca",
+    "hi": "मैट लैमिनेशन"
+  },
+  "altLabels": {
+    "en": [
+      "Matt Lamination",
+      "Matte Laminate",
+      "Matt lamination",
+      "Matte laminated",
+      "Matt laminated",
+      "Dull lamination"
+    ],
+    "nb": [
+      "Matt folie",
+      "Mattlaminat",
+      "Matt laminering"
+    ],
+    "nl": [
+      "Mat gelamineerd",
+      "Mat laminaat"
+    ],
+    "pl": [
+      "folia matowa",
+      "folia mat",
+      "laminat matowy"
+    ],
+    "pt": [
+      "laminação fosca",
+      "BOPP fosco",
+      "plastificação fosca",
+      "laminado fosco",
+      "laminação mate"
+    ],
+    "hi": [
+      "मैट लैमिनेशन",
+      "मैट लैमिनेट",
+      "मैट फ़िनिश लैमिनेशन",
+      "डल लैमिनेशन"
+    ]
+  },
+  "definition": {
+    "en": "Matte plastic film laminated to the printed surface. Provides a smooth, non-reflective finish that feels velvety to the touch. Reduces glare under direct light and gives a sophisticated, modern look. Common on business cards, book covers, and premium marketing materials.",
+    "nb": "Matt plastikkfilm laminert til den trykte overflaten. Gir en glatt, ikke-reflekterende finish som føles velour-aktig å ta på. Reduserer gjenskinn under direkte lys og gir et sofistikert, moderne utseende. Vanlig på visittkort, bok-omslag og premium markedsmateriell.",
+    "de": "Matter Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet ein glattes, nicht reflektierendes Finish.",
+    "ja": "印刷面に貼り合わせるマットフィルム。滑らかで反射のない、ビロードのような手触りの仕上げ。直射光下のギラつきを抑え、洗練されたモダンな印象を与える。名刺、書籍カバー、プレミアムなマーケティング資料で一般的。",
+    "es": "Película plástica mate laminada sobre la superficie impresa. Proporciona un acabado liso y sin reflejos, aterciopelado al tacto. Reduce el deslumbramiento bajo luz directa y da un aspecto sofisticado y moderno. Común en tarjetas de visita, cubiertas de libros y materiales premium.",
+    "zh-Hans": "复合在印刷表面的哑光塑料薄膜。呈现平滑无反光、触感如天鹅绒的效果。减少直射光下的眩光，观感精致现代。常见于名片、书籍封面与高档营销材料。",
+    "sv": "Matt plastfilm laminerad på tryckytan. Ger en slät, reflexfri finish som känns sammetslen. Minskar bländning i direkt ljus och ger ett sofistikerat, modernt uttryck. Vanlig på visitkort, bokomslag och exklusivt marknadsmaterial.",
+    "da": "Mat plastfilm lamineret på den trykte overflade. Giver en glat, ikke-reflekterende finish, der føles fløjlsagtig. Reducerer genskin i direkte lys og giver et sofistikeret, moderne udtryk.",
+    "nl": "Matte kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een gladde, niet-reflecterende afwerking die fluweelachtig aanvoelt. Vermindert schittering bij direct licht en oogt verfijnd en modern.",
+    "pl": "Matowa folia laminowana na zadrukowanej powierzchni. Daje gładkie, nieodbijające wykończenie, aksamitne w dotyku. Redukuje odblaski w bezpośrednim świetle i nadaje wyrafinowany, nowoczesny wygląd. Typowe dla wizytówek, okładek książek i materiałów marketingowych premium.",
+    "pt": "Filme plástico fosco laminado sobre a superfície impressa. Dá um acabamento liso e não reflexivo, aveludado ao toque. Reduz o reflexo sob luz direta e confere um visual sofisticado e moderno. Comum em cartões de visita, capas de livro e materiais de marketing premium.",
+    "hi": "छपी सतह पर लैमिनेट की गई मैट प्लास्टिक फ़िल्म। चिकनी, बिना परावर्तन वाली फ़िनिश जो छूने में मखमली लगती है। सीधी रोशनी में चमक कम करती है और परिष्कृत, आधुनिक रूप देती है। विज़िटिंग कार्ड, किताब के कवर और प्रीमियम मार्केटिंग सामग्री में आम।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/lamination",
+  "properties": {
+    "selective": false,
+    "coverage": "full",
+    "appearance": "matte",
+    "filmType": "plastic-film"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§MATTE-LAMINATION",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LaminatingIntent",
+        "Laminating"
+      ],
+      "refs": [
+        "§4.9 · p.78",
+        "§5.6.23 · p.125"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 45"
+    }
+  ]
+}

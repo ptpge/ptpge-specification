@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/wood/solid/edge-glued-panel",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§EDGE-GLUED-PANEL",
+  "label": {
+    "en": "Edge-Glued Panel",
+    "nb": "Limtreplate",
+    "de": "Leimholzplatte",
+    "es": "Tablero alistonado",
+    "ja": "幅はぎパネル",
+    "zh-Hans": "拼板",
+    "sv": "Limfog",
+    "da": "Limtræsplade",
+    "nl": "Verlijmd paneel",
+    "pl": "Płyta klejona",
+    "pt": "Painel colado de madeira maciça",
+    "hi": "एज-ग्लूड पैनल"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/wood/solid",
+  "definition": {
+    "en": "A solid-wood panel made by edge-gluing narrow solid-timber strips into a wide board.",
+    "nb": "En heltreplate laget ved å kantlime smale heltre-lameller til en bred plate.",
+    "de": "Eine Massivholzplatte aus schmalen, an den Kanten verleimten Massivholzlamellen.",
+    "ja": "細い無垢材の板を側面で接着して幅広の板にした無垢材パネル。",
+    "es": "Un panel de madera maciza hecho encolando de canto listones estrechos de madera para formar un tablero ancho.",
+    "zh-Hans": "将窄实木条侧边胶合拼成宽板的实木板材。",
+    "sv": "En massivträskiva tillverkad genom kantlimning av smala massivträribbor till en bred skiva.",
+    "da": "En massivtræsplade lavet ved kantlimning af smalle massivtræslister til en bred plade.",
+    "nl": "Een massiefhouten paneel gemaakt door smalle massiefhouten latten aan de randen te verlijmen tot een breed blad.",
+    "pl": "Płyta z litego drewna wykonana przez sklejenie na styk wąskich listew litego drewna w szeroką deskę.",
+    "pt": "Painel de madeira maciça feito colando pelas bordas ripas estreitas de madeira maciça até formar uma chapa larga.",
+    "hi": "ठोस लकड़ी की पतली पट्टियों को किनारे से चिपकाकर बनाया गया चौड़ा ठोस-लकड़ी पैनल।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "edge glued panel",
+      "glued solid wood panel"
+    ],
+    "nb": [
+      "limtre",
+      "kantlimt plate"
+    ],
+    "pl": [
+      "płyta klejona z drewna",
+      "blat klejony",
+      "płyta z drewna klejonego"
+    ],
+    "pt": [
+      "painel colado",
+      "painel de ripas coladas",
+      "madeira maciça colada"
+    ],
+    "hi": [
+      "किनारे से चिपका पैनल",
+      "ग्लूड सॉलिड वुड पैनल",
+      "जॉइंटेड वुड पैनल"
+    ]
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

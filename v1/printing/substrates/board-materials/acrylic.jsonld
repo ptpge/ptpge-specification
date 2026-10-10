@@ -1,0 +1,103 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/acrylic",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Acrylic",
+    "es": "Acrílico",
+    "zh-Hans": "亚克力",
+    "nb": "Akryl",
+    "de": "Acryl",
+    "ja": "アクリル",
+    "sv": "Akryl",
+    "da": "Akryl",
+    "nl": "Acryl",
+    "pl": "Akryl",
+    "pt": "Acrílico",
+    "hi": "ऐक्रेलिक"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§ACRYLIC",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Transparent or colored thermoplastic panels (PMMA, also known as plexiglass) — used for backlit signs, exhibition displays, and architectural elements.",
+    "nb": "Gjennomsiktige eller fargede termoplastpaneler (PMMA, også kjent som plexiglass) — brukt til bakgrunnsbelyste skilt, messeoppstillinger og arkitekturelementer.",
+    "de": "Transparente oder gefärbte thermoplastische Platten (PMMA, auch Plexiglas genannt) — verwendet für hinterleuchtete Schilder, Messedisplays und Architekturelemente.",
+    "ja": "透明または着色された熱可塑性パネル（PMMA、別名プレキシガラス）— バックライト式サイン、展示ディスプレイ、建築要素に使用される。",
+    "es": "Plancha rígida de polimetacrilato — transparente o coloreado, durable, utilizado en señalética, displays y aplicaciones arquitectónicas.",
+    "zh-Hans": "聚甲基丙烯酸甲酯的刚性板 —— 透明或彩色，耐用，用于标识、展示和建筑应用。",
+    "sv": "Transparenta eller färgade termoplastskivor (PMMA, även kallat plexiglas) — används för bakbelysta skyltar, mässdisplayer och arkitektoniska element.",
+    "da": "Transparente eller farvede termoplastpaneler (PMMA, også kendt som plexiglas) — bruges til bagbelyste skilte, udstillingsdisplays og arkitektoniske elementer.",
+    "nl": "Transparante of gekleurde thermoplastische platen (PMMA, ook bekend als plexiglas) — gebruikt voor verlichte borden, tentoonstellingsdisplays en architectonische elementen.",
+    "pl": "Przezroczyste lub barwione płyty termoplastyczne (PMMA, znane też jako pleksi) — używane do podświetlanych szyldów, ekspozycji wystawienniczych i elementów architektonicznych.",
+    "pt": "Painéis termoplásticos transparentes ou coloridos (PMMA, também chamado plexiglass) — usados em letreiros retroiluminados, displays de exposição e elementos arquitetônicos.",
+    "hi": "पारदर्शी या रंगीन थर्मोप्लास्टिक पैनल (PMMA, जिसे प्लेक्सीग्लास भी कहते हैं) — बैकलिट साइन, प्रदर्शनी डिस्प्ले और वास्तु तत्वों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Plexiglass",
+      "Perspex",
+      "PMMA",
+      "Plexi",
+      "Plexiglas",
+      "Acrylic glass"
+    ],
+    "nb": [
+      "Akryl",
+      "Pleksiglass"
+    ],
+    "de": [
+      "Acrylglas",
+      "Plexiglas",
+      "PMMA"
+    ],
+    "pl": [
+      "pleksi",
+      "plexi",
+      "PMMA",
+      "Plexiglas",
+      "szkło akrylowe",
+      "pleksiglas"
+    ],
+    "pt": [
+      "plexiglass",
+      "PMMA",
+      "acrílico transparente",
+      "vidro acrílico",
+      "chapa de acrílico"
+    ],
+    "hi": [
+      "प्लेक्सीग्लास",
+      "पर्सपेक्स",
+      "PMMA",
+      "ऐक्रेलिक शीट",
+      "ऐक्रेलिक ग्लास"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

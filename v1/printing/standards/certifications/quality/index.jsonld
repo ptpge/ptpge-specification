@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/quality",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Quality",
+    "es": "Calidad",
+    "zh-Hans": "质量",
+    "nb": "Kvalitet",
+    "de": "Qualität",
+    "ja": "品質",
+    "sv": "Kvalitet",
+    "da": "Kvalitet",
+    "nl": "Kwaliteit",
+    "pl": "Jakościowe",
+    "pt": "Qualidade",
+    "hi": "गुणवत्ता"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/certifications/quality/iso-9001"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Generic management-system standards demonstrating that an organization has documented and maintains effective quality processes.",
+    "nb": "Generiske ledelsessystem-standarder som dokumenterer at en organisasjon har innført og opprettholder effektive kvalitetsprosesser.",
+    "de": "Allgemeine Managementsystem-Normen, die belegen, dass eine Organisation effektive Qualitätsprozesse dokumentiert und aufrechterhält.",
+    "ja": "組織が文書化された有効な品質プロセスを保有し維持していることを実証する、汎用的なマネジメントシステム規格。",
+    "es": "Normas genéricas de sistemas de gestión que demuestran que una organización ha documentado y mantiene procesos de calidad efectivos.",
+    "zh-Hans": "证明组织已记录并维护有效质量过程的通用管理系统标准。",
+    "sv": "Generiska ledningssystemstandarder som visar att en organisation har dokumenterade och underhållna effektiva kvalitetsprocesser.",
+    "da": "Generiske ledelsessystemstandarder, der dokumenterer at en organisation har dokumenterede og vedligeholdte effektive kvalitetsprocesser.",
+    "nl": "Generieke managementsysteemstandaarden die aantonen dat een organisatie gedocumenteerde en onderhouden effectieve kwaliteitsprocessen heeft.",
+    "pl": "Ogólne standardy systemów zarządzania potwierdzające, że organizacja udokumentowała i utrzymuje skuteczne procesy jakości.",
+    "pt": "Normas genéricas de sistemas de gestão que demonstram que uma organização documentou e mantém processos de qualidade eficazes.",
+    "hi": "सामान्य प्रबंधन-प्रणाली मानक जो दर्शाते हैं कि संगठन ने प्रभावी गुणवत्ता प्रक्रियाएँ दस्तावेज़ीकृत की हैं और बनाए रखता है।"
+  },
+  "scopeNote": {
+    "en": "Centered on ISO 9001 — applicable to printers as to any organization. Industry-specific process certifications and environmental management systems are tracked separately.",
+    "nb": "Sentrert rundt ISO 9001 — gyldig for trykkerier på lik linje med enhver organisasjon. Bransjespesifikke prosessertifiseringer og miljøledelsessystemer spores separat.",
+    "de": "Im Mittelpunkt steht ISO 9001 — anwendbar auf Druckereien wie auf jede andere Organisation. Branchenspezifische Prozesszertifizierungen und Umweltmanagementsysteme werden separat geführt.",
+    "ja": "ISO 9001を中心とする — 印刷会社にも他の組織と同様に適用される。業種固有の工程認証および環境マネジメントシステムは別途扱う。",
+    "es": "Centrada en ISO 9001 — aplicable a imprentas como a cualquier organización. Las certificaciones específicas de procesos de impresión y los sistemas de gestión ambiental se rastrean por separado.",
+    "zh-Hans": "以ISO 9001为中心——适用于印刷厂以及任何组织。行业特定的工艺认证和环境管理系统另行跟踪。",
+    "pt": "Centrada na ISO 9001 — aplicável a impressores como a qualquer organização. Certificações de processo específicas do setor e sistemas de gestão ambiental são registrados separadamente.",
+    "hi": "ISO 9001 पर केंद्रित — प्रिंटरों पर वैसे ही लागू जैसे किसी भी संगठन पर। उद्योग-विशिष्ट प्रक्रिया प्रमाणन और पर्यावरण प्रबंधन प्रणालियाँ अलग दर्ज।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-CER-QUAL",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

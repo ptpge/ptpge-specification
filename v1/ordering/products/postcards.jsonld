@@ -1,0 +1,276 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/postcards",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§POSTCARDS",
+  "elementType": "product",
+  "label": {
+    "en": "Postcards",
+    "nb": "Postkort",
+    "de": "Postkarten",
+    "ja": "ハガキ",
+    "es": "Postales",
+    "zh-Hans": "明信片",
+    "nl": "Ansichtkaarten",
+    "sv": "Vykort",
+    "da": "Postkort",
+    "pl": "Pocztówki",
+    "pt": "Cartões-postais",
+    "hi": "पोस्टकार्ड"
+  },
+  "altLabels": {
+    "en": [
+      "postcard",
+      "mailer card",
+      "Mailers",
+      "Mailer",
+      "Direct mail postcards"
+    ],
+    "nb": [
+      "postkort"
+    ],
+    "de": [
+      "Ansichtskarten",
+      "Werbepostkarten"
+    ],
+    "pl": [
+      "pocztówka",
+      "kartka pocztowa",
+      "karta mailingowa",
+      "pocztówka reklamowa"
+    ],
+    "sv": [
+      "vykorten",
+      "postkort",
+      "reklamkort",
+      "DR-kort",
+      "adresserad reklam"
+    ],
+    "da": [
+      "postkortet",
+      "reklamekort",
+      "adresseløs reklame-kort",
+      "DM-kort"
+    ],
+    "nl": [
+      "ansichtkaart",
+      "briefkaart",
+      "briefkaarten",
+      "reclamekaart",
+      "DM-kaart"
+    ],
+    "pt": [
+      "cartão-postal",
+      "postal",
+      "cartão de mala direta",
+      "postal promocional"
+    ],
+    "hi": [
+      "पोस्टकार्ड",
+      "मेलर कार्ड",
+      "डायरेक्ट मेल कार्ड",
+      "मेलर"
+    ],
+    "es": [
+      "postal",
+      "tarjeta postal",
+      "tarjeta de correo directo",
+      "mailing"
+    ],
+    "ja": [
+      "ポストカード",
+      "はがき",
+      "絵はがき",
+      "DMはがき",
+      "ダイレクトメール"
+    ],
+    "zh-Hans": [
+      "邮寄卡",
+      "直邮卡片",
+      "宣传明信片"
+    ]
+  },
+  "definition": {
+    "en": "A flat card printed one or both sides for mailing or hand-out — promotions, announcements and direct mail.",
+    "nb": "Et flatt kort trykt på én eller begge sider for utsending eller utdeling — kampanjer, kunngjøringer og direktereklame.",
+    "de": "Eine flache, ein- oder beidseitig bedruckte Karte für Versand oder Verteilung.",
+    "ja": "郵送や手渡しに使う片面／両面印刷のポストカード。販促・告知・ダイレクトメールに。",
+    "es": "Una tarjeta plana impresa por una o ambas caras para envío postal o entrega en mano — promociones, anuncios y correo directo.",
+    "zh-Hans": "单面或双面印刷的平张卡片——用于邮寄或派发的促销、通知和直邮。",
+    "sv": "Ett plant kort tryckt på en eller båda sidor för postutskick eller utdelning — kampanjer, kungörelser och direktreklam.",
+    "da": "Et fladt kort trykt på én eller begge sider til forsendelse eller uddeling — kampagner, annonceringer og direct mail.",
+    "nl": "Een vlakke kaart, enkel- of dubbelzijdig gedrukt, voor mailing of uitdelen — promoties, aankondigingen en direct mail.",
+    "pl": "Płaska karta zadrukowana jedno- lub dwustronnie do wysyłki lub rozdawania — promocje, ogłoszenia i direct mail.",
+    "pt": "Cartão plano impresso em uma ou ambas as faces para envio ou distribuição — promoções, anúncios e mala direta.",
+    "hi": "डाक या हाथ से बाँटने के लिए एक या दोनों तरफ़ मुद्रित सपाट कार्ड — प्रचार, घोषणाएँ और डायरेक्ट मेल।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/us/junior-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/half-letter"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper"
+  ],
+  "supportsSubstrateFibre": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "customSizeRange": {
+    "min": 85,
+    "max": 250,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsBackOrientation": [
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head",
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/substrate/substrate-fibre",
+    "https://ptpge.org/v1/variables/configuration/back-orientation",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

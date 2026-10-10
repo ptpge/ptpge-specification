@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/packaging/tubes> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Mailing tube"@en,
+        "Poster tube"@en,
+        "Tube"@en,
+        "गत्ते की ट्यूब"@hi,
+        "ट्यूब"@hi,
+        "पोस्टर ट्यूब"@hi,
+        "मेलिंग ट्यूब"@hi,
+        "Plakatrør"@nb,
+        "Rør"@nb,
+        "tuba"@pl,
+        "tuba na plakaty"@pl,
+        "tuba wysyłkowa"@pl,
+        "canudo"@pt,
+        "tubo"@pt,
+        "tubo para pôster"@pt,
+        "tubo postal"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/packaging> ;
+    skos:definition "Cylindriske pap- eller plastforsendelsesrør til rullede plakater, tegninger, kunstværker og andre tryksager i langt format. Typisk lukket i begge ender med plastpropper."@da,
+        "Zylindrische Versandrohre aus Karton oder Kunststoff für aufgerollte Poster, Baupläne, Kunstwerke und andere Druckerzeugnisse im Langformat. Werden in der Regel an beiden Enden mit Kunststoffstopfen verschlossen."@de,
+        "Cylindrical cardboard or plastic shipping tubes used for rolled posters, blueprints, artwork, and other long-format printed products. Typically capped at both ends with plastic plugs."@en,
+        "Tubos rígidos para enviar carteles, planos y otros productos en rollo sin deformar."@es,
+        "लिपटे पोस्टर, ब्लूप्रिंट, आर्टवर्क और अन्य लंबे मुद्रित उत्पादों के लिए बेलनाकार गत्ते या प्लास्टिक की शिपिंग ट्यूब। आमतौर पर दोनों सिरों पर प्लास्टिक के ढक्कन।"@hi,
+        "巻いたポスター、設計図、アートワーク、その他の長尺印刷物の発送に使用される円筒形の段ボールまたはプラスチック製の筒。通常両端にプラスチック栓でキャップを付ける。"@ja,
+        "Sylindriske forsendelsestuber av papp eller plast brukt til rullede plakater, byggeark, kunst og andre langformat trykkprodukter. Vanligvis lukket i begge ender med plastplugger."@nb,
+        "Cilindrische kartonnen of kunststof verzendkokers voor opgerolde posters, tekeningen, kunstwerken en ander drukwerk in lang formaat. Doorgaans aan beide uiteinden afgesloten met kunststof doppen."@nl,
+        "Cylindryczne tuby wysyłkowe z tektury lub plastiku używane do zwiniętych plakatów, rysunków technicznych, grafik i innych długich produktów drukowanych. Zwykle zamknięte na obu końcach plastikowymi zatyczkami."@pl,
+        "Tubos cilíndricos de papelão ou plástico para pôsteres enrolados, plantas, arte e outros impressos longos. Normalmente com tampas plásticas nas extremidades."@pt,
+        "Cylindriska frakttuber av kartong eller plast för rullade affischer, ritningar, konstverk och andra långa trycksaker. Typiskt förslutna i båda ändar med plastpluggar."@sv,
+        "用于发送海报、平面图和其他卷状产品的刚性管不变形。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§TUBES" ;
+    skos:prefLabel "Rør"@da,
+        "Tuben / Röhren"@de,
+        "Tubes"@en,
+        "Tubos"@es,
+        "ट्यूब"@hi,
+        "チューブ"@ja,
+        "Rør"@nb,
+        "Kokers"@nl,
+        "Tuby"@pl,
+        "Tubos"@pt,
+        "Tuber"@sv,
+        "纸筒"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+                "§5.6.28 · p.128",
+                "§5.6.3 · p.113",
+                "§5.6.39 · p.135",
+                "§6.10 · p.161" ;
+            ptpge:mappingRow "crosswalk row 48" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BoxPacking",
+                "Bundle",
+                "Palletizing",
+                "Shrinking",
+                "Wrapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

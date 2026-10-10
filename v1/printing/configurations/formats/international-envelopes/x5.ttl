@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/x5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "10.5 x 21.6 cm"@en,
+        "105 x 216 mm"@en,
+        "105x216"@en,
+        "105×216"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "105 × 216 mm. Smalt specialkuvert til visse A5-relaterede forsendelser."@da,
+        "105 × 216 mm. Spezial-Briefumschlag im schmalen Format, eingesetzt für bestimmte A5-bezogene Korrespondenz."@de,
+        "105 × 216 mm. Specialty narrow envelope, used for specific A5-related correspondence."@en,
+        "Sobre X5 — formato extra extendido para envíos voluminosos europeos."@es,
+        "105 × 216 mm. विशेष पतला लिफ़ाफ़ा, A5 से जुड़े विशिष्ट पत्राचार के लिए।"@hi,
+        "105×216mm。特定のA5関連通信に使用される特殊な細長い封筒。"@ja,
+        "105 × 216 mm. Spesialisert smal konvolutt, brukt til spesifikk A5-relatert korrespondanse."@nb,
+        "105 × 216 mm. Smalle speciale envelop voor bepaalde A5-gerelateerde zendingen."@nl,
+        "105 × 216 mm. Specjalna wąska koperta, używana do określonej korespondencji związanej z formatem A5."@pl,
+        "105 × 216 mm. Envelope estreito especial, para correspondência específica relacionada a A5."@pt,
+        "105 × 216 mm. Smalt specialkuvert för viss A5-relaterad korrespondens."@sv,
+        "X5信封 —— 用于大容量邮寄的欧洲超加大格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§X5" ;
+    skos:prefLabel "X5 (105 x 216 mm)"@da,
+        "X5 (105 x 216 mm)"@de,
+        "X5 (105 x 216 mm)"@en,
+        "X5 (105 × 216 mm)"@es,
+        "X5 (105 x 216 mm)"@hi,
+        "X5 (105 x 216 mm)"@ja,
+        "X5 (105 x 216 mm)"@nb,
+        "X5 (105 x 216 mm)"@nl,
+        "X5 (105 x 216 mm)"@pl,
+        "X5 (105 x 216 mm)"@pt,
+        "X5 (105 x 216 mm)"@sv,
+        "X5 (105 × 216 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 22680.0 ;
+            ptpge:aspectRatio 2.0571 ;
+            ptpge:height 216.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 105.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

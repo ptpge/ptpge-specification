@@ -1,0 +1,116 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/case-binding",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§CASE-BINDING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "label": {
+    "en": "Case Binding",
+    "nb": "Hardback-innbinding",
+    "de": "Buchdeckenbindung",
+    "ja": "Case Binding",
+    "es": "Case Binding",
+    "zh-Hans": "Case Binding",
+    "sv": "Hårdbandsbindning",
+    "da": "Bogbind (hardcover)",
+    "nl": "Boekband (hardcover)",
+    "pl": "Oprawa twarda",
+    "pt": "Capa dura",
+    "hi": "केस बाइंडिंग (हार्डकवर)"
+  },
+  "definition": {
+    "en": "A sewn or glued book block encased in a rigid cover; hardback books.",
+    "nb": "En sydd eller limt bokblokk i et stivt omslag; hardback-bøker.",
+    "de": "Ein genähter oder geklebter Buchblock in einer festen Decke; Hardcover-Bücher.",
+    "ja": "糸かがりまたは糊付けした本文ブロックを硬い表紙で包んだもの。ハードカバー書籍。",
+    "es": "Un bloque de libro cosido o encolado dentro de una tapa rígida; libros de tapa dura.",
+    "zh-Hans": "将锁线或胶粘的书芯包入硬质封面；精装书。",
+    "sv": "Ett sytt eller limmat bokblock inneslutet i ett styvt band; inbundna böcker.",
+    "da": "En syet eller limet bogblok indsat i et stift bind; indbundne bøger.",
+    "nl": "Een genaaid of gelijmd boekblok in een stijve band; gebonden boeken.",
+    "pl": "Szyty lub klejony blok książki osadzony w sztywnej okładce; książki w twardej oprawie.",
+    "pt": "Miolo costurado ou colado, encaixado em uma capa rígida; livros de capa dura.",
+    "hi": "सिला या चिपका हुआ बुक ब्लॉक कठोर कवर में जड़ा हुआ; हार्डबैक किताबें।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Hardcover binding",
+      "Hardcover",
+      "Hardback",
+      "Casebound",
+      "Cased",
+      "Edition binding"
+    ],
+    "nb": [
+      "Hardcover",
+      "Innbundet",
+      "Stivbind"
+    ],
+    "da": [
+      "Indbundet",
+      "Hardback",
+      "Hardcover"
+    ],
+    "de": [
+      "Gebunden",
+      "Hardcover",
+      "Festeinband"
+    ],
+    "sv": [
+      "Inbunden",
+      "Hardcover"
+    ],
+    "nl": [
+      "Gebonden",
+      "Hardcover"
+    ],
+    "pl": [
+      "oprawa introligatorska twarda",
+      "oprawa kartonowa"
+    ],
+    "pt": [
+      "encadernação em capa dura",
+      "capa dura",
+      "cartonado",
+      "encadernação cartonada",
+      "hardcover"
+    ],
+    "hi": [
+      "हार्डकवर बाइंडिंग",
+      "हार्डकवर",
+      "हार्डबैक",
+      "केसबाउंड",
+      "पक्की जिल्द"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "ThreadSewing",
+        "CaseMaking",
+        "CasingIn"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.35 · p.133",
+        "§5.6.5 · p.115",
+        "§5.6.6 · p.115"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 42"
+    }
+  ]
+}

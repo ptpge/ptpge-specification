@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/b-series/b2> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "50 x 70.7 cm"@en,
+        "500 x 707 mm"@en,
+        "500x707"@en,
+        "500×707"@en,
+        "DIN B2"@en,
+        "B2-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/b-series> ;
+    skos:definition "500 × 707 mm (19.69 × 27.83 tommer). Del af B-serien i ISO 216 — lidt større end det tilsvarende A-format. Halvdelen af arealet af B1. Bruges til plakater og mellemstor skiltning."@da,
+        "500 × 707 mm (19,69 × 27,83 in). Teil der ISO-216-B-Reihe — etwas größer als das entsprechende A-Format. Hälfte der Fläche von B1. Verwendet für Plakate und mittelgroße Beschilderung."@de,
+        "500 × 707 mm (19.69 × 27.83 in). Part of the ISO 216 B series — slightly larger than the corresponding A size. Half the area of B1. Used for posters and mid-size signage."@en,
+        "Formato B2 de la serie B de ISO 216, dimensiones 500 × 707 mm. Cada B es la media geométrica entre los dos A correspondientes."@es,
+        "500 × 707 mm (19.69 × 27.83 in). ISO 216 B-सीरीज़ का हिस्सा — संगत A आकार से थोड़ा बड़ा। B1 का आधा क्षेत्रफल। पोस्टरों और मध्यम साइनेज में।"@hi,
+        "500×707mm（19.69×27.83インチ）。ISO 216 Bシリーズの一部 — 対応するAサイズよりわずかに大きい。B1の半分の面積。ポスターおよび中型サインに使用される。"@ja,
+        "500 × 707 mm (19,69 × 27,83 in). Del av ISO 216 B-serien — litt større enn tilsvarende A-størrelse. Halvparten av B1. Brukt til plakater og mellomstor skilting."@nb,
+        "500 × 707 mm (19.69 × 27.83 inch). Onderdeel van de B-reeks in ISO 216 — iets groter dan het overeenkomstige A-formaat. De helft van het oppervlak van B1. Gebruikt voor plakater en mellemstor skiltning."@nl,
+        "500 × 707 mm (19,69 × 27,83 cala). Część serii B normy ISO 216 — nieco większa od odpowiadającego formatu A. Połowa powierzchni B1. Używany do plakatów i średniego oznakowania."@pl,
+        "500 × 707 mm (19.69 × 27.83 in). Faz parte da série B da ISO 216 — ligeiramente maior que o tamanho A correspondente. Metade da área do B1. Usado em pôsteres e sinalização média."@pt,
+        "500 × 707 mm (19.69 × 27.83 tum). Del av B-serien i ISO 216 — något större än motsvarande A-format. Halva arean av B1. Används för affischer och mellanstor skyltning."@sv,
+        "ISO 216 B系列B2开本，尺寸500 × 707 mm。每个B尺寸是对应两个A尺寸的几何平均。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§B2" ;
+    skos:prefLabel "B2 (500 x 707 mm)"@da,
+        "B2 (500 x 707 mm)"@de,
+        "B2 (500 x 707 mm)"@en,
+        "B2 (500 × 707 mm)"@es,
+        "B2 (500 x 707 mm)"@hi,
+        "B2 (500 x 707 mm)"@ja,
+        "B2 (500 x 707 mm)"@nb,
+        "B2 (500 x 707 mm)"@nl,
+        "B2 (500 x 707 mm)"@pl,
+        "B2 (500 x 707 mm)"@pt,
+        "B2 (500 x 707 mm)"@sv,
+        "B2 (500 × 707 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 353500.0 ;
+            ptpge:aspectRatio 1.414 ;
+            ptpge:height 707.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 500.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

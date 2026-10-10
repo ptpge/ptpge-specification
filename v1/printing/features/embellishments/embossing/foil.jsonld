@@ -1,0 +1,106 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/embossing/foil",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Foil Embossing",
+    "nb": "Folie-embossing",
+    "de": "Folienhochprägung",
+    "ja": "箔エンボス",
+    "es": "Relieve con lámina",
+    "zh-Hans": "烫箔凸压",
+    "sv": "Folieprägling",
+    "da": "Folieprægning (relief)",
+    "nl": "Foliepreging (reliëf)",
+    "pl": "Tłoczenie z folią",
+    "pt": "Relevo com foil",
+    "hi": "फ़ॉइल एम्बॉसिंग"
+  },
+  "definition": {
+    "en": "Embossing combined with hot-foil stamping in one operation — the relief is raised AND covered with a metallic or pigmented foil. The most visually impactful single embellishment, frequently used on luxury packaging logos.",
+    "nb": "Embossing kombinert med varmfolie-preging i én operasjon — relieffen er hevet OG dekket med en metallisk eller pigmentert folie. Den mest visuelt effektfulle enkeltforedlingen, ofte brukt på luksusemballasje-logoer.",
+    "de": "Prägung kombiniert mit Heißfolienprägung in einem Arbeitsgang — das Relief ist erhaben UND mit einer metallischen oder pigmentierten Folie bedeckt.",
+    "ja": "エンボスとホットフォイル（箔押し）を1工程で組み合わせる — レリーフを盛り上げ、同時にメタリックまたは顔料箔で覆う。単体の加飾として最も視覚的インパクトが強く、高級パッケージのロゴによく使われる。",
+    "es": "Gofrado combinado con estampación de foil en caliente en una sola operación — el relieve queda elevado Y cubierto con un foil metálico o pigmentado. La ornamentación individual de mayor impacto visual, frecuente en logotipos de packaging de lujo.",
+    "zh-Hans": "压凸与烫印一次完成的组合工艺 — 浮雕既凸起又覆以金属或颜料箔。视觉冲击力最强的单项装饰工艺，常用于奢华包装标志。",
+    "sv": "Prägling kombinerad med varmfoliering i en operation — reliefen är upphöjd OCH täckt med metallisk eller pigmenterad folie. Den visuellt mest slagkraftiga enskilda dekoren, ofta använd på lyxförpackningars logotyper.",
+    "da": "Prægning kombineret med varmfolieprægning i én operation — reliefet hæves OG dækkes med en metallisk eller pigmenteret folie. Den visuelt mest markante enkeltforædling, ofte brugt på luksusprodukter.",
+    "nl": "Preging gecombineerd met warmfoliedruk in één bewerking — het reliëf wordt verhoogd ÉN bedekt met een metallic of gepigmenteerde folie. De visueel meest opvallende enkelvoudige veredeling, vaak op luxeproducten.",
+    "pl": "Tłoczenie połączone z folią na gorąco w jednej operacji — relief jest wypukły I pokryty folią metaliczną lub pigmentowaną. Najbardziej efektowne pojedyncze uszlachetnienie, często stosowane do logo na opakowaniach luksusowych.",
+    "pt": "Relevo combinado com hot stamping em uma única operação — o relevo é elevado E coberto com foil metálico ou pigmentado. O enobrecimento único de maior impacto visual, muito usado em logotipos de embalagens de luxo.",
+    "hi": "एक ही क्रिया में एम्बॉसिंग और हॉट-फ़ॉइल स्टैंपिंग — उभार भी और उस पर मेटैलिक या रंजित फ़ॉइल भी। सबसे प्रभावशाली एकल सजावटी प्रभाव, लक्ज़री पैकेजिंग के लोगो पर अक्सर प्रयुक्त।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments/embossing",
+  "properties": {
+    "selective": true,
+    "processType": "mechanical-press-with-foil",
+    "coverage": "selective",
+    "reliefDirection": "raised"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§FOIL",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "Foil emboss",
+      "Combination embossing",
+      "Foil and emboss"
+    ],
+    "nb": [
+      "Foliepreg"
+    ],
+    "pl": [
+      "tłoczenie kombinowane",
+      "folia z tłoczeniem"
+    ],
+    "pt": [
+      "relevo com hot stamping",
+      "relevo metalizado",
+      "hot stamping em relevo",
+      "relevo e foil"
+    ],
+    "hi": [
+      "फ़ॉइल एम्बॉस",
+      "कॉम्बिनेशन एम्बॉसिंग",
+      "फ़ॉइल और एम्बॉस",
+      "फ़ॉइल उभार"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent"
+      ],
+      "refs": [
+        "§4.6 · p.74"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 25"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent",
+        "Embossing",
+        "EmbossingParams"
+      ],
+      "refs": [
+        "§4.6 · p.74",
+        "§5.6.12 · p.118",
+        "§6.32 · p.197"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 27"
+    }
+  ]
+}

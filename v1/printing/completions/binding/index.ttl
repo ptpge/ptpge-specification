@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Metoder, der fastgør flere ark eller sider sammen til et færdigt produkt — hæftning, klammer, limning, syning, spiral- og bogbinding."@da,
+        "Verfahren, die mehrere Bogen oder Seiten zu einem fertigen Produkt verbinden — Heften, Klebe-, Faden-, Spiral- und Buchdeckenbindung."@de,
+        "Methods that fasten multiple sheets or pages together into a finished product — stapling, stitching, gluing, sewing, coil and case binding."@en,
+        "Métodos que unen varias hojas o páginas en un producto terminado — grapado, cosido con grapa, encolado, cosido con hilo, espiral y encuadernación en tapa dura."@es,
+        "कई शीटों या पृष्ठों को तैयार उत्पाद में बाँधने की विधियाँ — स्टेपल, स्टिच, गोंद, सिलाई, कॉइल और केस बाइंडिंग।"@hi,
+        "複数の用紙やページを綴じ合わせて完成品にする方法 — ステープル綴じ、中綴じ、糊綴じ、糸かがり、コイル綴じ、上製本。"@ja,
+        "Metoder som fester flere ark eller sider sammen til et ferdig produkt — stifting, limbinding, trådbinding, spiral- og hardback-innbinding."@nb,
+        "Methoden die meerdere vellen of pagina's samenvoegen tot een afgewerkt product — nieten, hechten, lijmen, naaien, spiraal- en boekbinden."@nl,
+        "Metody łączenia wielu arkuszy lub stron w gotowy produkt — zszywanie, szycie, klejenie, spirale i oprawa twarda."@pl,
+        "Métodos que prendem várias folhas ou páginas em um produto acabado — grampo, costura, cola, espiral e capa dura."@pt,
+        "Metoder som fäster flera ark eller sidor samman till en färdig produkt — häftning, sömnad, limning, spiral- och hårdbandsbindning."@sv,
+        "将多张纸或多页固定为成品的方法 — 订书钉装订、骑马钉、胶粘、锁线、线圈装订与精装。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/binding/case-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/coil-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/corner-stapling>,
+        <https://ptpge.org/v1/printing/completions/binding/layflat-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/perfect-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/pur-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/saddle-stitching>,
+        <https://ptpge.org/v1/printing/completions/binding/sewn-binding>,
+        <https://ptpge.org/v1/printing/completions/binding/side-stapling>,
+        <https://ptpge.org/v1/printing/completions/binding/wire-o-binding> ;
+    skos:notation "P:CP-BND" ;
+    skos:prefLabel "Indbinding"@da,
+        "Bindung"@de,
+        "Binding"@en,
+        "Binding"@es,
+        "बाइंडिंग"@hi,
+        "Binding"@ja,
+        "Innbinding"@nb,
+        "Binden"@nl,
+        "Oprawa"@pl,
+        "Encadernação"@pt,
+        "Bindning"@sv,
+        "Binding"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

@@ -1,0 +1,118 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "PMS"@da,
+        "PMS-farve"@da,
+        "Pantone Matching System"@da,
+        "Pantonefarve"@da,
+        "PMS"@de,
+        "PMS-Farbe"@de,
+        "Pantone Matching System"@de,
+        "Pantone-Farbe"@de,
+        "PMS"@en,
+        "Pantone"@en,
+        "Pantone Colors"@en,
+        "Pantone Colours"@en,
+        "Pantone Matching System"@en,
+        "Pantone ink"@en,
+        "PMS"@es,
+        "Pantone Matching System"@es,
+        "color Pantone"@es,
+        "tinta Pantone"@es,
+        "PMS"@hi,
+        "Pantone"@hi,
+        "Pantone Matching System"@hi,
+        "Pantone रंग"@hi,
+        "Pantone स्याही"@hi,
+        "PMS"@ja,
+        "Pantone Matching System"@ja,
+        "パントン"@ja,
+        "パントンカラー"@ja,
+        "PMS"@nb,
+        "PMS-farge"@nb,
+        "Pantone"@nb,
+        "Pantone Matching System"@nb,
+        "Pantone-farge"@nb,
+        "PMS"@nl,
+        "PMS-kleur"@nl,
+        "Pantone Matching System"@nl,
+        "Pantone-kleur"@nl,
+        "PMS"@pl,
+        "Pantone Matching System"@pl,
+        "kolory Pantone"@pl,
+        "Cores Pantone"@pt,
+        "PMS"@pt,
+        "Pantone"@pt,
+        "Pantone Matching System"@pt,
+        "tinta Pantone"@pt,
+        "PMS"@sv,
+        "PMS-färg"@sv,
+        "Pantone Matching System"@sv,
+        "Pantonefärg"@sv,
+        "PMS"@zh-Hans,
+        "Pantone Matching System"@zh-Hans,
+        "潘通"@zh-Hans,
+        "潘通色卡"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems> ;
+    skos:definition "Et proprietært farvematchsystem udviklet af Pantone Inc., der giver hver navngiven farve et nummer og en præcist defineret farveopskrift. Lader en designer i ét land og et trykkeri i et andet gengive præcis samme farve uden at beskrive den numerisk. De facto-branchestandarden for staffagefarver inden for branding, emballage og forædling."@da,
+        "Ein von Pantone Inc. entwickeltes proprietäres Farbabgleichssystem, das jeder benannten Farbe eine Nummer und eine präzise definierte Druckfarbenrezeptur zuweist. Ermöglicht es einem Designer in einem Land und einer Druckerei in einem anderen, exakt dieselbe Farbe zu reproduzieren, ohne sie numerisch beschreiben zu müssen. Der De-facto-Industriestandard für Sonderfarben in Branding, Verpackung und Veredelung."@de,
+        "A proprietary color matching system developed by Pantone Inc. that assigns each named color a number and a precisely-defined ink formulation. Lets a designer in one country and a printer in another reproduce exactly the same color without describing it numerically. The de facto industry standard for spot colors in branding, packaging, and finishing."@en,
+        "Sistema propietario de igualación de color de Pantone, que asigna un identificador único a cada tinta mezclada. Estándar de facto de la industria para especificar tintas planas en producción impresa."@es,
+        "Pantone Inc. द्वारा विकसित स्वामित्व रंग मिलान प्रणाली जो हर नामित रंग को एक संख्या और सटीक परिभाषित स्याही फ़ॉर्मूला देती है। एक देश का डिज़ाइनर और दूसरे देश का प्रिंटर बिना संख्यात्मक वर्णन के बिल्कुल वही रंग पुनरुत्पादित कर सकते हैं। ब्रांडिंग, पैकेजिंग और फ़िनिशिंग में स्पॉट रंगों का वास्तविक उद्योग मानक।"@hi,
+        "Pantone Inc.が開発した独自のカラーマッチングシステム。各色に番号と精密に定義されたインキ調合式を割り当てる。ある国のデザイナーと別の国の印刷会社が、数値で記述することなく全く同じ色を再現することを可能にする。ブランディング、パッケージング、加工における特色（スポットカラー）の事実上の業界標準。"@ja,
+        "Et proprietært fargematchingsystem utviklet av Pantone Inc. som gir hver navngitte farge et nummer og en presist definert blekksammensetning. Lar en designer i ett land og et trykkeri i et annet gjengi nøyaktig samme farge uten å beskrive den numerisk. De facto bransjestandard for spotfarger i merkevarer, emballasje og finish."@nb,
+        "Een eigen kleurmatchsysteem van Pantone Inc. dat elke benoemde kleur een nummer en een precies gedefinieerd inktrecept geeft. Laat een ontwerper in het ene land en een drukkerij in het andere exact dezelfde kleur reproduceren zonder die numeriek te beschrijven. De facto de industriestandaard voor steunkleuren in branding, verpakkingen en veredeling."@nl,
+        "Własnościowy system wzorcowania barw opracowany przez Pantone Inc., przypisujący każdej nazwanej barwie numer i precyzyjnie zdefiniowaną recepturę farby. Pozwala projektantowi w jednym kraju i drukarni w innym odtworzyć dokładnie tę samą barwę bez opisywania jej liczbowo. Faktyczny standard branżowy kolorów dodatkowych w brandingu, opakowaniach i wykończeniu."@pl,
+        "Sistema proprietário de correspondência de cor desenvolvido pela Pantone Inc. que atribui a cada cor nomeada um número e uma formulação de tinta precisamente definida. Permite que um designer num país e um impressor em outro reproduzam exatamente a mesma cor sem descrevê-la numericamente. A norma de fato do setor para cores especiais em branding, embalagens e acabamentos."@pt,
+        "Ett proprietärt färgmatchningssystem utvecklat av Pantone Inc. som ger varje namngiven kulör ett nummer och en exakt definierad bläckreceptur. Låter en formgivare i ett land och ett tryckeri i ett annat återge exakt samma kulör utan att beskriva den numeriskt. De facto-branschstandarden för dekorfärger inom varumärken, förpackningar och efterbehandling."@sv,
+        "Pantone的专属色彩匹配系统，为每种混合油墨分配唯一标识符。是行业指定专色印刷生产的事实标准。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q391864> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-metallic>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-neon>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-pastel>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-spot> ;
+    skos:notation "P:ST-CSY-CMTC-PANT" ;
+    skos:prefLabel "Pantone"@da,
+        "Pantone"@de,
+        "Pantone"@en,
+        "Pantone"@es,
+        "Pantone"@hi,
+        "Pantone"@ja,
+        "Pantone"@nb,
+        "Pantone"@nl,
+        "Pantone"@pl,
+        "Pantone"@pt,
+        "Pantone"@sv,
+        "Pantone"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    skos:scopeNote "PMS umfasst Volltonsonderfarben (Pantone Solid Coated/Uncoated), Skalenfarbensimulationen (Pantone Bridge), Neon- und Metallic-Serien sowie Pastelltöne. Pantone lizenziert das System; Bücher und digitale Referenzen müssen aktuell gehalten werden, um Genauigkeit zu gewährleisten."@de,
+        "PMS includes solid spot colors (Pantone Solid Coated/Uncoated), process simulations (Pantone Bridge), neon and metallic series, and pastels. Pantone licenses the system; books and digital references must be kept current to ensure accuracy."@en,
+        "PMS में ठोस स्पॉट रंग (Pantone Solid Coated/Uncoated), प्रोसेस अनुकरण (Pantone Bridge), नियॉन और मेटैलिक श्रृंखलाएँ और पेस्टल शामिल। Pantone प्रणाली को लाइसेंस देता है; सटीकता के लिए पुस्तकें और डिजिटल संदर्भ अद्यतन रखने होते हैं।"@hi,
+        "PMSにはソリッドスポットカラー（Pantone Solid Coated/Uncoated）、プロセスシミュレーション（Pantone Bridge）、蛍光色および金属色シリーズ、パステルが含まれる。PantoneはPMSをライセンス販売しており、見本帳およびデジタルリファレンスは精度を保つために常に最新版を維持する必要がある。"@ja,
+        "PMS inkluderer rene spotfarger (Pantone Solid Coated/Uncoated), prosess-simuleringer (Pantone Bridge), neon- og metalliske serier, og pasteller. Pantone lisensierer systemet; fargebøker og digitale referanser må holdes oppdatert for å sikre nøyaktighet."@nb,
+        "O PMS inclui cores especiais sólidas (Pantone Solid Coated/Uncoated), simulações em processo (Pantone Bridge), séries néon e metálicas, e pastéis. A Pantone licencia o sistema; guias e referências digitais devem ser mantidos atualizados para garantir a precisão."@pt ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

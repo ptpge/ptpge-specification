@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/nano> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Nanographic printing"@en,
+        "Nanography"@en,
+        "नैनोग्राफ़िक प्रिंटिंग"@hi,
+        "नैनोग्राफ़ी"@hi,
+        "Nanografi"@nb,
+        "druk nanograficzny"@pl,
+        "nanografia"@pl,
+        "Impressão nanográfica"@pt,
+        "Nanografia"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital> ;
+    skos:definition "Landa Digital Printings proprietære Nanographic Printing-proces — bruger ultrafine pigmentpartikler i vandbaseret blæk, overført via en opvarmet gummidug. Kombinerer digital variabilitet med offsetlignende billedkvalitet og substratfleksibilitet."@da,
+        "Landa Digital Printings firmeneigenes Nanographic-Printing-Verfahren — verwendet ultrafeine Pigmentpartikel in wasserbasierter Tinte, die über ein beheiztes Gummituch übertragen wird. Verbindet digitale Variabilität mit offsetähnlicher Bildqualität und Bedruckstoff-Flexibilität."@de,
+        "Landa Digital Printing's proprietary Nanographic Printing process — uses ultra-fine pigment particles in water-based ink, transferred via a heated rubber blanket. Combines digital variability with offset-like image quality and substrate flexibility."@en,
+        "Tecnologías basadas en nano-partículas de tinta (notablemente Landa Digital) — las partículas extremadamente pequeñas producen una capa fina y de gran brillo sobre el sustrato."@es,
+        "Landa Digital Printing की स्वामित्व वाली Nanographic Printing प्रक्रिया — जल-आधारित स्याही में अति-सूक्ष्म पिगमेंट कण, गर्म रबर ब्लैंकेट से स्थानांतरित। डिजिटल परिवर्तनशीलता को ऑफसेट-जैसी छवि गुणवत्ता और सब्सट्रेट लचीलेपन से जोड़ती है।"@hi,
+        "Landa Digital Printingの独自のNanographic Printingプロセス — 水性インキ中の超微細顔料粒子を使用し、加熱されたゴムブランケットを介して転写する。デジタルの可変性とオフセット品質の画質、基材柔軟性を兼ね備える。"@ja,
+        "Landa Digital Printings proprietære Nanographic Printing-prosess — bruker ultrafine pigmentpartikler i vannbasert blekk, overført via et oppvarmet gummiteppe. Kombinerer digital variabilitet med offset-lignende bildekvalitet og substrat-fleksibilitet."@nb,
+        "Het eigen Nanographic Printing-proces van Landa Digital Printing — gebruikt ultrafijne pigmentdeeltjes in inkt op waterbasis, overgebracht via een verwarmde rubberdoek. Combineert digitale variabiliteit met offsetachtige beeldkwaliteit en substraatflexibiliteit."@nl,
+        "Własnościowy proces Nanographic Printing firmy Landa Digital Printing — wykorzystuje ultradrobne cząstki pigmentu w atramencie wodnym, przenoszone przez podgrzewany gumowy obciąg. Łączy cyfrową zmienność z jakością obrazu i elastycznością podłoży zbliżonymi do offsetu."@pl,
+        "O processo proprietário Nanographic Printing da Landa Digital Printing — usa partículas de pigmento ultrafinas em tinta à base de água, transferidas por uma blanqueta de borracha aquecida. Combina a variabilidade digital com qualidade de imagem e flexibilidade de substrato semelhantes ao offset."@pt,
+        "Landa Digital Printings proprietära Nanographic Printing-process — använder ultrafina pigmentpartiklar i vattenbaserat bläck, överförda via en uppvärmd gummiduk. Kombinerar digital variabilitet med offsetlik bildkvalitet och substratflexibilitet."@sv,
+        "基于纳米颗粒油墨的技术（尤其是Landa Digital）—— 极小的颗粒在承印物上产生薄而高光泽的层。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§NANO" ;
+    skos:prefLabel "Nano"@da,
+        "Nano"@de,
+        "Nano"@en,
+        "Impresión Nano"@es,
+        "नैनो"@hi,
+        "ナノ"@ja,
+        "Nano"@nb,
+        "Nano"@nl,
+        "Nano"@pl,
+        "Nano"@pt,
+        "Nano"@sv,
+        "纳米印刷"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/measurement-systems",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Measurement Systems",
+    "es": "Sistemas de Medida",
+    "zh-Hans": "测量系统",
+    "nb": "Måle-systemer",
+    "de": "Maßsysteme",
+    "ja": "計測単位",
+    "sv": "Måttsystem",
+    "da": "Målesystemer",
+    "nl": "Meetsystemen",
+    "pl": "Systemy miar",
+    "pt": "Sistemas de medição",
+    "hi": "मापन प्रणालियाँ"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/measurement-systems/metric",
+    "https://ptpge.org/v1/printing/standards/measurement-systems/imperial",
+    "https://ptpge.org/v1/printing/standards/measurement-systems/pixels"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Standardized units and conventions for measuring physical and digital dimensions in print production and graphic design.",
+    "nb": "Standardiserte enheter og konvensjoner for måling av fysiske og digitale dimensjoner i trykkproduksjon og grafisk design.",
+    "de": "Standardisierte Einheiten und Konventionen zur Messung physischer und digitaler Größen in der Druckproduktion und im Grafikdesign.",
+    "ja": "印刷生産およびグラフィックデザインにおいて、物理的およびデジタルな寸法を測定するための標準化された単位および規約。",
+    "es": "Unidades y convenciones estandarizadas para medir dimensiones físicas y digitales en la producción de impresión y el diseño gráfico.",
+    "zh-Hans": "印刷生产和图形设计中用于测量物理和数字尺寸的标准化单位和约定。",
+    "sv": "Standardiserade enheter och konventioner för att mäta fysiska och digitala dimensioner i tryckproduktion och grafisk design.",
+    "da": "Standardiserede enheder og konventioner til at måle fysiske og digitale dimensioner i trykproduktion og grafisk design.",
+    "nl": "Gestandaardiseerde eenheden en conventies voor het meten van fysieke en digitale afmetingen in drukproductie en grafisch ontwerp.",
+    "pl": "Ustandaryzowane jednostki i konwencje pomiaru wymiarów fizycznych i cyfrowych w produkcji poligraficznej i projektowaniu graficznym.",
+    "pt": "Unidades e convenções padronizadas para medir dimensões físicas e digitais na produção gráfica e no design.",
+    "hi": "प्रिंट उत्पादन और ग्राफ़िक डिज़ाइन में भौतिक और डिजिटल आयाम मापने की मानकीकृत इकाइयाँ और परंपराएँ।"
+  },
+  "scopeNote": {
+    "en": "Covers metric units (millimeter, centimeter), imperial units (inch, point, pica), and digital units (pixels). Resolution metrics (DPI, PPI) are derived from these and tracked separately.",
+    "nb": "Dekker metriske enheter (millimeter, centimeter), imperialiske enheter (tomme, punkt, pica) og digitale enheter (piksler). Oppløsning (DPI, PPI) er avledet av disse og spores separat.",
+    "de": "Umfasst metrische Einheiten (Millimeter, Zentimeter), imperiale Einheiten (Inch, Punkt, Pica) und digitale Einheiten (Pixel). Auflösungsmetriken (DPI, PPI) sind davon abgeleitet und werden separat geführt.",
+    "ja": "メートル単位（ミリメートル、センチメートル）、インペリアル単位（インチ、ポイント、パイカ）、デジタル単位（ピクセル）を扱う。解像度の指標（DPI、PPI）はこれらから派生し、別途扱う。",
+    "es": "Cubre unidades métricas (milímetro, centímetro), unidades imperiales (pulgada, punto, pica) y unidades digitales (píxeles). Las métricas de resolución (DPI, PPI) se derivan de estas y se rastrean por separado.",
+    "zh-Hans": "涵盖公制单位（毫米、厘米）、英制单位（英寸、点、派卡）和数字单位（像素）。分辨率指标（DPI、PPI）由这些派生而来，单独跟踪。",
+    "pt": "Cobre unidades métricas (milímetro, centímetro), imperiais (polegada, ponto, paica) e digitais (pixels). Métricas de resolução (DPI, PPI) derivam destas e são registradas separadamente.",
+    "hi": "मीट्रिक इकाइयाँ (मिलीमीटर, सेंटीमीटर), इंपीरियल इकाइयाँ (इंच, पॉइंट, पाइका) और डिजिटल इकाइयाँ (पिक्सेल) शामिल। रिज़ॉल्यूशन मेट्रिक (DPI, PPI) इनसे व्युत्पन्न और अलग दर्ज।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-MSY",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "—"
+      ],
+      "refs": [],
+      "match": "concept",
+      "via": "crosswalk row 1"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "jednostki miary"
+    ]
+  }
+}

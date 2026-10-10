@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/proof-approved",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Proof Approved",
+    "nb": "Korrektur godkjent",
+    "de": "Proof freigegeben",
+    "ja": "校正承認済み",
+    "es": "Prueba aprobada",
+    "zh-Hans": "样张已批准",
+    "sv": "Prov godkänt",
+    "da": "Prøve godkendt",
+    "nl": "Proef goedgekeurd",
+    "pl": "Proof zatwierdzony",
+    "pt": "Prova aprovada",
+    "hi": "प्रूफ़ अनुमोदित"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§PROOF-APPROVED",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "State: the customer approved the proof; the job is released to production.",
+    "nb": "Tilstand: kunden godkjente korrekturen; jobben frigis til produksjon.",
+    "de": "Zustand: Der Kunde hat den Proof freigegeben; der Auftrag geht in die Produktion.",
+    "ja": "状態：顧客が校正を承認し、ジョブは生産にリリースされる。",
+    "es": "Estado: el cliente aprobó la prueba; el trabajo se libera a producción.",
+    "zh-Hans": "状态：客户已批准样张；作业放行至生产。",
+    "sv": "Tillstånd: kunden har godkänt provet; jobbet frisläpps till produktion.",
+    "da": "Tilstand: kunden har godkendt prøven; opgaven frigives til produktion.",
+    "nl": "Toestand: de klant heeft de proef goedgekeurd; de opdracht wordt vrijgegeven voor productie.",
+    "pl": "Stan: klient zatwierdził proof; zlecenie jest zwolnione do produkcji.",
+    "pt": "Estado: o cliente aprovou a prova; o trabalho é liberado para produção.",
+    "hi": "अवस्था: ग्राहक ने प्रूफ़ अनुमोदित किया; काम उत्पादन के लिए जारी।"
+  },
+  "elementType": "context",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

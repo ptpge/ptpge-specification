@@ -1,0 +1,93 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/bubble-wrap",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Bubble Wrap",
+    "es": "Plástico de Burbujas",
+    "zh-Hans": "气泡膜",
+    "nb": "Boblepapir",
+    "de": "Luftpolsterfolie",
+    "ja": "気泡緩衝材",
+    "sv": "Bubbelplast",
+    "da": "Bobleplast",
+    "nl": "Noppenfolie",
+    "pl": "Folia bąbelkowa",
+    "pt": "Plástico-bolha",
+    "hi": "बबल रैप"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§BUBBLE-WRAP",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Plastic packaging material with regularly-spaced air-filled bubbles — provides cushioning protection during shipping. Used for individual items, fragile printed products (framed art, ceramics), and as void fill.",
+    "nb": "Plastemballasje-materiale med regelmessig fordelte luftfylte bobler — gir polstret beskyttelse under forsendelse. Brukt til individuelle gjenstander, skjøre trykte produkter (innrammet kunst, keramikk) og som fyllmateriale.",
+    "de": "Kunststoffverpackungsmaterial mit regelmäßig angeordneten luftgefüllten Blasen — bietet Polsterungsschutz beim Versand. Verwendet für Einzelartikel, empfindliche Druckerzeugnisse (gerahmte Kunst, Keramik) und als Hohlraumfüllung.",
+    "ja": "等間隔に空気の入った気泡を持つプラスチック梱包材 — 輸送中に緩衝保護を提供する。個別商品、壊れやすい印刷物（額装作品、陶器）、空隙充填に使用される。",
+    "es": "Material protector con burbujas de aire encapsuladas — envuelve productos impresos para proteger durante el transporte.",
+    "zh-Hans": "带封装气泡的保护材料 —— 包裹印刷品在运输过程中保护。",
+    "sv": "Plastemballage med jämnt fördelade luftfyllda bubblor — ger stötdämpande skydd under frakt. Används för enskilda föremål, ömtåliga trycksaker (inramad konst, keramik) och som utfyllnad.",
+    "da": "Plastemballage med regelmæssigt fordelte luftfyldte bobler — giver stødabsorberende beskyttelse under forsendelse. Bruges til enkeltprodukter, skrøbelige tryksager (indrammet kunst, keramik) og som fyldmateriale.",
+    "nl": "Kunststof verpakkingsmateriaal met regelmatig verdeelde luchtbelletjes — biedt schokdempende bescherming tijdens verzending. Gebruikt voor losse producten, breekbaar drukwerk (ingelijste kunst, keramiek) en als vulmateriaal.",
+    "pl": "Plastikowy materiał opakowaniowy z równomiernie rozmieszczonymi pęcherzykami powietrza — amortyzuje podczas transportu. Stosowany do pojedynczych przedmiotów, delikatnych produktów drukowanych (oprawione grafiki, ceramika) i jako wypełniacz.",
+    "pt": "Material plástico de embalagem com bolhas de ar regularmente espaçadas — amortece durante o transporte. Usado em itens individuais, impressos frágeis (quadros, cerâmica) e como enchimento.",
+    "hi": "नियमित दूरी पर हवा भरे बुलबुलों वाली प्लास्टिक पैकेजिंग सामग्री — शिपिंग में गद्दी की सुरक्षा। अलग-अलग वस्तुओं, नाज़ुक मुद्रित उत्पादों (फ़्रेम्ड आर्ट, सिरेमिक) और ख़ाली जगह भरने में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Bubble wrap",
+      "Bubble packaging"
+    ],
+    "nb": [
+      "Bobleplast"
+    ],
+    "pl": [
+      "folia pęcherzykowa",
+      "opakowanie bąbelkowe"
+    ],
+    "pt": [
+      "plástico bolha",
+      "filme bolha",
+      "embalagem com bolhas"
+    ],
+    "hi": [
+      "बबल रैप",
+      "बबल पैकेजिंग",
+      "बबल शीट"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

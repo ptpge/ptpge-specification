@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ec45> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "22 x 22.9 cm"@en,
+        "220 x 229 mm"@en,
+        "220x229"@en,
+        "220×229"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "220 × 229 mm. Næsten kvadratisk kuvert mellem C4 og C5 i proportioner. Bruges til specialutskick."@da,
+        "220 × 229 mm. Quadratisch wirkender Briefumschlag mit Proportionen zwischen C4 und C5. Verwendet für Spezialversand."@de,
+        "220 × 229 mm. Square-ish envelope between C4 and C5 in proportions. Used for specialty mailings."@en,
+        "Sobre EC45 — formato europeo casi cuadrado para mailings especializados."@es,
+        "220 × 229 mm. लगभग चौकोर लिफ़ाफ़ा, अनुपात में C4 और C5 के बीच। विशेष डाक में।"@hi,
+        "220×229mm。比例的にC4とC5の中間にある正方形に近い封筒。特殊郵送に使用される。"@ja,
+        "220 × 229 mm. Tilnærmet kvadratisk konvolutt med proporsjoner mellom C4 og C5. Brukt til spesialutsendelser."@nb,
+        "220 × 229 mm. Bijna vierkante envelop tussen C4 en C5 in verhoudingen. Gebruikt voor specialutskick."@nl,
+        "220 × 229 mm. Niemal kwadratowa koperta o proporcjach między C4 a C5. Używana do przesyłek specjalnych."@pl,
+        "220 × 229 mm. Envelope quase quadrado, entre C4 e C5 em proporções. Usado em envios especiais."@pt,
+        "220 × 229 mm. Nära kvadratiskt kuvert mellan C4 och C5 i proportioner. Används för specialutskick."@sv,
+        "EC45信封 —— 用于专业邮寄的近方形欧洲格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§EC45" ;
+    skos:prefLabel "EC45 (220 x 229 mm)"@da,
+        "EC45 (220 x 229 mm)"@de,
+        "EC45 (220 x 229 mm)"@en,
+        "EC45 (220 × 229 mm)"@es,
+        "EC45 (220 x 229 mm)"@hi,
+        "EC45 (220 x 229 mm)"@ja,
+        "EC45 (220 x 229 mm)"@nb,
+        "EC45 (220 x 229 mm)"@nl,
+        "EC45 (220 x 229 mm)"@pl,
+        "EC45 (220 x 229 mm)"@pt,
+        "EC45 (220 x 229 mm)"@sv,
+        "EC45 (220 × 229 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 50380.0 ;
+            ptpge:aspectRatio 1.0409 ;
+            ptpge:height 229.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 220.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

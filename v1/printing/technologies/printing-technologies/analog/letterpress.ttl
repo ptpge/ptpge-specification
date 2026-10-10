@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Højtryk"@da,
+        "Relief printing"@en,
+        "रिलीफ़ मुद्रण"@hi,
+        "Boktrykk"@nb,
+        "Høytrykk"@nb,
+        "boekdruk"@nl,
+        "druk typograficzny"@pl,
+        "druk wypukły"@pl,
+        "letterpress"@pl,
+        "Impressão em relevo"@pt,
+        "Impressão tipográfica"@pt,
+        "Letterpress"@pt,
+        "Högtryck"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "Højtryksteknik, hvor ophøjede metal- eller polymertyper indfarves og presses mod substratet — den oprindelige masseoplagsmetode introduceret af Gutenberg i 1450’erne. Bruges i dag til taktilt eksklusivt tryk af kontortryksager og invitationer."@da,
+        "Hochdrucktechnologie, bei der erhabene Metall- oder Polymerlettern eingefärbt und in den Bedruckstoff gepresst werden — die ursprüngliche Massendruckmethode, von Gutenberg in den 1450er-Jahren eingeführt. Heute eingesetzt für hochwertigen taktilen Druck von Briefpapieren und Einladungen."@de,
+        "Relief printing technology where raised metal or polymer type is inked and pressed into the substrate — the original mass-printing method introduced by Gutenberg in the 1450s. Today used for premium tactile printing of stationery and invitations."@en,
+        "Tecnología tradicional de impresión en relieve que utiliza tipos móviles o planchas de fotopolímero. Hoy nicho artesanal — invitaciones, papelería premium — apreciada por la huella táctil del impacto."@es,
+        "रिलीफ़ मुद्रण तकनीक जिसमें उभरे धातु या पॉलिमर टाइप पर स्याही लगाकर सब्सट्रेट में दबाया जाता है — 1450 के दशक में गुटेनबर्ग द्वारा शुरू की गई मूल जन-मुद्रण विधि। आज स्टेशनरी और निमंत्रण-पत्रों की प्रीमियम स्पर्शनीय छपाई में।"@hi,
+        "凸状の金属または樹脂活字にインキを着け、基材に押し付ける凸版印刷技術 — 1450年代にグーテンベルクが導入した元来の大量印刷方式。今日では便箋や招待状の高級な触覚的印刷に使用される。"@ja,
+        "Relieff-trykketeknologi der opphøyd metall- eller polymertype påføres blekk og presses ned i substratet — den opprinnelige masseprodusjonsmetoden introdusert av Gutenberg på 1450-tallet. I dag brukt til premium taktil trykk av brevpapir og invitasjoner."@nb,
+        "Hoogdruktechnologie waarbij verhoogde metalen of polymeer letters worden geïnkt en in het substraat gedrukt — de oorspronkelijke massadrukmethode, geïntroduceerd door Gutenberg in de jaren 1450. Vandaag gebruikt voor tactiel premium drukwerk van kantoordrukwerk en uitnodigingen."@nl,
+        "Technologia druku wypukłego, w której wypukłe czcionki metalowe lub polimerowe są farbowane i wciskane w podłoże — pierwotna metoda druku masowego wprowadzona przez Gutenberga w latach 50. XV w. Dziś używana do dotykowego druku premium papeterii i zaproszeń."@pl,
+        "Tecnologia de impressão em relevo em que tipos elevados de metal ou polímero são entintados e pressionados contra o substrato — o método original de impressão em massa introduzido por Gutenberg nos anos 1450. Hoje usada em impressão tátil premium de papelaria e convites."@pt,
+        "Höghtrycksteknik där upphöjd metall- eller polymertyp infärgas och pressas mot substratet — den ursprungliga massupplagemetoden introducerad av Gutenberg på 1450-talet. Används i dag för taktilt premiumtryck av kontorstrycksaker och inbjudningar."@sv,
+        "使用活字或光聚合物印版的传统凸版印刷技术。如今是利基的手工艺——请柬、高级文具——因压痕留下的触感印记而被欣赏。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§LETTERPRESS" ;
+    skos:prefLabel "Bogtryk"@da,
+        "Buchdruck"@de,
+        "Letterpress"@en,
+        "Tipografía (Letterpress)"@es,
+        "लेटरप्रेस"@hi,
+        "活版印刷"@ja,
+        "Bokstavtrykk"@nb,
+        "Hoogdruk (boekdruk)"@nl,
+        "Typografia"@pl,
+        "Tipografia"@pt,
+        "Boktryck"@sv,
+        "活字印刷"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,92 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/seven-color",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Seven-Color Extended Gamut",
+    "nb": "7-fargers utvidet gamut",
+    "de": "Siebenfarben-Extended-Gamut",
+    "ja": "7色拡張色域",
+    "es": "Gamut ampliado de siete colores",
+    "zh-Hans": "七色扩展色域",
+    "sv": "Sjufärgs utökad färgomfattning",
+    "da": "Syvfarvet udvidet farveomfang",
+    "nl": "Zevenkleurendruk met uitgebreid gamma",
+    "pl": "Rozszerzony gamut siedmiokolorowy",
+    "pt": "Gamut estendido de sete cores",
+    "hi": "सात-रंग विस्तारित गैमट"
+  },
+  "definition": {
+    "en": "Extended-gamut printing using seven inks (typically CMYK + Orange + Green + Violet, or similar variants). Captures up to 97% of Pantone solid colors using process inks only — eliminating the need for spot inks for most brand colors. Standardised in commercial digital and offset production by Esko and Heidelberg systems.",
+    "nb": "Utvidet gamut-trykk med 7 blekk (typisk CMYK + Oransje + Grønn + Fiolett, eller lignende varianter). Fanger opptil 97% av Pantones solide farger med kun prosess-blekk — eliminerer behov for spot-blekk for de fleste merkevare-farger.",
+    "de": "Extended-Gamut-Druck mit sieben Druckfarben (typischerweise CMYK + Orange + Grün + Violett oder ähnliche Varianten). Erfasst bis zu 97 % der Pantone-Vollfarben mit reinen Prozessfarben.",
+    "ja": "7つのインキ（通常 CMYK＋オレンジ＋グリーン＋バイオレット、または類似の構成）による拡張ガモット印刷。プロセスインキのみで Pantone ソリッドカラーの最大97%を再現し、大半のブランドカラーで特色を不要にする。Esko と Heidelberg のシステムにより商業デジタル・オフセット生産で標準化されている。",
+    "es": "Impresión de gama extendida con siete tintas (típicamente CMYK + Naranja + Verde + Violeta o variantes similares). Captura hasta el 97% de los colores sólidos Pantone solo con tintas de proceso — eliminando la necesidad de tintas planas para la mayoría de los colores de marca. Estandarizada en producción digital y ófset comercial por los sistemas de Esko y Heidelberg.",
+    "zh-Hans": "使用七种油墨（通常为 CMYK+橙+绿+紫或类似组合）的扩展色域印刷。仅用工艺油墨即可再现多达97%的 Pantone 实色 — 使大多数品牌色无需专色。经 Esko 与 Heidelberg 系统在商业数字与胶印生产中标准化。",
+    "sv": "Tryck med utökad färgomfattning med sju bläck (typiskt CMYK + orange + grönt + violett eller liknande varianter). Fångar upp till 97 % av Pantones dekorfärger med enbart processbläck — vilket eliminerar behovet av dekorbläck för de flesta varumärkesfärger. Standardiserat i kommersiell digital- och offsetproduktion av Esko- och Heidelberg-system.",
+    "da": "Tryk med udvidet farveomfang med syv farver (typisk CMYK + orange + grøn + violet eller lignende varianter). Fanger op til 97 % af Pantones staffagefarver med procesfarver alene — og fjerner behovet for staffagefarver for de fleste brandfarver. Standardiseret i kommerciel digital- og offsetproduktion af Esko- og Heidelberg-systemer.",
+    "nl": "Druk met uitgebreid gamma met zeven inkten (doorgaans CMYK + oranje + groen + violet of vergelijkbare varianten). Vangt tot 97% van de Pantone-steunkleuren met alleen procesinkten — en maakt steunkleuren voor de meeste merkkleuren overbodig. Gestandaardiseerd in commerciële digitale en offsetproductie door Esko- en Heidelberg-systemen.",
+    "pl": "Druk o rozszerzonym gamucie z użyciem siedmiu farb (zwykle CMYK + pomarańcz + zieleń + fiolet lub podobne warianty). Oddaje do 97% pełnych kolorów Pantone wyłącznie farbami procesowymi — eliminując potrzebę farb dodatkowych dla większości kolorów firmowych. Ustandaryzowany w komercyjnej produkcji cyfrowej i offsetowej przez systemy Esko i Heidelberg.",
+    "pt": "Impressão de gamut estendido usando sete tintas (normalmente CMYK + Laranja + Verde + Violeta, ou variantes similares). Captura até 97 % das cores sólidas Pantone usando apenas tintas de processo — eliminando a necessidade de tintas especiais para a maioria das cores de marca. Padronizada na produção digital e offset comercial pelos sistemas Esko e Heidelberg.",
+    "hi": "सात स्याही (आमतौर पर CMYK + नारंगी + हरा + बैंगनी, या समान वेरिएंट) से विस्तारित-गैमट मुद्रण। केवल प्रोसेस स्याही से 97% तक Pantone ठोस रंग समेटता है — अधिकांश ब्रांड रंगों के लिए स्पॉट स्याही की ज़रूरत ख़त्म। Esko और Heidelberg प्रणालियों द्वारा व्यावसायिक डिजिटल और ऑफसेट उत्पादन में मानकीकृत।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "properties": {
+    "inkColorants": [
+      "C",
+      "M",
+      "Y",
+      "K",
+      "Orange",
+      "Green",
+      "Violet"
+    ],
+    "colorChannelCount": 7,
+    "colorModel": "subtractive"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§SEVEN-COLOR-EXTENDED-GAMUT",
+  "elementType": "reference",
+  "altLabels": {
+    "en": [
+      "Seven-Colour Extended Gamut"
+    ],
+    "pl": [
+      "gamut 7-kolorowy",
+      "druk 7-kolorowy"
+    ],
+    "pt": [
+      "7 cores",
+      "ECG"
+    ],
+    "hi": [
+      "7-रंग",
+      "ECG"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

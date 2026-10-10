@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/coil-binding> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Plastic coil"@en,
+        "Spiral binding"@en,
+        "Spiral-bound"@en,
+        "कॉइल बाइंडिंग"@hi,
+        "प्लास्टिक कॉइल"@hi,
+        "स्पाइरल बाइंडिंग"@hi,
+        "स्पाइरल बाउंड"@hi,
+        "Spiral"@nb,
+        "Spiralinnbinding"@nb,
+        "oprawa spiralowa"@pl,
+        "spirala"@pl,
+        "spirala plastikowa"@pl,
+        "encadernação em espiral"@pt,
+        "espiral de metal"@pt,
+        "espiral plástica"@pt,
+        "espiralado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "Sider indbundet med en plast- eller metalspiral gennem udstansede huller; ligger fladt og kan drejes 360°."@da,
+        "Seiten, mit einer Kunststoff- oder Metallspirale durch gestanzte Löcher gebunden; liegt flach und dreht 360°."@de,
+        "Pages bound with a plastic or metal spiral coil through punched holes; lies flat and rotates 360°."@en,
+        "Páginas encuadernadas con una espiral de plástico o metal a través de perforaciones; abre plano y gira 360°."@es,
+        "छेदों के ज़रिए प्लास्टिक या धातु की स्पाइरल कॉइल से बँधे पृष्ठ; सपाट खुलती है और 360° घूमती है।"@hi,
+        "パンチ穴にプラスチックまたは金属のスパイラルコイルを通して綴じたページ。フラットに開き、360°回転する。"@ja,
+        "Sider bundet med en plast- eller metallspiral gjennom stansede hull; ligger flatt og roterer 360°."@nb,
+        "Pagina's gebonden met een kunststof of metalen spiraal door geponste gaten; ligt vlak en draait 360°."@nl,
+        "Strony połączone plastikową lub metalową spiralą przez wybite otwory; rozkłada się płasko i obraca o 360°."@pl,
+        "Páginas presas por uma espiral de plástico ou metal através de furos; abre totalmente plano e gira 360°."@pt,
+        "Sidor bundna med en plast- eller metallspiral genom stansade hål; ligger plant och kan vridas 360°."@sv,
+        "用塑料或金属螺旋线圈穿过冲孔装订的页面；可平摊并360°翻转。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§COIL-BINDING" ;
+    skos:prefLabel "Spiralindbinding"@da,
+        "Spiralbindung"@de,
+        "Coil Binding"@en,
+        "Coil Binding"@es,
+        "स्पाइरल (कॉइल) बाइंडिंग"@hi,
+        "Coil Binding"@ja,
+        "Spiralbinding"@nb,
+        "Spiraalbinding"@nl,
+        "Oprawa spiralna"@pl,
+        "Espiral"@pt,
+        "Spiralbindning"@sv,
+        "Coil Binding"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.24 · p.125" ;
+            ptpge:mappingRow "crosswalk row 41" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "LooseBinding" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

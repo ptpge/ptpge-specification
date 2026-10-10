@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/varnish/flood-varnishing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:FT§FLOOD-VARNISHING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Flood Varnishing",
+    "nb": "Hellakkering",
+    "de": "Vollflächiger Lack",
+    "ja": "Flood Varnishing",
+    "es": "Flood Varnishing",
+    "zh-Hans": "Flood Varnishing",
+    "sv": "Heltäckande lackering",
+    "da": "Heldækkende lakering",
+    "nl": "Volvlaks lakken",
+    "pl": "Lakierowanie pełne",
+    "pt": "Verniz total",
+    "hi": "फ़्लड वार्निश"
+  },
+  "definition": {
+    "en": "A varnish applied across the entire surface for overall protection and sheen.",
+    "nb": "Lakk påført hele overflaten for beskyttelse og glans.",
+    "de": "Über die gesamte Fläche aufgetragener Lack für Schutz und Glanz.",
+    "ja": "全面に塗布するニス。全体の保護と光沢のために施す。",
+    "es": "Un barniz aplicado a toda la superficie para protección y brillo generales.",
+    "zh-Hans": "涂布于整个表面的上光油，提供整体保护与光泽。",
+    "sv": "En lack applicerad över hela ytan för generellt skydd och lyster.",
+    "da": "En lak påført hele overfladen for samlet beskyttelse og glans.",
+    "nl": "Een lak over het volledige oppervlak voor algehele bescherming en glans.",
+    "pl": "Lakier nanoszony na całą powierzchnię dla ogólnej ochrony i połysku.",
+    "pt": "Verniz aplicado em toda a superfície para proteção e brilho gerais.",
+    "hi": "समग्र सुरक्षा और चमक के लिए पूरी सतह पर लगाया गया वार्निश।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/varnish",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Flood varnish",
+      "Full varnish",
+      "Overall varnish",
+      "Sealer"
+    ],
+    "nb": [
+      "Hellakk",
+      "Fullakk"
+    ],
+    "pl": [
+      "lakier pełny",
+      "lakier całościowy",
+      "lakier ochronny"
+    ],
+    "pt": [
+      "verniz de cobertura",
+      "verniz geral",
+      "verniz integral",
+      "selador"
+    ],
+    "hi": [
+      "फ़ुल वार्निश",
+      "पूरी सतह पर वार्निश",
+      "ओवरऑल वार्निश",
+      "सीलर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/roland",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Roland",
+    "nb": "Roland",
+    "de": "Roland",
+    "ja": "Roland",
+    "es": "Roland",
+    "zh-Hans": "Roland",
+    "sv": "Roland",
+    "da": "Roland",
+    "nl": "Roland",
+    "pl": "Roland",
+    "pt": "Roland",
+    "hi": "Roland"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Roland DG — Japanese manufacturer of wide-format inkjet printers, vinyl cutters, and photo-printing equipment. Known for sign-shop and small-format graphics applications.",
+    "nb": "Roland DG — japansk produsent av storformat-inkjet-skrivere, vinylkuttere og foto-utskriftsutstyr. Kjent for skiltverksted- og små-format grafikk-anvendelser.",
+    "de": "Roland DG — japanischer Hersteller von Großformat-Inkjet-Druckern, Vinyl-Schneideplottern und Fotodrucksystemen. Bekannt für Anwendungen im Schilderbau und Kleinformat-Grafikbereich.",
+    "ja": "ローランド ディー.ジー. — 大判インクジェットプリンター、ビニールカッター、写真印刷機器の日本のメーカー。サインショップおよび小フォーマットグラフィックス用途で知られる。",
+    "es": "Roland DG Corporation — fabricante japonés de impresoras y plotters de gran formato eco-solvente y UV LED, frecuentes en signage y rotulación.",
+    "zh-Hans": "Roland DG Corporation —— 日本大幅面打印机和绘图仪制造商，环保溶剂和UV LED，常见于标识和贴膜。",
+    "sv": "Roland DG — japansk tillverkare av storformats-inkjetskrivare, vinylskärare och fotoutskriftsutrustning. Känd för skyltverkstads- och småformatsgrafik.",
+    "da": "Roland DG — japansk producent af storformat-inkjetprintere, vinylskærere og fotoprintudstyr. Kendt for skilteværksteds- og småformatgrafik.",
+    "nl": "Roland DG — Japanse fabrikant van grootformaat-inkjetprinters, vinylsnijders en fotoprintapparatuur. Bekend van signmaking- en kleinformaattoepassingen.",
+    "pl": "Roland DG — japoński producent wielkoformatowych drukarek atramentowych, ploterów tnących do winylu i urządzeń do druku fotograficznego. Znany z zastosowań w pracowniach reklamy i grafice małoformatowej.",
+    "pt": "Roland DG — fabricante japonês de impressoras de jato de tinta de grande formato, plotters de recorte de vinil e equipamentos de impressão fotográfica. Conhecido por aplicações em comunicação visual e gráficos de pequeno formato.",
+    "hi": "Roland DG — वाइड-फॉर्मेट इंकजेट प्रिंटर, विनाइल कटर और फ़ोटो-प्रिंटिंग उपकरणों का जापानी निर्माता। साइन-शॉप और छोटे-फ़ॉर्मेट ग्राफ़िक्स अनुप्रयोगों के लिए प्रसिद्ध।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-ROLA",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

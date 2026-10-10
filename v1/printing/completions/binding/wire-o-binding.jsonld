@@ -1,0 +1,103 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/wire-o-binding",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "notation": "P:CP§WIRE-O-BINDING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "label": {
+    "en": "Wire-o Binding",
+    "nb": "Wire-o-binding",
+    "de": "Wire-O-Bindung",
+    "ja": "Wire-o Binding",
+    "es": "Wire-o Binding",
+    "zh-Hans": "Wire-o Binding",
+    "sv": "Wire-o-bindning",
+    "da": "Wire-o-indbinding",
+    "nl": "Wire-o-binding",
+    "pl": "Oprawa wire-O",
+    "pt": "Wire-o",
+    "hi": "वायर-ओ बाइंडिंग"
+  },
+  "definition": {
+    "en": "Pages bound with a double-loop metal wire through punched holes; lies flat when open.",
+    "nb": "Sider bundet med en dobbeltløkket metalltråd gjennom stansede hull; ligger flatt når åpen.",
+    "de": "Seiten, mit einem Doppelschlaufendraht durch gestanzte Löcher gebunden; liegt offen flach.",
+    "ja": "パンチ穴にダブルループの金属ワイヤーを通して綴じたページ。開くとフラットになる。",
+    "es": "Páginas encuadernadas con un alambre metálico de doble bucle a través de perforaciones; abre plano.",
+    "zh-Hans": "用双环金属丝穿过冲孔装订的页面；打开时可平摊。",
+    "sv": "Sidor bundna med dubbel metallögla genom stansade hål; ligger plant när den är öppen.",
+    "da": "Sider indbundet med en dobbeltløkket metalwire gennem udstansede huller; ligger fladt når den er åben.",
+    "nl": "Pagina's gebonden met een dubbellus metalen draad door geponste gaten; ligt vlak wanneer geopend.",
+    "pl": "Strony połączone metalową spiralą o podwójnej pętli przez wybite otwory; rozkłada się płasko po otwarciu.",
+    "pt": "Páginas presas por um arame metálico de dupla argola através de furos; abre plano.",
+    "hi": "छेदों के ज़रिए डबल-लूप धातु तार से बँधे पृष्ठ; खुलने पर सपाट रहते हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Wire binding",
+      "Twin-loop wire",
+      "Double-loop wire",
+      "Wiro",
+      "Wiro bound",
+      "Wire-o bound",
+      "Wire bound",
+      "Twin loop bound"
+    ],
+    "nb": [
+      "Wire-innbinding",
+      "Spiralwire",
+      "Wire-o",
+      "Spiralinnbinding med wire"
+    ],
+    "de": [
+      "Wire-O-Bindung",
+      "Drahtkammbindung"
+    ],
+    "pl": [
+      "oprawa drutowa",
+      "spirala podwójna",
+      "wiro"
+    ],
+    "pt": [
+      "encadernação wire-o",
+      "espiral dupla",
+      "arame duplo",
+      "wire-o",
+      "wiro",
+      "garra dupla"
+    ],
+    "hi": [
+      "वायर बाइंडिंग",
+      "वायरो",
+      "ट्विन-लूप वायर",
+      "डबल-लूप वायर",
+      "वायर-ओ बाउंड"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "LooseBinding"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.24 · p.125"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 41"
+    }
+  ]
+}

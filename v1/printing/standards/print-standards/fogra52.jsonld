@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "Fogra52",
+    "nb": "Fogra52",
+    "sv": "Fogra52",
+    "da": "Fogra52",
+    "nl": "Fogra52",
+    "pl": "Fogra52",
+    "pt": "Fogra52",
+    "hi": "Fogra52"
+  },
+  "notation": "P:ST§FOGRA52",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Fogra characterization dataset for ISO 12647-2:2013 uncoated wood-free (FOGRA52 / PSO Uncoated v3).",
+    "nb": "Fogra-karakteriseringsdatasett for ISO 12647-2:2013 ubestrøket trefritt (FOGRA52 / PSO Uncoated v3).",
+    "de": "Fogra-Charakterisierungsdatensatz für ungestrichen holzfrei nach ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3).",
+    "es": "Conjunto de caracterización Fogra para papel no estucado libre de madera según ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3).",
+    "ja": "ISO 12647-2:2013 上質紙（非塗工）向けの Fogra 特性化データセット（FOGRA52／PSO Uncoated v3）。",
+    "zh-Hans": "ISO 12647-2:2013 非涂布无木浆纸的 Fogra 特性化数据集（FOGRA52 / PSO Uncoated v3）。",
+    "sv": "Fogra-karakteriseringsdata för ISO 12647-2:2013 obestruket träfritt (FOGRA52 / PSO Uncoated v3).",
+    "da": "Fogra-karakteriseringsdata for ISO 12647-2:2013 ubestrøget træfrit (FOGRA52 / PSO Uncoated v3).",
+    "nl": "Fogra-karakteriseringsdata voor ISO 12647-2:2013 ongestreken houtvrij (FOGRA52 / PSO Uncoated v3).",
+    "pl": "Zbiór charakteryzacji Fogra dla papieru niepowlekanego bezdrzewnego wg ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3).",
+    "pt": "Conjunto de dados de caracterização Fogra para não revestido sem pasta mecânica ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3).",
+    "hi": "ISO 12647-2:2013 अनकोटेड वुड-फ़्री के लिए Fogra लक्षण-वर्णन डेटासेट (FOGRA52 / PSO Uncoated v3)।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "FOGRA52",
+      "Fogra 52",
+      "PSO Uncoated v3"
+    ],
+    "pl": [
+      "Fogra 52",
+      "PSO Uncoated v3"
+    ],
+    "pt": [
+      "FOGRA52",
+      "Fogra 52",
+      "PSO Uncoated v3"
+    ],
+    "hi": [
+      "FOGRA52",
+      "Fogra 52",
+      "PSO Uncoated v3"
+    ]
+  }
+}

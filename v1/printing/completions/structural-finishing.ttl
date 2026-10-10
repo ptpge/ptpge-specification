@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Efterbehandlingsoperationer, der skærer, riller eller former selve substratet — udstansning, laserskæring, kiss-cutting, rilning, perforering og fræsning."@da,
+        "Weiterverarbeitung, die den Bedruckstoff selbst schneidet, rillt oder formt — Stanzen, Laserschneiden, Kiss-Cutting, Rillen, Perforation und Fräsen."@de,
+        "Finishing operations that cut, crease or shape the substrate itself — die-cutting, laser-cutting, kiss-cutting, scoring, perforation and routing."@en,
+        "Operaciones de acabado que cortan, hienden o dan forma al propio sustrato — troquelado, corte láser, kiss-cut, hendido, perforado y fresado."@es,
+        "वे फ़िनिशिंग क्रियाएँ जो सब्सट्रेट को ही काटती, क्रीज़ करती या आकार देती हैं — डाई-कटिंग, लेज़र-कटिंग, किस-कटिंग, स्कोरिंग, परफ़ोरेशन और राउटिंग।"@hi,
+        "基材そのものを切断・スジ入れ・成形する後加工 — 型抜き、レーザーカット、キスカット、スジ入れ、ミシン目、ルーター加工。"@ja,
+        "Etterbehandling som skjærer, riller eller former selve substratet — stansing, laserskjæring, kiss-cutting, rilling, perforering og fresing."@nb,
+        "Afwerkingsbewerkingen die het substraat zelf snijden, rillen of vormen — stansen, lasersnijden, kiss-cutting, rillen, perforeren en frezen."@nl,
+        "Operacje wykończeniowe, które tną, bigują lub kształtują samo podłoże — wykrawanie, cięcie laserowe, nacinanie warstwy wierzchniej, bigowanie, perforacja i frezowanie."@pl,
+        "Operações de acabamento que cortam, vincam ou dão forma ao próprio substrato — corte especial, corte a laser, meio-corte, vinco, picote e fresagem."@pt,
+        "Efterbehandlingsoperationer som skär, bigar eller formar själva substratet — stansning, laserskärning, kiss-cutting, bigning, perforering och fräsning."@sv,
+        "对承印材料本身进行切割、压痕或成形的印后工序 — 模切、激光切割、半切、压痕、打孔线与铣切。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/perforation>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/routing>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/scoring> ;
+    skos:notation "P:CP-MFN" ;
+    skos:prefLabel "Strukturel efterbehandling"@da,
+        "Strukturelle Weiterverarbeitung"@de,
+        "Structural Finishing"@en,
+        "Structural Finishing"@es,
+        "संरचनात्मक फ़िनिशिंग"@hi,
+        "Structural Finishing"@ja,
+        "Strukturell etterbehandling"@nb,
+        "Structurele afwerking"@nl,
+        "Obróbka konstrukcyjna"@pl,
+        "Acabamento estrutural"@pt,
+        "Strukturell efterbehandling"@sv,
+        "Structural Finishing"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

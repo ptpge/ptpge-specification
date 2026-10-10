@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:definition "De konfigurerbare akser for et trykt produkt — parametrene (Format, Farvetilstand, Fals, Antal, …) en køber vælger langs. Variabler er det forbindende lag, som både Printing Process og Ordering Process refererer ind i."@da,
+        "Die konfigurierbaren Achsen eines Druckprodukts — die Parameter (Format, Farbmodus, Falzung, Auflage, …), entlang derer ein Käufer wählt. Variables ist die verbindende Schicht, auf die Printing Process und Ordering Process beide zeigen: Jede Variable definiert eine Achse und referenziert die Werte, aus denen sie schöpft (valueDomain). Variables enthält Definitionen, keine Werte; die Werte liegen in Printing/Ordering. Gültige Kombinationen und variablenübergreifende Regeln sind Layer 2 (PTPGE Configurator), nicht hier."@de,
+        "The configurable axes of a printed product — the parameters (Format, Color Mode, Fold, Quantity, …) a buyer selects along. Variables is the connective layer both the Printing Process and Ordering Process point into: each Variable defines an axis and references the values it draws from (valueDomain). Variables hold definitions, not values; the values live in Printing/Ordering. Valid combinations and cross-variable rules are Layer 2 (PTPGE Configurator), not here."@en,
+        "Los ejes configurables de un producto impreso — los parámetros (Formato, Modo de color, Plegado, Cantidad, …) a lo largo de los cuales elige un comprador. Variables es la capa conectiva a la que apuntan tanto el Printing Process como el Ordering Process: cada Variable define un eje y referencia los valores de los que se nutre (valueDomain). Variables contiene definiciones, no valores; los valores viven en Printing/Ordering. Las combinaciones válidas y las reglas entre variables son Layer 2 (PTPGE Configurator), no aquí."@es,
+        "मुद्रित उत्पाद के कॉन्फ़िगर किए जा सकने वाले अक्ष — वे पैरामीटर (फ़ॉर्मेट, कलर मोड, फ़ोल्ड, मात्रा, …) जिनके साथ खरीदार चुनाव करता है। वेरिएबल वह जोड़ने वाली परत है जिसकी ओर मुद्रण प्रक्रिया और ऑर्डरिंग प्रक्रिया दोनों इशारा करती हैं: हर वेरिएबल एक अक्ष परिभाषित करता है और उन मानों को संदर्भित करता है जिनसे वह लेता है (valueDomain)। वेरिएबल में परिभाषाएँ होती हैं, मान नहीं; मान मुद्रण/ऑर्डरिंग में रहते हैं। वैध संयोजन और वेरिएबलों के बीच के नियम लेयर 2 (PTPGE कॉन्फ़िगरेटर) हैं, यहाँ नहीं।"@hi,
+        "印刷物の構成可能な軸 — 買い手が選択するパラメータ（判型、カラーモード、折り、数量など）。Variables は Printing Process と Ordering Process の双方が指し示す結合層であり、各変数は軸を定義し、参照する値の出所（valueDomain）を示す。Variables が保持するのは定義であって値ではない。値は Printing/Ordering にある。有効な組み合わせや変数間ルールは Layer 2（PTPGE Configurator）の領分であり、ここでは扱わない。"@ja,
+        "De konfigurerbare aksene til et trykkprodukt — parameterne (Format, Fargemodus, Bretting, Antall, …) en kjøper velger langs. Variables er det forbindende laget begge sider peker inn i: hver variabel definerer en akse og refererer verdiene den henter fra (valueDomain). Variables holder definisjoner, ikke verdier; verdiene lever i Printing/Ordering. Gyldige kombinasjoner og kryssregler er Layer 2 (PTPGE Configurator)."@nb,
+        "De configureerbare assen van een drukproduct — de parameters (Formaat, Kleurmodus, Vouw, Aantal, …) waarlangs een koper kiest. Variabelen vormen de verbindende laag waar zowel het Printing Process als het Ordering Process naar verwijzen."@nl,
+        "Konfigurowalne osie produktu drukowanego — parametry (Format, Tryb koloru, Składanie, Nakład, …), wzdłuż których wybiera nabywca. Zmienne to warstwa łącząca, na którą wskazują zarówno Proces druku, jak i Proces zamawiania: każda Zmienna definiuje oś i odwołuje się do wartości, z których czerpie (valueDomain). Zmienne zawierają definicje, nie wartości; wartości żyją w Druku/Zamawianiu. Dozwolone kombinacje i reguły między zmiennymi to warstwa 2 (Konfigurator PTPGE), nie tutaj."@pl,
+        "Os eixos configuráveis de um impresso — os parâmetros (Formato, Modo de Cor, Dobra, Quantidade, …) ao longo dos quais o comprador escolhe. Variáveis é a camada conectiva para a qual apontam tanto o Processo de Impressão quanto o Processo de Compra: cada Variável define um eixo e referencia os valores de que se alimenta (valueDomain). As Variáveis guardam definições, não valores; os valores vivem em Impressão/Compra. Combinações válidas e regras entre variáveis são Camada 2 (Configurador PTPGE), não aqui."@pt,
+        "En trycksaks konfigurerbara axlar — de parametrar (format, färgläge, fals, kvantitet …) en köpare väljer längs. Variabler är det förbindande skikt som både Tryckprocessen och Beställningsprocessen pekar in i: varje variabel definierar en axel och refererar de värden den hämtar (valueDomain). Variabler bär definitioner, inte värden; värdena bor i Tryck/Beställning. Giltiga kombinationer och regler över variabelgränser är Layer 2 (PTPGE-konfiguratorn), inte här."@sv,
+        "印刷品的可配置轴——买方据以选择的参数（幅面、色彩模式、折页、数量等）。Variables 是 Printing Process 与 Ordering Process 共同指向的连接层：每个变量定义一条轴，并引用其取值来源（valueDomain）。Variables 承载定义而非取值；取值存在于 Printing/Ordering 中。有效组合与跨变量规则属于 Layer 2（PTPGE Configurator），不在此处。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/compliance>,
+        <https://ptpge.org/v1/variables/configuration>,
+        <https://ptpge.org/v1/variables/features>,
+        <https://ptpge.org/v1/variables/finishing>,
+        <https://ptpge.org/v1/variables/order>,
+        <https://ptpge.org/v1/variables/production>,
+        <https://ptpge.org/v1/variables/substrate> ;
+    skos:notation "VAR" ;
+    skos:prefLabel "Variabler"@da,
+        "Variablen"@de,
+        "Variables"@en,
+        "Variables"@es,
+        "वेरिएबल"@hi,
+        "変数"@ja,
+        "Variabler"@nb,
+        "Variabelen"@nl,
+        "Zmienne"@pl,
+        "Variáveis"@pt,
+        "Variabler"@sv,
+        "变量"@zh-Hans ;
+    skos:topConceptOf <https://ptpge.org/v1/scheme> ;
+    ptpge:level "top-concept" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

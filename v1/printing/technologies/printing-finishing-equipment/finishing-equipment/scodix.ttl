@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/scodix> a skos:Concept ;
+    dcterms:created "2026-09-10T08:40:26+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/suppliers/scodix> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Scodix — israelsk producent af digitale forædlingspresser: Ultra-serien påfører hævet polymer (spot-UV, taktil 3D), folie, glimmer og metalliske effekter digitalt på B2/B1-ark, herunder stift karton og bølgepap."@da,
+        "Scodix — israelischer Hersteller digitaler Veredelungsmaschinen: die Ultra-Serie trägt erhabenes Polymer (Spot-UV, taktiles 3D), Folie, Glitter und Metalliceffekte digital auf B2/B1-Bogen auf, einschließlich Hart- und Wellpappe."@de,
+        "Scodix — Israeli manufacturer of digital enhancement presses: the Ultra series applies raised polymer (spot UV, tactile 3D), foil, glitter and metallic effects digitally on B2/B1 sheets, including rigid and corrugated board."@en,
+        "Scodix — fabricante israelí de prensas de embellecimiento digital: la serie Ultra aplica polímero en relieve (UV selectivo, 3D táctil), foil, purpurina y efectos metálicos de forma digital en hojas B2/B1, incluido cartón rígido y ondulado."@es,
+        "Scodix — डिजिटल एन्हांसमेंट प्रेस का इज़राइली निर्माता: Ultra सीरीज़ B2/B1 शीटों पर, कठोर और कोरुगेटेड बोर्ड सहित, उभरा पॉलिमर (स्पॉट UV, स्पर्शनीय 3D), फ़ॉइल, ग्लिटर और मेटैलिक प्रभाव डिजिटल रूप से लगाती है।"@hi,
+        "Scodix — イスラエルのデジタル加飾機メーカー。Ultra シリーズは B2/B1 判の用紙（硬質ボードや段ボールを含む）に、盛り上げポリマー（スポットUV・触感3D）、フォイル、グリッター、メタリック効果をデジタルで施す。"@ja,
+        "Scodix — israelsk produsent av digitale foredlingspresser: Ultra-serien påfører hevet polymer (spot-UV, taktil 3D), folie, glitter og metalliske effekter digitalt på B2/B1-ark, også stiv og bølgepapp."@nb,
+        "Scodix — Israëlische fabrikant van digitale veredelingspersen: de Ultra-serie brengt verhoogd polymeer (spot-uv, tactiel 3D), folie, glitter en metallic effecten digitaal aan op B2/B1-vellen, inclusief stijf en golfkarton."@nl,
+        "Scodix — izraelski producent cyfrowych maszyn uszlachetniających: seria Ultra nakłada cyfrowo wypukły polimer (lakier UV punktowy, dotykowe 3D), folię, brokat i efekty metaliczne na arkuszach B2/B1, w tym na tekturze sztywnej i falistej."@pl,
+        "Scodix — fabricante israelense de impressoras de enobrecimento digital: a série Ultra aplica polímero em relevo (UV localizado, 3D tátil), foil, glitter e efeitos metálicos digitalmente em folhas B2/B1, incluindo papelão rígido e ondulado."@pt,
+        "Scodix — israelisk tillverkare av digitala förädlingspressar: Ultra-serien lägger upphöjd polymer (spot-UV, taktil 3D), folie, glitter och metalliska effekter digitalt på B2/B1-ark, inklusive styv kartong och wellpapp."@sv,
+        "Scodix —— 以色列数字增效印刷机制造商：Ultra 系列可在 B2/B1 幅面（含硬板与瓦楞纸板）上数字施加凸起聚合物（局部 UV、触感 3D）、烫金、闪粉和金属效果。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-SCOD" ;
+    skos:prefLabel "Scodix"@da,
+        "Scodix"@de,
+        "Scodix"@en,
+        "Scodix"@es,
+        "Scodix"@hi,
+        "Scodix"@ja,
+        "Scodix"@nb,
+        "Scodix"@nl,
+        "Scodix"@pl,
+        "Scodix"@pt,
+        "Scodix"@sv,
+        "Scodix"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

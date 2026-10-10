@@ -1,0 +1,51 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution/delivery-methods",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS-DELIVERY",
+  "level": "category",
+  "label": {
+    "en": "Delivery Methods",
+    "nb": "Leveringsmetoder",
+    "de": "Versandarten",
+    "es": "Métodos de entrega",
+    "ja": "配送方法",
+    "zh-Hans": "交付方式",
+    "sv": "Leveranssätt",
+    "da": "Leveringsmetoder",
+    "nl": "Leveringsmethoden",
+    "pl": "Sposoby dostawy",
+    "pt": "Métodos de entrega",
+    "hi": "डिलीवरी विधियाँ"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering/distribution",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/distribution/delivery-methods/standard-delivery",
+    "https://ptpge.org/v1/ordering/distribution/delivery-methods/express-delivery",
+    "https://ptpge.org/v1/ordering/distribution/delivery-methods/courier",
+    "https://ptpge.org/v1/ordering/distribution/delivery-methods/freight-pallet",
+    "https://ptpge.org/v1/ordering/distribution/delivery-methods/pickup",
+    "https://ptpge.org/v1/ordering/distribution/delivery-methods/postal-mail"
+  ],
+  "definition": {
+    "en": "How a finished print order is shipped or handed over to the buyer.",
+    "nb": "Hvordan en ferdig trykkordre sendes eller overleveres til kjøper.",
+    "de": "Wie eine fertige Druckbestellung versendet oder an den Käufer übergeben wird.",
+    "es": "Cómo se envía o se entrega al comprador un pedido de impresión terminado.",
+    "ja": "完成した印刷注文を買い手へ出荷または引き渡す方法。",
+    "zh-Hans": "已完成的印刷订单如何发运或交付给买方。",
+    "sv": "Hur en färdig tryckorder skickas eller överlämnas till köparen.",
+    "da": "Hvordan en færdig trykordre sendes eller overdrages til køberen.",
+    "nl": "Hoe een afgewerkte drukorder wordt verzonden of overgedragen aan de koper.",
+    "pl": "Jak gotowe zamówienie drukarskie jest wysyłane lub przekazywane nabywcy.",
+    "pt": "Como um pedido gráfico acabado é expedido ou entregue ao comprador.",
+    "hi": "तैयार मुद्रण ऑर्डर खरीदार तक कैसे भेजा या सौंपा जाता है।"
+  }
+}

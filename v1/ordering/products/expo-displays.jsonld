@@ -1,0 +1,204 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/expo-displays",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§EXPO-DISPLAYS",
+  "elementType": "product",
+  "label": {
+    "en": "Expo Displays",
+    "nb": "Expo-displayer",
+    "de": "Messestände & Theken",
+    "ja": "展示スタンド・カウンター",
+    "es": "Stands y mostradores de feria",
+    "zh-Hans": "展会展架与柜台",
+    "nl": "Beursdisplays",
+    "sv": "Mässdisplayer",
+    "da": "Messedisplays",
+    "pl": "Systemy wystawiennicze",
+    "pt": "Displays para feiras",
+    "hi": "एक्सपो डिस्प्ले"
+  },
+  "altLabels": {
+    "en": [
+      "exhibition stand",
+      "pop-up display",
+      "pop-up wall",
+      "counter",
+      "brochure stand",
+      "display",
+      "exhibition wall",
+      "exhibition display"
+    ],
+    "nb": [
+      "messestand",
+      "utstillingsvegg",
+      "disk"
+    ],
+    "de": [
+      "Messewände",
+      "Faltdisplays",
+      "Promotiontheken"
+    ],
+    "pl": [
+      "stoisko wystawiennicze",
+      "ścianka pop-up",
+      "ścianka reklamowa",
+      "lada reklamowa",
+      "stojak na ulotki"
+    ],
+    "sv": [
+      "mässdisplay",
+      "mässvägg",
+      "popup-vägg",
+      "mässmonter",
+      "disk"
+    ],
+    "da": [
+      "messedisplay",
+      "messevæg",
+      "pop-up væg",
+      "messestand",
+      "disk"
+    ],
+    "nl": [
+      "beursdisplay",
+      "beurswand",
+      "pop-up wand",
+      "beursstand",
+      "balie",
+      "displaysysteem"
+    ],
+    "pt": [
+      "estande de feira",
+      "display pop-up",
+      "parede pop-up",
+      "balcão promocional",
+      "porta-folhetos",
+      "painel de exposição",
+      "display de exposição"
+    ],
+    "hi": [
+      "प्रदर्शनी स्टैंड",
+      "पॉप-अप डिस्प्ले",
+      "पॉप-अप वॉल",
+      "प्रोमो काउंटर",
+      "ब्रोशर स्टैंड",
+      "एग्ज़िबिशन डिस्प्ले"
+    ],
+    "es": [
+      "stand de feria",
+      "expositor",
+      "mostrador de feria",
+      "pared pop-up",
+      "display de exposición",
+      "expositor de folletos",
+      "photocall"
+    ],
+    "ja": [
+      "展示ブース",
+      "ディスプレイスタンド",
+      "バックパネル",
+      "受付カウンター",
+      "カタログスタンド",
+      "展示会什器"
+    ],
+    "zh-Hans": [
+      "展架",
+      "展台",
+      "展会背景板",
+      "拉网展架",
+      "展示柜台",
+      "宣传册架",
+      "展会展具"
+    ]
+  },
+  "definition": {
+    "en": "A printed wide-format graphic mounted in a reusable display system for exhibitions and events — pop-up walls, stands and counters.",
+    "nb": "En trykt storformat-grafikk montert i et gjenbrukbart display-system for messer og arrangementer — pop-up-vegger, stands og disker.",
+    "de": "Eine bedruckte Großformat-Grafik in einem wiederverwendbaren Display-System für Messen.",
+    "ja": "展示会・イベント向けに再利用可能なディスプレイシステムへ装着する大判印刷グラフィック。ポップアップウォール、スタンド、カウンターなど。",
+    "es": "Un gráfico impreso de gran formato montado en un sistema de exposición reutilizable para ferias y eventos — paredes pop-up, stands y mostradores.",
+    "zh-Hans": "安装在可重复使用展示系统上的大幅面印刷图像——弹出式背景墙、展架和展台，用于展会和活动。",
+    "sv": "En tryckt storformatsgrafik monterad i ett återanvändbart displaysystem för mässor och evenemang — pop-up-väggar, ställ och diskar.",
+    "da": "En trykt storformatgrafik monteret i et genbrugeligt displaysystem til messer og arrangementer — pop-up-vægge, stande og diske.",
+    "nl": "Een gedrukte grootformaatgraphic gemonteerd in een herbruikbaar displaysysteem voor beurzen en evenementen — pop-upwanden, stands en balies.",
+    "pl": "Drukowana grafika wielkoformatowa montowana w wielokrotnego użytku systemie ekspozycyjnym na targi i wydarzenia — ścianki pop-up, stoiska i lady.",
+    "pt": "Gráfico impresso em grande formato montado em um sistema de exposição reutilizável para feiras e eventos — paredes pop-up, estandes e balcões.",
+    "hi": "प्रदर्शनियों और आयोजनों के लिए पुन: प्रयोज्य डिस्प्ले सिस्टम में लगा वाइड-फॉर्मेट मुद्रित ग्राफ़िक — पॉप-अप दीवारें, स्टैंड और काउंटर।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/display-system"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/textile",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/vinyl",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "customSizeRange": {
+    "min": 500,
+    "max": 6000,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateThickness": {
+    "min": 1,
+    "max": 20,
+    "unit": "mm"
+  },
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-thickness"
+  ]
+}

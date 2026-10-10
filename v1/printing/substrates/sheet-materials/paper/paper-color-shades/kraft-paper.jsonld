@@ -1,0 +1,99 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Kraft Paper (CIE 60–70)",
+    "es": "Papel Kraft (CIE 60–70)",
+    "zh-Hans": "牛皮纸 (CIE 60–70)",
+    "nb": "Kraftpapir (CIE 60–70)",
+    "de": "Kraftpapier (CIE 60–70)",
+    "ja": "クラフト紙（CIE 60〜70）",
+    "sv": "Kraftpapper (CIE 60–70)",
+    "da": "Kraftpapir (CIE 60–70)",
+    "nl": "Kraftpapier (CIE 60–70)",
+    "pl": "Papier kraft (CIE 60–70)",
+    "pt": "Papel kraft (CIE 60–70)",
+    "hi": "क्राफ़्ट काग़ज़ (CIE 60–70)"
+  },
+  "altLabels": {
+    "en": [
+      "Brown Paper"
+    ],
+    "nb": [
+      "Brunt papir"
+    ],
+    "pl": [
+      "papier brązowy",
+      "papier pakowy",
+      "papier siarczanowy"
+    ],
+    "pt": [
+      "papel pardo",
+      "kraft",
+      "papel kraft natural"
+    ],
+    "hi": [
+      "भूरा काग़ज़",
+      "क्राफ़्ट पेपर",
+      "ब्राउन पेपर"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§KRAFT-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Unbleached paper made from kraft pulp — natural brown color, CIE whiteness 60–70. Strong, rustic appearance commonly used for packaging, eco-conscious branding, and craft applications.",
+    "nb": "Ubleket papir laget av kraftmasse — naturlig brun farge, CIE-hvithet 60–70. Sterkt og rustikt utseende, vanlig brukt til emballasje, miljøbevisst merkevarebygging og håndverk.",
+    "de": "Ungebleichtes Papier aus Kraftzellstoff — natürliche braune Farbe, CIE-Weißegrad 60–70. Robuste, rustikale Optik, häufig eingesetzt für Verpackungen, ökologisch positioniertes Branding und Handwerkskunst.",
+    "ja": "クラフトパルプから作られた未漂白の紙 — 自然な茶色、CIE白色度60〜70。強靭で素朴な外観で、パッケージ、環境配慮型ブランディング、クラフト用途に使用される。",
+    "es": "Papel kraft natural — tono marrón cálido (CIE 60–80), sustrato típico para embalaje rústico, etiquetas eco-friendly y artesanía.",
+    "zh-Hans": "天然牛皮纸 —— 暖棕色调（CIE 60–80），是乡村风包装、环保标签和工艺品的典型承印物。",
+    "sv": "Oblekt papper av kraftmassa — naturligt brun färg, CIE-vithet 60–70. Starkt, rustikt utseende som ofta används för förpackningar, miljöprofilerad varumärkesdesign och hantverkstillämpningar.",
+    "da": "Ubleget papir af kraftmasse — naturlig brun farve, CIE-hvidhed 60–70. Stærkt, rustikt udseende, almindeligt brugt til emballage, miljøbevidst branding og hobbyprojekter.",
+    "nl": "Ongebleekt papier van kraftpulp — natuurlijke bruine kleur, CIE-witheid 60–70. Sterk, rustiek uiterlijk, veel gebruikt voor verpakkingen, milieubewuste branding en hobbytoepassingen.",
+    "pl": "Niebielony papier z masy siarczanowej — naturalna brązowa barwa, białość CIE 60–70. Wytrzymały, rustykalny wygląd, powszechnie używany do opakowań, ekologicznego brandingu i zastosowań rzemieślniczych.",
+    "pt": "Papel não branqueado feito de polpa kraft — cor marrom natural, brancura CIE 60–70. Aparência forte e rústica, muito usada em embalagens, branding ecológico e aplicações artesanais.",
+    "hi": "क्राफ़्ट लुगदी से बना बिना ब्लीच किया काग़ज़ — प्राकृतिक भूरा रंग, CIE सफ़ेदी 60–70। मज़बूत, देहाती रूप, पैकेजिंग, पर्यावरण-सजग ब्रांडिंग और शिल्प अनुप्रयोगों में आम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 36"
+    }
+  ]
+}

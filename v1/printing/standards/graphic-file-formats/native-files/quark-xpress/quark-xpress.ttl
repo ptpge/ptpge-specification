@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/quark-xpress/quark-xpress> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".qxp"@en,
+        "QuarkXPress"@en,
+        ".qxp"@hi,
+        "QuarkXPress"@hi,
+        ".qxp"@pl,
+        "QuarkXPress"@pl,
+        ".qxp"@pt,
+        "QuarkXPress"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/quark-xpress> ;
+    skos:definition "Programeget sidelayoutformat (.qxp) for QuarkXPress, brugt til flersidede udgivelser og komplekse layouts i forlagsprepress."@da,
+        "Anwendungseigenes Seitenlayout-Format (.qxp) von QuarkXPress, verwendet für mehrseitige Publikationen und komplexe Layouts in Verlags-Druckvorstufen-Workflows."@de,
+        "Native page-layout file format (.qxp) for QuarkXPress, used for multi-page publications and complex layouts in publishing prepress workflows."@en,
+        "Formato nativo de QuarkXPress, aplicación profesional de maquetación. Para entrega a imprenta se exporta a PDF."@es,
+        "QuarkXPress का नेटिव पेज-लेआउट फ़ाइल फ़ॉर्मेट (.qxp), प्रकाशन प्रीप्रेस वर्कफ़्लो में बहु-पृष्ठ प्रकाशनों और जटिल लेआउट के लिए।"@hi,
+        "QuarkXPressのネイティブページレイアウトファイル形式（.qxp）。出版製版ワークフローにおいて多ページの出版物および複雑なレイアウトに使用される。"@ja,
+        "Programspesifikt sideoppsettsformat (.qxp) for QuarkXPress, brukt for flersides publikasjoner og komplekse oppsett i forlagspreprint-arbeidsflyter."@nb,
+        "Programma-eigen paginaopmaakformaat (.qxp) voor QuarkXPress, gebruikt voor meerpaginapublicaties en complexe lay-outs in uitgeversprepress."@nl,
+        "Natywny format składu stron (.qxp) programu QuarkXPress, używany do wielostronicowych publikacji i złożonych układów w prepressie wydawniczym."@pl,
+        "Formato de arquivo nativo de diagramação (.qxp) do QuarkXPress, usado para publicações de várias páginas e layouts complexos em fluxos de pré-impressão editorial."@pt,
+        "Programeget sidlayoutformat (.qxp) för QuarkXPress, använt för flersidiga publikationer och komplexa layouter i förlagsprepress."@sv,
+        "QuarkXPress（专业页面布局应用程序）的原生格式。交付印刷时导出为PDF。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§QUARK-XPRESS" ;
+    skos:prefLabel "QuarkXPress (.qxp)"@da,
+        "Quark XPress (.qxp)"@de,
+        "Quark XPress (.qxp)"@en,
+        "QuarkXPress (.qxp)"@es,
+        "Quark XPress (.qxp)"@hi,
+        "Quark XPress (.qxp)"@ja,
+        "Quark XPress (.qxp)"@nb,
+        "QuarkXPress (.qxp)"@nl,
+        "Quark XPress (.qxp)"@pl,
+        "Quark XPress (.qxp)"@pt,
+        "QuarkXPress (.qxp)"@sv,
+        "QuarkXPress (.qxp)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/use-cases/educational",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:UC§EDUCATIONAL",
+  "elementType": "context",
+  "label": {
+    "en": "Educational",
+    "nb": "Pedagogisk",
+    "de": "Pädagogisch",
+    "ja": "教育",
+    "es": "Educación",
+    "zh-Hans": "教育",
+    "sv": "Utbildning",
+    "da": "Uddannelse",
+    "nl": "Onderwijs",
+    "pl": "Edukacyjne",
+    "pt": "Educacional",
+    "hi": "शैक्षिक"
+  },
+  "definition": {
+    "en": "Products used in educational contexts — schools, universities, training programmes, museums. Includes textbooks, workbooks, lesson materials, exhibition pamphlets, and learning resources.",
+    "nb": "Produkter brukt i pedagogiske sammenhenger — skoler, universiteter, opplæringsprogrammer, museer. Inkluderer lærebøker, arbeidsbøker, undervisningsmateriell, utstillings-pamfletter og læringsressurser.",
+    "de": "Produkte für pädagogische Kontexte — Schulen, Universitäten, Schulungsprogramme, Museen.",
+    "ja": "教育の場 — 学校、大学、研修プログラム、博物館 — で使われる製品。教科書、ワークブック、授業教材、展示パンフレット、学習リソースを含む。",
+    "es": "Productos usados en contextos educativos — escuelas, universidades, programas de formación, museos. Incluye libros de texto, cuadernos de ejercicios, materiales de clase, folletos de exposición y recursos de aprendizaje.",
+    "zh-Hans": "用于教育场景的产品 — 学校、大学、培训项目、博物馆。包括教科书、练习册、课程材料、展览手册与学习资源。",
+    "sv": "Produkter som används i utbildningssammanhang — skolor, universitet, utbildningsprogram, museer. Omfattar läroböcker, arbetsböcker, lektionsmaterial, utställningsbroschyrer och läranderesurser.",
+    "da": "Produkter brugt i uddannelsessammenhænge — skoler, universiteter, kursusforløb, museer. Omfatter lærebøger, arbejdshæfter, undervisningsmateriale, udstillingsfoldere og læringsressourcer.",
+    "nl": "Producten gebruikt in onderwijscontexten — scholen, universiteiten, opleidingen, musea. Omvat leerboeken, werkboeken, lesmateriaal, tentoonstellingsfolders en leermiddelen.",
+    "pl": "Produkty używane w kontekstach edukacyjnych — szkoły, uczelnie, programy szkoleniowe, muzea. Obejmuje podręczniki, zeszyty ćwiczeń, materiały lekcyjne, foldery wystawowe i pomoce dydaktyczne.",
+    "pt": "Produtos usados em contextos educacionais — escolas, universidades, programas de treinamento, museus. Inclui livros didáticos, cadernos de exercícios, materiais de aula, folhetos de exposição e recursos de aprendizagem.",
+    "hi": "शैक्षिक संदर्भों में उपयोग होने वाले उत्पाद — स्कूल, विश्वविद्यालय, प्रशिक्षण कार्यक्रम, संग्रहालय। पाठ्यपुस्तकें, अभ्यास-पुस्तिकाएँ, पाठ सामग्री, प्रदर्शनी पर्चे और अधिगम संसाधन शामिल।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "use-cases",
+  "broader": "https://ptpge.org/v1/ordering/use-cases",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/EducateAction"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b6",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Envelope B6 (125 × 176 mm)",
+    "es": "Sobre B6 (125 × 176 mm)",
+    "zh-Hans": "B6信封 (125 × 176 mm)",
+    "nb": "Envelope B6 (125 × 176 mm)",
+    "de": "Envelope B6 (125 × 176 mm)",
+    "ja": "Envelope B6 (125 × 176 mm)",
+    "sv": "Kuvert B6 (125 × 176 mm)",
+    "da": "Kuvert B6 (125 × 176 mm)",
+    "nl": "Kuvert B6 (125 × 176 mm)",
+    "pl": "Koperta B6 (125 × 176 mm)",
+    "pt": "Envelope B6 (125 × 176 mm)",
+    "hi": "लिफ़ाफ़ा B6 (125 × 176 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ENV-B6",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "125 × 176 mm. ISO 216 B6 envelope — used for small documents and invitations.",
+    "nb": "125 × 176 mm. ISO 216 B6-konvolutt — brukt til små dokumenter og invitasjoner.",
+    "de": "125 × 176 mm. ISO-216-B6-Briefumschlag — verwendet für kleine Dokumente und Einladungen.",
+    "ja": "125×176mm。ISO 216 B6封筒 — 小型書類および招待状に使用される。",
+    "es": "Sobre B6 de la serie B de ISO 216 — contiene hojas de la serie B correspondiente.",
+    "zh-Hans": "ISO 216 B系列B6信封 —— 装对应B系列纸张。",
+    "sv": "125 × 176 mm. B6-kuvert enligt ISO 216 — används för små dokument och inbjudningar.",
+    "da": "125 × 176 mm. B6-kuvert efter ISO 216 — bruges til små dokumenter og invitationer.",
+    "nl": "125 × 176 mm. B6-envelop volgens ISO 216 — gebruikt voor kleine documenten en uitnodigingen.",
+    "pl": "125 × 176 mm. Koperta ISO 216 B6 — używana do małych dokumentów i zaproszeń.",
+    "pt": "125 × 176 mm. Envelope B6 da ISO 216 — para documentos pequenos e convites.",
+    "hi": "125 × 176 mm. ISO 216 B6 लिफ़ाफ़ा — छोटे दस्तावेज़ों और निमंत्रणों के लिए।"
+  },
+  "properties": {
+    "width": 125,
+    "height": 176,
+    "unit": "mm",
+    "aspectRatio": 1.408,
+    "standard": "ISO 269",
+    "area": 22000
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "125 x 176 mm",
+      "125x176",
+      "125×176",
+      "12.5 x 17.6 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

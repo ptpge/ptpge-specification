@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/africa> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/geography> ;
+    skos:definition "Afrika — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering."@da,
+        "Regionale Gruppierung Afrika. Enthält länderspezifische Unterteilungen des afrikanischen Kontinents zur Verwendung als geografische Facette in der Produktspezifikation, Lieferantenlisten und Versand-/Lieferzonen."@de,
+        "African region grouping. Contains country-level subdivisions under the African continent for use as geographic facets in product specification, supplier listing, and shipping/delivery scoping."@en,
+        "Agrupación regional de África. Contiene subdivisiones a nivel de país dentro del continente africano, utilizadas como faceta geográfica en la especificación de productos, listados de proveedores y zonas de envío y entrega."@es,
+        "क्षेत्रीय समूह: अफ़्रीका। उत्पाद विनिर्देश, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे में भौगोलिक पहलू के रूप में उपयोग के लिए अफ़्रीकी महाद्वीप के अंतर्गत देश-स्तरीय उपविभाग।"@hi,
+        "アフリカ地域のグループ。アフリカ大陸内の国レベルの細分を含み、製品仕様、供給者リスト、配送ゾーンの地理的ファセットとして使用される。"@ja,
+        "Afrika-regionen som gruppering. Inneholder land-nivå underinndelinger under det afrikanske kontinentet, brukt som geografisk fasett i produkt-spesifikasjon, leverandør-lister og frakt/leverings-avgrensning."@nb,
+        "Afrika — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering."@nl,
+        "Grupowanie regionalne dla Afryki. Zawiera podziały na poziomie krajów kontynentu afrykańskiego, używane jako aspekty geograficzne w specyfikacji produktu, listach dostawców i zakresie wysyłki/dostawy."@pl,
+        "Agrupamento regional: África. Contém subdivisões de nível de país sob o continente africano para uso como facetas geográficas em especificação de produto, listagem de fornecedores e delimitação de envio/entrega."@pt,
+        "Afrikansk regiongruppering. Innehåller underindelningar på landsnivå under den afrikanska kontinenten, för användning som geografiska facetter i produktspecifikation, leverantörslistning och avgränsning av frakt och leverans."@sv,
+        "非洲区域分组。包含非洲大陆下的国家级细分，作为产品规格、供应商列表和发货/配送范围的地理分面使用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/geography/africa/south-africa> ;
+    skos:notation "O:GY-AFR" ;
+    skos:prefLabel "Afrika"@da,
+        "Afrika"@de,
+        "Africa"@en,
+        "África"@es,
+        "अफ़्रीका"@hi,
+        "アフリカ"@ja,
+        "Afrika"@nb,
+        "Afrika"@nl,
+        "Afryka"@pl,
+        "África"@pt,
+        "Afrika"@sv,
+        "非洲"@zh-Hans ;
+    ptpge:group "geography" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

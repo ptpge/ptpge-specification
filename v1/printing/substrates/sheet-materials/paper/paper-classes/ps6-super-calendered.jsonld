@@ -1,0 +1,59 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps6-super-calendered",
+  "type": "skos:Concept",
+  "version": "2026-09-23",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§PS6",
+  "elementType": "value",
+  "label": {
+    "en": "PS6 — Super-calendered (SC)",
+    "nb": "PS6 — Superkalandrert (SC)",
+    "de": "PS6 — Superkalandriert (SC)",
+    "es": "PS6 — Supercalandrado (SC)",
+    "ja": "PS6 — スーパーカレンダー紙（SC）",
+    "zh-Hans": "PS6 — 超级压光纸（SC）",
+    "sv": "PS6 — Superkalandrerat (SC)",
+    "da": "PS6 — Superkalandreret (SC)",
+    "nl": "PS6 — Supergekalanderd (SC)",
+    "pl": "PS6 — Superkalandrowany (SC)",
+    "pt": "PS6 — Supercalandrado (SC)",
+    "hi": "PS6 — सुपर-कैलेंडर्ड (SC)"
+  },
+  "definition": {
+    "en": "Super-calendered wood-containing paper per ISO 12647-2:2013 (PS6) — SC-A/SC-B grades whose smooth, glossy surface comes from calendering, not coating; the magazine and catalogue stock of heat-set web offset and gravure.",
+    "nb": "Superkalandrert treholdig papir etter ISO 12647-2:2013 (PS6) — SC-A/SC-B-kvaliteter der den glatte, blanke overflaten kommer fra kalandrering, ikke bestrykning; magasin- og katalogpapiret i heatset-rulloffset og dyptrykk.",
+    "de": "Superkalandriertes holzhaltiges Papier nach ISO 12647-2:2013 (PS6) — SC-A/SC-B-Qualitäten, deren glatte, glänzende Oberfläche durch Kalandrieren statt Strich entsteht; das Magazin- und Katalogpapier des Heatset-Rollenoffsets und Tiefdrucks.",
+    "es": "Papel supercalandrado con pasta mecánica según ISO 12647-2:2013 (PS6): calidades SC-A/SC-B cuya superficie lisa y brillante procede del calandrado, no del estucado; el papel de revistas y catálogos en offset de bobina heatset y huecograbado.",
+    "ja": "ISO 12647-2:2013 のスーパーカレンダー紙（PS6）。塗工ではなくカレンダー処理で平滑な光沢面を得た機械パルプ含有紙（SC-A/SC-B）。ヒートセット輪転オフセットおよびグラビアの雑誌・カタログ用紙。",
+    "zh-Hans": "ISO 12647-2:2013 超级压光含机械浆纸（PS6）——SC-A/SC-B 等级，平滑光亮的表面来自压光而非涂布；热固轮转胶印和凹印的杂志与目录用纸。",
+    "sv": "Superkalandrerat trähaltigt papper enligt ISO 12647-2:2013 (PS6) — SC-A/SC-B-kvaliteter vars släta, glansiga yta kommer av kalandrering, inte bestrykning; magasins- och katalogpappret i heatset-rulloffset och djuptryck.",
+    "da": "Superkalandreret træholdigt papir efter ISO 12647-2:2013 (PS6) — SC-A/SC-B-kvaliteter, hvis glatte, blanke overflade kommer fra kalandrering, ikke bestrygning; magasin- og katalogpapiret i heatset-rulleoffset og dybtryk.",
+    "nl": "Supergekalanderd houthoudend papier volgens ISO 12647-2:2013 (PS6) — SC-A/SC-B-kwaliteiten waarvan het gladde, glanzende oppervlak van kalanderen komt, niet van een strijklaag; het tijdschriften- en cataloguspapier van heatset-rotatieoffset en diepdruk.",
+    "pl": "Papier superkalandrowany z zawartością ścieru wg ISO 12647-2:2013 (PS6) — gatunki SC-A/SC-B, których gładka, błyszcząca powierzchnia pochodzi z kalandrowania, nie z powlekania; papier magazynowy i katalogowy w offsecie zwojowym heatset i wklęsłodruku.",
+    "pt": "Papel supercalandrado com pasta mecânica segundo ISO 12647-2:2013 (PS6) — qualidades SC-A/SC-B cuja superfície lisa e brilhante vem da calandragem, não do revestimento; o papel de revistas e catálogos do offset rotativo heatset e da rotogravura.",
+    "hi": "ISO 12647-2:2013 के अनुसार सुपर-कैलेंडर्ड वुड-कंटेनिंग काग़ज़ (PS6) — SC-A/SC-B ग्रेड जिनकी चिकनी, चमकदार सतह कोटिंग से नहीं, कैलेंडरिंग से आती है; हीट-सेट वेब ऑफ़सेट और ग्रेव्योर का पत्रिका व कैटलॉग काग़ज़।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes",
+  "created": "2026-09-23T16:40:00Z",
+  "modified": "2026-09-23T16:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "related": [
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "semanticSource": [
+    {
+      "standard": "ISO 12647-2",
+      "version": "2013",
+      "elements": [
+        "Table 1 — Printing substrate types"
+      ],
+      "match": "exact"
+    }
+  ]
+}

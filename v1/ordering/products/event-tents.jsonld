@@ -1,0 +1,194 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/event-tents",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§EVENT-TENTS",
+  "elementType": "product",
+  "label": {
+    "en": "Event Tents",
+    "nb": "Eventtelt",
+    "de": "Eventzelte",
+    "ja": "イベントテント",
+    "es": "Carpas para eventos",
+    "zh-Hans": "活动帐篷",
+    "nl": "Evenemententen",
+    "sv": "Eventtält",
+    "da": "Eventtelte",
+    "pl": "Namioty eventowe",
+    "pt": "Tendas para eventos",
+    "hi": "इवेंट टेंट"
+  },
+  "altLabels": {
+    "en": [
+      "pop-up tent",
+      "canopy tent",
+      "frame tent",
+      "marquee",
+      "gazebo",
+      "printed tent",
+      "promotional tent",
+      "event canopy"
+    ],
+    "nb": [
+      "pop-up-telt",
+      "messetelt",
+      "paviljong",
+      "partytelt"
+    ],
+    "de": [
+      "Faltpavillon",
+      "Faltzelt",
+      "Promotionzelt",
+      "Pavillon"
+    ],
+    "pl": [
+      "namiot ekspresowy",
+      "namiot reklamowy",
+      "namiot promocyjny",
+      "pawilon",
+      "namiot z nadrukiem"
+    ],
+    "sv": [
+      "popup-tält",
+      "tält med tryck",
+      "mässtält",
+      "partytält"
+    ],
+    "da": [
+      "eventtelt",
+      "pop-up telt",
+      "telt med tryk",
+      "messetelt"
+    ],
+    "nl": [
+      "evenemententent",
+      "pop-up tent",
+      "bedrukte tent",
+      "vouwtent",
+      "promotietent"
+    ],
+    "pt": [
+      "tenda sanfonada",
+      "tenda pop-up",
+      "gazebo",
+      "tenda personalizada",
+      "tenda promocional",
+      "tenda com estrutura",
+      "cobertura para eventos"
+    ],
+    "hi": [
+      "पॉप-अप टेंट",
+      "कैनोपी टेंट",
+      "फ़्रेम टेंट",
+      "गज़ेबो",
+      "मुद्रित टेंट",
+      "प्रचार टेंट",
+      "इवेंट कैनोपी"
+    ],
+    "es": [
+      "carpa plegable",
+      "carpa para eventos",
+      "carpa publicitaria",
+      "gazebo",
+      "toldo",
+      "carpa impresa"
+    ],
+    "ja": [
+      "ワンタッチテント",
+      "タープテント",
+      "キャノピーテント",
+      "オリジナルテント"
+    ],
+    "zh-Hans": [
+      "广告帐篷",
+      "折叠帐篷",
+      "遮阳篷",
+      "展览帐篷",
+      "定制帐篷"
+    ]
+  },
+  "definition": {
+    "en": "A pop-up or frame tent with printed textile canopy and optional printed walls, supplied with its reusable frame — for events, markets and promotion. The format binds the frame footprint (3 × 3 m, 10 × 10 ft …). The tent is a composite product: one canopy (a single printed part, though the producer sews it from several shaped panels — that seam pattern is production geometry, not identity) and zero to four walls (full, half, with door or window), each an independently configurable printed part; the frame is a non-printed component selected with the product. Composite identity (root + parts) follows the ptpge-cfc/1 design; until it is adopted, a canopy or a wall is configured as this product with its role stated in the offer.",
+    "nb": "Et pop-up- eller rammetelt med trykt tekstil-canopy og valgfrie trykte vegger, levert med gjenbrukbar ramme — for arrangementer, markeder og promotering. Formatet binder rammens fotavtrykk (3 × 3 m, 10 × 10 ft …). Teltet er et sammensatt produkt: én canopy (én trykt del, selv om produsenten syr den av flere formede paneler — sømmønsteret er produksjonsgeometri, ikke identitet) og null til fire vegger (hel, halv, med dør eller vindu), hver en selvstendig konfigurerbar trykt del; rammen er en ikke-trykt komponent som velges sammen med produktet. Sammensatt identitet (rot + deler) følger ptpge-cfc/1-designet; til det er vedtatt konfigureres en canopy eller en vegg som dette produktet med rollen angitt i tilbudet.",
+    "de": "Ein Faltpavillon oder Rahmenzelt mit bedrucktem Textildach und optional bedruckten Wänden, geliefert mit wiederverwendbarem Rahmen — für Events, Märkte und Promotion. Das Format bindet die Rahmengrundfläche (3 × 3 m, 10 × 10 ft …). Das Zelt ist ein zusammengesetztes Produkt: ein Dach (ein bedrucktes Teil, auch wenn der Hersteller es aus mehreren geformten Bahnen näht — das Nahtbild ist Produktionsgeometrie, nicht Identität) und null bis vier Wände (voll, halb, mit Tür oder Fenster), jede ein eigenständig konfigurierbares bedrucktes Teil; der Rahmen ist eine nicht bedruckte, mit dem Produkt gewählte Komponente. Die zusammengesetzte Identität (Wurzel + Teile) folgt dem ptpge-cfc/1-Entwurf; bis zu dessen Annahme wird Dach oder Wand als dieses Produkt mit angegebener Rolle im Angebot konfiguriert.",
+    "es": "Carpa plegable o de armazón con techo textil impreso y paredes impresas opcionales, suministrada con su estructura reutilizable — para eventos, mercados y promoción. El formato vincula la huella de la estructura (3 × 3 m, 10 × 10 ft …). La carpa es un producto compuesto: un techo (una sola pieza impresa, aunque el productor la cosa a partir de varios paneles con forma — ese patrón de costura es geometría de producción, no identidad) y de cero a cuatro paredes (completa, media, con puerta o ventana), cada una una pieza impresa configurable de forma independiente; la estructura es un componente no impreso elegido con el producto. La identidad compuesta (raíz + piezas) sigue el diseño ptpge-cfc/1; hasta su adopción, un techo o una pared se configura como este producto indicando su función en la oferta.",
+    "ja": "印刷した布製天幕と任意の印刷側幕を備え、再使用可能なフレームとともに供給されるポップアップ／フレームテント。イベント、マーケット、プロモーション用。判型はフレームの設置面積（3 × 3 m、10 × 10 ft など）を束縛する。テントは複合製品である：天幕1枚（製造者が複数の成形パネルを縫い合わせるが、その縫製パターンは生産上の寸法であり識別ではない）と、0〜4枚の側幕（全面・半面・ドア付き・窓付き）。各側幕は独立に構成可能な印刷部材であり、フレームは製品とともに選択される非印刷部品である。複合識別（ルート＋部材）は ptpge-cfc/1 設計に従う。採用までは、天幕または側幕を本製品として構成し、その役割をオファーに明記する。",
+    "zh-Hans": "带印刷织物顶篷和可选印刷围布的弹出式或框架帐篷，随可重复使用的框架供应——用于活动、市集和促销。规格绑定框架占地尺寸（3 × 3 m、10 × 10 ft 等）。帐篷是复合产品：一个顶篷（单个印刷部件，尽管生产者由多片成形面板缝合而成——缝合方式是生产几何尺寸，而非身份）和零至四面围布（全幅、半幅、带门或带窗），每面均为可独立配置的印刷部件；框架是随产品选择的非印刷组件。复合身份（根＋部件）遵循 ptpge-cfc/1 设计；在其采纳前，顶篷或围布按本产品配置并在报价中注明角色。",
+    "sv": "Ett pop-up- eller ramtält med tryckt textiltak och valfria tryckta väggar, levererat med återanvändbar ram — för evenemang, marknader och promotion. Formatet binder ramens fotavtryck (3 × 3 m, 10 × 10 ft …). Tältet är en sammansatt produkt: ett tak (en tryckt del, även om producenten syr det av flera formade paneler — sömmönstret är produktionsgeometri, inte identitet) och noll till fyra väggar (hel, halv, med dörr eller fönster), var och en en självständigt konfigurerbar tryckt del; ramen är en icke tryckt komponent som väljs med produkten. Sammansatt identitet (rot + delar) följer ptpge-cfc/1-designen; tills den antagits konfigureras ett tak eller en vägg som denna produkt med rollen angiven i offerten.",
+    "da": "Et pop-up- eller rammetelt med trykt tekstiltag og valgfrie trykte vægge, leveret med genanvendelig ramme — til events, markeder og promotion. Formatet binder rammens fodaftryk (3 × 3 m, 10 × 10 ft …). Teltet er et sammensat produkt: ét tag (én trykt del, selv om producenten syr det af flere formede paneler — sømmønsteret er produktionsgeometri, ikke identitet) og nul til fire vægge (hel, halv, med dør eller vindue), hver en selvstændigt konfigurerbar trykt del; rammen er en ikke-trykt komponent, der vælges sammen med produktet. Sammensat identitet (rod + dele) følger ptpge-cfc/1-designet; indtil det er vedtaget, konfigureres et tag eller en væg som dette produkt med rollen angivet i tilbuddet.",
+    "nl": "Een pop-up- of frametent met bedrukt textielen dak en optionele bedrukte wanden, geleverd met herbruikbaar frame — voor evenementen, markten en promotie. Het formaat bindt de voetafdruk van het frame (3 × 3 m, 10 × 10 ft …). De tent is een samengesteld product: één dak (één bedrukt onderdeel, ook al naait de producent het uit meerdere gevormde panelen — dat naadpatroon is productiegeometrie, geen identiteit) en nul tot vier wanden (vol, half, met deur of raam), elk een zelfstandig configureerbaar bedrukt onderdeel; het frame is een niet-bedrukt onderdeel dat met het product wordt gekozen. Samengestelde identiteit (root + delen) volgt het ptpge-cfc/1-ontwerp; tot dat is aangenomen wordt een dak of wand als dit product geconfigureerd met de rol vermeld in de offerte.",
+    "pl": "Namiot ekspresowy lub ramowy z zadrukowanym dachem tekstylnym i opcjonalnymi zadrukowanymi ścianami, dostarczany z wielokrotnego użytku stelażem — na wydarzenia, targi i promocję. Format wiąże obrys stelaża (3 × 3 m, 10 × 10 ft …). Namiot jest produktem złożonym: jeden dach (jedna zadrukowana część, choć producent zszywa ją z kilku wykrojonych paneli — ten układ szwów to geometria produkcyjna, nie tożsamość) oraz od zera do czterech ścian (pełna, połówkowa, z drzwiami lub oknem), każda jako niezależnie konfigurowana zadrukowana część; stelaż jest komponentem niezadrukowanym wybieranym razem z produktem. Tożsamość złożona (korzeń + części) jest zgodna z projektem ptpge-cfc/1; do jego przyjęcia dach lub ścianę konfiguruje się jako ten produkt z rolą podaną w ofercie.",
+    "pt": "Tenda sanfonada ou de estrutura com cobertura têxtil impressa e paredes impressas opcionais, fornecida com sua estrutura reutilizável — para eventos, feiras e promoção. O formato vincula a área da estrutura (3 × 3 m, 10 × 10 pés …). A tenda é um produto composto: uma cobertura (uma única parte impressa, embora o produtor a costure a partir de vários painéis recortados — esse padrão de costura é geometria de produção, não identidade) e de zero a quatro paredes (inteira, meia, com porta ou janela), cada uma uma parte impressa configurável de forma independente; a estrutura é um componente não impresso selecionado com o produto. A identidade composta (raiz + partes) segue o desenho ptpge-cfc/1; até sua adoção, uma cobertura ou uma parede é configurada como este produto com sua função declarada na oferta.",
+    "hi": "मुद्रित कपड़े की छतरी और वैकल्पिक मुद्रित दीवारों वाला पॉप-अप या फ़्रेम टेंट, पुन: प्रयोज्य फ़्रेम के साथ — आयोजनों, बाज़ारों और प्रचार के लिए। फ़ॉर्मेट फ़्रेम के फुटप्रिंट को बाँधता है (3 × 3 मी, 10 × 10 फ़ुट …)। टेंट एक संयुक्त उत्पाद है: एक छतरी (एक ही मुद्रित भाग, हालाँकि उत्पादक इसे कई आकार के पैनलों से सिलता है — वह सिलाई पैटर्न उत्पादन ज्यामिति है, पहचान नहीं) और शून्य से चार दीवारें (पूरी, आधी, दरवाज़े या खिड़की सहित), हर एक स्वतंत्र रूप से कॉन्फ़िगर होने वाला मुद्रित भाग; फ़्रेम उत्पाद के साथ चुना गया बिना छपा घटक है। संयुक्त पहचान (रूट + भाग) ptpge-cfc/1 डिज़ाइन का अनुसरण करती है; उसके अपनाए जाने तक छतरी या दीवार को इसी उत्पाद के रूप में, ऑफ़र में भूमिका बताकर, कॉन्फ़िगर किया जाता है।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/display-system"
+  ],
+  "created": "2026-09-05T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x3",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x10-ft",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x4-5",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x15-ft",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x6",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x20-ft"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/textile",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/vinyl"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type"
+  ]
+}

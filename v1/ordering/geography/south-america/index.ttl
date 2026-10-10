@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/south-america> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/geography> ;
+    skos:definition "Sydamerika — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering."@da,
+        "Regionale Gruppierung Südamerika. Enthält länderspezifische Unterteilungen für Brasilien (BR), Argentinien (AR), Chile (CL) und andere südamerikanische Staaten. Verwendet als geografische Facette in der Produktspezifikation, Lieferantenlisten und Versand-/Lieferzonen."@de,
+        "South American region grouping. Contains country-level subdivisions for Brazil (BR), Argentina (AR), Chile (CL), and other South American nations. Used as geographic facet in product specification, supplier listing, and shipping/delivery scoping."@en,
+        "Agrupación regional de Sudamérica. Contiene subdivisiones a nivel de país para Brasil (BR), Argentina (AR), Chile (CL) y otras naciones sudamericanas. Utilizada como faceta geográfica en la especificación de productos, listados de proveedores y zonas de envío y entrega."@es,
+        "क्षेत्रीय समूह: दक्षिण अमेरिका। ब्राज़ील (BR), अर्जेंटीना (AR), चिली (CL) और अन्य दक्षिण अमेरिकी राष्ट्रों के देश-स्तरीय उपविभाग। उत्पाद विनिर्देश, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे में भौगोलिक पहलू के रूप में प्रयुक्त।"@hi,
+        "南アメリカ地域のグループ。ブラジル（BR）、アルゼンチン（AR）、チリ（CL）、その他の南米諸国の国レベルの細分を含む。製品仕様、供給者リスト、配送ゾーンの地理的ファセットとして使用される。"@ja,
+        "Sør-Amerika-regionen som gruppering. Inneholder land-nivå underinndelinger for Brasil (BR), Argentina (AR), Chile (CL) og andre sør-amerikanske nasjoner. Brukt som geografisk fasett i produkt-spesifikasjon, leverandør-lister og frakt/leverings-avgrensning."@nb,
+        "Zuid-Amerika — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering."@nl,
+        "Grupowanie regionalne dla Ameryki Południowej. Zawiera podziały na poziomie krajów: Brazylia (BR), Argentyna (AR), Chile (CL) i inne państwa Ameryki Południowej. Używane jako aspekt geograficzny w specyfikacji produktu, listach dostawców i zakresie wysyłki/dostawy."@pl,
+        "Agrupamento regional: América do Sul. Contém subdivisões de nível de país para Brasil (BR), Argentina (AR), Chile (CL) e outras nações sul-americanas. Usado como faceta geográfica em especificação de produto, listagem de fornecedores e delimitação de envio/entrega."@pt,
+        "Sydamerikansk regiongruppering. Innehåller underindelningar på landsnivå för Brasilien (BR), Argentina (AR), Chile (CL) och andra sydamerikanska länder. Används som geografisk facett i produktspecifikation, leverantörslistning och avgränsning av frakt och leverans."@sv,
+        "南美洲区域分组。包含巴西（BR）、阿根廷（AR）、智利（CL）以及其他南美国家的国家级细分。作为产品规格、供应商列表和发货/配送范围的地理分面使用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/geography/south-america/argentina>,
+        <https://ptpge.org/v1/ordering/geography/south-america/brasil>,
+        <https://ptpge.org/v1/ordering/geography/south-america/chile>,
+        <https://ptpge.org/v1/ordering/geography/south-america/peru> ;
+    skos:notation "O:GY-SAM" ;
+    skos:prefLabel "Sydamerika"@da,
+        "Südamerika"@de,
+        "South America"@en,
+        "Sudamérica"@es,
+        "दक्षिण अमेरिका"@hi,
+        "南アメリカ"@ja,
+        "Sør-Amerika"@nb,
+        "Zuid-Amerika"@nl,
+        "Ameryka Południowa"@pl,
+        "América do Sul"@pt,
+        "Sydamerika"@sv,
+        "南美洲"@zh-Hans ;
+    ptpge:group "geography" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

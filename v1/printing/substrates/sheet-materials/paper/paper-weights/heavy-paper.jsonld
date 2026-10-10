@@ -1,0 +1,98 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Heavy Paper (240–309 gsm)",
+    "es": "Papel Pesado (240–309 gsm)",
+    "zh-Hans": "重纸 (240–309克)",
+    "nb": "Tungt papir (240–309 g/m²)",
+    "de": "Schweres Papier (240–309 g/m²)",
+    "ja": "厚紙（240〜309 gsm）",
+    "nl": "Zwaar papier (240–309 g/m²)",
+    "sv": "Tungt papper (240–309 g/m²)",
+    "da": "Tungt papir (240–309 g/m²)",
+    "pl": "Papier ciężki (240–309 g/m²)",
+    "pt": "Papel pesado (240–309 g/m²)",
+    "hi": "हेवी काग़ज़ (240–309 GSM)"
+  },
+  "altLabels": {
+    "en": [
+      "Light Card"
+    ],
+    "nb": [
+      "Tynn kartong"
+    ],
+    "pl": [
+      "karton lekki"
+    ],
+    "pt": [
+      "cartão leve",
+      "cartolina leve"
+    ],
+    "hi": [
+      "लाइट कार्ड",
+      "हल्का कार्ड",
+      "भारी काग़ज़"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§HEAVY-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights",
+  "properties": {
+    "minWeight": 240,
+    "maxWeight": 309,
+    "unit": "gsm",
+    "commonWeights": [
+      240,
+      250,
+      260,
+      270,
+      280,
+      290,
+      300
+    ]
+  },
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper in the 240–309 gsm range — at the boundary between heavy paper and light cardstock. Used for postcards, business cards (entry level), and premium covers.",
+    "nb": "Papir i området 240–309 gsm — i grenseland mellom tungt papir og lett kartong. Brukt til postkort, visittkort (enklere kvalitet) og premium-omslag.",
+    "de": "Papier im Bereich 240–309 g/m² — an der Grenze zwischen schwerem Papier und leichtem Karton. Eingesetzt für Postkarten, Visitenkarten (Einsteigerklasse) und Premium-Umschläge.",
+    "ja": "240〜309gsmの坪量範囲の紙 — 重量紙と軽量カード紙の境界に位置する。ハガキ、エントリーレベルの名刺、プレミアム表紙に使用される。",
+    "es": "Papel pesado, 200–250 gsm — utilizado para portadas, tarjetas postales y publicaciones premium.",
+    "zh-Hans": "重纸，200–250克 —— 用于封面、明信片和高级出版物。",
+    "sv": "Papper i intervallet 240–309 g/m² — på gränsen mellan tungt papper och lätt kartong. Används för vykort, visitkort (instegsnivå) och exklusiva omslag.",
+    "da": "Papir i området 240–309 g/m² — på grænsen mellem tungt papir og let karton. Bruges til postkort, visitkort (indstigsniveau) og eksklusive omslag.",
+    "nl": "Papier in het bereik 240–309 g/m² — op de grens tussen zwaar papier en licht karton. Gebruikt voor kaarten, visitekaartjes (instapniveau) en exclusieve omslagen.",
+    "pl": "Papier w zakresie 240–309 g/m² — na granicy między ciężkim papierem a lekkim kartonem. Używany do pocztówek, wizytówek (klasa podstawowa) i okładek premium.",
+    "pt": "Papel na faixa de 240–309 g/m² — na fronteira entre papel pesado e cartão leve. Usado em postais, cartões de visita (básicos) e capas premium.",
+    "hi": "240–309 GSM रेंज का काग़ज़ — भारी काग़ज़ और हल्के कार्डस्टॉक की सीमा पर। पोस्टकार्ड, विज़िटिंग कार्ड (प्रारंभिक स्तर) और प्रीमियम कवर में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

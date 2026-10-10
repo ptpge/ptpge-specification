@@ -1,0 +1,239 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/dust-jackets",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "notation": "O:PR§DUST-JACKETS",
+  "level": "element",
+  "elementType": "product",
+  "label": {
+    "en": "Dust Jackets",
+    "nb": "Smussomslag",
+    "de": "Schutzumschläge",
+    "es": "Sobrecubiertas",
+    "ja": "ブックジャケット",
+    "zh-Hans": "书籍护封",
+    "sv": "Skyddsomslag",
+    "da": "Smudsomslag",
+    "nl": "Stofomslagen",
+    "pl": "Obwoluty",
+    "pt": "Sobrecapas",
+    "hi": "डस्ट जैकेट"
+  },
+  "definition": {
+    "en": "A printed, removable paper wrapper for a case-bound book — front, spine and back with folded flaps; protects the cover and carries the jacket design.",
+    "nb": "Et trykt, avtakbart papiromslag til en innbundet bok — for-, rygg- og bakside med innbrettede klaffer; beskytter bokbindet og bærer omslagsdesignet.",
+    "de": "Ein bedruckter, abnehmbarer Papierumschlag für ein gebundenes Buch — Vorderseite, Rücken und Rückseite mit eingeschlagenen Klappen; schützt den Einband und trägt das Umschlagdesign.",
+    "es": "Una cubierta de papel impresa y extraíble para un libro de tapa dura — portada, lomo y contraportada con solapas plegadas; protege la encuadernación y lleva el diseño de la sobrecubierta.",
+    "ja": "上製本にかける印刷された着脱式の紙カバー。表紙・背・裏表紙と折り込みの袖からなり、表紙を保護しジャケットデザインを担う。",
+    "zh-Hans": "包裹精装书的可拆卸印刷纸质护封——含封面、书脊、封底与内折勒口；保护书壳并承载护封设计。",
+    "sv": "Ett tryckt, löstagbart pappersomslag för en hårdbunden bok — framsida, rygg och baksida med invikta flikar; skyddar bandet och bär omslagsdesignen.",
+    "da": "Et trykt, aftageligt papiromslag til en indbunden bog — forside, ryg og bagside med ombukkede flapper; beskytter bindet og bærer omslagsdesignet.",
+    "nl": "Een gedrukt, afneembaar papieren omslag voor een gebonden boek — voor-, rug- en achterzijde met omgevouwen flappen; beschermt de band en draagt het omslagontwerp.",
+    "pl": "Drukowana, zdejmowana papierowa obwoluta książki w oprawie twardej — przód, grzbiet i tył ze skrzydełkami; chroni okładkę i niesie projekt obwoluty.",
+    "pt": "Sobrecapa de papel impressa e removível para livro de capa dura — frente, lombada e verso com orelhas dobradas; protege a capa e leva o design da sobrecapa.",
+    "hi": "केस-बाउंड किताब के लिए मुद्रित, हटाया जा सकने वाला काग़ज़ का आवरण — आगे, स्पाइन और पीछे, मुड़े फ़्लैप सहित; कवर की रक्षा करता है और जैकेट का डिज़ाइन धारण करता है।"
+  },
+  "altLabels": {
+    "en": [
+      "Dust jacket",
+      "Book jackets",
+      "Book jacket",
+      "Dust covers",
+      "Dust wrappers",
+      "Custom dust jackets"
+    ],
+    "nb": [
+      "Løst bokomslag",
+      "Bokjakke"
+    ],
+    "de": [
+      "Schutzumschlag",
+      "Buchumschlag (lose)",
+      "Bucheinschlag",
+      "Buchumschläge",
+      "Bucheinbände"
+    ],
+    "es": [
+      "Sobrecubierta",
+      "Camisa del libro",
+      "Forro de libro",
+      "cubierta de libro",
+      "camisa de libro"
+    ],
+    "ja": [
+      "カバー",
+      "ブックカバー",
+      "装丁カバー",
+      "ジャケット",
+      "本のカバー",
+      "上製本カバー"
+    ],
+    "zh-Hans": [
+      "护封",
+      "书衣",
+      "书套",
+      "外封"
+    ],
+    "pl": [
+      "obwoluta",
+      "obwoluta książki"
+    ],
+    "sv": [
+      "bokomslag (löst)",
+      "omslag"
+    ],
+    "da": [
+      "bogomslag (løst)",
+      "omslag"
+    ],
+    "nl": [
+      "stofomslag",
+      "boekomslag (los)",
+      "wikkel"
+    ],
+    "pt": [
+      "sobrecapa",
+      "sobrecapa de livro",
+      "capa protetora",
+      "jaqueta de livro"
+    ],
+    "hi": [
+      "डस्ट जैकेट",
+      "बुक जैकेट",
+      "डस्ट कवर",
+      "किताब का आवरण"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-08-12T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/silk"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/embossing",
+    "https://ptpge.org/v1/printing/features/embellishments/debossing"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/silk"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/embossing",
+    "https://ptpge.org/v1/printing/features/embellishments/debossing"
+  ],
+  "customSizeRange": {
+    "min": 100,
+    "max": 700,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

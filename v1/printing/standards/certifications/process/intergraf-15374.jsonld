@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/process/intergraf-15374",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Intergraf 15374",
+    "es": "Intergraf 15374",
+    "zh-Hans": "Intergraf 15374",
+    "nb": "Intergraf 15374",
+    "de": "Intergraf 15374",
+    "ja": "Intergraf 15374",
+    "sv": "Intergraf 15374",
+    "da": "Intergraf 15374",
+    "nl": "Intergraf 15374",
+    "pl": "Intergraf 15374",
+    "pt": "Intergraf 15374",
+    "hi": "Intergraf 15374"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§INTERGRAF-15374",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/process",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Intergraf-developed standard for prepress data exchange in the European graphic-arts industry, defining metadata and packaging conventions for delivering print-ready files.",
+    "nb": "Intergraf-utviklet standard for preprint-datautveksling i den europeiske grafiske bransjen, som definerer metadata- og pakkekonvensjoner for levering av trykkferdige filer.",
+    "de": "Von Intergraf entwickelter Standard für den Druckvorstufen-Datenaustausch in der europäischen Grafikbranche, definiert Metadaten- und Übergabekonventionen für die Lieferung druckfertiger Dateien.",
+    "ja": "Intergrafが策定した、欧州グラフィックアーツ業界における製版データ交換のための規格。印刷可能データの納品に関するメタデータおよびパッケージ規約を定義する。",
+    "es": "Norma desarrollada por Intergraf para el intercambio de datos pre-prensa en la industria gráfica europea, que define convenciones de metadatos y empaquetado para entregar archivos listos para imprenta.",
+    "zh-Hans": "Intergraf制定的欧洲图艺行业印前数据交换标准，定义印刷就绪文件的元数据和打包约定。",
+    "sv": "Intergraf-utvecklad standard för prepressdatautbyte i den europeiska grafiska industrin, definierar metadata- och paketeringskonventioner för leverans av tryckfärdiga filer.",
+    "da": "Intergraf-udviklet standard for prepress-dataudveksling i den europæiske grafiske industri, der definerer metadata- og pakkekonventioner for levering af trykklare filer.",
+    "nl": "Door Intergraf ontwikkelde standaard voor prepressdata-uitwisseling in de Europese grafische industrie, met metadata- en verpakkingsconventies voor de levering van drukklare bestanden.",
+    "pl": "Opracowany przez Intergraf standard wymiany danych prepress w europejskim przemyśle poligraficznym, definiujący konwencje metadanych i pakowania przy dostarczaniu plików gotowych do druku.",
+    "pt": "Norma desenvolvida pela Intergraf para troca de dados de pré-impressão na indústria gráfica europeia, definindo convenções de metadados e empacotamento para a entrega de arquivos prontos para impressão.",
+    "hi": "यूरोपीय ग्राफ़िक-आर्ट्स उद्योग में प्रीप्रेस डेटा विनिमय के लिए Intergraf द्वारा विकसित मानक, जो प्रिंट-रेडी फ़ाइलों की डिलीवरी के मेटाडेटा और पैकेजिंग परंपराएँ परिभाषित करता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Intergraf",
+      "ISO 14298 Intergraf"
+    ],
+    "pl": [
+      "Intergraf",
+      "ISO 14298 Intergraf"
+    ],
+    "pt": [
+      "Intergraf",
+      "ISO 14298 Intergraf"
+    ],
+    "hi": [
+      "Intergraf",
+      "ISO 14298 Intergraf"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

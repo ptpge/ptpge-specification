@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/substrate/substrate-color",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:SB§SUBSTRATE-COLOR",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Substrate Color",
+    "nb": "Substratfarge",
+    "de": "Bedruckstofffarbe",
+    "es": "Color del sustrato",
+    "ja": "基材の色",
+    "zh-Hans": "承印材料颜色",
+    "sv": "Substratfärg",
+    "da": "Substratfarve",
+    "nl": "Substraatkleur",
+    "pl": "Kolor podłoża",
+    "pt": "Cor do substrato",
+    "hi": "सब्सट्रेट का रंग"
+  },
+  "altLabels": {
+    "en": [
+      "Paper Color",
+      "Substrate Colour"
+    ],
+    "nb": [
+      "Papirfarge"
+    ],
+    "pl": [
+      "kolor papieru",
+      "barwa podłoża"
+    ],
+    "pt": [
+      "cor do papel",
+      "tonalidade do papel"
+    ],
+    "hi": [
+      "काग़ज़ का रंग",
+      "पेपर कलर"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Substrate Colour. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Substratfarge. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Bedruckstofffarbe. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Color del sustrato. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：基材の色。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：承印材料颜色。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Substratfärg. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Substratfarve. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Substraatkleur. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Kolor podłoża. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Cor do Substrato. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट का रंग। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Which paper colour?",
+    "nb": "Hvilken papirfarge?",
+    "de": "Welche Papierfarbe?",
+    "es": "¿Qué color de papel?",
+    "ja": "紙の色は？",
+    "zh-Hans": "纸张什么颜色？",
+    "sv": "Vilken pappersfärg?",
+    "da": "Hvilken papirfarve?",
+    "nl": "Welke papierkleur?",
+    "pl": "Jaki kolor papieru?",
+    "pt": "Que cor de papel?",
+    "hi": "कागज़ का रंग?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/substrate",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/embossing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Embossing",
+    "nb": "Embossing",
+    "de": "Hochprägung",
+    "ja": "エンボス加工",
+    "es": "Relieve / Embossing",
+    "zh-Hans": "凸压（embossing）",
+    "nl": "Reliëfpreeg (embossing)",
+    "sv": "Prägling",
+    "da": "Prægning",
+    "pl": "Tłoczenie wypukłe",
+    "pt": "Alto-relevo",
+    "hi": "एम्बॉसिंग"
+  },
+  "altLabels": {
+    "en": [
+      "Raised Embossing"
+    ],
+    "nb": [
+      "Preging",
+      "Relieffpreging",
+      "Opphøyd preg"
+    ],
+    "pl": [
+      "emboss",
+      "wytłoczenie wypukłe"
+    ],
+    "pt": [
+      "relevo alto",
+      "relevo",
+      "emboss",
+      "relevo elevado"
+    ],
+    "hi": [
+      "एम्बॉस",
+      "उभार",
+      "उभरी छपाई",
+      "रेज़्ड एम्बॉसिंग"
+    ]
+  },
+  "definition": {
+    "en": "A relief impression pressed UP from the substrate, creating a raised image or text. Done with male and female dies that shape the substrate from both sides. Blind embossing uses no ink/foil; foil embossing combines the relief with hot-foil application in one operation.",
+    "nb": "Et relief-inntrykk presset OPP fra substratet, som skaper et hevet bilde eller tekst. Utført med male og female dies som former substratet fra begge sider. Blind embossing bruker ingen blekk/folie; folie-embossing kombinerer relief med varmfolie-påføring i én operasjon.",
+    "de": "Ein Reliefeindruck, der AUS dem Substrat hervorgepresst wird und ein erhabenes Bild oder Text erzeugt.",
+    "ja": "エンボスは型を用いて基材の一部を周囲の表面より浮き上がらせる構造的な装飾加工で、立体的な触覚要素を生み出す。表紙、名刺、パッケージのロゴ、モノグラム、アクセント要素によく適用される。",
+    "es": "El relieve es un embellecimiento estructural que eleva partes del sustrato por encima de la superficie circundante mediante un troquel, creando un elemento táctil tridimensional. A menudo se aplica a logotipos, monogramas o elementos de acento en portadas, tarjetas de visita y embalajes.",
+    "zh-Hans": "凸压（Embossing）是一种结构性装饰加工，使用模具将承印物的部分区域凸出于周围表面，形成立体触感元素。常应用于封面、名片和包装上的标识、字母组合或装饰元素。",
+    "sv": "Ett reliefavtryck pressat UPP ur substratet som skapar en upphöjd bild eller text. Görs med han- och honverktyg som formar substratet från båda sidor. Blindprägling använder varken bläck eller folie; folieprägling kombinerar reliefen med varmfolie i en och samma operation.",
+    "da": "Et reliefaftryk presset OP fra substratet, der skaber et hævet billede eller tekst. Udføres med han- og hunmatricer, der former substratet fra begge sider. Blindprægning bruger ingen farve/folie; folieprægning kombinerer med folie.",
+    "nl": "Een reliëfafdruk OMHOOG uit het substraat geperst, die een verhoogd beeld of tekst vormt. Uitgevoerd met patrijs en matrijs die het substraat van beide zijden vormen. Blindpreging gebruikt geen inkt/folie; foliepreging combineert met folie.",
+    "pl": "Reliefowe wypchnięcie Z podłoża, tworzące wypukły obraz lub tekst. Wykonywane matrycą i patrycą kształtującymi podłoże z obu stron. Tłoczenie ślepe nie używa farby ani folii; tłoczenie z folią łączy relief z aplikacją folii na gorąco w jednej operacji.",
+    "pt": "Impressão em relevo prensada PARA CIMA a partir do substrato, criando imagem ou texto elevado. Feita com matrizes macho e fêmea que moldam o substrato dos dois lados. O relevo seco não usa tinta/foil; o relevo com foil combina o relevo com hot stamping em uma única operação.",
+    "hi": "सब्सट्रेट से ऊपर की ओर दबाकर बनाया उभार, जिससे उभरा हुआ चित्र या पाठ बनता है। पुरुष और स्त्री डाई से सब्सट्रेट को दोनों ओर से आकार दिया जाता है। ब्लाइंड एम्बॉसिंग में स्याही/फ़ॉइल नहीं; फ़ॉइल एम्बॉसिंग में उभार और हॉट-फ़ॉइल एक ही क्रिया में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments",
+  "narrower": [
+    "https://ptpge.org/v1/printing/features/embellishments/embossing/blind",
+    "https://ptpge.org/v1/printing/features/embellishments/embossing/foil"
+  ],
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT-EMB-EMBO",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent",
+        "Embossing",
+        "EmbossingParams"
+      ],
+      "refs": [
+        "§4.6 · p.74",
+        "§5.6.12 · p.118",
+        "§6.32 · p.197"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 27"
+    }
+  ]
+}

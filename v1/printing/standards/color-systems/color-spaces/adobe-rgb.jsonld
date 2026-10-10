@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces/adobe-rgb",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Adobe RGB",
+    "es": "Adobe RGB",
+    "zh-Hans": "Adobe RGB",
+    "nb": "Adobe RGB",
+    "de": "Adobe RGB",
+    "ja": "Adobe RGB",
+    "sv": "Adobe RGB",
+    "da": "Adobe RGB",
+    "nl": "Adobe RGB",
+    "pl": "Adobe RGB",
+    "pt": "Adobe RGB",
+    "hi": "Adobe RGB"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§ADOBE-RGB",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Adobe RGB (1998) — a wide-gamut RGB color space designed by Adobe to encompass most CMYK printable colors, used by photographers and designers preparing content for print.",
+    "nb": "Adobe RGB (1998) — et bredt RGB-fargerom utviklet av Adobe for å dekke de fleste CMYK-trykkbare fargene, brukt av fotografer og designere som forbereder innhold for trykk.",
+    "de": "Adobe RGB (1998) — ein RGB-Farbraum mit erweitertem Farbumfang, von Adobe entwickelt, um die meisten CMYK-druckbaren Farben zu umfassen, verwendet von Fotografen und Designern bei der Druckvorbereitung.",
+    "ja": "Adobe RGB（1998）— Adobeが設計した広色域RGB色空間。CMYKで印刷可能な色の大部分を包含するように設計されており、印刷物用のコンテンツを準備する写真家やデザイナーに使用される。",
+    "es": "Espacio de color RGB con un gamut más amplio que sRGB, especialmente en los cianes y verdes. Diseñado por Adobe para cubrir la mayor parte del gamut CMYK reproducible en impresión.",
+    "zh-Hans": "色域比sRGB更广的RGB色彩空间，尤其在青色和绿色方面。由Adobe设计，覆盖印刷中可再现的大部分CMYK色域。",
+    "sv": "Adobe RGB (1998) — en RGB-färgrymd med bred färgomfattning designad av Adobe för att rymma de flesta CMYK-tryckbara kulörer, använd av fotografer och formgivare som förbereder innehåll för tryck.",
+    "da": "Adobe RGB (1998) — et RGB-farverum med bredt farveomfang designet af Adobe til at rumme de fleste CMYK-trykbare farver, brugt af fotografer og designere, der klargør indhold til tryk.",
+    "nl": "Adobe RGB (1998) — een RGB-kleurruimte met breed gamma, ontworpen door Adobe om de meeste CMYK-drukbare kleuren te omvatten, gebruikt door fotografen en ontwerpers die content voor druk voorbereiden.",
+    "pl": "Adobe RGB (1998) — szerokogamutowa przestrzeń barw RGB zaprojektowana przez Adobe tak, aby obejmować większość barw drukowalnych w CMYK; używana przez fotografów i projektantów przygotowujących treści do druku.",
+    "pt": "Adobe RGB (1998) — espaço de cor RGB de gamut amplo projetado pela Adobe para abranger a maioria das cores imprimíveis em CMYK, usado por fotógrafos e designers que preparam conteúdo para impressão.",
+    "hi": "Adobe RGB (1998) — Adobe द्वारा डिज़ाइन किया व्यापक-गैमट RGB रंग स्पेस, जो अधिकांश CMYK मुद्रण-योग्य रंगों को समेटता है; प्रिंट के लिए सामग्री तैयार करने वाले फ़ोटोग्राफ़रों और डिज़ाइनरों द्वारा प्रयुक्त।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Adobe RGB (1998)"
+    ],
+    "pl": [
+      "Adobe RGB (1998)"
+    ],
+    "pt": [
+      "Adobe RGB (1998)"
+    ],
+    "hi": [
+      "Adobe RGB (1998)"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

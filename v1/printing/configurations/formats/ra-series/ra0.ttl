@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/ra-series/ra0> a skos:Concept ;
+    dcterms:created "2026-08-12T11:00:47+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/ra-series> ;
+    skos:definition "860 × 1220 mm. Ubeskåret trykark i RA-serien (Raw format A) i ISO 217 — lidt overdimensioneret i forhold til det tilsvarende A-format, bruges hvor der behøves mindre skæremargin end i SRA-serien."@da,
+        "860 × 1220 mm. Unbeschnittener Druckbogen der ISO-217-RA-Reihe — gegenüber dem entsprechenden A-Format leicht vergrößert; verwendet, wo weniger Beschnittzugabe als bei SRA genügt."@de,
+        "860 × 1220 mm. Untrimmed press sheet of the ISO 217 RA (Raw format A) series — slightly oversized relative to the corresponding A format, used where less trim allowance is needed than SRA."@en,
+        "860 × 1220 mm. Pliego sin recortar de la serie RA de ISO 217 — ligeramente sobredimensionado respecto al formato A correspondiente; se usa donde se necesita menos demasía que en SRA."@es,
+        "860 × 1220 mm. ISO 217 RA (Raw format A) सीरीज़ की बिना ट्रिम प्रेस शीट — संगत A फ़ॉर्मेट से थोड़ी बड़ी, जहाँ SRA से कम ट्रिम भत्ता चाहिए।"@hi,
+        "860 × 1220 mm。ISO 217 RA系列の断裁前の印刷用紙。対応するA判よりわずかに大きく、SRAほどの余白が不要な場合に使う。"@ja,
+        "860 × 1220 mm. Ubeskåret trykkark i ISO 217 RA-serien — litt overdimensjonert i forhold til tilsvarende A-format, brukt der mindre beskjæringsmonn trengs enn SRA."@nb,
+        "860 × 1220 mm. Onbesneden drukvel in de RA-reeks (Raw format A) van ISO 217 — iets ruimer dan het overeenkomstige A-formaat, gebruikt waar een kleinere snijmarge volstaat dan bij de SRA-reeks."@nl,
+        "860 × 1220 mm. Nieprzycięty arkusz drukowy serii RA (Raw format A) normy ISO 217 — nieco większy od odpowiadającego formatu A, używany tam, gdzie potrzebny jest mniejszy naddatek na obcięcie niż w SRA."@pl,
+        "860 × 1220 mm. Folha de impressão não refilada da série RA (Raw format A) da ISO 217 — um pouco maior que o formato A correspondente, usada onde se precisa de menos margem de refile que na SRA."@pt,
+        "860 × 1220 mm. Obeskuret tryckark i RA-serien (Raw format A) i ISO 217 — något överdimensionerat i förhållande till motsvarande A-format, används där mindre skärmån behövs än i SRA-serien."@sv,
+        "860 × 1220 毫米。ISO 217 RA 系列的未裁切印刷纸张 — 比对应 A 系列略大，用于所需裁切余量小于 SRA 的场合。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§RA0" ;
+    skos:prefLabel "RA0 (860 x 1220 mm)"@da,
+        "RA0 (860 x 1220 mm)"@de,
+        "RA0 (860 x 1220 mm)"@en,
+        "RA0 (860 × 1220 mm)"@es,
+        "RA0 (860 x 1220 mm)"@hi,
+        "RA0 (860 x 1220 mm)"@ja,
+        "RA0 (860 x 1220 mm)"@nb,
+        "RA0 (860 x 1220 mm)"@nl,
+        "RA0 (860 x 1220 mm)"@pl,
+        "RA0 (860 x 1220 mm)"@pt,
+        "RA0 (860 x 1220 mm)"@sv,
+        "RA0 (860 × 1220 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 1049200.0 ;
+            ptpge:aspectRatio 1.4186 ;
+            ptpge:height 1220.0 ;
+            ptpge:standard "ISO 217" ;
+            ptpge:unit "mm" ;
+            ptpge:width 860.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

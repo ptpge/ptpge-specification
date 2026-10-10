@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting> a skos:Concept ;
+    dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Cutting"@en,
+        "Guillotining"@en,
+        "Trimming"@en,
+        "कटाई"@hi,
+        "कटिंग"@hi,
+        "गिलोटिन"@hi,
+        "ट्रिमिंग"@hi,
+        "cięcie"@pl,
+        "krojenie"@pl,
+        "przycinanie"@pl,
+        "corte"@pt,
+        "guilhotinagem"@pt,
+        "refile"@pt,
+        "refilo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Lige skæring og beskæring af arkstakke på en skæremaskine — den grundlæggende efterbehandlingsoperation, der skærer trykark til endeligt format og renskærer indbundne produkter."@da,
+        "Gerades Schneiden und Beschneiden von Papierstapeln im Planschneider — die grundlegende Weiterverarbeitungsoperation, die Druckbogen auf Endformat schneidet und gebundene Produkte sauber beschneidet."@de,
+        "Straight-line cutting and trimming of sheet stacks on a guillotine — the fundamental finishing operation that cuts press sheets to final size and trims bound products clean."@en,
+        "Corte y refilado en línea recta de pilas de hojas en guillotina — la operación de acabado fundamental que corta los pliegos al tamaño final y refila limpiamente los productos encuadernados."@es,
+        "गिलोटिन पर शीटों के ढेर की सीधी कटाई और ट्रिमिंग — बुनियादी फ़िनिशिंग क्रिया जो प्रेस शीट को अंतिम आकार में काटती है और बँधे उत्पादों को साफ़ ट्रिम करती है।"@hi,
+        "断裁機（ギロチン）による用紙束の直線裁ちと仕上げ断裁。刷本を仕上がり寸法に断裁し、製本物を化粧裁ちする、最も基本的な後加工。"@ja,
+        "Rettlinjet skjæring og renskjæring av arkstabler i giljotin — den grunnleggende ferdiggjøringsoperasjonen som skjærer trykkark til sluttformat og renskjærer innbundne produkter."@nb,
+        "Recht snijden en schoonsnijden van velstapels op een snijmachine — de fundamentele afwerkingsbewerking die drukvellen op eindformaat snijdt en gebonden producten schoon afwerkt."@nl,
+        "Cięcie i przycinanie stosów arkuszy po linii prostej na gilotynie — podstawowa operacja wykończeniowa, która tnie arkusze drukarskie do formatu netto i czysto obcina produkty oprawione."@pl,
+        "Corte e refile em linha reta de maços de folhas na guilhotina — a operação de acabamento fundamental que corta as folhas de impressão no tamanho final e refila produtos encadernados."@pt,
+        "Raklinjig skärning och renskärning av arkbuntar i skärmaskin (giljotin) — den grundläggande efterbehandlingsoperationen som skär tryckark till slutformat och renskär bundna produkter."@sv,
+        "在切纸机上对纸叠进行直线切割与修边 — 将印张裁至成品尺寸并对装订成品进行光边的基础印后工序。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§GUILLOTINE-CUTTING" ;
+    skos:prefLabel "Skæring"@da,
+        "Planschneiden"@de,
+        "Guillotine Cutting"@en,
+        "Corte de guillotina"@es,
+        "गिलोटिन कटिंग"@hi,
+        "断裁"@ja,
+        "Giljotinskjæring"@nb,
+        "Snijden"@nl,
+        "Cięcie gilotynowe"@pl,
+        "Corte em guilhotina"@pt,
+        "Skärning i skärmaskin"@sv,
+        "裁切"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/4a0> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "168.2 x 237.8 cm"@en,
+        "1682 x 2378 mm"@en,
+        "1682x2378"@en,
+        "1682×2378"@en,
+        "DIN 4A0"@en,
+        "4A0-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "1682 × 2378 mm (66.22 × 93.62 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Ikke-standardiseret firedobbelt-A0-format — det største praktiske A-serieark, bruges til messebagvægge og overdimensioneret skiltning."@da,
+        "1682 × 2378 mm (66,22 × 93,62 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Nicht standardisiertes Vierfach-A0-Format — der größte praktisch nutzbare A-Bogen, eingesetzt für Messewände und überdimensionale Beschilderung."@de,
+        "1682 × 2378 mm (66.22 × 93.62 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Non-standard quadruple-A0 size — the largest practical A-series sheet, used for exhibition backdrops and oversized signage."@en,
+        "Formato 4A0 — cuatro veces A0, el tamaño estandarizado más grande de la serie A, utilizado para carteles murales y aplicaciones especiales."@es,
+        "1682 × 2378 mm (66.22 × 93.62 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। ग़ैर-मानक चौगुना-A0 आकार — A-सीरीज़ की सबसे बड़ी व्यावहारिक शीट, प्रदर्शनी बैकड्रॉप और विशाल साइनेज में।"@hi,
+        "1682×2378mm（66.22×93.62インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。非標準のクアドラプルA0サイズ — 実用上最大のAシリーズシートで、展示用バックドロップおよび大型サインに使用される。"@ja,
+        "1682 × 2378 mm (66,22 × 93,62 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Ikke-standardisert firdobbel-A0-størrelse — det største praktiske A-serie-arket, brukt til utstillingsbakgrunn og overdimensjonert skilting."@nb,
+        "1682 × 2378 mm (66.22 × 93.62 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Niet-gestandaardiseerd viervoudig-A0-formaat — het grootste praktische A-reeksvel, gebruikt voor beurswanden en extra grote signalisatie."@nl,
+        "1682 × 2378 mm (66,22 × 93,62 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Niestandardowy poczwórny A0 — największy praktyczny arkusz serii A, używany do tła wystawowego i ponadwymiarowego oznakowania."@pl,
+        "1682 × 2378 mm (66.22 × 93.62 in). Faz parte da série A da ISO 216, com proporção 1:√2. Tamanho não padrão quádruplo A0 — a maior folha prática da série A, usada em fundos de exposição e sinalização gigante."@pt,
+        "1682 × 2378 mm (66.22 × 93.62 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Icke-standardiserat fyrdubbel-A0-format — det största praktiska A-seriearket, används för mässfonder och överdimensionerad skyltning."@sv,
+        "4A0 —— A0的四倍，A系列中最大的标准化尺寸，用于墙面海报和特殊应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§4A0" ;
+    skos:prefLabel "4A0 (1682 x 2378 mm)"@da,
+        "4A0 (1682 x 2378 mm)"@de,
+        "4A0 (1682 x 2378 mm)"@en,
+        "4A0 (1682 × 2378 mm)"@es,
+        "4A0 (1682 x 2378 mm)"@hi,
+        "4A0 (1682 x 2378 mm)"@ja,
+        "4A0 (1682 x 2378 mm)"@nb,
+        "4A0 (1682 x 2378 mm)"@nl,
+        "4A0 (1682 x 2378 mm)"@pl,
+        "4A0 (1682 x 2378 mm)"@pt,
+        "4A0 (1682 x 2378 mm)"@sv,
+        "4A0 (1682 × 2378 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 3999796.0 ;
+            ptpge:aspectRatio 1.4138 ;
+            ptpge:height 2378.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 1682.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

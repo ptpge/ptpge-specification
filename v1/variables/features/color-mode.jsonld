@@ -1,0 +1,100 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/features/color-mode",
+  "type": "skos:Concept",
+  "version": "2026-09-20",
+  "status": "proposed",
+  "notation": "VAR:FT§COLOR-MODE",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Color Mode",
+    "nb": "Fargemodus",
+    "de": "Farbmodus",
+    "es": "Modo de color",
+    "ja": "カラーモード",
+    "zh-Hans": "色彩模式",
+    "sv": "Färgläge",
+    "da": "Farvetilstand",
+    "nl": "Kleurmodus",
+    "pl": "Tryb koloru",
+    "pt": "Modo de cor",
+    "hi": "कलर मोड"
+  },
+  "altLabels": {
+    "en": [
+      "Color Printing",
+      "Ink Colors",
+      "Colour Mode"
+    ],
+    "nb": [
+      "Fargetrykk",
+      "Farger"
+    ],
+    "pl": [
+      "kolorystyka druku",
+      "kolory farb",
+      "tryb barw"
+    ],
+    "pt": [
+      "cores de impressão",
+      "cores de tinta",
+      "modo de cores"
+    ],
+    "hi": [
+      "रंग मोड",
+      "प्रिंट कलर",
+      "स्याही के रंग",
+      "छपाई के रंग"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Color Mode. A surface is configured with one or more color layers from the referenced valueDomain, in print order — e.g. White + CMYK (white underprint on dark, clear or non-paper substrates), CMYK + Spot, or Black + White. A single layer remains the common case.",
+    "nb": "Konfigurerbar akse: Fargemodus. En flate konfigureres med ett eller flere fargelag fra value-domain, i trykkrekkefølge — f.eks. White + CMYK (hvit undertrykk på mørke, klare eller ikke-papir-substrater), CMYK + Spot, eller Black + White. Ett lag er fortsatt normaltilfellet.",
+    "de": "Konfigurierbare Achse: Farbmodus. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Modo de color. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：カラーモード。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：色彩模式。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Färgläge. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Farvetilstand. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Kleurmodus. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Tryb koloru. Powierzchnia jest konfigurowana jedną lub kilkoma warstwami barwnymi z przywołanej valueDomain, w kolejności druku — np. Biel + CMYK (podkład biały na ciemnych, przezroczystych lub niepapierowych podłożach), CMYK + kolor dodatkowy lub Czerń + Biel. Pojedyncza warstwa pozostaje typowym przypadkiem.",
+    "pt": "Eixo configurável: Modo de Cor. Uma face é configurada com uma ou mais camadas de cor do valueDomain referenciado, em ordem de impressão — p. ex. Branco + CMYK (base branca sobre substratos escuros, transparentes ou não papel), CMYK + Cor especial, ou Preto + Branco. Uma única camada continua sendo o caso comum.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: कलर मोड। किसी सतह को संदर्भित valueDomain से एक या अधिक रंग परतों के साथ, छपाई के क्रम में, कॉन्फ़िगर किया जाता है — जैसे सफ़ेद + CMYK (गहरे, पारदर्शी या ग़ैर-काग़ज़ सब्सट्रेट पर सफ़ेद अंडरप्रिंट), CMYK + स्पॉट, या काला + सफ़ेद। एक ही परत अब भी सामान्य मामला है।"
+  },
+  "question": {
+    "en": "Printed in which colours?",
+    "nb": "Trykt i hvilke farger?",
+    "de": "In welchen Farben gedruckt?",
+    "es": "¿Impreso en qué colores?",
+    "ja": "何色で印刷しますか？",
+    "zh-Hans": "用什么颜色印刷？",
+    "sv": "Tryckt i vilka färger?",
+    "da": "Trykt i hvilke farver?",
+    "nl": "In welke kleuren gedrukt?",
+    "pl": "W jakich kolorach drukowany?",
+    "pt": "Impresso em que cores?",
+    "hi": "किन रंगों में छपाई?"
+  },
+  "datatype": "enum",
+  "cardinality": "multiple",
+  "scope": "surface",
+  "valueDomain": "https://ptpge.org/v1/printing/features/colors",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/features",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "exclusiveGroups": [
+    {
+      "name": "process",
+      "rule": "at-most-one",
+      "values": [
+        "https://ptpge.org/v1/printing/features/colors/black",
+        "https://ptpge.org/v1/printing/features/colors/cmyk",
+        "https://ptpge.org/v1/printing/features/colors/cmykog",
+        "https://ptpge.org/v1/printing/features/colors/cmykogv"
+      ]
+    }
+  ]
+}

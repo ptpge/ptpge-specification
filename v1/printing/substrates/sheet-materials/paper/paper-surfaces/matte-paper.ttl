@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Mat papir (bestrøget eller ubestrøget)"@da,
+        "Mattes Papier (gestrichen oder ungestrichen)"@de,
+        "Matt Paper"@en,
+        "Matte Paper (Coated or uncoated)"@en,
+        "बिना चमक का काग़ज़"@hi,
+        "मैट आर्ट पेपर"@hi,
+        "मैट पेपर"@hi,
+        "Matt bestrøket"@nb,
+        "Matt papir (bestrøket eller ubestrøket)"@nb,
+        "Maco mat"@nl,
+        "Mat machinegestreken (MC)"@nl,
+        "Mat papier (gestreken of ongestreken)"@nl,
+        "kreda matowa"@pl,
+        "papier mat"@pl,
+        "papier matowy (powlekany lub niepowlekany)"@pl,
+        "couché fosco"@pt,
+        "papel fosco (couché ou offset)"@pt,
+        "papel mate"@pt,
+        "Matt papper (bestruket eller obestruket)"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces> ;
+    skos:definition "Papir med ikke-reflekterende mat finish — bestrøget eller ubestrøget. Reducerer genskin og er mere behageligt for øjet ved længere læsning. Bruges til bøger, manualer og redaktionelle udgivelser."@da,
+        "Papier mit nicht reflektierender, matter Oberfläche — gestrichen oder ungestrichen. Reduziert Blendung und ist für längeres Lesen angenehmer für die Augen. Eingesetzt für Bücher, Handbücher und redaktionelle Publikationen."@de,
+        "Paper with a non-reflective dull finish — coated or uncoated. Reduces glare and is easier on the eye for extended reading. Used for books, manuals, and editorial publications."@en,
+        "Papel mate (estucado o sin estucar) — sin reflejos, ofrece lectura cómoda. Habitual en libros de arte, editorial y novelas."@es,
+        "बिना परावर्तन की फीकी फ़िनिश वाला काग़ज़ — कोटेड या अनकोटेड। चमक कम करता है और लंबे पढ़ने में आँखों पर हल्का। किताबों, मैनुअल और संपादकीय प्रकाशनों में।"@hi,
+        "反射のない無光沢仕上げの紙 — 塗工または非塗工。グレアを抑え、長時間の読書でも目に優しい。書籍、マニュアル、エディトリアル出版物に使用される。"@ja,
+        "Papir med en ikke-reflekterende matt overflate — belagt eller ubelagt. Reduserer gjenskinn og er mer behagelig å lese over lengre tid. Brukt til bøker, manualer og redaksjonelle publikasjoner."@nb,
+        "Papier met een niet-reflecterende matte afwerking — gestreken of ongestreken. Vermindert schittering en leest prettiger bij langdurig lezen. Gebruikt voor boeken, handleidingen en redactionele publicaties."@nl,
+        "Papier o nieodbijającym, przytłumionym wykończeniu — powlekany lub niepowlekany. Redukuje odblaski i mniej męczy wzrok przy dłuższym czytaniu. Używany do książek, instrukcji i publikacji redakcyjnych."@pl,
+        "Papel com acabamento opaco, não reflexivo — revestido ou não. Reduz o reflexo e cansa menos os olhos em leituras longas. Usado em livros, manuais e publicações editoriais."@pt,
+        "Papper med reflexfri matt finish — bestruket eller obestruket. Minskar bländning och är skonsammare för ögat vid längre läsning. Används för böcker, manualer och redaktionella publikationer."@sv,
+        "哑光纸（涂布或未涂布）—— 无反光，提供舒适阅读。常见于艺术书、编辑出版物和小说。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§MATTE-PAPER" ;
+    skos:prefLabel "Mat papir"@da,
+        "Mattes Papier"@de,
+        "Matte Paper"@en,
+        "Papel Mate"@es,
+        "मैट काग़ज़"@hi,
+        "マット紙（コートまたは非コート）"@ja,
+        "Matt papir"@nb,
+        "Mat papier"@nl,
+        "Papier matowy"@pl,
+        "Papel fosco"@pt,
+        "Matt papper"@sv,
+        "哑光纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

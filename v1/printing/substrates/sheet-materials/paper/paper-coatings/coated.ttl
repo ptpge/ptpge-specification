@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated> a skos:Concept ;
+    dcterms:created "2026-08-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "आर्ट पेपर"@hi,
+        "कोटेड पेपर"@hi,
+        "लेपित काग़ज़"@hi,
+        "kreda"@pl,
+        "papier kredowy"@pl,
+        "papier powlekany"@pl,
+        "couché"@pt,
+        "papel couché"@pt,
+        "revestido"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings> ;
+    skos:definition "Papir med mineralsk bestrygning på basispapiret, der giver en lukket, glat trykflade med høj farveholdout. Finishen ovenpå (gloss, silk, mat) udtrykkes via overfladeaksen."@da,
+        "Papier mit mineralischem Strich auf dem Rohpapier — geschlossene, glatte Druckoberfläche mit hohem Farbstand. Die Oberflächenanmutung (Glanz, Seidenmatt, Matt) wird über die Oberflächenachse ausgedrückt."@de,
+        "Paper with a mineral coating applied to the base sheet, giving a closed, smooth printing surface with high ink holdout. The finish on top (gloss, silk, matte) is expressed via the surface axis."@en,
+        "Papel con estucado mineral aplicado sobre la hoja base, que da una superficie de impresión cerrada y lisa con alta retención de tinta. El acabado superior (brillo, seda, mate) se expresa mediante el eje de superficie."@es,
+        "आधार शीट पर खनिज कोटिंग वाला काग़ज़, जो बंद, चिकनी छपाई सतह और उच्च इंक होल्डआउट देता है। ऊपर की फ़िनिश (ग्लॉस, सिल्क, मैट) सतह अक्ष से व्यक्त होती है।"@hi,
+        "原紙に鉱物性の塗工を施した紙。閉じた滑らかな印刷面と高いインキホールドアウトを持つ。表面の仕上がり（グロス、シルク、マット）は表面軸で表現される。"@ja,
+        "Papir med mineralsk bestrykning på råpapiret, som gir en lukket, jevn trykkflate med høy fargeholdout. Finishen oppå (gloss, silk, matt) uttrykkes via overflate-aksen."@nb,
+        "Papier met een minerale strijklaag op het basisvel, wat een gesloten, glad drukoppervlak met hoge inkt-holdout geeft. De afwerking erop (glans, zijdeglans, mat) wordt via de oppervlakte-as uitgedrukt."@nl,
+        "Papier z powłoką mineralną naniesioną na arkusz bazowy, dającą zamkniętą, gładką powierzchnię drukową o wysokiej odporności na wsiąkanie farby. Wykończenie wierzchnie (błysk, satyna, mat) wyrażane jest osią powierzchni."@pl,
+        "Papel com revestimento mineral aplicado à folha base, dando uma superfície de impressão fechada e lisa, com alta retenção de tinta. O acabamento por cima (brilho, acetinado, fosco) é expresso pelo eixo de superfície."@pt,
+        "Papper med mineralbestrykning på baspappret, vilket ger en sluten, jämn tryckyta med hög färghållning. Ytkänslan (glans, silk, matt) uttrycks via ytaxeln."@sv,
+        "在原纸上施加矿物涂层的纸张，形成封闭、平滑的印刷表面，具有较高的油墨保留性。表面效果（光面、绸面、哑面）通过表面轴表达。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§COATED" ;
+    skos:prefLabel "Bestrøget"@da,
+        "Gestrichen"@de,
+        "Coated"@en,
+        "Estucado"@es,
+        "कोटेड"@hi,
+        "塗工紙"@ja,
+        "Bestrøket"@nb,
+        "Gestreken"@nl,
+        "Powlekany"@pl,
+        "Revestido (couché)"@pt,
+        "Bestruket"@sv,
+        "涂布纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-22" .
+

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-china> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "9 x 5.4 cm"@en,
+        "90 x 54 mm"@en,
+        "90x54"@en,
+        "90×54"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/business-cards> ;
+    skos:definition "90 × 54 mm. Standardvisitkortformatet i Fastlandskina. Lidt bredere end EU-standarden, smallere end den skandinaviske."@da,
+        "90 × 54 mm. Das Standardvisitenkartenformat in der Volksrepublik China. Etwas breiter als der EU-Standard, schmaler als der skandinavische Standard."@de,
+        "90 × 54 mm. The standard business card size in mainland China. Slightly wider than the EU standard, narrower than the Scandinavian."@en,
+        "Tarjeta de visita china, 90 × 54 mm — formato regional para mercados de habla china."@es,
+        "90 × 54 mm. मुख्यभूमि चीन का मानक विज़िटिंग कार्ड आकार। EU मानक से थोड़ा चौड़ा, स्कैंडिनेवियाई से पतला।"@hi,
+        "90×54mm。中国本土の標準名刺サイズ。EU標準よりわずかに広く、北欧標準よりわずかに狭い。"@ja,
+        "90 × 54 mm. Standard visittkortstørrelse i Kina. Litt bredere enn EU-standarden, smalere enn den skandinaviske."@nb,
+        "90 × 54 mm. Standardvisitkortformatet in Fastlandskina. Iets breder dan de EU-standaard, smaller dan de Scandinavische."@nl,
+        "90 × 54 mm. Standardowy format wizytówki w Chinach kontynentalnych. Nieco szerszy niż standard UE, węższy niż skandynawski."@pl,
+        "90 × 54 mm. O tamanho padrão de cartão de visita na China continental. Um pouco mais largo que o padrão europeu, mais estreito que o escandinavo."@pt,
+        "90 × 54 mm. Standardvisitkortsformatet i Fastlandskina. Något bredare än EU-standarden, smalare än den skandinaviska."@sv,
+        "中国名片，90 × 54 毫米 —— 中文市场的地区格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§BUSINESS-CARD-CHINA" ;
+    skos:prefLabel "Visitkort Kina (90 x 54 mm)"@da,
+        "Business Card China (90 x 54 mm)"@de,
+        "Business Card China (90 x 54 mm)"@en,
+        "Tarjeta de Visita China (90 × 54 mm)"@es,
+        "विज़िटिंग कार्ड चीन (90 x 54 mm)"@hi,
+        "Business Card China (90 x 54 mm)"@ja,
+        "Business Card China (90 x 54 mm)"@nb,
+        "Visitekaartje China (90 x 54 mm)"@nl,
+        "Wizytówka Chiny (90 x 54 mm)"@pl,
+        "Cartão de visita China (90 x 54 mm)"@pt,
+        "Visitkort Kina (90 x 54 mm)"@sv,
+        "中国名片 (90 × 54 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 4860.0 ;
+            ptpge:aspectRatio 1.6667 ;
+            ptpge:height 54.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 90.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

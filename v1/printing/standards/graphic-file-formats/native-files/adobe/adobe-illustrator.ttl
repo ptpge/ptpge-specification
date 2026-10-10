@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/adobe-illustrator> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".ai"@en,
+        "Illustrator"@en,
+        ".ai"@hi,
+        "Illustrator"@hi,
+        ".ai"@pl,
+        "Illustrator"@pl,
+        ".ai"@pt,
+        "Illustrator"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe> ;
+    skos:definition "Programeget vektorgrafikformat (.ai) for Adobe Illustrator, branchens standardprogram til logoer, illustrationer og skalerbar grafik."@da,
+        "Anwendungseigenes Vektorgrafikformat (.ai) von Adobe Illustrator, der Industriestandard-Anwendung für Logos, Illustrationen und skalierbare Grafiken."@de,
+        "Native vector graphics file format (.ai) for Adobe Illustrator, the industry-standard application for logos, illustrations, and scalable artwork."@en,
+        "Formato nativo de Adobe Illustrator para ilustración vectorial. Para entrega a imprenta se exporta a PDF o PDF/X."@es,
+        "Adobe Illustrator का नेटिव वेक्टर ग्राफ़िक्स फ़ाइल फ़ॉर्मेट (.ai), लोगो, चित्रण और स्केलेबल आर्टवर्क का उद्योग-मानक एप्लिकेशन।"@hi,
+        "Adobe Illustratorのネイティブベクターグラフィックスファイル形式（.ai）。ロゴ、イラストレーション、スケーラブルなアートワーク用の業界標準アプリケーション。"@ja,
+        "Programspesifikt vektorgrafikkformat (.ai) for Adobe Illustrator, bransjestandardapplikasjonen for logoer, illustrasjoner og skalerbar grafikk."@nb,
+        "Programma-eigen vectorbestandsformaat (.ai) voor Adobe Illustrator, het industriestandaardprogramma voor logo's, illustraties en schaalbare graphics."@nl,
+        "Natywny format grafiki wektorowej (.ai) programu Adobe Illustrator, branżowego standardu do logo, ilustracji i skalowalnej grafiki."@pl,
+        "Formato de arquivo nativo de gráficos vetoriais (.ai) do Adobe Illustrator, o aplicativo padrão do setor para logotipos, ilustrações e arte escalável."@pt,
+        "Programeget vektorgrafikformat (.ai) för Adobe Illustrator, branschstandardprogrammet för logotyper, illustrationer och skalbar grafik."@sv,
+        "Adobe Illustrator用于矢量插图的原生格式。交付印刷时导出为PDF或PDF/X。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§ADOBE-ILLUSTRATOR" ;
+    skos:prefLabel "Adobe Illustrator (.ai)"@da,
+        "Adobe Illustrator (.ai)"@de,
+        "Adobe Illustrator (.ai)"@en,
+        "Adobe Illustrator (.ai)"@es,
+        "Adobe Illustrator (.ai)"@hi,
+        "Adobe Illustrator (.ai)"@ja,
+        "Adobe Illustrator (.ai)"@nb,
+        "Adobe Illustrator (.ai)"@nl,
+        "Adobe Illustrator (.ai)"@pl,
+        "Adobe Illustrator (.ai)"@pt,
+        "Adobe Illustrator (.ai)"@sv,
+        "Adobe Illustrator (.ai)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,104 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "version": "2026-08-23",
+  "status": "proposed",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "created": "2026-08-23T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/cardboard",
+  "level": "sub-category",
+  "notation": "P:SB-BRD-CARD",
+  "label": {
+    "en": "Cardboard",
+    "nb": "Papp",
+    "de": "Karton",
+    "es": "Cartón",
+    "ja": "厚紙ボード",
+    "zh-Hans": "纸板",
+    "sv": "Kartong",
+    "da": "Pap",
+    "nl": "Karton",
+    "pl": "Tektura",
+    "pt": "Cartão rígido",
+    "hi": "कार्डबोर्ड (कठोर)"
+  },
+  "altLabels": {
+    "en": [
+      "display board",
+      "paperboard",
+      "rigid cardboard"
+    ],
+    "nb": [
+      "displaypapp"
+    ],
+    "da": [
+      "displaypap"
+    ],
+    "pl": [
+      "płyta ekspozycyjna",
+      "tektura sztywna"
+    ],
+    "pt": [
+      "cartão para display",
+      "papelão rígido",
+      "papel-cartão rígido"
+    ],
+    "hi": [
+      "डिस्प्ले बोर्ड",
+      "पेपरबोर्ड",
+      "कठोर गत्ता"
+    ]
+  },
+  "definition": {
+    "en": "Rigid paper-based boards for display and point-of-sale printing — solid compressed fibre board and lightweight honeycomb-core board. Fully recyclable alternative to foam and plastic panels.",
+    "nb": "Stive papirbaserte plater for display- og POS-trykk — massivpapp og lette plater med honeycomb-kjerne. Fullt resirkulerbart alternativ til skum- og plastplater.",
+    "de": "Steife papierbasierte Platten für Display- und POS-Druck — Massivkarton und leichte Wabenkernplatten. Vollständig recycelbare Alternative zu Schaum- und Kunststoffplatten.",
+    "nl": "Stijve papiergebaseerde platen voor display- en POS-druk — massief karton en lichte platen met honingraatkern. Volledig recyclebaar alternatief voor schuim- en kunststofplaten.",
+    "sv": "Styva pappersbaserade skivor för display- och POS-tryck — massivkartong och lätta skivor med honeycomb-kärna. Fullt återvinningsbart alternativ till skum- och plastskivor.",
+    "da": "Stive papirbaserede plader til display- og POS-tryk — massivpap og lette plader med honeycomb-kerne. Fuldt genanvendeligt alternativ til skum- og plastplader.",
+    "ja": "ディスプレイ・POS印刷用の硬質紙製ボード — 圧縮ソリッドボードと軽量ハニカムコアボード。フォームやプラスチックパネルの完全リサイクル可能な代替材。",
+    "es": "Paneles rígidos de base papel para impresión de display y punto de venta — cartón sólido comprimido y paneles ligeros con núcleo de nido de abeja. Alternativa totalmente reciclable a los paneles de espuma y plástico.",
+    "zh-Hans": "用于展示和终端陈列印刷的硬质纸基板材——实心压缩纤维板和轻质蜂窝芯板。可完全回收，是泡沫板和塑料板的替代品。",
+    "pl": "Sztywne płyty na bazie papieru do druku ekspozycyjnego i POS — tektura lita prasowana oraz lekka płyta o rdzeniu komórkowym. W pełni recyklingowalna alternatywa dla płyt piankowych i z tworzyw.",
+    "pt": "Chapas rígidas à base de papel para displays e impressão de ponto de venda — cartão de fibra comprimida e chapa leve com núcleo colmeia. Alternativa totalmente reciclável aos painéis de espuma e plástico.",
+    "hi": "डिस्प्ले और बिक्री-स्थल छपाई के लिए कठोर काग़ज़-आधारित बोर्ड — ठोस दबा हुआ फ़ाइबर बोर्ड और हल्का हनीकॉम्ब-कोर बोर्ड। फ़ोम और प्लास्टिक पैनलों का पूर्णतः पुनर्चक्रण योग्य विकल्प।"
+  },
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/solid-board",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board"
+  ],
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 37"
+    }
+  ]
+}

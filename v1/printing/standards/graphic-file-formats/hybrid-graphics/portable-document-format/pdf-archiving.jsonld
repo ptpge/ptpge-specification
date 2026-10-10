@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-archiving",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "PDF Archiving (PDF/A)",
+    "es": "PDF/A (Archiving)",
+    "zh-Hans": "PDF/A (归档)",
+    "nb": "PDF Archiving (PDF/A)",
+    "de": "PDF Archiving (PDF/A)",
+    "ja": "PDF Archiving (PDF/A)",
+    "sv": "PDF-arkivering (PDF/A)",
+    "da": "PDF-arkivering (PDF/A)",
+    "nl": "PDF-archivering (PDF/A)",
+    "pl": "PDF archiwalny (PDF/A)",
+    "pt": "PDF de arquivamento (PDF/A)",
+    "hi": "PDF संग्रहण (PDF/A)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§PDF-ARCHIVING",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "PDF/A — ISO 19005 specification for long-term preservation of electronic documents, requiring all content to be self-contained (embedded fonts, no external references) and forbidding features that depend on external resources.",
+    "nb": "PDF/A — ISO 19005-spesifikasjonen for langtidsoppbevaring av elektroniske dokumenter, som krever at alt innhold er selvstendig (innebygde fonter, ingen eksterne referanser) og forbyr funksjoner som avhenger av eksterne ressurser.",
+    "de": "PDF/A — ISO-Spezifikation 19005 zur Langzeitarchivierung elektronischer Dokumente, verlangt, dass alle Inhalte in sich geschlossen sind (eingebettete Schriften, keine externen Verweise) und verbietet Funktionen, die von externen Ressourcen abhängen.",
+    "ja": "PDF/A — 電子文書の長期保存に関するISO 19005仕様。全てのコンテンツが自己完結型である（フォントが埋め込まれ、外部参照がない）ことを要求し、外部リソースに依存する機能を禁止する。",
+    "es": "Sub-conjunto ISO de PDF para archivado a largo plazo (ISO 19005). Requiere que todo el contenido necesario para la reproducción esté incrustado en el archivo, sin dependencias externas.",
+    "zh-Hans": "用于长期归档的PDF ISO子集（ISO 19005）。要求再现所需的所有内容都嵌入文件中，无外部依赖。",
+    "sv": "PDF/A — ISO 19005-specifikation för långtidsbevarande av elektroniska dokument; kräver att allt innehåll är självständigt (inbäddade typsnitt, inga externa referenser) och förbjuder funktioner som beror på externa resurser.",
+    "da": "PDF/A — ISO 19005-specifikation for langtidsbevaring af elektroniske dokumenter; kræver at alt indhold er selvstændigt (indlejrede skrifter, ingen eksterne referencer) og forbyder funktioner, der afhænger af eksterne ressourcer.",
+    "nl": "PDF/A — ISO 19005-specificatie voor langetermijnbewaring van elektronische documenten; vereist dat alle inhoud zelfstandig is (ingesloten lettertypen, geen externe verwijzingen) en verbiedt functies die van externe bronnen afhangen.",
+    "pl": "PDF/A — specyfikacja ISO 19005 długoterminowego przechowywania dokumentów elektronicznych, wymagająca, aby cała treść była samodzielna (osadzone fonty, brak odwołań zewnętrznych) i zabraniająca funkcji zależnych od zasobów zewnętrznych.",
+    "pt": "PDF/A — especificação ISO 19005 para preservação de longo prazo de documentos eletrônicos, exigindo que todo o conteúdo seja autocontido (fontes incorporadas, sem referências externas) e proibindo recursos que dependam de recursos externos.",
+    "hi": "PDF/A — इलेक्ट्रॉनिक दस्तावेज़ों के दीर्घकालिक संरक्षण का ISO 19005 विनिर्देश, जिसमें सारी सामग्री स्व-निहित होनी चाहिए (एम्बेडेड फ़ॉन्ट, कोई बाहरी संदर्भ नहीं) और बाहरी संसाधनों पर निर्भर सुविधाएँ वर्जित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "PDF",
+      ".pdf",
+      "print-ready PDF"
+    ],
+    "pl": [
+      "PDF",
+      ".pdf",
+      "PDF gotowy do druku"
+    ],
+    "pt": [
+      "PDF",
+      ".pdf",
+      "PDF pronto para impressão"
+    ],
+    "hi": [
+      "PDF",
+      ".pdf",
+      "प्रिंट-रेडी PDF"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

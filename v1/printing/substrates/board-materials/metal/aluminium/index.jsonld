@@ -1,0 +1,90 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "P:SB-BRD-META-ALUM",
+  "label": {
+    "en": "Aluminium",
+    "nb": "Aluminium",
+    "de": "Aluminium",
+    "es": "Aluminio",
+    "ja": "アルミニウム",
+    "zh-Hans": "铝",
+    "sv": "Aluminium",
+    "da": "Aluminium",
+    "nl": "Aluminium",
+    "pl": "Aluminium",
+    "pt": "Alumínio",
+    "hi": "एल्युमिनियम"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/metal",
+  "definition": {
+    "en": "Rigid aluminium board substrates for signage and display — solid aluminium sheet and aluminium composite panels.",
+    "nb": "Rigide aluminium-plate-substrater for skilting og display — solid aluminiumsplate og aluminium-komposittplater.",
+    "de": "Starre Aluminium-Plattensubstrate für Beschilderung und Display — Vollaluminiumblech und Aluminium-Verbundplatten.",
+    "ja": "サインやディスプレイ向けの硬質アルミ基材 — 無垢のアルミ板とアルミ複合板。",
+    "es": "Sustratos rígidos de aluminio para señalización y display — chapa de aluminio macizo y paneles composite de aluminio.",
+    "zh-Hans": "用于标识与展示的硬质铝板材 — 实心铝板与铝塑复合板。",
+    "sv": "Styva aluminiumskivsubstrat för skyltning och display — massiv aluminiumplåt och aluminiumkompositskivor.",
+    "da": "Stive aluminiumsplade-substrater til skiltning og display — massiv aluminiumsplade og aluminiumskompositpaneler.",
+    "nl": "Stijve aluminium plaatsubstraten voor signalisatie en display — massieve aluminiumplaat en aluminium composietpanelen.",
+    "pl": "Sztywne podłoża aluminiowe do oznakowania i ekspozycji — lita blacha aluminiowa i płyty kompozytowe aluminiowe.",
+    "pt": "Substratos rígidos de alumínio para sinalização e display — chapa de alumínio maciço e painéis compostos de alumínio.",
+    "hi": "साइनेज और डिस्प्ले के लिए कठोर एल्युमिनियम बोर्ड सब्सट्रेट — ठोस एल्युमिनियम शीट और एल्युमिनियम कंपोज़िट पैनल।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "aluminum"
+    ],
+    "nb": [],
+    "pt": [
+      "alumínio",
+      "chapa de alumínio"
+    ],
+    "hi": [
+      "एल्युमीनियम",
+      "अल्युमिनियम",
+      "एल्युमिनियम शीट"
+    ]
+  },
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/solid",
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/composite"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft",
+    "pt": "draft",
+    "hi": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

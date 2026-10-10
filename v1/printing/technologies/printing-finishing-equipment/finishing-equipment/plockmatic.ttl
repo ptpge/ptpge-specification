@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/plockmatic> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Plockmatic Group — svensk producent af hæftemaskiner og dokumentefterbehandlingsudstyr til inline- og offline-efterbehandling af digitaltryk."@da,
+        "Plockmatic Group — schwedischer Hersteller von Broschürenfertigern und Dokumentenfertigungsgeräten für Inline- und Offline-Weiterverarbeitung von Digitaldruck."@de,
+        "Plockmatic Group — Swedish manufacturer of bookletmakers and document-finishing equipment for inline and offline finishing of digital print."@en,
+        "Plockmatic Group — fabricante sueco de equipo de acabado para producción digital, especializado en sistemas de cosido a caballete y plegado."@es,
+        "Plockmatic Group — डिजिटल प्रिंट की इनलाइन और ऑफ़लाइन फ़िनिशिंग के लिए बुकलेटमेकर और दस्तावेज़-फ़िनिशिंग उपकरणों का स्वीडिश निर्माता।"@hi,
+        "Plockmatic Group — デジタル印刷のインラインおよびオフライン仕上げ向けのブックレットメーカーおよび文書仕上げ機器のスウェーデンのメーカー。"@ja,
+        "Plockmatic Group — svensk produsent av bookletmakers og dokumentfinish-utstyr for inline- og offline-etterbehandling av digital trykk."@nb,
+        "Plockmatic Group — Zweedse fabrikant van boekjesmakers en documentafwerkingsapparatuur voor inline- en offline-afwerking van digitaal drukwerk."@nl,
+        "Plockmatic Group — szwedzki producent bookletmakerów i urządzeń do wykończenia dokumentów w linii i poza linią dla druku cyfrowego."@pl,
+        "Plockmatic Group — fabricante sueco de montadoras de folhetos e equipamentos de acabamento de documentos para acabamento em linha e fora de linha de impressão digital."@pt,
+        "Plockmatic Group — svensk tillverkare av häftesmakare och dokumentefterbehandlingsutrustning för inline- och offline-efterbehandling av digitaltryck."@sv,
+        "Plockmatic Group —— 瑞典数码生产印后设备制造商，专长骑马钉和折页系统。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-PLOC" ;
+    skos:prefLabel "Plockmatic"@da,
+        "Plockmatic"@de,
+        "Plockmatic"@en,
+        "Plockmatic"@es,
+        "Plockmatic"@hi,
+        "Plockmatic"@ja,
+        "Plockmatic"@nb,
+        "Plockmatic"@nl,
+        "Plockmatic"@pl,
+        "Plockmatic"@pt,
+        "Plockmatic"@sv,
+        "Plockmatic"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

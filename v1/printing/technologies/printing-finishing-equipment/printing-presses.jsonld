@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Printing Presses",
+    "es": "Prensas de Impresión",
+    "zh-Hans": "印刷机",
+    "nb": "Trykkpresser",
+    "de": "Druckmaschinen",
+    "ja": "印刷機",
+    "sv": "Tryckpressar",
+    "da": "Trykpresser",
+    "nl": "Drukpersen",
+    "pl": "Maszyny drukujące",
+    "pt": "Impressoras",
+    "hi": "प्रिंटिंग प्रेस"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment",
+  "narrower": [
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/bobst",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/brother",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/canon",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/efi",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/fujifilm",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/harry-rochat",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/heidelberg",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/hp",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/kodak",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/koenig-bauer",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/komori",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/konica-minolta",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/landa",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/manroland",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/mitsubishi",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/ricoh",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/riso",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/roland",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/ryobi",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/xerox"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:39:22Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Manufacturers of printing presses — the central production machines that transfer ink to substrate at scale.",
+    "nb": "Produsenter av trykkpresser — de sentrale produksjonsmaskinene som overfører blekk til substrat i stor skala.",
+    "de": "Hersteller von Druckmaschinen — die zentralen Produktionsmaschinen, die Tinte oder Farbe in industriellem Maßstab auf den Bedruckstoff übertragen.",
+    "ja": "印刷機メーカー — インキを大規模に基材に転写する中心的な生産機械。",
+    "es": "Fabricantes de prensas de impresión — las máquinas centrales de producción que transfieren tinta al sustrato a escala.",
+    "zh-Hans": "印刷机制造商——将油墨大规模转移到承印物上的中央生产机器。",
+    "sv": "Tillverkare av tryckpressar — de centrala produktionsmaskinerna som överför bläck till substrat i skala.",
+    "da": "Producenter af trykpresser — de centrale produktionsmaskiner, der overfører farve til substrat i stor skala.",
+    "nl": "Fabrikanten van drukpersen — de centrale productiemachines die inkt op schaal naar substraat overbrengen.",
+    "pl": "Producenci maszyn drukujących — centralnych maszyn produkcyjnych przenoszących farbę na podłoże na skalę przemysłową.",
+    "pt": "Fabricantes de impressoras (máquinas de impressão) — as máquinas centrais de produção que transferem tinta ao substrato em escala.",
+    "hi": "प्रिंटिंग प्रेस के निर्माता — वे केंद्रीय उत्पादन मशीनें जो बड़े पैमाने पर स्याही सब्सट्रेट पर उतारती हैं।"
+  },
+  "scopeNote": {
+    "en": "Includes the major offset press makers (Heidelberg, Koenig & Bauer, Manroland, Komori, Mitsubishi, Ryobi), digital production-press makers (HP, Canon/Océ, Konica Minolta, Ricoh, Xerox, Kodak, Fujifilm), packaging-specific (Bobst), and emerging digital innovators (Landa, EFI). Specific Xerox press models are tracked as a sub-category.",
+    "nb": "Inkluderer de store offset-presseprodusentene (Heidelberg, Koenig & Bauer, Manroland, Komori, Mitsubishi, Ryobi), digitale produksjonspresseprodusenter (HP, Canon/Océ, Konica Minolta, Ricoh, Xerox, Kodak, Fujifilm), emballasjespesifikke (Bobst), og nye digitale innovatører (Landa, EFI). Spesifikke Xerox-pressemodeller spores som en underkategori.",
+    "de": "Umfasst die großen Offsetdruckmaschinenhersteller (Heidelberg, Koenig & Bauer, Manroland, Komori, Mitsubishi, Ryobi), Hersteller digitaler Produktionsmaschinen (HP, Canon/Océ, Konica Minolta, Ricoh, Xerox, Kodak, Fujifilm), Verpackungsspezialisten (Bobst) sowie aufstrebende digitale Innovatoren (Landa, EFI). Spezifische Xerox-Druckmaschinenmodelle werden als Unterkategorie geführt.",
+    "ja": "主要なオフセット印刷機メーカー（Heidelberg、Koenig & Bauer、Manroland、Komori、Mitsubishi、Ryobi）、デジタル生産印刷機メーカー（HP、Canon/Océ、Konica Minolta、Ricoh、Xerox、Kodak、Fujifilm）、パッケージ専門（Bobst）、新興デジタル革新企業（Landa、EFI）を含む。具体的なXerox印刷機モデルはサブカテゴリで扱う。",
+    "es": "Incluye los principales fabricantes de prensa offset (Heidelberg, Koenig & Bauer, Manroland, Komori, Mitsubishi, Ryobi), fabricantes de prensas de producción digital (HP, Canon/Océ, Konica Minolta, Ricoh, Xerox, Kodak, Fujifilm), fabricantes de prensa flexográfica y de huecograbado y fabricantes de prensas tipográficas e híbridas.",
+    "zh-Hans": "包括主要胶印机制造商（Heidelberg、Koenig & Bauer、Manroland、Komori、Mitsubishi、Ryobi）、数码生产印刷机制造商（HP、Canon/Océ、Konica Minolta、Ricoh、Xerox、Kodak、Fujifilm）、柔印和凹印机制造商以及活字和混合印刷机制造商。",
+    "pt": "Inclui os grandes fabricantes de offset (Heidelberg, Koenig & Bauer, Manroland, Komori, Mitsubishi, Ryobi), de impressoras digitais de produção (HP, Canon/Océ, Konica Minolta, Ricoh, Xerox, Kodak, Fujifilm), específicos de embalagem (Bobst) e inovadores digitais emergentes (Landa, EFI). Modelos específicos da Xerox são registrados em subcategoria.",
+    "hi": "प्रमुख ऑफसेट प्रेस निर्माता (Heidelberg, Koenig & Bauer, Manroland, Komori, Mitsubishi, Ryobi), डिजिटल प्रोडक्शन-प्रेस निर्माता (HP, Canon/Océ, Konica Minolta, Ricoh, Xerox, Kodak, Fujifilm), पैकेजिंग-विशेष (Bobst) और उभरते डिजिटल नवप्रवर्तक (Landa, EFI) शामिल। विशिष्ट Xerox प्रेस मॉडल उप-श्रेणी में दर्ज हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES",
+  "altLabels": {
+    "pl": [
+      "maszyny drukarskie"
+    ]
+  }
+}

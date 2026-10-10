@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/sra-series/sra3> a skos:Concept ;
+    dcterms:created "2026-08-12T11:00:47+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/sra-series> ;
+    skos:definition "320 × 450 mm. Ubeskåret trykark i SRA-serien (Supplementary Raw format A) i ISO 217 — overdimensioneret i forhold til det tilsvarende A-format for at give plads til beskæring, gribekant og renskæring i arkbaseret produktion."@da,
+        "320 × 450 mm. Unbeschnittener Druckbogen der ISO-217-SRA-Reihe — gegenüber dem entsprechenden A-Format vergrößert für Beschnitt, Greiferrand und Zuschnitt im Bogendruck."@de,
+        "320 × 450 mm. Untrimmed press sheet of the ISO 217 SRA (Supplementary Raw format A) series — oversized relative to the corresponding A format to allow bleed, grip and trim in sheet-fed production."@en,
+        "320 × 450 mm. Pliego de imprenta sin recortar de la serie SRA de ISO 217 — sobredimensionado respecto al formato A correspondiente para sangre, pinzas y refilado en producción de pliegos."@es,
+        "320 × 450 mm. ISO 217 SRA (Supplementary Raw format A) सीरीज़ की बिना ट्रिम प्रेस शीट — शीट-फ़ेड उत्पादन में ब्लीड, ग्रिप और ट्रिम के लिए संगत A फ़ॉर्मेट से बड़ी।"@hi,
+        "320 × 450 mm。ISO 217 SRA系列の断裁前の印刷用紙。対応するA判より大きく、裁ち落とし・くわえ・仕上げ断裁の余白を確保する。"@ja,
+        "320 × 450 mm. Ubeskåret trykkark i ISO 217 SRA-serien — overdimensjonert i forhold til tilsvarende A-format for utfallende trykk, griperkant og renskjæring i arkproduksjon."@nb,
+        "320 × 450 mm. Onbesneden drukvel in de SRA-reeks (Supplementary Raw format A) van ISO 217 — ruimer bemeten dan het overeenkomstige A-formaat om plaats te bieden aan afloop, grijperrand en schoonsnijden in vellenproductie."@nl,
+        "320 × 450 mm. Nieprzycięty arkusz drukowy serii SRA (Supplementary Raw format A) normy ISO 217 — większy od odpowiadającego formatu A, aby zmieścić spad, łapki i obcięcie w produkcji arkuszowej."@pl,
+        "320 × 450 mm. Folha de impressão não refilada da série SRA (Supplementary Raw format A) da ISO 217 — maior que o formato A correspondente para permitir sangria, pinça e refile na produção em folha."@pt,
+        "320 × 450 mm. Obeskuret tryckark i SRA-serien (Supplementary Raw format A) i ISO 217 — överdimensionerat i förhållande till motsvarande A-format för att ge plats åt utfall, gripkant och renskärning i arkmatad produktion."@sv,
+        "320 × 450 毫米。ISO 217 SRA 系列的未裁切印刷纸张 — 比对应的 A 系列尺寸更大，为出血、叼口与裁切留出余量。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§SRA3" ;
+    skos:prefLabel "SRA3 (320 x 450 mm)"@da,
+        "SRA3 (320 x 450 mm)"@de,
+        "SRA3 (320 x 450 mm)"@en,
+        "SRA3 (320 × 450 mm)"@es,
+        "SRA3 (320 x 450 mm)"@hi,
+        "SRA3 (320 x 450 mm)"@ja,
+        "SRA3 (320 x 450 mm)"@nb,
+        "SRA3 (320 x 450 mm)"@nl,
+        "SRA3 (320 x 450 mm)"@pl,
+        "SRA3 (320 x 450 mm)"@pt,
+        "SRA3 (320 x 450 mm)"@sv,
+        "SRA3 (320 × 450 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 144000.0 ;
+            ptpge:aspectRatio 1.4062 ;
+            ptpge:height 450.0 ;
+            ptpge:standard "ISO 217" ;
+            ptpge:unit "mm" ;
+            ptpge:width 320.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

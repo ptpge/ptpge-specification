@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/structural> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Box setup"@en,
+        "Carton setup"@en,
+        "Die-cut 3D setup"@en,
+        "कार्टन सेटअप"@hi,
+        "डाई-कट 3D सेटअप"@hi,
+        "बॉक्स सेटअप"@hi,
+        "Eske-oppsett"@nb,
+        "Kartong-oppsett"@nb,
+        "Stanset 3D-oppsett"@nb,
+        "konfiguracja 3D wykrawana"@pl,
+        "konfiguracja kartonik"@pl,
+        "konfiguracja pudełko"@pl,
+        "montagem 3D com corte especial"@pt,
+        "montagem de caixa"@pt,
+        "montagem de cartucho"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models> ;
+    skos:definition "Et tredimensionelt trykt produkt skåret og rillet ud af et fladt emne (en stanseform) og falset/limet i form — foldeæsker, special- og forsendelsesæsker, papirsposer samt stive/eksklusive emballager. To adresserbare flader: yderside og inderside."@da,
+        "Ein dreidimensionales Druckprodukt, aus einem flachen Zuschnitt (gestanztes Netz) geschnitten und gerillt und in Form gefaltet/geklebt — Faltschachteln, individuelle und Versandkartons, Papiertüten sowie Rigid-/Luxusverpackung. Zwei Surfaces sind adressierbar: Außen und Innen, jeweils über die variable Anzahl der vom Stanzwerkzeug definierten Paneele."@de,
+        "A three-dimensional printed product cut and creased from a flat blank (a die-cut net) and folded/glued into shape — folding cartons, custom and mailer boxes, paper bags, and rigid/luxury packaging. Two surfaces are addressable: Outside and Inside, each spanning the variable number of panels defined by the dieline. The exact panel layout comes from the structural design (dieline) and is resolved by the Configurator; maps to XJDF die-cutting/structural intents."@en,
+        "A three-dimensional printed product cut and creased from a flat blank (a die-cut net) and folded/glued into shape — folding cartons, custom and mailer boxes, paper bags, and rigid/luxury packaging. Two surfaces are addressable: Outside and Inside, each spanning the variable number of panels defined by the dieline."@es,
+        "सपाट ब्लैंक (डाई-कट नेट) से काटकर और क्रीज़ करके, मोड़कर/चिपकाकर आकार में लाया गया त्रि-आयामी मुद्रित उत्पाद — फ़ोल्डिंग कार्टन, कस्टम और मेलर बॉक्स, पेपर बैग और कठोर/लक्ज़री पैकेजिंग। दो पता-योग्य सतहें: बाहरी और भीतरी, हर एक डाईलाइन से परिभाषित परिवर्तनशील पैनल संख्या पर फैली। सटीक पैनल लेआउट संरचनात्मक डिज़ाइन (डाईलाइन) से आता है और कॉन्फ़िगरेटर तय करता है; XJDF डाई-कटिंग/संरचनात्मक इंटेंट से मेल खाता है।"@hi,
+        "A three-dimensional printed product cut and creased from a flat blank (a die-cut net) and folded/glued into shape — folding cartons, custom and mailer boxes, paper bags, and rigid/luxury packaging. Two surfaces are addressable: Outside and Inside, each spanning the variable number of panels defined by the dieline."@ja,
+        "Et tredimensjonalt trykkprodukt skåret og rillet fra et flatt utlegg (et stanset utbrett) og brettet/limt til form — foldekartonger, esker og mailer-bokser, papirposer og rigid/luksus-emballasje. To surfaces er adresserbare: Outside og Inside, hver med det variable antallet paneler definert av stanseformen. Det eksakte panel-oppsettet kommer fra den strukturelle designen (dieline) og løses av Configurator; mapper til XJDF stanse-/strukturelle intents."@nb,
+        "Een driedimensionaal gedrukt product, gesneden en gerild uit een vlak blank (een stansvorm) en gevouwen/gelijmd tot vorm — vouwdozen, maatwerk- en verzenddozen, papieren tassen en stevige/luxe verpakkingen. Twee adresseerbare vlakken: buiten- en binnenzijde."@nl,
+        "Trójwymiarowy produkt drukowany wycięty i bigowany z płaskiego wykroju (siatki wykrojnika) oraz złożony/sklejony do kształtu — kartoniki składane, pudełka na zamówienie i wysyłkowe, torby papierowe oraz opakowania sztywne/luksusowe. Adresowalne są dwie powierzchnie: Zewnętrzna i Wewnętrzna, każda obejmująca zmienną liczbę paneli określoną przez wykrojnik. Dokładny układ paneli wynika z projektu konstrukcyjnego (wykrojnika) i jest ustalany przez Konfigurator; odpowiada intencjom XJDF dla wykrawania/konstrukcji."@pl,
+        "Produto impresso tridimensional cortado e vincado a partir de uma planificação (uma faca de corte) e dobrado/colado até tomar forma — cartuchos, caixas personalizadas e de envio, sacolas de papel e embalagens rígidas/de luxo. Duas faces são endereçáveis: Exterior e Interior, cada uma abrangendo o número variável de painéis definido pela faca. O layout exato dos painéis vem do projeto estrutural (faca) e é resolvido pelo Configurador; corresponde às intenções XJDF de corte especial/estrutura."@pt,
+        "En tredimensionell tryckt produkt skuren och bigad ur ett plant ämne (ett stansschema) och falsad/limmad till form — vikkartonger, special- och mailerboxar, papperspåsar samt styva/exklusiva förpackningar. Två adresserbara ytor: utsida och insida, var och en spännande över det variabla antal paneler som stanslayouten definierar. Den exakta panellayouten kommer från strukturdesignen (stansschemat) och avgörs av Konfiguratorn; motsvarar XJDF:s stansnings-/strukturintents."@sv,
+        "A three-dimensional printed product cut and creased from a flat blank (a die-cut net) and folded/glued into shape — folding cartons, custom and mailer boxes, paper bags, and rigid/luxury packaging. Two surfaces are addressable: Outside and Inside, each spanning the variable number of panels defined by the dieline."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§STRUCTURAL" ;
+    skos:prefLabel "Strukturel"@da,
+        "Struktur-Setup"@de,
+        "Structural Setup"@en,
+        "Configuración estructural"@es,
+        "संरचनात्मक सेटअप"@hi,
+        "構造構成"@ja,
+        "Strukturelt oppsett"@nb,
+        "Structurele opzet"@nl,
+        "Konfiguracja konstrukcyjna"@pl,
+        "Montagem estrutural"@pt,
+        "Strukturell"@sv,
+        "结构结构"@zh-Hans ;
+    skos:scopeNote "Panel count and geometry are defined by the structural dieline, not by a fixed list; the Configurator instantiates the Surface/panel structure from the chosen box/carton/bag style. Production maps to XJDF CuttingParams / die-cutting and folding-gluing."@en,
+        "पैनल संख्या और ज्यामिति संरचनात्मक डाईलाइन से परिभाषित हैं, किसी निश्चित सूची से नहीं; कॉन्फ़िगरेटर चुने गए बॉक्स/कार्टन/बैग शैली से सतह/पैनल संरचना बनाता है। उत्पादन XJDF CuttingParams / डाई-कटिंग और फ़ोल्डिंग-ग्लूइंग से मेल खाता है।"@hi,
+        "O número e a geometria dos painéis são definidos pela faca estrutural, não por uma lista fixa; o Configurador instancia a estrutura de faces/painéis a partir do estilo de caixa/cartucho/sacola escolhido. A produção corresponde a XJDF CuttingParams / corte especial e dobra-cola."@pt ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

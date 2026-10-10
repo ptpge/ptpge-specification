@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/agfa-graphics",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Agfa Graphics",
+    "es": "Agfa Graphics",
+    "zh-Hans": "Agfa Graphics",
+    "nb": "Agfa Graphics",
+    "de": "Agfa Graphics",
+    "ja": "Agfa Graphics",
+    "sv": "Agfa Graphics",
+    "da": "Agfa Graphics",
+    "nl": "Agfa Graphics",
+    "pl": "Agfa Graphics",
+    "pt": "Agfa Graphics",
+    "hi": "Agfa Graphics"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Agfa Graphics (now Agfa NV) — Belgian manufacturer of prepress equipment, printing plates, and wide-format inkjet printers (Jeti, Anapurna, Avinci) for sign and display production.",
+    "nb": "Agfa Graphics (nå Agfa NV) — belgisk produsent av prepress-utstyr, trykkplater og storformat-inkjet-skrivere (Jeti, Anapurna, Avinci) for skilt- og display-produksjon.",
+    "de": "Agfa Graphics (heute Agfa NV) — belgischer Hersteller von Druckvorstufengeräten, Druckplatten und Großformat-Inkjet-Druckern (Jeti, Anapurna, Avinci) für die Schilder- und Displayproduktion.",
+    "ja": "Agfa Graphics（現Agfa NV）— 製版機器、刷版、サインおよびディスプレイ生産向けの大判インクジェットプリンター（Jeti、Anapurna、Avinci）のベルギーのメーカー。",
+    "es": "Agfa Graphics (parte de Agfa-Gevaert) — fabricante belga de impresoras de gran formato (serie Anapurna, Jeti) y soluciones de pre-prensa.",
+    "zh-Hans": "Agfa Graphics（Agfa-Gevaert的一部分）—— 比利时大幅面打印机制造商（Anapurna、Jeti系列）和印前解决方案。",
+    "sv": "Agfa Graphics (numera Agfa NV) — belgisk tillverkare av prepressutrustning, tryckplåtar och storformats-inkjetskrivare (Jeti, Anapurna, Avinci) för skylt- och displayproduktion.",
+    "da": "Agfa Graphics (nu Agfa NV) — belgisk producent af prepress-udstyr, trykplader og storformat-inkjetprintere (Jeti, Anapurna, Avinci) til skilte- og displayproduktion.",
+    "nl": "Agfa Graphics (nu Agfa NV) — Belgische fabrikant van prepressapparatuur, drukplaten en grootformaat-inkjetprinters (Jeti, Anapurna, Avinci) voor sign- en displayproductie.",
+    "pl": "Agfa Graphics (obecnie Agfa NV) — belgijski producent urządzeń prepress, płyt drukowych i wielkoformatowych drukarek atramentowych (Jeti, Anapurna, Avinci) do produkcji reklamowej i ekspozycyjnej.",
+    "pt": "Agfa Graphics (hoje Agfa NV) — fabricante belga de equipamentos de pré-impressão, chapas e impressoras de jato de tinta de grande formato (Jeti, Anapurna, Avinci) para produção de sinalização e display.",
+    "hi": "Agfa Graphics (अब Agfa NV) — प्रीप्रेस उपकरणों, प्रिंटिंग प्लेटों और साइन व डिस्प्ले उत्पादन के लिए वाइड-फॉर्मेट इंकजेट प्रिंटरों (Jeti, Anapurna, Avinci) का बेल्जियाई निर्माता।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-WIDE-AGFA",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

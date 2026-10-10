@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/adobe-illustrator",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Adobe Illustrator (.ai)",
+    "es": "Adobe Illustrator (.ai)",
+    "zh-Hans": "Adobe Illustrator (.ai)",
+    "nb": "Adobe Illustrator (.ai)",
+    "de": "Adobe Illustrator (.ai)",
+    "ja": "Adobe Illustrator (.ai)",
+    "sv": "Adobe Illustrator (.ai)",
+    "da": "Adobe Illustrator (.ai)",
+    "nl": "Adobe Illustrator (.ai)",
+    "pl": "Adobe Illustrator (.ai)",
+    "pt": "Adobe Illustrator (.ai)",
+    "hi": "Adobe Illustrator (.ai)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§ADOBE-ILLUSTRATOR",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native vector graphics file format (.ai) for Adobe Illustrator, the industry-standard application for logos, illustrations, and scalable artwork.",
+    "nb": "Programspesifikt vektorgrafikkformat (.ai) for Adobe Illustrator, bransjestandardapplikasjonen for logoer, illustrasjoner og skalerbar grafikk.",
+    "de": "Anwendungseigenes Vektorgrafikformat (.ai) von Adobe Illustrator, der Industriestandard-Anwendung für Logos, Illustrationen und skalierbare Grafiken.",
+    "ja": "Adobe Illustratorのネイティブベクターグラフィックスファイル形式（.ai）。ロゴ、イラストレーション、スケーラブルなアートワーク用の業界標準アプリケーション。",
+    "es": "Formato nativo de Adobe Illustrator para ilustración vectorial. Para entrega a imprenta se exporta a PDF o PDF/X.",
+    "zh-Hans": "Adobe Illustrator用于矢量插图的原生格式。交付印刷时导出为PDF或PDF/X。",
+    "sv": "Programeget vektorgrafikformat (.ai) för Adobe Illustrator, branschstandardprogrammet för logotyper, illustrationer och skalbar grafik.",
+    "da": "Programeget vektorgrafikformat (.ai) for Adobe Illustrator, branchens standardprogram til logoer, illustrationer og skalerbar grafik.",
+    "nl": "Programma-eigen vectorbestandsformaat (.ai) voor Adobe Illustrator, het industriestandaardprogramma voor logo's, illustraties en schaalbare graphics.",
+    "pl": "Natywny format grafiki wektorowej (.ai) programu Adobe Illustrator, branżowego standardu do logo, ilustracji i skalowalnej grafiki.",
+    "pt": "Formato de arquivo nativo de gráficos vetoriais (.ai) do Adobe Illustrator, o aplicativo padrão do setor para logotipos, ilustrações e arte escalável.",
+    "hi": "Adobe Illustrator का नेटिव वेक्टर ग्राफ़िक्स फ़ाइल फ़ॉर्मेट (.ai), लोगो, चित्रण और स्केलेबल आर्टवर्क का उद्योग-मानक एप्लिकेशन।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Illustrator",
+      ".ai"
+    ],
+    "pl": [
+      "Illustrator",
+      ".ai"
+    ],
+    "pt": [
+      "Illustrator",
+      ".ai"
+    ],
+    "hi": [
+      "Illustrator",
+      ".ai"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "version": "2026-08-23",
+  "status": "proposed",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "created": "2026-08-23T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board",
+  "level": "element",
+  "elementType": "value",
+  "notation": "P:SB§HONEYCOMB-BOARD",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/cardboard",
+  "label": {
+    "en": "Honeycomb Board",
+    "nb": "Honeycomb-plate",
+    "de": "Wabenplatte",
+    "es": "Panel de nido de abeja",
+    "ja": "ハニカムボード",
+    "zh-Hans": "蜂窝板",
+    "sv": "Honeycomb-skiva",
+    "da": "Honeycomb-plade",
+    "nl": "Honingraatplaat",
+    "pl": "Płyta komórkowa",
+    "pt": "Chapa colmeia",
+    "hi": "हनीकॉम्ब बोर्ड"
+  },
+  "altLabels": {
+    "en": [
+      "Re-board",
+      "Falconboard",
+      "X-Board",
+      "honeycomb panel",
+      "paper honeycomb"
+    ],
+    "nb": [
+      "Re-board",
+      "Falconboard"
+    ],
+    "de": [
+      "Re-board",
+      "Falconboard"
+    ],
+    "pl": [
+      "Re-board",
+      "Falconboard",
+      "X-Board",
+      "płyta plaster miodu",
+      "tektura komórkowa"
+    ],
+    "pt": [
+      "Re-board",
+      "Falconboard",
+      "X-Board",
+      "painel colmeia",
+      "colmeia de papel"
+    ],
+    "hi": [
+      "Re-board",
+      "Falconboard",
+      "X-Board",
+      "हनीकॉम्ब पैनल",
+      "पेपर हनीकॉम्ब"
+    ]
+  },
+  "definition": {
+    "en": "Lightweight rigid board with a paper honeycomb core between printable liners (typically 10–16 mm) — the material behind Re-board, Falconboard and X-Board. Used for freestanding displays, exhibition walls and large rigid graphics; fully paper-recyclable.",
+    "nb": "Lett, stiv plate med honeycomb-kjerne av papir mellom trykkbare dekklag (typisk 10–16 mm) — materialet bak Re-board, Falconboard og X-Board. Brukes til frittstående displayer, messevegger og stor stiv grafikk; fullt papirresirkulerbar.",
+    "de": "Leichte, steife Platte mit Papier-Wabenkern zwischen bedruckbaren Deckschichten (typisch 10–16 mm) — das Material hinter Re-board, Falconboard und X-Board. Für freistehende Displays, Messewände und große starre Grafiken; vollständig papierrecycelbar.",
+    "nl": "Lichte, stijve plaat met papieren honingraatkern tussen bedrukbare deklagen (doorgaans 10–16 mm) — het materiaal achter Re-board, Falconboard en X-Board. Voor vrijstaande displays, beurswanden en grote stijve graphics; volledig als papier recyclebaar.",
+    "sv": "Lätt, styv skiva med honeycomb-kärna av papper mellan tryckbara ytskikt (typiskt 10–16 mm) — materialet bakom Re-board, Falconboard och X-Board. För fristående displayer, mässväggar och stor styv grafik; fullt pappersåtervinningsbar.",
+    "da": "Let, stiv plade med honeycomb-kerne af papir mellem trykbare dæklag (typisk 10–16 mm) — materialet bag Re-board, Falconboard og X-Board. Til fritstående displays, messevægge og store stive grafikker; fuldt papirgenanvendelig.",
+    "ja": "印刷可能なライナーの間に紙製ハニカムコアを挟んだ軽量硬質ボード（通常10–16 mm）— Re-board、Falconboard、X-Boardの素材。自立型ディスプレイ、展示壁面、大型硬質グラフィックに使用。紙として完全リサイクル可能。",
+    "es": "Panel rígido ligero con núcleo de nido de abeja de papel entre capas imprimibles (típicamente 10–16 mm) — el material detrás de Re-board, Falconboard y X-Board. Para displays autoportantes, paredes de exposición y gráficos rígidos de gran formato; totalmente reciclable como papel.",
+    "zh-Hans": "在可印刷面层之间夹纸质蜂窝芯的轻质硬板（通常 10–16 毫米）——Re-board、Falconboard 和 X-Board 背后的材料。用于自立式展示、展览墙面和大型硬质图文；可作为纸张完全回收。",
+    "pl": "Lekka sztywna płyta z papierowym rdzeniem o strukturze plastra miodu między zadrukowywalnymi okleinami (zwykle 10–16 mm) — materiał stojący za Re-board, Falconboard i X-Board. Używana do wolnostojących ekspozytorów, ścian wystawienniczych i dużych sztywnych grafik; w pełni recyklingowalna jako papier.",
+    "pt": "Chapa rígida e leve com núcleo de papel em colmeia entre faces imprimíveis (normalmente 10–16 mm) — o material por trás de Re-board, Falconboard e X-Board. Usada em displays autoportantes, paredes de exposição e grandes gráficos rígidos; totalmente reciclável como papel.",
+    "hi": "छपाई योग्य लाइनरों के बीच काग़ज़ के हनीकॉम्ब कोर वाला हल्का कठोर बोर्ड (आमतौर पर 10–16 मिमी) — Re-board, Falconboard और X-Board के पीछे की सामग्री। स्वयं खड़े डिस्प्ले, प्रदर्शनी दीवारों और बड़े कठोर ग्राफ़िक्स में; पूरी तरह काग़ज़ की तरह पुनर्चक्रण योग्य।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 37"
+    }
+  ]
+}

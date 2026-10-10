@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/debossing> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Deboss"@en,
+        "डिबॉस"@hi,
+        "धँसा उभार"@hi,
+        "नेगेटिव एम्बॉसिंग"@hi,
+        "Nedsenket preging"@nb,
+        "deboss"@pl,
+        "wytłoczenie wklęsłe"@pl,
+        "deboss"@pt,
+        "relevo afundado"@pt,
+        "relevo baixo"@pt,
+        "relevo negativo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments> ;
+    skos:definition "Et reliefaftryk presset NED I substratet, der skaber et forsænket billede eller tekst. Udføres med en hanmatrice, der komprimerer substratet; ingen farve eller folie. Almindeligt på luksusemballage og visitkort."@da,
+        "Ein Reliefeindruck, der IN das Substrat gepresst wird und ein vertieftes Bild oder Text erzeugt. Wird mit einem männlichen Stempel ausgeführt, der das Substrat zusammendrückt."@de,
+        "A relief impression pressed INTO the substrate, creating a recessed (sunken) image or text. Done with a male die that compresses the substrate; no ink or foil involved. Common on luxury packaging, business cards, and book covers."@en,
+        "Una impresión en relieve hundida EN el sustrato, creando una imagen o texto rebajado. Se hace con un troquel macho que comprime el sustrato; sin tinta ni foil. Común en packaging de lujo, tarjetas de visita y cubiertas de libros."@es,
+        "सब्सट्रेट के भीतर दबाकर बनाया उभार, जिससे धँसा हुआ चित्र या पाठ बनता है। पुरुष डाई से सब्सट्रेट को दबाया जाता है; स्याही या फ़ॉइल नहीं। लक्ज़री पैकेजिंग, विज़िटिंग कार्ड और किताब के कवर में आम।"@hi,
+        "基材に押し込む凹の型押しで、沈んだ画像や文字を作る。凸型で基材を圧縮する加工で、インキも箔も使わない。高級パッケージ、名刺、書籍の表紙で一般的。"@ja,
+        "Et relief-inntrykk presset INN i substratet, som skaper et nedsenket bilde eller tekst. Utført med en male die som komprimerer substratet; ingen blekk eller folie involvert. Vanlig på luksusemballasje, visittkort og bok-omslag."@nb,
+        "Een reliëfafdruk IN het substraat geperst, die een verdiept beeld of tekst vormt. Uitgevoerd met een patrijs die het substraat samendrukt; zonder inkt of folie. Gebruikelijk op luxeverpakkingen en visitekaartjes."@nl,
+        "Reliefowe wgniecenie W podłoże, tworzące wklęsły (zagłębiony) obraz lub tekst. Wykonywane matrycą męską ściskającą podłoże; bez farby ani folii. Typowe dla opakowań luksusowych, wizytówek i okładek książek."@pl,
+        "Impressão em relevo prensada PARA DENTRO do substrato, criando imagem ou texto rebaixado (afundado). Feita com uma matriz macho que comprime o substrato; sem tinta nem foil. Comum em embalagens de luxo, cartões de visita e capas de livro."@pt,
+        "Ett reliefavtryck pressat IN i substratet som skapar en försänkt bild eller text. Görs med ett hanverktyg som komprimerar substratet; inget bläck eller folie inblandat. Vanligt på lyxförpackningar, visitkort och bokomslag."@sv,
+        "压入承印材料内部的凹陷压印，形成下沉的图文。用阳模压缩材料完成；不用油墨或电化铝。常见于奢华包装、名片与书籍封面。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§DEBOSSING" ;
+    skos:prefLabel "Dybprægning"@da,
+        "Tiefprägung"@de,
+        "Debossing"@en,
+        "Hundido / Debossing"@es,
+        "डिबॉसिंग"@hi,
+        "デボス"@ja,
+        "Debossing"@nb,
+        "Dieppreeg (debossing)"@nl,
+        "Tłoczenie wklęsłe"@pl,
+        "Baixo-relevo"@pt,
+        "Försänkt prägling"@sv,
+        "凹压"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
+                "§5.6.12 · p.118",
+                "§6.32 · p.197" ;
+            ptpge:mappingRow "crosswalk row 27" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Embossing",
+                "EmbossingIntent",
+                "EmbossingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

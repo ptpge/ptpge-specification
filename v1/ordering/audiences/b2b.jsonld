@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/audiences/b2b",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:AU§B2B",
+  "elementType": "context",
+  "label": {
+    "en": "B2B (Business-to-Business)",
+    "nb": "B2B (Bedrift-til-bedrift)",
+    "de": "B2B (Geschäftskunden)",
+    "ja": "B2B (Business-to-Business)",
+    "es": "B2B (Business-to-Business)",
+    "zh-Hans": "B2B (Business-to-Business)",
+    "sv": "B2B (företag till företag)",
+    "da": "B2B (business-to-business)",
+    "nl": "B2B (business-to-business)",
+    "pl": "B2B (business-to-business)",
+    "pt": "B2B (empresa para empresa)",
+    "hi": "B2B (व्यवसाय-से-व्यवसाय)"
+  },
+  "definition": {
+    "en": "Products targeted at business buyers — companies, professionals, and organisations purchasing for their own business operations or for resale.",
+    "nb": "Produkter rettet mot forretningskjøpere — selskaper, profesjonelle og organisasjoner som kjøper for egen drift eller videresalg.",
+    "de": "Produkte für Geschäftskunden — Unternehmen, Fachleute und Organisationen, die für den eigenen Geschäftsbetrieb oder Wiederverkauf kaufen.",
+    "ja": "ビジネスの買い手 — 自社の事業運営のため、または再販のために購入する企業・専門職・組織 — に向けた製品。",
+    "es": "Productos dirigidos a compradores empresariales — empresas, profesionales y organizaciones que compran para sus propias operaciones o para reventa.",
+    "zh-Hans": "面向企业买家的产品 — 为自身经营或转售而采购的公司、专业人士与组织。",
+    "sv": "Produkter riktade till företagsköpare — företag, yrkesverksamma och organisationer som köper för egen verksamhet eller för återförsäljning.",
+    "da": "Produkter rettet mod erhvervskøbere — virksomheder, fagfolk og organisationer, der køber til egen drift eller videresalg.",
+    "nl": "Producten gericht op zakelijke kopers — bedrijven, professionals en organisaties die inkopen voor eigen bedrijfsvoering of doorverkoop.",
+    "pl": "Produkty skierowane do nabywców biznesowych — firm, profesjonalistów i organizacji kupujących na potrzeby własnej działalności lub do odsprzedaży.",
+    "pt": "Produtos voltados a compradores empresariais — empresas, profissionais e organizações que compram para a própria operação ou para revenda.",
+    "hi": "व्यावसायिक खरीदारों के लिए उत्पाद — कंपनियाँ, पेशेवर और संस्थाएँ जो अपने व्यवसाय के संचालन या पुनर्विक्रय के लिए खरीदती हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "audiences",
+  "broader": "https://ptpge.org/v1/ordering/audiences",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/BusinessAudience"
+  ]
+}

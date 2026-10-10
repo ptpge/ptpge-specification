@@ -1,0 +1,20 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/suppliers/swissqprint> a ptpge:Supplier ;
+    dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    dcterms:replaces <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/swissqprint> ;
+    skos:broader <https://ptpge.org/v1/suppliers> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:prefLabel "swissQprint"@da,
+        "SwissQprint"@en,
+        "swissQprint"@nl,
+        "swissQprint"@sv ;
+    ptpge:identityClaimed false ;
+    ptpge:makes <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers> ;
+    ptpge:version "2026-10-06" .
+

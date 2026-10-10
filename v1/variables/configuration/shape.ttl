@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/configuration/shape> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Contour"@en,
+        "Outline"@en,
+        "कंटूर"@hi,
+        "रूपरेखा"@hi,
+        "शेप"@hi,
+        "Omriss"@nb,
+        "kontur"@pl,
+        "obrys"@pl,
+        "contorno"@pt,
+        "formato de corte"@pt,
+        "silhueta"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/configuration> ;
+    skos:definition "Konfigurerbar akse: Form. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne."@da,
+        "Konfigurierbare Achse: Form. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain."@de,
+        "Configurable axis: Shape. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain."@en,
+        "Eje configurable: Forma. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: आकृति। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"@hi,
+        "構成可能な軸：形状。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。"@ja,
+        "Konfigurerbar akse: Form. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain."@nb,
+        "Configureerbare as: Vorm. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein."@nl,
+        "Oś konfigurowalna: Kształt. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain."@pl,
+        "Eixo configurável: Forma. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado."@pt,
+        "Konfigurerbar axel: Form. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain)."@sv,
+        "可配置轴：形状。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:CF§SHAPE" ;
+    skos:prefLabel "Form"@da,
+        "Form"@de,
+        "Shape"@en,
+        "Forma"@es,
+        "आकृति"@hi,
+        "形状"@ja,
+        "Form"@nb,
+        "Vorm"@nl,
+        "Kształt"@pl,
+        "Forma"@pt,
+        "Form"@sv,
+        "形状"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken form?"@da,
+        "Welche Form?"@de,
+        "What shape?"@en,
+        "¿Qué forma?"@es,
+        "कौन-सा आकार (शेप)?"@hi,
+        "形状は？"@ja,
+        "Hvilken form?"@nb,
+        "Welke vorm?"@nl,
+        "Jaki kształt?"@pl,
+        "Que forma?"@pt,
+        "Vilken form?"@sv,
+        "什么形状？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/configurations/shape> ;
+    ptpge:version "2026-06-05" .
+

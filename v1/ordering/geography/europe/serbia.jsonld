@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/europe/serbia",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:GY§SERBIA",
+  "elementType": "place",
+  "label": {
+    "en": "Serbia",
+    "nb": "Serbia",
+    "de": "Serbien",
+    "ja": "セルビア",
+    "es": "Serbia",
+    "zh-Hans": "塞尔维亚",
+    "sv": "Serbien",
+    "da": "Serbien",
+    "nl": "Servië",
+    "pl": "Serbia",
+    "pt": "Sérvia",
+    "hi": "सर्बिया"
+  },
+  "altLabels": {
+    "en": [
+      "RS",
+      "SRB"
+    ],
+    "pl": [
+      "RS",
+      "SRB"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography/europe",
+  "properties": {
+    "iso3166Alpha2": "RS",
+    "iso3166Alpha3": "SRB"
+  },
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Serbia — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping.",
+    "nb": "Serbia — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Serbia — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen.",
+    "ja": "Serbia — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。",
+    "es": "Serbia — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "Serbia——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。",
+    "sv": "Serbien — geografisk facett på landsnivå som används för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Serbien — geografisk facet på landeniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Servië — geografische facet op landniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Serbia — aspekt geograficzny na poziomie kraju używany do specyfikacji produktu, dopasowania standardów regionalnych, listowania dostawców i zakresu wysyłki/dostawy.",
+    "pt": "Sérvia — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "सर्बिया — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "P:SB-SHT-PAPR-CLS",
+  "label": {
+    "en": "Paper Classes",
+    "nb": "Papirklasser",
+    "de": "Papierklassen",
+    "es": "Clases de papel",
+    "ja": "用紙クラス",
+    "zh-Hans": "纸张类别",
+    "sv": "Pappersklasser",
+    "da": "Papirklasser",
+    "nl": "Papierklassen",
+    "pl": "Klasy papieru",
+    "pt": "Classes de papel",
+    "hi": "काग़ज़ वर्ग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T16:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The five printing-substrate classes of ISO 12647-2:2013 (PS1–PS5) — the offset process-control standard's own classification of paper, from premium coated to wood-free uncoated. Complements the weight and surface facets; unbound means unspecified.",
+    "nb": "De fem trykksubstrat-klassene i ISO 12647-2:2013 (PS1–PS5) — offset-prosesstandardens egen papirklassifisering, fra premium bestrøket til ubestrøket trefritt. Utfyller vekt- og overflatefasettene; ubundet betyr uspesifisert.",
+    "de": "Die fünf Bedruckstoffklassen der ISO 12647-2:2013 (PS1–PS5) — die papiereigene Klassifikation des Offset-Prozessstandards, von Premium gestrichen bis ungestrichen holzfrei. Ergänzt Gewichts- und Oberflächenfacetten; ungebunden bedeutet unspezifiziert.",
+    "es": "Las cinco clases de sustrato de impresión de ISO 12647-2:2013 (PS1–PS5): la clasificación de papel propia del estándar de control de proceso ófset, desde estucado premium hasta no estucado libre de madera. Complementa las facetas de gramaje y superficie; sin vincular significa sin especificar.",
+    "ja": "ISO 12647-2:2013 が定める5つの印刷用紙クラス（PS1–PS5）。オフセット工程管理規格自身による用紙分類で、プレミアム塗工紙から上質紙（非塗工）まで。坪量・表面のファセットを補完する。未束縛は未指定を意味する。",
+    "zh-Hans": "ISO 12647-2:2013 定义的五个印刷承印物类别（PS1–PS5）——胶印过程控制标准自身的纸张分类，从高级涂布纸到非涂布无木浆纸。与克重和表面分面互补；未绑定即未指定。",
+    "sv": "De fem trycksubstratklasserna i ISO 12647-2:2013 (PS1–PS5) — offsetprocesstandardens egen pappersklassificering, från premium bestruket till obestruket träfritt. Kompletterar vikt- och ytfasetterna; obundet betyder ospecificerat.",
+    "da": "De fem tryksubstratklasser i ISO 12647-2:2013 (PS1–PS5) — offsetprocesstandardens egen papirklassificering, fra premium bestrøget til ubestrøget træfrit. Supplerer vægt- og overfladefacetterne; ubundet betyder uspecificeret.",
+    "nl": "De vijf drukdrager-klassen van ISO 12647-2:2013 (PS1–PS5) — de papierclassificatie van de offset-procesnorm zelf, van premium gestreken tot houtvrij ongestreken. Vult de gewichts- en oppervlaktefacetten aan; ongebonden betekent niet gespecificeerd.",
+    "pl": "Pięć klas podłoży drukowych wg ISO 12647-2:2013 (PS1–PS5) — własna klasyfikacja papieru normy kontroli procesu offsetowego, od powlekanego premium po niepowlekany bezdrzewny. Uzupełnia aspekty gramatury i powierzchni; brak wartości oznacza nieokreślone.",
+    "pt": "As cinco classes de substrato de impressão da ISO 12647-2:2013 (PS1–PS5) — a própria classificação de papel da norma de controle de processo offset, do couché premium ao offset sem pasta mecânica. Complementa as facetas de gramatura e superfície; não vinculado significa não especificado.",
+    "hi": "ISO 12647-2:2013 के पाँच मुद्रण-सब्सट्रेट वर्ग (PS1–PS5) — ऑफसेट प्रक्रिया-नियंत्रण मानक का अपना काग़ज़ वर्गीकरण, प्रीमियम कोटेड से वुड-फ़्री अनकोटेड तक। वज़न और सतह पहलुओं का पूरक; अनबाउंड का अर्थ अनिर्दिष्ट।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+  "related": [
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2"
+  ],
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps6-super-calendered",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps7-improved-uncoated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps8-standard-uncoated"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/kama> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Kama GmbH — tysk producent af udstansnings-, false- og limeudstyr til kortserieemballage og dekorativ efterbehandling."@da,
+        "Kama GmbH — deutscher Hersteller von Stanz-, Falz- und Klebegeräten, eingesetzt für Kleinauflagenverpackungen und dekorative Veredelung."@de,
+        "Kama GmbH — German manufacturer of die-cutting, folding, and gluing equipment used for short-run packaging and decorative finishing."@en,
+        "Kama GmbH — fabricante alemán de troqueladoras y equipo de acabado para tiradas comerciales y de packaging."@es,
+        "Kama GmbH — डाई-कटिंग, फ़ोल्डिंग और ग्लूइंग उपकरणों का जर्मन निर्माता, शॉर्ट-रन पैकेजिंग और सजावटी फ़िनिशिंग में प्रयुक्त।"@hi,
+        "Kama GmbH — 短納期パッケージおよび装飾仕上げに使用される打抜き、折り、糊付け機器のドイツのメーカー。"@ja,
+        "Kama GmbH — tysk produsent av stanse-, brett- og limeutstyr brukt til korttopplag emballasje og dekorativ etterbehandling."@nb,
+        "Kama GmbH — Duitse fabrikant van stans-, vouw- en lijmapparatuur voor verpakkingen in kleine oplagen en decoratieve afwerking."@nl,
+        "Kama GmbH — niemiecki producent urządzeń do wykrawania, składania i klejenia używanych w krótkoseryjnych opakowaniach i wykończeniu dekoracyjnym."@pl,
+        "Kama GmbH — fabricante alemão de equipamentos de corte especial, dobra e colagem usados em embalagens de tiragem curta e acabamento decorativo."@pt,
+        "Kama GmbH — tysk tillverkare av stansnings-, fals- och limningsutrustning för kortserieförpackningar och dekorativ efterbehandling."@sv,
+        "Kama GmbH —— 德国商业和包装印次的模切机和印后设备制造商。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-KAMA" ;
+    skos:prefLabel "Kama"@da,
+        "Kama"@de,
+        "Kama"@en,
+        "Kama"@es,
+        "Kama"@hi,
+        "Kama"@ja,
+        "Kama"@nb,
+        "Kama"@nl,
+        "Kama"@pl,
+        "Kama"@pt,
+        "Kama"@sv,
+        "Kama"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

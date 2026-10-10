@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Cardstock"@en,
+        "कार्डस्टॉक"@hi,
+        "बोर्ड"@hi,
+        "मोटा कार्ड"@hi,
+        "Kartong"@nb,
+        "karton"@pl,
+        "cartolina pesada"@pt,
+        "cartão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:definition "Papir i området 310–449 g/m² — typisk betegnet som karton. Stift og holdbart, brugt til eksklusive visitkort, postkort, bogomslag og emballage af høj kvalitet."@da,
+        "Papier im Bereich 310–449 g/m² — typischerweise als Karton bezeichnet. Steif und langlebig, eingesetzt für Premium-Visitenkarten, Postkarten, Buchcover und hochwertige Verpackungen."@de,
+        "Paper in the 310–449 gsm range — typically referred to as cardstock. Stiff and durable, used for premium business cards, postcards, book covers, and high-quality packaging."@en,
+        "Papel extra pesado, 250–350 gsm — cartulina utilizada para tarjetas de visita, invitaciones y materiales promocionales rígidos."@es,
+        "310–449 GSM रेंज का काग़ज़ — आमतौर पर कार्डस्टॉक कहा जाता है। कड़ा और टिकाऊ, प्रीमियम विज़िटिंग कार्ड, पोस्टकार्ड, किताब के कवर और उच्च गुणवत्ता की पैकेजिंग में।"@hi,
+        "310〜449gsmの坪量範囲の紙 — 通常はカード紙と呼ばれる。硬く耐久性があり、プレミアム名刺、ハガキ、書籍カバー、高級パッケージに使用される。"@ja,
+        "Papir i området 310–449 gsm — vanligvis kalt kartong. Stivt og holdbart, brukt til premium-visittkort, postkort, bokomslag og høykvalitets emballasje."@nb,
+        "Papier in het bereik 310–449 g/m² — doorgaans aangeduid als karton. Stijf en duurzaam, gebruikt voor premium visitekaartjes, kaarten, boekomslagen en hoogwaardige verpakkingen."@nl,
+        "Papier w zakresie 310–449 g/m² — zwykle nazywany kartonem. Sztywny i trwały, używany do wizytówek premium, pocztówek, okładek książek i wysokiej jakości opakowań."@pl,
+        "Papel na faixa de 310–449 g/m² — normalmente chamado de cartão. Rígido e durável, usado em cartões de visita premium, postais, capas de livro e embalagens de alta qualidade."@pt,
+        "Papper i intervallet 310–449 g/m² — kallas typiskt kartong. Styvt och tåligt, används för exklusiva visitkort, vykort, bokomslag och kvalitetsförpackningar."@sv,
+        "超重纸，250–350克 —— 用于名片、请柬和刚性宣传材料的卡纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§EXTRA-HEAVY-PAPER" ;
+    skos:prefLabel "Ekstra tungt papir (310–449 g/m²)"@da,
+        "Extra schweres Papier (310–449 g/m²)"@de,
+        "Extra Heavy Paper (310–449 gsm)"@en,
+        "Papel Extra Pesado (310–449 gsm)"@es,
+        "एक्स्ट्रा हेवी काग़ज़ (310–449 GSM)"@hi,
+        "超厚紙（310〜449 gsm）"@ja,
+        "Ekstra tungt papir (310–449 g/m²)"@nb,
+        "Extra zwaar papier (310–449 g/m²)"@nl,
+        "Papier bardzo ciężki (310–449 g/m²)"@pl,
+        "Papel extra pesado (310–449 g/m²)"@pt,
+        "Extra tungt papper (310–449 g/m²)"@sv,
+        "超重纸 (310–449克)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:hasProperty [ ptpge:unit "gsm" ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

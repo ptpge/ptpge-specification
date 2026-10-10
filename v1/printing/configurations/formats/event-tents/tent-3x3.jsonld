@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "version": "2026-09-05",
+  "status": "proposed",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "created": "2026-09-05T00:00:00Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/v1/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/v1/contributors/patrik-knutsson"
+  ],
+  "id": "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x3",
+  "notation": "P:CF§TENT-3X3",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Tent 3 × 3 m",
+    "nb": "Tent 3 × 3 m",
+    "de": "Tent 3 × 3 m",
+    "es": "Tent 3 × 3 m",
+    "ja": "Tent 3 × 3 m",
+    "zh-Hans": "Tent 3 × 3 m",
+    "sv": "Tent 3 × 3 m",
+    "da": "Tent 3 × 3 m",
+    "nl": "Tent 3 × 3 m",
+    "pl": "Namiot 3 × 3 m",
+    "pt": "Tenda 3 × 3 m",
+    "hi": "टेंट 3 × 3 m"
+  },
+  "altLabels": {
+    "en": [
+      "3 × 3 m tent",
+      "3x3 m",
+      "Pop-up tent 3 × 3 m"
+    ],
+    "pl": [
+      "namiot ekspresowy 3 × 3 m"
+    ]
+  },
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/event-tents",
+  "properties": {
+    "width": 3000,
+    "height": 3000,
+    "unit": "mm",
+    "aspectRatio": 1.0,
+    "standard": "convention",
+    "area": 9000000
+  },
+  "definition": {
+    "en": "Event tent format 3 × 3 m: European standard footprint for pop-up and frame event tents. The format is the frame footprint; canopy and wall panels, seams and hems are production geometry derived by the producer.",
+    "nb": "Europeisk standardmål for pop-up- og rammetelt — 3 × 3 m. Formatet er rammens fotavtrykk; canopy- og veggpaneler, sømmer og fald er produksjonsgeometri utledet av produsenten.",
+    "de": "Europäisches Standardmaß für Faltpavillons und Rahmenzelte — 3 × 3 m. Das Format ist die Rahmengrundfläche; Dach- und Wandbahnen, Nähte und Säume sind vom Hersteller abgeleitete Produktionsgeometrie.",
+    "es": "Medida estándar europea para carpas plegables y de armazón — 3 × 3 m. El formato es la huella de la estructura; paneles de techo y pared, costuras y dobladillos son geometría de producción derivada por el productor.",
+    "ja": "ポップアップ／フレームテントの欧州標準サイズ。 — 3 × 3 m. 判型はフレームの設置面積。天幕・側幕パネル、縫い目、縁は製造者が導出する生産上の寸法。",
+    "zh-Hans": "弹出式与框架帐篷的欧洲标准尺寸。 — 3 × 3 m. 规格为框架占地尺寸；顶篷与围布片、缝线与折边为生产者推导的生产几何尺寸。",
+    "sv": "Europeiskt standardmått för pop-up- och ramtält — 3 × 3 m. Formatet är ramens fotavtryck; tak- och väggpaneler, sömmar och fållar är produktionsgeometri som producenten härleder.",
+    "da": "Europæisk standardmål for pop-up- og rammetelte — 3 × 3 m. Formatet er rammens fodaftryk; tag- og vægpaneler, sømme og kanter er produktionsgeometri udledt af producenten.",
+    "nl": "Europese standaardmaat voor pop-up- en frametenten — 3 × 3 m. Het formaat is de voetafdruk van het frame; dak- en wandpanelen, naden en zomen zijn door de producent afgeleide productiegeometrie.",
+    "pl": "Format namiotu eventowego 3 × 3 m: europejski standardowy obrys namiotów ekspresowych i ramowych. Format to obrys stelaża; panele dachu i ścian, szwy i obszycia są geometrią produkcyjną wyprowadzaną przez producenta.",
+    "pt": "Formato de tenda para eventos 3 × 3 m: área padrão europeia para tendas sanfonadas e de estrutura. O formato é a área da estrutura; painéis de cobertura e paredes, costuras e bainhas são geometria de produção derivada pelo produtor.",
+    "hi": "इवेंट टेंट फ़ॉर्मेट 3 × 3 m: पॉप-अप और फ़्रेम टेंट के लिए यूरोपीय मानक फुटप्रिंट। फ़ॉर्मेट फ़्रेम का फुटप्रिंट है; छतरी और दीवार पैनल, सिलाई और किनारे उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति हैं।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

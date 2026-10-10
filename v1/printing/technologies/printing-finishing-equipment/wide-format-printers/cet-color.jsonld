@@ -1,0 +1,67 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/cet-color",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "CET Color",
+    "es": "CET Color",
+    "zh-Hans": "CET Color",
+    "nb": "CET Color",
+    "de": "CET Color",
+    "ja": "CET Color",
+    "sv": "CET Color",
+    "da": "CET Color",
+    "nl": "CET Color",
+    "pl": "CET Color",
+    "pt": "CET Color",
+    "hi": "CET Color"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "CET Color — Chinese manufacturer of UV flatbed and hybrid wide-format printers, popular for sign and display applications in price-sensitive markets.",
+    "nb": "CET Color — kinesisk produsent av UV flatbed- og hybride storformat-skrivere, populært for skilt- og display-anvendelser i prissensitive markeder.",
+    "de": "CET Color — chinesischer Hersteller von UV-Flachbett- und Hybrid-Großformatdruckern, beliebt für Schilder- und Displayanwendungen in preissensitiven Märkten.",
+    "ja": "CET Color — UVフラットベッドおよびハイブリッド大判プリンターの中国のメーカー。価格に敏感な市場のサインおよびディスプレイ用途で人気。",
+    "es": "CET Color — fabricante estadounidense de impresoras UV flatbed e híbridas para señalética y producción de gran formato.",
+    "zh-Hans": "CET Color —— 美国UV平板和混合打印机制造商，用于标识和大幅面生产。",
+    "sv": "CET Color — kinesisk tillverkare av UV-flatbädds- och hybridskrivare i storformat, populär för skylt- och displaytillämpningar på priskänsliga marknader.",
+    "da": "CET Color — kinesisk producent af UV-flatbed- og hybridprintere i storformat, populær til skilte- og displayanvendelser på prisfølsomme markeder.",
+    "nl": "CET Color — Chinese fabrikant van UV-flatbed- en hybride grootformaatprinters, populair voor sign- en displaytoepassingen op prijsgevoelige markten.",
+    "pl": "CET Color — chiński producent płaskich i hybrydowych drukarek wielkoformatowych UV, popularnych w zastosowaniach reklamowych i ekspozycyjnych na rynkach wrażliwych cenowo.",
+    "pt": "CET Color — fabricante chinês de impressoras UV flatbed e híbridas de grande formato, popular em sinalização e display em mercados sensíveis a preço.",
+    "hi": "CET Color — UV फ़्लैटबेड और हाइब्रिड वाइड-फॉर्मेट प्रिंटरों का चीनी निर्माता, मूल्य-संवेदनशील बाज़ारों में साइन और डिस्प्ले अनुप्रयोगों के लिए लोकप्रिय।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-WIDE-CETC",
+  "altLabels": {
+    "en": [
+      "CET Colour"
+    ],
+    "pl": [
+      "CET Colour"
+    ],
+    "pt": [
+      "CET Colour"
+    ],
+    "hi": [
+      "CET Colour"
+    ]
+  },
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

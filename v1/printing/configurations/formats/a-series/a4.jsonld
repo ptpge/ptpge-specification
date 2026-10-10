@@ -1,0 +1,99 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A4 (210 x 297 mm)",
+    "nb": "A4 (210 x 297 mm)",
+    "de": "A4 (210 x 297 mm)",
+    "ja": "A4 (210 x 297 mm)",
+    "es": "A4 (210 × 297 mm)",
+    "zh-Hans": "A4 (210 × 297 mm)",
+    "nl": "A4 (210 x 297 mm)",
+    "sv": "A4 (210 x 297 mm)",
+    "da": "A4 (210 x 297 mm)",
+    "pl": "A4 (210 x 297 mm)",
+    "pt": "A4 (210 x 297 mm)",
+    "hi": "A4 (210 x 297 mm)"
+  },
+  "altLabels": {
+    "en": [
+      "A4 Size",
+      "210 x 297 mm",
+      "210x297",
+      "210×297",
+      "21 x 29.7 cm",
+      "DIN A4"
+    ],
+    "nb": [
+      "A4-format",
+      "A4-størrelse"
+    ],
+    "pl": [
+      "format A4"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A4",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "210 × 297 mm (8.27 × 11.69 in). The default office and consumer paper size in nearly every country except the United States and Canada. Part of the ISO 216 A series, where each size is half the area of the next: A4 is half of A3, twice the area of A5.",
+    "nb": "210 × 297 mm (8,27 × 11,69 in). Standard kontor- og forbrukerpapirstørrelse i nesten alle land utenom USA og Canada. Del av ISO 216 A-serien, der hver størrelse har halve arealet av den neste: A4 er halvparten av A3, dobbelt så stort som A5.",
+    "de": "210 × 297 mm (8,27 × 11,69 in). Das Standardpapierformat für Büro und Privatgebrauch in nahezu allen Ländern außer den Vereinigten Staaten und Kanada. Teil der ISO-216-A-Reihe, in der jedes Format halb so groß wie das nächstgrößere ist: A4 ist die Hälfte von A3 und die doppelte Fläche von A5.",
+    "ja": "210×297mm（8.27×11.69インチ）。米国およびカナダを除くほぼ全ての国における既定のオフィスおよびコンシューマー用紙サイズ。ISO 216 Aシリーズの一部で、各サイズが次のサイズの半分の面積となる：A4はA3の半分、A5の2倍の面積。",
+    "es": "Formato A4 de la serie A de ISO 216, dimensiones 210 × 297 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A.",
+    "zh-Hans": "ISO 216 A系列A4开本，尺寸210 × 297 mm。比例1:√2 —— 对折后得到下一个A尺寸。",
+    "sv": "210 × 297 mm (8.27 × 11.69 tum). Standardformatet för kontor och konsumenter i nästan alla länder utom USA och Kanada. Del av A-serien i ISO 216, där varje format är halva arean av det närmast större: A4 är hälften av A3 och dubbla arean av A5.",
+    "da": "210 × 297 mm (8.27 × 11.69 tommer). Standardformatet til kontor og forbrugere i næsten alle lande undtagen USA og Canada. Del af A-serien i ISO 216, hvor hvert format er halvdelen af arealet af det nærmeste større: A4 er halvdelen af A3 og dobbelt så stort areal som A5.",
+    "nl": "210 × 297 mm (8.27 × 11.69 inch). Het standaardformaat voor kantoor en consument in vrijwel alle landen behalve de VS en Canada. Onderdeel van de A-reeks in ISO 216, waarbij elk formaat de helft van het oppervlak van het eerstvolgende grotere is: A4 is de helft van A3 en dubbel zo groot als A5.",
+    "pl": "210 × 297 mm (8,27 × 11,69 cala). Domyślny format papieru biurowego i konsumenckiego niemal w każdym kraju poza Stanami Zjednoczonymi i Kanadą. Część serii A normy ISO 216, w której każdy format ma połowę powierzchni następnego: A4 to połowa A3 i dwukrotność A5.",
+    "pt": "210 × 297 mm (8.27 × 11.69 in). O tamanho de papel padrão de escritório e consumo em quase todos os países, exceto Estados Unidos e Canadá. Faz parte da série A da ISO 216, em que cada tamanho tem metade da área do seguinte: A4 é metade de A3 e o dobro de A5.",
+    "hi": "210 × 297 mm (8.27 × 11.69 in). संयुक्त राज्य और कनाडा को छोड़कर लगभग हर देश का डिफ़ॉल्ट ऑफ़िस और उपभोक्ता काग़ज़ आकार। ISO 216 A-सीरीज़ का हिस्सा, जहाँ हर आकार अगले का आधा क्षेत्रफल है: A4, A3 का आधा और A5 का दोगुना।"
+  },
+  "exactMatch": [
+    "https://www.wikidata.org/wiki/Q280184",
+    "https://www.iso.org/standard/36631.html"
+  ],
+  "properties": {
+    "width": 210,
+    "height": 297,
+    "unit": "mm",
+    "aspectRatio": 1.4143,
+    "standard": "ISO 216",
+    "area": 62370
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "visual": {
+    "symbols": {
+      "mockup": "assets/symbols/cf-a4-mockup.svg",
+      "format": "assets/symbols/cf-a4-format.svg"
+    }
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

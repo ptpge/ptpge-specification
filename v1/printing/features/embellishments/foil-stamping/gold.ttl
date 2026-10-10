@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Gilding"@en,
+        "Gold Foil Stamping"@en,
+        "गिल्डिंग"@hi,
+        "गोल्ड फ़ॉइल स्टैंपिंग"@hi,
+        "सुनहरी फ़ॉइल"@hi,
+        "सोने की फ़ॉइल"@hi,
+        "Gull"@nb,
+        "Gullfoliepreging"@nb,
+        "Gullpreg"@nb,
+        "złocenie"@pl,
+        "złota folia na gorąco"@pl,
+        "dourado"@pt,
+        "douração"@pt,
+        "hot stamping dourado"@pt,
+        "ouro"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments/foil-stamping> ;
+    skos:definition "Varmfolieprægning med guldfarvet metallisk folie. Varianter omfatter traditionelt gult guld, rosaguld og antikguld."@da,
+        "Heißfolienprägung mit goldfarbener Metallfolie."@de,
+        "Hot-foil stamping with gold-coloured metallic foil. Variants include traditional yellow gold, rose gold, and antique gold."@en,
+        "Estampación en caliente con foil metálico dorado. Las variantes incluyen oro amarillo tradicional, oro rosa y oro envejecido."@es,
+        "सुनहरे मेटैलिक फ़ॉइल से हॉट-फ़ॉइल स्टैंपिंग। पारंपरिक पीला सोना, रोज़ गोल्ड और एंटीक गोल्ड वेरिएंट।"@hi,
+        "金色のメタリック箔によるホットフォイル。伝統的なイエローゴールド、ローズゴールド、アンティークゴールドなどのバリエーションがある。"@ja,
+        "Varmfolie-preging med gullfarget metallisk folie. Varianter inkluderer tradisjonelt gull, rosegull og antikkgull."@nb,
+        "Warmfoliedruk met goudkleurige metallic folie. Varianten omvatten traditioneel geelgoud, roségoud en antiekgoud."@nl,
+        "Folia na gorąco w kolorze złotym metalicznym. Warianty obejmują tradycyjne złoto żółte, różowe i antyczne."@pl,
+        "Hot stamping com foil metálico dourado. Variantes incluem dourado tradicional, ouro rosé e ouro envelhecido."@pt,
+        "Varmfoliering med guldfärgad metallisk folie. Varianter inkluderar traditionellt gult guld, roséguld och antikguld."@sv,
+        "使用金色金属箔的烫印。变体包括传统黄金色、玫瑰金与古典金。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§GOLD" ;
+    skos:prefLabel "Guldfolie"@da,
+        "Goldfolie"@de,
+        "Gold Foil"@en,
+        "Lámina de oro"@es,
+        "गोल्ड फ़ॉइल"@hi,
+        "金箔"@ja,
+        "Gullfolie"@nb,
+        "Goudfolie"@nl,
+        "Folia złota"@pl,
+        "Foil dourado"@pt,
+        "Guldfolie"@sv,
+        "金箔"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

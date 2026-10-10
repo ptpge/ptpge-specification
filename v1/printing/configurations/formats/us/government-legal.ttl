@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/us/government-legal> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "8.5 x 13 in"@en,
+        "8.5x13"@en,
+        "8.5×13"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:definition "8.5 × 13 tommer (215.9 × 330.2 mm). Bruges af amerikanske føderale myndigheder til juridiske dokumenter — lidt kortere end standard-Legal."@da,
+        "8,5 × 13 in (215,9 × 330,2 mm). Verwendet von US-Bundesbehörden für Rechtsdokumente — etwas kürzer als Standard-Legal."@de,
+        "8.5 × 13 in (215.9 × 330.2 mm). Used by US federal government agencies for legal documents — slightly shorter than standard Legal."@en,
+        "Government Legal — variante de Oficio utilizada en correspondencia gubernamental estadounidense, ligeramente más corta que Oficio estándar."@es,
+        "8.5 × 13 in (215.9 × 330.2 mm). US संघीय एजेंसियों द्वारा विधिक दस्तावेज़ों के लिए — मानक Legal से थोड़ा छोटा।"@hi,
+        "8.5×13インチ（215.9×330.2mm）。米国連邦政府機関が法律文書に使用 — 標準Legalよりわずかに短い。"@ja,
+        "8,5 × 13 in (215,9 × 330,2 mm). Brukt av amerikanske føderale myndigheter til juridiske dokumenter — litt kortere enn standard Legal."@nb,
+        "8.5 × 13 inch (215.9 × 330.2 mm). Gebruikt door Amerikaanse federale overheden voor juridische documenten — iets korter dan standaard-Legal."@nl,
+        "8,5 × 13 cali (215,9 × 330,2 mm). Używany przez amerykańskie agencje federalne do dokumentów prawnych — nieco krótszy niż standardowy Legal."@pl,
+        "8.5 × 13 in (215.9 × 330.2 mm). Usado por órgãos federais dos EUA para documentos jurídicos — um pouco mais curto que o Legal padrão."@pt,
+        "8.5 × 13 tum (215.9 × 330.2 mm). Används av amerikanska federala myndigheter för juridiska dokument — något kortare än standard-Legal."@sv,
+        "Government Legal —— 用于美国政府通信的Legal变体，比标准Legal略短。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§GOVERNMENT-LEGAL" ;
+    skos:prefLabel "Government Legal (8.5 x 13 tum)"@da,
+        "Government Legal (8.5 x 13 in)"@de,
+        "Government Legal (8.5 x 13 in)"@en,
+        "Government Legal (216 × 330 mm / 8.5 × 13 in)"@es,
+        "Government Legal (8.5 x 13 in)"@hi,
+        "Government Legal (8.5 x 13 in)"@ja,
+        "Government Legal (8.5 x 13 in)"@nb,
+        "Government Legal (8.5 x 13 tum)"@nl,
+        "Government Legal (8.5 x 13 in)"@pl,
+        "Government Legal (8.5 x 13 in)"@pt,
+        "Government Legal (8.5 x 13 tum)"@sv,
+        "Government Legal (216 × 330 mm / 8.5 × 13 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 110.5 ;
+            ptpge:aspectRatio 1.5294 ;
+            ptpge:height 13.0 ;
+            ptpge:standard "ANSI" ;
+            ptpge:unit "in" ;
+            ptpge:width 8.5 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,63 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/measurement-systems/imperial",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Imperial",
+    "es": "Imperial",
+    "zh-Hans": "英制",
+    "nb": "Imperial-system",
+    "de": "Imperiales System",
+    "ja": "ヤード・ポンド法",
+    "sv": "Imperialsystemet",
+    "da": "Imperialsystemet",
+    "nl": "Imperiaal stelsel",
+    "pl": "Imperialny",
+    "pt": "Imperial",
+    "hi": "इंपीरियल"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§IMPERIAL",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/measurement-systems",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Anglo-American measurement system used in printing — primarily inches for sheet sizes, points (1/72 inch) and picas (12 points) for typography. Standard in North American print specifications.",
+    "nb": "Anglo-amerikansk målesystem brukt i trykk — primært tommer for arkstørrelser, punkt (1/72 tomme) og pica (12 punkt) for typografi. Standard i nordamerikanske trykkspesifikasjoner.",
+    "de": "Anglo-amerikanisches Maßsystem im Druckbereich — vorwiegend Inch für Bogenformate, Punkt (1/72 Inch) und Pica (12 Punkt) für Typografie. Standard in nordamerikanischen Druckspezifikationen.",
+    "ja": "印刷で使用される英米式の計測単位 — 主にシート寸法用のインチ、タイポグラフィ用のポイント（1/72インチ）およびパイカ（12ポイント）。北米の印刷仕様における標準。",
+    "es": "Sistema de unidades imperial — pulgada, punto, pica. Estándar en la industria de impresión estadounidense y para resoluciones (DPI, PPI) en cualquier región.",
+    "zh-Hans": "英制单位系统 —— 英寸、点、派卡。美国印刷行业的标准，分辨率（DPI、PPI）在任何地区都使用。",
+    "sv": "Angloamerikanskt måttsystem i tryck — främst tum för arkstorlekar, punkter (1/72 tum) och pica (12 punkter) för typografi. Standard i nordamerikanska tryckspecifikationer.",
+    "da": "Angloamerikansk målesystem i tryk — primært tommer for arkstørrelser, punkter (1/72 tomme) og pica (12 punkter) for typografi. Standard i nordamerikanske trykspecifikationer.",
+    "nl": "Angelsaksisch meetsysteem in druk — voornamelijk inches voor velformaten, punten (1/72 inch) en pica's (12 punten) voor typografie. Standaard in Noord-Amerikaanse drukspecificaties.",
+    "pl": "Anglo-amerykański system miar używany w poligrafii — głównie cale dla formatów arkuszy, punkty (1/72 cala) i pica (12 punktów) w typografii. Standard w północnoamerykańskich specyfikacjach druku.",
+    "pt": "Sistema de medição anglo-americano usado na impressão — principalmente polegadas para tamanhos de folha, pontos (1/72 de polegada) e paicas (12 pontos) para tipografia. Padrão nas especificações de impressão norte-americanas.",
+    "hi": "मुद्रण में प्रयुक्त एंग्लो-अमेरिकी मापन प्रणाली — मुख्यतः शीट आकार के लिए इंच, टाइपोग्राफ़ी के लिए पॉइंट (1/72 इंच) और पाइका (12 पॉइंट)। उत्तर अमेरिकी प्रिंट विनिर्देशों में मानक।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "inches"
+    ],
+    "pl": [
+      "cale",
+      "system calowy"
+    ],
+    "pt": [
+      "polegadas"
+    ],
+    "hi": [
+      "इंच"
+    ]
+  }
+}

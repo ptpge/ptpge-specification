@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/continuous> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "CIJ"@en,
+        "Continuous inkjet"@en,
+        "CIJ"@hi,
+        "कंटीन्युअस इंकजेट"@hi,
+        "Kontinuerlig blekkskriver"@nb,
+        "CIJ"@pl,
+        "ciągły druk atramentowy"@pl,
+        "CIJ"@pt,
+        "Jato de tinta contínuo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    skos:definition "Kontinuerlig inkjet (CIJ) — teknik, der afgiver en konstant strøm af blækdråber og afleder dem elektrostatisk enten til substratet eller til en recirkulationsrende. Bruges til industriel kodning, mærkning og produktidentifikation i høj hastighed."@da,
+        "Continuous Inkjet (CIJ) — Technologie, die einen kontinuierlichen Strom von Tintentröpfchen ausstößt und sie elektrostatisch entweder zum Bedruckstoff oder in eine Rückführungsrinne ablenkt. Eingesetzt für die Hochgeschwindigkeitskennzeichnung, -markierung und Produktidentifikation in der Industrie."@de,
+        "Continuous inkjet (CIJ) — technology that emits a constant stream of ink droplets, electrostatically deflecting them either to the substrate or to a recirculation gutter. Used for high-speed industrial coding, marking, and product identification."@en,
+        "Variante de inyección de tinta donde la corriente de gotas se forma de forma constante y se desvía electromagnéticamente — las no deseadas se reciclan. Utilizada en marcado industrial y codificación."@es,
+        "कंटीन्युअस इंकजेट (CIJ) — तकनीक जो स्याही की बूँदों की निरंतर धारा छोड़ती है, उन्हें विद्युत-स्थैतिक रूप से सब्सट्रेट या पुनर्चक्रण गटर की ओर मोड़ती है। उच्च-गति औद्योगिक कोडिंग, मार्किंग और उत्पाद पहचान में।"@hi,
+        "コンティニュアスインクジェット（CIJ）— インキ液滴の絶え間ない流れを発し、静電的に偏向させて基材または再循環溝に向かわせる技術。高速の工業用コーディング、マーキング、製品識別に使用される。"@ja,
+        "Kontinuerlig inkjet (CIJ) — teknologi som sender ut en konstant strøm av blekkdråper, og avbøyer dem elektrostatisk enten til substratet eller til en resirkuleringsrenne. Brukt til høyhastighets industriell koding, merking og produktidentifikasjon."@nb,
+        "Continuous inkjet (CIJ) — technologie die een constante stroom inktdruppels uitstoot en ze elektrostatisch afbuigt naar het substraat of naar een recirculatiegoot. Gebruikt voor industriële codering, markering en productidentificatie op hoge snelheid."@nl,
+        "Ciągły druk atramentowy (CIJ) — technologia emitująca stały strumień kropel atramentu, elektrostatycznie odchylanych na podłoże lub do rynny recyrkulacyjnej. Używana do szybkiego przemysłowego kodowania, znakowania i identyfikacji produktów."@pl,
+        "Jato de tinta contínuo (CIJ) — tecnologia que emite um fluxo constante de gotículas de tinta, desviando-as eletrostaticamente para o substrato ou para uma calha de recirculação. Usada em codificação, marcação e identificação de produtos industriais em alta velocidade."@pt,
+        "Kontinuerlig inkjet (CIJ) — teknik som avger en konstant ström av bläckdroppar och avleder dem elektrostatiskt antingen till substratet eller till en återcirkulationsränna. Används för industriell kodning, märkning och produktidentifiering i hög hastighet."@sv,
+        "喷墨变体，墨滴流持续形成并被电磁偏转 —— 不需要的液滴被回收。用于工业标记和编码。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§CONTINUOUS" ;
+    skos:prefLabel "Kontinuerlig (CIJ)"@da,
+        "Kontinuierlich"@de,
+        "Continuous"@en,
+        "Inyección Continua"@es,
+        "कंटीन्युअस"@hi,
+        "コンティニュアス"@ja,
+        "Kontinuerlig"@nb,
+        "Continu (CIJ)"@nl,
+        "Ciągły"@pl,
+        "Contínuo"@pt,
+        "Kontinuerlig (CIJ)"@sv,
+        "连续喷墨"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

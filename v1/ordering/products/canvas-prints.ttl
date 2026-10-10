@@ -1,0 +1,128 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/canvas-prints> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "canvas"@da,
+        "canvasbillede"@da,
+        "fotolærred"@da,
+        "lærred"@da,
+        "Keilrahmenbild"@de,
+        "Leinwandbild"@de,
+        "Leinwanddruck"@de,
+        "canvas print"@en,
+        "canvas wall art"@en,
+        "gallery wrap"@en,
+        "stretched canvas"@en,
+        "wall art"@en,
+        "arte de pared"@es,
+        "cuadro en lienzo"@es,
+        "foto en lienzo"@es,
+        "impresión en lienzo"@es,
+        "lienzo"@es,
+        "lienzo con bastidor"@es,
+        "कैनवास पेंटिंग प्रिंट"@hi,
+        "कैनवास प्रिंट"@hi,
+        "गैलरी रैप"@hi,
+        "वॉल आर्ट"@hi,
+        "स्ट्रेच्ड कैनवास"@hi,
+        "キャンバスアート"@ja,
+        "キャンバス印刷"@ja,
+        "ファブリックパネル"@ja,
+        "写真キャンバス"@ja,
+        "lerretsbilde"@nb,
+        "veggbilde"@nb,
+        "canvasdoek"@nl,
+        "canvasprint"@nl,
+        "canvasschilderij"@nl,
+        "foto op canvas"@nl,
+        "dekoracja ścienna"@pl,
+        "obraz na blejtramie"@pl,
+        "wydruk na płótnie"@pl,
+        "arte de parede"@pt,
+        "impressão em tela"@pt,
+        "quadro decorativo"@pt,
+        "quadro em canvas"@pt,
+        "tela esticada"@pt,
+        "canvastavla"@sv,
+        "fototavla på canvas"@sv,
+        "uppspänd canvas"@sv,
+        "墙面艺术"@zh-Hans,
+        "帆布画"@zh-Hans,
+        "无框画"@zh-Hans,
+        "油画布画"@zh-Hans,
+        "照片画布"@zh-Hans,
+        "画布喷绘"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et trykt billede på tekstilkanvas opspændt på en træramme (gallery wrap) til vægophæng."@da,
+        "Ein gedrucktes Bild auf Textil-Leinwand, auf einen Holzrahmen gespannt (Galerie-Aufspannung), zur Wandpräsentation."@de,
+        "A printed image on textile canvas stretched over a wooden frame (gallery wrap) for wall display."@en,
+        "Una imagen impresa sobre lienzo textil tensado en bastidor de madera (gallery wrap) para exhibición en pared."@es,
+        "लकड़ी के फ़्रेम पर तानी गई कपड़े की कैनवास पर मुद्रित चित्र (गैलरी रैप), दीवार पर लगाने के लिए।"@hi,
+        "木枠に張ったキャンバス地にプリントした壁面展示用の作品（ギャラリーラップ）。"@ja,
+        "Et trykt bilde på tekstil-lerret strukket over en treramme (gallery wrap) for vegg-visning."@nb,
+        "Een gedrukt beeld op textielcanvas, gespannen op een houten frame (gallery wrap), voor wandpresentatie."@nl,
+        "Obraz wydrukowany na płótnie tekstylnym naciągniętym na drewniany blejtram (gallery wrap) do ekspozycji na ścianie."@pl,
+        "Imagem impressa em tela têxtil (canvas) esticada sobre chassi de madeira (gallery wrap) para exposição em parede."@pt,
+        "En tryckt bild på textilcanvas uppspänd på en träram (gallery wrap) för väggexponering."@sv,
+        "印在纺织画布上并绷装于木框（画廊式绷框）的墙面展示作品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§CANVAS-PRINTS" ;
+    skos:prefLabel "Lærredstryk"@da,
+        "Leinwandbilder"@de,
+        "Canvas Prints"@en,
+        "Lienzos"@es,
+        "कैनवास प्रिंट"@hi,
+        "キャンバスプリント"@ja,
+        "Lerretsbilder"@nb,
+        "Canvasdoeken"@nl,
+        "Obrazy na płótnie"@pl,
+        "Impressões em canvas"@pt,
+        "Canvastavlor"@sv,
+        "画布画"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a0>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a0-plus>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a1>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a2>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a3>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-a>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-b>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-c>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-d>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e1>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait>,
+        <https://ptpge.org/v1/printing/configurations/orientation/square> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/canvas> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/giclee> ;
+    ptpge:version "2026-09-28" .
+

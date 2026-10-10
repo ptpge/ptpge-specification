@@ -1,0 +1,183 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/swing-tags> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "hangtag"@da,
+        "hængemærke"@da,
+        "prismærke"@da,
+        "prismærker"@da,
+        "prisskilt"@da,
+        "Anhängeetiketten"@de,
+        "Anhänger"@de,
+        "Geschenkanhänger"@de,
+        "Hängeetiketten"@de,
+        "Kartonanhänger"@de,
+        "Preisanhänger"@de,
+        "Clothing tags"@en,
+        "Garment tags"@en,
+        "Gift tags"@en,
+        "Swing Tags"@en,
+        "Swing tag"@en,
+        "Swing tags"@en,
+        "Swing tickets"@en,
+        "hang tag"@en,
+        "price tag"@en,
+        "swing tag"@en,
+        "swing ticket"@en,
+        "etiqueta colgante"@es,
+        "etiqueta de cartón"@es,
+        "etiqueta de precio"@es,
+        "etiqueta de ropa"@es,
+        "hang tag"@es,
+        "कपड़ों का टैग"@hi,
+        "गारमेंट टैग"@hi,
+        "गिफ़्ट टैग"@hi,
+        "प्राइस टैग"@hi,
+        "स्विंग टैग"@hi,
+        "हैंग टैग"@hi,
+        "タグ"@ja,
+        "ハングタグ"@ja,
+        "値札"@ja,
+        "商品タグ"@ja,
+        "Gavelapper"@nb,
+        "hengelapp"@nb,
+        "prislapp"@nb,
+        "hanglabel"@nl,
+        "hangtag"@nl,
+        "hangtags"@nl,
+        "kledinglabel"@nl,
+        "prijskaartje"@nl,
+        "prijskaartjes"@nl,
+        "etykieta zawieszkowa"@pl,
+        "metka"@pl,
+        "zawieszka"@pl,
+        "zawieszka cenowa"@pl,
+        "etiqueta de cartão"@pt,
+        "etiqueta de preço"@pt,
+        "etiqueta pendurada"@pt,
+        "tag"@pt,
+        "tag de presente"@pt,
+        "tag de roupa"@pt,
+        "hangtag"@sv,
+        "hängetikett"@sv,
+        "kläd-etikett"@sv,
+        "prislapp"@sv,
+        "prislappar"@sv,
+        "价格牌"@zh-Hans,
+        "挂牌"@zh-Hans,
+        "服装吊牌"@zh-Hans,
+        "标价牌"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et lille udstanset kort fastgjort til et produkt med snor eller løkke — pris-, brand- og plejeinformation."@da,
+        "Eine kleine gestanzte Karte, die mit Schnur am Produkt befestigt wird."@de,
+        "A small die-cut card attached to a product by string or loop — pricing, branding and care information."@en,
+        "Una etiqueta troquelada pequeña sujeta al producto con cordel o lazo — precio, marca e información de cuidado."@es,
+        "डोरी या लूप से उत्पाद पर लटकाया गया छोटा डाई-कट कार्ड — कीमत, ब्रांडिंग और देखभाल की जानकारी।"@hi,
+        "紐やループで商品に取り付ける小さな型抜き下げ札。価格・ブランド・取り扱い表示に。"@ja,
+        "Et lite stanset kort festet til et produkt med snor eller hempe — pris, merkevare og vaskeråd."@nb,
+        "Een klein gestanst kaartje aan een product bevestigd met koord of lus — prijs-, merk- en onderhoudsinformatie."@nl,
+        "Mała wykrawana karta mocowana do produktu sznurkiem lub pętelką — cena, branding i informacje o pielęgnacji."@pl,
+        "Pequeno cartão com corte especial preso ao produto por cordão ou laço — preço, marca e informações de cuidado."@pt,
+        "Ett litet stansat kort fäst vid en produkt med snöre eller ögla — pris-, varumärkes- och skötselinformation."@sv,
+        "以细绳或环扣系于商品上的小型模切吊牌——价格、品牌与护理信息。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§SWING-TAGS" ;
+    skos:prefLabel "Hangtags"@da,
+        "Anhänge-Etiketten"@de,
+        "Hang Tags"@en,
+        "Etiquetas colgantes"@es,
+        "हैंग टैग"@hi,
+        "下げ札"@ja,
+        "Hengelapper"@nb,
+        "Hanglabels"@nl,
+        "Zawieszki"@pl,
+        "Tags (etiquetas penduradas)"@pt,
+        "Hängetiketter"@sv,
+        "吊牌"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:perSurfaceSupportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-fibre>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFibre <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

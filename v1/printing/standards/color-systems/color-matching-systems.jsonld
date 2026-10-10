@@ -1,0 +1,93 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Color Matching Systems",
+    "es": "Sistemas de Igualación de Color",
+    "zh-Hans": "色彩匹配系统",
+    "nb": "Fargesammenligningssystemer",
+    "de": "Farbabstimmungssysteme",
+    "ja": "色見本システム",
+    "sv": "Färgmatchningssystem",
+    "da": "Farvematchsystemer",
+    "nl": "Kleurmatchsystemen",
+    "pl": "Systemy wzorcowania barw",
+    "pt": "Sistemas de correspondência de cor",
+    "hi": "रंग मिलान प्रणालियाँ"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system",
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/hks",
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/ral",
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/ncs",
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/dic",
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/toyo",
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/sms"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Proprietary or industry color libraries that assign each color a unique identifier, enabling exact specification and reproduction across vendors and print runs.",
+    "nb": "Proprietære eller bransjespesifikke fargebiblioteker som tildeler hver farge en unik identifikator, slik at eksakt spesifikasjon og reproduksjon på tvers av leverandører og opplag er mulig.",
+    "de": "Proprietäre oder branchenweite Farbbibliotheken, die jeder Farbe einen eindeutigen Identifikator zuweisen und so eine exakte Spezifikation und Reproduktion über Lieferanten und Druckläufe hinweg ermöglichen.",
+    "ja": "各色に固有の識別子を割り当てる業界またはメーカー独自のカラーライブラリ。ベンダー間および印刷ロット間で正確な指定と再現を可能にする。",
+    "es": "Bibliotecas de color propietarias o industriales que asignan a cada color un identificador único, permitiendo la especificación exacta y la reproducción entre proveedores y tiradas.",
+    "zh-Hans": "专属或行业色彩库，为每种颜色分配唯一标识符，实现跨供应商和印次的精确规范和再现。",
+    "sv": "Proprietära eller branschgemensamma färgbibliotek som ger varje kulör en unik identifierare, vilket möjliggör exakt specifikation och återgivning över leverantörer och upplagor.",
+    "da": "Proprietære eller branchefælles farvebiblioteker, der giver hver farve en unik identifikator og muliggør præcis specifikation og gengivelse på tværs af leverandører og oplag.",
+    "nl": "Eigen of branchebrede kleurbibliotheken die elke kleur een unieke identificatie geven, waardoor exacte specificatie en reproductie over leveranciers en oplagen heen mogelijk is.",
+    "pl": "Własnościowe lub branżowe biblioteki barw przypisujące każdej barwie unikatowy identyfikator, umożliwiające dokładną specyfikację i reprodukcję między dostawcami i nakładami.",
+    "pt": "Bibliotecas de cor proprietárias ou setoriais que atribuem a cada cor um identificador único, permitindo especificação e reprodução exatas entre fornecedores e tiragens.",
+    "hi": "स्वामित्व या उद्योग रंग पुस्तकालय जो हर रंग को एक अद्वितीय पहचानकर्ता देते हैं, जिससे विक्रेताओं और प्रिंट रन में सटीक विनिर्देश और पुनरुत्पादन संभव होता है।"
+  },
+  "scopeNote": {
+    "en": "Includes Pantone Matching System (PMS) — the dominant industry standard — and Idealliance G7/G7+ for grayscale and color-printing process calibration. Custom corporate color libraries derived from these systems are not separate entries.",
+    "nb": "Inkluderer Pantone Matching System (PMS) — den dominerende bransjestandarden — og Idealliance G7/G7+ for kalibrering av gråtoner og prosessfarger. Egendefinerte bedriftsfargebiblioteker basert på disse systemene er ikke separate oppføringer.",
+    "de": "Umfasst Pantone Matching System (PMS) — den dominierenden Industriestandard — und Idealliance G7/G7+ für die Kalibrierung von Graustufen- und Farbdruckverfahren. Daraus abgeleitete unternehmenseigene Farbbibliotheken sind keine eigenständigen Einträge.",
+    "ja": "業界の事実上の標準であるPantone Matching System（PMS）と、グレースケールおよびカラー印刷工程の校正用のIdealliance G7/G7+を含む。これらのシステムから派生したカスタム企業向けカラーライブラリは別個のエントリとはしない。",
+    "es": "Incluye Pantone Matching System (PMS) — el estándar dominante de la industria — e Idealliance G7/G7+ para escala de grises y calibración de procesos de impresión a color. Las bibliotecas corporativas personalizadas derivadas de Pantone se rastrean como casos de uso, no como sistemas formales.",
+    "zh-Hans": "包括Pantone Matching System（PMS）——行业主导标准——以及用于灰阶和彩色印刷工艺校准的Idealliance G7/G7+。基于Pantone派生的企业自定义色彩库按用例跟踪，而非作为正式系统。",
+    "pt": "Inclui o Pantone Matching System (PMS) — a norma dominante do setor — e o G7/G7+ da Idealliance para calibração de processo em escala de cinza e impressão em cores. Bibliotecas corporativas personalizadas derivadas destes sistemas não são entradas separadas.",
+    "hi": "Pantone Matching System (PMS) — प्रमुख उद्योग मानक — और ग्रेस्केल व रंग-मुद्रण प्रक्रिया अंशांकन के लिए Idealliance G7/G7+ शामिल। इन प्रणालियों से व्युत्पन्न कस्टम कॉर्पोरेट रंग पुस्तकालय अलग प्रविष्टियाँ नहीं हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-CSY-CMTC",
+  "altLabels": {
+    "en": [
+      "Colour Matching Systems"
+    ],
+    "pl": [
+      "systemy dopasowania kolorów",
+      "wzorniki kolorów"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

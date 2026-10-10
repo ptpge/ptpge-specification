@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/3d> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "3D printing"@en,
+        "Additive manufacturing"@en,
+        "3D प्रिंटिंग"@hi,
+        "एडिटिव मैन्युफ़ैक्चरिंग"@hi,
+        "3D-printing"@nb,
+        "druk 3D"@pl,
+        "wytwarzanie przyrostowe"@pl,
+        "Impressão 3D"@pt,
+        "Manufatura aditiva"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital> ;
+    skos:definition "Additive fremstillingsteknologier, der bygger tredimensionelle objekter fra en digital model ved at deponere materiale lag for lag — smeltedeponering (FDM), stereolitografi (SLA), selektiv lasersintring (SLS) med flere. Tilgrænsende til, men adskilt fra traditionelt 2D-tryk."@da,
+        "Additive Fertigungstechnologien, die dreidimensionale Objekte aus einem digitalen Modell schichtweise aus Material aufbauen — Schmelzschichtung (FDM), Stereolithografie (SLA), Selektives Lasersintern (SLS) und andere. Verwandt, aber unterschiedlich vom traditionellen 2D-Druck."@de,
+        "Additive manufacturing technologies that build three-dimensional objects from a digital model by depositing material layer by layer — fused deposition (FDM), stereolithography (SLA), selective laser sintering (SLS), and others. Adjacent to but distinct from traditional 2D printing."@en,
+        "Familia de tecnologías de fabricación aditiva que construyen objetos tridimensionales capa a capa — FDM (filamento), SLA (resina), SLS (polvo)."@es,
+        "एडिटिव मैन्युफ़ैक्चरिंग तकनीकें जो डिजिटल मॉडल से परत-दर-परत सामग्री जमाकर त्रि-आयामी वस्तुएँ बनाती हैं — फ़्यूज़्ड डिपोज़िशन (FDM), स्टीरियोलिथोग्राफ़ी (SLA), सेलेक्टिव लेज़र सिंटरिंग (SLS) और अन्य। पारंपरिक 2D मुद्रण के निकट, पर उससे भिन्न।"@hi,
+        "層ごとに材料を堆積させてデジタルモデルから三次元物体を構築する付加製造技術 — 熱溶解積層（FDM）、光造形（SLA）、選択的レーザー焼結（SLS）など。伝統的な2D印刷とは隣接するが別個。"@ja,
+        "Additive produksjons-teknologier som bygger tredimensjonale objekter fra en digital modell ved å deponere materiale lag for lag — sammensmeltende deponering (FDM), stereolithografi (SLA), selektiv laser-sintring (SLS) og andre. Tilstøtende, men forskjellig fra tradisjonell 2D-trykk."@nb,
+        "Additieve productietechnologieën die driedimensionale objecten opbouwen vanuit een digitaal model door materiaal laag voor laag af te zetten — smeltlaagtechnologie (FDM), stereolithografie (SLA), selectief lasersinteren (SLS) en andere. Grenzend aan maar onderscheiden van traditioneel 2D-drukken."@nl,
+        "Technologie wytwarzania przyrostowego budujące obiekty trójwymiarowe z modelu cyfrowego przez nakładanie materiału warstwa po warstwie — osadzanie topionego materiału (FDM), stereolitografia (SLA), selektywne spiekanie laserowe (SLS) i inne. Sąsiednie, lecz odrębne od tradycyjnego druku 2D."@pl,
+        "Tecnologias de manufatura aditiva que constroem objetos tridimensionais a partir de um modelo digital depositando material camada por camada — deposição fundida (FDM), estereolitografia (SLA), sinterização seletiva a laser (SLS) e outras. Adjacente, mas distinta, da impressão 2D tradicional."@pt,
+        "Additiva tillverkningsteknologier som bygger tredimensionella objekt från en digital modell genom att deponera material lager för lager — smältdeponering (FDM), stereolitografi (SLA), selektiv lasersintring (SLS) med flera. Angränsande till men skild från traditionellt 2D-tryck."@sv,
+        "通过逐层构建三维物体的增材制造技术家族 —— FDM（线材）、SLA（树脂）、SLS（粉末）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§3D" ;
+    skos:prefLabel "3D"@da,
+        "3D"@de,
+        "3D"@en,
+        "Impresión 3D"@es,
+        "3D"@hi,
+        "3D"@ja,
+        "3D"@nb,
+        "3D"@nl,
+        "3D"@pl,
+        "3D"@pt,
+        "3D"@sv,
+        "3D印刷"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,100 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Soft-touch Lamination",
+    "nb": "Soft-touch laminering",
+    "de": "Soft-Touch-Laminierung",
+    "ja": "ソフトタッチラミネート",
+    "es": "Laminado soft-touch",
+    "zh-Hans": "触感膜覆膜",
+    "nl": "Soft-touch-laminaat",
+    "sv": "Soft touch-laminering",
+    "da": "Soft-touch-laminering",
+    "pl": "Laminowanie soft-touch",
+    "pt": "Laminação soft-touch",
+    "hi": "सॉफ़्ट-टच लैमिनेशन"
+  },
+  "altLabels": {
+    "en": [
+      "Velvet Lamination",
+      "Soft touch lamination",
+      "Soft-touch laminated",
+      "Velvet lamination",
+      "Suede lamination",
+      "Velvet laminate"
+    ],
+    "nb": [
+      "Soft touch-folie",
+      "Fløyelslaminat",
+      "Myk-touch laminering",
+      "Fløyel-laminering"
+    ],
+    "pl": [
+      "folia soft-touch",
+      "folia aksamitna",
+      "laminat soft touch"
+    ],
+    "pt": [
+      "laminação aveludada",
+      "soft touch",
+      "laminação veludo",
+      "toque aveludado",
+      "laminação camurça"
+    ],
+    "hi": [
+      "वेलवेट लैमिनेशन",
+      "सॉफ़्ट टच",
+      "मखमली लैमिनेशन",
+      "स्वेड लैमिनेशन"
+    ]
+  },
+  "definition": {
+    "en": "Soft-touch plastic film laminated to the printed surface. Provides a velvety, peach-skin tactile sensation that is dramatically different from standard matte. The most premium-feeling surface finish; used widely on luxury packaging, high-end business cards, and book jackets.",
+    "nb": "Soft-touch plastikkfilm laminert til den trykte overflaten. Gir en velour-aktig, fersken-skinn taktil følelse som er dramatisk forskjellig fra standard matt. Den mest premium-følende overflate-finishen; brukt mye på luksusemballasje, high-end visittkort og bok-omslag.",
+    "de": "Soft-Touch-Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet eine samtige, pfirsichhaut-artige taktile Empfindung.",
+    "ja": "印刷面に貼り合わせるソフトタッチフィルム。標準のマットとは一線を画す、ビロードのようなピーチスキンの触感を与える。最もプレミアムな触感の表面仕上げで、高級パッケージ、ハイエンド名刺、ブックジャケットに広く使われる。",
+    "es": "Película plástica de tacto suave laminada sobre la superficie impresa. Proporciona una sensación táctil aterciopelada, tipo piel de melocotón, muy distinta del mate estándar. El acabado de tacto más premium; muy usado en packaging de lujo, tarjetas de visita de gama alta y sobrecubiertas.",
+    "zh-Hans": "复合在印刷表面的肤感（soft-touch）塑料薄膜。带来与普通哑膜截然不同的天鹅绒般蜜桃肤触感。触感最高级的表面处理；广泛用于奢华包装、高端名片与书籍护封。",
+    "sv": "Soft touch-plastfilm laminerad på tryckytan. Ger en sammetslen, persikoskalsliknande taktil känsla dramatiskt skild från standardmatt. Den mest premiumkännande ytbehandlingen; används brett på lyxförpackningar, exklusiva visitkort och bokomslag.",
+    "da": "Soft-touch-plastfilm lamineret på den trykte overflade. Giver en fløjlsagtig, ferskenhudsagtig taktil fornemmelse markant forskellig fra standard mat. Den mest eksklusive overfladefinish.",
+    "nl": "Soft-touch-kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een fluweelachtige, perzikhuidachtige tactiele sensatie, duidelijk anders dan standaard mat. De meest premium aanvoelende oppervlakteafwerking.",
+    "pl": "Folia soft-touch laminowana na zadrukowanej powierzchni. Daje aksamitne, przypominające skórkę brzoskwini odczucie dotykowe, wyraźnie inne niż standardowy mat. Najbardziej luksusowe w odbiorze wykończenie powierzchni; szeroko stosowane w opakowaniach luksusowych, wizytówkach z wyższej półki i obwolutach książek.",
+    "pt": "Filme plástico soft-touch laminado sobre a superfície impressa. Dá uma sensação tátil aveludada, de pele de pêssego, muito diferente do fosco padrão. O acabamento de superfície de toque mais premium; muito usado em embalagens de luxo, cartões de visita sofisticados e sobrecapas.",
+    "hi": "छपी सतह पर लैमिनेट की गई सॉफ़्ट-टच प्लास्टिक फ़िल्म। मखमली, आड़ू-छिलके जैसा स्पर्श जो मानक मैट से बिल्कुल अलग है। सबसे प्रीमियम अहसास वाली सतह फ़िनिश; लक्ज़री पैकेजिंग, हाई-एंड विज़िटिंग कार्ड और बुक जैकेट में व्यापक।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/lamination",
+  "properties": {
+    "selective": false,
+    "coverage": "full",
+    "appearance": "matte-velvety",
+    "filmType": "plastic-film"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§SOFT-TOUCH-LAMINATION",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LaminatingIntent",
+        "Laminating"
+      ],
+      "refs": [
+        "§4.9 · p.78",
+        "§5.6.23 · p.125"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 45"
+    }
+  ]
+}

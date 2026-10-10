@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-c> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "17 x 22 in"@en,
+        "17x22"@en,
+        "17×22"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/ansi-series> ;
+    skos:definition "17 × 22 tommer (431.8 × 558.8 mm). Dubbla arealet av ANSI B. Almindeligt til tekniske tegninger og ingeniørplot."@da,
+        "17 × 22 in (431,8 × 558,8 mm). Doppelte Fläche von ANSI B. Üblich für technische Zeichnungen und Konstruktionsplots."@de,
+        "17 × 22 in (431.8 × 558.8 mm). Twice the area of ANSI B. Common for technical drawings and engineering plots."@en,
+        "Tamaño ANSI C del estándar American National Standards Institute, 432 × 559 mm / 17 × 22 in."@es,
+        "17 × 22 in (431.8 × 558.8 mm). ANSI B का दोगुना क्षेत्रफल। तकनीकी चित्रों और इंजीनियरिंग प्लॉट में आम।"@hi,
+        "17×22インチ（431.8×558.8mm）。ANSI Bの2倍の面積。技術図面およびエンジニアリングプロットで一般的。"@ja,
+        "17 × 22 in (431,8 × 558,8 mm). Dobbelt areal av ANSI B. Vanlig for tekniske tegninger og ingeniørutskrifter."@nb,
+        "17 × 22 inch (431.8 × 558.8 mm). Dubbel het oppervlak van ANSI B. Gebruikelijk voor technische tekeningen en engineeringplots."@nl,
+        "17 × 22 cale (431,8 × 558,8 mm). Dwukrotna powierzchnia ANSI B. Typowy dla rysunków technicznych i wydruków inżynierskich."@pl,
+        "17 × 22 in (431.8 × 558.8 mm). O dobro da área do ANSI B. Comum em desenhos técnicos e plotagens de engenharia."@pt,
+        "17 × 22 tum (431.8 × 558.8 mm). Dubbla arean av ANSI B. Vanligt för tekniska ritningar och ingenjörsplottar."@sv,
+        "ANSI C尺寸，American National Standards Institute标准，432 × 559 mm / 17 × 22 in。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ANSI-C" ;
+    skos:prefLabel "ANSI C (17 x 22 tum)"@da,
+        "ANSI C (17 x 22 in)"@de,
+        "ANSI C (17 x 22 in)"@en,
+        "ANSI C (432 × 559 mm / 17 × 22 in)"@es,
+        "ANSI C (17 x 22 in)"@hi,
+        "ANSI C (17 x 22 in)"@ja,
+        "ANSI C (17 x 22 in)"@nb,
+        "ANSI C (17 x 22 tum)"@nl,
+        "ANSI C (17 x 22 in)"@pl,
+        "ANSI C (17 x 22 in)"@pt,
+        "ANSI C (17 x 22 tum)"@sv,
+        "ANSI C (432 × 559 mm / 17 × 22 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 374.0 ;
+            ptpge:aspectRatio 1.2941 ;
+            ptpge:height 22.0 ;
+            ptpge:standard "ANSI/ASME Y14.1" ;
+            ptpge:unit "in" ;
+            ptpge:width 17.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

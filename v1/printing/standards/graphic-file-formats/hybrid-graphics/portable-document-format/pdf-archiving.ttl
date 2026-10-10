@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-archiving> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".pdf"@en,
+        "PDF"@en,
+        "print-ready PDF"@en,
+        ".pdf"@hi,
+        "PDF"@hi,
+        "प्रिंट-रेडी PDF"@hi,
+        ".pdf"@pl,
+        "PDF"@pl,
+        "PDF gotowy do druku"@pl,
+        ".pdf"@pt,
+        "PDF"@pt,
+        "PDF pronto para impressão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format> ;
+    skos:definition "PDF/A — ISO 19005-specifikation for langtidsbevaring af elektroniske dokumenter; kræver at alt indhold er selvstændigt (indlejrede skrifter, ingen eksterne referencer) og forbyder funktioner, der afhænger af eksterne ressourcer."@da,
+        "PDF/A — ISO-Spezifikation 19005 zur Langzeitarchivierung elektronischer Dokumente, verlangt, dass alle Inhalte in sich geschlossen sind (eingebettete Schriften, keine externen Verweise) und verbietet Funktionen, die von externen Ressourcen abhängen."@de,
+        "PDF/A — ISO 19005 specification for long-term preservation of electronic documents, requiring all content to be self-contained (embedded fonts, no external references) and forbidding features that depend on external resources."@en,
+        "Sub-conjunto ISO de PDF para archivado a largo plazo (ISO 19005). Requiere que todo el contenido necesario para la reproducción esté incrustado en el archivo, sin dependencias externas."@es,
+        "PDF/A — इलेक्ट्रॉनिक दस्तावेज़ों के दीर्घकालिक संरक्षण का ISO 19005 विनिर्देश, जिसमें सारी सामग्री स्व-निहित होनी चाहिए (एम्बेडेड फ़ॉन्ट, कोई बाहरी संदर्भ नहीं) और बाहरी संसाधनों पर निर्भर सुविधाएँ वर्जित।"@hi,
+        "PDF/A — 電子文書の長期保存に関するISO 19005仕様。全てのコンテンツが自己完結型である（フォントが埋め込まれ、外部参照がない）ことを要求し、外部リソースに依存する機能を禁止する。"@ja,
+        "PDF/A — ISO 19005-spesifikasjonen for langtidsoppbevaring av elektroniske dokumenter, som krever at alt innhold er selvstendig (innebygde fonter, ingen eksterne referanser) og forbyr funksjoner som avhenger av eksterne ressurser."@nb,
+        "PDF/A — ISO 19005-specificatie voor langetermijnbewaring van elektronische documenten; vereist dat alle inhoud zelfstandig is (ingesloten lettertypen, geen externe verwijzingen) en verbiedt functies die van externe bronnen afhangen."@nl,
+        "PDF/A — specyfikacja ISO 19005 długoterminowego przechowywania dokumentów elektronicznych, wymagająca, aby cała treść była samodzielna (osadzone fonty, brak odwołań zewnętrznych) i zabraniająca funkcji zależnych od zasobów zewnętrznych."@pl,
+        "PDF/A — especificação ISO 19005 para preservação de longo prazo de documentos eletrônicos, exigindo que todo o conteúdo seja autocontido (fontes incorporadas, sem referências externas) e proibindo recursos que dependam de recursos externos."@pt,
+        "PDF/A — ISO 19005-specifikation för långtidsbevarande av elektroniska dokument; kräver att allt innehåll är självständigt (inbäddade typsnitt, inga externa referenser) och förbjuder funktioner som beror på externa resurser."@sv,
+        "用于长期归档的PDF ISO子集（ISO 19005）。要求再现所需的所有内容都嵌入文件中，无外部依赖。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PDF-ARCHIVING" ;
+    skos:prefLabel "PDF-arkivering (PDF/A)"@da,
+        "PDF Archiving (PDF/A)"@de,
+        "PDF Archiving (PDF/A)"@en,
+        "PDF/A (Archiving)"@es,
+        "PDF संग्रहण (PDF/A)"@hi,
+        "PDF Archiving (PDF/A)"@ja,
+        "PDF Archiving (PDF/A)"@nb,
+        "PDF-archivering (PDF/A)"@nl,
+        "PDF archiwalny (PDF/A)"@pl,
+        "PDF de arquivamento (PDF/A)"@pt,
+        "PDF-arkivering (PDF/A)"@sv,
+        "PDF/A (归档)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

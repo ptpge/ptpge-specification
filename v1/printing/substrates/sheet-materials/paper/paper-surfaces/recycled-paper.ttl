@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/recycled-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Genbrugspapir (bestrøget eller ubestrøget)"@da,
+        "Recyclingpapier (gestrichen oder ungestrichen)"@de,
+        "Eco Paper"@en,
+        "Recycled Paper (Coated or uncoated)"@en,
+        "इको पेपर"@hi,
+        "पुनर्चक्रित काग़ज़"@hi,
+        "रीसाइकल पेपर"@hi,
+        "Gjenvunnet papir"@nb,
+        "Miljøpapir"@nb,
+        "Resirkulert papir (bestrøket eller ubestrøket)"@nb,
+        "Gerecycled papier (gestreken of ongestreken)"@nl,
+        "papier ekologiczny"@pl,
+        "papier makulaturowy (powlekany lub niepowlekany)"@pl,
+        "papier z recyklingu"@pl,
+        "papel ecológico"@pt,
+        "papel reciclato"@pt,
+        "reciclado"@pt,
+        "Returpapper (bestruket eller obestruket)"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces> ;
+    skos:definition "Papir lavet af genanvendte fibre fra forbrugere eller industri — bestrøget eller ubestrøget. Visuelt karakteristisk (let gråt skær, af og til indeslutninger) og valgt til miljømæssig positionering."@da,
+        "Papier aus recycelten Fasern (Post-Consumer oder Post-Industrial) — gestrichen oder ungestrichen. Optisch unterscheidbar (leichter Grauton, gelegentliche Einschlüsse) und aus ökologischer Positionierung gewählt."@de,
+        "Paper made from post-consumer or post-industrial recycled fibers — coated or uncoated. Visually distinctive (slight gray tint, occasional inclusions) and chosen for environmental positioning."@en,
+        "Papel fabricado con fibras recicladas (post-consumer o pre-consumer), habitualmente con certificación ambiental. Tono más natural y textura ligeramente más irregular."@es,
+        "उपभोग-पश्चात या औद्योगिक-पश्चात पुनर्चक्रित रेशों से बना काग़ज़ — कोटेड या अनकोटेड। देखने में विशिष्ट (हल्की ग्रे आभा, कभी-कभी कण) और पर्यावरण-स्थिति के लिए चुना गया।"@hi,
+        "ポストコンシューマーまたはポストインダストリアルのリサイクル繊維から作られた紙 — 塗工または非塗工。視覚的に独特（わずかなグレー味、時折の異物混入）で、環境配慮の観点から選ばれる。"@ja,
+        "Papir laget av post-konsument eller post-industrielle resirkulerte fibre — belagt eller ubelagt. Visuelt karakteristisk (lett grå tone, av og til synlige fiberbiter) og valgt av miljøhensyn."@nb,
+        "Papier van post-consumer of post-industrieel gerecyclede vezels — gestreken of ongestreken. Visueel herkenbaar (lichte grijszweem, af en toe insluitsels) en gekozen voor milieubewuste positionering."@nl,
+        "Papier z włókien pochodzących z recyklingu pokonsumenckiego lub poprzemysłowego — powlekany lub niepowlekany. Wizualnie charakterystyczny (lekki szary odcień, sporadyczne wtrącenia), wybierany dla pozycjonowania ekologicznego."@pl,
+        "Papel feito de fibras recicladas pós-consumo ou pós-industriais — revestido ou não. Visualmente característico (leve tom cinza, inclusões ocasionais) e escolhido por posicionamento ambiental."@pt,
+        "Papper tillverkat av återvunna fibrer från konsument- eller industriled — bestruket eller obestruket. Visuellt särpräglat (svag gråton, enstaka inslag) och väljs för miljöprofilering."@sv,
+        "由回收纤维（消费后或消费前）制成的纸，通常带有环境认证。色调更自然，纹理略不规则。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§RECYCLED-PAPER" ;
+    skos:prefLabel "Genbrugspapir"@da,
+        "Recyclingpapier"@de,
+        "Recycled Paper"@en,
+        "Papel Reciclado"@es,
+        "रीसाइकल्ड काग़ज़"@hi,
+        "再生紙（コートまたは非コート）"@ja,
+        "Resirkulert papir"@nb,
+        "Gerecycled papier"@nl,
+        "Papier makulaturowy"@pl,
+        "Papel reciclado"@pt,
+        "Returpapper"@sv,
+        "再生纸"@zh-Hans ;
+    ptpge:deprecatedOn "2026-09-23"^^xsd:date ;
+    ptpge:deprecationReason "Recycled is a fibre origin, not a surface: a recycled paper has a surface of its own (matte, silk …), so it moved to the new facet paper-fibre (recycled-fibre). Product envelopes now carry supportsSubstrateFibre instead."@en,
+        "Resirkulert er fiberopphav, ikke overflate: et resirkulert papir har sin egen overflate (matt, silk …), så verdien er flyttet til den nye fasetten paper-fibre (recycled-fibre). Produktmalene bærer nå supportsSubstrateFibre i stedet."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-09-23" .
+

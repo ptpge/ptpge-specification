@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/europe/nordic> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/geography/europe> ;
+    skos:definition "Subregional gruppering, der omfatter Norge (NO), Sverige (SE), Danmark (DK), Finland (FI) og Island (IS). Behandles ofte som ét marked i tryk- og leveringssammenhæng."@da,
+        "Nordeuropäische Untergruppierung, die Norwegen (NO), Schweden (SE), Dänemark (DK), Finnland (FI) und Island (IS) umfasst. Übliches Marktsegment in nordeuropäischen Druckereibetrieben aufgrund sprachlicher Nähe, harmonisierter Standards und gemeinsamer Versand-/Logistikkonventionen."@de,
+        "Nordic sub-region grouping covering Norway (NO), Sweden (SE), Denmark (DK), Finland (FI), and Iceland (IS). Common market segment in Northern European printing operations due to language proximity, harmonised standards, and shared shipping/logistics conventions."@en,
+        "Subagrupación nórdica que cubre Noruega (NO), Suecia (SE), Dinamarca (DK), Finlandia (FI) e Islandia (IS). Segmento de mercado común en las operaciones de impresión del norte de Europa debido a la proximidad lingüística, normas armonizadas y convenciones compartidas de envío y logística."@es,
+        "नॉर्डिक उप-क्षेत्रीय समूह: नॉर्वे (NO), स्वीडन (SE), डेनमार्क (DK), फ़िनलैंड (FI) और आइसलैंड (IS)। भाषाई निकटता, सामंजस्यपूर्ण मानकों और साझा शिपिंग/लॉजिस्टिक्स परंपराओं के कारण उत्तरी यूरोप के मुद्रण परिचालनों में एक सामान्य बाज़ार खंड।"@hi,
+        "ノルウェー（NO）、スウェーデン（SE）、デンマーク（DK）、フィンランド（FI）、アイスランド（IS）を含む北欧サブ地域グループ。言語の近接性、調和された標準、共通の配送・物流慣行により、北欧の印刷業界で一般的な市場セグメント。"@ja,
+        "Norden-undergruppe som dekker Norge (NO), Sverige (SE), Danmark (DK), Finland (FI) og Island (IS). Vanlig markedssegment i nord-europeisk trykkvirksomhet på grunn av språk-nærhet, harmoniserte standarder og felles frakt-/logistikk-konvensjoner."@nb,
+        "Subregionale groepering die Noorwegen (NO), Zweden (SE), Denemarken (DK), Finland (FI) en IJsland (IS) omvat. Wordt in druk- en leveringscontext vaak als één markt behandeld."@nl,
+        "Grupowanie subregionalne obejmujące Norwegię (NO), Szwecję (SE), Danię (DK), Finlandię (FI) i Islandię (IS). Powszechny segment rynku w poligrafii Europy Północnej ze względu na bliskość językową, zharmonizowane standardy i wspólne konwencje wysyłki/logistyki."@pl,
+        "Agrupamento sub-regional nórdico: Noruega (NO), Suécia (SE), Dinamarca (DK), Finlândia (FI) e Islândia (IS). Segmento de mercado comum nas operações gráficas do norte da Europa, pela proximidade linguística, normas harmonizadas e convenções compartilhadas de envio/logística."@pt,
+        "Subregional gruppering som omfattar Norge (NO), Sverige (SE), Danmark (DK), Finland (FI) och Island (IS). Vanligt marknadssegment i nordeuropeisk tryckproduktion på grund av språklig närhet, harmoniserade standarder och gemensamma frakt- och logistikkonventioner."@sv,
+        "北欧次区域分组，涵盖挪威（NO）、瑞典（SE）、丹麦（DK）、芬兰（FI）和冰岛（IS）。由于语言相近、标准协调一致以及共同的运输物流惯例，是北欧印刷运营中的常见市场细分。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/geography/europe/nordic/denmark>,
+        <https://ptpge.org/v1/ordering/geography/europe/nordic/finland>,
+        <https://ptpge.org/v1/ordering/geography/europe/nordic/iceland>,
+        <https://ptpge.org/v1/ordering/geography/europe/nordic/norway>,
+        <https://ptpge.org/v1/ordering/geography/europe/nordic/sweden> ;
+    skos:notation "O:GY-EUR-NORD" ;
+    skos:prefLabel "Norden"@da,
+        "Nordeuropa"@de,
+        "Nordic"@en,
+        "Países nórdicos"@es,
+        "नॉर्डिक देश"@hi,
+        "北欧"@ja,
+        "Norden"@nb,
+        "Noordse landen"@nl,
+        "Kraje nordyckie"@pl,
+        "Países Nórdicos"@pt,
+        "Norden"@sv,
+        "北欧"@zh-Hans ;
+    ptpge:group "geography" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

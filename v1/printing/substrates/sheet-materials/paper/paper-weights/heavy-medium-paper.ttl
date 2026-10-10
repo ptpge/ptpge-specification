@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Heavyweight Text"@en,
+        "भारी मध्यम काग़ज़"@hi,
+        "हेवीवेट टेक्स्ट"@hi,
+        "Tykt papir"@nb,
+        "papier tekstowy ciężki"@pl,
+        "papel pesado leve"@pt,
+        "texto pesado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:definition "Papir i området 180–239 g/m² — tungere end standard tekstpapir, brugt til brevpapir af høj kvalitet, postkort og eksklusive brochureomslag."@da,
+        "Papier im Bereich 180–239 g/m² — schwerer als Standard-Textpapier, eingesetzt für hochwertige Briefbögen, Postkarten und Premium-Broschürenumschläge."@de,
+        "Paper in the 180–239 gsm range — heavier than standard text paper, used for high-quality letterheads, postcards, and premium brochure covers."@en,
+        "Papel de gramaje medio a pesado, 170–200 gsm — para portadas ligeras, postales y publicidad."@es,
+        "180–239 GSM रेंज का काग़ज़ — मानक टेक्स्ट पेपर से भारी, उच्च गुणवत्ता के लेटरहेड, पोस्टकार्ड और प्रीमियम ब्रोशर कवर में।"@hi,
+        "180〜239gsmの坪量範囲の紙 — 標準的な本文用紙より重く、高品質の便箋、ハガキ、プレミアムブローシュアの表紙に使用される。"@ja,
+        "Papir i området 180–239 gsm — tyngre enn standard tekstpapir, brukt til høykvalitets-brevhoder, postkort og premium-brosjyrforsider."@nb,
+        "Papier in het bereik 180–239 g/m² — zwaarder dan standaard tekstpapier, gebruikt voor hoogwaardig briefpapier, kaarten en exclusieve brochureomslagen."@nl,
+        "Papier w zakresie 180–239 g/m² — cięższy niż standardowy papier tekstowy, używany do wysokiej jakości papierów firmowych, pocztówek i okładek broszur premium."@pl,
+        "Papel na faixa de 180–239 g/m² — mais pesado que o papel de texto padrão, usado em papel timbrado de alta qualidade, postais e capas de folheto premium."@pt,
+        "Papper i intervallet 180–239 g/m² — tyngre än vanligt textpapper, används för kvalitetsbrevpapper, vykort och exklusiva broschyromslag."@sv,
+        "中等到重克重纸，170–200克 —— 用于轻量封面、明信片和广告。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§HEAVY-MEDIUM-PAPER" ;
+    skos:prefLabel "Tungt mellempapir (180–239 g/m²)"@da,
+        "Mittelschweres Papier (180–239 g/m²)"@de,
+        "Heavy Medium Paper (180–239 gsm)"@en,
+        "Papel Medio-Pesado (180–239 gsm)"@es,
+        "हेवी मीडियम काग़ज़ (180–239 GSM)"@hi,
+        "中重量紙（180〜239 gsm）"@ja,
+        "Tungt medium-papir (180–239 g/m²)"@nb,
+        "Zwaar-medium papier (180–239 g/m²)"@nl,
+        "Papier średnio ciężki (180–239 g/m²)"@pl,
+        "Papel médio pesado (180–239 g/m²)"@pt,
+        "Tungt mellanpapper (180–239 g/m²)"@sv,
+        "中-重纸 (180–239克)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:hasProperty [ ptpge:unit "gsm" ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

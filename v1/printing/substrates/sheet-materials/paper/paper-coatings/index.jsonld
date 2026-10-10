@@ -1,0 +1,81 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings",
+  "type": "skos:Concept",
+  "version": "2026-08-22",
+  "status": "proposed",
+  "notation": "P:SB-SHT-PAPR-COAT",
+  "level": "sub-category",
+  "label": {
+    "en": "Paper Coatings",
+    "nb": "Bestrykning",
+    "de": "Papierstrich",
+    "es": "Estucado del papel",
+    "ja": "塗工",
+    "zh-Hans": "涂布",
+    "sv": "Bestrykning",
+    "da": "Bestrygning",
+    "nl": "Strijklagen",
+    "pl": "Powlekanie papieru",
+    "pt": "Revestimentos de papel",
+    "hi": "काग़ज़ कोटिंग"
+  },
+  "definition": {
+    "en": "Whether the base paper carries a mineral coating (coated) or shows its natural fibre surface (uncoated) — the trade's primary paper distinction. Optional refinement in configurations: unbound means unspecified (SD-0069).",
+    "nb": "Om råpapiret bærer mineralsk bestrykning (bestrøket) eller viser sin naturlige fiberoverflate (ubestrøket) — fagets primære papirskille. Valgfri presisjon i konfigurasjoner: ubundet betyr uspesifisert (SD-0069).",
+    "de": "Ob das Rohpapier einen mineralischen Strich trägt (gestrichen) oder seine natürliche Faseroberfläche zeigt (ungestrichen) — die primäre Papierunterscheidung des Fachs. Optionale Präzisierung in Konfigurationen: ungebunden bedeutet unspezifiziert (SD-0069).",
+    "es": "Si el papel base lleva estucado mineral (estucado) o muestra su superficie natural de fibra (sin estucar): la distinción primaria del sector. Refinamiento opcional en configuraciones: sin vincular significa sin especificar (SD-0069).",
+    "ja": "原紙が鉱物性塗工を持つか（塗工紙）、自然な繊維表面を見せるか（非塗工紙）— 印刷業界の第一の紙の区別。構成では任意の精密化：未束縛は未指定を意味する（SD-0069）。",
+    "zh-Hans": "原纸是否带有矿物涂层（涂布）或呈现自然纤维表面（非涂布）——行业对纸张的首要区分。配置中为可选精化：未绑定即未指定（SD-0069）。",
+    "sv": "Om baspappret bär mineralbestrykning (bestruket) eller visar sin naturliga fiberyta (obestruket) — branschens primära pappersskiljelinje. Valfri precisering i konfigurationer: obundet betyder ospecificerat (SD-0069).",
+    "da": "Om basispapiret bærer mineralsk bestrygning (bestrøget) eller viser sin naturlige fiberoverflade (ubestrøget) — fagets primære papirskel. Valgfri præcisering i konfigurationer: ubundet betyder uspecificeret (SD-0069).",
+    "nl": "Of het basispapier een minerale strijklaag draagt (gestreken) of zijn natuurlijke vezeloppervlak toont (ongestreken) — hét primaire papieronderscheid van het vak. Optionele verfijning in configuraties: ongebonden betekent niet gespecificeerd (SD-0069).",
+    "pl": "Czy papier bazowy ma powłokę mineralną (powlekany), czy pokazuje naturalną powierzchnię włókien (niepowlekany) — podstawowe rozróżnienie papieru w branży. Opcjonalne uściślenie w konfiguracjach: brak wartości oznacza nieokreślone (SD-0069).",
+    "pt": "Se o papel base tem revestimento mineral (couché/revestido) ou mostra sua superfície natural de fibra (não revestido/offset) — a distinção primária de papel do ofício. Refinamento opcional nas configurações: não vinculado significa não especificado (SD-0069).",
+    "hi": "आधार काग़ज़ पर खनिज कोटिंग है (कोटेड) या उसकी प्राकृतिक रेशा सतह दिखती है (अनकोटेड) — बिरादरी का प्राथमिक काग़ज़ भेद। कॉन्फ़िगरेशन में वैकल्पिक परिष्करण: अनबाउंड का अर्थ अनिर्दिष्ट (SD-0069)।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "created": "2026-08-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media",
+        "MediaIntent"
+      ],
+      "refs": [
+        "§6.57 · p.229 · §4.11 · p.79"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 35"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "powłoka papieru"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/creation/design-artwork> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "artwork"@en,
+        "design"@en,
+        "graphic design"@en,
+        "आर्टवर्क"@hi,
+        "ग्राफ़िक डिज़ाइन"@hi,
+        "डिज़ाइन"@hi,
+        "design"@nb,
+        "grafisk design"@nb,
+        "grafika"@pl,
+        "projekt graficzny"@pl,
+        "projektowanie"@pl,
+        "arte"@pt,
+        "design"@pt,
+        "design gráfico"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/creation> ;
+    skos:definition "Visuelt design og original grafik — den konceptuelle og æstetiske fase, der dækker branding, illustration, bestilling af fotografi og det samlede arbejde med visuel identitet forud for layout."@da,
+        "Visuelle Gestaltung und originäre Reinzeichnung — die konzeptionelle und ästhetische Phase, die Branding, Illustration, Foto-Briefing und allgemeine visuelle Identitätsarbeit umfasst, bevor das Layout beginnt."@de,
+        "Visual design and original artwork creation — the conceptual and aesthetic phase covering branding, illustration, photography commissioning, and overall visual identity work that precedes layout."@en,
+        "Trabajo creativo visual previo a la producción — concepto, branding, ilustración, dirección artística. Determina la apariencia del producto impreso final."@es,
+        "दृश्य डिज़ाइन और मूल आर्टवर्क निर्माण — वैचारिक और सौंदर्यात्मक चरण जो ब्रांडिंग, चित्रण, फ़ोटोग्राफ़ी कमीशनिंग और लेआउट से पहले के समग्र दृश्य-पहचान कार्य को ढकता है।"@hi,
+        "視覚デザインとオリジナルアートワークの制作 — レイアウトに先立つ概念的および美的な段階で、ブランディング、イラストレーション、写真の発注、全体的なビジュアルアイデンティティ業務を扱う。"@ja,
+        "Visuell design og opprinnelig artwork-skaping — den konseptuelle og estetiske fasen som dekker merkevarebygging, illustrasjon, fotokommandering og generell visuell identitetsarbeid som går forut for layout."@nb,
+        "Visueel ontwerp en origineel artwork — de conceptuele en esthetische fase met branding, illustratie, fotografieopdrachten en het totale werk aan visuele identiteit dat aan de opmaak voorafgaat."@nl,
+        "Projektowanie wizualne i tworzenie oryginalnej grafiki — faza koncepcyjna i estetyczna obejmująca branding, ilustrację, zlecanie fotografii i całościową pracę nad identyfikacją wizualną poprzedzającą skład."@pl,
+        "Design visual e criação de arte original — a fase conceitual e estética que cobre branding, ilustração, encomenda de fotografia e o trabalho geral de identidade visual que precede o layout."@pt,
+        "Visuell design och skapande av originalmaterial — den konceptuella och estetiska fasen som täcker varumärkesarbete, illustration, fotobeställning och övergripande visuellt identitetsarbete före layout."@sv,
+        "生产前的创意视觉工作——概念、品牌、插图、艺术指导。决定最终印刷品的外观。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§DESIGN-ARTWORK" ;
+    skos:prefLabel "Design & grafik"@da,
+        "Design & Artwork"@de,
+        "Design & Artwork"@en,
+        "Diseño y Arte"@es,
+        "डिज़ाइन और आर्टवर्क"@hi,
+        "デザインとアートワーク"@ja,
+        "Design & artwork"@nb,
+        "Ontwerp & artwork"@nl,
+        "Projekt i grafika"@pl,
+        "Design e arte"@pt,
+        "Design & original"@sv,
+        "设计与美术"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.4.11 · p.98" ;
+            ptpge:mappingRow "crosswalk row 6" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "LayoutElementProduction" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

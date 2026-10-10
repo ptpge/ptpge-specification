@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/gandy-digital> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers> ;
+    skos:definition "Gandy Digital — amerikansk producent af UV-flatbedprintere, fokuseret på storformatskilte- og displayproduktion med amerikansk fremstilling."@da,
+        "Gandy Digital — US-amerikanischer Hersteller von UV-Flachbettdruckern, fokussiert auf die Großformat-Schilder- und Displayproduktion mit Made-in-America-Verarbeitung."@de,
+        "Gandy Digital — American manufacturer of UV flatbed printers, focused on wide-format sign and display production with American-made build."@en,
+        "Gandy Digital — fabricante norteamericano de impresoras UV flatbed y híbridas industriales para producción de signage y display."@es,
+        "Gandy Digital — UV फ़्लैटबेड प्रिंटरों का अमेरिकी निर्माता, अमेरिकी निर्माण के साथ वाइड-फॉर्मेट साइन और डिस्प्ले उत्पादन पर केंद्रित।"@hi,
+        "Gandy Digital — 米国製の作りで、大判サインおよびディスプレイ生産に焦点を当てたUVフラットベッドプリンターの米国のメーカー。"@ja,
+        "Gandy Digital — amerikansk produsent av UV flatbed-skrivere, fokusert på storformat skilt- og display-produksjon med amerikansk produksjon."@nb,
+        "Gandy Digital — Amerikaanse fabrikant van UV-flatbedprinters, gericht op grootformaat sign- en displayproductie met Amerikaanse bouw."@nl,
+        "Gandy Digital — amerykański producent płaskich drukarek UV, skupiony na wielkoformatowej produkcji reklamowej i ekspozycyjnej z konstrukcją wykonaną w USA."@pl,
+        "Gandy Digital — fabricante americano de impressoras UV flatbed, voltado à produção de sinalização e display de grande formato com fabricação americana."@pt,
+        "Gandy Digital — amerikansk tillverkare av UV-flatbäddsskrivare, fokuserad på storformatsskylt- och displayproduktion med amerikansk tillverkning."@sv,
+        "Gandy Digital —— 北美工业UV平板和混合打印机制造商，用于标识和展示生产。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-WIDE-GAND" ;
+    skos:prefLabel "Gandy Digital"@da,
+        "Gandy Digital"@de,
+        "Gandy Digital"@en,
+        "Gandy Digital"@es,
+        "Gandy Digital"@hi,
+        "Gandy Digital"@ja,
+        "Gandy Digital"@nb,
+        "Gandy Digital"@nl,
+        "Gandy Digital"@pl,
+        "Gandy Digital"@pt,
+        "Gandy Digital"@sv,
+        "Gandy Digital"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

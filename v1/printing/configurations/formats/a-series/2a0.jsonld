@@ -1,0 +1,87 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/2a0",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "2A0 (1189 x 2378 mm)",
+    "nb": "2A0 (1189 x 2378 mm)",
+    "es": "2A0 (1189 × 2378 mm)",
+    "zh-Hans": "2A0 (1189 × 2378 mm)",
+    "de": "2A0 (1189 x 2378 mm)",
+    "ja": "2A0 (1189 x 2378 mm)",
+    "sv": "2A0 (1189 x 2378 mm)",
+    "da": "2A0 (1189 x 2378 mm)",
+    "nl": "2A0 (1189 x 2378 mm)",
+    "pl": "2A0 (1189 x 2378 mm)",
+    "pt": "2A0 (1189 x 2378 mm)",
+    "hi": "2A0 (1189 x 2378 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§2A0",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "1189 × 2378 mm (46.81 × 93.62 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Non-standard double-A0 size, used for oversized posters and banners.",
+    "nb": "210 × 297 mm (8,27 × 11,69 in). Standard kontor- og forbrukerpapirstørrelse i nesten alle land utenom USA og Canada. Del av ISO 216 A-serien, der hver størrelse har halve arealet av den neste: A4 er halvparten av A3, dobbelt så stort som A5.",
+    "de": "210 × 297 mm (8,27 × 11,69 in). Das Standardpapierformat für Büro und Privatgebrauch in nahezu allen Ländern außer den Vereinigten Staaten und Kanada. Teil der ISO-216-A-Reihe, in der jedes Format halb so groß wie das nächstgrößere ist: A4 ist die Hälfte von A3 und die doppelte Fläche von A5.",
+    "ja": "210×297mm（8.27×11.69インチ）。米国およびカナダを除くほぼ全ての国における既定のオフィスおよびコンシューマー用紙サイズ。ISO 216 Aシリーズの一部で、各サイズが次のサイズの半分の面積となる：A4はA3の半分、A5の2倍の面積。",
+    "es": "Formato A4 de la serie A de ISO 216, dimensiones 210 × 297 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A.",
+    "zh-Hans": "ISO 216 A系列A4开本，尺寸210 × 297 mm。比例1:√2 —— 对折后得到下一个A尺寸。",
+    "sv": "1189 × 2378 mm (46.81 × 93.62 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Icke-standardiserat dubbel-A0-format, används för överdimensionerade affischer och banderoller.",
+    "da": "1189 × 2378 mm (46.81 × 93.62 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Ikke-standardiseret dobbelt-A0-format, bruges til overdimensionerede plakater og bannere.",
+    "nl": "1189 × 2378 mm (46.81 × 93.62 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Niet-gestandaardiseerd dubbel-A0-formaat, gebruikt voor extra grote posters en banners.",
+    "pl": "1189 × 2378 mm (46,81 × 93,62 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Niestandardowy podwójny A0, używany do ponadwymiarowych plakatów i banerów.",
+    "pt": "1189 × 2378 mm (46.81 × 93.62 in). Faz parte da série A da ISO 216, com proporção 1:√2. Tamanho não padrão duplo A0, usado em pôsteres e banners grandes.",
+    "hi": "1189 × 2378 mm (46.81 × 93.62 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। ग़ैर-मानक डबल-A0 आकार, बड़े पोस्टरों और बैनरों में।"
+  },
+  "properties": {
+    "width": 1189,
+    "height": 2378,
+    "unit": "mm",
+    "aspectRatio": 2.0,
+    "standard": "ISO 216",
+    "area": 2827442
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "exactMatch": [
+    "http://www.wikidata.org/entity/Q83059"
+  ],
+  "altLabels": {
+    "en": [
+      "1189 x 2378 mm",
+      "1189x2378",
+      "1189×2378",
+      "118.9 x 237.8 cm",
+      "DIN 2A0"
+    ],
+    "nb": [
+      "2A0-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/metal",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Metal",
+    "es": "Metal",
+    "zh-Hans": "金属",
+    "nb": "Metall",
+    "de": "Metall",
+    "ja": "金属",
+    "sv": "Metall",
+    "da": "Metal",
+    "nl": "Metaal",
+    "pl": "Metal",
+    "pt": "Metal",
+    "hi": "धातु"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium",
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/stainless-steel",
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal/galvanized-steel"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Metal panels used as printing substrates — typically printed via UV inkjet, screen printing, or direct-to-metal sublimation.",
+    "nb": "Metallpaneler brukt som trykksubstrater — vanligvis trykt via UV-inkjet, silketrykk eller direkte sublimering på metall.",
+    "de": "Metallplatten als Druckbedruckstoffe — typischerweise mit UV-Tintenstrahl, Siebdruck oder Direkt-Sublimationsdruck auf Metall bedruckt.",
+    "ja": "印刷基材として使用される金属パネル — 通常UVインクジェット、シルクスクリーン印刷、または金属への直接昇華転写で印刷される。",
+    "es": "Paneles metálicos utilizados como sustratos de impresión — habitualmente impresos por inyección de tinta UV, serigrafía o sublimación directa sobre metal.",
+    "zh-Hans": "用作印刷承印物的金属板——通常通过UV喷墨、丝印或直接向金属热升华印刷。",
+    "sv": "Metallskivor som trycksubstrat — trycks typiskt via UV-inkjet, screentryck eller direkt-till-metall-sublimering.",
+    "da": "Metalpaneler brugt som tryksubstrater — typisk trykt via UV-inkjet, serigrafi eller direkte metalsublimering.",
+    "nl": "Metalen platen als druksubstraat — doorgaans bedrukt via UV-inkjet, zeefdruk of directe metaalsublimatie.",
+    "pl": "Płyty metalowe używane jako podłoża drukowe — zwykle zadrukowywane atramentem UV, sitodrukiem lub sublimacją bezpośrednio na metalu.",
+    "pt": "Painéis metálicos usados como substrato de impressão — normalmente impressos por jato de tinta UV, serigrafia ou sublimação direta no metal.",
+    "hi": "छपाई सब्सट्रेट के रूप में प्रयुक्त धातु पैनल — आमतौर पर UV इंकजेट, स्क्रीन प्रिंटिंग या सीधे धातु पर सब्लिमेशन से।"
+  },
+  "scopeNote": {
+    "en": "Includes aluminium (lightweight, weather-resistant, common for outdoor signage), galvanized steel (zinc-coated for corrosion protection), and stainless steel (premium, durable, used for architectural and industrial applications).",
+    "nb": "Inkluderer aluminium (lett, værbestandig, vanlig for utendørs skilting), galvanisert stål (sinkbelagt for korrosjonsbeskyttelse) og rustfritt stål (premium, holdbart, brukt til arkitektur- og industrianvendelser).",
+    "de": "Umfasst Aluminium (leicht, witterungsbeständig, häufig für Außenbeschilderung), verzinkten Stahl (zinkbeschichtet zum Korrosionsschutz) und Edelstahl (hochwertig, langlebig, für Architektur- und Industrieanwendungen).",
+    "ja": "アルミニウム（軽量、耐候性、屋外サインで一般的）、亜鉛めっき鋼（防錆のための亜鉛コーティング）、ステンレス鋼（高級、耐久性、建築および工業用途）を含む。",
+    "es": "Incluye aluminio (ligero, resistente a la intemperie, común para señalética exterior), acero galvanizado (con recubrimiento de zinc para protección contra la corrosión) y acero inoxidable (prima, duradero, utilizado para señalética arquitectónica y premios). El acabado de superficie afecta a la adhesión de la tinta y al brillo del resultado.",
+    "zh-Hans": "包括铝（轻质、耐候，常用于户外标识）、镀锌钢（锌涂层防腐蚀）和不锈钢（高端、耐用，用于建筑标识和奖项）。表面处理影响油墨附着力和成品光泽。",
+    "pt": "Inclui alumínio (leve, resistente ao tempo, comum em sinalização externa), aço galvanizado (revestido de zinco contra corrosão) e aço inoxidável (premium, durável, para aplicações arquitetônicas e industriais).",
+    "hi": "एल्युमिनियम (हल्का, मौसम-रोधी, बाहरी साइनेज में आम), गैल्वनाइज़्ड स्टील (जंग से बचाव के लिए ज़िंक-कोटेड) और स्टेनलेस स्टील (प्रीमियम, टिकाऊ, वास्तु और औद्योगिक अनुप्रयोग) शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:SB-BRD-META",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

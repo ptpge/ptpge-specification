@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Arch E2 (26 x 38 in)",
+    "es": "Arch E2 (660 × 965 mm / 26 × 38 in)",
+    "zh-Hans": "Arch E2 (660 × 965 mm / 26 × 38 in)",
+    "nb": "Arch E2 (26 x 38 in)",
+    "de": "Arch E2 (26 x 38 in)",
+    "ja": "Arch E2 (26 x 38 in)",
+    "sv": "Arch E2 (26 x 38 tum)",
+    "da": "Arch E2 (26 x 38 tum)",
+    "nl": "Arch E2 (26 x 38 tum)",
+    "pl": "Arch E2 (26 x 38 in)",
+    "pt": "Arch E2 (26 x 38 in)",
+    "hi": "Arch E2 (26 x 38 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ARCH-E2",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/arch-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "26 × 38 in (660.4 × 965.2 mm). Less common architectural drawing size.",
+    "nb": "26 × 38 in (660,4 × 965,2 mm). Mindre vanlig arkitekturtegningsstørrelse.",
+    "de": "26 × 38 in (660,4 × 965,2 mm). Weniger verbreitetes Format für Architekturzeichnungen.",
+    "ja": "26×38インチ（660.4×965.2mm）。使用頻度が低い建築図面サイズ。",
+    "es": "Tamaño arquitectónico Arch E2 para planos arquitectónicos y de ingeniería norteamericanos, 660 × 965 mm / 26 × 38 in.",
+    "zh-Hans": "建筑尺寸Arch E2，用于北美建筑和工程图纸，660 × 965 mm / 26 × 38 in。",
+    "sv": "26 × 38 tum (660.4 × 965.2 mm). Mindre vanligt arkitektritningsformat.",
+    "da": "26 × 38 tommer (660.4 × 965.2 mm). Mindre almindeligt arkitekttegningsformat.",
+    "nl": "26 × 38 inch (660.4 × 965.2 mm). Minder gangbaar formaat voor architectuurtekeningen.",
+    "pl": "26 × 38 cali (660,4 × 965,2 mm). Rzadziej używany format rysunków architektonicznych.",
+    "pt": "26 × 38 in (660.4 × 965.2 mm). Tamanho de desenho arquitetônico menos comum.",
+    "hi": "26 × 38 in (660.4 × 965.2 mm). कम प्रचलित वास्तु चित्र आकार।"
+  },
+  "properties": {
+    "width": 26,
+    "height": 38,
+    "unit": "in",
+    "aspectRatio": 1.4615,
+    "standard": "ANSI/ASME Y14.1",
+    "area": 988
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "26 x 38 in",
+      "26x38",
+      "26×38"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

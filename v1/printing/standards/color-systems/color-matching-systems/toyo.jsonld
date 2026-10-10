@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/toyo",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Toyo",
+    "sv": "Toyo",
+    "da": "Toyo",
+    "nl": "Toyo",
+    "pl": "Toyo",
+    "pt": "Toyo",
+    "hi": "Toyo"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§TOYO",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "Toyo Ink colour matching system, used primarily in the Japanese market.",
+    "nb": "Toyo Ink fargematchingsystem, brukt primært i det japanske markedet.",
+    "de": "Toyo-Ink-Farbsystem, primär im japanischen Markt verwendet.",
+    "es": "Sistema de igualación de color de Toyo Ink, usado principalmente en el mercado japonés.",
+    "ja": "主に日本市場で使われる東洋インキのカラーマッチングシステム。",
+    "zh-Hans": "东洋油墨（Toyo Ink）配色系统，主要用于日本市场。",
+    "sv": "Toyo Inks färgmatchningssystem, främst använt på den japanska marknaden.",
+    "da": "Toyo Inks farvematchsystem, primært brugt på det japanske marked.",
+    "nl": "Kleurmatchsysteem van Toyo Ink, voornamelijk gebruikt op de Japanse markt.",
+    "pl": "System wzorcowania barw Toyo Ink, używany głównie na rynku japońskim.",
+    "pt": "Sistema de correspondência de cor da Toyo Ink, usado principalmente no mercado japonês.",
+    "hi": "Toyo Ink की रंग मिलान प्रणाली, मुख्यतः जापानी बाज़ार में प्रयुक्त।"
+  },
+  "altLabels": {
+    "en": [
+      "Toyo Color",
+      "Toyo Ink"
+    ],
+    "pl": [
+      "Toyo Color",
+      "Toyo Ink"
+    ],
+    "pt": [
+      "Toyo Color",
+      "Toyo Ink"
+    ],
+    "hi": [
+      "Toyo Color",
+      "Toyo Ink"
+    ]
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "properties": {
+    "systemRole": "ink-library"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

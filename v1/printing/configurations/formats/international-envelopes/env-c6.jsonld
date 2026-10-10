@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c6",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Envelope C6 (114 × 162 mm)",
+    "es": "C6 (114 × 162 mm)",
+    "zh-Hans": "C6 (114 × 162 mm)",
+    "nb": "Envelope C6 (114 × 162 mm)",
+    "de": "Envelope C6 (114 × 162 mm)",
+    "ja": "Envelope C6 (114 × 162 mm)",
+    "nl": "Envelop C6 (114 × 162 mm)",
+    "sv": "Kuvert C6 (114 × 162 mm)",
+    "da": "Kuvert C6 (114 × 162 mm)",
+    "pl": "Koperta C6 (114 × 162 mm)",
+    "pt": "Envelope C6 (114 × 162 mm)",
+    "hi": "लिफ़ाफ़ा C6 (114 × 162 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ENV-C6",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "114 × 162 mm. ISO 269 C6 envelope — holds an A4 sheet folded twice or an A6 postcard flat. Common for greeting cards and invitations.",
+    "nb": "114 × 162 mm. ISO 269 C6-konvolutt — rommer et A4-ark brettet to ganger eller et A6-postkort uten brett. Vanlig for gratulasjonskort og invitasjoner.",
+    "de": "114 × 162 mm. ISO-269-C6-Briefumschlag — fasst einen zweimal gefalteten A4-Bogen oder eine ungefaltete A6-Postkarte. Üblich für Grußkarten und Einladungen.",
+    "ja": "114×162mm。ISO 269 C6封筒 — A4を2回折って、またはA6ハガキを折らずに収納する。グリーティングカードおよび招待状で一般的。",
+    "es": "Sobre C6 de la serie C de ISO 269, dimensiones 114 × 162 mm. Diseñado para contener la hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C6信封，尺寸114 × 162 mm。设计用于装相同编号的A纸。",
+    "sv": "114 × 162 mm. C6-kuvert enligt ISO 269 — rymmer ett A4-ark vikt två gånger eller ett A6-vykort plant. Vanligt för gratulationskort och inbjudningar.",
+    "da": "114 × 162 mm. C6-kuvert efter ISO 269 — rummer et A4-ark foldet to gange eller et A6-postkort fladt. Almindeligt til lykønskningskort og invitationer.",
+    "nl": "114 × 162 mm. C6-envelop volgens ISO 269 — biedt plaats aan een tweemaal gevouwen A4-vel, of een vlakke A6-kaart. Gebruikelijk voor wenskaarten en uitnodigingen.",
+    "pl": "114 × 162 mm. Koperta ISO 269 C6 — mieści arkusz A4 złożony dwukrotnie lub pocztówkę A6 na płasko. Typowa dla kartek okolicznościowych i zaproszeń.",
+    "pt": "114 × 162 mm. Envelope C6 da ISO 269 — comporta uma folha A4 dobrada duas vezes ou um postal A6 aberto. Comum em cartões e convites.",
+    "hi": "114 × 162 mm. ISO 269 C6 लिफ़ाफ़ा — A4 शीट दो बार मुड़ी या A6 पोस्टकार्ड सपाट समाता है। ग्रीटिंग कार्ड और निमंत्रणों में आम।"
+  },
+  "properties": {
+    "width": 114,
+    "height": 162,
+    "unit": "mm",
+    "aspectRatio": 1.4211,
+    "standard": "ISO 269",
+    "area": 18468
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "114 x 162 mm",
+      "114x162",
+      "114×162",
+      "11.4 x 16.2 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

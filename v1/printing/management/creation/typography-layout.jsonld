@@ -1,0 +1,88 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/creation/typography-layout",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Typography & Layout",
+    "es": "Tipografía y Maquetación",
+    "zh-Hans": "字体与版式",
+    "nb": "Typografi & layout",
+    "de": "Typografie & Layout",
+    "ja": "タイポグラフィとレイアウト",
+    "sv": "Typografi & layout",
+    "da": "Typografi & layout",
+    "nl": "Typografie & opmaak",
+    "pl": "Typografia i skład",
+    "pt": "Tipografia e layout",
+    "hi": "टाइपोग्राफ़ी और लेआउट"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§TYPOGRAPHY-LAYOUT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/creation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Composition of text and arrangement of page elements — typeface selection, spacing, hierarchy, grids, and the page-level design decisions that turn content into a readable, visually coherent product.",
+    "nb": "Komposisjon av tekst og arrangement av sideelementer — valg av skrifttyper, avstand, hierarki, rutenett og sidenivå-designvalg som gjør innhold til et leselig og visuelt sammenhengende produkt.",
+    "de": "Textsatz und Anordnung der Seitenelemente — Schriftauswahl, Abstände, Hierarchie, Raster und die Seitenebenen-Designentscheidungen, die Inhalte in ein lesbares, visuell stimmiges Produkt verwandeln.",
+    "ja": "テキストの組版とページ要素の配置 — 書体選択、字間、階層、グリッド、コンテンツを読みやすく視覚的に一貫した製品に変えるページレベルのデザイン判断。",
+    "es": "Composición de texto y diseño de página — tipografía, tamaños, interlineado, distribución en página, jerarquía visual.",
+    "zh-Hans": "文本组版和页面设计——字体、大小、行距、页面分布、视觉层次。",
+    "sv": "Sättning av text och arrangemang av sidelement — typsnittsval, avstånd, hierarki, gridsystem och de sidnivåbeslut som gör innehåll till en läsbar, visuellt sammanhållen produkt.",
+    "da": "Komposition af tekst og arrangement af sideelementer — skriftvalg, spatiering, hierarki, grids og de sideniveau-designvalg, der gør indhold til en læsbar, visuelt sammenhængende side.",
+    "nl": "Compositie van tekst en schikking van pagina-elementen — letterkeuze, spatiëring, hiërarchie, grids en de paginabrede ontwerpbeslissingen die inhoud omzetten in een leesbare, visueel samenhangende pagina.",
+    "pl": "Kompozycja tekstu i rozmieszczenie elementów strony — dobór krojów pisma, odstępy, hierarchia, siatki oraz decyzje projektowe na poziomie strony, które zamieniają treść w czytelny, wizualnie spójny produkt.",
+    "pt": "Composição de texto e arranjo dos elementos de página — escolha de tipos, espaçamento, hierarquia, grades e as decisões de design no nível da página que transformam conteúdo num produto legível e visualmente coerente.",
+    "hi": "पाठ का संयोजन और पेज तत्वों की व्यवस्था — टाइपफ़ेस चयन, स्पेसिंग, पदानुक्रम, ग्रिड और वे पेज-स्तरीय डिज़ाइन निर्णय जो सामग्री को पठनीय, दृश्य रूप से सुसंगत उत्पाद बनाते हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "typesetting",
+      "layout",
+      "typography"
+    ],
+    "nb": [
+      "typografi",
+      "ombrekking"
+    ],
+    "pl": [
+      "skład",
+      "łamanie"
+    ],
+    "pt": [
+      "composição",
+      "layout",
+      "tipografia",
+      "diagramação"
+    ],
+    "hi": [
+      "टाइपसेटिंग",
+      "लेआउट",
+      "टाइपोग्राफ़ी"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutElementProduction"
+      ],
+      "refs": [
+        "§5.4.11 · p.98"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 6"
+    }
+  ]
+}

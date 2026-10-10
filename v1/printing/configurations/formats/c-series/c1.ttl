@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/c-series/c1> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "64.8 x 91.7 cm"@en,
+        "648 x 917 mm"@en,
+        "648x917"@en,
+        "648×917"@en,
+        "DIN C1"@en,
+        "C1-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/c-series> ;
+    skos:definition "648 × 917 mm (25.51 × 36.1 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A1-ark fladt. Specialkuvert til store dokumenter."@da,
+        "648 × 917 mm (25,51 × 36,1 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen A1-Bogen ungefaltet. Spezial-Briefumschlag für große Dokumente."@de,
+        "648 × 917 mm (25.51 × 36.1 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A1 sheet flat. Specialty large-document envelope."@en,
+        "Sobre C1 de la serie C de ISO 269, dimensiones 648 × 917 mm. Diseñado para contener una hoja A del mismo número."@es,
+        "648 × 917 mm (25.51 × 36.1 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A1 शीट सपाट समाती है। बड़े दस्तावेज़ों के लिए विशेष लिफ़ाफ़ा।"@hi,
+        "648×917mm（25.51×36.1インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A1シートを折らずに収納。特殊な大型書類用封筒。"@ja,
+        "648 × 917 mm (25,51 × 36,1 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A1-ark uten brett. Spesialisert konvolutt for store dokumenter."@nb,
+        "648 × 917 mm (25.51 × 36.1 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een A1-ark vlak. Speciale envelop voor grote documenten."@nl,
+        "648 × 917 mm (25,51 × 36,1 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A1 na płasko. Specjalna koperta na duże dokumenty."@pl,
+        "648 × 917 mm (25.51 × 36.1 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A1 aberta. Envelope especial para documentos grandes."@pt,
+        "648 × 917 mm (25.51 × 36.1 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A1-ark plant. Specialkuvert för stora dokument."@sv,
+        "ISO 269 C系列C1信封，尺寸648 × 917 mm。设计用于装相同编号的A纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§C1" ;
+    skos:prefLabel "C1 (648 x 917 mm)"@da,
+        "C1 (648 x 917 mm)"@de,
+        "C1 (648 x 917 mm)"@en,
+        "C1 (648 × 917 mm)"@es,
+        "C1 (648 x 917 mm)"@hi,
+        "C1 (648 x 917 mm)"@ja,
+        "C1 (648 x 917 mm)"@nb,
+        "C1 (648 x 917 mm)"@nl,
+        "C1 (648 x 917 mm)"@pl,
+        "C1 (648 x 917 mm)"@pt,
+        "C1 (648 x 917 mm)"@sv,
+        "C1 (648 × 917 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 594216.0 ;
+            ptpge:aspectRatio 1.4151 ;
+            ptpge:height 917.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 648.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

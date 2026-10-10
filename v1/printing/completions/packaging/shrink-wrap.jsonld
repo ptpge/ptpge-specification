@@ -1,0 +1,97 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/shrink-wrap",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Shrink Wrap",
+    "es": "Film Retráctil",
+    "zh-Hans": "收缩膜",
+    "nb": "Krympefilm",
+    "de": "Schrumpffolie",
+    "ja": "シュリンク包装",
+    "sv": "Krympfilm",
+    "da": "Krympefilm",
+    "nl": "Krimpfolie",
+    "pl": "Folia termokurczliwa",
+    "pt": "Filme retrátil",
+    "hi": "श्रिंक रैप"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§SHRINK-WRAP",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Heat-shrinkable plastic film wrapped around a product or stack and shrunk tight with heat — secures contents and provides a tamper-evident seal. Common for bundled magazines, books, and palletized shipments.",
+    "nb": "Varmesvinnbar plastfilm pakket rundt et produkt eller stabel og krympet stramt med varme — sikrer innholdet og gir en synlig forsegling. Vanlig for buntede magasiner, bøker og palleterte forsendelser.",
+    "de": "Wärmeschrumpfende Kunststofffolie, die um ein Produkt oder einen Stapel gelegt und mit Hitze straffgezogen wird — sichert den Inhalt und bietet einen manipulationssicheren Verschluss. Häufig bei gebündelten Magazinen, Büchern und palettierten Sendungen.",
+    "ja": "製品または束に巻き、熱で収縮させて密着させる熱収縮プラスチックフィルム — 内容物を固定し、改竄防止シールを提供する。束ねた雑誌、書籍、パレット出荷で一般的。",
+    "es": "Película plástica que se contrae con calor para ajustarse al producto — habitual para agrupar revistas, libros y paquetes de papel.",
+    "zh-Hans": "用热量收缩以贴合产品的塑料薄膜 —— 常用于杂志、书籍和纸张包装的分组。",
+    "sv": "Värmekrympbar plastfilm som viras runt en produkt eller bunt och krymps åt med värme — säkrar innehållet och ger en manipulationssynlig försegling. Vanligt för buntade tidskrifter, böcker och palleterade leveranser.",
+    "da": "Varmekrympelig plastfilm viklet omkring et produkt eller en stak og krympet stramt med varme — sikrer indholdet og giver en forseglingsindikator. Almindeligt for bundtede magasiner, bøger og palleterede forsendelser.",
+    "nl": "Hittekrimpende kunststoffolie om een product of stapel gewikkeld en strak gekrompen met warmte — zet de inhoud vast en biedt een verzegelingsindicatie. Gebruikelijk voor gebundelde magazines, boeken en palletzendingen.",
+    "pl": "Termokurczliwa folia plastikowa owijana wokół produktu lub stosu i obkurczana ciepłem — zabezpiecza zawartość i stanowi plombę. Powszechna dla pakietów czasopism, książek i przesyłek paletowych.",
+    "pt": "Filme plástico termorretrátil envolvido no produto ou maço e contraído com calor — prende o conteúdo e dá um lacre com evidência de violação. Comum em revistas e livros agrupados e em remessas paletizadas.",
+    "hi": "उत्पाद या ढेर पर लपेटी और गर्मी से कसी गई श्रिंक प्लास्टिक फ़िल्म — सामग्री को सुरक्षित रखती है और छेड़छाड़-प्रमाण सील देती है। बंडल पत्रिकाओं, किताबों और पैलेट खेपों में आम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Shrink wrap",
+      "Shrink-wrapped",
+      "Plastic wrap"
+    ],
+    "nb": [
+      "Krympeplast",
+      "Krympepakket"
+    ],
+    "pl": [
+      "folia obkurczana",
+      "pakowanie w folię termokurczliwą",
+      "owijka foliowa"
+    ],
+    "pt": [
+      "shrink",
+      "termorretrátil",
+      "embalado em filme",
+      "plastificado"
+    ],
+    "hi": [
+      "श्रिंक रैप",
+      "श्रिंक पैकिंग",
+      "प्लास्टिक रैप"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

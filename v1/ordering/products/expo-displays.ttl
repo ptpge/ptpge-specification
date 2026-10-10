@@ -1,0 +1,132 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/expo-displays> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "disk"@da,
+        "messedisplay"@da,
+        "messestand"@da,
+        "messevæg"@da,
+        "pop-up væg"@da,
+        "Faltdisplays"@de,
+        "Messewände"@de,
+        "Promotiontheken"@de,
+        "brochure stand"@en,
+        "counter"@en,
+        "display"@en,
+        "exhibition display"@en,
+        "exhibition stand"@en,
+        "exhibition wall"@en,
+        "pop-up display"@en,
+        "pop-up wall"@en,
+        "display de exposición"@es,
+        "expositor"@es,
+        "expositor de folletos"@es,
+        "mostrador de feria"@es,
+        "pared pop-up"@es,
+        "photocall"@es,
+        "stand de feria"@es,
+        "एग्ज़िबिशन डिस्प्ले"@hi,
+        "पॉप-अप डिस्प्ले"@hi,
+        "पॉप-अप वॉल"@hi,
+        "प्रदर्शनी स्टैंड"@hi,
+        "प्रोमो काउंटर"@hi,
+        "ब्रोशर स्टैंड"@hi,
+        "カタログスタンド"@ja,
+        "ディスプレイスタンド"@ja,
+        "バックパネル"@ja,
+        "受付カウンター"@ja,
+        "展示ブース"@ja,
+        "展示会什器"@ja,
+        "disk"@nb,
+        "messestand"@nb,
+        "utstillingsvegg"@nb,
+        "balie"@nl,
+        "beursdisplay"@nl,
+        "beursstand"@nl,
+        "beurswand"@nl,
+        "displaysysteem"@nl,
+        "pop-up wand"@nl,
+        "lada reklamowa"@pl,
+        "stoisko wystawiennicze"@pl,
+        "stojak na ulotki"@pl,
+        "ścianka pop-up"@pl,
+        "ścianka reklamowa"@pl,
+        "balcão promocional"@pt,
+        "display de exposição"@pt,
+        "display pop-up"@pt,
+        "estande de feira"@pt,
+        "painel de exposição"@pt,
+        "parede pop-up"@pt,
+        "porta-folhetos"@pt,
+        "disk"@sv,
+        "mässdisplay"@sv,
+        "mässmonter"@sv,
+        "mässvägg"@sv,
+        "popup-vägg"@sv,
+        "宣传册架"@zh-Hans,
+        "展会展具"@zh-Hans,
+        "展会背景板"@zh-Hans,
+        "展台"@zh-Hans,
+        "展架"@zh-Hans,
+        "展示柜台"@zh-Hans,
+        "拉网展架"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En trykt storformatgrafik monteret i et genbrugeligt displaysystem til messer og arrangementer — pop-up-vægge, stande og diske."@da,
+        "Eine bedruckte Großformat-Grafik in einem wiederverwendbaren Display-System für Messen."@de,
+        "A printed wide-format graphic mounted in a reusable display system for exhibitions and events — pop-up walls, stands and counters."@en,
+        "Un gráfico impreso de gran formato montado en un sistema de exposición reutilizable para ferias y eventos — paredes pop-up, stands y mostradores."@es,
+        "प्रदर्शनियों और आयोजनों के लिए पुन: प्रयोज्य डिस्प्ले सिस्टम में लगा वाइड-फॉर्मेट मुद्रित ग्राफ़िक — पॉप-अप दीवारें, स्टैंड और काउंटर।"@hi,
+        "展示会・イベント向けに再利用可能なディスプレイシステムへ装着する大判印刷グラフィック。ポップアップウォール、スタンド、カウンターなど。"@ja,
+        "En trykt storformat-grafikk montert i et gjenbrukbart display-system for messer og arrangementer — pop-up-vegger, stands og disker."@nb,
+        "Een gedrukte grootformaatgraphic gemonteerd in een herbruikbaar displaysysteem voor beurzen en evenementen — pop-upwanden, stands en balies."@nl,
+        "Drukowana grafika wielkoformatowa montowana w wielokrotnego użytku systemie ekspozycyjnym na targi i wydarzenia — ścianki pop-up, stoiska i lady."@pl,
+        "Gráfico impresso em grande formato montado em um sistema de exposição reutilizável para feiras e eventos — paredes pop-up, estandes e balcões."@pt,
+        "En tryckt storformatsgrafik monterad i ett återanvändbart displaysystem för mässor och evenemang — pop-up-väggar, ställ och diskar."@sv,
+        "安装在可重复使用展示系统上的大幅面印刷图像——弹出式背景墙、展架和展台，用于展会和活动。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§EXPO-DISPLAYS" ;
+    skos:prefLabel "Messedisplays"@da,
+        "Messestände & Theken"@de,
+        "Expo Displays"@en,
+        "Stands y mostradores de feria"@es,
+        "एक्सपो डिस्प्ले"@hi,
+        "展示スタンド・カウンター"@ja,
+        "Expo-displayer"@nb,
+        "Beursdisplays"@nl,
+        "Systemy wystawiennicze"@pl,
+        "Displays para feiras"@pt,
+        "Mässdisplayer"@sv,
+        "展会展架与柜台"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-thickness>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/textile>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/vinyl> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation> ;
+    ptpge:version "2026-09-28" .
+

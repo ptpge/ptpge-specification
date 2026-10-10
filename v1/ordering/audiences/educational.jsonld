@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/audiences/educational",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:AU§EDUCATIONAL",
+  "elementType": "context",
+  "label": {
+    "en": "Educational",
+    "nb": "Pedagogisk",
+    "de": "Pädagogisch",
+    "ja": "教育",
+    "es": "Educación",
+    "zh-Hans": "教育",
+    "sv": "Utbildning",
+    "da": "Uddannelse",
+    "nl": "Onderwijs",
+    "pl": "Edukacja",
+    "pt": "Educacional",
+    "hi": "शैक्षिक"
+  },
+  "definition": {
+    "en": "Products targeted at educational institutions and learners — schools, universities, training organisations, students, teachers. Includes course materials, textbooks, learning resources, and educational events promotion.",
+    "nb": "Produkter rettet mot utdanningsinstitusjoner og lærende — skoler, universiteter, opplæringsorganisasjoner, studenter, lærere. Inkluderer kursmateriell, lærebøker, læringsressurser og promotering av utdanningshendelser.",
+    "de": "Produkte für Bildungseinrichtungen und Lernende — Schulen, Universitäten, Schulungsorganisationen, Studenten, Lehrer.",
+    "ja": "教育機関と学習者 — 学校、大学、研修機関、学生、教員 — に向けた製品。コース教材、教科書、学習リソース、教育イベントの告知物を含む。",
+    "es": "Productos dirigidos a instituciones educativas y estudiantes — escuelas, universidades, organizaciones de formación, alumnos, docentes. Incluye materiales de curso, libros de texto, recursos de aprendizaje y promoción de eventos educativos.",
+    "zh-Hans": "面向教育机构与学习者的产品 — 学校、大学、培训机构、学生、教师。包括课程材料、教科书、学习资源与教育活动宣传品。",
+    "sv": "Produkter riktade till utbildningsinstitutioner och lärande — skolor, universitet, utbildningsorganisationer, studenter, lärare. Omfattar kursmaterial, läroböcker, läranderesurser och marknadsföring av utbildningsevenemang.",
+    "da": "Produkter rettet mod uddannelsesinstitutioner og lærende — skoler, universiteter, kursusudbydere, studerende og undervisere. Omfatter kursusmateriale, lærebøger, læringsressourcer og promovering af uddannelsesarrangementer.",
+    "nl": "Producten gericht op onderwijsinstellingen en lerenden — scholen, universiteiten, opleiders, studenten en docenten. Omvat cursusmateriaal, leerboeken, leermiddelen en promotie van onderwijsevenementen.",
+    "pl": "Produkty skierowane do instytucji edukacyjnych i osób uczących się — szkół, uczelni, organizacji szkoleniowych, uczniów, nauczycieli. Obejmuje materiały kursowe, podręczniki, pomoce dydaktyczne i promocję wydarzeń edukacyjnych.",
+    "pt": "Produtos voltados a instituições de ensino e estudantes — escolas, universidades, organizações de treinamento, alunos, professores. Inclui materiais de curso, livros didáticos, recursos de aprendizagem e divulgação de eventos educacionais.",
+    "hi": "शैक्षणिक संस्थानों और शिक्षार्थियों के लिए उत्पाद — स्कूल, विश्वविद्यालय, प्रशिक्षण संस्थाएँ, छात्र, शिक्षक। पाठ्य सामग्री, पाठ्यपुस्तकें, अधिगम संसाधन और शैक्षिक आयोजनों का प्रचार शामिल।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "audiences",
+  "broader": "https://ptpge.org/v1/ordering/audiences",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/EducationalAudience"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/none",
+  "type": "skos:Concept",
+  "version": "2026-10-07",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "None (no surface finish)",
+    "nb": "Ingen (uten overflatefinish)",
+    "de": "Keine (kein Oberflächenfinish)",
+    "ja": "なし（表面加工なし）",
+    "es": "Ninguno (sin acabado superficial)",
+    "zh-Hans": "无（无表面处理）",
+    "sv": "Ingen (utan ytbehandling)",
+    "da": "Ingen (uden overfladefinish)",
+    "nl": "Geen (zonder oppervlakteafwerking)",
+    "pl": "Brak (bez wykończenia powierzchni)",
+    "pt": "Nenhum (sem acabamento de superfície)",
+    "hi": "कोई नहीं (बिना सतह फ़िनिश)"
+  },
+  "altLabels": {
+    "en": [
+      "Unlaminated",
+      "Unvarnished",
+      "No lamination",
+      "No varnish",
+      "Untreated surface"
+    ],
+    "nb": [
+      "Ulaminert",
+      "Ulakkert",
+      "Uten laminering",
+      "Uten lakk"
+    ],
+    "de": [
+      "Unlaminiert",
+      "Unlackiert",
+      "Ohne Laminierung",
+      "Ohne Lack"
+    ],
+    "nl": [
+      "Ongelamineerd",
+      "Ongelakt",
+      "Zonder laminaat"
+    ],
+    "sv": [
+      "Olaminerad",
+      "Olackad",
+      "Utan laminering"
+    ],
+    "da": [
+      "Ulamineret",
+      "Ulakeret",
+      "Uden laminering"
+    ],
+    "es": [
+      "Sin laminar",
+      "Sin barniz",
+      "Sin laminado"
+    ],
+    "ja": [
+      "ラミネートなし",
+      "ニスなし"
+    ],
+    "zh-Hans": [
+      "不覆膜",
+      "不上光"
+    ],
+    "pl": [
+      "bez laminowania",
+      "bez lakieru",
+      "niefoliowane"
+    ],
+    "pt": [
+      "sem laminação",
+      "sem verniz",
+      "sem plastificação",
+      "superfície sem tratamento"
+    ],
+    "hi": [
+      "बिना लैमिनेशन",
+      "बिना वार्निश",
+      "अनलैमिनेटेड",
+      "बिना कोटिंग"
+    ]
+  },
+  "definition": {
+    "en": "No surface finish applied to the face: neither lamination nor varnish. An explicit statement — the printed surface stays as the substrate and ink leave it — distinct from leaving the axis unspecified, which lets the vendor propose a finish. Stands alone: it tolerates no other surface-finish value on the same face.",
+    "nb": "Ingen overflatefinish på flaten: verken laminering eller lakk. Et eksplisitt utsagn — trykkflaten forblir slik substrat og farge etterlater den — forskjellig fra å la aksen stå uspesifisert, som lar leverandøren foreslå en finish. Står alene: tåler ingen annen overflatefinish-verdi på samme flate.",
+    "de": "Kein Oberflächenfinish auf der Seite: weder Laminierung noch Lack. Eine ausdrückliche Aussage — die bedruckte Fläche bleibt, wie Bedruckstoff und Farbe sie hinterlassen — im Unterschied zur offen gelassenen Achse, bei der der Anbieter ein Finish vorschlagen darf. Steht allein: duldet keinen anderen Finish-Wert auf derselben Seite.",
+    "ja": "面に表面加工を施さない：ラミネートもニスもなし。軸を未指定のままにして供給者に提案を委ねるのとは異なる、明示的な指定。単独値：同じ面に他の表面加工値を許さない。",
+    "es": "Sin acabado superficial en la cara: ni laminado ni barniz. Una declaración explícita — la superficie impresa queda como la dejan sustrato y tinta — distinta de dejar el eje sin especificar, que permite al proveedor proponer un acabado. Va sola: no tolera otro valor de acabado en la misma cara.",
+    "zh-Hans": "该面不作任何表面处理：既不覆膜也不上光。这是明确的声明——印刷面保持承印材料与油墨留下的原样——不同于将该轴留空、由供应商提议处理。独立值：同一面上不容许其他表面处理值。",
+    "sv": "Ingen ytbehandling på sidan: varken laminering eller lack. Ett uttryckligt påstående — tryckytan förblir som substrat och färg lämnar den — skilt från att lämna axeln ospecificerad, vilket låter leverantören föreslå en ytbehandling. Står ensam: tål inget annat ytbehandlingsvärde på samma sida.",
+    "da": "Ingen overfladefinish på fladen: hverken laminering eller lak. Et udtrykkeligt udsagn — trykfladen forbliver, som substrat og farve efterlader den — forskelligt fra at lade aksen stå uspecificeret, hvilket lader leverandøren foreslå en finish. Står alene: tåler ingen anden finish-værdi på samme flade.",
+    "nl": "Geen oppervlakteafwerking op het vlak: geen laminaat en geen lak. Een expliciete uitspraak — het bedrukte vlak blijft zoals substraat en inkt het achterlaten — anders dan de as open laten, waarbij de leverancier een afwerking mag voorstellen. Staat alleen: duldt geen andere afwerkingswaarde op hetzelfde vlak.",
+    "pl": "Brak wykończenia powierzchni na tej stronie: ani laminowania, ani lakieru. Wyraźne oświadczenie — zadrukowana powierzchnia pozostaje taka, jaką zostawiają podłoże i farba — w odróżnieniu od pozostawienia osi nieokreślonej, co pozwala dostawcy zaproponować wykończenie. Wartość samodzielna: nie toleruje innej wartości wykończenia na tej samej stronie.",
+    "pt": "Nenhum acabamento de superfície aplicado à face: nem laminação nem verniz. Uma declaração explícita — a superfície impressa fica como substrato e tinta a deixam — distinta de deixar o eixo sem especificar, o que permite ao fornecedor propor um acabamento. Vai sozinho: não tolera outro valor de acabamento na mesma face.",
+    "hi": "सतह पर कोई सतह फ़िनिश नहीं: न लैमिनेशन, न वार्निश। एक स्पष्ट कथन — छपी सतह वैसी ही रहती है जैसी सब्सट्रेट और स्याही छोड़ते हैं — अक्ष को अनिर्दिष्ट छोड़ने से अलग, जो विक्रेता को फ़िनिश सुझाने देता है। अकेला रहता है: उसी सतह पर कोई अन्य फ़िनिश मान सहन नहीं करता।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish",
+  "created": "2026-09-22T11:55:00Z",
+  "modified": "2026-10-07T18:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§NO-SURFACE-FINISH",
+  "elementType": "value",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "standalone": true,
+  "deprecatedOn": "2026-10-07",
+  "deprecationReason": {
+    "en": "Absence is the specification's way of saying «none» (SD-0098, 2026-10-07): a finish the buyer does not ask for is not applied, and a configuration without a surface-finish binding is complete and fingerprintable whenever the product's envelope does not require one. An explicit «none» value would make two identical products hash differently. No successor; this URI keeps resolving. The alt-labels (unlaminated, ulaminert, unlackiert …) remain useful as synonyms for «no surface finish» in mappers.",
+    "nb": "Fravær er spesifikasjonens måte å si «ingen» på (SD-0098, 2026-10-07): en finish kjøperen ikke ber om, blir ikke påført, og en konfigurasjon uten overflatefinish er komplett og kan fingeravtrykkes så lenge produktets konvolutt ikke krever den. En eksplisitt «ingen»-verdi ville gitt to like produkter ulikt fingeravtrykk. Ingen etterfølger; URI-en fortsetter å svare. Alt-etikettene (ulaminert, unlaminated …) er fortsatt nyttige som synonymer for «uten overflatefinish» i mappere."
+  }
+}

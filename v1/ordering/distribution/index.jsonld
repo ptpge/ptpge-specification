@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS",
+  "level": "group",
+  "label": {
+    "en": "Distribution",
+    "nb": "Distribusjon",
+    "de": "Distribution",
+    "es": "Distribución",
+    "ja": "配送",
+    "zh-Hans": "配送",
+    "sv": "Distribution",
+    "da": "Distribution",
+    "nl": "Distributie",
+    "pl": "Dystrybucja",
+    "pt": "Distribuição",
+    "hi": "वितरण"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/distribution/delivery-methods",
+    "https://ptpge.org/v1/ordering/distribution/incoterms"
+  ],
+  "definition": {
+    "en": "Open checkout/distribution vocabulary: neutral types and trade terms an order or agent references when shipping a finished print job. Carriers, rates, taxes and addresses are commercial (Layer 2/3/4) data and live outside the Standard.",
+    "nb": "Åpent checkout-/distribusjonsvokabular: nøytrale typer og handelsvilkår en ordre eller agent refererer til ved forsendelse av en ferdig trykkjobb. Transportører, rater, avgifter og adresser er kommersiell (Layer 2/3/4) data og ligger utenfor standarden.",
+    "de": "Offenes Checkout-/Distributionsvokabular: neutrale Typen und Handelsklauseln, auf die eine Bestellung oder ein Agent beim Versand eines fertigen Druckauftrags verweist. Frachtführer, Tarife, Steuern und Adressen sind kommerzielle Daten (Layer 2/3/4) und liegen außerhalb des Standards.",
+    "es": "Vocabulario abierto de checkout/distribución: tipos neutrales y términos comerciales que una orden o un agente referencia al enviar un trabajo de impresión terminado. Transportistas, tarifas, impuestos y direcciones son datos comerciales (Layer 2/3/4) y viven fuera del Standard.",
+    "ja": "オープンなチェックアウト／配送語彙：完成した印刷ジョブを出荷する際に注文やエージェントが参照する中立的な型と貿易条件。運送業者、料金、税、住所は商用データ（Layer 2/3/4）であり、Standard の外にある。",
+    "zh-Hans": "开放的结算/配送词汇：订单或代理在发运已完成印件时引用的中立类型与贸易条款。承运商、费率、税费与地址属于商业数据（Layer 2/3/4），不在 Standard 之内。",
+    "sv": "Öppen kassa-/distributionsvokabulär: neutrala typer och handelstermer som en order eller agent refererar till när ett färdigt tryckjobb skickas. Transportörer, priser, skatter och adresser är kommersiella data (Layer 2/3/4) och ligger utanför Standarden.",
+    "da": "Åbent checkout-/distributionsvokabular: neutrale typer og handelsklausuler, som en ordre eller agent refererer til ved forsendelse af en færdig trykopgave. Transportører, priser, afgifter og adresser er kommercielle data (lag 2/3/4) og ligger uden for Standarden.",
+    "nl": "Open checkout-/distributievocabulaire: neutrale typen en handelstermen waarnaar een order of agent verwijst bij verzending van een afgewerkte drukopdracht. Vervoerders, tarieven, belastingen en adressen zijn commerciële gegevens (laag 2/3/4) en vallen buiten de Standaard.",
+    "pl": "Otwarte słownictwo realizacji zamówienia i dystrybucji: neutralne typy i warunki handlowe, do których odwołuje się zamówienie lub agent przy wysyłce gotowego zlecenia drukarskiego. Przewoźnicy, stawki, podatki i adresy są danymi komercyjnymi (warstwa 2/3/4) i pozostają poza Standardem.",
+    "pt": "Vocabulário aberto de checkout/distribuição: tipos neutros e termos comerciais que um pedido ou agente referencia ao expedir um trabalho gráfico acabado. Transportadoras, tarifas, impostos e endereços são dados comerciais (Camadas 2/3/4) e vivem fora da Norma.",
+    "hi": "खुला चेकआउट/वितरण शब्दकोश: तटस्थ प्रकार और व्यापार शर्तें जिन्हें कोई ऑर्डर या एजेंट तैयार मुद्रण कार्य भेजते समय संदर्भित करता है। वाहक, दरें, कर और पते व्यावसायिक (लेयर 2/3/4) डेटा हैं और मानक से बाहर रहते हैं।"
+  }
+}

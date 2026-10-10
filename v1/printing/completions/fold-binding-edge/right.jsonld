@@ -1,0 +1,90 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/fold-binding-edge/right",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Right",
+    "nb": "Høyre",
+    "de": "Rechts",
+    "ja": "右",
+    "es": "Derecha",
+    "zh-Hans": "右",
+    "sv": "Höger",
+    "da": "Højre",
+    "nl": "Rechts",
+    "pl": "Prawa",
+    "pt": "Direita",
+    "hi": "दाएँ"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/fold-binding-edge",
+  "created": "2026-06-19T09:56:13Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:CP§RIGHT",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "definition": {
+    "en": "Fold or binding edge placed on the right side of the product — used for right-to-left languages such as Arabic, Hebrew, and traditional Japanese/Chinese publications, and for manga. Reader opens the cover from left to right.",
+    "nb": "Folde- eller bindingskant plassert på høyre side av produktet — brukt for høyre-til-venstre-språk som arabisk, hebraisk og tradisjonelle japanske/kinesiske publikasjoner, samt manga. Leseren åpner omslaget fra venstre til høyre.",
+    "de": "Falz- oder Bindungskante an der rechten Seite des Produkts — verwendet für Sprachen mit Leserichtung von rechts nach links wie Arabisch, Hebräisch und traditionelle japanische/chinesische Publikationen sowie Manga. Der Leser öffnet das Cover von links nach rechts.",
+    "ja": "折りまたは綴じの辺が印刷物の右側に配置される — アラビア語、ヘブライ語、伝統的な日本語・中国語の出版物やマンガなど右から左に読む言語に使用される。読者は表紙を左から右に開く。",
+    "es": "Pliegue o encuadernación por el lado derecho — para lenguas de derecha a izquierda como el árabe y el hebreo, y para manga.",
+    "zh-Hans": "右侧折页或装订 —— 用于阿拉伯语、希伯来语等从右到左的语言及漫画。",
+    "sv": "Fals eller bindningskant placerad på produktens högra sida — används för höger-till-vänster-språk som arabiska, hebreiska och traditionella japanska/kinesiska publikationer samt manga. Läsaren öppnar omslaget från vänster till höger.",
+    "da": "Fals- eller indbindingskant placeret på produktets højre side — bruges til højre-mod-venstre-sprog som arabisk, hebraisk og traditionelle japanske/kinesiske udgivelser samt manga. Læseren åbner omslaget fra venstre mod højre.",
+    "nl": "Vouw- of bindzijde aan de rechterkant van het product — gebruikt voor rechts-naar-linkstalen zoals Arabisch en Hebreeuws, traditionele Japanse/Chinese publicaties en manga. De lezer opent het omslag van links naar rechts.",
+    "pl": "Krawędź złamu lub oprawy umieszczona po prawej stronie produktu — stosowana w językach pisanych od prawej do lewej, takich jak arabski i hebrajski, w tradycyjnych publikacjach japońskich/chińskich oraz w mandze. Czytelnik otwiera okładkę od lewej do prawej.",
+    "pt": "Dobra ou encadernação no lado direito do produto — usada em línguas escritas da direita para a esquerda, como árabe e hebraico, em publicações tradicionais japonesas/chinesas e em mangás. O leitor abre a capa da esquerda para a direita.",
+    "hi": "उत्पाद के दाएँ किनारे पर फ़ोल्ड या बाइंडिंग — अरबी, हिब्रू और उर्दू जैसी दाएँ-से-बाएँ भाषाओं, पारंपरिक जापानी/चीनी प्रकाशनों और मांगा में। पाठक कवर बाएँ से दाएँ खोलता है।"
+  },
+  "altLabels": {
+    "en": [
+      "Right edge",
+      "Right-edge binding",
+      "Right fold",
+      "Right-hand binding",
+      "Bound on the right"
+    ],
+    "nb": [
+      "Høyre kant",
+      "Høyrebundet",
+      "Høyre fals"
+    ],
+    "pl": [
+      "krawędź prawa",
+      "oprawa prawostronna",
+      "złam prawy"
+    ],
+    "pt": [
+      "borda direita",
+      "encadernação à direita",
+      "dobra à direita",
+      "encadernado à direita"
+    ],
+    "hi": [
+      "दायाँ किनारा",
+      "दाईं बाइंडिंग",
+      "दायाँ फ़ोल्ड",
+      "राइट बाइंडिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent"
+      ],
+      "refs": [
+        "§4.3 · p.64"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 47"
+    }
+  ]
+}

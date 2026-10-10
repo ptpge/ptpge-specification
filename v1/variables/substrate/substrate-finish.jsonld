@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/substrate/substrate-finish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:SB§SUBSTRATE-FINISH",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Substrate Finish",
+    "nb": "Substratoverflate",
+    "de": "Bedruckstoff-Oberfläche",
+    "es": "Acabado del sustrato",
+    "ja": "基材の表面",
+    "zh-Hans": "承印材料表面",
+    "sv": "Substratyta",
+    "da": "Substratfinish",
+    "nl": "Substraatafwerking",
+    "pl": "Wykończenie podłoża",
+    "pt": "Acabamento do substrato",
+    "hi": "सब्सट्रेट फ़िनिश"
+  },
+  "altLabels": {
+    "en": [
+      "Paper Finish",
+      "Coating"
+    ],
+    "nb": [
+      "Papiroverflate"
+    ],
+    "pl": [
+      "wykończenie papieru",
+      "powłoka"
+    ],
+    "pt": [
+      "acabamento do papel",
+      "superfície do papel",
+      "textura do papel"
+    ],
+    "hi": [
+      "काग़ज़ की सतह",
+      "पेपर फ़िनिश",
+      "ग्लॉसी/मैट"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Substrate Finish. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Substratoverflate. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Bedruckstoff-Oberfläche. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Acabado del sustrato. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：基材の表面。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：承印材料表面。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Substratyta. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Substratfinish. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Substraatafwerking. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Wykończenie podłoża. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Acabamento do Substrato. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट फ़िनिश। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Which paper surface?",
+    "nb": "Hvilken papiroverflate?",
+    "de": "Welche Papieroberfläche?",
+    "es": "¿Qué superficie de papel?",
+    "ja": "紙の表面は？",
+    "zh-Hans": "纸张表面是？",
+    "sv": "Vilken pappersyta?",
+    "da": "Hvilken papiroverflade?",
+    "nl": "Welk papieroppervlak?",
+    "pl": "Jaka powierzchnia papieru?",
+    "pt": "Que superfície de papel?",
+    "hi": "कागज़ की सतह कैसी?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/substrate",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

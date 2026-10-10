@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/adobe-acrobat-pro-dc> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> ;
+    skos:definition "Adobe Acrobat Pro DC's indbyggede preflight-motor — kontrollerer PDF-filer mod profiler for PDF/X-overholdelse, manglende skrifter, billedopløsning og farverumsproblemer. Bredt anvendt som basisværktøj."@da,
+        "Die in Adobe Acrobat Pro DC integrierte Preflight-Engine — prüft PDF-Dateien anhand von Profilen auf PDF/X-Konformität, fehlende Schriften, Bildauflösung und Farbraumprobleme. Weit verbreitet als grundlegendes Preflight-Werkzeug."@de,
+        "Adobe Acrobat Pro DC's built-in preflight engine — checks PDF files against profiles for PDF/X compliance, missing fonts, image resolution, and color-space issues. Widely used as a baseline preflight tool."@en,
+        "Aplicación Adobe para edición, verificación y gestión de PDF, con motor de preflight incorporado capaz de comprobar archivos contra perfiles personalizados."@es,
+        "Adobe Acrobat Pro DC का अंतर्निहित प्रीफ़्लाइट इंजन — PDF/X अनुपालन, लापता फ़ॉन्ट, छवि रिज़ॉल्यूशन और रंग-स्पेस समस्याओं के लिए PDF फ़ाइलों की प्रोफ़ाइल के विरुद्ध जाँच। आधारभूत प्रीफ़्लाइट औज़ार के रूप में व्यापक रूप से प्रयुक्त।"@hi,
+        "Adobe Acrobat Pro DCの内蔵プリフライトエンジン — PDFファイルをプロファイルに照らしてPDF/X適合性、フォント欠落、画像解像度、色空間の問題を検査する。基本的なプリフライトツールとして広く使用される。"@ja,
+        "Adobe Acrobat Pro DCs innebygde preflight-motor — sjekker PDF-filer mot profiler for PDF/X-samsvar, manglende fonter, bildeoppløsning og fargeromproblemer. Mye brukt som et grunnleggende preflight-verktøy."@nb,
+        "De ingebouwde preflight-engine van Adobe Acrobat Pro DC — controleert PDF-bestanden aan de hand van profielen op PDF/X-naleving, ontbrekende lettertypen, beeldresolutie en kleurruimteproblemen. Breed gebruikt als basistool."@nl,
+        "Wbudowany silnik preflight Adobe Acrobat Pro DC — sprawdza pliki PDF według profili pod kątem zgodności z PDF/X, brakujących fontów, rozdzielczości obrazów i problemów z przestrzenią barw. Szeroko używany jako podstawowe narzędzie preflight."@pl,
+        "Motor de preflight integrado do Adobe Acrobat Pro DC — verifica arquivos PDF contra perfis quanto à conformidade PDF/X, fontes ausentes, resolução de imagem e problemas de espaço de cor. Amplamente usado como ferramenta de preflight básica."@pt,
+        "Adobe Acrobat Pro DC:s inbyggda preflightmotor — kontrollerar PDF-filer mot profiler för PDF/X-efterlevnad, saknade typsnitt, bildupplösning och färgrymdsproblem. Brett använd som baslinjeverktyg för preflight."@sv,
+        "Adobe用于编辑、验证和管理PDF的应用程序，带有内置飞检引擎，能够根据自定义配置文件检查文件。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ADOBE-ACROBAT-PRO-DC" ;
+    skos:prefLabel "Adobe Acrobat Pro DC"@da,
+        "Adobe Acrobat Pro DC"@de,
+        "Adobe Acrobat Pro DC"@en,
+        "Adobe Acrobat Pro DC"@es,
+        "Adobe Acrobat Pro DC"@hi,
+        "Adobe Acrobat Pro DC"@ja,
+        "Adobe Acrobat Pro DC"@nb,
+        "Adobe Acrobat Pro DC"@nl,
+        "Adobe Acrobat Pro DC"@pl,
+        "Adobe Acrobat Pro DC"@pt,
+        "Adobe Acrobat Pro DC"@sv,
+        "Adobe Acrobat Pro DC"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.4.14 · p.100",
+                "§6.64 · p.249",
+                "§6.65 · p.250" ;
+            ptpge:mappingRow "crosswalk row 13" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ContentCheckIntent",
+                "Preflight",
+                "PreflightParams",
+                "PreflightReport" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Silver Foil Stamping"@en,
+        "चाँदी की फ़ॉइल"@hi,
+        "रुपहली फ़ॉइल"@hi,
+        "सिल्वर फ़ॉइल स्टैंपिंग"@hi,
+        "Sølv"@nb,
+        "Sølvpreg"@nb,
+        "srebrna folia na gorąco"@pl,
+        "srebrzenie"@pl,
+        "hot stamping prateado"@pt,
+        "prata"@pt,
+        "prateado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments/foil-stamping> ;
+    skos:definition "Varmfolieprægning med sølvfarvet metallisk folie. Giver en kølig, klar reflekterende finish."@da,
+        "Heißfolienprägung mit silberfarbener Metallfolie."@de,
+        "Hot-foil stamping with silver-coloured metallic foil. Provides a cool, bright reflective finish."@en,
+        "Estampación en caliente con foil metálico plateado. Proporciona un acabado reflectante frío y brillante."@es,
+        "चाँदी जैसे मेटैलिक फ़ॉइल से हॉट-फ़ॉइल स्टैंपिंग। ठंडी, चमकीली परावर्तक फ़िनिश।"@hi,
+        "銀色のメタリック箔によるホットフォイル。クールで明るい反射仕上げになる。"@ja,
+        "Varmfolie-preging med sølvfarget metallisk folie. Gir en kjølig, lys reflekterende finish."@nb,
+        "Warmfoliedruk met zilverkleurige metallic folie. Geeft een koele, heldere reflecterende afwerking."@nl,
+        "Folia na gorąco w kolorze srebrnym metalicznym. Daje chłodne, jasne, odbijające wykończenie."@pl,
+        "Hot stamping com foil metálico prateado. Dá um acabamento reflexivo frio e brilhante."@pt,
+        "Varmfoliering med silverfärgad metallisk folie. Ger en sval, ljus reflekterande finish."@sv,
+        "使用银色金属箔的烫印。呈现冷调明亮的反射效果。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§SILVER" ;
+    skos:prefLabel "Sølvfolie"@da,
+        "Silberfolie"@de,
+        "Silver Foil"@en,
+        "Lámina de plata"@es,
+        "सिल्वर फ़ॉइल"@hi,
+        "銀箔"@ja,
+        "Sølvfolie"@nb,
+        "Zilverfolie"@nl,
+        "Folia srebrna"@pl,
+        "Foil prateado"@pt,
+        "Silverfolie"@sv,
+        "银箔"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

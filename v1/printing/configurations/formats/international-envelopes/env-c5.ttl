@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "16.2 x 22.9 cm"@en,
+        "162 x 229 mm"@en,
+        "162x229"@en,
+        "162×229"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "162 × 229 mm. C5-kuvert efter ISO 269 — rummer et A4-ark foldet én gang, eller et A5-ark fladt. Almindeligt til tykkere korrespondance."@da,
+        "162 × 229 mm. ISO-269-C5-Briefumschlag — fasst einen einmal gefalteten A4-Bogen oder einen ungefalteten A5-Bogen. Üblich für umfangreichere Korrespondenz."@de,
+        "162 × 229 mm. ISO 269 C5 envelope — holds an A4 sheet folded once, or an A5 sheet flat. Common for thick correspondence."@en,
+        "Sobre C5 de la serie C de ISO 269, dimensiones 162 × 229 mm. Diseñado para contener la hoja A del mismo número."@es,
+        "162 × 229 mm. ISO 269 C5 लिफ़ाफ़ा — A4 शीट एक बार मुड़ी या A5 सपाट समाती है। मोटे पत्राचार में आम।"@hi,
+        "162×229mm。ISO 269 C5封筒 — A4を1回折って、またはA5を折らずに収納する。厚みのある通信で一般的。"@ja,
+        "162 × 229 mm. ISO 269 C5-konvolutt — rommer et A4-ark brettet én gang, eller et A5-ark uten brett. Vanlig for tykk korrespondanse."@nb,
+        "162 × 229 mm. C5-envelop volgens ISO 269 — biedt plaats aan een eenmaal gevouwen A4-vel, of een vlak A5-vel. Gebruikelijk voor dikkere correspondentie."@nl,
+        "162 × 229 mm. Koperta ISO 269 C5 — mieści arkusz A4 złożony raz lub arkusz A5 na płasko. Typowa dla grubszej korespondencji."@pl,
+        "162 × 229 mm. Envelope C5 da ISO 269 — comporta uma folha A4 dobrada uma vez, ou uma A5 aberta. Comum em correspondência volumosa."@pt,
+        "162 × 229 mm. C5-kuvert enligt ISO 269 — rymmer ett A4-ark vikt en gång, eller ett A5-ark plant. Vanligt för tjockare korrespondens."@sv,
+        "ISO 269 C系列C5信封，尺寸162 × 229 mm。设计用于装相同编号的A纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ENV-C5" ;
+    skos:prefLabel "Kuvert C5 (162 × 229 mm)"@da,
+        "Envelope C5 (162 × 229 mm)"@de,
+        "Envelope C5 (162 × 229 mm)"@en,
+        "C5 (162 × 229 mm)"@es,
+        "लिफ़ाफ़ा C5 (162 × 229 mm)"@hi,
+        "Envelope C5 (162 × 229 mm)"@ja,
+        "Envelope C5 (162 × 229 mm)"@nb,
+        "Envelop C5 (162 × 229 mm)"@nl,
+        "Koperta C5 (162 × 229 mm)"@pl,
+        "Envelope C5 (162 × 229 mm)"@pt,
+        "Kuvert C5 (162 × 229 mm)"@sv,
+        "C5 (162 × 229 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 37098.0 ;
+            ptpge:aspectRatio 1.4136 ;
+            ptpge:height 229.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 162.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

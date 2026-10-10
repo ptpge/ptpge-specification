@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/wood/composite> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Composite"@en,
+        "Engineered Wood"@en,
+        "इंजीनियर्ड वुड"@hi,
+        "कंपोज़िट"@hi,
+        "लकड़ी का कंपोज़िट बोर्ड"@hi,
+        "Kompositt"@nb,
+        "Trekompositt"@nb,
+        "kompozyt"@pl,
+        "płyty drewnopochodne"@pl,
+        "composto de madeira"@pt,
+        "derivados de madeira"@pt,
+        "madeira engenheirada"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/wood> ;
+    skos:definition "Konstruerede træpaneler fremstillet af finér, strimler, partikler eller fibre."@da,
+        "Holzwerkstoffplatten aus Furnieren, Spänen, Partikeln oder Fasern."@de,
+        "Engineered wood panels manufactured from veneers, strands, particles or fibres."@en,
+        "Tableros de madera derivada fabricados a partir de chapas, virutas, partículas o fibras."@es,
+        "विनियर, स्ट्रैंड, कण या रेशों से बने इंजीनियर्ड लकड़ी के पैनल।"@hi,
+        "単板、ストランド、パーティクル、繊維から製造されるエンジニアードウッドのパネル。"@ja,
+        "Tekniske treplater fremstilt av finer, spon, partikler eller fibre."@nb,
+        "Samengestelde houtpanelen vervaardigd uit fineer, strengen, spaanders of vezels."@nl,
+        "Płyty drewnopochodne wytwarzane z fornirów, wiórów, cząstek lub włókien."@pl,
+        "Painéis de madeira engenheirada fabricados a partir de lâminas, tiras, partículas ou fibras."@pt,
+        "Konstruerade träskivor tillverkade av faner, spån, partiklar eller fibrer."@sv,
+        "由单板、刨花、颗粒或纤维制成的工程木板。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/fiberboard>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/mdf-board>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/osb-board>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/particle-board>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/plywood> ;
+    skos:notation "P:SB-BRD-WOOD-CMP" ;
+    skos:prefLabel "Komposittræ"@da,
+        "Holzwerkstoff"@de,
+        "Composite Wood"@en,
+        "Madera compuesta"@es,
+        "कंपोज़िट लकड़ी"@hi,
+        "複合木材"@ja,
+        "Komposittre"@nb,
+        "Composiethout"@nl,
+        "Drewno kompozytowe"@pl,
+        "Madeira composta"@pt,
+        "Kompositträ"@sv,
+        "复合木材"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

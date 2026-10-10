@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/europe/lithuania> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:altLabel "LT"@en,
+        "LTU"@en,
+        "LT"@pl,
+        "LTU"@pl ;
+    skos:broader <https://ptpge.org/v1/ordering/geography/europe> ;
+    skos:definition "Litauen — geografisk facet på landeniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering."@da,
+        "Lithuania — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen."@de,
+        "Lithuania — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping."@en,
+        "Lithuania — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega."@es,
+        "लिथुआनिया — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"@hi,
+        "Lithuania — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。"@ja,
+        "Lithuania — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning."@nb,
+        "Litouwen — geografische facet op landniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering."@nl,
+        "Litwa — aspekt geograficzny na poziomie kraju używany do specyfikacji produktu, dopasowania standardów regionalnych, listowania dostawców i zakresu wysyłki/dostawy."@pl,
+        "Lituânia — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega."@pt,
+        "Litauen — geografisk facett på landsnivå som används för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans."@sv,
+        "Lithuania——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:GY§LITHUANIA" ;
+    skos:prefLabel "Litauen"@da,
+        "Litauen"@de,
+        "Lithuania"@en,
+        "Lituania"@es,
+        "लिथुआनिया"@hi,
+        "リトアニア"@ja,
+        "Litauen"@nb,
+        "Litouwen"@nl,
+        "Litwa"@pl,
+        "Lituânia"@pt,
+        "Litauen"@sv,
+        "立陶宛"@zh-Hans ;
+    ptpge:elementType "place" ;
+    ptpge:group "geography" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

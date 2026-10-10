@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/accordion-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Concertina Fold"@en,
+        "Fan Fold"@en,
+        "Zigzag Fold"@en,
+        "कॉन्सर्टीना फ़ोल्ड"@hi,
+        "ज़िगज़ैग फ़ोल्ड"@hi,
+        "फ़ैन फ़ोल्ड"@hi,
+        "Leporello"@nb,
+        "Sikksakkfals"@nb,
+        "Trekkspill"@nb,
+        "Trekkspillfals"@nb,
+        "harmonijka"@pl,
+        "leporello"@pl,
+        "złam zygzakowy"@pl,
+        "dobra concertina"@pt,
+        "dobra em ziguezague"@pt,
+        "dobra leque"@pt,
+        "sanfona"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Flerpanelsfals, hvor arket falses i skiftende retninger som en harmonika — hver fals vender modsat den forrige. Almindelig til brochurer, kort og pop-up-displays."@da,
+        "Mehrteiliger Falz, bei dem der Bogen abwechselnd in entgegengesetzte Richtungen gefalzt wird — wie ein Akkordeonbalg, jeder Falz dreht den vorherigen um. Häufig bei Broschüren, Karten und Pop-up-Aufstellern."@de,
+        "Multi-panel fold where the sheet is folded in alternating directions, like an accordion bellows — each fold reverses the previous one. Common for brochures, maps, and pop-up displays."@en,
+        "Múltiples pliegues paralelos alternos formando un acordeón — se despliega completamente en una sola extensión. Habitual en folletos de muchos paneles."@es,
+        "बहु-पैनल फ़ोल्ड जिसमें शीट बारी-बारी विपरीत दिशाओं में मुड़ती है, अकॉर्डियन की धौंकनी की तरह — हर फ़ोल्ड पिछले को उलटता है। ब्रोशर, नक़्शों और पॉप-अप डिस्प्ले में आम।"@hi,
+        "アコーディオンの蛇腹のように、シートを交互の方向に折る多面折り — 各折りが直前の折りを反転する。ブローシュア、地図、ポップアップ展示で一般的。"@ja,
+        "Flerpanel-folde der arket folder seg i vekslende retninger, som et trekkspill — hver folde reverserer den forrige. Vanlig for brosjyrer, kart og pop-up-displayer."@nb,
+        "Meerpaneelvouw waarbij het vel in afwisselende richtingen wordt gevouwen, als een harmonica — elke vouw keert de vorige om. Gebruikelijk voor brochures, kaarten en pop-updisplays."@nl,
+        "Złam wieloskrzydłowy, w którym arkusz składa się naprzemiennie w przeciwnych kierunkach jak miech harmonii — każdy złam odwraca poprzedni. Typowy dla folderów, map i ekspozytorów."@pl,
+        "Dobra de vários painéis em que a folha é dobrada em direções alternadas, como o fole de uma sanfona — cada dobra inverte a anterior. Comum em folhetos, mapas e displays."@pt,
+        "Flerpanelsfals där arket viks i växlande riktningar, som en dragspelsbälg — varje fals vänder den föregående. Vanlig för broschyrer, kartor och pop-up-displayer."@sv,
+        "多个交替方向的平行折页形成风琴 —— 完全展开为单一延伸。常用于多面板宣传册。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§ACCORDION-FOLD" ;
+    skos:prefLabel "Leporellofals"@da,
+        "Leporellofalz / Akkordeon"@de,
+        "Accordion Fold"@en,
+        "Pliegue Acordeón"@es,
+        "अकॉर्डियन फ़ोल्ड"@hi,
+        "アコーディオン折り"@ja,
+        "Trekkspill-fold"@nb,
+        "Harmonicavouw (leporello)"@nl,
+        "Złam harmonijkowy"@pl,
+        "Dobra sanfona"@pt,
+        "Dragspelsfals"@sv,
+        "风琴折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

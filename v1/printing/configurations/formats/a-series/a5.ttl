@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "14.8 x 21 cm"@en,
+        "148 x 210 mm"@en,
+        "148x210"@en,
+        "148×210"@en,
+        "A5 Size"@en,
+        "DIN A5"@en,
+        "A5-format"@nb,
+        "A5-størrelse"@nb,
+        "format A5"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "148 × 210 mm (5.83 × 8.27 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A4. Almindeligt til hæfter, notesblokke, flyers og udgivelser i personligt format."@da,
+        "148 × 210 mm (5,83 × 8,27 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A4. Üblich für Broschüren, Notizblöcke, Flyer und Publikationen im persönlichen Format."@de,
+        "148 × 210 mm (5.83 × 8.27 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A4. Common for booklets, notepads, flyers, and personal-size publications."@en,
+        "Formato A5 de la serie A de ISO 216, dimensiones 148 × 210 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
+        "148 × 210 mm (5.83 × 8.27 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A4 का आधा क्षेत्रफल। बुकलेट, नोटपैड, फ़्लायर और निजी आकार के प्रकाशनों में आम।"@hi,
+        "148×210mm（5.83×8.27インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A4の半分の面積。ブックレット、ノートパッド、チラシ、パーソナルサイズの出版物で一般的。"@ja,
+        "148 × 210 mm (5,83 × 8,27 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A4. Vanlig for hefter, notatblokker, flyers og personlig-størrelse publikasjoner."@nb,
+        "148 × 210 mm (5.83 × 8.27 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A4. Gebruikelijk voor boekjes, notitieblokken, flyers en publicaties in persoonlijk formaat."@nl,
+        "148 × 210 mm (5,83 × 8,27 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A4. Typowy dla broszur, notatników, ulotek i publikacji formatu osobistego."@pl,
+        "148 × 210 mm (5.83 × 8.27 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A4. Comum em folhetos, blocos, flyers e publicações de bolso."@pt,
+        "148 × 210 mm (5.83 × 8.27 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A4. Vanligt för häften, anteckningsblock, flygblad och publikationer i personligt format."@sv,
+        "ISO 216 A系列A5开本，尺寸148 × 210 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A5" ;
+    skos:prefLabel "A5 (148 x 210 mm)"@da,
+        "A5 (148 x 210 mm)"@de,
+        "A5 (148 x 210 mm)"@en,
+        "A5 (148 × 210 mm)"@es,
+        "A5 (148 x 210 mm)"@hi,
+        "A5 (148 x 210 mm)"@ja,
+        "A5 (148 x 210 mm)"@nb,
+        "A5 (148 x 210 mm)"@nl,
+        "A5 (148 x 210 mm)"@pl,
+        "A5 (148 x 210 mm)"@pt,
+        "A5 (148 x 210 mm)"@sv,
+        "A5 (148 × 210 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 31080.0 ;
+            ptpge:aspectRatio 1.4189 ;
+            ptpge:height 210.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 148.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

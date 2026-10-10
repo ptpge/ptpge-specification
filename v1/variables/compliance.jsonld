@@ -1,0 +1,48 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/compliance",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:CM",
+  "level": "group",
+  "label": {
+    "en": "Compliance",
+    "nb": "Samsvar",
+    "de": "Konformität",
+    "es": "Conformidad",
+    "ja": "適合性",
+    "zh-Hans": "合规",
+    "sv": "Regelefterlevnad",
+    "da": "Compliance",
+    "nl": "Compliance",
+    "pl": "Zgodność",
+    "pt": "Conformidade",
+    "hi": "अनुपालन"
+  },
+  "definition": {
+    "en": "Compliance configuration variables — the compliance axes a printed product can be configured along.",
+    "nb": "Samsvar konfigurasjonsvariabler — samsvar-aksene et trykkprodukt kan konfigureres langs.",
+    "de": "Konformitäts-Konfigurationsvariablen — die Konformitätsachsen, entlang derer ein Druckprodukt konfiguriert werden kann.",
+    "es": "Variables de configuración de conformidad — los ejes de conformidad a lo largo de los cuales puede configurarse un producto impreso.",
+    "ja": "適合性の構成変数 — 印刷物を構成できる適合性の軸。",
+    "zh-Hans": "合规配置变量 — 印刷品可沿其配置的合规轴。",
+    "sv": "Konfigurationsvariabler för regelefterlevnad — de efterlevnadsaxlar en trycksak kan konfigureras längs.",
+    "da": "Compliance-konfigurationsvariabler — de compliance-akser et trykt produkt kan konfigureres langs.",
+    "nl": "Compliance-configuratievariabelen — de compliance-assen waarlangs een drukproduct kan worden geconfigureerd.",
+    "pl": "Zmienne konfiguracyjne zgodności — osie zgodności, wzdłuż których można skonfigurować produkt drukowany.",
+    "pt": "Variáveis de configuração de conformidade — os eixos de conformidade ao longo dos quais um impresso pode ser configurado.",
+    "hi": "अनुपालन कॉन्फ़िगरेशन वेरिएबल — वे अनुपालन अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables",
+  "narrower": [
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/compliance/color-profile",
+    "https://ptpge.org/v1/variables/compliance/climate-documentation"
+  ],
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

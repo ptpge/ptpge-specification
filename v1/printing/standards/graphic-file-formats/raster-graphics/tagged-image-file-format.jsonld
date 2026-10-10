@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/tagged-image-file-format",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Tagged Image File Format (.tif)",
+    "es": "TIFF (.tif)",
+    "zh-Hans": "TIFF (.tif)",
+    "nb": "Tagged Image File Format (.tif)",
+    "de": "Tagged Image File Format (.tif)",
+    "ja": "Tagged Image File Format (.tif)",
+    "sv": "TIFF (.tif)",
+    "da": "TIFF (.tif)",
+    "nl": "TIFF (.tif)",
+    "pl": "Tagged Image File Format (.tif)",
+    "pt": "Tagged Image File Format (.tif)",
+    "hi": "Tagged Image File Format (.tif)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§TAGGED-IMAGE-FILE-FORMAT",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "TIFF (.tif) — flexible raster image format supporting multiple compression methods, color spaces, and metadata; widely used in print, scanning, and archival workflows.",
+    "nb": "TIFF (.tif) — fleksibelt rasterbildeformat med støtte for flere komprimeringsmetoder, fargerom og metadata; mye brukt i trykk-, skannings- og arkivarbeidsflyter.",
+    "de": "TIFF (.tif) — flexibles Rasterbildformat, das mehrere Kompressionsmethoden, Farbräume und Metadaten unterstützt; weit verbreitet im Druck, beim Scannen und in Archivierungs-Workflows.",
+    "ja": "TIFF（.tif）— 複数の圧縮方式、色空間、メタデータをサポートする柔軟なラスター画像形式。印刷、スキャン、アーカイブのワークフローで広く使用される。",
+    "es": "Tagged Image File Format — formato raster sin pérdida (o con LZW), histórico estándar pre-prensa para imágenes de alta resolución. Soporta CMYK, capas, transparencia y perfiles ICC.",
+    "zh-Hans": "Tagged Image File Format —— 无损（或LZW）位图格式，是高分辨率图像的历史印前标准。支持CMYK、图层、透明度和ICC配置文件。",
+    "sv": "TIFF (.tif) — flexibelt rasterbildformat med stöd för flera komprimeringsmetoder, färgrymder och metadata; brett använt i tryck-, skannings- och arkivflöden.",
+    "da": "TIFF (.tif) — fleksibelt rasterbilledformat med understøttelse af flere komprimeringsmetoder, farverum og metadata; bredt brugt i tryk-, scannings- og arkivarbejdsgange.",
+    "nl": "TIFF (.tif) — flexibel rasterbeeldformaat met ondersteuning voor meerdere compressiemethoden, kleurruimten en metadata; breed gebruikt in druk-, scan- en archiefworkflows.",
+    "pl": "TIFF (.tif) — elastyczny format obrazu rastrowego obsługujący wiele metod kompresji, przestrzeni barw i metadanych; szeroko używany w druku, skanowaniu i archiwizacji.",
+    "pt": "TIFF (.tif) — formato flexível de imagem raster com suporte a vários métodos de compressão, espaços de cor e metadados; amplamente usado em fluxos de impressão, digitalização e arquivamento.",
+    "hi": "TIFF (.tif) — कई संपीड़न विधियों, रंग स्पेस और मेटाडेटा का समर्थन करने वाला लचीला रास्टर छवि फ़ॉर्मेट; प्रिंट, स्कैनिंग और संग्रहण वर्कफ़्लो में व्यापक रूप से प्रयुक्त।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "TIFF",
+      ".tif",
+      ".tiff"
+    ],
+    "pl": [
+      "TIFF",
+      ".tif",
+      ".tiff"
+    ],
+    "pt": [
+      "TIFF",
+      ".tif",
+      ".tiff"
+    ],
+    "hi": [
+      "TIFF",
+      ".tif",
+      ".tiff"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kiss cut"@en,
+        "Partial cut"@en,
+        "Sticker cut"@en,
+        "आंशिक कट"@hi,
+        "किस कट"@hi,
+        "स्टिकर कट"@hi,
+        "हाफ़ कट"@hi,
+        "Delvis stansing"@nb,
+        "Kiss-cut"@nb,
+        "cięcie częściowe"@pl,
+        "cięcie naklejek"@pl,
+        "kiss-cut"@pl,
+        "corte de adesivo"@pt,
+        "corte parcial"@pt,
+        "kiss cut"@pt,
+        "meio corte"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Skæring gennem overmaterialet men ikke bagpapiret — bruges til klistermærker og etiketter."@da,
+        "Schneiden des Obermaterials, aber nicht des Trägers — für Aufkleber und Etiketten."@de,
+        "Cutting through the face material but not the backing — used for stickers and labels."@en,
+        "Cortar el material superior sin atravesar el soporte — usado en pegatinas y etiquetas."@es,
+        "ऊपरी सामग्री को काटना पर बैकिंग (लाइनर) को नहीं — स्टिकर और लेबल में।"@hi,
+        "表面材のみを切り、台紙は切らない — ステッカーやラベルに使われる。"@ja,
+        "Skjæring gjennom toppmaterialet, men ikke bæresjiktet — brukt for klistremerker og etiketter."@nb,
+        "Snijden door het topmateriaal maar niet door de drager — gebruikt voor stickers en etiketten."@nl,
+        "Przecięcie materiału wierzchniego bez przecinania podkładu — stosowane w naklejkach i etykietach."@pl,
+        "Corte que atravessa o material da face, mas não o liner — usado em adesivos e etiquetas."@pt,
+        "Skärning genom ytmaterialet men inte bärarmaterialet — används för klistermärken och etiketter."@sv,
+        "只切穿面材而不切穿底纸 — 用于贴纸与标签。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§KISS-CUTTING" ;
+    skos:prefLabel "Kiss-cutting"@da,
+        "Kiss-Cutting"@de,
+        "Kiss Cutting"@en,
+        "Kiss Cutting"@es,
+        "किस कटिंग"@hi,
+        "Kiss Cutting"@ja,
+        "Kiss-cutting"@nb,
+        "Kiss-cutting"@nl,
+        "Nacinanie warstwy wierzchniej"@pl,
+        "Meio-corte"@pt,
+        "Kiss-cutting"@sv,
+        "Kiss Cutting"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

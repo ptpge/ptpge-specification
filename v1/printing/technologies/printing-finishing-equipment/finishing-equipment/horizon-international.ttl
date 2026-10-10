@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/horizon-international> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Horizon International — japansk producent af efterbehandlingssystemer, herunder hæftemaskiner, limbindere og hæft-og-fals-linjer designet til korte og mellemlange serier."@da,
+        "Horizon International — japanischer Hersteller von Weiterverarbeitungssystemen, einschließlich Broschürenfertigern, Klebebindern und Heft-Falz-Linien für kleine bis mittlere Auflagen."@de,
+        "Horizon International — Japanese manufacturer of finishing systems, including bookletmakers, perfect binders, and stitch-and-fold lines designed for short to medium runs."@en,
+        "Horizon International — fabricante japonés de equipo de acabado, especializado en encuadernadoras y sistemas de hendido, plegado y cosido a caballete."@es,
+        "Horizon International — फ़िनिशिंग सिस्टम का जापानी निर्माता, जिसमें बुकलेटमेकर, परफेक्ट बाइंडर और छोटे से मध्यम रन के लिए स्टिच-एंड-फ़ोल्ड लाइनें शामिल।"@hi,
+        "ホリゾン・インターナショナル — 仕上げシステムの日本のメーカー。短～中部数向けに設計されたブックレットメーカー、無線綴じ機、ステッチ・フォールドラインを扱う。"@ja,
+        "Horizon International — japansk produsent av etterbehandlingssystemer, inkludert bookletmakers, perfect binders og stitch-and-fold-linjer designet for korttopplag til middelopplag."@nb,
+        "Horizon International — Japanse fabrikant van afwerkingssystemen, waaronder boekjesmakers, garenloosbinders en hecht-en-vouwlijnen voor kleine tot middelgrote oplagen."@nl,
+        "Horizon International — japoński producent systemów wykończeniowych, w tym bookletmakerów, oprawiarek do oprawy klejonej i linii zszywająco-składających zaprojektowanych do krótkich i średnich nakładów."@pl,
+        "Horizon International — fabricante japonês de sistemas de acabamento, incluindo montadoras de folhetos, encadernadoras de lombada colada e linhas de grampear e dobrar projetadas para tiragens curtas e médias."@pt,
+        "Horizon International — japansk tillverkare av efterbehandlingssystem, inklusive häftesmakare, limbindare och häft-och-fals-linjer designade för korta till medellånga serier."@sv,
+        "Horizon International —— 日本印后设备制造商，专长装订机和压痕、折页与骑马钉系统。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-HORI" ;
+    skos:prefLabel "Horizon International"@da,
+        "Horizon International"@de,
+        "Horizon International"@en,
+        "Horizon International"@es,
+        "Horizon International"@hi,
+        "Horizon International"@ja,
+        "Horizon International"@nb,
+        "Horizon International"@nl,
+        "Horizon International"@pl,
+        "Horizon International"@pt,
+        "Horizon International"@sv,
+        "Horizon International"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Improved coated"@en,
+        "PS2"@en,
+        "PS2"@hi,
+        "इम्प्रूव्ड कोटेड"@hi,
+        "PS2"@pl,
+        "powlekany ulepszony"@pl,
+        "PS2"@pt,
+        "couché melhorado"@pt,
+        "revestido melhorado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes> ;
+    skos:definition "Forbedret bestrøget papir efter ISO 12647-2:2013 (PS2): 51–80 g/m² — typisk bestrøgne rotationsoffset-kvaliteter."@da,
+        "Verbessert gestrichenes Papier nach ISO 12647-2:2013 (PS2): 51–80 g/m² — typischerweise gestrichene Rollenoffset-Sorten."@de,
+        "Improved coated paper per ISO 12647-2:2013 (PS2): 51–80 g/m² — typically web-offset coated grades."@en,
+        "Papel estucado mejorado según ISO 12647-2:2013 (PS2): 51–80 g/m² — típicamente calidades estucadas de ófset de bobina."@es,
+        "ISO 12647-2:2013 (PS2) के अनुसार इम्प्रूव्ड कोटेड काग़ज़: 51–80 g/m² — आमतौर पर वेब-ऑफसेट कोटेड ग्रेड।"@hi,
+        "ISO 12647-2:2013 の改良塗工紙（PS2）：51–80 g/m²。主に輪転オフセット向け塗工紙。"@ja,
+        "Forbedret bestrøket papir etter ISO 12647-2:2013 (PS2): 51–80 g/m² — typisk bestrøkne rulloffset-kvaliteter."@nb,
+        "Verbeterd gestreken papier volgens ISO 12647-2:2013 (PS2): 51–80 g/m² — doorgaans gestreken rotatie-offsetkwaliteiten."@nl,
+        "Papier powlekany ulepszony wg ISO 12647-2:2013 (PS2): 51–80 g/m² — zwykle gatunki powlekane do offsetu zwojowego."@pl,
+        "Papel couché melhorado conforme ISO 12647-2:2013 (PS2): 51–80 g/m² — normalmente qualidades couché para offset rotativo."@pt,
+        "Förbättrat bestruket papper enligt ISO 12647-2:2013 (PS2): 51–80 g/m² — typiskt bestrukna rulloffsetkvaliteter."@sv,
+        "ISO 12647-2:2013 改良涂布纸（PS2）：51–80 g/m²——通常为轮转胶印涂布纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PS2" ;
+    skos:prefLabel "PS2 — Forbedret bestrøget"@da,
+        "PS2 — Verbessert gestrichen"@de,
+        "PS2 — Improved coated"@en,
+        "PS2 — Estucado mejorado"@es,
+        "PS2 — इम्प्रूव्ड कोटेड"@hi,
+        "PS2 — 改良塗工紙"@ja,
+        "PS2 — Forbedret bestrøket"@nb,
+        "PS2 — Verbeterd gestreken"@nl,
+        "PS2 — Powlekany ulepszony"@pl,
+        "PS2 — Couché melhorado"@pt,
+        "PS2 — Förbättrat bestruket"@sv,
+        "PS2 — 改良涂布纸"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated> ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

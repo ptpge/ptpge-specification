@@ -1,0 +1,198 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/cross-tri-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§CROSS-TRI-FOLD",
+  "elementType": "value",
+  "label": {
+    "en": "Cross Tri-Fold Setup",
+    "nb": "Kryss tri-fold oppsett",
+    "de": "Kreuz-Wickelfalz-Setup",
+    "ja": "クロス三つ折り構成",
+    "es": "Configuración de tríptico cruzado",
+    "zh-Hans": "交叉三折结构",
+    "nl": "Kruis-wikkelvouw-opzet",
+    "sv": "Kors- och C-fals",
+    "da": "Kryds-trefals",
+    "pl": "Konfiguracja złam krzyżowy na C",
+    "pt": "Montagem tríptico cruzado",
+    "hi": "क्रॉस ट्राई-फ़ोल्ड सेटअप"
+  },
+  "definition": {
+    "en": "A combination setup with a tri-fold (3 parallel folds) plus an additional perpendicular fold, producing 12 panels organised into 2 surfaces: Outside (6 panels — 2 rows × 3 columns) and Inside (6 panels — 2 rows × 3 columns). Used for compact maps, multi-tier marketing materials, and tabletop reveal pieces where dense layered content is required.",
+    "nb": "En kombinasjons-oppsett med en tri-fold (3 parallelle brett) pluss en ekstra vinkelrett brett, som produserer 12 paneler organisert i 2 surfaces: Outside (6 paneler — 2 rader × 3 kolonner) og Inside (6 paneler — 2 rader × 3 kolonner). Brukes for kompakte kart, flertrinns markedsmateriell, og bord-display avsløringsstykker.",
+    "de": "Eine Kombination aus Wickelfalz (3 parallele Falzungen) und einer zusätzlichen senkrechten Falzung.",
+    "ja": "三つ折り（3本の平行折り）に直交する折りを1本加えた複合セットアップ。12パネルが2面 — Outside（6パネル：2行×3列）と Inside（6パネル：2行×3列） — に編成される。コンパクトな地図、多層のマーケティング資料、密度の高い層状コンテンツが必要な卓上リビール資料に使われる。",
+    "es": "Una configuración combinada: un tríptico (3 pliegues paralelos) más un pliegue perpendicular adicional, que produce 12 paneles organizados en 2 superficies: Outside (6 paneles — 2 filas × 3 columnas) e Inside (6 paneles — 2 filas × 3 columnas). Se usa para mapas compactos, materiales de marketing de varios niveles y piezas de revelación de sobremesa donde se requiere contenido denso en capas.",
+    "zh-Hans": "三折页（3道平行折）加一道垂直折的组合构成，形成12个面板，分为2个表面：Outside（6个面板 — 2行×3列）与 Inside（6个面板 — 2行×3列）。用于便携地图、多层级营销材料及需要高密度分层内容的桌面揭示式印品。",
+    "sv": "En kombinationsuppbyggnad med C-fals (3 parallella falsar) plus en extra vinkelrät fals, som ger 12 paneler organiserade i 2 ytor: utsida (6 paneler — 2 rader × 3 kolumner) och insida (6 paneler — 2 rader × 3 kolumner). Används för kompakta kartor, marknadsmaterial i flera nivåer och bordsprodukter där tätt skiktat innehåll krävs.",
+    "da": "En kombineret opbygning med en krydsfals efterfulgt af en trefals — giver 12 paneler i 2 flader. Bruges til kort og kompakte kampagneformater, der foldes ud til stort format.",
+    "nl": "Een gecombineerde opbouw met een kruisvouw gevolgd door een wikkelvouw — geeft 12 panelen in 2 vlakken. Gebruikt voor kaarten en compacte campagneformaten die uitvouwen naar groot formaat.",
+    "pl": "Konfiguracja łączona: złam na C (3 równoległe złamy) plus dodatkowy złam prostopadły, dająca 12 skrzydeł zorganizowanych w 2 powierzchnie: Zewnętrzna (6 skrzydeł — 2 rzędy × 3 kolumny) i Wewnętrzna (6 skrzydeł — 2 rzędy × 3 kolumny). Używana do kompaktowych map, wielopoziomowych materiałów marketingowych i elementów z odsłonięciem na stole, gdzie wymagana jest gęsta, warstwowa treść.",
+    "pt": "Montagem combinada com um tríptico (3 dobras paralelas) mais uma dobra perpendicular adicional, produzindo 12 painéis em 2 faces: Exterior (6 painéis — 2 linhas × 3 colunas) e Interior (6 painéis — 2 linhas × 3 colunas). Usada em mapas compactos, materiais de marketing em vários níveis e peças de mesa com revelação, onde é preciso conteúdo denso em camadas.",
+    "hi": "ट्राई-फ़ोल्ड (3 समानांतर फ़ोल्ड) और एक अतिरिक्त लंबवत फ़ोल्ड का संयुक्त सेटअप, जिससे 12 पैनल बनते हैं, 2 सतहों में: बाहरी (6 पैनल — 2 पंक्ति × 3 स्तंभ) और भीतरी (6 पैनल — 2 पंक्ति × 3 स्तंभ)। कॉम्पैक्ट नक़्शों, बहु-स्तरीय मार्केटिंग सामग्री और टेबलटॉप रिवील सामग्री में, जहाँ सघन परतदार सामग्री चाहिए।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet",
+  "related": [
+    "https://ptpge.org/v1/printing/completions/folding/cross-tri-fold"
+  ],
+  "surfaces": [
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "nb": "Utside",
+        "de": "Außen"
+      },
+      "panels": [
+        {
+          "id": "outside-top-left",
+          "label": {
+            "en": "Outside Top Left",
+            "nb": "Utside oppe venstre",
+            "de": "Außen oben links"
+          }
+        },
+        {
+          "id": "outside-top-middle",
+          "label": {
+            "en": "Outside Top Middle",
+            "nb": "Utside oppe midt",
+            "de": "Außen oben Mitte"
+          }
+        },
+        {
+          "id": "outside-top-right",
+          "label": {
+            "en": "Outside Top Right",
+            "nb": "Utside oppe høyre",
+            "de": "Außen oben rechts"
+          }
+        },
+        {
+          "id": "outside-bottom-left",
+          "label": {
+            "en": "Outside Bottom Left",
+            "nb": "Utside nede venstre",
+            "de": "Außen unten links"
+          }
+        },
+        {
+          "id": "outside-bottom-middle",
+          "label": {
+            "en": "Outside Bottom Middle",
+            "nb": "Utside nede midt",
+            "de": "Außen unten Mitte"
+          }
+        },
+        {
+          "id": "outside-bottom-right",
+          "label": {
+            "en": "Outside Bottom Right",
+            "nb": "Utside nede høyre",
+            "de": "Außen unten rechts"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "nb": "Innside",
+        "de": "Innen"
+      },
+      "panels": [
+        {
+          "id": "inside-top-left",
+          "label": {
+            "en": "Inside Top Left",
+            "nb": "Innside oppe venstre",
+            "de": "Innen oben links"
+          }
+        },
+        {
+          "id": "inside-top-middle",
+          "label": {
+            "en": "Inside Top Middle",
+            "nb": "Innside oppe midt",
+            "de": "Innen oben Mitte"
+          }
+        },
+        {
+          "id": "inside-top-right",
+          "label": {
+            "en": "Inside Top Right",
+            "nb": "Innside oppe høyre",
+            "de": "Innen oben rechts"
+          }
+        },
+        {
+          "id": "inside-bottom-left",
+          "label": {
+            "en": "Inside Bottom Left",
+            "nb": "Innside nede venstre",
+            "de": "Innen unten links"
+          }
+        },
+        {
+          "id": "inside-bottom-middle",
+          "label": {
+            "en": "Inside Bottom Middle",
+            "nb": "Innside nede midt",
+            "de": "Innen unten Mitte"
+          }
+        },
+        {
+          "id": "inside-bottom-right",
+          "label": {
+            "en": "Inside Bottom Right",
+            "nb": "Innside nede høyre",
+            "de": "Innen unten rechts"
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent"
+      ],
+      "refs": [
+        "Table 4.28 · p.76–77",
+        "Appendix A · Fold catalog"
+      ],
+      "match": "partial",
+      "via": "FoldCatalog"
+    }
+  ]
+}

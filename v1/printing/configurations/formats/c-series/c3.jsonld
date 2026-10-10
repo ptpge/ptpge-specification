@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/c-series/c3",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "C3 (324 x 458 mm)",
+    "es": "C3 (324 × 458 mm)",
+    "zh-Hans": "C3 (324 × 458 mm)",
+    "nb": "C3 (324 x 458 mm)",
+    "de": "C3 (324 x 458 mm)",
+    "ja": "C3 (324 x 458 mm)",
+    "sv": "C3 (324 x 458 mm)",
+    "da": "C3 (324 x 458 mm)",
+    "nl": "C3 (324 x 458 mm)",
+    "pl": "C3 (324 x 458 mm)",
+    "pt": "C3 (324 x 458 mm)",
+    "hi": "C3 (324 x 458 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§C3",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/c-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "324 × 458 mm (12.76 × 18.03 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A3 sheet flat. Used for large documents and posters delivered without folding.",
+    "nb": "324 × 458 mm (12,76 × 18,03 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A3-ark uten brett. Brukt til store dokumenter og plakater levert uten folding.",
+    "de": "324 × 458 mm (12,76 × 18,03 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen A3-Bogen ungefaltet. Verwendet für große Dokumente und Plakate, die ungefaltet versendet werden.",
+    "ja": "324×458mm（12.76×18.03インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A3シートを折らずに収納。折らずに納品される大型書類およびポスターに使用される。",
+    "es": "Sobre C3 de la serie C de ISO 269, dimensiones 324 × 458 mm. Diseñado para contener una hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C3信封，尺寸324 × 458 mm。设计用于装相同编号的A纸。",
+    "sv": "324 × 458 mm (12.76 × 18.03 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A3-ark plant. Används för stora dokument och affischer som levereras ofalsade.",
+    "da": "324 × 458 mm (12.76 × 18.03 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A3-ark fladt. Bruges til store dokumenter og plakater, der leveres ufalsede.",
+    "nl": "324 × 458 mm (12.76 × 18.03 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een A3-ark vlak. Gebruikt voor stora dokument en plakater som levereras ofalsade.",
+    "pl": "324 × 458 mm (12,76 × 18,03 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A3 na płasko. Używany do dużych dokumentów i plakatów dostarczanych bez składania.",
+    "pt": "324 × 458 mm (12.76 × 18.03 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A3 aberta. Usado em documentos grandes e pôsteres enviados sem dobra.",
+    "hi": "324 × 458 mm (12.76 × 18.03 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A3 शीट सपाट समाती है। बिना मोड़े भेजे जाने वाले बड़े दस्तावेज़ों और पोस्टरों में।"
+  },
+  "properties": {
+    "width": 324,
+    "height": 458,
+    "unit": "mm",
+    "aspectRatio": 1.4136,
+    "standard": "ISO 269",
+    "area": 148392
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "324 x 458 mm",
+      "324x458",
+      "324×458",
+      "32.4 x 45.8 cm",
+      "DIN C3"
+    ],
+    "nb": [
+      "C3-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

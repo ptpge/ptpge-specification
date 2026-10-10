@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/use-cases/marketing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:UC§MARKETING",
+  "elementType": "context",
+  "label": {
+    "en": "Marketing",
+    "nb": "Markedsføring",
+    "de": "Marketing",
+    "ja": "マーケティング",
+    "es": "Marketing",
+    "zh-Hans": "营销",
+    "sv": "Marknadsföring",
+    "da": "Markedsføring",
+    "nl": "Marketing",
+    "pl": "Marketing",
+    "pt": "Marketing",
+    "hi": "मार्केटिंग"
+  },
+  "definition": {
+    "en": "Products used to promote, advertise, or market a business, product, service, or brand to potential customers. Includes brochures, flyers, posters, sales sheets, and promotional mailers used in marketing campaigns.",
+    "nb": "Produkter brukt til å promotere, annonsere eller markedsføre en virksomhet, et produkt, en tjeneste eller et merke til potensielle kunder. Inkluderer brosjyrer, flyere, plakater, salgsark og markedsføringsmaterialer brukt i markedskampanjer.",
+    "de": "Produkte, die zur Bewerbung, Werbung oder Vermarktung eines Unternehmens, Produkts, einer Dienstleistung oder Marke an potenzielle Kunden verwendet werden.",
+    "ja": "見込み客に向けて事業・製品・サービス・ブランドを宣伝・広告・マーケティングするための製品。マーケティングキャンペーンで使うパンフレット、チラシ、ポスター、セールスシート、販促DMを含む。",
+    "es": "Productos usados para promocionar, publicitar o comercializar un negocio, producto, servicio o marca ante clientes potenciales. Incluye folletos, flyers, pósteres, hojas de venta y mailings promocionales usados en campañas de marketing.",
+    "zh-Hans": "用于向潜在客户推广、宣传企业、产品、服务或品牌的产品。包括营销活动中使用的手册、传单、海报、销售单页与促销邮件。",
+    "sv": "Produkter som marknadsför eller annonserar ett företag, en produkt, tjänst eller ett varumärke mot potentiella kunder. Omfattar broschyrer, flygblad, affischer, säljblad och kampanjutskick.",
+    "da": "Produkter brugt til at promovere, annoncere eller markedsføre en virksomhed, et produkt, en tjeneste eller et brand over for potentielle kunder. Omfatter brochurer, flyers, plakater, salgsark og kampagneforsendelser.",
+    "nl": "Producten om een bedrijf, product, dienst of merk te promoten bij potentiële klanten. Omvat brochures, flyers, posters, verkoopbladen en promotionele mailings.",
+    "pl": "Produkty służące promowaniu, reklamowaniu lub sprzedaży firmy, produktu, usługi lub marki potencjalnym klientom. Obejmuje foldery, ulotki, plakaty, karty sprzedażowe i mailingi promocyjne używane w kampaniach marketingowych.",
+    "pt": "Produtos usados para promover, anunciar ou comercializar uma empresa, produto, serviço ou marca junto a clientes potenciais. Inclui folhetos, flyers, pôsteres, folhas de vendas e malas diretas promocionais usados em campanhas de marketing.",
+    "hi": "किसी व्यवसाय, उत्पाद, सेवा या ब्रांड को संभावित ग्राहकों के बीच प्रचारित, विज्ञापित या विपणित करने वाले उत्पाद। मार्केटिंग अभियानों में प्रयुक्त ब्रोशर, फ़्लायर, पोस्टर, सेल्स शीट और प्रचार मेलर शामिल।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "use-cases",
+  "broader": "https://ptpge.org/v1/ordering/use-cases",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/PromoteAction"
+  ]
+}

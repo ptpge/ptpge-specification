@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/knowledge/guides/file-formats-print-ready-pdfs",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:KN§FILE-FORMATS-PRINT-READY-PDFS",
+  "elementType": "resource",
+  "label": {
+    "en": "File Formats & Print Ready PDFs",
+    "nb": "Fil-formater & print-klare PDF-er",
+    "de": "Dateiformate & druckfertige PDFs",
+    "ja": "ファイル形式と印刷用PDF",
+    "es": "Formatos de archivo y PDF listo para imprimir",
+    "zh-Hans": "文件格式与印前 PDF",
+    "sv": "Filformat & tryckfärdiga PDF:er",
+    "da": "Filformater & trykklare PDF’er",
+    "nl": "Bestandsformaten & drukklare PDF’s",
+    "pl": "Formaty plików i PDF-y gotowe do druku",
+    "pt": "Formatos de arquivo e PDFs prontos para impressão",
+    "hi": "फ़ाइल फ़ॉर्मेट और प्रिंट-रेडी PDF"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "knowledge",
+  "broader": "https://ptpge.org/v1/ordering/knowledge/guides",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "related": [
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats"
+  ],
+  "definition": {
+    "en": "File Formats & Print Ready PDFs — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related.",
+    "nb": "File Formats & Print Ready PDFs — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related.",
+    "de": "File Formats & Print Ready PDFs — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe.",
+    "ja": "File Formats & Print Ready PDFs — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。",
+    "es": "File Formats & Print Ready PDFs — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre.",
+    "zh-Hans": "File Formats & Print Ready PDFs——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。",
+    "sv": "Filformat & tryckfärdiga PDF:er — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related.",
+    "da": "Filformater & trykklare PDF’er — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker.",
+    "nl": "Bestandsformaten & drukklare PDF’s — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt.",
+    "pl": "Formaty plików i PDF-y gotowe do druku — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related.",
+    "pt": "Formatos de arquivo e PDFs prontos para impressão — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre.",
+    "hi": "फ़ाइल फ़ॉर्मेट और प्रिंट-रेडी PDF — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"
+  }
+}

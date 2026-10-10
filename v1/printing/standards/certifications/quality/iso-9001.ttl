@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/quality/iso-9001> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "ISO9001"@en,
+        "quality management"@en,
+        "ISO9001"@hi,
+        "गुणवत्ता प्रबंधन"@hi,
+        "ISO9001"@pl,
+        "zarządzanie jakością"@pl,
+        "ISO9001"@pt,
+        "gestão da qualidade"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/quality> ;
+    skos:definition "ISO-standard for kvalitetsledelsessystemer, anvendelig for enhver organisation uanset størrelse eller sektor — certificerer at dokumenterede kvalitetsprocesser er på plads og løbende forbedres."@da,
+        "ISO-Norm für Qualitätsmanagementsysteme, anwendbar auf jede Organisation unabhängig von Größe oder Branche — zertifiziert, dass dokumentierte Qualitätsprozesse vorhanden sind und kontinuierlich verbessert werden."@de,
+        "ISO standard for quality management systems, applicable to any organization regardless of size or sector — certifying that documented quality processes are in place and continually improved."@en,
+        "Norma internacional para sistemas de gestión de calidad, aplicable a cualquier organización, incluidas las imprentas. Certifica un enfoque documentado y consistente para satisfacer los requisitos del cliente y la mejora continua."@es,
+        "गुणवत्ता प्रबंधन प्रणालियों का ISO मानक, आकार या क्षेत्र की परवाह किए बिना किसी भी संगठन पर लागू — प्रमाणित करता है कि दस्तावेज़ीकृत गुणवत्ता प्रक्रियाएँ लागू हैं और निरंतर सुधारी जाती हैं।"@hi,
+        "品質マネジメントシステムに関するISO規格。組織の規模や業種に関わらず適用可能であり、文書化された品質プロセスが整備され継続的に改善されていることを認証する。"@ja,
+        "ISO-standard for kvalitetsledelsessystemer, gyldig for enhver organisasjon uavhengig av størrelse eller sektor — sertifiserer at dokumenterte kvalitetsprosesser er på plass og kontinuerlig forbedres."@nb,
+        "ISO-standaard voor kwaliteitsmanagementsystemen, toepasbaar op elke organisatie ongeacht omvang of sector — certificeert dat gedocumenteerde kwaliteitsprocessen aanwezig zijn en continu verbeteren."@nl,
+        "Norma ISO dotycząca systemów zarządzania jakością, mająca zastosowanie do każdej organizacji niezależnie od wielkości czy sektora — certyfikująca, że udokumentowane procesy jakości są wdrożone i ciągle doskonalone."@pl,
+        "Norma ISO para sistemas de gestão da qualidade, aplicável a qualquer organização independentemente de porte ou setor — certifica que processos de qualidade documentados estão em vigor e são continuamente melhorados."@pt,
+        "ISO-standard för kvalitetsledningssystem, tillämplig på alla organisationer oavsett storlek eller sektor — certifierar att dokumenterade kvalitetsprocesser finns på plats och förbättras kontinuerligt."@sv,
+        "质量管理体系的国际标准，适用于任何组织，包括印刷厂。认证以记录化、一致的方法满足客户要求并持续改进。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§ISO-9001" ;
+    skos:prefLabel "ISO 9001"@da,
+        "ISO 9001"@de,
+        "ISO 9001"@en,
+        "ISO 9001"@es,
+        "ISO 9001"@hi,
+        "ISO 9001"@ja,
+        "ISO 9001"@nb,
+        "ISO 9001"@nl,
+        "ISO 9001"@pl,
+        "ISO 9001"@pt,
+        "ISO 9001"@sv,
+        "ISO 9001"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

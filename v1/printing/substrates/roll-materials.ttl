@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/roll-materials> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "materiały w roli"@pl,
+        "role"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/substrates> ;
+    skos:definition "Kontinuerlige banesubstrater leveret på ruller — bruges i højvolumenproduktion, hvor arkbaseret tryk ville være ineffektivt."@da,
+        "Endlos-Bedruckstoffe in Rollen — eingesetzt in der Hochvolumenproduktion, in der Bogendruck unwirtschaftlich wäre."@de,
+        "Continuous-web substrates supplied in rolls — used in high-volume production where sheet-fed printing would be inefficient."@en,
+        "Sustratos en banda continua suministrados en bobinas — utilizados en producción de alto volumen donde la impresión en hojas resultaría ineficiente."@es,
+        "रोल में दिए जाने वाले सतत वेब सब्सट्रेट — उच्च-मात्रा उत्पादन में जहाँ शीट-फ़ेड छपाई अकुशल होगी।"@hi,
+        "ロールで供給される連続ウェブ基材 — シートフェッド印刷では非効率な大量生産で使用される。"@ja,
+        "Kontinuerlige rullsubstrater levert på rull — brukt i høyvolum-produksjon der ark-mating ville vært ineffektivt."@nb,
+        "Doorlopende baansubstraten geleverd op rollen — gebruikt in hoogvolumeproductie waar vellendruk inefficiënt zou zijn."@nl,
+        "Podłoża ciągłe dostarczane w rolach — używane w produkcji wysokonakładowej, gdzie druk arkuszowy byłby nieefektywny."@pl,
+        "Substratos em bobina contínua fornecidos em rolos — usados em produção de alto volume onde a impressão em folha seria ineficiente."@pt,
+        "Substrat i löpande bana levererade på rulle — används i högvolymproduktion där arkmatat tryck vore ineffektivt."@sv,
+        "以卷筒形式供应的连续幅承印物——用于高产量生产，平张印刷效率不足时。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/roll-materials/canvas>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/cardboard>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/corrugated-roll>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/foil>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/paper>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/textile>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/vinyl> ;
+    skos:notation "P:SB-ROL" ;
+    skos:prefLabel "Rullematerialer"@da,
+        "Rollenmaterialien"@de,
+        "Roll Materials"@en,
+        "Materiales en Bobina"@es,
+        "रोल सामग्री"@hi,
+        "ロール基材"@ja,
+        "Rull-materialer"@nb,
+        "Rolmaterialen"@nl,
+        "Materiały zwojowe"@pl,
+        "Materiais em rolo"@pt,
+        "Rullmaterial"@sv,
+        "卷材"@zh-Hans ;
+    skos:scopeNote "Umfasst Papier, Karton, Wellpappe, Folie, Vinyl, Leinwand und Textilrollen. Verwendet für Zeitungen, Verpackungen, Großformatdrucke, Banner, Fahrzeugbeschriftungen und Etiketten. Rollen-Druckmaschinen sind typischerweise Rollen-Offset, Flexo oder Großformat-Tintenstrahl."@de,
+        "Includes paper, cardboard, corrugated, foil, vinyl, canvas, and textile rolls. Used for newspapers, packaging, wide-format prints, banners, vehicle wraps, and labels. Roll-fed presses are typically web-offset, flexographic, or wide-format inkjet."@en,
+        "Incluye bobinas de papel, cartón, ondulado, foil, vinilo, lona y textil. Utilizados para periódicos, embalaje, impresión de gran formato, banderolas, vinilos para vehículos y etiquetas. Las prensas alimentadas por bobina suelen ser web-fed."@es,
+        "काग़ज़, गत्ता, कोरुगेटेड, फ़ॉइल, विनाइल, कैनवास और कपड़े के रोल शामिल। अख़बारों, पैकेजिंग, वाइड-फॉर्मेट प्रिंट, बैनर, वाहन रैप और लेबल में। रोल-फ़ेड प्रेस आमतौर पर वेब-ऑफसेट, फ़्लेक्सोग्राफ़िक या वाइड-फॉर्मेट इंकजेट होती हैं।"@hi,
+        "紙、段ボール、コルゲート、箔、ビニール、キャンバス、テキスタイルロールを含む。新聞、パッケージ、大判印刷、バナー、車両ラッピング、ラベルに使用される。ロールフェッド印刷機は通常、輪転オフセット、フレキソ、大判インクジェット。"@ja,
+        "Inkluderer rullet papir, papp, bølgepapp, folie, vinyl, lerret og tekstil. Brukt til aviser, emballasje, storformat-trykk, bannere, kjøretøy-wraps og etiketter. Rull-matede presser er typisk web-offset, fleksografi eller storformat-inkjet."@nb,
+        "Inclui rolos de papel, cartão, ondulado, filme, vinil, canvas e tecido. Usados em jornais, embalagens, impressos de grande formato, banners, envelopamento de veículos e etiquetas. As impressoras rotativas são normalmente offset rotativa, flexográfica ou jato de tinta de grande formato."@pt,
+        "包括纸、纸板、瓦楞、铝箔、乙烯基、帆布和纺织品卷材。用于报纸、包装、大幅面印刷、横幅、车辆贴膜和标签。卷筒喂纸印刷机通常是连续输纸型。"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 31" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

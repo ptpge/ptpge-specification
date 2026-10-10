@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/baumfolder",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Baumfolder (Baum)",
+    "es": "Baumfolder",
+    "zh-Hans": "Baumfolder",
+    "nb": "Baumfolder (Baum)",
+    "de": "Baumfolder (Baum)",
+    "ja": "Baumfolder (Baum)",
+    "sv": "Baumfolder (Baum)",
+    "da": "Baumfolder (Baum)",
+    "nl": "Baumfolder (Baum)",
+    "pl": "Baumfolder (Baum)",
+    "pt": "Baumfolder (Baum)",
+    "hi": "Baumfolder (Baum)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Baumfolder Corporation — American manufacturer of paper-folding equipment, widely used in print finishing for brochures, leaflets, and direct mail.",
+    "nb": "Baumfolder Corporation — amerikansk produsent av papirfolde-utstyr, mye brukt i trykk-etterbehandling for brosjyrer, flyers og direktreklame.",
+    "de": "Baumfolder Corporation — US-amerikanischer Hersteller von Falzmaschinen, weit verbreitet in der Druckweiterverarbeitung für Broschüren, Flyer und Direktwerbung.",
+    "ja": "Baumfolder Corporation — 米国の紙折り機メーカー。ブローシュア、リーフレット、ダイレクトメールの印刷後加工で広く使用されている。",
+    "es": "Baumfolder Corporation — fabricante estadounidense de plegadoras industriales para producción de impresión comercial.",
+    "zh-Hans": "Baumfolder Corporation —— 美国商业印刷生产用工业折页机制造商。",
+    "sv": "Baumfolder Corporation — amerikansk tillverkare av falsmaskiner, brett använd i efterbehandling för broschyrer, foldrar och direktreklam.",
+    "da": "Baumfolder Corporation — amerikansk producent af falsemaskiner, bredt anvendt i efterbehandling til brochurer, foldere og direct mail.",
+    "nl": "Baumfolder Corporation — Amerikaanse fabrikant van vouwmachines, breed gebruikt in afwerking voor brochures, folders en direct mail.",
+    "pl": "Baumfolder Corporation — amerykański producent urządzeń do składania papieru, szeroko używanych w wykończeniu druku broszur, ulotek i direct mail.",
+    "pt": "Baumfolder Corporation — fabricante americano de dobradeiras de papel, muito usadas no acabamento de folhetos, panfletos e mala direta.",
+    "hi": "Baumfolder Corporation — काग़ज़ फ़ोल्डिंग उपकरणों का अमेरिकी निर्माता, ब्रोशर, लीफ़लेट और डायरेक्ट मेल की फ़िनिशिंग में व्यापक रूप से प्रयुक्त।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-BAUM",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

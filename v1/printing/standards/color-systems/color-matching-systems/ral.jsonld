@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/ral",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "RAL",
+    "sv": "RAL",
+    "da": "RAL",
+    "nl": "RAL",
+    "pl": "RAL",
+    "pt": "RAL",
+    "hi": "RAL"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§RAL",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "RAL — German colour standard for paint, coatings and industrial finishes, and the common reference for signage and fabricated surfaces. A print job meets RAL when it is asked to MATCH a coated surface (a sign face, a fitted panel), and the code is converted to process or spot colour for reproduction. Not an ink library to order from.",
+    "nb": "RAL — tysk fargestandard for maling, belegg og industrielle overflater, og den vanlige referansen for skilt og produserte flater. Et trykk møter RAL når det skal TREFFE en belagt flate (en skiltplate, et montert panel), og koden omregnes til prosess- eller spotfarge. Ikke et blekkbibliotek å bestille fra.",
+    "de": "RAL-Farbsystem, verbreitet in Beschilderung, Beschichtungen und Industrieanwendungen.",
+    "es": "Sistema de colores RAL, común en señalización, recubrimientos y aplicaciones industriales.",
+    "ja": "サイン、塗装、産業用途で一般的な RAL カラーシステム。",
+    "zh-Hans": "RAL 色彩系统，常见于标识、涂料与工业应用。",
+    "sv": "RAL-färgmatchningssystem, vanligt inom skyltning, ytbeläggningar och industriella tillämpningar.",
+    "da": "RAL-farvematchsystem, almindeligt inden for skiltning, overfladebehandling og industrielle anvendelser.",
+    "nl": "RAL-kleurmatchsysteem, gebruikelijk in signalisatie, coatings en industriële toepassingen.",
+    "pl": "RAL — niemiecki standard barw dla farb malarskich, powłok i wykończeń przemysłowych oraz powszechne odniesienie dla oznakowania i powierzchni wytwarzanych. Zlecenie drukarskie spotyka RAL, gdy ma DOPASOWAĆ się do powlekanej powierzchni (lico szyldu, zamontowany panel), a kod jest konwertowany na kolor procesowy lub dodatkowy do reprodukcji. Nie jest biblioteką farb do zamawiania.",
+    "pt": "RAL — norma alemã de cor para tintas, revestimentos e acabamentos industriais, e a referência comum para sinalização e superfícies fabricadas. Um trabalho impresso atende ao RAL quando lhe pedem para CORRESPONDER a uma superfície revestida (a face de uma placa, um painel instalado), e o código é convertido em cor de processo ou especial para reprodução. Não é uma biblioteca de tintas para encomendar.",
+    "hi": "RAL — पेंट, कोटिंग और औद्योगिक फ़िनिश का जर्मन रंग मानक, और साइनेज व निर्मित सतहों का आम संदर्भ। प्रिंट जॉब RAL तब पूरा करता है जब उसे किसी कोटेड सतह (साइन का फ़ेस, फ़िट किया पैनल) से मिलान करने को कहा जाए, और कोड पुनरुत्पादन के लिए प्रोसेस या स्पॉट रंग में बदला जाता है। ऑर्डर करने का स्याही पुस्तकालय नहीं।"
+  },
+  "altLabels": {
+    "en": [
+      "RAL colours",
+      "RAL Classic"
+    ],
+    "pl": [
+      "kolory RAL",
+      "RAL Classic"
+    ],
+    "pt": [
+      "cores RAL",
+      "RAL Classic"
+    ],
+    "hi": [
+      "RAL रंग",
+      "RAL Classic"
+    ]
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "properties": {
+    "systemRole": "surface-standard"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

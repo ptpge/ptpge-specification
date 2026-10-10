@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/sappi> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers> ;
+    skos:definition "Global papirproducent med base i Sydafrika og store europæiske og nordamerikanske aktiviteter — leverer bestrøgne papirer og specialpapirer til kommercielt tryk, emballage og grafisk industri."@da,
+        "Globaler Papierhersteller mit Sitz in Südafrika und großen europäischen und nordamerikanischen Werken — liefert gestrichene und Spezialpapiere für gewerblichen Druck, Verpackungen und Grafikbranche."@de,
+        "Global paper manufacturer based in South Africa with major European and North American operations — supplies coated and specialty papers for commercial printing, packaging, and graphic arts."@en,
+        "Sappi Limited — proveedor global de papeles comerciales y especiales, con marcas reconocidas en pre-prensa y producción premium."@es,
+        "दक्षिण अफ़्रीका स्थित वैश्विक काग़ज़ निर्माता, यूरोप और उत्तर अमेरिका में बड़े परिचालन — व्यावसायिक छपाई, पैकेजिंग और ग्राफ़िक आर्ट्स के लिए कोटेड और विशेष काग़ज़ों की आपूर्ति।"@hi,
+        "南アフリカに本社を置き、欧州および北米に主要拠点を持つグローバル紙メーカー — 商業印刷、パッケージ、グラフィックアーツ向けの塗工紙および特殊紙を供給する。"@ja,
+        "Global papirprodusent basert i Sør-Afrika med store europeiske og nordamerikanske virksomheter — leverer belagte og spesialpapirer til kommersiell trykk, emballasje og grafiske kunst."@nb,
+        "Wereldwijde papierfabrikant met basis in Zuid-Afrika en grote Europese en Noord-Amerikaanse activiteiten — levert gestreken en speciaalpapieren voor commercieel drukwerk, verpakkingen en grafische toepassingen."@nl,
+        "Globalny producent papieru z siedzibą w RPA, z dużymi operacjami w Europie i Ameryce Północnej — dostarcza papiery powlekane i specjalne do druku komercyjnego, opakowań i sztuk graficznych."@pl,
+        "Fabricante global de papel sediado na África do Sul, com grandes operações na Europa e na América do Norte — fornece papéis revestidos e especiais para impressão comercial, embalagem e artes gráficas."@pt,
+        "Global papperstillverkare med säte i Sydafrika och stora verksamheter i Europa och Nordamerika — levererar bestrukna papper och specialpapper för civiltryck, förpackningar och grafisk industri."@sv,
+        "Sappi Limited —— 全球商业和特种纸供应商，在印前和高端生产中有知名品牌。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB-SHT-PAPR-PSUP-SAPP" ;
+    skos:prefLabel "Sappi"@da,
+        "Sappi"@de,
+        "Sappi"@en,
+        "Sappi"@es,
+        "Sappi"@hi,
+        "Sappi"@ja,
+        "Sappi"@nb,
+        "Sappi"@nl,
+        "Sappi"@pl,
+        "Sappi"@pt,
+        "Sappi"@sv,
+        "Sappi"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,49 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/order",
+  "type": "skos:Concept",
+  "version": "2026-09-20",
+  "status": "proposed",
+  "notation": "VAR:OR",
+  "level": "group",
+  "label": {
+    "en": "Order",
+    "nb": "Bestilling",
+    "de": "Bestellung",
+    "es": "Pedido",
+    "ja": "注文",
+    "zh-Hans": "订购",
+    "sv": "Order",
+    "da": "Ordre",
+    "nl": "Order",
+    "pl": "Zamówienie",
+    "pt": "Pedido",
+    "hi": "ऑर्डर"
+  },
+  "definition": {
+    "en": "Commercial configuration variables — the commercial axes a printed product can be configured along.",
+    "nb": "Kommersiell konfigurasjonsvariabler — kommersiell-aksene et trykkprodukt kan konfigureres langs.",
+    "de": "Kommerzielle Konfigurationsvariablen — die kommerziellen Achsen, entlang derer ein Druckprodukt konfiguriert werden kann.",
+    "es": "Variables de configuración de comercio — los ejes de comercio a lo largo de los cuales puede configurarse un producto impreso.",
+    "ja": "商取引の構成変数 — 印刷物を構成できる商取引の軸。",
+    "zh-Hans": "商务配置变量 — 印刷品可沿其配置的商务轴。",
+    "sv": "Kommersiella konfigurationsvariabler — de kommersiella axlar en trycksak kan konfigureras längs.",
+    "da": "Kommercielle konfigurationsvariabler — de kommercielle akser et trykt produkt kan konfigureres langs.",
+    "nl": "Commerciële configuratievariabelen — de commerciële assen waarlangs een drukproduct kan worden geconfigureerd.",
+    "pl": "Zmienne konfiguracyjne handlowe — osie handlowe, wzdłuż których można skonfigurować produkt drukowany.",
+    "pt": "Variáveis de configuração comercial — os eixos comerciais ao longo dos quais um impresso pode ser configurado.",
+    "hi": "व्यावसायिक कॉन्फ़िगरेशन वेरिएबल — वे व्यावसायिक अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables",
+  "narrower": [
+    "https://ptpge.org/v1/variables/order/quantity",
+    "https://ptpge.org/v1/variables/order/delivery-method",
+    "https://ptpge.org/v1/variables/order/incoterm",
+    "https://ptpge.org/v1/variables/order/lead-time"
+  ],
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {}
+}

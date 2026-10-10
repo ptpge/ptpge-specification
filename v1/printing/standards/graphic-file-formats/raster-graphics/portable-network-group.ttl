@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/portable-network-group> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".png"@en,
+        "PNG"@en,
+        ".png"@hi,
+        "PNG"@hi,
+        ".png"@pl,
+        "PNG"@pl,
+        ".png"@pt,
+        "PNG"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics> ;
+    skos:definition "PNG (.png) — ISO/IEC 15948-standard for tabsfri rasterbilledkomprimering med understøttelse af transparens, designet som patentfrit alternativ til GIF."@da,
+        "PNG (.png) — ISO/IEC-Standard 15948 für verlustfreie Rasterbild-Kompression mit Transparenz-Unterstützung, als patentfreie Alternative zu GIF entwickelt."@de,
+        "PNG (.png) — ISO/IEC 15948 standard for lossless raster image compression with support for transparency, designed as a patent-free alternative to GIF."@en,
+        "Portable Network Graphics — formato raster de compresión sin pérdida (ISO 15948) con soporte de transparencia. Adecuado para gráficos web con áreas planas."@es,
+        "PNG (.png) — पारदर्शिता समर्थन के साथ हानिरहित रास्टर छवि संपीड़न का ISO/IEC 15948 मानक, GIF के पेटेंट-मुक्त विकल्प के रूप में डिज़ाइन किया गया।"@hi,
+        "PNG（.png）— 透明度をサポートするラスター画像の可逆圧縮に関するISO/IEC 15948規格。GIFの特許なし代替として設計された。"@ja,
+        "PNG (.png) — ISO/IEC 15948-standarden for tapsfri rasterbildekomprimering med støtte for transparens, utviklet som et patentfritt alternativ til GIF."@nb,
+        "PNG (.png) — ISO/IEC 15948-standaard voor verliesloze rasterbeeldcompressie met transparantieondersteuning, ontworpen als patentvrij alternatief voor GIF."@nl,
+        "PNG (.png) — norma ISO/IEC 15948 bezstratnej kompresji obrazów rastrowych z obsługą przezroczystości, zaprojektowana jako wolna od patentów alternatywa dla GIF."@pl,
+        "PNG (.png) — norma ISO/IEC 15948 para compressão sem perdas de imagens raster com suporte a transparência, projetada como alternativa livre de patentes ao GIF."@pt,
+        "PNG (.png) — ISO/IEC 15948-standard för förlustfri rasterbildkomprimering med stöd för transparens, designad som patentfritt alternativ till GIF."@sv,
+        "Portable Network Graphics —— 支持透明度的无损压缩位图格式（ISO 15948）。适合带平涂区域的网页图形。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PORTABLE-NETWORK-GROUP" ;
+    skos:prefLabel "PNG (.png)"@da,
+        "Portable Network Group (.png)"@de,
+        "Portable Network Group (.png)"@en,
+        "PNG (.png)"@es,
+        "Portable Network Group (.png)"@hi,
+        "Portable Network Group (.png)"@ja,
+        "Portable Network Group (.png)"@nb,
+        "PNG (.png)"@nl,
+        "Portable Network Group (.png)"@pl,
+        "Portable Network Group (.png)"@pt,
+        "PNG (.png)"@sv,
+        "PNG (.png)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

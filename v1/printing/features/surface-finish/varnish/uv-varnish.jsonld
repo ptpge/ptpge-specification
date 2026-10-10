@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/varnish/uv-varnish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:FT§UV-VARNISH",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "UV Varnish",
+    "nb": "UV-lakk",
+    "de": "UV-Lack",
+    "ja": "UV Varnish",
+    "es": "UV Varnish",
+    "zh-Hans": "UV Varnish",
+    "sv": "UV-lack",
+    "da": "UV-lak",
+    "nl": "UV-lak",
+    "pl": "Lakier UV",
+    "pt": "Verniz UV",
+    "hi": "UV वार्निश"
+  },
+  "definition": {
+    "en": "A high-gloss varnish cured instantly under ultraviolet light.",
+    "nb": "Høyglans-lakk herdet umiddelbart under UV-lys.",
+    "de": "Hochglänzender, sofort unter UV-Licht ausgehärteter Lack.",
+    "ja": "紫外線で瞬時に硬化する高光沢ニス。",
+    "es": "Un barniz de alto brillo curado instantáneamente con luz ultravioleta.",
+    "zh-Hans": "在紫外光下瞬间固化的高光上光油。",
+    "sv": "En högglanslack som härdas omedelbart under ultraviolett ljus.",
+    "da": "En højglanslak, der hærdes øjeblikkeligt under ultraviolet lys.",
+    "nl": "Een hoogglanslak die onmiddellijk uithardt onder ultraviolet licht.",
+    "pl": "Lakier o wysokim połysku utwardzany natychmiast pod światłem ultrafioletowym.",
+    "pt": "Verniz de alto brilho curado instantaneamente sob luz ultravioleta.",
+    "hi": "पराबैंगनी प्रकाश में तुरंत क्योर होने वाला उच्च-चमक वार्निश।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/varnish",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "UV coating",
+      "UV lacquer"
+    ],
+    "nb": [
+      "UV-lakk",
+      "UV-lakkering"
+    ],
+    "pl": [
+      "lakierowanie UV",
+      "powłoka UV"
+    ],
+    "pt": [
+      "verniz UV",
+      "revestimento UV",
+      "laca UV"
+    ],
+    "hi": [
+      "UV कोटिंग",
+      "UV लैकर",
+      "UV वार्निशिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ]
+}

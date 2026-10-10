@@ -1,0 +1,274 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/fine-art",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§FINE-ART",
+  "elementType": "product",
+  "label": {
+    "en": "Fine Art prints",
+    "nb": "Kunsttrykk",
+    "de": "Kunstdrucke",
+    "ja": "ファインアートプリント",
+    "es": "Impresiones de bellas artes",
+    "zh-Hans": "艺术微喷作品",
+    "nl": "Fine-art prints",
+    "sv": "Konsttryck",
+    "da": "Kunsttryk",
+    "pl": "Reprodukcje artystyczne",
+    "pt": "Impressões fine art",
+    "hi": "फ़ाइन आर्ट प्रिंट"
+  },
+  "altLabels": {
+    "en": [
+      "fine art print",
+      "giclee print",
+      "art print",
+      "archival print",
+      "fine art reproduction",
+      "metal print",
+      "Art prints",
+      "Art print",
+      "Giclée prints",
+      "Giclee prints",
+      "Fine art prints",
+      "Photo prints",
+      "Photographic prints"
+    ],
+    "nb": [
+      "kunsttrykk",
+      "kunstgjengivelse",
+      "metalltrykk",
+      "Kunsttrykk",
+      "Giclée-trykk"
+    ],
+    "de": [
+      "Kunstdrucke",
+      "Kunstdruck",
+      "Fine-Art-Drucke",
+      "Galeriedrucke"
+    ],
+    "pl": [
+      "wydruk artystyczny",
+      "wydruk giclée",
+      "art print",
+      "wydruk archiwalny",
+      "odbitka fotograficzna",
+      "wydruk na metalu"
+    ],
+    "sv": [
+      "giclée-tryck",
+      "konstprint",
+      "arkivtryck"
+    ],
+    "da": [
+      "giclée-tryk",
+      "kunstprint",
+      "arkivtryk"
+    ],
+    "nl": [
+      "fine-art print",
+      "giclée-print",
+      "kunstprint",
+      "kunstdruk",
+      "archiefprint"
+    ],
+    "pt": [
+      "impressão fine art",
+      "impressão giclée",
+      "impressão de arte",
+      "reprodução de arte",
+      "impressão arquivística",
+      "impressão fotográfica",
+      "impressão em metal"
+    ],
+    "hi": [
+      "फ़ाइन आर्ट प्रिंट",
+      "जिक्ली प्रिंट",
+      "आर्ट प्रिंट",
+      "कला प्रिंट",
+      "अभिलेखीय प्रिंट",
+      "फ़ोटो प्रिंट",
+      "मेटल प्रिंट"
+    ],
+    "es": [
+      "impresión de arte",
+      "impresión giclée",
+      "reproducción de arte",
+      "impresión de archivo",
+      "impresión fotográfica",
+      "impresión en metal"
+    ],
+    "ja": [
+      "アートプリント",
+      "ジクレープリント",
+      "美術複製",
+      "版画",
+      "写真プリント",
+      "メタルプリント"
+    ],
+    "zh-Hans": [
+      "艺术印刷品",
+      "复制画",
+      "收藏级打印",
+      "照片打印",
+      "金属画"
+    ]
+  },
+  "definition": {
+    "en": "An archival fine-art reproduction printed with pigment inkjet (the giclée technique) on fine-art paper, canvas or rigid media — for artists, galleries, photographers and collectors. Giclée and metal/ChromaLuxe are production techniques/substrates, not separate products.",
+    "nb": "En arkivbestandig kunstgjengivelse trykt med pigment-blekkskriver (giclée-teknikken) på kunstpapir, lerret eller rigid media — for kunstnere, gallerier, fotografer og samlere. Giclée og metall/ChromaLuxe er produksjonsteknikker/substrater, ikke egne produkter.",
+    "de": "Eine archivfeste Kunstreproduktion, gedruckt mit Pigment-Inkjet (Giclée-Technik) auf Künstlerpapier, Leinwand oder starren Medien — für Künstler, Galerien, Fotografen und Sammler.",
+    "ja": "An archival fine-art reproduction printed with pigment inkjet (the giclée technique) on fine-art paper, canvas or rigid media — for artists, galleries, photographers and collectors.",
+    "es": "An archival fine-art reproduction printed with pigment inkjet (the giclée technique) on fine-art paper, canvas or rigid media — for artists, galleries, photographers and collectors.",
+    "zh-Hans": "An archival fine-art reproduction printed with pigment inkjet (the giclée technique) on fine-art paper, canvas or rigid media — for artists, galleries, photographers and collectors.",
+    "sv": "En arkivbeständig konstreproduktion tryckt med pigmentbläck (giclée-teknik) på konstpapper, canvas eller styva medier — för konstnärer, gallerier, fotografer och samlare. Giclée och metall/ChromaLuxe är produktionstekniker/substrat, inte separata produkter.",
+    "da": "En arkivbestandig kunstreproduktion trykt med pigment-inkjet (giclée-teknikken) på kunstpapir, kanvas eller stive medier — til kunstnere, gallerier, fotografer og samlere. Giclée og metal/ChromaLuxe er produktionsteknikker/substrater, ikke selvstændige produkter.",
+    "nl": "Een archiefbestendige kunstreproductie gedrukt met pigment-inkjet (de giclée-techniek) op kunstpapier, canvas of harde dragers — voor kunstenaars, galerieën, fotografen en verzamelaars.",
+    "pl": "Archiwalna reprodukcja artystyczna drukowana pigmentowym atramentem (technika giclée) na papierze artystycznym, płótnie lub podłożu sztywnym — dla artystów, galerii, fotografów i kolekcjonerów. Giclée oraz metal/ChromaLuxe to techniki produkcji i podłoża, nie osobne produkty.",
+    "pt": "Reprodução fine art de qualidade arquivística, impressa com jato de tinta pigmentada (técnica giclée) em papel fine art, canvas ou mídia rígida — para artistas, galerias, fotógrafos e colecionadores. Giclée e metal/ChromaLuxe são técnicas de produção/substratos, não produtos separados.",
+    "hi": "पिगमेंट इंकजेट (जिक्ली तकनीक) से फ़ाइन-आर्ट काग़ज़, कैनवास या कठोर माध्यम पर मुद्रित अभिलेखीय गुणवत्ता की कला-प्रतिकृति — कलाकारों, गैलरियों, फ़ोटोग्राफ़रों और संग्राहकों के लिए। जिक्ली और मेटल/ChromaLuxe उत्पादन तकनीक/सब्सट्रेट हैं, अलग उत्पाद नहीं।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a2",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-a",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-b",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-c",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-d",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-e"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+    "https://ptpge.org/v1/printing/configurations/orientation/square"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/giclee",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/canvas"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/specialized-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "customSizeRange": {
+    "min": 100,
+    "max": 2000,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/roll-materials/foil> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Film"@en,
+        "Metallic foil"@en,
+        "पन्नी"@hi,
+        "फ़िल्म"@hi,
+        "मेटैलिक फ़ॉइल"@hi,
+        "Folie"@nb,
+        "film"@pl,
+        "folia metaliczna"@pl,
+        "filme metalizado"@pt,
+        "foil metálico"@pt,
+        "película"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/roll-materials> ;
+    skos:definition "Tynd metallisk eller metalliseret polymerfilm leveret på ruller — bruges til folieprægning, holografiske effekter og reflekterende emballage."@da,
+        "Dünne metallische oder metallisierte Polymerfolien in Rollen — eingesetzt für Folienprägung, holografische Effekte und reflektierende Verpackungsanwendungen."@de,
+        "Thin metallic or metallized polymer film supplied on rolls — used for foil stamping, holographic effects, and reflective packaging applications."@en,
+        "Lámina metálica o metalizada en bobina, utilizada en packaging flexible, envoltorios alimentarios y etiquetas premium."@es,
+        "रोल में दी जाने वाली पतली धातु या धातु-लेपित पॉलिमर फ़िल्म — फ़ॉइल स्टैंपिंग, होलोग्राफ़िक प्रभाव और परावर्तक पैकेजिंग में।"@hi,
+        "ロールで供給される薄い金属または金属化ポリマーフィルム — 箔押し、ホログラム効果、反射性のあるパッケージ用途に使用される。"@ja,
+        "Tynn metallisk eller metallisert polymerfilm levert på rull — brukt til foliepreging, holografiske effekter og reflekterende emballasjeanvendelser."@nb,
+        "Dunne metallische of gemetalliseerde polymeerfilm op rollen — gebruikt voor foliedruk, holografische effecten en reflecterende verpakkingstoepassingen."@nl,
+        "Cienka folia metaliczna lub metalizowana folia polimerowa dostarczana w rolach — używana do tłoczenia folią, efektów holograficznych i odbijających zastosowań opakowaniowych."@pl,
+        "Filme polimérico fino metálico ou metalizado fornecido em rolos — usado em hot stamping, efeitos holográficos e embalagens reflexivas."@pt,
+        "Tunn metallisk eller metalliserad polymerfilm på rulle — används för folieprägling, holografiska effekter och reflekterande förpackningstillämpningar."@sv,
+        "卷筒金属或金属化箔，用于软包装、食品包装和高级标签。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§FOIL" ;
+    skos:prefLabel "Folie"@da,
+        "Folie"@de,
+        "Foil"@en,
+        "Foil (Lámina)"@es,
+        "फ़ॉइल"@hi,
+        "箔・フィルム"@ja,
+        "Folie"@nb,
+        "Folie"@nl,
+        "Folia"@pl,
+        "Filme (foil)"@pt,
+        "Folie"@sv,
+        "铝箔（卷材）"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 31" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

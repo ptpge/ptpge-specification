@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-light-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Newsprint Weight"@en,
+        "Thin Paper"@en,
+        "न्यूज़प्रिंट वज़न"@hi,
+        "पतला काग़ज़"@hi,
+        "हल्का काग़ज़"@hi,
+        "Tynt papir"@nb,
+        "gramatura gazetowa"@pl,
+        "papier cienki"@pl,
+        "gramatura de jornal"@pt,
+        "papel fino"@pt,
+        "papel leve"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:definition "Papir i området 40–79 g/m² — avispapir, lette publikationspapirer og økonomisk kontorpapir. Så gennemsigtigt, at dobbeltsidet tryk kan skinne igennem."@da,
+        "Papier im Bereich 40–79 g/m² — Zeitungspapier, leichte Publikationspapiere und wirtschaftliches Bürodruckpapier. Lichtdurchlässig genug, dass beidseitiger Druck durchscheinen kann."@de,
+        "Paper in the 40–79 gsm range — newsprint, lightweight publication papers, and economical office paper. Translucent enough that double-sided printing may show through."@en,
+        "Papel de gramaje extra ligero, 40–79 gsm — papel de prensa, publicaciones ligeras y revistas económicas."@es,
+        "40–79 GSM रेंज का काग़ज़ — न्यूज़प्रिंट, हल्के प्रकाशन काग़ज़ और किफ़ायती ऑफ़िस काग़ज़। इतना पारभासी कि दो-तरफ़ा छपाई आर-पार दिख सकती है।"@hi,
+        "40〜79gsmの坪量範囲の紙 — 新聞用紙、軽量出版用紙、経済的なオフィス用紙。両面印刷で透けて見える可能性があるほど薄い。"@ja,
+        "Papir i området 40–79 gsm — avispapir, lette publikasjonspapirer og økonomiske kontorpapirer. Tilstrekkelig gjennomskinnelig til at tosidig trykk kan synes gjennom."@nb,
+        "Papier in het bereik 40–79 g/m² — krantenpapier, lichte publicatiepapieren en economisch kantoorpapier. Zo doorschijnend dat dubbelzijdig drukwerk kan doorschemeren."@nl,
+        "Papier w zakresie 40–79 g/m² — papier gazetowy, lekkie papiery publikacyjne i ekonomiczny papier biurowy. Na tyle prześwitujący, że druk dwustronny może przebijać."@pl,
+        "Papel na faixa de 40–79 g/m² — papel jornal, papéis leves de publicação e papel de escritório econômico. Translúcido o bastante para que a impressão frente e verso possa transparecer."@pt,
+        "Papper i intervallet 40–79 g/m² — tidningspapper, lätta publikationspapper och ekonomiskt kontorspapper. Så genomskinligt att dubbelsidigt tryck kan lysa igenom."@sv,
+        "超轻克重纸，40–79克 —— 新闻纸、轻量出版物和经济杂志。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§EXTRA-LIGHT-PAPER" ;
+    skos:prefLabel "Ekstra let papir (40–79 g/m²)"@da,
+        "Extra leichtes Papier (40–79 g/m²)"@de,
+        "Extra Light Paper (40–79 gsm)"@en,
+        "Papel Extra Ligero (40–79 gsm)"@es,
+        "एक्स्ट्रा लाइट काग़ज़ (40–79 GSM)"@hi,
+        "超軽量紙（40〜79 gsm）"@ja,
+        "Ekstra lett papir (40–79 g/m²)"@nb,
+        "Extra licht papier (40–79 g/m²)"@nl,
+        "Papier bardzo lekki (40–79 g/m²)"@pl,
+        "Papel extra leve (40–79 g/m²)"@pt,
+        "Extra lätt papper (40–79 g/m²)"@sv,
+        "超轻纸 (40–79克)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:hasProperty [ ptpge:unit "gsm" ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

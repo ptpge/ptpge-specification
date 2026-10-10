@@ -1,0 +1,134 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/accordion-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§ACCORDION-FOLD",
+  "elementType": "value",
+  "label": {
+    "en": "Accordion-Fold Setup",
+    "nb": "Trekkspill-fold oppsett",
+    "de": "Leporellofalz-Setup",
+    "ja": "アコーディオン折り構成",
+    "es": "Configuración de plegado en acordeón",
+    "zh-Hans": "风琴折结构",
+    "nl": "Harmonicavouw-opzet",
+    "sv": "Dragspelsfals",
+    "da": "Leporellofals",
+    "pl": "Konfiguracja złam harmonijkowy",
+    "pt": "Montagem sanfona",
+    "hi": "अकॉर्डियन-फ़ोल्ड सेटअप"
+  },
+  "altLabels": {
+    "en": [
+      "Accordion Brochure",
+      "Concertina Setup"
+    ],
+    "nb": [
+      "Trekkspill-brosjyre",
+      "Leporello-oppsett",
+      "Trekkspill"
+    ],
+    "pl": [
+      "folder harmonijkowy",
+      "konfiguracja leporello"
+    ],
+    "pt": [
+      "folheto sanfona",
+      "montagem concertina"
+    ],
+    "hi": [
+      "अकॉर्डियन ब्रोशर",
+      "कॉन्सर्टीना सेटअप"
+    ]
+  },
+  "definition": {
+    "en": "A folded sheet setup with multiple parallel folds in alternating directions, producing a fan/accordion-like shape with variable panel count (typically 8, 10, or 12 panels — must be even). Two surfaces: Outside and Inside, each with N panels where N is half the total panel count. Used for fold-out brochures, panoramic timelines, maps, and exhibition leaflets where many panels are needed without binding. The Configurator determines the exact panel count from the supportsPanelCount range declared by the referencing Template.",
+    "nb": "Et brettet ark-oppsett med flere parallelle brett i vekslende retninger, som produserer en vifte/trekkspill-form med variabelt antall paneler (typisk 8, 10 eller 12 paneler — må være et partall). To surfaces: Outside og Inside, hver med N paneler hvor N er halvparten av totalt antall paneler. Brukes for utbrettsbrosjyrer, panoramiske tidslinjer, kart, og utstillings-leaflets der mange paneler trengs uten innbinding.",
+    "de": "Ein Falzbogen-Setup mit mehreren parallelen Falzungen in wechselnden Richtungen, das eine fächer-/leporellofalz-artige Form mit variabler Paneelzahl erzeugt (typischerweise 8, 10 oder 12 Paneele — muss gerade sein). Zwei Surfaces: Außen und Innen, jeweils mit N Paneelen, wobei N die Hälfte der Gesamtpaneelzahl ist.",
+    "ja": "交互方向の複数の平行折りを持つ折り加工セットアップ。扇／蛇腹状の形になり、パネル数は可変（通常8、10、12 — 偶数であること）。面は Outside と Inside の2つで、それぞれ総パネル数の半分の N パネルを持つ。綴じなしで多くのパネルが必要な折込みパンフレット、パノラマ年表、地図、展示リーフレットに使われる。正確なパネル数は、参照するテンプレートが宣言する supportsPanelCount の範囲から Configurator が決定する。",
+    "es": "Una configuración de hoja plegada con múltiples pliegues paralelos en direcciones alternas, que produce una forma de abanico/acordeón con número de paneles variable (típicamente 8, 10 o 12 — debe ser par). Dos superficies: Outside e Inside, cada una con N paneles donde N es la mitad del total. Se usa para folletos desplegables, cronologías panorámicas, mapas y folletos de exposición donde se necesitan muchos paneles sin encuadernación. El Configurator determina el número exacto de paneles a partir del rango supportsPanelCount declarado por el Template que la referencia.",
+    "zh-Hans": "具有多道交替方向平行折的折页构成，形成扇形/风琴状，面板数可变（通常为8、10或12 — 须为偶数）。两个表面：Outside 与 Inside，各含 N 个面板，N 为总面板数的一半。用于无需装订而需要多个面板的折页手册、全景时间线、地图与展会宣传单。Configurator 依据引用该构成的模板所声明的 supportsPanelCount 范围确定确切面板数。",
+    "sv": "En falsat ark-uppbyggnad med flera parallella falsar i växlande riktningar som ger en solfjäder-/dragspelsform med variabelt panelantal (typiskt 8, 10 eller 12 paneler — måste vara jämnt). Två ytor: utsida och insida, var och en med N paneler där N är halva det totala panelantalet. Används för utvikbara broschyrer, panoramatidslinjer, kartor och utställningsfoldrar där många paneler behövs utan bindning. Konfiguratorn bestämmer exakt panelantal ur det supportsPanelCount-intervall som den refererande mallen deklarerar.",
+    "da": "En falset ark-opbygning med flere parallelle false i skiftende retninger, der giver en vifte-/harmonikaform med variabelt panelantal (typisk 8, 10 eller 12 paneler — skal være lige). To flader: yderside og inderside, hver med N paneler, hvor N er halvdelen af det samlede panelantal.",
+    "nl": "Een gevouwen-vel-opbouw met meerdere parallelle vouwen in afwisselende richtingen, die een waaier-/harmonicavorm geeft met variabel paneelaantal (doorgaans 8, 10 of 12 panelen — moet even zijn). Twee vlakken: buiten- en binnenzijde, elk met N panelen waarbij N de helft van het totale paneelaantal is.",
+    "pl": "Konfiguracja arkusza złożonego z wieloma równoległymi złamami w naprzemiennych kierunkach, dająca kształt wachlarza/harmonijki o zmiennej liczbie skrzydeł (zwykle 8, 10 lub 12 — musi być parzysta). Dwie powierzchnie: Zewnętrzna i Wewnętrzna, każda z N skrzydłami, gdzie N to połowa łącznej liczby skrzydeł. Używana do folderów rozkładanych, panoramicznych osi czasu, map i ulotek wystawowych, gdzie potrzeba wielu skrzydeł bez oprawy. Konfigurator ustala dokładną liczbę skrzydeł z zakresu supportsPanelCount zadeklarowanego przez przywołujący szablon.",
+    "pt": "Montagem em folha dobrada com várias dobras paralelas em direções alternadas, formando uma sanfona com número variável de painéis (normalmente 8, 10 ou 12 — deve ser par). Duas faces: Exterior e Interior, cada uma com N painéis, sendo N metade do total. Usada em folhetos desdobráveis, linhas do tempo panorâmicas, mapas e folhetos de exposição, onde se precisa de muitos painéis sem encadernação. O Configurador determina o número exato de painéis a partir da faixa supportsPanelCount declarada pelo Modelo que a referencia.",
+    "hi": "बारी-बारी विपरीत दिशाओं में कई समानांतर फ़ोल्ड वाला फ़ोल्डेड शीट सेटअप, जो पंखे/अकॉर्डियन जैसी आकृति और परिवर्तनशील पैनल संख्या (आमतौर पर 8, 10 या 12 — सम होनी चाहिए) देता है। दो सतहें: बाहरी और भीतरी, हर एक में N पैनल, जहाँ N कुल पैनल संख्या का आधा है। फ़ोल्ड-आउट ब्रोशर, पैनोरमिक टाइमलाइन, नक़्शों और प्रदर्शनी लीफ़लेट में, जहाँ बिना बाइंडिंग के कई पैनल चाहिए। कॉन्फ़िगरेटर संदर्भित टेम्पलेट की supportsPanelCount रेंज से सटीक पैनल संख्या तय करता है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet",
+  "related": [
+    "https://ptpge.org/v1/printing/completions/folding/accordion-fold"
+  ],
+  "surfaces": [
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "nb": "Utside",
+        "de": "Außen"
+      },
+      "count": "variable"
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "nb": "Innside",
+        "de": "Innen"
+      },
+      "count": "variable"
+    }
+  ],
+  "pageCountConstraint": "even",
+  "pageCountRange": {
+    "min": 8,
+    "typicalMin": 8,
+    "typicalMax": 12
+  },
+  "scopeNote": {
+    "en": "Total panel count is variable but must be even. Typical values are 8 (4 panels per surface), 10 (5 per), or 12 (6 per). Templates referencing this Setup Model declare their supported panel counts; the Configurator instantiates the Surface structure accordingly.",
+    "pt": "O número total de painéis é variável, mas deve ser par. Valores típicos: 8 (4 por face), 10 (5 por face) ou 12 (6 por face). Os Modelos que referenciam este Modelo de Montagem declaram os números de painéis suportados; o Configurador instancia a estrutura de faces de acordo.",
+    "hi": "कुल पैनल संख्या परिवर्तनशील है पर सम होनी चाहिए। सामान्य मान 8 (प्रति सतह 4), 10 (5) या 12 (6)। इस सेटअप मॉडल को संदर्भित करने वाले टेम्पलेट अपनी समर्थित पैनल संख्याएँ घोषित करते हैं; कॉन्फ़िगरेटर उसी के अनुसार सतह संरचना बनाता है।"
+  },
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent"
+      ],
+      "refs": [
+        "Table 4.28 · p.76–77",
+        "Appendix A · Fold catalog"
+      ],
+      "match": "partial",
+      "via": "FoldCatalog"
+    }
+  ]
+}

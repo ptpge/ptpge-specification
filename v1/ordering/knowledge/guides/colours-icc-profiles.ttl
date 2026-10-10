@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/knowledge/guides/colours-icc-profiles> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
+    skos:definition "Farver & ICC-profiler — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
+        "Colours & ICC Profiles — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
+        "Colours & ICC Profiles — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Colours & ICC Profiles — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
+        "रंग और ICC प्रोफ़ाइल — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
+        "Colours & ICC Profiles — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
+        "Colours & ICC Profiles — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Kleuren & ICC-profielen — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
+        "Kolory i profile ICC — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
+        "Cores e perfis ICC — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
+        "Färger & ICC-profiler — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
+        "Colours & ICC Profiles——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:KN§COLOURS-ICC-PROFILES" ;
+    skos:prefLabel "Farver & ICC-profiler"@da,
+        "Farben & ICC-Profile"@de,
+        "Colours & ICC Profiles"@en,
+        "Colores y perfiles ICC"@es,
+        "रंग और ICC प्रोफ़ाइल"@hi,
+        "色とICCプロファイル"@ja,
+        "Farger & ICC-profiler"@nb,
+        "Kleuren & ICC-profielen"@nl,
+        "Kolory i profile ICC"@pl,
+        "Cores e perfis ICC"@pt,
+        "Färger & ICC-profiler"@sv,
+        "颜色与 ICC 配置文件"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/features/colors>,
+        <https://ptpge.org/v1/printing/standards/color-systems> ;
+    ptpge:elementType "resource" ;
+    ptpge:group "knowledge" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

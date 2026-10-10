@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon/iso-14067",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "ISO 14067",
+    "nb": "ISO 14067",
+    "de": "ISO 14067",
+    "ja": "ISO 14067",
+    "es": "ISO 14067",
+    "zh-Hans": "ISO 14067",
+    "sv": "ISO 14067",
+    "da": "ISO 14067",
+    "nl": "ISO 14067",
+    "pl": "ISO 14067",
+    "pt": "ISO 14067",
+    "hi": "ISO 14067"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§ISO-14067",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "International standard for quantifying the carbon footprint of a product (CFP) across its life cycle. In print procurement it is the reference method behind product-level CO₂e declarations — the machine-readable proof a buying agent can require and compare across offers.",
+    "nb": "Internasjonal standard for å tallfeste et produkts karbonfotavtrykk (CFP) gjennom livsløpet. I trykkinnkjøp er den referansemetoden bak CO₂e-deklarasjoner på produktnivå — det maskinlesbare beviset en kjøpsagent kan kreve og sammenligne på tvers av tilbud.",
+    "de": "Internationale Norm zur Quantifizierung des CO₂-Fußabdrucks eines Produkts (CFP) über den Lebenszyklus. Im Druckeinkauf ist sie die Referenzmethode hinter CO₂e-Deklarationen auf Produktebene — der maschinenlesbare Nachweis, den ein Einkaufsagent verlangen und über Angebote hinweg vergleichen kann.",
+    "ja": "製品のライフサイクル全体にわたるカーボンフットプリント（CFP）を定量化する国際規格。印刷調達では製品レベルのCO₂e宣言の基準手法であり、購買エージェントが要求し、オファー間で比較できる機械可読な証明となる。",
+    "es": "Norma internacional para cuantificar la huella de carbono de un producto (CFP) a lo largo de su ciclo de vida. En la compra de impresión es el método de referencia detrás de las declaraciones de CO₂e a nivel de producto: la prueba legible por máquina que un agente comprador puede exigir y comparar entre ofertas.",
+    "zh-Hans": "量化产品全生命周期碳足迹（CFP）的国际标准。在印刷采购中，它是产品级 CO₂e 声明背后的参考方法——购买代理可以要求并跨报价比较的机器可读证明。",
+    "sv": "Internationell standard för att kvantifiera en produkts koldioxidavtryck (CFP) över dess livscykel. I tryckupphandling är den referensmetoden bakom CO₂e-deklarationer på produktnivå — det maskinläsbara bevis en köpande agent kan kräva och jämföra mellan erbjudanden.",
+    "da": "International standard for kvantificering af et produkts CO₂-aftryk (CFP) over dets livscyklus. I trykindkøb er den referencemetoden bag CO₂e-deklarationer på produktniveau — det maskinlæsbare bevis en købende agent kan kræve og sammenligne på tværs af tilbud.",
+    "nl": "Internationale standaard voor het kwantificeren van de CO₂-voetafdruk van een product (CFP) over de levenscyclus. In drukinkoop de referentiemethode achter CO₂e-declaraties op productniveau — het machineleesbare bewijs dat een inkopende agent kan eisen en vergelijken over aanbiedingen heen.",
+    "pl": "Międzynarodowa norma ilościowego określania śladu węglowego produktu (CFP) w całym cyklu życia. W zakupach druku jest metodą odniesienia stojącą za deklaracjami CO₂e na poziomie produktu — maszynowo czytelnym dowodem, którego agent kupujący może wymagać i porównywać między ofertami.",
+    "pt": "Norma internacional para quantificar a pegada de carbono de um produto (CFP) ao longo do seu ciclo de vida. Nas compras de impressão é o método de referência por trás das declarações de CO₂e no nível do produto — a prova legível por máquina que um agente comprador pode exigir e comparar entre ofertas.",
+    "hi": "उत्पाद के जीवनचक्र में उसके कार्बन फ़ुटप्रिंट (CFP) को मापने का अंतरराष्ट्रीय मानक। प्रिंट ख़रीद में यह उत्पाद-स्तर CO₂e घोषणाओं के पीछे की संदर्भ विधि है — वह मशीन-पठनीय प्रमाण जिसे ख़रीदार एजेंट माँग सकता है और ऑफ़रों में तुलना कर सकता है।"
+  },
+  "elementType": "reference",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

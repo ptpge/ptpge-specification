@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-profiles> a skos:Concept ;
+    dcterms:created "2026-06-18T10:00:07+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Colour Profiles"@en,
+        "profile kolorów"@pl,
+        "Perfis de cores"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems> ;
+    skos:definition "Farveprofiler og karakteriseringsdata brugt i farvestyret gengivelse."@da,
+        "Farbprofile und Charakterisierungsdaten für die farbgemanagte Reproduktion."@de,
+        "Colour profiles and characterisation data used in colour-managed reproduction."@en,
+        "Perfiles de color y datos de caracterización usados en la reproducción con gestión de color."@es,
+        "रंग-प्रबंधित पुनरुत्पादन में प्रयुक्त रंग प्रोफ़ाइल और लक्षण-वर्णन डेटा।"@hi,
+        "カラーマネジメントされた複製に用いるカラープロファイルと特性化データ。"@ja,
+        "Fargeprofiler og karakteriseringsdata brukt i fargestyrt reproduksjon."@nb,
+        "Kleurprofielen en karakteriseringsdata gebruikt in kleurbeheerde reproductie."@nl,
+        "Profile barw i dane charakteryzacji używane w reprodukcji z zarządzaniem barwą."@pl,
+        "Perfis de cor e dados de caracterização usados na reprodução com gerenciamento de cor."@pt,
+        "Färgprofiler och karakteriseringsdata som används i färghanterad återgivning."@sv,
+        "用于色彩管理复制的色彩配置文件与特性化数据。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/color-systems/color-profiles/device-profiles>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-profiles/icc-profiles> ;
+    skos:notation "P:ST-CSY-CPRF" ;
+    skos:prefLabel "Farveprofiler"@da,
+        "Farbprofile"@de,
+        "Color Profiles"@en,
+        "Perfiles de color"@es,
+        "रंग प्रोफ़ाइल"@hi,
+        "カラープロファイル"@ja,
+        "Kleurprofielen"@nl,
+        "Profile barw"@pl,
+        "Perfis de cor"@pt,
+        "Färgprofiler"@sv,
+        "色彩配置文件"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

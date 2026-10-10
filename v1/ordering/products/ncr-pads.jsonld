@@ -1,0 +1,262 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/ncr-pads",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§NCR-PADS",
+  "elementType": "product",
+  "label": {
+    "en": "NCR Pads",
+    "nb": "NCR-blokker",
+    "de": "Selbstdurchschreibe-Blöcke",
+    "ja": "ノーカーボン複写伝票",
+    "es": "Talonarios autocopiativos",
+    "zh-Hans": "无碳复写本",
+    "nl": "Doordruksets (NCR)",
+    "sv": "Självkopierande block",
+    "da": "NCR-blokke",
+    "pl": "Bloczki samokopiujące",
+    "pt": "Blocos autocopiativos",
+    "hi": "NCR पैड"
+  },
+  "altLabels": {
+    "en": [
+      "NCR pad",
+      "carbonless form",
+      "duplicate pad",
+      "triplicate pad",
+      "Carbonless pad",
+      "NCR",
+      "Duplicate books",
+      "Triplicate books"
+    ],
+    "nb": [
+      "gjenpartsblokk",
+      "karbonfri blokk",
+      "blåkopiblokk",
+      "Gjennomslagsblokker",
+      "Gjennomslagspapir"
+    ],
+    "de": [
+      "Durchschreibesätze",
+      "Selbstdurchschreibepapier",
+      "Formularsätze"
+    ],
+    "pl": [
+      "bloczek samokopiujący",
+      "formularz samokopiujący",
+      "druk samokopiujący",
+      "NCR"
+    ],
+    "sv": [
+      "självkopierande blanketter",
+      "NCR-block",
+      "kopieblock",
+      "dubblettblock",
+      "tripplettblock"
+    ],
+    "da": [
+      "NCR-blok",
+      "selvkopierende blok",
+      "gennemslagspapir",
+      "dublet-blok",
+      "triplet-blok"
+    ],
+    "nl": [
+      "doordrukset",
+      "doordruksets",
+      "NCR-blok",
+      "zelfkopiërend blok",
+      "doordrukformulieren",
+      "tweevoud",
+      "drievoud"
+    ],
+    "pt": [
+      "bloco autocopiativo",
+      "talão autocopiativo",
+      "formulário autocopiativo",
+      "bloco em 2 vias",
+      "bloco em 3 vias",
+      "papel NCR"
+    ],
+    "hi": [
+      "NCR पैड",
+      "कार्बनलेस फ़ॉर्म",
+      "डुप्लीकेट पैड",
+      "ट्रिप्लीकेट पैड",
+      "बिल बुक",
+      "कार्बनलेस बुक"
+    ],
+    "es": [
+      "talonario autocopiativo",
+      "bloc autocopiativo",
+      "formulario autocopiativo",
+      "albarán",
+      "talonario de facturas",
+      "papel químico"
+    ],
+    "ja": [
+      "複写伝票",
+      "ノーカーボン伝票",
+      "納品書",
+      "領収書",
+      "伝票"
+    ],
+    "zh-Hans": [
+      "复写单据",
+      "送货单",
+      "收据本",
+      "联单"
+    ]
+  },
+  "definition": {
+    "en": "A pad of stacked carbonless parts that copy the top sheet to the parts beneath — invoices, orders and forms in duplicate/triplicate.",
+    "nb": "En blokk av stablede karbonfrie deler som kopierer det øverste arket til delene under — fakturaer, ordrer og skjemaer i to/tre eksemplarer.",
+    "de": "Ein Block selbstdurchschreibender Teile, der das oberste Blatt auf die darunterliegenden kopiert.",
+    "ja": "上の用紙への記入が下の複写紙に転写されるノーカーボン複写伝票。請求書・注文書などの2枚複写／3枚複写に。",
+    "es": "Un bloc de hojas autocopiativas que transfieren lo escrito en la hoja superior a las inferiores — facturas, pedidos y formularios en duplicado o triplicado.",
+    "zh-Hans": "无碳复写联单本——上联书写内容复写到下联，用于一式两联/三联的发票、订单和表单。",
+    "sv": "Ett block av staplade självkopierande delar som kopierar det översta arket till delarna under — fakturor, order och blanketter i två eller tre exemplar.",
+    "da": "En blok af stablede selvkopierende dele, der kopierer toparket til delene nedenunder — fakturaer, ordrer og formularer i to eller tre eksemplarer.",
+    "nl": "Een blok gestapelde zelfkopiërende delen die het bovenste vel doorschrijven naar de onderliggende delen — facturen, orders en formulieren in twee- of drievoud.",
+    "pl": "Bloczek z ułożonych warstw papieru samokopiującego, przenoszących zapis z górnej kartki na kolejne — faktury, zamówienia i formularze w dwóch/trzech egzemplarzach.",
+    "pt": "Bloco de vias autocopiativas empilhadas que copiam a folha de cima para as vias abaixo — notas, pedidos e formulários em duas ou três vias.",
+    "hi": "एक के ऊपर एक रखी कार्बनलेस प्रतियों का पैड, जिसमें ऊपरी शीट की लिखावट नीचे की प्रतियों पर उतरती है — इनवॉइस, ऑर्डर और फ़ॉर्म दो/तीन प्रतियों में।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/multi-part"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a7",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/us/junior-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/half-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/letter"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/perforation"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "customSizeRange": {
+    "min": 74,
+    "max": 300,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsFoldDirection": [
+    "https://ptpge.org/v1/printing/completions/fold-binding-edge/top"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/configuration/page-count",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/finishing/edge",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

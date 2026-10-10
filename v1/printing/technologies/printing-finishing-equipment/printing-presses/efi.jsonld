@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/efi",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Electronics For Imaging (EFI)",
+    "nb": "Electronics For Imaging (EFI)",
+    "de": "Electronics For Imaging (EFI)",
+    "ja": "Electronics For Imaging (EFI)",
+    "es": "Electronics for Imaging (EFI)",
+    "zh-Hans": "Electronics for Imaging (EFI)",
+    "sv": "Electronics For Imaging (EFI)",
+    "da": "Electronics For Imaging (EFI)",
+    "nl": "Electronics For Imaging (EFI)",
+    "pl": "Electronics For Imaging (EFI)",
+    "pt": "Electronics For Imaging (EFI)",
+    "hi": "Electronics For Imaging (EFI)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Electronics For Imaging (EFI) — American company specializing in digital print servers, color management software, and industrial inkjet printers for ceramics, textiles, and packaging.",
+    "nb": "Electronics For Imaging (EFI) — amerikansk selskap spesialisert på digitale trykkservere, fargestyringsprogramvare og industrielle inkjet-skrivere for keramikk, tekstiler og emballasje.",
+    "de": "Electronics For Imaging (EFI) — US-amerikanisches Unternehmen, spezialisiert auf digitale Druckserver, Color-Management-Software und industrielle Inkjet-Drucker für Keramik, Textil und Verpackung.",
+    "ja": "Electronics For Imaging（EFI）— デジタル印刷サーバー、カラーマネジメントソフトウェア、セラミック・テキスタイル・パッケージ向けの工業用インクジェットプリンターを専門とする米国の企業。",
+    "es": "Electronics for Imaging (EFI) — fabricante de prensas digitales y soluciones front-end Fiery para prensas digitales y de gran formato.",
+    "zh-Hans": "Electronics for Imaging (EFI) —— 数码印刷机制造商和数码及大幅面印刷机的Fiery前端解决方案。",
+    "sv": "Electronics For Imaging (EFI) — amerikanskt företag specialiserat på digitala printservrar, färghanteringsmjukvara och industriella inkjetskrivare för keramik, textil och förpackningar.",
+    "da": "Electronics For Imaging (EFI) — amerikansk virksomhed specialiseret i digitale printservere, farvestyringssoftware og industrielle inkjetprintere til keramik, tekstil og emballage.",
+    "nl": "Electronics For Imaging (EFI) — Amerikaans bedrijf gespecialiseerd in digitale printservers, kleurbeheersoftware en industriële inkjetprinters voor keramiek, textiel en verpakkingen.",
+    "pl": "Electronics For Imaging (EFI) — amerykańska firma specjalizująca się w cyfrowych serwerach druku, oprogramowaniu do zarządzania barwą i przemysłowych drukarkach atramentowych do ceramiki, tekstyliów i opakowań.",
+    "pt": "Electronics For Imaging (EFI) — empresa americana especializada em servidores de impressão digital, software de gerenciamento de cor e impressoras industriais de jato de tinta para cerâmica, têxteis e embalagens.",
+    "hi": "Electronics For Imaging (EFI) — डिजिटल प्रिंट सर्वर, रंग प्रबंधन सॉफ़्टवेयर और सिरेमिक, टेक्सटाइल व पैकेजिंग के औद्योगिक इंकजेट प्रिंटरों में विशेषज्ञ अमेरिकी कंपनी।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-ELEC",
+  "altLabels": {
+    "pl": [
+      "EFI"
+    ]
+  },
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/duplo-international",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Duplo International",
+    "es": "Duplo International",
+    "zh-Hans": "Duplo International",
+    "nb": "Duplo International",
+    "de": "Duplo International",
+    "ja": "Duplo International",
+    "sv": "Duplo International",
+    "da": "Duplo International",
+    "nl": "Duplo International",
+    "pl": "Duplo International",
+    "pt": "Duplo International",
+    "hi": "Duplo International"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Duplo International — Japanese manufacturer of finishing systems, particularly bookletmakers, slitter/cutter/creasers, and inline finishing for digital printers.",
+    "nb": "Duplo International — japansk produsent av etterbehandlingssystemer, særlig bookletmakers, slitter/cutter/creasers og inline-etterbehandling for digitale skrivere.",
+    "de": "Duplo International — japanischer Hersteller von Weiterverarbeitungssystemen, insbesondere Broschürenfertigern, Slitter/Cutter/Creasern und Inline-Finishing für Digitaldruckmaschinen.",
+    "ja": "デュプロインターナショナル — 仕上げシステムの日本のメーカー。特にデジタル印刷機向けのブックレットメーカー、スリッター/カッター/クリーザー、インライン仕上げ装置を扱う。",
+    "es": "Duplo International — división internacional de Duplo Corporation, fabricante japonés de equipo de acabado para producción digital.",
+    "zh-Hans": "Duplo International —— Duplo Corporation的国际部门，日本数码生产印后设备制造商。",
+    "sv": "Duplo International — japansk tillverkare av efterbehandlingssystem, särskilt häftesmakare, slitter/skärare/bigare och inline-efterbehandling för digitaltryckmaskiner.",
+    "da": "Duplo International — japansk producent af efterbehandlingssystemer, især hæftemaskiner, slitter/skærer/rillere og inline-efterbehandling til digitaltrykmaskiner.",
+    "nl": "Duplo International — Japanse fabrikant van afwerkingssystemen, met name boekjesmakers, snij-/ril-/vouwlijnen en inline-afwerking voor digitale drukmachines.",
+    "pl": "Duplo International — japoński producent systemów wykończeniowych, zwłaszcza bookletmakerów, urządzeń tnąco-bigujących oraz wykończenia w linii dla maszyn cyfrowych.",
+    "pt": "Duplo International — fabricante japonês de sistemas de acabamento, especialmente montadoras de folhetos, refiladoras/cortadoras/vincadoras e acabamento em linha para impressoras digitais.",
+    "hi": "Duplo International — फ़िनिशिंग सिस्टम का जापानी निर्माता, विशेषकर बुकलेटमेकर, स्लिटर/कटर/क्रीज़र और डिजिटल प्रिंटरों के लिए इनलाइन फ़िनिशिंग।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-DUPL",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

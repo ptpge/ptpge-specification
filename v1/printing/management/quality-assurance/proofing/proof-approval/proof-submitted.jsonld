@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/proof-submitted",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Proof Submitted",
+    "nb": "Korrektur sendt",
+    "de": "Proof eingereicht",
+    "ja": "校正提出済み",
+    "es": "Prueba presentada",
+    "zh-Hans": "样张已提交",
+    "sv": "Prov inlämnat",
+    "da": "Prøve indsendt",
+    "nl": "Proef ingediend",
+    "pl": "Proof przekazany",
+    "pt": "Prova enviada",
+    "hi": "प्रूफ़ प्रस्तुत"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§PROOF-SUBMITTED",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "State: a proof has been delivered to the customer for review; production waits for the decision.",
+    "nb": "Tilstand: en korrektur er levert kunden for gjennomgang; produksjonen venter på beslutningen.",
+    "de": "Zustand: Ein Proof wurde dem Kunden zur Prüfung übergeben; die Produktion wartet auf die Entscheidung.",
+    "ja": "状態：校正が顧客のレビューのために提出され、生産は決定を待っている。",
+    "es": "Estado: se ha entregado una prueba al cliente para su revisión; la producción espera la decisión.",
+    "zh-Hans": "状态：样张已交付客户审阅；生产等待决定。",
+    "sv": "Tillstånd: ett prov har levererats till kunden för granskning; produktionen väntar på beslutet.",
+    "da": "Tilstand: en prøve er leveret til kunden til gennemgang; produktionen afventer beslutningen.",
+    "nl": "Toestand: een proef is aan de klant geleverd ter beoordeling; de productie wacht op de beslissing.",
+    "pl": "Stan: proof został dostarczony klientowi do przeglądu; produkcja czeka na decyzję.",
+    "pt": "Estado: uma prova foi entregue ao cliente para revisão; a produção aguarda a decisão.",
+    "hi": "अवस्था: समीक्षा के लिए ग्राहक को प्रूफ़ दिया गया; उत्पादन निर्णय की प्रतीक्षा में।"
+  },
+  "elementType": "context",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

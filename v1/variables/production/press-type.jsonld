@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/production/press-type",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:PD§PRESS-TYPE",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Press Type",
+    "nb": "Pressetype",
+    "de": "Maschinentyp",
+    "es": "Tipo de prensa",
+    "ja": "印刷機タイプ",
+    "zh-Hans": "印刷机类型",
+    "sv": "Presstyp",
+    "da": "Pressetype",
+    "nl": "Perstype",
+    "pl": "Typ maszyny",
+    "pt": "Tipo de impressora",
+    "hi": "प्रेस का प्रकार"
+  },
+  "definition": {
+    "en": "Configurable axis: Press Type. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Pressetype. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Maschinentyp. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Tipo de prensa. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：印刷機タイプ。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：印刷机类型。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Presstyp. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Pressetype. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Perstype. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Typ maszyny. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Tipo de Impressora. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: प्रेस का प्रकार। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "On which kind of press?",
+    "nb": "På hvilken type presse?",
+    "de": "Auf welcher Art Maschine?",
+    "es": "¿En qué tipo de prensa?",
+    "ja": "どの種類の印刷機で？",
+    "zh-Hans": "用哪种印刷机？",
+    "sv": "På vilken typ av press?",
+    "da": "På hvilken type presse?",
+    "nl": "Op welk soort pers?",
+    "pl": "Na jakim typie maszyny?",
+    "pt": "Em que tipo de prensa?",
+    "hi": "किस प्रकार की प्रेस पर?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/production",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "pl": [
+      "rodzaj maszyny drukującej"
+    ],
+    "pt": [
+      "tipo de máquina",
+      "tipo de prensa"
+    ],
+    "hi": [
+      "मशीन का प्रकार",
+      "प्रेस टाइप"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/pantone-touch7",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Pantone Touch 7",
+    "nb": "Pantone Touch 7",
+    "de": "Pantone Touch 7",
+    "ja": "Pantone Touch 7",
+    "es": "Pantone Touch 7",
+    "zh-Hans": "Pantone Touch 7",
+    "sv": "Pantone Touch 7",
+    "da": "Pantone Touch 7",
+    "nl": "Pantone Touch 7",
+    "pl": "Pantone Touch 7",
+    "pt": "Pantone Touch 7",
+    "hi": "Pantone Touch 7"
+  },
+  "definition": {
+    "en": "Pantone's extended-gamut 7-color color library (Cyan, Magenta, Yellow, Black, Orange, Green, Violet). Often used as the practical implementation of CMYK+OGV across packaging and commercial print.",
+    "nb": "Pantones utvidet-gamut 7-fargers fargebibliotek (Cyan, Magenta, Gul, Sort, Oransje, Grønn, Fiolett). Ofte brukt som praktisk implementasjon av CMYK+OGV på tvers av emballasje og kommersielt trykk.",
+    "de": "Pantones erweiterter Gamut 7-Farben-Farbbibliothek (Cyan, Magenta, Gelb, Schwarz, Orange, Grün, Violett).",
+    "ja": "Pantone の7色拡張ガモットカラーライブラリ（シアン、マゼンタ、イエロー、ブラック、オレンジ、グリーン、バイオレット）。パッケージや商業印刷における CMYK+OGV の実務的な実装としてよく使われる。",
+    "es": "La biblioteca de gama extendida de 7 colores de Pantone (Cian, Magenta, Amarillo, Negro, Naranja, Verde, Violeta). A menudo la implementación práctica de CMYK+OGV en packaging e impresión comercial.",
+    "zh-Hans": "Pantone 的7色扩展色域色库（青、品红、黄、黑、橙、绿、紫）。常作为包装与商业印刷中 CMYK+OGV 的实际实施方案。",
+    "sv": "Pantones 7-färgsbibliotek för utökad färgomfattning (cyan, magenta, gult, svart, orange, grönt, violett). Ofta använt som den praktiska implementationen av CMYK+OGV inom förpacknings- och civiltryck.",
+    "da": "Pantones 7-farvebibliotek for udvidet farveomfang (cyan, magenta, gul, sort, orange, grøn, violet). Ofte brugt som den praktiske implementering af CMYK+OGV i emballage- og kommercielt tryk.",
+    "nl": "Pantones 7-kleurenbibliotheek voor uitgebreid gamma (cyaan, magenta, geel, zwart, oranje, groen, violet). Vaak gebruikt als de praktische implementatie van CMYK+OGV in verpakkings- en commercieel drukwerk.",
+    "pl": "Biblioteka barw Pantone o rozszerzonym gamucie w 7 kolorach (cyjan, magenta, żółty, czarny, pomarańcz, zieleń, fiolet). Często używana jako praktyczna implementacja CMYK+OGV w opakowaniach i druku komercyjnym.",
+    "pt": "Biblioteca de cores de gamut estendido de 7 cores da Pantone (Ciano, Magenta, Amarelo, Preto, Laranja, Verde, Violeta). Muitas vezes usada como implementação prática de CMYK+OGV em embalagens e impressão comercial.",
+    "hi": "Pantone का विस्तारित-गैमट 7-रंग पुस्तकालय (सायन, मैजेंटा, पीला, काला, नारंगी, हरा, बैंगनी)। पैकेजिंग और व्यावसायिक प्रिंट में CMYK+OGV के व्यावहारिक कार्यान्वयन के रूप में प्रायः प्रयुक्त।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "properties": {
+    "library": "pantone",
+    "subLibrary": "touch7"
+  },
+  "created": "2026-05-19T23:30:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§PANTONE-TOUCH-7",
+  "elementType": "reference",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

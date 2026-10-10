@@ -1,0 +1,97 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/fiberboard",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§FIBERBOARD",
+  "label": {
+    "en": "Fiberboard",
+    "nb": "Fiberplate",
+    "de": "Faserplatte",
+    "es": "Tablero de fibras",
+    "ja": "繊維板",
+    "zh-Hans": "纤维板",
+    "sv": "Träfiberskiva",
+    "da": "Træfiberplade",
+    "nl": "Houtvezelplaat",
+    "pl": "Płyta pilśniowa",
+    "pt": "Chapa de fibra",
+    "hi": "फ़ाइबरबोर्ड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite",
+  "definition": {
+    "en": "Engineered panel of wood fibres bonded under heat and pressure (hardboard/HDF family).",
+    "nb": "Teknisk plate av trefibre bundet under varme og trykk (hardboard/HDF-familien).",
+    "de": "Platte aus unter Hitze und Druck gebundenen Holzfasern (Hartfaser/HDF-Familie).",
+    "ja": "木質繊維を熱と圧力で固めたエンジニアードパネル（ハードボード／HDF系）。",
+    "es": "Tablero derivado de fibras de madera unidas con calor y presión (familia del tablero duro/HDF).",
+    "zh-Hans": "木纤维经热压粘合而成的工程板材（硬质纤维板/HDF 类）。",
+    "sv": "Konstruerad skiva av träfibrer sammanpressade under värme och tryck (hardboard/HDF-familjen).",
+    "da": "Konstrueret panel af træfibre bundet under varme og tryk (hardboard/HDF-familien).",
+    "nl": "Samengesteld paneel van houtvezels, gebonden onder warmte en druk (hardboard/HDF-familie).",
+    "pl": "Płyta drewnopochodna z włókien drzewnych sprasowanych pod wpływem ciepła i ciśnienia (rodzina płyt twardych/HDF).",
+    "pt": "Painel engenheirado de fibras de madeira unidas sob calor e pressão (família hardboard/HDF).",
+    "hi": "गर्मी और दबाव में जुड़े लकड़ी के रेशों का इंजीनियर्ड पैनल (हार्डबोर्ड/HDF परिवार)।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "fibreboard",
+      "hardboard",
+      "HDF"
+    ],
+    "nb": [
+      "fiberplate",
+      "huntonitt"
+    ],
+    "pl": [
+      "płyta twarda",
+      "HDF",
+      "płyta włóknista"
+    ],
+    "pt": [
+      "chapa de fibra",
+      "hardboard",
+      "HDF",
+      "eucatex"
+    ],
+    "hi": [
+      "फ़ाइबर बोर्ड",
+      "हार्डबोर्ड",
+      "HDF"
+    ]
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

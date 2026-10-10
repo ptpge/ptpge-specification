@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Partial UV Coating"@en,
+        "Spot UV"@en,
+        "आंशिक UV कोटिंग"@hi,
+        "स्पॉट UV"@hi,
+        "स्पॉट UV कोटिंग"@hi,
+        "Partiell UV-lakk"@nb,
+        "Punktlakk"@nb,
+        "Spot-UV"@nb,
+        "lakier UV częściowy"@pl,
+        "lakier UV punktowy"@pl,
+        "lakier wybiórczy UV"@pl,
+        "UV localizado"@pt,
+        "spot UV"@pt,
+        "verniz UV reserva"@pt,
+        "verniz localizado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments> ;
+    skos:definition "UV-hærdet lak påført udvalgte designelementer alene (logoer, tekst, billedhøjdepunkter). De selektive blanke områder står i kontrast til den matte eller naturlige finish omkring og skaber dybde og taktil interesse."@da,
+        "UV-gehärteter Lack, der nur auf bestimmte Designelemente aufgebracht wird (Logos, Texte, Bild-Highlights)."@de,
+        "UV-cured varnish applied to specific design elements only (logos, text, image highlights). The selective glossy areas contrast against the matte or natural finish of the surrounding surface, creating a tactile and visual highlight."@en,
+        "Barniz curado por UV aplicado solo a elementos concretos del diseño (logotipos, textos, realces de imagen). Las zonas brillantes selectivas contrastan con el acabado mate o natural del entorno, creando un realce táctil y visual."@es,
+        "केवल विशिष्ट डिज़ाइन तत्वों (लोगो, पाठ, चित्र के हाइलाइट) पर लगाया गया UV-क्योर्ड वार्निश। चुनिंदा चमकीले हिस्से आसपास की मैट या प्राकृतिक फ़िनिश से कंट्रास्ट बनाते हैं — स्पर्श और दृश्य हाइलाइट।"@hi,
+        "デザインの特定要素（ロゴ、文字、画像のハイライト）にのみ塗布する UV 硬化ニス。選択的な光沢部が周囲のマットまたは素の仕上げと対比をなし、触覚的・視覚的なアクセントを生む。"@ja,
+        "UV-herdet lakk påført spesifikke design-elementer (logoer, tekst, bilde-highlights). Selektive glansede områder kontrasterer mot matt eller naturlig overflate i omgivelsene, skaper taktil og visuell uthevingseffekt."@nb,
+        "UV-gehard lak uitsluitend op geselecteerde ontwerpelementen (logo's, tekst, beeldaccenten). De selectieve glanzende zones contrasteren met de matte of natuurlijke afwerking eromheen en creëren diepte en tactiele interesse."@nl,
+        "Lakier utwardzany UV nanoszony tylko na wybrane elementy projektu (logo, tekst, akcenty obrazu). Wybiórcze błyszczące obszary kontrastują z matowym lub naturalnym wykończeniem otaczającej powierzchni, tworząc dotykowy i wizualny akcent."@pl,
+        "Verniz curado por UV aplicado apenas em elementos específicos do design (logotipos, texto, destaques de imagem). As áreas brilhantes seletivas contrastam com o acabamento fosco ou natural ao redor, criando um destaque tátil e visual."@pt,
+        "UV-härdad lack applicerad enbart på specifika designelement (logotyper, text, bildhöjdpunkter). De selektivt blanka ytorna kontrasterar mot omgivningens matta eller naturliga finish och skapar en taktil och visuell accent."@sv,
+        "仅施加于特定设计元素（标志、文字、图像亮部）的 UV 固化上光油。选择性亮光区域与周围哑光或本色表面形成对比，营造触觉与视觉焦点。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§SPOT-UV-VARNISH" ;
+    skos:prefLabel "Partiel UV-lak"@da,
+        "Spot-UV-Lack"@de,
+        "Spot UV Varnish"@en,
+        "Barniz UV localizado"@es,
+        "स्पॉट UV वार्निश"@hi,
+        "部分UVニス"@ja,
+        "Spot UV-lakk"@nb,
+        "Spot-UV-lak"@nl,
+        "Lakier UV wybiórczy"@pl,
+        "Verniz UV localizado"@pt,
+        "Partiell UV-lack"@sv,
+        "局部 UV 上光"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§5.5.3 · p.112" ;
+            ptpge:mappingRow "crosswalk row 26" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "Varnishing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,78 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/foam> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Forex-Platte"@de,
+        "Hartschaumplatte"@de,
+        "Leichtschaumplatte"@de,
+        "PVC-Hartschaum"@de,
+        "Foam board"@en,
+        "Foamboard"@en,
+        "Foamcore"@en,
+        "Forex"@en,
+        "Kapa"@en,
+        "PVC foam board"@en,
+        "Forex"@hi,
+        "Kapa"@hi,
+        "PVC फ़ोम बोर्ड"@hi,
+        "फ़ोम बोर्ड"@hi,
+        "फ़ोम शीट"@hi,
+        "सनबोर्ड"@hi,
+        "Foamboard"@nb,
+        "Skumplate"@nb,
+        "Forex"@pl,
+        "Kapa"@pl,
+        "pianka PCV"@pl,
+        "płyta PCV spienionego"@pl,
+        "płyta piankowa"@pl,
+        "Forex"@pt,
+        "Kapa"@pt,
+        "PVC expandido"@pt,
+        "foam board"@pt,
+        "papel pluma"@pt,
+        "placa de espuma"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials> ;
+    skos:definition "Lette skumkerneplader (f.eks. Foamex, Forex) — stive men lette, bruges til kortvarige displays, udstillingsgrafik og midlertidig skiltning."@da,
+        "Leichte Schaumkernplatten (z. B. Foamex, Forex) — steif und zugleich leicht, eingesetzt für kurzfristige Displays, Messegrafiken und temporäre Beschilderungen."@de,
+        "Lightweight foam-core boards (e.g. Foamex, Forex) — rigid yet light, used for short-term displays, exhibition graphics, and temporary signage."@en,
+        "Plancha de núcleo de espuma con caras de cartón o plástico — ligera y rígida, utilizada para signage temporal y display."@es,
+        "हल्के फ़ोम-कोर बोर्ड (जैसे Foamex, Forex) — कठोर पर हल्के, अल्पकालिक डिस्प्ले, प्रदर्शनी ग्राफ़िक्स और अस्थायी साइनेज में।"@hi,
+        "軽量フォームコアボード（例：Foamex、Forex）— 剛性がありながら軽量で、短期ディスプレイ、展示グラフィック、仮設サインに使用される。"@ja,
+        "Lette skumkjerne-plater (f.eks. Foamex, Forex) — stive men lette, brukt til korttidsutstillinger, messegrafikk og midlertidig skilting."@nb,
+        "Lichte schuimkernplaten (bijv. Foamex, Forex) — stijf maar licht, gebruikt voor kortstondige displays, tentoonstellingsgraphics en tijdelijke signalisatie."@nl,
+        "Lekkie płyty o rdzeniu piankowym (np. Foamex, Forex) — sztywne, lecz lekkie, używane do ekspozycji krótkoterminowych, grafik wystawienniczych i tymczasowego oznakowania."@pl,
+        "Chapas leves com núcleo de espuma (p. ex. Foamex, Forex) — rígidas mas leves, usadas em displays de curta duração, gráficos de exposição e sinalização temporária."@pt,
+        "Lätta skivor med skumkärna (t.ex. Foamex, Forex) — styva men lätta, används för korttidsdisplayer, mässgrafik och tillfällig skyltning."@sv,
+        "带纸板或塑料面的泡沫芯板 —— 轻便且坚固，用于临时标识和展示。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§FOAM" ;
+    skos:prefLabel "Skum"@da,
+        "Schaumstoff"@de,
+        "Foam"@en,
+        "Foam (Espuma)"@es,
+        "फ़ोम"@hi,
+        "フォーム"@ja,
+        "Skum"@nb,
+        "Schuim"@nl,
+        "Pianka"@pl,
+        "Espuma"@pt,
+        "Skum"@sv,
+        "泡沫板"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

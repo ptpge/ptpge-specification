@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/order> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables> ;
+    skos:definition "Kommercielle konfigurationsvariabler — de kommercielle akser et trykt produkt kan konfigureres langs."@da,
+        "Kommerzielle Konfigurationsvariablen — die kommerziellen Achsen, entlang derer ein Druckprodukt konfiguriert werden kann."@de,
+        "Commercial configuration variables — the commercial axes a printed product can be configured along."@en,
+        "Variables de configuración de comercio — los ejes de comercio a lo largo de los cuales puede configurarse un producto impreso."@es,
+        "व्यावसायिक कॉन्फ़िगरेशन वेरिएबल — वे व्यावसायिक अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है।"@hi,
+        "商取引の構成変数 — 印刷物を構成できる商取引の軸。"@ja,
+        "Kommersiell konfigurasjonsvariabler — kommersiell-aksene et trykkprodukt kan konfigureres langs."@nb,
+        "Commerciële configuratievariabelen — de commerciële assen waarlangs een drukproduct kan worden geconfigureerd."@nl,
+        "Zmienne konfiguracyjne handlowe — osie handlowe, wzdłuż których można skonfigurować produkt drukowany."@pl,
+        "Variáveis de configuração comercial — os eixos comerciais ao longo dos quais um impresso pode ser configurado."@pt,
+        "Kommersiella konfigurationsvariabler — de kommersiella axlar en trycksak kan konfigureras längs."@sv,
+        "商务配置变量 — 印刷品可沿其配置的商务轴。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/order/delivery-method>,
+        <https://ptpge.org/v1/variables/order/incoterm>,
+        <https://ptpge.org/v1/variables/order/lead-time>,
+        <https://ptpge.org/v1/variables/order/quantity> ;
+    skos:notation "VAR:OR" ;
+    skos:prefLabel "Ordre"@da,
+        "Bestellung"@de,
+        "Order"@en,
+        "Pedido"@es,
+        "ऑर्डर"@hi,
+        "注文"@ja,
+        "Bestilling"@nb,
+        "Order"@nl,
+        "Zamówienie"@pl,
+        "Pedido"@pt,
+        "Order"@sv,
+        "订购"@zh-Hans ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-20" .
+

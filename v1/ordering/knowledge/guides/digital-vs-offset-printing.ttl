@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/knowledge/guides/digital-vs-offset-printing> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
+    skos:definition "Digitaltryk vs. offsettryk — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
+        "Digital vs. Offset Printing — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
+        "Digital vs. Offset Printing — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Digital vs. Offset Printing — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
+        "डिजिटल बनाम ऑफसेट प्रिंटिंग — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
+        "Digital vs. Offset Printing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
+        "Digital vs. Offset Printing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Digitaal drukken vs. offset — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
+        "Druk cyfrowy a offsetowy — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
+        "Impressão digital vs. offset — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
+        "Digitaltryck vs. offset — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
+        "Digital vs. Offset Printing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:KN§DIGITAL-VS-OFFSET-PRINTING" ;
+    skos:prefLabel "Digitaltryk vs. offsettryk"@da,
+        "Digital- vs. Offsetdruck"@de,
+        "Digital vs. Offset Printing"@en,
+        "Impresión digital vs. offset"@es,
+        "डिजिटल बनाम ऑफसेट प्रिंटिंग"@hi,
+        "デジタル印刷とオフセット印刷"@ja,
+        "Digital vs. offset-trykk"@nb,
+        "Digitaal drukken vs. offset"@nl,
+        "Druk cyfrowy a offsetowy"@pl,
+        "Impressão digital vs. offset"@pt,
+        "Digitaltryck vs. offset"@sv,
+        "数字印刷 vs. 胶印"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/technologies/printing-technologies> ;
+    ptpge:elementType "resource" ;
+    ptpge:group "knowledge" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

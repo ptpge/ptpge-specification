@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/industry",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Industry",
+    "es": "Industria",
+    "zh-Hans": "行业",
+    "nb": "Bransje",
+    "de": "Branche",
+    "ja": "業界",
+    "sv": "Bransch",
+    "da": "Branche",
+    "nl": "Branche",
+    "pl": "Branżowe",
+    "pt": "Setoriais",
+    "hi": "उद्योग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/certifications/industry/trykt-i-norge"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Industry-specific marks issued by national or sectoral printing organizations to recognize members or products meeting industry-defined criteria.",
+    "nb": "Bransjespesifikke merker utstedt av nasjonale eller sektorspesifikke trykkeriorganisasjoner som anerkjenner medlemmer eller produkter som oppfyller bransjedefinerte kriterier.",
+    "de": "Branchenspezifische Kennzeichnungen, die von nationalen oder sektoralen Druckorganisationen vergeben werden, um Mitglieder oder Produkte auszuzeichnen, die branchendefinierte Kriterien erfüllen.",
+    "ja": "国内または業種別の印刷業界団体が、業界が定めた基準を満たす会員または製品を認定するために発行する、業界固有のマーク。",
+    "es": "Marcas específicas de la industria emitidas por organizaciones nacionales o sectoriales de impresión para reconocer a miembros o productos que cumplen criterios definidos por el sector.",
+    "zh-Hans": "由国家或部门印刷组织颁发的特定行业标志，用于认可符合行业定义标准的成员或产品。",
+    "sv": "Branschspecifika märken utfärdade av nationella eller sektoriella tryckeriorganisationer för att erkänna medlemmar eller produkter som uppfyller branschdefinierade kriterier.",
+    "da": "Branchespecifikke mærker udstedt af nationale eller sektorielle trykorganisationer for at anerkende medlemmer eller produkter, der opfylder branchedefinerede kriterier.",
+    "nl": "Branchespecifieke keurmerken, uitgegeven door nationale of sectorale drukorganisaties, ter erkenning van leden of producten die aan branchegedefinieerde criteria voldoen.",
+    "pl": "Znaki branżowe nadawane przez krajowe lub sektorowe organizacje poligraficzne w celu wyróżnienia członków lub produktów spełniających kryteria określone przez branżę.",
+    "pt": "Marcas específicas do setor emitidas por organizações gráficas nacionais ou setoriais para reconhecer membros ou produtos que cumprem critérios definidos pelo setor.",
+    "hi": "राष्ट्रीय या क्षेत्रीय मुद्रण संगठनों द्वारा जारी उद्योग-विशिष्ट चिह्न, जो उद्योग-परिभाषित मानदंड पूरे करने वाले सदस्यों या उत्पादों को मान्यता देते हैं।"
+  },
+  "scopeNote": {
+    "en": "Includes country-of-origin marks (Trykt i Norge), trade-association memberships, and sector-specific recognition programs. International certifications (ISO, FSC) are handled in adjacent sub-categories.",
+    "nb": "Inkluderer opprinnelsesmerker (Trykt i Norge), bransjeforeningsmedlemskap, og sektorspesifikke anerkjennelsesprogrammer. Internasjonale sertifiseringer (ISO, FSC) håndteres i tilstøtende underkategorier.",
+    "de": "Umfasst Herkunftskennzeichnungen (Trykt i Norge), Mitgliedschaften in Branchenverbänden und sektorspezifische Anerkennungsprogramme. Internationale Zertifizierungen (ISO, FSC) werden in benachbarten Unterkategorien geführt.",
+    "ja": "原産国マーク（Trykt i Norge）、業界団体への所属、業種固有の認定プログラムを含む。国際認証（ISO、FSC）は隣接サブカテゴリで扱う。",
+    "es": "Incluye marcas de país de origen (Trykt i Norge), pertenencias a asociaciones comerciales y programas sectoriales de reconocimiento. Las certificaciones internacionales (ISO, FSC) se gestionan en sub-categorías adyacentes.",
+    "zh-Hans": "包括原产地标志（Trykt i Norge）、行业协会会员资格和部门特定认可项目。国际认证（ISO、FSC）在相邻子分类下处理。",
+    "pt": "Inclui marcas de país de origem (Trykt i Norge), filiações a associações de classe e programas de reconhecimento setorial. Certificações internacionais (ISO, FSC) ficam em subcategorias adjacentes.",
+    "hi": "मूल-देश चिह्न (Trykt i Norge), व्यापार-संघ सदस्यताएँ और क्षेत्र-विशिष्ट मान्यता कार्यक्रम शामिल। अंतरराष्ट्रीय प्रमाणन (ISO, FSC) निकटवर्ती उप-श्रेणियों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-CER-INDU",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

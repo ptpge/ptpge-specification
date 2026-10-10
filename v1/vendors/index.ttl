@@ -1,0 +1,25 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/vendors> a skos:Concept ;
+    dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T11:01:49+00:00"^^xsd:dateTime ;
+    skos:definition "The register of printers and print service providers — each with one permanent PTPGE identity, declared by the vendor itself in a vendor declaration (schema vendor-declaration/1). What a vendor offers and at what price is the vendor's own business and lives in its declaration and its chosen platform, never in the vocabulary."@en,
+        "Registeret over trykkerier og trykktjenesteleverandører – hver med én permanent PTPGE-identitet, deklarert av trykkeriet selv i en leverandørdeklarasjon (skjema vendor-declaration/1). Hva et trykkeri tilbyr og til hvilken pris er trykkeriets egen sak og lever i deklarasjonen og plattformen det velger, aldri i vokabularet."@nb ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/vendors/trykkverk-norge> ;
+    skos:notation "VEN" ;
+    skos:prefLabel "Trykkerier"@da,
+        "Druckereien"@de,
+        "Vendors"@en,
+        "Trykkerier"@nb,
+        "Drukkerijen"@nl,
+        "Tryckerier"@sv ;
+    skos:topConceptOf <https://ptpge.org/v1/scheme> ;
+    ptpge:level "top-concept" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-06" .
+

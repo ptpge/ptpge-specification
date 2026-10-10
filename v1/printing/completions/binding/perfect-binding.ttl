@@ -1,0 +1,82 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/perfect-binding> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Limbundet"@da,
+        "Klebebindung"@de,
+        "Klebegebunden"@de,
+        "Adhesive binding"@en,
+        "Glue bound"@en,
+        "Glued binding"@en,
+        "Paperback binding"@en,
+        "Perfect bound"@en,
+        "Perfect-bound"@en,
+        "एडहेसिव बाइंडिंग"@hi,
+        "गोंद बाइंडिंग"@hi,
+        "परफेक्ट बाउंड"@hi,
+        "पेपरबैक बाइंडिंग"@hi,
+        "सॉफ़्ट बाइंडिंग"@hi,
+        "Limbinding"@nb,
+        "Limbundet"@nb,
+        "Limfres"@nb,
+        "Limfrest"@nb,
+        "Myk perm"@nb,
+        "klejenie grzbietu"@pl,
+        "oprawa bezszwowa"@pl,
+        "oprawa miękka klejona"@pl,
+        "colado"@pt,
+        "encadernação colada"@pt,
+        "hot melt"@pt,
+        "lombada colada"@pt,
+        "lombada quadrada"@pt,
+        "Limbunden"@sv,
+        "Limhäftning"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "Sider limet i ryggen inde i et omslag; almindeligt for paperbacks og tykke kataloger."@da,
+        "Am Rücken in einen Umschlag geklebte Seiten; üblich für Taschenbücher und dicke Kataloge."@de,
+        "Pages glued at the spine inside a wraparound cover; common for paperback books and thick catalogues."@en,
+        "Páginas encoladas por el lomo dentro de una cubierta envolvente; común en libros de bolsillo y catálogos gruesos."@es,
+        "लपेटे हुए कवर के भीतर स्पाइन पर चिपके पृष्ठ; पेपरबैक किताबों और मोटे कैटलॉग में आम।"@hi,
+        "巻き表紙の中で背を糊で固めたページ。ペーパーバックや厚いカタログで一般的。"@ja,
+        "Sider limt ved ryggen inne i et omslag; vanlig for paperback-bøker og tykke kataloger."@nb,
+        "Pagina's in de rug gelijmd binnen een omslag; gebruikelijk voor paperbacks en dikke catalogi."@nl,
+        "Strony klejone w grzbiecie wewnątrz owijającej okładki; typowa dla książek w miękkiej oprawie i grubych katalogów."@pl,
+        "Páginas coladas na lombada dentro de uma capa envolvente; comum em livros brochura e catálogos grossos."@pt,
+        "Sidor limmade i ryggen inuti ett omslag; vanligt för pocketböcker och tjocka kataloger."@sv,
+        "书页在书脊处胶粘并包以整体封面；常见于平装书与厚目录。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§PERFECT-BINDING" ;
+    skos:prefLabel "Limbinding"@da,
+        "Klebebindung"@de,
+        "Perfect Binding"@en,
+        "Perfect Binding"@es,
+        "परफेक्ट बाइंडिंग"@hi,
+        "Perfect Binding"@ja,
+        "Limbinding"@nb,
+        "Garenloos binden"@nl,
+        "Oprawa klejona"@pl,
+        "Encadernação colada (brochura)"@pt,
+        "Limbindning"@sv,
+        "Perfect Binding"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.29 · p.128",
+                "§5.6.8 · p.116" ;
+            ptpge:mappingRow "crosswalk row 40" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "CoverApplication",
+                "SpinePreparation" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

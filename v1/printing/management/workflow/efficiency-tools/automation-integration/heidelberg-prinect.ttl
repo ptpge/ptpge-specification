@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/heidelberg-prinect> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    skos:definition "Heidelberg Prinect — integreret workflowstyringssystem fra Heidelberg, der dækker MIS, prepress, pressestyring, postpress og rapportering. Det dominerende integrerede system i offsettryk."@da,
+        "Heidelberg Prinect — integriertes Workflow-Management-System von Heidelberg, abdeckend Management-Informations-System (MIS), Druckvorstufe, Maschinensteuerung, Weiterverarbeitung und Reporting. Die dominierende integrierte Lösung in offsetdruckorientierten Druckereien."@de,
+        "Heidelberg Prinect — integrated workflow management system from Heidelberg covering management information systems (MIS), prepress, press control, post-press, and reporting. The dominant integrated solution in offset-centric print operations."@en,
+        "Plataforma de automatización integrada de Heidelberg, centrada en prensa offset y abarcando todo el flujo desde el envío del trabajo hasta el control de máquina."@es,
+        "Heidelberg Prinect — Heidelberg का एकीकृत वर्कफ़्लो प्रबंधन सिस्टम जो प्रबंधन सूचना प्रणाली (MIS), प्रीप्रेस, प्रेस नियंत्रण, पोस्ट-प्रेस और रिपोर्टिंग को ढकता है। ऑफसेट-केंद्रित प्रिंट संचालनों में प्रमुख एकीकृत समाधान।"@hi,
+        "Heidelberg Prinect — Heidelbergによる統合ワークフロー管理システム。経営情報システム（MIS）、製版、印刷機制御、後加工、レポートをカバーする。オフセット中心の印刷会社における主要な統合ソリューション。"@ja,
+        "Heidelberg Prinect — integrert workflow-styringssystem fra Heidelberg som dekker management information systems (MIS), prepress, pressestyring, post-press og rapportering. Den dominerende integrerte løsningen i offset-sentriske trykkoperasjoner."@nb,
+        "Heidelberg Prinect — geïntegreerd workflowbeheersysteem van Heidelberg voor MIS, prepress, persbesturing, postpress en rapportage. Het dominante geïntegreerde systeem in offsetdruk."@nl,
+        "Heidelberg Prinect — zintegrowany system zarządzania workflow firmy Heidelberg obejmujący systemy informacji zarządczej (MIS), prepress, sterowanie maszyną, postpress i raportowanie. Dominujące zintegrowane rozwiązanie w drukarniach zorientowanych na offset."@pl,
+        "Heidelberg Prinect — sistema integrado de gestão de fluxo de trabalho da Heidelberg que cobre sistemas de informação gerencial (MIS), pré-impressão, controle de máquina, pós-impressão e relatórios. A solução integrada dominante em operações gráficas centradas em offset."@pt,
+        "Heidelberg Prinect — integrerat arbetsflödessystem från Heidelberg som täcker MIS (management information systems), prepress, presstyrning, postpress och rapportering. Den dominerande integrerade lösningen i offsetcentrerade tryckerier."@sv,
+        "Heidelberg的集成自动化平台，以胶印为中心，涵盖从作业提交到机器控制的整个流程。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§HEIDELBERG-PRINECT" ;
+    skos:prefLabel "Heidelberg Prinect"@da,
+        "Heidelberg Prinect"@de,
+        "Heidelberg Prinect"@en,
+        "Heidelberg Prinect"@es,
+        "Heidelberg Prinect"@hi,
+        "Heidelberg Prinect"@ja,
+        "Heidelberg Prinect"@nb,
+        "Heidelberg Prinect"@nl,
+        "Heidelberg Prinect"@pl,
+        "Heidelberg Prinect"@pt,
+        "Heidelberg Prinect"@sv,
+        "Heidelberg Prinect"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

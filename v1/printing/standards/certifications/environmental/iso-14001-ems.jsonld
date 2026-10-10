@@ -1,0 +1,91 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/environmental/iso-14001-ems",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "ISO 14001 EMS",
+    "es": "ISO 14001 EMS",
+    "zh-Hans": "ISO 14001 EMS（环境管理体系）",
+    "nb": "ISO 14001 EMS",
+    "de": "ISO 14001 EMS",
+    "ja": "ISO 14001 EMS",
+    "sv": "ISO 14001 (miljöledning)",
+    "da": "ISO 14001 (miljøledelse)",
+    "nl": "ISO 14001 (milieumanagement)",
+    "pl": "ISO 14001 EMS",
+    "pt": "ISO 14001 SGA",
+    "hi": "ISO 14001 EMS"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§ISO-14001-EMS",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/environmental",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "An international standard for environmental management systems. Certifies that an organization has a structured system for identifying environmental impacts, setting reduction targets, and continuously improving its environmental performance. Broader than FSC — it covers the printer's whole operation rather than the source of any specific material.",
+    "nb": "En internasjonal standard for miljøstyrings­systemer. Sertifiserer at en organisasjon har et strukturert system for å identifisere miljø­påvirkning, sette reduksjonsmål og kontinuerlig forbedre sin miljø­ytelse. Bredere enn FSC — den dekker trykkeriets hele drift, ikke bare opprinnelsen til et bestemt materiale.",
+    "de": "Internationale Norm für Umweltmanagementsysteme. Zertifiziert, dass eine Organisation ein strukturiertes System hat, um Umweltauswirkungen zu identifizieren, Reduktionsziele festzulegen und ihre Umweltleistung kontinuierlich zu verbessern. Umfassender als FSC — sie deckt den Gesamtbetrieb der Druckerei ab und nicht die Herkunft eines bestimmten Materials.",
+    "ja": "環境マネジメントシステムに関する国際規格。組織が環境への影響を特定し、削減目標を設定し、環境パフォーマンスを継続的に改善するための体系的な仕組みを有していることを認証する。FSCより広範であり、特定材料の出所ではなく、印刷会社の事業全体を対象とする。",
+    "es": "Norma internacional para sistemas de gestión ambiental. Certifica que una organización dispone de un sistema estructurado para identificar impactos ambientales, fijar objetivos de reducción y mejorar continuamente.",
+    "zh-Hans": "环境管理体系的国际标准。认证组织已建立结构化体系，用于识别环境影响、设定减排目标并持续改进。",
+    "sv": "Internationell standard för miljöledningssystem. Certifierar att en organisation har ett strukturerat system för att identifiera miljöpåverkan, sätta minskningsmål och kontinuerligt förbättra sin miljöprestanda. Bredare än FSC — den täcker hela tryckeriets verksamhet snarare än ursprunget för något specifikt material.",
+    "da": "International standard for miljøledelsessystemer. Certificerer, at en organisation har et struktureret system til at identificere miljøpåvirkninger, sætte reduktionsmål og løbende forbedre sin miljøpræstation. Bredere end FSC — den dækker hele trykkeriets drift frem for oprindelsen af et bestemt materiale.",
+    "nl": "Internationale standaard voor milieumanagementsystemen. Certificeert dat een organisatie een gestructureerd systeem heeft om milieu-impact te identificeren, reductiedoelen te stellen en de milieuprestaties continu te verbeteren. Breder dan FSC — het dekt de volledige werking van de drukkerij in plaats van de herkomst van een specifiek materiaal.",
+    "pl": "Międzynarodowa norma systemów zarządzania środowiskowego. Certyfikuje, że organizacja ma ustrukturyzowany system identyfikacji wpływów środowiskowych, wyznaczania celów redukcji i ciągłego doskonalenia efektywności środowiskowej. Szersza niż FSC — obejmuje całą działalność drukarni, a nie pochodzenie konkretnego materiału.",
+    "pt": "Norma internacional para sistemas de gestão ambiental. Certifica que uma organização tem um sistema estruturado para identificar impactos ambientais, definir metas de redução e melhorar continuamente seu desempenho ambiental. Mais ampla que o FSC — cobre toda a operação do impressor, não a origem de um material específico.",
+    "hi": "पर्यावरण प्रबंधन प्रणालियों का अंतरराष्ट्रीय मानक। प्रमाणित करता है कि संगठन के पास पर्यावरणीय प्रभाव पहचानने, कटौती लक्ष्य तय करने और पर्यावरणीय प्रदर्शन में निरंतर सुधार की संरचित प्रणाली है। FSC से व्यापक — यह किसी विशिष्ट सामग्री के स्रोत के बजाय प्रिंटर के पूरे संचालन को ढकता है।"
+  },
+  "scopeNote": {
+    "en": "Unlike product ecolabels, ISO 14001 certifies the organization's environmental management process — not specific product environmental impact. Often required for tenders involving public procurement.",
+    "nb": "I motsetning til produktmiljømerker sertifiserer ISO 14001 organisasjonens miljøledelsesprosess — ikke spesifikk produktmiljøpåvirkning. Ofte krevd for offentlige anskaffelseskontrakter.",
+    "de": "Im Gegensatz zu Produkt-Ecolabels zertifiziert ISO 14001 den Umweltmanagementprozess der Organisation — nicht die spezifischen Umweltauswirkungen eines Produkts. Häufig erforderlich bei Ausschreibungen im öffentlichen Beschaffungswesen.",
+    "ja": "製品エコラベルとは異なり、ISO 14001は組織の環境マネジメントプロセスを認証するものであり、特定の製品に対する環境負荷を認証するものではない。公共調達を含む入札では必須要件となることが多い。",
+    "pt": "Ao contrário dos rótulos ecológicos de produto, a ISO 14001 certifica o processo de gestão ambiental da organização — não o impacto ambiental de um produto específico. Muitas vezes exigida em licitações públicas.",
+    "hi": "उत्पाद इकोलेबल के विपरीत, ISO 14001 संगठन की पर्यावरण प्रबंधन प्रक्रिया को प्रमाणित करता है — किसी विशिष्ट उत्पाद के पर्यावरणीय प्रभाव को नहीं। सार्वजनिक ख़रीद की निविदाओं में प्रायः अनिवार्य।"
+  },
+  "exactMatch": [
+    "http://www.wikidata.org/entity/Q926961"
+  ],
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "ISO 14001",
+      "environmental management system"
+    ],
+    "pl": [
+      "ISO 14001",
+      "system zarządzania środowiskowego"
+    ],
+    "pt": [
+      "ISO 14001",
+      "sistema de gestão ambiental"
+    ],
+    "hi": [
+      "ISO 14001",
+      "पर्यावरण प्रबंधन प्रणाली"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

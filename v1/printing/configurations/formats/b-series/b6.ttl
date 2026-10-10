@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/b-series/b6> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "12.5 x 17.6 cm"@en,
+        "125 x 176 mm"@en,
+        "125x176"@en,
+        "125×176"@en,
+        "DIN B6"@en,
+        "B6-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/b-series> ;
+    skos:definition "125 × 176 mm (4.92 × 6.93 tommer). Del af B-serien i ISO 216 — lidt større end det tilsvarende A-format. Halvdelen af arealet af B5. Bruges til kortromaner, paperbacks og små notesbøger."@da,
+        "125 × 176 mm (4,92 × 6,93 in). Teil der ISO-216-B-Reihe — etwas größer als das entsprechende A-Format. Hälfte der Fläche von B5. Verwendet für Novellen, Taschenbücher und kleine Notizbücher."@de,
+        "125 × 176 mm (4.92 × 6.93 in). Part of the ISO 216 B series — slightly larger than the corresponding A size. Half the area of B5. Used for novellas, pocket books, and small notebooks."@en,
+        "Formato B6 de la serie B de ISO 216, dimensiones 125 × 176 mm. Cada B es la media geométrica entre los dos A correspondientes."@es,
+        "125 × 176 mm (4.92 × 6.93 in). ISO 216 B-सीरीज़ का हिस्सा — संगत A आकार से थोड़ा बड़ा। B5 का आधा क्षेत्रफल। लघु उपन्यास, पॉकेट बुक और छोटी नोटबुक में।"@hi,
+        "125×176mm（4.92×6.93インチ）。ISO 216 Bシリーズの一部 — 対応するAサイズよりわずかに大きい。B5の半分の面積。中編小説、文庫本、小型ノートに使用される。"@ja,
+        "125 × 176 mm (4,92 × 6,93 in). Del av ISO 216 B-serien — litt større enn tilsvarende A-størrelse. Halvparten av B5. Brukt til småbøker, pocketbøker og små notatblokker."@nb,
+        "125 × 176 mm (4.92 × 6.93 inch). Onderdeel van de B-reeks in ISO 216 — iets groter dan het overeenkomstige A-formaat. De helft van het oppervlak van B5. Gebruikt voor korte romans, paperbacks en kleine notitieboeken."@nl,
+        "125 × 176 mm (4,92 × 6,93 cala). Część serii B normy ISO 216 — nieco większa od odpowiadającego formatu A. Połowa powierzchni B5. Używany do nowel, książek kieszonkowych i małych notesów."@pl,
+        "125 × 176 mm (4.92 × 6.93 in). Faz parte da série B da ISO 216 — ligeiramente maior que o tamanho A correspondente. Metade da área do B5. Usado em novelas, livros de bolso e cadernos pequenos."@pt,
+        "125 × 176 mm (4.92 × 6.93 tum). Del av B-serien i ISO 216 — något större än motsvarande A-format. Halva arean av B5. Används för kortromaner, pocketböcker och små anteckningsböcker."@sv,
+        "ISO 216 B系列B6开本，尺寸125 × 176 mm。每个B尺寸是对应两个A尺寸的几何平均。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§B6" ;
+    skos:prefLabel "B6 (125 x 176 mm)"@da,
+        "B6 (125 x 176 mm)"@de,
+        "B6 (125 x 176 mm)"@en,
+        "B6 (125 × 176 mm)"@es,
+        "B6 (125 x 176 mm)"@hi,
+        "B6 (125 x 176 mm)"@ja,
+        "B6 (125 x 176 mm)"@nb,
+        "B6 (125 x 176 mm)"@nl,
+        "B6 (125 x 176 mm)"@pl,
+        "B6 (125 x 176 mm)"@pt,
+        "B6 (125 x 176 mm)"@sv,
+        "B6 (125 × 176 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 22000.0 ;
+            ptpge:aspectRatio 1.408 ;
+            ptpge:height 176.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 125.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

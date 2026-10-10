@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/mdf-board> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "MDF"@en,
+        "MDF Board"@en,
+        "Medium Density Fiberboard"@en,
+        "Medium-Density Fibreboard"@en,
+        "medium density fiberboard"@en,
+        "medium-density fibreboard"@en,
+        "MDF"@hi,
+        "MDF बोर्ड"@hi,
+        "MDF शीट"@hi,
+        "मीडियम डेंसिटी फ़ाइबरबोर्ड"@hi,
+        "MDF"@nb,
+        "MDF-plate"@nb,
+        "płyta MDF"@pl,
+        "płyta pilśniowa średniej gęstości"@pl,
+        "MDF"@pt,
+        "chapa de fibra de média densidade"@pt,
+        "painel MDF"@pt,
+        "placa MDF"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite> ;
+    skos:definition "Medium-density fibreboard — glat, tæt konstrueret panel, ideel til malet eller trykt stiv skiltning."@da,
+        "Mitteldichte Faserplatte — glatte, dichte Platte, ideal für lackierte oder bedruckte Beschilderung."@de,
+        "Medium-density fibreboard — smooth, dense engineered panel, ideal for painted or printed rigid signage."@en,
+        "Tablero de fibra de densidad media — panel derivado liso y denso, ideal para señalización rígida pintada o impresa."@es,
+        "मीडियम-डेंसिटी फ़ाइबरबोर्ड — चिकना, सघन इंजीनियर्ड पैनल, पेंटेड या छपे कठोर साइनेज के लिए आदर्श।"@hi,
+        "中密度繊維板（MDF） — 滑らかで密度の高いエンジニアードパネル。塗装・印刷どちらの硬質サインにも適する。"@ja,
+        "Medium-density fibreboard — glatt, tett teknisk plate, ideell for malt eller trykt rigid skilting."@nb,
+        "Medium-density fibreboard — glad, dicht samengesteld paneel, ideaal voor geschilderde of bedrukte stijve signalisatie."@nl,
+        "Płyta pilśniowa średniej gęstości — gładka, gęsta płyta drewnopochodna, idealna do malowanego lub zadrukowanego sztywnego oznakowania."@pl,
+        "Chapa de fibra de média densidade — painel engenheirado liso e denso, ideal para sinalização rígida pintada ou impressa."@pt,
+        "Medeltät träfiberskiva — slät, tät konstruerad skiva, idealisk för målad eller tryckt styv skyltning."@sv,
+        "中密度纤维板 — 表面平滑、质地致密的工程板材，适合涂装或印刷的硬质标识。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§MDF-BOARD" ;
+    skos:prefLabel "MDF"@da,
+        "MDF-Platte"@de,
+        "MDF"@en,
+        "Tablero MDF"@es,
+        "MDF"@hi,
+        "MDF板"@ja,
+        "MDF"@nb,
+        "MDF"@nl,
+        "MDF"@pl,
+        "MDF"@pt,
+        "MDF"@sv,
+        "中密度纤维板"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

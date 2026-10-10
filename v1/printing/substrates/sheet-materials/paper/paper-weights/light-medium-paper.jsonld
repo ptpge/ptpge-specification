@@ -1,0 +1,98 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Light Medium Paper (110–149 gsm)",
+    "es": "Papel Ligero-Medio (110–149 gsm)",
+    "zh-Hans": "轻-中等纸 (110–149克)",
+    "nb": "Lett medium-papir (110–149 g/m²)",
+    "de": "Leichtes Mittelpapier (110–149 g/m²)",
+    "ja": "中軽量紙（110〜149 gsm）",
+    "nl": "Licht-medium papier (110–149 g/m²)",
+    "sv": "Lätt mellanpapper (110–149 g/m²)",
+    "da": "Let mellempapir (110–149 g/m²)",
+    "pl": "Papier lekko-średni (110–149 g/m²)",
+    "pt": "Papel médio leve (110–149 g/m²)",
+    "hi": "लाइट मीडियम काग़ज़ (110–149 GSM)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§LIGHT-MEDIUM-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights",
+  "properties": {
+    "minWeight": 110,
+    "maxWeight": 149,
+    "unit": "gsm",
+    "commonWeights": [
+      115,
+      120,
+      130,
+      135,
+      140
+    ]
+  },
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper in the 110–149 gsm range — used for higher-quality letterheads, brochures, and quality flyers. Heavier than standard text paper but still folds cleanly.",
+    "nb": "Papir i området 110–149 gsm — brukt til høyere kvalitets-brevhoder, brosjyrer og kvalitets-flyers. Tyngre enn standard tekstpapir, men bretter fortsatt rent.",
+    "de": "Papier im Bereich 110–149 g/m² — eingesetzt für hochwertigere Briefbögen, Broschüren und Qualitätsflyer. Schwerer als Standard-Textpapier, dabei dennoch sauber falzbar.",
+    "ja": "110〜149gsmの坪量範囲の紙 — 上質な便箋、ブローシュア、上質チラシに使用される。標準的な本文用紙より重いが、それでもきれいに折ることができる。",
+    "es": "Papel de gramaje ligero a medio, 90–120 gsm — para folletos, papelería de calidad y manuales.",
+    "zh-Hans": "轻到中等克重纸，90–120克 —— 用于宣传册、优质文具和手册。",
+    "sv": "Papper i intervallet 110–149 g/m² — används för kvalitetsbrevpapper, broschyrer och bättre flygblad. Tyngre än vanligt textpapper men falsas fortfarande rent.",
+    "da": "Papir i området 110–149 g/m² — brugt til brevpapir af højere kvalitet, brochurer og kvalitetsflyers. Tungere end standard tekstpapir, men falses stadig rent.",
+    "nl": "Papier in het bereik 110–149 g/m² — gebruikt voor briefpapier van hogere kwaliteit, brochures en kwaliteitsflyers. Zwaarder dan standaard tekstpapier, maar vouwt nog steeds netjes.",
+    "pl": "Papier w zakresie 110–149 g/m² — używany do lepszych papierów firmowych, broszur i ulotek dobrej jakości. Cięższy niż standardowy papier tekstowy, lecz nadal składa się czysto.",
+    "pt": "Papel na faixa de 110–149 g/m² — usado em papel timbrado de melhor qualidade, folhetos e flyers de qualidade. Mais pesado que o papel de texto padrão, mas ainda dobra bem.",
+    "hi": "110–149 GSM रेंज का काग़ज़ — बेहतर गुणवत्ता के लेटरहेड, ब्रोशर और अच्छे फ़्लायर में। मानक टेक्स्ट पेपर से भारी पर अब भी साफ़ मुड़ता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Light paper",
+      "Lightweight paper"
+    ],
+    "nb": [
+      "Lett papir"
+    ],
+    "pl": [
+      "papier lekki",
+      "papier o niskiej gramaturze"
+    ],
+    "pt": [
+      "papel leve",
+      "papel de gramatura leve"
+    ],
+    "hi": [
+      "लाइट पेपर",
+      "हल्का काग़ज़",
+      "हल्का मध्यम काग़ज़"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

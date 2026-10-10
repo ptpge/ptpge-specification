@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/us/ledger> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "11x17"@en,
+        "17 x 11 in"@en,
+        "17x11"@en,
+        "17×11"@en,
+        "ANSI B"@en,
+        "Ledger size"@en,
+        "Tabloid"@en,
+        "format Ledger"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:definition "17 × 11 tommer (431.8 × 279.4 mm). Samme dimensioner som Tabloid, men i liggende orientering — bruges til regnskabsprotokoller og brede tabeldokumenter."@da,
+        "17 × 11 in (431,8 × 279,4 mm). Gleiche Maße wie Tabloid, aber im Querformat — verwendet für Buchhaltungsbücher und breite Tabellendokumente."@de,
+        "17 × 11 in (431.8 × 279.4 mm). Same dimensions as Tabloid but in landscape orientation — used for accounting ledgers and wide tabular documents."@en,
+        "Tamaño Ledger — dimensiones idénticas a Tabloide pero en orientación horizontal. Utilizado para libros mayores, planos y dibujos técnicos."@es,
+        "17 × 11 in (431.8 × 279.4 mm). Tabloid जैसे ही आयाम पर लैंडस्केप दिशा में — लेखा बहीखातों और चौड़े सारणीबद्ध दस्तावेज़ों में।"@hi,
+        "17×11インチ（431.8×279.4mm）。Tabloidと同一寸法だが横向き — 会計帳簿および幅広の表形式書類に使用される。"@ja,
+        "17 × 11 in (431,8 × 279,4 mm). Samme dimensjoner som Tabloid, men i landskapsorientering — brukt til hovedbøker og brede tabellariske dokumenter."@nb,
+        "17 × 11 inch (431.8 × 279.4 mm). Dezelfde afmetingen als Tabloid, maar in liggende oriëntatie — gebruikt voor grootboeken en brede tabeldocumenten."@nl,
+        "17 × 11 cali (431,8 × 279,4 mm). Te same wymiary co Tabloid, lecz w orientacji poziomej — używany do ksiąg rachunkowych i szerokich dokumentów tabelarycznych."@pl,
+        "17 × 11 in (431.8 × 279.4 mm). Mesmas dimensões do Tabloid, mas em orientação paisagem — usado em livros-razão e documentos tabulares largos."@pt,
+        "17 × 11 tum (431.8 × 279.4 mm). Samma dimensioner som Tabloid men i liggande orientering — används för bokföringsliggare och breda tabelldokument."@sv,
+        "Ledger —— 尺寸与Tabloid相同但方向为横向。用于账簿、平面图和技术图纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§LEDGER" ;
+    skos:prefLabel "Ledger (17 x 11 tum)"@da,
+        "Ledger (17 x 11 in)"@de,
+        "Ledger (17 x 11 in)"@en,
+        "Ledger (432 × 279 mm / 17 × 11 in)"@es,
+        "Ledger (17 x 11 in)"@hi,
+        "Ledger (17 x 11 in)"@ja,
+        "Ledger (17 x 11 in)"@nb,
+        "Ledger (17 x 11 tum)"@nl,
+        "Ledger (17 x 11 in)"@pl,
+        "Ledger (17 x 11 in)"@pt,
+        "Ledger (17 x 11 tum)"@sv,
+        "Ledger (432 × 279 mm / 17 × 11 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 187.0 ;
+            ptpge:aspectRatio 1.5455 ;
+            ptpge:height 11.0 ;
+            ptpge:standard "ANSI" ;
+            ptpge:unit "in" ;
+            ptpge:width 17.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

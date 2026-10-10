@@ -1,0 +1,72 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/efi-fiery-xf",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "EFI Fiery XF",
+    "es": "EFI Fiery XF",
+    "zh-Hans": "EFI Fiery XF",
+    "nb": "EFI Fiery XF",
+    "de": "EFI Fiery XF",
+    "ja": "EFI Fiery XF",
+    "sv": "EFI Fiery XF",
+    "da": "EFI Fiery XF",
+    "nl": "EFI Fiery XF",
+    "pl": "EFI Fiery XF",
+    "pt": "EFI Fiery XF",
+    "hi": "EFI Fiery XF"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§EFI-FIERY-XF",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "EFI Fiery XF — color-managed proofing and production server, widely used as a soft-proof and hard-proof RIP for digital and wide-format printing. Industry-standard color-accurate proofing.",
+    "nb": "EFI Fiery XF — fargestyrt proofing- og produksjonsserver, mye brukt som soft-proof og hard-proof RIP for digital- og storformat-trykk. Bransjestandard for fargenøyaktig proofing.",
+    "de": "EFI Fiery XF — farbkontrollierter Proofing- und Produktionsserver, weit verbreitet als Soft- und Hard-Proof-RIP für Digital- und Großformatdruck. Industriestandard für farbgenaues Proofing.",
+    "ja": "EFI Fiery XF — カラーマネジメントされた校正および生産サーバー。デジタルおよび大判印刷向けのソフトプルーフおよびハードプルーフRIPとして広く使用される。業界標準の色精度校正。",
+    "es": "Sistema EFI Fiery XF para pruebas blandas y duras con gestión de color avanzada, frecuente en pre-prensa profesional.",
+    "zh-Hans": "EFI Fiery XF系统，用于具有先进色彩管理的软硬校样，常见于专业印前。",
+    "sv": "EFI Fiery XF — färghanterad provtrycks- och produktionsserver, brett använd som RIP för skärm- och tryckta prov inom digital- och storformatstryck. Branschstandard för färgriktiga prov.",
+    "da": "EFI Fiery XF — farvestyret prøvetryk- og produktionsserver, bredt brugt som soft- og hard-proof-RIP til digital- og storformattryk. Branchestandard for farvenøjagtigt prøvetryk.",
+    "nl": "EFI Fiery XF — kleurbeheerde proef- en productieserver, breed gebruikt als soft- en hardproof-RIP voor digitaal en grootformaatdrukwerk. Industriestandaard voor kleurnauwkeurig proeven.",
+    "pl": "EFI Fiery XF — serwer proofingu i produkcji z zarządzaniem barwą, szeroko używany jako RIP do soft i hard proofów w druku cyfrowym i wielkoformatowym. Branżowy standard wiernego barwnie proofingu.",
+    "pt": "EFI Fiery XF — servidor de provas e produção com gerenciamento de cor, amplamente usado como RIP de prova de tela e prova física para impressão digital e de grande formato. Provas com cor precisa padrão do setor.",
+    "hi": "EFI Fiery XF — रंग-प्रबंधित प्रूफ़िंग और प्रोडक्शन सर्वर, डिजिटल और वाइड-फॉर्मेट प्रिंटिंग के लिए सॉफ़्ट-प्रूफ़ और हार्ड-प्रूफ़ RIP के रूप में व्यापक रूप से प्रयुक्त। उद्योग-मानक रंग-सटीक प्रूफ़िंग।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Carbon Accounting",
+    "nb": "Karbonregnskap",
+    "de": "CO₂-Bilanzierung",
+    "ja": "カーボン会計",
+    "es": "Contabilidad de carbono",
+    "zh-Hans": "碳核算",
+    "sv": "Koldioxidredovisning",
+    "da": "CO₂-regnskab",
+    "nl": "CO₂-boekhouding",
+    "pl": "Rachunkowość węglowa",
+    "pt": "Contabilidade de carbono",
+    "hi": "कार्बन लेखांकन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST-CER-ENVR-CARB",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/environmental",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Methods and frameworks for quantifying the greenhouse-gas emissions of printed products and print operations. These are accounting standards, not ecolabels — they define how a CO₂e figure is computed so that declared footprints are comparable and machine-verifiable.",
+    "nb": "Metoder og rammeverk for å tallfeste klimagassutslippene til trykte produkter og trykkeridrift. Dette er regnskapsstandarder, ikke miljømerker — de definerer hvordan et CO₂e-tall beregnes, slik at deklarerte fotavtrykk blir sammenlignbare og maskinelt verifiserbare.",
+    "de": "Methoden und Rahmenwerke zur Quantifizierung der Treibhausgasemissionen von Druckprodukten und Druckereibetrieben. Es sind Bilanzierungsstandards, keine Umweltzeichen — sie definieren, wie ein CO₂e-Wert berechnet wird, damit deklarierte Fußabdrücke vergleichbar und maschinell verifizierbar sind.",
+    "ja": "印刷製品および印刷事業の温室効果ガス排出量を定量化するための方法と枠組み。エコラベルではなく会計標準であり、CO₂e値の算出方法を定義することで、宣言されたフットプリントを比較可能かつ機械検証可能にする。",
+    "es": "Métodos y marcos para cuantificar las emisiones de gases de efecto invernadero de productos impresos y operaciones de impresión. Son estándares de contabilidad, no etiquetas ecológicas: definen cómo se calcula una cifra de CO₂e para que las huellas declaradas sean comparables y verificables por máquina.",
+    "zh-Hans": "量化印刷产品与印刷运营温室气体排放的方法和框架。它们是核算标准而非生态标签——定义 CO₂e 数值的计算方式，使声明的碳足迹可比较、可机器验证。",
+    "sv": "Metoder och ramverk för att kvantifiera växthusgasutsläpp från trycksaker och tryckeriverksamhet. Detta är redovisningsstandarder, inte miljömärkningar — de definierar hur en CO₂e-siffra beräknas så att deklarerade avtryck blir jämförbara och maskinellt verifierbara.",
+    "da": "Metoder og rammer til at kvantificere drivhusgasudledninger fra tryksager og trykkeridrift. Dette er regnskabsstandarder, ikke miljømærker — de definerer, hvordan et CO₂e-tal beregnes, så deklarerede aftryk bliver sammenlignelige og maskinelt verificerbare.",
+    "nl": "Methoden en kaders om broeikasgasemissies van drukwerk en drukkerijactiviteiten te kwantificeren. Dit zijn boekhoudstandaarden, geen milieulabels — ze definiëren hoe een CO₂e-cijfer wordt berekend zodat gedeclareerde voetafdrukken vergelijkbaar en machinaal verifieerbaar zijn.",
+    "pl": "Metody i ramy ilościowego określania emisji gazów cieplarnianych produktów drukowanych i działalności poligraficznej. Są to standardy rachunkowości, nie ekoznaki — definiują, jak oblicza się wartość CO₂e, aby deklarowane ślady były porównywalne i weryfikowalne maszynowo.",
+    "pt": "Métodos e quadros para quantificar as emissões de gases de efeito estufa de produtos impressos e operações gráficas. São normas de contabilidade, não rótulos ecológicos — definem como um valor de CO₂e é calculado para que as pegadas declaradas sejam comparáveis e verificáveis por máquina.",
+    "hi": "मुद्रित उत्पादों और प्रिंट संचालन के ग्रीनहाउस-गैस उत्सर्जन को मापने की विधियाँ और ढाँचे। ये लेखांकन मानक हैं, इकोलेबल नहीं — ये तय करते हैं कि CO₂e आँकड़ा कैसे निकाला जाए ताकि घोषित फ़ुटप्रिंट तुलनीय और मशीन-सत्यापन योग्य हों।"
+  },
+  "scopeNote": {
+    "en": "Value domain for the climate-documentation variable. The declared footprint figures themselves live in offers and vendor profiles (Layer 2), referencing these methods.",
+    "nb": "Verdidomene for variabelen climate-documentation. Selve de deklarerte fotavtrykkstallene bor i tilbud og vendor-profiler (Layer 2), med referanse til disse metodene.",
+    "de": "Wertebereich für die Variable climate-documentation. Die deklarierten Fußabdruckswerte selbst stehen in Angeboten und Vendor-Profilen (Layer 2) und referenzieren diese Methoden.",
+    "ja": "climate-documentation 変数の値域。宣言されたフットプリント数値自体はオファーやベンダープロファイル（レイヤー2）にあり、これらの方法を参照する。",
+    "es": "Dominio de valores para la variable climate-documentation. Las cifras de huella declaradas viven en ofertas y perfiles de proveedor (Capa 2), referenciando estos métodos.",
+    "zh-Hans": "climate-documentation 变量的取值域。声明的碳足迹数值本身位于报价和供应商档案（第 2 层）中，并引用这些方法。",
+    "pt": "Domínio de valores da variável de documentação climática. Os valores de pegada declarados em si ficam em ofertas e perfis de fornecedor (Camada 2), referenciando estes métodos.",
+    "hi": "जलवायु-दस्तावेज़ीकरण वेरिएबल का मान-क्षेत्र। घोषित फ़ुटप्रिंट आँकड़े स्वयं ऑफ़र और विक्रेता प्रोफ़ाइल (लेयर 2) में रहते हैं, इन विधियों का संदर्भ देते हुए।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon/iso-14067",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon/ghg-protocol-product",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon/climatecalc"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

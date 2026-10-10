@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/changes-requested> a skos:Concept ;
+    dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval> ;
+    skos:definition "Tilstand: kunden har bedt om ændringer; en ny prøverunde følger før frigivelse."@da,
+        "Zustand: Der Kunde hat Änderungen angefordert; vor der Freigabe folgt eine neue Proof-Runde."@de,
+        "State: the customer requested changes; a new proof cycle follows before release."@en,
+        "Estado: el cliente solicitó cambios; sigue un nuevo ciclo de pruebas antes de la liberación."@es,
+        "अवस्था: ग्राहक ने बदलाव माँगे; जारी करने से पहले नया प्रूफ़ चक्र होगा।"@hi,
+        "状態：顧客が修正を要求し、リリース前に新しい校正サイクルが続く。"@ja,
+        "Tilstand: kunden ba om endringer; en ny korrekturrunde følger før frigivelse."@nb,
+        "Toestand: de klant heeft wijzigingen gevraagd; een nieuwe proefronde volgt vóór vrijgave."@nl,
+        "Stan: klient zgłosił poprawki; przed zwolnieniem następuje nowy cykl proofingu."@pl,
+        "Estado: o cliente solicitou alterações; um novo ciclo de prova segue antes da liberação."@pt,
+        "Tillstånd: kunden har begärt ändringar; en ny provcykel följer före frisläppning."@sv,
+        "状态：客户要求修改；放行前进行新一轮打样。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§CHANGES-REQUESTED" ;
+    skos:prefLabel "Ændringer ønsket"@da,
+        "Änderungen angefordert"@de,
+        "Changes Requested"@en,
+        "Cambios solicitados"@es,
+        "बदलाव अनुरोधित"@hi,
+        "修正依頼"@ja,
+        "Endringer ønsket"@nb,
+        "Wijzigingen gevraagd"@nl,
+        "Zgłoszono poprawki"@pl,
+        "Alterações solicitadas"@pt,
+        "Ändringar begärda"@sv,
+        "要求修改"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-07-18" .
+

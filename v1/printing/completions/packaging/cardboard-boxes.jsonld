@@ -1,0 +1,96 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/cardboard-boxes",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Cardboard Boxes",
+    "es": "Cajas de Cartón",
+    "zh-Hans": "纸板箱",
+    "nb": "Pappesker",
+    "de": "Kartons",
+    "ja": "段ボール箱",
+    "sv": "Kartonglådor",
+    "da": "Papkasser",
+    "nl": "Kartonnen dozen",
+    "pl": "Kartony",
+    "pt": "Caixas de papelão",
+    "hi": "गत्ते के डिब्बे"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§CARDBOARD-BOXES",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Corrugated cardboard shipping containers in standard or custom sizes — the dominant container for print-product distribution. Strength is rated by edge crush test (ECT) and burst test for shipping requirements.",
+    "nb": "Bølgepapp forsendelsesbeholdere i standard eller tilpassede størrelser — den dominerende beholderen for distribusjon av trykkprodukter. Styrke vurderes ved kantkomprimeringstest (ECT) og bursttest for forsendelseskrav.",
+    "de": "Versandkartons aus Wellpappe in Standard- oder Sondergrößen — der dominante Versandbehälter für die Druckproduktdistribution. Festigkeit wird durch Edge-Crush-Test (ECT) und Berstdruck-Test für Versandanforderungen klassifiziert.",
+    "ja": "標準またはカスタムサイズの段ボール輸送容器 — 印刷物流通における主要な容器。強度はエッジ圧縮試験（ECT）と破裂試験で評価され、輸送要件に応じて選定される。",
+    "es": "Cajas de cartón ondulado o compacto utilizadas para empacar y enviar productos impresos.",
+    "zh-Hans": "用于包装和运输印刷品的瓦楞或实心纸板箱。",
+    "sv": "Fraktbehållare av wellpapp i standard- eller specialstorlekar — den dominerande behållaren för distribution av tryckprodukter. Styrkan klassas med kantkrosstest (ECT) och bristningstest för fraktkrav.",
+    "da": "Bølgepap-forsendelseskasser i standard- eller specialstørrelser — den dominerende beholder til distribution af trykprodukter. Styrken angives med kanttrykprøve (ECT) og sprængprøve for forsendelseskrav.",
+    "nl": "Golfkartonnen verzenddozen in standaard- of maatwerkformaten — de dominante verpakking voor distributie van drukwerk. De sterkte wordt aangeduid met randdrukproef (ECT) en barstproef voor verzendeisen.",
+    "pl": "Pojemniki wysyłkowe z tektury falistej w rozmiarach standardowych lub na zamówienie — dominujący pojemnik w dystrybucji produktów drukowanych. Wytrzymałość określa test zgniatania krawędziowego (ECT) i test przebicia dla wymogów wysyłkowych.",
+    "pt": "Caixas de papelão ondulado em tamanhos padrão ou personalizados — o recipiente dominante na distribuição de impressos. A resistência é classificada por teste de compressão de borda (ECT) e teste de estouro conforme as exigências de transporte.",
+    "hi": "मानक या कस्टम आकार के कोरुगेटेड गत्ते के शिपिंग कंटेनर — मुद्रित उत्पादों के वितरण का प्रमुख कंटेनर। मज़बूती एज क्रश टेस्ट (ECT) और बर्स्ट टेस्ट से आँकी जाती है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Cardboard box",
+      "Carton"
+    ],
+    "nb": [
+      "Pappeske",
+      "Kartong"
+    ],
+    "pl": [
+      "karton",
+      "pudło kartonowe",
+      "karton klapowy"
+    ],
+    "pt": [
+      "caixa de papelão",
+      "caixa de transporte",
+      "caixa ondulada"
+    ],
+    "hi": [
+      "गत्ते का डिब्बा",
+      "कार्टन",
+      "कोरुगेटेड बॉक्स",
+      "कार्डबोर्ड बॉक्स"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

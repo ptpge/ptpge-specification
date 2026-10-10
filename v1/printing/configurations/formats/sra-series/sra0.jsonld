@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/sra-series/sra0",
+  "type": "skos:Concept",
+  "version": "2026-08-12",
+  "status": "proposed",
+  "notation": "P:CF§SRA0",
+  "level": "element",
+  "label": {
+    "en": "SRA0 (900 x 1280 mm)",
+    "nb": "SRA0 (900 x 1280 mm)",
+    "de": "SRA0 (900 x 1280 mm)",
+    "ja": "SRA0 (900 x 1280 mm)",
+    "nl": "SRA0 (900 x 1280 mm)",
+    "es": "SRA0 (900 × 1280 mm)",
+    "zh-Hans": "SRA0 (900 × 1280 mm)",
+    "sv": "SRA0 (900 x 1280 mm)",
+    "da": "SRA0 (900 x 1280 mm)",
+    "pl": "SRA0 (900 x 1280 mm)",
+    "pt": "SRA0 (900 x 1280 mm)",
+    "hi": "SRA0 (900 x 1280 mm)"
+  },
+  "definition": {
+    "en": "900 × 1280 mm. Untrimmed press sheet of the ISO 217 SRA (Supplementary Raw format A) series — oversized relative to the corresponding A format to allow bleed, grip and trim in sheet-fed production.",
+    "nb": "900 × 1280 mm. Ubeskåret trykkark i ISO 217 SRA-serien — overdimensjonert i forhold til tilsvarende A-format for utfallende trykk, griperkant og renskjæring i arkproduksjon.",
+    "de": "900 × 1280 mm. Unbeschnittener Druckbogen der ISO-217-SRA-Reihe — gegenüber dem entsprechenden A-Format vergrößert für Beschnitt, Greiferrand und Zuschnitt im Bogendruck.",
+    "es": "900 × 1280 mm. Pliego de imprenta sin recortar de la serie SRA de ISO 217 — sobredimensionado respecto al formato A correspondiente para sangre, pinzas y refilado en producción de pliegos.",
+    "ja": "900 × 1280 mm。ISO 217 SRA系列の断裁前の印刷用紙。対応するA判より大きく、裁ち落とし・くわえ・仕上げ断裁の余白を確保する。",
+    "zh-Hans": "900 × 1280 毫米。ISO 217 SRA 系列的未裁切印刷纸张 — 比对应的 A 系列尺寸更大，为出血、叼口与裁切留出余量。",
+    "sv": "900 × 1280 mm. Obeskuret tryckark i SRA-serien (Supplementary Raw format A) i ISO 217 — överdimensionerat i förhållande till motsvarande A-format för att ge plats åt utfall, gripkant och renskärning i arkmatad produktion.",
+    "da": "900 × 1280 mm. Ubeskåret trykark i SRA-serien (Supplementary Raw format A) i ISO 217 — overdimensioneret i forhold til det tilsvarende A-format for at give plads til beskæring, gribekant og renskæring i arkbaseret produktion.",
+    "nl": "900 × 1280 mm. Onbesneden drukvel in de SRA-reeks (Supplementary Raw format A) van ISO 217 — ruimer bemeten dan het overeenkomstige A-formaat om plaats te bieden aan afloop, grijperrand en schoonsnijden in vellenproductie.",
+    "pl": "900 × 1280 mm. Nieprzycięty arkusz drukowy serii SRA (Supplementary Raw format A) normy ISO 217 — większy od odpowiadającego formatu A, aby zmieścić spad, łapki i obcięcie w produkcji arkuszowej.",
+    "pt": "900 × 1280 mm. Folha de impressão não refilada da série SRA (Supplementary Raw format A) da ISO 217 — maior que o formato A correspondente para permitir sangria, pinça e refile na produção em folha.",
+    "hi": "900 × 1280 mm. ISO 217 SRA (Supplementary Raw format A) सीरीज़ की बिना ट्रिम प्रेस शीट — शीट-फ़ेड उत्पादन में ब्लीड, ग्रिप और ट्रिम के लिए संगत A फ़ॉर्मेट से बड़ी।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/sra-series",
+  "elementType": "value",
+  "properties": {
+    "width": 900,
+    "height": 1280,
+    "unit": "mm",
+    "aspectRatio": 1.4222,
+    "standard": "ISO 217",
+    "area": 1152000
+  },
+  "created": "2026-08-12T11:00:47Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

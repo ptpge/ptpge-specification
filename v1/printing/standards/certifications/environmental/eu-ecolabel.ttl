@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "EU Eco-label"@en,
+        "European Ecolabel"@en,
+        "EU Eco-label"@hi,
+        "यूरोपीय इकोलेबल"@hi,
+        "EU Eco-label"@pl,
+        "europejski ekoznak"@pl,
+        "unijny ekoznak"@pl,
+        "EU Ecolabel"@pt,
+        "Ecolabel europeu"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental> ;
+    skos:definition "EU’s miljømærke etableret 1992, certificerer produkter og tjenester, der opfylder strenge miljøkriterier gennem hele livscyklussen."@da,
+        "1992 eingeführtes Umweltlabel der Europäischen Union, zertifiziert Produkte und Dienstleistungen, die strenge Umweltkriterien über ihren gesamten Lebenszyklus erfüllen."@de,
+        "European Union ecolabel established in 1992, certifying products and services that meet strict environmental criteria across their full lifecycle."@en,
+        "Etiqueta ecológica de la Unión Europea establecida en 1992, que certifica productos y servicios que cumplen criterios ambientales estrictos a lo largo de todo su ciclo de vida."@es,
+        "1992 में स्थापित यूरोपीय संघ का इकोलेबल, जो पूरे जीवनचक्र में कड़े पर्यावरणीय मानदंड पूरे करने वाले उत्पादों और सेवाओं को प्रमाणित करता है।"@hi,
+        "1992年に制定された欧州連合のエコラベル。製品およびサービスのライフサイクル全体にわたる厳格な環境基準への適合を認証する。"@ja,
+        "EUs miljømerke etablert i 1992, som sertifiserer produkter og tjenester som oppfyller strenge miljøkriterier gjennom hele livssyklusen."@nb,
+        "Het EU-milieukeurmerk, opgericht in 1992, certificeert producten en diensten die aan strenge milieucriteria voldoen over de volledige levenscyclus."@nl,
+        "Ekoznak Unii Europejskiej ustanowiony w 1992 r., certyfikujący produkty i usługi spełniające ścisłe kryteria środowiskowe w całym cyklu życia."@pl,
+        "Rótulo ecológico da União Europeia criado em 1992, que certifica produtos e serviços que cumprem critérios ambientais rigorosos ao longo de todo o ciclo de vida."@pt,
+        "EU:s miljömärkning etablerad 1992, certifierar produkter och tjänster som uppfyller strikta miljökriterier genom hela livscykeln."@sv,
+        "欧盟生态标签，1992年设立，认证在整个生命周期内符合严格环境标准的产品和服务。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§EU-ECOLABEL" ;
+    skos:prefLabel "EU Ecolabel"@da,
+        "EU Ecolabel"@de,
+        "EU Ecolabel"@en,
+        "EU Ecolabel (Etiqueta Ecológica Europea)"@es,
+        "EU Ecolabel"@hi,
+        "EU Ecolabel"@ja,
+        "EU Ecolabel"@nb,
+        "EU Ecolabel"@nl,
+        "EU Ecolabel"@pl,
+        "Rótulo Ecológico da UE"@pt,
+        "EU Ecolabel"@sv,
+        "EU Ecolabel（欧盟生态标签）"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

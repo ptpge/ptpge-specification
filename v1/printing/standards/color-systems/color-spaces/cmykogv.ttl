@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykogv> a skos:Concept ;
+    dcterms:created "2026-06-18T10:00:07+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-spaces> ;
+    skos:definition "Syvfarvet udvidet farverum, der tilføjer orange, grøn og violet til CMYK."@da,
+        "Sieben-Farben-Farbraum mit erweitertem Gamut: CMYK plus Orange, Grün und Violett."@de,
+        "Seven-colour extended-gamut colour space adding Orange, Green and Violet to CMYK."@en,
+        "Espacio de color de gama extendida de siete colores que añade Naranja, Verde y Violeta a CMYK."@es,
+        "सात-रंग विस्तारित-गैमट रंग स्पेस जो CMYK में नारंगी, हरा और बैंगनी जोड़ता है।"@hi,
+        "CMYK にオレンジ、グリーン、バイオレットを加えた7色の拡張ガモット色空間。"@ja,
+        "Sju-farges utvidet-gamut fargerom som legger oransje, grønt og fiolett til CMYK."@nb,
+        "Zevenkleurige uitgebreide kleurruimte die oranje, groen en violet aan CMYK toevoegt."@nl,
+        "Siedmiokolorowa przestrzeń barw o rozszerzonym gamucie dodająca do CMYK pomarańcz, zieleń i fiolet."@pl,
+        "Espaço de cor de gamut estendido de sete cores que adiciona Laranja, Verde e Violeta ao CMYK."@pt,
+        "Sjufärgs utökad färgrymd som lägger orange, grönt och violett till CMYK."@sv,
+        "在 CMYK 上加入橙、绿、紫的七色扩展色域色彩空间。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§CMYKOGV" ;
+    skos:prefLabel "CMYKOGV"@da,
+        "CMYKOGV"@en,
+        "CMYKOGV"@hi,
+        "CMYKOGV"@nl,
+        "CMYKOGV"@pl,
+        "CMYKOGV"@pt,
+        "CMYKOGV"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

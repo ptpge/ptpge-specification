@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c3",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Envelope C3 (324 × 458 mm)",
+    "es": "C3 (324 × 458 mm)",
+    "zh-Hans": "C3 (324 × 458 mm)",
+    "nb": "Envelope C3 (324 × 458 mm)",
+    "de": "Envelope C3 (324 × 458 mm)",
+    "ja": "Envelope C3 (324 × 458 mm)",
+    "sv": "Kuvert C3 (324 × 458 mm)",
+    "da": "Kuvert C3 (324 × 458 mm)",
+    "nl": "Kuvert C3 (324 × 458 mm)",
+    "pl": "Koperta C3 (324 × 458 mm)",
+    "pt": "Envelope C3 (324 × 458 mm)",
+    "hi": "लिफ़ाफ़ा C3 (324 × 458 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ENV-C3",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "324 × 458 mm. ISO 269 C3 envelope — holds an A3 sheet flat. Used for catalog and large-document mailings.",
+    "nb": "324 × 458 mm. ISO 269 C3-konvolutt — rommer et A3-ark uten brett. Brukt til katalog- og storformat-utsendelser.",
+    "de": "324 × 458 mm. ISO-269-C3-Briefumschlag — fasst einen A3-Bogen ungefaltet. Verwendet für Katalog- und Großdokumentversand.",
+    "ja": "324×458mm。ISO 269 C3封筒 — A3シートを折らずに収納する。カタログおよび大型書類郵送に使用される。",
+    "es": "Sobre C3 de la serie C de ISO 269, dimensiones 324 × 458 mm. Diseñado para contener la hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C3信封，尺寸324 × 458 mm。设计用于装相同编号的A纸。",
+    "sv": "324 × 458 mm. C3-kuvert enligt ISO 269 — rymmer ett A3-ark plant. Används för katalog- och stordokumentutskick.",
+    "da": "324 × 458 mm. C3-kuvert efter ISO 269 — rummer et A3-ark fladt. Bruges til katalog- og stordokumentforsendelserutskick.",
+    "nl": "324 × 458 mm. C3-envelop volgens ISO 269 — biedt plaats aan een vlak A3-vel. Gebruikt voor catalogus- en grootformaatzendingenutskick.",
+    "pl": "324 × 458 mm. Koperta ISO 269 C3 — mieści arkusz A3 na płasko. Używana do wysyłki katalogów i dużych dokumentów.",
+    "pt": "324 × 458 mm. Envelope C3 da ISO 269 — comporta uma folha A3 aberta. Usado em catálogos e documentos grandes.",
+    "hi": "324 × 458 mm. ISO 269 C3 लिफ़ाफ़ा — A3 शीट सपाट समाती है। कैटलॉग और बड़े दस्तावेज़ों की डाक में।"
+  },
+  "properties": {
+    "width": 324,
+    "height": 458,
+    "unit": "mm",
+    "aspectRatio": 1.4136,
+    "standard": "ISO 269",
+    "area": 148392
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "324 x 458 mm",
+      "324x458",
+      "324×458",
+      "32.4 x 45.8 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/mutoh",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Mutoh",
+    "es": "Mutoh",
+    "zh-Hans": "Mutoh",
+    "nb": "Mutoh",
+    "de": "Mutoh",
+    "ja": "Mutoh",
+    "sv": "Mutoh",
+    "da": "Mutoh",
+    "nl": "Mutoh",
+    "pl": "Mutoh",
+    "pt": "Mutoh",
+    "hi": "Mutoh"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Mutoh Industries — Japanese manufacturer of wide-format inkjet printers and plotters, primarily for sign-making, indoor and outdoor graphics, and dye-sublimation textile printing.",
+    "nb": "Mutoh Industries — japansk produsent av storformat-inkjet-skrivere og plottere, primært for skiltproduksjon, innendørs og utendørs grafikk og fargesublimering tekstiltrykk.",
+    "de": "Mutoh Industries — japanischer Hersteller von Großformat-Inkjet-Druckern und Plottern, hauptsächlich für Schilderbau, Innen- und Außengrafiken sowie Sublimations-Textildruck.",
+    "ja": "武藤工業 — 大判インクジェットプリンターおよびプロッターの日本のメーカー。主にサイン制作、屋内外グラフィックス、昇華転写テキスタイル印刷向け。",
+    "es": "Mutoh Industries — fabricante japonés de impresoras de gran formato, con líneas eco-solvente, sublimación y UV LED para signage y textil.",
+    "zh-Hans": "Mutoh Industries —— 日本大幅面打印机制造商，产品线涵盖环保溶剂、热升华和UV LED，用于标识和纺织品。",
+    "sv": "Mutoh Industries — japansk tillverkare av storformats-inkjetskrivare och plottrar, främst för skylttillverkning, inomhus- och utomhusgrafik samt sublimeringstryck på textil.",
+    "da": "Mutoh Industries — japansk producent af storformat-inkjetprintere og plottere, primært til skilteproduktion, indendørs- og udendørsgrafik samt sublimeringstryk på tekstil.",
+    "nl": "Mutoh Industries — Japanse fabrikant van grootformaat-inkjetprinters en plotters, voornamelijk voor signmaking, binnen- en buitengraphics en sublimatiedruk op textiel.",
+    "pl": "Mutoh Industries — japoński producent wielkoformatowych drukarek atramentowych i ploterów, głównie do produkcji reklamy, grafik wewnętrznych i zewnętrznych oraz sublimacyjnego druku na tekstyliach.",
+    "pt": "Mutoh Industries — fabricante japonês de impressoras e plotters de jato de tinta de grande formato, principalmente para comunicação visual, gráficos internos e externos e impressão têxtil por sublimação.",
+    "hi": "Mutoh Industries — वाइड-फॉर्मेट इंकजेट प्रिंटरों और प्लॉटरों का जापानी निर्माता, मुख्यतः साइन-मेकिंग, इनडोर और आउटडोर ग्राफ़िक्स और डाई-सब्लिमेशन टेक्सटाइल प्रिंटिंग के लिए।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-WIDE-MUTO",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

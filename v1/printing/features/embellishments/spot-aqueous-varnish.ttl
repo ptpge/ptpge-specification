@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/spot-aqueous-varnish> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Aqueous coating"@en,
+        "Spot AQ"@en,
+        "Spot aqueous"@en,
+        "एक्वियस कोटिंग"@hi,
+        "जल-आधारित वार्निश"@hi,
+        "स्पॉट AQ"@hi,
+        "स्पॉट एक्वियस"@hi,
+        "Akvalakk"@nb,
+        "Vannbasert lakk"@nb,
+        "lakier akrylowy wybiórczy"@pl,
+        "lakier dyspersyjny"@pl,
+        "lakier wodny wybiórczy"@pl,
+        "verniz AQ"@pt,
+        "verniz aquoso"@pt,
+        "verniz de água localizado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments> ;
+    skos:definition "Vandbaseret lak påført udvalgte designelementer. Mere miljøvenlig end UV-lak, men med mere afdæmpet glans. Påføres inline på pressen som heldækkende lag eller selektivt via et lakværk."@da,
+        "Wasserbasierter Lack, der auf bestimmte Designelemente aufgebracht wird. Umweltfreundlicher als UV-Lack, jedoch mit dezenterem Glanz."@de,
+        "Water-based varnish applied to specific design elements. More environmentally friendly than UV varnish but with a subtler sheen. Applied inline on press as a flood coat or selectively via a press tower."@en,
+        "Barniz al agua aplicado a elementos concretos del diseño. Más respetuoso con el medio ambiente que el barniz UV pero con un brillo más sutil. Se aplica en línea en máquina, como capa completa o de forma selectiva mediante un cuerpo de barnizado."@es,
+        "विशिष्ट डिज़ाइन तत्वों पर लगाया गया जल-आधारित वार्निश। UV वार्निश से अधिक पर्यावरण-अनुकूल पर हल्की चमक। प्रेस पर इनलाइन फ़्लड कोट के रूप में या प्रेस टावर से चुनिंदा जगह।"@hi,
+        "デザインの特定要素に塗布する水性ニス。UV ニスより環境負荷が低いが、光沢は控えめ。印刷機のインラインで全面またはニスユニットによる部分塗布で施される。"@ja,
+        "Vannbasert lakk påført spesifikke design-elementer. Mer miljøvennlig enn UV-lakk, men med subtilere glans. Påført inline på pressen som flood-coat eller selektivt via et press-tårn."@nb,
+        "Waterbasislak op geselecteerde ontwerpelementen. Milieuvriendelijker dan UV-lak, maar met subtielere glans. Inline op de pers aangebracht als volvlakslaag of selectief via een lakwerk."@nl,
+        "Lakier wodny nanoszony na wybrane elementy projektu. Bardziej przyjazny środowisku niż lakier UV, lecz o subtelniejszym połysku. Nanoszony w linii na maszynie jako lakier pełny lub wybiórczo z wieży lakierującej."@pl,
+        "Verniz à base de água aplicado em elementos específicos do design. Mais ecológico que o verniz UV, mas com brilho mais sutil. Aplicado em linha na impressora, como verniz total ou seletivamente por uma torre de verniz."@pt,
+        "Vattenbaserad lack applicerad på specifika designelement. Mer miljövänlig än UV-lack men med diskretare lyster. Appliceras i linje i pressen som heltäckande skikt eller selektivt via ett lacktorn."@sv,
+        "施加于特定设计元素的水性上光油。比 UV 上光更环保，但光泽更含蓄。在印刷机上联线施加，可整面涂布或经上光单元选择性施加。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§SPOT-AQUEOUS-VARNISH" ;
+    skos:prefLabel "Partiel dispersionslak"@da,
+        "Spot-Wasserlack"@de,
+        "Spot Aqueous Varnish"@en,
+        "Barniz acuoso localizado"@es,
+        "स्पॉट एक्वियस वार्निश"@hi,
+        "部分水性ニス"@ja,
+        "Spot vannbasert lakk"@nb,
+        "Spot-dispersielak"@nl,
+        "Lakier dyspersyjny wybiórczy"@pl,
+        "Verniz aquoso localizado"@pt,
+        "Partiell dispersionslack"@sv,
+        "局部水性光油"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§5.5.3 · p.112" ;
+            ptpge:mappingRow "crosswalk row 26" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "Varnishing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,83 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/colors/white> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Dækhvid"@da,
+        "Hvid"@da,
+        "Hvidtryk"@da,
+        "Deckweiß"@de,
+        "Weißdruck"@de,
+        "Weiße Farbe"@de,
+        "White Ink"@en,
+        "Blanco"@es,
+        "Blanco de cobertura"@es,
+        "Tinta blanca"@es,
+        "व्हाइट अंडरप्रिंट"@hi,
+        "व्हाइट इंक"@hi,
+        "सफ़ेद स्याही"@hi,
+        "ホワイトインキ"@ja,
+        "白引き"@ja,
+        "白版"@ja,
+        "Hvit farge"@nb,
+        "Hvitt trykk"@nb,
+        "Dekwit"@nl,
+        "Wit"@nl,
+        "Witdruk"@nl,
+        "biała farba"@pl,
+        "biały nadruk"@pl,
+        "branco de base"@pt,
+        "tinta branca"@pt,
+        "white ink"@pt,
+        "Täckvitt"@sv,
+        "Vitt"@sv,
+        "Vittryck"@sv,
+        "打白"@zh-Hans,
+        "白墨"@zh-Hans,
+        "白色油墨"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/colors> ;
+    skos:definition "Enkeltfarvetryk med kun hvid farve. Bruges på mørke, farvede eller transparente substrater, hvor hvid giver kontrast eller grafisk effekt — ofte kombineret med substratets egen farve som designelement."@da,
+        "Einfarbiger Druck nur mit weißer Druckfarbe. Wird auf dunklen, farbigen oder transparenten Substraten verwendet, wo Weiß für Kontrast oder grafische Wirkung sorgt."@de,
+        "Single-color printing using only white ink. Used on dark, coloured, or transparent substrates where white provides contrast or graphic effect — often combined with the substrate's own colour as the design."@en,
+        "Impresión monocolor solo con tinta blanca. Usada sobre sustratos oscuros, de color o transparentes donde el blanco aporta contraste o efecto gráfico — a menudo combinada con el color propio del sustrato como diseño."@es,
+        "केवल सफ़ेद स्याही से एक-रंग छपाई। गहरे, रंगीन या पारदर्शी सब्सट्रेट पर जहाँ सफ़ेद कंट्रास्ट या ग्राफ़िक प्रभाव देता है — अक्सर सब्सट्रेट के अपने रंग के साथ डिज़ाइन के रूप में।"@hi,
+        "白インキのみの単色印刷。濃色・色付き・透明の基材で、白がコントラストやグラフィック効果を生む場合に使う — 基材の地色をデザインの一部として組み合わせることが多い。"@ja,
+        "Enfarget trykk med kun hvit blekk. Brukes på mørke, fargede eller transparente substrater hvor hvit gir kontrast eller grafisk effekt — ofte kombinert med substratets egen farge som designet."@nb,
+        "Eenkleurendruk met alleen witte inkt. Gebruikt op donkere, gekleurde of transparante substraten waar wit contrast of grafisch effect geeft — vaak gecombineerd met de eigen substraatkleur als ontwerpelement."@nl,
+        "Druk jednokolorowy tylko białą farbą. Stosowany na ciemnych, kolorowych lub przezroczystych podłożach, gdzie biel daje kontrast lub efekt graficzny — często łączony z własnym kolorem podłoża jako elementem projektu."@pl,
+        "Impressão monocromática usando apenas tinta branca. Usada em substratos escuros, coloridos ou transparentes, onde o branco dá contraste ou efeito gráfico — muitas vezes combinada com a cor do próprio substrato como parte do design."@pt,
+        "Enfärgstryck med enbart vitt bläck. Används på mörka, färgade eller transparenta substrat där vitt ger kontrast eller grafisk effekt — ofta i kombination med substratets egen färg som del av designen."@sv,
+        "仅用白色油墨的单色印刷。用于深色、彩色或透明承印材料，白色提供对比或图形效果 — 常与材料本色共同构成设计。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§WHITE" ;
+    skos:prefLabel "Hvid"@da,
+        "Weiß"@de,
+        "White"@en,
+        "Blanco"@es,
+        "सफ़ेद"@hi,
+        "ホワイト"@ja,
+        "Hvit"@nb,
+        "Wit"@nl,
+        "Biel"@pl,
+        "Branco"@pt,
+        "Vitt"@sv,
+        "白色"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§6.15 · p.168" ;
+            ptpge:mappingRow "crosswalk row 24" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

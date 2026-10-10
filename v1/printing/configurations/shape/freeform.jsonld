@@ -1,0 +1,99 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/shape/freeform",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Freeform",
+    "nb": "Friform",
+    "de": "Freiform",
+    "ja": "フリーフォーム",
+    "es": "Forma Libre",
+    "zh-Hans": "自由形状",
+    "sv": "Friform",
+    "da": "Friform",
+    "nl": "Friform",
+    "pl": "Dowolny",
+    "pt": "Forma livre",
+    "hi": "मुक्त आकृति"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§FREEFORM",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/shape",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Free-form, bespoke outline that follows the artwork — produced by figure cutting, contour cutting or routing. Any custom shape beyond the standard geometric forms.",
+    "nb": "Fri, egendefinert kontur som følger motivet — laget ved figurskjæring, konturskjæring eller fresing. Enhver tilpasset form utover de standard geometriske formene.",
+    "de": "Freie, individuelle Umrissform, die dem Motiv folgt — durch Figurenschnitt, Konturschnitt oder Fräsen. Jede Sonderform jenseits der geometrischen Standardformen.",
+    "es": "Contorno libre y a medida que sigue el arte — producido por corte de figura, corte de contorno o fresado. Cualquier forma personalizada más allá de las formas geométricas estándar.",
+    "ja": "アートワークに沿った自由形状の輪郭 — 図形カット、輪郭カット、ルーター加工で作る。標準的な幾何学形状以外のあらゆるカスタム形状。",
+    "zh-Hans": "跟随画面的自由定制轮廓 — 通过异形切割、轮廓切割或铣切制成。标准几何形状之外的任何自定义形状。",
+    "sv": "Fri, skräddarsydd kontur som följer motivet — framställd genom figurskärning, konturskärning eller fräsning. Varje anpassad form bortom de geometriska standardformerna.",
+    "da": "Fri, skræddersyet kontur, der følger motivet — fremstillet ved figurskæring, konturskæring eller fræsning. Varje anpassad form bortom de geometriska standardformerna.",
+    "nl": "Vrije contour op maat die het motief volgt — gemaakt door figuursnijden, contoursnijden of frezen. Varje anpassad form bortom de geometriska standardformerna.",
+    "pl": "Dowolny, indywidualny obrys podążający za projektem — uzyskiwany przez wycinanie figur, cięcie konturowe lub frezowanie. Każdy niestandardowy kształt poza standardowymi formami geometrycznymi.",
+    "pt": "Contorno livre e sob medida que segue a arte — obtido por corte de figura, corte de contorno ou fresagem. Qualquer forma personalizada além das formas geométricas padrão.",
+    "hi": "आर्टवर्क के अनुसार मुक्त, कस्टम रूपरेखा — फ़िगर कटिंग, कंटूर कटिंग या राउटिंग से। मानक ज्यामितीय रूपों से परे कोई भी कस्टम आकृति।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Custom shape",
+      "Custom contour",
+      "Die-cut shape",
+      "Contour cut",
+      "Figure cut",
+      "Bespoke shape",
+      "Irregular"
+    ],
+    "nb": [
+      "Egendefinert form",
+      "Konturskåret",
+      "Figurskåret",
+      "Fri form"
+    ],
+    "pl": [
+      "kształt niestandardowy",
+      "kontur niestandardowy",
+      "kształt wykrawany",
+      "cięcie konturowe"
+    ],
+    "pt": [
+      "forma personalizada",
+      "contorno personalizado",
+      "forma com corte especial",
+      "corte de contorno",
+      "forma irregular"
+    ],
+    "hi": [
+      "कस्टम आकृति",
+      "कस्टम कंटूर",
+      "डाई-कट आकृति",
+      "कंटूर कट",
+      "अनियमित आकृति"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ShapeCuttingIntent"
+      ],
+      "refs": [
+        "§4.13 · p.81"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 22"
+    }
+  ]
+}

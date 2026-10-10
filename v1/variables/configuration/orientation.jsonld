@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/configuration/orientation",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:CF§ORIENTATION",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Orientation",
+    "nb": "Orientering",
+    "de": "Ausrichtung",
+    "es": "Orientación",
+    "ja": "向き",
+    "zh-Hans": "方向",
+    "sv": "Orientering",
+    "da": "Orientering",
+    "nl": "Oriëntatie",
+    "pl": "Orientacja",
+    "pt": "Orientação",
+    "hi": "ओरिएंटेशन"
+  },
+  "altLabels": {
+    "en": [
+      "Portrait/Landscape"
+    ],
+    "nb": [
+      "Stående/liggende",
+      "Retning"
+    ],
+    "pl": [
+      "pionowa/pozioma",
+      "portret/pejzaż"
+    ],
+    "pt": [
+      "retrato/paisagem",
+      "vertical/horizontal"
+    ],
+    "hi": [
+      "दिशा",
+      "पोर्ट्रेट/लैंडस्केप",
+      "खड़ा/लेटा"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Orientation. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Orientering. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Ausrichtung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Orientación. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：向き。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：方向。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Orientering. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Orientering. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Oriëntatie. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Orientacja. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Orientação. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: ओरिएंटेशन। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Portrait or landscape?",
+    "nb": "Stående eller liggende?",
+    "de": "Hochformat oder Querformat?",
+    "es": "¿Vertical u horizontal?",
+    "ja": "縦向きですか、横向きですか？",
+    "zh-Hans": "竖向还是横向？",
+    "sv": "Stående eller liggande?",
+    "da": "Stående eller liggende?",
+    "nl": "Staand of liggend?",
+    "pl": "Pionowo czy poziomo?",
+    "pt": "Vertical ou horizontal?",
+    "hi": "पोर्ट्रेट या लैंडस्केप?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/configurations/orientation",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/configuration",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

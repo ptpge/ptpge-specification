@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/standard-finishing-systems> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Standard Finishing Systems — amerikansk distributør og producent af efterbehandlingsudstyr, der repræsenterer mærker som Hunkeler, Horizon og Foliant på det nordamerikanske marked."@da,
+        "Standard Finishing Systems — US-amerikanischer Distributor und Hersteller von Weiterverarbeitungsgeräten, vertritt Marken wie Hunkeler, Horizon und Foliant auf dem nordamerikanischen Markt."@de,
+        "Standard Finishing Systems — American distributor and manufacturer of finishing equipment, representing brands such as Hunkeler, Horizon, and Foliant in the North American market."@en,
+        "Standard Finishing Systems — fabricante estadounidense de equipo de acabado para producción digital y comercial mediana, distribuidor de varias marcas."@es,
+        "Standard Finishing Systems — फ़िनिशिंग उपकरणों का अमेरिकी वितरक और निर्माता, उत्तर अमेरिकी बाज़ार में Hunkeler, Horizon और Foliant जैसे ब्रांडों का प्रतिनिधि।"@hi,
+        "Standard Finishing Systems — 米国の仕上げ機器ディストリビューター兼メーカー。北米市場でHunkeler、Horizon、Foliantなどのブランドを取り扱う。"@ja,
+        "Standard Finishing Systems — amerikansk distributør og produsent av etterbehandlingsutstyr, som representerer merker som Hunkeler, Horizon og Foliant i det nordamerikanske markedet."@nb,
+        "Standard Finishing Systems — Amerikaanse distributeur en fabrikant van afwerkingsapparatuur, die merken als Hunkeler, Horizon en Foliant vertegenwoordigt op de Noord-Amerikaanse markt."@nl,
+        "Standard Finishing Systems — amerykański dystrybutor i producent urządzeń wykończeniowych, reprezentujący marki takie jak Hunkeler, Horizon i Foliant na rynku północnoamerykańskim."@pl,
+        "Standard Finishing Systems — distribuidor e fabricante americano de equipamentos de acabamento, representando marcas como Hunkeler, Horizon e Foliant no mercado norte-americano."@pt,
+        "Standard Finishing Systems — amerikansk distributör och tillverkare av efterbehandlingsutrustning, representerar märken som Hunkeler, Horizon och Foliant på den nordamerikanska marknaden."@sv,
+        "Standard Finishing Systems —— 美国数码和中型商业生产印后设备制造商，多个品牌分销商。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-STAN" ;
+    skos:prefLabel "Standard Finishing Systems"@da,
+        "Standard Finishing Systems"@de,
+        "Standard Finishing Systems"@en,
+        "Standard Finishing Systems"@es,
+        "Standard Finishing Systems"@hi,
+        "Standard Finishing Systems"@ja,
+        "Standard Finishing Systems"@nb,
+        "Standard Finishing Systems"@nl,
+        "Standard Finishing Systems"@pl,
+        "Standard Finishing Systems"@pt,
+        "Standard Finishing Systems"@sv,
+        "Standard Finishing Systems"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

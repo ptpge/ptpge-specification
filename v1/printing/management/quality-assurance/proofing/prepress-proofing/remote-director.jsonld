@@ -1,0 +1,66 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/remote-director",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Remote Director",
+    "es": "Remote Director",
+    "zh-Hans": "Remote Director",
+    "nb": "Remote Director",
+    "de": "Remote Director",
+    "ja": "Remote Director",
+    "sv": "Remote Director",
+    "da": "Remote Director",
+    "nl": "Remote Director",
+    "pl": "Remote Director",
+    "pt": "Remote Director",
+    "hi": "Remote Director"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§REMOTE-DIRECTOR",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Remote Director — color-accurate soft-proofing and remote-approval system that synchronizes color-calibrated displays at multiple locations so reviewers see exactly the same color rendering. Used by global agencies and brand owners.",
+    "nb": "Remote Director — fargenøyaktig soft-proofing og fjern-godkjenningssystem som synkroniserer fargekalibrerte skjermer på flere lokasjoner slik at gjennomgangsdeltakere ser nøyaktig samme fargegjengivelse. Brukt av globale byråer og merkevareeiere.",
+    "de": "Remote Director — farbgenaues Soft-Proofing- und Remote-Freigabesystem, das farbkalibrierte Displays an mehreren Standorten synchronisiert, sodass Prüfer exakt dieselbe Farbdarstellung sehen. Eingesetzt von globalen Agenturen und Markeninhabern.",
+    "ja": "Remote Director — 複数拠点のキャリブレーション済みディスプレイを同期させ、レビュー担当者が全く同じ色再現を見ることができるようにする色精度の高いソフトプルーフおよび遠隔承認システム。グローバル代理店およびブランドオーナーが使用する。",
+    "es": "Sistema de prueba blanda colaborativa entre múltiples ubicaciones, sincronizando vista calibrada y comentarios entre cliente, agencia e imprenta.",
+    "zh-Hans": "在多个位置之间的协作软校样系统，在客户、代理和印刷厂之间同步校准视图和评论。",
+    "sv": "Remote Director — färgriktigt skärmprovs- och distansgodkännandesystem som synkroniserar färgkalibrerade bildskärmar på flera platser så att granskare ser exakt samma färgåtergivning. Används av globala byråer och varumärkesägare.",
+    "da": "Remote Director — farvenøjagtigt soft-proofing- og fjerngodkendelsessystem, der synkroniserer farvekalibrerede skærme på flere lokationer, så alle ser præcis samme farvegengivelse.",
+    "nl": "Remote Director — kleurnauwkeurig soft-proofing- en goedkeuringssysteem op afstand dat kleurgekalibreerde schermen op meerdere locaties synchroniseert, zodat iedereen exact dezelfde kleurweergave ziet.",
+    "pl": "Remote Director — system wiernego barwnie soft-proofingu i zdalnej akceptacji, synchronizujący skalibrowane barwnie wyświetlacze w wielu lokalizacjach, tak aby recenzenci widzieli dokładnie to samo odwzorowanie barw. Używany przez globalne agencje i właścicieli marek.",
+    "pt": "Remote Director — sistema de prova de tela com cor precisa e aprovação remota que sincroniza monitores calibrados em vários locais para que os revisores vejam exatamente a mesma renderização de cor. Usado por agências globais e proprietários de marca.",
+    "hi": "Remote Director — रंग-सटीक सॉफ़्ट-प्रूफ़िंग और दूरस्थ-अनुमोदन सिस्टम जो कई स्थानों पर रंग-अंशांकित डिस्प्ले सिंक्रनाइज़ करता है ताकि समीक्षक बिल्कुल वही रंग रेंडरिंग देखें। वैश्विक एजेंसियों और ब्रांड स्वामियों द्वारा प्रयुक्त।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

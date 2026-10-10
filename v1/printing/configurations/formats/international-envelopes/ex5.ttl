@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ex5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "15.5 x 21.6 cm"@en,
+        "155 x 216 mm"@en,
+        "155x216"@en,
+        "155×216"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "155 × 216 mm. Specialkuvert til visse A5-relaterede forsendelser."@da,
+        "155 × 216 mm. Spezial-Briefumschlag für bestimmte A5-bezogene Versandzwecke."@de,
+        "155 × 216 mm. Specialty envelope used for specific A5-related mailings."@en,
+        "Sobre EX5 — formato europeo extra extendido para correspondencia voluminosa."@es,
+        "155 × 216 mm. A5 से जुड़ी विशिष्ट डाक के लिए विशेष लिफ़ाफ़ा।"@hi,
+        "155×216mm。特定のA5関連郵送に使用される特殊封筒。"@ja,
+        "155 × 216 mm. Spesialkonvolutt brukt til spesifikke A5-relaterte utsendelser."@nb,
+        "155 × 216 mm. Speciale envelop voor bepaalde A5-gerelateerde zendingen."@nl,
+        "155 × 216 mm. Specjalna koperta używana do określonych przesyłek związanych z formatem A5."@pl,
+        "155 × 216 mm. Envelope especial para envios específicos relacionados a A5."@pt,
+        "155 × 216 mm. Specialkuvert för vissa A5-relaterade utskick."@sv,
+        "EX5信封 —— 用于大容量通信的欧洲超加大格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§EX5" ;
+    skos:prefLabel "EX5 (155 x 216 mm)"@da,
+        "EX5 (155 x 216 mm)"@de,
+        "EX5 (155 x 216 mm)"@en,
+        "EX5 (155 × 216 mm)"@es,
+        "EX5 (155 x 216 mm)"@hi,
+        "EX5 (155 x 216 mm)"@ja,
+        "EX5 (155 x 216 mm)"@nb,
+        "EX5 (155 x 216 mm)"@nl,
+        "EX5 (155 x 216 mm)"@pl,
+        "EX5 (155 x 216 mm)"@pt,
+        "EX5 (155 x 216 mm)"@sv,
+        "EX5 (155 × 216 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 33480.0 ;
+            ptpge:aspectRatio 1.3935 ;
+            ptpge:height 216.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 155.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

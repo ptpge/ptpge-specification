@@ -1,0 +1,105 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/ivory-paper",
+  "type": "skos:Concept",
+  "version": "2026-09-23",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Ivory Paper (CIE 80–90, warm)",
+    "es": "Papel Marfil (CIE 80–90, cálido)",
+    "zh-Hans": "象牙白纸 (CIE 80–90，暖)",
+    "nb": "Elfenbenspapir (CIE 80–90, varm)",
+    "de": "Elfenbeinpapier (CIE 80–90, warm)",
+    "ja": "アイボリー紙（CIE 80〜90、温かみ）",
+    "sv": "Elfenbenspapper (CIE 80–90, varm)",
+    "da": "Elfenbenspapir (CIE 80–90, varm)",
+    "nl": "Ivoorpapier (CIE 80–90, warm)",
+    "pl": "Papier kość słoniowa (CIE 80–90, ciepły)",
+    "pt": "Papel marfim (CIE 80–90, quente)",
+    "hi": "आइवरी काग़ज़ (CIE 80–90, गर्म)"
+  },
+  "altLabels": {
+    "en": [
+      "Cream Paper",
+      "Off-White Paper",
+      "Yellow-Toned Paper"
+    ],
+    "nb": [
+      "Gultonet papir",
+      "Kremfarget papir",
+      "Elfenben"
+    ],
+    "pl": [
+      "papier kremowy",
+      "papier ecru",
+      "papier w odcieniu żółtawym"
+    ],
+    "pt": [
+      "papel creme",
+      "papel marfim",
+      "papel off-white",
+      "papel amarelado"
+    ],
+    "hi": [
+      "क्रीम काग़ज़",
+      "ऑफ़-व्हाइट काग़ज़",
+      "हाथी-दाँत रंग का काग़ज़",
+      "आइवरी पेपर"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§IVORY-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T16:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Off-white paper with a slight yellow-cream tint and CIE whiteness index between 80 and 90 — warm and traditional, used for stationery, classical book printing, and elegant invitations.",
+    "nb": "Råhvitt papir med et lett gulhvitt skjær og CIE-hvithetsindeks mellom 80 og 90 — varm og tradisjonell, brukt til brevpapir, klassisk boktrykk og elegante invitasjoner.",
+    "de": "Gebrochen-weißes Papier mit leicht gelb-cremefarbenem Ton und CIE-Weißegrad zwischen 80 und 90 — warm und traditionell, verwendet für Korrespondenzpapier, klassischen Buchdruck und elegante Einladungen.",
+    "ja": "わずかに黄味のあるオフホワイトで、CIE白色度指数が80〜90の紙 — 暖色で伝統的、便箋、古典的な書籍印刷、上品な招待状に使用される。",
+    "es": "Papel con tono crema o marfil — cálido y suave, habitual en libros de bolsillo, novelas y papelería premium.",
+    "zh-Hans": "奶油或象牙色调纸 —— 暖而柔，常见于平装书、小说和高级文具。",
+    "sv": "Off-white-papper med lätt gulkrämig ton och CIE-vithetsindex mellan 80 och 90 — varmt och traditionellt, används för kontorsmateriel, klassiskt boktryck och eleganta inbjudningar.",
+    "da": "Offwhite papir med et let gul-cremet skær og CIE-hvidhedsindeks mellem 80 og 90 — varmt og traditionelt, brugt til kontorpapir, klassisk bogtryk og elegante invitationer.",
+    "nl": "Gebroken wit papier met een lichte geel-crème zweem en CIE-witheidsindex tussen 80 en 90 — warm en traditioneel, gebruikt voor briefpapier, klassiek boekdrukwerk en elegante uitnodigingen.",
+    "pl": "Papier złamany biały o lekkim żółto-kremowym odcieniu i wskaźniku białości CIE między 80 a 90 — ciepły i tradycyjny, używany do papeterii, klasycznego druku książek i eleganckich zaproszeń.",
+    "pt": "Papel branco-sujo com leve tom amarelo-creme e índice de brancura CIE entre 80 e 90 — quente e tradicional, usado em papelaria, impressão clássica de livros e convites elegantes.",
+    "hi": "हल्की पीली-क्रीम आभा और 80–90 के बीच CIE सफ़ेदी वाला ऑफ़-व्हाइट काग़ज़ — गर्म और पारंपरिक, स्टेशनरी, क्लासिक पुस्तक छपाई और सुरुचिपूर्ण निमंत्रणों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 36"
+    }
+  ]
+}

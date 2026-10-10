@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/kodak> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Eastman Kodak — amerikansk producent af digitale produktionspresser (Nexpress, Prosper inkjet), trykplader og prepress-workflowsystemer."@da,
+        "Eastman Kodak — US-amerikanischer Hersteller digitaler Produktionsdruckmaschinen (Nexpress, Prosper Inkjet), Druckplatten und Druckvorstufen-Workflow-Systemen."@de,
+        "Eastman Kodak — American manufacturer of digital production presses (Nexpress, Prosper inkjet), printing plates, and prepress workflow systems."@en,
+        "Eastman Kodak — fabricante estadounidense de prensas de inyección de tinta digital (serie Prosper), planchas CTP y soluciones de pre-prensa."@es,
+        "Eastman Kodak — डिजिटल प्रोडक्शन प्रेस (Nexpress, Prosper इंकजेट), प्रिंटिंग प्लेट और प्रीप्रेस वर्कफ़्लो सिस्टम का अमेरिकी निर्माता।"@hi,
+        "イーストマン・コダック — デジタル生産印刷機（Nexpress、Prosperインクジェット）、刷版、製版ワークフローシステムの米国のメーカー。"@ja,
+        "Eastman Kodak — amerikansk produsent av digitale produksjonspresser (Nexpress, Prosper inkjet), trykkplater og prepress-arbeidsflyt-systemer."@nb,
+        "Eastman Kodak — Amerikaanse fabrikant van digitale productiepersen (Nexpress, Prosper inkjet), drukplaten en prepressworkflowsystemen."@nl,
+        "Eastman Kodak — amerykański producent cyfrowych maszyn produkcyjnych (Nexpress, atramentowe Prosper), płyt drukowych i systemów workflow prepress."@pl,
+        "Eastman Kodak — fabricante americano de impressoras digitais de produção (Nexpress, jato de tinta Prosper), chapas de impressão e sistemas de fluxo de trabalho de pré-impressão."@pt,
+        "Eastman Kodak — amerikansk tillverkare av digitala produktionspressar (Nexpress, Prosper inkjet), tryckplåtar och prepressarbetsflödessystem."@sv,
+        "Eastman Kodak —— 美国数码喷墨印刷机制造商（Prosper系列）、CTP印版和印前解决方案。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-PRES-KODA" ;
+    skos:prefLabel "Kodak"@da,
+        "Kodak"@de,
+        "Kodak"@en,
+        "Kodak"@es,
+        "Kodak"@hi,
+        "Kodak"@ja,
+        "Kodak"@nb,
+        "Kodak"@nl,
+        "Kodak"@pl,
+        "Kodak"@pt,
+        "Kodak"@sv,
+        "Kodak"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

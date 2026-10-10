@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b4> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "25 x 35.3 cm"@en,
+        "250 x 353 mm"@en,
+        "250x353"@en,
+        "250×353"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "250 × 353 mm. B4-kuvert efter ISO 216 — rummer et A4-ark fladt med ekstra margin, bruges til katalogutskick og rapporter."@da,
+        "250 × 353 mm. ISO-216-B4-Briefumschlag — fasst einen A4-Bogen ungefaltet mit zusätzlichem Spielraum, eingesetzt für Katalogversand und Berichte."@de,
+        "250 × 353 mm. ISO 216 B4 envelope — holds an A4 sheet flat with extra margin, used for catalog mailings and reports."@en,
+        "Sobre B4 de la serie B de ISO 216 — contiene hojas de la serie B correspondiente."@es,
+        "250 × 353 mm. ISO 216 B4 लिफ़ाफ़ा — अतिरिक्त मार्जिन के साथ A4 शीट सपाट समाती है, कैटलॉग और रिपोर्ट डाक में।"@hi,
+        "250×353mm。ISO 216 B4封筒 — A4シートを余裕を持って折らずに収納する。カタログ郵送および報告書に使用される。"@ja,
+        "250 × 353 mm. ISO 216 B4-konvolutt — rommer et A4-ark uten brett med ekstra margin, brukt til katalogutsendelser og rapporter."@nb,
+        "250 × 353 mm. B4-envelop volgens ISO 216 — biedt plaats aan een vlak A4-vel met extra marge, gebruikt voor katalogutskick en rapporter."@nl,
+        "250 × 353 mm. Koperta ISO 216 B4 — mieści arkusz A4 na płasko z dodatkowym marginesem; używana do wysyłki katalogów i raportów."@pl,
+        "250 × 353 mm. Envelope B4 da ISO 216 — comporta uma folha A4 aberta com margem extra; usado em catálogos e relatórios."@pt,
+        "250 × 353 mm. B4-kuvert enligt ISO 216 — rymmer ett A4-ark plant med extra marginal, används för katalogutskick och rapporter."@sv,
+        "ISO 216 B系列B4信封 —— 装对应B系列纸张。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ENV-B4" ;
+    skos:prefLabel "Kuvert B4 (250 × 353 mm)"@da,
+        "Envelope B4 (250 × 353 mm)"@de,
+        "Envelope B4 (250 × 353 mm)"@en,
+        "Sobre B4 (250 × 353 mm)"@es,
+        "लिफ़ाफ़ा B4 (250 × 353 mm)"@hi,
+        "Envelope B4 (250 × 353 mm)"@ja,
+        "Envelope B4 (250 × 353 mm)"@nb,
+        "Kuvert B4 (250 × 353 mm)"@nl,
+        "Koperta B4 (250 × 353 mm)"@pl,
+        "Envelope B4 (250 × 353 mm)"@pt,
+        "Kuvert B4 (250 × 353 mm)"@sv,
+        "B4信封 (250 × 353 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 88250.0 ;
+            ptpge:aspectRatio 1.412 ;
+            ptpge:height 353.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 250.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

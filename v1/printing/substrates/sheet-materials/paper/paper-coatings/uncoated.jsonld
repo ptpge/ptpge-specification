@@ -1,0 +1,91 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated",
+  "type": "skos:Concept",
+  "version": "2026-08-22",
+  "status": "proposed",
+  "notation": "P:SB§UNCOATED",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Uncoated",
+    "nb": "Ubestrøket",
+    "de": "Ungestrichen",
+    "es": "Sin estucar",
+    "ja": "非塗工紙",
+    "zh-Hans": "非涂布纸",
+    "sv": "Obestruket",
+    "da": "Ubestrøget",
+    "nl": "Ongestreken",
+    "pl": "Niepowlekany",
+    "pt": "Não revestido (offset)",
+    "hi": "अनकोटेड"
+  },
+  "definition": {
+    "en": "Paper without mineral coating — the natural, open fibre surface. Tactile and matte by nature; common for books, stationery and design papers. The texture is expressed via the surface axis.",
+    "nb": "Papir uten mineralsk bestrykning — den naturlige, åpne fiberoverflaten. Taktilt og matt av natur; vanlig for bøker, kontortrykksaker og designpapir. Teksturen uttrykkes via overflate-aksen.",
+    "de": "Papier ohne mineralischen Strich — die natürliche, offene Faseroberfläche. Von Natur aus haptisch und matt; üblich für Bücher, Geschäftsdrucksachen und Designpapiere. Die Textur wird über die Oberflächenachse ausgedrückt.",
+    "es": "Papel sin estucado mineral: la superficie natural y abierta de la fibra. Táctil y mate por naturaleza; común en libros, papelería y papeles de diseño. La textura se expresa mediante el eje de superficie.",
+    "ja": "鉱物性塗工のない紙。自然で開いた繊維表面を持つ。本来的に触感がありマット。書籍、ステーショナリー、ファインペーパーに一般的。テクスチャは表面軸で表現される。",
+    "zh-Hans": "无矿物涂层的纸张——自然、开放的纤维表面。天然具有触感且为哑光；常见于书籍、办公用品和艺术纸。质感通过表面轴表达。",
+    "sv": "Papper utan mineralbestrykning — den naturliga, öppna fiberytan. Taktilt och matt till sin natur; vanligt för böcker, kontorstryck och designpapper. Texturen uttrycks via ytaxeln.",
+    "da": "Papir uden mineralsk bestrygning — den naturlige, åbne fiberoverflade. Taktilt og mat af natur; almindeligt til bøger, kontortryksager og designpapir. Teksturen udtrykkes via overfladeaksen.",
+    "nl": "Papier zonder minerale strijklaag — het natuurlijke, open vezeloppervlak. Van nature tactiel en mat; gebruikelijk voor boeken, kantoordrukwerk en designpapier. De textuur wordt via de oppervlakte-as uitgedrukt.",
+    "pl": "Papier bez powłoki mineralnej — naturalna, otwarta powierzchnia włókien. Z natury dotykowy i matowy; typowy dla książek, papeterii i papierów ozdobnych. Faktura wyrażana jest osią powierzchni.",
+    "pt": "Papel sem revestimento mineral — a superfície natural e aberta da fibra. Tátil e fosco por natureza; comum em livros, papelaria e papéis de design. A textura é expressa pelo eixo de superfície.",
+    "hi": "बिना खनिज कोटिंग का काग़ज़ — प्राकृतिक, खुली रेशा सतह। स्वभावतः स्पर्शनीय और मैट; किताबों, स्टेशनरी और डिज़ाइन काग़ज़ों में आम। बनावट सतह अक्ष से व्यक्त होती है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings",
+  "created": "2026-08-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media",
+        "MediaIntent"
+      ],
+      "refs": [
+        "§6.57 · p.229 · §4.11 · p.79"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 35"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "papier niepowlekany",
+      "papier offsetowy"
+    ],
+    "pt": [
+      "offset",
+      "papel offset",
+      "não revestido",
+      "sem revestimento"
+    ],
+    "hi": [
+      "अनकोटेड पेपर",
+      "मैपलिथो",
+      "बिना लेप का काग़ज़",
+      "ऑफसेट पेपर"
+    ]
+  }
+}

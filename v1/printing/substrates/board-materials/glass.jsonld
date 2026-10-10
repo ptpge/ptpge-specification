@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/glass",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Glass",
+    "es": "Vidrio",
+    "zh-Hans": "玻璃",
+    "nb": "Glass",
+    "de": "Glas",
+    "ja": "ガラス",
+    "sv": "Glas",
+    "da": "Glas",
+    "nl": "Glas",
+    "pl": "Szkło",
+    "pt": "Vidro",
+    "hi": "काँच"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§GLASS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Transparent silicate panels printed via UV ink direct-to-glass or applied vinyl. Used for architectural glazing, retail displays, and decorative applications.",
+    "nb": "Gjennomsiktige silikatpaneler trykt via UV-blekk direkte på glass eller med påklistret vinyl. Brukt til arkitekturglass, butikkdisplay og dekorative anvendelser.",
+    "de": "Transparente Silikatplatten, bedruckt mittels UV-Direktdruck auf Glas oder mit aufgebrachtem Vinyl. Eingesetzt für Architekturverglasungen, Einzelhandelsdisplays und dekorative Anwendungen.",
+    "ja": "UVインキの直接印刷または貼付ビニールで印刷される透明なケイ酸塩パネル。建築用ガラス、小売ディスプレイ、装飾用途に使用される。",
+    "es": "Plancha de vidrio utilizada como sustrato para impresión UV o serigrafía — habitual en señalética arquitectónica y trofeos.",
+    "zh-Hans": "用作UV印刷或丝印承印物的玻璃板 —— 常见于建筑标识和奖杯。",
+    "sv": "Transparenta silikatskivor tryckta med UV-bläck direkt på glas eller applicerad vinyl. Används för arkitektonisk glasning, butiksdisplayer och dekorativa tillämpningar.",
+    "da": "Transparente silikatpaneler trykt med UV-blæk direkte på glas eller påført vinyl. Bruges til arkitektonisk glas, detaildisplays og dekorative anvendelser.",
+    "nl": "Transparante silicaatplaten, bedrukt met UV-inkt direct op glas of met aangebrachte vinyl. Gebruikt voor architectonisch glas, winkeldisplays en decoratieve toepassingen.",
+    "pl": "Przezroczyste płyty krzemianowe zadrukowywane atramentem UV bezpośrednio na szkle lub aplikowanym winylem. Używane do przeszkleń architektonicznych, ekspozycji sklepowych i zastosowań dekoracyjnych.",
+    "pt": "Painéis transparentes de silicato impressos com tinta UV diretamente no vidro ou com vinil aplicado. Usados em envidraçamento arquitetônico, displays de varejo e aplicações decorativas.",
+    "hi": "पारदर्शी सिलिकेट पैनल जिन पर UV स्याही से सीधे या विनाइल लगाकर छपाई होती है। वास्तु ग्लेज़िंग, खुदरा डिस्प्ले और सजावटी अनुप्रयोगों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Glass pane"
+    ],
+    "nb": [
+      "Glass"
+    ],
+    "pl": [
+      "tafla szklana",
+      "szyba"
+    ],
+    "pt": [
+      "placa de vidro",
+      "vidro plano"
+    ],
+    "hi": [
+      "काँच का पैनल",
+      "ग्लास शीट",
+      "शीशा"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

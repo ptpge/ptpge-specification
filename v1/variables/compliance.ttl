@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/compliance> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables> ;
+    skos:definition "Compliance-konfigurationsvariabler — de compliance-akser et trykt produkt kan konfigureres langs."@da,
+        "Konformitäts-Konfigurationsvariablen — die Konformitätsachsen, entlang derer ein Druckprodukt konfiguriert werden kann."@de,
+        "Compliance configuration variables — the compliance axes a printed product can be configured along."@en,
+        "Variables de configuración de conformidad — los ejes de conformidad a lo largo de los cuales puede configurarse un producto impreso."@es,
+        "अनुपालन कॉन्फ़िगरेशन वेरिएबल — वे अनुपालन अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है।"@hi,
+        "適合性の構成変数 — 印刷物を構成できる適合性の軸。"@ja,
+        "Samsvar konfigurasjonsvariabler — samsvar-aksene et trykkprodukt kan konfigureres langs."@nb,
+        "Compliance-configuratievariabelen — de compliance-assen waarlangs een drukproduct kan worden geconfigureerd."@nl,
+        "Zmienne konfiguracyjne zgodności — osie zgodności, wzdłuż których można skonfigurować produkt drukowany."@pl,
+        "Variáveis de configuração de conformidade — os eixos de conformidade ao longo dos quais um impresso pode ser configurado."@pt,
+        "Konfigurationsvariabler för regelefterlevnad — de efterlevnadsaxlar en trycksak kan konfigureras längs."@sv,
+        "合规配置变量 — 印刷品可沿其配置的合规轴。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/climate-documentation>,
+        <https://ptpge.org/v1/variables/compliance/color-profile>,
+        <https://ptpge.org/v1/variables/compliance/print-standard> ;
+    skos:notation "VAR:CM" ;
+    skos:prefLabel "Compliance"@da,
+        "Konformität"@de,
+        "Compliance"@en,
+        "Conformidad"@es,
+        "अनुपालन"@hi,
+        "適合性"@ja,
+        "Samsvar"@nb,
+        "Compliance"@nl,
+        "Zgodność"@pl,
+        "Conformidade"@pt,
+        "Regelefterlevnad"@sv,
+        "合规"@zh-Hans ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

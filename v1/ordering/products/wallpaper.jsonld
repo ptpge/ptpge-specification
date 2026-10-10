@@ -1,0 +1,204 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/wallpaper",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§WALLPAPER",
+  "elementType": "product",
+  "label": {
+    "en": "Wallpaper",
+    "nb": "Tapet",
+    "de": "Tapeten & Wandbilder",
+    "ja": "壁紙・ウォールミューラル",
+    "es": "Papel pintado y murales",
+    "zh-Hans": "墙纸与墙绘",
+    "nl": "Behang",
+    "sv": "Tapeter",
+    "da": "Tapet",
+    "pl": "Tapety",
+    "pt": "Papel de parede",
+    "hi": "वॉलपेपर"
+  },
+  "altLabels": {
+    "en": [
+      "wallpaper",
+      "photo wallpaper",
+      "wall mural",
+      "mural"
+    ],
+    "nb": [
+      "tapet",
+      "fototapet",
+      "veggtapet"
+    ],
+    "de": [
+      "Fototapete",
+      "Wandbilder",
+      "Wandtapeten"
+    ],
+    "nl": [
+      "Fotobehang",
+      "Wandposters",
+      "behangpapier",
+      "wanddecoratie",
+      "muurprint",
+      "wandposter"
+    ],
+    "pl": [
+      "tapeta",
+      "fototapeta",
+      "mural ścienny"
+    ],
+    "sv": [
+      "tapet",
+      "fototapet",
+      "fototapeter",
+      "väggmålning (tryckt)",
+      "väggbild"
+    ],
+    "da": [
+      "tapeter",
+      "fototapet",
+      "fototapeter",
+      "vægmaleri (trykt)",
+      "vægbillede"
+    ],
+    "pt": [
+      "papel de parede",
+      "papel de parede personalizado",
+      "papel de parede fotográfico",
+      "mural",
+      "adesivo de parede"
+    ],
+    "hi": [
+      "वॉलपेपर",
+      "फ़ोटो वॉलपेपर",
+      "कस्टम वॉलपेपर",
+      "वॉल म्यूरल",
+      "दीवार चित्र"
+    ],
+    "es": [
+      "papel pintado",
+      "papel de pared",
+      "fotomural",
+      "mural de pared",
+      "papel tapiz"
+    ],
+    "ja": [
+      "壁紙",
+      "オリジナル壁紙",
+      "ウォールミューラル",
+      "写真壁紙",
+      "クロス"
+    ],
+    "zh-Hans": [
+      "墙纸",
+      "壁纸",
+      "墙绘",
+      "壁画",
+      "定制墙纸"
+    ]
+  },
+  "definition": {
+    "en": "A large-format printed wall covering applied to interior walls — decorative and branded environments.",
+    "nb": "Et storformat trykt veggbelegg påført innvendige vegger — dekorative og merkede miljøer.",
+    "de": "Ein großformatiger bedruckter Wandbelag für Innenwände.",
+    "ja": "室内の壁面に施工する大判プリント壁紙。装飾やブランド空間の演出に。",
+    "es": "Un revestimiento mural impreso de gran formato aplicado a paredes interiores — ambientes decorativos y de marca.",
+    "zh-Hans": "应用于室内墙面的大幅面印刷墙纸——装饰与品牌空间。",
+    "sv": "En storformatstryckt väggbeklädnad som appliceras på innerväggar — dekorativa och varumärkesprofilerade miljöer.",
+    "da": "Et storformat trykt vægbeklædning til indvendige vægge — dekorative og brandede miljøer.",
+    "nl": "Een grootformaat gedrukte wandbekleding voor binnenmuren — decoratieve en merkgebonden omgevingen.",
+    "pl": "Wielkoformatowa drukowana okleina ścienna aplikowana na ściany wewnętrzne — wnętrza dekoracyjne i brandowane.",
+    "pt": "Revestimento de parede impresso em grande formato aplicado em paredes internas — ambientes decorativos e de marca.",
+    "hi": "भीतरी दीवारों पर लगाया जाने वाला लार्ज-फॉर्मेट मुद्रित दीवार आवरण — सजावटी और ब्रांडेड वातावरण।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/vinyl",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/paper",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/textile"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "customSizeRange": {
+    "min": 450,
+    "max": 10500,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating"
+  ]
+}

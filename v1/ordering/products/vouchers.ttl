@@ -1,0 +1,190 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/vouchers> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "gavekort"@da,
+        "gavekortet"@da,
+        "loyalitetskort"@da,
+        "rabatkupon"@da,
+        "stempelkort"@da,
+        "værdibevis"@da,
+        "Geschenkgutscheine"@de,
+        "Wertgutscheine"@de,
+        "gift card"@en,
+        "gift voucher"@en,
+        "loyalty card"@en,
+        "voucher"@en,
+        "Cheques regalo"@es,
+        "Vales regalo"@es,
+        "bono"@es,
+        "cupón"@es,
+        "tarjeta de fidelidad"@es,
+        "tarjeta regalo"@es,
+        "vale"@es,
+        "vale regalo"@es,
+        "उपहार कूपन"@hi,
+        "गिफ़्ट कार्ड"@hi,
+        "गिफ़्ट वाउचर"@hi,
+        "लॉयल्टी कार्ड"@hi,
+        "वाउचर"@hi,
+        "स्टैम्प कार्ड"@hi,
+        "ギフトカード"@ja,
+        "ギフト券"@ja,
+        "クーポン"@ja,
+        "ポイントカード"@ja,
+        "商品券"@ja,
+        "金券"@ja,
+        "gavekort"@nb,
+        "lojalitetskort"@nb,
+        "verdikupong"@nb,
+        "Cadeaubonnen"@nl,
+        "Waardebonnen"@nl,
+        "cadeaubon"@nl,
+        "klantenkaart"@nl,
+        "kortingsbon"@nl,
+        "stempelkaart"@nl,
+        "waardebon"@nl,
+        "bon podarunkowy"@pl,
+        "karta lojalnościowa"@pl,
+        "karta podarunkowa"@pl,
+        "voucher"@pl,
+        "cartão de fidelidade"@pt,
+        "cartão fidelidade"@pt,
+        "cartão-presente"@pt,
+        "cupom"@pt,
+        "vale"@pt,
+        "vale-presente"@pt,
+        "Presentkort"@sv,
+        "Rabattkuponger"@sv,
+        "kupong"@sv,
+        "lojalitetskort"@sv,
+        "presentkorten"@sv,
+        "rabattkupong"@sv,
+        "stämpelkort"@sv,
+        "代金券"@zh-Hans,
+        "优惠券"@zh-Hans,
+        "会员卡"@zh-Hans,
+        "抵用券"@zh-Hans,
+        "礼品券"@zh-Hans,
+        "礼品卡"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et fladt trykt kort eller en seddel med indløselig værdi eller loyalitetspoint — gavekort og loyalitets-/stempelkort."@da,
+        "Eine flache bedruckte Karte mit einlösbarem Wert oder Treueguthaben."@de,
+        "A flat printed card or slip carrying redeemable value or loyalty credit — gift vouchers and loyalty/stamp cards."@en,
+        "Una tarjeta o talón planos impresos con valor canjeable o crédito de fidelidad — vales regalo y tarjetas de sellos."@es,
+        "भुनाने योग्य मूल्य या लॉयल्टी क्रेडिट वाला सपाट मुद्रित कार्ड या पर्ची — गिफ़्ट वाउचर और लॉयल्टी/स्टैम्प कार्ड।"@hi,
+        "換金・引換価値やポイントを持つ平判の印刷カード／券。ギフト券やスタンプカードなど。"@ja,
+        "Et flatt trykt kort eller slipp med innløsbar verdi eller lojalitetspoeng — gavekort og lojalitets-/stempelkort."@nb,
+        "Een vlakke gedrukte kaart of bon met inwisselbare waarde of spaartegoed — cadeaubonnen en spaarkaarten."@nl,
+        "Płaska drukowana karta lub kupon niosący wartość do wykorzystania lub punkty lojalnościowe — bony podarunkowe oraz karty lojalnościowe/pieczątkowe."@pl,
+        "Cartão ou cupom plano impresso com valor resgatável ou crédito de fidelidade — vales-presente e cartões de fidelidade/carimbo."@pt,
+        "Ett plant tryckt kort eller kvitto som bär inlösbart värde eller lojalitetskredit — presentkort och stämpelkort."@sv,
+        "承载可兑换价值或会员积分的平张印刷卡券——礼品券和集点卡。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§VOUCHERS" ;
+    skos:prefLabel "Værdibeviser"@da,
+        "Gutscheine & Treuekarten"@de,
+        "Vouchers"@en,
+        "Vales y tarjetas de fidelidad"@es,
+        "वाउचर"@hi,
+        "バウチャー・ポイントカード"@ja,
+        "Gavekort"@nb,
+        "Waardebonnen"@nl,
+        "Vouchery"@pl,
+        "Vales-presente"@pt,
+        "Värdebevis"@sv,
+        "代金券与会员卡"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:perSurfaceSupportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/holographic>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-fibre>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/holographic>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-eu>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFibre <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

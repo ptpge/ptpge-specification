@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "arkusze"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/substrates> ;
+    skos:definition "Forudskårne flade substrater leveret i arkstakke — det traditionelle format for offset, digital og det meste kommercielle tryk."@da,
+        "Vorgeschnittene flache Bedruckstoffe in Bogenstapeln — das klassische Format für Offset-, Digital- und den meisten gewerblichen Druck."@de,
+        "Pre-cut flat substrates supplied in sheet stacks — the traditional format for offset, digital, and most commercial printing."@en,
+        "Sustratos planos pre-cortados suministrados en pilas de hojas — el formato tradicional para offset, digital y la mayoría de la impresión comercial."@es,
+        "शीट के ढेर में दिए जाने वाले पहले से कटे सपाट सब्सट्रेट — ऑफसेट, डिजिटल और अधिकांश व्यावसायिक छपाई का पारंपरिक रूप।"@hi,
+        "シートとして積み重ねて供給される事前裁断済みの平面基材 — オフセット、デジタル、大半の商業印刷の伝統的な形態。"@ja,
+        "Forhåndsskårne flate substrater levert i arkstabler — det tradisjonelle formatet for offset, digital og det meste av kommersiell trykk."@nb,
+        "Voorgesneden vlakke substraten geleverd in velstapels — het traditionele formaat voor offset, digitaal en het meeste commerciële drukwerk."@nl,
+        "Pocięte płaskie podłoża dostarczane w stosach arkuszy — tradycyjny format dla offsetu, druku cyfrowego i większości druku komercyjnego."@pl,
+        "Substratos planos pré-cortados fornecidos em pilhas de folhas — o formato tradicional para offset, digital e a maior parte da impressão comercial."@pt,
+        "Förskurna plana substrat levererade i arkbuntar — det traditionella formatet för offset, digitaltryck och det mesta av civiltrycket."@sv,
+        "以堆叠形式供应的预裁切平面承印物——胶印、数码印刷及大多数商业印刷的传统格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/sheet-materials/cardstock>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/corrugated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/magnetic-foil>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    skos:notation "P:SB-SHT" ;
+    skos:prefLabel "Arkmaterialer"@da,
+        "Bogenmaterialien"@de,
+        "Sheet Materials"@en,
+        "Materiales en Hoja"@es,
+        "शीट सामग्री"@hi,
+        "シート基材"@ja,
+        "Ark-materialer"@nb,
+        "Velmaterialen"@nl,
+        "Materiały arkuszowe"@pl,
+        "Materiais em folha"@pt,
+        "Arkmaterial"@sv,
+        "纸张材料"@zh-Hans ;
+    skos:scopeNote "Umfasst Papier (der dominierende Bedruckstoff im gewerblichen Druck), Karton für schwerere Arbeiten und Wellpappebogen für Verpackungen. Papier wird weiter nach Lieferanten, Grammaturen, Oberflächen und Farbtönen unterteilt."@de,
+        "Includes paper (the dominant substrate for commercial printing), cardstock for heavier work, and corrugated sheets for packaging. Paper is further subdivided by suppliers, weights, surfaces, and color shades."@en,
+        "Incluye papel (el sustrato dominante para impresión comercial), cartulina para trabajos más pesados y hojas onduladas para embalaje. El papel se subdivide además por proveedores, gramajes, superficies y colores."@es,
+        "काग़ज़ (व्यावसायिक छपाई का प्रमुख सब्सट्रेट), भारी काम के लिए कार्डस्टॉक और पैकेजिंग के लिए कोरुगेटेड शीट शामिल। काग़ज़ आगे आपूर्तिकर्ता, वज़न, सतह और रंगत के अनुसार बँटता है।"@hi,
+        "紙（商業印刷の主要基材）、より重い用途のためのカード紙、パッケージ用の段ボールシートを含む。紙はさらにサプライヤー、坪量、表面、色合いで細分化される。"@ja,
+        "Inkluderer papir (det dominerende substratet for kommersiell trykk), kartong for tyngre arbeid og bølgepapp-ark for emballasje. Papir er videre inndelt etter leverandører, vekt, overflate og fargenyanser."@nb,
+        "Inclui papel (o substrato dominante na impressão comercial), cartão para trabalhos mais pesados e folhas de ondulado para embalagem. O papel subdivide-se ainda por fornecedores, gramaturas, superfícies e tonalidades."@pt,
+        "包括纸（商业印刷的主导承印物）、用于较重作品的卡纸和用于包装的瓦楞张。纸又按供应商、克重、表面和颜色进一步细分。"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

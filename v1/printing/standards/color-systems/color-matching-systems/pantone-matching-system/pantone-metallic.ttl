@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-metallic> a skos:Concept ;
+    dcterms:created "2026-05-19T23:30:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Pantone Metallics"@en,
+        "metallic Pantone"@en,
+        "Pantone Metallics"@hi,
+        "मेटैलिक Pantone"@hi,
+        "Pantone Metallics"@pl,
+        "Pantone metaliczne"@pl,
+        "Pantone Metallics"@pt,
+        "Pantone metálico"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system> ;
+    skos:definition "Pantones metalliske farvebibliotek — færdigblandede metalliske farver (guld, sølv, bronze, kobber og andre metaleffekter). Giver reflekterende glans og eksklusivt udtryk. Pantone 871 (guld), 877 (sølv) og 800-serien omfatter metalliske varianter."@da,
+        "Pantones Metallic-Farbbibliothek — vorgemischte Metallic-Druckfarben (Gold, Silber, Bronze, Kupfer und verschiedene andere Metallic-Effekte)."@de,
+        "Pantone's metallic color library — pre-mixed metallic inks (gold, silver, bronze, copper, and various other metallic effects). Provides reflective sheen and premium appearance. Pantone 871 (gold), 877 (silver), and the 800-series include metallic variants."@en,
+        "La biblioteca de colores metálicos de Pantone — tintas metálicas premezcladas (oro, plata, bronce, cobre y otros efectos metálicos). Aporta brillo reflectante y aspecto premium. Pantone 871 (oro), 877 (plata) y la serie 800 incluyen variantes metálicas."@es,
+        "Pantone का मेटैलिक रंग पुस्तकालय — पूर्व-मिश्रित मेटैलिक स्याही (सोना, चाँदी, काँसा, ताँबा और विभिन्न अन्य मेटैलिक प्रभाव)। परावर्तक चमक और प्रीमियम रूप देता है। Pantone 871 (सोना), 877 (चाँदी) और 800-श्रृंखला में मेटैलिक वेरिएंट।"@hi,
+        "Pantone のメタリックカラーライブラリ — 調合済みメタリックインキ（金、銀、ブロンズ、銅、その他のメタリック効果）。反射光沢とプレミアムな外観をもたらす。Pantone 871（金）、877（銀）、800番台にメタリックのバリエーションがある。"@ja,
+        "Pantones metallisk-fargebibliotek — forhåndsblandede metalliske blekk (gull, sølv, bronse, kobber og diverse andre metalliske effekter). Gir reflekterende glans og premium-utseende."@nb,
+        "Pantones metallic kleurbibliotheek — voorgemengde metallic inkten (goud, zilver, brons, koper en andere metaaleffecten). Geeft reflecterende glans en een premium uitstraling. Pantone 871 (goud), 877 (zilver) en de 800-serie bevatten metallic varianten."@nl,
+        "Biblioteka barw metalicznych Pantone — wstępnie zmieszane farby metaliczne (złoto, srebro, brąz, miedź i inne efekty metaliczne). Daje odbijający połysk i wygląd premium. Pantone 871 (złoto), 877 (srebro) i seria 800 obejmują warianty metaliczne."@pl,
+        "Biblioteca de cores metálicas da Pantone — tintas metálicas pré-misturadas (ouro, prata, bronze, cobre e vários outros efeitos metálicos). Confere brilho reflexivo e aparência premium. Pantone 871 (ouro), 877 (prata) e a série 800 incluem variantes metálicas."@pt,
+        "Pantones metalliska färgbibliotek — förblandade metalliska bläck (guld, silver, brons, koppar och andra metalliska effekter). Ger reflekterande lyster och premiumkänsla. Pantone 871 (guld), 877 (silver) och 800-serien innehåller metalliska varianter."@sv,
+        "Pantone 金属色库 — 预混金属油墨（金、银、青铜、铜及其他金属效果）。提供反射光泽与高级观感。Pantone 871（金）、877（银）及800系列包含金属色变体。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PANTONE-METALLIC" ;
+    skos:prefLabel "Pantone Metallic"@da,
+        "Pantone Metallic"@de,
+        "Pantone Metallic"@en,
+        "Pantone Metallic"@es,
+        "Pantone Metallic"@hi,
+        "Pantone Metallic"@ja,
+        "Pantone Metallic"@nb,
+        "Pantone Metallic"@nl,
+        "Pantone Metallic"@pl,
+        "Pantone Metallic"@pt,
+        "Pantone Metallic"@sv,
+        "Pantone Metallic"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

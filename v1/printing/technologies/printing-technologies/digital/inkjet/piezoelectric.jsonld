@@ -1,0 +1,87 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/piezoelectric",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Piezoelectric",
+    "es": "Piezoeléctrico",
+    "zh-Hans": "压电式",
+    "nb": "Piezoelektrisk",
+    "de": "Piezoelektrisch",
+    "ja": "ピエゾ式",
+    "sv": "Piezoelektrisk",
+    "da": "Piezoelektrisk",
+    "nl": "Piëzo-elektrisch",
+    "pl": "Piezoelektryczny",
+    "pt": "Piezoelétrico",
+    "hi": "पीज़ोइलेक्ट्रिक"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§PIEZOELECTRIC",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Drop-on-demand inkjet using piezoelectric crystals that deform when an electric current is applied, forcing ink droplets out through nozzles. The dominant inkjet technology in production printing — used by HP PageWide, Epson, Ricoh, and most industrial inkjet equipment.",
+    "nb": "Drop-on-demand-inkjet som bruker piezoelektriske krystaller som deformeres når elektrisk strøm påføres, og presser blekkdråper ut gjennom dyser. Den dominerende inkjet-teknologien i produksjonstrykk — brukt av HP PageWide, Epson, Ricoh og det meste av industrielt inkjet-utstyr.",
+    "de": "Drop-on-Demand-Inkjet, das piezoelektrische Kristalle nutzt, die sich bei elektrischem Strom verformen und dadurch Tintentröpfchen durch die Düsen drücken. Die dominante Inkjet-Technologie im Produktionsdruck — eingesetzt von HP PageWide, Epson, Ricoh und den meisten industriellen Inkjet-Systemen.",
+    "ja": "電流を加えると変形する圧電結晶を使用し、ノズルからインキ液滴を押し出すドロップオンデマンドインクジェット。生産印刷における主流のインクジェット技術 — HP PageWide、Epson、Ricoh、および大半の工業用インクジェット機器で使用される。",
+    "es": "Tecnología de inyección de tinta drop-on-demand basada en cristales piezoeléctricos — produce gotas con alta precisión, dominante en impresión de calidad profesional.",
+    "zh-Hans": "基于压电晶体的按需喷墨技术 —— 以高精度产生液滴，在专业级质量印刷中占主导地位。",
+    "sv": "Drop-on-demand-inkjet med piezoelektriska kristaller som deformeras när elektrisk ström tillförs och pressar ut bläckdroppar genom munstyckena. Den dominerande inkjettekniken i produktionstryck — använd av HP PageWide, Epson, Ricoh och merparten industriell inkjetutrustning.",
+    "da": "Drop-on-demand-inkjet med piezoelektriske krystaller, der deformeres når elektrisk strøm tilføres og presser blækdråber ud gennem dyserne. Den dominerende inkjetteknik i produktionstryk — brugt af HP PageWide, Epson, Ricoh og størstedelen af industrielt inkjetudstyr.",
+    "nl": "Drop-on-demand-inkjet met piëzo-elektrische kristallen die vervormen wanneer elektrische stroom wordt toegevoerd en inktdruppels door de nozzles persen. De dominante inkjettechnologie in productiedruk — gebruikt door HP PageWide, Epson, Ricoh en de meeste industriële inkjetapparatuur.",
+    "pl": "Druk atramentowy drop-on-demand z użyciem kryształów piezoelektrycznych, które odkształcają się pod wpływem prądu, wypychając krople atramentu przez dysze. Dominująca technologia atramentowa w druku produkcyjnym — używana przez HP PageWide, Epson, Ricoh i większość przemysłowych urządzeń atramentowych.",
+    "pt": "Jato de tinta gota sob demanda que usa cristais piezoelétricos que se deformam ao receber corrente elétrica, forçando as gotículas de tinta pelos bicos. A tecnologia de jato de tinta dominante na impressão de produção — usada pela HP PageWide, Epson, Ricoh e pela maioria dos equipamentos industriais de jato de tinta.",
+    "hi": "ड्रॉप-ऑन-डिमांड इंकजेट जिसमें पीज़ोइलेक्ट्रिक क्रिस्टल विद्युत धारा लगने पर विकृत होकर नोज़ल से स्याही की बूँदें बाहर धकेलते हैं। प्रोडक्शन प्रिंटिंग में प्रमुख इंकजेट तकनीक — HP PageWide, Epson, Ricoh और अधिकांश औद्योगिक इंकजेट उपकरणों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Piezo inkjet",
+      "Drop-on-demand"
+    ],
+    "nb": [
+      "Piezo"
+    ],
+    "pl": [
+      "piezo",
+      "drop-on-demand"
+    ],
+    "pt": [
+      "Piezo",
+      "Gota sob demanda"
+    ],
+    "hi": [
+      "पीज़ो इंकजेट",
+      "ड्रॉप-ऑन-डिमांड"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "DigitalPrinting",
+        "DigitalPrintingParams"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.2 · p.111",
+        "§6.31 · p.196"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 17"
+    }
+  ]
+}

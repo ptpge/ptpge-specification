@@ -1,0 +1,153 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/letterheads> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "brevpapiret"@da,
+        "kontortryk"@da,
+        "korrespondancepapir"@da,
+        "trykt brevpapir"@da,
+        "Briefbogen"@de,
+        "Firmenbriefpapier"@de,
+        "Geschäftspapier"@de,
+        "Letterhead"@en,
+        "Stationery"@en,
+        "company stationery"@en,
+        "headed paper"@en,
+        "hoja membretada"@es,
+        "membrete"@es,
+        "papel de carta"@es,
+        "papelería corporativa"@es,
+        "कंपनी स्टेशनरी"@hi,
+        "छपा हुआ पत्र-काग़ज़"@hi,
+        "लेटर पैड"@hi,
+        "लेटरहेड"@hi,
+        "ステーショナリー"@ja,
+        "レターヘッド"@ja,
+        "会社用紙"@ja,
+        "便箋"@ja,
+        "社用便箋"@ja,
+        "Brevark"@nb,
+        "brevark"@nb,
+        "brevhode"@nb,
+        "firmapapir"@nb,
+        "bedrukt briefpapier"@nl,
+        "briefhoofd"@nl,
+        "huisstijlpapier"@nl,
+        "kantoordrukwerk"@nl,
+        "nagłówek firmowy"@pl,
+        "papeteria firmowa"@pl,
+        "folha timbrada"@pt,
+        "papel de carta"@pt,
+        "papel timbrado"@pt,
+        "papelaria corporativa"@pt,
+        "timbrado"@pt,
+        "brevpapperet"@sv,
+        "kontorstryck"@sv,
+        "korrespondenspapper"@sv,
+        "tryckt brevpapper"@sv,
+        "信笺"@zh-Hans,
+        "公司信纸"@zh-Hans,
+        "办公文具"@zh-Hans,
+        "抬头纸"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Trykt forretningspapir med virksomhedens logo og oplysninger øverst på arket — til korrespondance."@da,
+        "Bedrucktes Geschäftspapier mit Firmenlogo und -angaben am Kopf des Bogens."@de,
+        "Printed business stationery with a company's logo and details at the head of the sheet — for correspondence."@en,
+        "Papelería comercial impresa con el logotipo y los datos de la empresa en la cabecera — para correspondencia."@es,
+        "शीट के शीर्ष पर कंपनी के लोगो और विवरण के साथ मुद्रित व्यावसायिक स्टेशनरी — पत्राचार के लिए।"@hi,
+        "用紙の上部に会社のロゴと情報を印刷したレターヘッド（社用便箋）。ビジネス文書・通信用。"@ja,
+        "Trykt forretningspapir med firmaets logo og detaljer øverst på arket — for korrespondanse."@nb,
+        "Gedrukt zakelijk briefpapier met logo en gegevens van het bedrijf bovenaan het vel — voor correspondentie."@nl,
+        "Drukowana papeteria firmowa z logo i danymi firmy w nagłówku arkusza — do korespondencji."@pl,
+        "Papelaria comercial impressa com o logotipo e os dados da empresa no cabeçalho da folha — para correspondência."@pt,
+        "Tryckt kontorsmateriel med företagets logotyp och uppgifter i arkets huvud — för korrespondens."@sv,
+        "在页首印有公司标志和信息的商务信纸——用于公函往来。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§LETTERHEADS" ;
+    skos:prefLabel "Brevpapir"@da,
+        "Briefpapier"@de,
+        "Letterheads"@en,
+        "Papel con membrete"@es,
+        "लेटरहेड"@hi,
+        "レターヘッド"@ja,
+        "Brevpapir"@nb,
+        "Briefpapier"@nl,
+        "Papier firmowy"@pl,
+        "Papel timbrado"@pt,
+        "Brevpapper"@sv,
+        "信纸"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-fibre>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/letter> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFibre <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

@@ -1,0 +1,75 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "version": "2026-09-05",
+  "status": "proposed",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "created": "2026-09-05T00:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/v1/contributors/ptpge",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Component",
+        "Component@WindingResult",
+        "Winding"
+      ],
+      "refs": [
+        "§6.18 · p.176",
+        "§5.6.38 · p.113"
+      ],
+      "match": "exact",
+      "via": "Component@WindingResult"
+    }
+  ],
+  "id": "https://ptpge.org/v1/printing/configurations/winding-direction/finat-5",
+  "level": "element",
+  "elementType": "value",
+  "notation": "P:CF§FINAT-5",
+  "label": {
+    "en": "FINAT 5",
+    "nb": "FINAT 5",
+    "de": "FINAT 5",
+    "es": "FINAT 5",
+    "ja": "FINAT 5",
+    "zh-Hans": "FINAT 5",
+    "sv": "FINAT 5",
+    "da": "FINAT 5",
+    "nl": "FINAT 5",
+    "pl": "FINAT 5",
+    "pt": "FINAT 5",
+    "hi": "FINAT 5"
+  },
+  "altLabels": {
+    "en": [
+      "Winding 5",
+      "WindingResult 5",
+      "Wound in, top leading",
+      "Position 5"
+    ],
+    "pl": [
+      "nawijanie 5",
+      "WindingResult 5",
+      "pozycja 5"
+    ]
+  },
+  "broader": "https://ptpge.org/v1/printing/configurations/winding-direction",
+  "definition": {
+    "en": "FINAT winding position 5: labels wound with the printed face in, top edge leaving the roll first. XJDF Component/@WindingResult = 5.",
+    "nb": "FINAT-viklingsposisjon 5: etiketter viklet med trykkside inn, toppkanten forlater rullen først. XJDF Component/@WindingResult = 5.",
+    "de": "FINAT-Wickelposition 5: Etiketten mit Druckseite innen gewickelt, Oberkante verlässt die Rolle zuerst. XJDF Component/@WindingResult = 5.",
+    "es": "Posición de bobinado FINAT 5: etiquetas bobinadas con la cara impresa hacia dentro, el borde superior sale primero de la bobina. XJDF Component/@WindingResult = 5.",
+    "ja": "FINAT 巻き位置 5：内巻きで巻かれ、上辺が先に繰り出される。XJDF Component/@WindingResult = 5。",
+    "zh-Hans": "FINAT 卷绕位置 5：印刷面朝内卷绕，上边先出卷。XJDF Component/@WindingResult = 5。",
+    "sv": "FINAT-rullposition 5: etiketter rullade med tryck inåt, överkanten lämnar rullen först. XJDF Component/@WindingResult = 5.",
+    "da": "FINAT-rulleposition 5: etiketter rullet med trykside ind, topkanten forlader rullen først. XJDF Component/@WindingResult = 5.",
+    "nl": "FINAT-wikkelpositie 5: etiketten gewikkeld met beeld binnen, bovenrand verlaat de rol als eerste. XJDF Component/@WindingResult = 5.",
+    "pl": "Pozycja nawijania FINAT 5: etykiety nawinięte zadrukowaną stroną do wewnątrz, górna krawędź schodzi z roli pierwsza. XJDF Component/@WindingResult = 5.",
+    "pt": "Posição de enrolamento FINAT 5: rótulos enrolados com a face impressa para dentro, borda superior saindo primeiro do rolo. XJDF Component/@WindingResult = 5.",
+    "hi": "FINAT वाइंडिंग स्थिति 5: छपा चेहरा अंदर, ऊपरी किनारा रोल से पहले निकलता है। XJDF Component/@WindingResult = 5।"
+  }
+}

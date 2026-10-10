@@ -1,0 +1,81 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Paper Surfaces",
+    "es": "Superficies de Papel",
+    "zh-Hans": "纸张表面",
+    "nb": "Papiroverflater",
+    "de": "Papieroberflächen",
+    "ja": "用紙表面",
+    "sv": "Pappersytor",
+    "da": "Papiroverflader",
+    "nl": "Papieroppervlakken",
+    "pl": "Powierzchnie papieru",
+    "pt": "Superfícies de papel",
+    "hi": "काग़ज़ की सतहें"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/recycled-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/specialized-paper"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Surface treatments and finishes that determine how paper interacts with ink, light, and the reader's hand.",
+    "nb": "Overflatebehandlinger og finishes som avgjør hvordan papir samspiller med blekk, lys og leserens hånd.",
+    "de": "Oberflächenbehandlungen und -ausführungen, die bestimmen, wie Papier mit Druckfarbe, Licht und der Hand des Lesers interagiert.",
+    "ja": "紙がインキ、光、読者の手とどのように相互作用するかを決定する表面処理および仕上げ。",
+    "es": "Tratamientos de superficie y acabados que determinan cómo el papel interactúa con la tinta, la luz y la mano del lector.",
+    "zh-Hans": "决定纸张与油墨、光线和读者手感互动的表面处理和饰面。",
+    "sv": "Ytbehandlingar och finish som avgör hur papperet samspelar med bläck, ljus och läsarens hand.",
+    "da": "Overfladebehandlinger og finish, der afgør hvordan papiret interagerer med trykfarve, lys og læserens hånd.",
+    "nl": "Oppervlaktebehandelingen en afwerkingen die bepalen hoe papier reageert op inkt, licht en de hand van de lezer.",
+    "pl": "Obróbki i wykończenia powierzchni decydujące o tym, jak papier współdziała z farbą, światłem i dłonią czytelnika.",
+    "pt": "Tratamentos e acabamentos de superfície que determinam como o papel interage com a tinta, a luz e a mão do leitor.",
+    "hi": "सतह उपचार और फ़िनिश जो तय करते हैं कि काग़ज़ स्याही, रोशनी और पाठक के हाथ से कैसे पेश आता है।"
+  },
+  "scopeNote": {
+    "en": "Includes coated finishes (glossy, silk, matte) that affect how light reflects and how ink sits, uncoated finishes (matte uncoated, recycled) that absorb ink into the fiber, textured papers (laid, ribbed, embossed), and specialty surfaces (synthetic, water-resistant, fluorescent).",
+    "nb": "Inkluderer belagte overflater (blank, silke, matt) som påvirker hvordan lys reflekteres og hvordan blekk sitter, ubelagt overflater (matt ubelagt, resirkulert) som absorberer blekk inn i fiberen, strukturerte papirer (vannhalt, ribbet, preget), og spesialoverflater (syntetisk, vannbestandig, fluorescerende).",
+    "de": "Umfasst gestrichene Oberflächen (glänzend, seidenmatt, matt), die Lichtreflexion und Druckfarbenverhalten beeinflussen, ungestrichene Oberflächen (matt ungestrichen, recycelt), die Druckfarbe in die Faser aufnehmen, strukturierte Papiere (gerippt, gestreift, geprägt) und Spezialoberflächen (synthetisch, wasserfest, fluoreszierend).",
+    "ja": "光の反射やインキの定着に影響する塗工仕上げ（グロス、シルク、マット）、繊維にインキが浸透する非塗工仕上げ（マット非塗工、リサイクル）、テクスチャ紙（レイド、リブ、エンボス）、特殊表面（合成、耐水、蛍光）を含む。",
+    "es": "Incluye acabados estucados (brillante, satinado, mate) que afectan a cómo refleja la luz y a cómo se asienta la tinta, acabados sin estucar (mate sin estucar, reciclado) que absorben la tinta en la fibra, papeles texturados (verjurado, estriado, gofrado) y papeles especiales (pergamino, translúcido).",
+    "zh-Hans": "包括涂布饰面（光面、丝面、哑光），影响光线反射和油墨附着；未涂布饰面（未涂布哑光、再生），将油墨吸收到纤维中；带纹理纸（条纹、罗纹、压花）和特种纸（羊皮纸、半透明）。",
+    "pt": "Inclui acabamentos revestidos (brilhante, acetinado, fosco) que afetam como a luz reflete e como a tinta assenta, acabamentos não revestidos (fosco não revestido, reciclado) que absorvem a tinta na fibra, papéis texturizados (vergê, canelado, gofrado) e superfícies especiais (sintético, resistente à água, fluorescente).",
+    "hi": "कोटेड फ़िनिश (ग्लॉसी, सिल्क, मैट) जो रोशनी के परावर्तन और स्याही के बैठने को प्रभावित करती हैं, अनकोटेड फ़िनिश (मैट अनकोटेड, रीसाइकल्ड) जो स्याही को रेशे में सोखती हैं, टेक्सचर्ड काग़ज़ (लेड, रिब्ड, एम्बॉस्ड) और विशेष सतहें (सिंथेटिक, जल-रोधी, फ़्लोरेसेंट) शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:SB-SHT-PAPR-PSUR",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

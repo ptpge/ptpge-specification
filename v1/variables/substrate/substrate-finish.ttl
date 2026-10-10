@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/substrate/substrate-finish> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Coating"@en,
+        "Paper Finish"@en,
+        "काग़ज़ की सतह"@hi,
+        "ग्लॉसी/मैट"@hi,
+        "पेपर फ़िनिश"@hi,
+        "Papiroverflate"@nb,
+        "powłoka"@pl,
+        "wykończenie papieru"@pl,
+        "acabamento do papel"@pt,
+        "superfície do papel"@pt,
+        "textura do papel"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/substrate> ;
+    skos:definition "Konfigurerbar akse: Substratfinish. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne."@da,
+        "Konfigurierbare Achse: Bedruckstoff-Oberfläche. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain."@de,
+        "Configurable axis: Substrate Finish. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain."@en,
+        "Eje configurable: Acabado del sustrato. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट फ़िनिश। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"@hi,
+        "構成可能な軸：基材の表面。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。"@ja,
+        "Konfigurerbar akse: Substratoverflate. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain."@nb,
+        "Configureerbare as: Substraatafwerking. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein."@nl,
+        "Oś konfigurowalna: Wykończenie podłoża. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain."@pl,
+        "Eixo configurável: Acabamento do Substrato. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado."@pt,
+        "Konfigurerbar axel: Substratyta. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain)."@sv,
+        "可配置轴：承印材料表面。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:SB§SUBSTRATE-FINISH" ;
+    skos:prefLabel "Substratfinish"@da,
+        "Bedruckstoff-Oberfläche"@de,
+        "Substrate Finish"@en,
+        "Acabado del sustrato"@es,
+        "सब्सट्रेट फ़िनिश"@hi,
+        "基材の表面"@ja,
+        "Substratoverflate"@nb,
+        "Substraatafwerking"@nl,
+        "Wykończenie podłoża"@pl,
+        "Acabamento do substrato"@pt,
+        "Substratyta"@sv,
+        "承印材料表面"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken papiroverflade?"@da,
+        "Welche Papieroberfläche?"@de,
+        "Which paper surface?"@en,
+        "¿Qué superficie de papel?"@es,
+        "कागज़ की सतह कैसी?"@hi,
+        "紙の表面は？"@ja,
+        "Hvilken papiroverflate?"@nb,
+        "Welk papieroppervlak?"@nl,
+        "Jaka powierzchnia papieru?"@pl,
+        "Que superfície de papel?"@pt,
+        "Vilken pappersyta?"@sv,
+        "纸张表面是？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces> ;
+    ptpge:version "2026-06-05" .
+

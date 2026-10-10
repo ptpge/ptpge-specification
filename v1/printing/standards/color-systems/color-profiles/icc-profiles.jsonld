@@ -1,0 +1,90 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-profiles/icc-profiles",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "ICC Profiles",
+    "de": "ICC-Profile",
+    "es": "Perfiles ICC",
+    "ja": "ICC プロファイル",
+    "zh-Hans": "ICC 配置文件",
+    "sv": "ICC-profiler",
+    "da": "ICC-profiler",
+    "nl": "ICC-profielen",
+    "pl": "Profile ICC",
+    "pt": "Perfis ICC",
+    "hi": "ICC प्रोफ़ाइल"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-profiles",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§ICC-PROFILES",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "ICC colour profiles (ICC.1) characterising device/condition colour for managed workflows.",
+    "nb": "ICC-fargeprofiler (ICC.1) som karakteriserer enhets-/betingelsesfarge for fargestyrte arbeidsflyter.",
+    "de": "ICC-Farbprofile (ICC.1), die Geräte-/Bedingungsfarbe für farbgemanagte Workflows charakterisieren.",
+    "es": "Perfiles de color ICC (ICC.1) que caracterizan el color de dispositivo/condición para flujos con gestión de color.",
+    "ja": "カラーマネジメントされたワークフローのためにデバイス／印刷条件の色を特性化する ICC カラープロファイル（ICC.1）。",
+    "zh-Hans": "ICC 色彩配置文件（ICC.1），为色彩管理工作流程描述设备/印刷条件的色彩特性。",
+    "sv": "ICC-färgprofiler (ICC.1) som karakteriserar enhets-/tillståndsfärg för färghanterade arbetsflöden.",
+    "da": "ICC-farveprofiler (ICC.1), der karakteriserer enheds-/tilstandsfarve til farvestyrede arbejdsgange.",
+    "nl": "ICC-kleurprofielen (ICC.1) die apparaat-/conditiekleur karakteriseren voor kleurbeheerde workflows.",
+    "pl": "Profile barw ICC (ICC.1) charakteryzujące barwę urządzenia/warunków w przepływach z zarządzaniem barwą.",
+    "pt": "Perfis de cor ICC (ICC.1) que caracterizam a cor de dispositivo/condição para fluxos de trabalho gerenciados.",
+    "hi": "प्रबंधित वर्कफ़्लो के लिए डिवाइस/स्थिति रंग का लक्षण-वर्णन करने वाली ICC रंग प्रोफ़ाइल (ICC.1)।"
+  },
+  "altLabels": {
+    "en": [
+      "ICC",
+      "ICC colour profile",
+      "colour profile",
+      "color profile"
+    ],
+    "nb": [
+      "ICC-profil",
+      "fargeprofil"
+    ],
+    "pl": [
+      "ICC",
+      "profil barw ICC",
+      "profil kolorów",
+      "profil barwny"
+    ],
+    "pt": [
+      "ICC",
+      "perfil de cor ICC",
+      "perfil de cor"
+    ],
+    "hi": [
+      "ICC",
+      "ICC रंग प्रोफ़ाइल",
+      "रंग प्रोफ़ाइल"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

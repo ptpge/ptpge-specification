@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/thermal-inkjet> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bubble jet"@en,
+        "बबल जेट"@hi,
+        "Termisk blekkskriver"@nb,
+        "atramentowy termiczny"@pl,
+        "bubble jet"@pl,
+        "Bubble jet"@pt,
+        "Inkjet térmico"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    skos:definition "Drop-on-demand-inkjet, der fordamper en lille del af blækket med et varmeelement og skaber en boble, som skyder en blækdråbe ud gennem dysen. Brugt af HP DeskJet, Canon Bubble Jet og de fleste forbruger-inkjetprintere."@da,
+        "Drop-on-Demand-Inkjet, der einen winzigen Anteil der Tinte mit einem Heizelement verdampft und so eine Blase erzeugt, die ein Tintentröpfchen durch die Düse ausstößt. Eingesetzt von HP DeskJet, Canon Bubble Jet und den meisten Consumer-Inkjet-Druckern."@de,
+        "Drop-on-demand inkjet that vaporizes a tiny portion of ink with a heating element, creating a bubble that ejects an ink droplet through the nozzle. Used by HP DeskJet, Canon Bubble Jet, and most consumer inkjet printers."@en,
+        "Tecnología de inyección de tinta drop-on-demand basada en calentamiento puntual que vaporiza una burbuja y propulsa la gota — habitual en impresoras de consumo HP y Canon."@es,
+        "ड्रॉप-ऑन-डिमांड इंकजेट जो हीटिंग एलिमेंट से स्याही का सूक्ष्म अंश वाष्पित कर बुलबुला बनाता है, जो नोज़ल से स्याही की बूँद बाहर फेंकता है। HP DeskJet, Canon Bubble Jet और अधिकांश उपभोक्ता इंकजेट प्रिंटरों में।"@hi,
+        "発熱体でインキの微小部分を蒸発させ、気泡を作り、ノズルからインキ液滴を排出するドロップオンデマンドインクジェット。HP DeskJet、Canon Bubble Jet、および大半のコンシューマーインクジェットプリンターで使用される。"@ja,
+        "Drop-on-demand-inkjet som fordamper en liten del av blekket med et varmeelement, og skaper en boble som støter ut en blekkdråpe gjennom dysen. Brukt av HP DeskJet, Canon Bubble Jet og de fleste forbruker-inkjet-skrivere."@nb,
+        "Drop-on-demand-inkjet die een klein deel van de inkt verdampt met een verwarmingselement, waardoor een bel ontstaat die een inktdruppel door de nozzle stoot. Gebruikt door HP DeskJet, Canon Bubble Jet en de meeste consumenteninkjetprinters."@nl,
+        "Druk atramentowy drop-on-demand, w którym element grzejny odparowuje drobną porcję atramentu, tworząc pęcherzyk wyrzucający kroplę przez dyszę. Używany w HP DeskJet, Canon Bubble Jet i większości konsumenckich drukarek atramentowych."@pl,
+        "Jato de tinta gota sob demanda que vaporiza uma porção minúscula de tinta com um elemento de aquecimento, criando uma bolha que expele uma gotícula pelo bico. Usado pela HP DeskJet, Canon Bubble Jet e pela maioria das impressoras de jato de tinta de consumo."@pt,
+        "Drop-on-demand-inkjet som förångar en liten del av bläcket med ett värmeelement, vilket skapar en bubbla som stöter ut en bläckdroppe genom munstycket. Används av HP DeskJet, Canon Bubble Jet och de flesta konsumentinkjetskrivare."@sv,
+        "基于点状加热汽化气泡并推动液滴的按需喷墨技术 —— 在HP和Canon消费打印机中常见。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§THERMAL-INKJET" ;
+    skos:prefLabel "Termisk inkjet"@da,
+        "Thermo-Inkjet"@de,
+        "Thermal Inkjet"@en,
+        "Inyección Térmica"@es,
+        "थर्मल इंकजेट"@hi,
+        "サーマルインクジェット"@ja,
+        "Termisk inkjet"@nb,
+        "Thermische inkjet"@nl,
+        "Termiczny atramentowy"@pl,
+        "Jato de tinta térmico"@pt,
+        "Termisk inkjet"@sv,
+        "热敏喷墨"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

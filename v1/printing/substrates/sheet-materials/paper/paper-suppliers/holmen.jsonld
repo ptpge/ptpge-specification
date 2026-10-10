@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/holmen",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Holmen",
+    "es": "Holmen",
+    "zh-Hans": "Holmen",
+    "nb": "Holmen",
+    "de": "Holmen",
+    "ja": "Holmen",
+    "sv": "Holmen",
+    "da": "Holmen",
+    "nl": "Holmen",
+    "pl": "Holmen",
+    "pt": "Holmen",
+    "hi": "Holmen"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB-SHT-PAPR-PSUP-HOLM",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Swedish paper manufacturer specializing in publication papers — book, magazine, and newsprint grades. Known for sustainably sourced papers from Swedish forests.",
+    "nb": "Svensk papirprodusent spesialisert på publikasjonspapir — bok-, magasin- og avispapir-klasser. Kjent for bærekraftig innhentede papirer fra svenske skoger.",
+    "de": "Schwedischer Papierhersteller, spezialisiert auf Publikationspapiere — Buch-, Magazin- und Zeitungspapiere. Bekannt für nachhaltig gewonnene Papiere aus schwedischen Wäldern.",
+    "ja": "出版用紙（書籍、雑誌、新聞用紙）に特化したスウェーデンの紙メーカー。スウェーデンの森林から持続可能に調達された紙で知られる。",
+    "es": "Holmen Paper — fabricante escandinavo de papeles para publicación, especializado en papeles ligeros para revistas, libros y catálogos.",
+    "zh-Hans": "Holmen Paper —— 北欧出版用纸制造商，专长用于杂志、书籍和目录的轻量纸。",
+    "sv": "Svensk papperstillverkare specialiserad på publikationspapper — bok-, tidskrifts- och tidningspapperskvaliteter. Känd för hållbart producerat papper från svenska skogar.",
+    "da": "Svensk papirproducent med speciale i publikationspapir — bog-, magasin- og avispapirkvaliteter. Kendt for bæredygtigt producerede papirer fra svenske skove.",
+    "nl": "Zweedse papierfabrikant gespecialiseerd in publicatiepapier — boek-, magazine- en krantenpapierkwaliteiten. Bekend om duurzaam geproduceerd papier uit Zweedse bossen.",
+    "pl": "Szwedzki producent papieru specjalizujący się w papierach publikacyjnych — gatunkach książkowych, magazynowych i gazetowych. Znany z papierów pozyskiwanych w sposób zrównoważony ze szwedzkich lasów.",
+    "pt": "Fabricante sueco de papel especializado em papéis de publicação — qualidades para livro, revista e jornal. Conhecido por papéis de origem sustentável das florestas suecas.",
+    "hi": "प्रकाशन काग़ज़ों में विशेषज्ञ स्वीडिश काग़ज़ निर्माता — पुस्तक, पत्रिका और न्यूज़प्रिंट ग्रेड। स्वीडिश जंगलों से टिकाऊ स्रोत वाले काग़ज़ों के लिए प्रसिद्ध।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

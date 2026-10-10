@@ -1,0 +1,72 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§KISS-CUTTING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Kiss Cutting",
+    "nb": "Kiss-cutting",
+    "de": "Kiss-Cutting",
+    "ja": "Kiss Cutting",
+    "es": "Kiss Cutting",
+    "zh-Hans": "Kiss Cutting",
+    "sv": "Kiss-cutting",
+    "da": "Kiss-cutting",
+    "nl": "Kiss-cutting",
+    "pl": "Nacinanie warstwy wierzchniej",
+    "pt": "Meio-corte",
+    "hi": "किस कटिंग"
+  },
+  "definition": {
+    "en": "Cutting through the face material but not the backing — used for stickers and labels.",
+    "nb": "Skjæring gjennom toppmaterialet, men ikke bæresjiktet — brukt for klistremerker og etiketter.",
+    "de": "Schneiden des Obermaterials, aber nicht des Trägers — für Aufkleber und Etiketten.",
+    "ja": "表面材のみを切り、台紙は切らない — ステッカーやラベルに使われる。",
+    "es": "Cortar el material superior sin atravesar el soporte — usado en pegatinas y etiquetas.",
+    "zh-Hans": "只切穿面材而不切穿底纸 — 用于贴纸与标签。",
+    "sv": "Skärning genom ytmaterialet men inte bärarmaterialet — används för klistermärken och etiketter.",
+    "da": "Skæring gennem overmaterialet men ikke bagpapiret — bruges til klistermærker og etiketter.",
+    "nl": "Snijden door het topmateriaal maar niet door de drager — gebruikt voor stickers en etiketten.",
+    "pl": "Przecięcie materiału wierzchniego bez przecinania podkładu — stosowane w naklejkach i etykietach.",
+    "pt": "Corte que atravessa o material da face, mas não o liner — usado em adesivos e etiquetas.",
+    "hi": "ऊपरी सामग्री को काटना पर बैकिंग (लाइनर) को नहीं — स्टिकर और लेबल में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Kiss cut",
+      "Sticker cut",
+      "Partial cut"
+    ],
+    "nb": [
+      "Kiss-cut",
+      "Delvis stansing"
+    ],
+    "pl": [
+      "kiss-cut",
+      "cięcie naklejek",
+      "cięcie częściowe"
+    ],
+    "pt": [
+      "meio corte",
+      "corte de adesivo",
+      "corte parcial",
+      "kiss cut"
+    ],
+    "hi": [
+      "किस कट",
+      "हाफ़ कट",
+      "स्टिकर कट",
+      "आंशिक कट"
+    ]
+  }
+}

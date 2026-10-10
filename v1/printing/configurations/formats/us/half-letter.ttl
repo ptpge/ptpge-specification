@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/us/half-letter> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "5.5 x 8.5 in"@en,
+        "5.5x8.5"@en,
+        "5.5×8.5"@en,
+        "Half Letter"@en,
+        "Statement"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:definition "5.5 × 8.5 tommer (139.7 × 215.9 mm). Halvdelen af US Letter (foldet på den korte side). Bruges til hæfter, notesblokke og dokumenter i personligt format."@da,
+        "5,5 × 8,5 in (139,7 × 215,9 mm). Hälfte von US Letter (an der kurzen Kante gefaltet). Verwendet für Broschüren, Notizblöcke und Dokumente im persönlichen Format."@de,
+        "5.5 × 8.5 in (139.7 × 215.9 mm). Half of US Letter (folded short edge). Used for booklets, notepads, and personal-size documents."@en,
+        "Media Carta, 5,5 × 8,5 pulgadas. Habitual para folletos, libretas y publicidad."@es,
+        "5.5 × 8.5 in (139.7 × 215.9 mm). US Letter का आधा (छोटे किनारे से मुड़ा)। बुकलेट, नोटपैड और निजी आकार के दस्तावेज़ों में।"@hi,
+        "5.5×8.5インチ（139.7×215.9mm）。米国Letterの半分（短辺で折る）。ブックレット、ノートパッド、パーソナルサイズの書類に使用される。"@ja,
+        "5,5 × 8,5 in (139,7 × 215,9 mm). Halv US Letter (brettet på den korte siden). Brukt til hefter, notatblokker og personlig-størrelse dokumenter."@nb,
+        "5.5 × 8.5 inch (139.7 × 215.9 mm). De helft van US Letter (gevouwen over de korte zijde). Gebruikt voor boekjes, notitieblokken en documenten in persoonlijk formaat."@nl,
+        "5,5 × 8,5 cala (139,7 × 215,9 mm). Połowa US Letter (złożonego wzdłuż krótszej krawędzi). Używany do broszur, notatników i dokumentów formatu osobistego."@pl,
+        "5.5 × 8.5 in (139.7 × 215.9 mm). Metade do US Letter (dobrado na borda curta). Usado em folhetos, blocos e documentos de tamanho pessoal."@pt,
+        "5.5 × 8.5 tum (139.7 × 215.9 mm). Halva US Letter (vikt på kortsidan). Används för häften, anteckningsblock och dokument i personligt format."@sv,
+        "Half Letter，5.5 × 8.5英寸。常用于小册子、笔记本和广告。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§HALF-LETTER" ;
+    skos:prefLabel "Half Letter (5.5 x 8.5 tum)"@da,
+        "Half Letter (5.5 x 8.5 in)"@de,
+        "Half Letter (5.5 x 8.5 in)"@en,
+        "Half Letter (140 × 216 mm / 5.5 × 8.5 in)"@es,
+        "Half Letter (5.5 x 8.5 in)"@hi,
+        "Half Letter (5.5 x 8.5 in)"@ja,
+        "Half Letter (5.5 x 8.5 in)"@nb,
+        "Half Letter (5.5 x 8.5 in)"@nl,
+        "Half Letter (5.5 x 8.5 in)"@pl,
+        "Half Letter (5.5 x 8.5 in)"@pt,
+        "Half Letter (5.5 x 8.5 tum)"@sv,
+        "Half Letter (140 × 216 mm / 5.5 × 8.5 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 46.75 ;
+            ptpge:aspectRatio 1.5455 ;
+            ptpge:height 8.5 ;
+            ptpge:standard "ANSI" ;
+            ptpge:unit "in" ;
+            ptpge:width 5.5 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

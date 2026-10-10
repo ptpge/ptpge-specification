@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/us> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Papirformater, der er standard i USA og andre lande, som følger amerikanske konventioner (Canada, Mexico, Filippinerne, Chile)."@da,
+        "Papierformate, die in den Vereinigten Staaten und in Ländern mit US-Konventionen Standard sind (Kanada, Mexiko, Philippinen, Chile)."@de,
+        "Paper sizes standard in the United States and other countries that follow US conventions (Canada, Mexico, Philippines, Chile)."@en,
+        "Tamaños de papel estándar en los Estados Unidos y en otros países que siguen convenciones estadounidenses (Canadá, México, Filipinas, Chile)."@es,
+        "संयुक्त राज्य और US परंपराओं का पालन करने वाले अन्य देशों (कनाडा, मेक्सिको, फ़िलीपींस, चिली) के मानक काग़ज़ आकार।"@hi,
+        "米国およびUS慣例に従う国（カナダ、メキシコ、フィリピン、チリ）で標準的な用紙寸法。"@ja,
+        "Papirstørrelser som er standard i USA og andre land som følger amerikanske konvensjoner (Canada, Mexico, Filippinene, Chile)."@nb,
+        "Papierformaten die standaard zijn in de VS en andere landen die Amerikaanse conventies volgen (Canada, Mexico, de Filipijnen, Chili)."@nl,
+        "Formaty papieru standardowe w Stanach Zjednoczonych i innych krajach stosujących konwencje amerykańskie (Kanada, Meksyk, Filipiny, Chile)."@pl,
+        "Tamanhos de papel padrão nos Estados Unidos e em outros países que seguem as convenções americanas (Canadá, México, Filipinas, Chile)."@pt,
+        "Pappersformat som är standard i USA och andra länder som följer amerikanska konventioner (Kanada, Mexiko, Filippinerna, Chile)."@sv,
+        "美国及其他遵循美国惯例的国家（加拿大、墨西哥、菲律宾、智利）使用的标准纸张尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/us/government-legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/half-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/junior-legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/ledger>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/tabloid> ;
+    skos:notation "P:CF-FMT-USER" ;
+    skos:prefLabel "USA-format"@da,
+        "US"@de,
+        "US"@en,
+        "EE. UU."@es,
+        "US"@hi,
+        "US（米国規格）"@ja,
+        "US"@nb,
+        "USA-format"@nl,
+        "Formaty USA"@pl,
+        "EUA"@pt,
+        "USA-format"@sv,
+        "美国"@zh-Hans ;
+    skos:scopeNote "Umfasst Letter, Legal, Tabloid (Ledger), Half Letter, Junior Legal sowie die behördenspezifischen Formate Government Letter und Government Legal. Tabloid und Ledger haben dieselben Maße (11 × 17″), aber Tabloid impliziert Hochformat, Ledger Querformat."@de,
+        "Includes Letter, Legal, Tabloid (Ledger), Half Letter, Junior Legal, and government-specific Government Letter and Government Legal. Tabloid and Ledger are dimensionally identical (11×17\") but Tabloid implies portrait orientation, Ledger landscape."@en,
+        "Incluye Carta, Oficio, Tabloide (Ledger), Media Carta, Junior Legal y los específicos para uso gubernamental Government Letter y Government Legal. Tabloide y Ledger son idénticos en dimensiones (11×17\") pero Tabloide se orienta en vertical y Ledger en horizontal."@es,
+        "Letter、Legal、Tabloid（Ledger）、Half Letter、Junior Legal、政府機関固有のGovernment LetterおよびGovernment Legalを含む。TabloidとLedgerは寸法的に同一（11×17インチ）だが、Tabloidは縦向き、Ledgerは横向きを意味する。"@ja,
+        "Inkluderer Letter, Legal, Tabloid (Ledger), Half Letter, Junior Legal, og myndighetsstørrelsene Government Letter og Government Legal. Tabloid og Ledger har like dimensjoner (11×17\") men Tabloid impliserer portrettorientering, Ledger landskap."@nb,
+        "包括Letter、Legal、Tabloid（Ledger）、Half Letter、Junior Legal以及政府专用的Government Letter和Government Legal。Tabloid和Ledger尺寸相同（11×17英寸），但Tabloid是纵向，Ledger是横向。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

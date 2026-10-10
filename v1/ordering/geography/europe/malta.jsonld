@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/europe/malta",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:GY§MALTA",
+  "elementType": "place",
+  "label": {
+    "en": "Malta",
+    "nb": "Malta",
+    "de": "Malta",
+    "ja": "マルタ",
+    "es": "Malta",
+    "zh-Hans": "马耳他",
+    "sv": "Malta",
+    "da": "Malta",
+    "nl": "Malta",
+    "pl": "Malta",
+    "pt": "Malta",
+    "hi": "माल्टा"
+  },
+  "altLabels": {
+    "en": [
+      "MT",
+      "MLT"
+    ],
+    "pl": [
+      "MT",
+      "MLT"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography/europe",
+  "properties": {
+    "iso3166Alpha2": "MT",
+    "iso3166Alpha3": "MLT"
+  },
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Malta — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping.",
+    "nb": "Malta — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Malta — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen.",
+    "ja": "Malta — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。",
+    "es": "Malta — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "Malta——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。",
+    "sv": "Malta — geografisk facett på landsnivå som används för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Malta — geografisk facet på landeniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Malta — geografische facet op landniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Malta — aspekt geograficzny na poziomie kraju używany do specyfikacji produktu, dopasowania standardów regionalnych, listowania dostawców i zakresu wysyłki/dostawy.",
+    "pt": "Malta — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "माल्टा — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"
+  }
+}

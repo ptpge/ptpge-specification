@@ -1,0 +1,88 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Nordic Swan Ecolabel",
+    "es": "Nordic Swan (Cisne Nórdico)",
+    "zh-Hans": "Nordic Swan（北欧天鹅）",
+    "nb": "Nordic Swan Ecolabel",
+    "de": "Nordic Swan Ecolabel",
+    "ja": "Nordic Swan Ecolabel",
+    "sv": "Svanen",
+    "da": "Svanemærket",
+    "nl": "Nordic Swan Ecolabel",
+    "pl": "Nordycki Łabędź",
+    "pt": "Rótulo Ecológico Cisne Nórdico",
+    "hi": "Nordic Swan Ecolabel"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§NORDIC-SWAN-ECOLABEL",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/environmental",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Nordic environmental ecolabel (Svanemerket) operated jointly by Norway, Sweden, Denmark, Finland, and Iceland since 1989, certifying products that meet strict environmental criteria.",
+    "nb": "Nordisk miljømerke (Svanemerket) drevet i fellesskap av Norge, Sverige, Danmark, Finland og Island siden 1989, som sertifiserer produkter som oppfyller strenge miljøkriterier.",
+    "de": "Nordisches Umwelt-Ecolabel (Svanemerket), das seit 1989 gemeinsam von Norwegen, Schweden, Dänemark, Finnland und Island betrieben wird, zertifiziert Produkte, die strenge Umweltkriterien erfüllen.",
+    "ja": "北欧の環境エコラベル（Svanemerket）。1989年からノルウェー、スウェーデン、デンマーク、フィンランド、アイスランドが共同で運営しており、厳格な環境基準を満たす製品を認証する。",
+    "es": "Etiqueta ecológica nórdica (Svanemerket) operada conjuntamente por Noruega, Suecia, Dinamarca, Finlandia e Islandia desde 1989, que certifica productos que cumplen criterios ambientales estrictos.",
+    "zh-Hans": "北欧环境生态标签（Svanemerket），由挪威、瑞典、丹麦、芬兰和冰岛自1989年共同运营，认证符合严格环境标准的产品。",
+    "sv": "Nordisk miljömärkning (Svanen/Svanemerket) som drivs gemensamt av Norge, Sverige, Danmark, Finland och Island sedan 1989, certifierar produkter som uppfyller strikta miljökriterier.",
+    "da": "Nordisk miljømærke (Svanemærket) drevet i fællesskab af Norge, Sverige, Danmark, Finland og Island siden 1989, certificerer produkter, der opfylder strenge miljøkriterier.",
+    "nl": "Noords milieukeurmerk (Svanen), sinds 1989 gezamenlijk beheerd door Noorwegen, Zweden, Denemarken, Finland en IJsland, certificeert producten die aan strenge milieucriteria voldoen.",
+    "pl": "Nordycki ekoznak środowiskowy (Svanemerket) prowadzony wspólnie przez Norwegię, Szwecję, Danię, Finlandię i Islandię od 1989 r., certyfikujący produkty spełniające ścisłe kryteria środowiskowe.",
+    "pt": "Rótulo ecológico nórdico (Svanemerket) operado conjuntamente por Noruega, Suécia, Dinamarca, Finlândia e Islândia desde 1989, que certifica produtos que cumprem critérios ambientais rigorosos.",
+    "hi": "नॉर्वे, स्वीडन, डेनमार्क, फ़िनलैंड और आइसलैंड द्वारा 1989 से संयुक्त रूप से संचालित नॉर्डिक पर्यावरण इकोलेबल (Svanemerket), जो कड़े पर्यावरणीय मानदंड पूरे करने वाले उत्पादों को प्रमाणित करता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Nordic Swan",
+      "Swan label",
+      "Svanemerket"
+    ],
+    "nb": [
+      "Svanemerket",
+      "Svanen"
+    ],
+    "pl": [
+      "Nordic Swan",
+      "Svanemerket",
+      "znak Łabędzia"
+    ],
+    "pt": [
+      "Cisne Nórdico",
+      "Nordic Swan",
+      "Svanemerket"
+    ],
+    "hi": [
+      "Nordic Swan",
+      "नॉर्डिक स्वान",
+      "Svanemerket"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

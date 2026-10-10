@@ -1,0 +1,60 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/magnetic-foil",
+  "type": "skos:Concept",
+  "version": "2026-08-22",
+  "status": "proposed",
+  "notation": "P:SB§MAGNETIC-FOIL",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Magnetic Foil",
+    "nb": "Magnetfolie",
+    "de": "Magnetfolie",
+    "es": "Lámina magnética",
+    "ja": "マグネットシート",
+    "zh-Hans": "磁性贴片",
+    "sv": "Magnetfolie",
+    "da": "Magnetfolie",
+    "nl": "Magneetfolie",
+    "pl": "Folia magnetyczna",
+    "pt": "Manta magnética",
+    "hi": "चुंबकीय शीट"
+  },
+  "definition": {
+    "en": "Flexible magnetic sheet material with a printable face; used for vehicle magnets, fridge magnets and magnetic signage.",
+    "nb": "Fleksibelt magnetisk arkmateriale med trykkbar overflate; brukes til bilmagneter, kjøleskapsmagneter og magnetskilt.",
+    "de": "Flexibles magnetisches Bogenmaterial mit bedruckbarer Oberfläche; für Fahrzeugmagnete, Kühlschrankmagnete und Magnetschilder.",
+    "es": "Material magnético flexible en hojas con cara imprimible; para imanes de vehículos, imanes de nevera y señalización magnética.",
+    "ja": "印刷可能な面を持つ柔軟な磁性シート材。車両用マグネット、冷蔵庫用マグネット、磁気サインに使用。",
+    "zh-Hans": "柔性磁性片材，表面可印刷；用于车用磁贴、冰箱贴和磁性标识。",
+    "sv": "Flexibelt magnetiskt arkmaterial med tryckbar yta; används till fordonsmagneter, kylskåpsmagneter och magnetskyltar.",
+    "da": "Fleksibelt magnetisk arkmateriale med trykbar overflade; bruges til bilmagneter, køleskabsmagneter og magnetskilte.",
+    "nl": "Flexibel magnetisch plaatmateriaal met bedrukbaar oppervlak; voor voertuigmagneten, koelkastmagneten en magnetische signing.",
+    "pl": "Elastyczny arkusz magnetyczny z zadrukowywalną stroną; używany do magnesów na pojazdy, magnesów na lodówkę i oznakowania magnetycznego.",
+    "pt": "Material magnético flexível em folha com face imprimível; usado em ímãs de veículo, ímãs de geladeira e sinalização magnética.",
+    "hi": "छपाई योग्य सतह वाली लचीली चुंबकीय शीट सामग्री; वाहन मैग्नेट, फ़्रिज मैग्नेट और चुंबकीय साइनेज में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials",
+  "created": "2026-08-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "pl": [
+      "magnes elastyczny"
+    ],
+    "pt": [
+      "manta magnética",
+      "folha magnética",
+      "imã flexível"
+    ],
+    "hi": [
+      "मैग्नेटिक शीट",
+      "मैग्नेटिक फ़ॉइल",
+      "लचीला चुंबक",
+      "रबर मैग्नेट"
+    ]
+  }
+}

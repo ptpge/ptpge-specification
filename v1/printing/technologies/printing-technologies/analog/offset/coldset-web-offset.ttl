@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/coldset-web-offset> a skos:Concept ;
+    dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Coldset"@en,
+        "Newspaper Offset"@en,
+        "अख़बार ऑफसेट"@hi,
+        "कोल्डसेट"@hi,
+        "coldset"@pl,
+        "offset gazetowy"@pl,
+        "Coldset"@pt,
+        "Offset de jornal"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset> ;
+    skos:definition "Rotationsoffset trykt fra kontinuerlig rulle, hvor farverne tørrer ved absorption i papiret, uden tørreovne. Den klassiske avisproces — avispapir og andre ubestrøgne, absorberende papirer."@da,
+        "Rollenoffset von der Endlosrolle, bei dem die Farben ohne Trockner durch Wegschlagen ins Papier trocknen. Das klassische Zeitungsverfahren — Zeitungsdruckpapier und andere ungestrichene, saugfähige Papiere."@de,
+        "Web offset printed from a continuous roll where the inks dry by absorption into the paper, without dryers. The classic newspaper process — newsprint and other uncoated, absorbent papers."@en,
+        "Ófset de bobina donde las tintas secan por absorción en el papel, sin secadores. El proceso clásico de los periódicos — papel prensa y otros papeles absorbentes sin estucar."@es,
+        "निरंतर रोल से छपा वेब ऑफसेट जिसमें स्याही ड्रायर के बिना काग़ज़ में सोखकर सूखती है। क्लासिक अख़बार प्रक्रिया — न्यूज़प्रिंट और अन्य बिना-कोटिंग, सोखने वाले काग़ज़।"@hi,
+        "連続する巻取紙に印刷し、乾燥装置なしでインキを紙へ浸透乾燥させる輪転オフセット。新聞の古典的な方式 — 新聞用紙などの非塗工の吸収性の紙に使われる。"@ja,
+        "Rulleoffset fra kontinuerlig rull der fargene tørker ved absorpsjon i papiret, uten tørkeenheter. Den klassiske avisprosessen — avispapir og andre ubestrøkne, absorberende papirer."@nb,
+        "Rotatieoffset gedrukt vanaf een doorlopende rol waarbij de inkten drogen door absorptie in het papier, zonder drogers. Het klassieke krantenproces — krantenpapier en andere ongestreken, absorberende papieren."@nl,
+        "Offset zwojowy drukowany z ciągłej roli, w którym farby schną przez wsiąkanie w papier, bez suszarek. Klasyczny proces gazetowy — papier gazetowy i inne niepowlekane, chłonne papiery."@pl,
+        "Offset de bobina impresso a partir de um rolo contínuo em que as tintas secam por absorção no papel, sem secadores. O processo clássico de jornal — papel-jornal e outros papéis não revestidos e absorventes."@pt,
+        "Rulloffset tryckt från kontinuerlig rulle där bläcken torkar genom absorption i papperet, utan torkar. Den klassiska tidningsprocessen — tidningspapper och andra obestrukna, absorberande papper."@sv,
+        "从连续卷筒纸印刷、油墨靠渗入纸张干燥（无烘干装置）的轮转胶印。经典的报纸印刷工艺 — 用于新闻纸等未涂布吸墨纸张。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§COLDSET-WEB-OFFSET" ;
+    skos:prefLabel "Coldset-rotationsoffset"@da,
+        "Rollenoffset (Coldset)"@de,
+        "Coldset Web Offset"@en,
+        "Ófset de bobina coldset"@es,
+        "कोल्डसेट वेब ऑफसेट"@hi,
+        "コールドセット輪転オフセット"@ja,
+        "Rulleoffset (coldset)"@nb,
+        "Coldset-rotatieoffset"@nl,
+        "Offset zwojowy coldset"@pl,
+        "Offset de bobina coldset"@pt,
+        "Coldset-rulloffset"@sv,
+        "冷固轮转胶印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

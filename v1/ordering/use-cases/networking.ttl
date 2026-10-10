@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases/networking> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:definition "Produkter brugt i netværkssammenhænge som konferencer, messer og faglige møder. Omfatter visitkort, navnebadges, lanyards og konferencemateriale."@da,
+        "Produkte für Networking-Kontexte wie Konferenzen, Messen und professionelle Treffen."@de,
+        "Products used in networking contexts such as conferences, trade shows, and professional meetups. Includes business cards, name badges, lanyards, and conference materials."@en,
+        "Productos usados en contextos de networking como conferencias, ferias y encuentros profesionales. Incluye tarjetas de visita, credenciales, lanyards y materiales de conferencia."@es,
+        "सम्मेलन, व्यापार मेलों और पेशेवर मिलनों जैसे नेटवर्किंग संदर्भों में प्रयुक्त उत्पाद। विज़िटिंग कार्ड, नाम-बैज, लैनयार्ड और सम्मेलन सामग्री शामिल।"@hi,
+        "会議、展示会、ビジネス交流会などのネットワーキングの場で使われる製品。名刺、ネームバッジ、ストラップ、会議資料を含む。"@ja,
+        "Produkter brukt i nettverkssammenhenger som konferanser, messer og profesjonelle treff. Inkluderer visittkort, navneskilt, snorer og konferansemateriell."@nb,
+        "Producten gebruikt in netwerkcontexten zoals congressen, vakbeurzen en professionele bijeenkomsten. Omvat visitekaartjes, naambadges, keycords en congresmateriaal."@nl,
+        "Produkty używane w kontekstach networkingowych, takich jak konferencje, targi i spotkania branżowe. Obejmuje wizytówki, identyfikatory imienne, smycze i materiały konferencyjne."@pl,
+        "Produtos usados em contextos de networking, como congressos, feiras e encontros profissionais. Inclui cartões de visita, crachás, cordões e materiais de congresso."@pt,
+        "Produkter som används i nätverkssammanhang som konferenser, mässor och professionella träffar. Omfattar visitkort, namnbrickor, nyckelband och konferensmaterial."@sv,
+        "用于会议、展会与专业聚会等社交场合的产品。包括名片、姓名徽章、挂绳与会议材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:UC§NETWORKING" ;
+    skos:prefLabel "Netværk"@da,
+        "Networking"@de,
+        "Networking"@en,
+        "Networking"@es,
+        "नेटवर्किंग"@hi,
+        "ネットワーキング"@ja,
+        "Nettverksbygging"@nb,
+        "Netwerken"@nl,
+        "Networking"@pl,
+        "Networking"@pt,
+        "Nätverkande"@sv,
+        "人脉建立"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "use-cases" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

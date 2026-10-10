@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "group",
+  "notation": "O:GY",
+  "label": {
+    "en": "Geography",
+    "nb": "Geografi",
+    "de": "Geografie",
+    "ja": "地域",
+    "es": "Geografía",
+    "zh-Hans": "地域",
+    "sv": "Geografi",
+    "da": "Geografi",
+    "nl": "Geografie",
+    "pl": "Geografia",
+    "pt": "Geografia",
+    "hi": "भूगोल"
+  },
+  "definition": {
+    "en": "Controlled vocabulary describing regional and international standards relevant to printed products. Organised by continent (Africa, Asia, Oceania, Europe, North America, South America) plus 'International' for globally applicable standards. Referenced by terms across both top concepts where regional variation matters — paper format standards, color conventions, certifications, shipping zones, and address formats. Provides a stable identifier space that marketplaces and buyer-facing platforms can use to filter vendors by geographic reach and surface region-appropriate product variants.",
+    "nb": "Kontrollert vokabular som beskriver regionale og internasjonale standarder relevante for trykkprodukter. Organisert etter kontinent (Afrika, Asia, Oseania, Europa, Nord-Amerika, Sør-Amerika) pluss 'International' for globalt anvendbare standarder. Refereres av termer på tvers av begge toppkonsepter der regional variasjon er viktig — papirformat-standarder, fargekonvensjoner, sertifiseringer, fraktsoner og adresseformater. Gir et stabilt identifikator-rom som markedsplasser og kjøper-rettede plattformer kan bruke til å filtrere leverandører etter geografisk rekkevidde og vise region-tilpassede produktvarianter.",
+    "de": "Kontrolliertes Vokabular zur Beschreibung regionaler und internationaler Standards für Druckprodukte. Gegliedert nach Kontinent (Afrika, Asien, Ozeanien, Europa, Nordamerika, Südamerika) plus 'International' für global anwendbare Standards. Wird von Begriffen in beiden Top-Konzepten referenziert, wo regionale Unterschiede relevant sind — Papierformatstandards, Farbkonventionen, Zertifizierungen, Versandzonen und Adressformate. Bietet einen stabilen Identifikatorraum, den Marktplätze und käuferorientierte Plattformen verwenden können, um Anbieter nach geografischer Reichweite zu filtern und regional angepasste Produktvarianten anzuzeigen.",
+    "ja": "印刷物に関連する地域および国際的な標準を記述する統制語彙。大陸別（アフリカ、アジア、オセアニア、ヨーロッパ、北アメリカ、南アメリカ）に整理され、グローバルに適用可能な標準には『International』を加える。両方のトップコンセプトで地域差が重要な箇所——用紙サイズ規格、色彩慣行、認証、配送ゾーン、住所形式——から参照される。マーケットプレイスや購入者向けプラットフォームが、地理的到達範囲によって供給者をフィルタリングし、地域に適した製品バリエーションを表示するために使用できる、安定した識別子空間を提供する。",
+    "es": "Vocabulario controlado que describe normas regionales e internacionales relevantes para los productos impresos. Organizado por continente (África, Asia, Oceanía, Europa, Norteamérica, Sudamérica) más 'International' para normas aplicables globalmente. Es referenciado por términos en ambos conceptos principales cuando la variación regional importa — normas de formato de papel, convenciones de color, certificaciones, zonas de envío y formatos de direcciones. Proporciona un espacio de identificadores estable que los mercados y las plataformas orientadas al comprador pueden utilizar para filtrar proveedores por alcance geográfico y mostrar variantes de producto adaptadas a la región.",
+    "zh-Hans": "用于描述与印刷品相关的地区和国际标准的受控词汇。按大陆组织（非洲、亚洲、大洋洲、欧洲、北美洲、南美洲），并加上『International』用于全球适用的标准。在两个顶层概念中凡涉及地区差异之处均被引用——纸张规格、颜色惯例、认证、配送区域和地址格式。为市场平台和面向买方的平台提供稳定的标识符空间，可按地理覆盖范围筛选供应商并展示符合区域要求的产品变体。",
+    "sv": "Kontrollerad vokabulär som beskriver regionala och internationella standarder med relevans för trycksaker. Organiserad per kontinent (Afrika, Asien, Oceanien, Europa, Nordamerika, Sydamerika) samt 'Internationell' för globalt tillämpliga standarder. Refereras av termer under båda toppkoncepten där regional variation spelar roll — pappersformatstandarder, färgkonventioner, certifieringar, fraktzoner och adressformat. Ger ett stabilt identifierarutrymme som marknadsplatser och köparvända plattformar kan använda för att filtrera leverantörer efter geografisk räckvidd och visa regionanpassade produktvarianter.",
+    "da": "Kontrolleret vokabular, der beskriver regionale og internationale standarder med relevans for trykspecifikation, leverandørvalg og levering — organiseret i regioner, subregionale grupperinger og lande.",
+    "nl": "Gecontroleerd vocabulaire dat regionale en internationale standaarden beschrijft die relevant zijn voor drukspecificatie, leverancierskeuze en levering — georganiseerd in regio's, subregionale groeperingen en landen.",
+    "pl": "Kontrolowane słownictwo opisujące standardy regionalne i międzynarodowe istotne dla produktów drukowanych. Uporządkowane według kontynentów (Afryka, Azja, Oceania, Europa, Ameryka Północna, Ameryka Południowa) oraz kategorii „Międzynarodowe” dla standardów o zasięgu globalnym. Przywoływane przez terminy w obu pojęciach nadrzędnych tam, gdzie liczy się zróżnicowanie regionalne — standardy formatów papieru, konwencje barw, certyfikaty, strefy wysyłki i formaty adresów. Zapewnia stabilną przestrzeń identyfikatorów, z której rynki i platformy nabywców mogą korzystać do filtrowania dostawców według zasięgu geograficznego i prezentowania wariantów produktów właściwych dla regionu.",
+    "pt": "Vocabulário controlado que descreve normas regionais e internacionais relevantes para impressos. Organizado por continente (África, Ásia, Oceania, Europa, América do Norte, América do Sul) mais «Internacional» para normas de aplicação global. Referenciado por termos dos dois conceitos de topo onde a variação regional importa — normas de formato de papel, convenções de cor, certificações, zonas de envio e formatos de endereço. Fornece um espaço de identificadores estável que plataformas voltadas ao comprador podem usar para filtrar fornecedores por alcance geográfico e apresentar variantes de produto adequadas à região.",
+    "hi": "मुद्रित उत्पादों से संबंधित क्षेत्रीय और अंतरराष्ट्रीय मानकों का वर्णन करने वाला नियंत्रित शब्दकोश। महाद्वीप के अनुसार व्यवस्थित (अफ़्रीका, एशिया, ओशिनिया, यूरोप, उत्तर अमेरिका, दक्षिण अमेरिका) और वैश्विक मानकों के लिए «अंतरराष्ट्रीय»। दोनों शीर्ष संकल्पनाओं के पद इसे वहाँ संदर्भित करते हैं जहाँ क्षेत्रीय भिन्नता मायने रखती है — काग़ज़ फ़ॉर्मेट मानक, रंग परंपराएँ, प्रमाणन, शिपिंग ज़ोन और पता प्रारूप। एक स्थिर पहचानकर्ता-स्थान देता है जिसे खरीदार-उन्मुख प्लेटफ़ॉर्म भौगोलिक पहुँच से आपूर्तिकर्ता छाँटने और क्षेत्र-अनुरूप उत्पाद वेरिएंट दिखाने में उपयोग कर सकते हैं।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft",
+    "pt": "draft",
+    "hi": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/geography/international",
+    "https://ptpge.org/v1/ordering/geography/africa",
+    "https://ptpge.org/v1/ordering/geography/asia",
+    "https://ptpge.org/v1/ordering/geography/oceania",
+    "https://ptpge.org/v1/ordering/geography/europe",
+    "https://ptpge.org/v1/ordering/geography/north-america",
+    "https://ptpge.org/v1/ordering/geography/south-america"
+  ],
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

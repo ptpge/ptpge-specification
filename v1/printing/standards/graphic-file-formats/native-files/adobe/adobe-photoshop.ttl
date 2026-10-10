@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/adobe-photoshop> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".psd"@en,
+        "Photoshop"@en,
+        ".psd"@hi,
+        "Photoshop"@hi,
+        ".psd"@pl,
+        "Photoshop"@pl,
+        ".psd"@pt,
+        "Photoshop"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe> ;
+    skos:definition "Programeget rasterbilledformat (.psd) for Adobe Photoshop med understøttelse af lagdelt redigering, kanaler, masker og justeringsmetadata til ikke-destruktivt billedarbejde."@da,
+        "Anwendungseigenes Rasterbildformat (.psd) von Adobe Photoshop, unterstützt ebenenbasierte Bearbeitung, Kanäle, Masken und Anpassungs-Metadaten für nicht-destruktive Bildarbeit."@de,
+        "Native raster image file format (.psd) for Adobe Photoshop, supporting layered editing, channels, masks, and adjustment metadata for non-destructive image work."@en,
+        "Formato nativo de Adobe Photoshop para edición de imágenes raster con capas, canales y máscaras. Se aplana a JPEG, TIFF o PDF para entrega a imprenta."@es,
+        "Adobe Photoshop का नेटिव रास्टर छवि फ़ाइल फ़ॉर्मेट (.psd), गैर-विनाशकारी छवि कार्य के लिए परतदार संपादन, चैनल, मास्क और समायोजन मेटाडेटा का समर्थन।"@hi,
+        "Adobe Photoshopのネイティブラスター画像ファイル形式（.psd）。レイヤー編集、チャネル、マスク、調整メタデータをサポートし、非破壊的な画像作業を可能にする。"@ja,
+        "Programspesifikt rasterbildeformat (.psd) for Adobe Photoshop, med støtte for lagdelt redigering, kanaler, masker og justeringsmetadata for ikke-destruktiv bildebehandling."@nb,
+        "Programma-eigen rasterbeeldformaat (.psd) voor Adobe Photoshop, met ondersteuning voor gelaagde bewerking, kanalen, maskers en aanpassingsmetadata voor niet-destructief beeldwerk."@nl,
+        "Natywny format obrazu rastrowego (.psd) programu Adobe Photoshop, obsługujący edycję warstwową, kanały, maski i metadane korekt dla niedestrukcyjnej pracy z obrazem."@pl,
+        "Formato de arquivo nativo de imagem raster (.psd) do Adobe Photoshop, com suporte a edição em camadas, canais, máscaras e metadados de ajuste para trabalho de imagem não destrutivo."@pt,
+        "Programeget rasterbildformat (.psd) för Adobe Photoshop, med stöd för skiktad redigering, kanaler, masker och justeringsmetadata för icke-förstörande bildarbete."@sv,
+        "Adobe Photoshop用于带图层、通道和蒙版的位图图像编辑的原生格式。压平为JPEG、TIFF或PDF以交付印刷。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§ADOBE-PHOTOSHOP" ;
+    skos:prefLabel "Adobe Photoshop (.psd)"@da,
+        "Adobe Photoshop (.psd)"@de,
+        "Adobe Photoshop (.psd)"@en,
+        "Adobe Photoshop (.psd)"@es,
+        "Adobe Photoshop (.psd)"@hi,
+        "Adobe Photoshop (.psd)"@ja,
+        "Adobe Photoshop (.psd)"@nb,
+        "Adobe Photoshop (.psd)"@nl,
+        "Adobe Photoshop (.psd)"@pl,
+        "Adobe Photoshop (.psd)"@pt,
+        "Adobe Photoshop (.psd)"@sv,
+        "Adobe Photoshop (.psd)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

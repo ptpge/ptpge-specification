@@ -1,0 +1,87 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/corner-stapling",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§CORNER-STAPLING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "label": {
+    "en": "Corner Stapling",
+    "nb": "Hjørnestifting",
+    "de": "Eckheftung",
+    "ja": "Corner Stapling",
+    "es": "Corner Stapling",
+    "zh-Hans": "Corner Stapling",
+    "sv": "Hörnhäftning",
+    "da": "Hjørnehæftning",
+    "nl": "Hoeknieten",
+    "pl": "Zszywanie narożne",
+    "pt": "Grampo no canto",
+    "hi": "कॉर्नर स्टेपलिंग"
+  },
+  "definition": {
+    "en": "A single staple through one corner of a stack of sheets.",
+    "nb": "En enkelt stift gjennom ett hjørne av en bunke ark.",
+    "de": "Eine einzelne Heftklammer durch eine Ecke eines Stapels.",
+    "ja": "用紙の束の角1か所をステープル1本で綴じる。",
+    "es": "Una sola grapa a través de una esquina de la pila de hojas.",
+    "zh-Hans": "在一叠纸的一个角上打一枚订书钉。",
+    "sv": "En enda klammer genom ett hörn av en bunt ark.",
+    "da": "En enkelt klamme gennem ét hjørne af en stak ark.",
+    "nl": "Eén nietje door één hoek van een stapel vellen.",
+    "pl": "Pojedyncza zszywka przez jeden róg stosu arkuszy.",
+    "pt": "Um único grampo atravessando um canto de um maço de folhas.",
+    "hi": "शीटों के ढेर के एक कोने में एक ही स्टेपल।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Corner stitch",
+      "Corner staple",
+      "Single staple"
+    ],
+    "nb": [
+      "Hjørnestift",
+      "Hjørnestifting"
+    ],
+    "pl": [
+      "zszywka w rogu",
+      "zszycie narożne"
+    ],
+    "pt": [
+      "grampo de canto",
+      "grampeado no canto",
+      "grampo único"
+    ],
+    "hi": [
+      "कोने का स्टेपल",
+      "कॉर्नर स्टिच",
+      "सिंगल स्टेपल",
+      "कोने की पिन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "Stitching"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.32 · p.132"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 39"
+    }
+  ]
+}

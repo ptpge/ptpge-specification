@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/c-p-bourg> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "C.P. Bourg — belgisk producent af bogefterbehandlingsudstyr, især limbindere og dokumentefterbehandlingssystemer til bogproduktion i korte serier."@da,
+        "C.P. Bourg — belgischer Hersteller von Buchbindemaschinen, insbesondere Klebebinder und Dokumentenfertigungssysteme für die Kleinauflagen-Buchproduktion."@de,
+        "C.P. Bourg — Belgian manufacturer of book-finishing equipment, particularly perfect binders and document finishing systems for short-run book production."@en,
+        "C.P. Bourg — fabricante belga de equipo de encuadernación y acabado, especializado en sistemas para producción digital de tirada corta."@es,
+        "C.P. Bourg — पुस्तक-फ़िनिशिंग उपकरणों का बेल्जियाई निर्माता, विशेषकर परफेक्ट बाइंडर और शॉर्ट-रन पुस्तक उत्पादन के दस्तावेज़ फ़िनिशिंग सिस्टम।"@hi,
+        "C.P. Bourg — ベルギーの書籍仕上げ機器メーカー。特に短納期の書籍生産向けの無線綴じ機と文書仕上げシステムを扱う。"@ja,
+        "C.P. Bourg — belgisk produsent av bokfinish-utstyr, særlig perfect binders og dokumentfinish-systemer for korttopplag bokproduksjon."@nb,
+        "C.P. Bourg — Belgische fabrikant van boekafwerkingsapparatuur, met name garenloosbinders en documentafwerkingssystemen voor boekproductie in kleine oplagen."@nl,
+        "C.P. Bourg — belgijski producent urządzeń do wykończenia książek, zwłaszcza oprawiarek do oprawy klejonej i systemów wykończenia dokumentów do krótkoseryjnej produkcji książek."@pl,
+        "C.P. Bourg — fabricante belga de equipamentos de acabamento de livros, especialmente encadernadoras de lombada colada e sistemas de acabamento de documentos para produção de livros em tiragens curtas."@pt,
+        "C.P. Bourg — belgisk tillverkare av bokefterbehandlingsutrustning, särskilt limbindare och dokumentefterbehandlingssystem för bokproduktion i korta serier."@sv,
+        "C.P. Bourg —— 比利时装订和印后设备制造商，专长于短印次数码生产系统。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-CPBO" ;
+    skos:prefLabel "C.P. Bourg"@da,
+        "C.P. Bourg"@de,
+        "C.P. Bourg"@en,
+        "C.P. Bourg"@es,
+        "C.P. Bourg"@hi,
+        "C.P. Bourg"@ja,
+        "C.P. Bourg"@nb,
+        "C.P. Bourg"@nl,
+        "C.P. Bourg"@pl,
+        "C.P. Bourg"@pt,
+        "C.P. Bourg"@sv,
+        "C.P. Bourg"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

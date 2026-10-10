@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/knowledge/guides/bleed-safety-margins> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
+    skos:definition "Beskæring & sikkerhedsmarginer — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
+        "Bleed & Safety Margins — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
+        "Bleed & Safety Margins — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Bleed & Safety Margins — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
+        "ब्लीड और सुरक्षा मार्जिन — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
+        "Bleed & Safety Margins — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
+        "Bleed & Safety Margins — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Afloop & veiligheidsmarges — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
+        "Spady i marginesy bezpieczeństwa — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
+        "Sangria e margens de segurança — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
+        "Utfall & säkerhetsmarginaler — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
+        "Bleed & Safety Margins——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:KN§BLEED-SAFETY-MARGINS" ;
+    skos:prefLabel "Beskæring & sikkerhedsmarginer"@da,
+        "Beschnitt & Sicherheitsabstand"@de,
+        "Bleed & Safety Margins"@en,
+        "Sangría y márgenes de seguridad"@es,
+        "ब्लीड और सुरक्षा मार्जिन"@hi,
+        "塗り足しと安全マージン"@ja,
+        "Beskjæring & sikker-soner"@nb,
+        "Afloop & veiligheidsmarges"@nl,
+        "Spady i marginesy bezpieczeństwa"@pl,
+        "Sangria e margens de segurança"@pt,
+        "Utfall & säkerhetsmarginaler"@sv,
+        "出血与安全边距"@zh-Hans ;
+    ptpge:elementType "resource" ;
+    ptpge:group "knowledge" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

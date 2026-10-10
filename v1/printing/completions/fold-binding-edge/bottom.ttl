@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/fold-binding-edge/bottom> a skos:Concept ;
+    dcterms:created "2026-06-19T09:56:13+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bottom edge"@en,
+        "Bottom fold"@en,
+        "Bottom-bound"@en,
+        "Bottom-edge binding"@en,
+        "निचला किनारा"@hi,
+        "नीचे का फ़ोल्ड"@hi,
+        "नीचे की बाइंडिंग"@hi,
+        "Bunn fals"@nb,
+        "Bunn kant"@nb,
+        "Bunnbundet"@nb,
+        "krawędź dolna"@pl,
+        "oprawa dolna"@pl,
+        "złam dolny"@pl,
+        "borda inferior"@pt,
+        "dobra na base"@pt,
+        "encadernado embaixo"@pt,
+        "encadernação na base"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/fold-binding-edge> ;
+    skos:definition "Fals- eller indbindingskant placeret langs produktets bund — en ualmindelig placering brugt til visse vendeblokke, specialkalendere og nogle tekniske eller liggende layouts. Læseren vender siderne nedad."@da,
+        "Falz- oder Bindungskante an der Unterkante des Produkts — eine seltene Platzierung für bestimmte Flip-Blöcke, Spezialkalender und einige technische oder Querformat-Layouts. Der Leser blättert die Seiten nach unten."@de,
+        "Fold or binding edge placed along the bottom of the product — an uncommon placement used for certain flip pads, specialty calendars, and some technical or landscape layouts. Reader flips pages downward."@en,
+        "Pliegue o encuadernación por la parte inferior — colocación poco común para ciertos blocs, calendarios especiales y algunos diseños técnicos."@es,
+        "उत्पाद के निचले किनारे पर फ़ोल्ड या बाइंडिंग — असामान्य स्थिति, कुछ फ़्लिप पैड, विशेष कैलेंडर और कुछ तकनीकी या लैंडस्केप लेआउट में। पाठक पृष्ठ नीचे की ओर पलटता है।"@hi,
+        "折りまたは綴じの辺が印刷物の下部に配置される — 特定のフリップパッド、特殊なカレンダー、一部の技術的または横長レイアウトに使われる珍しい配置。読者はページを下方向にめくる。"@ja,
+        "Folde- eller bindingskant plassert langs bunnen av produktet — en uvanlig plassering brukt til enkelte vippeblokker, spesialkalendere og noen tekniske eller landskaps-orienterte oppsett. Leseren blar sidene nedover."@nb,
+        "Vouw- of bindzijde langs de onderkant van het product — een ongebruikelijke plaatsing voor bepaalde omslagblokken, speciale kalenders en sommige technische of liggende lay-outs. De lezer slaat de pagina's naar beneden om."@nl,
+        "Krawędź złamu lub oprawy umieszczona wzdłuż dolnej krawędzi produktu — rzadkie umiejscowienie stosowane w niektórych bloczkach przerzucanych, kalendarzach specjalnych oraz niektórych układach technicznych lub poziomych. Czytelnik przerzuca strony w dół."@pl,
+        "Dobra ou encadernação ao longo da base do produto — posicionamento incomum, usado em certos blocos de virar, calendários especiais e alguns layouts técnicos ou paisagem. O leitor vira as páginas para baixo."@pt,
+        "Fals eller bindningskant placerad längs produktens nederkant — en ovanlig placering som används för vissa vändblock, specialkalendrar och en del tekniska eller liggande layouter. Läsaren bläddrar sidorna nedåt."@sv,
+        "底部折页或装订 —— 用于某些翻页便签和专用日历的少见方向。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§BOTTOM" ;
+    skos:prefLabel "Bund"@da,
+        "Unten"@de,
+        "Bottom"@en,
+        "Inferior"@es,
+        "नीचे"@hi,
+        "下"@ja,
+        "Bunn"@nb,
+        "Onder"@nl,
+        "Dół"@pl,
+        "Base"@pt,
+        "Nederkant"@sv,
+        "底部"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64" ;
+            ptpge:mappingRow "crosswalk row 47" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,84 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/composite> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Alu-Dibond"@de,
+        "Aluminiumverbundplatte"@de,
+        "Dibond"@de,
+        "ACM"@en,
+        "ACP"@en,
+        "Alu-Dibond"@en,
+        "Aluminium Composite"@en,
+        "Aluminium Composite (ACM)"@en,
+        "Aluminium Composite Panel"@en,
+        "Aluminium composite panel"@en,
+        "Dibond"@en,
+        "aluminium composite panel"@en,
+        "aluminum composite"@en,
+        "ACM"@hi,
+        "ACP"@hi,
+        "Alu-Dibond"@hi,
+        "Dibond"@hi,
+        "एल्युमिनियम कंपोज़िट पैनल"@hi,
+        "एल्युमिनियम कंपोज़िट शीट"@hi,
+        "ACM"@nb,
+        "Aluminiumskompositt"@nb,
+        "Dibond"@nb,
+        "ACM"@pl,
+        "ACP"@pl,
+        "Alu-Dibond"@pl,
+        "Dibond"@pl,
+        "kompozyt aluminiowy"@pl,
+        "płyta kompozytowa aluminiowa"@pl,
+        "płyta warstwowa aluminiowa"@pl,
+        "ACM"@pt,
+        "ACP"@pt,
+        "Alu-Dibond"@pt,
+        "Dibond"@pt,
+        "chapa composta de alumínio"@pt,
+        "painel composto de alumínio"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium> ;
+    skos:definition "Aluminiumskompositmateriale — to tynde aluminiumsskind limet på en polymerkerne; let og stiv skilteplade."@da,
+        "Aluminium-Verbundmaterial — zwei dünne Aluminiumdecklagen auf einem Polymerkern; leichte, starre Schildplatte."@de,
+        "Aluminium composite material — two thin aluminium skins bonded to a polymer core; lightweight rigid sign board."@en,
+        "Material composite de aluminio — dos láminas finas de aluminio unidas a un núcleo polimérico; panel rígido y ligero para rotulación."@es,
+        "एल्युमिनियम कंपोज़िट सामग्री — पॉलिमर कोर से चिपकी दो पतली एल्युमिनियम परतें; हल्का कठोर साइन बोर्ड।"@hi,
+        "アルミ複合材 — 2枚の薄いアルミ板をポリマー芯材に貼り合わせたもの。軽量で硬いサインボード。"@ja,
+        "Aluminium-komposittmateriale — to tynne aluminiumshud limt til en polymerkjerne; lett, rigid skiltplate."@nb,
+        "Aluminium composietmateriaal — twee dunne aluminiumhuiden gelijmd op een polymeerkern; licht en stijf bordmateriaal."@nl,
+        "Aluminiowy materiał kompozytowy — dwie cienkie okładziny aluminiowe połączone z rdzeniem polimerowym; lekka sztywna płyta reklamowa."@pl,
+        "Material composto de alumínio — duas finas lâminas de alumínio coladas a um núcleo polimérico; chapa de sinalização rígida e leve."@pt,
+        "Aluminiumkompositmaterial — två tunna aluminiumskikt limmade mot en polymerkärna; lätt och styv skyltskiva."@sv,
+        "铝塑复合材料 — 两层薄铝板复合于聚合物芯材；轻质硬挺的标识板。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§ALUMINIUM-COMPOSITE" ;
+    skos:prefLabel "Aluminiumskomposit"@da,
+        "Aluminium-Verbund (ACM)"@de,
+        "Composite Aluminium"@en,
+        "Composite de aluminio (ACM)"@es,
+        "एल्युमिनियम कंपोज़िट (ACP)"@hi,
+        "アルミ複合板"@ja,
+        "Komposittaluminium"@nb,
+        "Aluminiumcomposiet"@nl,
+        "Aluminium kompozytowe"@pl,
+        "Alumínio composto (ACM)"@pt,
+        "Aluminiumkomposit"@sv,
+        "铝塑复合板"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/sms> a skos:Concept ;
+    dcterms:created "2026-05-19T23:30:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Spot Matching System"@da,
+        "Spot Matching System"@de,
+        "SMS Colours"@en,
+        "Spot Matching System"@en,
+        "Spot-Nordic SMS"@en,
+        "Spot Matching System"@es,
+        "SMS Colours"@hi,
+        "Spot Matching System"@hi,
+        "Spot-Nordic SMS"@hi,
+        "スポットマッチングシステム"@ja,
+        "Spot Matching System"@nb,
+        "Spot Matching System"@nl,
+        "Spot Matching System"@pl,
+        "Spot-Nordic SMS"@pl,
+        "kolory SMS"@pl,
+        "SMS Colours"@pt,
+        "Spot Matching System"@pt,
+        "Spot-Nordic SMS"@pt,
+        "Spot Matching System"@sv,
+        "专色匹配系统"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems> ;
+    skos:definition "SMS-farvesystem — et stencilfarvebibliotek brugt i serigrafi- og risograf-sammenhænge. Adskilt fra Pantone PMS, men ofte refereret som alternativ i kortserie- og håndværkstryk."@da,
+        "SMS-Farbsystem — eine Schablonendruck-Farbbibliothek für Siebdruck und Risograph-Kontexte."@de,
+        "SMS (Spot Matching System) — colour matching system from Spot-Nordic, Reykjavík: 420 ISO-certified colours chosen so a brand colour reproduces consistently on screen, in CMYK on coated and uncoated stock, and in broadcast. Aimed at brand-colour fidelity through process printing rather than at specifying a pre-mixed ink as its own separation."@en,
+        "Sistema de color SMS — una biblioteca de colores para impresión con estarcido usada en serigrafía y risografía. Distinto del PMS de Pantone, pero referenciado a menudo como alternativa en contextos de tirada corta e impresión artesanal."@es,
+        "SMS (Spot Matching System) — Spot-Nordic, रेक्याविक की रंग मिलान प्रणाली: 420 ISO-प्रमाणित रंग, जो ब्रांड रंग को स्क्रीन पर, कोटेड और अनकोटेड स्टॉक पर CMYK में और प्रसारण में एक-समान पुनरुत्पादित करने के लिए चुने गए। पूर्व-मिश्रित स्याही को अलग सेपरेशन के रूप में निर्दिष्ट करने के बजाय प्रोसेस प्रिंटिंग से ब्रांड-रंग निष्ठा पर लक्षित।"@hi,
+        "SMS カラーシステム — スクリーン印刷やリソグラフの文脈で使われる孔版印刷向けカラーライブラリ。Pantone PMS とは別物だが、小ロットや工房的な印刷の代替としてよく参照される。"@ja,
+        "SMS (Spot Matching System) — fargematchingsystem fra Spot-Nordic i Reykjavík: 420 ISO-sertifiserte farger valgt slik at en merkevarefarge gjengis likt på skjerm, i CMYK på bestrøket og ubestrøket papir, og i kringkasting. Rettet mot merkevare-presisjon gjennom prosesstrykk, ikke mot å spesifisere et ferdigblandet blekk som egen separasjon."@nb,
+        "SMS-kleursysteem — een sjabloondrukkleurbibliotheek gebruikt in zeefdruk- en risografiecontexten. Onderscheiden van Pantone PMS, maar vaak genoemd als alternatief voor kleine oplagen en ambachtelijk drukwerk."@nl,
+        "SMS (Spot Matching System) — system wzorcowania barw firmy Spot-Nordic z Reykjavíku: 420 certyfikowanych ISO barw dobranych tak, aby kolor marki reprodukował się spójnie na ekranie, w CMYK na papierze powlekanym i niepowlekanym oraz w telewizji. Nastawiony na wierność kolorów marki w druku procesowym, a nie na specyfikowanie wstępnie zmieszanej farby jako osobnej separacji."@pl,
+        "SMS (Spot Matching System) — sistema de correspondência de cor da Spot-Nordic, Reykjavík: 420 cores certificadas ISO escolhidas para que uma cor de marca se reproduza de forma consistente em tela, em CMYK sobre papel revestido e não revestido, e em transmissão. Voltado à fidelidade da cor de marca por impressão em processo, e não a especificar uma tinta pré-misturada como separação própria."@pt,
+        "SMS-färgsystem — ett schablontrycksfärgbibliotek använt i screentryck- och risografsammanhang. Skilt från Pantone PMS men ofta refererat som alternativ i småupplage- och hantverkstryck."@sv,
+        "SMS 色彩系统 — 用于丝网印刷与理想孔版（Risograph）场景的孔版印刷色库。不同于 Pantone PMS，但常被引用为短版与手工印刷场景的替代方案。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§SMS" ;
+    skos:prefLabel "SMS"@da,
+        "SMS-Farben"@de,
+        "SMS"@en,
+        "SMS (Spot Matching System)"@es,
+        "SMS"@hi,
+        "SMS（スポットマッチングシステム）"@ja,
+        "SMS-farger"@nb,
+        "SMS"@nl,
+        "SMS"@pl,
+        "SMS"@pt,
+        "SMS"@sv,
+        "SMS 专色匹配系统"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

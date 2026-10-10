@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "27 x 39 in"@en,
+        "27x39"@en,
+        "27×39"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/arch-series> ;
+    skos:definition "27 × 39 tommer (685.8 × 990.6 mm). Mindre almindeligt arkitekttegningsformat."@da,
+        "27 × 39 in (685,8 × 990,6 mm). Weniger verbreitetes Format für Architekturzeichnungen."@de,
+        "27 × 39 in (685.8 × 990.6 mm). Less common architectural drawing size."@en,
+        "Tamaño arquitectónico Arch E3 para planos arquitectónicos y de ingeniería norteamericanos, 686 × 991 mm / 27 × 39 in."@es,
+        "27 × 39 in (685.8 × 990.6 mm). कम प्रचलित वास्तु चित्र आकार।"@hi,
+        "27×39インチ（685.8×990.6mm）。使用頻度が低い建築図面サイズ。"@ja,
+        "27 × 39 in (685,8 × 990,6 mm). Mindre vanlig arkitekturtegningsstørrelse."@nb,
+        "27 × 39 inch (685.8 × 990.6 mm). Minder gangbaar formaat voor architectuurtekeningen."@nl,
+        "27 × 39 cali (685,8 × 990,6 mm). Rzadziej używany format rysunków architektonicznych."@pl,
+        "27 × 39 in (685.8 × 990.6 mm). Tamanho de desenho arquitetônico menos comum."@pt,
+        "27 × 39 tum (685.8 × 990.6 mm). Mindre vanligt arkitektritningsformat."@sv,
+        "建筑尺寸Arch E3，用于北美建筑和工程图纸，686 × 991 mm / 27 × 39 in。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ARCH-E3" ;
+    skos:prefLabel "Arch E3 (27 x 39 tum)"@da,
+        "Arch E3 (27 x 39 in)"@de,
+        "Arch E3 (27 x 39 in)"@en,
+        "Arch E3 (686 × 991 mm / 27 × 39 in)"@es,
+        "Arch E3 (27 x 39 in)"@hi,
+        "Arch E3 (27 x 39 in)"@ja,
+        "Arch E3 (27 x 39 in)"@nb,
+        "Arch E3 (27 x 39 tum)"@nl,
+        "Arch E3 (27 x 39 in)"@pl,
+        "Arch E3 (27 x 39 in)"@pt,
+        "Arch E3 (27 x 39 tum)"@sv,
+        "Arch E3 (686 × 991 mm / 27 × 39 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 1053.0 ;
+            ptpge:aspectRatio 1.4444 ;
+            ptpge:height 39.0 ;
+            ptpge:standard "ANSI/ASME Y14.1" ;
+            ptpge:unit "in" ;
+            ptpge:width 27.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

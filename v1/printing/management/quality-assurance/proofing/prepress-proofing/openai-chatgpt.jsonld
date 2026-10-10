@@ -1,0 +1,66 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/openai-chatgpt",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "OpenAI ChatGPT",
+    "es": "OpenAI ChatGPT",
+    "zh-Hans": "OpenAI ChatGPT",
+    "nb": "OpenAI ChatGPT",
+    "de": "OpenAI ChatGPT",
+    "ja": "OpenAI ChatGPT",
+    "sv": "OpenAI ChatGPT",
+    "da": "OpenAI ChatGPT",
+    "nl": "OpenAI ChatGPT",
+    "pl": "OpenAI ChatGPT",
+    "pt": "OpenAI ChatGPT",
+    "hi": "OpenAI ChatGPT"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§OPENAI-CHATGPT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "OpenAI ChatGPT — large-language-model AI assistant occasionally used as a supplementary tool in prepress workflows for tasks like proofreading text, generating alt-text for accessibility, drafting copy, or sanity-checking content. Not a dedicated proofing tool — flagged here for informational purposes.",
+    "nb": "OpenAI ChatGPT — språkmodell-AI-assistent som av og til brukes som et supplerende verktøy i prepress-arbeidsflyter for oppgaver som korrekturlesing av tekst, generering av alt-tekst for tilgjengelighet, utforming av tekst eller sanity-sjekk av innhold. Ikke et dedikert proofing-verktøy — flagget her for informasjon.",
+    "de": "OpenAI ChatGPT — KI-Assistent auf Basis eines großen Sprachmodells, gelegentlich als ergänzendes Werkzeug in Druckvorstufen-Workflows eingesetzt für Aufgaben wie Korrekturlesen, Generieren von Alt-Texten für Barrierefreiheit, Texterstellung oder inhaltliche Plausibilitätsprüfung. Kein dediziertes Proofing-Werkzeug — hier zur Information aufgeführt.",
+    "ja": "OpenAI ChatGPT — 大規模言語モデルによるAIアシスタント。製版ワークフローでテキストの校正、アクセシビリティ用の代替テキスト生成、コピーの草案、内容の妥当性チェックなどの補助的な作業に時折使用される。専用の校正ツールではない — 参考のためここに掲載。",
+    "es": "ChatGPT de OpenAI — utilizado en algunos flujos editoriales para revisión de texto y detección de errores. Inclusión experimental; no es un sistema de prueba formal.",
+    "zh-Hans": "OpenAI的ChatGPT —— 在某些编辑工作流程中用于文本审核和错误检测。实验性纳入；不是正式校样系统。",
+    "sv": "OpenAI ChatGPT — AI-assistent baserad på stora språkmodeller, ibland använd som kompletterande verktyg i prepressflöden för uppgifter som korrekturläsning, alt-texter för tillgänglighet, textutkast eller rimlighetskontroll av innehåll. Inte ett dedikerat provtrycksverktyg — listat här i informationssyfte.",
+    "da": "OpenAI ChatGPT — LLM-baseret AI-assistent, der lejlighedsvis bruges som supplerende værktøj i prepress-workflows til opgaver som korrekturlæsning, generering af alt-tekster og udkast til godkendelsesnoter.",
+    "nl": "OpenAI ChatGPT — LLM-gebaseerde AI-assistent, incidenteel gebruikt als aanvullende tool in prepressworkflows voor taken als tekstcorrectie, het genereren van alt-teksten en concepten voor goedkeuringsnotities.",
+    "pl": "OpenAI ChatGPT — asystent AI oparty na dużym modelu językowym, okazjonalnie używany jako narzędzie pomocnicze w workflow prepress do zadań takich jak korekta tekstu, generowanie tekstów alternatywnych dla dostępności, tworzenie treści lub sprawdzanie sensowności zawartości. Nie jest dedykowanym narzędziem proofingu — wymieniony tu informacyjnie.",
+    "pt": "OpenAI ChatGPT — assistente de IA baseado em grande modelo de linguagem, ocasionalmente usado como ferramenta complementar em fluxos de pré-impressão para tarefas como revisão de texto, geração de texto alternativo para acessibilidade, redação de textos ou verificação de conteúdo. Não é uma ferramenta dedicada de provas — sinalizada aqui para fins informativos.",
+    "hi": "OpenAI ChatGPT — बड़े भाषा मॉडल पर आधारित AI सहायक, प्रीप्रेस वर्कफ़्लो में पाठ प्रूफ़रीडिंग, सुगम्यता के लिए ऑल्ट-टेक्स्ट बनाने, कॉपी ड्राफ़्ट करने या सामग्री जाँचने जैसे कार्यों के लिए कभी-कभी पूरक औज़ार के रूप में प्रयुक्त। समर्पित प्रूफ़िंग औज़ार नहीं — सूचनार्थ यहाँ चिह्नित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

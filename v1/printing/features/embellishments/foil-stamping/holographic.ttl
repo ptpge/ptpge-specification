@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/foil-stamping/holographic> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Hologram Foil"@en,
+        "रेनबो फ़ॉइल"@hi,
+        "होलोग्राफ़िक स्टैंपिंग"@hi,
+        "होलोग्राम फ़ॉइल"@hi,
+        "Hologramfolie"@nb,
+        "folia hologramowa"@pl,
+        "hologram"@pl,
+        "foil holograma"@pt,
+        "holográfico"@pt,
+        "hot stamping holográfico"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments/foil-stamping> ;
+    skos:definition "Varmfolieprægning med holografisk folie — en regnbuespektret reflekterende folie, der skifter farve med synsvinklen. Bruges til eksklusiv emballage, certifikater og sikkerhedsanvendelser."@da,
+        "Heißfolienprägung mit holographischer Folie — eine im Regenbogen-Spektrum reflektierende Folie, die ihre Farbe je nach Betrachtungswinkel ändert."@de,
+        "Hot-foil stamping with holographic foil — a rainbow-spectrum reflective foil that shifts colour as the viewing angle changes. Used for premium packaging, certificates, and security applications."@en,
+        "Estampación en caliente con foil holográfico — un foil reflectante de espectro arcoíris que cambia de color según el ángulo de visión. Usado en packaging premium, certificados y aplicaciones de seguridad."@es,
+        "होलोग्राफ़िक फ़ॉइल से हॉट-फ़ॉइल स्टैंपिंग — इंद्रधनुषी परावर्तक फ़ॉइल जो देखने के कोण से रंग बदलती है। प्रीमियम पैकेजिंग, प्रमाणपत्रों और सुरक्षा अनुप्रयोगों में।"@hi,
+        "ホログラム箔によるホットフォイル — 見る角度によって色が変わる虹スペクトルの反射箔。プレミアムパッケージ、証明書、セキュリティ用途に使われる。"@ja,
+        "Varmfolie-preging med holografisk folie — en regnbue-spektrum reflekterende folie som skifter farge når betraktningsvinkelen endres. Brukes for premium-emballasje, sertifikater og sikkerhetsapplikasjoner."@nb,
+        "Warmfoliedruk met holografische folie — een regenboogspectrum-reflecterende folie die van kleur verschuift met de kijkhoek. Gebruikt voor exclusieve verpakkingen, certificaten en beveiligingstoepassingen."@nl,
+        "Folia na gorąco holograficzna — odbijająca folia o tęczowym widmie, zmieniająca kolor wraz z kątem patrzenia. Stosowana do opakowań premium, certyfikatów i zabezpieczeń."@pl,
+        "Hot stamping com foil holográfico — um foil reflexivo de espectro arco-íris que muda de cor conforme o ângulo de visão. Usado em embalagens premium, certificados e aplicações de segurança."@pt,
+        "Varmfoliering med holografisk folie — en reflekterande folie i regnbågsspektrum som skiftar kulör med betraktningsvinkeln. Används för exklusiva förpackningar, certifikat och säkerhetstillämpningar."@sv,
+        "使用全息箔的烫印 — 随视角变换颜色的彩虹光谱反射箔。用于高端包装、证书与防伪应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§HOLOGRAPHIC" ;
+    skos:prefLabel "Holografisk folie"@da,
+        "Holografische Folie"@de,
+        "Holographic Foil"@en,
+        "Lámina holográfica"@es,
+        "होलोग्राफ़िक फ़ॉइल"@hi,
+        "ホログラム箔"@ja,
+        "Holografisk folie"@nb,
+        "Holografische folie"@nl,
+        "Folia holograficzna"@pl,
+        "Foil holográfico"@pt,
+        "Holografisk folie"@sv,
+        "全息箔"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

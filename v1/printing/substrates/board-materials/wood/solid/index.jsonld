@@ -1,0 +1,94 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/wood/solid",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "P:SB-BRD-WOOD-SOL",
+  "label": {
+    "en": "Solid Wood",
+    "nb": "Heltre",
+    "de": "Massivholz",
+    "es": "Madera maciza",
+    "ja": "無垢材",
+    "zh-Hans": "实木",
+    "sv": "Massivt trä",
+    "da": "Massivt træ",
+    "nl": "Massief hout",
+    "pl": "Drewno lite",
+    "pt": "Madeira maciça",
+    "hi": "ठोस लकड़ी"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/wood",
+  "definition": {
+    "en": "Panels made from natural solid timber.",
+    "nb": "Paneler laget av naturlig heltre.",
+    "de": "Platten aus natürlichem Massivholz.",
+    "ja": "天然の無垢材から作られるパネル。",
+    "es": "Paneles de madera maciza natural.",
+    "zh-Hans": "由天然实木制成的板材。",
+    "sv": "Skivor av naturligt massivt virke.",
+    "da": "Paneler af naturligt massivt træ.",
+    "nl": "Panelen van natuurlijk massief hout.",
+    "pl": "Płyty wykonane z naturalnego litego drewna.",
+    "pt": "Painéis feitos de madeira natural maciça.",
+    "hi": "प्राकृतिक ठोस लकड़ी से बने पैनल।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Solid"
+    ],
+    "nb": [
+      "Massiv"
+    ],
+    "pl": [
+      "lite"
+    ],
+    "pt": [
+      "maciça",
+      "madeira natural"
+    ],
+    "hi": [
+      "ठोस",
+      "असली लकड़ी",
+      "सॉलिड वुड"
+    ]
+  },
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/solid/edge-glued-panel"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft",
+    "pt": "draft",
+    "hi": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

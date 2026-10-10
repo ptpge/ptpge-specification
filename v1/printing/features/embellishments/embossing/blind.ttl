@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/embossing/blind> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Blind emboss"@en,
+        "Blind embossing"@en,
+        "Embossed no ink"@en,
+        "बिना स्याही का उभार"@hi,
+        "ब्लाइंड एम्बॉस"@hi,
+        "सादा एम्बॉसिंग"@hi,
+        "Blindpreg"@nb,
+        "suchy tłok"@pl,
+        "tłoczenie bez farby"@pl,
+        "ślepy tłok"@pl,
+        "alto-relevo seco"@pt,
+        "relevo cego"@pt,
+        "relevo seco"@pt,
+        "relevo sem tinta"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments/embossing> ;
+    skos:definition "Prægning uden farve eller folie — det hævede relief står i substratets naturlige farve. Skaber en diskret, sofistikeret taktil effekt. Almindelig på eksklusive visitkort og luksusemballage."@da,
+        "Prägung ohne Druckfarbe oder Folie — das erhabene Relief ist in der natürlichen Farbe des Substrats."@de,
+        "Embossing without ink or foil — the raised relief is in the substrate's natural colour. Creates a subtle, sophisticated tactile effect. Common on premium business cards and luxury packaging."@en,
+        "Gofrado sin tinta ni foil — el relieve elevado queda en el color natural del sustrato. Crea un efecto táctil sutil y sofisticado. Común en tarjetas de visita premium y packaging de lujo."@es,
+        "बिना स्याही या फ़ॉइल के एम्बॉसिंग — उभार सब्सट्रेट के प्राकृतिक रंग में रहता है। सूक्ष्म, परिष्कृत स्पर्श प्रभाव। प्रीमियम विज़िटिंग कार्ड और लक्ज़री पैकेजिंग में आम।"@hi,
+        "インキも箔も使わないエンボス — 盛り上がったレリーフは基材の地色のまま。控えめで上質な触感効果を生む。プレミアム名刺や高級パッケージで一般的。"@ja,
+        "Embossing uten blekk eller folie — den hevede relieffen er i substratets naturlige farge. Skaper en subtil, sofistikert taktil effekt. Vanlig på premium visittkort og luksusemballasje."@nb,
+        "Preging zonder inkt of folie — het verhoogde reliëf blijft in de natuurlijke substraatkleur. Creëert een subtiel, verfijnd tactiel effect. Gebruikelijk op exclusieve visitekaartjes en luxeverpakkingen."@nl,
+        "Tłoczenie bez farby ani folii — wypukły relief ma naturalny kolor podłoża. Daje subtelny, wyrafinowany efekt dotykowy. Typowe dla wizytówek premium i opakowań luksusowych."@pl,
+        "Relevo sem tinta nem foil — o relevo elevado fica na cor natural do substrato. Cria um efeito tátil sutil e sofisticado. Comum em cartões de visita premium e embalagens de luxo."@pt,
+        "Prägling utan bläck eller folie — den upphöjda reliefen är i substratets naturfärg. Skapar en subtil, sofistikerad taktil effekt. Vanlig på exklusiva visitkort och lyxförpackningar."@sv,
+        "不用油墨或电化铝的压凸 — 凸起浮雕保持材料本色。营造微妙而高级的触感效果。常见于高档名片与奢华包装。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§BLIND" ;
+    skos:prefLabel "Blindprægning"@da,
+        "Blindprägung"@de,
+        "Blind Embossing"@en,
+        "Relieve en seco / Embossing ciego"@es,
+        "ब्लाइंड एम्बॉसिंग"@hi,
+        "ブラインドエンボス"@ja,
+        "Blind embossing"@nb,
+        "Blindpreeg"@nl,
+        "Tłoczenie ślepe"@pl,
+        "Relevo seco"@pt,
+        "Blindprägling"@sv,
+        "盲压凸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
+                "§5.6.12 · p.118",
+                "§6.32 · p.197" ;
+            ptpge:mappingRow "crosswalk row 27" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Embossing",
+                "EmbossingIntent",
+                "EmbossingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

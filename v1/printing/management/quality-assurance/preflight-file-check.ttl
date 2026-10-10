@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    dcterms:replaces <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/adobe-acrobat-pro-dc>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/agfa-apogee-prepress>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/callas-pdf-toolbox>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/enfocus-pitstop-pro>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/esko-ae-pf>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/kodak-prinergy-preflight> ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance> ;
+    skos:definition "Softwareværktøjer, der automatisk inspicerer trykklare filer for problemer, før der laves plader — kontrol af manglende skrifter, billeder i lav opløsning, farverumsproblemer og overholdelse af PDF/X."@da,
+        "Software-Werkzeuge, die druckfertige Dateien automatisch auf Probleme prüfen, bevor Platten hergestellt werden — Kontrolle auf fehlende Schriften, niedrig aufgelöste Bilder, Farbraumprobleme und Konformität mit PDF/X-Standards."@de,
+        "Software tools that automatically inspect print-ready files for problems before plates are made — checking for missing fonts, low-resolution images, color-space issues, and compliance with PDF/X standards."@en,
+        "Herramientas de software que inspeccionan automáticamente los archivos listos para imprenta en busca de problemas antes de filmar planchas — comprobando fuentes ausentes, imágenes de baja resolución, problemas de espacio de color y cumplimiento de las normas PDF/X."@es,
+        "सॉफ़्टवेयर औज़ार जो प्लेट बनने से पहले प्रिंट-रेडी फ़ाइलों की समस्याओं की स्वचालित जाँच करते हैं — लापता फ़ॉन्ट, कम-रिज़ॉल्यूशन छवियाँ, रंग-स्पेस समस्याएँ और PDF/X मानकों का अनुपालन।"@hi,
+        "刷版作成前に印刷可能ファイルの問題を自動検査するソフトウェアツール — フォントの欠落、低解像度画像、色空間の問題、PDF/X規格への適合性をチェックする。"@ja,
+        "Programvareverktøy som automatisk inspiserer trykkferdige filer for problemer før plater lages — sjekker for manglende fonter, lavoppløselige bilder, fargeromproblemer og PDF/X-samsvar."@nb,
+        "Softwaretools die drukklare bestanden automatisch op problemen inspecteren voordat platen worden gemaakt — controle op ontbrekende lettertypen, beelden in lage resolutie, kleurruimteproblemen en PDF/X-naleving."@nl,
+        "Narzędzia programowe automatycznie sprawdzające pliki gotowe do druku pod kątem problemów przed wykonaniem form — brakujących fontów, obrazów o niskiej rozdzielczości, problemów z przestrzenią barw i zgodności ze standardami PDF/X."@pl,
+        "Ferramentas de software que inspecionam automaticamente arquivos prontos para impressão em busca de problemas antes que as chapas sejam feitas — verificando fontes ausentes, imagens de baixa resolução, problemas de espaço de cor e conformidade com as normas PDF/X."@pt,
+        "Programvara som automatiskt granskar tryckfärdiga filer för problem innan plåtar framställs — kontrollerar saknade typsnitt, lågupplösta bilder, färgrymdsproblem och efterlevnad av PDF/X-standarder."@sv,
+        "自动检查印刷就绪文件以发现制版前问题的软件工具——检查缺失字体、低分辨率图像、色彩空间问题及PDF/X标准合规性。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/adobe-acrobat-pro-dc>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/agfa-apogee-prepress>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/callas-pdf-toolbox>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/enfocus-pitstop-pro>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/esko-ae-pf>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/kodak-prinergy-preflight> ;
+    skos:notation "P:MG-QAS-PFCH" ;
+    skos:prefLabel "Preflight & filkontrol"@da,
+        "Preflight & Dateiprüfung"@de,
+        "Preflight & File Check"@en,
+        "Preflight y Verificación de Archivos"@es,
+        "प्रीफ़्लाइट और फ़ाइल जाँच"@hi,
+        "プリフライトとファイルチェック"@ja,
+        "Preflight & filsjekk"@nb,
+        "Preflight & bestandscontrole"@nl,
+        "Preflight i kontrola plików"@pl,
+        "Preflight e verificação de arquivos"@pt,
+        "Preflight & filkontroll"@sv,
+        "飞检与文件检查"@zh-Hans ;
+    skos:scopeNote "Umfasst Enfocus PitStop Pro und Callas PDF Toolbox (Industriestandards für PDF-Preflight), Adobe Acrobat Pro DC (eingebaute Preflight-Engine), Agfa Apogee Prepress, Esko Automation Engine und Kodak Prinergy Preflight-Module — typischerweise mit Workflow-Systemen für die automatisierte Auftragsannahme integriert."@de,
+        "Includes Enfocus PitStop Pro and Callas PDF Toolbox (industry-standard PDF preflight), Adobe Acrobat Pro DC (built-in preflight engine), Agfa Apogee Prepress, Esko Automation Engine, and Kodak Prinergy preflight modules — typically integrated with workflow systems for automated job intake."@en,
+        "Incluye Enfocus PitStop Pro y Callas PDF Toolbox (preflight PDF estándar de la industria), Adobe Acrobat Pro DC (motor incorporado), Agfa Apogee Prepress, Esko Automation Engine y Kodak Prinergy."@es,
+        "Enfocus PitStop Pro और Callas PDF Toolbox (उद्योग-मानक PDF प्रीफ़्लाइट), Adobe Acrobat Pro DC (अंतर्निहित प्रीफ़्लाइट इंजन), Agfa Apogee Prepress, Esko Automation Engine और Kodak Prinergy प्रीफ़्लाइट मॉड्यूल शामिल — आमतौर पर स्वचालित जॉब इनटेक के लिए वर्कफ़्लो सिस्टम से एकीकृत।"@hi,
+        "Enfocus PitStop ProとCallas PDF Toolbox（業界標準のPDFプリフライト）、Adobe Acrobat Pro DC（内蔵プリフライトエンジン）、Agfa Apogee Prepress、Esko Automation Engine、Kodak Prinergyのプリフライトモジュールを含む — 通常、自動ジョブ受付のためにワークフローシステムと統合される。"@ja,
+        "Inkluderer Enfocus PitStop Pro og Callas PDF Toolbox (bransjestandard PDF preflight), Adobe Acrobat Pro DC (innebygd preflight-motor), Agfa Apogee Prepress, Esko Automation Engine og Kodak Prinergy preflight-moduler — vanligvis integrert med workflow-systemer for automatisert jobb-mottak."@nb,
+        "Inclui Enfocus PitStop Pro e Callas PDF Toolbox (preflight de PDF padrão do setor), Adobe Acrobat Pro DC (motor de preflight integrado), Agfa Apogee Prepress, Esko Automation Engine e módulos de preflight do Kodak Prinergy — normalmente integrados a sistemas de fluxo de trabalho para entrada automatizada de trabalhos."@pt,
+        "包括Enfocus PitStop Pro和Callas PDF Toolbox（行业标准PDF飞检）、Adobe Acrobat Pro DC（内置飞检引擎）、Agfa Apogee Prepress、Esko Automation Engine和Kodak Prinergy。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.4.14 · p.100",
+                "§6.64 · p.249",
+                "§6.65 · p.250" ;
+            ptpge:mappingRow "crosswalk row 13" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ContentCheckIntent",
+                "Preflight",
+                "PreflightParams",
+                "PreflightReport" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

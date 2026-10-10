@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/adobeacrobat-pro-dc> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    skos:definition "Adobe Acrobat Pro DC — bruges i prøvetryk-workflows til soft-proof-visning af PDF'er med indlejrede farveprofiler, kommentar- og markeringsværktøjer samt basal preflight-verifikation før godkendelse."@da,
+        "Adobe Acrobat Pro DC — wird in Proofing-Workflows eingesetzt für die Soft-Proof-Anzeige von PDFs mit eingebetteten Farbprofilen, für Kommentar- und Markup-Werkzeuge sowie für eine grundlegende Preflight-Verifizierung vor der Freigabe."@de,
+        "Adobe Acrobat Pro DC — used in proofing workflows for soft-proof viewing of PDFs with embedded color profiles, comments and markup tools, and basic preflight verification before approval."@en,
+        "Adobe Acrobat Pro DC — aplicación para edición y verificación de PDF, con motor de preflight integrado y capacidad de prueba blanda sobre archivo."@es,
+        "Adobe Acrobat Pro DC — प्रूफ़िंग वर्कफ़्लो में एम्बेडेड रंग प्रोफ़ाइल वाली PDF के सॉफ़्ट-प्रूफ़ देखने, टिप्पणी और मार्कअप औज़ारों और अनुमोदन से पहले बुनियादी प्रीफ़्लाइट सत्यापन के लिए प्रयुक्त।"@hi,
+        "Adobe Acrobat Pro DC — 校正ワークフローで使用され、埋め込みカラープロファイル付きPDFのソフトプルーフ表示、コメントとマークアップツール、承認前の基本的なプリフライト検証を提供する。"@ja,
+        "Adobe Acrobat Pro DC — brukt i proofing-arbeidsflyter for soft-proof visning av PDF-er med innebygde fargeprofiler, kommentar- og markeringsverktøy, og grunnleggende preflight-verifikasjon før godkjenning."@nb,
+        "Adobe Acrobat Pro DC — in proefworkflows gebruikt voor soft-proofweergave van PDF's met ingesloten kleurprofielen, commentaar- en markeertools en basale preflightverificatie vóór goedkeuring."@nl,
+        "Adobe Acrobat Pro DC — używany w workflow proofingu do przeglądania soft proofów PDF z osadzonymi profilami barw, narzędzi komentarzy i adnotacji oraz podstawowej weryfikacji preflight przed zatwierdzeniem."@pl,
+        "Adobe Acrobat Pro DC — usado em fluxos de provas para visualização de provas de tela de PDFs com perfis de cor incorporados, ferramentas de comentário e marcação, e verificação básica de preflight antes da aprovação."@pt,
+        "Adobe Acrobat Pro DC — används i provtrycksflöden för skärmvisning av PDF:er med inbäddade färgprofiler, kommentars- och markeringsverktyg samt grundläggande preflightverifiering före godkännande."@sv,
+        "Adobe Acrobat Pro DC —— PDF编辑和验证应用程序，带有集成飞检引擎和基于文件的软校样能力。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ADOBEACROBAT-PRO-DC" ;
+    skos:prefLabel "Adobe Acrobat Pro DC (prøvetryk)"@da,
+        "AdobeAcrobat Pro DC"@de,
+        "AdobeAcrobat Pro DC"@en,
+        "Adobe Acrobat Pro DC"@es,
+        "Adobe Acrobat Pro DC"@hi,
+        "AdobeAcrobat Pro DC"@ja,
+        "AdobeAcrobat Pro DC"@nb,
+        "Adobe Acrobat Pro DC (proeven)"@nl,
+        "AdobeAcrobat Pro DC"@pl,
+        "Adobe Acrobat Pro DC"@pt,
+        "Adobe Acrobat Pro DC (provtryck)"@sv,
+        "Adobe Acrobat Pro DC"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

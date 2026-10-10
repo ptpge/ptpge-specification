@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e5",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "E5 (115 x 220 mm)",
+    "es": "E5 (115 × 220 mm)",
+    "zh-Hans": "E5 (115 × 220 mm)",
+    "nb": "E5 (115 x 220 mm)",
+    "de": "E5 (115 x 220 mm)",
+    "ja": "E5 (115 x 220 mm)",
+    "sv": "E5 (115 x 220 mm)",
+    "da": "E5 (115 x 220 mm)",
+    "nl": "E5 (115 x 220 mm)",
+    "pl": "E5 (115 x 220 mm)",
+    "pt": "E5 (115 x 220 mm)",
+    "hi": "E5 (115 x 220 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§E5",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "115 × 220 mm. E-series envelope similar in proportions to DL but slightly different — used for business correspondence in some markets.",
+    "nb": "115 × 220 mm. E-serie-konvolutt med proporsjoner lik DL, men litt forskjellig — brukt til forretningskorrespondanse i enkelte markeder.",
+    "de": "115 × 220 mm. Briefumschlag der E-Reihe, in den Proportionen ähnlich zu DL, aber leicht abweichend — in einigen Märkten für Geschäftskorrespondenz verwendet.",
+    "ja": "115×220mm。DLと比例的に近いがわずかに異なるEシリーズ封筒 — 一部の市場でビジネス通信に使用される。",
+    "es": "Sobre E5 — formato europeo especializado para correspondencia y marketing directo.",
+    "zh-Hans": "E5信封 —— 用于通信和直邮的欧洲专业格式。",
+    "sv": "115 × 220 mm. E-seriekuvert med proportioner nära DL men något annorlunda — används för affärskorrespondens på vissa marknader.",
+    "da": "115 × 220 mm. E-seriekuvert med proportioner tæt på DL, men lidt anderledes — bruges til forretningskorrespondance på vissa marknader.",
+    "nl": "115 × 220 mm. E-reeksenvelop met verhoudingen dicht bij DL, maar net iets anders — gebruikt voor zakelijke correspondentie på vissa marknader.",
+    "pl": "115 × 220 mm. Koperta serii E o proporcjach zbliżonych do DL, lecz nieco innych — używana do korespondencji biznesowej na niektórych rynkach.",
+    "pt": "115 × 220 mm. Envelope da série E, de proporções semelhantes ao DL mas ligeiramente diferentes — usado em correspondência comercial em alguns mercados.",
+    "hi": "115 × 220 mm. E-सीरीज़ लिफ़ाफ़ा, DL से मिलते-जुलते पर थोड़े अलग अनुपात — कुछ बाज़ारों में व्यावसायिक पत्राचार के लिए।"
+  },
+  "properties": {
+    "width": 115,
+    "height": 220,
+    "unit": "mm",
+    "aspectRatio": 1.913,
+    "standard": "ISO 269",
+    "area": 25300
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "115 x 220 mm",
+      "115x220",
+      "115×220",
+      "11.5 x 22 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

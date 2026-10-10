@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§PS1",
+  "label": {
+    "en": "PS1 — Premium coated",
+    "nb": "PS1 — Premium bestrøket",
+    "de": "PS1 — Premium gestrichen",
+    "es": "PS1 — Estucado premium",
+    "ja": "PS1 — プレミアム塗工紙",
+    "zh-Hans": "PS1 — 高级涂布纸",
+    "sv": "PS1 — Premium bestruket",
+    "da": "PS1 — Premium bestrøget",
+    "nl": "PS1 — Premium gestreken",
+    "pl": "PS1 — Powlekany premium",
+    "pt": "PS1 — Couché premium",
+    "hi": "PS1 — प्रीमियम कोटेड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Premium coated paper per ISO 12647-2:2013 (PS1): 80–250 g/m², high whiteness — the class characterized by the FOGRA51 dataset (PSO Coated v3).",
+    "nb": "Premium bestrøket papir etter ISO 12647-2:2013 (PS1): 80–250 g/m², høy hvithet — klassen som karakteriseres av FOGRA51-datasettet (PSO Coated v3).",
+    "de": "Premium gestrichenes Papier nach ISO 12647-2:2013 (PS1): 80–250 g/m², hohe Weiße — die durch den FOGRA51-Datensatz (PSO Coated v3) charakterisierte Klasse.",
+    "es": "Papel estucado premium según ISO 12647-2:2013 (PS1): 80–250 g/m², alta blancura — la clase caracterizada por el conjunto FOGRA51 (PSO Coated v3).",
+    "ja": "ISO 12647-2:2013 のプレミアム塗工紙（PS1）：80–250 g/m²、高白色度。FOGRA51 データセット（PSO Coated v3）で特性化されるクラス。",
+    "zh-Hans": "ISO 12647-2:2013 高级涂布纸（PS1）：80–250 g/m²，高白度——由 FOGRA51 数据集（PSO Coated v3）特性化的类别。",
+    "sv": "Premium bestruket papper enligt ISO 12647-2:2013 (PS1): 80–250 g/m², hög vithet — klassen som karakteriseras av FOGRA51-datasetet (PSO Coated v3).",
+    "da": "Premium bestrøget papir efter ISO 12647-2:2013 (PS1): 80–250 g/m², høj hvidhed — klassen der karakteriseres af FOGRA51-datasættet (PSO Coated v3).",
+    "nl": "Premium gestreken papier volgens ISO 12647-2:2013 (PS1): 80–250 g/m², hoge witheid — de klasse die door de FOGRA51-dataset (PSO Coated v3) wordt gekarakteriseerd.",
+    "pl": "Papier powlekany premium wg ISO 12647-2:2013 (PS1): 80–250 g/m², wysoka białość — klasa scharakteryzowana zbiorem FOGRA51 (PSO Coated v3).",
+    "pt": "Papel couché premium conforme ISO 12647-2:2013 (PS1): 80–250 g/m², alta brancura — a classe caracterizada pelo conjunto de dados FOGRA51 (PSO Coated v3).",
+    "hi": "ISO 12647-2:2013 (PS1) के अनुसार प्रीमियम कोटेड काग़ज़: 80–250 g/m², उच्च सफ़ेदी — FOGRA51 डेटासेट (PSO Coated v3) से चरित्रित वर्ग।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes",
+  "related": [
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated"
+  ],
+  "altLabels": {
+    "en": [
+      "PS1",
+      "Premium coated"
+    ],
+    "pl": [
+      "PS1",
+      "powlekany premium"
+    ],
+    "pt": [
+      "PS1",
+      "couché premium",
+      "revestido premium"
+    ],
+    "hi": [
+      "PS1",
+      "प्रीमियम कोटेड",
+      "प्रीमियम आर्ट पेपर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

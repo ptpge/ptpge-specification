@@ -1,0 +1,20 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/mappings",
+  "type": "MappingsCatalog",
+  "description": "Cross-vocabulary mapping tables. Each entry below points to a JSON file giving the relationship between PTPGE terms and another printing-industry vocabulary. Use these to integrate PTPGE with existing systems that already speak another standard.",
+  "generated": "2026-10-10T14:39:50+0200",
+  "items": [
+    {
+      "id": "https://ptpge.org/v1/mappings/upt",
+      "type": "MappingTable",
+      "vocabulary": "Unified Printing Taxonomy (UPT)",
+      "publisher": "PRINTING United Alliance",
+      "file": "upt.json",
+      "version": "0.3.0",
+      "generated": "2026-08-27",
+      "mapping_count": 63,
+      "license": "CC BY 4.0"
+    }
+  ]
+}

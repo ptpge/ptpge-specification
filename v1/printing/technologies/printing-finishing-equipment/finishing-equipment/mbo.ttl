@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/mbo> a skos:Concept ;
+    dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Tysk producent af industrielle taskefals- og kombifalsemaskiner (Maschinenbau Oppenweiler Binhold, del af Komori). Et standardmærke for falsemaskiner i kommercielle bogbinderier."@da,
+        "Deutscher Hersteller industrieller Taschen- und Kombifalzmaschinen (Maschinenbau Oppenweiler Binhold, Teil von Komori). Eine Standardmarke in gewerblichen Buchbindereien."@de,
+        "German manufacturer of industrial buckle-plate and combination folding machines (Maschinenbau Oppenweiler Binhold, part of Komori). A staple folder brand in commercial binderies."@en,
+        "Fabricante alemán de plegadoras industriales de bolsas y combinadas (Maschinenbau Oppenweiler Binhold, parte de Komori). Marca de referencia en talleres de encuadernación comercial."@es,
+        "औद्योगिक बकल-प्लेट और कॉम्बिनेशन फ़ोल्डिंग मशीनों का जर्मन निर्माता (Maschinenbau Oppenweiler Binhold, Komori का हिस्सा)। व्यावसायिक बाइंडरियों में मुख्य फ़ोल्डर ब्रांड।"@hi,
+        "産業用のバックル式・コンビネーション折り機のドイツメーカー（Maschinenbau Oppenweiler Binhold、小森コーポレーション傘下）。商業製本の定番フォルダーブランド。"@ja,
+        "Tysk produsent av industrielle falsemaskiner (Maschinenbau Oppenweiler Binhold, del av Komori). Et standardmerke for falsing i sivilbokbinderi."@nb,
+        "Duitse fabrikant van industriële zakken- en combinatievouwmachines (Maschinenbau Oppenweiler Binhold, onderdeel van Komori). Een standaardmerk voor vouwmachines in commerciële binderijen."@nl,
+        "Niemiecki producent przemysłowych falcerek kasetowych i kombinowanych (Maschinenbau Oppenweiler Binhold, część Komori). Podstawowa marka falcerek w introligatorniach komercyjnych."@pl,
+        "Fabricante alemão de dobradeiras industriais de bolsa e combinadas (Maschinenbau Oppenweiler Binhold, parte da Komori). Marca de dobradeira essencial nas encadernadoras comerciais."@pt,
+        "Tysk tillverkare av industriella fickfals- och kombifalsmaskiner (Maschinenbau Oppenweiler Binhold, del av Komori). Ett standardmärke för falsmaskiner i civilbokbinderier."@sv,
+        "德国工业用栅栏式与组合式折页机制造商（Maschinenbau Oppenweiler Binhold，隶属小森公司）。商业装订车间的主流折页机品牌。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§MBO" ;
+    skos:prefLabel "MBO"@da,
+        "MBO"@de,
+        "MBO"@en,
+        "MBO"@es,
+        "MBO"@hi,
+        "MBO"@ja,
+        "MBO"@nb,
+        "MBO"@nl,
+        "MBO"@pl,
+        "MBO"@pt,
+        "MBO"@sv,
+        "MBO"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

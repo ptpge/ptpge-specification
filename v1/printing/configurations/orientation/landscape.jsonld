@@ -1,0 +1,100 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Landscape",
+    "es": "Horizontal (Apaisado)",
+    "zh-Hans": "横向",
+    "nb": "Landskap",
+    "de": "Querformat",
+    "ja": "横向き",
+    "nl": "Liggend",
+    "sv": "Liggande",
+    "da": "Liggende",
+    "pl": "Pozioma",
+    "pt": "Paisagem",
+    "hi": "लैंडस्केप"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§LANDSCAPE",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/orientation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Rectangular orientation where the horizontal dimension is greater than the vertical — used for spreadsheets, presentations, certificates, and panoramic photographs.",
+    "nb": "Rektangulær orientering der den horisontale dimensjonen er større enn den vertikale — brukt for regneark, presentasjoner, diplomer og panoramabilder.",
+    "de": "Rechteckige Ausrichtung, bei der die horizontale Abmessung größer ist als die vertikale — eingesetzt für Tabellenkalkulationen, Präsentationen, Urkunden und Panoramafotografien.",
+    "ja": "水平方向の寸法が垂直方向より大きい長方形の向き — 表計算、プレゼンテーション、証書、パノラマ写真に使用される。",
+    "es": "Orientación horizontal donde la anchura es mayor que la altura. Habitual para presentaciones, calendarios y planos.",
+    "zh-Hans": "宽度大于高度的横向方向。常用于演示文稿、日历和平面图。",
+    "sv": "Rektangulär orientering där det horisontella måttet är större än det vertikala — används för kalkylblad, presentationer, certifikat och panoramafotografier.",
+    "da": "Rektangulær orientering, hvor det vandrette mål er større end det lodrette — bruges til regneark, præsentationer, certifikater og panoramafotografier.",
+    "nl": "Rechthoekige oriëntatie waarbij de horizontale maat groter is dan de verticale — gebruikt voor spreadsheets, presentaties, certificaten en panoramafoto's.",
+    "pl": "Orientacja prostokątna, w której wymiar poziomy jest większy od pionowego — używana do arkuszy kalkulacyjnych, prezentacji, certyfikatów i zdjęć panoramicznych.",
+    "pt": "Orientação retangular em que a dimensão horizontal é maior que a vertical — usada em planilhas, apresentações, certificados e fotografias panorâmicas.",
+    "hi": "आयताकार अभिविन्यास जिसमें क्षैतिज आयाम ऊर्ध्वाधर से बड़ा है — स्प्रेडशीट, प्रस्तुतियों, प्रमाणपत्रों और पैनोरमिक तस्वीरों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Horizontal",
+      "Wide",
+      "Landscape orientation"
+    ],
+    "nb": [
+      "Liggende",
+      "Horisontal"
+    ],
+    "nl": [
+      "Horizontaal"
+    ],
+    "sv": [
+      "Horisontell"
+    ],
+    "da": [
+      "Tværformat",
+      "Horisontal"
+    ],
+    "pl": [
+      "poziomo",
+      "orientacja pozioma",
+      "landscape"
+    ],
+    "pt": [
+      "horizontal",
+      "deitado",
+      "largo",
+      "orientação paisagem"
+    ],
+    "hi": [
+      "क्षैतिज",
+      "लेटा हुआ",
+      "चौड़ा",
+      "लैंडस्केप दिशा"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent"
+      ],
+      "refs": [
+        "§4.10 · p.78"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 21"
+    }
+  ]
+}

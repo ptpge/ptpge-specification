@@ -1,0 +1,102 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "P:SB-BRD-WOOD-CMP",
+  "label": {
+    "en": "Composite Wood",
+    "nb": "Komposittre",
+    "de": "Holzwerkstoff",
+    "es": "Madera compuesta",
+    "ja": "複合木材",
+    "zh-Hans": "复合木材",
+    "sv": "Kompositträ",
+    "da": "Komposittræ",
+    "nl": "Composiethout",
+    "pl": "Drewno kompozytowe",
+    "pt": "Madeira composta",
+    "hi": "कंपोज़िट लकड़ी"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/wood",
+  "definition": {
+    "en": "Engineered wood panels manufactured from veneers, strands, particles or fibres.",
+    "nb": "Tekniske treplater fremstilt av finer, spon, partikler eller fibre.",
+    "de": "Holzwerkstoffplatten aus Furnieren, Spänen, Partikeln oder Fasern.",
+    "ja": "単板、ストランド、パーティクル、繊維から製造されるエンジニアードウッドのパネル。",
+    "es": "Tableros de madera derivada fabricados a partir de chapas, virutas, partículas o fibras.",
+    "zh-Hans": "由单板、刨花、颗粒或纤维制成的工程木板。",
+    "sv": "Konstruerade träskivor tillverkade av faner, spån, partiklar eller fibrer.",
+    "da": "Konstruerede træpaneler fremstillet af finér, strimler, partikler eller fibre.",
+    "nl": "Samengestelde houtpanelen vervaardigd uit fineer, strengen, spaanders of vezels.",
+    "pl": "Płyty drewnopochodne wytwarzane z fornirów, wiórów, cząstek lub włókien.",
+    "pt": "Painéis de madeira engenheirada fabricados a partir de lâminas, tiras, partículas ou fibras.",
+    "hi": "विनियर, स्ट्रैंड, कण या रेशों से बने इंजीनियर्ड लकड़ी के पैनल।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Composite",
+      "Engineered Wood"
+    ],
+    "nb": [
+      "Kompositt",
+      "Trekompositt"
+    ],
+    "pl": [
+      "kompozyt",
+      "płyty drewnopochodne"
+    ],
+    "pt": [
+      "madeira engenheirada",
+      "composto de madeira",
+      "derivados de madeira"
+    ],
+    "hi": [
+      "इंजीनियर्ड वुड",
+      "कंपोज़िट",
+      "लकड़ी का कंपोज़िट बोर्ड"
+    ]
+  },
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/plywood",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/osb-board",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/particle-board",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/mdf-board",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/fiberboard"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft",
+    "pt": "draft",
+    "hi": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

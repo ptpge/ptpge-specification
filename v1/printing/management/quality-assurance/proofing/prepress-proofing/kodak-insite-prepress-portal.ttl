@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/kodak-insite-prepress-portal> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    skos:definition "Kodak InSite Prepress Portal — browserbaseret prøvetryk- og godkendelsesportal integreret med Kodak Prinergy. Lader kunder gennemgå prepress-filer online og godkende eller annotere hvor som helst fra."@da,
+        "Kodak InSite Prepress Portal — browser-basiertes Proofing- und Freigabeportal, integriert mit Kodak Prinergy. Ermöglicht Kunden, Druckvorstufendateien online zu prüfen und von überall aus zu freigeben oder zu kommentieren."@de,
+        "Kodak InSite Prepress Portal — browser-based proofing and approval portal integrated with Kodak Prinergy. Lets customers review prepress files online and approve or annotate from anywhere."@en,
+        "Portal web de Kodak Prinergy para aprobación remota de pruebas blandas, con anotaciones, control de versiones y workflow de aprobación."@es,
+        "Kodak InSite Prepress Portal — Kodak Prinergy से एकीकृत ब्राउज़र-आधारित प्रूफ़िंग और अनुमोदन पोर्टल। ग्राहकों को प्रीप्रेस फ़ाइलें ऑनलाइन समीक्षित करने और कहीं से भी अनुमोदित या टिप्पणी करने देता है।"@hi,
+        "Kodak InSite Prepress Portal — Kodak Prinergyと統合されたブラウザベースの校正・承認ポータル。顧客は製版ファイルをオンラインで審査し、どこからでも承認または注釈できる。"@ja,
+        "Kodak InSite Prepress Portal — nettleserbasert proofing- og godkjenningsportal integrert med Kodak Prinergy. Lar kunder gjennomgå prepress-filer på nett og godkjenne eller annotere fra hvor som helst."@nb,
+        "Kodak InSite Prepress Portal — browsergebaseerd proef- en goedkeuringsportaal, geïntegreerd met Kodak Prinergy. Laat klanten prepressbestanden online beoordelen en overal goedkeuren of annoteren."@nl,
+        "Kodak InSite Prepress Portal — przeglądarkowy portal proofingu i akceptacji zintegrowany z Kodak Prinergy. Pozwala klientom przeglądać pliki prepress online i zatwierdzać je lub komentować z dowolnego miejsca."@pl,
+        "Kodak InSite Prepress Portal — portal de provas e aprovação em navegador integrado ao Kodak Prinergy. Permite aos clientes revisar arquivos de pré-impressão online e aprovar ou anotar de qualquer lugar."@pt,
+        "Kodak InSite Prepress Portal — webbläsarbaserad provtrycks- och godkännandeportal integrerad med Kodak Prinergy. Låter kunder granska prepressfiler online och godkänna eller annotera var som helst ifrån."@sv,
+        "Kodak Prinergy的远程软校样批准网络门户，带有注释、版本控制和批准工作流程。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§KODAK-INSITE-PREPRESS-PORTAL" ;
+    skos:prefLabel "Kodak InSite Prepress Portal"@da,
+        "Kodak InSite Prepress Portal"@de,
+        "Kodak InSite Prepress Portal"@en,
+        "Kodak InSite Prepress Portal"@es,
+        "Kodak InSite Prepress Portal"@hi,
+        "Kodak InSite Prepress Portal"@ja,
+        "Kodak InSite Prepress Portal"@nb,
+        "Kodak InSite Prepress Portal"@nl,
+        "Kodak InSite Prepress Portal"@pl,
+        "Kodak InSite Prepress Portal"@pt,
+        "Kodak InSite Prepress Portal"@sv,
+        "Kodak InSite Prepress Portal"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

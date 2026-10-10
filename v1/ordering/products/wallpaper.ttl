@@ -1,0 +1,126 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/wallpaper> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "fototapet"@da,
+        "fototapeter"@da,
+        "tapeter"@da,
+        "vægbillede"@da,
+        "vægmaleri (trykt)"@da,
+        "Fototapete"@de,
+        "Wandbilder"@de,
+        "Wandtapeten"@de,
+        "mural"@en,
+        "photo wallpaper"@en,
+        "wall mural"@en,
+        "wallpaper"@en,
+        "fotomural"@es,
+        "mural de pared"@es,
+        "papel de pared"@es,
+        "papel pintado"@es,
+        "papel tapiz"@es,
+        "कस्टम वॉलपेपर"@hi,
+        "दीवार चित्र"@hi,
+        "फ़ोटो वॉलपेपर"@hi,
+        "वॉल म्यूरल"@hi,
+        "वॉलपेपर"@hi,
+        "ウォールミューラル"@ja,
+        "オリジナル壁紙"@ja,
+        "クロス"@ja,
+        "写真壁紙"@ja,
+        "壁紙"@ja,
+        "fototapet"@nb,
+        "tapet"@nb,
+        "veggtapet"@nb,
+        "Fotobehang"@nl,
+        "Wandposters"@nl,
+        "behangpapier"@nl,
+        "muurprint"@nl,
+        "wanddecoratie"@nl,
+        "wandposter"@nl,
+        "fototapeta"@pl,
+        "mural ścienny"@pl,
+        "tapeta"@pl,
+        "adesivo de parede"@pt,
+        "mural"@pt,
+        "papel de parede"@pt,
+        "papel de parede fotográfico"@pt,
+        "papel de parede personalizado"@pt,
+        "fototapet"@sv,
+        "fototapeter"@sv,
+        "tapet"@sv,
+        "väggbild"@sv,
+        "väggmålning (tryckt)"@sv,
+        "墙纸"@zh-Hans,
+        "墙绘"@zh-Hans,
+        "壁画"@zh-Hans,
+        "壁纸"@zh-Hans,
+        "定制墙纸"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et storformat trykt vægbeklædning til indvendige vægge — dekorative og brandede miljøer."@da,
+        "Ein großformatiger bedruckter Wandbelag für Innenwände."@de,
+        "A large-format printed wall covering applied to interior walls — decorative and branded environments."@en,
+        "Un revestimiento mural impreso de gran formato aplicado a paredes interiores — ambientes decorativos y de marca."@es,
+        "भीतरी दीवारों पर लगाया जाने वाला लार्ज-फॉर्मेट मुद्रित दीवार आवरण — सजावटी और ब्रांडेड वातावरण।"@hi,
+        "室内の壁面に施工する大判プリント壁紙。装飾やブランド空間の演出に。"@ja,
+        "Et storformat trykt veggbelegg påført innvendige vegger — dekorative og merkede miljøer."@nb,
+        "Een grootformaat gedrukte wandbekleding voor binnenmuren — decoratieve en merkgebonden omgevingen."@nl,
+        "Wielkoformatowa drukowana okleina ścienna aplikowana na ściany wewnętrzne — wnętrza dekoracyjne i brandowane."@pl,
+        "Revestimento de parede impresso em grande formato aplicado em paredes internas — ambientes decorativos e de marca."@pt,
+        "En storformatstryckt väggbeklädnad som appliceras på innerväggar — dekorativa och varumärkesprofilerade miljöer."@sv,
+        "应用于室内墙面的大幅面印刷墙纸——装饰与品牌空间。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§WALLPAPER" ;
+    skos:prefLabel "Tapet"@da,
+        "Tapeten & Wandbilder"@de,
+        "Wallpaper"@en,
+        "Papel pintado y murales"@es,
+        "वॉलपेपर"@hi,
+        "壁紙・ウォールミューラル"@ja,
+        "Tapet"@nb,
+        "Behang"@nl,
+        "Tapety"@pl,
+        "Papel de parede"@pt,
+        "Tapeter"@sv,
+        "墙纸与墙绘"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/paper>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/textile>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/vinyl> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    ptpge:version "2026-09-28" .
+

@@ -1,0 +1,50 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/regulations",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Regulations",
+    "nb": "Reguleringer",
+    "de": "Regulierungen",
+    "ja": "規制",
+    "es": "Regulaciones",
+    "zh-Hans": "法规",
+    "sv": "Regelverk",
+    "da": "Regulering",
+    "nl": "Regelgeving",
+    "pl": "Regulacje",
+    "pt": "Regulamentos",
+    "hi": "विनियम"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST-REG",
+  "broader": "https://ptpge.org/v1/printing/standards",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Regulatory instruments that shape print commerce and product-data requirements. These are references — anchors for machine-readable compliance data — not certifications a printer opts into.",
+    "nb": "Regulatoriske instrumenter som former trykkhandel og krav til produktdata. Dette er referanser — ankre for maskinlesbare samsvarsdata — ikke sertifiseringer et trykkeri velger.",
+    "de": "Regulatorische Instrumente, die den Druckhandel und Produktdatenanforderungen prägen. Es sind Referenzen — Anker für maschinenlesbare Compliance-Daten — keine Zertifizierungen, für die sich eine Druckerei entscheidet.",
+    "ja": "印刷取引と製品データ要件を形作る規制手段。これらは参照であり——機械可読なコンプライアンスデータのアンカー——印刷会社が選択する認証ではない。",
+    "es": "Instrumentos regulatorios que dan forma al comercio de impresión y a los requisitos de datos de producto. Son referencias —anclas para datos de cumplimiento legibles por máquina— no certificaciones que una imprenta elige.",
+    "zh-Hans": "塑造印刷贸易和产品数据要求的监管工具。它们是参照——机器可读合规数据的锚点——而非印刷企业自行选择的认证。",
+    "sv": "Regulatoriska instrument som formar tryckhandel och produktdatakrav. Detta är referenser — ankare för maskinläsbara efterlevnadsdata — inte certifieringar ett tryckeri väljer att ansluta sig till.",
+    "da": "Regulatoriske instrumenter, der former trykhandel og produktdatakrav. Dette er referencer — ankre for maskinlæsbare compliancedata — ikke certificeringer, et trykkeri tilmelder sig.",
+    "nl": "Regulatoire instrumenten die drukhandel en productdatavereisten vormgeven. Dit zijn referenties — ankers voor machineleesbare compliancedata — geen certificeringen waarvoor een drukkerij zich aanmeldt.",
+    "pl": "Instrumenty regulacyjne kształtujące handel drukiem i wymagania dotyczące danych o produkcie. Są to odniesienia — kotwice dla maszynowo czytelnych danych o zgodności — a nie certyfikaty, do których drukarnia przystępuje dobrowolnie.",
+    "pt": "Instrumentos regulatórios que moldam o comércio de impressão e os requisitos de dados de produto. São referências — âncoras para dados de conformidade legíveis por máquina — e não certificações que um impressor escolhe obter.",
+    "hi": "प्रिंट वाणिज्य और उत्पाद-डेटा आवश्यकताओं को आकार देने वाले नियामक साधन। ये संदर्भ हैं — मशीन-पठनीय अनुपालन डेटा के लंगर — प्रमाणन नहीं जिन्हें प्रिंटर अपनी मर्ज़ी से चुने।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/regulations/digital-product-passport"
+  ]
+}

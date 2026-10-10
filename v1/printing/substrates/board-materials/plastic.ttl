@@ -1,0 +1,90 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/plastic> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kanalplade"@da,
+        "Hohlkammerplatte"@de,
+        "Hohlkammerplatten"@de,
+        "Stegplatte"@de,
+        "Correx"@en,
+        "Corriboard"@en,
+        "Fluted polypropylene"@en,
+        "Foamed PVC"@en,
+        "Foamex"@en,
+        "PVC"@en,
+        "Plastic board"@en,
+        "Polypropylene"@en,
+        "Twin-wall board"@en,
+        "Correx"@hi,
+        "Foamex"@hi,
+        "PP शीट"@hi,
+        "PVC"@hi,
+        "पॉलीप्रोपिलीन"@hi,
+        "प्लास्टिक बोर्ड"@hi,
+        "फ़ोम्ड PVC"@hi,
+        "फ़्लूटेड पॉलीप्रोपिलीन"@hi,
+        "Kanalplast"@nb,
+        "Korrugert plast"@nb,
+        "Plast"@nb,
+        "Foamex"@pl,
+        "PCV"@pl,
+        "PVC"@pl,
+        "polipropylen"@pl,
+        "polipropylen kanalikowy"@pl,
+        "płyta PCV"@pl,
+        "płyta kanalikowa"@pl,
+        "płyta z tworzywa"@pl,
+        "spienione PCV"@pl,
+        "Correx"@pt,
+        "Foamex"@pt,
+        "PVC"@pt,
+        "PVC expandido"@pt,
+        "chapa plástica"@pt,
+        "polipropileno"@pt,
+        "polipropileno alveolar"@pt,
+        "Kanalplast"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials> ;
+    skos:definition "Stive plastpaneler (PVC, polypropylen, polycarbonat) brugt til skiltning, displays og holdbar grafik. Fås i massive, opskummede og kanalplade-varianter."@da,
+        "Starre Kunststoffplatten (PVC, Polypropylen, Polycarbonat), eingesetzt für Beschilderung, Displays und langlebige Grafiken. Erhältlich in massiver, geschäumter und Doppelsteg-Ausführung."@de,
+        "Rigid plastic panels (PVC, polypropylene, polycarbonate) used for signage, displays, and durable graphics. Available in solid, foamed, and twin-wall variants."@en,
+        "Planchas plásticas rígidas (PVC, polipropileno, policarbonato) — utilizadas para signage durable y aplicaciones industriales."@es,
+        "साइनेज, डिस्प्ले और टिकाऊ ग्राफ़िक्स के लिए कठोर प्लास्टिक पैनल (PVC, पॉलीप्रोपिलीन, पॉलीकार्बोनेट)। ठोस, फ़ोम्ड और ट्विन-वॉल रूपों में उपलब्ध।"@hi,
+        "サイン、ディスプレイ、耐久性グラフィックに使用される剛性のあるプラスチックパネル（PVC、ポリプロピレン、ポリカーボネート）。ソリッド、発泡、ツインウォールのバリエーションがある。"@ja,
+        "Stive plastpaneler (PVC, polypropylen, polykarbonat) brukt til skilting, displayer og holdbar grafikk. Tilgjengelig i massive, oppskummede og dobbeltveggsvarianter."@nb,
+        "Stijve kunststofplaten (pvc, polypropyleen, polycarbonaat) voor signalisatie, displays en duurzame graphics. Verkrijgbaar in massieve, geschuimde en kanaalplaatvarianten."@nl,
+        "Sztywne płyty z tworzyw sztucznych (PCV, polipropylen, poliwęglan) używane do oznakowania, ekspozycji i trwałych grafik. Dostępne w wariantach litym, spienionym i kanalikowym."@pl,
+        "Painéis plásticos rígidos (PVC, polipropileno, policarbonato) usados em sinalização, displays e gráficos duráveis. Disponíveis em versões maciça, expandida e alveolar."@pt,
+        "Styva plastskivor (PVC, polypropen, polykarbonat) för skyltar, displayer och tålig grafik. Finns i massiva, skummade och kanalvarianter."@sv,
+        "刚性塑料板（PVC、聚丙烯、聚碳酸酯）—— 用于耐用标识和工业应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PLASTIC" ;
+    skos:prefLabel "Plast"@da,
+        "Kunststoff"@de,
+        "Plastic"@en,
+        "Plástico"@es,
+        "प्लास्टिक"@hi,
+        "プラスチック"@ja,
+        "Plast"@nb,
+        "Kunststof"@nl,
+        "Tworzywo sztuczne"@pl,
+        "Plástico"@pt,
+        "Plast"@sv,
+        "塑料"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

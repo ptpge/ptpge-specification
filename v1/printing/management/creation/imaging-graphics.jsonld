@@ -1,0 +1,87 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/creation/imaging-graphics",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Imaging & Graphics",
+    "es": "Imagen y Gráficos",
+    "zh-Hans": "图像与图形",
+    "nb": "Bilde- & grafikkbehandling",
+    "de": "Imaging & Grafik",
+    "ja": "イメージングとグラフィック",
+    "sv": "Bild & grafik",
+    "da": "Billedbehandling & grafik",
+    "nl": "Beeldbewerking & graphics",
+    "pl": "Obrazowanie i grafika",
+    "pt": "Imagem e gráficos",
+    "hi": "इमेजिंग और ग्राफ़िक्स"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§IMAGING-GRAPHICS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/creation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Photo editing, image manipulation, and vector graphic creation — the technical preparation of visual assets for inclusion in print files. Tools include Adobe Photoshop (raster) and Illustrator (vector).",
+    "nb": "Fotoredigering, bildemanipulasjon og opprettelse av vektorgrafikk — den tekniske forberedelsen av visuelle elementer for inkludering i trykkfiler. Verktøy inkluderer Adobe Photoshop (raster) og Illustrator (vektor).",
+    "de": "Bildbearbeitung, Bildmanipulation und Vektorgrafik-Erstellung — die technische Vorbereitung visueller Assets für die Verwendung in Druckdateien. Werkzeuge sind Adobe Photoshop (Raster) und Illustrator (Vektor).",
+    "ja": "写真編集、画像加工、ベクターグラフィック制作 — 印刷ファイルに含めるための視覚資産の技術的準備。ツールにはAdobe Photoshop（ラスター）とIllustrator（ベクター）がある。",
+    "es": "Tratamiento de imágenes y creación de elementos gráficos para el producto impreso — edición fotográfica, retoque, creación vectorial, gestión de capas.",
+    "zh-Hans": "印刷品图像处理和图形元素创建——照片编辑、修饰、矢量创建、图层管理。",
+    "sv": "Bildredigering, bildbehandling och vektorgrafik — den tekniska förberedelsen av visuella tillgångar för tryckfiler. Verktyg inkluderar Adobe Photoshop (raster) och Illustrator (vektor).",
+    "da": "Fotoredigering, billedmanipulation og vektorgrafik — den tekniske klargøring af visuelle elementer til trykfiler. Værktøjer omfatter Adobe Photoshop (raster) og Illustrator (vektor).",
+    "nl": "Fotobewerking, beeldmanipulatie en vectorgraphics — de technische voorbereiding van visuele elementen voor drukbestanden. Tools zijn onder meer Adobe Photoshop (raster) en Illustrator (vector).",
+    "pl": "Edycja zdjęć, obróbka obrazów i tworzenie grafiki wektorowej — techniczne przygotowanie materiałów wizualnych do włączenia w pliki drukarskie. Narzędzia obejmują Adobe Photoshop (raster) i Illustrator (wektor).",
+    "pt": "Edição de fotos, manipulação de imagens e criação de gráficos vetoriais — a preparação técnica de ativos visuais para inclusão em arquivos de impressão. As ferramentas incluem Adobe Photoshop (raster) e Illustrator (vetor).",
+    "hi": "फ़ोटो संपादन, छवि हेरफेर और वेक्टर ग्राफ़िक निर्माण — प्रिंट फ़ाइलों में शामिल करने के लिए दृश्य संपत्तियों की तकनीकी तैयारी। औज़ारों में Adobe Photoshop (रास्टर) और Illustrator (वेक्टर)।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "imaging",
+      "image editing",
+      "photo editing"
+    ],
+    "nb": [
+      "bildebehandling"
+    ],
+    "pl": [
+      "obróbka obrazu",
+      "edycja zdjęć",
+      "retusz"
+    ],
+    "pt": [
+      "imagem",
+      "edição de imagem",
+      "edição de foto"
+    ],
+    "hi": [
+      "इमेजिंग",
+      "छवि संपादन",
+      "फ़ोटो संपादन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutElementProduction"
+      ],
+      "refs": [
+        "§5.4.11 · p.98"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 6"
+    }
+  ]
+}

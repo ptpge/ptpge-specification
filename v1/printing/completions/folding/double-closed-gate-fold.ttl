@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/double-closed-gate-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Lukket portfals kombineret med en ekstra fals på tværs af den resulterende form — skaber en lagdelt åbningseffekt i flere trin. Bruges til eksklusive invitationer og annonceringstryk."@da,
+        "Geschlossener Altarfalz kombiniert mit einem zusätzlichen Falz quer zur entstandenen Form — erzeugt einen mehrstufigen Reveal-Effekt mit aufeinanderfolgenden Öffnungsstufen. Verwendet für hochwertige Einladungen und Ankündigungsprodukte."@de,
+        "Closed gate fold combined with an additional fold across the resulting shape — creates a layered reveal effect with multiple opening stages. Used for premium invitations and announcement pieces."@en,
+        "Dos pliegues gate cerrados combinados — produce folletos con paneles ocultos en capas."@es,
+        "बंद गेट फ़ोल्ड के साथ बनी आकृति पर एक और फ़ोल्ड — कई चरणों में खुलने का परतदार प्रभाव। प्रीमियम निमंत्रण और घोषणा सामग्री में।"@hi,
+        "クローズド観音折りに、形成された形状にもう一度折りを加えたもの — 複数段階の開封を伴う層状の演出効果を作り出す。高級招待状や案内状に使用される。"@ja,
+        "Lukket gate fold kombinert med en ytterligere folde over den resulterende formen — skaper en lagdelt avsløringseffekt med flere åpningsstadier. Brukt til premium-invitasjoner og kunngjøringer."@nb,
+        "Gesloten luikvouw gecombineerd met een extra vouw over de resulterende vorm — creëert een gelaagd onthullingseffect met meerdere openingsstappen. Gebruikt voor exclusieve uitnodigingen en aankondigingen."@nl,
+        "Zamknięty złam okienkowy połączony z dodatkowym złamem w poprzek powstałego kształtu — tworzy warstwowy efekt odsłaniania w kilku etapach otwierania. Stosowany w zaproszeniach premium i materiałach ogłoszeniowych."@pl,
+        "Dobra janela fechada combinada com uma dobra adicional sobre a forma resultante — cria um efeito de revelação em camadas, com várias etapas de abertura. Usada em convites premium e peças de anúncio."@pt,
+        "Sluten portfals kombinerad med ytterligare en fals tvärs över den resulterande formen — skapar en skiktad avslöjandeeffekt med flera öppningssteg. Används för exklusiva inbjudningar och tillkännagivanden."@sv,
+        "两个闭式门折组合 —— 产生具有分层隐藏面板的宣传册。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§DOUBLE-CLOSED-GATE-FOLD" ;
+    skos:prefLabel "Dobbelt lukket portfals"@da,
+        "Doppelter geschlossener Altarfalz"@de,
+        "Double Closed Gate Fold"@en,
+        "Pliegue Gate Cerrado Doble"@es,
+        "डबल बंद गेट फ़ोल्ड"@hi,
+        "ダブルクローズドゲートフォールド"@ja,
+        "Dobbelt lukket port-fold"@nb,
+        "Dubbele gesloten luikvouw"@nl,
+        "Podwójny złam okienkowy zamknięty"@pl,
+        "Dobra janela fechada dupla"@pt,
+        "Dubbel sluten portfals"@sv,
+        "双闭门折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

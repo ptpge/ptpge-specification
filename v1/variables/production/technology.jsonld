@@ -1,0 +1,75 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/production/technology",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:PD§TECHNOLOGY",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Technology",
+    "nb": "Teknologi",
+    "de": "Technologie",
+    "es": "Tecnología",
+    "ja": "印刷方式",
+    "zh-Hans": "印刷方式",
+    "sv": "Teknik",
+    "da": "Teknologi",
+    "nl": "Technologie",
+    "pl": "Technologia",
+    "pt": "Tecnologia",
+    "hi": "तकनीक"
+  },
+  "definition": {
+    "en": "Configurable axis: Technology. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Teknologi. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Technologie. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Tecnología. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：印刷方式。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：印刷方式。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Teknik. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Teknologi. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Technologie. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Technologia. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Tecnologia. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: तकनीक। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Printed how?",
+    "nb": "Trykt hvordan?",
+    "de": "Wie gedruckt?",
+    "es": "¿Impreso cómo?",
+    "ja": "印刷方式は？",
+    "zh-Hans": "如何印刷？",
+    "sv": "Tryckt hur?",
+    "da": "Trykt hvordan?",
+    "nl": "Hoe gedrukt?",
+    "pl": "Jak drukowany?",
+    "pt": "Impresso como?",
+    "hi": "छपाई कैसे?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/technologies/printing-technologies",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/production",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "pl": [
+      "technika druku"
+    ],
+    "pt": [
+      "processo de impressão",
+      "tecnologia de impressão"
+    ],
+    "hi": [
+      "मुद्रण तकनीक",
+      "छपाई की तकनीक",
+      "प्रिंटिंग प्रोसेस"
+    ]
+  }
+}

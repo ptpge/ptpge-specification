@@ -1,0 +1,185 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/double-closed-gate-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§DOUBLE-CLOSED-GATE-FOLD",
+  "elementType": "value",
+  "label": {
+    "en": "Double Closed Gate-Fold Setup",
+    "nb": "Dobbel lukket gate-fold oppsett",
+    "de": "Doppelter geschlossener Altarfalz-Setup",
+    "ja": "ダブルクローズドゲートフォールド構成",
+    "es": "Configuración de doble plegado en puerta cerrada",
+    "zh-Hans": "双对开门折（闭合）结构",
+    "nl": "Dubbele gesloten altaarvouw-opzet",
+    "sv": "Dubbel sluten portfals",
+    "da": "Dobbelt lukket portfals",
+    "pl": "Konfiguracja podwójny złam okienkowy zamknięty",
+    "pt": "Montagem dobra janela fechada dupla",
+    "hi": "डबल बंद गेट-फ़ोल्ड सेटअप"
+  },
+  "definition": {
+    "en": "A closed gate-fold folded again in half along the vertical centerline, producing a compact 8-panel layout in 2 surfaces: Outside (4 panels visible when fully closed) and Inside (4 panels revealed in a phased opening — first the half-fold, then the gates). Used for layered storytelling, premium invitations, and multi-stage reveal marketing pieces.",
+    "nb": "En lukket gate-fold brettet på nytt på halvparten langs vertikal midtlinje, som produserer en kompakt 8-panels layout i 2 surfaces: Outside (4 paneler synlig når fullstendig lukket) og Inside (4 paneler avslørt i en fase-åpning — først halv-bretten, deretter gates).",
+    "de": "Eine geschlossene Altarfalz, erneut entlang der vertikalen Mittellinie zur Hälfte gefaltet.",
+    "ja": "閉じた観音折りをさらに縦の中心線で半分に折ったもの。コンパクトな8パネル構成が2面に編成される：Outside（完全に閉じた状態で見える4パネル）と Inside（段階的に開いて現れる4パネル — まず半折り、次に扉）。層状のストーリーテリング、プレミアム招待状、多段階リビールのマーケティング資料に使われる。",
+    "es": "Un plegado en ventana cerrado plegado de nuevo por la mitad a lo largo de la línea central vertical, que produce un diseño compacto de 8 paneles en 2 superficies: Outside (4 paneles visibles cuando está completamente cerrado) e Inside (4 paneles revelados en una apertura por fases — primero el medio pliegue, luego las puertas). Se usa para narración por capas, invitaciones premium y piezas de marketing de revelación en varias etapas.",
+    "zh-Hans": "将关门折再沿垂直中线对折一次，形成紧凑的8面板布局，分为2个表面：Outside（完全合拢时可见的4个面板）与 Inside（分阶段展开的4个面板 — 先开对折，再开门扇）。用于分层叙事、高档请柬与多阶段揭示式营销品。",
+    "sv": "En sluten portfals som viks ytterligare en gång på mitten längs den vertikala mittlinjen, vilket ger en kompakt 8-panelslayout i 2 ytor: utsida (4 paneler synliga när helt stängd) och insida (4 paneler som avslöjas i en stegvis öppning — först halvvikningen, sedan portarna). Används för skiktat berättande, exklusiva inbjudningar och marknadsmaterial med avslöjande i flera steg.",
+    "da": "En portfalsvariant, hvor portene først foldes ind mod midten og opslaget derefter foldes på midten — giver 8 paneler i 2 flader. Kompakt lukket format, der åbnes i to trin.",
+    "nl": "Een luikvouwvariant waarbij de luiken eerst naar het midden vouwen en de spread daarna nogmaals doormidden wordt gevouwen — geeft 8 panelen in 2 vlakken. Compact gesloten formaat dat in twee stappen opent.",
+    "pl": "Zamknięty złam okienkowy złożony ponownie na pół wzdłuż pionowej osi środkowej, dający kompaktowy układ 8 skrzydeł w 2 powierzchniach: Zewnętrzna (4 skrzydła widoczne po pełnym zamknięciu) i Wewnętrzna (4 skrzydła odsłaniane etapami — najpierw złam na pół, potem bramki). Używana do warstwowej narracji, zaproszeń premium i materiałów marketingowych z wieloetapowym odsłanianiem.",
+    "pt": "Dobra janela fechada dobrada de novo ao meio pela linha central vertical, produzindo um layout compacto de 8 painéis em 2 faces: Exterior (4 painéis visíveis quando totalmente fechado) e Interior (4 painéis revelados em abertura faseada — primeiro a meia dobra, depois as portas). Usada em narrativa em camadas, convites premium e peças de marketing com revelação em etapas.",
+    "hi": "बंद गेट-फ़ोल्ड को ऊर्ध्वाधर मध्य रेखा पर फिर से आधा मोड़ा हुआ, जिससे 8 पैनल का सघन लेआउट बनता है, 2 सतहों में: बाहरी (पूरी तरह बंद होने पर दिखने वाले 4 पैनल) और भीतरी (चरणबद्ध खुलने पर दिखने वाले 4 पैनल — पहले आधा फ़ोल्ड, फिर गेट)। परतदार कहानी, प्रीमियम निमंत्रणों और बहु-चरण रिवील मार्केटिंग में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet",
+  "related": [
+    "https://ptpge.org/v1/printing/completions/folding/double-closed-gate-fold"
+  ],
+  "surfaces": [
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "nb": "Utside",
+        "de": "Außen"
+      },
+      "panels": [
+        {
+          "id": "outside-1",
+          "label": {
+            "en": "Outside 1",
+            "nb": "Utside 1",
+            "de": "Außen 1"
+          }
+        },
+        {
+          "id": "outside-2",
+          "label": {
+            "en": "Outside 2",
+            "nb": "Utside 2",
+            "de": "Außen 2"
+          }
+        },
+        {
+          "id": "outside-3",
+          "label": {
+            "en": "Outside 3",
+            "nb": "Utside 3",
+            "de": "Außen 3"
+          }
+        },
+        {
+          "id": "outside-4",
+          "label": {
+            "en": "Outside 4",
+            "nb": "Utside 4",
+            "de": "Außen 4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "nb": "Innside",
+        "de": "Innen"
+      },
+      "panels": [
+        {
+          "id": "inside-1",
+          "label": {
+            "en": "Inside 1",
+            "nb": "Innside 1",
+            "de": "Innen 1"
+          }
+        },
+        {
+          "id": "inside-2",
+          "label": {
+            "en": "Inside 2",
+            "nb": "Innside 2",
+            "de": "Innen 2"
+          }
+        },
+        {
+          "id": "inside-3",
+          "label": {
+            "en": "Inside 3",
+            "nb": "Innside 3",
+            "de": "Innen 3"
+          }
+        },
+        {
+          "id": "inside-4",
+          "label": {
+            "en": "Inside 4",
+            "nb": "Innside 4",
+            "de": "Innen 4"
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "FoldCatalog F8-4 (Gate fold)"
+      ],
+      "refs": [
+        "Table 4.28 · p.76–77",
+        "Appendix A · Fold catalog"
+      ],
+      "match": "partial",
+      "via": "FoldCatalog"
+    }
+  ],
+  "altLabels": {
+    "en": [
+      "F8-4",
+      "FoldCatalog F8-4"
+    ],
+    "pl": [
+      "F8-4",
+      "FoldCatalog F8-4"
+    ],
+    "pt": [
+      "F8-4",
+      "FoldCatalog F8-4"
+    ],
+    "hi": [
+      "F8-4",
+      "FoldCatalog F8-4"
+    ]
+  }
+}

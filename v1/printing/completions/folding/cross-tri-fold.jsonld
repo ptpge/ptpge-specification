@@ -1,0 +1,68 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding/cross-tri-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Cross Tri Fold",
+    "es": "Tríptico Cruzado",
+    "zh-Hans": "十字三折",
+    "nb": "Krysset trippel-fold",
+    "de": "Kreuz-Wickelfalz",
+    "ja": "クロス三つ折り",
+    "sv": "Kors- och C-fals",
+    "da": "Kryds-trefals",
+    "nl": "Kruis-wikkelvouw",
+    "pl": "Złam krzyżowy na C",
+    "pt": "Tríptico cruzado",
+    "hi": "क्रॉस ट्राई-फ़ोल्ड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§CROSS-TRI-FOLD",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/completions/folding",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Combination of a tri-fold along one axis and a single fold along the perpendicular axis — produces a six-panel product, common for travel brochures and maps.",
+    "nb": "Kombinasjon av en tri-fold langs én akse og en enkel folde langs den vinkelrette aksen — produserer et seks-panel produkt, vanlig for reisebrosjyrer og kart.",
+    "de": "Kombination aus einem Wickelfalz entlang einer Achse und einem Einbruchfalz entlang der senkrechten Achse — erzeugt ein sechsseitiges Produkt, häufig bei Reisebroschüren und Karten.",
+    "ja": "1つの軸で三つ折りし、それに直交する軸で1回折りを組み合わせたもの — 6面製品となり、旅行用ブローシュアや地図で一般的。",
+    "es": "Pliegue cruzado combinado con tríptico — produce un folleto con paneles dispuestos en ambas direcciones.",
+    "zh-Hans": "十字折与三折结合 —— 产生面板在两个方向布置的宣传册。",
+    "sv": "Kombination av C-fals längs en axel och en enkelfals längs den vinkelräta axeln — ger en sexpanelsprodukt, vanlig för resebroschyrer och kartor.",
+    "da": "Kombination af en trefals langs én akse og en enkeltfals langs den vinkelrette akse — giver et sekspanelsprodukt, almindeligt til rejsebrochurer og kort.",
+    "nl": "Combinatie van een wikkelvouw langs één as en een enkele vouw langs de haakse as — geeft een zespaneelproduct, gebruikelijk voor reisbrochures en kaarten.",
+    "pl": "Połączenie złamu na C wzdłuż jednej osi z pojedynczym złamem wzdłuż osi prostopadłej — daje produkt sześcioskrzydłowy, typowy dla folderów turystycznych i map.",
+    "pt": "Combinação de um tríptico em um eixo com uma dobra simples no eixo perpendicular — produz um produto de seis painéis, comum em folhetos de viagem e mapas.",
+    "hi": "एक अक्ष पर ट्राई-फ़ोल्ड और लंबवत अक्ष पर एक सिंगल फ़ोल्ड का संयोजन — छह-पैनल उत्पाद, यात्रा ब्रोशर और नक़्शों में आम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

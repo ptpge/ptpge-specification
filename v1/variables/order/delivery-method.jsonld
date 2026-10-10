@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/order/delivery-method",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "VAR:OR§DELIVERY-METHOD",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Delivery Method",
+    "nb": "Leveringsmetode",
+    "de": "Versandart",
+    "es": "Método de entrega",
+    "ja": "配送方法",
+    "zh-Hans": "交付方式",
+    "sv": "Leveranssätt",
+    "da": "Leveringsmetode",
+    "nl": "Leveringsmethode",
+    "pl": "Metoda dostawy",
+    "pt": "Método de entrega",
+    "hi": "डिलीवरी विधि"
+  },
+  "definition": {
+    "en": "Configurable axis: Delivery Method (enum, single). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Leveringsmetode (enum, single). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Versandart (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Método de entrega (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：配送方法（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：交付方式（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Leveranssätt. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Leveringsmetode. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Leveringsmethode. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Metoda dostawy (enum, pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Método de Entrega (enumeração, único). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: डिलीवरी विधि (enum, एकल)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "How should it be delivered?",
+    "nb": "Hvordan skal den leveres?",
+    "de": "Wie soll geliefert werden?",
+    "es": "¿Cómo se entrega?",
+    "ja": "配送方法は？",
+    "zh-Hans": "如何交付？",
+    "sv": "Hur ska den levereras?",
+    "da": "Hvordan skal den leveres?",
+    "nl": "Hoe moet het geleverd worden?",
+    "pl": "Jak ma być dostarczony?",
+    "pt": "Como deve ser entregue?",
+    "hi": "डिलीवरी कैसे?"
+  },
+  "cardinality": "single",
+  "scope": "product",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/order",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Shipping method",
+      "Fulfilment method"
+    ],
+    "nb": [
+      "Forsendelsesmetode"
+    ],
+    "pl": [
+      "sposób wysyłki",
+      "sposób dostawy",
+      "metoda realizacji"
+    ],
+    "pt": [
+      "forma de envio",
+      "modalidade de entrega",
+      "método de expedição"
+    ],
+    "hi": [
+      "शिपिंग विधि",
+      "भेजने का तरीका",
+      "फ़ुलफ़िलमेंट विधि"
+    ]
+  },
+  "datatype": "enum",
+  "valueDomain": "https://ptpge.org/v1/ordering/distribution/delivery-methods"
+}

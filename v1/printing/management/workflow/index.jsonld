@@ -1,0 +1,70 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Workflow",
+    "es": "Flujo de Trabajo",
+    "zh-Hans": "工作流",
+    "nb": "Arbeidsflyt",
+    "de": "Workflow",
+    "ja": "ワークフロー",
+    "sv": "Arbetsflöde",
+    "da": "Workflow",
+    "nl": "Workflow",
+    "pl": "Workflow",
+    "pt": "Fluxo de trabalho",
+    "hi": "वर्कफ़्लो"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "broader": "https://ptpge.org/v1/printing/management",
+  "narrower": [
+    "https://ptpge.org/v1/printing/management/workflow/data-management",
+    "https://ptpge.org/v1/printing/management/workflow/efficiency-tools",
+    "https://ptpge.org/v1/printing/management/workflow/file-preparation",
+    "https://ptpge.org/v1/printing/management/workflow/job-management",
+    "https://ptpge.org/v1/printing/management/workflow/versioning-storage",
+    "https://ptpge.org/v1/printing/management/workflow/ganging"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Systems and tools that orchestrate the flow of a print job from order to delivery — managing files, jobs, automation, and collaboration across the production pipeline.",
+    "nb": "Systemer og verktøy som orkestrerer flyten av en trykkjobb fra bestilling til levering — håndterer filer, jobber, automatisering og samarbeid gjennom produksjonsledningen.",
+    "de": "Systeme und Werkzeuge, die den Verlauf eines Druckauftrags von der Bestellung bis zur Auslieferung orchestrieren — sie verwalten Dateien, Aufträge, Automatisierung und Zusammenarbeit über die gesamte Produktionspipeline hinweg.",
+    "ja": "発注から納品までの印刷ジョブの流れを統括するシステムとツール — 生産パイプライン全体にわたるファイル、ジョブ、自動化、協業を管理する。",
+    "es": "Sistemas y herramientas que orquestan el flujo de un trabajo de impresión desde el pedido hasta la entrega — gestionando archivos, trabajos, automatización y colaboración a lo largo de la cadena de producción.",
+    "zh-Hans": "协调印刷作业从下单到交付流程的系统和工具——管理文件、作业、自动化和生产线各环节之间的协作。",
+    "sv": "System och verktyg som orkestrerar ett tryckjobbs flöde från order till leverans — hanterar filer, jobb, automation och samarbete genom hela produktionskedjan.",
+    "da": "Systemer og værktøjer, der orkestrerer en trykopgaves forløb fra ordre til levering — styring af filer, opgaver, automatisering og samarbejde på tværs af produktionskæden.",
+    "nl": "Systemen en tools die het verloop van een drukopdracht orkestreren van order tot levering — beheer van bestanden, opdrachten, automatisering en samenwerking door de hele productieketen.",
+    "pl": "Systemy i narzędzia orkiestrujące przepływ zlecenia drukarskiego od zamówienia do dostawy — zarządzanie plikami, zleceniami, automatyzacją i współpracą w całym potoku produkcji.",
+    "pt": "Sistemas e ferramentas que orquestram o fluxo de um trabalho de impressão do pedido à entrega — gerenciando arquivos, trabalhos, automação e colaboração ao longo do pipeline de produção.",
+    "hi": "सिस्टम और औज़ार जो प्रिंट जॉब के प्रवाह को ऑर्डर से डिलीवरी तक संचालित करते हैं — उत्पादन पाइपलाइन में फ़ाइलों, जॉब, स्वचालन और सहयोग का प्रबंधन।"
+  },
+  "scopeNote": {
+    "en": "Includes job management (intake, routing, status tracking), file preparation (imposition, RIP processing), data management and versioning, and efficiency tools (automation engines like Heidelberg Prinect, Kodak Prinergy, EFI Fiery; collaboration platforms; integration middleware like Enfocus Switch). Workflow is the operational backbone connecting Creation to the press floor.",
+    "nb": "Inkluderer jobbhåndtering (mottak, ruting, statusoppfølging), filforberedelse (impositioning, RIP-prosessering), datahåndtering og versjonering, og effektivitetsverktøy (automasjonsmotorer som Heidelberg Prinect, Kodak Prinergy, EFI Fiery; samarbeidsplattformer; integrasjonsmiddelvare som Enfocus Switch). Workflow er den operative ryggraden som kobler Creation til trykkrommet.",
+    "de": "Umfasst Auftragsmanagement (Annahme, Routing, Statusverfolgung), Datei-Vorbereitung (Ausschießen, RIP-Verarbeitung), Datenmanagement und Versionierung sowie Effizienz-Werkzeuge (Automatisierungsplattformen wie Heidelberg Prinect, Kodak Prinergy, EFI Fiery; Kollaborationsplattformen; Integration-Middleware wie Enfocus Switch). Workflow ist das operative Rückgrat, das Creation mit der Druckmaschine verbindet.",
+    "ja": "ジョブ管理（受付、ルーティング、ステータス追跡）、ファイル準備（面付け、RIP処理）、データ管理とバージョン管理、効率化ツール（Heidelberg Prinect、Kodak Prinergy、EFI Fieryなどの自動化エンジン、協業プラットフォーム、Enfocus Switchなどの統合ミドルウェア）を含む。WorkflowはCreationと印刷現場をつなぐ運用上の基盤である。",
+    "es": "Incluye gestión de trabajos (recepción, enrutamiento, seguimiento de estado), preparación de archivos (imposición, procesamiento RIP), gestión y versionado de datos, y herramientas de eficiencia (motores de automatización como Heidelberg Prinect, Kodak Prinergy, Esko Automation Engine).",
+    "zh-Hans": "包括作业管理（接单、路由、状态跟踪）、文件准备（拼版、RIP处理）、数据管理与版本控制以及效率工具（Heidelberg Prinect、Kodak Prinergy、Esko Automation Engine等自动化引擎）。",
+    "pt": "Inclui gestão de trabalhos (entrada, roteamento, acompanhamento de status), preparação de arquivos (imposição, processamento RIP), gestão de dados e versionamento, e ferramentas de eficiência (motores de automação como Heidelberg Prinect, Kodak Prinergy, EFI Fiery; plataformas de colaboração; middleware de integração como Enfocus Switch). O fluxo de trabalho é a espinha dorsal operacional que liga a Criação ao chão de fábrica.",
+    "hi": "जॉब प्रबंधन (इनटेक, रूटिंग, स्थिति ट्रैकिंग), फ़ाइल तैयारी (इम्पोज़िशन, RIP प्रोसेसिंग), डेटा प्रबंधन और संस्करण, और दक्षता औज़ार (Heidelberg Prinect, Kodak Prinergy, EFI Fiery जैसे स्वचालन इंजन; सहयोग प्लेटफ़ॉर्म; Enfocus Switch जैसा एकीकरण मिडलवेयर) शामिल। वर्कफ़्लो वह परिचालन रीढ़ है जो निर्माण को प्रेस फ़्लोर से जोड़ती है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:MG-WFL",
+  "altLabels": {
+    "pt": [
+      "Workflow"
+    ]
+  }
+}

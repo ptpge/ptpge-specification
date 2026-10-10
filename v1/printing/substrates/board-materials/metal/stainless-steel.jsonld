@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/metal/stainless-steel",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Stainless Steel",
+    "es": "Acero Inoxidable",
+    "zh-Hans": "不锈钢",
+    "nb": "Rustfritt stål",
+    "de": "Edelstahl",
+    "ja": "ステンレス鋼",
+    "sv": "Rostfritt stål",
+    "da": "Rustfrit stål",
+    "nl": "Roestvrij staal",
+    "pl": "Stal nierdzewna",
+    "pt": "Aço inoxidável",
+    "hi": "स्टेनलेस स्टील"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§STAINLESS-STEEL",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/metal",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "High-grade chromium-alloyed steel offering superior corrosion resistance and a polished aesthetic — used for premium architectural elements, equipment plates, and high-end signage.",
+    "nb": "Høygradig kromlegert stål med overlegen korrosjonsbestandighet og polert estetikk — brukt til premium arkitekturelementer, utstyrsplater og eksklusiv skilting.",
+    "de": "Hochwertiger, mit Chrom legierter Stahl mit überlegener Korrosionsbeständigkeit und polierter Optik — eingesetzt für hochwertige Architekturelemente, Geräteschilder und Premium-Beschilderung.",
+    "ja": "優れた耐食性と磨き上げられた美しさを備えた高品質クロム合金鋼 — 高級建築要素、機器プレート、ハイエンドサインに使用される。",
+    "es": "Acero inoxidable premium para señalética arquitectónica, trofeos y aplicaciones de alto valor.",
+    "zh-Hans": "高端不锈钢，用于建筑标识、奖杯和高价值应用。",
+    "sv": "Kromlegerat stål av hög kvalitet med överlägsen korrosionsbeständighet och polerad estetik — används för exklusiva arkitektoniska element, maskinskyltar och påkostad skyltning.",
+    "da": "Kromlegeret stål af høj kvalitet med overlegen korrosionsbestandighed og poleret æstetik — bruges til eksklusive arkitektoniske elementer, maskinskilte og eksklusiv skiltning.",
+    "nl": "Hoogwaardig chroomgelegeerd staal met superieure corrosiebestendigheid en een gepolijste uitstraling — gebruikt voor exclusieve architectonische elementen, machineplaten en high-end signalisatie.",
+    "pl": "Wysokogatunkowa stal stopowa z chromem, oferująca najwyższą odporność na korozję i polerowaną estetykę — używana do elementów architektonicznych premium, tabliczek urządzeń i ekskluzywnego oznakowania.",
+    "pt": "Aço de alta qualidade ligado a cromo, com resistência superior à corrosão e estética polida — usado em elementos arquitetônicos premium, placas de equipamentos e sinalização de alto padrão.",
+    "hi": "क्रोमियम-मिश्रित उच्च-श्रेणी स्टील, बेहतर जंग-प्रतिरोध और पॉलिश्ड रूप — प्रीमियम वास्तु तत्वों, उपकरण प्लेटों और हाई-एंड साइनेज में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Inox",
+      "Stainless"
+    ],
+    "nb": [
+      "Rustfritt stål"
+    ],
+    "pl": [
+      "Inox",
+      "nierdzewka"
+    ],
+    "pt": [
+      "inox",
+      "aço inox"
+    ],
+    "hi": [
+      "स्टेनलेस",
+      "SS शीट",
+      "इनॉक्स"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

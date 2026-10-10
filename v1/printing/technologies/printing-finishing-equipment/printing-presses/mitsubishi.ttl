@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/mitsubishi> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Mitsubishi Heavy Industries Printing & Packaging Machinery — japansk producent af rotationsoffsetpresser og emballagepresser, især til aviser og store publikationsoplag."@da,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — japanischer Hersteller von Rollenoffsetdruckmaschinen und Verpackungsdruckmaschinen, insbesondere für Zeitungen und große Auflagenproduktion."@de,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — Japanese manufacturer of web-offset presses and packaging presses, particularly for newspapers and large publication runs."@en,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — fabricante japonés de prensas offset y de gran formato, también activo en huecograbado."@es,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — वेब-ऑफसेट प्रेस और पैकेजिंग प्रेस का जापानी निर्माता, विशेषकर अख़बारों और बड़े प्रकाशन रन के लिए।"@hi,
+        "三菱重工印刷紙工機械 — 輪転オフセット印刷機およびパッケージ印刷機の日本のメーカー。特に新聞および大型出版物の生産向け。"@ja,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — japansk produsent av web-offset-presser og emballasjepresser, særlig for aviser og store publikasjonsopplag."@nb,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — Japanse fabrikant van rotatieoffsetpersen en verpakkingspersen, met name voor kranten en grote publicatieoplagen."@nl,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — japoński producent zwojowych maszyn offsetowych i maszyn opakowaniowych, zwłaszcza do gazet i dużych nakładów publikacyjnych."@pl,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — fabricante japonês de impressoras offset rotativas e de embalagem, especialmente para jornais e grandes tiragens de publicações."@pt,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery — japansk tillverkare av rulloffsetpressar och förpackningspressar, särskilt för tidningar och stora publikationsupplagor."@sv,
+        "Mitsubishi Heavy Industries Printing & Packaging Machinery —— 日本胶印和大幅面印刷机制造商，也活跃于凹印领域。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-PRES-MITS" ;
+    skos:prefLabel "Mitsubishi"@da,
+        "Mitsubishi"@de,
+        "Mitsubishi"@en,
+        "Mitsubishi"@es,
+        "Mitsubishi"@hi,
+        "Mitsubishi"@ja,
+        "Mitsubishi"@nb,
+        "Mitsubishi"@nl,
+        "Mitsubishi"@pl,
+        "Mitsubishi"@pt,
+        "Mitsubishi"@sv,
+        "Mitsubishi"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

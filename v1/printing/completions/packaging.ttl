@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/packaging> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Materialer og metoder til at beskytte, samle og sende det færdige trykte produkt — fra enkeltkuverter til palleterede forsendelser."@da,
+        "Materialien und Methoden zum Schutz, zur Bündelung und zum Versand des fertigen Druckerzeugnisses — vom einzelnen Briefumschlag bis zur palettierten Lieferung."@de,
+        "Materials and methods used to protect, group, and ship the finished printed product — from individual envelopes to pallet-loaded shipments."@en,
+        "Materiales y métodos utilizados para proteger, agrupar y enviar el producto impreso terminado — desde sobres individuales hasta envíos paletizados."@es,
+        "तैयार मुद्रित उत्पाद को बचाने, समूहबद्ध करने और भेजने की सामग्री और विधियाँ — अलग-अलग लिफ़ाफ़ों से लेकर पैलेट पर लदी खेप तक।"@hi,
+        "完成した印刷物を保護、まとめ、出荷するために使用される材料と方法 — 個別の封筒からパレット積みの出荷まで。"@ja,
+        "Materialer og metoder brukt til å beskytte, gruppere og forsende det ferdige trykte produktet — fra individuelle konvolutter til palleterte forsendelser."@nb,
+        "Materialen en methoden om het afgewerkte drukproduct te beschermen, te bundelen en te verzenden — van losse enveloppen tot palletzendingen."@nl,
+        "Materiały i metody stosowane do ochrony, grupowania i wysyłki gotowego produktu drukowanego — od pojedynczych kopert po przesyłki paletowe."@pl,
+        "Materiais e métodos usados para proteger, agrupar e expedir o impresso acabado — de envelopes individuais a remessas paletizadas."@pt,
+        "Material och metoder för att skydda, gruppera och skicka den färdiga tryckta produkten — från enskilda kuvert till pallastade leveranser."@sv,
+        "保护、分组和运输印刷成品所使用的材料和方法——从单个信封到整托盘装运。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/packaging/banding>,
+        <https://ptpge.org/v1/printing/completions/packaging/bubble-wrap>,
+        <https://ptpge.org/v1/printing/completions/packaging/cardboard-boxes>,
+        <https://ptpge.org/v1/printing/completions/packaging/envelopes>,
+        <https://ptpge.org/v1/printing/completions/packaging/palletized-packaging>,
+        <https://ptpge.org/v1/printing/completions/packaging/postal-trays>,
+        <https://ptpge.org/v1/printing/completions/packaging/roll-paper>,
+        <https://ptpge.org/v1/printing/completions/packaging/shrink-wrap>,
+        <https://ptpge.org/v1/printing/completions/packaging/tubes> ;
+    skos:notation "P:CP-PKG" ;
+    skos:prefLabel "Emballering"@da,
+        "Verpackung"@de,
+        "Packaging"@en,
+        "Embalaje"@es,
+        "पैकेजिंग"@hi,
+        "パッケージ"@ja,
+        "Emballasje"@nb,
+        "Verpakking"@nl,
+        "Pakowanie"@pl,
+        "Embalagem"@pt,
+        "Emballage"@sv,
+        "包装"@zh-Hans ;
+    skos:scopeNote "Umfasst Schutzmaterialien (Luftpolsterfolie, Schrumpffolie), Versandbehälter (Wellpappkartons, Versandrohre, Briefumschläge) und Großmengenhandhabung (palettierte Verpackung, Rollenpapier-Versand). Wenn die Verpackung selbst ein Druckerzeugnis ist, fällt sie als hergestelltes Produkt unter die reguläre Taxonomie."@de,
+        "Includes protective materials (bubble wrap, shrink wrap), shipping containers (cardboard boxes, tubes, envelopes), and bulk handling (palletized packaging, roll paper). The packaging itself can be a printed product, in which case it falls under the regular taxonomy as the product being made."@en,
+        "Incluye materiales protectores (plástico de burbujas, film retráctil), contenedores de envío (cajas de cartón, tubos, sobres) y manejo a granel (embalaje paletizado, papel en rollo). El embalaje mismo puede ser un producto impreso."@es,
+        "सुरक्षात्मक सामग्री (बबल रैप, श्रिंक रैप), शिपिंग कंटेनर (गत्ते के डिब्बे, ट्यूब, लिफ़ाफ़े) और थोक हैंडलिंग (पैलेट पैकेजिंग, रोल) शामिल। पैकेजिंग स्वयं मुद्रित उत्पाद हो सकती है; तब वह बनाए जा रहे उत्पाद के रूप में नियमित वर्गीकरण में आती है।"@hi,
+        "保護材（プチプチ、シュリンクラップ）、輸送容器（段ボール箱、筒、封筒）、大量取扱（パレット梱包、巻き紙）を含む。梱包そのものが印刷物である場合は、製造される製品として通常のタクソノミーに分類される。"@ja,
+        "Inkluderer beskyttelsesmateriale (bobleplast, krympeplast), forsendelsesbeholdere (pappkartonger, tuber, konvolutter) og bulkhåndtering (palletert emballasje, rullpapir). Selve emballasjen kan være et trykt produkt, i hvilket tilfelle det faller under den vanlige taksonomien som produktet som lages."@nb,
+        "Inclui materiais de proteção (plástico-bolha, filme retrátil), recipientes de envio (caixas de papelão, tubos, envelopes) e manuseio a granel (paletização, rolo). A própria embalagem pode ser um impresso; nesse caso, entra na taxonomia regular como o produto que está sendo feito."@pt,
+        "包括保护材料（气泡膜、收缩膜）、运输容器（瓦楞纸箱、纸筒、信封）和大宗处理（托盘式包装、卷筒纸）。包装本身可以是一种印刷品。"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+                "§5.6.28 · p.128",
+                "§5.6.3 · p.113",
+                "§5.6.39 · p.135",
+                "§6.10 · p.161" ;
+            ptpge:mappingRow "crosswalk row 48" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BoxPacking",
+                "Bundle",
+                "Palletizing",
+                "Shrinking",
+                "Wrapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

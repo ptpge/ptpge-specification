@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "PEFC™",
+    "es": "PEFC™",
+    "zh-Hans": "PEFC™（森林认证体系）",
+    "nb": "PEFC™",
+    "de": "PEFC™",
+    "ja": "PEFC™",
+    "sv": "PEFC™",
+    "da": "PEFC™",
+    "nl": "PEFC™",
+    "pl": "PEFC™",
+    "pt": "PEFC™",
+    "hi": "PEFC™"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§PEFCTM",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/environmental",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Programme for the Endorsement of Forest Certification (PEFC) — a global chain-of-custody certification verifying that wood and paper products originate from sustainably managed forests.",
+    "nb": "Programme for the Endorsement of Forest Certification (PEFC) — en global sporbarhetssertifisering som verifiserer at tre- og papirprodukter stammer fra bærekraftig forvaltede skoger.",
+    "de": "Programme for the Endorsement of Forest Certification (PEFC) — eine globale Chain-of-Custody-Zertifizierung, die bestätigt, dass Holz- und Papierprodukte aus nachhaltig bewirtschafteten Wäldern stammen.",
+    "ja": "Programme for the Endorsement of Forest Certification（PEFC）— 木材および紙製品が持続可能に管理された森林に由来することを検証する、国際的な加工流通過程（CoC）認証。",
+    "es": "Programme for the Endorsement of Forest Certification (PEFC) — certificación global de cadena de custodia que verifica que los productos de madera y papel proceden de bosques gestionados de forma sostenible.",
+    "zh-Hans": "Programme for the Endorsement of Forest Certification (PEFC) —— 全球产销监管链认证，验证木材和纸制品来自可持续管理的森林。",
+    "sv": "Programme for the Endorsement of Forest Certification (PEFC) — en global spårbarhetscertifiering som verifierar att trä- och pappersprodukter kommer från hållbart brukade skogar.",
+    "da": "Programme for the Endorsement of Forest Certification (PEFC) — en global sporbarhedscertificering, der verificerer at træ- og papirprodukter stammer fra bæredygtigt forvaltede skove.",
+    "nl": "Programme for the Endorsement of Forest Certification (PEFC) — een wereldwijde chain-of-custody-certificering die verifieert dat hout- en papierproducten afkomstig zijn uit duurzaam beheerde bossen.",
+    "pl": "Programme for the Endorsement of Forest Certification (PEFC) — globalna certyfikacja łańcucha dostaw weryfikująca, że produkty z drewna i papieru pochodzą z lasów zarządzanych w sposób zrównoważony.",
+    "pt": "Programme for the Endorsement of Forest Certification (PEFC) — certificação global de cadeia de custódia que verifica que produtos de madeira e papel provêm de florestas manejadas de forma sustentável.",
+    "hi": "Programme for the Endorsement of Forest Certification (PEFC) — वैश्विक चेन-ऑफ़-कस्टडी प्रमाणन जो सत्यापित करता है कि लकड़ी और काग़ज़ उत्पाद टिकाऊ रूप से प्रबंधित वनों से आते हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "PEFC",
+      "Programme for the Endorsement of Forest Certification"
+    ],
+    "nb": [
+      "PEFC-sertifisert"
+    ],
+    "pl": [
+      "PEFC",
+      "certyfikat PEFC"
+    ],
+    "pt": [
+      "PEFC",
+      "Programme for the Endorsement of Forest Certification"
+    ],
+    "hi": [
+      "PEFC",
+      "Programme for the Endorsement of Forest Certification"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

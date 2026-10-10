@@ -1,0 +1,158 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/dust-jackets> a skos:Concept ;
+    dcterms:created "2026-08-12T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "bogomslag (løst)"@da,
+        "omslag"@da,
+        "Bucheinbände"@de,
+        "Bucheinschlag"@de,
+        "Buchumschlag (lose)"@de,
+        "Buchumschläge"@de,
+        "Schutzumschlag"@de,
+        "Book jacket"@en,
+        "Book jackets"@en,
+        "Custom dust jackets"@en,
+        "Dust covers"@en,
+        "Dust jacket"@en,
+        "Dust wrappers"@en,
+        "Camisa del libro"@es,
+        "Forro de libro"@es,
+        "Sobrecubierta"@es,
+        "camisa de libro"@es,
+        "cubierta de libro"@es,
+        "किताब का आवरण"@hi,
+        "डस्ट कवर"@hi,
+        "डस्ट जैकेट"@hi,
+        "बुक जैकेट"@hi,
+        "カバー"@ja,
+        "ジャケット"@ja,
+        "ブックカバー"@ja,
+        "上製本カバー"@ja,
+        "本のカバー"@ja,
+        "装丁カバー"@ja,
+        "Bokjakke"@nb,
+        "Løst bokomslag"@nb,
+        "boekomslag (los)"@nl,
+        "stofomslag"@nl,
+        "wikkel"@nl,
+        "obwoluta"@pl,
+        "obwoluta książki"@pl,
+        "capa protetora"@pt,
+        "jaqueta de livro"@pt,
+        "sobrecapa"@pt,
+        "sobrecapa de livro"@pt,
+        "bokomslag (löst)"@sv,
+        "omslag"@sv,
+        "书套"@zh-Hans,
+        "书衣"@zh-Hans,
+        "外封"@zh-Hans,
+        "护封"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et trykt, aftageligt papiromslag til en indbunden bog — forside, ryg og bagside med ombukkede flapper; beskytter bindet og bærer omslagsdesignet."@da,
+        "Ein bedruckter, abnehmbarer Papierumschlag für ein gebundenes Buch — Vorderseite, Rücken und Rückseite mit eingeschlagenen Klappen; schützt den Einband und trägt das Umschlagdesign."@de,
+        "A printed, removable paper wrapper for a case-bound book — front, spine and back with folded flaps; protects the cover and carries the jacket design."@en,
+        "Una cubierta de papel impresa y extraíble para un libro de tapa dura — portada, lomo y contraportada con solapas plegadas; protege la encuadernación y lleva el diseño de la sobrecubierta."@es,
+        "केस-बाउंड किताब के लिए मुद्रित, हटाया जा सकने वाला काग़ज़ का आवरण — आगे, स्पाइन और पीछे, मुड़े फ़्लैप सहित; कवर की रक्षा करता है और जैकेट का डिज़ाइन धारण करता है।"@hi,
+        "上製本にかける印刷された着脱式の紙カバー。表紙・背・裏表紙と折り込みの袖からなり、表紙を保護しジャケットデザインを担う。"@ja,
+        "Et trykt, avtakbart papiromslag til en innbundet bok — for-, rygg- og bakside med innbrettede klaffer; beskytter bokbindet og bærer omslagsdesignet."@nb,
+        "Een gedrukt, afneembaar papieren omslag voor een gebonden boek — voor-, rug- en achterzijde met omgevouwen flappen; beschermt de band en draagt het omslagontwerp."@nl,
+        "Drukowana, zdejmowana papierowa obwoluta książki w oprawie twardej — przód, grzbiet i tył ze skrzydełkami; chroni okładkę i niesie projekt obwoluty."@pl,
+        "Sobrecapa de papel impressa e removível para livro de capa dura — frente, lombada e verso com orelhas dobradas; protege a capa e leva o design da sobrecapa."@pt,
+        "Ett tryckt, löstagbart pappersomslag för en hårdbunden bok — framsida, rygg och baksida med invikta flikar; skyddar bandet och bär omslagsdesignen."@sv,
+        "包裹精装书的可拆卸印刷纸质护封——含封面、书脊、封底与内折勒口；保护书壳并承载护封设计。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§DUST-JACKETS" ;
+    skos:prefLabel "Smudsomslag"@da,
+        "Schutzumschläge"@de,
+        "Dust Jackets"@en,
+        "Sobrecubiertas"@es,
+        "डस्ट जैकेट"@hi,
+        "ブックジャケット"@ja,
+        "Smussomslag"@nb,
+        "Stofomslagen"@nl,
+        "Obwoluty"@pl,
+        "Sobrecapas"@pt,
+        "Skyddsomslag"@sv,
+        "书籍护封"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:perSurfaceSupportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/debossing>,
+        <https://ptpge.org/v1/printing/features/embellishments/embossing> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/silk> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/debossing>,
+        <https://ptpge.org/v1/printing/features/embellishments/embossing> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/silk> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases/branding> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:definition "Produkter brugt til at udtrykke og styrke brandidentitet gennem konsekvent visuelt og materielt design. Omfatter brandet kontorpapir, eksklusive visitkort, brandet emballage og corporate identity-materiale."@da,
+        "Produkte zur Ausdrucksstärke und Verstärkung der Markenidentität durch konsistentes visuelles und materielles Design."@de,
+        "Products used to express and reinforce brand identity through consistent visual and material design. Includes branded stationery, premium business cards, branded packaging, and corporate identity materials."@en,
+        "Productos usados para expresar y reforzar la identidad de marca mediante un diseño visual y material consistente. Incluye papelería corporativa, tarjetas de visita premium, packaging de marca y materiales de identidad corporativa."@es,
+        "एकरूप दृश्य और सामग्री डिज़ाइन से ब्रांड पहचान व्यक्त और सुदृढ़ करने वाले उत्पाद। ब्रांडेड स्टेशनरी, प्रीमियम विज़िटिंग कार्ड, ब्रांडेड पैकेजिंग और कॉर्पोरेट पहचान सामग्री शामिल।"@hi,
+        "一貫したビジュアルと素材の設計を通じてブランドアイデンティティを表現・強化するための製品。ブランド文具、プレミアム名刺、ブランドパッケージ、コーポレートアイデンティティ資料を含む。"@ja,
+        "Produkter brukt for å uttrykke og forsterke merkevareidentitet gjennom konsekvent visuell og materiell design. Inkluderer brandede brevpapir, premium visittkort, brandet emballasje og virksomhetens identitetsmateriell."@nb,
+        "Producten die merkidentiteit uitdrukken en versterken door consistent visueel en materieel ontwerp. Omvat merkbriefpapier, premium visitekaartjes, merkverpakkingen en huisstijlmateriaal."@nl,
+        "Produkty służące wyrażaniu i wzmacnianiu tożsamości marki poprzez spójny projekt wizualny i materiałowy. Obejmuje papeterię firmową, wizytówki premium, opakowania z brandingiem i materiały identyfikacji korporacyjnej."@pl,
+        "Produtos usados para expressar e reforçar a identidade da marca por meio de design visual e material consistente. Inclui papelaria de marca, cartões de visita premium, embalagens de marca e materiais de identidade corporativa."@pt,
+        "Produkter som uttrycker och förstärker varumärkesidentitet genom konsekvent visuell och materiell design. Omfattar profilerat kontorsmateriel, exklusiva visitkort, varumärkesanpassade förpackningar och grafiskt identitetsmaterial."@sv,
+        "通过一致的视觉与材质设计表达并强化品牌形象的产品。包括品牌文具、高档名片、品牌包装与企业形象材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:UC§BRANDING" ;
+    skos:prefLabel "Branding"@da,
+        "Branding"@de,
+        "Branding"@en,
+        "Branding"@es,
+        "ब्रांडिंग"@hi,
+        "ブランディング"@ja,
+        "Merkevarebygging"@nb,
+        "Branding"@nl,
+        "Branding"@pl,
+        "Branding"@pt,
+        "Varumärkesprofilering"@sv,
+        "品牌建设"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "use-cases" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

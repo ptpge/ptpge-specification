@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/closed-gate-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Variant af portfalsen, hvor begge sidepaneler mødes præcist på midten og lukker inderpanelet helt, når den er foldet sammen. Bruges til eksklusive brochurer og invitations-reveals."@da,
+        "Variante des Altarfalzes, bei der beide Seitenflügel exakt in der Mitte aufeinandertreffen und das Innenfeld vollständig schließen, wenn das Falzprodukt geschlossen ist. Verwendet für hochwertige Broschüren und Einladungen mit Reveal-Effekt."@de,
+        "Variant of the gate fold where both side panels meet exactly at the center, fully closing the inside panel when folded shut. Used for premium brochures and invitation reveals."@en,
+        "Pliegue gate donde los paneles exteriores se cierran completamente sobre el panel central."@es,
+        "गेट फ़ोल्ड का वह रूप जिसमें दोनों बग़ल के पैनल ठीक बीच में मिलते हैं और बंद होने पर भीतरी पैनल को पूरी तरह ढक देते हैं। प्रीमियम ब्रोशर और निमंत्रण में।"@hi,
+        "観音折りのバリアントで、両側の面が中央でぴったり合わさり、折ったときに内側の面を完全に隠す。高級ブローシュアや招待状の演出に使用される。"@ja,
+        "Variant av gate fold der begge sidepanelene møtes nøyaktig på midten, og lukker helt inn det indre panelet når den folder. Brukt til premium-brosjyrer og invitasjon-avsløringer."@nb,
+        "Variant van de luikvouw waarbij beide zijpanelen elkaar precies in het midden raken en het binnenpaneel volledig afsluiten in gevouwen toestand. Gebruikt voor exclusieve brochures en uitnodigingsonthullingen."@nl,
+        "Wariant złamu okienkowego, w którym oba skrzydła boczne stykają się dokładnie na środku, całkowicie zakrywając skrzydło wewnętrzne po złożeniu. Stosowany w folderach premium i zaproszeniach z efektem odsłonięcia."@pl,
+        "Variante da dobra janela em que os dois painéis laterais se encontram exatamente no centro, fechando por completo o painel interno quando dobrado. Usada em folhetos premium e convites com revelação."@pt,
+        "Variant av portfalsen där båda sidopanelerna möts exakt i mitten och helt stänger den inre panelen i vikt läge. Används för exklusiva broschyrer och inbjudningar med avslöjandeeffekt."@sv,
+        "门折，外面板完全在中央面板上闭合。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§CLOSED-GATE-FOLD" ;
+    skos:prefLabel "Lukket portfals"@da,
+        "Geschlossener Altarfalz"@de,
+        "Closed Gate Fold"@en,
+        "Pliegue Gate Cerrado"@es,
+        "बंद गेट फ़ोल्ड"@hi,
+        "クローズドゲートフォールド"@ja,
+        "Lukket port-fold"@nb,
+        "Gesloten luikvouw"@nl,
+        "Złam okienkowy zamknięty"@pl,
+        "Dobra janela fechada"@pt,
+        "Sluten portfals"@sv,
+        "门折闭式"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

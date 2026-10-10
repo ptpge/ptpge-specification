@@ -1,0 +1,64 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/efi-fiery-xf",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "EFI Fiery XF",
+    "sv": "EFI Fiery XF",
+    "da": "EFI Fiery XF",
+    "nl": "EFI Fiery XF",
+    "pl": "EFI Fiery XF",
+    "pt": "EFI Fiery XF",
+    "hi": "EFI Fiery XF"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§EFI-FIERY-XF",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "EFI Fiery XF colour/ink management ecosystem for wide-format and proofing.",
+    "nb": "EFI Fiery XF farge-/blekkstyringsøkosystem for storformat og prøvetrykk.",
+    "de": "EFI Fiery XF — Farb-/Tintenmanagement-Ökosystem für Großformat und Proofing.",
+    "es": "Ecosistema de gestión de color/tinta EFI Fiery XF para gran formato y pruebas de color.",
+    "ja": "ワイドフォーマットとプルーフィングのための EFI Fiery XF カラー／インキ管理エコシステム。",
+    "zh-Hans": "面向宽幅与打样的 EFI Fiery XF 色彩/油墨管理生态系统。",
+    "sv": "EFI Fiery XF — ekosystem för färg-/bläckhantering inom storformat och provtryck.",
+    "da": "EFI Fiery XF — økosystem for farve-/blækstyring inden for storformat og prøvetryk.",
+    "nl": "EFI Fiery XF — ecosysteem voor kleur-/inktbeheer in grootformaat en proefdruk.",
+    "pl": "Ekosystem zarządzania barwą/farbą EFI Fiery XF dla druku wielkoformatowego i proofingu.",
+    "pt": "Ecossistema de gerenciamento de cor/tinta EFI Fiery XF para grande formato e provas.",
+    "hi": "वाइड-फॉर्मेट और प्रूफ़िंग के लिए EFI Fiery XF रंग/स्याही प्रबंधन पारितंत्र।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

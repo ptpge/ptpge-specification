@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards> ;
+    skos:definition "Filformater til at lagre og udveksle grafisk indhold — tekst, billeder, vektorgrafik og sidelayouts — gennem prepress- og trykleverancekæden."@da,
+        "Dateiformate zur Speicherung und zum Austausch grafischer Inhalte — Text, Bilder, Vektorgrafiken und Seitenlayouts — über die Druckvorstufen- und Drucklieferkette hinweg."@de,
+        "File formats used to store and exchange graphic content — text, images, vector art, and page layouts — across the prepress and printing supply chain."@en,
+        "Formatos de archivo utilizados para almacenar e intercambiar contenido gráfico — texto, imágenes, arte vectorial y maquetaciones — a lo largo de la cadena de suministro de pre-prensa e impresión."@es,
+        "प्रीप्रेस और मुद्रण आपूर्ति श्रृंखला में ग्राफ़िक सामग्री — पाठ, चित्र, वेक्टर कला और पेज लेआउट — संग्रहीत और विनिमय करने के फ़ाइल फ़ॉर्मेट।"@hi,
+        "製版および印刷のサプライチェーン全体で、グラフィックコンテンツ — テキスト、画像、ベクターアート、ページレイアウト — を保存・交換するために使用されるファイル形式。"@ja,
+        "Filformater som brukes til å lagre og utveksle grafisk innhold — tekst, bilder, vektorgrafikk og sideoppsett — gjennom trykkpreparasjons- og produksjonskjeden."@nb,
+        "Bestandsformaten om grafische inhoud op te slaan en uit te wisselen — tekst, beelden, vectorgraphics en paginalay-outs — door de prepress- en drukleveringsketen."@nl,
+        "Formaty plików używane do przechowywania i wymiany treści graficznych — tekstu, obrazów, grafiki wektorowej i układów stron — w łańcuchu dostaw prepress i druku."@pl,
+        "Formatos de arquivo usados para armazenar e trocar conteúdo gráfico — texto, imagens, arte vetorial e layouts de página — ao longo da cadeia de pré-impressão e impressão."@pt,
+        "Filformat för att lagra och utbyta grafiskt innehåll — text, bilder, vektorgrafik och sidlayouter — genom prepress- och tryckleveranskedjan."@sv,
+        "在印前和印刷供应链中用于存储和交换图形内容（文本、图像、矢量图、版面）的文件格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/vector-graphics> ;
+    skos:notation "P:ST-GFF" ;
+    skos:prefLabel "Grafiske filformater"@da,
+        "Grafische Dateiformate"@de,
+        "Graphic File Formats"@en,
+        "Formatos de Archivo Gráfico"@es,
+        "ग्राफ़िक फ़ाइल फ़ॉर्मेट"@hi,
+        "グラフィックファイル形式"@ja,
+        "Grafiske filformater"@nb,
+        "Grafische bestandsformaten"@nl,
+        "Formaty plików graficznych"@pl,
+        "Formatos de arquivo gráfico"@pt,
+        "Grafiska filformat"@sv,
+        "图形文件格式"@zh-Hans ;
+    skos:scopeNote "Umfasst Raster (PNG, JPEG, TIFF, RAW), Vektor (SVG), Hybrid (PDF und seine ISO-Varianten, EPS) und anwendungseigene Dateien (Adobe, Microsoft, Apple, QuarkXPress). Kompressionsalgorithmen, eingebettete Farbprofile und Schriftformate werden anderswo in der Taxonomie geführt."@de,
+        "Includes raster (PNG, JPEG, TIFF, RAW), vector (SVG), hybrid (PDF and its ISO variants, EPS), and native application files (Adobe, Microsoft, Apple, QuarkXPress). Compression algorithms, embedded color profiles, and font formats live elsewhere in the taxonomy."@en,
+        "Incluye raster (PNG, JPEG, TIFF, RAW), vectorial (SVG), híbridos (PDF y sus variantes ISO, EPS) y archivos nativos de aplicación (Adobe, Microsoft, Apple, QuarkXPress). Los algoritmos de compresión y los perfiles de color embebidos se rastrean dentro de cada formato."@es,
+        "रास्टर (PNG, JPEG, TIFF, RAW), वेक्टर (SVG), हाइब्रिड (PDF और इसके ISO वेरिएंट, EPS) और नेटिव एप्लिकेशन फ़ाइलें (Adobe, Microsoft, Apple, QuarkXPress) शामिल। संपीड़न एल्गोरिदम, एम्बेडेड रंग प्रोफ़ाइल और फ़ॉन्ट फ़ॉर्मेट वर्गीकरण में अन्यत्र।"@hi,
+        "ラスター（PNG、JPEG、TIFF、RAW）、ベクター（SVG）、ハイブリッド（PDFおよびそのISOバリアント、EPS）、ネイティブアプリケーションファイル（Adobe、Microsoft、Apple、QuarkXPress）を含む。圧縮アルゴリズム、埋め込みカラープロファイル、フォント形式は他の場所に分類される。"@ja,
+        "Inkluderer raster (PNG, JPEG, TIFF, RAW), vektor (SVG), hybride (PDF og dets ISO-varianter, EPS), og programspesifikke filer (Adobe, Microsoft, Apple, QuarkXPress). Komprimeringsalgoritmer, innebygde fargeprofiler og fontformater hører til andre steder i taksonomien."@nb,
+        "Inclui raster (PNG, JPEG, TIFF, RAW), vetorial (SVG), híbrido (PDF e suas variantes ISO, EPS) e arquivos nativos de aplicativos (Adobe, Microsoft, Apple, QuarkXPress). Algoritmos de compressão, perfis de cor incorporados e formatos de fonte ficam em outra parte da taxonomia."@pt,
+        "包括位图（PNG、JPEG、TIFF、RAW）、矢量（SVG）、混合（PDF及其ISO变体、EPS）和应用原生文件（Adobe、Microsoft、Apple、QuarkXPress）。压缩算法和嵌入的色彩配置文件在各格式内单独跟踪。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

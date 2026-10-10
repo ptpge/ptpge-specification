@@ -1,0 +1,66 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution/delivery-methods/pickup",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS§PICKUP",
+  "level": "element",
+  "label": {
+    "en": "Pickup / Collection",
+    "nb": "Henting",
+    "de": "Abholung",
+    "es": "Recogida",
+    "ja": "店頭受取",
+    "zh-Hans": "自提",
+    "sv": "Avhämtning",
+    "da": "Afhentning",
+    "nl": "Afhalen",
+    "pl": "Odbiór osobisty",
+    "pt": "Retirada",
+    "hi": "पिकअप / कलेक्शन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering/distribution/delivery-methods",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "Click and collect",
+      "Collection",
+      "Will-call"
+    ],
+    "pl": [
+      "click and collect",
+      "odbiór",
+      "odbiór w punkcie"
+    ],
+    "pt": [
+      "retirar na loja",
+      "retirada no local",
+      "click and collect"
+    ],
+    "hi": [
+      "क्लिक एंड कलेक्ट",
+      "स्वयं पिकअप",
+      "दुकान से लेना"
+    ]
+  },
+  "definition": {
+    "en": "Pickup / Collection — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data.",
+    "nb": "Pickup / Collection — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data.",
+    "de": "Abholung — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4).",
+    "es": "Recogida — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4).",
+    "ja": "店頭受取 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。",
+    "zh-Hans": "自提——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。",
+    "sv": "Avhämtning — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4).",
+    "da": "Afhentning — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4).",
+    "nl": "Afhalen — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4).",
+    "pl": "Odbiór osobisty — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4).",
+    "pt": "Retirada — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4).",
+    "hi": "पिकअप / कलेक्शन — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "DL (110 x 220 mm)",
+    "es": "DL (110 × 220 mm)",
+    "zh-Hans": "DL (110 × 220 mm)",
+    "nb": "DL (110 x 220 mm)",
+    "de": "DL (110 x 220 mm)",
+    "ja": "DL (110 x 220 mm)",
+    "nl": "DL (110 x 220 mm)",
+    "sv": "DL (110 x 220 mm)",
+    "da": "DL (110 x 220 mm)",
+    "pl": "DL (110 x 220 mm)",
+    "pt": "DL (110 x 220 mm)",
+    "hi": "DL (110 x 220 mm)"
+  },
+  "altLabels": {
+    "en": [
+      "DL Envelope",
+      "110 x 220 mm",
+      "110x220",
+      "110×220",
+      "11 x 22 cm",
+      "DL envelope",
+      "DL size"
+    ],
+    "nb": [
+      "DL-konvolutt"
+    ],
+    "pl": [
+      "koperta DL",
+      "koperta podłużna"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§DL",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "110 × 220 mm. The most common envelope size in Europe, sized to hold an A4 sheet folded in three. Used for business correspondence, invoices, and direct-mail. The designation comes from 'DIN Lang', the German long-format standard.",
+    "nb": "110 × 220 mm. Den vanligste konvoluttstørrelsen i Europa, dimensjonert for å romme et A4-ark brettet i tre. Brukes til forretningskorrespondanse, fakturaer og direkte­reklame. Forkortelsen kommer fra «DIN Lang», den tyske langformat-standarden.",
+    "de": "110 × 220 mm. Das verbreitetste Briefumschlagformat in Europa, dimensioniert zur Aufnahme eines dreimal gefalteten A4-Bogens. Verwendet für Geschäftskorrespondenz, Rechnungen und Direktwerbung. Die Bezeichnung leitet sich vom deutschen Standard „DIN Lang“ ab.",
+    "ja": "110×220mm。欧州で最も一般的な封筒サイズで、A4を3つ折りで収納するように設計されている。ビジネス通信、請求書、ダイレクトメールに使用される。名称はドイツの長尺形式規格「DIN Lang」に由来する。",
+    "es": "Sobre DL — formato comercial estándar internacional, contiene un A4 doblado en tres. El sobre más común en correspondencia europea.",
+    "zh-Hans": "DL信封 —— 国际标准商业格式，装对折三次的A4。欧洲商业通信中最常见的信封。",
+    "sv": "110 × 220 mm. Det vanligaste kuvertformatet i Europa, dimensionerat för ett A4-ark vikt i tre delar. Används för affärskorrespondens, fakturor och direktreklam. Beteckningen kommer från 'DIN Lang', den tyska långformatsstandarden.",
+    "da": "110 × 220 mm. Det mest almindelige kuvertformat i Europa, dimensioneret til et A4-ark foldet i tre dele. Bruges til forretningskorrespondance, fakturaer og direct mail. Betegnelsen kommer fra 'DIN Lang', den tyske langformatstandard.",
+    "nl": "110 × 220 mm. Het meest gangbare envelopformaat in Europa, bemeten voor een in drieën gevouwen A4-vel. Gebruikt voor zakelijke correspondentie, facturen en direct mail. De aanduiding komt van 'DIN Lang', de Duitse langwerpige standaard.",
+    "pl": "110 × 220 mm. Najpopularniejszy format koperty w Europie, dobrany do arkusza A4 złożonego na trzy. Używany do korespondencji biznesowej, faktur i direct mail. Oznaczenie pochodzi od „DIN Lang”, niemieckiego standardu formatu podłużnego.",
+    "pt": "110 × 220 mm. O tamanho de envelope mais comum na Europa, feito para uma folha A4 dobrada em três. Usado em correspondência comercial, faturas e mala direta. A designação vem de «DIN Lang», o padrão alemão de formato longo.",
+    "hi": "110 × 220 mm. यूरोप का सबसे आम लिफ़ाफ़ा आकार, तीन में मुड़ी A4 शीट के लिए। व्यावसायिक पत्राचार, इनवॉइस और डायरेक्ट मेल में। नाम «DIN Lang» — जर्मन लंबे-फ़ॉर्मेट मानक — से आया है।"
+  },
+  "properties": {
+    "width": 110,
+    "height": 220,
+    "unit": "mm",
+    "aspectRatio": 2.0,
+    "standard": "ISO 269",
+    "area": 24200
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

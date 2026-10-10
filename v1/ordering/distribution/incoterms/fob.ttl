@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/distribution/incoterms/fob> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "FOB"@en,
+        "Free on Board"@en,
+        "FOB"@hi,
+        "Free on Board"@hi,
+        "FOB"@pl,
+        "Franco statek"@pl,
+        "Free on Board"@pl,
+        "FOB"@pt,
+        "Free on Board"@pt ;
+    skos:broader <https://ptpge.org/v1/ordering/distribution/incoterms> ;
+    skos:definition "FOB (Free on Board) — en Incoterms® 2020-handelsklausul (ICC), der definerer fordelingen af omkostninger, risiko og ansvar mellem køber og sælger. Kun til reference; ICC er den autoritative kilde. Transportform: sø- og indlandsvandvejstransport."@da,
+        "FOB (Frei an Bord) — eine Incoterms®-2020-Handelsklausel (ICC), die die Verteilung von Kosten, Risiko und Verantwortung zwischen Käufer und Verkäufer festlegt. Nur zur Referenz; maßgeblich ist die ICC. Geeignet für den See- und Binnenschiffstransport."@de,
+        "FOB (Free on Board) — an Incoterms® 2020 trade term (ICC) defining the division of cost, risk and responsibility between buyer and seller. Reference only; the ICC is authoritative. Transport mode: sea and inland waterway."@en,
+        "FOB (Franco a bordo) — un término comercial Incoterms® 2020 (ICC) que define el reparto de costes, riesgo y responsabilidad entre comprador y vendedor. Solo referencia; la ICC es la autoridad. Modo de transporte: marítimo y vías navegables interiores."@es,
+        "FOB (Free on Board) — Incoterms® 2020 व्यापार शर्त (ICC) जो खरीदार और विक्रेता के बीच लागत, जोखिम और ज़िम्मेदारी के बँटवारे को परिभाषित करती है। केवल संदर्भ; ICC प्रामाणिक है। परिवहन माध्यम: समुद्री और अंतर्देशीय जलमार्ग।"@hi,
+        "FOB（本船渡し） — 買い手と売り手の間の費用・リスク・責任の分担を定める Incoterms® 2020 の貿易条件（ICC）。参照用であり、正文は ICC。輸送手段：海上・内陸水路輸送。"@ja,
+        "FOB (Free on Board) — et Incoterms® 2020-handelsvilkår (ICC) som definerer fordelingen av kostnad, risiko og ansvar mellom kjøper og selger. Kun referanse; ICC er autoritativ. Transportmodus: sjø og innlands vannvei."@nb,
+        "FOB (Free on Board) — een Incoterms® 2020-handelsterm (ICC) die de verdeling van kosten, risico en verantwoordelijkheid tussen koper en verkoper definieert. Uitsluitend ter referentie; de ICC is de gezaghebbende bron. Vervoerswijze: zee- en binnenvaarttransport."@nl,
+        "FOB (Franco statek) — reguła handlowa Incoterms® 2020 (ICC) definiująca podział kosztów, ryzyka i odpowiedzialności między kupującym a sprzedającym. Wyłącznie odniesienie; źródłem autorytatywnym jest ICC. Rodzaj transportu: morski i śródlądowy."@pl,
+        "FOB (Free on Board) — termo comercial Incoterms® 2020 (ICC) que define a divisão de custo, risco e responsabilidade entre comprador e vendedor. Apenas referência; a ICC é a fonte autoritativa. Modal de transporte: marítimo e hidroviário interior."@pt,
+        "FOB (Free on Board) — en handelsterm i Incoterms® 2020 (ICC) som definierar fördelningen av kostnad, risk och ansvar mellan köpare och säljare. Endast referens; ICC är auktoritativ. Transportsätt: sjöfart och transport på inre vattenvägar."@sv,
+        "FOB（船上交货）——Incoterms® 2020 贸易术语（ICC），界定买卖双方在费用、风险与责任上的划分。仅供参考，以 ICC 正文为准。运输方式：海运及内河水运。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:DS§FOB" ;
+    skos:prefLabel "FOB — Free on Board"@da,
+        "FOB — Frei an Bord"@de,
+        "FOB — Free on Board"@en,
+        "FOB — Franco a bordo"@es,
+        "FOB — जहाज़ पर मुक्त"@hi,
+        "FOB — 本船渡し"@ja,
+        "FOB — Free on Board"@nb,
+        "FOB — Free on Board"@nl,
+        "FOB — Franco statek"@pl,
+        "FOB — Livre a Bordo"@pt,
+        "FOB — Free on Board"@sv,
+        "FOB — 船上交货"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "distribution" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

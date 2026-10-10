@@ -1,0 +1,93 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/order/quantity",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:OR§QUANTITY",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Quantity",
+    "nb": "Antall",
+    "de": "Auflage",
+    "es": "Cantidad",
+    "ja": "数量",
+    "zh-Hans": "数量",
+    "sv": "Kvantitet",
+    "da": "Antal",
+    "nl": "Aantal",
+    "pl": "Nakład",
+    "pt": "Quantidade",
+    "hi": "मात्रा"
+  },
+  "altLabels": {
+    "en": [
+      "Copies",
+      "Print Run",
+      "Volume"
+    ],
+    "nb": [
+      "Opplag",
+      "Eksemplarer",
+      "Antall eksemplarer",
+      "Eks"
+    ],
+    "pl": [
+      "egzemplarze",
+      "ilość",
+      "liczba sztuk",
+      "wolumen"
+    ],
+    "pt": [
+      "exemplares",
+      "tiragem",
+      "volume",
+      "unidades"
+    ],
+    "hi": [
+      "प्रतियाँ",
+      "प्रिंट रन",
+      "संख्या",
+      "क्वांटिटी"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Quantity. A printed product is configured along this variable (numeric, single selection, in copies). A numeric literal — no enumerated domain.",
+    "nb": "Konfigurerbar akse: Antall. Et trykkprodukt konfigureres langs denne variabelen (numeric, single valg, i copies). Numerisk verdi — ingen opptalt domene.",
+    "de": "Konfigurierbare Achse: Auflage. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (numerisch, Einfachauswahl, in Exemplaren). Numerischer Wert — keine aufgezählte Wertemenge.",
+    "es": "Eje configurable: Cantidad. Un producto impreso se configura a lo largo de esta variable (numérico, selección única, en ejemplares). Un literal numérico — sin dominio enumerado.",
+    "ja": "構成可能な軸：数量。印刷物はこの変数に沿って構成される（数値、単一選択、部数単位）。数値リテラル — 列挙された定義域はない。",
+    "zh-Hans": "可配置轴：数量。印刷品沿此变量进行配置（数值，单选，以份计）。数值字面量——无枚举定义域。",
+    "sv": "Konfigurerbar axel: Kvantitet. En trycksak konfigureras längs denna variabel (numerisk, enkelval, i exemplar). En numerisk literal — ingen uppräknad domän.",
+    "da": "Konfigurerbar akse: Antal. Et trykt produkt konfigureres langs denne variabel (numerisk, enkeltvalg, i eksemplarer). En numerisk literal — intet enumereret domæne.",
+    "nl": "Configureerbare as: Aantal. Een drukproduct wordt langs deze variabele geconfigureerd (numeriek, enkelvoudig, in exemplaren). Een numerieke literal — geen opgesomd domein.",
+    "pl": "Oś konfigurowalna: Nakład. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (numeryczna, wybór pojedynczy, w egzemplarzach). Literał liczbowy — brak dziedziny wyliczeniowej.",
+    "pt": "Eixo configurável: Quantidade. Um impresso é configurado ao longo desta variável (numérico, seleção única, em exemplares). Literal numérico — sem domínio enumerado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: मात्रा। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (संख्यात्मक, एकल चयन, प्रतियों में)। संख्यात्मक लिटरल — कोई enum डोमेन नहीं।"
+  },
+  "question": {
+    "en": "How many?",
+    "nb": "Hvor mange?",
+    "de": "Wie viele?",
+    "es": "¿Cuántos?",
+    "ja": "数量は？",
+    "zh-Hans": "多少份？",
+    "sv": "Hur många?",
+    "da": "Hvor mange?",
+    "nl": "Hoeveel?",
+    "pl": "Ile sztuk?",
+    "pt": "Quantos?",
+    "hi": "कितने?"
+  },
+  "datatype": "numeric",
+  "cardinality": "single",
+  "scope": "product",
+  "unit": "copies",
+  "rangeMin": 1,
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/order",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+  "type": "skos:Concept",
+  "version": "2026-08-22",
+  "status": "proposed",
+  "notation": "P:SB§COATED",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Coated",
+    "nb": "Bestrøket",
+    "de": "Gestrichen",
+    "es": "Estucado",
+    "ja": "塗工紙",
+    "zh-Hans": "涂布纸",
+    "sv": "Bestruket",
+    "da": "Bestrøget",
+    "nl": "Gestreken",
+    "pl": "Powlekany",
+    "pt": "Revestido (couché)",
+    "hi": "कोटेड"
+  },
+  "definition": {
+    "en": "Paper with a mineral coating applied to the base sheet, giving a closed, smooth printing surface with high ink holdout. The finish on top (gloss, silk, matte) is expressed via the surface axis.",
+    "nb": "Papir med mineralsk bestrykning på råpapiret, som gir en lukket, jevn trykkflate med høy fargeholdout. Finishen oppå (gloss, silk, matt) uttrykkes via overflate-aksen.",
+    "de": "Papier mit mineralischem Strich auf dem Rohpapier — geschlossene, glatte Druckoberfläche mit hohem Farbstand. Die Oberflächenanmutung (Glanz, Seidenmatt, Matt) wird über die Oberflächenachse ausgedrückt.",
+    "es": "Papel con estucado mineral aplicado sobre la hoja base, que da una superficie de impresión cerrada y lisa con alta retención de tinta. El acabado superior (brillo, seda, mate) se expresa mediante el eje de superficie.",
+    "ja": "原紙に鉱物性の塗工を施した紙。閉じた滑らかな印刷面と高いインキホールドアウトを持つ。表面の仕上がり（グロス、シルク、マット）は表面軸で表現される。",
+    "zh-Hans": "在原纸上施加矿物涂层的纸张，形成封闭、平滑的印刷表面，具有较高的油墨保留性。表面效果（光面、绸面、哑面）通过表面轴表达。",
+    "sv": "Papper med mineralbestrykning på baspappret, vilket ger en sluten, jämn tryckyta med hög färghållning. Ytkänslan (glans, silk, matt) uttrycks via ytaxeln.",
+    "da": "Papir med mineralsk bestrygning på basispapiret, der giver en lukket, glat trykflade med høj farveholdout. Finishen ovenpå (gloss, silk, mat) udtrykkes via overfladeaksen.",
+    "nl": "Papier met een minerale strijklaag op het basisvel, wat een gesloten, glad drukoppervlak met hoge inkt-holdout geeft. De afwerking erop (glans, zijdeglans, mat) wordt via de oppervlakte-as uitgedrukt.",
+    "pl": "Papier z powłoką mineralną naniesioną na arkusz bazowy, dającą zamkniętą, gładką powierzchnię drukową o wysokiej odporności na wsiąkanie farby. Wykończenie wierzchnie (błysk, satyna, mat) wyrażane jest osią powierzchni.",
+    "pt": "Papel com revestimento mineral aplicado à folha base, dando uma superfície de impressão fechada e lisa, com alta retenção de tinta. O acabamento por cima (brilho, acetinado, fosco) é expresso pelo eixo de superfície.",
+    "hi": "आधार शीट पर खनिज कोटिंग वाला काग़ज़, जो बंद, चिकनी छपाई सतह और उच्च इंक होल्डआउट देता है। ऊपर की फ़िनिश (ग्लॉस, सिल्क, मैट) सतह अक्ष से व्यक्त होती है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings",
+  "created": "2026-08-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media",
+        "MediaIntent"
+      ],
+      "refs": [
+        "§6.57 · p.229 · §4.11 · p.79"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 35"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "papier powlekany",
+      "kreda",
+      "papier kredowy"
+    ],
+    "pt": [
+      "couché",
+      "papel couché",
+      "revestido"
+    ],
+    "hi": [
+      "कोटेड पेपर",
+      "आर्ट पेपर",
+      "लेपित काग़ज़"
+    ]
+  }
+}

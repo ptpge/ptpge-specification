@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/winding-direction> a skos:Concept ;
+    dcterms:created "2026-09-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/v1/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations> ;
+    skos:definition "Hvordan en færdig etiket eller sticker ligger på rullen: rullet med tryksiden ud eller ind, og hvilken kant der forlader rullen først (top, bund, højre eller venstre). De otte positioner følger FINAT-nummereringen, der bruges i hele den selvklæbende etiketbranche (1–4 trykside ud, 5–8 trykside ind), og som XJDF overtager som Component/@WindingResult. Synligt for køberen: en applikator accepterer kun én retning."@da,
+        "Wie ein fertiges Etikett auf der Rolle liegt: mit der Druckseite außen oder innen gewickelt, und welche Kante die Rolle zuerst verlässt (oben, unten, rechts oder links). Die acht Positionen folgen der FINAT-Nummerierung der Haftetikettenbranche (1–4 Druckseite außen, 5–8 innen), die XJDF als Component/@WindingResult übernimmt. Käuferrelevant: ein Spender akzeptiert nur eine Richtung."@de,
+        "How a finished label or sticker sits on its roll: wound with the printed face outside or inside, and which edge of the label leaves the roll first (top, bottom, right or left). The eight positions follow the FINAT numbering used throughout the self-adhesive label trade (1–4 face out, 5–8 face in), which XJDF adopts as Component/@WindingResult. Buyer-visible: an applicator accepts one direction only."@en,
+        "Cómo queda una etiqueta o adhesivo acabado en su bobina: bobinado con la cara impresa hacia fuera o hacia dentro, y qué borde sale primero de la bobina (superior, inferior, derecho o izquierdo). Las ocho posiciones siguen la numeración FINAT usada en el sector de la etiqueta autoadhesiva (1–4 cara fuera, 5–8 cara dentro), que XJDF adopta como Component/@WindingResult. Visible para el comprador: una aplicadora acepta una sola dirección."@es,
+        "तैयार लेबल या स्टिकर रोल पर कैसे बैठता है: छपा चेहरा बाहर या अंदर लपेटा, और लेबल का कौन-सा किनारा रोल से पहले निकलता है (ऊपर, नीचे, दायाँ या बायाँ)। आठ स्थितियाँ स्वयं-चिपकने वाले लेबल उद्योग में प्रचलित FINAT क्रमांकन का पालन करती हैं (1–4 चेहरा बाहर, 5–8 चेहरा अंदर), जिसे XJDF Component/@WindingResult के रूप में अपनाता है। खरीदार को दिखने वाला: एप्लिकेटर केवल एक दिशा स्वीकार करता है।"@hi,
+        "仕上がったラベルやステッカーがロール上でどう巻かれているか：印刷面が外巻きか内巻きか、そしてどの辺が先に繰り出されるか（上・下・右・左）。8 つの位置は粘着ラベル業界で用いられる FINAT 番号（1〜4 が外巻き、5〜8 が内巻き）に従い、XJDF はこれを Component/@WindingResult として採用している。購入者に見える属性：ラベラーは一方向しか受け付けない。"@ja,
+        "Hvordan en ferdig etikett eller sticker ligger på rullen: viklet med trykksiden ut eller inn, og hvilken kant som forlater rullen først (topp, bunn, høyre eller venstre). De åtte posisjonene følger FINAT-nummereringen som brukes i hele etikettbransjen (1–4 trykkside ut, 5–8 trykkside inn), og som XJDF adopterer som Component/@WindingResult. Kjøpersynlig: en applikator tar imot én retning."@nb,
+        "Hoe een afgewerkt etiket of sticker op de rol zit: gewikkeld met de bedrukte zijde buiten of binnen, en welke rand de rol als eerste verlaat (boven, onder, rechts of links). De acht posities volgen de FINAT-nummering die in de zelfklevende-etikettenbranche wordt gebruikt (1–4 beeld buiten, 5–8 beeld binnen), door XJDF overgenomen als Component/@WindingResult. Zichtbaar voor de koper: een applicator accepteert één richting."@nl,
+        "Jak gotowa etykieta lub naklejka leży na roli: nawinięta zadrukowaną stroną na zewnątrz lub do wewnątrz oraz która krawędź etykiety schodzi z roli jako pierwsza (górna, dolna, prawa lub lewa). Osiem pozycji odpowiada numeracji FINAT używanej w całej branży etykiet samoprzylepnych (1–4 stroną na zewnątrz, 5–8 stroną do wewnątrz), którą XJDF przyjmuje jako Component/@WindingResult. Widoczne dla nabywcy: aplikator przyjmuje tylko jeden kierunek."@pl,
+        "Como um rótulo ou adesivo acabado fica no rolo: enrolado com a face impressa para fora ou para dentro, e qual borda do rótulo sai primeiro do rolo (superior, inferior, direita ou esquerda). As oito posições seguem a numeração FINAT usada em todo o setor de etiquetas autoadesivas (1–4 face para fora, 5–8 face para dentro), que o XJDF adota como Component/@WindingResult. Visível ao comprador: um aplicador aceita apenas um sentido."@pt,
+        "Hur en färdig etikett eller dekal sitter på rullen: rullad med tryckytan utåt eller inåt, och vilken kant som lämnar rullen först (topp, botten, höger eller vänster). De åtta lägena följer FINAT-numreringen som används i hela den självhäftande etikettbranschen (1–4 tryck ut, 5–8 tryck in), som XJDF tar upp som Component/@WindingResult. Synligt för köparen: en applikator tar bara en riktning."@sv,
+        "成品标签或贴纸在卷上的方式：印刷面朝外或朝内卷绕，以及哪一边先出卷（上、下、右或左）。八个位置遵循不干胶标签行业通用的 FINAT 编号（1–4 面朝外，5–8 面朝内），XJDF 将其采用为 Component/@WindingResult。买方可见：贴标机只接受一种方向。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/winding-direction/finat-1>,
+        <https://ptpge.org/v1/printing/configurations/winding-direction/finat-2>,
+        <https://ptpge.org/v1/printing/configurations/winding-direction/finat-3>,
+        <https://ptpge.org/v1/printing/configurations/winding-direction/finat-4>,
+        <https://ptpge.org/v1/printing/configurations/winding-direction/finat-5>,
+        <https://ptpge.org/v1/printing/configurations/winding-direction/finat-6>,
+        <https://ptpge.org/v1/printing/configurations/winding-direction/finat-7>,
+        <https://ptpge.org/v1/printing/configurations/winding-direction/finat-8> ;
+    skos:notation "P:CF-WDR" ;
+    skos:prefLabel "Rulleretning"@da,
+        "Wickelrichtung"@de,
+        "Winding Direction"@en,
+        "Sentido de bobinado"@es,
+        "वाइंडिंग दिशा"@hi,
+        "巻き方向"@ja,
+        "Viklingsretning"@nb,
+        "Wikkelrichting"@nl,
+        "Kierunek nawijania"@pl,
+        "Sentido de enrolamento"@pt,
+        "Rullriktning"@sv,
+        "卷绕方向"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.38 · p.113",
+                "§6.18 · p.176" ;
+            ptpge:mappingRow "Component@WindingResult" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Component",
+                "Component@WindingResult",
+                "Winding" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-05" .
+

@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/knowledge/templates> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/knowledge> ;
+    skos:definition "Designfil-skabeloner til download, forudindstillet til almindelige trykspecifikationer. Organiseret efter designprogram (Adobe InDesign, Adobe Illustrator, Adobe PDF). Hver skabelon refererer via skos:related til de filformatstandarder, den producerer."@da,
+        "Herunterladbare Design-Dateivorlagen, vorkonfiguriert für gängige Druckproduktspezifikationen. Gegliedert nach Designanwendung (Adobe InDesign, Adobe Illustrator, Adobe PDF). Jede Vorlage verweist über skos:related auf die Dateiformatstandards, die sie produziert."@de,
+        "Downloadable design file templates pre-configured for common print product specifications. Organised by design application (Adobe InDesign, Adobe Illustrator, Adobe PDF). Each template references the file-format standards it produces via skos:related."@en,
+        "Plantillas de archivos de diseño descargables, preconfiguradas para especificaciones comunes de productos impresos. Organizadas por aplicación de diseño (Adobe InDesign, Adobe Illustrator, Adobe PDF). Cada plantilla referencia mediante skos:related las normas de formato de archivo que produce."@es,
+        "सामान्य मुद्रित-उत्पाद विनिर्देशों के लिए पहले से कॉन्फ़िगर किए गए, डाउनलोड योग्य डिज़ाइन फ़ाइल टेम्पलेट। डिज़ाइन एप्लिकेशन (Adobe InDesign, Adobe Illustrator, Adobe PDF) के अनुसार व्यवस्थित। हर टेम्पलेट skos:related के ज़रिए उन फ़ाइल-फ़ॉर्मेट मानकों को संदर्भित करता है जिन्हें वह उत्पन्न करता है।"@hi,
+        "一般的な印刷物仕様に合わせて事前設定された、ダウンロード可能なデザインファイルテンプレート。デザインアプリケーション（Adobe InDesign、Adobe Illustrator、Adobe PDF）別に整理されている。各テンプレートは生成するファイル形式規格をskos:relatedで参照する。"@ja,
+        "Nedlastbare design-fil-maler forhåndskonfigurert for vanlige trykkprodukt-spesifikasjoner. Organisert etter design-applikasjon (Adobe InDesign, Adobe Illustrator, Adobe PDF). Hver mal refererer filformat-standardene den produserer via skos:related."@nb,
+        "Downloadbare ontwerpbestandssjablonen, vooraf ingesteld op veelvoorkomende drukspecificaties. Georganiseerd per ontwerpprogramma (Adobe InDesign, Adobe Illustrator, Adobe PDF). Elk sjabloon verwijst via skos:related naar de bestandsformaatstandaarden die het produceert."@nl,
+        "Szablony plików projektowych do pobrania, wstępnie skonfigurowane dla typowych specyfikacji produktów drukowanych. Uporządkowane według aplikacji projektowej (Adobe InDesign, Adobe Illustrator, Adobe PDF). Każdy szablon odwołuje się poprzez skos:related do standardów formatów plików, które wytwarza."@pl,
+        "Modelos de arquivo de design para download, pré-configurados para especificações comuns de impressos. Organizados por aplicativo de design (Adobe InDesign, Adobe Illustrator, Adobe PDF). Cada modelo referencia via skos:related as normas de formato de arquivo que produz."@pt,
+        "Nedladdningsbara designfilsmallar förkonfigurerade för vanliga tryckproduktspecifikationer. Organiserade per designprogram (Adobe InDesign, Adobe Illustrator, Adobe PDF). Varje mall refererar de filformatstandarder den producerar via skos:related."@sv,
+        "可下载的设计文件模板，已针对常见印刷品规格预先配置。按设计应用程序（Adobe InDesign、Adobe Illustrator、Adobe PDF）组织。每个模板通过 skos:related 引用其生成的文件格式标准。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/knowledge/templates/adobe-illustrator>,
+        <https://ptpge.org/v1/ordering/knowledge/templates/adobe-indesign>,
+        <https://ptpge.org/v1/ordering/knowledge/templates/adobe-pdf> ;
+    skos:notation "O:KN-TPL" ;
+    skos:prefLabel "Skabeloner"@da,
+        "Vorlagen"@de,
+        "Templates"@en,
+        "Plantillas"@es,
+        "टेम्पलेट"@hi,
+        "テンプレート"@ja,
+        "Maler"@nb,
+        "Sjablonen"@nl,
+        "Szablony"@pl,
+        "Modelos de arquivo"@pt,
+        "Mallar"@sv,
+        "模板"@zh-Hans ;
+    ptpge:group "knowledge" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

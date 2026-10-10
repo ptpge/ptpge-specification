@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/paper-size-standards> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "formaty papieru"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/standards> ;
+    skos:definition "Internationalt anerkendte systemer, der specificerer fysiske dimensioner for skårne ark, kuverter og kontormateriel til tryk."@da,
+        "International anerkannte Systeme zur Festlegung der physischen Maße für zugeschnittene Bogen, Briefumschläge und Korrespondenzpapier im Druckbereich."@de,
+        "Internationally recognized systems specifying the physical dimensions of cut sheets, envelopes, and stationery for printing."@en,
+        "Sistemas reconocidos internacionalmente que especifican las dimensiones físicas de hojas cortadas, sobres y papelería para impresión."@es,
+        "मुद्रण के लिए कटी शीटों, लिफ़ाफ़ों और स्टेशनरी के भौतिक आयाम निर्दिष्ट करने वाली अंतरराष्ट्रीय मान्य प्रणालियाँ।"@hi,
+        "印刷用の断裁シート、封筒、文房具の物理的寸法を規定する、国際的に認知されたシステム。"@ja,
+        "Internasjonalt anerkjente systemer som spesifiserer fysiske dimensjoner for arkutskrift, konvolutter og brevpapir til trykkproduksjon."@nb,
+        "Internationaal erkende systemen die de fysieke afmetingen specificeren van gesneden vellen, enveloppen en kantoormateriaal voor druk."@nl,
+        "Międzynarodowo uznane systemy określające fizyczne wymiary ciętych arkuszy, kopert i papeterii do druku."@pl,
+        "Sistemas reconhecidos internacionalmente que especificam as dimensões físicas de folhas cortadas, envelopes e papelaria para impressão."@pt,
+        "Internationellt erkända system som specificerar fysiska dimensioner för skurna ark, kuvert och kontorsmateriel för tryck."@sv,
+        "国际认可的、规定印刷用切张、信封和文具物理尺寸的系统。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/paper-size-standards/ansi-paper-sizes>,
+        <https://ptpge.org/v1/printing/standards/paper-size-standards/arch-paper-sizes>,
+        <https://ptpge.org/v1/printing/standards/paper-size-standards/iso-216-paper-sizes>,
+        <https://ptpge.org/v1/printing/standards/paper-size-standards/iso-269-envelope-sizes>,
+        <https://ptpge.org/v1/printing/standards/paper-size-standards/japanese-paper-sizes> ;
+    skos:notation "P:ST-PSS" ;
+    skos:prefLabel "Papirformatstandarder"@da,
+        "Papierformatstandards"@de,
+        "Paper Size Standards"@en,
+        "Normas de Tamaño de Papel"@es,
+        "काग़ज़ आकार मानक"@hi,
+        "用紙サイズ規格"@ja,
+        "Papirformat-standarder"@nb,
+        "Papierformaatstandaarden"@nl,
+        "Standardy formatów papieru"@pl,
+        "Normas de tamanho de papel"@pt,
+        "Pappersformatstandarder"@sv,
+        "纸张尺寸标准"@zh-Hans ;
+    skos:scopeNote "Umfasst ISO 216 (A-, B-, C-Reihe — weltweit außerhalb Nordamerikas verwendet), ANSI/US (Letter, Legal, Tabloid), Architectural (Arch A–E), japanische JIS (B-Reihe) und ISO-269-Briefumschlagformate. Sonder- und branchenspezifische Zuschnittformate sind nicht Teil dieser Normen."@de,
+        "Covers ISO 216 (A, B, C series — used worldwide outside North America), ANSI/US (Letter, Legal, Tabloid), Architectural (Arch A–E), Japanese JIS (B series), and ISO 269 envelope formats. Custom and industry-specific cut sizes are not part of these standards."@en,
+        "Cubre ISO 216 (series A, B, C — usadas mundialmente fuera de Norteamérica), ANSI/EE. UU. (Carta, Oficio, Tabloide), arquitectónico (Arch A–E), JIS japonés (serie B) y formatos de sobre ISO 269. Tamaños personalizados y específicos de cada región se rastrean dentro de cada sub-categoría."@es,
+        "ISO 216 (A, B, C श्रृंखला — उत्तर अमेरिका के बाहर दुनिया भर में), ANSI/US (Letter, Legal, Tabloid), आर्किटेक्चरल (Arch A–E), जापानी JIS (B श्रृंखला) और ISO 269 लिफ़ाफ़ा फ़ॉर्मेट शामिल। कस्टम और उद्योग-विशिष्ट कट आकार इन मानकों का हिस्सा नहीं।"@hi,
+        "ISO 216（A、B、Cシリーズ — 北米以外の世界中で使用）、ANSI/US（Letter、Legal、Tabloid）、Architectural（Arch A〜E）、日本のJIS（Bシリーズ）、ISO 269封筒形式を扱う。カスタムおよび業種固有の断裁寸法はこれらの規格に含まれない。"@ja,
+        "Dekker ISO 216 (A-, B-, C-serien — brukt globalt utenom Nord-Amerika), ANSI/US (Letter, Legal, Tabloid), Architectural (Arch A–E), japansk JIS (B-serie) og ISO 269-konvoluttformater. Tilpassede og bransjespesifikke størrelser hører ikke til disse standardene."@nb,
+        "Cobre ISO 216 (séries A, B, C — usadas em todo o mundo fora da América do Norte), ANSI/EUA (Letter, Legal, Tabloid), Arquitetural (Arch A–E), JIS japonês (série B) e formatos de envelope ISO 269. Tamanhos de corte personalizados e específicos do setor não fazem parte dessas normas."@pt,
+        "涵盖ISO 216（A、B、C系列——在北美以外全球使用）、美国ANSI（Letter、Legal、Tabloid）、建筑系列（Arch A–E）、日本JIS（B系列）和ISO 269信封格式。定制和地区特有尺寸在各子分类下跟踪。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 2" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/europe> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/geography> ;
+    skos:definition "Europa — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering."@da,
+        "Regionale Gruppierung Europa. Enthält länderspezifische Unterteilungen und subregionale Gruppierungen (Nordeuropa, DACH) zur Verwendung als geografische Facette in der Produktspezifikation, regionalen Standards (Papierformatkonventionen, Zertifizierungen), Lieferantenlisten und Versand-/Lieferzonen."@de,
+        "European region grouping. Contains country-level subdivisions and sub-regional groupings (Nordic, DACH, BeNeLux) for use as geographic facets in product specification, regional standards (paper size conventions, certifications), supplier listing, and shipping/delivery scoping."@en,
+        "Agrupación regional de Europa. Contiene subdivisiones a nivel de país y agrupaciones subregionales (Países nórdicos, DACH) para uso como faceta geográfica en la especificación de productos, normas regionales (convenciones de tamaño de papel, certificaciones), listados de proveedores y zonas de envío y entrega."@es,
+        "क्षेत्रीय समूह: यूरोप। उत्पाद विनिर्देश, क्षेत्रीय मानकों (काग़ज़ आकार की परंपराएँ, प्रमाणन), आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे में भौगोलिक पहलू के रूप में उपयोग के लिए देश-स्तरीय उपविभाग और उप-क्षेत्रीय समूह (नॉर्डिक, DACH, बेनेलक्स)।"@hi,
+        "ヨーロッパ地域のグループ。国レベルの細分と地域グループ（北欧、DACH）を含み、製品仕様、地域標準（用紙サイズ慣行、認証）、供給者リスト、配送ゾーンの地理的ファセットとして使用される。"@ja,
+        "Europa-regionen som gruppering. Inneholder land-nivå underinndelinger og under-regionale grupperinger (Norden, DACH) for bruk som geografisk fasett i produkt-spesifikasjon, regionale standarder (papirformat-konvensjoner, sertifiseringer), leverandør-lister og frakt/leverings-avgrensning."@nb,
+        "Europa — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering."@nl,
+        "Grupowanie regionalne dla Europy. Zawiera podziały na poziomie krajów oraz grupowania subregionalne (kraje nordyckie, DACH, Benelux), używane jako aspekty geograficzne w specyfikacji produktu, standardach regionalnych (konwencje formatów papieru, certyfikaty), listach dostawców i zakresie wysyłki/dostawy."@pl,
+        "Agrupamento regional: Europa. Contém subdivisões de nível de país e agrupamentos sub-regionais (Nórdicos, DACH, Benelux) para uso como facetas geográficas em especificação de produto, normas regionais (convenções de tamanho de papel, certificações), listagem de fornecedores e delimitação de envio/entrega."@pt,
+        "Europeisk regiongruppering. Innehåller underindelningar på landsnivå och subregionala grupperingar (Norden, DACH, Benelux), för användning som geografiska facetter i produktspecifikation, regionala standarder (pappersformatkonventioner, certifieringar), leverantörslistning och avgränsning av frakt och leverans."@sv,
+        "欧洲区域分组。包含国家级细分以及次区域分组（北欧、DACH），作为产品规格、地区标准（纸张规格惯例、认证）、供应商列表和发货/配送范围的地理分面使用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/geography/europe/albania>,
+        <https://ptpge.org/v1/ordering/geography/europe/andorra>,
+        <https://ptpge.org/v1/ordering/geography/europe/belarus>,
+        <https://ptpge.org/v1/ordering/geography/europe/benelux>,
+        <https://ptpge.org/v1/ordering/geography/europe/bosnia-and-herzegovina>,
+        <https://ptpge.org/v1/ordering/geography/europe/bulgaria>,
+        <https://ptpge.org/v1/ordering/geography/europe/croatia>,
+        <https://ptpge.org/v1/ordering/geography/europe/cyprus>,
+        <https://ptpge.org/v1/ordering/geography/europe/czechia>,
+        <https://ptpge.org/v1/ordering/geography/europe/dach>,
+        <https://ptpge.org/v1/ordering/geography/europe/estonia>,
+        <https://ptpge.org/v1/ordering/geography/europe/france>,
+        <https://ptpge.org/v1/ordering/geography/europe/great-britain>,
+        <https://ptpge.org/v1/ordering/geography/europe/greece>,
+        <https://ptpge.org/v1/ordering/geography/europe/hungary>,
+        <https://ptpge.org/v1/ordering/geography/europe/ireland>,
+        <https://ptpge.org/v1/ordering/geography/europe/italy>,
+        <https://ptpge.org/v1/ordering/geography/europe/kosovo>,
+        <https://ptpge.org/v1/ordering/geography/europe/latvia>,
+        <https://ptpge.org/v1/ordering/geography/europe/liechtenstein>,
+        <https://ptpge.org/v1/ordering/geography/europe/lithuania>,
+        <https://ptpge.org/v1/ordering/geography/europe/malta>,
+        <https://ptpge.org/v1/ordering/geography/europe/moldova>,
+        <https://ptpge.org/v1/ordering/geography/europe/monaco>,
+        <https://ptpge.org/v1/ordering/geography/europe/montenegro>,
+        <https://ptpge.org/v1/ordering/geography/europe/nordic>,
+        <https://ptpge.org/v1/ordering/geography/europe/north-macedonia>,
+        <https://ptpge.org/v1/ordering/geography/europe/poland>,
+        <https://ptpge.org/v1/ordering/geography/europe/portugal>,
+        <https://ptpge.org/v1/ordering/geography/europe/romania>,
+        <https://ptpge.org/v1/ordering/geography/europe/russia>,
+        <https://ptpge.org/v1/ordering/geography/europe/san-marino>,
+        <https://ptpge.org/v1/ordering/geography/europe/serbia>,
+        <https://ptpge.org/v1/ordering/geography/europe/slovakia>,
+        <https://ptpge.org/v1/ordering/geography/europe/slovenia>,
+        <https://ptpge.org/v1/ordering/geography/europe/spain>,
+        <https://ptpge.org/v1/ordering/geography/europe/turkey>,
+        <https://ptpge.org/v1/ordering/geography/europe/ukraine>,
+        <https://ptpge.org/v1/ordering/geography/europe/vatican-city> ;
+    skos:notation "O:GY-EUR" ;
+    skos:prefLabel "Europa"@da,
+        "Europa"@de,
+        "Europe"@en,
+        "Europa"@es,
+        "यूरोप"@hi,
+        "ヨーロッパ"@ja,
+        "Europa"@nb,
+        "Europa"@nl,
+        "Europa"@pl,
+        "Europa"@pt,
+        "Europa"@sv,
+        "欧洲"@zh-Hans ;
+    ptpge:group "geography" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

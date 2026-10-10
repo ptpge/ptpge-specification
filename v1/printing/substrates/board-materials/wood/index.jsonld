@@ -1,0 +1,75 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/wood",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "P:SB-BRD-WOOD",
+  "label": {
+    "en": "Wood",
+    "nb": "Tre",
+    "de": "Holz",
+    "es": "Madera",
+    "ja": "木材",
+    "zh-Hans": "木材",
+    "sv": "Trä",
+    "da": "Træ",
+    "nl": "Hout",
+    "pl": "Drewno",
+    "pt": "Madeira",
+    "hi": "लकड़ी"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "definition": {
+    "en": "Rigid wood-based board substrates for printing and signage — solid timber panels and engineered/composite wood boards.",
+    "nb": "Rigide trebaserte plate-substrater for trykk og skilting — heltre-paneler og tekniske/kompositt treplater.",
+    "de": "Starre holzbasierte Plattensubstrate für Druck und Beschilderung — Massivholzplatten und Holzwerkstoffplatten.",
+    "ja": "印刷とサイン向けの木質系硬質基材 — 無垢材パネルとエンジニアード／複合木質ボード。",
+    "es": "Sustratos rígidos de base madera para impresión y señalización — paneles de madera maciza y tableros de madera compuesta/derivada.",
+    "zh-Hans": "用于印刷与标识的木质硬板材 — 实木板与工程/复合木板。",
+    "sv": "Styva träbaserade skivsubstrat för tryck och skyltning — massiva träpaneler och konstruerade/kompositträskivor.",
+    "da": "Stive træbaserede pladesubstrater til tryk og skiltning — massive træpaneler og konstruerede/kompositte træplader.",
+    "nl": "Stijve houtgebaseerde plaatsubstraten voor druk en signalisatie — massieve houten panelen en samengestelde/composiet houtplaten.",
+    "pl": "Sztywne podłoża drewnopochodne do druku i oznakowania — płyty z litego drewna oraz płyty drewnopochodne/kompozytowe.",
+    "pt": "Substratos rígidos à base de madeira para impressão e sinalização — painéis de madeira maciça e chapas de madeira engenheirada/composta.",
+    "hi": "छपाई और साइनेज के लिए कठोर लकड़ी-आधारित बोर्ड सब्सट्रेट — ठोस लकड़ी के पैनल और इंजीनियर्ड/कंपोज़िट लकड़ी के बोर्ड।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/solid",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft",
+    "pt": "draft",
+    "hi": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

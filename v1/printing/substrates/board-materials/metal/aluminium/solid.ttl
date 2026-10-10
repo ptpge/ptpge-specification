@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/solid> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "aluminium plate"@en,
+        "aluminium sheet"@en,
+        "solid aluminum"@en,
+        "एल्युमिनियम प्लेट"@hi,
+        "एल्युमिनियम शीट"@hi,
+        "ठोस एल्युमिनियम शीट"@hi,
+        "aluminiumsplate"@nb,
+        "aluminium pełne"@pl,
+        "blacha aluminiowa"@pl,
+        "płyta aluminiowa"@pl,
+        "alumínio maciço"@pt,
+        "chapa de alumínio"@pt,
+        "placa de alumínio"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium> ;
+    skos:definition "En stiv aluminiumsplade i ét lag."@da,
+        "Ein einlagiges starres Aluminiumblech."@de,
+        "A single-layer rigid aluminium sheet or plate."@en,
+        "Una chapa o placa rígida de aluminio de una sola capa."@es,
+        "एक-परत की कठोर एल्युमिनियम शीट या प्लेट।"@hi,
+        "単層の硬質アルミシートまたはプレート。"@ja,
+        "En enkeltlags rigid aluminiumsplate."@nb,
+        "Een stijve aluminiumplaat uit één laag."@nl,
+        "Jednowarstwowa sztywna blacha lub płyta aluminiowa."@pl,
+        "Chapa ou placa rígida de alumínio em camada única."@pt,
+        "En styv aluminiumplåt eller -skiva i ett enda skikt."@sv,
+        "单层硬质铝板或铝片。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§SOLID-ALUMINIUM" ;
+    skos:prefLabel "Massiv aluminium"@da,
+        "Vollaluminium"@de,
+        "Solid Aluminium"@en,
+        "Aluminio macizo"@es,
+        "ठोस एल्युमिनियम"@hi,
+        "ソリッドアルミ"@ja,
+        "Solid aluminium"@nb,
+        "Massief aluminium"@nl,
+        "Aluminium lite"@pl,
+        "Alumínio maciço"@pt,
+        "Massiv aluminium"@sv,
+        "实心铝"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

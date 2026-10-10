@@ -1,0 +1,81 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/us/half-letter",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Half Letter (5.5 x 8.5 in)",
+    "es": "Half Letter (140 × 216 mm / 5.5 × 8.5 in)",
+    "zh-Hans": "Half Letter (140 × 216 mm / 5.5 × 8.5 in)",
+    "nb": "Half Letter (5.5 x 8.5 in)",
+    "de": "Half Letter (5.5 x 8.5 in)",
+    "ja": "Half Letter (5.5 x 8.5 in)",
+    "nl": "Half Letter (5.5 x 8.5 in)",
+    "sv": "Half Letter (5.5 x 8.5 tum)",
+    "da": "Half Letter (5.5 x 8.5 tum)",
+    "pl": "Half Letter (5.5 x 8.5 in)",
+    "pt": "Half Letter (5.5 x 8.5 in)",
+    "hi": "Half Letter (5.5 x 8.5 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§HALF-LETTER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/us",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "5.5 × 8.5 in (139.7 × 215.9 mm). Half of US Letter (folded short edge). Used for booklets, notepads, and personal-size documents.",
+    "nb": "5,5 × 8,5 in (139,7 × 215,9 mm). Halv US Letter (brettet på den korte siden). Brukt til hefter, notatblokker og personlig-størrelse dokumenter.",
+    "de": "5,5 × 8,5 in (139,7 × 215,9 mm). Hälfte von US Letter (an der kurzen Kante gefaltet). Verwendet für Broschüren, Notizblöcke und Dokumente im persönlichen Format.",
+    "ja": "5.5×8.5インチ（139.7×215.9mm）。米国Letterの半分（短辺で折る）。ブックレット、ノートパッド、パーソナルサイズの書類に使用される。",
+    "es": "Media Carta, 5,5 × 8,5 pulgadas. Habitual para folletos, libretas y publicidad.",
+    "zh-Hans": "Half Letter，5.5 × 8.5英寸。常用于小册子、笔记本和广告。",
+    "sv": "5.5 × 8.5 tum (139.7 × 215.9 mm). Halva US Letter (vikt på kortsidan). Används för häften, anteckningsblock och dokument i personligt format.",
+    "da": "5.5 × 8.5 tommer (139.7 × 215.9 mm). Halvdelen af US Letter (foldet på den korte side). Bruges til hæfter, notesblokke og dokumenter i personligt format.",
+    "nl": "5.5 × 8.5 inch (139.7 × 215.9 mm). De helft van US Letter (gevouwen over de korte zijde). Gebruikt voor boekjes, notitieblokken en documenten in persoonlijk formaat.",
+    "pl": "5,5 × 8,5 cala (139,7 × 215,9 mm). Połowa US Letter (złożonego wzdłuż krótszej krawędzi). Używany do broszur, notatników i dokumentów formatu osobistego.",
+    "pt": "5.5 × 8.5 in (139.7 × 215.9 mm). Metade do US Letter (dobrado na borda curta). Usado em folhetos, blocos e documentos de tamanho pessoal.",
+    "hi": "5.5 × 8.5 in (139.7 × 215.9 mm). US Letter का आधा (छोटे किनारे से मुड़ा)। बुकलेट, नोटपैड और निजी आकार के दस्तावेज़ों में।"
+  },
+  "properties": {
+    "width": 5.5,
+    "height": 8.5,
+    "unit": "in",
+    "aspectRatio": 1.5455,
+    "standard": "ANSI",
+    "area": 46.75
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "5.5 x 8.5 in",
+      "5.5x8.5",
+      "5.5×8.5",
+      "Half Letter",
+      "Statement"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

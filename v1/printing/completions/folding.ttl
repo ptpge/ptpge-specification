@@ -1,0 +1,85 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Folds"@en,
+        "तह"@hi,
+        "फ़ोल्ड"@hi,
+        "मोड़"@hi,
+        "Brett"@nb,
+        "Fals"@nb,
+        "Falsing"@nb,
+        "złamy"@pl,
+        "dobradura"@pt,
+        "dobras"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Mekaniske operationer, der falser et trykt ark til et flerpanelsprodukt — folder, brochure, kort eller indstik. Falsemønstret bestemmer panelrækkefølgen og hvordan produktet åbner."@da,
+        "Mechanische Verfahren, die einen bedruckten Bogen zu einem mehrseitigen Produkt falzen — Faltblatt, Broschüre, Karte oder Beilage. Das Falzschema bestimmt die Seitenfolge und wie sich das Produkt öffnet."@de,
+        "Mechanical operations that fold a printed sheet into a multi-panel product — leaflet, brochure, map, or insert. The fold pattern determines the panel sequence and how the product opens."@en,
+        "Operaciones mecánicas que pliegan una hoja impresa en un producto de múltiples paneles — folleto, tríptico, mapa o encarte. El patrón de plegado determina la secuencia de los paneles y cómo se abre el producto."@es,
+        "यांत्रिक क्रियाएँ जो छपी शीट को बहु-पैनल उत्पाद में मोड़ती हैं — लीफ़लेट, ब्रोशर, नक़्शा या इन्सर्ट। फ़ोल्ड पैटर्न पैनलों का क्रम और उत्पाद के खुलने का तरीका तय करता है।"@hi,
+        "印刷されたシートを多面構成の製品（リーフレット、ブローシュア、地図、折込）に折る機械的工程。折りパターンが面の順序と製品の開き方を決定する。"@ja,
+        "Mekaniske operasjoner som folder et trykt ark til et flerpanel-produkt — flyer, brosjyre, kart eller innstikk. Foldemønsteret avgjør panelrekkefølgen og hvordan produktet åpnes."@nb,
+        "Mechanische bewerkingen die een bedrukt vel vouwen tot een meerpaneelproduct — folder, brochure, kaart of bijsluiter. Het vouwpatroon bepaalt de paneelvolgorde en hoe het product opent."@nl,
+        "Operacje mechaniczne składające zadrukowany arkusz w produkt wieloskrzydłowy — ulotkę, folder, mapę lub wkładkę. Wzór złamów określa kolejność skrzydeł i sposób otwierania produktu."@pl,
+        "Operações mecânicas que dobram uma folha impressa em um produto de vários painéis — folheto, brochura, mapa ou encarte. O padrão de dobra determina a sequência dos painéis e como o produto se abre."@pt,
+        "Mekaniska operationer som falsar ett tryckt ark till en flerpanelsprodukt — folder, broschyr, karta eller inlaga. Falsmönstret avgör panelernas ordningsföljd och hur produkten öppnas."@sv,
+        "将印刷张折叠成多面板产品的机械操作——传单、宣传册、地图或插页。折页模式决定面板顺序和产品打开方式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/folding/accordion-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/closed-gate-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/cross-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/cross-tri-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/double-closed-gate-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/double-parallel-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/gate-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/open-gate-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/roll-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/single-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/tri-fold>,
+        <https://ptpge.org/v1/printing/completions/folding/tri-fold-stand>,
+        <https://ptpge.org/v1/printing/completions/folding/z-fold> ;
+    skos:notation "P:CP-FOLD" ;
+    skos:prefLabel "Falsning"@da,
+        "Falzen"@de,
+        "Folding"@en,
+        "Plegado"@es,
+        "फ़ोल्डिंग"@hi,
+        "折り加工"@ja,
+        "Bretting"@nb,
+        "Vouwen"@nl,
+        "Falcowanie"@pl,
+        "Dobra"@pt,
+        "Falsning"@sv,
+        "折页"@zh-Hans ;
+    skos:scopeNote "Umfasst Einachsenfalze (Einbruchfalz, Wickelfalz, Zickzackfalz, Leporellofalz, Wickelfalz mit Rollung), Altarfalze (offen, geschlossen, doppelt), Parallel- und Kreuzfalze sowie Standfalz-Varianten. Die Falzung erfolgt auf speziellen Falzmaschinen oder inline mit der Druckmaschine."@de,
+        "Includes single-axis folds (single fold, tri-fold, Z-fold, accordion, roll fold), gate folds (open, closed, double), parallel and cross folds, and standing fold variants. Folding is performed on dedicated folder machines or inline with the press."@en,
+        "Incluye pliegues de un solo eje (pliegue simple, tríptico, pliegue en Z, acordeón, enrollado), pliegues en gate (abierto, cerrado, doble), pliegues paralelos y cruzados, y variantes de pliegue vertical. El plegado se realiza en plegadoras dedicadas o como parte de líneas de acabado en línea."@es,
+        "एक-अक्ष फ़ोल्ड (सिंगल, ट्राई-फ़ोल्ड, Z-फ़ोल्ड, अकॉर्डियन, रोल फ़ोल्ड), गेट फ़ोल्ड (खुला, बंद, डबल), पैरलल और क्रॉस फ़ोल्ड और खड़े फ़ोल्ड वेरिएंट शामिल। फ़ोल्डिंग समर्पित फ़ोल्डर मशीनों पर या प्रेस के साथ इनलाइन की जाती है।"@hi,
+        "単軸折り（二つ折り、三つ折り、Z折り、巻き折り、観音折り）、観音折り（オープン、クローズド、ダブル）、平行折りと十字折り、自立式折りバリアントを含む。折りは専用の折り機、または印刷機とインラインで行う。"@ja,
+        "Inkluderer ettakset folder (enkel folde, tri-fold, Z-fold, trekkspill, rullefold), gate folder (åpen, lukket, dobbel), parallelle og kryssende folder, og stående folde-varianter. Folding utføres på dedikerte folde-maskiner eller inline med pressen."@nb,
+        "Inclui dobras de eixo único (dobra simples, tríptico, dobra Z, sanfona, dobra envolvente), dobras janela (aberta, fechada, dupla), dobras paralelas e cruzadas e variantes de dobra em pé. A dobra é feita em dobradeiras dedicadas ou em linha com a impressora."@pt,
+        "包括单轴折页（对折、三折、Z折、风琴折、卷折）、门折（开式、闭式、双门折）、平行与十字折以及立式折变体。折页在专用折页机或印后联线设备上进行。"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Natural White"@en,
+        "Off-White"@en,
+        "ऑफ़-व्हाइट"@hi,
+        "नैचुरल व्हाइट"@hi,
+        "प्राकृतिक रंग का काग़ज़"@hi,
+        "Naturhvit"@nb,
+        "Offhvit"@nb,
+        "biel naturalna"@pl,
+        "złamana biel"@pl,
+        "branco natural"@pt,
+        "off-white"@pt,
+        "papel natural"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades> ;
+    skos:definition "Offwhite papir med en blød naturlig tone, CIE-hvidhed 80–90. Mindre skarpt end klart hvidt, brugt til eksklusivt bogtryk, kontorpapir og designbevidste trykprodukter."@da,
+        "Gebrochen-weißes Papier mit weichem, natürlichem Ton, CIE-Weißegrad 80–90. Weniger stark wirkend als reines Weiß, eingesetzt für hochwertigen Buchdruck, Korrespondenzpapier und designorientierte Druckprodukte."@de,
+        "Off-white paper with a soft natural tone, CIE whiteness 80–90. Less stark than bright white, used for premium book printing, stationery, and design-conscious print products."@en,
+        "Papel sin blanqueado intenso — tono ligeramente amarillento, considerado más sostenible y suave a la vista."@es,
+        "मुलायम प्राकृतिक टोन वाला ऑफ़-व्हाइट काग़ज़, CIE सफ़ेदी 80–90। ब्राइट व्हाइट से कम तीखा, प्रीमियम पुस्तक छपाई, स्टेशनरी और डिज़ाइन-सजग उत्पादों में।"@hi,
+        "柔らかな自然色のオフホワイト紙、CIE白色度80〜90。明白色ほど鮮明ではなく、高級書籍印刷、便箋、デザイン志向の印刷物に使用される。"@ja,
+        "Råhvitt papir med en myk naturlig tone, CIE-hvithet 80–90. Mindre skarp enn klart hvitt, brukt til premium-boktrykk, brevpapir og designbevisste trykkprodukter."@nb,
+        "Gebroken wit papier met een zachte natuurlijke toon, CIE-witheid 80–90. Minder fel dan helder wit, gebruikt voor exclusief boekdrukwerk, briefpapier en designbewust drukwerk."@nl,
+        "Papier złamany biały o łagodnym naturalnym odcieniu, białość CIE 80–90. Mniej ostry niż jasna biel, używany do druku książek premium, papeterii i produktów drukowanych o wysokich wymaganiach projektowych."@pl,
+        "Papel branco-sujo com tom natural suave, brancura CIE 80–90. Menos duro que o branco brilhante, usado em impressão de livros premium, papelaria e impressos orientados por design."@pt,
+        "Off-white-papper med mjuk naturlig ton, CIE-vithet 80–90. Mindre skarpt än klarvitt, används för påkostat boktryck, kontorsmateriel och designmedvetna trycksaker."@sv,
+        "未强烈漂白的纸 —— 略带黄色调，被认为更可持续且对眼睛更柔和。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§NATURAL-PAPER" ;
+    skos:prefLabel "Naturpapir (CIE 80–90, let varm)"@da,
+        "Naturpapier (CIE 80–90, leicht warm)"@de,
+        "Natural Paper (CIE 80–90, slightly warm)"@en,
+        "Papel Natural (CIE 80–90, ligeramente cálido)"@es,
+        "नैचुरल काग़ज़ (CIE 80–90, हल्का गर्म)"@hi,
+        "ナチュラル紙（CIE 80〜90、やや温かみ）"@ja,
+        "Naturlig papir (CIE 80–90, lett varm)"@nb,
+        "Naturelpapier (CIE 80–90, licht warm)"@nl,
+        "Papier naturalny (CIE 80–90, lekko ciepły)"@pl,
+        "Papel natural (CIE 80–90, levemente quente)"@pt,
+        "Naturpapper (CIE 80–90, lätt varm)"@sv,
+        "自然色纸 (CIE 80–90，微暖)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-23" .
+

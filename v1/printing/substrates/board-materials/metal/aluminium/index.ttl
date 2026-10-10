@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "aluminum"@en,
+        "अल्युमिनियम"@hi,
+        "एल्युमिनियम शीट"@hi,
+        "एल्युमीनियम"@hi,
+        "alumínio"@pt,
+        "chapa de alumínio"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/metal> ;
+    skos:definition "Stive aluminiumsplade-substrater til skiltning og display — massiv aluminiumsplade og aluminiumskompositpaneler."@da,
+        "Starre Aluminium-Plattensubstrate für Beschilderung und Display — Vollaluminiumblech und Aluminium-Verbundplatten."@de,
+        "Rigid aluminium board substrates for signage and display — solid aluminium sheet and aluminium composite panels."@en,
+        "Sustratos rígidos de aluminio para señalización y display — chapa de aluminio macizo y paneles composite de aluminio."@es,
+        "साइनेज और डिस्प्ले के लिए कठोर एल्युमिनियम बोर्ड सब्सट्रेट — ठोस एल्युमिनियम शीट और एल्युमिनियम कंपोज़िट पैनल।"@hi,
+        "サインやディスプレイ向けの硬質アルミ基材 — 無垢のアルミ板とアルミ複合板。"@ja,
+        "Rigide aluminium-plate-substrater for skilting og display — solid aluminiumsplate og aluminium-komposittplater."@nb,
+        "Stijve aluminium plaatsubstraten voor signalisatie en display — massieve aluminiumplaat en aluminium composietpanelen."@nl,
+        "Sztywne podłoża aluminiowe do oznakowania i ekspozycji — lita blacha aluminiowa i płyty kompozytowe aluminiowe."@pl,
+        "Substratos rígidos de alumínio para sinalização e display — chapa de alumínio maciço e painéis compostos de alumínio."@pt,
+        "Styva aluminiumskivsubstrat för skyltning och display — massiv aluminiumplåt och aluminiumkompositskivor."@sv,
+        "用于标识与展示的硬质铝板材 — 实心铝板与铝塑复合板。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/composite>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/solid> ;
+    skos:notation "P:SB-BRD-META-ALUM" ;
+    skos:prefLabel "Aluminium"@da,
+        "Aluminium"@de,
+        "Aluminium"@en,
+        "Aluminio"@es,
+        "एल्युमिनियम"@hi,
+        "アルミニウム"@ja,
+        "Aluminium"@nb,
+        "Aluminium"@nl,
+        "Aluminium"@pl,
+        "Alumínio"@pt,
+        "Aluminium"@sv,
+        "铝"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

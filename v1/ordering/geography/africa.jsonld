@@ -1,0 +1,46 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/africa",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "notation": "O:GY-AFR",
+  "label": {
+    "en": "Africa",
+    "nb": "Afrika",
+    "de": "Afrika",
+    "ja": "アフリカ",
+    "es": "África",
+    "zh-Hans": "非洲",
+    "sv": "Afrika",
+    "da": "Afrika",
+    "nl": "Afrika",
+    "pl": "Afryka",
+    "pt": "África",
+    "hi": "अफ़्रीका"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/geography/africa/south-africa"
+  ],
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "African region grouping. Contains country-level subdivisions under the African continent for use as geographic facets in product specification, supplier listing, and shipping/delivery scoping.",
+    "nb": "Afrika-regionen som gruppering. Inneholder land-nivå underinndelinger under det afrikanske kontinentet, brukt som geografisk fasett i produkt-spesifikasjon, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Regionale Gruppierung Afrika. Enthält länderspezifische Unterteilungen des afrikanischen Kontinents zur Verwendung als geografische Facette in der Produktspezifikation, Lieferantenlisten und Versand-/Lieferzonen.",
+    "ja": "アフリカ地域のグループ。アフリカ大陸内の国レベルの細分を含み、製品仕様、供給者リスト、配送ゾーンの地理的ファセットとして使用される。",
+    "es": "Agrupación regional de África. Contiene subdivisiones a nivel de país dentro del continente africano, utilizadas como faceta geográfica en la especificación de productos, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "非洲区域分组。包含非洲大陆下的国家级细分，作为产品规格、供应商列表和发货/配送范围的地理分面使用。",
+    "sv": "Afrikansk regiongruppering. Innehåller underindelningar på landsnivå under den afrikanska kontinenten, för användning som geografiska facetter i produktspecifikation, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Afrika — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Afrika — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Grupowanie regionalne dla Afryki. Zawiera podziały na poziomie krajów kontynentu afrykańskiego, używane jako aspekty geograficzne w specyfikacji produktu, listach dostawców i zakresie wysyłki/dostawy.",
+    "pt": "Agrupamento regional: África. Contém subdivisões de nível de país sob o continente africano para uso como facetas geográficas em especificação de produto, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "क्षेत्रीय समूह: अफ़्रीका। उत्पाद विनिर्देश, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे में भौगोलिक पहलू के रूप में उपयोग के लिए अफ़्रीकी महाद्वीप के अंतर्गत देश-स्तरीय उपविभाग।"
+  }
+}

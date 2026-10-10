@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ce4",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "CE4 (229 x 310 mm)",
+    "es": "CE4 (229 × 310 mm)",
+    "zh-Hans": "CE4 (229 × 310 mm)",
+    "nb": "CE4 (229 x 310 mm)",
+    "de": "CE4 (229 x 310 mm)",
+    "ja": "CE4 (229 x 310 mm)",
+    "sv": "CE4 (229 x 310 mm)",
+    "da": "CE4 (229 x 310 mm)",
+    "nl": "CE4 (229 x 310 mm)",
+    "pl": "CE4 (229 x 310 mm)",
+    "pt": "CE4 (229 x 310 mm)",
+    "hi": "CE4 (229 x 310 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§CE4",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "229 × 310 mm. Specialty envelope size between C4 and B4. Used for thicker correspondence.",
+    "nb": "229 × 310 mm. Spesialkonvoluttstørrelse mellom C4 og B4. Brukt til tykkere korrespondanse.",
+    "de": "229 × 310 mm. Spezial-Briefumschlagformat zwischen C4 und B4. Verwendet für umfangreichere Korrespondenz.",
+    "ja": "229×310mm。C4とB4の中間サイズの特殊封筒。厚みのある通信に使用される。",
+    "es": "Sobre CE4 — formato europeo extendido para documentos sin doblar tamaño A4.",
+    "zh-Hans": "CE4信封 —— 用于不折叠A4文件的欧洲加大格式。",
+    "sv": "229 × 310 mm. Specialkuvert mellan C4 och B4. Används för tjockare korrespondens.",
+    "da": "229 × 310 mm. Specialkuvert mellem C4 og B4. Bruges til tjockare korrespondens.",
+    "nl": "229 × 310 mm. Specialenvelop mellem C4 en B4. Gebruikt voor tjockare korrespondens.",
+    "pl": "229 × 310 mm. Specjalny format koperty między C4 a B4. Używany do grubszej korespondencji.",
+    "pt": "229 × 310 mm. Tamanho especial de envelope entre C4 e B4. Usado em correspondência mais volumosa.",
+    "hi": "229 × 310 mm. C4 और B4 के बीच का विशेष लिफ़ाफ़ा आकार। मोटे पत्राचार में।"
+  },
+  "properties": {
+    "width": 229,
+    "height": 310,
+    "unit": "mm",
+    "aspectRatio": 1.3537,
+    "standard": "ISO 269",
+    "area": 70990
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "229 x 310 mm",
+      "229x310",
+      "229×310",
+      "22.9 x 31 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

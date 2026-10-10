@@ -1,0 +1,101 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/roll",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§ROLL",
+  "elementType": "value",
+  "label": {
+    "en": "Roll Setup",
+    "nb": "Rull-oppsett",
+    "de": "Rollen-Setup",
+    "ja": "ロール構成",
+    "es": "Configuración en rollo",
+    "zh-Hans": "卷筒结构",
+    "nl": "Rol-opzet",
+    "sv": "Rulle",
+    "da": "Rulle",
+    "pl": "Konfiguracja rolowa",
+    "pt": "Montagem em rolo",
+    "hi": "रोल सेटअप"
+  },
+  "altLabels": {
+    "en": [
+      "Reel setup",
+      "Continuous setup",
+      "Labels-on-roll setup"
+    ],
+    "nb": [
+      "Kontinuerlig oppsett",
+      "Etikett-på-rull-oppsett"
+    ],
+    "pl": [
+      "konfiguracja na roli",
+      "konfiguracja ciągła",
+      "etykiety na roli"
+    ],
+    "pt": [
+      "montagem em bobina",
+      "montagem contínua",
+      "rótulos em rolo"
+    ],
+    "hi": [
+      "रील सेटअप",
+      "सतत सेटअप",
+      "रोल पर लेबल सेटअप"
+    ]
+  },
+  "definition": {
+    "en": "A continuous printed product supplied on a reel rather than as cut sheets — self-adhesive labels and stickers on roll. One printable Face carries a repeating design; the Back is the liner (usually unprinted). Quantity is a repeat count along the web rather than a sheet count, and roll parameters (core size, winding direction, gap/pitch) are resolved by the Configurator. Maps to flexo / digital roll-to-roll production. The orientation of the finished labels on the roll is a bindable axis, winding-direction (FINAT 1–8, XJDF Component/@WindingResult).",
+    "nb": "Et kontinuerlig trykkprodukt levert på rull i stedet for som kuttede ark — selvklebende etiketter og klistremerker på rull. Én trykkbar Face bærer et repeterende design; Back er bæremateriale (vanligvis utrykt). Antall er et repetisjons-antall langs banen i stedet for et ark-antall, og rull-parametre (kjernestørrelse, vikleretning, gap/pitch) løses av Configurator. Mapper til flexo / digital rull-til-rull-produksjon. Orienteringen av de ferdige etikettene på rullen er en bindbar akse, winding-direction (FINAT 1–8, XJDF Component/@WindingResult).",
+    "de": "Ein kontinuierliches Druckprodukt, das auf einer Rolle statt als geschnittene Bogen geliefert wird — selbstklebende Etiketten und Aufkleber auf Rolle. Eine bedruckbare Face trägt ein sich wiederholendes Design; die Back ist das Trägermaterial (meist unbedruckt). Die Menge ist eine Wiederholungsanzahl entlang der Bahn.",
+    "ja": "A continuous printed product supplied on a reel rather than as cut sheets — self-adhesive labels and stickers on roll. One printable Face carries a repeating design; the Back is the liner (usually unprinted).",
+    "es": "A continuous printed product supplied on a reel rather than as cut sheets — self-adhesive labels and stickers on roll. One printable Face carries a repeating design; the Back is the liner (usually unprinted).",
+    "zh-Hans": "A continuous printed product supplied on a reel rather than as cut sheets — self-adhesive labels and stickers on roll. One printable Face carries a repeating design; the Back is the liner (usually unprinted).",
+    "sv": "En kontinuerlig tryckt produkt levererad på rulle i stället för som skurna ark — självhäftande etiketter och klistermärken på rulle. En tryckbar yta bär en repeterande design; baksidan är linern (vanligen otryckt). Kvantiteten är ett repetitionsantal längs banan snarare än ett arkantal, och rullparametrar (kärnstorlek, lindningsriktning, mellanrum/pitch) avgörs av Konfiguratorn. Motsvarar flexo-/digital rulle-till-rulle-produktion.",
+    "da": "Et kontinuerligt trykt produkt leveret på rulle i stedet for som skårne ark — selvklæbende etiketter og klistermærker på rulle. Én trykbar flade bærer et gentaget design; bagsiden er lineren (som regel utrykt). Mængden er et gentagelsesantal langs banen.",
+    "nl": "Een doorlopend gedrukt product geleverd op rol in plaats van als gesneden vellen — zelfklevende etiketten en stickers op rol. Eén bedrukbaar vlak draagt een zich herhalend ontwerp; de achterzijde is de liner (doorgaans onbedrukt). De hoeveelheid is een herhalingsaantal langs de baan.",
+    "pl": "Ciągły produkt drukowany dostarczany na roli zamiast ciętych arkuszy — etykiety i naklejki samoprzylepne na roli. Jedna zadrukowywana Strona niesie powtarzalny projekt; Tył to podkład (zwykle niezadrukowany). Nakład jest liczbą powtórzeń wzdłuż wstęgi, a nie liczbą arkuszy, a parametry roli (średnica gilzy, kierunek nawijania, odstęp/podziałka) ustala Konfigurator. Odpowiada produkcji flekso / cyfrowej z roli na rolę. Orientacja gotowych etykiet na roli jest wiązalną osią: kierunek nawijania (FINAT 1–8, XJDF Component/@WindingResult).",
+    "pt": "Produto impresso contínuo fornecido em bobina em vez de folhas cortadas — rótulos e adesivos autoadesivos em rolo. Uma Face imprimível carrega um desenho repetido; o Verso é o liner (normalmente sem impressão). A quantidade é uma contagem de repetições ao longo da bobina, não de folhas, e os parâmetros do rolo (tamanho do tubete, sentido de enrolamento, espaçamento/passo) são resolvidos pelo Configurador. Corresponde à produção flexo/digital rolo a rolo. A orientação dos rótulos acabados no rolo é um eixo vinculável, sentido de enrolamento (FINAT 1–8, XJDF Component/@WindingResult).",
+    "hi": "कटी शीटों के बजाय रील पर दिया जाने वाला सतत मुद्रित उत्पाद — रोल पर स्वयं-चिपकने वाले लेबल और स्टिकर। एक छपाई योग्य सतह पर दोहराया जाने वाला डिज़ाइन; पीछे लाइनर (आमतौर पर बिना छपा)। मात्रा शीट संख्या नहीं, वेब के साथ दोहराव की गिनती है, और रोल के पैरामीटर (कोर आकार, वाइंडिंग दिशा, गैप/पिच) कॉन्फ़िगरेटर तय करता है। फ़्लेक्सो/डिजिटल रोल-टू-रोल उत्पादन से मेल खाता है। रोल पर तैयार लेबलों की दिशा बाँधने योग्य अक्ष है, वाइंडिंग दिशा (FINAT 1–8, XJDF Component/@WindingResult)।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models",
+  "surfaces": [
+    {
+      "id": "face",
+      "label": {
+        "en": "Face",
+        "nb": "Forside",
+        "de": "Vorderseite"
+      }
+    },
+    {
+      "id": "back",
+      "label": {
+        "en": "Back (liner)",
+        "nb": "Bakside (liner)",
+        "de": "Rückseite (Träger)"
+      }
+    }
+  ],
+  "scopeNote": {
+    "en": "Quantity is a repeat count along the web (not sheets); core size, winding direction and label gap/pitch are roll parameters resolved by the Configurator. Back is normally the unprinted liner.",
+    "pt": "A quantidade é uma contagem de repetições ao longo da bobina (não de folhas); tamanho do tubete, sentido de enrolamento e espaçamento/passo dos rótulos são parâmetros do rolo resolvidos pelo Configurador. O verso é normalmente o liner sem impressão.",
+    "hi": "मात्रा वेब के साथ दोहराव की गिनती है (शीटें नहीं); कोर आकार, वाइंडिंग दिशा और लेबल गैप/पिच कॉन्फ़िगरेटर द्वारा तय रोल पैरामीटर हैं। पीछे आमतौर पर बिना छपा लाइनर।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

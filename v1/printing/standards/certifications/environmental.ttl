@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/environmental> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications> ;
+    skos:definition "Certificeringer, der dokumenterer miljøpræstation — bæredygtigt skovbrug, lave emissioner, genanvendelighed, reduceret kemikaliepåvirkning eller CO₂-aftryk."@da,
+        "Zertifizierungen, die Umweltleistung nachweisen — nachhaltige Forstwirtschaft, geringe Emissionen, Recyclingfähigkeit, reduzierter Chemieeinsatz oder CO₂-Bilanz."@de,
+        "Certifications that demonstrate environmental performance — sustainable forestry, low emissions, recyclability, reduced chemical impact, or carbon footprint."@en,
+        "Certificaciones que demuestran el desempeño ambiental — silvicultura sostenible, bajas emisiones, reciclabilidad, reducción del impacto químico o huella de carbono."@es,
+        "पर्यावरणीय प्रदर्शन दर्शाने वाले प्रमाणन — टिकाऊ वानिकी, कम उत्सर्जन, पुनर्चक्रण-योग्यता, कम रासायनिक प्रभाव या कार्बन फ़ुटप्रिंट।"@hi,
+        "環境性能を実証するための認証 — 持続可能な森林管理、低排出、リサイクル可能性、化学物質負荷の低減、または炭素フットプリント。"@ja,
+        "Sertifiseringer som dokumenterer miljøytelse — bærekraftig skogbruk, lave utslipp, gjenvinnbarhet, redusert kjemisk påvirkning eller karbonavtrykk."@nb,
+        "Certificeringen die milieuprestaties aantonen — duurzaam bosbeheer, lage emissies, recyclebaarheid, verminderde chemische impact of CO₂-voetafdruk."@nl,
+        "Certyfikaty potwierdzające efektywność środowiskową — zrównoważona gospodarka leśna, niskie emisje, recyklingowalność, ograniczony wpływ chemiczny lub ślad węglowy."@pl,
+        "Certificações que demonstram desempenho ambiental — manejo florestal sustentável, baixas emissões, reciclabilidade, menor impacto químico ou pegada de carbono."@pt,
+        "Certifieringar som visar miljöprestanda — hållbart skogsbruk, låga utsläpp, återvinningsbarhet, minskad kemikaliepåverkan eller koldioxidavtryck."@sv,
+        "证明环境绩效的认证——可持续林业、低排放、可回收、降低化学影响或碳足迹。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/certifications/environmental/blue-angel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/carbon>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/iso-14001-ems>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    skos:notation "P:ST-CER-ENVR" ;
+    skos:prefLabel "Miljø"@da,
+        "Umwelt"@de,
+        "Environmental"@en,
+        "Ambiental"@es,
+        "पर्यावरणीय"@hi,
+        "環境"@ja,
+        "Miljø"@nb,
+        "Milieu"@nl,
+        "Środowiskowe"@pl,
+        "Ambientais"@pt,
+        "Miljö"@sv,
+        "环境"@zh-Hans ;
+    skos:scopeNote "Umfasst Forst-Chain-of-Custody (FSC, PEFC), Produkt-Umweltlabels (EU-Ecolabel, Nordic Swan, Blauer Engel) und Umweltmanagementsysteme (ISO 14001). CO₂-Kompensationsprogramme und Energie-Zertifizierungen gehören anderswo hin."@de,
+        "Includes forestry chain-of-custody (FSC, PEFC), product ecolabels (EU Ecolabel, Nordic Swan, Blue Angel), and environmental management systems (ISO 14001). Carbon-offset programs and energy certifications belong elsewhere."@en,
+        "Incluye cadena de custodia forestal (FSC, PEFC), etiquetas ecológicas de producto (Etiqueta Ecológica Europea, Cisne Nórdico, Ángel Azul) y sistemas de gestión ambiental (ISO 14001). Los programas de compensación de carbono y certificaciones energéticas se rastrean por separado."@es,
+        "वानिकी चेन-ऑफ़-कस्टडी (FSC, PEFC), उत्पाद इकोलेबल (EU Ecolabel, Nordic Swan, Blue Angel) और पर्यावरण प्रबंधन प्रणालियाँ (ISO 14001) शामिल। कार्बन-ऑफ़सेट कार्यक्रम और ऊर्जा प्रमाणन अन्यत्र।"@hi,
+        "森林管理の連鎖（FSC、PEFC）、製品エコラベル（EUエコラベル、北欧スワン、ブルーエンジェル）、環境マネジメントシステム（ISO 14001）を含む。カーボンオフセットおよびエネルギー認証は別カテゴリに属する。"@ja,
+        "Inkluderer skogbruks-sporbarhet (FSC, PEFC), produktmiljømerker (EU Ecolabel, Svanen, Blue Angel), og miljøledelsessystemer (ISO 14001). Karbonkompensasjonsprogrammer og energisertifikater hører andre steder."@nb,
+        "Inclui cadeia de custódia florestal (FSC, PEFC), rótulos ecológicos de produto (Rótulo Ecológico da UE, Cisne Nórdico, Anjo Azul) e sistemas de gestão ambiental (ISO 14001). Programas de compensação de carbono e certificações de energia pertencem a outro lugar."@pt,
+        "包括林业产销监管链（FSC、PEFC）、产品生态标签（欧盟生态标签、北欧天鹅、蓝天使）和环境管理系统（ISO 14001）。碳抵消项目和能源认证另行跟踪。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

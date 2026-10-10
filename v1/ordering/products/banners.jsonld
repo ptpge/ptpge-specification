@@ -1,0 +1,222 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/banners",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§BANNERS",
+  "elementType": "product",
+  "label": {
+    "en": "Banners",
+    "nb": "Bannere",
+    "de": "Banner",
+    "ja": "バナー",
+    "es": "Pancartas",
+    "zh-Hans": "横幅",
+    "nl": "Spandoeken",
+    "sv": "Banderoller",
+    "da": "Bannere",
+    "pl": "Banery",
+    "pt": "Banners",
+    "hi": "बैनर"
+  },
+  "altLabels": {
+    "en": [
+      "banner",
+      "vinyl banner",
+      "PVC banner",
+      "fabric banner",
+      "Barrier covers",
+      "Mesh banners",
+      "Fence banners"
+    ],
+    "nb": [
+      "banner",
+      "vinylbanner",
+      "tekstilbanner"
+    ],
+    "de": [
+      "Werbebanner",
+      "PVC-Banner",
+      "Werbeplanen",
+      "Blachen"
+    ],
+    "es": [
+      "Lonas publicitarias",
+      "Pancartas",
+      "banner",
+      "lona publicitaria",
+      "lona impresa",
+      "banner de PVC",
+      "banner de tela",
+      "banner de malla",
+      "pancarta publicitaria"
+    ],
+    "ja": [
+      "横断幕",
+      "懸垂幕",
+      "バナー",
+      "垂れ幕",
+      "ターポリンバナー",
+      "布バナー",
+      "メッシュバナー"
+    ],
+    "pl": [
+      "baner",
+      "baner winylowy",
+      "baner PCW",
+      "baner tekstylny",
+      "baner siatkowy (mesh)",
+      "baner na ogrodzenie"
+    ],
+    "sv": [
+      "banderoll",
+      "vepa",
+      "vepor",
+      "PVC-banderoll",
+      "tygbanderoll",
+      "storformatsbanderoll"
+    ],
+    "da": [
+      "banner",
+      "PVC-banner",
+      "stofbanner",
+      "storformatbanner"
+    ],
+    "nl": [
+      "spandoek",
+      "banner",
+      "banners",
+      "PVC-spandoek",
+      "textielspandoek",
+      "doek"
+    ],
+    "pt": [
+      "banner",
+      "banner de lona",
+      "lona impressa",
+      "banner de tecido",
+      "faixa",
+      "banner em mesh",
+      "banner para grade"
+    ],
+    "hi": [
+      "बैनर",
+      "फ्लेक्स बैनर",
+      "विनाइल बैनर",
+      "PVC बैनर",
+      "कपड़े का बैनर",
+      "मेश बैनर"
+    ],
+    "zh-Hans": [
+      "条幅",
+      "喷绘布",
+      "PVC横幅",
+      "布横幅",
+      "网格布横幅",
+      "围挡布"
+    ]
+  },
+  "definition": {
+    "en": "A large-format printed banner for hanging display — vinyl/PVC and fabric, indoor and outdoor.",
+    "nb": "Et storformat trykt banner for hengende visning — vinyl/PVC og tekstil, inne og ute.",
+    "de": "Ein großformatiges bedrucktes Banner für hängende Präsentation.",
+    "ja": "吊り下げ展示用の大判印刷バナー。ビニール／PVCや布素材で、屋内外に対応。",
+    "es": "Una pancarta impresa de gran formato para colgar — vinilo/PVC y tela, interior y exterior.",
+    "zh-Hans": "用于悬挂展示的大幅面印刷横幅——乙烯基/PVC 和织物材质，室内外皆宜。",
+    "sv": "En storformatstryckt banderoll för hängande exponering — vinyl/PVC och textil, inom- och utomhus.",
+    "da": "Et storformat trykt banner til ophængning — vinyl/PVC og tekstil, inde og ude.",
+    "nl": "Een grootformaat gedrukt spandoek om op te hangen — vinyl/pvc en textiel, binnen en buiten.",
+    "pl": "Wielkoformatowy baner drukowany do zawieszenia — winylowy/PCW i tekstylny, do wnętrz i na zewnątrz.",
+    "pt": "Banner impresso em grande formato para exposição suspensa — lona/PVC e tecido, para interior e exterior.",
+    "hi": "लटकाकर प्रदर्शित करने के लिए लार्ज-फॉर्मेट मुद्रित बैनर — विनाइल/PVC और कपड़े का, इनडोर और आउटडोर।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/vinyl",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/textile",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "customSizeRange": {
+    "min": 300,
+    "max": 20000,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating"
+  ]
+}

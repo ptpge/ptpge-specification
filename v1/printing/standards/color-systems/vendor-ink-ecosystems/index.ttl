@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems> a skos:Concept ;
+    dcterms:created "2026-06-18T10:00:07+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    dcterms:replaces <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/efi-fiery-xf>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/epson-ultrachrome>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hp-indichrome> ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems> ;
+    skos:definition "Proprietære leverandørsystemer for farve og udvidet farveomfang (Hexachrome, Touch 7, Riso, UltraChrome …)."@da,
+        "Proprietäre Hersteller-Farb-/Tintensysteme und Extended-Gamut-Systeme (Hexachrome, Touch 7, Riso, UltraChrome …)."@de,
+        "Proprietary vendor ink/colour and extended-gamut systems (Hexachrome, Touch 7, Riso, UltraChrome …)."@en,
+        "Sistemas propietarios de tinta/color de fabricantes y de gama extendida (Hexachrome, Touch 7, Riso, UltraChrome …)."@es,
+        "विक्रेताओं की स्वामित्व स्याही/रंग और विस्तारित-गैमट प्रणालियाँ (Hexachrome, Touch 7, Riso, UltraChrome …)।"@hi,
+        "ベンダー独自のインキ／カラーおよび拡張ガモットのシステム（Hexachrome、Touch 7、Riso、UltraChrome など）。"@ja,
+        "Proprietære leverandør-blekk/-farge- og utvidet-gamut-systemer (Hexachrome, Touch 7, Riso, UltraChrome …)."@nb,
+        "Eigen leverancierssystemen voor inkt/kleur en uitgebreid gamma (Hexachrome, Touch 7, Riso, UltraChrome …)."@nl,
+        "Własnościowe systemy farb/barw i rozszerzonego gamutu dostawców (Hexachrome, Touch 7, Riso, UltraChrome …)."@pl,
+        "Sistemas proprietários de tinta/cor e de gamut estendido de fornecedores (Hexachrome, Touch 7, Riso, UltraChrome …)."@pt,
+        "Proprietära leverantörssystem för bläck/färg och utökad färgomfattning (Hexachrome, Touch 7, Riso, UltraChrome …)."@sv,
+        "厂商专有的油墨/色彩及扩展色域系统（Hexachrome、Touch 7、Riso、UltraChrome 等）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/efi-fiery-xf>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/epson-ultrachrome>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hexachrome>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hp-indichrome>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/pantone-touch7>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/riso>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/seven-color> ;
+    skos:notation "P:ST-CSY-VINK" ;
+    skos:prefLabel "Leverandørers farveøkosystemer"@da,
+        "Hersteller-Tintensysteme"@de,
+        "Vendor Ink Ecosystems"@en,
+        "Ecosistemas de tinta de fabricantes"@es,
+        "विक्रेता स्याही पारितंत्र"@hi,
+        "ベンダーインキ体系"@ja,
+        "Inktecosystemen van leveranciers"@nl,
+        "Ekosystemy farb dostawców"@pl,
+        "Ecossistemas de tinta de fornecedores"@pt,
+        "Leverantörers bläckekosystem"@sv,
+        "厂商油墨体系"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

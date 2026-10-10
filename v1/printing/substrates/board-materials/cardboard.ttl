@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/cardboard> a skos:Concept ;
+    dcterms:created "2026-08-23T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "displaypap"@da,
+        "display board"@en,
+        "paperboard"@en,
+        "rigid cardboard"@en,
+        "कठोर गत्ता"@hi,
+        "डिस्प्ले बोर्ड"@hi,
+        "पेपरबोर्ड"@hi,
+        "displaypapp"@nb,
+        "płyta ekspozycyjna"@pl,
+        "tektura sztywna"@pl,
+        "cartão para display"@pt,
+        "papel-cartão rígido"@pt,
+        "papelão rígido"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials> ;
+    skos:definition "Stive papirbaserede plader til display- og POS-tryk — massivpap og lette plader med honeycomb-kerne. Fuldt genanvendeligt alternativ til skum- og plastplader."@da,
+        "Steife papierbasierte Platten für Display- und POS-Druck — Massivkarton und leichte Wabenkernplatten. Vollständig recycelbare Alternative zu Schaum- und Kunststoffplatten."@de,
+        "Rigid paper-based boards for display and point-of-sale printing — solid compressed fibre board and lightweight honeycomb-core board. Fully recyclable alternative to foam and plastic panels."@en,
+        "Paneles rígidos de base papel para impresión de display y punto de venta — cartón sólido comprimido y paneles ligeros con núcleo de nido de abeja. Alternativa totalmente reciclable a los paneles de espuma y plástico."@es,
+        "डिस्प्ले और बिक्री-स्थल छपाई के लिए कठोर काग़ज़-आधारित बोर्ड — ठोस दबा हुआ फ़ाइबर बोर्ड और हल्का हनीकॉम्ब-कोर बोर्ड। फ़ोम और प्लास्टिक पैनलों का पूर्णतः पुनर्चक्रण योग्य विकल्प।"@hi,
+        "ディスプレイ・POS印刷用の硬質紙製ボード — 圧縮ソリッドボードと軽量ハニカムコアボード。フォームやプラスチックパネルの完全リサイクル可能な代替材。"@ja,
+        "Stive papirbaserte plater for display- og POS-trykk — massivpapp og lette plater med honeycomb-kjerne. Fullt resirkulerbart alternativ til skum- og plastplater."@nb,
+        "Stijve papiergebaseerde platen voor display- en POS-druk — massief karton en lichte platen met honingraatkern. Volledig recyclebaar alternatief voor schuim- en kunststofplaten."@nl,
+        "Sztywne płyty na bazie papieru do druku ekspozycyjnego i POS — tektura lita prasowana oraz lekka płyta o rdzeniu komórkowym. W pełni recyklingowalna alternatywa dla płyt piankowych i z tworzyw."@pl,
+        "Chapas rígidas à base de papel para displays e impressão de ponto de venda — cartão de fibra comprimida e chapa leve com núcleo colmeia. Alternativa totalmente reciclável aos painéis de espuma e plástico."@pt,
+        "Styva pappersbaserade skivor för display- och POS-tryck — massivkartong och lätta skivor med honeycomb-kärna. Fullt återvinningsbart alternativ till skum- och plastskivor."@sv,
+        "用于展示和终端陈列印刷的硬质纸基板材——实心压缩纤维板和轻质蜂窝芯板。可完全回收，是泡沫板和塑料板的替代品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/cardboard/solid-board> ;
+    skos:notation "P:SB-BRD-CARD" ;
+    skos:prefLabel "Pap"@da,
+        "Karton"@de,
+        "Cardboard"@en,
+        "Cartón"@es,
+        "कार्डबोर्ड (कठोर)"@hi,
+        "厚紙ボード"@ja,
+        "Papp"@nb,
+        "Karton"@nl,
+        "Tektura"@pl,
+        "Cartão rígido"@pt,
+        "Kartong"@sv,
+        "纸板"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-23" .
+

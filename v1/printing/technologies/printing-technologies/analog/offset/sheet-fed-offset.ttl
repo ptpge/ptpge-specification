@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/sheet-fed-offset> a skos:Concept ;
+    dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Sheetfed Offset"@en,
+        "शीटफ़ेड ऑफसेट"@hi,
+        "druk arkuszowy"@pl,
+        "Offset folha a folha"@pt,
+        "Offset plano"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset> ;
+    skos:definition "Offsetlitografi trykt på enkeltvis skårne ark. Arbejdshesten for kommercielt tryk — fleksible formater, hurtige opgaveskift, oplag fra hundreder til titusinder."@da,
+        "Offsetdruck auf einzelnen, geschnittenen Bogen. Das Arbeitspferd des Akzidenzdrucks — flexible Formate, schnelle Jobwechsel, Auflagen von Hunderten bis Zehntausenden."@de,
+        "Offset lithography printed on individual cut sheets. The workhorse for commercial print — flexible formats, fast job changes, run lengths from hundreds to tens of thousands."@en,
+        "Ófset impreso en pliegos individuales cortados. El caballo de batalla de la impresión comercial — formatos flexibles, cambios de trabajo rápidos, tiradas de cientos a decenas de miles."@es,
+        "अलग-अलग कटी शीटों पर छपी ऑफसेट लिथोग्राफ़ी। व्यावसायिक प्रिंट का वर्कहॉर्स — लचीले फ़ॉर्मेट, तेज़ जॉब बदलाव, सैकड़ों से दसियों हज़ार तक की तिराज।"@hi,
+        "断裁した枚葉紙に印刷するオフセット。商業印刷の主力機 — 柔軟な判型、迅速なジョブ切り替え、数百〜数万部のロットに対応。"@ja,
+        "Offsettrykk på enkeltark. Arbeidshesten i sivilproduksjon — fleksible formater, raske jobbytter, opplag fra hundrevis til titusener."@nb,
+        "Offsetlithografie gedrukt op afzonderlijk gesneden vellen. Het werkpaard van commercieel drukwerk — flexibele formaten, snelle orderwissels, oplagen van honderden tot tienduizenden."@nl,
+        "Offset drukowany na pojedynczych ciętych arkuszach. Koń roboczy druku komercyjnego — elastyczne formaty, szybkie zmiany zleceń, nakłady od setek do dziesiątek tysięcy."@pl,
+        "Litografia offset impressa em folhas cortadas individuais. O cavalo de batalha da impressão comercial — formatos flexíveis, trocas de trabalho rápidas, tiragens de centenas a dezenas de milhares."@pt,
+        "Offsetlitografi tryckt på individuellt skurna ark. Arbetshästen för civiltryck — flexibla format, snabba jobbyten, upplagor från hundratals till tiotusentals."@sv,
+        "在单张裁切纸上进行的胶版印刷。商业印刷的主力 — 幅面灵活、换单迅速，印量从数百到数万份。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§SHEET-FED-OFFSET" ;
+    skos:prefLabel "Arkoffset"@da,
+        "Bogenoffset"@de,
+        "Sheet-fed Offset"@en,
+        "Ófset de pliegos"@es,
+        "शीट-फ़ेड ऑफसेट"@hi,
+        "枚葉オフセット"@ja,
+        "Arkoffset"@nb,
+        "Vellenoffset"@nl,
+        "Offset arkuszowy"@pl,
+        "Offset de folha"@pt,
+        "Arkoffset"@sv,
+        "单张纸胶印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/open-gate-fold> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "F6-3"@en,
+        "FoldCatalog F6-3"@en,
+        "F6-3"@hi,
+        "FoldCatalog F6-3"@hi,
+        "F6-3"@pl,
+        "FoldCatalog F6-3"@pl,
+        "F6-3"@pt,
+        "FoldCatalog F6-3"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet> ;
+    skos:definition "En portfalsvariant, hvor de to yderpaneler (portene) foldes ind mod midten uden ekstra midterfals — giver 6 paneler i 2 flader: yderside (portene) og inderside (trepanelsopslaget)."@da,
+        "Eine Altarfalz-Variante, bei der die beiden äußeren Paneele (Flügel) nach innen gefaltet werden, sich aber nicht in der Mitte treffen."@de,
+        "A gate-fold variant where the two outer panels (gates) fold inward but do not meet at the center, leaving a visible strip between them when closed. Produces 6 panels organised into 2 surfaces: Outside (the two gates plus the visible center strip) and Inside (the full three-panel inside spread when opened). Used for partial-reveal brochures, layered marketing pieces, and architectural-style presentations."@en,
+        "Una variante del plegado en ventana donde los dos paneles exteriores (puertas) se pliegan hacia dentro pero no llegan a encontrarse en el centro, dejando una franja visible entre ellos al cerrarse. Produce 6 paneles organizados en 2 superficies: Outside (las dos puertas más la franja central visible) e Inside (el despliegue interior completo de tres paneles al abrirse). Se usa para folletos de revelación parcial, piezas de marketing por capas y presentaciones de estilo arquitectónico."@es,
+        "गेट-फ़ोल्ड का वह रूप जिसमें दो बाहरी पैनल (गेट) अंदर मुड़ते हैं पर बीच में नहीं मिलते, बंद होने पर उनके बीच एक पट्टी दिखती रहती है। 6 पैनल, 2 सतहों में: बाहरी (दोनों गेट और दिखने वाली मध्य पट्टी) और भीतरी (खुलने पर पूरा तीन-पैनल भीतरी स्प्रेड)। आंशिक-रिवील ब्रोशर, परतदार मार्केटिंग सामग्री और वास्तु-शैली प्रस्तुतियों में।"@hi,
+        "2つの外側パネル（扉）を内側に折るが中央では合わさらず、閉じた状態で間に帯が見える観音折りのバリエーション。6パネルが2面に編成される：Outside（2枚の扉と見える中央帯）と Inside（開いたときの3パネル見開き全面）。部分リビールのパンフレット、層状のマーケティング資料、建築系のプレゼンテーションに使われる。"@ja,
+        "En gate-fold variant der de to ytre panelene (gates) brettes innover, men ikke møtes ved midten — etterlater en synlig stripe imellom når lukket. Produserer 6 paneler organisert i 2 surfaces: Outside (de to gates pluss den synlige sentrale stripen) og Inside (det fulle tre-panels innsides-oppslaget når åpnet)."@nb,
+        "Een luikvouwvariant waarbij de twee buitenpanelen (de luiken) naar het midden vouwen zonder extra middenvouw — geeft 6 panelen in 2 vlakken: buitenzijde (de luiken) en binnenzijde (de driepaneelspread)."@nl,
+        "Wariant złamu okienkowego, w którym dwa zewnętrzne skrzydła (bramki) składają się do środka, lecz nie stykają na środku, pozostawiając między nimi widoczny pasek po zamknięciu. Daje 6 skrzydeł zorganizowanych w 2 powierzchnie: Zewnętrzna (dwie bramki plus widoczny pasek środkowy) i Wewnętrzna (pełna trzyskrzydłowa rozkładówka po otwarciu). Używana do folderów z częściowym odsłonięciem, warstwowych materiałów marketingowych i prezentacji w stylu architektonicznym."@pl,
+        "Variante da dobra janela em que os dois painéis externos (portas) dobram para dentro mas não se encontram no centro, deixando uma faixa visível entre eles quando fechado. Produz 6 painéis em 2 faces: Exterior (as duas portas mais a faixa central visível) e Interior (a página tripla completa quando aberto). Usada em folhetos com revelação parcial, peças de marketing em camadas e apresentações de estilo arquitetônico."@pt,
+        "En portfalsvariant där de två yttre panelerna (portarna) viks inåt men inte möts i mitten, så att en synlig remsa blir kvar mellan dem när den är stängd. Ger 6 paneler organiserade i 2 ytor: utsida (de två portarna plus den synliga mittremsan) och insida (hela trepanelsuppslaget när öppnad). Används för broschyrer med delvis avslöjande, skiktat marknadsmaterial och presentationer i arkitektstil."@sv,
+        "门扇向内折叠但不在中心相接的开门折变体，合拢时两扇门之间留有可见的中条。形成6个面板，分为2个表面：Outside（两扇门及可见中条）与 Inside（打开后的完整三联内页）。用于部分揭示式手册、分层营销品与建筑风格的演示材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§OPEN-GATE-FOLD" ;
+    skos:prefLabel "Åben portfals"@da,
+        "Offener Altarfalz-Setup"@de,
+        "Open Gate-Fold Setup"@en,
+        "Configuración de plegado en puerta abierta"@es,
+        "खुला गेट-फ़ोल्ड सेटअप"@hi,
+        "オープンゲートフォールド構成"@ja,
+        "Åpen gate-fold oppsett"@nb,
+        "Open altaarvouw-opzet"@nl,
+        "Konfiguracja złam okienkowy otwarty"@pl,
+        "Montagem dobra janela aberta"@pt,
+        "Öppen portfals"@sv,
+        "对开门折（开放）结构"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/completions/folding/open-gate-fold> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

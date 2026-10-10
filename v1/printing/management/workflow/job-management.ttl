@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/job-management> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "job tracking"@en,
+        "print MIS"@en,
+        "जॉब ट्रैकिंग"@hi,
+        "प्रिंट MIS"@hi,
+        "jobbstyring"@nb,
+        "MIS poligraficzny"@pl,
+        "śledzenie zleceń"@pl,
+        "MIS gráfico"@pt,
+        "acompanhamento de trabalhos"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow> ;
+    skos:definition "Sporing og orkestrering af enkelte trykopgaver fra modtagelse til levering — tilbud, ordre, prepress, planlægning, produktion, færdiggørelse, forsendelse. Ofte håndteret af MIS-systemer."@da,
+        "Verfolgung und Orchestrierung einzelner Druckaufträge von der Annahme bis zur Auslieferung — Angebot, Bestellung, Druckvorstufe, Terminplanung, Produktion, Veredelung, Versand. Wird häufig durch Management-Informations-Systeme (MIS) erledigt, die mit der Workflow-Automatisierung integriert sind."@de,
+        "Tracking and orchestration of individual print jobs from intake to delivery — quote, order, prepress, scheduling, production, finishing, shipping. Often handled by Management Information Systems (MIS) integrated with workflow automation."@en,
+        "Sistemas que rastrean el trabajo desde la entrada hasta la entrega — recepción, enrutamiento, estado, asignación de máquina y seguimiento del progreso."@es,
+        "अलग-अलग प्रिंट जॉब की इनटेक से डिलीवरी तक ट्रैकिंग और संचालन — कोटेशन, ऑर्डर, प्रीप्रेस, शेड्यूलिंग, उत्पादन, फ़िनिशिंग, शिपिंग। प्रायः वर्कफ़्लो स्वचालन से एकीकृत प्रबंधन सूचना प्रणालियों (MIS) द्वारा संभाला जाता है।"@hi,
+        "個々の印刷ジョブを受付から納品まで追跡・統括する — 見積、受注、製版、スケジューリング、生産、仕上げ、出荷。多くの場合、ワークフロー自動化と統合された経営情報システム（MIS）が処理する。"@ja,
+        "Sporing og orkestrering av individuelle trykkjobber fra mottak til levering — tilbud, bestilling, prepress, planlegging, produksjon, etterbehandling, forsendelse. Ofte håndtert av Management Information Systems (MIS) integrert med workflow-automasjon."@nb,
+        "Volgen en orkestreren van individuele drukopdrachten van intake tot levering — offerte, order, prepress, planning, productie, afwerking, verzending. Vaak verzorgd door MIS-systemen."@nl,
+        "Śledzenie i orkiestracja poszczególnych zleceń drukarskich od przyjęcia do dostawy — wycena, zamówienie, prepress, planowanie, produkcja, wykończenie, wysyłka. Często obsługiwane przez systemy informacji zarządczej (MIS) zintegrowane z automatyzacją workflow."@pl,
+        "Acompanhamento e orquestração de trabalhos de impressão individuais da entrada à entrega — orçamento, pedido, pré-impressão, programação, produção, acabamento, expedição. Muitas vezes tratada por sistemas de informação gerencial (MIS) integrados à automação de fluxo de trabalho."@pt,
+        "Spårning och orkestrering av enskilda tryckjobb från intag till leverans — offert, order, prepress, planering, produktion, efterbehandling, frakt. Hanteras ofta av MIS-system integrerade med arbetsflödesautomation."@sv,
+        "跟踪作业从输入到交付的系统——接收、路由、状态、机器分配和进度跟踪。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§JOB-MANAGEMENT" ;
+    skos:prefLabel "Opgavestyring"@da,
+        "Auftragsverwaltung"@de,
+        "Job Management"@en,
+        "Gestión de Trabajos"@es,
+        "जॉब प्रबंधन"@hi,
+        "ジョブ管理"@ja,
+        "Jobb-håndtering"@nb,
+        "Opdrachtbeheer"@nl,
+        "Zarządzanie zleceniami"@pl,
+        "Gestão de trabalhos"@pt,
+        "Jobbhantering"@sv,
+        "作业管理"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.24 · p.184",
+                "§6.59 · p.241" ;
+            ptpge:mappingRow "crosswalk row 10" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "CustomerInfo",
+                "NodeInfo" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

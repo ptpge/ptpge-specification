@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/ral> a skos:Concept ;
+    dcterms:created "2026-06-18T10:00:07+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "RAL Classic"@en,
+        "RAL colours"@en,
+        "RAL Classic"@hi,
+        "RAL रंग"@hi,
+        "RAL Classic"@pl,
+        "kolory RAL"@pl,
+        "RAL Classic"@pt,
+        "cores RAL"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems> ;
+    skos:definition "RAL-farvematchsystem, almindeligt inden for skiltning, overfladebehandling og industrielle anvendelser."@da,
+        "RAL-Farbsystem, verbreitet in Beschilderung, Beschichtungen und Industrieanwendungen."@de,
+        "RAL — German colour standard for paint, coatings and industrial finishes, and the common reference for signage and fabricated surfaces. A print job meets RAL when it is asked to MATCH a coated surface (a sign face, a fitted panel), and the code is converted to process or spot colour for reproduction. Not an ink library to order from."@en,
+        "Sistema de colores RAL, común en señalización, recubrimientos y aplicaciones industriales."@es,
+        "RAL — पेंट, कोटिंग और औद्योगिक फ़िनिश का जर्मन रंग मानक, और साइनेज व निर्मित सतहों का आम संदर्भ। प्रिंट जॉब RAL तब पूरा करता है जब उसे किसी कोटेड सतह (साइन का फ़ेस, फ़िट किया पैनल) से मिलान करने को कहा जाए, और कोड पुनरुत्पादन के लिए प्रोसेस या स्पॉट रंग में बदला जाता है। ऑर्डर करने का स्याही पुस्तकालय नहीं।"@hi,
+        "サイン、塗装、産業用途で一般的な RAL カラーシステム。"@ja,
+        "RAL — tysk fargestandard for maling, belegg og industrielle overflater, og den vanlige referansen for skilt og produserte flater. Et trykk møter RAL når det skal TREFFE en belagt flate (en skiltplate, et montert panel), og koden omregnes til prosess- eller spotfarge. Ikke et blekkbibliotek å bestille fra."@nb,
+        "RAL-kleurmatchsysteem, gebruikelijk in signalisatie, coatings en industriële toepassingen."@nl,
+        "RAL — niemiecki standard barw dla farb malarskich, powłok i wykończeń przemysłowych oraz powszechne odniesienie dla oznakowania i powierzchni wytwarzanych. Zlecenie drukarskie spotyka RAL, gdy ma DOPASOWAĆ się do powlekanej powierzchni (lico szyldu, zamontowany panel), a kod jest konwertowany na kolor procesowy lub dodatkowy do reprodukcji. Nie jest biblioteką farb do zamawiania."@pl,
+        "RAL — norma alemã de cor para tintas, revestimentos e acabamentos industriais, e a referência comum para sinalização e superfícies fabricadas. Um trabalho impresso atende ao RAL quando lhe pedem para CORRESPONDER a uma superfície revestida (a face de uma placa, um painel instalado), e o código é convertido em cor de processo ou especial para reprodução. Não é uma biblioteca de tintas para encomendar."@pt,
+        "RAL-färgmatchningssystem, vanligt inom skyltning, ytbeläggningar och industriella tillämpningar."@sv,
+        "RAL 色彩系统，常见于标识、涂料与工业应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§RAL" ;
+    skos:prefLabel "RAL"@da,
+        "RAL"@en,
+        "RAL"@hi,
+        "RAL"@nl,
+        "RAL"@pl,
+        "RAL"@pt,
+        "RAL"@sv ;
+    skos:related <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

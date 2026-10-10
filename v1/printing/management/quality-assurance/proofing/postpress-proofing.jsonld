@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/postpress-proofing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Postpress Proofing",
+    "es": "Pruebas Post-prensa",
+    "zh-Hans": "印后校样",
+    "nb": "Etterpress-proofing",
+    "de": "Postpress-Proofing",
+    "ja": "ポストプレス校正",
+    "sv": "Efterkontroll (postpress)",
+    "da": "Prøve efter tryk",
+    "nl": "Proef na het drukken",
+    "pl": "Proofing po druku",
+    "pt": "Provas pós-impressão",
+    "hi": "पोस्टप्रेस प्रूफ़िंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§POSTPRESS-PROOFING",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Verification performed after the press run — examining a sample from production to confirm color, registration, finishing, and overall quality match the approved prepress proof. Catches press-related drift and finishing errors.",
+    "nb": "Verifikasjon utført etter pressekjøringen — undersøker en prøve fra produksjonen for å bekrefte at farge, registrering, etterbehandling og samlet kvalitet matcher det godkjente prepress-proofet. Fanger presse-relatert drift og etterbehandlingsfeil.",
+    "de": "Verifizierung nach dem Druckdurchlauf — Untersuchung eines Produktionsmusters, um zu bestätigen, dass Farbe, Passer, Veredelung und Gesamtqualität dem freigegebenen Druckvorstufen-Proof entsprechen. Erfasst druckbedingte Abweichungen und Veredelungsfehler.",
+    "ja": "印刷機運転後に行われる検証 — 生産物のサンプルを審査し、色、見当合わせ、仕上げ、全体的な品質が承認済みの製版校正と一致することを確認する。印刷機関連のドリフトおよび仕上げエラーを捕捉する。",
+    "es": "Verificación realizada después de la tirada para confirmar que el producto coincide con la prueba aprobada — comparación visual y, opcionalmente, medición espectrofotométrica.",
+    "zh-Hans": "印刷后进行的验证，确认产品与批准的校样相符 —— 视觉比较以及可选的分光光度测量。",
+    "sv": "Verifiering utförd efter tryckningen — ett produktionsprov granskas för att bekräfta att färg, passning, efterbehandling och helhetskvalitet motsvarar det godkända förprovet. Fångar tryckdrift och efterbehandlingsfel.",
+    "da": "Verifikation udført efter trykkørslen — en prøve fra produktionen undersøges for at bekræfte, at farve, register, færdiggørelse og samlet kvalitet matcher det godkendte prepress-prøvetryk.",
+    "nl": "Verificatie na de drukgang — een monster uit de productie wordt onderzocht om te bevestigen dat kleur, register, afwerking en algehele kwaliteit overeenkomen met de goedgekeurde prepressproef.",
+    "pl": "Weryfikacja wykonywana po nakładzie — badanie próbki z produkcji w celu potwierdzenia, że barwa, pasowanie, wykończenie i ogólna jakość odpowiadają zatwierdzonemu proofowi prepress. Wyłapuje dryf maszyny i błędy wykończenia.",
+    "pt": "Verificação realizada após a tiragem — exame de uma amostra da produção para confirmar que cor, registro, acabamento e qualidade geral correspondem à prova de pré-impressão aprovada. Captura desvios de máquina e erros de acabamento.",
+    "hi": "प्रेस रन के बाद किया गया सत्यापन — उत्पादन के नमूने की जाँच ताकि पुष्टि हो कि रंग, रजिस्ट्रेशन, फ़िनिशिंग और समग्र गुणवत्ता अनुमोदित प्रीप्रेस प्रूफ़ से मेल खाती है। प्रेस-संबंधी विचलन और फ़िनिशिंग त्रुटियाँ पकड़ता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "post-press proofing"
+    ],
+    "pl": [
+      "kontrola po druku"
+    ],
+    "pt": [
+      "prova pós-impressão"
+    ],
+    "hi": [
+      "पोस्ट-प्रेस प्रूफ़िंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

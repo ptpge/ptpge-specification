@@ -1,0 +1,71 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/koenig-bauer",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Koenig & Bauer",
+    "es": "Koenig & Bauer",
+    "zh-Hans": "Koenig & Bauer",
+    "nb": "Koenig & Bauer",
+    "de": "Koenig & Bauer",
+    "ja": "Koenig & Bauer",
+    "sv": "Koenig & Bauer",
+    "da": "Koenig & Bauer",
+    "nl": "Koenig & Bauer",
+    "pl": "Koenig & Bauer",
+    "pt": "Koenig & Bauer",
+    "hi": "Koenig & Bauer"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Koenig & Bauer (KBA) — German manufacturer of printing presses, founded in 1817 — the world's oldest press manufacturer. Strong positions in offset, flexographic, and security printing presses.",
+    "nb": "Koenig & Bauer (KBA) — tysk produsent av trykkpresser, grunnlagt i 1817 — verdens eldste presseprodusent. Sterke posisjoner innen offset, fleksografi og sikkerhetstrykkpresser.",
+    "de": "Koenig & Bauer (KBA) — deutscher Hersteller von Druckmaschinen, gegründet 1817 — der älteste Druckmaschinenhersteller der Welt. Starke Positionen im Offset-, Flexo- und Sicherheitsdruck.",
+    "ja": "Koenig & Bauer（KBA）— 印刷機のドイツのメーカー。1817年創業 — 世界最古の印刷機メーカー。オフセット、フレキソ、セキュリティ印刷機で強い地位を占める。",
+    "es": "Koenig & Bauer AG — el fabricante de prensas más antiguo del mundo, alemán, con líneas en offset, flexografía, huecograbado e impresión de seguridad.",
+    "zh-Hans": "Koenig & Bauer AG —— 世界上最古老的印刷机制造商，德国，在胶印、柔印、凹印和安全印刷领域有产品线。",
+    "sv": "Koenig & Bauer (KBA) — tysk tryckpresstillverkare grundad 1817 — världens äldsta presstillverkare. Starka positioner inom offset-, flexo- och säkerhetstryckpressar.",
+    "da": "Koenig & Bauer (KBA) — tysk trykpresseproducent grundlagt 1817 — verdens ældste presseproducent. Stærke positioner inden for offset-, flexo- og sikkerhedstrykpresser.",
+    "nl": "Koenig & Bauer (KBA) — Duitse drukpersfabrikant, opgericht in 1817 — de oudste persfabrikant ter wereld. Sterke posities in offset-, flexo- en beveiligingsdrukpersen.",
+    "pl": "Koenig & Bauer (KBA) — niemiecki producent maszyn drukujących, założony w 1817 r. — najstarszy producent maszyn drukarskich na świecie. Silna pozycja w maszynach offsetowych, fleksograficznych i do druku zabezpieczonego.",
+    "pt": "Koenig & Bauer (KBA) — fabricante alemão de impressoras, fundado em 1817 — o fabricante de impressoras mais antigo do mundo. Posições fortes em impressoras offset, flexográficas e de impressão de segurança.",
+    "hi": "Koenig & Bauer (KBA) — 1817 में स्थापित प्रिंटिंग प्रेस का जर्मन निर्माता — दुनिया का सबसे पुराना प्रेस निर्माता। ऑफसेट, फ़्लेक्सोग्राफ़िक और सुरक्षा मुद्रण प्रेस में मज़बूत स्थिति।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-KOEN",
+  "altLabels": {
+    "en": [
+      "KBA",
+      "Koenig & Bauer (KBA)"
+    ],
+    "pl": [
+      "KBA",
+      "Koenig & Bauer (KBA)"
+    ],
+    "pt": [
+      "KBA",
+      "Koenig & Bauer (KBA)"
+    ],
+    "hi": [
+      "KBA",
+      "Koenig & Bauer (KBA)"
+    ]
+  },
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval/changes-requested",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Changes Requested",
+    "nb": "Endringer ønsket",
+    "de": "Änderungen angefordert",
+    "ja": "修正依頼",
+    "es": "Cambios solicitados",
+    "zh-Hans": "要求修改",
+    "sv": "Ändringar begärda",
+    "da": "Ændringer ønsket",
+    "nl": "Wijzigingen gevraagd",
+    "pl": "Zgłoszono poprawki",
+    "pt": "Alterações solicitadas",
+    "hi": "बदलाव अनुरोधित"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§CHANGES-REQUESTED",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/proof-approval",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "State: the customer requested changes; a new proof cycle follows before release.",
+    "nb": "Tilstand: kunden ba om endringer; en ny korrekturrunde følger før frigivelse.",
+    "de": "Zustand: Der Kunde hat Änderungen angefordert; vor der Freigabe folgt eine neue Proof-Runde.",
+    "ja": "状態：顧客が修正を要求し、リリース前に新しい校正サイクルが続く。",
+    "es": "Estado: el cliente solicitó cambios; sigue un nuevo ciclo de pruebas antes de la liberación.",
+    "zh-Hans": "状态：客户要求修改；放行前进行新一轮打样。",
+    "sv": "Tillstånd: kunden har begärt ändringar; en ny provcykel följer före frisläppning.",
+    "da": "Tilstand: kunden har bedt om ændringer; en ny prøverunde følger før frigivelse.",
+    "nl": "Toestand: de klant heeft wijzigingen gevraagd; een nieuwe proefronde volgt vóór vrijgave.",
+    "pl": "Stan: klient zgłosił poprawki; przed zwolnieniem następuje nowy cykl proofingu.",
+    "pt": "Estado: o cliente solicitou alterações; um novo ciclo de prova segue antes da liberação.",
+    "hi": "अवस्था: ग्राहक ने बदलाव माँगे; जारी करने से पहले नया प्रूफ़ चक्र होगा।"
+  },
+  "elementType": "context",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

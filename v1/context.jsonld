@@ -1,0 +1,423 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "ptpge": "https://ptpge.org/ns/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "label": {
+      "@id": "skos:prefLabel",
+      "@container": "@language"
+    },
+    "altLabels": {
+      "@id": "skos:altLabel",
+      "@container": "@language"
+    },
+    "definition": {
+      "@id": "skos:definition",
+      "@container": "@language"
+    },
+    "notation": "skos:notation",
+    "example": {
+      "@id": "skos:example",
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@id": "skos:scopeNote",
+      "@container": "@language"
+    },
+    "question": {
+      "@id": "ptpge:question",
+      "@container": "@language"
+    },
+    "broader": {
+      "@id": "skos:broader",
+      "@type": "@id"
+    },
+    "narrower": {
+      "@id": "skos:narrower",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "related": {
+      "@id": "skos:related",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "topConceptOf": {
+      "@id": "skos:topConceptOf",
+      "@type": "@id"
+    },
+    "topConcepts": {
+      "@id": "skos:hasTopConcept",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "version": "ptpge:version",
+    "status": "ptpge:status",
+    "group": "ptpge:group",
+    "level": "ptpge:level",
+    "elementType": "ptpge:elementType",
+    "visual": "ptpge:visual",
+    "color": "ptpge:color",
+    "colorName": "ptpge:colorName",
+    "pantone": "ptpge:pantone",
+    "palette": {
+      "@id": "ptpge:palette",
+      "@container": "@set"
+    },
+    "properties": {
+      "@id": "ptpge:hasProperty",
+      "@context": {
+        "width": {
+          "@id": "ptpge:width",
+          "@type": "xsd:decimal"
+        },
+        "height": {
+          "@id": "ptpge:height",
+          "@type": "xsd:decimal"
+        },
+        "unit": "ptpge:unit",
+        "aspectRatio": {
+          "@id": "ptpge:aspectRatio",
+          "@type": "xsd:decimal"
+        },
+        "standard": "ptpge:standard",
+        "area": {
+          "@id": "ptpge:area",
+          "@type": "xsd:decimal"
+        }
+      }
+    },
+    "unit": "ptpge:unit",
+    "valueType": "ptpge:valueType",
+    "// Variables (SD-0033) — configurable-axis metadata": "",
+    "valueDomain": {
+      "@id": "ptpge:valueDomain",
+      "@type": "@id"
+    },
+    "datatype": "ptpge:datatype",
+    "cardinality": "ptpge:cardinality",
+    "scope": "ptpge:scope",
+    "rangeMin": {
+      "@id": "ptpge:rangeMin",
+      "@type": "xsd:decimal"
+    },
+    "rangeMax": {
+      "@id": "ptpge:rangeMax",
+      "@type": "xsd:decimal"
+    },
+    "// SD-0019 Hybrid Composition + Sections + Print Layer Stack model (Vei D)": "",
+    "// Setup Model binding — Product Template references a Setup Model": "",
+    "setupModel": {
+      "@id": "ptpge:setupModel",
+      "@type": "@id"
+    },
+    "// Sections — the addressable units of a printed product (one section = one substrate side)": "",
+    "sections": {
+      "@id": "ptpge:sections",
+      "@container": "@set"
+    },
+    "panels": {
+      "@id": "ptpge:panels",
+      "@container": "@set"
+    },
+    "sectionGroup": "ptpge:sectionGroup",
+    "count": "ptpge:count",
+    "// Multi-page page count constraints (intrinsic to Setup Model topology)": "",
+    "pageCountConstraint": "ptpge:pageCountConstraint",
+    "pageCountRange": "ptpge:pageCountRange",
+    "// supports* — constraint predicates (always URI refs into Printing Process)": "",
+    "supportsFormat": {
+      "@id": "ptpge:supportsFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsOrientation": {
+      "@id": "ptpge:supportsOrientation",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsTechnology": {
+      "@id": "ptpge:supportsTechnology",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsPressType": {
+      "@id": "ptpge:supportsPressType",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsSubstrate": {
+      "@id": "ptpge:supportsSubstrate",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsSubstrateWeight": {
+      "@id": "ptpge:supportsSubstrateWeight",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsSubstrateFinish": {
+      "@id": "ptpge:supportsSubstrateFinish",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsSubstrateFibre": {
+      "@id": "ptpge:supportsSubstrateFibre",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsColorMode": {
+      "@id": "ptpge:supportsColorMode",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsEmbellishment": {
+      "@id": "ptpge:supportsEmbellishment",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsSurfaceFinish": {
+      "@id": "ptpge:supportsSurfaceFinish",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsFolding": {
+      "@id": "ptpge:supportsFolding",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsFoldDirection": {
+      "@id": "ptpge:supportsFoldDirection",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsBinding": {
+      "@id": "ptpge:supportsBinding",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsDieCutting": {
+      "@id": "ptpge:supportsDieCutting",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsPerforation": {
+      "@id": "ptpge:supportsPerforation",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsCertification": {
+      "@id": "ptpge:supportsCertification",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsPrintStandard": {
+      "@id": "ptpge:supportsPrintStandard",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsColorProfile": {
+      "@id": "ptpge:supportsColorProfile",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "// perSurfaceSupports* — constraint predicates, per individual surface": "",
+    "perSurfaceSupportsColorMode": {
+      "@id": "ptpge:perSurfaceSupportsColorMode",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "perSurfaceSupportsEmbellishment": {
+      "@id": "ptpge:perSurfaceSupportsEmbellishment",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "perSurfaceSupportsSurfaceFinish": {
+      "@id": "ptpge:perSurfaceSupportsSurfaceFinish",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "// typical* — descriptive product-conceptual properties": "",
+    "// typicalUse + typicalAudience are controlled URI vocabularies (ordering/use-cases/, ordering/audiences/)": "",
+    "// typicalPageCount is a literal integer or {min, typical, max} range; fulfilmentClass is a literal enum": "",
+    "typicalPageCount": "ptpge:typicalPageCount",
+    "typicalUse": {
+      "@id": "ptpge:typicalUse",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "typicalAudience": {
+      "@id": "ptpge:typicalAudience",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "fulfilmentClass": "ptpge:fulfilmentClass",
+    "created": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "modified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:dateTime"
+    },
+    "creator": "dcterms:creator",
+    "license": {
+      "@id": "dcterms:license",
+      "@type": "@id"
+    },
+    "// Deprecation predicates — required on any term where status = 'deprecated'.": "",
+    "// replacedBy points forward to the replacement URI (singular); replaces points": "",
+    "// backward from a new term to the URIs it supersedes (set, since one term can": "",
+    "// consolidate several). deprecatedOn carries the release date; deprecationReason": "",
+    "// is multilingual and explains the change for both humans and AI agents.": "",
+    "replacedBy": {
+      "@id": "dcterms:isReplacedBy",
+      "@type": "@id"
+    },
+    "replaces": {
+      "@id": "dcterms:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "deprecatedOn": {
+      "@id": "ptpge:deprecatedOn",
+      "@type": "xsd:date"
+    },
+    "deprecationReason": {
+      "@id": "ptpge:deprecationReason",
+      "@container": "@language"
+    },
+    "semanticSource": {
+      "@id": "ptpge:semanticSource",
+      "@container": "@set",
+      "@context": {
+        "standard": "ptpge:sourceStandard",
+        "version": "ptpge:sourceVersion",
+        "elements": {
+          "@id": "ptpge:sourceElement",
+          "@container": "@set"
+        },
+        "refs": {
+          "@id": "dcterms:bibliographicCitation",
+          "@container": "@set"
+        },
+        "match": "ptpge:matchDegree",
+        "via": "ptpge:mappingRow"
+      }
+    },
+    "panelProportions": {
+      "@id": "ptpge:panelProportions",
+      "@container": "@list"
+    },
+    "mountingAllowance": {
+      "@id": "ptpge:mountingAllowance"
+    },
+    "supportsSubstrateClass": {
+      "@id": "ptpge:supportsSubstrateClass",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsBackOrientation": {
+      "@id": "ptpge:supportsBackOrientation",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsWindingDirection": {
+      "@id": "ptpge:supportsWindingDirection",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "supportsSpineThickness": {
+      "@id": "ptpge:supportsSpineThickness",
+      "@context": {
+        "min": {
+          "@id": "ptpge:min",
+          "@type": "xsd:decimal"
+        },
+        "max": {
+          "@id": "ptpge:max",
+          "@type": "xsd:decimal"
+        },
+        "unit": "ptpge:unit"
+      }
+    },
+    "requiredVariables": {
+      "@id": "ptpge:requiredVariables",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "recommendedVariables": {
+      "@id": "ptpge:recommendedVariables",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "exclusiveGroups": {
+      "@id": "ptpge:exclusiveGroups",
+      "@container": "@set",
+      "@context": {
+        "name": "ptpge:groupName",
+        "rule": "ptpge:groupRule",
+        "values": {
+          "@id": "ptpge:values",
+          "@type": "@id",
+          "@container": "@set"
+        }
+      }
+    },
+    "standalone": {
+      "@id": "ptpge:standalone",
+      "@type": "xsd:boolean"
+    },
+    "multiInstance": {
+      "@id": "ptpge:multiInstance",
+      "@type": "xsd:boolean"
+    },
+    "pageCountMultiple": {
+      "@id": "ptpge:pageCountMultiple",
+      "@type": "xsd:integer"
+    },
+    "Supplier": "ptpge:Supplier",
+    "Vendor": "ptpge:Vendor",
+    "Schema": "ptpge:Schema",
+    "makes": {
+      "@id": "ptpge:makes",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "identityClaimed": "ptpge:identityClaimed",
+    "catalogue": "ptpge:catalogue",
+    "website": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "country": "schema:addressCountry",
+    "role": "ptpge:role",
+    "schemaVersion": "ptpge:schemaVersion",
+    "stage": "ptpge:stage",
+    "writtenBy": "ptpge:writtenBy",
+    "holds": "ptpge:holds",
+    "jsonSchema": {
+      "@id": "ptpge:jsonSchema",
+      "@type": "@id"
+    }
+  }
+}

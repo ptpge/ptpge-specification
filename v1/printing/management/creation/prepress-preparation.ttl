@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/creation/prepress-preparation> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "pre-press"@en,
+        "prepress"@en,
+        "प्री-प्रेस"@hi,
+        "प्रीप्रेस"@hi,
+        "forhåndstrykk"@nb,
+        "prepress"@nb,
+        "prepress"@pl,
+        "przygotowalnia"@pl,
+        "przygotowanie do druku"@pl,
+        "prepress"@pt,
+        "pré-impressão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/creation> ;
+    skos:definition "Endelig teknisk klargøring af filer til produktion — farveseparation, trapping, opsætning af beskæring og slug, skriftindlejring og overholdelse af PDF/X-standarder. Broen mellem Kreation og Kvalitetssikring."@da,
+        "Letzte technische Aufbereitung der Dateien für die Produktion — Farbseparation, Trapping, Anschnitt- und Slug-Einrichtung, Schrifteneinbettung und Konformität mit PDF/X-Standards. Bindeglied zwischen Creation und Qualitätssicherung."@de,
+        "Final technical preparation of files for production — color separation, trapping, bleed and slug setup, font embedding, and compliance with PDF/X standards. The bridge between Creation and Quality Assurance."@en,
+        "Operaciones de pre-prensa que convierten el diseño aprobado en un archivo listo para imprimir — comprobación de fuentes, perfiles de color, sangrados, marcas de corte."@es,
+        "उत्पादन के लिए फ़ाइलों की अंतिम तकनीकी तैयारी — रंग सेपरेशन, ट्रैपिंग, ब्लीड और स्लग सेटअप, फ़ॉन्ट एम्बेडिंग और PDF/X मानकों का अनुपालन। निर्माण और गुणवत्ता आश्वासन के बीच का पुल।"@hi,
+        "生産用ファイルの最終的な技術準備 — 色分解、トラッピング、ブリードとスラグ設定、フォント埋め込み、PDF/X規格への適合。CreationとQuality Assuranceの間の橋渡し。"@ja,
+        "Endelig teknisk forberedelse av filer for produksjon — fargeseparasjon, trapping, oppsett av utfall og slug, fontinnbygging og samsvar med PDF/X-standarder. Broen mellom Creation og Quality Assurance."@nb,
+        "Definitieve technische voorbereiding van bestanden voor productie — kleurscheiding, trapping, afloop- en slug-instelling, lettertype-insluiting en naleving van PDF/X-standaarden. De brug tussen Creatie en Kwaliteitsborging."@nl,
+        "Końcowe techniczne przygotowanie plików do produkcji — separacja barw, trapping, ustawienie spadów i pola informacyjnego, osadzanie fontów i zgodność ze standardami PDF/X. Pomost między Tworzeniem a Zapewnieniem jakości."@pl,
+        "Preparação técnica final dos arquivos para produção — separação de cor, trapping, configuração de sangria e slug, incorporação de fontes e conformidade com as normas PDF/X. A ponte entre Criação e Garantia de qualidade."@pt,
+        "Slutlig teknisk förberedelse av filer för produktion — färgseparation, trapping, utfall och slug, typsnittsinbäddning och efterlevnad av PDF/X-standarder. Bron mellan Skapande och Kvalitetssäkring."@sv,
+        "将批准的设计转换为印刷就绪文件的印前操作——字体检查、色彩配置文件、出血、裁切标记。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§PREPRESS-PREPARATION" ;
+    skos:prefLabel "Prepress-klargøring"@da,
+        "Druckvorstufenvorbereitung"@de,
+        "Prepress Preparation"@en,
+        "Preparación Pre-prensa"@es,
+        "प्रीप्रेस तैयारी"@hi,
+        "プリプレス準備"@ja,
+        "Prepress-klargjøring"@nb,
+        "Prepressvoorbereiding"@nl,
+        "Przygotowanie prepress"@pl,
+        "Preparação de pré-impressão"@pt,
+        "Prepressförberedelse"@sv,
+        "印前准备"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.4.11 · p.98" ;
+            ptpge:mappingRow "crosswalk row 6" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "LayoutElementProduction" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/object-materials/box> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Carton"@en,
+        "कार्टन"@hi,
+        "बना हुआ डिब्बा"@hi,
+        "बॉक्स"@hi,
+        "Boks"@nb,
+        "Eske"@nb,
+        "pudło"@pl,
+        "caixa montada"@pt,
+        "cartucho"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/object-materials> ;
+    skos:definition "Færdigsamlede æsker trykt direkte på den færdige overflade — uden om det traditionelle flad-derefter-fals-arbejdsflow. Bruges til specialemballage, hvor æsken allerede findes før tryk."@da,
+        "Vorgefertigte Schachteln, die direkt auf ihrer fertigen Oberfläche bedruckt werden — abseits des klassischen Workflows „erst flach drucken, dann falzen“. Eingesetzt für individuelle Verpackungen, bei denen die Schachtel bereits vor dem Druck existiert."@de,
+        "Pre-assembled boxes printed directly on their finished surface — bypassing the traditional flat-then-fold workflow. Used for bespoke packaging where the box already exists before printing."@en,
+        "Cajas pre-ensambladas impresas tras el montaje, con tecnologías capaces de manejar formas tridimensionales."@es,
+        "पहले से जुड़े डिब्बे जिन पर तैयार सतह पर सीधे छपाई होती है — पारंपरिक पहले-सपाट-फिर-मोड़ो प्रवाह से हटकर। ऐसी कस्टम पैकेजिंग में जहाँ डिब्बा छपाई से पहले ही मौजूद है।"@hi,
+        "完成した表面に直接印刷される組立済みボックス — 従来の平面印刷後に折り立てるワークフローを迂回する。印刷前にボックスがすでに存在するオーダーメイドのパッケージで使用される。"@ja,
+        "Ferdigmonterte bokser trykt direkte på den ferdige overflaten — utenom den tradisjonelle flat-så-brett-arbeidsflyten. Brukt til skreddersydd emballasje der esken allerede finnes før trykking."@nb,
+        "Voorgemonteerde dozen, direct bedrukt op het afgewerkte oppervlak — buiten de traditionele vlak-dan-vouwen-workflow om. Gebruikt voor maatwerkverpakkingen waarbij de doos al bestaat vóór het drukken."@nl,
+        "Gotowe, złożone pudełka zadrukowywane bezpośrednio na ich powierzchni — z pominięciem tradycyjnego przepływu płaski-arkusz-potem-składanie. Używane do opakowań na zamówienie, gdy pudełko istnieje już przed drukiem."@pl,
+        "Caixas pré-montadas impressas diretamente na superfície acabada — fora do fluxo tradicional de imprimir plano e depois dobrar. Usadas em embalagens sob medida em que a caixa já existe antes da impressão."@pt,
+        "Färdigmonterade lådor tryckta direkt på sin färdiga yta — förbi det traditionella arbetsflödet platt-sedan-vikt. Används för skräddarsydda förpackningar där lådan redan finns före trycket."@sv,
+        "组装后印刷的预组装盒子，使用能处理三维形状的技术。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§BOX" ;
+    skos:prefLabel "Æske"@da,
+        "Box / Schachtel"@de,
+        "Box"@en,
+        "Cajas"@es,
+        "डिब्बा"@hi,
+        "ボックス"@ja,
+        "Eske"@nb,
+        "Doos"@nl,
+        "Pudełko"@pl,
+        "Caixa"@pt,
+        "Låda"@sv,
+        "盒子"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

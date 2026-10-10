@@ -1,0 +1,59 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding",
+  "type": "skos:Concept",
+  "version": "2026-08-12",
+  "status": "proposed",
+  "notation": "P:CP-BND",
+  "level": "category",
+  "label": {
+    "en": "Binding",
+    "nb": "Innbinding",
+    "de": "Bindung",
+    "ja": "Binding",
+    "es": "Binding",
+    "zh-Hans": "Binding",
+    "sv": "Bindning",
+    "da": "Indbinding",
+    "nl": "Binden",
+    "pl": "Oprawa",
+    "pt": "Encadernação",
+    "hi": "बाइंडिंग"
+  },
+  "definition": {
+    "en": "Methods that fasten multiple sheets or pages together into a finished product — stapling, stitching, gluing, sewing, coil and case binding.",
+    "nb": "Metoder som fester flere ark eller sider sammen til et ferdig produkt — stifting, limbinding, trådbinding, spiral- og hardback-innbinding.",
+    "de": "Verfahren, die mehrere Bogen oder Seiten zu einem fertigen Produkt verbinden — Heften, Klebe-, Faden-, Spiral- und Buchdeckenbindung.",
+    "ja": "複数の用紙やページを綴じ合わせて完成品にする方法 — ステープル綴じ、中綴じ、糊綴じ、糸かがり、コイル綴じ、上製本。",
+    "es": "Métodos que unen varias hojas o páginas en un producto terminado — grapado, cosido con grapa, encolado, cosido con hilo, espiral y encuadernación en tapa dura.",
+    "zh-Hans": "将多张纸或多页固定为成品的方法 — 订书钉装订、骑马钉、胶粘、锁线、线圈装订与精装。",
+    "sv": "Metoder som fäster flera ark eller sidor samman till en färdig produkt — häftning, sömnad, limning, spiral- och hårdbandsbindning.",
+    "da": "Metoder, der fastgør flere ark eller sider sammen til et færdigt produkt — hæftning, klammer, limning, syning, spiral- og bogbinding.",
+    "nl": "Methoden die meerdere vellen of pagina's samenvoegen tot een afgewerkt product — nieten, hechten, lijmen, naaien, spiraal- en boekbinden.",
+    "pl": "Metody łączenia wielu arkuszy lub stron w gotowy produkt — zszywanie, szycie, klejenie, spirale i oprawa twarda.",
+    "pt": "Métodos que prendem várias folhas ou páginas em um produto acabado — grampo, costura, cola, espiral e capa dura.",
+    "hi": "कई शीटों या पृष्ठों को तैयार उत्पाद में बाँधने की विधियाँ — स्टेपल, स्टिच, गोंद, सिलाई, कॉइल और केस बाइंडिंग।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions",
+  "narrower": [
+    "https://ptpge.org/v1/printing/completions/binding/perfect-binding",
+    "https://ptpge.org/v1/printing/completions/binding/saddle-stitching",
+    "https://ptpge.org/v1/printing/completions/binding/wire-o-binding",
+    "https://ptpge.org/v1/printing/completions/binding/corner-stapling",
+    "https://ptpge.org/v1/printing/completions/binding/side-stapling",
+    "https://ptpge.org/v1/printing/completions/binding/sewn-binding",
+    "https://ptpge.org/v1/printing/completions/binding/case-binding",
+    "https://ptpge.org/v1/printing/completions/binding/coil-binding",
+    "https://ptpge.org/v1/printing/completions/binding/layflat-binding",
+    "https://ptpge.org/v1/printing/completions/binding/pur-binding"
+  ],
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

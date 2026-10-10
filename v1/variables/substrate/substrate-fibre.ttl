@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/substrate/substrate-fibre> a skos:Concept ;
+    dcterms:created "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Recycelt oder Frischfaser"@de,
+        "Recycled or virgin"@en,
+        "रीसाइकल्ड या वर्जिन"@hi,
+        "Resirkulert eller ny fiber"@nb,
+        "reciclado ou virgem"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/substrate> ;
+    skos:definition "Konfigurerbar akse: Substratfiber (bestrøget/ubestrøget; enum, enkeltvalg). Valgfri præcisering — overflade og nuance er køberens akser; bestrygning er fagets præcisionslag. Ubundet betyder uspecificeret, aldrig et krav (SD-0069)."@da,
+        "Konfigurierbare Achse: Bedruckstoff-Faser (gestrichen/ungestrichen; Enum, Einfachauswahl). Optionale Präzisierung — Oberfläche und Farbton sind die käufernahen Achsen; der Strich ist die Präzisionsebene des Fachs. Ungebunden bedeutet unspezifiziert, nie eine Pflicht (SD-0069)."@de,
+        "Configurable axis: Substrate Fibre (coated / uncoated; enum, single selection). Optional refinement — surface and shade are the buyer-facing axes; coating is the trade's precision layer. Unbound means unspecified, never a requirement (SD-0069)."@en,
+        "Eje configurable: Fibra del sustrato (estucado/sin estucar; enum, selección única). Refinamiento opcional: superficie y tono son los ejes del comprador; el estucado es la capa de precisión del sector. Sin vincular significa sin especificar, nunca un requisito (SD-0069)."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट रेशा (कोटेड / अनकोटेड; enum, एकल चयन)। वैकल्पिक परिष्करण — सतह और रंगत खरीदार-उन्मुख अक्ष हैं; कोटिंग बिरादरी की सटीकता वाली परत है। अनबाउंड का अर्थ अनिर्दिष्ट, कभी आवश्यकता नहीं (SD-0069)।"@hi,
+        "構成可能な軸：基材の繊維（基材の繊維紙／非基材の繊維紙。列挙、単一選択）。任意の精密化 — 表面と色調が購入者向けの軸であり、基材の繊維は業界の精密層。未束縛は未指定を意味し、必須ではない（SD-0069）。"@ja,
+        "Konfigurerbar akse: Substratfiber (bestrøket/ubestrøket; enum, enkeltvalg). Valgfri presisjon — overflate og nyanse er kjøperens akser; bestrykning er fagets presisjonslag. Ubundet betyr uspesifisert, aldri et krav (SD-0069)."@nb,
+        "Configureerbare as: Substraatvezel (gestreken/ongestreken; enum, enkelvoudig). Optionele verfijning — oppervlak en tint zijn de kopersgerichte assen; de strijklaag is de precisielaag van het vak. Ongebonden betekent niet gespecificeerd, nooit een vereiste (SD-0069)."@nl,
+        "Oś konfigurowalna: Włókno podłoża (powlekany / niepowlekany; enum, wybór pojedynczy). Opcjonalne uściślenie — powierzchnia i odcień to osie skierowane do nabywcy; powlekanie to warstwa precyzji branży. Brak wartości oznacza nieokreślone, nigdy wymaganie (SD-0069)."@pl,
+        "Eixo configurável: Revestimento do Substrato (revestido/couché ou não revestido/offset; enumeração, seleção única). Refinamento opcional — superfície e tonalidade são os eixos voltados ao comprador; o revestimento é a camada de precisão do ofício. Não vinculado significa não especificado, nunca um requisito (SD-0069)."@pt,
+        "Konfigurerbar axel: Substratfiber (bestruket/obestruket; enum, enkelval). Valfri precisering — yta och nyans är köparens axlar; bestrykning är fackets precisionslager. Obundet betyder ospecificerat, aldrig ett krav (SD-0069)."@sv,
+        "可配置轴：承印材料纤维（承印材料纤维／非承印材料纤维；枚举，单选）。可选精化——表面与色调是面向买家的轴；承印材料纤维是行业的精度层。未绑定即未指定，绝非必填（SD-0069）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:SB§SUBSTRATE-FIBRE" ;
+    skos:prefLabel "Substratfiber"@da,
+        "Bedruckstoff-Faser"@de,
+        "Substrate Fibre"@en,
+        "Fibra del sustrato"@es,
+        "सब्सट्रेट रेशा"@hi,
+        "基材の繊維"@ja,
+        "Substratfiber"@nb,
+        "Substraatvezel"@nl,
+        "Włókno podłoża"@pl,
+        "Fibra do substrato"@pt,
+        "Substratfiber"@sv,
+        "承印材料纤维"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken fiber?"@da,
+        "Welche Faser?"@de,
+        "Which fibre?"@en,
+        "¿Qué fibra?"@es,
+        "कौन-सा रेशा?"@hi,
+        "繊維は？"@ja,
+        "Hvilken fiber?"@nb,
+        "Welke vezel?"@nl,
+        "Jakie włókno?"@pl,
+        "Que fibra?"@pt,
+        "Vilken fiber?"@sv,
+        "什么纤维？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre> ;
+    ptpge:version "2026-09-23" .
+

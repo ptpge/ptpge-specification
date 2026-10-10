@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/perforation> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Perf line"@en,
+        "Perforated"@en,
+        "Tear line"@en,
+        "Tear-off"@en,
+        "छिद्रण"@hi,
+        "टियर-ऑफ़ लाइन"@hi,
+        "परफ़ोरेटेड"@hi,
+        "फाड़ने की लाइन"@hi,
+        "Avrivning"@nb,
+        "Perforering"@nb,
+        "Perforert"@nb,
+        "linia odrywania"@pl,
+        "linia perforacji"@pl,
+        "odrywane"@pl,
+        "perforowane"@pl,
+        "destacável"@pt,
+        "linha de picote"@pt,
+        "picotado"@pt,
+        "serrilha"@pt,
+        "serrilhado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Stansning af en linje af små huller eller slidser, så en del kan rives rent af."@da,
+        "Stanzen einer Linie aus kleinen Löchern oder Schlitzen, damit ein Abschnitt sauber abgetrennt werden kann."@de,
+        "Punching a line of small holes or slits so a portion can be torn off cleanly."@en,
+        "Punzonar una línea de pequeños orificios o cortes para poder desprender una parte limpiamente."@es,
+        "छोटे छेदों या कटों की एक पंक्ति बनाना ताकि कोई हिस्सा साफ़ फाड़ा जा सके।"@hi,
+        "小さな穴や切れ込みを一列に開け、一部をきれいに切り離せるようにする。"@ja,
+        "Stansing av en linje med små hull eller snitt så en del kan rives av rent."@nb,
+        "Een lijn van kleine gaatjes of sneetjes ponsen zodat een deel netjes kan worden afgescheurd."@nl,
+        "Wybicie linii małych otworów lub nacięć, aby część można było czysto oderwać."@pl,
+        "Perfurar uma linha de pequenos furos ou fendas para que uma parte possa ser destacada com limpeza."@pt,
+        "Stansning av en rad små hål eller slitsar så att en del kan rivas av rent."@sv,
+        "冲出一排小孔或切缝，使部分可被整齐撕下。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§PERFORATION" ;
+    skos:prefLabel "Perforering"@da,
+        "Perforation"@de,
+        "Perforation"@en,
+        "Perforation"@es,
+        "परफ़ोरेशन"@hi,
+        "Perforation"@ja,
+        "Perforering"@nb,
+        "Perforeren"@nl,
+        "Perforacja"@pl,
+        "Picote"@pt,
+        "Perforering"@sv,
+        "Perforation"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.26 · p.127",
+                "§8.34 · p.368" ;
+            ptpge:mappingRow "crosswalk row 44" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Perforate",
+                "Perforating" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

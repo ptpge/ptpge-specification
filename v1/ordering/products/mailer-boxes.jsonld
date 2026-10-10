@@ -1,0 +1,208 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/mailer-boxes",
+  "type": "skos:Concept",
+  "version": "2026-08-12",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§MAILER-BOXES",
+  "elementType": "product",
+  "label": {
+    "en": "Mailer Boxes",
+    "nb": "Mailer-bokser",
+    "de": "Schachteln & Versandkartons",
+    "ja": "カスタムボックス・メーラーボックス",
+    "es": "Cajas y cajas de envío",
+    "zh-Hans": "定制盒与邮寄盒",
+    "nl": "Verzenddozen",
+    "sv": "Mailerboxar",
+    "da": "Forsendelsesæsker",
+    "pl": "Pudełka wysyłkowe",
+    "pt": "Caixas de envio",
+    "hi": "मेलर बॉक्स"
+  },
+  "altLabels": {
+    "en": [
+      "shipping box",
+      "mailer box",
+      "gift box",
+      "postal box",
+      "custom box",
+      "Subscription boxes",
+      "Postal boxes"
+    ],
+    "nb": [
+      "fraktboks",
+      "gaveeske",
+      "posteske"
+    ],
+    "de": [
+      "Versandschachteln",
+      "Faltschachteln"
+    ],
+    "pl": [
+      "pudełko wysyłkowe",
+      "pudełko prezentowe",
+      "pudełko pocztowe",
+      "pudełko z nadrukiem",
+      "pudełko subskrypcyjne"
+    ],
+    "sv": [
+      "mailerbox",
+      "e-handelslåda",
+      "fraktlåda",
+      "fraktkartong",
+      "presentlåda",
+      "presentförpackning",
+      "prenumerationsbox"
+    ],
+    "da": [
+      "forsendelsesæske",
+      "e-handelsæske",
+      "fragtæske",
+      "gaveæske",
+      "abonnementsæske"
+    ],
+    "nl": [
+      "verzenddoos",
+      "mailerbox",
+      "e-commerce doos",
+      "geschenkdoos",
+      "abonnementsdoos"
+    ],
+    "pt": [
+      "caixa de envio",
+      "caixa para e-commerce",
+      "caixa de presente",
+      "caixa postal",
+      "caixa personalizada",
+      "caixa de assinatura"
+    ],
+    "hi": [
+      "शिपिंग बॉक्स",
+      "मेलर बॉक्स",
+      "गिफ़्ट बॉक्स",
+      "डाक बॉक्स",
+      "कस्टम बॉक्स",
+      "सब्सक्रिप्शन बॉक्स"
+    ],
+    "es": [
+      "caja de envío",
+      "caja postal",
+      "caja de cartón",
+      "caja de regalo",
+      "caja personalizada",
+      "caja para suscripción"
+    ],
+    "ja": [
+      "箱",
+      "化粧箱",
+      "ギフトボックス",
+      "配送用箱",
+      "宅配箱",
+      "オリジナルボックス"
+    ],
+    "zh-Hans": [
+      "快递盒",
+      "邮寄盒",
+      "礼品盒",
+      "定制纸盒",
+      "包装盒",
+      "飞机盒"
+    ]
+  },
+  "definition": {
+    "en": "A die-cut, folded and glued box for shipping, gifting or retail — custom, mailer and gift boxes.",
+    "nb": "En stanset, brettet og limt eske for frakt, gave eller butikk — egendefinerte, mailer- og gaveesker.",
+    "de": "Eine gestanzte, gefaltete und geklebte Schachtel für Versand, Geschenk oder Handel.",
+    "ja": "型抜き・折り・接着で仕上げる箱。発送用、ギフト用、小売用のカスタムボックス。",
+    "es": "Una caja troquelada, plegada y pegada para envío, regalo o retail — cajas personalizadas, de envío y de regalo.",
+    "zh-Hans": "模切、折叠并粘合的盒子——定制盒、快递盒和礼品盒，用于寄送、馈赠或零售。",
+    "sv": "En stansad, falsad och limmad låda för frakt, gåvor eller detaljhandel — special-, mailer- och presentaskar.",
+    "da": "En udstanset, falset og limet æske til forsendelse, gaver eller detail — special-, forsendelses- og gaveæsker.",
+    "nl": "Een gestanste, gevouwen en gelijmde doos voor verzending, geschenken of retail — maatwerk-, verzend- en geschenkdozen.",
+    "pl": "Wykrawane, składane i klejone pudełko do wysyłki, na prezent lub do sprzedaży — pudełka na zamówienie, wysyłkowe i prezentowe.",
+    "pt": "Caixa com corte especial, vincada e colada para envio, presente ou varejo — caixas personalizadas, de correio e de presente.",
+    "hi": "शिपिंग, उपहार या खुदरा के लिए डाई-कट, मुड़ा और चिपका हुआ बॉक्स — कस्टम, मेलर और गिफ़्ट बॉक्स।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/structural"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T10:00:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/cardboard",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/corrugated-roll"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver",
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/scoring",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/routing"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "customSizeRange": {
+    "min": 50,
+    "max": 600,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification"
+  ]
+}

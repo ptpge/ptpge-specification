@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "C-fold"@en,
+        "F6-4"@en,
+        "FoldCatalog F6-4"@en,
+        "Letter fold"@en,
+        "Roll fold (3-panel)"@en,
+        "C-फ़ोल्ड"@hi,
+        "F6-4"@hi,
+        "FoldCatalog F6-4"@hi,
+        "रोल फ़ोल्ड (3-पैनल)"@hi,
+        "लेटर फ़ोल्ड"@hi,
+        "C-vouw"@nl,
+        "Drieslag"@nl,
+        "F6-4"@pl,
+        "FoldCatalog F6-4"@pl,
+        "składanie na C"@pl,
+        "złam listowy"@pl,
+        "F6-4"@pt,
+        "FoldCatalog F6-4"@pt,
+        "dobra C"@pt,
+        "dobra carta"@pt,
+        "dobra envolvente (3 painéis)"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet> ;
+    skos:definition "En flerpanelsopbygning med to parallelle false, der giver 6 visuelle paneler organiseret i 2 flader: yderside (én side af det ufoldede ark, synlig når folderen er lukket — venstre, midter- og højre panel) og inderside (den anden side, synlig når den er helt åbnet)."@da,
+        "Ein mehrpaneeliges Falzbogen-Setup mit zwei parallelen Falzungen, das 6 visuelle Paneele in 2 Surfaces erzeugt: Außen (eine Seite des ungefalzten Bogens, sichtbar bei geschlossenem Leaflet — links, Mitte, rechts) und Innen (die andere Seite, sichtbar beim Öffnen — links, Mitte, rechts). Das rechte Paneel wird zuerst nach innen gefaltet, dann das linke darüber. Jede Surface ist unabhängig konfigurierbar mit eigenem Druckschichten-Stack."@de,
+        "A multi-panel folded sheet setup with two parallel folds, producing 6 visual panels organised into 2 surfaces: Outside (one side of the unfolded sheet, visible when the leaflet is closed — left, middle, right panels) and Inside (the other side, visible when fully opened — left, middle, right panels). The right panel folds inward first, then the left panel folds over it. Each surface is independently configurable with its own Print Layer Stack (Color Layer → Embellishment → Surface Finish). Used for tri-fold brochures, restaurant menus, mailers, and event programmes."@en,
+        "Una configuración de hoja plegada de varios paneles con dos pliegues paralelos, que produce 6 paneles visuales organizados en 2 superficies: Outside (un lado de la hoja desplegada, visible con el folleto cerrado — paneles izquierdo, central, derecho) e Inside (el otro lado, visible al abrir del todo — paneles izquierdo, central, derecho). El panel derecho se pliega primero hacia dentro y el izquierdo se pliega sobre él. Cada superficie es configurable de forma independiente con su propio Print Layer Stack (Capa de color → Ornamentación → Acabado superficial). Se usa para trípticos, menús de restaurante, mailings y programas de eventos."@es,
+        "दो समानांतर फ़ोल्ड वाला बहु-पैनल फ़ोल्डेड शीट सेटअप, जिससे 6 दृश्य पैनल बनते हैं, 2 सतहों में: बाहरी (खुली शीट का एक पक्ष, लीफ़लेट बंद होने पर दिखने वाला — बायाँ, बीच, दायाँ पैनल) और भीतरी (दूसरा पक्ष, पूरा खुलने पर दिखने वाला — बायाँ, बीच, दायाँ पैनल)। पहले दायाँ पैनल अंदर मुड़ता है, फिर बायाँ उसके ऊपर। हर सतह अपनी प्रिंट लेयर स्टैक (रंग परत → एम्बेलिशमेंट → सतह फ़िनिश) के साथ स्वतंत्र रूप से कॉन्फ़िगर होती है। ट्राई-फ़ोल्ड ब्रोशर, रेस्तराँ मेन्यू, मेलर और इवेंट कार्यक्रमों में।"@hi,
+        "2本の平行折りを持つ多パネルの折り加工セットアップ。6つの視覚パネルが2面に編成される：Outside（展開した用紙の一方の側。閉じた状態で見える — 左・中・右パネル）と Inside（もう一方の側。完全に開くと見える — 左・中・右パネル）。まず右パネルを内側に折り、その上に左パネルを折り重ねる。各面は独自の Print Layer Stack（カラーレイヤー → 加飾 → 表面加工）で独立に構成できる。三つ折りパンフレット、レストランのメニュー、DM、イベントプログラムに使われる。"@ja,
+        "Et flerpanels brettet ark-oppsett med to parallelle brett, som lager 6 visuelle paneler organisert i 2 surfaces: Outside (én side av det ubrettede arket, synlig når leaflet er lukket — venstre, midt, høyre paneler) og Inside (den andre siden, synlig når åpnet — venstre, midt, høyre paneler). Høyre panel brettes inn først, deretter brettes venstre panel over. Hver surface konfigureres uavhengig med sin egen trykklags-stack. Brukes for tri-fold brosjyrer, restaurantmenyer, mailere og arrangement-programmer."@nb,
+        "Een meerpaneelopbouw met twee parallelle vouwen die 6 visuele panelen geeft in 2 vlakken: buitenzijde (één kant van het ongevouwen vel, zichtbaar als de folder dicht is — linker-, midden- en rechterpaneel) en binnenzijde (de andere kant, zichtbaar bij volledig openen)."@nl,
+        "Konfiguracja arkusza złożonego wieloskrzydłowo z dwoma równoległymi złamami, dająca 6 wizualnych skrzydeł zorganizowanych w 2 powierzchnie: Zewnętrzna (jedna strona rozłożonego arkusza, widoczna po zamknięciu — skrzydła lewe, środkowe, prawe) i Wewnętrzna (druga strona, widoczna po pełnym otwarciu — skrzydła lewe, środkowe, prawe). Prawe skrzydło składa się do środka jako pierwsze, potem lewe skrzydło składa się na nie. Każda powierzchnia jest konfigurowana niezależnie z własnym stosem warstw druku (warstwa barwna → uszlachetnienie → wykończenie powierzchni). Używana do folderów na C, kart menu, mailingów i programów wydarzeń."@pl,
+        "Montagem em folha dobrada de vários painéis com duas dobras paralelas, produzindo 6 painéis visuais em 2 faces: Exterior (um lado da folha aberta, visível com o folheto fechado — painéis esquerdo, meio, direito) e Interior (o outro lado, visível totalmente aberto — painéis esquerdo, meio, direito). O painel direito dobra primeiro para dentro, depois o esquerdo dobra sobre ele. Cada face é configurável de forma independente com sua própria pilha de camadas de impressão (Camada de cor → Enobrecimento → Acabamento de superfície). Usada em folhetos tríptico, cardápios, malas diretas e programas de evento."@pt,
+        "En flerpanelsuppbyggnad med två parallella falsar som ger 6 visuella paneler organiserade i 2 ytor: utsida (en sida av det ovikta arket, synlig när foldern är stängd — vänster, mitt, höger panel) och insida (den andra sidan, synlig när helt öppnad — vänster, mitt, höger panel). Höger panel viks in först, därefter viks vänster panel över den. Varje yta konfigureras oberoende med sin egen tryckskiktstack (färgskikt → dekor → ytbehandling). Används för C-falsade broschyrer, restaurangmenyer, utskick och evenemangsprogram."@sv,
+        "两道平行折的多面板折页构成，形成6个视觉面板，分为2个表面：Outside（展开纸张的一面，合拢时可见 — 左、中、右面板）与 Inside（另一面，完全打开时可见 — 左、中、右面板）。右侧面板先向内折，左侧面板再折叠其上。每个表面可用自己的 Print Layer Stack（色彩层 → 装饰工艺 → 表面处理）独立配置。用于三折手册、餐厅菜单、直邮与活动节目单。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§TRI-FOLD" ;
+    skos:prefLabel "C-fals (trefals)"@da,
+        "Wickelfalz-Setup"@de,
+        "Tri-Fold Setup"@en,
+        "Configuración de tríptico"@es,
+        "ट्राई-फ़ोल्ड सेटअप"@hi,
+        "三つ折り構成"@ja,
+        "Tri-fold oppsett"@nb,
+        "Wikkelvouw-opzet (drieluik)"@nl,
+        "Konfiguracja złam na C"@pl,
+        "Montagem tríptico"@pt,
+        "C-fals (trefals)"@sv,
+        "三折结构"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/completions/folding/tri-fold> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-4 (Tri-fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

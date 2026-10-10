@@ -1,0 +1,87 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/roll-materials/canvas",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Canvas",
+    "es": "Lona",
+    "zh-Hans": "帆布",
+    "nb": "Lerret",
+    "de": "Leinwand",
+    "ja": "キャンバス",
+    "sv": "Canvas",
+    "da": "Kanvas",
+    "nl": "Canvas",
+    "pl": "Płótno",
+    "pt": "Canvas",
+    "hi": "कैनवास"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§CANVAS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/roll-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Woven cotton or polyester fabric supplied on rolls — used for art reproductions, photographic prints, and gallery wraps. Typically printed via wide-format inkjet.",
+    "nb": "Vevd bomulls- eller polyester-stoff levert på rull — brukt til kunstreproduksjoner, fotografiske trykk og galleriwraps. Vanligvis trykt via storformat-inkjet.",
+    "de": "Gewebte Baumwoll- oder Polyesterstoffe in Rollen — eingesetzt für Kunstreproduktionen, fotografische Drucke und Galerie-Wraps. Typischerweise mit Großformat-Tintenstrahl bedruckt.",
+    "ja": "ロールで供給される綿またはポリエステルの織布 — 美術複製、写真プリント、ギャラリーラップに使用される。通常、大判インクジェットで印刷される。",
+    "es": "Lona tejida (algodón o poliéster) en bobina, utilizada para impresión de bellas artes, decoración y banderolas.",
+    "zh-Hans": "卷筒形式的编织帆布（棉或聚酯），用于美术印刷、装饰和横幅。",
+    "sv": "Vävd bomulls- eller polyesterduk levererad på rulle — används för konstreproduktioner, fototryck och galleriuppspänningar. Trycks typiskt med storformats-inkjet.",
+    "da": "Vævet bomulds- eller polyesterstof leveret på ruller — bruges til kunstreproduktioner, fotografiske tryk og gallery wraps. Typisk trykt via storformat-inkjet.",
+    "nl": "Geweven katoenen of polyester stof op rollen — gebruikt voor kunstreproducties, fotoprints en gallery wraps. Doorgaans bedrukt via grootformaat-inkjet.",
+    "pl": "Tkana bawełna lub poliester dostarczane w rolach — używane do reprodukcji dzieł sztuki, wydruków fotograficznych i obrazów naciąganych na blejtram. Zwykle zadrukowywane atramentowo w wielkim formacie.",
+    "pt": "Tecido de algodão ou poliéster fornecido em rolos — usado em reproduções de arte, impressões fotográficas e gallery wraps. Normalmente impresso em jato de tinta de grande formato.",
+    "hi": "रोल में दिया जाने वाला बुना सूती या पॉलिएस्टर कपड़ा — कला प्रतिकृतियों, फ़ोटो प्रिंट और गैलरी रैप में। आमतौर पर वाइड-फॉर्मेट इंकजेट से छपा।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Artist canvas",
+      "Poly-canvas"
+    ],
+    "nb": [
+      "Lerret"
+    ],
+    "pl": [
+      "płótno artystyczne",
+      "płótno poliestrowe",
+      "canvas"
+    ],
+    "pt": [
+      "tela",
+      "canvas de artista",
+      "tela de poliéster",
+      "lona de arte"
+    ],
+    "hi": [
+      "आर्टिस्ट कैनवास",
+      "पॉली-कैनवास",
+      "कैनवास रोल"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 31"
+    }
+  ]
+}

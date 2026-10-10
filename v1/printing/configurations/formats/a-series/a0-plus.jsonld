@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a0-plus",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A0+ (914 x 1292 mm)",
+    "es": "A0+ (914 × 1292 mm)",
+    "zh-Hans": "A0+ (914 × 1292 mm)",
+    "nb": "A0+ (914 x 1292 mm)",
+    "de": "A0+ (914 x 1292 mm)",
+    "ja": "A0+ (914 x 1292 mm)",
+    "sv": "A0+ (914 x 1292 mm)",
+    "da": "A0+ (914 x 1292 mm)",
+    "nl": "A0+ (914 x 1292 mm)",
+    "pl": "A0+ (914 x 1292 mm)",
+    "pt": "A0+ (914 x 1292 mm)",
+    "hi": "A0+ (914 x 1292 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A0-PLUS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "914 × 1292 mm (35.98 × 50.87 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Oversize variant of A0, providing bleed margin for trim. Used in printing where the final A0 sheet needs to bleed to its edge.",
+    "nb": "914 × 1292 mm (35,98 × 50,87 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Overdimensjonert variant av A0 som gir utfallsmargin for beskjæring. Brukt i trykk der det ferdige A0-arket må gå til kanten.",
+    "de": "914 × 1292 mm (35,98 × 50,87 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Übergrößenvariante von A0 mit Beschnittrand. Eingesetzt im Druck, wenn der finale A0-Bogen randlos beschnitten werden muss.",
+    "ja": "914×1292mm（35.98×50.87インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A0のオーバーサイズ・バリアントで、断裁用のブリードマージンを提供する。最終A0シートの端まで印刷を伸ばす必要がある場合の印刷で使用される。",
+    "es": "Formato A0+ — versión sobredimensionada de A0 utilizada en impresión para acomodar sangrados y marcas técnicas.",
+    "zh-Hans": "A0+ —— 印刷用的A0加大版本，用于容纳出血和技术标记。",
+    "sv": "914 × 1292 mm (35.98 × 50.87 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Överformatvariant av A0 som ger utfallsmarginal för renskärning. Används i tryck där det färdiga A0-arket ska ha utfall ända till kanten.",
+    "da": "914 × 1292 mm (35.98 × 50.87 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Overformatvariant af A0, der giver beskæringsmargin til renskæring. Bruges i tryk, hvor det færdige A0-ark skal have beskæring helt til kanten.",
+    "nl": "914 × 1292 mm (35.98 × 50.87 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Overmaatvariant van A0 die snijmarge biedt voor het schoonsnijden. Gebruikt in drukwerk waarbij het afgewerkte A0-vel afloop tot aan de rand moet hebben.",
+    "pl": "914 × 1292 mm (35,98 × 50,87 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Powiększony wariant A0 z marginesem na spad do obcięcia. Używany w druku, gdy końcowy arkusz A0 ma spad do krawędzi.",
+    "pt": "914 × 1292 mm (35.98 × 50.87 in). Faz parte da série A da ISO 216, com proporção 1:√2. Variante superdimensionada do A0, com margem de sangria para refile. Usada quando a folha A0 final precisa de sangria até a borda.",
+    "hi": "914 × 1292 mm (35.98 × 50.87 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A0 का बड़ा रूप, ट्रिम के लिए ब्लीड मार्जिन सहित। जब अंतिम A0 शीट को किनारे तक ब्लीड चाहिए।"
+  },
+  "properties": {
+    "width": 914,
+    "height": 1292,
+    "unit": "mm",
+    "aspectRatio": 1.4136,
+    "standard": "ISO 216",
+    "area": 1180888
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "914 x 1292 mm",
+      "914x1292",
+      "914×1292",
+      "91.4 x 129.2 cm",
+      "DIN A0+"
+    ],
+    "nb": [
+      "A0+-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

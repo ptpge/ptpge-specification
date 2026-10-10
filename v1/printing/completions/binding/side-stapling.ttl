@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/side-stapling> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Side staple"@en,
+        "Side stitch"@en,
+        "Stab stitch"@en,
+        "किनारे की पिन"@hi,
+        "साइड पिनिंग"@hi,
+        "साइड स्टिच"@hi,
+        "स्टैब स्टिच"@hi,
+        "Sidestift"@nb,
+        "Sidestifting"@nb,
+        "zszycie boczne"@pl,
+        "zszywanie przez blok"@pl,
+        "costura lateral"@pt,
+        "grampeado na lateral"@pt,
+        "grampo de lado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "Klammer gennem sidekanten af en stak, nær ryggen."@da,
+        "Heftklammern durch die Seitenkante eines Stapels, nahe dem Rücken."@de,
+        "Staples through the side edge of a stack, near the spine."@en,
+        "Grapas a través del borde lateral de la pila, cerca del lomo."@es,
+        "ढेर के किनारे से, स्पाइन के पास, स्टेपल।"@hi,
+        "束の側端、背の近くを貫いてステープルで綴じる。"@ja,
+        "Stifter gjennom sidekanten av en bunke, nær ryggen."@nb,
+        "Nietjes door de zijkant van een stapel, dicht bij de rug."@nl,
+        "Zszywki przez boczną krawędź stosu, blisko grzbietu."@pl,
+        "Grampos pela borda lateral do maço, junto à lombada."@pt,
+        "Klamrar genom buntens sidkant, nära ryggen."@sv,
+        "在纸叠侧边靠近书脊处穿钉装订。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§SIDE-STAPLING" ;
+    skos:prefLabel "Sidehæftning"@da,
+        "Seitenheftung"@de,
+        "Side Stapling"@en,
+        "Side Stapling"@es,
+        "साइड स्टेपलिंग"@hi,
+        "Side Stapling"@ja,
+        "Sidestifting"@nb,
+        "Zijdelings nieten"@nl,
+        "Zszywanie boczne"@pl,
+        "Grampo lateral"@pt,
+        "Sidohäftning"@sv,
+        "Side Stapling"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.32 · p.132" ;
+            ptpge:mappingRow "crosswalk row 39" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "Stitching" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

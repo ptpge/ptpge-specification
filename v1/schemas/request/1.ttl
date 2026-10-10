@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/schemas/request/1> a ptpge:Schema ;
+    dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/schemas> ;
+    skos:definition "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between."@en,
+        "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between."@nb ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "SCH:REQUEST" ;
+    skos:prefLabel "Request"@en,
+        "Forespørsel"@nb ;
+    ptpge:holds "a configuration + quantity, asked of one or many vendors" ;
+    ptpge:level "element" ;
+    ptpge:schemaVersion 1 ;
+    ptpge:stage "draft" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-06" ;
+    ptpge:writtenBy "a buyer or an agent" .
+

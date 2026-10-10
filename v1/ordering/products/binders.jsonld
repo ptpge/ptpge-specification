@@ -1,0 +1,243 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/binders",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§BINDERS",
+  "elementType": "product",
+  "label": {
+    "en": "Binders",
+    "nb": "Permer",
+    "de": "Ordner",
+    "ja": "バインダー",
+    "es": "Carpetas archivadoras",
+    "zh-Hans": "活页夹",
+    "nl": "Ringbanden",
+    "sv": "Pärmar",
+    "da": "Ringbind",
+    "pl": "Segregatory",
+    "pt": "Fichários",
+    "hi": "बाइंडर"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printed ring binder or lever-arch file with a customised cover and spine — for organising documents and presentations.",
+    "nb": "En trykt ringperm eller brevordner med tilpasset omslag og rygg — for å organisere dokumenter og presentasjoner.",
+    "de": "Ein bedruckter Ringordner mit individuellem Umschlag und Rücken — zur Organisation von Dokumenten und Präsentationen.",
+    "ja": "表紙と背を自由にデザインできる印刷リングバインダー／レバーアーチファイル。書類やプレゼン資料の整理に。",
+    "es": "Una carpeta de anillas o archivador de palanca impresos, con portada y lomo personalizados — para organizar documentos y presentaciones.",
+    "zh-Hans": "封面和书脊可定制的印刷活页夹/杠杆文件夹——用于整理文件与演示资料。",
+    "sv": "En tryckt ringpärm eller gaffelpärm med anpassat omslag och rygg — för organisering av dokument och presentationer.",
+    "da": "Et trykt ringbind eller brevordner med tilpasset omslag og ryg — til organisering af dokumenter og præsentationer.",
+    "nl": "Een gedrukte ringband of ordner met gepersonaliseerde kaft en rug — voor het ordenen van documenten en presentaties.",
+    "pl": "Drukowany segregator ringowy lub dźwigniowy z indywidualną okładką i grzbietem — do porządkowania dokumentów i prezentacji.",
+    "pt": "Fichário de argolas ou pasta de alavanca impressa, com capa e lombada personalizadas — para organizar documentos e apresentações.",
+    "hi": "कस्टम कवर और स्पाइन वाला मुद्रित रिंग बाइंडर या लीवर-आर्च फ़ाइल — दस्तावेज़ों और प्रस्तुतियों को व्यवस्थित रखने के लिए।"
+  },
+  "altLabels": {
+    "en": [
+      "Binder",
+      "Ring binder",
+      "Presentation binder",
+      "ring binder",
+      "lever arch binder",
+      "ring folder"
+    ],
+    "nb": [
+      "Perm",
+      "Ringperm",
+      "ringperm",
+      "perm",
+      "brevordner"
+    ],
+    "de": [
+      "Ringordner",
+      "Aktenordner"
+    ],
+    "pl": [
+      "segregator",
+      "segregator ringowy",
+      "segregator dźwigniowy",
+      "segregator prezentacyjny"
+    ],
+    "sv": [
+      "pärm",
+      "ringpärm",
+      "ringpärmar",
+      "gaffelpärm",
+      "presentationspärm"
+    ],
+    "da": [
+      "ringbinder",
+      "brevordner",
+      "præsentationsringbind"
+    ],
+    "nl": [
+      "ringband",
+      "ringmap",
+      "ordner",
+      "ordners",
+      "presentatieringband"
+    ],
+    "pt": [
+      "fichário",
+      "pasta de argolas",
+      "pasta catálogo",
+      "fichário de apresentação",
+      "dossiê",
+      "pasta A-Z"
+    ],
+    "hi": [
+      "बाइंडर",
+      "रिंग बाइंडर",
+      "फ़ाइल",
+      "लीवर आर्च फ़ाइल",
+      "प्रेज़ेंटेशन बाइंडर"
+    ],
+    "es": [
+      "carpeta de anillas",
+      "archivador de anillas",
+      "carpeta archivador",
+      "archivador de palanca",
+      "carpeta de presentación"
+    ],
+    "ja": [
+      "リングバインダー",
+      "ファイルバインダー",
+      "レバーアーチファイル",
+      "プレゼンテーションバインダー",
+      "2穴バインダー"
+    ],
+    "zh-Hans": [
+      "活页文件夹",
+      "环装文件夹",
+      "文件夹",
+      "档案夹",
+      "杠杆夹"
+    ]
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

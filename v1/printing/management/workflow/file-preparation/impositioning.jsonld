@@ -1,0 +1,93 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/file-preparation/impositioning",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Impositioning",
+    "es": "Imposición",
+    "zh-Hans": "拼版",
+    "nb": "Påtegning / imposition",
+    "de": "Ausschießen",
+    "ja": "面付け",
+    "sv": "Utskjutning",
+    "da": "Udskydning",
+    "nl": "Impositie (uitschieten)",
+    "pl": "Impozycja",
+    "pt": "Imposição",
+    "hi": "इम्पोज़िशनिंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§IMPOSITIONING",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow/file-preparation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Arrangement of multiple pages on a single press sheet so that, after printing, folding, and cutting, the pages appear in correct sequence in the finished product. Critical for books, brochures, and any signature-based bindery.",
+    "nb": "Arrangering av flere sider på et enkelt presseark slik at sidene etter trykk, folding og kutting fremstår i riktig rekkefølge i det ferdige produktet. Kritisk for bøker, brosjyrer og enhver signaturbasert innbinding.",
+    "de": "Anordnung mehrerer Seiten auf einem einzelnen Druckbogen, sodass die Seiten nach Druck, Falzen und Schneiden in der korrekten Reihenfolge im fertigen Produkt erscheinen. Unverzichtbar für Bücher, Broschüren und alle bogenbasierten Bindungsarten.",
+    "ja": "印刷、折り、断裁の後、完成品でページが正しい順序で表示されるように、複数のページを1枚の印刷シートに配置する作業。書籍、ブローシュア、折り丁ベースの製本に不可欠。",
+    "es": "Disposición de páginas individuales sobre un pliego de impresión para que, tras imprimir, plegar y cortar, queden en el orden correcto en el producto final.",
+    "zh-Hans": "将单个页面在印刷纸张上的排布，使得在印刷、折页和裁切后页面在最终产品中按正确顺序排列。",
+    "sv": "Placering av flera sidor på ett och samma tryckark så att sidorna efter tryck, falsning och skärning hamnar i rätt ordning i den färdiga produkten. Avgörande för böcker, broschyrer och all arkbaserad bokbindning.",
+    "da": "Arrangering af flere sider på ét trykark, så siderne efter tryk, falsning og skæring står i korrekt rækkefølge i det færdige produkt. Kritisk for bøger, brochurer og alt flersidet.",
+    "nl": "Het schikken van meerdere pagina's op één drukvel zodat de pagina's na drukken, vouwen en snijden in de juiste volgorde in het eindproduct staan. Cruciaal voor boeken, brochures en alles wat meerpagina is.",
+    "pl": "Rozmieszczenie wielu stron na jednym arkuszu drukowym tak, aby po zadrukowaniu, złożeniu i przycięciu strony pojawiły się we właściwej kolejności w gotowym produkcie. Kluczowe dla książek, broszur i każdej introligatorni pracującej na składkach.",
+    "pt": "Arranjo de várias páginas numa única folha de máquina de modo que, após impressão, dobra e corte, as páginas apareçam na sequência correta no produto acabado. Crítico para livros, folhetos e qualquer encadernação baseada em cadernos.",
+    "hi": "एक ही प्रेस शीट पर कई पेजों की व्यवस्था ताकि छपाई, फ़ोल्डिंग और कटिंग के बाद पेज तैयार उत्पाद में सही क्रम में आएँ। पुस्तकों, ब्रोशर और किसी भी सिग्नेचर-आधारित बाइंडरी के लिए महत्वपूर्ण।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "imposition",
+      "page imposition"
+    ],
+    "nb": [
+      "montasje",
+      "utskyting"
+    ],
+    "pl": [
+      "montaż elektroniczny",
+      "impozycja stron",
+      "rozmieszczenie użytków"
+    ],
+    "pt": [
+      "imposição de páginas",
+      "montagem"
+    ],
+    "hi": [
+      "इम्पोज़िशन",
+      "पेज इम्पोज़िशन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Imposition",
+        "Stripping",
+        "Layout",
+        "BinderySignature",
+        "SheetOptimizing"
+      ],
+      "refs": [
+        "§5.4.8 · p.94",
+        "§5.4.22 · p.107",
+        "§6.52 · p.212",
+        "§6.6 · p.147",
+        "§5.4.21 · p.105"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 7"
+    }
+  ]
+}

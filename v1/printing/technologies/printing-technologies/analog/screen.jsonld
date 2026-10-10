@@ -1,0 +1,101 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Screen",
+    "es": "Serigrafía",
+    "zh-Hans": "丝网印刷",
+    "nb": "Silketrykk",
+    "de": "Siebdruck",
+    "ja": "スクリーン印刷",
+    "sv": "Screentryck",
+    "da": "Serigrafi",
+    "nl": "Zeefdruk",
+    "pl": "Sitodruk",
+    "pt": "Serigrafia",
+    "hi": "स्क्रीन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§SCREEN",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printing process in which ink is forced through a stencilled mesh screen onto the substrate, one color per screen. Tolerates a very wide range of substrates (textile, glass, ceramic, metal, irregular objects) and produces thick, opaque ink films, but is slow and labor-intensive compared to other techniques.",
+    "nb": "En trykkeprosess der blekk presses gjennom en sjablong-mønstret silke-duk på underlaget, én farge per duk. Tåler et svært bredt spekter av substrater (tekstil, glass, keramikk, metall, ujevne objekter) og gir tykke, opake blekklag, men er treg og arbeidskrevende sammenlignet med andre teknikker.",
+    "de": "Ein Druckverfahren, bei dem Farbe durch ein schabloniertes Maschensieb pro Farbe einzeln auf den Bedruckstoff gepresst wird. Verträgt eine sehr breite Palette an Bedruckstoffen (Textil, Glas, Keramik, Metall, unregelmäßige Objekte) und erzeugt dicke, deckende Farbschichten, ist jedoch im Vergleich zu anderen Verfahren langsam und arbeitsintensiv.",
+    "ja": "ステンシル化されたメッシュスクリーンを通してインキを基材に押し出し、1色1スクリーンで印刷する工程。非常に幅広い基材（テキスタイル、ガラス、セラミック、金属、不規則な物体）に対応し、厚く不透明なインキ膜を生み出すが、他の技法に比べて遅く労働集約的である。",
+    "es": "Tecnología porosa donde la tinta atraviesa una malla tensada según un esténcil. Versátil sobre casi cualquier sustrato; depósito grueso de tinta para colores opacos y vibrantes.",
+    "zh-Hans": "孔版技术，油墨通过按模版拉紧的网孔。在几乎任何承印物上都通用；油墨堆积厚以产生不透明鲜艳的颜色。",
+    "sv": "En tryckprocess där bläck pressas genom en schablonförsedd nätduk till substratet, en kulör per duk. Tål ett mycket brett spann av substrat (textil, glas, keramik, metall, oregelbundna föremål) och ger tjocka, täckande bläckfilmer, men är långsam och arbetsintensiv jämfört med andra tekniker.",
+    "da": "En trykproces, hvor farve presses gennem en stencilforsynet netdug til substratet, én farve pr. dug. Tåler et meget bredt spektrum af substrater (tekstil, glas, keramik, metal, uregelmæssige emner) og giver tykke, dækkende farvefilm, men er langsom og arbejdskrævende sammenlignet med andre teknikker.",
+    "nl": "Een drukproces waarbij inkt door een van een sjabloon voorzien gaas op het substraat wordt geperst, één kleur per zeef. Verdraagt een zeer breed scala aan substraten (textiel, glas, keramiek, metaal, onregelmatige objecten) en levert dikke, dekkende inktfilms, maar is traag en arbeidsintensief vergeleken met andere technieken.",
+    "pl": "Proces druku, w którym farba jest przeciskana przez szablon na siatce sita na podłoże, jeden kolor na sito. Toleruje bardzo szeroki zakres podłoży (tekstylia, szkło, ceramika, metal, obiekty nieregularne) i daje grube, kryjące warstwy farby, lecz jest powolny i pracochłonny w porównaniu z innymi technikami.",
+    "pt": "Processo de impressão em que a tinta é forçada através de uma tela de malha com estêncil sobre o substrato, uma cor por tela. Tolera uma gama muito ampla de substratos (têxtil, vidro, cerâmica, metal, objetos irregulares) e produz filmes de tinta espessos e opacos, mas é lenta e trabalhosa em comparação com outras técnicas.",
+    "hi": "मुद्रण प्रक्रिया जिसमें स्याही स्टेंसिल लगी जालीदार स्क्रीन के आर-पार सब्सट्रेट पर दबाई जाती है, प्रति स्क्रीन एक रंग। बहुत विस्तृत सब्सट्रेट (कपड़ा, काँच, सिरेमिक, धातु, अनियमित वस्तुएँ) सहती है और मोटी, अपारदर्शी स्याही परत देती है, पर अन्य तकनीकों की तुलना में धीमी और श्रम-साध्य।"
+  },
+  "exactMatch": [
+    "http://www.wikidata.org/entity/Q186978"
+  ],
+  "altLabels": {
+    "en": [
+      "Screen printing",
+      "Silkscreen",
+      "Serigraphy"
+    ],
+    "nb": [
+      "Silketrykk",
+      "Serigrafi"
+    ],
+    "sv": [
+      "Serigrafi",
+      "Silketryck"
+    ],
+    "da": [
+      "Silketryk",
+      "Screentryk"
+    ],
+    "nl": [
+      "zeefdruk (serigrafie)",
+      "serigrafie"
+    ],
+    "pl": [
+      "druk sitowy",
+      "serigrafia",
+      "sito"
+    ],
+    "pt": [
+      "Impressão serigráfica",
+      "Silk-screen",
+      "Screen printing"
+    ],
+    "hi": [
+      "स्क्रीन प्रिंटिंग",
+      "सिल्कस्क्रीन",
+      "सेरिग्राफ़ी"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ]
+}

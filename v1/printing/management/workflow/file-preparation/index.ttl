@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/file-preparation> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow> ;
+    skos:definition "Tekniske operationer, der forvandler trykklare designfiler til pressespecifikt output — udskydning (arrangering af sider på et ark), RIP-behandling (rastering til pressen) og trapping."@da,
+        "Technische Operationen, die druckfertige Designdateien in maschinenspezifische Ausgaben umwandeln — Ausschießen (Anordnung der Seiten auf einem Bogen), RIP-Verarbeitung (Rasterung für die Druckmaschine) und Trapping."@de,
+        "Technical operations that transform print-ready design files into press-specific output — imposition (arranging pages on a sheet), RIP processing (rasterizing for the press), and trapping."@en,
+        "Operaciones técnicas que transforman archivos de diseño listos para imprenta en la salida específica de la prensa — imposición (disposición de páginas en una hoja), procesamiento RIP (rasterización para la prensa) y trapping."@es,
+        "तकनीकी क्रियाएँ जो प्रिंट-रेडी डिज़ाइन फ़ाइलों को प्रेस-विशिष्ट आउटपुट में बदलती हैं — इम्पोज़िशन (शीट पर पेज व्यवस्थित करना), RIP प्रोसेसिंग (प्रेस के लिए रास्टराइज़ करना) और ट्रैपिंग।"@hi,
+        "印刷可能なデザインファイルを印刷機固有の出力に変換する技術的工程 — 面付け（シート上のページ配置）、RIP処理（印刷機向けのラスタ化）、トラッピング。"@ja,
+        "Tekniske operasjoner som transformerer trykkferdige designfiler til presse-spesifikt output — impositioning (arrangere sider på et ark), RIP-prosessering (rasterisering for pressen) og trapping."@nb,
+        "Technische bewerkingen die drukklare ontwerpbestanden omzetten naar persspecifieke output — impositie (pagina's schikken op een vel), RIP-verwerking (rasteren voor de pers) en trapping."@nl,
+        "Operacje techniczne przekształcające gotowe do druku pliki projektowe w wyjście właściwe dla maszyny — impozycja (rozmieszczenie stron na arkuszu), przetwarzanie RIP (rasteryzacja dla maszyny) i trapping."@pl,
+        "Operações técnicas que transformam arquivos de design prontos para impressão em saída específica para a máquina — imposição (arranjo de páginas numa folha), processamento RIP (rasterização para a máquina) e trapping."@pt,
+        "Tekniska operationer som omvandlar tryckfärdiga designfiler till presspecifik utdata — utskjutning (sidplacering på ark), RIP-bearbetning (rastrering för pressen) och trapping."@sv,
+        "将印刷就绪的设计文件转换为印刷机专用输出的技术操作——拼版（将页面排布于纸张上）、RIP处理（光栅化以供印刷机）和补漏白。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/workflow/file-preparation/impositioning>,
+        <https://ptpge.org/v1/printing/management/workflow/file-preparation/raster-image-processing> ;
+    skos:notation "P:MG-WFL-FLPR" ;
+    skos:prefLabel "Filklargøring"@da,
+        "Dateivorbereitung"@de,
+        "File Preparation"@en,
+        "Preparación de Archivos"@es,
+        "फ़ाइल तैयारी"@hi,
+        "ファイル準備"@ja,
+        "Fil-klargjøring"@nb,
+        "Bestandsvoorbereiding"@nl,
+        "Przygotowanie plików"@pl,
+        "Preparação de arquivos"@pt,
+        "Filförberedelse"@sv,
+        "文件准备"@zh-Hans ;
+    skos:scopeNote "Umfasst Ausschießen (Seitenanordnung, Bogenlayout, Greiferränder) und RIP (Raster Image Processing — Konvertierung vektorbasierter PDFs in das Bitmap-Format, das die Druckmaschine benötigt). Beide sind typischerweise in die übergeordnete Workflow-Automatisierungsplattform integriert, existieren aber als eigenständige technische Operationen."@de,
+        "Includes impositioning (page arrangement, signature layout, gripper margins) and RIP (raster image processing — converting vector PDFs into the bitmap format the press needs). Both are typically integrated into the broader workflow automation platform but exist as distinct technical operations."@en,
+        "Incluye imposición (disposición de páginas, maquetación de pliegos, márgenes de pinza) y RIP (Raster Image Processor — conversión de PDF vectoriales al formato bitmap que necesita la prensa). Ambos suelen estar integrados en motores de automatización."@es,
+        "इम्पोज़िशनिंग (पेज व्यवस्था, सिग्नेचर लेआउट, ग्रिपर मार्जिन) और RIP (रास्टर इमेज प्रोसेसिंग — वेक्टर PDF को प्रेस के आवश्यक बिटमैप फ़ॉर्मेट में बदलना) शामिल। दोनों आमतौर पर व्यापक वर्कफ़्लो स्वचालन प्लेटफ़ॉर्म में एकीकृत, पर अलग तकनीकी क्रियाओं के रूप में विद्यमान।"@hi,
+        "面付け（ページ配置、折り丁レイアウト、グリッパーマージン）とRIP（ラスター画像処理 — ベクターPDFを印刷機が必要とするビットマップ形式に変換）を含む。両者とも通常はより広範なワークフロー自動化プラットフォームに統合されているが、独立した技術的工程として存在する。"@ja,
+        "Inkluderer impositioning (sidearrangering, signaturoppsett, griper-marger) og RIP (raster image processing — konverterer vektor-PDF-er til bitmap-formatet pressen trenger). Begge er typisk integrert i den bredere workflow-automasjonsplattformen, men eksisterer som distinkte tekniske operasjoner."@nb,
+        "Inclui imposição (arranjo de páginas, layout de cadernos, margens de pinça) e RIP (processamento de imagem raster — conversão de PDFs vetoriais no formato bitmap que a máquina precisa). Ambos são normalmente integrados à plataforma mais ampla de automação de fluxo de trabalho, mas existem como operações técnicas distintas."@pt,
+        "包括拼版（页面排布、印张布局、咬口边距）和RIP（光栅图像处理器——将矢量PDF转换为印刷机所需的位图格式）。两者通常集成在自动化引擎中。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

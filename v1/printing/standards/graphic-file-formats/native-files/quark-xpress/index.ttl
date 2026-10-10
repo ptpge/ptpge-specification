@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/quark-xpress> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files> ;
+    skos:definition "Programeget filformat for QuarkXPress, et professionelt sidelayoutprogram, historisk dominerende i forlagsprepress."@da,
+        "Anwendungseigenes Dateiformat von QuarkXPress, einer professionellen Seitenlayout-Anwendung, die historisch in der Verlagsdruckvorstufe dominierend war."@de,
+        "Native file format for QuarkXPress, a professional page-layout application historically dominant in publishing prepress."@en,
+        "Formato de archivo nativo de QuarkXPress, una aplicación profesional de maquetación históricamente dominante en la pre-prensa editorial."@es,
+        "QuarkXPress का नेटिव फ़ाइल फ़ॉर्मेट, प्रकाशन प्रीप्रेस में ऐतिहासिक रूप से प्रमुख पेशेवर पेज-लेआउट एप्लिकेशन।"@hi,
+        "QuarkXPressのネイティブファイル形式。出版製版において歴史的に主導的地位を占めたプロフェッショナル向けページレイアウトアプリケーション。"@ja,
+        "Programspesifikt filformat for QuarkXPress, en profesjonell sideoppsettsapplikasjon historisk dominerende i forlagsbransjens preprint."@nb,
+        "Programma-eigen bestandsformaat voor QuarkXPress, een professioneel paginaopmaakprogramma, historisch dominant in uitgeversprepress."@nl,
+        "Natywny format pliku QuarkXPress, profesjonalnej aplikacji do składu stron, historycznie dominującej w prepressie wydawniczym."@pl,
+        "Formato de arquivo nativo do QuarkXPress, aplicativo profissional de diagramação historicamente dominante na pré-impressão editorial."@pt,
+        "Programeget filformat för QuarkXPress, ett professionellt sidlayoutprogram historiskt dominerande i förlagsprepress."@sv,
+        "QuarkXPress的原生文件格式，QuarkXPress是历史上在出版印前占主导地位的专业页面布局应用程序。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/quark-xpress/quark-xpress> ;
+    skos:notation "P:ST-GFF-NATV-QXP" ;
+    skos:prefLabel "QuarkXPress"@da,
+        "Quark XPress"@de,
+        "Quark XPress"@en,
+        "Quark XPress"@es,
+        "Quark XPress"@hi,
+        "Quark XPress"@ja,
+        "Quark XPress"@nb,
+        "QuarkXPress"@nl,
+        "Quark XPress"@pl,
+        "Quark XPress"@pt,
+        "QuarkXPress"@sv,
+        "Quark XPress"@zh-Hans ;
+    skos:scopeNote "QuarkXPress-Dokumente (.qxp) werden in einigen Verlags-Workflows weiterhin verwendet, sind aber weitgehend von Adobe InDesign verdrängt worden. Wie bei allen anwendungseigenen Formaten ist der PDF-Export der Standard für die Druckübergabe."@de,
+        "QuarkXPress documents (.qxp) are still used in some publishing workflows but have largely been displaced by Adobe InDesign. As with all native formats, PDF export is the print-delivery standard."@en,
+        "Los documentos de QuarkXPress (.qxp) todavía se utilizan en algunos flujos editoriales, pero han sido desplazados en gran medida por Adobe InDesign. Como con todos los formatos nativos, la exportación a PDF es el estándar de entrega a imprenta."@es,
+        "QuarkXPress दस्तावेज़ (.qxp) कुछ प्रकाशन वर्कफ़्लो में अब भी प्रयुक्त, पर Adobe InDesign ने बड़े पैमाने पर विस्थापित किया। सभी नेटिव फ़ॉर्मेट की तरह PDF निर्यात प्रिंट-डिलीवरी मानक।"@hi,
+        "QuarkXPress文書（.qxp）は依然として一部の出版ワークフローで使用されているが、Adobe InDesignに大幅に置き換えられている。全てのネイティブ形式と同様に、PDFエクスポートが印刷納品の標準である。"@ja,
+        "QuarkXPress-dokumenter (.qxp) brukes fortsatt i enkelte forlagsbransjearbeidsflyter, men er i stor grad fortrengt av Adobe InDesign. Som med alle programspesifikke formater, er PDF-eksport standard for leveranse til trykk."@nb,
+        "Documentos QuarkXPress (.qxp) ainda são usados em alguns fluxos editoriais, mas foram amplamente substituídos pelo Adobe InDesign. Como com todos os formatos nativos, a exportação em PDF é a norma de entrega para impressão."@pt,
+        "QuarkXPress文档（.qxp）仍在一些出版工作流程中使用，但大多被Adobe InDesign取代。与所有原生格式一样，PDF导出是印刷交付标准。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/configuration> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables> ;
+    skos:definition "Dimensionelle konfigurationsvariabler — de dimensionelle akser et trykt produkt kan konfigureres langs."@da,
+        "Dimensions-Konfigurationsvariablen — die dimensionalen Achsen, entlang derer ein Druckprodukt konfiguriert werden kann."@de,
+        "Dimensional configuration variables — the dimensional axes a printed product can be configured along."@en,
+        "Variables de configuración de dimensión — los ejes de dimensión a lo largo de los cuales puede configurarse un producto impreso."@es,
+        "आयामी कॉन्फ़िगरेशन वेरिएबल — वे आयामी अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है।"@hi,
+        "寸法の構成変数 — 印刷物を構成できる寸法の軸。"@ja,
+        "Dimensjonell konfigurasjonsvariabler — dimensjonell-aksene et trykkprodukt kan konfigureres langs."@nb,
+        "Dimensionele configuratievariabelen — de dimensionele assen waarlangs een drukproduct kan worden geconfigureerd."@nl,
+        "Zmienne konfiguracyjne wymiarowe — osie wymiarowe, wzdłuż których można skonfigurować produkt drukowany."@pl,
+        "Variáveis de configuração dimensional — os eixos dimensionais ao longo dos quais um impresso pode ser configurado."@pt,
+        "Dimensionella konfigurationsvariabler — de dimensionella axlar en trycksak kan konfigureras längs."@sv,
+        "尺寸配置变量 — 印刷品可沿其配置的尺寸轴。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/configuration/back-orientation>,
+        <https://ptpge.org/v1/variables/configuration/custom-height>,
+        <https://ptpge.org/v1/variables/configuration/custom-width>,
+        <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/page-count>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/configuration/spine-thickness>,
+        <https://ptpge.org/v1/variables/configuration/winding-direction> ;
+    skos:notation "VAR:CF" ;
+    skos:prefLabel "Konfiguration"@da,
+        "Konfiguration"@de,
+        "Configuration"@en,
+        "Configuración"@es,
+        "कॉन्फ़िगरेशन"@hi,
+        "構成"@ja,
+        "Konfigurasjon"@nb,
+        "Configuratie"@nl,
+        "Konfiguracja"@pl,
+        "Configuração"@pt,
+        "Konfiguration"@sv,
+        "配置"@zh-Hans ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

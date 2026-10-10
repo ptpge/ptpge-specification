@@ -1,0 +1,90 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/order/lead-time",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "VAR:OR§LEAD-TIME",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Lead Time",
+    "nb": "Ledetid",
+    "de": "Lieferzeit",
+    "es": "Plazo de entrega",
+    "ja": "リードタイム",
+    "zh-Hans": "交货周期",
+    "sv": "Ledtid",
+    "da": "Leveringstid",
+    "nl": "Levertijd",
+    "pl": "Czas realizacji",
+    "pt": "Prazo de produção",
+    "hi": "लीड टाइम"
+  },
+  "definition": {
+    "en": "Configurable axis: Lead Time (numeric, single, in days). A numeric literal — no enumerated domain.",
+    "nb": "Konfigurerbar akse: Ledetid (numerisk, single, i dager). Numerisk verdi — ingen opptalt domene.",
+    "de": "Konfigurierbare Achse: Lieferzeit (numerisch, Einfachauswahl, in Tagen). Numerischer Wert — keine aufgezählte Wertemenge.",
+    "es": "Eje configurable: Plazo de entrega (numérico, selección única, en días). Un literal numérico — sin dominio enumerado.",
+    "ja": "構成可能な軸：リードタイム（数値、単一選択、日数単位）。数値リテラル — 列挙された定義域はない。",
+    "zh-Hans": "可配置轴：交货周期（数值，单选，以天计）。数值字面量——无枚举定义域。",
+    "sv": "Konfigurerbar axel: Ledtid (numerisk, enkelval, i dagar). En numerisk literal — ingen uppräknad domän.",
+    "da": "Konfigurerbar akse: Leveringstid (numerisk, enkeltvalg, i dage). En numerisk literal — intet enumereret domæne.",
+    "nl": "Configureerbare as: Levertijd (numeriek, enkelvoudig, in dagen). Een numerieke literal — geen opgesomd domein.",
+    "pl": "Oś konfigurowalna: Czas realizacji (numeryczna, pojedynczy, w dniach). Literał liczbowy — brak dziedziny wyliczeniowej.",
+    "pt": "Eixo configurável: Prazo de Produção (numérico, único, em dias). Literal numérico — sem domínio enumerado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: लीड टाइम (संख्यात्मक, एकल, दिनों में)। संख्यात्मक लिटरल — कोई enum डोमेन नहीं।"
+  },
+  "question": {
+    "en": "When do you need it?",
+    "nb": "Når trenger du den?",
+    "de": "Wann brauchen Sie es?",
+    "es": "¿Para cuándo lo necesita?",
+    "ja": "いつまでに必要ですか？",
+    "zh-Hans": "什么时候需要？",
+    "sv": "När behöver du den?",
+    "da": "Hvornår skal du bruge den?",
+    "nl": "Wanneer heeft u het nodig?",
+    "pl": "Na kiedy jest potrzebny?",
+    "pt": "Para quando precisa?",
+    "hi": "कब तक चाहिए?"
+  },
+  "cardinality": "single",
+  "scope": "product",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/order",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Turnaround",
+      "Production time",
+      "Delivery time"
+    ],
+    "nb": [
+      "Leveringstid",
+      "Produksjonstid"
+    ],
+    "pl": [
+      "czas produkcji",
+      "termin realizacji",
+      "czas dostawy"
+    ],
+    "pt": [
+      "prazo",
+      "tempo de produção",
+      "prazo de entrega",
+      "lead time"
+    ],
+    "hi": [
+      "टर्नअराउंड",
+      "उत्पादन समय",
+      "डिलीवरी समय",
+      "कितने दिन"
+    ]
+  },
+  "datatype": "numeric",
+  "unit": "days",
+  "rangeMin": 0
+}

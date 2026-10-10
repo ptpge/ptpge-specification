@@ -1,0 +1,110 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/perfect-binding",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "notation": "P:CP§PERFECT-BINDING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "label": {
+    "en": "Perfect Binding",
+    "nb": "Limbinding",
+    "de": "Klebebindung",
+    "ja": "Perfect Binding",
+    "es": "Perfect Binding",
+    "zh-Hans": "Perfect Binding",
+    "sv": "Limbindning",
+    "da": "Limbinding",
+    "nl": "Garenloos binden",
+    "pl": "Oprawa klejona",
+    "pt": "Encadernação colada (brochura)",
+    "hi": "परफेक्ट बाइंडिंग"
+  },
+  "definition": {
+    "en": "Pages glued at the spine inside a wraparound cover; common for paperback books and thick catalogues.",
+    "nb": "Sider limt ved ryggen inne i et omslag; vanlig for paperback-bøker og tykke kataloger.",
+    "de": "Am Rücken in einen Umschlag geklebte Seiten; üblich für Taschenbücher und dicke Kataloge.",
+    "ja": "巻き表紙の中で背を糊で固めたページ。ペーパーバックや厚いカタログで一般的。",
+    "es": "Páginas encoladas por el lomo dentro de una cubierta envolvente; común en libros de bolsillo y catálogos gruesos.",
+    "zh-Hans": "书页在书脊处胶粘并包以整体封面；常见于平装书与厚目录。",
+    "sv": "Sidor limmade i ryggen inuti ett omslag; vanligt för pocketböcker och tjocka kataloger.",
+    "da": "Sider limet i ryggen inde i et omslag; almindeligt for paperbacks og tykke kataloger.",
+    "nl": "Pagina's in de rug gelijmd binnen een omslag; gebruikelijk voor paperbacks en dikke catalogi.",
+    "pl": "Strony klejone w grzbiecie wewnątrz owijającej okładki; typowa dla książek w miękkiej oprawie i grubych katalogów.",
+    "pt": "Páginas coladas na lombada dentro de uma capa envolvente; comum em livros brochura e catálogos grossos.",
+    "hi": "लपेटे हुए कवर के भीतर स्पाइन पर चिपके पृष्ठ; पेपरबैक किताबों और मोटे कैटलॉग में आम।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Glued binding",
+      "Adhesive binding",
+      "Paperback binding",
+      "Perfect bound",
+      "Perfect-bound",
+      "Glue bound"
+    ],
+    "nb": [
+      "Limbinding",
+      "Limfres",
+      "Myk perm",
+      "Limbundet",
+      "Limfrest"
+    ],
+    "sv": [
+      "Limhäftning",
+      "Limbunden"
+    ],
+    "da": [
+      "Limbundet"
+    ],
+    "de": [
+      "Klebebindung",
+      "Klebegebunden"
+    ],
+    "pl": [
+      "oprawa miękka klejona",
+      "klejenie grzbietu",
+      "oprawa bezszwowa"
+    ],
+    "pt": [
+      "lombada colada",
+      "encadernação colada",
+      "lombada quadrada",
+      "hot melt",
+      "colado"
+    ],
+    "hi": [
+      "परफेक्ट बाउंड",
+      "गोंद बाइंडिंग",
+      "एडहेसिव बाइंडिंग",
+      "पेपरबैक बाइंडिंग",
+      "सॉफ़्ट बाइंडिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "SpinePreparation",
+        "CoverApplication"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.29 · p.128",
+        "§5.6.8 · p.116"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 40"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/south-america",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "notation": "O:GY-SAM",
+  "label": {
+    "en": "South America",
+    "nb": "Sør-Amerika",
+    "de": "Südamerika",
+    "ja": "南アメリカ",
+    "es": "Sudamérica",
+    "zh-Hans": "南美洲",
+    "sv": "Sydamerika",
+    "da": "Sydamerika",
+    "nl": "Zuid-Amerika",
+    "pl": "Ameryka Południowa",
+    "pt": "América do Sul",
+    "hi": "दक्षिण अमेरिका"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/geography/south-america/argentina",
+    "https://ptpge.org/v1/ordering/geography/south-america/brasil",
+    "https://ptpge.org/v1/ordering/geography/south-america/chile",
+    "https://ptpge.org/v1/ordering/geography/south-america/peru"
+  ],
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "South American region grouping. Contains country-level subdivisions for Brazil (BR), Argentina (AR), Chile (CL), and other South American nations. Used as geographic facet in product specification, supplier listing, and shipping/delivery scoping.",
+    "nb": "Sør-Amerika-regionen som gruppering. Inneholder land-nivå underinndelinger for Brasil (BR), Argentina (AR), Chile (CL) og andre sør-amerikanske nasjoner. Brukt som geografisk fasett i produkt-spesifikasjon, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Regionale Gruppierung Südamerika. Enthält länderspezifische Unterteilungen für Brasilien (BR), Argentinien (AR), Chile (CL) und andere südamerikanische Staaten. Verwendet als geografische Facette in der Produktspezifikation, Lieferantenlisten und Versand-/Lieferzonen.",
+    "ja": "南アメリカ地域のグループ。ブラジル（BR）、アルゼンチン（AR）、チリ（CL）、その他の南米諸国の国レベルの細分を含む。製品仕様、供給者リスト、配送ゾーンの地理的ファセットとして使用される。",
+    "es": "Agrupación regional de Sudamérica. Contiene subdivisiones a nivel de país para Brasil (BR), Argentina (AR), Chile (CL) y otras naciones sudamericanas. Utilizada como faceta geográfica en la especificación de productos, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "南美洲区域分组。包含巴西（BR）、阿根廷（AR）、智利（CL）以及其他南美国家的国家级细分。作为产品规格、供应商列表和发货/配送范围的地理分面使用。",
+    "sv": "Sydamerikansk regiongruppering. Innehåller underindelningar på landsnivå för Brasilien (BR), Argentina (AR), Chile (CL) och andra sydamerikanska länder. Används som geografisk facett i produktspecifikation, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Sydamerika — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Zuid-Amerika — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Grupowanie regionalne dla Ameryki Południowej. Zawiera podziały na poziomie krajów: Brazylia (BR), Argentyna (AR), Chile (CL) i inne państwa Ameryki Południowej. Używane jako aspekt geograficzny w specyfikacji produktu, listach dostawców i zakresie wysyłki/dostawy.",
+    "pt": "Agrupamento regional: América do Sul. Contém subdivisões de nível de país para Brasil (BR), Argentina (AR), Chile (CL) e outras nações sul-americanas. Usado como faceta geográfica em especificação de produto, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "क्षेत्रीय समूह: दक्षिण अमेरिका। ब्राज़ील (BR), अर्जेंटीना (AR), चिली (CL) और अन्य दक्षिण अमेरिकी राष्ट्रों के देश-स्तरीय उपविभाग। उत्पाद विनिर्देश, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे में भौगोलिक पहलू के रूप में प्रयुक्त।"
+  }
+}

@@ -1,0 +1,122 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/magnets> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "køleskabsmagnet"@da,
+        "køleskabsmagneter"@da,
+        "magnet"@da,
+        "magnetskilt"@da,
+        "reklamemagnet"@da,
+        "Kühlschrankmagnete"@de,
+        "Magnetschilder"@de,
+        "Werbemagnete"@de,
+        "fridge magnet"@en,
+        "magnetic sign"@en,
+        "promotional magnet"@en,
+        "imán"@es,
+        "imán de nevera"@es,
+        "imán promocional"@es,
+        "imán publicitario"@es,
+        "चुंबकीय साइन"@hi,
+        "प्रचार मैग्नेट"@hi,
+        "फ़्रिज मैग्नेट"@hi,
+        "マグネットステッカー"@ja,
+        "冷蔵庫マグネット"@ja,
+        "販促マグネット"@ja,
+        "kjøleskapsmagnet"@nb,
+        "reklamemagnet"@nb,
+        "koelkastmagneet"@nl,
+        "koelkastmagneten"@nl,
+        "magneet"@nl,
+        "magneetbord"@nl,
+        "reclamemagneet"@nl,
+        "magnes na lodówkę"@pl,
+        "magnes reklamowy"@pl,
+        "tablica magnetyczna"@pl,
+        "imã"@pt,
+        "placa magnética"@pt,
+        "ímã de geladeira"@pt,
+        "ímã promocional"@pt,
+        "kylskåpsmagnet"@sv,
+        "kylskåpsmagneter"@sv,
+        "magnet"@sv,
+        "magnetskylt"@sv,
+        "reklammagnet"@sv,
+        "促销磁贴"@zh-Hans,
+        "冰箱贴"@zh-Hans,
+        "广告磁贴"@zh-Hans,
+        "磁性贴"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et trykt magnetark til promoverings- eller skiltebrug — køleskabsmagneter og magnetskilte."@da,
+        "Eine bedruckte Magnetfolie für Werbe- oder Beschilderungszwecke."@de,
+        "A printed magnetic sheet for promotional or signage use — fridge magnets and magnetic signs."@en,
+        "Una lámina magnética impresa para uso promocional o de señalización — imanes de nevera y rótulos magnéticos."@es,
+        "प्रचार या साइनेज के लिए मुद्रित चुंबकीय शीट — फ़्रिज मैग्नेट और चुंबकीय साइन।"@hi,
+        "販促やサイン用途の印刷マグネットシート。冷蔵庫用マグネットや磁気サインなど。"@ja,
+        "Et trykt magnetark til kampanje- eller skiltbruk — kjøleskapsmagneter og magnetskilt."@nb,
+        "Een gedrukt magneetvel voor promotie- of signalisatiegebruik — koelkastmagneten en magneetborden."@nl,
+        "Drukowany arkusz magnetyczny do zastosowań promocyjnych lub oznakowania — magnesy na lodówkę i tablice magnetyczne."@pl,
+        "Manta magnética impressa para uso promocional ou de sinalização — ímãs de geladeira e placas magnéticas."@pt,
+        "Ett tryckt magnetark för profil- eller skyltbruk — kylskåpsmagneter och magnetskyltar."@sv,
+        "印刷磁性贴片——冰箱贴和磁性标牌，用于促销或标识。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§MAGNETS" ;
+    skos:prefLabel "Magneter"@da,
+        "Magnete"@de,
+        "Magnets"@en,
+        "Imanes"@es,
+        "मैग्नेट"@hi,
+        "マグネット"@ja,
+        "Magneter"@nb,
+        "Magneten"@nl,
+        "Magnesy"@pl,
+        "Ímãs"@pt,
+        "Magneter"@sv,
+        "磁贴"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-thickness>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a10>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4h>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a5>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a7>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a8>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a9>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/magnetic-foil> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

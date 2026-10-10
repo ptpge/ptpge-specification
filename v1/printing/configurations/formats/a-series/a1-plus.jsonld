@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A1+ (609 x 914 mm)",
+    "es": "A1+ (609 × 914 mm)",
+    "zh-Hans": "A1+ (609 × 914 mm)",
+    "nb": "A1+ (609 x 914 mm)",
+    "de": "A1+ (609 x 914 mm)",
+    "ja": "A1+ (609 x 914 mm)",
+    "sv": "A1+ (609 x 914 mm)",
+    "da": "A1+ (609 x 914 mm)",
+    "nl": "A1+ (609 x 914 mm)",
+    "pl": "A1+ (609 x 914 mm)",
+    "pt": "A1+ (609 x 914 mm)",
+    "hi": "A1+ (609 x 914 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A1-PLUS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "609 × 914 mm (23.98 × 35.98 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Oversize variant of A1 with bleed margin — used in printing where A1 is trimmed to the bleed.",
+    "nb": "609 × 914 mm (23,98 × 35,98 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Overdimensjonert variant av A1 med utfallsmargin — brukt i trykk der A1 beskjæres til utfallet.",
+    "de": "609 × 914 mm (23,98 × 35,98 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Übergrößenvariante von A1 mit Beschnittrand — eingesetzt im Druck, wenn A1 randlos auf das Endmaß beschnitten wird.",
+    "ja": "609×914mm（23.98×35.98インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。ブリードマージン付きのA1のオーバーサイズ・バリアント — A1がブリードまで断裁される印刷で使用される。",
+    "es": "Formato A1+ — versión sobredimensionada de A1 utilizada en impresión para acomodar sangrados y marcas técnicas.",
+    "zh-Hans": "A1+ —— 印刷用的A1加大版本，用于容纳出血和技术标记。",
+    "sv": "609 × 914 mm (23.98 × 35.98 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Överformatvariant av A1 med utfallsmarginal — används i tryck där A1 renskärs till utfallet.",
+    "da": "609 × 914 mm (23.98 × 35.98 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Overformatvariant af A1 med beskæringsmargin — bruges i tryk, hvor A1 renskæres til beskæringen.",
+    "nl": "609 × 914 mm (23.98 × 35.98 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Overmaatvariant van A1 met snijmarge — gebruikt in drukwerk waarbij A1 op afloop wordt schoongesneden.",
+    "pl": "609 × 914 mm (23,98 × 35,98 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Powiększony wariant A1 z marginesem na spad — używany w druku, gdy A1 jest przycinany po spadzie.",
+    "pt": "609 × 914 mm (23.98 × 35.98 in). Faz parte da série A da ISO 216, com proporção 1:√2. Variante superdimensionada do A1 com margem de sangria — usada quando o A1 é refilado na sangria.",
+    "hi": "609 × 914 mm (23.98 × 35.98 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A1 का बड़ा रूप, ब्लीड मार्जिन सहित — जब A1 को ब्लीड पर ट्रिम किया जाता है।"
+  },
+  "properties": {
+    "width": 609,
+    "height": 914,
+    "unit": "mm",
+    "aspectRatio": 1.5008,
+    "standard": "ISO 216",
+    "area": 556626
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "609 x 914 mm",
+      "609x914",
+      "609×914",
+      "60.9 x 91.4 cm",
+      "DIN A1+"
+    ],
+    "nb": [
+      "A1+-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

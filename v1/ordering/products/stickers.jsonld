@@ -1,0 +1,287 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/stickers",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§STICKERS",
+  "elementType": "product",
+  "label": {
+    "en": "Stickers",
+    "nb": "Klistremerker",
+    "de": "Aufkleber",
+    "ja": "ステッカー",
+    "es": "Pegatinas",
+    "zh-Hans": "贴纸",
+    "nl": "Stickers",
+    "sv": "Klistermärken",
+    "da": "Klistermærker",
+    "pl": "Naklejki",
+    "pt": "Adesivos",
+    "hi": "स्टिकर"
+  },
+  "altLabels": {
+    "en": [
+      "Decals",
+      "decal",
+      "vinyl sticker",
+      "die-cut sticker"
+    ],
+    "nb": [
+      "Klistremerke",
+      "klistremerke",
+      "dekal",
+      "merke"
+    ],
+    "de": [
+      "Sticker",
+      "Klebesticker"
+    ],
+    "ja": [
+      "シール",
+      "ステッカー",
+      "デカール",
+      "カッティングステッカー",
+      "ダイカットステッカー"
+    ],
+    "zh-Hans": [
+      "不干胶",
+      "不干胶贴纸",
+      "异形贴纸",
+      "贴花",
+      "车贴"
+    ],
+    "pl": [
+      "naklejka",
+      "naklejka winylowa",
+      "naklejka wykrawana",
+      "kalkomania"
+    ],
+    "sv": [
+      "klistermärke",
+      "dekal",
+      "dekaler",
+      "stickers",
+      "vinylklistermärke",
+      "stansade klistermärken"
+    ],
+    "da": [
+      "klistermærke",
+      "sticker",
+      "stickers",
+      "dekal",
+      "vinylklistermærke",
+      "udstansede klistermærker"
+    ],
+    "nl": [
+      "sticker",
+      "plakker",
+      "zelfklever",
+      "zelfklevers",
+      "vinylsticker",
+      "gestanste stickers"
+    ],
+    "pt": [
+      "adesivo",
+      "adesivo de vinil",
+      "adesivo recortado",
+      "etiqueta adesiva",
+      "sticker",
+      "decalque"
+    ],
+    "hi": [
+      "स्टिकर",
+      "डीकल",
+      "विनाइल स्टिकर",
+      "डाई-कट स्टिकर",
+      "चिपकने वाला स्टिकर"
+    ],
+    "es": [
+      "pegatina",
+      "adhesivo",
+      "calcomanía",
+      "vinilo adhesivo troquelado",
+      "sticker"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printed self-adhesive sticker, die- or kiss-cut to shape — promotional, decorative and product stickers on sheet or roll.",
+    "nb": "Et trykt selvklebende klistremerke, stanset eller kiss-cut til form — kampanje-, dekorative og produkt-klistremerker på ark eller rull.",
+    "de": "Ein bedruckter selbstklebender Aufkleber, gestanzt oder kiss-cut.",
+    "ja": "型抜き（ダイカット／キスカット）した粘着印刷ステッカー。販促・装飾・商品用で、シートまたはロール供給。",
+    "es": "Una pegatina impresa autoadhesiva, troquelada total o media (kiss-cut) — pegatinas promocionales, decorativas y de producto, en hoja o rollo.",
+    "zh-Hans": "模切或半切成型的自粘印刷贴纸——促销、装饰和产品贴纸，张装或卷装。",
+    "sv": "Ett tryckt självhäftande klistermärke, stansat eller kiss-cut till form — profil-, dekorations- och produktmärken på ark eller rulle.",
+    "da": "Et trykt selvklæbende klistermærke, udstanset eller kiss-cut i form — promoverings-, dekorations- og produktmærker på ark eller rulle.",
+    "nl": "Een gedrukte zelfklevende sticker, gestanst of kiss-cut op vorm — promotie-, decoratie- en productstickers op vel of rol.",
+    "pl": "Drukowana naklejka samoprzylepna, wykrawana do kształtu (na wylot lub po warstwie wierzchniej) — naklejki promocyjne, dekoracyjne i produktowe w arkuszu lub na roli.",
+    "pt": "Adesivo impresso autocolante, com corte total ou meio-corte no formato — adesivos promocionais, decorativos e de produto em folha ou rolo.",
+    "hi": "आकार में डाई-कट या किस-कट किया मुद्रित स्वयं-चिपकने वाला स्टिकर — शीट या रोल पर प्रचार, सजावटी और उत्पाद स्टिकर।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet",
+    "https://ptpge.org/v1/printing/configurations/setup-models/roll"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a12",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a11",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a10",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a9",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a8",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a7",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/circle",
+    "https://ptpge.org/v1/printing/configurations/shape/ellipse",
+    "https://ptpge.org/v1/printing/configurations/shape/freeform"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/vinyl"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 10,
+    "max": 300,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "supportsWindingDirection": [
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-1",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-2",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-3",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-4",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-5",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-6",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-7",
+    "https://ptpge.org/v1/printing/configurations/winding-direction/finat-8"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode",
+    "https://ptpge.org/v1/variables/configuration/shape"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class",
+    "https://ptpge.org/v1/variables/configuration/winding-direction"
+  ]
+}

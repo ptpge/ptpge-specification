@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/indesign> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".indd"@en,
+        "InDesign"@en,
+        ".indd"@hi,
+        "InDesign"@hi,
+        ".indd"@pl,
+        "InDesign"@pl,
+        ".indd"@pt,
+        "InDesign"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe> ;
+    skos:definition "Programeget sidelayoutformat (.indd) for Adobe InDesign, branchens standardprogram til flersidede bøger, magasiner, brochurer og komplekse tryklayouts."@da,
+        "Anwendungseigenes Seitenlayout-Format (.indd) von Adobe InDesign, der Industriestandard-Anwendung für mehrseitige Bücher, Magazine, Broschüren und komplexe Drucklayouts."@de,
+        "Native page-layout file format (.indd) for Adobe InDesign, the industry-standard application for multi-page books, magazines, brochures, and complex print layouts."@en,
+        "Formato nativo de Adobe InDesign para maquetación de página profesional. Dominante en la pre-prensa editorial. Para entrega a imprenta se exporta a PDF/X."@es,
+        "Adobe InDesign का नेटिव पेज-लेआउट फ़ाइल फ़ॉर्मेट (.indd), बहु-पृष्ठ पुस्तकों, पत्रिकाओं, ब्रोशर और जटिल प्रिंट लेआउट का उद्योग-मानक एप्लिकेशन।"@hi,
+        "Adobe InDesignのネイティブページレイアウトファイル形式（.indd）。書籍、雑誌、パンフレット、複雑な印刷レイアウトの多ページ制作向け業界標準アプリケーション。"@ja,
+        "Programspesifikt sideoppsettsformat (.indd) for Adobe InDesign, bransjestandardapplikasjonen for flersides bøker, magasiner, brosjyrer og komplekse trykkoppsett."@nb,
+        "Programma-eigen paginaopmaakformaat (.indd) voor Adobe InDesign, het industriestandaardprogramma voor meerpaginaboeken, magazines, brochures en complexe druklay-outs."@nl,
+        "Natywny format składu stron (.indd) programu Adobe InDesign, branżowego standardu do wielostronicowych książek, czasopism, folderów i złożonych układów drukarskich."@pl,
+        "Formato de arquivo nativo de diagramação (.indd) do Adobe InDesign, o aplicativo padrão do setor para livros, revistas, folhetos de várias páginas e layouts de impressão complexos."@pt,
+        "Programeget sidlayoutformat (.indd) för Adobe InDesign, branschstandardprogrammet för flersidiga böcker, tidskrifter, broschyrer och komplexa trycklayouter."@sv,
+        "Adobe InDesign用于专业页面布局的原生格式。在出版印前占主导地位。交付印刷时导出为PDF/X。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§INDESIGN" ;
+    skos:prefLabel "InDesign (.indd)"@da,
+        "InDesign (.indd)"@de,
+        "InDesign (.indd)"@en,
+        "Adobe InDesign (.indd)"@es,
+        "InDesign (.indd)"@hi,
+        "InDesign (.indd)"@ja,
+        "InDesign (.indd)"@nb,
+        "InDesign (.indd)"@nl,
+        "InDesign (.indd)"@pl,
+        "InDesign (.indd)"@pt,
+        "InDesign (.indd)"@sv,
+        "Adobe InDesign (.indd)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

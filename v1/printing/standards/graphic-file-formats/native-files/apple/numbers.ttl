@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/numbers> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".numbers"@en,
+        ".numbers"@hi,
+        ".numbers"@pl,
+        ".numbers"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple> ;
+    skos:definition "Programeget regnearksformat (.numbers) for Apple Numbers, brugt til tabeldata og beregninger på macOS og iOS."@da,
+        "Anwendungseigenes Tabellenkalkulationsformat (.numbers) von Apple Numbers, verwendet für tabellarische Daten und Berechnungen unter macOS und iOS."@de,
+        "Native spreadsheet file format (.numbers) for Apple Numbers, used for tabular data and calculations on macOS and iOS."@en,
+        "Formato nativo de Apple Numbers para hojas de cálculo. Raramente utilizado como entrega de imprenta; se exporta a PDF si es necesario."@es,
+        "Apple Numbers का नेटिव स्प्रेडशीट फ़ाइल फ़ॉर्मेट (.numbers), macOS और iOS पर सारणीबद्ध डेटा और गणनाओं के लिए।"@hi,
+        "Apple Numbersのネイティブ表計算ファイル形式（.numbers）。macOSおよびiOS上で表データおよび計算に使用される。"@ja,
+        "Programspesifikt regnearkformat (.numbers) for Apple Numbers, brukt for tabulærdata og kalkulasjoner på macOS og iOS."@nb,
+        "Programma-eigen spreadsheetformaat (.numbers) voor Apple Numbers, gebruikt voor tabeldata en berekeningen op macOS en iOS."@nl,
+        "Natywny format arkusza kalkulacyjnego (.numbers) programu Apple Numbers, używany do danych tabelarycznych i obliczeń na macOS i iOS."@pl,
+        "Formato de arquivo nativo de planilha (.numbers) do Apple Numbers, usado para dados tabulares e cálculos no macOS e iOS."@pt,
+        "Programeget kalkylbladsformat (.numbers) för Apple Numbers, använt för tabelldata och beräkningar på macOS och iOS."@sv,
+        "Apple Numbers用于电子表格的原生格式。很少用作印刷交付；如需要导出为PDF。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§NUMBERS" ;
+    skos:prefLabel "Numbers (.numbers)"@da,
+        "Numbers (.numbers)"@de,
+        "Numbers (.numbers)"@en,
+        "Apple Numbers (.numbers)"@es,
+        "Numbers (.numbers)"@hi,
+        "Numbers (.numbers)"@ja,
+        "Numbers (.numbers)"@nb,
+        "Numbers (.numbers)"@nl,
+        "Numbers (.numbers)"@pl,
+        "Numbers (.numbers)"@pt,
+        "Numbers (.numbers)"@sv,
+        "Apple Numbers (.numbers)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

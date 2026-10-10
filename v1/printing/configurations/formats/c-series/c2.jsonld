@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/c-series/c2",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "C2 (458 x 648 mm)",
+    "es": "C2 (458 × 648 mm)",
+    "zh-Hans": "C2 (458 × 648 mm)",
+    "nb": "C2 (458 x 648 mm)",
+    "de": "C2 (458 x 648 mm)",
+    "ja": "C2 (458 x 648 mm)",
+    "sv": "C2 (458 x 648 mm)",
+    "da": "C2 (458 x 648 mm)",
+    "nl": "C2 (458 x 648 mm)",
+    "pl": "C2 (458 x 648 mm)",
+    "pt": "C2 (458 x 648 mm)",
+    "hi": "C2 (458 x 648 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§C2",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/c-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "458 × 648 mm (18.03 × 25.51 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A2 sheet flat.",
+    "nb": "458 × 648 mm (18,03 × 25,51 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A2-ark uten brett.",
+    "de": "458 × 648 mm (18,03 × 25,51 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen A2-Bogen ungefaltet.",
+    "ja": "458×648mm（18.03×25.51インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A2シートを折らずに収納。",
+    "es": "Sobre C2 de la serie C de ISO 269, dimensiones 458 × 648 mm. Diseñado para contener una hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C2信封，尺寸458 × 648 mm。设计用于装相同编号的A纸。",
+    "sv": "458 × 648 mm (18.03 × 25.51 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A2-ark plant.",
+    "da": "458 × 648 mm (18.03 × 25.51 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A2-ark fladt.",
+    "nl": "458 × 648 mm (18.03 × 25.51 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een A2-ark vlak.",
+    "pl": "458 × 648 mm (18,03 × 25,51 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A2 na płasko.",
+    "pt": "458 × 648 mm (18.03 × 25.51 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A2 aberta.",
+    "hi": "458 × 648 mm (18.03 × 25.51 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A2 शीट सपाट समाती है।"
+  },
+  "properties": {
+    "width": 458,
+    "height": 648,
+    "unit": "mm",
+    "aspectRatio": 1.4148,
+    "standard": "ISO 269",
+    "area": 296784
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "458 x 648 mm",
+      "458x648",
+      "458×648",
+      "45.8 x 64.8 cm",
+      "DIN C2"
+    ],
+    "nb": [
+      "C2-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

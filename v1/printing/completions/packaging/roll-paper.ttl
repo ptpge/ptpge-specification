@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/packaging/roll-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "On a roll"@en,
+        "Roll packaging"@en,
+        "Rolled"@en,
+        "रोल करके"@hi,
+        "रोल पैकेजिंग"@hi,
+        "लपेटा हुआ"@hi,
+        "Rull"@nb,
+        "Rullpakking"@nb,
+        "na rolce"@pl,
+        "pakowanie rolkowe"@pl,
+        "zwinięte"@pl,
+        "em rolo"@pt,
+        "embalagem em rolo"@pt,
+        "enrolado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/packaging> ;
+    skos:definition "Storformattryk (bannere, skilte, vægbeklædning) sendt rullet omkring et pap- eller plastrør for at undgå folder. Typisk med propper i begge ender og beskyttet med krympefilm."@da,
+        "Großformatige Druckerzeugnisse (Banner, Beschilderungen, Wandbeläge), die zur Vermeidung von Knicken auf einen Karton- oder Kunststoffkern aufgerollt versandt werden. In der Regel an beiden Enden mit Kappen versehen und mit Schrumpffolie geschützt."@de,
+        "Wide-format printed products (banners, signage, wall coverings) shipped rolled around a cardboard or plastic core to prevent creasing. Typically capped at both ends and protected with shrink wrap."@en,
+        "Envoltorio en bobina utilizado para grandes pedidos de papel u otros sustratos enviados a granel."@es,
+        "वाइड-फॉर्मेट मुद्रित उत्पाद (बैनर, साइनेज, दीवार आवरण) सिलवट से बचाने के लिए गत्ते या प्लास्टिक के कोर पर लपेटकर भेजे जाते हैं। आमतौर पर दोनों सिरों पर ढक्कन और श्रिंक रैप।"@hi,
+        "幅広形式の印刷物（バナー、サイン、壁面装飾）を、しわを防ぐために段ボールまたはプラスチックの芯に巻いて発送する形態。通常両端にキャップを付け、シュリンクラップで保護する。"@ja,
+        "Storformat-trykkprodukter (bannere, skilt, veggdekor) sendes rullet rundt en papp- eller plastkjerne for å unngå krøll. Vanligvis lukket i begge ender og beskyttet med krympeplast."@nb,
+        "Grootformaatdrukwerk (banners, signalisatie, wandbekleding) verzonden opgerold om een kartonnen of kunststof koker om vouwen te voorkomen. Doorgaans aan beide uiteinden afgedopt en beschermd met krimpfolie."@nl,
+        "Produkty wielkoformatowe (banery, oznakowanie, okleiny ścienne) wysyłane zwinięte na tulei tekturowej lub plastikowej, aby zapobiec załamaniom. Zwykle zabezpieczone kapslami na obu końcach i folią termokurczliwą."@pl,
+        "Impressos de grande formato (banners, sinalização, papel de parede) expedidos enrolados em um tubo de papelão ou plástico para evitar vincos. Normalmente com tampas nas extremidades e protegidos com filme retrátil."@pt,
+        "Storformatstryck (banderoller, skyltar, väggbeklädnader) skickas rullade runt en kärna av kartong eller plast för att undvika veck. Typiskt förslutna i båda ändar och skyddade med sträckfilm."@sv,
+        "用于大批量纸张或其他承印物散装运输的卷筒包装。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§ROLL-PAPER" ;
+    skos:prefLabel "Rullet levering"@da,
+        "Rollenpapier"@de,
+        "Roll Paper"@en,
+        "Papel en Rollo"@es,
+        "रोल में"@hi,
+        "ロール紙"@ja,
+        "Rullpapir"@nb,
+        "Gerold geleverd"@nl,
+        "Pakowanie w rolce"@pl,
+        "Em rolo"@pt,
+        "Rullemballage"@sv,
+        "卷筒纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+                "§5.6.28 · p.128",
+                "§5.6.3 · p.113",
+                "§5.6.39 · p.135",
+                "§6.10 · p.161" ;
+            ptpge:mappingRow "crosswalk row 48" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BoxPacking",
+                "Bundle",
+                "Palletizing",
+                "Shrinking",
+                "Wrapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

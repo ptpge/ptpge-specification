@@ -1,0 +1,98 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/tubes",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Tubes",
+    "es": "Tubos",
+    "zh-Hans": "纸筒",
+    "nb": "Rør",
+    "de": "Tuben / Röhren",
+    "ja": "チューブ",
+    "sv": "Tuber",
+    "da": "Rør",
+    "nl": "Kokers",
+    "pl": "Tuby",
+    "pt": "Tubos",
+    "hi": "ट्यूब"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§TUBES",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Cylindrical cardboard or plastic shipping tubes used for rolled posters, blueprints, artwork, and other long-format printed products. Typically capped at both ends with plastic plugs.",
+    "nb": "Sylindriske forsendelsestuber av papp eller plast brukt til rullede plakater, byggeark, kunst og andre langformat trykkprodukter. Vanligvis lukket i begge ender med plastplugger.",
+    "de": "Zylindrische Versandrohre aus Karton oder Kunststoff für aufgerollte Poster, Baupläne, Kunstwerke und andere Druckerzeugnisse im Langformat. Werden in der Regel an beiden Enden mit Kunststoffstopfen verschlossen.",
+    "ja": "巻いたポスター、設計図、アートワーク、その他の長尺印刷物の発送に使用される円筒形の段ボールまたはプラスチック製の筒。通常両端にプラスチック栓でキャップを付ける。",
+    "es": "Tubos rígidos para enviar carteles, planos y otros productos en rollo sin deformar.",
+    "zh-Hans": "用于发送海报、平面图和其他卷状产品的刚性管不变形。",
+    "sv": "Cylindriska frakttuber av kartong eller plast för rullade affischer, ritningar, konstverk och andra långa trycksaker. Typiskt förslutna i båda ändar med plastpluggar.",
+    "da": "Cylindriske pap- eller plastforsendelsesrør til rullede plakater, tegninger, kunstværker og andre tryksager i langt format. Typisk lukket i begge ender med plastpropper.",
+    "nl": "Cilindrische kartonnen of kunststof verzendkokers voor opgerolde posters, tekeningen, kunstwerken en ander drukwerk in lang formaat. Doorgaans aan beide uiteinden afgesloten met kunststof doppen.",
+    "pl": "Cylindryczne tuby wysyłkowe z tektury lub plastiku używane do zwiniętych plakatów, rysunków technicznych, grafik i innych długich produktów drukowanych. Zwykle zamknięte na obu końcach plastikowymi zatyczkami.",
+    "pt": "Tubos cilíndricos de papelão ou plástico para pôsteres enrolados, plantas, arte e outros impressos longos. Normalmente com tampas plásticas nas extremidades.",
+    "hi": "लिपटे पोस्टर, ब्लूप्रिंट, आर्टवर्क और अन्य लंबे मुद्रित उत्पादों के लिए बेलनाकार गत्ते या प्लास्टिक की शिपिंग ट्यूब। आमतौर पर दोनों सिरों पर प्लास्टिक के ढक्कन।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Tube",
+      "Mailing tube",
+      "Poster tube"
+    ],
+    "nb": [
+      "Rør",
+      "Plakatrør"
+    ],
+    "pl": [
+      "tuba",
+      "tuba wysyłkowa",
+      "tuba na plakaty"
+    ],
+    "pt": [
+      "tubo",
+      "tubo postal",
+      "tubo para pôster",
+      "canudo"
+    ],
+    "hi": [
+      "ट्यूब",
+      "मेलिंग ट्यूब",
+      "पोस्टर ट्यूब",
+      "गत्ते की ट्यूब"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

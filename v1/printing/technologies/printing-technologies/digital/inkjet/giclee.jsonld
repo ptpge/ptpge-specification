@@ -1,0 +1,101 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/giclee",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:TC§GICLEE",
+  "label": {
+    "en": "Giclée",
+    "nb": "Giclée",
+    "de": "Giclée",
+    "es": "Giclée",
+    "ja": "ジクレー",
+    "zh-Hans": "艺术微喷",
+    "sv": "Giclée",
+    "da": "Giclée",
+    "nl": "Giclée",
+    "pl": "Giclée",
+    "pt": "Giclée",
+    "hi": "जिक्ले"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+  "definition": {
+    "en": "Fine-art pigment inkjet on archival paper or canvas, giving high colour accuracy and longevity — the printing technique behind fine-art reproductions.",
+    "nb": "Fine-art pigment-blekkskriver på arkivbestandig papir eller lerret, med høy fargenøyaktighet og holdbarhet — trykketeknikken bak kunstgjengivelser.",
+    "de": "Fine-Art-Pigment-Inkjet auf archivfestem Papier oder Leinwand mit hoher Farbgenauigkeit und Langlebigkeit — die Drucktechnik hinter Kunstreproduktionen.",
+    "ja": "アーカイバル紙やキャンバスへのファインアート顔料インクジェット。高い色再現性と保存性を持つ — 美術複製の背後にある印刷技法。",
+    "es": "Inyección de tinta pigmentada de bellas artes sobre papel o lienzo de archivo, con alta fidelidad de color y longevidad — la técnica detrás de las reproducciones de arte.",
+    "zh-Hans": "在收藏级纸张或画布上进行的美术级颜料喷墨印刷，色彩精准且保存持久 — 美术复制品背后的印刷技法。",
+    "sv": "Konsttryck med pigment-inkjet på arkivbeständigt papper eller kanvas, ger hög färgprecision och livslängd — trycktekniken bakom konstreproduktioner.",
+    "da": "Kunsttryk med pigment-inkjet på arkivbestandigt papir eller kanvas, der giver høj farvepræcision og levetid — trykteknikken bag kunstreproduktioner.",
+    "nl": "Kunstdruk met pigment-inkjet op archiefbestendig papier of canvas, met hoge kleurnauwkeurigheid en levensduur — de druktechniek achter kunstreproducties.",
+    "pl": "Artystyczny druk atramentowy pigmentowy na papierze lub płótnie archiwalnym, dający wysoką wierność barw i trwałość — technika stojąca za reprodukcjami dzieł sztuki.",
+    "pt": "Jato de tinta pigmentada de belas-artes em papel ou tela de qualidade arquivística, com alta fidelidade de cor e longevidade — a técnica de impressão por trás das reproduções de arte.",
+    "hi": "आर्काइवल काग़ज़ या कैनवास पर फ़ाइन-आर्ट पिगमेंट इंकजेट, उच्च रंग सटीकता और दीर्घायु — ललित-कला प्रतिकृतियों के पीछे की मुद्रण तकनीक।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "giclee",
+      "fine art inkjet",
+      "archival inkjet"
+    ],
+    "nb": [
+      "giclée",
+      "kunsttrykk-blekkskriver"
+    ],
+    "pl": [
+      "giclee",
+      "artystyczny druk atramentowy",
+      "druk archiwalny"
+    ],
+    "pt": [
+      "giclee",
+      "jato de tinta de belas-artes",
+      "jato de tinta arquivístico",
+      "fine art"
+    ],
+    "hi": [
+      "giclee",
+      "फ़ाइन आर्ट इंकजेट",
+      "आर्काइवल इंकजेट"
+    ]
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "DigitalPrinting",
+        "DigitalPrintingParams"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.2 · p.111",
+        "§6.31 · p.196"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 17"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/finishing> a skos:Concept ;
+    dcterms:created "2026-06-17T10:05:27+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables> ;
+    skos:definition "Færdiggørelses-konfigurationsvariabler — de færdiggørelsesakser et trykt produkt kan konfigureres langs: indbinding, kantbehandling og strukturel efterbehandling."@da,
+        "Weiterverarbeitungs-Konfigurationsvariablen — die Weiterverarbeitungsachsen, entlang derer ein Druckprodukt konfiguriert werden kann: Bindung, Kantenbearbeitung und strukturelle Verarbeitung."@de,
+        "Finishing configuration variables — the finishing axes a printed product can be configured along: binding, edge treatment and structural finishing."@en,
+        "Variables de configuración de acabado — los ejes de acabado a lo largo de los cuales puede configurarse un producto impreso: encuadernación, tratamiento de bordes y acabado estructural."@es,
+        "फ़िनिशिंग कॉन्फ़िगरेशन वेरिएबल — वे फ़िनिशिंग अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है: बाइंडिंग, किनारे का उपचार और संरचनात्मक फ़िनिशिंग।"@hi,
+        "後加工の構成変数 — 印刷物を構成できる後加工の軸。製本、小口加工、構造加工など。"@ja,
+        "Ferdiggjøringsvariabler — ferdiggjøringsaksene et trykkprodukt kan konfigureres langs: innbinding, kantbehandling og strukturell etterbehandling."@nb,
+        "Afwerkings-configuratievariabelen — de afwerkingsassen waarlangs een drukproduct kan worden geconfigureerd: binden, zijdebehandeling en structurele afwerking."@nl,
+        "Zmienne konfiguracyjne wykończenia — osie wykończenia, wzdłuż których można skonfigurować produkt drukowany: oprawa, krawędź i wykończenie strukturalne."@pl,
+        "Variáveis de configuração de acabamento — os eixos de acabamento ao longo dos quais um impresso pode ser configurado: encadernação, tratamento de borda e acabamento estrutural."@pt,
+        "Konfigurationsvariabler för efterbehandling — de efterbehandlingsaxlar en trycksak kan konfigureras längs: bindning, kantbehandling och strukturell efterbehandling."@sv,
+        "印后加工配置变量 — 印刷品可沿其配置的印后加工轴：装订、边缘处理与结构加工。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/finishing/binding>,
+        <https://ptpge.org/v1/variables/finishing/edge>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing> ;
+    skos:notation "VAR:FN" ;
+    skos:prefLabel "Færdiggørelse"@da,
+        "Weiterverarbeitung"@de,
+        "Finishing"@en,
+        "Acabado"@es,
+        "फ़िनिशिंग"@hi,
+        "後加工"@ja,
+        "Ferdiggjøring"@nb,
+        "Afwerking"@nl,
+        "Wykończenie"@pl,
+        "Acabamento"@pt,
+        "Efterbehandling"@sv,
+        "印后加工"@zh-Hans ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

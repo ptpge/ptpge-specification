@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/varnish/spot-varnish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:FT§SPOT-VARNISH",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Spot Varnish",
+    "nb": "Spotlakk",
+    "de": "Spotlack",
+    "ja": "Spot Varnish",
+    "es": "Spot Varnish",
+    "zh-Hans": "Spot Varnish",
+    "sv": "Partiell lack",
+    "da": "Partiel lak",
+    "nl": "Spotlak",
+    "pl": "Lakier wybiórczy",
+    "pt": "Verniz localizado",
+    "hi": "स्पॉट वार्निश"
+  },
+  "definition": {
+    "en": "Varnish applied only to selected areas to highlight specific elements.",
+    "nb": "Lakk påført kun utvalgte områder for å fremheve elementer.",
+    "de": "Nur auf ausgewählte Bereiche aufgetragener Lack zur Hervorhebung.",
+    "ja": "選択した部分にのみ塗布し、特定の要素を強調するニス。",
+    "es": "Barniz aplicado solo en zonas seleccionadas para realzar elementos concretos.",
+    "zh-Hans": "仅施加于选定区域以突出特定元素的上光油。",
+    "sv": "Lack applicerad enbart på utvalda ytor för att accentuera specifika element.",
+    "da": "Lak påført kun udvalgte områder for at fremhæve specifikke elementer.",
+    "nl": "Lak alleen op geselecteerde zones om specifieke elementen te accentueren.",
+    "pl": "Lakier nanoszony tylko na wybrane obszary, aby podkreślić konkretne elementy.",
+    "pt": "Verniz aplicado apenas em áreas selecionadas para destacar elementos específicos.",
+    "hi": "विशिष्ट तत्वों को उभारने के लिए केवल चुने हुए हिस्सों पर लगाया गया वार्निश।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/varnish",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Selective varnish",
+      "Partial varnish"
+    ],
+    "nb": [
+      "Punktlakk",
+      "Spotlakk"
+    ],
+    "pl": [
+      "lakier selektywny",
+      "lakier częściowy"
+    ],
+    "pt": [
+      "verniz seletivo",
+      "verniz parcial",
+      "verniz reserva"
+    ],
+    "hi": [
+      "चुनिंदा वार्निश",
+      "आंशिक वार्निश",
+      "सेलेक्टिव वार्निश"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ]
+}

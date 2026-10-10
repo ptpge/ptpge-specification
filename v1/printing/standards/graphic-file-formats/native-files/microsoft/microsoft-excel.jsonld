@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft/microsoft-excel",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Microsoft Excel (.xlsx)",
+    "es": "Microsoft Excel (.xlsx)",
+    "zh-Hans": "Microsoft Excel (.xlsx)",
+    "nb": "Microsoft Excel (.xlsx)",
+    "de": "Microsoft Excel (.xlsx)",
+    "ja": "Microsoft Excel (.xlsx)",
+    "sv": "Microsoft Excel (.xlsx)",
+    "da": "Microsoft Excel (.xlsx)",
+    "nl": "Microsoft Excel (.xlsx)",
+    "pl": "Microsoft Excel (.xlsx)",
+    "pt": "Microsoft Excel (.xlsx)",
+    "hi": "Microsoft Excel (.xlsx)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§MICROSOFT-EXCEL",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native spreadsheet file format (.xlsx) for Microsoft Excel, the dominant business spreadsheet application — based on Office Open XML (ECMA-376 / ISO 29500).",
+    "nb": "Programspesifikt regnearkformat (.xlsx) for Microsoft Excel, den dominerende regnearksapplikasjonen i næringslivet — basert på Office Open XML (ECMA-376 / ISO 29500).",
+    "de": "Anwendungseigenes Tabellenkalkulationsformat (.xlsx) von Microsoft Excel, der dominierenden Tabellenkalkulationsanwendung im Geschäftsumfeld — basierend auf Office Open XML (ECMA-376 / ISO 29500).",
+    "ja": "Microsoft Excelのネイティブ表計算ファイル形式（.xlsx）。ビジネス向け表計算アプリケーションの代表 — Office Open XML（ECMA-376 / ISO 29500）に基づく。",
+    "es": "Formato Office Open XML para hojas de cálculo. La exportación a PDF es el estándar de entrega a imprenta.",
+    "zh-Hans": "用于电子表格的Office Open XML格式。导出为PDF是印刷交付标准。",
+    "sv": "Programeget kalkylbladsformat (.xlsx) för Microsoft Excel, det dominerande kalkylprogrammet — baserat på Office Open XML (ECMA-376 / ISO 29500).",
+    "da": "Programeget regnearksformat (.xlsx) for Microsoft Excel, det dominerende regnearksprogram — baseret på Office Open XML (ECMA-376 / ISO 29500).",
+    "nl": "Programma-eigen spreadsheetformaat (.xlsx) voor Microsoft Excel, het dominante spreadsheetprogramma — gebaseerd op Office Open XML (ECMA-376 / ISO 29500).",
+    "pl": "Natywny format arkusza kalkulacyjnego (.xlsx) programu Microsoft Excel, dominującej biznesowej aplikacji arkuszowej — oparty na Office Open XML (ECMA-376 / ISO 29500).",
+    "pt": "Formato de arquivo nativo de planilha (.xlsx) do Microsoft Excel, o aplicativo de planilhas empresarial dominante — baseado no Office Open XML (ECMA-376 / ISO 29500).",
+    "hi": "Microsoft Excel का नेटिव स्प्रेडशीट फ़ाइल फ़ॉर्मेट (.xlsx), प्रमुख व्यावसायिक स्प्रेडशीट एप्लिकेशन — Office Open XML (ECMA-376 / ISO 29500) पर आधारित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      ".xlsx",
+      "Excel"
+    ],
+    "pl": [
+      ".xlsx",
+      "Excel"
+    ],
+    "pt": [
+      ".xlsx",
+      "Excel"
+    ],
+    "hi": [
+      ".xlsx",
+      "Excel"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

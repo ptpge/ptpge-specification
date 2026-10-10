@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/color-management> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    dcterms:replaces <https://ptpge.org/v1/printing/management/quality-assurance/color-management/adobe-color-management> ;
+    skos:altLabel "Colour Management"@en,
+        "zarządzanie kolorem"@pl,
+        "Gestão de cor"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance> ;
+    skos:definition "Systemer og værktøjer, der sikrer konsekvent farvegengivelse på tværs af enheder, substrater og trykteknologier — med ICC-farveprofiler til at oversætte farveværdier mellem forskellige farveomfang."@da,
+        "Systeme und Werkzeuge, die eine konsistente Farbreproduktion über Geräte, Bedruckstoffe und Drucktechnologien hinweg sicherstellen — mithilfe von ICC-Farbprofilen, die Farbwerte zwischen verschiedenen Farbräumen übersetzen."@de,
+        "Systems and tools that ensure consistent color reproduction across devices, substrates, and printing technologies — using ICC color profiles to translate color values between different gamuts."@en,
+        "Sistemas y herramientas que aseguran la reproducción consistente del color entre dispositivos, sustratos y tecnologías de impresión — utilizando perfiles ICC para traducir valores de color entre diferentes gamuts."@es,
+        "प्रणालियाँ और औज़ार जो डिवाइसों, सब्सट्रेट और मुद्रण तकनीकों में एक-समान रंग पुनरुत्पादन सुनिश्चित करते हैं — विभिन्न गैमट के बीच रंग मान अनुवाद करने के लिए ICC रंग प्रोफ़ाइल का उपयोग।"@hi,
+        "デバイス、基材、印刷技術を超えて一貫した色再現を保証するシステムとツール — 異なる色域間で色値を変換するためにICCカラープロファイルを使用する。"@ja,
+        "Systemer og verktøy som sikrer konsistent fargegjengivelse på tvers av enheter, substrater og trykketeknologier — bruker ICC-fargeprofiler for å oversette fargeverdier mellom forskjellige gamut."@nb,
+        "Systemen en tools die consistente kleurweergave waarborgen over apparaten, substraten en druktechnologieën heen — met ICC-kleurprofielen om kleurwaarden tussen verschillende gamma's te vertalen."@nl,
+        "Systemy i narzędzia zapewniające spójną reprodukcję barw między urządzeniami, podłożami i technologiami druku — z użyciem profili ICC do przeliczania wartości barw między różnymi gamutami."@pl,
+        "Sistemas e ferramentas que garantem reprodução consistente de cor entre dispositivos, substratos e tecnologias de impressão — usando perfis de cor ICC para traduzir valores de cor entre gamuts diferentes."@pt,
+        "System och verktyg som säkerställer konsekvent färgåtergivning över enheter, substrat och trycktekniker — med ICC-färgprofiler som översätter färgvärden mellan olika färgrymder."@sv,
+        "确保跨设备、承印物和印刷工艺一致再现色彩的系统和工具——使用ICC色彩配置文件在不同色域之间转换色值。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/quality-assurance/color-management/adobe-color-management> ;
+    skos:notation "P:MG-QAS-CMNG" ;
+    skos:prefLabel "Farvestyring"@da,
+        "Farbmanagement"@de,
+        "Color Management"@en,
+        "Gestión de Color"@es,
+        "रंग प्रबंधन"@hi,
+        "カラーマネジメント"@ja,
+        "Fargestyring"@nb,
+        "Kleurbeheer"@nl,
+        "Zarządzanie barwą"@pl,
+        "Gerenciamento de cor"@pt,
+        "Färghantering"@sv,
+        "色彩管理"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/color-systems/color-profiles/icc-profiles> ;
+    skos:scopeNote "Im Mittelpunkt steht das Management von ICC-Profilen (Erstellung, Einbettung, Konvertierung) sowie integrierte Farbsysteme (Adobe Color Management). Farbabgleichssysteme wie Pantone werden unter Standards › Color Systems geführt; die physische Farbkalibrierung ist hier ein verwandtes Element."@de,
+        "Centered on ICC profile management (creation, embedding, conversion) and integrated color systems (Adobe Color Management). Color matching systems like Pantone are tracked under Standards › Color Systems; physical color calibration is a sibling element here."@en,
+        "Centrado en la gestión de perfiles ICC (creación, incrustación, conversión) y sistemas integrados de color (Adobe Color Management). Sistemas de igualación de color como Pantone se rastrean en Normas › Sistemas de Color › Sistemas de Igualación."@es,
+        "ICC प्रोफ़ाइल प्रबंधन (निर्माण, एम्बेडिंग, रूपांतरण) और एकीकृत रंग प्रणालियों (Adobe Color Management) पर केंद्रित। Pantone जैसी रंग मिलान प्रणालियाँ मानक › रंग प्रणालियों में; भौतिक रंग अंशांकन यहाँ सहोदर तत्व।"@hi,
+        "ICCプロファイル管理（作成、埋め込み、変換）と統合カラーシステム（Adobe Color Management）を中心とする。Pantoneなどのカラーマッチングシステムは、Standards › Color Systemsに分類される。物理的な色キャリブレーションは、ここでの兄弟要素である。"@ja,
+        "Sentrert rundt ICC-profilhåndtering (opprettelse, innebygging, konvertering) og integrerte fargesystemer (Adobe Color Management). Fargematchingssystemer som Pantone spores under Standards › Color Systems; fysisk fargekalibrering er et søsken-element her."@nb,
+        "Centrado no gerenciamento de perfis ICC (criação, incorporação, conversão) e em sistemas de cor integrados (Adobe Color Management). Sistemas de correspondência de cor como Pantone ficam em Normas › Sistemas de cor; a calibração física de cor é um elemento irmão aqui."@pt,
+        "围绕ICC配置文件管理（创建、嵌入、转换）和集成色彩系统（Adobe色彩管理）展开。Pantone等色彩匹配系统在标准 › 色彩系统 › 色彩匹配系统中跟踪。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.4.2 · p.91",
+                "§5.4.3 · p.91",
+                "§6.68 · p.252" ;
+            ptpge:mappingRow "crosswalk row 12" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorCorrection",
+                "ColorSpaceConversion",
+                "PrintCondition" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

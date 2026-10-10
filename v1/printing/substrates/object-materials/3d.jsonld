@@ -1,0 +1,71 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/object-materials/3d",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "3D",
+    "es": "Objetos 3D",
+    "zh-Hans": "3D物体",
+    "nb": "3D",
+    "de": "3D",
+    "ja": "3D",
+    "sv": "3D",
+    "da": "3D",
+    "nl": "3D",
+    "pl": "3D",
+    "pt": "3D",
+    "hi": "3D"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§3D",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/object-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Three-dimensional objects printed directly via additive manufacturing or specialized object-printing equipment — used for prototypes, custom parts, and decorative items.",
+    "nb": "Tredimensjonale objekter trykt direkte via additiv produksjon eller spesialisert objekttrykkutstyr — brukt til prototyper, tilpassede deler og dekorative gjenstander.",
+    "de": "Dreidimensionale Objekte, die direkt mittels additiver Fertigung oder spezialisierter Objektdruck-Anlagen bedruckt werden — verwendet für Prototypen, Sonderteile und dekorative Objekte.",
+    "ja": "付加製造または専用の立体物印刷機で直接印刷される三次元物体 — プロトタイプ、カスタム部品、装飾品に使用される。",
+    "es": "Objetos tridimensionales impresos directamente — productos como bolígrafos, mecheros, electrónica de consumo.",
+    "zh-Hans": "直接印刷的三维物体 —— 圆珠笔、打火机、消费电子等产品。",
+    "sv": "Tredimensionella objekt tryckta direkt via additiv tillverkning eller specialiserad objekttryckutrustning — används för prototyper, specialdelar och dekorativa föremål.",
+    "da": "Tredimensionelle objekter trykt direkte via additiv fremstilling eller specialiseret objekttryk-udstyr — bruges til prototyper, specialdele og dekorative genstande.",
+    "nl": "Driedimensionale objecten, direct geprint via additieve productie of gespecialiseerde objectdrukapparatuur — gebruikt voor prototypes, maatwerkonderdelen en decoratieve objecten.",
+    "pl": "Obiekty trójwymiarowe drukowane bezpośrednio metodami przyrostowymi lub na specjalistycznych urządzeniach do zadruku obiektów — używane do prototypów, części na zamówienie i przedmiotów dekoracyjnych.",
+    "pt": "Objetos tridimensionais impressos diretamente por manufatura aditiva ou equipamento especializado de impressão em objetos — usados em protótipos, peças personalizadas e itens decorativos.",
+    "hi": "एडिटिव मैन्युफ़ैक्चरिंग या विशेष ऑब्जेक्ट-प्रिंटिंग उपकरण से सीधे छपी त्रि-आयामी वस्तुएँ — प्रोटोटाइप, कस्टम पुर्ज़ों और सजावटी वस्तुओं में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "3D object",
+      "Three-dimensional object"
+    ],
+    "nb": [
+      "3D-objekt"
+    ],
+    "pl": [
+      "obiekt 3D",
+      "obiekt trójwymiarowy"
+    ],
+    "pt": [
+      "objeto 3D",
+      "objeto tridimensional",
+      "impressão 3D"
+    ],
+    "hi": [
+      "3D वस्तु",
+      "त्रि-आयामी वस्तु",
+      "3D प्रिंट"
+    ]
+  }
+}

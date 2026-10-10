@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/case-binding> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Hardback"@da,
+        "Hardcover"@da,
+        "Indbundet"@da,
+        "Festeinband"@de,
+        "Gebunden"@de,
+        "Hardcover"@de,
+        "Casebound"@en,
+        "Cased"@en,
+        "Edition binding"@en,
+        "Hardback"@en,
+        "Hardcover"@en,
+        "Hardcover binding"@en,
+        "केसबाउंड"@hi,
+        "पक्की जिल्द"@hi,
+        "हार्डकवर"@hi,
+        "हार्डकवर बाइंडिंग"@hi,
+        "हार्डबैक"@hi,
+        "Hardcover"@nb,
+        "Innbundet"@nb,
+        "Stivbind"@nb,
+        "Gebonden"@nl,
+        "Hardcover"@nl,
+        "oprawa introligatorska twarda"@pl,
+        "oprawa kartonowa"@pl,
+        "capa dura"@pt,
+        "cartonado"@pt,
+        "encadernação cartonada"@pt,
+        "encadernação em capa dura"@pt,
+        "hardcover"@pt,
+        "Hardcover"@sv,
+        "Inbunden"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "En syet eller limet bogblok indsat i et stift bind; indbundne bøger."@da,
+        "Ein genähter oder geklebter Buchblock in einer festen Decke; Hardcover-Bücher."@de,
+        "A sewn or glued book block encased in a rigid cover; hardback books."@en,
+        "Un bloque de libro cosido o encolado dentro de una tapa rígida; libros de tapa dura."@es,
+        "सिला या चिपका हुआ बुक ब्लॉक कठोर कवर में जड़ा हुआ; हार्डबैक किताबें।"@hi,
+        "糸かがりまたは糊付けした本文ブロックを硬い表紙で包んだもの。ハードカバー書籍。"@ja,
+        "En sydd eller limt bokblokk i et stivt omslag; hardback-bøker."@nb,
+        "Een genaaid of gelijmd boekblok in een stijve band; gebonden boeken."@nl,
+        "Szyty lub klejony blok książki osadzony w sztywnej okładce; książki w twardej oprawie."@pl,
+        "Miolo costurado ou colado, encaixado em uma capa rígida; livros de capa dura."@pt,
+        "Ett sytt eller limmat bokblock inneslutet i ett styvt band; inbundna böcker."@sv,
+        "将锁线或胶粘的书芯包入硬质封面；精装书。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§CASE-BINDING" ;
+    skos:prefLabel "Bogbind (hardcover)"@da,
+        "Buchdeckenbindung"@de,
+        "Case Binding"@en,
+        "Case Binding"@es,
+        "केस बाइंडिंग (हार्डकवर)"@hi,
+        "Case Binding"@ja,
+        "Hardback-innbinding"@nb,
+        "Boekband (hardcover)"@nl,
+        "Oprawa twarda"@pl,
+        "Capa dura"@pt,
+        "Hårdbandsbindning"@sv,
+        "Case Binding"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.35 · p.133",
+                "§5.6.5 · p.115",
+                "§5.6.6 · p.115" ;
+            ptpge:mappingRow "crosswalk row 42" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "CaseMaking",
+                "CasingIn",
+                "ThreadSewing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

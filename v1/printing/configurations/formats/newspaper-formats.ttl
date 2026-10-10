@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/newspaper-formats> a skos:Concept ;
+    dcterms:created "2026-08-12T11:00:47+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Avissideformater efter branchekonvention — fuldformat (broadsheet), berliner og tabloid. Nominelle mål; de præcise sidestørrelser varierer med pressens konfiguration."@da,
+        "Zeitungsformate nach Branchenkonvention — Broadsheet, Berliner und Compact. Nominelle Maße; genaue Seitengrößen variieren je nach Rotationskonfiguration."@de,
+        "Trade-convention newspaper page formats — broadsheet, Berliner and compact. Nominal dimensions; exact page sizes vary by press configuration."@en,
+        "Formatos de página de periódico según convención del sector — sábana, berlinés y compacto. Dimensiones nominales; los tamaños exactos varían según la configuración de la rotativa."@es,
+        "बिरादरी की परंपरा के अख़बार पृष्ठ फ़ॉर्मेट — ब्रॉडशीट, बर्लिनर और कॉम्पैक्ट। नाममात्र आयाम; सटीक पृष्ठ आकार प्रेस कॉन्फ़िगरेशन से बदलते हैं।"@hi,
+        "業界慣行による新聞のページ判型 — ブロードシート、ベルリナー、コンパクト。公称寸法であり、実寸は輪転機の構成により異なる。"@ja,
+        "Avisformater etter bransjekonvensjon — broadsheet, berliner og compact. Nominelle mål; eksakte sidestørrelser varierer med pressekonfigurasjonen."@nb,
+        "Krantenpaginaformaten volgens brancheconventie — broadsheet, berliner en tabloid. Nominale maten; de exacte paginaformaten variëren met de configuratie van de pers."@nl,
+        "Zwyczajowe branżowe formaty stron gazet — broadsheet, berliner i compact. Wymiary nominalne; dokładne rozmiary stron zależą od konfiguracji maszyny."@pl,
+        "Formatos de página de jornal por convenção do ofício — broadsheet, Berliner e compacto. Dimensões nominais; os tamanhos exatos variam conforme a configuração da rotativa."@pt,
+        "Tidningssidformat enligt branschkonvention — fullformat (broadsheet), berliner och tabloid. Nominella mått; exakta sidstorlekar varierar med pressens konfiguration."@sv,
+        "按行业惯例的报纸版面幅面 — 对开、柏林式与紧凑型。名义尺寸；实际版面大小因轮转机配置而异。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/berliner>,
+        <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/broadsheet>,
+        <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/compact> ;
+    skos:notation "P:CF-NWS" ;
+    skos:prefLabel "Tidningsformat"@da,
+        "Zeitungsformate"@de,
+        "Newspaper Formats"@en,
+        "Formatos de periódico"@es,
+        "अख़बार फ़ॉर्मेट"@hi,
+        "新聞判型"@ja,
+        "Avisformater"@nb,
+        "Krantformaten"@nl,
+        "Formaty gazetowe"@pl,
+        "Formatos de jornal"@pt,
+        "Tidningsformat"@sv,
+        "报纸幅面"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

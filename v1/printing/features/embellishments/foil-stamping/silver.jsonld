@@ -1,0 +1,87 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Silver Foil",
+    "nb": "Sølvfolie",
+    "de": "Silberfolie",
+    "ja": "銀箔",
+    "es": "Lámina de plata",
+    "zh-Hans": "银箔",
+    "nl": "Zilverfolie",
+    "sv": "Silverfolie",
+    "da": "Sølvfolie",
+    "pl": "Folia srebrna",
+    "pt": "Foil prateado",
+    "hi": "सिल्वर फ़ॉइल"
+  },
+  "altLabels": {
+    "en": [
+      "Silver Foil Stamping"
+    ],
+    "nb": [
+      "Sølv",
+      "Sølvpreg"
+    ],
+    "pl": [
+      "srebrzenie",
+      "srebrna folia na gorąco"
+    ],
+    "pt": [
+      "hot stamping prateado",
+      "prateado",
+      "prata"
+    ],
+    "hi": [
+      "सिल्वर फ़ॉइल स्टैंपिंग",
+      "चाँदी की फ़ॉइल",
+      "रुपहली फ़ॉइल"
+    ]
+  },
+  "definition": {
+    "en": "Hot-foil stamping with silver-coloured metallic foil. Provides a cool, bright reflective finish.",
+    "nb": "Varmfolie-preging med sølvfarget metallisk folie. Gir en kjølig, lys reflekterende finish.",
+    "de": "Heißfolienprägung mit silberfarbener Metallfolie.",
+    "ja": "銀色のメタリック箔によるホットフォイル。クールで明るい反射仕上げになる。",
+    "es": "Estampación en caliente con foil metálico plateado. Proporciona un acabado reflectante frío y brillante.",
+    "zh-Hans": "使用银色金属箔的烫印。呈现冷调明亮的反射效果。",
+    "sv": "Varmfoliering med silverfärgad metallisk folie. Ger en sval, ljus reflekterande finish.",
+    "da": "Varmfolieprægning med sølvfarvet metallisk folie. Giver en kølig, klar reflekterende finish.",
+    "nl": "Warmfoliedruk met zilverkleurige metallic folie. Geeft een koele, heldere reflecterende afwerking.",
+    "pl": "Folia na gorąco w kolorze srebrnym metalicznym. Daje chłodne, jasne, odbijające wykończenie.",
+    "pt": "Hot stamping com foil metálico prateado. Dá um acabamento reflexivo frio e brilhante.",
+    "hi": "चाँदी जैसे मेटैलिक फ़ॉइल से हॉट-फ़ॉइल स्टैंपिंग। ठंडी, चमकीली परावर्तक फ़िनिश।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments/foil-stamping",
+  "properties": {
+    "selective": true,
+    "processType": "hot-foil",
+    "coverage": "selective",
+    "foilColor": "silver"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§SILVER",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent"
+      ],
+      "refs": [
+        "§4.6 · p.74"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 25"
+    }
+  ]
+}

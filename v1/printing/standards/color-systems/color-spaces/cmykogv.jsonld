@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykogv",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "CMYKOGV",
+    "sv": "CMYKOGV",
+    "da": "CMYKOGV",
+    "nl": "CMYKOGV",
+    "pl": "CMYKOGV",
+    "pt": "CMYKOGV",
+    "hi": "CMYKOGV"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-spaces",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§CMYKOGV",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "Seven-colour extended-gamut colour space adding Orange, Green and Violet to CMYK.",
+    "nb": "Sju-farges utvidet-gamut fargerom som legger oransje, grønt og fiolett til CMYK.",
+    "de": "Sieben-Farben-Farbraum mit erweitertem Gamut: CMYK plus Orange, Grün und Violett.",
+    "es": "Espacio de color de gama extendida de siete colores que añade Naranja, Verde y Violeta a CMYK.",
+    "ja": "CMYK にオレンジ、グリーン、バイオレットを加えた7色の拡張ガモット色空間。",
+    "zh-Hans": "在 CMYK 上加入橙、绿、紫的七色扩展色域色彩空间。",
+    "sv": "Sjufärgs utökad färgrymd som lägger orange, grönt och violett till CMYK.",
+    "da": "Syvfarvet udvidet farverum, der tilføjer orange, grøn og violet til CMYK.",
+    "nl": "Zevenkleurige uitgebreide kleurruimte die oranje, groen en violet aan CMYK toevoegt.",
+    "pl": "Siedmiokolorowa przestrzeń barw o rozszerzonym gamucie dodająca do CMYK pomarańcz, zieleń i fiolet.",
+    "pt": "Espaço de cor de gamut estendido de sete cores que adiciona Laranja, Verde e Violeta ao CMYK.",
+    "hi": "सात-रंग विस्तारित-गैमट रंग स्पेस जो CMYK में नारंगी, हरा और बैंगनी जोड़ता है।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/landa",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Landa",
+    "es": "Landa",
+    "zh-Hans": "Landa",
+    "nb": "Landa",
+    "de": "Landa",
+    "ja": "Landa",
+    "sv": "Landa",
+    "da": "Landa",
+    "nl": "Landa",
+    "pl": "Landa",
+    "pt": "Landa",
+    "hi": "Landa"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Landa Digital Printing — Israeli manufacturer founded by Benny Landa, developing nano-ink technology (Nanographic Printing) — a digital process based on ultra-fine pigment particles in water that enables offset-quality digital production at high speeds.",
+    "nb": "Landa Digital Printing — israelsk produsent grunnlagt av Benny Landa, som utvikler nano-blekk-teknologi (Nanographic Printing) — en digital prosess basert på ultrafine pigmentpartikler i vann som muliggjør offset-kvalitet digital produksjon ved høye hastigheter.",
+    "de": "Landa Digital Printing — israelischer Hersteller, gegründet von Benny Landa, der die Nano-Tinten-Technologie (Nanographic Printing) entwickelt — ein Digitalverfahren auf Basis ultrafeiner Pigmentpartikel in Wasser, das Digitaldruck in Offsetqualität bei hoher Geschwindigkeit ermöglicht.",
+    "ja": "Landa Digital Printing — Benny Landaが設立したイスラエルのメーカー。ナノインキ技術（Nanographic Printing）を開発 — 水中の超微細顔料粒子に基づくデジタルプロセスで、高速でオフセット品質のデジタル生産を可能にする。",
+    "es": "Landa Digital Printing — fabricante israelí de prensas con tecnología Nanographic Printing (NanoInk de tamaño nano-partícula) para producción digital de alto valor.",
+    "zh-Hans": "Landa Digital Printing —— 以色列采用Nanographic Printing技术（纳米颗粒NanoInk）的印刷机制造商，用于高价值数码生产。",
+    "sv": "Landa Digital Printing — israelisk tillverkare grundad av Benny Landa, utvecklar nanobläcksteknik (Nanographic Printing) — en digital process baserad på ultrafina pigmentpartiklar i vatten som möjliggör digital produktion i offsetkvalitet vid höga hastigheter.",
+    "da": "Landa Digital Printing — israelsk producent grundlagt af Benny Landa, der udvikler nanoblæk-teknologi (Nanographic Printing) — en digital proces baseret på ultrafine pigmentpartikler i vand, som muliggør digital produktion i offsetkvalitet ved høje hastigheder.",
+    "nl": "Landa Digital Printing — Israëlische fabrikant, opgericht door Benny Landa, die nano-inkttechnologie (Nanographic Printing) ontwikkelt — een digitaal proces op basis van ultrafijne pigmentdeeltjes in water dat digitale productie in offsetkwaliteit op hoge snelheid mogelijk maakt.",
+    "pl": "Landa Digital Printing — izraelski producent założony przez Benny'ego Landę, rozwijający technologię nanofarb (Nanographic Printing) — proces cyfrowy oparty na ultradrobnych cząstkach pigmentu w wodzie, umożliwiający cyfrową produkcję w jakości offsetowej przy dużych prędkościach.",
+    "pt": "Landa Digital Printing — fabricante israelense fundado por Benny Landa, que desenvolve tecnologia de nanotinta (Nanographic Printing) — processo digital baseado em partículas de pigmento ultrafinas em água, que permite produção digital com qualidade offset em alta velocidade.",
+    "hi": "Landa Digital Printing — Benny Landa द्वारा स्थापित इज़राइली निर्माता, नैनो-इंक तकनीक (Nanographic Printing) विकसित करता है — पानी में अति-सूक्ष्म पिगमेंट कणों पर आधारित डिजिटल प्रक्रिया, जो उच्च गति पर ऑफसेट-गुणवत्ता का डिजिटल उत्पादन संभव करती है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-LAND",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

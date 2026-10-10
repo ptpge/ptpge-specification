@@ -1,0 +1,129 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/paper-bags> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "bærepose"@da,
+        "gavepose"@da,
+        "kraftpose"@da,
+        "papirbærepose"@da,
+        "papirpose"@da,
+        "Papiertragetaschen"@de,
+        "Papiertüten"@de,
+        "Tragetaschen"@de,
+        "carrier bag"@en,
+        "gift bag"@en,
+        "kraft bag"@en,
+        "paper bag"@en,
+        "bolsa con asas"@es,
+        "bolsa de papel"@es,
+        "bolsa de regalo"@es,
+        "bolsa kraft"@es,
+        "bolsa personalizada"@es,
+        "काग़ज़ का थैला"@hi,
+        "कैरी बैग"@hi,
+        "क्राफ़्ट बैग"@hi,
+        "गिफ़्ट बैग"@hi,
+        "पेपर बैग"@hi,
+        "オリジナル紙袋"@ja,
+        "ギフトバッグ"@ja,
+        "クラフト袋"@ja,
+        "手提げ袋"@ja,
+        "紙袋"@ja,
+        "bærepose"@nb,
+        "gavepose"@nb,
+        "papirpose"@nb,
+        "draagtas"@nl,
+        "draagtassen"@nl,
+        "geschenktas"@nl,
+        "kraft tas"@nl,
+        "papieren tas"@nl,
+        "papieren tassen"@nl,
+        "torba kraft"@pl,
+        "torba papierowa"@pl,
+        "torba prezentowa"@pl,
+        "torba reklamowa"@pl,
+        "saco de papel"@pt,
+        "sacola de papel"@pt,
+        "sacola de presente"@pt,
+        "sacola kraft"@pt,
+        "sacola personalizada"@pt,
+        "bärkasse"@sv,
+        "kraftpåse"@sv,
+        "papperskasse"@sv,
+        "papperspåse"@sv,
+        "presentpåse"@sv,
+        "定制纸袋"@zh-Hans,
+        "手提袋"@zh-Hans,
+        "牛皮纸袋"@zh-Hans,
+        "礼品袋"@zh-Hans,
+        "纸袋"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En trykt papirspose til detail, gaver eller transport — kraft- og fuldfarvede papirbæreposer."@da,
+        "Eine bedruckte Papiertüte für Handel, Geschenk oder Transport."@de,
+        "A printed paper bag for retail, gifting or carrying — kraft and full-colour paper carrier bags."@en,
+        "Una bolsa de papel impresa para retail, regalo o transporte — bolsas kraft y de papel a todo color."@es,
+        "खुदरा, उपहार या सामान ले जाने के लिए मुद्रित काग़ज़ का थैला — क्राफ़्ट और फ़ुल-कलर पेपर कैरी बैग।"@hi,
+        "小売・ギフト・持ち運びに使う印刷紙袋。クラフト紙やフルカラーの手提げ袋。"@ja,
+        "En trykt papirpose for butikk, gave eller bæring — kraft og fullfarge papirbæreposer."@nb,
+        "Een gedrukte papieren tas voor retail, geschenken of transport — kraft- en fullcolour papieren draagtassen."@nl,
+        "Drukowana torba papierowa do handlu, prezentów lub noszenia — torby kraft i torby papierowe z pełnokolorowym nadrukiem."@pl,
+        "Sacola de papel impressa para varejo, presente ou transporte — sacolas kraft e em cores, com alça."@pt,
+        "En tryckt papperspåse för detaljhandel, gåvor eller bärande — kraftpapper och fullfärgstryckta bärkassar."@sv,
+        "用于零售、礼品或提携的印刷纸袋——牛皮纸袋和全彩纸质购物袋。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§PAPER-BAGS" ;
+    skos:prefLabel "Papirsposer"@da,
+        "Papier- & Geschenktüten"@de,
+        "Paper Bags"@en,
+        "Bolsas de papel y regalo"@es,
+        "पेपर बैग"@hi,
+        "紙袋・ギフトバッグ"@ja,
+        "Papirposer"@nb,
+        "Papieren draagtassen"@nl,
+        "Torby papierowe"@pl,
+        "Sacolas de papel"@pt,
+        "Papperspåsar"@sv,
+        "纸袋与礼品袋"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-fibre>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/paper> ;
+    ptpge:supportsSubstrateFibre <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen> ;
+    ptpge:version "2026-09-23" .
+

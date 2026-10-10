@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-variable-transactional> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".pdf"@en,
+        "PDF"@en,
+        "print-ready PDF"@en,
+        ".pdf"@hi,
+        "PDF"@hi,
+        "प्रिंट-रेडी PDF"@hi,
+        ".pdf"@pl,
+        "PDF"@pl,
+        "PDF gotowy do druku"@pl,
+        ".pdf"@pt,
+        "PDF"@pt,
+        "PDF pronto para impressão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format> ;
+    skos:definition "PDF/VT — ISO 16612-2-specifikation for variabel- og transaktionstryk, optimeret til personaliseret output i store mængder (kontoudtog, direct mail, markedsføringsmateriale), hvor hver side er forskellig."@da,
+        "PDF/VT — ISO-Spezifikation 16612-2 für variablen und transaktionalen Druck, optimiert für hochvolumige personalisierte Ausgaben (Kontoauszüge, Direct Mail, Marketingunterlagen), bei denen sich jede Seite unterscheidet."@de,
+        "PDF/VT — ISO 16612-2 specification for variable and transactional printing, optimized for high-volume personalized output (statements, direct mail, marketing collateral) where each page differs."@en,
+        "Sub-conjunto ISO de PDF optimizado para impresión variable y transaccional (ISO 16612), donde cada copia puede contener datos personalizados — facturas, mailings, billetes — generadas a alta velocidad."@es,
+        "PDF/VT — वेरिएबल और ट्रांज़ैक्शनल प्रिंटिंग का ISO 16612-2 विनिर्देश, उच्च-मात्रा वैयक्तिकृत आउटपुट (स्टेटमेंट, डायरेक्ट मेल, मार्केटिंग सामग्री) के लिए अनुकूलित, जहाँ हर पेज अलग हो।"@hi,
+        "PDF/VT — 可変およびトランザクション印刷に関するISO 16612-2仕様。各ページが異なる大量のパーソナライズ出力（明細書、ダイレクトメール、マーケティング資材）に最適化されている。"@ja,
+        "PDF/VT — ISO 16612-2-spesifikasjonen for variabelt og transaksjons-trykk, optimalisert for høyvolum personlig trykk (kontoutskrifter, direktreklame, markedsmateriell) der hver side er ulik."@nb,
+        "PDF/VT — ISO 16612-2-specificatie voor variabel en transactioneel drukwerk, geoptimaliseerd voor gepersonaliseerde output in hoge volumes (afschriften, direct mail, marketingmateriaal) waarbij elke pagina verschilt."@nl,
+        "PDF/VT — specyfikacja ISO 16612-2 dla druku zmiennego i transakcyjnego, zoptymalizowana pod wysokonakładowe wyjście personalizowane (wyciągi, direct mail, materiały marketingowe), gdzie każda strona jest inna."@pl,
+        "PDF/VT — especificação ISO 16612-2 para impressão variável e transacional, otimizada para saída personalizada em alto volume (extratos, mala direta, material de marketing) onde cada página difere."@pt,
+        "PDF/VT — ISO 16612-2-specifikation för variabel- och transaktionstryck, optimerad för personaliserad utmatning i höga volymer (kontoutdrag, direktreklam, marknadsmaterial) där varje sida skiljer sig."@sv,
+        "针对可变和事务性印刷优化的PDF ISO子集（ISO 16612），每份副本可包含个性化数据——发票、邮件、票据——以高速生成。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PDF-VARIABLE-TRANSACTIONAL" ;
+    skos:prefLabel "PDF variabel- & transaktionstryk (PDF/VT)"@da,
+        "PDF Variable & Transactional (PDF/VT)"@de,
+        "PDF Variable & Transactional (PDF/VT)"@en,
+        "PDF/VT (Variable & Transactional)"@es,
+        "PDF वेरिएबल और ट्रांज़ैक्शनल (PDF/VT)"@hi,
+        "PDF Variable & Transactional (PDF/VT)"@ja,
+        "PDF Variable & Transactional (PDF/VT)"@nb,
+        "PDF variabel & transactioneel (PDF/VT)"@nl,
+        "PDF zmienny i transakcyjny (PDF/VT)"@pl,
+        "PDF variável e transacional (PDF/VT)"@pt,
+        "PDF variabel- & transaktionstryck (PDF/VT)"@sv,
+        "PDF/VT (可变与事务性)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

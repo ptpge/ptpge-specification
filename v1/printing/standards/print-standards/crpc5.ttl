@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/crpc5> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "CRPC 5"@en,
+        "Characterized Reference Printing Condition 5"@en,
+        "CRPC 5"@hi,
+        "Characterized Reference Printing Condition 5"@hi,
+        "CRPC 5"@pl,
+        "Characterized Reference Printing Condition 5"@pl,
+        "CRPC 5"@pt,
+        "Characterized Reference Printing Condition 5"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Karakteriseret referencetrykbetingelse 5 i ISO/PAS 15339-2:2015 (CGATS 21-2): typisk publikationstryk på bestrøget rullepapir (SWOP 2013 svarer til). Procesuafhængige referencebetingelser der spænder over de trykbare farverum."@da,
+        "Charakterisierte Referenzdruckbedingung 5 nach ISO/PAS 15339-2:2015 (CGATS 21-2): typischer Publikationsdruck auf gestrichenem Rollenpapier (SWOP 2013 entspricht). Prozessunabhängige Referenzbedingungen über die Spanne der druckbaren Farbräume."@de,
+        "Characterized Reference Printing Condition 5 of ISO/PAS 15339-2:2015 (CGATS 21-2): typical publication printing on coated web stock (SWOP 2013 aligns with this condition). Process-agnostic reference conditions spanning the range of printable gamuts."@en,
+        "Condición de impresión de referencia caracterizada 5 de ISO/PAS 15339-2:2015 (CGATS 21-2): impresión típica de publicaciones en bobina estucada (SWOP 2013 se alinea). Condiciones de referencia independientes del proceso que abarcan las gamas imprimibles."@es,
+        "ISO/PAS 15339-2:2015 (CGATS 21-2) की Characterized Reference Printing Condition 5: कोटेड वेब स्टॉक पर सामान्य प्रकाशन मुद्रण (SWOP 2013 इस स्थिति से संरेखित)। मुद्रण-योग्य गैमट की सीमा को समेटने वाली प्रक्रिया-निरपेक्ष संदर्भ स्थितियाँ।"@hi,
+        "ISO/PAS 15339-2:2015（CGATS 21-2）の特性化参照印刷条件 5：塗工輪転紙への典型的な出版印刷（SWOP 2013 が対応）。印刷可能な色域の範囲をカバーする、プロセス非依存の参照条件。"@ja,
+        "Karakterisert referanse-trykkbetingelse 5 i ISO/PAS 15339-2:2015 (CGATS 21-2): typisk publikasjonstrykk på bestrøket rullpapir (SWOP 2013 samsvarer). Prosessuavhengige referansebetingelser som spenner over de trykkbare fargerommene."@nb,
+        "Gekarakteriseerde referentiedrukconditie 5 van ISO/PAS 15339-2:2015 (CGATS 21-2): typische publicatiedruk op gestreken rolpapier (SWOP 2013 komt overeen). Procesonafhankelijke referentiecondities die het bereik van drukbare kleurbereiken omspannen."@nl,
+        "Characterized Reference Printing Condition 5 wg ISO/PAS 15339-2:2015 (CGATS 21-2): typowy druk publikacyjny na powlekanym papierze zwojowym (SWOP 2013 odpowiada temu warunkowi). Warunki odniesienia niezależne od procesu, obejmujące zakres drukowalnych gamutów."@pl,
+        "Characterized Reference Printing Condition 5 da ISO/PAS 15339-2:2015 (CGATS 21-2): impressão de publicações típica em papel revestido de bobina (o SWOP 2013 alinha-se a esta condição). Condições de referência independentes de processo que abrangem a gama de gamuts imprimíveis."@pt,
+        "Karakteriserat referenstryckvillkor 5 i ISO/PAS 15339-2:2015 (CGATS 21-2): typiskt publikationstryck på bestruket rullpapper (SWOP 2013 motsvarar). Processoberoende referensvillkor som spänner över de tryckbara färgomfången."@sv,
+        "ISO/PAS 15339-2:2015（CGATS 21-2）特性化参考印刷条件 5：涂布卷筒纸上的典型出版印刷（SWOP 2013 与之对应）。与工艺无关、覆盖可印刷色域范围的参考条件。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§CRPC5" ;
+    skos:prefLabel "CRPC5"@da,
+        "CRPC5"@en,
+        "CRPC5"@hi,
+        "CRPC5"@nb,
+        "CRPC5"@nl,
+        "CRPC5"@pl,
+        "CRPC5"@pt,
+        "CRPC5"@sv ;
+    skos:related <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

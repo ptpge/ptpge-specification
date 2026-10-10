@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/crpc2> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "CRPC 2"@en,
+        "Characterized Reference Printing Condition 2"@en,
+        "CRPC 2"@hi,
+        "Characterized Reference Printing Condition 2"@hi,
+        "CRPC 2"@pl,
+        "Characterized Reference Printing Condition 2"@pl,
+        "CRPC 2"@pt,
+        "Characterized Reference Printing Condition 2"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Karakteriseret referencetrykbetingelse 2 i ISO/PAS 15339-2:2015 (CGATS 21-2): typisk heatset-tryk på forbedret avispapir — moderat farverum. Procesuafhængige referencebetingelser der spænder over de trykbare farverum."@da,
+        "Charakterisierte Referenzdruckbedingung 2 nach ISO/PAS 15339-2:2015 (CGATS 21-2): typischer Heatset-Druck auf verbessertem Zeitungspapier — moderater Farbraum. Prozessunabhängige Referenzbedingungen über die Spanne der druckbaren Farbräume."@de,
+        "Characterized Reference Printing Condition 2 of ISO/PAS 15339-2:2015 (CGATS 21-2): typical heatset printing on improved newsprint — moderate gamut. Process-agnostic reference conditions spanning the range of printable gamuts."@en,
+        "Condición de impresión de referencia caracterizada 2 de ISO/PAS 15339-2:2015 (CGATS 21-2): impresión heatset típica en papel prensa mejorado — gama moderada. Condiciones de referencia independientes del proceso que abarcan las gamas imprimibles."@es,
+        "ISO/PAS 15339-2:2015 (CGATS 21-2) की Characterized Reference Printing Condition 2: उन्नत न्यूज़प्रिंट पर सामान्य हीटसेट मुद्रण — मध्यम गैमट। मुद्रण-योग्य गैमट की सीमा को समेटने वाली प्रक्रिया-निरपेक्ष संदर्भ स्थितियाँ।"@hi,
+        "ISO/PAS 15339-2:2015（CGATS 21-2）の特性化参照印刷条件 2：改良新聞用紙への典型的なヒートセット印刷 — 中程度の色域。印刷可能な色域の範囲をカバーする、プロセス非依存の参照条件。"@ja,
+        "Karakterisert referanse-trykkbetingelse 2 i ISO/PAS 15339-2:2015 (CGATS 21-2): typisk heatset-trykk på forbedret avispapir — moderat fargerom. Prosessuavhengige referansebetingelser som spenner over de trykkbare fargerommene."@nb,
+        "Gekarakteriseerde referentiedrukconditie 2 van ISO/PAS 15339-2:2015 (CGATS 21-2): typische heatset-druk op verbeterd krantenpapier — gematigd kleurbereik. Procesonafhankelijke referentiecondities die het bereik van drukbare kleurbereiken omspannen."@nl,
+        "Characterized Reference Printing Condition 2 wg ISO/PAS 15339-2:2015 (CGATS 21-2): typowy druk heatsetowy na ulepszonym papierze gazetowym — umiarkowany gamut. Warunki odniesienia niezależne od procesu, obejmujące zakres drukowalnych gamutów."@pl,
+        "Characterized Reference Printing Condition 2 da ISO/PAS 15339-2:2015 (CGATS 21-2): impressão heatset típica em papel-jornal melhorado — gamut moderado. Condições de referência independentes de processo que abrangem a gama de gamuts imprimíveis."@pt,
+        "Karakteriserat referenstryckvillkor 2 i ISO/PAS 15339-2:2015 (CGATS 21-2): typiskt heatset-tryck på förbättrat tidningspapper — måttligt färgomfång. Processoberoende referensvillkor som spänner över de tryckbara färgomfången."@sv,
+        "ISO/PAS 15339-2:2015（CGATS 21-2）特性化参考印刷条件 2：改良新闻纸上的典型热固印刷——中等色域。与工艺无关、覆盖可印刷色域范围的参考条件。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§CRPC2" ;
+    skos:prefLabel "CRPC2"@da,
+        "CRPC2"@en,
+        "CRPC2"@hi,
+        "CRPC2"@nb,
+        "CRPC2"@nl,
+        "CRPC2"@pl,
+        "CRPC2"@pt,
+        "CRPC2"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

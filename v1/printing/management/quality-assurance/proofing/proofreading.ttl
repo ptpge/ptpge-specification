@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/proofreading> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "copy-editing"@en,
+        "proof reading"@en,
+        "कॉपी-एडिटिंग"@hi,
+        "प्रूफ़ रीडिंग"@hi,
+        "korrektur"@nb,
+        "korrekturlesing"@nb,
+        "korekta"@pl,
+        "redakcja tekstu"@pl,
+        "copidesque"@pt,
+        "revisão"@pt,
+        "revisão de provas"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing> ;
+    skos:definition "Endelig gennemgang af tekstindhold for stavning, grammatik, faktuelle fejl og konsistens — udført af en menneskelig korrekturlæser (eller specialiseret software), før filen sendes til produktion."@da,
+        "Abschließende Prüfung von Textinhalten auf Rechtschreibung, Grammatik, sachliche Fehler und Konsistenz — durchgeführt von einem menschlichen Korrekturleser (oder spezialisierter Software), bevor die Datei für die Produktion freigegeben wird. Zu unterscheiden vom technischen Preflight, der die Struktur der Datei und nicht ihren Inhalt prüft."@de,
+        "Final review of textual content for spelling, grammar, factual errors, and consistency — performed by a human reviewer (or specialized software) before the file is committed to production. Distinct from technical preflight, which checks the file's structure rather than its content."@en,
+        "Revisión final del texto y de la maquetación antes de imprimir — captura erratas, errores gramaticales y problemas de coherencia editorial."@es,
+        "वर्तनी, व्याकरण, तथ्यात्मक त्रुटियों और संगति के लिए पाठ्य सामग्री की अंतिम समीक्षा — फ़ाइल को उत्पादन में सौंपने से पहले मानव समीक्षक (या विशेष सॉफ़्टवेयर) द्वारा। तकनीकी प्रीफ़्लाइट से भिन्न, जो सामग्री के बजाय फ़ाइल की संरचना जाँचता है।"@hi,
+        "ファイルが生産に確約される前に、人間のレビュアー（または専用ソフトウェア）によって行われる、テキスト内容のスペル、文法、事実誤認、一貫性に関する最終レビュー。ファイルの内容ではなく構造を検査する技術的プリフライトとは区別される。"@ja,
+        "Endelig gjennomgang av tekstinnhold for stavemåte, grammatikk, faktafeil og konsistens — utført av en menneskelig korrekturleser (eller spesialisert programvare) før filen sendes til produksjon. Forskjellig fra teknisk preflight, som sjekker filens struktur i stedet for innholdet."@nb,
+        "Laatste beoordeling van tekstinhoud op spelling, grammatica, feitelijke fouten en consistentie — uitgevoerd door een menselijke corrector (of gespecialiseerde software) voordat het bestand naar productie gaat."@nl,
+        "Końcowy przegląd treści tekstowej pod kątem ortografii, gramatyki, błędów rzeczowych i spójności — wykonywany przez recenzenta (lub specjalistyczne oprogramowanie) przed przekazaniem pliku do produkcji. W odróżnieniu od technicznego preflightu, który sprawdza strukturę pliku, a nie jego treść."@pl,
+        "Revisão final do conteúdo textual quanto a ortografia, gramática, erros factuais e consistência — realizada por um revisor humano (ou software especializado) antes de o arquivo ser confiado à produção. Distinta do preflight técnico, que verifica a estrutura do arquivo e não seu conteúdo."@pt,
+        "Slutlig granskning av textinnehåll för stavning, grammatik, sakfel och konsekvens — utförd av en mänsklig granskare (eller specialiserad programvara) innan filen binds till produktion. Skild från teknisk preflight, som kontrollerar filens struktur snarare än dess innehåll."@sv,
+        "印刷前对文本和版面的最终审核——捕捉错字、语法错误和编辑一致性问题。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§PROOFREADING" ;
+    skos:prefLabel "Korrekturlæsning"@da,
+        "Korrekturlesen"@de,
+        "Proofreading"@en,
+        "Corrección de Textos"@es,
+        "प्रूफ़रीडिंग"@hi,
+        "校正・校閲"@ja,
+        "Korrekturlesing"@nb,
+        "Tekstcorrectie"@nl,
+        "Korekta tekstu"@pl,
+        "Revisão de texto"@pt,
+        "Korrekturläsning"@sv,
+        "校对"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

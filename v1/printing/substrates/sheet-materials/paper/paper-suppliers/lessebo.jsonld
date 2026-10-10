@@ -1,0 +1,70 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/lessebo",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Lessebo",
+    "es": "Lessebo",
+    "zh-Hans": "Lessebo",
+    "nb": "Lessebo",
+    "de": "Lessebo",
+    "ja": "Lessebo",
+    "sv": "Lessebo",
+    "da": "Lessebo",
+    "nl": "Lessebo",
+    "pl": "Lessebo",
+    "pt": "Lessebo",
+    "hi": "Lessebo"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Swedish premium paper manufacturer (Lessebo Paper) — known for high-quality uncoated and lightly coated papers including the Scandia 2000 and Lessebo Design ranges. Popular in Scandinavian editorial and corporate design.",
+    "nb": "Svensk premium-papirprodusent (Lessebo Paper) — kjent for høykvalitets ubelagte og lett belagte papirer inkludert Scandia 2000- og Lessebo Design-seriene. Populær i skandinavisk redaksjonell og bedriftsdesign.",
+    "de": "Schwedischer Premium-Papierhersteller (Lessebo Paper) — bekannt für hochwertige ungestrichene und leicht gestrichene Papiere, darunter die Reihen Scandia 2000 und Lessebo Design. Beliebt im skandinavischen Editorial- und Corporate-Design.",
+    "ja": "スウェーデンのプレミアム紙メーカー（Lessebo Paper）— Scandia 2000やLessebo Designシリーズなど、高品質の非塗工および軽塗工紙で知られる。北欧のエディトリアルおよびコーポレートデザインで人気。",
+    "es": "Fabricante sueco de papel premium (Lessebo Paper) — conocido por papeles sin estucar y ligeramente estucados de alta calidad, incluyendo las gamas Scandia 2000 y Lessebo Design. Popular en el diseño editorial y corporativo escandinavo.",
+    "zh-Hans": "瑞典优质造纸商（Lessebo Paper）——以高品质未涂布和轻涂布纸而闻名，包括Scandia 2000和Lessebo Design系列。在北欧编辑和企业设计中流行。",
+    "sv": "Svensk premiumpapperstillverkare (Lessebo Paper) — känd för högkvalitativa obestrukna och lätt bestrukna papper, däribland serierna Scandia 2000 och Lessebo Design. Populär i skandinavisk redaktionell och grafisk design.",
+    "da": "Svensk eksklusiv papirproducent (Lessebo Paper) — kendt for ubestrøgne og let bestrøgne papirer af høj kvalitet, herunder serierne Scandia 2000 og Lessebo Design. Populær i skandinavisk redaktionelt og corporate design.",
+    "nl": "Zweedse premium papierfabrikant (Lessebo Paper) — bekend om hoogwaardige ongestreken en licht gestreken papieren, waaronder de reeksen Scandia 2000 en Lessebo Design. Populair in Scandinavisch redactioneel en corporate design.",
+    "pl": "Szwedzki producent papierów premium (Lessebo Paper) — znany z wysokiej jakości papierów niepowlekanych i lekko powlekanych, w tym linii Scandia 2000 i Lessebo Design. Popularny w skandynawskim designie redakcyjnym i korporacyjnym.",
+    "pt": "Fabricante sueco de papel premium (Lessebo Paper) — conhecido por papéis de alta qualidade não revestidos e levemente revestidos, incluindo as linhas Scandia 2000 e Lessebo Design. Popular no design editorial e corporativo escandinavo.",
+    "hi": "स्वीडिश प्रीमियम काग़ज़ निर्माता (Lessebo Paper) — Scandia 2000 और Lessebo Design श्रृंखलाओं सहित उच्च गुणवत्ता के अनकोटेड और हल्के कोटेड काग़ज़ों के लिए प्रसिद्ध। स्कैंडिनेवियाई संपादकीय और कॉर्पोरेट डिज़ाइन में लोकप्रिय।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:SB-SHT-PAPR-PSUP-LESS",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/lessebo",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

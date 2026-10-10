@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/inca-digital> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers> ;
+    skos:definition "Inca Digital — britisk producent af avancerede industrielle UV-flatbedprintere, især Onset- og Spyder-serierne til skilte- og displayproduktion i store mængder."@da,
+        "Inca Digital — britischer Hersteller hochwertiger industrieller UV-Flachbettdrucker, insbesondere der Onset- und Spyder-Serien für die hochvolumige Schilder- und Displayproduktion."@de,
+        "Inca Digital — British manufacturer of high-end industrial UV flatbed printers, particularly the Onset and Spyder series for high-volume sign and display production."@en,
+        "Inca Digital Printers — fabricante británico de impresoras UV flatbed industriales de alta productividad para señalética y display."@es,
+        "Inca Digital — हाई-एंड औद्योगिक UV फ़्लैटबेड प्रिंटरों का ब्रिटिश निर्माता, विशेषकर उच्च-मात्रा साइन और डिस्प्ले उत्पादन के लिए Onset और Spyder सीरीज़।"@hi,
+        "Inca Digital — ハイエンドの工業用UVフラットベッドプリンターの英国のメーカー。特に大量サインおよびディスプレイ生産向けのOnsetおよびSpyderシリーズを扱う。"@ja,
+        "Inca Digital — britisk produsent av eksklusive industrielle UV flatbed-skrivere, særlig Onset- og Spyder-serien for høyvolum skilt- og display-produksjon."@nb,
+        "Inca Digital — Britse fabrikant van high-end industriële UV-flatbedprinters, met name de Onset- en Spyder-series voor sign- en displayproductie in hoge volumes."@nl,
+        "Inca Digital — brytyjski producent przemysłowych płaskich drukarek UV wysokiej klasy, zwłaszcza serii Onset i Spyder do wysokonakładowej produkcji reklamowej i ekspozycyjnej."@pl,
+        "Inca Digital — fabricante britânico de impressoras UV flatbed industriais de alto nível, especialmente as séries Onset e Spyder para produção de sinalização e display em alto volume."@pt,
+        "Inca Digital — brittisk tillverkare av avancerade industriella UV-flatbäddsskrivare, särskilt Onset- och Spyder-serierna för skylt- och displayproduktion i höga volymer."@sv,
+        "Inca Digital Printers —— 英国高产工业UV平板打印机制造商，用于标识和展示。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-WIDE-INCA" ;
+    skos:prefLabel "Inca Digital"@da,
+        "Inca Digital"@de,
+        "Inca Digital"@en,
+        "Inca Digital"@es,
+        "Inca Digital"@hi,
+        "Inca Digital"@ja,
+        "Inca Digital"@nb,
+        "Inca Digital"@nl,
+        "Inca Digital"@pl,
+        "Inca Digital"@pt,
+        "Inca Digital"@sv,
+        "Inca Digital"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

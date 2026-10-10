@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/plywood> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kryssfiner"@en,
+        "Multiplex"@en,
+        "ply"@en,
+        "plywood board"@en,
+        "प्लाई"@hi,
+        "प्लाईवुड बोर्ड"@hi,
+        "प्लाईवुड शीट"@hi,
+        "मल्टीप्लेक्स"@hi,
+        "finerplate"@nb,
+        "Multiplex"@pl,
+        "dykta"@pl,
+        "sklejka drewniana"@pl,
+        "chapa de compensado"@pt,
+        "compensado"@pt,
+        "contraplacado"@pt,
+        "madeira compensada"@pt,
+        "multiplex"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite> ;
+    skos:definition "Et konstrueret panel af tynde træfinérer limet med skiftevis fiberretning — stærkt og dimensionsstabilt."@da,
+        "Eine Platte aus dünnen Holzfurnieren mit kreuzweise verleimter Faserrichtung — fest und formstabil."@de,
+        "An engineered panel of thin wood veneers glued with alternating grain — strong and dimensionally stable."@en,
+        "Un panel derivado de chapas finas de madera encoladas con la veta alternada — fuerte y dimensionalmente estable."@es,
+        "बारी-बारी दिशा के रेशों वाली पतली लकड़ी की परतों (विनियर) को चिपकाकर बना इंजीनियर्ड पैनल — मज़बूत और आयामी रूप से स्थिर।"@hi,
+        "木目を交互にして薄い単板を貼り合わせたエンジニアードパネル — 強く、寸法安定性が高い。"@ja,
+        "En teknisk plate av tynne finerlag limt med vekslende fiberretning — sterk og formstabil."@nb,
+        "Een samengesteld paneel van dunne houtfineren, gelijmd met afwisselende vezelrichting — sterk en dimensiestabiel."@nl,
+        "Płyta drewnopochodna z cienkich fornirów sklejonych naprzemiennie względem słojów — wytrzymała i stabilna wymiarowo."@pl,
+        "Painel engenheirado de finas lâminas de madeira coladas com fibras alternadas — forte e dimensionalmente estável."@pt,
+        "En konstruerad skiva av tunna träfaner limmade med växlande fiberriktning — stark och dimensionsstabil."@sv,
+        "由薄木单板交错纹理胶合而成的工程板材 — 强度高、尺寸稳定。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PLYWOOD" ;
+    skos:prefLabel "Krydsfiner"@da,
+        "Sperrholz"@de,
+        "Plywood"@en,
+        "Contrachapado"@es,
+        "प्लाईवुड"@hi,
+        "合板"@ja,
+        "Kryssfiner"@nb,
+        "Multiplex"@nl,
+        "Sklejka"@pl,
+        "Compensado"@pt,
+        "Plywood"@sv,
+        "胶合板"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

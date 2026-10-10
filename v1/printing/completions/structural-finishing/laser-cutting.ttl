@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Laser cut"@en,
+        "Laser-cut"@en,
+        "लेज़र एनग्रेविंग"@hi,
+        "लेज़र कट"@hi,
+        "लेज़र से कटाई"@hi,
+        "Laserkutt"@nb,
+        "Laserskjæring"@nb,
+        "cięte laserem"@pl,
+        "wycinanie laserowe"@pl,
+        "cortado a laser"@pt,
+        "laser cut"@pt,
+        "recorte a laser"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Skæring eller gravering af substratet med en fokuseret laserstråle til fine, indviklede detaljer."@da,
+        "Schneiden oder Gravieren des Bedruckstoffs mit einem fokussierten Laserstrahl für feine Details."@de,
+        "Cutting or engraving the substrate with a focused laser beam for fine, intricate detail."@en,
+        "Cortar o grabar el sustrato con un haz láser enfocado para detalles finos e intrincados."@es,
+        "बारीक, जटिल विवरण के लिए केंद्रित लेज़र किरण से सब्सट्रेट को काटना या उकेरना।"@hi,
+        "集束レーザービームで基材を切断・彫刻し、微細で複雑なディテールを実現する。"@ja,
+        "Skjæring eller gravering av substratet med en fokusert laserstråle for fine detaljer."@nb,
+        "Het substraat snijden of graveren met een gefocuste laserstraal voor fijne, gedetailleerde vormen."@nl,
+        "Cięcie lub grawerowanie podłoża skupioną wiązką lasera dla drobnych, misternych detali."@pl,
+        "Corte ou gravação do substrato com um feixe de laser focalizado, para detalhes finos e intrincados."@pt,
+        "Skärning eller gravyr av substratet med fokuserad laserstråle för fina, intrikata detaljer."@sv,
+        "用聚焦激光束切割或雕刻承印材料，实现精细复杂的细节。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§LASER-CUTTING" ;
+    skos:prefLabel "Laserskæring"@da,
+        "Laserschneiden"@de,
+        "Laser Cutting"@en,
+        "Laser Cutting"@es,
+        "लेज़र कटिंग"@hi,
+        "Laser Cutting"@ja,
+        "Laserskjæring"@nb,
+        "Lasersnijden"@nl,
+        "Cięcie laserowe"@pl,
+        "Corte a laser"@pt,
+        "Laserskärning"@sv,
+        "Laser Cutting"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.13 · p.81",
+                "§5.6.11 · p.117",
+                "§5.6.27 · p.127" ;
+            ptpge:mappingRow "crosswalk row 28" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DieMaking",
+                "ShapeCutting",
+                "ShapeCuttingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

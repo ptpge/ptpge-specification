@@ -1,0 +1,59 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/crpc7",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "CRPC7",
+    "nb": "CRPC7",
+    "sv": "CRPC7",
+    "da": "CRPC7",
+    "nl": "CRPC7",
+    "pl": "CRPC7",
+    "pt": "CRPC7",
+    "hi": "CRPC7"
+  },
+  "notation": "P:ST§CRPC7",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Characterized Reference Printing Condition 7 of ISO/PAS 15339-2:2015 (CGATS 21-2): the largest gamut of the seven — expanded-gamut and wide-format inkjet conditions. Process-agnostic reference conditions spanning the range of printable gamuts.",
+    "nb": "Karakterisert referanse-trykkbetingelse 7 i ISO/PAS 15339-2:2015 (CGATS 21-2): det største fargerommet av de sju — utvidet fargerom og storformat-inkjet. Prosessuavhengige referansebetingelser som spenner over de trykkbare fargerommene.",
+    "de": "Charakterisierte Referenzdruckbedingung 7 nach ISO/PAS 15339-2:2015 (CGATS 21-2): der größte Farbraum der sieben — erweiterter Farbraum und Großformat-Inkjet. Prozessunabhängige Referenzbedingungen über die Spanne der druckbaren Farbräume.",
+    "es": "Condición de impresión de referencia caracterizada 7 de ISO/PAS 15339-2:2015 (CGATS 21-2): la mayor gama de las siete — gama extendida e inyección de tinta de gran formato. Condiciones de referencia independientes del proceso que abarcan las gamas imprimibles.",
+    "ja": "ISO/PAS 15339-2:2015（CGATS 21-2）の特性化参照印刷条件 7：7条件中最大の色域 — 拡張色域および大判インクジェット。印刷可能な色域の範囲をカバーする、プロセス非依存の参照条件。",
+    "zh-Hans": "ISO/PAS 15339-2:2015（CGATS 21-2）特性化参考印刷条件 7：七个条件中色域最大——扩展色域与大幅面喷墨。与工艺无关、覆盖可印刷色域范围的参考条件。",
+    "sv": "Karakteriserat referenstryckvillkor 7 i ISO/PAS 15339-2:2015 (CGATS 21-2): det största färgomfånget av de sju — utökat färgomfång och storformats-inkjet. Processoberoende referensvillkor som spänner över de tryckbara färgomfången.",
+    "da": "Karakteriseret referencetrykbetingelse 7 i ISO/PAS 15339-2:2015 (CGATS 21-2): det største farverum af de syv — udvidet farverum og storformat-inkjet. Procesuafhængige referencebetingelser der spænder over de trykbare farverum.",
+    "nl": "Gekarakteriseerde referentiedrukconditie 7 van ISO/PAS 15339-2:2015 (CGATS 21-2): het grootste kleurbereik van de zeven — uitgebreid kleurbereik en grootformaat-inkjet. Procesonafhankelijke referentiecondities die het bereik van drukbare kleurbereiken omspannen.",
+    "pl": "Characterized Reference Printing Condition 7 wg ISO/PAS 15339-2:2015 (CGATS 21-2): największy gamut z siedmiu — warunki rozszerzonego gamutu i wielkoformatowego druku atramentowego. Warunki odniesienia niezależne od procesu, obejmujące zakres drukowalnych gamutów.",
+    "pt": "Characterized Reference Printing Condition 7 da ISO/PAS 15339-2:2015 (CGATS 21-2): o maior gamut dos sete — condições de gamut expandido e jato de tinta de grande formato. Condições de referência independentes de processo que abrangem a gama de gamuts imprimíveis.",
+    "hi": "ISO/PAS 15339-2:2015 (CGATS 21-2) की Characterized Reference Printing Condition 7: सातों में सबसे बड़ा गैमट — विस्तारित-गैमट और वाइड-फॉर्मेट इंकजेट स्थितियाँ। मुद्रण-योग्य गैमट की सीमा को समेटने वाली प्रक्रिया-निरपेक्ष संदर्भ स्थितियाँ।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "CRPC 7",
+      "Characterized Reference Printing Condition 7"
+    ],
+    "pl": [
+      "CRPC 7",
+      "Characterized Reference Printing Condition 7"
+    ],
+    "pt": [
+      "CRPC 7",
+      "Characterized Reference Printing Condition 7"
+    ],
+    "hi": [
+      "CRPC 7",
+      "Characterized Reference Printing Condition 7"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings> a skos:Concept ;
+    dcterms:created "2026-08-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "powłoka papieru"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    skos:definition "Om basispapiret bærer mineralsk bestrygning (bestrøget) eller viser sin naturlige fiberoverflade (ubestrøget) — fagets primære papirskel. Valgfri præcisering i konfigurationer: ubundet betyder uspecificeret (SD-0069)."@da,
+        "Ob das Rohpapier einen mineralischen Strich trägt (gestrichen) oder seine natürliche Faseroberfläche zeigt (ungestrichen) — die primäre Papierunterscheidung des Fachs. Optionale Präzisierung in Konfigurationen: ungebunden bedeutet unspezifiziert (SD-0069)."@de,
+        "Whether the base paper carries a mineral coating (coated) or shows its natural fibre surface (uncoated) — the trade's primary paper distinction. Optional refinement in configurations: unbound means unspecified (SD-0069)."@en,
+        "Si el papel base lleva estucado mineral (estucado) o muestra su superficie natural de fibra (sin estucar): la distinción primaria del sector. Refinamiento opcional en configuraciones: sin vincular significa sin especificar (SD-0069)."@es,
+        "आधार काग़ज़ पर खनिज कोटिंग है (कोटेड) या उसकी प्राकृतिक रेशा सतह दिखती है (अनकोटेड) — बिरादरी का प्राथमिक काग़ज़ भेद। कॉन्फ़िगरेशन में वैकल्पिक परिष्करण: अनबाउंड का अर्थ अनिर्दिष्ट (SD-0069)।"@hi,
+        "原紙が鉱物性塗工を持つか（塗工紙）、自然な繊維表面を見せるか（非塗工紙）— 印刷業界の第一の紙の区別。構成では任意の精密化：未束縛は未指定を意味する（SD-0069）。"@ja,
+        "Om råpapiret bærer mineralsk bestrykning (bestrøket) eller viser sin naturlige fiberoverflate (ubestrøket) — fagets primære papirskille. Valgfri presisjon i konfigurasjoner: ubundet betyr uspesifisert (SD-0069)."@nb,
+        "Of het basispapier een minerale strijklaag draagt (gestreken) of zijn natuurlijke vezeloppervlak toont (ongestreken) — hét primaire papieronderscheid van het vak. Optionele verfijning in configuraties: ongebonden betekent niet gespecificeerd (SD-0069)."@nl,
+        "Czy papier bazowy ma powłokę mineralną (powlekany), czy pokazuje naturalną powierzchnię włókien (niepowlekany) — podstawowe rozróżnienie papieru w branży. Opcjonalne uściślenie w konfiguracjach: brak wartości oznacza nieokreślone (SD-0069)."@pl,
+        "Se o papel base tem revestimento mineral (couché/revestido) ou mostra sua superfície natural de fibra (não revestido/offset) — a distinção primária de papel do ofício. Refinamento opcional nas configurações: não vinculado significa não especificado (SD-0069)."@pt,
+        "Om baspappret bär mineralbestrykning (bestruket) eller visar sin naturliga fiberyta (obestruket) — branschens primära pappersskiljelinje. Valfri precisering i konfigurationer: obundet betyder ospecificerat (SD-0069)."@sv,
+        "原纸是否带有矿物涂层（涂布）或呈现自然纤维表面（非涂布）——行业对纸张的首要区分。配置中为可选精化：未绑定即未指定（SD-0069）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated> ;
+    skos:notation "P:SB-SHT-PAPR-COAT" ;
+    skos:prefLabel "Bestrygning"@da,
+        "Papierstrich"@de,
+        "Paper Coatings"@en,
+        "Estucado del papel"@es,
+        "काग़ज़ कोटिंग"@hi,
+        "塗工"@ja,
+        "Bestrykning"@nb,
+        "Strijklagen"@nl,
+        "Powlekanie papieru"@pl,
+        "Revestimentos de papel"@pt,
+        "Bestrykning"@sv,
+        "涂布"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-22" .
+

@@ -1,0 +1,134 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/mailer-boxes> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T10:00:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "abonnementsæske"@da,
+        "e-handelsæske"@da,
+        "forsendelsesæske"@da,
+        "fragtæske"@da,
+        "gaveæske"@da,
+        "Faltschachteln"@de,
+        "Versandschachteln"@de,
+        "Postal boxes"@en,
+        "Subscription boxes"@en,
+        "custom box"@en,
+        "gift box"@en,
+        "mailer box"@en,
+        "postal box"@en,
+        "shipping box"@en,
+        "caja de cartón"@es,
+        "caja de envío"@es,
+        "caja de regalo"@es,
+        "caja para suscripción"@es,
+        "caja personalizada"@es,
+        "caja postal"@es,
+        "कस्टम बॉक्स"@hi,
+        "गिफ़्ट बॉक्स"@hi,
+        "डाक बॉक्स"@hi,
+        "मेलर बॉक्स"@hi,
+        "शिपिंग बॉक्स"@hi,
+        "सब्सक्रिप्शन बॉक्स"@hi,
+        "オリジナルボックス"@ja,
+        "ギフトボックス"@ja,
+        "化粧箱"@ja,
+        "宅配箱"@ja,
+        "箱"@ja,
+        "配送用箱"@ja,
+        "fraktboks"@nb,
+        "gaveeske"@nb,
+        "posteske"@nb,
+        "abonnementsdoos"@nl,
+        "e-commerce doos"@nl,
+        "geschenkdoos"@nl,
+        "mailerbox"@nl,
+        "verzenddoos"@nl,
+        "pudełko pocztowe"@pl,
+        "pudełko prezentowe"@pl,
+        "pudełko subskrypcyjne"@pl,
+        "pudełko wysyłkowe"@pl,
+        "pudełko z nadrukiem"@pl,
+        "caixa de assinatura"@pt,
+        "caixa de envio"@pt,
+        "caixa de presente"@pt,
+        "caixa para e-commerce"@pt,
+        "caixa personalizada"@pt,
+        "caixa postal"@pt,
+        "e-handelslåda"@sv,
+        "fraktkartong"@sv,
+        "fraktlåda"@sv,
+        "mailerbox"@sv,
+        "prenumerationsbox"@sv,
+        "presentförpackning"@sv,
+        "presentlåda"@sv,
+        "包装盒"@zh-Hans,
+        "定制纸盒"@zh-Hans,
+        "快递盒"@zh-Hans,
+        "礼品盒"@zh-Hans,
+        "邮寄盒"@zh-Hans,
+        "飞机盒"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En udstanset, falset og limet æske til forsendelse, gaver eller detail — special-, forsendelses- og gaveæsker."@da,
+        "Eine gestanzte, gefaltete und geklebte Schachtel für Versand, Geschenk oder Handel."@de,
+        "A die-cut, folded and glued box for shipping, gifting or retail — custom, mailer and gift boxes."@en,
+        "Una caja troquelada, plegada y pegada para envío, regalo o retail — cajas personalizadas, de envío y de regalo."@es,
+        "शिपिंग, उपहार या खुदरा के लिए डाई-कट, मुड़ा और चिपका हुआ बॉक्स — कस्टम, मेलर और गिफ़्ट बॉक्स।"@hi,
+        "型抜き・折り・接着で仕上げる箱。発送用、ギフト用、小売用のカスタムボックス。"@ja,
+        "En stanset, brettet og limt eske for frakt, gave eller butikk — egendefinerte, mailer- og gaveesker."@nb,
+        "Een gestanste, gevouwen en gelijmde doos voor verzending, geschenken of retail — maatwerk-, verzend- en geschenkdozen."@nl,
+        "Wykrawane, składane i klejone pudełko do wysyłki, na prezent lub do sprzedaży — pudełka na zamówienie, wysyłkowe i prezentowe."@pl,
+        "Caixa com corte especial, vincada e colada para envio, presente ou varejo — caixas personalizadas, de correio e de presente."@pt,
+        "En stansad, falsad och limmad låda för frakt, gåvor eller detaljhandel — special-, mailer- och presentaskar."@sv,
+        "模切、折叠并粘合的盒子——定制盒、快递盒和礼品盒，用于寄送、馈赠或零售。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§MAILER-BOXES" ;
+    skos:prefLabel "Forsendelsesæsker"@da,
+        "Schachteln & Versandkartons"@de,
+        "Mailer Boxes"@en,
+        "Cajas y cajas de envío"@es,
+        "मेलर बॉक्स"@hi,
+        "カスタムボックス・メーラーボックス"@ja,
+        "Mailer-bokser"@nb,
+        "Verzenddozen"@nl,
+        "Pudełka wysyłkowe"@pl,
+        "Caixas de envio"@pt,
+        "Mailerboxar"@sv,
+        "定制盒与邮寄盒"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/cardboard>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/corrugated-roll> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    ptpge:version "2026-08-12" .
+

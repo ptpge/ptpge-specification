@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/apple-keynotes",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Apple Keynotes (.key)",
+    "es": "Apple Keynote (.key)",
+    "zh-Hans": "Apple Keynote (.key)",
+    "nb": "Apple Keynotes (.key)",
+    "de": "Apple Keynotes (.key)",
+    "ja": "Apple Keynotes (.key)",
+    "sv": "Apple Keynote (.key)",
+    "da": "Apple Keynote (.key)",
+    "nl": "Apple Keynote (.key)",
+    "pl": "Apple Keynotes (.key)",
+    "pt": "Apple Keynote (.key)",
+    "hi": "Apple Keynote (.key)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§APPLE-KEYNOTES",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native presentation file format (.key) for Apple Keynote, used for slide-based presentations on macOS and iOS.",
+    "nb": "Programspesifikt presentasjonsformat (.key) for Apple Keynote, brukt for lysbildebaserte presentasjoner på macOS og iOS.",
+    "de": "Anwendungseigenes Präsentationsformat (.key) von Apple Keynote, verwendet für folienbasierte Präsentationen unter macOS und iOS.",
+    "ja": "Apple Keynoteのネイティブプレゼンテーションファイル形式（.key）。macOSおよびiOS上でスライドベースのプレゼンテーションに使用される。",
+    "es": "Formato nativo de Apple Keynote para presentaciones. Poco común en flujos de imprenta; se exporta a PDF para producción.",
+    "zh-Hans": "Apple Keynote用于演示的原生格式。在印刷工作流程中不常见；导出为PDF以供生产。",
+    "sv": "Programeget presentationsformat (.key) för Apple Keynote, använt för bildbaserade presentationer på macOS och iOS.",
+    "da": "Programeget præsentationsformat (.key) for Apple Keynote, brugt til diasbaserede præsentationer på macOS og iOS.",
+    "nl": "Programma-eigen presentatieformaat (.key) voor Apple Keynote, gebruikt voor diapresentaties op macOS en iOS.",
+    "pl": "Natywny format prezentacji (.key) programu Apple Keynote, używany do prezentacji slajdowych na macOS i iOS.",
+    "pt": "Formato de arquivo nativo de apresentação (.key) do Apple Keynote, usado para apresentações em slides no macOS e iOS.",
+    "hi": "Apple Keynote का नेटिव प्रस्तुति फ़ाइल फ़ॉर्मेट (.key), macOS और iOS पर स्लाइड-आधारित प्रस्तुतियों के लिए।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      ".key",
+      "Keynote"
+    ],
+    "pl": [
+      ".key",
+      "Keynote"
+    ],
+    "pt": [
+      ".key",
+      "Keynote"
+    ],
+    "hi": [
+      ".key",
+      "Keynote"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

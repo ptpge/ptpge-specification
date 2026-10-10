@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/woodcut> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Woodblock"@en,
+        "काष्ठ-उत्कीर्णन"@hi,
+        "वुडब्लॉक"@hi,
+        "Tresnitt"@nb,
+        "klocek drzeworytniczy"@pl,
+        "Gravura em madeira"@pt,
+        "Xilografia"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "Oprindelig højtryksteknik, hvor billedet skæres ind i overfladen på en træblok — ikke-billedflader fjernes, så billedet står ophøjet. Farve påføres den ophøjede overflade og presses mod papir. Den ældste kendte trykmetode, med oprindelse i Kina før år 220 e.Kr."@da,
+        "Ursprüngliche Hochdrucktechnologie, bei der das Bild in die Oberfläche eines Holzstocks geschnitten wird — bildfreie Bereiche werden entfernt, sodass das Bild erhaben stehen bleibt. Die Farbe wird auf die erhabene Fläche aufgetragen und auf Papier gepresst. Die älteste bekannte Druckmethode, mit Ursprüngen in China vor 220 n. Chr."@de,
+        "Original relief printing technology where the image is carved into the surface of a wooden block — non-image areas are removed, leaving the image raised. Ink is applied to the raised surface and pressed onto paper. The oldest known printing method, originating in China before AD 220."@en,
+        "Técnica tradicional de impresión en relieve sobre madera tallada — la imagen se talla en negativo y la tinta se aplica a la superficie en relieve. Hoy práctica artística más que industrial."@es,
+        "मूल रिलीफ़ मुद्रण तकनीक जिसमें छवि लकड़ी के ब्लॉक की सतह में तराशी जाती है — गैर-छवि क्षेत्र हटाए जाते हैं, छवि उभरी रहती है। उभरी सतह पर स्याही लगाकर काग़ज़ पर दबाया जाता है। ज्ञात सबसे पुरानी मुद्रण विधि, ईसवी 220 से पहले चीन में उद्भूत।"@hi,
+        "木版の表面に画像を彫り込む元来の凸版印刷技術 — 非画像領域を取り除き、画像を凸状に残す。凸状の表面にインキを塗布し紙に押し付ける。中国で紀元220年以前に始まった、知られている最古の印刷方式。"@ja,
+        "Opprinnelig relieff-trykketeknologi der bildet er skåret inn i overflaten av en treblokk — ikke-bildeområder fjernes og etterlater bildet opphøyd. Blekk påføres den opphøyde overflaten og presses mot papir. Den eldste kjente trykkmetoden, med opprinnelse i Kina før år 220."@nb,
+        "Oorspronkelijke hoogdruktechnologie waarbij het beeld in het oppervlak van een houtblok wordt gesneden — niet-beeldvlakken worden weggehaald zodat het beeld verhoogd staat. Inkt wordt op het verhoogde oppervlak aangebracht en op papier gedrukt. De oudst bekende drukmethode, ontstaan in China vóór 220 n.Chr."@nl,
+        "Pierwotna technologia druku wypukłego, w której obraz jest wycinany w powierzchni drewnianego klocka — obszary bez obrazu są usuwane, a obraz pozostaje wypukły. Farba jest nakładana na wypukłą powierzchnię i odciskana na papierze. Najstarsza znana metoda druku, wywodząca się z Chin sprzed 220 r. n.e."@pl,
+        "Tecnologia original de impressão em relevo em que a imagem é entalhada na superfície de um bloco de madeira — as áreas sem imagem são removidas, deixando a imagem em relevo. A tinta é aplicada à superfície elevada e pressionada sobre o papel. O método de impressão mais antigo conhecido, originário da China antes de 220 d.C."@pt,
+        "Ursprunglig högtrycksteknik där bilden skärs in i ytan på ett träblock — icke-bildytor avlägsnas så att bilden står upphöjd. Bläck appliceras på den upphöjda ytan och pressas mot papper. Den äldsta kända tryckmetoden, med ursprung i Kina före år 220 e.Kr."@sv,
+        "在雕刻木材上的传统凸版印刷技术——图像以负向雕刻，油墨施加于凸起表面。如今主要是艺术实践而非工业实践。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§WOODCUT" ;
+    skos:prefLabel "Træsnit"@da,
+        "Holzschnitt"@de,
+        "Woodcut"@en,
+        "Xilografía"@es,
+        "वुडकट"@hi,
+        "木版画"@ja,
+        "Tresnitt"@nb,
+        "Houtsnede"@nl,
+        "Drzeworyt"@pl,
+        "Xilogravura"@pt,
+        "Träsnitt"@sv,
+        "木版画"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

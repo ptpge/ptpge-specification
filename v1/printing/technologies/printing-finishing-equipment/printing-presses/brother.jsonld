@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/brother",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Brother",
+    "es": "Brother",
+    "zh-Hans": "Brother",
+    "nb": "Brother",
+    "de": "Brother",
+    "ja": "Brother",
+    "sv": "Brother",
+    "da": "Brother",
+    "nl": "Brother",
+    "pl": "Brother",
+    "pt": "Brother",
+    "hi": "Brother"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Brother Industries — Japanese manufacturer with a presence in commercial digital printing, including label printers and small-format production devices.",
+    "nb": "Brother Industries — japansk produsent med tilstedeværelse i kommersiell digital trykk, inkludert etikettskrivere og små-format produksjonsenheter.",
+    "de": "Brother Industries — japanischer Hersteller mit Präsenz im kommerziellen Digitaldruck, einschließlich Etikettendruckern und Kleinformat-Produktionsgeräten.",
+    "ja": "ブラザー工業 — ラベルプリンターおよび小フォーマット生産機器を含む商業デジタル印刷分野で存在感を持つ日本のメーカー。",
+    "es": "Brother Industries — fabricante japonés de impresoras de oficina y producción ligera, incluyendo láser y de inyección de tinta.",
+    "zh-Hans": "Brother Industries —— 日本办公和轻量生产打印机制造商，包括激光和喷墨。",
+    "sv": "Brother Industries — japansk tillverkare med närvaro inom kommersiellt digitaltryck, inklusive etikettskrivare och produktionsenheter i småformat.",
+    "da": "Brother Industries — japansk producent med tilstedeværelse inden for kommercielt digitaltryk, herunder etiketprintere og produktionsenheder i småformat.",
+    "nl": "Brother Industries — Japanse fabrikant met aanwezigheid in commercieel digitaal drukwerk, waaronder etikettenprinters en productieapparaten in klein formaat.",
+    "pl": "Brother Industries — japoński producent obecny w komercyjnym druku cyfrowym, w tym drukarki etykiet i małoformatowe urządzenia produkcyjne.",
+    "pt": "Brother Industries — fabricante japonês com presença na impressão digital comercial, incluindo impressoras de etiquetas e dispositivos de produção de pequeno formato.",
+    "hi": "Brother Industries — व्यावसायिक डिजिटल प्रिंटिंग में उपस्थिति वाला जापानी निर्माता, जिसमें लेबल प्रिंटर और छोटे-फ़ॉर्मेट उत्पादन उपकरण शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-BROT",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/display-system> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Display kit setup"@en,
+        "Print + hardware setup"@en,
+        "Roll-up/stand setup"@en,
+        "डिस्प्ले किट सेटअप"@hi,
+        "प्रिंट + हार्डवेयर सेटअप"@hi,
+        "रोल-अप/स्टैंड सेटअप"@hi,
+        "Display-kit-oppsett"@nb,
+        "Rollup/stand-oppsett"@nb,
+        "Trykk + maskinvare-oppsett"@nb,
+        "druk + sprzęt"@pl,
+        "konfiguracja roll-up/stojak"@pl,
+        "konfiguracja zestawu ekspozycyjnego"@pl,
+        "impresso + hardware"@pt,
+        "montagem de kit de display"@pt,
+        "montagem roll-up/estande"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models> ;
+    skos:definition "Et trykt storformatelement monteret i eller leveret med et fysisk displaysystem — roll-ups, pop-up-vægge, beachflag og messestande. Den trykte grafik bærer designet; systemet (kassette, ramme, stang) er hardware. Én trykbar flade pr. grafikelement."@da,
+        "Eine gedruckte Grafik, geliefert zusammen mit einem wiederverwendbaren Hardware-System, das sie hält oder spannt — Roll-up-/Pull-up-Banner, Messestände, Pop-up-Wände und Theken. Das adressierbare Druckelement ist die Graphic (eine bedruckte Fläche aus Großformat-Medien); die Hardware (Kassette, Rahmen, Stange, Fuß) ist eine nicht bedruckte Komponente."@de,
+        "A printed graphic supplied together with a reusable hardware system that holds or tensions it — roll-up/pull-up banners, exhibition stands, pop-up walls and counters. The addressable print element is the Graphic (one printed face of wide-format media); the hardware (cassette, frame, pole, base) is a non-printed component selected as part of the product. The Configurator pairs the graphic dimensions with a compatible hardware kit. Production is wide-format; the kit is an assembled bundle rather than a single print topology. Format binds the visible graphic; any extra printed material the hardware needs (cassette wrap, leader rail, pole pockets) is a mounting allowance — production geometry derived by the producer from the hardware, never part of the product identity."@en,
+        "A printed graphic supplied together with a reusable hardware system that holds or tensions it — roll-up/pull-up banners, exhibition stands, pop-up walls and counters. The addressable print element is the Graphic; the hardware is a non-printed component selected as part of the product."@es,
+        "पुन: प्रयोज्य हार्डवेयर सिस्टम के साथ दिया जाने वाला मुद्रित ग्राफ़िक, जो उसे थामता या तानता है — रोल-अप/पुल-अप बैनर, प्रदर्शनी स्टैंड, पॉप-अप दीवारें और काउंटर। पता-योग्य प्रिंट तत्व ग्राफ़िक है (वाइड-फॉर्मेट मीडिया की एक छपी सतह); हार्डवेयर (कैसेट, फ़्रेम, पोल, बेस) उत्पाद के हिस्से के रूप में चुना गया बिना छपा घटक है। कॉन्फ़िगरेटर ग्राफ़िक के आयामों को संगत हार्डवेयर किट से जोड़ता है। उत्पादन वाइड-फॉर्मेट है; किट एक जुड़ा हुआ बंडल है, एक प्रिंट बनावट नहीं। फ़ॉर्मेट दिखने वाले ग्राफ़िक को बाँधता है; हार्डवेयर के लिए ज़रूरी कोई अतिरिक्त छपी सामग्री (कैसेट रैप, लीडर रेल, पोल पॉकेट) माउंटिंग भत्ता है — हार्डवेयर से उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति, कभी उत्पाद पहचान का हिस्सा नहीं।"@hi,
+        "A printed graphic supplied together with a reusable hardware system that holds or tensions it — roll-up/pull-up banners, exhibition stands, pop-up walls and counters. The addressable print element is the Graphic; the hardware is a non-printed component selected as part of the product."@ja,
+        "En trykt grafikk levert sammen med et gjenbrukbart maskinvare-system som holder eller strammer den — rollup/pull-up-bannere, messestands, pop-up-vegger og disker. Det adresserbare trykk-elementet er Graphic (én trykt flate av storformat-media); maskinvaren (kassett, ramme, stang, fot) er en ikke-trykt komponent valgt som del av produktet. Configurator parer grafikk-dimensjonene med et kompatibelt maskinvare-kit. Produksjon er storformat; kittet er et sammensatt bundle snarere enn én trykk-topologi. Format binder den synlige grafikken; ekstra trykt materiale som maskinvaren krever (kassettomslag, toppskinne, stanglommer) er et monteringstillegg — produksjonsgeometri utledet av produsenten fra maskinvaren, aldri del av produktidentiteten."@nb,
+        "Een gedrukt grootformaatelement gemonteerd in of geleverd met een fysiek displaysysteem — roll-ups, pop-upwanden, beachflags en beursstands. De gedrukte graphic draagt het ontwerp; het systeem (cassette, frame, mast) is hardware. Eén bedrukbaar vlak per grafisch element."@nl,
+        "Drukowana grafika dostarczana razem z wielokrotnego użytku systemem sprzętowym, który ją trzyma lub napina — roll-upy, stoiska wystawiennicze, ścianki pop-up i lady. Adresowalnym elementem druku jest Grafika (jedna zadrukowana strona nośnika wielkoformatowego); sprzęt (kaseta, rama, maszt, podstawa) jest komponentem niezadrukowanym wybieranym jako część produktu. Konfigurator dobiera wymiary grafiki do kompatybilnego zestawu sprzętowego. Produkcja jest wielkoformatowa; zestaw jest złożonym pakietem, a nie pojedynczą topologią druku. Format wiąże widoczną grafikę; wszelki dodatkowy zadrukowany materiał potrzebny sprzętowi (owinięcie kasety, listwa prowadząca, tunele na maszt) to naddatek montażowy — geometria produkcyjna wyprowadzana przez producenta ze sprzętu, nigdy część tożsamości produktu."@pl,
+        "Gráfico impresso fornecido junto com um sistema de hardware reutilizável que o sustenta ou tensiona — banners roll-up/pull-up, estandes de exposição, paredes pop-up e balcões. O elemento de impressão endereçável é o Gráfico (uma face impressa de mídia de grande formato); o hardware (cassete, estrutura, haste, base) é um componente não impresso selecionado como parte do produto. O Configurador combina as dimensões do gráfico com um kit de hardware compatível. A produção é de grande formato; o kit é um conjunto montado, não uma topologia de impressão única. O Formato vincula o gráfico visível; qualquer material impresso extra que o hardware exija (envoltório do cassete, trilho superior, bainhas para haste) é folga de montagem — geometria de produção derivada pelo produtor a partir do hardware, nunca parte da identidade do produto."@pt,
+        "En tryckt grafik levererad tillsammans med ett återanvändbart hårdvarusystem som håller eller spänner den — roll-ups, mässställ, pop-up-väggar och diskar. Det adresserbara tryckelementet är grafiken (en tryckt yta av storformatsmedia); hårdvaran (kassett, ram, stång, fot) är en otryckt komponent som väljs som del av produkten. Konfiguratorn parar grafikens dimensioner med ett kompatibelt hårdvarukit. Produktionen är storformat; kitet är ett monterat paket snarare än en enskild trycktopologi."@sv,
+        "A printed graphic supplied together with a reusable hardware system that holds or tensions it — roll-up/pull-up banners, exhibition stands, pop-up walls and counters. The addressable print element is the Graphic; the hardware is a non-printed component selected as part of the product."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§DISPLAY-SYSTEM" ;
+    skos:prefLabel "Displaysystem"@da,
+        "Display-System-Setup"@de,
+        "Display System Setup"@en,
+        "Configuración de sistema de display"@es,
+        "डिस्प्ले सिस्टम सेटअप"@hi,
+        "ディスプレイシステム構成"@ja,
+        "Display-system-oppsett"@nb,
+        "Displaysysteem-opzet"@nl,
+        "Konfiguracja systemu ekspozycyjnego"@pl,
+        "Montagem em sistema de display"@pt,
+        "Displaysystem"@sv,
+        "展示系统结构"@zh-Hans ;
+    skos:scopeNote "The product is a bundle: a wide-format printed Graphic plus a non-printed hardware kit (cassette/frame/base). Only the Graphic carries a Print Layer Stack; the hardware is selected, not printed. Replacement graphics can be ordered against the same hardware."@en,
+        "उत्पाद एक बंडल है: वाइड-फॉर्मेट मुद्रित ग्राफ़िक और बिना छपा हार्डवेयर किट (कैसेट/फ़्रेम/बेस)। केवल ग्राफ़िक प्रिंट लेयर स्टैक रखता है; हार्डवेयर चुना जाता है, छपता नहीं। उसी हार्डवेयर के लिए बदली ग्राफ़िक ऑर्डर किए जा सकते हैं।"@hi,
+        "O produto é um conjunto: um Gráfico impresso de grande formato mais um kit de hardware não impresso (cassete/estrutura/base). Só o Gráfico carrega uma pilha de camadas de impressão; o hardware é selecionado, não impresso. Gráficos de reposição podem ser pedidos para o mesmo hardware."@pt ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/corrugated> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Corrugated board"@en,
+        "Corrugated sheet"@en,
+        "Fluted sheet"@en,
+        "कोरुगेटेड बॉक्स बोर्ड"@hi,
+        "कोरुगेटेड बोर्ड"@hi,
+        "कोरुगेटेड शीट"@hi,
+        "फ़्लूटेड शीट"@hi,
+        "लहरदार गत्ता"@hi,
+        "arkusz tektury falistej"@pl,
+        "fala"@pl,
+        "tektura pofalowana"@pl,
+        "chapa ondulada"@pt,
+        "corrugado"@pt,
+        "ondulado"@pt,
+        "papelão canelado"@pt,
+        "papelão ondulado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials> ;
+    skos:definition "En flerlagsplade lavet ved at lime et bølget mellemark mellem to flade linere, hvilket giver styrke og stødabsorbering ved lav vægt. Det dominerende substrat til forsendelsesæsker og beskyttende emballage. Fås i single-, double- og triplewall."@da,
+        "Mehrlagige Pappe, hergestellt durch Verkleben einer gewellten (geriffelten) Innenlage zwischen zwei flachen Decklagen, die ihr bei geringem Gewicht Festigkeit und Polsterung verleiht. Der dominierende Bedruckstoff für Versandkartons und Schutzverpackungen. Erhältlich in einwelliger, doppelwelliger und dreiwelliger Ausführung mit zunehmender Festigkeit."@de,
+        "A multi-layer board made by gluing a fluted (corrugated) inner sheet between two flat liners, giving it strength and cushioning at low weight. The dominant substrate for shipping cartons and protective packaging. Available in single-wall, double-wall, and triple-wall constructions for increasing strength."@en,
+        "Cartón ondulado en hoja para producción de packaging cortado y trazado — cajas, expositores y embalaje protectivo."@es,
+        "दो सपाट लाइनरों के बीच एक फ़्लूटेड (लहरदार) भीतरी शीट चिपकाकर बना बहु-परत बोर्ड, जो कम वज़न में मज़बूती और गद्दी देता है। शिपिंग कार्टन और सुरक्षात्मक पैकेजिंग का प्रमुख सब्सट्रेट। बढ़ती मज़बूती के लिए सिंगल-वॉल, डबल-वॉल और ट्रिपल-वॉल में उपलब्ध।"@hi,
+        "波状（コルゲート）の中芯を2枚の平らなライナーの間に貼り合わせた多層板で、軽量ながら強度と緩衝性を備える。輸送用カートンと保護梱包の主要基材。強度を高めるシングルウォール、ダブルウォール、トリプルウォールの構成がある。"@ja,
+        "En flerlags kartong laget ved å lime et bølget (korrugert) midtlag mellom to flate ytterark, som gir styrke og demping ved lav vekt. Det dominerende substratet for forsendelses­kartonger og beskyttende emballasje. Finnes i single-wall, double-wall og triple-wall for økende styrke."@nb,
+        "Een meerlaagse plaat, gemaakt door een gegolfd binnenvel tussen twee vlakke liners te lijmen — sterk en schokdempend bij laag gewicht. Het dominante substraat voor verzenddozen en beschermende verpakkingen. Verkrijgbaar in single-, double- en triplewall."@nl,
+        "Wielowarstwowa tektura powstała przez sklejenie pofalowanego arkusza wewnętrznego między dwiema płaskimi okleinami, co daje wytrzymałość i amortyzację przy niskiej masie. Dominujące podłoże pudeł wysyłkowych i opakowań ochronnych. Dostępna w konstrukcjach jedno-, dwu- i trójwarstwowych o rosnącej wytrzymałości."@pl,
+        "Chapa multicamada feita colando uma folha interna canelada (ondulada) entre dois liners planos, que lhe dá resistência e amortecimento com pouco peso. O substrato dominante para caixas de transporte e embalagens de proteção. Disponível em parede simples, dupla e tripla para resistência crescente."@pt,
+        "En flerskiktsskiva tillverkad genom att ett vågformat (korrugerat) mittskikt limmas mellan två plana ytskikt, vilket ger styrka och stötdämpning vid låg vikt. Det dominerande substratet för fraktkartonger och skyddsemballage. Finns i en-, två- och trevåggskonstruktioner för ökande styrka."@sv,
+        "用于裁切和压痕包装生产的瓦楞纸板 —— 箱子、展示架和保护性包装。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1080066> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§CORRUGATED-SHEET" ;
+    skos:prefLabel "Bølgepap"@da,
+        "Wellpappe"@de,
+        "Corrugated"@en,
+        "Cartón ondulado"@es,
+        "कोरुगेटेड"@hi,
+        "段ボール"@ja,
+        "Bølgepapp"@nb,
+        "Golfkarton"@nl,
+        "Tektura falista"@pl,
+        "Papelão ondulado"@pt,
+        "Wellpapp"@sv,
+        "瓦楞纸板"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

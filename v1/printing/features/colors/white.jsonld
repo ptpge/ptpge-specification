@@ -1,0 +1,125 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/colors/white",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "White",
+    "nb": "Hvit",
+    "de": "Weiß",
+    "ja": "ホワイト",
+    "es": "Blanco",
+    "zh-Hans": "白色",
+    "nl": "Wit",
+    "sv": "Vitt",
+    "da": "Hvid",
+    "pl": "Biel",
+    "pt": "Branco",
+    "hi": "सफ़ेद"
+  },
+  "altLabels": {
+    "en": [
+      "White Ink"
+    ],
+    "nb": [
+      "Hvitt trykk",
+      "Hvit farge"
+    ],
+    "de": [
+      "Weißdruck",
+      "Deckweiß",
+      "Weiße Farbe"
+    ],
+    "nl": [
+      "Wit",
+      "Witdruk",
+      "Dekwit"
+    ],
+    "sv": [
+      "Vitt",
+      "Vittryck",
+      "Täckvitt"
+    ],
+    "da": [
+      "Hvid",
+      "Hvidtryk",
+      "Dækhvid"
+    ],
+    "es": [
+      "Blanco",
+      "Tinta blanca",
+      "Blanco de cobertura"
+    ],
+    "ja": [
+      "ホワイトインキ",
+      "白版",
+      "白引き"
+    ],
+    "zh-Hans": [
+      "白墨",
+      "白色油墨",
+      "打白"
+    ],
+    "pl": [
+      "biała farba",
+      "biały nadruk"
+    ],
+    "pt": [
+      "tinta branca",
+      "branco de base",
+      "white ink"
+    ],
+    "hi": [
+      "सफ़ेद स्याही",
+      "व्हाइट इंक",
+      "व्हाइट अंडरप्रिंट"
+    ]
+  },
+  "definition": {
+    "en": "Single-color printing using only white ink. Used on dark, coloured, or transparent substrates where white provides contrast or graphic effect — often combined with the substrate's own colour as the design.",
+    "nb": "Enfarget trykk med kun hvit blekk. Brukes på mørke, fargede eller transparente substrater hvor hvit gir kontrast eller grafisk effekt — ofte kombinert med substratets egen farge som designet.",
+    "de": "Einfarbiger Druck nur mit weißer Druckfarbe. Wird auf dunklen, farbigen oder transparenten Substraten verwendet, wo Weiß für Kontrast oder grafische Wirkung sorgt.",
+    "ja": "白インキのみの単色印刷。濃色・色付き・透明の基材で、白がコントラストやグラフィック効果を生む場合に使う — 基材の地色をデザインの一部として組み合わせることが多い。",
+    "es": "Impresión monocolor solo con tinta blanca. Usada sobre sustratos oscuros, de color o transparentes donde el blanco aporta contraste o efecto gráfico — a menudo combinada con el color propio del sustrato como diseño.",
+    "zh-Hans": "仅用白色油墨的单色印刷。用于深色、彩色或透明承印材料，白色提供对比或图形效果 — 常与材料本色共同构成设计。",
+    "sv": "Enfärgstryck med enbart vitt bläck. Används på mörka, färgade eller transparenta substrat där vitt ger kontrast eller grafisk effekt — ofta i kombination med substratets egen färg som del av designen.",
+    "da": "Enkeltfarvetryk med kun hvid farve. Bruges på mørke, farvede eller transparente substrater, hvor hvid giver kontrast eller grafisk effekt — ofte kombineret med substratets egen farve som designelement.",
+    "nl": "Eenkleurendruk met alleen witte inkt. Gebruikt op donkere, gekleurde of transparante substraten waar wit contrast of grafisch effect geeft — vaak gecombineerd met de eigen substraatkleur als ontwerpelement.",
+    "pl": "Druk jednokolorowy tylko białą farbą. Stosowany na ciemnych, kolorowych lub przezroczystych podłożach, gdzie biel daje kontrast lub efekt graficzny — często łączony z własnym kolorem podłoża jako elementem projektu.",
+    "pt": "Impressão monocromática usando apenas tinta branca. Usada em substratos escuros, coloridos ou transparentes, onde o branco dá contraste ou efeito gráfico — muitas vezes combinada com a cor do próprio substrato como parte do design.",
+    "hi": "केवल सफ़ेद स्याही से एक-रंग छपाई। गहरे, रंगीन या पारदर्शी सब्सट्रेट पर जहाँ सफ़ेद कंट्रास्ट या ग्राफ़िक प्रभाव देता है — अक्सर सब्सट्रेट के अपने रंग के साथ डिज़ाइन के रूप में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/colors",
+  "properties": {
+    "inkColorants": [
+      "W"
+    ],
+    "colorChannelCount": 1,
+    "colorModel": "subtractive"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§WHITE",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "ColorantControl"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§6.15 · p.168"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 24"
+    }
+  ]
+}

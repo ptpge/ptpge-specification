@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/hybrid-flexo> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Hybrid printing"@en,
+        "हाइब्रिड प्रिंटिंग"@hi,
+        "Hybrid flexo"@nb,
+        "druk hybrydowy"@pl,
+        "fleksografia hybrydowa"@pl,
+        "Impressão híbrida"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid> ;
+    skos:definition "Flexopresse suppleret med en eller flere digitale trykstationer inline — typisk inkjet til variable data, personalisering eller korte farveskift inden for et langt flexooplag. Almindeligt inden for etiket-, emballage- og bølgepapproduktion."@da,
+        "Flexodruckmaschine, ergänzt um eine oder mehrere digitale Inline-Druckstationen — typischerweise Inkjet für variable Daten, Personalisierung oder Kurzfarbwechsel innerhalb einer langen Flexoauflage. Üblich in der Etiketten-, Verpackungs- und Wellpappenproduktion."@de,
+        "Flexographic press augmented with one or more inline digital print stations — typically inkjet for variable data, personalization, or short-run color changes within a long flexo run. Common in label, packaging, and corrugated production."@en,
+        "Prensa flexográfica complementada con una o más estaciones de inyección digital en línea — permite añadir variabilidad o personalización a tiradas largas de packaging."@es,
+        "एक या अधिक इनलाइन डिजिटल प्रिंट स्टेशनों से युक्त फ़्लेक्सोग्राफ़िक प्रेस — आमतौर पर लंबे फ़्लेक्सो रन के भीतर वेरिएबल डेटा, वैयक्तिकरण या शॉर्ट-रन रंग बदलाव के लिए इंकजेट। लेबल, पैकेजिंग और कोरुगेटेड उत्पादन में आम।"@hi,
+        "1つ以上のインラインデジタルプリントステーションを備えたフレキソ印刷機 — 通常、長納期のフレキソ業務内のバリアブルデータ、パーソナライゼーション、短納期色変更にインクジェットを使用する。ラベル、パッケージ、段ボール生産で一般的。"@ja,
+        "Fleksografisk presse utvidet med en eller flere inline digitale trykkstasjoner — vanligvis inkjet for variabel data, personalisering eller korttopplag fargeendringer innenfor et langt flexo-opplag. Vanlig i etikett-, emballasje- og bølgepapp-produksjon."@nb,
+        "Flexopers aangevuld met een of meer digitale drukstations inline — doorgaans inkjet voor variabele data, personalisatie of korte kleurwissels binnen een lange flexo-oplage. Gebruikelijk in etiketten-, verpakkings- en golfkartonproductie."@nl,
+        "Maszyna fleksograficzna uzupełniona jednym lub kilkoma cyfrowymi zespołami drukującymi w linii — zwykle atramentowymi dla danych zmiennych, personalizacji lub krótkoseryjnych zmian koloru w długim nakładzie flekso. Typowa w produkcji etykiet, opakowań i tektury falistej."@pl,
+        "Impressora flexográfica ampliada com uma ou mais estações digitais em linha — normalmente jato de tinta para dados variáveis, personalização ou trocas de cor em tiragem curta dentro de uma tiragem flexo longa. Comum na produção de rótulos, embalagens e papelão ondulado."@pt,
+        "Flexopress kompletterad med en eller flera digitala tryckstationer inline — typiskt inkjet för variabeldata, personalisering eller korta kulörbyten inom en lång flexoupplaga. Vanligt inom etikett-, förpacknings- och wellpapproduktion."@sv,
+        "配有一个或多个联线数码喷墨工位的柔印机 —— 允许在长印次包装中添加可变性或个性化。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§HYBRID-FLEXO" ;
+    skos:prefLabel "Hybridflexo"@da,
+        "Hybrider Flexodruck"@de,
+        "Hybrid Flexo"@en,
+        "Flexografía Híbrida"@es,
+        "हाइब्रिड फ़्लेक्सो"@hi,
+        "ハイブリッドフレキソ"@ja,
+        "Hybrid fleksografi"@nb,
+        "Hybride flexo"@nl,
+        "Flekso hybrydowe"@pl,
+        "Flexo híbrida"@pt,
+        "Hybridflexo"@sv,
+        "混合柔印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-c",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Arch C (18 x 24 in)",
+    "es": "Arch C (457 × 610 mm / 18 × 24 in)",
+    "zh-Hans": "Arch C (457 × 610 mm / 18 × 24 in)",
+    "nb": "Arch C (18 x 24 in)",
+    "de": "Arch C (18 x 24 in)",
+    "ja": "Arch C (18 x 24 in)",
+    "sv": "Arch C (18 x 24 tum)",
+    "da": "Arch C (18 x 24 tum)",
+    "nl": "Arch C (18 x 24 tum)",
+    "pl": "Arch C (18 x 24 in)",
+    "pt": "Arch C (18 x 24 in)",
+    "hi": "Arch C (18 x 24 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ARCH-C",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/arch-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "18 × 24 in (457.2 × 609.6 mm). Twice the area of Arch B. Mid-size architectural drawing format.",
+    "nb": "18 × 24 in (457,2 × 609,6 mm). Dobbelt areal av Arch B. Mellomstor arkitekturtegningsformat.",
+    "de": "18 × 24 in (457,2 × 609,6 mm). Doppelte Fläche von Arch B. Mittleres Format für Architekturzeichnungen.",
+    "ja": "18×24インチ（457.2×609.6mm）。Arch Bの2倍の面積。中サイズの建築図面形式。",
+    "es": "Tamaño arquitectónico Arch C para planos arquitectónicos y de ingeniería norteamericanos, 457 × 610 mm / 18 × 24 in.",
+    "zh-Hans": "建筑尺寸Arch C，用于北美建筑和工程图纸，457 × 610 mm / 18 × 24 in。",
+    "sv": "18 × 24 tum (457.2 × 609.6 mm). Dubbla arean av Arch B. Mellanstort arkitektritningsformat.",
+    "da": "18 × 24 tommer (457.2 × 609.6 mm). Dubbla arealet av Arch B. Mellanstort arkitektritningsformat.",
+    "nl": "18 × 24 inch (457.2 × 609.6 mm). Dubbel het oppervlak van Arch B. Middelgroot formaat voor architectuurtekeningen.",
+    "pl": "18 × 24 cale (457,2 × 609,6 mm). Dwukrotna powierzchnia Arch B. Średni format rysunków architektonicznych.",
+    "pt": "18 × 24 in (457.2 × 609.6 mm). O dobro da área do Arch B. Formato médio de desenho arquitetônico.",
+    "hi": "18 × 24 in (457.2 × 609.6 mm). Arch B का दोगुना क्षेत्रफल। मध्यम आकार का वास्तु चित्र फ़ॉर्मेट।"
+  },
+  "properties": {
+    "width": 18,
+    "height": 24,
+    "unit": "in",
+    "aspectRatio": 1.3333,
+    "standard": "ANSI/ASME Y14.1",
+    "area": 432
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "18 x 24 in",
+      "18x24",
+      "18×24"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

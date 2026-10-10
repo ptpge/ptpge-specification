@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/lithography> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Litho"@en,
+        "Stone lithography"@en,
+        "पत्थर लिथोग्राफ़ी"@hi,
+        "लिथो"@hi,
+        "Litografi"@nb,
+        "lito"@pl,
+        "litografia kamienna"@pl,
+        "Lito"@pt,
+        "Litografia em pedra"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "Plantryksteknik baseret på princippet om, at olie og vand ikke blandes — billedfladen tiltrækker farve, mens ikke-billedfladen tiltrækker vand, begge i samme plan på en plan plade. Oprindelig opfindelse fra 1796; offsetlitografi er dens moderne industrielle form."@da,
+        "Flachdrucktechnologie, basierend auf dem Prinzip, dass sich Öl und Wasser nicht mischen — der Bildbereich nimmt Farbe an, während der bildfreie Bereich Wasser anzieht; beide liegen in derselben Ebene auf einer flachen Platte. Ursprüngliche Erfindung von 1796; der Offsetdruck ist die moderne industrielle Form."@de,
+        "Planographic printing technology based on the principle that oil and water don't mix — the image area attracts ink while the non-image area attracts water, both lying on the same plane on a flat plate. Original invention from 1796; offset lithography is its modern industrial form."@en,
+        "Tecnología planográfica basada en la repulsión entre agua y tinta — base del offset moderno. La superficie de impresión es plana; las zonas de imagen aceptan tinta y rechazan agua, las zonas sin imagen al revés."@es,
+        "इस सिद्धांत पर आधारित प्लैनोग्राफ़िक मुद्रण तकनीक कि तेल और पानी नहीं मिलते — छवि क्षेत्र स्याही खींचता है जबकि गैर-छवि क्षेत्र पानी, दोनों एक समतल प्लेट पर एक ही तल में। 1796 का मूल आविष्कार; ऑफसेट लिथोग्राफ़ी इसका आधुनिक औद्योगिक रूप है।"@hi,
+        "油と水が混ざらない原理に基づく平版印刷技術 — 画像領域がインキを引きつけ、非画像領域が水を引きつけ、両者は平版の同一平面上に存在する。1796年の元来の発明。オフセット平版印刷はその近代的工業形態。"@ja,
+        "Planografisk trykketeknologi basert på prinsippet at olje og vann ikke blandes — bildeområdet tiltrekker blekk mens ikke-bildeområdet tiltrekker vann, begge på samme nivå på en flat plate. Opprinnelig oppfinnelse fra 1796; offsetlitografi er den moderne industrielle formen."@nb,
+        "Vlakdruktechnologie gebaseerd op het principe dat olie en water niet mengen — het beeldvlak trekt inkt aan terwijl het niet-beeldvlak water aantrekt, beide in hetzelfde vlak op een platte plaat. Oorspronkelijke uitvinding uit 1796; offsetlithografie is de moderne industriële vorm."@nl,
+        "Technologia druku płaskiego oparta na zasadzie, że olej i woda się nie mieszają — obszar obrazu przyjmuje farbę, a obszar bez obrazu wodę, oba leżąc na tej samej płaszczyźnie płaskiej formy. Pierwotny wynalazek z 1796 r.; offset jest jej nowoczesną formą przemysłową."@pl,
+        "Tecnologia de impressão planográfica baseada no princípio de que óleo e água não se misturam — a área de imagem atrai tinta enquanto a área sem imagem atrai água, ambas no mesmo plano de uma chapa lisa. Invenção original de 1796; a litografia offset é sua forma industrial moderna."@pt,
+        "Plantrycksteknik baserad på principen att olja och vatten inte blandas — bildytan drar till sig bläck medan icke-bildytan drar till sig vatten, båda i samma plan på en plan plåt. Ursprunglig uppfinning från 1796; offsetlitografi är dess moderna industriella form."@sv,
+        "基于水和油墨相互排斥的平版工艺 —— 现代胶印的基础。印刷表面平坦；图像区域接受油墨并排斥水，非图像区域反之。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§LITHOGRAPHY" ;
+    skos:prefLabel "Litografi"@da,
+        "Lithografie"@de,
+        "Lithography"@en,
+        "Litografía"@es,
+        "लिथोग्राफ़ी"@hi,
+        "リトグラフ"@ja,
+        "Litografi"@nb,
+        "Lithografie"@nl,
+        "Litografia"@pl,
+        "Litografia"@pt,
+        "Litografi"@sv,
+        "平版印刷"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

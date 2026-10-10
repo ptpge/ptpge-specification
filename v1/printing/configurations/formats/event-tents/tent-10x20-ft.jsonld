@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "version": "2026-09-05",
+  "status": "proposed",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "created": "2026-09-05T00:00:00Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/v1/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/v1/contributors/patrik-knutsson"
+  ],
+  "id": "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x20-ft",
+  "notation": "P:CF§TENT-10X20-FT",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Tent 10 × 20 ft",
+    "nb": "Tent 10 × 20 ft",
+    "de": "Tent 10 × 20 ft",
+    "es": "Tent 10 × 20 ft",
+    "ja": "Tent 10 × 20 ft",
+    "zh-Hans": "Tent 10 × 20 ft",
+    "sv": "Tent 10 × 20 ft",
+    "da": "Tent 10 × 20 ft",
+    "nl": "Tent 10 × 20 ft",
+    "pl": "Namiot 10 × 20 ft",
+    "pt": "Tenda 10 × 20 ft",
+    "hi": "टेंट 10 × 20 ft"
+  },
+  "altLabels": {
+    "en": [
+      "10 × 20 ft tent",
+      "10x20 ft",
+      "Pop-up tent 10 × 20 ft"
+    ],
+    "pl": [
+      "namiot ekspresowy 10 × 20 ft"
+    ]
+  },
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/event-tents",
+  "properties": {
+    "width": 120,
+    "height": 240,
+    "unit": "in",
+    "aspectRatio": 2.0,
+    "standard": "convention",
+    "area": 28800
+  },
+  "definition": {
+    "en": "Event tent format 10 × 20 ft: US standard footprint for pop-up and frame event tents. The format is the frame footprint; canopy and wall panels, seams and hems are production geometry derived by the producer.",
+    "nb": "Amerikansk standardmål for pop-up- og rammetelt — 10 × 20 ft. Formatet er rammens fotavtrykk; canopy- og veggpaneler, sømmer og fald er produksjonsgeometri utledet av produsenten.",
+    "de": "US-Standardmaß für Faltpavillons und Rahmenzelte — 10 × 20 ft. Das Format ist die Rahmengrundfläche; Dach- und Wandbahnen, Nähte und Säume sind vom Hersteller abgeleitete Produktionsgeometrie.",
+    "es": "Medida estándar estadounidense para carpas plegables y de armazón — 10 × 20 ft. El formato es la huella de la estructura; paneles de techo y pared, costuras y dobladillos son geometría de producción derivada por el productor.",
+    "ja": "ポップアップ／フレームテントの米国標準サイズ。 — 10 × 20 ft. 判型はフレームの設置面積。天幕・側幕パネル、縫い目、縁は製造者が導出する生産上の寸法。",
+    "zh-Hans": "弹出式与框架帐篷的美国标准尺寸。 — 10 × 20 ft. 规格为框架占地尺寸；顶篷与围布片、缝线与折边为生产者推导的生产几何尺寸。",
+    "sv": "Amerikanskt standardmått för pop-up- och ramtält — 10 × 20 ft. Formatet är ramens fotavtryck; tak- och väggpaneler, sömmar och fållar är produktionsgeometri som producenten härleder.",
+    "da": "Amerikansk standardmål for pop-up- og rammetelte — 10 × 20 ft. Formatet er rammens fodaftryk; tag- og vægpaneler, sømme og kanter er produktionsgeometri udledt af producenten.",
+    "nl": "Amerikaanse standaardmaat voor pop-up- en frametenten — 10 × 20 ft. Het formaat is de voetafdruk van het frame; dak- en wandpanelen, naden en zomen zijn door de producent afgeleide productiegeometrie.",
+    "pl": "Format namiotu eventowego 10 × 20 ft: amerykański standardowy obrys namiotów ekspresowych i ramowych. Format to obrys stelaża; panele dachu i ścian, szwy i obszycia są geometrią produkcyjną wyprowadzaną przez producenta.",
+    "pt": "Formato de tenda para eventos 10 × 20 ft: área padrão americana para tendas sanfonadas e de estrutura. O formato é a área da estrutura; painéis de cobertura e paredes, costuras e bainhas são geometria de produção derivada pelo produtor.",
+    "hi": "इवेंट टेंट फ़ॉर्मेट 10 × 20 ft: पॉप-अप और फ़्रेम टेंट के लिए US मानक फुटप्रिंट। फ़ॉर्मेट फ़्रेम का फुटप्रिंट है; छतरी और दीवार पैनल, सिलाई और किनारे उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति हैं।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/north-america/united-states> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:altLabel "US"@en,
+        "USA"@en,
+        "USA"@pl ;
+    skos:broader <https://ptpge.org/v1/ordering/geography/north-america> ;
+    skos:definition "USA — geografisk facet på landeniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering."@da,
+        "United States (US) — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen."@de,
+        "United States (US) — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping."@en,
+        "United States (US) — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega."@es,
+        "संयुक्त राज्य अमेरिका — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"@hi,
+        "United States (US) — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。"@ja,
+        "United States (US) — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning."@nb,
+        "Verenigde Staten — geografische facet op landniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering."@nl,
+        "Stany Zjednoczone (US) — aspekt geograficzny na poziomie kraju, używany w specyfikacji produktu, dopasowaniu do standardów regionalnych, listach dostawców i zakresie wysyłki/dostawy."@pl,
+        "Estados Unidos — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega."@pt,
+        "USA (US) — geografisk facett på landsnivå som används för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans."@sv,
+        "United States (US)——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:GY§UNITED-STATES" ;
+    skos:prefLabel "USA"@da,
+        "Vereinigte Staaten (USA)"@de,
+        "United States"@en,
+        "Estados Unidos (EE. UU.)"@es,
+        "संयुक्त राज्य अमेरिका"@hi,
+        "アメリカ合衆国（US）"@ja,
+        "USA"@nb,
+        "Verenigde Staten"@nl,
+        "Stany Zjednoczone"@pl,
+        "Estados Unidos"@pt,
+        "USA"@sv,
+        "美利坚合众国（US）"@zh-Hans ;
+    ptpge:elementType "place" ;
+    ptpge:group "geography" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

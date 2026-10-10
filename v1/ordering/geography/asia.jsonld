@@ -1,0 +1,48 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/asia",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "notation": "O:GY-ASI",
+  "label": {
+    "en": "Asia",
+    "nb": "Asia",
+    "de": "Asien",
+    "ja": "アジア",
+    "es": "Asia",
+    "zh-Hans": "亚洲",
+    "sv": "Asien",
+    "da": "Asien",
+    "nl": "Azië",
+    "pl": "Azja",
+    "pt": "Ásia",
+    "hi": "एशिया"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/geography/asia/china",
+    "https://ptpge.org/v1/ordering/geography/asia/india",
+    "https://ptpge.org/v1/ordering/geography/asia/japan"
+  ],
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Asian region grouping. Contains country-level subdivisions under the Asian continent for use as geographic facets in product specification, supplier listing, and shipping/delivery scoping.",
+    "nb": "Asia-regionen som gruppering. Inneholder land-nivå underinndelinger under det asiatiske kontinentet, brukt som geografisk fasett i produkt-spesifikasjon, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Regionale Gruppierung Asien. Enthält länderspezifische Unterteilungen des asiatischen Kontinents zur Verwendung als geografische Facette in der Produktspezifikation, Lieferantenlisten und Versand-/Lieferzonen.",
+    "ja": "アジア地域のグループ。アジア大陸内の国レベルの細分を含み、製品仕様、供給者リスト、配送ゾーンの地理的ファセットとして使用される。",
+    "es": "Agrupación regional de Asia. Contiene subdivisiones a nivel de país dentro del continente asiático, utilizadas como faceta geográfica en la especificación de productos, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "亚洲区域分组。包含亚洲大陆下的国家级细分，作为产品规格、供应商列表和发货/配送范围的地理分面使用。",
+    "sv": "Asiatisk regiongruppering. Innehåller underindelningar på landsnivå under den asiatiska kontinenten, för användning som geografiska facetter i produktspecifikation, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Asien — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Azië — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Grupowanie regionalne dla Azji. Zawiera podziały na poziomie krajów kontynentu azjatyckiego, używane jako aspekty geograficzne w specyfikacji produktu, listach dostawców i zakresie wysyłki/dostawy.",
+    "pt": "Agrupamento regional: Ásia. Contém subdivisões de nível de país sob o continente asiático para uso como facetas geográficas em especificação de produto, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "क्षेत्रीय समूह: एशिया। उत्पाद विनिर्देश, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे में भौगोलिक पहलू के रूप में उपयोग के लिए एशियाई महाद्वीप के अंतर्गत देश-स्तरीय उपविभाग।"
+  }
+}

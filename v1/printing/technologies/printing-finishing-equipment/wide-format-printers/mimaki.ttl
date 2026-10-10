@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/mimaki> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers> ;
+    skos:definition "Mimaki Engineering — japansk producent af storformat-inkjetprintere, vinylskærere og 3D-printere. Stærk inden for skilteproduktion, tekstiltryk og industrielle indstigsanvendelser."@da,
+        "Mimaki Engineering — japanischer Hersteller von Großformat-Inkjet-Druckern, Vinyl-Schneideplottern und 3D-Druckern. Stark im Schilderbau, Textildruck und in industriellen Einsteigeranwendungen."@de,
+        "Mimaki Engineering — Japanese manufacturer of wide-format inkjet printers, vinyl cutters, and 3D printers. Strong in sign-making, textile printing, and entry-level industrial applications."@en,
+        "Mimaki Engineering — fabricante japonés de impresoras de gran formato eco-solvente, UV LED, sublimación y textiles."@es,
+        "Mimaki Engineering — वाइड-फॉर्मेट इंकजेट प्रिंटरों, विनाइल कटरों और 3D प्रिंटरों का जापानी निर्माता। साइन-मेकिंग, टेक्सटाइल प्रिंटिंग और प्रारंभिक औद्योगिक अनुप्रयोगों में मज़बूत।"@hi,
+        "ミマキエンジニアリング — 大判インクジェットプリンター、ビニールカッター、3Dプリンターの日本のメーカー。サイン制作、テキスタイル印刷、エントリーレベル工業用途で強い。"@ja,
+        "Mimaki Engineering — japansk produsent av storformat-inkjet-skrivere, vinylkuttere og 3D-skrivere. Sterk innen skiltproduksjon, tekstiltrykk og entry-level industrielle anvendelser."@nb,
+        "Mimaki Engineering — Japanse fabrikant van grootformaat-inkjetprinters, vinylsnijders en 3D-printers. Sterk in signmaking, textieldruk en industriële instaptoepassingen."@nl,
+        "Mimaki Engineering — japoński producent wielkoformatowych drukarek atramentowych, ploterów tnących do winylu i drukarek 3D. Silny w produkcji reklamy, druku na tekstyliach i podstawowych zastosowaniach przemysłowych."@pl,
+        "Mimaki Engineering — fabricante japonês de impressoras de jato de tinta de grande formato, plotters de recorte de vinil e impressoras 3D. Forte em comunicação visual, impressão têxtil e aplicações industriais de entrada."@pt,
+        "Mimaki Engineering — japansk tillverkare av storformats-inkjetskrivare, vinylskärare och 3D-skrivare. Stark inom skylttillverkning, textiltryck och industriella instegstillämpningar."@sv,
+        "Mimaki Engineering —— 日本大幅面打印机制造商，涵盖环保溶剂、UV LED、热升华和纺织品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-WIDE-MIMA" ;
+    skos:prefLabel "Mimaki"@da,
+        "Mimaki"@de,
+        "Mimaki"@en,
+        "Mimaki"@es,
+        "Mimaki"@hi,
+        "Mimaki"@ja,
+        "Mimaki"@nb,
+        "Mimaki"@nl,
+        "Mimaki"@pl,
+        "Mimaki"@pt,
+        "Mimaki"@sv,
+        "Mimaki"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

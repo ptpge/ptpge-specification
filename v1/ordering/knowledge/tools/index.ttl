@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/knowledge/tools> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/knowledge> ;
+    skos:definition "Interaktive hjælpemidler, der hjælper købere og designere med trykrelaterede beregninger og beslutninger. Eksempler: papirvægt-omregnere, formatberegnere, filstørrelses-estimatorer. Hvert værktøj refererer via skos:related til det lag 1-begreb, det arbejder på."@da,
+        "Interaktive Hilfsprogramme, die Käufern und Designern bei druckbezogenen Berechnungen und Entscheidungen helfen. Beispiele: Papiergewicht-Konverter, Formatrechner, Dateigrößen-Schätzer. Jedes Werkzeug verweist über skos:related auf das Layer-1-Konzept, mit dem es arbeitet."@de,
+        "Interactive utilities that help buyers and designers make print-related calculations and decisions. Examples: paper weight converters, format calculators, file size estimators. Each tool references the Layer 1 concept it operates on via skos:related."@en,
+        "Utilidades interactivas que ayudan a compradores y diseñadores a realizar cálculos y tomar decisiones relacionados con la impresión. Ejemplos: convertidores de gramaje de papel, calculadoras de formato, estimadores de tamaño de archivo. Cada herramienta referencia mediante skos:related el concepto de la Capa 1 sobre el que opera."@es,
+        "इंटरैक्टिव उपयोगिताएँ जो खरीदारों और डिज़ाइनरों को मुद्रण-संबंधी गणनाएँ और निर्णय करने में मदद करती हैं। उदाहरण: काग़ज़-वज़न कन्वर्टर, फ़ॉर्मेट कैलकुलेटर, फ़ाइल-आकार अनुमानक। हर टूल skos:related के ज़रिए उस लेयर 1 संकल्पना को संदर्भित करता है जिस पर वह काम करता है।"@hi,
+        "購入者やデザイナーが印刷関連の計算や意思決定を行うのを支援するインタラクティブなユーティリティ。例：用紙坪量変換ツール、フォーマット計算機、ファイルサイズ推定ツール。各ツールは操作対象のLayer 1概念をskos:relatedで参照する。"@ja,
+        "Interaktive verktøy som hjelper kjøpere og designere med å gjøre trykk-relaterte beregninger og beslutninger. Eksempler: papirvekt-konverterere, format-kalkulatorer, filstørrelse-estimatorer. Hvert verktøy refererer Layer 1-konseptet det opererer på via skos:related."@nb,
+        "Interactieve tools die kopers en ontwerpers helpen bij drukgerelateerde berekeningen en beslissingen. Voorbeelden: papiergewicht-omrekenaars, formaatcalculators, bestandsgrootte-schatters. Elk hulpmiddel verwijst via skos:related naar het laag 1-concept waarop het werkt."@nl,
+        "Interaktywne programy pomagające nabywcom i projektantom w obliczeniach i decyzjach związanych z drukiem. Przykłady: konwertery gramatury papieru, kalkulatory formatów, szacowanie rozmiaru plików. Każde narzędzie odwołuje się poprzez skos:related do pojęcia warstwy 1, na którym operuje."@pl,
+        "Utilitários interativos que ajudam compradores e designers a fazer cálculos e tomar decisões relacionadas à impressão. Exemplos: conversores de gramatura, calculadoras de formato, estimadores de tamanho de arquivo. Cada ferramenta referencia via skos:related o conceito da Camada 1 sobre o qual opera."@pt,
+        "Interaktiva verktyg som hjälper köpare och formgivare att göra tryckrelaterade beräkningar och val. Exempel: pappersviktkonverterare, formatkalkylatorer och filstorleksuppskattare. Varje verktyg refererar det Layer 1-begrepp det arbetar med via skos:related."@sv,
+        "帮助买方和设计师进行印刷相关计算与决策的交互式工具。示例：纸张克重换算器、规格计算器、文件大小估算器。每个工具通过 skos:related 引用其所基于的 Layer 1 概念。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/knowledge/tools/paper-weights> ;
+    skos:notation "O:KN-TLS" ;
+    skos:prefLabel "Værktøjer"@da,
+        "Werkzeuge"@de,
+        "Tools"@en,
+        "Herramientas"@es,
+        "टूल"@hi,
+        "ツール"@ja,
+        "Verktøy"@nb,
+        "Hulpmiddelen"@nl,
+        "Narzędzia"@pl,
+        "Ferramentas"@pt,
+        "Verktyg"@sv,
+        "工具"@zh-Hans ;
+    ptpge:group "knowledge" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

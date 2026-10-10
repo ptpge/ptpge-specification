@@ -1,0 +1,64 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/swissqprint",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "SwissQprint",
+    "es": "SwissQprint",
+    "zh-Hans": "SwissQprint",
+    "nb": "SwissQprint",
+    "de": "SwissQprint",
+    "ja": "SwissQprint",
+    "sv": "swissQprint",
+    "da": "swissQprint",
+    "nl": "swissQprint",
+    "pl": "SwissQprint",
+    "pt": "SwissQprint",
+    "hi": "SwissQprint"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "SwissQprint AG — Swiss manufacturer of premium UV flatbed and roll-to-roll printers known for build quality and color accuracy. Based in Kriessern, Switzerland.",
+    "nb": "SwissQprint AG — sveitsisk produsent av premium UV flatbed- og rull-til-rull-skrivere kjent for byggekvalitet og fargenøyaktighet. Basert i Kriessern, Sveits.",
+    "de": "SwissQprint AG — Schweizer Hersteller hochwertiger UV-Flachbett- und Roll-to-Roll-Drucker, bekannt für Verarbeitungsqualität und Farbgenauigkeit. Sitz in Kriessern, Schweiz.",
+    "ja": "SwissQprint AG — 製造品質と色精度で知られるプレミアムUVフラットベッドおよびロールツーロールプリンターのスイスのメーカー。スイス・クリーサーンに拠点を置く。",
+    "es": "SwissQprint AG — fabricante suizo de impresoras UV planas y roll-to-roll de gama premium, conocido por la calidad de construcción y la precisión cromática. Basado en Kriessern, Suiza.",
+    "zh-Hans": "SwissQprint AG——瑞士高端UV平板和卷对卷打印机制造商，以制造质量和色彩精度著称。总部位于瑞士Kriessern。",
+    "sv": "swissQprint AG — schweizisk tillverkare av UV-flatbädds- och rulle-till-rulle-skrivare i premiumklass, känd för byggkvalitet och färgprecision. Baserad i Kriessern, Schweiz.",
+    "da": "swissQprint AG — schweizisk producent af UV-flatbed- og rulle-til-rulle-printere i premiumklassen, kendt for byggekvalitet og farvepræcision. Baseret i Kriessern, Schweiz.",
+    "nl": "swissQprint AG — Zwitserse fabrikant van premium UV-flatbed- en rol-naar-rolprinters, bekend om bouwkwaliteit en kleurnauwkeurigheid. Gevestigd in Kriessern, Zwitserland.",
+    "pl": "SwissQprint AG — szwajcarski producent płaskich i rolowych drukarek UV klasy premium, znany z jakości wykonania i dokładności barw. Siedziba w Kriessern w Szwajcarii.",
+    "pt": "SwissQprint AG — fabricante suíço de impressoras UV flatbed e rolo a rolo premium, conhecido pela qualidade de construção e precisão de cor. Sediado em Kriessern, Suíça.",
+    "hi": "SwissQprint AG — निर्माण गुणवत्ता और रंग सटीकता के लिए प्रसिद्ध प्रीमियम UV फ़्लैटबेड और रोल-टू-रोल प्रिंटरों का स्विस निर्माता। Kriessern, स्विट्ज़रलैंड में स्थित।"
+  },
+  "scopeNote": {
+    "en": "Product lineup spans entry-level (Oryx), workhorse flatbeds (Nyala, Impala), hybrid flatbed/roll units (Karibu), and premium large-format (Kudu). Each is named after an African animal.",
+    "nb": "Produktlinjen dekker entry-level (Oryx), workhorse flatbed (Nyala, Impala), hybrid flatbed/rull-enheter (Karibu), og premium storformat (Kudu). Hver er oppkalt etter et afrikansk dyr.",
+    "de": "Das Produktportfolio umfasst Einsteigermodelle (Oryx), Workhorse-Flachbettdrucker (Nyala, Impala), Hybrid-Flachbett-/Rollensysteme (Karibu) und Premium-Großformatdrucker (Kudu). Jedes Modell ist nach einem afrikanischen Tier benannt.",
+    "ja": "製品ラインアップはエントリーレベル（Oryx）、ワークホースフラットベッド（Nyala、Impala）、ハイブリッドフラットベッド／ロール機（Karibu）、プレミアム大判機（Kudu）にわたる。各モデルはアフリカの動物の名前を冠する。",
+    "es": "La gama de productos abarca el modelo de entrada (Oryx), las planas de trabajo (Nyala, Impala), las híbridas plana/roll (Karibu) y el gran formato premium (Kudu). Cada una recibe el nombre de un animal africano.",
+    "zh-Hans": "产品线涵盖入门级（Oryx）、主力平板（Nyala、Impala）、混合平板/卷筒（Karibu）和高端大幅面（Kudu）。每个都以非洲动物命名。",
+    "pt": "A linha de produtos vai de entrada (Oryx), flatbeds de trabalho (Nyala, Impala), unidades híbridas flatbed/rolo (Karibu) a grande formato premium (Kudu). Cada uma leva o nome de um animal africano.",
+    "hi": "उत्पाद श्रृंखला प्रारंभिक स्तर (Oryx), वर्कहॉर्स फ़्लैटबेड (Nyala, Impala), हाइब्रिड फ़्लैटबेड/रोल इकाइयों (Karibu) और प्रीमियम लार्ज-फॉर्मेट (Kudu) तक। हर एक का नाम किसी अफ़्रीकी जानवर पर।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-WIDE-SQP",
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/swissqprint",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

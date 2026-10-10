@@ -1,0 +1,78 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/features/color-mode> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Color Printing"@en,
+        "Colour Mode"@en,
+        "Ink Colors"@en,
+        "छपाई के रंग"@hi,
+        "प्रिंट कलर"@hi,
+        "रंग मोड"@hi,
+        "स्याही के रंग"@hi,
+        "Farger"@nb,
+        "Fargetrykk"@nb,
+        "kolory farb"@pl,
+        "kolorystyka druku"@pl,
+        "tryb barw"@pl,
+        "cores de impressão"@pt,
+        "cores de tinta"@pt,
+        "modo de cores"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/features> ;
+    skos:definition "Konfigurerbar akse: Farvetilstand. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne."@da,
+        "Konfigurierbare Achse: Farbmodus. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain."@de,
+        "Configurable axis: Color Mode. A surface is configured with one or more color layers from the referenced valueDomain, in print order — e.g. White + CMYK (white underprint on dark, clear or non-paper substrates), CMYK + Spot, or Black + White. A single layer remains the common case."@en,
+        "Eje configurable: Modo de color. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: कलर मोड। किसी सतह को संदर्भित valueDomain से एक या अधिक रंग परतों के साथ, छपाई के क्रम में, कॉन्फ़िगर किया जाता है — जैसे सफ़ेद + CMYK (गहरे, पारदर्शी या ग़ैर-काग़ज़ सब्सट्रेट पर सफ़ेद अंडरप्रिंट), CMYK + स्पॉट, या काला + सफ़ेद। एक ही परत अब भी सामान्य मामला है।"@hi,
+        "構成可能な軸：カラーモード。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。"@ja,
+        "Konfigurerbar akse: Fargemodus. En flate konfigureres med ett eller flere fargelag fra value-domain, i trykkrekkefølge — f.eks. White + CMYK (hvit undertrykk på mørke, klare eller ikke-papir-substrater), CMYK + Spot, eller Black + White. Ett lag er fortsatt normaltilfellet."@nb,
+        "Configureerbare as: Kleurmodus. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein."@nl,
+        "Oś konfigurowalna: Tryb koloru. Powierzchnia jest konfigurowana jedną lub kilkoma warstwami barwnymi z przywołanej valueDomain, w kolejności druku — np. Biel + CMYK (podkład biały na ciemnych, przezroczystych lub niepapierowych podłożach), CMYK + kolor dodatkowy lub Czerń + Biel. Pojedyncza warstwa pozostaje typowym przypadkiem."@pl,
+        "Eixo configurável: Modo de Cor. Uma face é configurada com uma ou mais camadas de cor do valueDomain referenciado, em ordem de impressão — p. ex. Branco + CMYK (base branca sobre substratos escuros, transparentes ou não papel), CMYK + Cor especial, ou Preto + Branco. Uma única camada continua sendo o caso comum."@pt,
+        "Konfigurerbar axel: Färgläge. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain)."@sv,
+        "可配置轴：色彩模式。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:FT§COLOR-MODE" ;
+    skos:prefLabel "Farvetilstand"@da,
+        "Farbmodus"@de,
+        "Color Mode"@en,
+        "Modo de color"@es,
+        "कलर मोड"@hi,
+        "カラーモード"@ja,
+        "Fargemodus"@nb,
+        "Kleurmodus"@nl,
+        "Tryb koloru"@pl,
+        "Modo de cor"@pt,
+        "Färgläge"@sv,
+        "色彩模式"@zh-Hans ;
+    ptpge:cardinality "multiple" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:exclusiveGroups [ ptpge:groupName "process" ;
+            ptpge:groupRule "at-most-one" ;
+            ptpge:values <https://ptpge.org/v1/printing/features/colors/black>,
+                <https://ptpge.org/v1/printing/features/colors/cmyk>,
+                <https://ptpge.org/v1/printing/features/colors/cmykog>,
+                <https://ptpge.org/v1/printing/features/colors/cmykogv> ] ;
+    ptpge:level "element" ;
+    ptpge:question "Trykt i hvilke farver?"@da,
+        "In welchen Farben gedruckt?"@de,
+        "Printed in which colours?"@en,
+        "¿Impreso en qué colores?"@es,
+        "किन रंगों में छपाई?"@hi,
+        "何色で印刷しますか？"@ja,
+        "Trykt i hvilke farger?"@nb,
+        "In welke kleuren gedrukt?"@nl,
+        "W jakich kolorach drukowany?"@pl,
+        "Impresso em que cores?"@pt,
+        "Tryckt i vilka färger?"@sv,
+        "用什么颜色印刷？"@zh-Hans ;
+    ptpge:scope "surface" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/features/colors> ;
+    ptpge:version "2026-09-20" .
+

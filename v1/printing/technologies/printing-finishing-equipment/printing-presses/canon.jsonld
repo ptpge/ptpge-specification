@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/canon",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Canon",
+    "nb": "Canon",
+    "de": "Canon",
+    "ja": "Canon",
+    "es": "Canon",
+    "zh-Hans": "Canon",
+    "sv": "Canon",
+    "da": "Canon",
+    "nl": "Canon",
+    "pl": "Canon",
+    "pt": "Canon",
+    "hi": "Canon"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Canon — Japanese manufacturer of digital production presses. Its production-print arm was formerly Océ (acquired 2010, renamed Canon Production Printing in 2020); the retired Océ brand lives on as an alias here so legacy references resolve.",
+    "nb": "Canon (og dets produksjonstrykk-datterselskap Océ, kjøpt i 2009) — japansk produsent av digitale produksjonspresser, storformat-skrivere og inkjet web-presser.",
+    "de": "Canon (und seine 2009 übernommene Produktionsdrucksparte Océ) — japanischer Hersteller digitaler Produktionsdruckmaschinen, Großformatdrucker und Inkjet-Rollendruckmaschinen.",
+    "ja": "キヤノン（および2009年に買収した生産印刷子会社のオセ）— デジタル生産印刷機、大判プリンター、インクジェット輪転印刷機を製造する日本のメーカー。",
+    "es": "Canon — fabricante japonés de prensas digitales de producción, principalmente bajo la marca imagePRESS (tóner) y heredando Océ para inyección de tinta industrial.",
+    "zh-Hans": "Canon —— 日本数码生产印刷机制造商，主要在imagePRESS品牌下（碳粉），并继承Océ用于工业喷墨。",
+    "sv": "Canon (och dess produktionstrycksdotterbolag Océ, förvärvat 2009) — japansk tillverkare av digitala produktionspressar, storformatsskrivare och inkjet-rullpressar.",
+    "da": "Canon (og produktionstrykdatterselskabet Océ, opkøbt i 2009) — japansk producent af digitale produktionspresser, storformatprintere og inkjet-rotationspresser.",
+    "nl": "Canon (en productiedrukdochter Océ, overgenomen in 2009) — Japanse fabrikant van digitale productiepersen, grootformaatprinters en inkjetrotatiepersen.",
+    "pl": "Canon — japoński producent cyfrowych maszyn produkcyjnych. Jego dział druku produkcyjnego to dawne Océ (przejęte w 2010 r., przemianowane na Canon Production Printing w 2020 r.); wycofana marka Océ żyje tu jako alias, aby dawne odwołania nadal się rozwiązywały.",
+    "pt": "Canon — fabricante japonês de impressoras digitais de produção. Seu braço de impressão de produção era a Océ (adquirida em 2010, renomeada Canon Production Printing em 2020); a marca Océ, descontinuada, permanece aqui como sinônimo para que referências antigas resolvam.",
+    "hi": "Canon — डिजिटल प्रोडक्शन प्रेस का जापानी निर्माता। इसकी प्रोडक्शन-प्रिंट शाखा पहले Océ थी (2010 में अधिग्रहीत, 2020 में Canon Production Printing नाम); बंद हो चुका Océ ब्रांड यहाँ उपनाम के रूप में रहता है ताकि पुराने संदर्भ हल हों।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-CANO",
+  "altLabels": {
+    "en": [
+      "Océ",
+      "Oce",
+      "Canon Production Printing"
+    ],
+    "pl": [
+      "Océ",
+      "Oce",
+      "Canon Production Printing"
+    ],
+    "pt": [
+      "Océ",
+      "Oce",
+      "Canon Production Printing"
+    ],
+    "hi": [
+      "Océ",
+      "Oce",
+      "Canon Production Printing"
+    ]
+  },
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/canon",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

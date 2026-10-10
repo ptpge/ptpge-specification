@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/roll-materials/textile",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Textile",
+    "es": "Textil (Bobina)",
+    "zh-Hans": "纺织品（卷材）",
+    "nb": "Tekstil",
+    "de": "Textil",
+    "ja": "テキスタイル",
+    "sv": "Textil",
+    "da": "Tekstil",
+    "nl": "Textiel",
+    "pl": "Tekstylia",
+    "pt": "Tecido",
+    "hi": "कपड़ा (टेक्सटाइल)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§TEXTILE",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/roll-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Fabric rolls — natural (cotton, linen, silk) or synthetic (polyester, nylon) — printed via dye-sublimation, screen printing, or direct-to-fabric inkjet. Used for soft signage, banners, apparel, and home textiles.",
+    "nb": "Stoffruller — naturlige (bomull, lin, silke) eller syntetiske (polyester, nylon) — trykt via fargesublimering, silketrykk eller direkte-til-stoff-inkjet. Brukt til myk skilting, bannere, klær og hjemmetekstiler.",
+    "de": "Stoffrollen — natürlich (Baumwolle, Leinen, Seide) oder synthetisch (Polyester, Nylon) — bedruckt mittels Sublimationsdruck, Siebdruck oder Direkt-Tintenstrahl auf Stoff. Verwendet für Soft-Beschilderung, Banner, Bekleidung und Heimtextilien.",
+    "ja": "天然（綿、麻、絹）または合成（ポリエステル、ナイロン）の生地ロール — 昇華転写、シルクスクリーン印刷、または生地への直接インクジェットで印刷される。ソフトサイン、バナー、アパレル、ホームテキスタイルに使用される。",
+    "es": "Textil en bobina — algodón, poliéster, mezcla — para impresión directa o por sublimación en producción de moda y decoración.",
+    "zh-Hans": "卷筒纺织品 —— 棉、聚酯、混纺 —— 通过直接印刷或热升华用于时尚和装饰生产。",
+    "sv": "Tygrullar — naturmaterial (bomull, linne, siden) eller syntet (polyester, nylon) — tryckta via sublimering, screentryck eller direkt-till-textil-inkjet. Används för mjuk skyltning, banderoller, kläder och hemtextil.",
+    "da": "Stofruller — naturlige (bomuld, hør, silke) eller syntetiske (polyester, nylon) — trykt via sublimering, serigrafi eller direkte tekstil-inkjet. Bruges til blød skiltning, bannere, beklædning og boligtekstiler.",
+    "nl": "Stofrollen — natuurlijk (katoen, linnen, zijde) of synthetisch (polyester, nylon) — bedrukt via sublimatie, zeefdruk of directe textiel-inkjet. Gebruikt voor soft signage, banners, kleding en woontextiel.",
+    "pl": "Role tkanin — naturalnych (bawełna, len, jedwab) lub syntetycznych (poliester, nylon) — zadrukowywane sublimacją, sitodrukiem lub bezpośrednio atramentowo. Używane do miękkiego oznakowania, banerów, odzieży i tekstyliów domowych.",
+    "pt": "Rolos de tecido — natural (algodão, linho, seda) ou sintético (poliéster, náilon) — impressos por sublimação, serigrafia ou jato de tinta direto no tecido. Usados em sinalização têxtil, banners, vestuário e têxteis para o lar.",
+    "hi": "कपड़े के रोल — प्राकृतिक (सूती, लिनन, रेशम) या कृत्रिम (पॉलिएस्टर, नायलॉन) — डाई-सब्लिमेशन, स्क्रीन प्रिंटिंग या सीधे कपड़े पर इंकजेट से छपे। सॉफ़्ट साइनेज, बैनर, परिधान और घरेलू वस्त्रों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Fabric",
+      "Cloth"
+    ],
+    "nb": [
+      "Tekstil",
+      "Stoff"
+    ],
+    "pl": [
+      "tkanina",
+      "materiał tekstylny"
+    ],
+    "pt": [
+      "tecido",
+      "pano",
+      "têxtil"
+    ],
+    "hi": [
+      "फ़ैब्रिक",
+      "कपड़ा",
+      "टेक्सटाइल"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 31"
+    }
+  ]
+}

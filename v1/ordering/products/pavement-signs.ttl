@@ -1,0 +1,135 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/pavement-signs> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "A-skilt"@da,
+        "fortovsskilt"@da,
+        "gadeskilt"@da,
+        "klapskilt"@da,
+        "Gehwegaufsteller"@de,
+        "Kundenstopper"@de,
+        "Plakatständer"@de,
+        "A boards"@en,
+        "A-board"@en,
+        "A-boards"@en,
+        "A-frame"@en,
+        "A-frame signs"@en,
+        "Pavement Signs"@en,
+        "Pavement signs"@en,
+        "Sandwich boards"@en,
+        "lawn sign"@en,
+        "pavement sign"@en,
+        "sandwich board"@en,
+        "sidewalk sign"@en,
+        "yard sign"@en,
+        "caballete"@es,
+        "cartel de acera"@es,
+        "cartel de jardín"@es,
+        "cartel de suelo"@es,
+        "pizarra de calle"@es,
+        "señal de césped"@es,
+        "A-फ़्रेम साइन"@hi,
+        "A-बोर्ड"@hi,
+        "फ़ुटपाथ बोर्ड"@hi,
+        "यार्ड साइन"@hi,
+        "लॉन साइन"@hi,
+        "सैंडविच बोर्ड"@hi,
+        "A型看板"@ja,
+        "スタンド看板"@ja,
+        "ヤードサイン"@ja,
+        "店頭看板"@ja,
+        "立て看板"@ja,
+        "A-skilt"@nb,
+        "fortauskilt"@nb,
+        "gateskilt"@nb,
+        "hageskilt"@nb,
+        "A-bord"@nl,
+        "klapbord"@nl,
+        "stoepbord"@nl,
+        "trottoirbord"@nl,
+        "potykacz"@pl,
+        "stojak A"@pl,
+        "tablica chodnikowa"@pl,
+        "tablica na palikach"@pl,
+        "tablica ogrodowa"@pl,
+        "cavalete"@pt,
+        "placa A"@pt,
+        "placa cavalete"@pt,
+        "placa de calçada"@pt,
+        "placa de jardim"@pt,
+        "placa em estaca"@pt,
+        "placa sanduíche"@pt,
+        "A-skylt"@sv,
+        "gatupratare"@sv,
+        "gatupratarskylt"@sv,
+        "trottoarskylt"@sv,
+        "A字展架"@zh-Hans,
+        "庭院标牌"@zh-Hans,
+        "户外立牌"@zh-Hans,
+        "插地牌"@zh-Hans,
+        "路边立牌"@zh-Hans,
+        "门口立牌"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et stift trykt skilt monteret på pæl eller A-skilt til visning i gadeniveau — ejendoms-, event- og fortovsskilte."@da,
+        "Ein starres bedrucktes Schild auf Erdspieß oder A-Ständer."@de,
+        "A rigid printed sign mounted on a stake or A-frame for ground-level display — estate, event and pavement signage."@en,
+        "Un cartel rígido impreso montado en estaca o caballete para exhibición a pie de calle — señalización inmobiliaria, de eventos y de acera."@es,
+        "ज़मीन के स्तर पर प्रदर्शन के लिए खूँटे या A-फ़्रेम पर लगा कठोर मुद्रित साइन — प्रॉपर्टी, इवेंट और फ़ुटपाथ साइनेज।"@hi,
+        "杭やA型フレームに取り付ける地上設置型の硬質看板。不動産・イベント・歩道サインに。"@ja,
+        "Et rigid trykt skilt montert på spyd eller A-stativ for visning på bakkenivå — eiendoms-, arrangements- og fortausskilt."@nb,
+        "Een stijf gedrukt bord op een paal of A-frame voor presentatie op straatniveau — makelaars-, evenement- en stoepborden."@nl,
+        "Sztywna drukowana tablica montowana na palikach lub stojaku typu A do ekspozycji przy ziemi — oznakowanie nieruchomości, wydarzeń i chodników."@pl,
+        "Placa impressa rígida montada em estaca ou cavalete para exposição ao nível do chão — sinalização imobiliária, de eventos e de calçada."@pt,
+        "En styv tryckt skylt monterad på stativ eller A-ställning för exponering i marknivå — fastighets-, evenemangs- och trottoarskyltar."@sv,
+        "安装在插杆或A字架上的硬质印刷标牌——地产、活动和人行道标识。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§PAVEMENT-SIGNS" ;
+    skos:prefLabel "Gadeskilte"@da,
+        "Garten- & Aufstellschilder"@de,
+        "Sidewalk Signs"@en,
+        "Carteles de jardín y caballetes"@es,
+        "फ़ुटपाथ साइन"@hi,
+        "ヤードサイン・A型看板"@ja,
+        "Fortausskilt"@nb,
+        "Stoepborden"@nl,
+        "Potykacze i tablice"@pl,
+        "Placas de calçada"@pt,
+        "Trottoarpratare"@sv,
+        "庭院标牌与A型展架"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-thickness>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a0>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a1>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a2>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/board-materials/acrylic>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/foam>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/plastic> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    ptpge:version "2026-09-28" .
+

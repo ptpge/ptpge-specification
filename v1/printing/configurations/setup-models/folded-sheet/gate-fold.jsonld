@@ -1,0 +1,166 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/gate-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§GATE-FOLD",
+  "elementType": "value",
+  "label": {
+    "en": "Gate-Fold Setup",
+    "nb": "Gate-fold oppsett",
+    "de": "Altarfalz-Setup",
+    "ja": "ゲートフォールド構成",
+    "es": "Configuración de plegado en puerta",
+    "zh-Hans": "对开门折结构",
+    "nl": "Altaarvouw-opzet",
+    "sv": "Portfals",
+    "da": "Portfals",
+    "pl": "Konfiguracja złam okienkowy",
+    "pt": "Montagem dobra janela",
+    "hi": "गेट-फ़ोल्ड सेटअप"
+  },
+  "definition": {
+    "en": "A folded sheet setup where two outer panels (gates) fold inward to meet in the center, producing 6 panels organised into 2 surfaces: Outside (the two gates, plus the visible back-of-gates strip — left, right) and Inside (the center spread plus the inside-faces of the gates — left, middle, right). When closed, the two gates meet at the center; when opened, a wide three-panel inside spread is revealed. Used for premium brochures, art portfolios, invitations, and reveal-style marketing pieces.",
+    "nb": "Et brettet ark-oppsett der to ytre paneler (gates) brettes innover mot midten, som produserer 6 paneler organisert i 2 surfaces: Outside (de to gates — venstre, høyre) og Inside (sentralt oppslag pluss innsiden av gates — venstre, midt, høyre). Når lukket møtes de to gates ved midten; når åpnet, vises et bredt tre-panels innsides-oppslag. Brukes for premium-brosjyrer, kunstporteføljer, invitasjoner, og avsløringsstil-markedsføring.",
+    "de": "Ein Falzbogen-Setup, bei dem zwei äußere Paneele (Flügel) nach innen zur Mitte gefaltet werden und 6 Paneele in 2 Surfaces erzeugen: Außen (die beiden Flügel — links, rechts) und Innen (die zentrale Doppelseite plus die Innenseiten der Flügel — links, Mitte, rechts). Verwendet für Premium-Broschüren, Kunstmappen, Einladungen und Reveal-Marketingstücke.",
+    "ja": "2つの外側パネル（扉）が内側に折られて中央で合わさるセットアップ。6パネルが2面に編成される：Outside（2枚の扉と、扉の裏の見える帯 — 左・右）と Inside（中央見開きと扉の内側の面 — 左・中・右）。閉じると2枚の扉が中央で合わさり、開くと幅広の3パネル見開きが現れる。プレミアムパンフレット、アートポートフォリオ、招待状、リビール型マーケティング資料に使われる。",
+    "es": "Una configuración de hoja plegada donde dos paneles exteriores (puertas) se pliegan hacia dentro hasta encontrarse en el centro, produciendo 6 paneles organizados en 2 superficies: Outside (las dos puertas más la franja visible del dorso de las puertas — izquierda, derecha) e Inside (el despliegue central más las caras interiores de las puertas — izquierda, centro, derecha). Cerrado, las dos puertas se encuentran en el centro; abierto, se revela un amplio despliegue interior de tres paneles. Se usa para folletos premium, portfolios de arte, invitaciones y piezas de marketing de revelación.",
+    "zh-Hans": "两个外侧面板（门扇）向内折叠并在中心相接的折页构成，形成6个面板，分为2个表面：Outside（两扇门及可见的门背条 — 左、右）与 Inside（中央跨页及门扇内面 — 左、中、右）。合拢时两扇门在中心相接；打开时展现宽阔的三联内页。用于高档手册、艺术作品集、请柬与揭示式营销品。",
+    "sv": "En falsat ark-uppbyggnad där två yttre paneler (portar) viks inåt och möts i mitten, vilket ger 6 paneler organiserade i 2 ytor: utsida (de två portarna plus den synliga remsan bakom — vänster, höger) och insida (mittuppslaget plus portarnas insidor — vänster, mitt, höger). Stängda möts portarna i mitten; öppnade avslöjas ett brett trepanelsuppslag. Används för exklusiva broschyrer, konstportfolior, inbjudningar och avslöjande marknadsmaterial.",
+    "da": "En falset ark-opbygning, hvor de to yderpaneler foldes ind mod midten som porte. Familie med åben og lukket variant; panelerne organiseres i 2 flader (yderside og inderside).",
+    "nl": "Een gevouwen-vel-opbouw waarbij de twee buitenpanelen als luiken naar het midden vouwen. Familie met open en gesloten variant; de panelen zijn georganiseerd in 2 vlakken (buiten- en binnenzijde).",
+    "pl": "Konfiguracja arkusza złożonego, w której dwa zewnętrzne skrzydła (bramki) składają się do środka i spotykają w centrum, dając 6 skrzydeł zorganizowanych w 2 powierzchnie: Zewnętrzna (dwie bramki plus widoczny pasek tyłu bramek — lewa, prawa) i Wewnętrzna (środkowa rozkładówka plus wewnętrzne strony bramek — lewa, środek, prawa). Po zamknięciu bramki stykają się na środku; po otwarciu odsłania się szeroka trzyskrzydłowa rozkładówka. Używana do folderów premium, portfolio artystycznych, zaproszeń i materiałów marketingowych z efektem odsłonięcia.",
+    "pt": "Montagem em folha dobrada em que dois painéis externos (portas) dobram para dentro até se encontrarem no centro, produzindo 6 painéis em 2 faces: Exterior (as duas portas mais a faixa visível do verso das portas — esquerda, direita) e Interior (a página central mais as faces internas das portas — esquerda, meio, direita). Fechadas, as portas se encontram no centro; abertas, revelam uma ampla página tripla interna. Usada em folhetos premium, portfólios de arte, convites e peças de marketing com revelação.",
+    "hi": "फ़ोल्डेड शीट सेटअप जिसमें दो बाहरी पैनल (गेट) अंदर मुड़कर बीच में मिलते हैं, जिससे 6 पैनल बनते हैं, 2 सतहों में: बाहरी (दोनों गेट और गेट के पीछे की दिखने वाली पट्टी — बाएँ, दाएँ) और भीतरी (मध्य स्प्रेड और गेटों की भीतरी सतहें — बाएँ, बीच, दाएँ)। बंद होने पर दोनों गेट बीच में मिलते हैं; खुलने पर चौड़ा तीन-पैनल भीतरी स्प्रेड दिखता है। प्रीमियम ब्रोशर, आर्ट पोर्टफ़ोलियो, निमंत्रणों और रिवील-शैली मार्केटिंग में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet",
+  "related": [
+    "https://ptpge.org/v1/printing/completions/folding/gate-fold"
+  ],
+  "surfaces": [
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "nb": "Utside",
+        "de": "Außen"
+      },
+      "panels": [
+        {
+          "id": "outside-left",
+          "label": {
+            "en": "Outside Left",
+            "nb": "Utside venstre",
+            "de": "Außen links"
+          }
+        },
+        {
+          "id": "outside-right",
+          "label": {
+            "en": "Outside Right",
+            "nb": "Utside høyre",
+            "de": "Außen rechts"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "nb": "Innside",
+        "de": "Innen"
+      },
+      "panels": [
+        {
+          "id": "inside-left",
+          "label": {
+            "en": "Inside Left",
+            "nb": "Innside venstre",
+            "de": "Innen links"
+          }
+        },
+        {
+          "id": "inside-middle",
+          "label": {
+            "en": "Inside Middle",
+            "nb": "Innside midt",
+            "de": "Innen Mitte"
+          }
+        },
+        {
+          "id": "inside-right",
+          "label": {
+            "en": "Inside Right",
+            "nb": "Innside høyre",
+            "de": "Innen rechts"
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "FoldCatalog F6-3 (Altar fold)"
+      ],
+      "refs": [
+        "Table 4.28 · p.76–77",
+        "Appendix A · Fold catalog"
+      ],
+      "match": "exact",
+      "via": "FoldCatalog"
+    }
+  ],
+  "altLabels": {
+    "en": [
+      "F6-3",
+      "FoldCatalog F6-3"
+    ],
+    "pl": [
+      "F6-3",
+      "FoldCatalog F6-3"
+    ],
+    "pt": [
+      "F6-3",
+      "FoldCatalog F6-3"
+    ],
+    "hi": [
+      "F6-3",
+      "FoldCatalog F6-3"
+    ]
+  },
+  "panelProportions": [
+    "1/4",
+    "1/2",
+    "1/4"
+  ]
+}

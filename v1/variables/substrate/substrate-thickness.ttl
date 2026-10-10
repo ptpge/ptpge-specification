@@ -1,0 +1,103 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/substrate/substrate-thickness> a skos:Concept ;
+    dcterms:created "2026-08-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Dicke"@de,
+        "Materialdicke"@de,
+        "Plattenstärke"@de,
+        "Board Thickness"@en,
+        "Caliper"@en,
+        "Gauge"@en,
+        "Material Thickness"@en,
+        "Panel Thickness"@en,
+        "Thickness"@en,
+        "micron (µm)"@en,
+        "mil"@en,
+        "point (pt)"@en,
+        "कैलिपर"@hi,
+        "गेज"@hi,
+        "पैनल की मोटाई"@hi,
+        "बोर्ड की मोटाई"@hi,
+        "माइक्रोन"@hi,
+        "मोटाई"@hi,
+        "सामग्री की मोटाई"@hi,
+        "Folietykkelse"@nb,
+        "Materialtykkelse"@nb,
+        "Platetykkelse"@nb,
+        "Tykkelse"@nb,
+        "gauge"@pl,
+        "grubość"@pl,
+        "grubość materiału"@pl,
+        "grubość panelu"@pl,
+        "grubość płyty"@pl,
+        "kaliber"@pl,
+        "mikron (µm)"@pl,
+        "mil"@pl,
+        "punkt (pt)"@pl,
+        "calibre"@pt,
+        "espessura"@pt,
+        "espessura da chapa"@pt,
+        "espessura do material"@pt,
+        "espessura do painel"@pt,
+        "mícron"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/substrate> ;
+    skos:definition "Konfigurerbar akse: Substrattykkelse. Et trykt produkt konfigureres langs denne variabel (numerisk, enkeltvalg, i mm; decimaler tilladt). Kanonisk enhed er millimeter; andre brancheenheder konverterer eksakt — tommer (3/16 in = 4,76 mm), amerikanske caliper-punkter (14 pt = 0,356 mm), mil (1 mil = 0,0254 mm), mikron (75 µm = 0,075 mm) og filmgauge (100 gauge = 1 mil)."@da,
+        "Konfigurierbare Achse: Materialstärke. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (numerisch, Einfachauswahl, in mm; Dezimalstellen erlaubt). Kanonische Einheit ist Millimeter; andere Handelseinheiten konvertieren exakt — Zoll (3/16 in = 4,76 mm), US-Caliper-Punkte (14 pt = 0,356 mm), mil (1 mil = 0,0254 mm), Mikrometer (75 µm = 0,075 mm) und Film-Gauge (100 gauge = 1 mil)."@de,
+        "Configurable axis: Substrate Thickness. A printed product is configured along this variable (numeric, single selection, in mm; decimals allowed). Canonical unit is millimetres; other trade units convert exactly — inches (3/16 in = 4.76 mm), US caliper points (14 pt = 0.014 in = 0.356 mm), mil (1 mil = 0.0254 mm), microns (75 µm = 0.075 mm) and film gauge (100 gauge = 1 mil). Typical values: foam board 3–10 mm, aluminium composite 2–4 mm, acrylic 2–10 mm, plywood 3–18 mm, magnetic foil 0.3–1 mm."@en,
+        "Eje configurable: Grosor del sustrato. Un producto impreso se configura a lo largo de esta variable (numérico, selección única, en mm; se permiten decimales). La unidad canónica es el milímetro; otras unidades del sector convierten exactamente — pulgadas (3/16 in = 4,76 mm), puntos de calibre estadounidenses (14 pt = 0,356 mm), mil (1 mil = 0,0254 mm), micras (75 µm = 0,075 mm) y galga de película (100 gauge = 1 mil)."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट की मोटाई। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (संख्यात्मक, एकल चयन, मिमी में; दशमलव मान्य)। मानक इकाई मिलीमीटर है; बिरादरी की अन्य इकाइयाँ सटीक रूपांतरित होती हैं — इंच (3/16 इंच = 4.76 मिमी), US कैलिपर पॉइंट (14 pt = 0.014 इंच = 0.356 मिमी), मिल (1 मिल = 0.0254 मिमी), माइक्रोन (75 µm = 0.075 मिमी) और फ़िल्म गेज (100 गेज = 1 मिल)। सामान्य मान: फ़ोम बोर्ड 3–10 मिमी, एल्युमिनियम कंपोज़िट 2–4 मिमी, ऐक्रेलिक 2–10 मिमी, प्लाईवुड 3–18 मिमी, चुंबकीय शीट 0.3–1 मिमी।"@hi,
+        "構成可能な軸：基材厚。印刷物はこの変数に沿って構成される（数値、単一選択、mm単位、小数可）。正準単位はミリメートル。他の業界単位は正確に換算される — インチ（3/16 in = 4.76 mm）、米国キャリパーポイント（14 pt = 0.356 mm）、ミル（1 mil = 0.0254 mm）、ミクロン（75 µm = 0.075 mm）、フィルムゲージ（100 gauge = 1 mil）。"@ja,
+        "Konfigurerbar akse: Substrattykkelse. Et trykkprodukt konfigureres langs denne variabelen (numerisk, enkeltvalg, i mm; desimaler tillatt). Kanonisk enhet er millimeter; andre bransjeenheter konverterer eksakt — tommer (3/16 in = 4,76 mm), amerikanske caliper-punkter (14 pt = 0,356 mm), mil (1 mil = 0,0254 mm), mikron (75 µm = 0,075 mm) og film-gauge (100 gauge = 1 mil). Typiske verdier: skumplate 3–10 mm, aluminiumskompositt 2–4 mm, akryl 2–10 mm, kryssfiner 3–18 mm, magnetfolie 0,3–1 mm."@nb,
+        "Configureerbare as: Substraatdikte. Een drukproduct wordt langs deze variabele geconfigureerd (numeriek, enkelvoudig, in mm; decimalen toegestaan). Canonieke eenheid is millimeter; andere handelseenheden converteren exact — inch (3/16 in = 4,76 mm), Amerikaanse caliper-punten (14 pt = 0,356 mm), mil (1 mil = 0,0254 mm), micron (75 µm = 0,075 mm) en filmgauge (100 gauge = 1 mil)."@nl,
+        "Oś konfigurowalna: Grubość podłoża. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (numeryczna, wybór pojedynczy, w mm; dozwolone ułamki dziesiętne). Jednostka kanoniczna to milimetry; inne jednostki branżowe przeliczają się dokładnie — cale (3/16 in = 4,76 mm), amerykańskie punkty grubości (14 pt = 0,014 in = 0,356 mm), mil (1 mil = 0,0254 mm), mikrony (75 µm = 0,075 mm) i gauge folii (100 gauge = 1 mil). Typowe wartości: płyta piankowa 3–10 mm, aluminium kompozytowe 2–4 mm, akryl 2–10 mm, sklejka 3–18 mm, folia magnetyczna 0,3–1 mm."@pl,
+        "Eixo configurável: Espessura do Substrato. Um impresso é configurado ao longo desta variável (numérico, seleção única, em mm; decimais permitidos). A unidade canônica é o milímetro; outras unidades do ofício convertem-se exatamente — polegadas (3/16 in = 4,76 mm), pontos de calibre norte-americanos (14 pt = 0,014 in = 0,356 mm), mil (1 mil = 0,0254 mm), mícrons (75 µm = 0,075 mm) e gauge de filme (100 gauge = 1 mil). Valores típicos: foam board 3–10 mm, ACM 2–4 mm, acrílico 2–10 mm, compensado 3–18 mm, manta magnética 0,3–1 mm."@pt,
+        "Konfigurerbar axel: Substrattjocklek. En trycksak konfigureras längs denna variabel (numerisk, enkelval, i mm; decimaler tillåtna). Kanonisk enhet är millimeter; andra branschenheter konverterar exakt — tum (3/16 in = 4,76 mm), amerikanska caliper-punkter (14 pt = 0,356 mm), mil (1 mil = 0,0254 mm), mikron (75 µm = 0,075 mm) och filmgauge (100 gauge = 1 mil)."@sv,
+        "可配置轴：基材厚度。印刷品沿此变量进行配置（数值，单选，以毫米计；允许小数）。规范单位为毫米；其他行业单位可精确换算——英寸（3/16 in = 4.76 mm）、美制卡尺点（14 pt = 0.356 mm）、密耳（1 mil = 0.0254 mm）、微米（75 µm = 0.075 mm）和薄膜规格（100 gauge = 1 mil）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:SB§SUBSTRATE-THICKNESS" ;
+    skos:prefLabel "Substrattykkelse"@da,
+        "Materialstärke"@de,
+        "Substrate Thickness"@en,
+        "Grosor del sustrato"@es,
+        "सब्सट्रेट की मोटाई"@hi,
+        "基材厚"@ja,
+        "Substrattykkelse"@nb,
+        "Substraatdikte"@nl,
+        "Grubość podłoża"@pl,
+        "Espessura do substrato"@pt,
+        "Substrattjocklek"@sv,
+        "基材厚度"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "numeric" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvor tyk?"@da,
+        "Wie dick?"@de,
+        "How thick?"@en,
+        "¿Qué grosor?"@es,
+        "कितना मोटा?"@hi,
+        "厚さは？"@ja,
+        "Hvor tykk?"@nb,
+        "Hoe dik?"@nl,
+        "Jaka grubość?"@pl,
+        "Que espessura?"@pt,
+        "Hur tjock?"@sv,
+        "多厚？"@zh-Hans ;
+    ptpge:rangeMax 100.0 ;
+    ptpge:rangeMin 0.01 ;
+    ptpge:scope "product" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 34" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:unit "mm" ;
+    ptpge:version "2026-08-22" .
+

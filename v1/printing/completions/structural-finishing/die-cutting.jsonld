@@ -1,0 +1,96 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§DIE-CUTTING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Die Cutting",
+    "nb": "Stansing",
+    "de": "Stanzen",
+    "ja": "Die Cutting",
+    "es": "Die Cutting",
+    "zh-Hans": "Die Cutting",
+    "sv": "Stansning",
+    "da": "Udstansning",
+    "nl": "Stansen",
+    "pl": "Wykrawanie",
+    "pt": "Corte especial (faca)",
+    "hi": "डाई कटिंग"
+  },
+  "definition": {
+    "en": "Cutting the substrate to a custom shape using a steel-rule die.",
+    "nb": "Skjæring av substratet til en egendefinert form med en stålknivform.",
+    "de": "Schneiden des Bedruckstoffs in eine individuelle Form mit einem Stanzwerkzeug.",
+    "ja": "スチールルール刃の抜き型で基材を任意の形に切り抜く。",
+    "es": "Cortar el sustrato con una forma personalizada mediante un troquel de fleje de acero.",
+    "zh-Hans": "使用钢刀模将承印材料切成自定义形状。",
+    "sv": "Skärning av substratet till en anpassad form med ett stålbandsverktyg.",
+    "da": "Skæring af substratet til en specialform med en stanseform af stålbånd.",
+    "nl": "Het substraat op maatwerkvorm snijden met een stansvorm van stalen messen.",
+    "pl": "Cięcie podłoża do indywidualnego kształtu za pomocą wykrojnika z noży stalowych.",
+    "pt": "Cortar o substrato em um formato personalizado com uma faca de corte (matriz de lâminas de aço).",
+    "hi": "स्टील-रूल डाई से सब्सट्रेट को कस्टम आकार में काटना।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Die cut",
+      "Die-cut",
+      "Custom cut",
+      "Shaped cut"
+    ],
+    "nb": [
+      "Stansing",
+      "Stanset"
+    ],
+    "sv": [
+      "Utstansning"
+    ],
+    "pl": [
+      "wykrojnik",
+      "wykrawane",
+      "cięcie na kształt",
+      "sztancowanie"
+    ],
+    "pt": [
+      "corte e vinco",
+      "faca especial",
+      "corte com faca",
+      "recorte especial",
+      "die cut"
+    ],
+    "hi": [
+      "डाई कट",
+      "डाई पंचिंग",
+      "कस्टम कट",
+      "आकार में कटाई"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ShapeCuttingIntent",
+        "ShapeCutting",
+        "DieMaking"
+      ],
+      "refs": [
+        "§4.13 · p.81",
+        "§5.6.27 · p.127",
+        "§5.6.11 · p.117"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 28"
+    }
+  ]
+}

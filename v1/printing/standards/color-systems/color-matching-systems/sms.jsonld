@@ -1,0 +1,114 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/sms",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "SMS",
+    "nb": "SMS-farger",
+    "de": "SMS-Farben",
+    "ja": "SMS（スポットマッチングシステム）",
+    "es": "SMS (Spot Matching System)",
+    "zh-Hans": "SMS 专色匹配系统",
+    "sv": "SMS",
+    "da": "SMS",
+    "nl": "SMS",
+    "pl": "SMS",
+    "pt": "SMS",
+    "hi": "SMS"
+  },
+  "definition": {
+    "en": "SMS (Spot Matching System) — colour matching system from Spot-Nordic, Reykjavík: 420 ISO-certified colours chosen so a brand colour reproduces consistently on screen, in CMYK on coated and uncoated stock, and in broadcast. Aimed at brand-colour fidelity through process printing rather than at specifying a pre-mixed ink as its own separation.",
+    "nb": "SMS (Spot Matching System) — fargematchingsystem fra Spot-Nordic i Reykjavík: 420 ISO-sertifiserte farger valgt slik at en merkevarefarge gjengis likt på skjerm, i CMYK på bestrøket og ubestrøket papir, og i kringkasting. Rettet mot merkevare-presisjon gjennom prosesstrykk, ikke mot å spesifisere et ferdigblandet blekk som egen separasjon.",
+    "de": "SMS-Farbsystem — eine Schablonendruck-Farbbibliothek für Siebdruck und Risograph-Kontexte.",
+    "ja": "SMS カラーシステム — スクリーン印刷やリソグラフの文脈で使われる孔版印刷向けカラーライブラリ。Pantone PMS とは別物だが、小ロットや工房的な印刷の代替としてよく参照される。",
+    "es": "Sistema de color SMS — una biblioteca de colores para impresión con estarcido usada en serigrafía y risografía. Distinto del PMS de Pantone, pero referenciado a menudo como alternativa en contextos de tirada corta e impresión artesanal.",
+    "zh-Hans": "SMS 色彩系统 — 用于丝网印刷与理想孔版（Risograph）场景的孔版印刷色库。不同于 Pantone PMS，但常被引用为短版与手工印刷场景的替代方案。",
+    "sv": "SMS-färgsystem — ett schablontrycksfärgbibliotek använt i screentryck- och risografsammanhang. Skilt från Pantone PMS men ofta refererat som alternativ i småupplage- och hantverkstryck.",
+    "da": "SMS-farvesystem — et stencilfarvebibliotek brugt i serigrafi- og risograf-sammenhænge. Adskilt fra Pantone PMS, men ofte refereret som alternativ i kortserie- og håndværkstryk.",
+    "nl": "SMS-kleursysteem — een sjabloondrukkleurbibliotheek gebruikt in zeefdruk- en risografiecontexten. Onderscheiden van Pantone PMS, maar vaak genoemd als alternatief voor kleine oplagen en ambachtelijk drukwerk.",
+    "pl": "SMS (Spot Matching System) — system wzorcowania barw firmy Spot-Nordic z Reykjavíku: 420 certyfikowanych ISO barw dobranych tak, aby kolor marki reprodukował się spójnie na ekranie, w CMYK na papierze powlekanym i niepowlekanym oraz w telewizji. Nastawiony na wierność kolorów marki w druku procesowym, a nie na specyfikowanie wstępnie zmieszanej farby jako osobnej separacji.",
+    "pt": "SMS (Spot Matching System) — sistema de correspondência de cor da Spot-Nordic, Reykjavík: 420 cores certificadas ISO escolhidas para que uma cor de marca se reproduza de forma consistente em tela, em CMYK sobre papel revestido e não revestido, e em transmissão. Voltado à fidelidade da cor de marca por impressão em processo, e não a especificar uma tinta pré-misturada como separação própria.",
+    "hi": "SMS (Spot Matching System) — Spot-Nordic, रेक्याविक की रंग मिलान प्रणाली: 420 ISO-प्रमाणित रंग, जो ब्रांड रंग को स्क्रीन पर, कोटेड और अनकोटेड स्टॉक पर CMYK में और प्रसारण में एक-समान पुनरुत्पादित करने के लिए चुने गए। पूर्व-मिश्रित स्याही को अलग सेपरेशन के रूप में निर्दिष्ट करने के बजाय प्रोसेस प्रिंटिंग से ब्रांड-रंग निष्ठा पर लक्षित।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+  "created": "2026-05-19T23:30:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§SMS",
+  "elementType": "reference",
+  "altLabels": {
+    "en": [
+      "Spot Matching System",
+      "SMS Colours",
+      "Spot-Nordic SMS"
+    ],
+    "nb": [
+      "Spot Matching System"
+    ],
+    "sv": [
+      "Spot Matching System"
+    ],
+    "da": [
+      "Spot Matching System"
+    ],
+    "de": [
+      "Spot Matching System"
+    ],
+    "nl": [
+      "Spot Matching System"
+    ],
+    "es": [
+      "Spot Matching System"
+    ],
+    "ja": [
+      "スポットマッチングシステム"
+    ],
+    "zh-Hans": [
+      "专色匹配系统"
+    ],
+    "pl": [
+      "Spot Matching System",
+      "kolory SMS",
+      "Spot-Nordic SMS"
+    ],
+    "pt": [
+      "Spot Matching System",
+      "SMS Colours",
+      "Spot-Nordic SMS"
+    ],
+    "hi": [
+      "Spot Matching System",
+      "SMS Colours",
+      "Spot-Nordic SMS"
+    ]
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "properties": {
+    "systemRole": "process-brand-system"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

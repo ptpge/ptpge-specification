@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/apple-keynotes> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".key"@en,
+        "Keynote"@en,
+        ".key"@hi,
+        "Keynote"@hi,
+        ".key"@pl,
+        "Keynote"@pl,
+        ".key"@pt,
+        "Keynote"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple> ;
+    skos:definition "Programeget præsentationsformat (.key) for Apple Keynote, brugt til diasbaserede præsentationer på macOS og iOS."@da,
+        "Anwendungseigenes Präsentationsformat (.key) von Apple Keynote, verwendet für folienbasierte Präsentationen unter macOS und iOS."@de,
+        "Native presentation file format (.key) for Apple Keynote, used for slide-based presentations on macOS and iOS."@en,
+        "Formato nativo de Apple Keynote para presentaciones. Poco común en flujos de imprenta; se exporta a PDF para producción."@es,
+        "Apple Keynote का नेटिव प्रस्तुति फ़ाइल फ़ॉर्मेट (.key), macOS और iOS पर स्लाइड-आधारित प्रस्तुतियों के लिए।"@hi,
+        "Apple Keynoteのネイティブプレゼンテーションファイル形式（.key）。macOSおよびiOS上でスライドベースのプレゼンテーションに使用される。"@ja,
+        "Programspesifikt presentasjonsformat (.key) for Apple Keynote, brukt for lysbildebaserte presentasjoner på macOS og iOS."@nb,
+        "Programma-eigen presentatieformaat (.key) voor Apple Keynote, gebruikt voor diapresentaties op macOS en iOS."@nl,
+        "Natywny format prezentacji (.key) programu Apple Keynote, używany do prezentacji slajdowych na macOS i iOS."@pl,
+        "Formato de arquivo nativo de apresentação (.key) do Apple Keynote, usado para apresentações em slides no macOS e iOS."@pt,
+        "Programeget presentationsformat (.key) för Apple Keynote, använt för bildbaserade presentationer på macOS och iOS."@sv,
+        "Apple Keynote用于演示的原生格式。在印刷工作流程中不常见；导出为PDF以供生产。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§APPLE-KEYNOTES" ;
+    skos:prefLabel "Apple Keynote (.key)"@da,
+        "Apple Keynotes (.key)"@de,
+        "Apple Keynotes (.key)"@en,
+        "Apple Keynote (.key)"@es,
+        "Apple Keynote (.key)"@hi,
+        "Apple Keynotes (.key)"@ja,
+        "Apple Keynotes (.key)"@nb,
+        "Apple Keynote (.key)"@nl,
+        "Apple Keynotes (.key)"@pl,
+        "Apple Keynote (.key)"@pt,
+        "Apple Keynote (.key)"@sv,
+        "Apple Keynote (.key)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

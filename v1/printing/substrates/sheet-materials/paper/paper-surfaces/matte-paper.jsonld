@@ -1,0 +1,103 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Matte Paper",
+    "es": "Papel Mate",
+    "zh-Hans": "哑光纸",
+    "nb": "Matt papir",
+    "de": "Mattes Papier",
+    "ja": "マット紙（コートまたは非コート）",
+    "nl": "Mat papier",
+    "sv": "Matt papper",
+    "da": "Mat papir",
+    "pl": "Papier matowy",
+    "pt": "Papel fosco",
+    "hi": "मैट काग़ज़"
+  },
+  "altLabels": {
+    "en": [
+      "Matt Paper",
+      "Matte Paper (Coated or uncoated)"
+    ],
+    "nb": [
+      "Matt bestrøket",
+      "Matt papir (bestrøket eller ubestrøket)"
+    ],
+    "nl": [
+      "Mat machinegestreken (MC)",
+      "Maco mat",
+      "Mat papier (gestreken of ongestreken)"
+    ],
+    "de": [
+      "Mattes Papier (gestrichen oder ungestrichen)"
+    ],
+    "sv": [
+      "Matt papper (bestruket eller obestruket)"
+    ],
+    "da": [
+      "Mat papir (bestrøget eller ubestrøget)"
+    ],
+    "pl": [
+      "papier mat",
+      "papier matowy (powlekany lub niepowlekany)",
+      "kreda matowa"
+    ],
+    "pt": [
+      "couché fosco",
+      "papel mate",
+      "papel fosco (couché ou offset)"
+    ],
+    "hi": [
+      "मैट पेपर",
+      "मैट आर्ट पेपर",
+      "बिना चमक का काग़ज़"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§MATTE-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper with a non-reflective dull finish — coated or uncoated. Reduces glare and is easier on the eye for extended reading. Used for books, manuals, and editorial publications.",
+    "nb": "Papir med en ikke-reflekterende matt overflate — belagt eller ubelagt. Reduserer gjenskinn og er mer behagelig å lese over lengre tid. Brukt til bøker, manualer og redaksjonelle publikasjoner.",
+    "de": "Papier mit nicht reflektierender, matter Oberfläche — gestrichen oder ungestrichen. Reduziert Blendung und ist für längeres Lesen angenehmer für die Augen. Eingesetzt für Bücher, Handbücher und redaktionelle Publikationen.",
+    "ja": "反射のない無光沢仕上げの紙 — 塗工または非塗工。グレアを抑え、長時間の読書でも目に優しい。書籍、マニュアル、エディトリアル出版物に使用される。",
+    "es": "Papel mate (estucado o sin estucar) — sin reflejos, ofrece lectura cómoda. Habitual en libros de arte, editorial y novelas.",
+    "zh-Hans": "哑光纸（涂布或未涂布）—— 无反光，提供舒适阅读。常见于艺术书、编辑出版物和小说。",
+    "sv": "Papper med reflexfri matt finish — bestruket eller obestruket. Minskar bländning och är skonsammare för ögat vid längre läsning. Används för böcker, manualer och redaktionella publikationer.",
+    "da": "Papir med ikke-reflekterende mat finish — bestrøget eller ubestrøget. Reducerer genskin og er mere behageligt for øjet ved længere læsning. Bruges til bøger, manualer og redaktionelle udgivelser.",
+    "nl": "Papier met een niet-reflecterende matte afwerking — gestreken of ongestreken. Vermindert schittering en leest prettiger bij langdurig lezen. Gebruikt voor boeken, handleidingen en redactionele publicaties.",
+    "pl": "Papier o nieodbijającym, przytłumionym wykończeniu — powlekany lub niepowlekany. Redukuje odblaski i mniej męczy wzrok przy dłuższym czytaniu. Używany do książek, instrukcji i publikacji redakcyjnych.",
+    "pt": "Papel com acabamento opaco, não reflexivo — revestido ou não. Reduz o reflexo e cansa menos os olhos em leituras longas. Usado em livros, manuais e publicações editoriais.",
+    "hi": "बिना परावर्तन की फीकी फ़िनिश वाला काग़ज़ — कोटेड या अनकोटेड। चमक कम करता है और लंबे पढ़ने में आँखों पर हल्का। किताबों, मैनुअल और संपादकीय प्रकाशनों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

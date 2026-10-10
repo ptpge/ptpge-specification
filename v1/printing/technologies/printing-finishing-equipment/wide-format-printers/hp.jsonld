@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/hp",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "HP",
+    "nb": "HP",
+    "de": "HP",
+    "ja": "HP",
+    "es": "HP",
+    "zh-Hans": "HP",
+    "sv": "HP",
+    "da": "HP",
+    "nl": "HP",
+    "pl": "HP",
+    "pt": "HP",
+    "hi": "HP"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Hewlett-Packard (HP) — wide-format printer line including Latex (water-based for indoor/outdoor signage), DesignJet (technical and graphic arts), and PageWide XL (large-format technical printing).",
+    "nb": "Hewlett-Packard (HP) — storformat-skriverlinje inkludert Latex (vannbasert for innendørs/utendørs skilting), DesignJet (teknisk og grafisk kunst) og PageWide XL (storformat teknisk trykk).",
+    "de": "Hewlett-Packard (HP) — Großformatdrucker-Linie einschließlich Latex (wasserbasiert für Innen- und Außenbeschilderung), DesignJet (Technik und Grafikkunst) und PageWide XL (technischer Großformatdruck).",
+    "ja": "ヒューレット・パッカード（HP）— Latex（屋内外サイン用の水性）、DesignJet（技術およびグラフィックアーツ）、PageWide XL（大判技術印刷）を含む大判プリンターライン。",
+    "es": "HP — fabricante de impresoras de gran formato bajo las marcas DesignJet (CAD, fotografía) y Latex (signage eco-solvente con tinta látex acuosa).",
+    "zh-Hans": "HP —— 在DesignJet（CAD、摄影）和Latex（带水基乳胶油墨的环保溶剂标识）品牌下制造大幅面打印机。",
+    "sv": "Hewlett-Packard (HP) — storformatslinje som omfattar Latex (vattenbaserad för inomhus-/utomhusskyltning), DesignJet (teknisk och grafisk) och PageWide XL (tekniskt tryck i storformat).",
+    "da": "Hewlett-Packard (HP) — storformatlinje, der omfatter Latex (vandbaseret til indendørs/udendørs skiltning), DesignJet (teknisk og grafisk) og PageWide XL (teknisk tryk i storformat).",
+    "nl": "Hewlett-Packard (HP) — grootformaatlijn met Latex (waterbasis voor binnen-/buitensignalisatie), DesignJet (technisch en grafisch) en PageWide XL (technisch drukwerk in groot formaat).",
+    "pl": "Hewlett-Packard (HP) — linia drukarek wielkoformatowych obejmująca Latex (wodne atramenty do oznakowania wewnętrznego/zewnętrznego), DesignJet (techniczne i sztuki graficzne) oraz PageWide XL (wielkoformatowy druk techniczny).",
+    "pt": "Hewlett-Packard (HP) — linha de impressoras de grande formato que inclui Latex (à base de água para sinalização interna/externa), DesignJet (técnica e artes gráficas) e PageWide XL (impressão técnica de grande formato).",
+    "hi": "Hewlett-Packard (HP) — वाइड-फॉर्मेट प्रिंटर श्रृंखला जिसमें Latex (इनडोर/आउटडोर साइनेज के लिए जल-आधारित), DesignJet (तकनीकी और ग्राफ़िक आर्ट्स) और PageWide XL (लार्ज-फॉर्मेट तकनीकी छपाई) शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-WIDE-HPWF",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/varnish/matte-varnish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:FT§MATTE-VARNISH",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Matte Varnish",
+    "nb": "Matt lakk",
+    "de": "Matter Lack",
+    "ja": "Matte Varnish",
+    "es": "Matte Varnish",
+    "zh-Hans": "Matte Varnish",
+    "sv": "Matt lack",
+    "da": "Mat lak",
+    "nl": "Matlak",
+    "pl": "Lakier matowy",
+    "pt": "Verniz fosco",
+    "hi": "मैट वार्निश"
+  },
+  "definition": {
+    "en": "A varnish that produces a low-sheen, non-reflective finish.",
+    "nb": "Lakk som gir et matt, ikke-reflekterende uttrykk.",
+    "de": "Lack, der eine matte, nicht reflektierende Oberfläche erzeugt.",
+    "ja": "低光沢で反射しない仕上げになるニス。",
+    "es": "Un barniz que produce un acabado de bajo brillo, sin reflejos.",
+    "zh-Hans": "产生低光泽无反射效果的上光油。",
+    "sv": "En lack som ger en lågglansig, reflexfri finish.",
+    "da": "En lak, der giver en dæmpet, ikke-reflekterende finish.",
+    "nl": "Een lak die een gedempte, niet-reflecterende afwerking geeft.",
+    "pl": "Lakier dający wykończenie o niskim połysku, nieodbijające.",
+    "pt": "Verniz que produz um acabamento de baixo brilho, não reflexivo.",
+    "hi": "कम चमक, बिना परावर्तन वाली फ़िनिश देने वाला वार्निश।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/varnish",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Matt varnish",
+      "Dull varnish"
+    ],
+    "nb": [
+      "Matt lakk"
+    ],
+    "pl": [
+      "lakier mat",
+      "lakier matowany"
+    ],
+    "pt": [
+      "verniz mate",
+      "verniz opaco"
+    ],
+    "hi": [
+      "मैट वार्निश",
+      "डल वार्निश",
+      "बिना चमक का वार्निश"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/finishing/structural-finishing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Structural Finishing",
+    "nb": "Strukturell etterbehandling",
+    "de": "Strukturelle Verarbeitung",
+    "es": "Acabado estructural",
+    "ja": "構造加工",
+    "zh-Hans": "结构加工",
+    "sv": "Strukturell efterbehandling",
+    "da": "Strukturel efterbehandling",
+    "nl": "Structurele afwerking",
+    "pl": "Wykończenie strukturalne",
+    "pt": "Acabamento estrutural",
+    "hi": "संरचनात्मक फ़िनिशिंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/finishing",
+  "created": "2026-06-17T10:05:31Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "VAR:FN§STRUCTURAL-FINISHING",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "variable",
+  "datatype": "enum",
+  "cardinality": "multiple",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "definition": {
+    "en": "Configurable axis: Structural Finishing. Cutting/shaping operations (die-cut, kiss-cut, laser-cut, perforation, routing, scoring), multi-select. Values from printing/completions/structural-finishing.",
+    "nb": "Konfigurerbar akse: Strukturell etterbehandling. Skjære-/formingsoperasjoner (stansing, kiss-cut, laserskjæring, perforering, fresing, bigging), flervalg. Verdier fra printing/completions/structural-finishing.",
+    "de": "Konfigurierbare Achse: Strukturelle Verarbeitung. Schneid-/Formoperationen (Stanzen, Kiss-Cut, Laserschnitt, Perforation, Fräsen, Rillen), Mehrfachauswahl. Werte aus printing/completions/structural-finishing.",
+    "es": "Eje configurable: Acabado estructural. Operaciones de corte y conformado (troquelado, kiss-cut, corte láser, perforado, fresado, hendido), selección múltiple. Valores de printing/completions/structural-finishing.",
+    "ja": "構成可能な軸：構造加工。切断・成形加工（型抜き、キスカット、レーザーカット、ミシン目、ルーター加工、スジ入れ）、複数選択。値は printing/completions/structural-finishing から。",
+    "zh-Hans": "可配置轴：结构加工。切割/成形工艺（模切、半切、激光切割、打孔线、铣切、压痕），多选。取值来自 printing/completions/structural-finishing。",
+    "sv": "Konfigurerbar axel: Strukturell efterbehandling. Skär-/formningsoperationer (stansning, kiss-cut, laserskärning, perforering, fräsning, bigning), flerval. Värden från printing/completions/structural-finishing.",
+    "da": "Konfigurerbar akse: Strukturel efterbehandling. Skære-/formningsoperationer (udstansning, kiss-cut, laserskæring, perforering, fræsning, rilning), flervalg. Værdier fra printing/completions/structural-finishing.",
+    "nl": "Configureerbare as: Structurele afwerking. Snij-/vormbewerkingen (stansen, kiss-cut, lasersnijden, perforeren, frezen, rillen), meerkeuze. Waarden uit printing/completions/structural-finishing.",
+    "pl": "Oś konfigurowalna: Wykończenie strukturalne. Operacje cięcia/kształtowania (wykrawanie, kiss-cut, cięcie laserowe, perforacja, frezowanie, bigowanie), wybór wielokrotny. Wartości z printing/completions/structural-finishing.",
+    "pt": "Eixo configurável: Acabamento Estrutural. Operações de corte/conformação (corte especial, meio-corte, corte a laser, picote, fresagem, vinco), seleção múltipla. Valores de printing/completions/structural-finishing.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: संरचनात्मक फ़िनिशिंग। कटाई/आकार देने की क्रियाएँ (डाई-कट, किस-कट, लेज़र-कट, परफ़ोरेशन, राउटिंग, स्कोरिंग), बहु-चयन। मान printing/completions/structural-finishing से।"
+  },
+  "question": {
+    "en": "Any structural finishing?",
+    "nb": "Noen strukturell etterbehandling?",
+    "de": "Eine strukturelle Weiterverarbeitung?",
+    "es": "¿Algún acabado estructural?",
+    "ja": "構造的な加工はありますか？",
+    "zh-Hans": "需要结构加工吗？",
+    "sv": "Någon strukturell efterbehandling?",
+    "da": "Nogen strukturel efterbehandling?",
+    "nl": "Een structurele nabewerking?",
+    "pl": "Jakaś obróbka strukturalna?",
+    "pt": "Algum acabamento estrutural?",
+    "hi": "कोई संरचनात्मक फ़िनिशिंग?"
+  },
+  "altLabels": {
+    "pt": [
+      "corte e vinco",
+      "faca especial",
+      "picote e vinco"
+    ],
+    "hi": [
+      "डाई-कटिंग और क्रीज़िंग",
+      "कटिंग फ़िनिशिंग",
+      "पंचिंग और परफ़ोरेशन"
+    ]
+  }
+}

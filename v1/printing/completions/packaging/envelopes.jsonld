@@ -1,0 +1,71 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/envelopes",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Mailing Envelopes",
+    "es": "Sobres de envío",
+    "zh-Hans": "邮寄信封",
+    "nb": "Forsendelseskonvolutter",
+    "de": "Versandumschläge",
+    "ja": "配送用封筒",
+    "sv": "Försändelsekuvert",
+    "da": "Forsendelseskuverter",
+    "nl": "Verzendenveloppen",
+    "pl": "Koperty wysyłkowe",
+    "pt": "Envelopes de envio",
+    "hi": "डाक लिफ़ाफ़े"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§ENVELOPES",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper or polyethylene envelopes used to ship individual printed products or small bundles — sized to match the contents. Standard ISO 269 envelopes are common; padded mailers add cushioning for fragile items.",
+    "nb": "Konvolutter av papir eller polyetylen brukt til å sende individuelle trykte produkter eller små bunter — dimensjonert til å passe innholdet. Standard ISO 269-konvolutter er vanlige; polstrede mailers gir polstring for skjøre gjenstander.",
+    "de": "Briefumschläge aus Papier oder Polyethylen, die zum Versand einzelner Druckerzeugnisse oder kleiner Bündel verwendet werden — auf den Inhalt zugeschnitten. Standard-Umschläge nach ISO 269 sind verbreitet; gepolsterte Versandtaschen bieten zusätzlichen Schutz für empfindliche Artikel.",
+    "ja": "個別の印刷物または小束を発送するための紙またはポリエチレンの封筒 — 内容物に合わせたサイズ。標準ISO 269封筒が一般的。クッション付きメーラーは壊れやすい商品に緩衝材を追加する。",
+    "es": "Sobres protectores para envío individual de tarjetas, folletos y documentos planos.",
+    "zh-Hans": "用于单独发送卡片、宣传册和平面文件的保护性信封。",
+    "sv": "Kuvert av papper eller polyeten som används för att skicka enskilda trycksaker eller små buntar — dimensionerade efter innehållet. ISO 269-standardkuvert är vanliga; vadderade påsar ger stötskydd för ömtåliga produkter.",
+    "da": "Papir- eller polyethylenkuverter til forsendelse af enkelte tryksager eller små bundter — dimensioneret efter indholdet. Standard ISO 269-kuverter er almindelige; polstrede kuverter beskytter skrøbeligt indhold.",
+    "nl": "Papieren of polyethyleen enveloppen voor verzending van losse drukwerken of kleine bundels — bemeten naar de inhoud. Standaard ISO 269-enveloppen zijn gebruikelijk; luchtkussenenveloppen beschermen breekbare inhoud.",
+    "pl": "Koperty papierowe lub polietylenowe używane do wysyłki pojedynczych produktów drukowanych lub małych paczek — dobrane rozmiarem do zawartości. Powszechne są standardowe koperty ISO 269; koperty bąbelkowe dodają amortyzację dla delikatnych przedmiotów.",
+    "pt": "Envelopes de papel ou polietileno usados para enviar impressos individuais ou pequenos pacotes — dimensionados conforme o conteúdo. Envelopes padrão ISO 269 são comuns; envelopes almofadados acrescentam proteção a itens frágeis.",
+    "hi": "अलग-अलग मुद्रित उत्पाद या छोटे बंडल भेजने के लिए काग़ज़ या पॉलीथीन के लिफ़ाफ़े — सामग्री के अनुसार आकार। मानक ISO 269 लिफ़ाफ़े आम हैं; पैडेड मेलर नाज़ुक वस्तुओं के लिए गद्दी देते हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {},
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

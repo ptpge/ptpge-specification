@@ -1,0 +1,54 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/kodak-prinergy",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Kodak Prinergy",
+    "es": "Kodak Prinergy",
+    "zh-Hans": "Kodak Prinergy",
+    "nb": "Kodak Prinergy",
+    "de": "Kodak Prinergy",
+    "ja": "Kodak Prinergy",
+    "sv": "Kodak Prinergy",
+    "da": "Kodak Prinergy",
+    "nl": "Kodak Prinergy",
+    "pl": "Kodak Prinergy",
+    "pt": "Kodak Prinergy",
+    "hi": "Kodak Prinergy"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§KODAK-PRINERGY",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Kodak Prinergy — prepress workflow automation system covering normalization, preflight, color management, trapping, imposition, and RIP. Established platform with deep color-management and proofing capabilities.",
+    "nb": "Kodak Prinergy — prepress workflow-automasjonssystem som dekker normalisering, preflight, fargestyring, trapping, impositioning og RIP. Etablert plattform med dype fargestyrings- og proofing-evner.",
+    "de": "Kodak Prinergy — Druckvorstufen-Workflow-Automatisierungssystem für Normalisierung, Preflight, Farbmanagement, Trapping, Ausschießen und RIP. Etablierte Plattform mit ausgeprägten Farbmanagement- und Proofing-Funktionen.",
+    "ja": "Kodak Prinergy — 正規化、プリフライト、カラーマネジメント、トラッピング、面付け、RIPをカバーする製版ワークフロー自動化システム。深いカラーマネジメントおよび校正機能を備えた定評のあるプラットフォーム。",
+    "es": "Flujo pre-prensa y de gestión de color de Kodak — abarca preflight, imposición, RIP y entrega a plancha o digital con perfilado avanzado.",
+    "zh-Hans": "Kodak的印前和色彩管理工作流程——涵盖飞检、拼版、RIP以及向印版或数码的交付，具有先进的特征化。",
+    "sv": "Kodak Prinergy — automationssystem för prepressarbetsflöden som täcker normalisering, preflight, färghantering, trapping, utskjutning och RIP. Etablerad plattform med djup färghanterings- och provtryckskapacitet.",
+    "da": "Kodak Prinergy — prepress-workflow-automatiseringssystem, der dækker normalisering, preflight, farvestyring, trapping, udskydning og RIP. Etableret platform med dyb farvestyring.",
+    "nl": "Kodak Prinergy — prepressworkflowautomatiseringssysteem voor normalisatie, preflight, kleurbeheer, trapping, impositie en RIP. Gevestigd platform met diepgaand kleurbeheer.",
+    "pl": "Kodak Prinergy — system automatyzacji workflow prepress obejmujący normalizację, preflight, zarządzanie barwą, trapping, impozycję i RIP. Ugruntowana platforma o rozbudowanych możliwościach zarządzania barwą i proofingu.",
+    "pt": "Kodak Prinergy — sistema de automação de fluxo de pré-impressão que cobre normalização, preflight, gerenciamento de cor, trapping, imposição e RIP. Plataforma consolidada com profundas capacidades de gerenciamento de cor e provas.",
+    "hi": "Kodak Prinergy — प्रीप्रेस वर्कफ़्लो स्वचालन सिस्टम जो नॉर्मलाइज़ेशन, प्रीफ़्लाइट, रंग प्रबंधन, ट्रैपिंग, इम्पोज़िशन और RIP को ढकता है। गहरी रंग-प्रबंधन और प्रूफ़िंग क्षमताओं वाला स्थापित प्लेटफ़ॉर्म।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/sewn-binding",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§SEWN-BINDING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "label": {
+    "en": "Sewn Binding",
+    "nb": "Trådbinding",
+    "de": "Fadenheftung",
+    "ja": "Sewn Binding",
+    "es": "Sewn Binding",
+    "zh-Hans": "Sewn Binding",
+    "sv": "Trådbindning",
+    "da": "Trådhæftning",
+    "nl": "Genaaid binden",
+    "pl": "Oprawa szyta",
+    "pt": "Costura",
+    "hi": "सिलाई बाइंडिंग (सेक्शन स्यून)"
+  },
+  "definition": {
+    "en": "Sheets sewn together with thread through the spine; durable, used for high-quality books.",
+    "nb": "Ark sydd sammen med tråd gjennom ryggen; holdbart, brukt for bøker av høy kvalitet.",
+    "de": "Mit Faden durch den Rücken vernähte Bogen; langlebig, für hochwertige Bücher.",
+    "ja": "背に糸を通して綴じる。丈夫で、高品質な書籍に使われる。",
+    "es": "Hojas cosidas con hilo a través del lomo; duradera, usada en libros de alta calidad.",
+    "zh-Hans": "用线沿书脊将书帖缝合；耐用，用于高品质书籍。",
+    "sv": "Ark sydda samman med tråd genom ryggen; hållbart, används för böcker av hög kvalitet.",
+    "da": "Ark syet sammen med tråd gennem ryggen; holdbart, brugt til bøger af høj kvalitet.",
+    "nl": "Vellen met draad door de rug aan elkaar genaaid; duurzaam, gebruikt voor hoogwaardige boeken.",
+    "pl": "Arkusze zszyte nicią przez grzbiet; trwała, stosowana w książkach wysokiej jakości.",
+    "pt": "Folhas costuradas com linha pela lombada; durável, usada em livros de alta qualidade.",
+    "hi": "स्पाइन से धागे से सिली हुई शीटें; टिकाऊ, उच्च गुणवत्ता की किताबों में प्रयुक्त।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Thread sewn",
+      "Section sewn",
+      "Smyth sewn"
+    ],
+    "nb": [
+      "Trådbinding",
+      "Trådsying"
+    ],
+    "pl": [
+      "szycie nićmi",
+      "szycie składek"
+    ],
+    "pt": [
+      "encadernação costurada",
+      "costurado",
+      "costura de cadernos",
+      "costura Smyth"
+    ],
+    "hi": [
+      "धागा सिलाई",
+      "सेक्शन स्यून",
+      "स्मिथ स्यून",
+      "सिली हुई जिल्द"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "ThreadSewing",
+        "CaseMaking",
+        "CasingIn"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.35 · p.133",
+        "§5.6.5 · p.115",
+        "§5.6.6 · p.115"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 42"
+    }
+  ]
+}

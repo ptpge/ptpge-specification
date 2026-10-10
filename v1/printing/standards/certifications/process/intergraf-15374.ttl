@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/process/intergraf-15374> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "ISO 14298 Intergraf"@en,
+        "Intergraf"@en,
+        "ISO 14298 Intergraf"@hi,
+        "Intergraf"@hi,
+        "ISO 14298 Intergraf"@pl,
+        "Intergraf"@pl,
+        "ISO 14298 Intergraf"@pt,
+        "Intergraf"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/process> ;
+    skos:definition "Intergraf-udviklet standard for prepress-dataudveksling i den europæiske grafiske industri, der definerer metadata- og pakkekonventioner for levering af trykklare filer."@da,
+        "Von Intergraf entwickelter Standard für den Druckvorstufen-Datenaustausch in der europäischen Grafikbranche, definiert Metadaten- und Übergabekonventionen für die Lieferung druckfertiger Dateien."@de,
+        "Intergraf-developed standard for prepress data exchange in the European graphic-arts industry, defining metadata and packaging conventions for delivering print-ready files."@en,
+        "Norma desarrollada por Intergraf para el intercambio de datos pre-prensa en la industria gráfica europea, que define convenciones de metadatos y empaquetado para entregar archivos listos para imprenta."@es,
+        "यूरोपीय ग्राफ़िक-आर्ट्स उद्योग में प्रीप्रेस डेटा विनिमय के लिए Intergraf द्वारा विकसित मानक, जो प्रिंट-रेडी फ़ाइलों की डिलीवरी के मेटाडेटा और पैकेजिंग परंपराएँ परिभाषित करता है।"@hi,
+        "Intergrafが策定した、欧州グラフィックアーツ業界における製版データ交換のための規格。印刷可能データの納品に関するメタデータおよびパッケージ規約を定義する。"@ja,
+        "Intergraf-utviklet standard for preprint-datautveksling i den europeiske grafiske bransjen, som definerer metadata- og pakkekonvensjoner for levering av trykkferdige filer."@nb,
+        "Door Intergraf ontwikkelde standaard voor prepressdata-uitwisseling in de Europese grafische industrie, met metadata- en verpakkingsconventies voor de levering van drukklare bestanden."@nl,
+        "Opracowany przez Intergraf standard wymiany danych prepress w europejskim przemyśle poligraficznym, definiujący konwencje metadanych i pakowania przy dostarczaniu plików gotowych do druku."@pl,
+        "Norma desenvolvida pela Intergraf para troca de dados de pré-impressão na indústria gráfica europeia, definindo convenções de metadados e empacotamento para a entrega de arquivos prontos para impressão."@pt,
+        "Intergraf-utvecklad standard för prepressdatautbyte i den europeiska grafiska industrin, definierar metadata- och paketeringskonventioner för leverans av tryckfärdiga filer."@sv,
+        "Intergraf制定的欧洲图艺行业印前数据交换标准，定义印刷就绪文件的元数据和打包约定。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§INTERGRAF-15374" ;
+    skos:prefLabel "Intergraf 15374"@da,
+        "Intergraf 15374"@de,
+        "Intergraf 15374"@en,
+        "Intergraf 15374"@es,
+        "Intergraf 15374"@hi,
+        "Intergraf 15374"@ja,
+        "Intergraf 15374"@nb,
+        "Intergraf 15374"@nl,
+        "Intergraf 15374"@pl,
+        "Intergraf 15374"@pt,
+        "Intergraf 15374"@sv,
+        "Intergraf 15374"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

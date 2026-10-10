@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§FLAT-SHEET",
+  "elementType": "value",
+  "label": {
+    "en": "Flat Sheet Setup",
+    "nb": "Flatt ark oppsett",
+    "de": "Flachbogen-Setup",
+    "ja": "フラットシート構成",
+    "es": "Configuración de hoja plana",
+    "zh-Hans": "平张结构",
+    "nl": "Vlak-vel-opzet",
+    "sv": "Plant ark",
+    "da": "Fladt ark",
+    "pl": "Konfiguracja arkusz płaski",
+    "pt": "Montagem em folha plana",
+    "hi": "फ़्लैट शीट सेटअप"
+  },
+  "altLabels": {
+    "en": [
+      "Unfolded Sheet"
+    ],
+    "nb": [
+      "Ubrettet ark",
+      "Flatt ark"
+    ],
+    "pl": [
+      "arkusz niezłożony"
+    ],
+    "pt": [
+      "folha sem dobra",
+      "folha simples",
+      "folha plana"
+    ],
+    "hi": [
+      "बिना मुड़ी शीट",
+      "सपाट शीट",
+      "सिंगल शीट"
+    ]
+  },
+  "definition": {
+    "en": "A printed product consisting of a single physical sheet with two surfaces — Front and Back — each corresponding to one side of the substrate. The simplest setup topology. Each surface is independently configurable with its own Print Layer Stack (Color Layer → Embellishment → Surface Finish). Used for business cards, postcards, flyers, single-sheet posters, and loose-leaf inserts.",
+    "nb": "Et trykkprodukt som består av ett enkelt fysisk ark med to surfaces — Front og Back — som hver svarer til én side av substratet. Den enkleste oppsetts-topologien. Hver surface konfigureres uavhengig med sin egen trykklags-stack (Color Layer → Embellishment → Surface Finish). Brukes for visittkort, postkort, flyere, enkeltsides-plakater og løse innstikk.",
+    "de": "Ein Druckprodukt, das aus einem einzelnen physischen Bogen mit zwei Surfaces besteht — Front und Back — die jeweils einer Seite des Substrats entsprechen. Die einfachste Setup-Topologie. Jede Surface ist unabhängig konfigurierbar mit eigenem Druckschichten-Stack (Color Layer → Embellishment → Surface Finish).",
+    "ja": "1枚の物理的な用紙からなる印刷物で、基材の各面に対応する2つの面 — Front と Back — を持つ。最も単純なセットアップ・トポロジー。各面は独自の Print Layer Stack（カラーレイヤー → 加飾 → 表面加工）で独立に構成できる。名刺、ポストカード、チラシ、1枚もののポスター、差し込み用紙に使われる。",
+    "es": "Un producto impreso que consiste en una única hoja física con dos superficies — Front y Back — cada una correspondiente a un lado del sustrato. La topología de configuración más simple. Cada superficie es configurable de forma independiente con su propio Print Layer Stack (Capa de color → Ornamentación → Acabado superficial). Se usa para tarjetas de visita, postales, flyers, pósteres de una hoja e insertos sueltos.",
+    "zh-Hans": "由单张物理纸张构成的印刷品，具有两个表面 — Front 与 Back — 分别对应承印材料的两面。最简单的构成拓扑。每个表面可用自己的 Print Layer Stack（色彩层 → 装饰工艺 → 表面处理）独立配置。用于名片、明信片、传单、单张海报与散页插页。",
+    "sv": "En trycksak bestående av ett enda fysiskt ark med två ytor — framsida och baksida — som var och en motsvarar en sida av substratet. Den enklaste uppbyggnadstopologin. Varje yta konfigureras oberoende med sin egen tryckskiktstack (färgskikt → dekor → ytbehandling). Används för visitkort, vykort, flygblad, enarksaffischer och lösblad.",
+    "da": "En tryksag bestående af ét fysisk ark med to flader — forside og bagside — som hver svarer til én side af substratet. Den enkleste opbygningstopologi. Hver flade konfigureres uafhængigt med sin egen trykklagstak (farvelag → dekor → overfladebehandling).",
+    "nl": "Drukwerk bestaande uit één fysiek vel met twee vlakken — voorzijde en achterzijde — die elk overeenkomen met één zijde van het substraat. De eenvoudigste opbouwtopologie. Elk vlak wordt onafhankelijk geconfigureerd met zijn eigen druklaagstapel (kleurlaag → veredeling → oppervlakteafwerking).",
+    "pl": "Produkt drukowany składający się z jednego fizycznego arkusza o dwóch powierzchniach — Awers i Rewers — z których każda odpowiada jednej stronie podłoża. Najprostsza topologia konfiguracji. Każda powierzchnia jest konfigurowana niezależnie z własnym stosem warstw druku (warstwa barwna → uszlachetnienie → wykończenie powierzchni). Używana do wizytówek, pocztówek, ulotek, plakatów jednoarkuszowych i luźnych wkładek.",
+    "pt": "Impresso formado por uma única folha física com duas faces — Frente e Verso — cada uma correspondendo a um lado do substrato. A topologia de montagem mais simples. Cada face é configurável de forma independente com sua própria pilha de camadas de impressão (Camada de cor → Enobrecimento → Acabamento de superfície). Usada em cartões de visita, postais, flyers, pôsteres de folha única e encartes avulsos.",
+    "hi": "दो सतहों — आगे और पीछे — वाली एक ही भौतिक शीट का मुद्रित उत्पाद, हर सतह सब्सट्रेट के एक पक्ष से मेल खाती है। सबसे सरल सेटअप बनावट। हर सतह अपनी प्रिंट लेयर स्टैक (रंग परत → एम्बेलिशमेंट → सतह फ़िनिश) के साथ स्वतंत्र रूप से कॉन्फ़िगर होती है। विज़िटिंग कार्ड, पोस्टकार्ड, फ़्लायर, एक-शीट पोस्टरों और खुले इन्सर्ट में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models",
+  "surfaces": [
+    {
+      "id": "front",
+      "label": {
+        "en": "Front",
+        "nb": "Forside",
+        "de": "Vorderseite"
+      }
+    },
+    {
+      "id": "back",
+      "label": {
+        "en": "Back",
+        "nb": "Bakside",
+        "de": "Rückseite"
+      }
+    }
+  ],
+  "created": "2026-05-19T13:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

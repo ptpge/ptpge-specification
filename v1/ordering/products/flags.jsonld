@@ -1,0 +1,205 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/flags",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§FLAGS",
+  "elementType": "product",
+  "label": {
+    "en": "Flags",
+    "nb": "Flagg",
+    "de": "Flaggen",
+    "ja": "フラッグ",
+    "es": "Banderas",
+    "zh-Hans": "旗帜",
+    "nl": "Vlaggen",
+    "sv": "Flaggor",
+    "da": "Flag",
+    "pl": "Flagi",
+    "pt": "Bandeiras",
+    "hi": "झंडे"
+  },
+  "altLabels": {
+    "en": [
+      "Beach Flags",
+      "Banner Flags",
+      "feather flag",
+      "beach flag",
+      "teardrop flag",
+      "bunting"
+    ],
+    "nb": [
+      "Beachflagg",
+      "Strandflagg",
+      "flagg",
+      "beachflagg",
+      "vimpel",
+      "fane"
+    ],
+    "de": [
+      "Fahnen",
+      "Beachflags",
+      "Werbefahnen",
+      "Hissflaggen"
+    ],
+    "es": [
+      "Banderolas",
+      "Banderas publicitarias",
+      "bandera",
+      "bandera publicitaria",
+      "fly banner",
+      "bandera de playa",
+      "bandera pluma",
+      "bandera gota",
+      "banderines"
+    ],
+    "ja": [
+      "のぼり",
+      "のぼり旗",
+      "たれ幕",
+      "ビーチフラッグ",
+      "フェザーフラッグ",
+      "ティアドロップフラッグ",
+      "旗"
+    ],
+    "sv": [
+      "Beachflaggor",
+      "Reklamflaggor",
+      "flagga",
+      "beachflagga",
+      "fjäderflagga",
+      "droppflagga",
+      "vimpel",
+      "vimplar"
+    ],
+    "pl": [
+      "flaga plażowa",
+      "flaga reklamowa",
+      "winder",
+      "flaga feather",
+      "girlanda flagowa"
+    ],
+    "da": [
+      "beachflag",
+      "beachflags",
+      "fjerflag",
+      "dråbeflag",
+      "vimpel",
+      "vimpler",
+      "reklameflag"
+    ],
+    "nl": [
+      "vlag",
+      "beachvlag",
+      "beachvlaggen",
+      "veervlag",
+      "druppelvlag",
+      "vlaggenlijn",
+      "reclamevlag"
+    ],
+    "pt": [
+      "bandeira",
+      "wind banner",
+      "bandeira pena",
+      "bandeira gota",
+      "bandeirola",
+      "bandeira de praia",
+      "bandeira personalizada"
+    ],
+    "hi": [
+      "झंडा",
+      "फ़्लैग",
+      "फ़ेदर फ़्लैग",
+      "बीच फ़्लैग",
+      "टियरड्रॉप फ़्लैग",
+      "बंटिंग",
+      "झंडियाँ"
+    ],
+    "zh-Hans": [
+      "沙滩旗",
+      "羽毛旗",
+      "水滴旗",
+      "刀旗",
+      "彩旗",
+      "广告旗"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printed textile flag for indoor or outdoor display — feather, teardrop, bunting and custom flags on poles or strings.",
+    "nb": "Et trykt tekstilflagg for inne- eller utebruk — fjær-, dråpe-, vimpel- og spesialflagg på stang eller snor.",
+    "de": "Eine bedruckte Textilfahne für drinnen oder draußen — Feder-, Tropfen-, Wimpel- und Sonderfahnen.",
+    "ja": "屋内外の掲示に使う印刷テキスタイルフラッグ。フェザー型、ティアドロップ型、連旗（バンティング）、ポールやロープ掛けのカスタム旗。",
+    "es": "Una bandera textil impresa para exhibición interior o exterior — banderas de pluma, de gota, banderines y banderas personalizadas en mástiles o cuerdas.",
+    "zh-Hans": "室内外展示用印刷织物旗帜——羽毛旗、水滴旗、串旗及杆挂/绳挂定制旗。",
+    "sv": "En tryckt textilflagga för inom- eller utomhusbruk — beachflaggor, droppflaggor, vimplar och specialflaggor på stänger eller linor.",
+    "da": "Et trykt tekstilflag til indendørs eller udendørs brug — beachflag, dråbeflag, vimpelkæder og specialflag på stænger eller snore.",
+    "nl": "Een gedrukte textielvlag voor binnen of buiten — beachflags, druppelvlaggen, vlaggenlijnen en maatwerkvlaggen aan masten of koorden.",
+    "pl": "Drukowana flaga tekstylna do ekspozycji wewnątrz lub na zewnątrz — flagi typu feather, teardrop, girlandy i flagi na zamówienie na masztach lub linkach.",
+    "pt": "Bandeira têxtil impressa para exposição interna ou externa — wind banner (pena e gota), bandeirolas e bandeiras personalizadas em mastro ou cordão.",
+    "hi": "इनडोर या आउटडोर प्रदर्शन के लिए मुद्रित कपड़े का झंडा — फ़ेदर, टियरड्रॉप, बंटिंग और खंभे या डोरी पर लगने वाले कस्टम झंडे।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/display-system"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/freeform"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/textile"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 300,
+    "max": 6000,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type"
+  ]
+}

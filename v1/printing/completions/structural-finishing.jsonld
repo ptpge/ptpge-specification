@@ -1,0 +1,52 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP-MFN",
+  "level": "category",
+  "label": {
+    "en": "Structural Finishing",
+    "nb": "Strukturell etterbehandling",
+    "de": "Strukturelle Weiterverarbeitung",
+    "ja": "Structural Finishing",
+    "es": "Structural Finishing",
+    "zh-Hans": "Structural Finishing",
+    "sv": "Strukturell efterbehandling",
+    "da": "Strukturel efterbehandling",
+    "nl": "Structurele afwerking",
+    "pl": "Obróbka konstrukcyjna",
+    "pt": "Acabamento estrutural",
+    "hi": "संरचनात्मक फ़िनिशिंग"
+  },
+  "definition": {
+    "en": "Finishing operations that cut, crease or shape the substrate itself — die-cutting, laser-cutting, kiss-cutting, scoring, perforation and routing.",
+    "nb": "Etterbehandling som skjærer, riller eller former selve substratet — stansing, laserskjæring, kiss-cutting, rilling, perforering og fresing.",
+    "de": "Weiterverarbeitung, die den Bedruckstoff selbst schneidet, rillt oder formt — Stanzen, Laserschneiden, Kiss-Cutting, Rillen, Perforation und Fräsen.",
+    "ja": "基材そのものを切断・スジ入れ・成形する後加工 — 型抜き、レーザーカット、キスカット、スジ入れ、ミシン目、ルーター加工。",
+    "es": "Operaciones de acabado que cortan, hienden o dan forma al propio sustrato — troquelado, corte láser, kiss-cut, hendido, perforado y fresado.",
+    "zh-Hans": "对承印材料本身进行切割、压痕或成形的印后工序 — 模切、激光切割、半切、压痕、打孔线与铣切。",
+    "sv": "Efterbehandlingsoperationer som skär, bigar eller formar själva substratet — stansning, laserskärning, kiss-cutting, bigning, perforering och fräsning.",
+    "da": "Efterbehandlingsoperationer, der skærer, riller eller former selve substratet — udstansning, laserskæring, kiss-cutting, rilning, perforering og fræsning.",
+    "nl": "Afwerkingsbewerkingen die het substraat zelf snijden, rillen of vormen — stansen, lasersnijden, kiss-cutting, rillen, perforeren en frezen.",
+    "pl": "Operacje wykończeniowe, które tną, bigują lub kształtują samo podłoże — wykrawanie, cięcie laserowe, nacinanie warstwy wierzchniej, bigowanie, perforacja i frezowanie.",
+    "pt": "Operações de acabamento que cortam, vincam ou dão forma ao próprio substrato — corte especial, corte a laser, meio-corte, vinco, picote e fresagem.",
+    "hi": "वे फ़िनिशिंग क्रियाएँ जो सब्सट्रेट को ही काटती, क्रीज़ करती या आकार देती हैं — डाई-कटिंग, लेज़र-कटिंग, किस-कटिंग, स्कोरिंग, परफ़ोरेशन और राउटिंग।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions",
+  "narrower": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/scoring",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/perforation",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/routing",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting"
+  ],
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Mid-Weight Paper"@en,
+        "मध्यम वज़न का काग़ज़"@hi,
+        "मिड-वेट पेपर"@hi,
+        "Litt tykt papir"@nb,
+        "Mellomtykt papir"@nb,
+        "papier o średniej gramaturze"@pl,
+        "papel de gramatura média"@pt,
+        "papel médio"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:definition "Papir i området 150–179 g/m² — brugt til kvalitetsflyers, magasinomslag og brochurer, hvor stivhed ønskes, men falsning stadig kræves."@da,
+        "Papier im Bereich 150–179 g/m² — eingesetzt für Qualitätsflyer, Magazintitelseiten und Broschüren, bei denen Steifigkeit erwünscht, Falzen aber dennoch erforderlich ist."@de,
+        "Paper in the 150–179 gsm range — used for quality flyers, magazine covers, and brochures where stiffness is desired but folding is still required."@en,
+        "Papel de gramaje medio, 120–179 gsm — utilizado para folletos premium, catálogos y publicaciones de calidad."@es,
+        "150–179 GSM रेंज का काग़ज़ — अच्छे फ़्लायर, पत्रिका कवर और ऐसे ब्रोशर में जहाँ कड़ापन चाहिए पर मोड़ना भी ज़रूरी है।"@hi,
+        "150〜179gsmの坪量範囲の紙 — 上質チラシ、雑誌の表紙、剛性が望まれるが折りも必要なブローシュアに使用される。"@ja,
+        "Papir i området 150–179 gsm — brukt til kvalitets-flyers, magasinforsider og brosjyrer der stivhet er ønsket, men folding fortsatt kreves."@nb,
+        "Papier in het bereik 150–179 g/m² — gebruikt voor kwaliteitsflyers, magazineomslagen en brochures waar stijfheid gewenst is maar vouwen nog vereist is."@nl,
+        "Papier w zakresie 150–179 g/m² — używany do ulotek dobrej jakości, okładek czasopism i broszur, gdzie pożądana jest sztywność, lecz wciąż wymagane jest składanie."@pl,
+        "Papel na faixa de 150–179 g/m² — usado em flyers de qualidade, capas de revista e folhetos onde se quer rigidez mas ainda é preciso dobrar."@pt,
+        "Papper i intervallet 150–179 g/m² — används för kvalitetsflygblad, tidskriftsomslag och broschyrer där styvhet önskas men falsning fortfarande krävs."@sv,
+        "中等克重纸，120–179克 —— 用于优质宣传册、目录和出版物。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§MEDIUM-PAPER" ;
+    skos:prefLabel "Mellempapir (150–179 g/m²)"@da,
+        "Mittleres Papier (150–179 g/m²)"@de,
+        "Medium Paper (150–179 gsm)"@en,
+        "Papel Medio (150–179 gsm)"@es,
+        "मीडियम काग़ज़ (150–179 GSM)"@hi,
+        "中量紙（150〜179 gsm）"@ja,
+        "Medium-papir (150–179 g/m²)"@nb,
+        "Medium papier (150–179 g/m²)"@nl,
+        "Papier średni (150–179 g/m²)"@pl,
+        "Papel médio (150–179 g/m²)"@pt,
+        "Mellanpapper (150–179 g/m²)"@sv,
+        "中等纸 (150–179克)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:hasProperty [ ptpge:unit "gsm" ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

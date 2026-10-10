@@ -1,0 +1,64 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/shape",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Shape",
+    "de": "Form",
+    "es": "Forma",
+    "ja": "形状",
+    "zh-Hans": "形状",
+    "sv": "Form",
+    "da": "Form",
+    "nl": "Vorm",
+    "pl": "Kształt",
+    "pt": "Forma",
+    "hi": "आकृति"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations",
+  "created": "2026-06-19T10:33:11Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:CF-SHP",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/shape/ellipse",
+    "https://ptpge.org/v1/printing/configurations/shape/freeform",
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/circle",
+    "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle"
+  ],
+  "definition": {
+    "en": "The outline form of a printed product — rectangle, circle, ellipse, rounded rectangle, or a custom contour. A separate axis from orientation; selected via the Shape variable.",
+    "nb": "Omrissformen til et trykkprodukt — rektangel, sirkel, ellipse, avrundet rektangel eller en egendefinert kontur. En egen akse fra orientering; velges via Shape-variabelen.",
+    "de": "Die Umrissform eines Druckprodukts — Rechteck, Kreis, Ellipse, abgerundetes Rechteck oder eine individuelle Kontur. Eine von der Ausrichtung getrennte Achse; gewählt über die Variable Shape.",
+    "es": "La forma del contorno de un producto impreso — rectángulo, círculo, elipse, rectángulo redondeado o un contorno personalizado. Un eje separado de la orientación; se selecciona mediante la variable Shape.",
+    "ja": "印刷物の輪郭形状 — 長方形、円形、楕円、角丸長方形、または任意の輪郭。向きとは別の軸で、Shape 変数で選択される。",
+    "zh-Hans": "印刷品的轮廓形状 — 矩形、圆形、椭圆、圆角矩形或自定义轮廓。与方向相互独立的轴，通过 Shape 变量选择。",
+    "sv": "En trycksaks konturform — rektangel, cirkel, ellips, rektangel med rundade hörn eller en anpassad kontur. En egen axel skild från orientering; väljs via variabeln Form.",
+    "da": "En tryksags konturform — rektangel, cirkel, ellipse, rektangel med runde hjørner eller en specialkontur. En selvstændig akse adskilt fra orientering; vælges via variablen Form.",
+    "nl": "De contourvorm van drukwerk — rechthoek, cirkel, ellips, rechthoek met ronde hoeken of een maatwerkcontour. Een eigen as, gescheiden van oriëntatie; gekozen via de variabele Vorm.",
+    "pl": "Forma obrysu produktu drukowanego — prostokąt, koło, elipsa, prostokąt z zaokrąglonymi rogami lub kontur niestandardowy. Oś odrębna od orientacji; wybierana przez zmienną Kształt.",
+    "pt": "O contorno de um impresso — retângulo, círculo, elipse, retângulo arredondado ou contorno personalizado. Eixo separado da orientação; selecionado pela variável Forma.",
+    "hi": "मुद्रित उत्पाद की रूपरेखा — आयत, वृत्त, दीर्घवृत्त, गोल कोनों वाला आयत या कस्टम कंटूर। ओरिएंटेशन से अलग अक्ष; आकृति वेरिएबल से चुना जाता है।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ShapeCuttingIntent"
+      ],
+      "refs": [
+        "§4.13 · p.81"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 22"
+    }
+  ]
+}

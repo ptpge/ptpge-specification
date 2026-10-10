@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-neon> a skos:Concept ;
+    dcterms:created "2026-05-19T23:30:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Pantone Neons"@en,
+        "fluorescent Pantone"@en,
+        "Pantone Neons"@hi,
+        "फ़्लोरोसेंट Pantone"@hi,
+        "Pantone Neons"@pl,
+        "Pantone fluorescencyjne"@pl,
+        "Pantone Neons"@pt,
+        "Pantone fluorescente"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system> ;
+    skos:definition "Pantones fluorescerende farvebibliotek — lysstærke, højmættede farver, der overskrider normalt CMYK-farveomfang og er visuelt slående i både naturligt og UV-lys. Almindelige Pantone Neon-farver omfatter 801–814-serien og Neon Pink (806)."@da,
+        "Pantones fluoreszierende Farbbibliothek — leuchtende, hochgesättigte Farben, die den normalen CMYK-Gamut übertreffen."@de,
+        "Pantone's fluorescent color library — bright, high-saturation colors that exceed normal CMYK gamut and are visually striking under both natural and UV light. Common Pantone Neon colors include 801-814 series and Neon Pink (806)."@en,
+        "La biblioteca de colores fluorescentes de Pantone — colores brillantes de alta saturación que superan la gama CMYK normal y resultan llamativos tanto bajo luz natural como UV. Los Pantone Neon comunes incluyen la serie 801-814 y el Rosa Neón (806)."@es,
+        "Pantone का फ़्लोरोसेंट रंग पुस्तकालय — चटख, उच्च-संतृप्ति रंग जो सामान्य CMYK गैमट से बाहर हैं और प्राकृतिक व UV दोनों प्रकाश में दृष्टि-आकर्षक। आम Pantone Neon रंगों में 801–814 श्रृंखला और Neon Pink (806)।"@hi,
+        "Pantone の蛍光色ライブラリ — 通常の CMYK ガモットを超える、高彩度の鮮やかな色。自然光でも UV 光でも目を引く。一般的な Pantone ネオンには 801〜814 系とネオンピンク（806）がある。"@ja,
+        "Pantones fluorescerende fargebibliotek — sterke, høy-mettede farger som overgår normal CMYK-gamut og er visuelt slående under både naturlig og UV-lys."@nb,
+        "Pantones fluorescerende kleurbibliotheek — heldere, sterk verzadigde kleuren die het normale CMYK-gamma overstijgen en visueel opvallen in zowel natuurlijk als uv-licht. Gangbare Pantone Neon-kleuren zijn de 801–814-serie en Neon Pink (806)."@nl,
+        "Biblioteka barw fluorescencyjnych Pantone — jaskrawe barwy o wysokim nasyceniu wykraczające poza normalny gamut CMYK, wizualnie uderzające zarówno w świetle naturalnym, jak i UV. Typowe kolory Pantone Neon to seria 801–814 i Neon Pink (806)."@pl,
+        "Biblioteca de cores fluorescentes da Pantone — cores brilhantes e de alta saturação que excedem o gamut CMYK normal e são visualmente marcantes tanto sob luz natural quanto UV. Cores Pantone Neon comuns incluem a série 801–814 e o Neon Pink (806)."@pt,
+        "Pantones fluorescerande färgbibliotek — ljusstarka, högmättade kulörer som överskrider normal CMYK-färgrymd och är visuellt slående i både naturligt och UV-ljus. Vanliga Pantone Neon-kulörer inkluderar 801–814-serien och Neon Pink (806)."@sv,
+        "Pantone 荧光色库 — 超出常规 CMYK 色域的高饱和亮色，在自然光与紫外光下均醒目。常见 Pantone 荧光色包括 801-814 系列与荧光粉（806）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PANTONE-NEON" ;
+    skos:prefLabel "Pantone Neon"@da,
+        "Pantone Neon"@de,
+        "Pantone Neon"@en,
+        "Pantone Neon"@es,
+        "Pantone Neon"@hi,
+        "Pantone Neon"@ja,
+        "Pantone Neon"@nb,
+        "Pantone Neon"@nl,
+        "Pantone Neon"@pl,
+        "Pantone Neon"@pt,
+        "Pantone Neon"@sv,
+        "Pantone Neon"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

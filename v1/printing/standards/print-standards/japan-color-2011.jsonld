@@ -1,0 +1,59 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+  "type": "skos:Concept",
+  "version": "2026-06-17",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "Japan Color 2011",
+    "nb": "Japan Color 2011",
+    "sv": "Japan Color 2011",
+    "da": "Japan Color 2011",
+    "nl": "Japan Color 2011",
+    "pl": "Japan Color 2011",
+    "pt": "Japan Color 2011",
+    "hi": "Japan Color 2011"
+  },
+  "notation": "P:ST§JAPAN-COLOR-2011",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-06-17T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Japanese offset printing standard (Japan Color 2011 Coated) defining ink colours and print conditions.",
+    "nb": "Japansk offset-trykkstandard (Japan Color 2011 Coated) som definerer blekkfarger og trykkbetingelser.",
+    "de": "Japanischer Offsetdruck-Standard (Japan Color 2011 Coated), der Druckfarben und Druckbedingungen definiert.",
+    "es": "Estándar japonés de impresión ófset (Japan Color 2011 Coated) que define tintas y condiciones de impresión.",
+    "ja": "インキの色と印刷条件を定める日本のオフセット印刷標準（ジャパンカラー2011 コート紙）。",
+    "zh-Hans": "定义油墨颜色与印刷条件的日本胶印标准（Japan Color 2011 涂布纸）。",
+    "sv": "Japansk offsettryckstandard (Japan Color 2011 Coated) som definierar bläckkulörer och tryckvillkor.",
+    "da": "Japansk offsettrykstandard (Japan Color 2011 Coated), der definerer farver og trykvilkår.",
+    "nl": "Japanse offsetdrukstandaard (Japan Color 2011 Coated) die inktkleuren en drukcondities definieert.",
+    "pl": "Japoński standard druku offsetowego (Japan Color 2011 Coated) definiujący barwy farb i warunki druku.",
+    "pt": "Norma japonesa de impressão offset (Japan Color 2011 Coated) que define cores de tinta e condições de impressão.",
+    "hi": "स्याही रंग और प्रिंट स्थितियाँ परिभाषित करने वाला जापानी ऑफसेट मुद्रण मानक (Japan Color 2011 Coated)।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "Japan Color",
+      "JapanColor2011"
+    ],
+    "pl": [
+      "Japan Color",
+      "JapanColor2011"
+    ],
+    "pt": [
+      "Japan Color",
+      "JapanColor2011"
+    ],
+    "hi": [
+      "Japan Color",
+      "JapanColor2011"
+    ]
+  }
+}

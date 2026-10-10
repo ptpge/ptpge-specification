@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/compact",
+  "type": "skos:Concept",
+  "version": "2026-08-12",
+  "status": "proposed",
+  "notation": "P:CF§COMPACT",
+  "level": "element",
+  "label": {
+    "en": "Compact (280 x 430 mm)",
+    "nb": "Compact (280 x 430 mm)",
+    "de": "Compact (280 x 430 mm)",
+    "ja": "Compact (280 x 430 mm)",
+    "nl": "Compact (280 x 430 mm)",
+    "es": "Compact (280 × 430 mm)",
+    "zh-Hans": "Compact (280 × 430 mm)",
+    "sv": "Tabloid/Compact (280 x 430 mm)",
+    "da": "Tabloid/Compact (280 x 430 mm)",
+    "pl": "Compact (280 x 430 mm)",
+    "pt": "Compact (280 x 430 mm)",
+    "hi": "Compact (280 x 430 mm)"
+  },
+  "definition": {
+    "en": "280 × 430 mm (nominal — exact dimensions vary by press). The compact newspaper format, colloquially 'tabloid' — distinct from the US Tabloid paper size (11 × 17 in / 279 × 432 mm), which is a trimmed office format.",
+    "nb": "280 × 430 mm (nominelt — eksakte mål varierer med pressen). Det kompakte avisformatet, i dagligtale «tabloid» — distinkt fra det amerikanske Tabloid-papirformatet (11 × 17 in), som er et beskåret kontorformat.",
+    "de": "280 × 430 mm (nominell — genaue Maße variieren je nach Rotation). Das kompakte Zeitungsformat, umgangssprachlich «Tabloid» — zu unterscheiden vom US-Papierformat Tabloid (11 × 17 in), einem beschnittenen Büroformat.",
+    "es": "280 × 430 mm (nominal — las dimensiones exactas varían según rotativa). El formato compacto de periódico, coloquialmente «tabloide» — distinto del tamaño de papel US Tabloid (11 × 17 in), que es un formato de oficina recortado.",
+    "ja": "280 × 430 mm（公称 — 実寸は輪転機により異なる）。コンパクトな新聞判型で、通称「タブロイド」。事務用の断裁判型である米国のTabloid用紙サイズ（11 × 17インチ）とは別物。",
+    "zh-Hans": "280 × 430 毫米（名义尺寸 — 具体尺寸因轮转机而异）。紧凑型报纸幅面，俗称「小报」— 区别于美国 Tabloid 纸张尺寸（11 × 17 英寸，裁切后的办公幅面）。",
+    "sv": "280 × 430 mm (nominellt — exakta mått varierar med pressen). Det kompakta tidningsformatet, i dagligt tal 'tabloid' — skilt från det amerikanska pappersformatet Tabloid (11 × 17 tum / 279 × 432 mm), som är ett renskuret kontorsformat.",
+    "da": "280 × 430 mm (nominelt — de præcise mål varierer med pressen). Det kompakte avisformat, i daglig tale 'tabloid' — adskilt fra det amerikanske papirformat Tabloid (11 × 17 tommer / 279 × 432 mm), som er et renskåret kontorformat.",
+    "nl": "280 × 430 mm (nominellt — exakta mått varierar met pressen). Het compacte krantenformaat, in de volksmond 'tabloid' — te onderscheiden van het Amerikaanse papierformaat Tabloid (11 × 17 inch / 279 × 432 mm), een schoongesneden kantoorformaat.",
+    "pl": "280 × 430 mm (nominalnie — dokładne wymiary zależą od maszyny). Kompaktowy format gazetowy, potocznie „tabloid” — inny niż amerykański format papieru Tabloid (11 × 17 cali / 279 × 432 mm), który jest przyciętym formatem biurowym.",
+    "pt": "280 × 430 mm (nominal — as dimensões exatas variam conforme a rotativa). O formato de jornal compacto, coloquialmente «tabloide» — distinto do tamanho de papel US Tabloid (11 × 17 in / 279 × 432 mm), que é um formato de escritório refilado.",
+    "hi": "280 × 430 mm (नाममात्र — सटीक आयाम प्रेस से बदलते हैं). कॉम्पैक्ट अख़बार फ़ॉर्मेट, बोलचाल में «टैब्लॉइड» — US Tabloid काग़ज़ आकार (11 × 17 इंच / 279 × 432 मिमी) से अलग, जो ट्रिम किया ऑफ़िस फ़ॉर्मेट है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats",
+  "elementType": "value",
+  "properties": {
+    "width": 280,
+    "height": 430,
+    "unit": "mm",
+    "aspectRatio": 1.5357,
+    "standard": "trade convention",
+    "area": 120400
+  },
+  "created": "2026-08-12T11:00:47Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "Tabloid (newspaper)"
+    ],
+    "pl": [
+      "tabloid (gazeta)"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

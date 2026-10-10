@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/efi-fiery> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    skos:definition "EFI Fiery — front-end-controller og workflowplatform til digitalpresser fra EFI. Oprindeligt designet til Xerox-digitalpresser, nu kompatibel med de fleste større digitale produktionssystemer."@da,
+        "EFI Fiery — Frontend-Controller und Workflow-Plattform für Digitaldruckmaschinen von EFI. Ursprünglich für Xerox-Digitaldruckmaschinen entwickelt, heute mit den meisten großen Digitaldrucksystemen kompatibel."@de,
+        "EFI Fiery — digital-press front-end controller and workflow platform from EFI. Originally designed for Xerox digital presses, now compatible with most major digital production systems."@en,
+        "Front-end EFI Fiery para prensas digitales — incluye RIP, gestión de color y herramientas de productividad para tirada digital."@es,
+        "EFI Fiery — EFI का डिजिटल-प्रेस फ़्रंट-एंड कंट्रोलर और वर्कफ़्लो प्लेटफ़ॉर्म। मूलतः Xerox डिजिटल प्रेस के लिए डिज़ाइन, अब अधिकांश प्रमुख डिजिटल प्रोडक्शन सिस्टम के साथ संगत।"@hi,
+        "EFI Fiery — EFIによるデジタル印刷機フロントエンドコントローラーおよびワークフロープラットフォーム。元はXeroxデジタル印刷機向けに設計されたが、現在は主要なデジタル生産システムの大半に対応する。"@ja,
+        "EFI Fiery — front-end-kontroller for digitale presser og arbeidsflytplattform fra EFI. Opprinnelig designet for Xerox digitale presser, nå kompatibel med de fleste større digitale produksjonssystemer."@nb,
+        "EFI Fiery — front-endcontroller en workflowplatform voor digitale persen van EFI. Oorspronkelijk ontworpen voor Xerox-digitaalpersen, nu compatibel met de meeste grote digitale productiesystemen."@nl,
+        "EFI Fiery — kontroler front-end maszyn cyfrowych i platforma workflow firmy EFI. Pierwotnie zaprojektowany dla maszyn cyfrowych Xerox, obecnie kompatybilny z większością głównych systemów produkcji cyfrowej."@pl,
+        "EFI Fiery — controlador front-end de impressora digital e plataforma de fluxo de trabalho da EFI. Originalmente projetado para impressoras digitais Xerox, hoje compatível com a maioria dos grandes sistemas de produção digital."@pt,
+        "EFI Fiery — front-end-styrenhet och arbetsflödesplattform för digitalpressar från EFI. Ursprungligen designad för Xerox digitalpressar, numera kompatibel med de flesta större digitala produktionssystem."@sv,
+        "数码印刷机的EFI Fiery前端——包括RIP、色彩管理和数码印次的生产力工具。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§EFI-FIERY" ;
+    skos:prefLabel "EFI Fiery"@da,
+        "EFI Fiery"@de,
+        "EFI Fiery"@en,
+        "EFI Fiery"@es,
+        "EFI Fiery"@hi,
+        "EFI Fiery"@ja,
+        "EFI Fiery"@nb,
+        "EFI Fiery"@nl,
+        "EFI Fiery"@pl,
+        "EFI Fiery"@pt,
+        "EFI Fiery"@sv,
+        "EFI Fiery"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/environmental/fsc> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "FSC certified"@en,
+        "Forest Stewardship Council"@en,
+        "FSC प्रमाणित"@hi,
+        "Forest Stewardship Council"@hi,
+        "FSC-sertifisert"@nb,
+        "Forest Stewardship Council"@pl,
+        "certyfikat FSC"@pl,
+        "papier FSC"@pl,
+        "Certificado FSC"@pt,
+        "Forest Stewardship Council"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental> ;
+    skos:definition "Forest Stewardship Council-certificering: en sporbarheds- og skovforvaltningsstandard, der kun lader en tryksag bære FSC-mærket, hvis papiret kan spores gennem hvert leverandørled fra ansvarligt forvaltet skov. Den mest anerkendte miljøreference for tryksager, ofte et krav fra offentlige og større virksomhedskøbere."@da,
+        "Zertifizierung des Forest Stewardship Council: ein Standard für Chain-of-Custody und Waldbewirtschaftung, der einem Druckerzeugnis nur dann erlaubt, das FSC-Label zu tragen, wenn dessen Papier von verantwortungsvoll bewirtschafteten Wäldern über alle Lieferanten hinweg rückverfolgbar ist. Die am weitesten anerkannte Umweltauszeichnung für Druckerzeugnisse, oft von öffentlichen Auftraggebern und Großunternehmen gefordert."@de,
+        "Forest Stewardship Council certification: a chain-of-custody and forest-management standard that lets a printed product carry the FSC label only if its paper is traceable through every supplier from a responsibly-managed forest. The most widely recognized environmental credential for printed goods, often required by public-sector and large-corporate buyers."@en,
+        "Certificación del Forest Stewardship Council: norma de cadena de custodia y gestión forestal que permite que un producto impreso lleve el sello FSC solo si su papel es rastreable a través de cada proveedor desde un bosque certificado."@es,
+        "Forest Stewardship Council प्रमाणन: चेन-ऑफ़-कस्टडी और वन-प्रबंधन मानक जो मुद्रित उत्पाद को FSC लेबल तभी देता है जब उसका काग़ज़ हर आपूर्तिकर्ता से होकर ज़िम्मेदारी से प्रबंधित वन तक ट्रेस किया जा सके। मुद्रित वस्तुओं के लिए सबसे व्यापक रूप से मान्य पर्यावरणीय प्रमाण, प्रायः सार्वजनिक-क्षेत्र और बड़े कॉर्पोरेट ख़रीदारों द्वारा अनिवार्य।"@hi,
+        "Forest Stewardship Council（森林管理協議会）認証：印刷物がFSCラベルを表示できるのは、その用紙が責任ある森林管理の下で生産され、全てのサプライヤーを通じて追跡可能な場合に限られる、加工流通過程（CoC）および森林管理の規格。印刷物に対して最も広く認知されている環境認証であり、公共部門および大企業の調達において必須要件とされることが多い。"@ja,
+        "Forest Stewardship Council-sertifisering: en chain-of-custody- og skogforvaltningsstandard som gjør at en trykksak kan bære FSC-merket kun dersom papiret er sporbart gjennom hver leverandør fra en ansvarlig forvaltet skog. Den mest anerkjente miljøsertifiseringen for trykte produkter, ofte påkrevd av offentlige innkjøpere og store bedrifter."@nb,
+        "Forest Stewardship Council-certificering: een chain-of-custody- en bosbeheerstandaard die drukwerk alleen het FSC-label laat dragen als het papier traceerbaar is door elke leveranciersschakel vanaf verantwoord beheerd bos. Het meest erkende milieukeurmerk voor drukwerk, vaak vereist door publieke en grote zakelijke inkopers."@nl,
+        "Certyfikacja Forest Stewardship Council: standard łańcucha dostaw i gospodarki leśnej, który pozwala produktowi drukowanemu nosić znak FSC tylko wtedy, gdy jego papier jest identyfikowalny przez każdego dostawcę aż do odpowiedzialnie zarządzanego lasu. Najszerzej rozpoznawane poświadczenie środowiskowe dla druków, często wymagane przez nabywców z sektora publicznego i dużych korporacji."@pl,
+        "Certificação do Forest Stewardship Council: norma de cadeia de custódia e manejo florestal que permite a um produto impresso levar o selo FSC apenas se o seu papel for rastreável por todos os fornecedores até uma floresta manejada de forma responsável. A credencial ambiental mais reconhecida para produtos impressos, muitas vezes exigida por compradores do setor público e grandes empresas."@pt,
+        "Forest Stewardship Council-certifiering: en spårbarhets- och skogsbruksstandard som låter en trycksak bära FSC-märket endast om dess papper är spårbart genom varje leverantörsled från ansvarsfullt brukad skog. Den mest erkända miljömeriten för trycksaker, ofta ett krav från offentliga och större företagsköpare."@sv,
+        "Forest Stewardship Council认证：产销监管链和森林管理标准，只有当印刷品的纸张可追溯至认证森林的每一供应商时，才能携带FSC标志。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q468515> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§FSC" ;
+    skos:prefLabel "FSC®"@da,
+        "FSC ®"@de,
+        "FSC ®"@en,
+        "FSC ®"@es,
+        "FSC ®"@hi,
+        "FSC ®"@ja,
+        "FSC ®"@nb,
+        "FSC®"@nl,
+        "FSC ®"@pl,
+        "FSC ®"@pt,
+        "FSC®"@sv,
+        "FSC ®（森林管理委员会认证）"@zh-Hans ;
+    skos:scopeNote "FSC zertifiziert Quelle und Lieferkette von Faserstoffen. ISO 14001 hingegen zertifiziert das gesamte Umweltmanagementsystem der Druckerei."@de,
+        "FSC certifies the source and chain of custody of fibrous materials. ISO 14001 by contrast certifies the printer's overall environmental management system."@en,
+        "FSC रेशेदार सामग्री के स्रोत और चेन-ऑफ़-कस्टडी को प्रमाणित करता है। इसके विपरीत ISO 14001 प्रिंटर की समग्र पर्यावरण प्रबंधन प्रणाली को प्रमाणित करता है।"@hi,
+        "FSCは繊維材料の出所と加工流通過程（CoC）を認証する。一方ISO 14001は印刷会社の環境マネジメントシステム全体を認証する。"@ja,
+        "FSC sertifiserer kilden og sporbarhets­kjeden for fiber­råstoff. ISO 14001 sertifiserer derimot trykkeriets samlede miljø­styringssystem."@nb,
+        "O FSC certifica a origem e a cadeia de custódia de materiais fibrosos. A ISO 14001, por contraste, certifica o sistema global de gestão ambiental do impressor."@pt ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

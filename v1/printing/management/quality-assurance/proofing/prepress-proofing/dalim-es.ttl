@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/dalim-es> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    skos:definition "DALIM ES — enterprise digital asset- og workflowplatform fra DALIM Software med soft-proofing, annotering og godkendelsesworkflows for forlag og bureauer med store volumener."@da,
+        "DALIM ES — Enterprise-Plattform für digitale Asset- und Workflow-Verwaltung von DALIM Software, bietet Soft-Proofing, Annotation und Freigabe-Workflows für hohe Volumen bei Verlagen und Agenturen."@de,
+        "DALIM ES — enterprise digital-asset and workflow platform from DALIM Software, providing soft-proofing, annotation, and approval workflows for high-volume publishers and agencies."@en,
+        "Plataforma de colaboración y aprobación de pruebas DALIM ES — utilizada en producción editorial y publicitaria para revisión multi-versión con anotaciones."@es,
+        "DALIM ES — DALIM Software का उद्यम डिजिटल-संपत्ति और वर्कफ़्लो प्लेटफ़ॉर्म, उच्च-मात्रा प्रकाशकों और एजेंसियों के लिए सॉफ़्ट-प्रूफ़िंग, टिप्पणी और अनुमोदन वर्कफ़्लो।"@hi,
+        "DALIM ES — DALIM Softwareによるエンタープライズデジタル資産およびワークフロープラットフォーム。大量出版社や代理店向けにソフトプルーフ、注釈、承認ワークフローを提供する。"@ja,
+        "DALIM ES — enterprise-plattform for digitale eiendeler og arbeidsflyt fra DALIM Software, som tilbyr soft-proofing, annotering og godkjenningsarbeidsflyter for høyvolum-utgivere og byråer."@nb,
+        "DALIM ES — enterprise digital-asset- en workflowplatform van DALIM Software, met soft-proofing, annotatie en goedkeuringsworkflows voor uitgevers en bureaus met grote volumes."@nl,
+        "DALIM ES — korporacyjna platforma zasobów cyfrowych i workflow firmy DALIM Software, zapewniająca soft-proofing, adnotacje i procesy akceptacji dla wydawców i agencji o dużym wolumenie."@pl,
+        "DALIM ES — plataforma corporativa de ativos digitais e fluxo de trabalho da DALIM Software, com provas de tela, anotação e fluxos de aprovação para editoras e agências de alto volume."@pt,
+        "DALIM ES — företagsplattform för digitala tillgångar och arbetsflöden från DALIM Software, med skärmprov, annotering och godkännandeflöden för förlag och byråer med höga volymer."@sv,
+        "DALIM ES协作和校样批准平台——在出版和广告生产中用于多版本审查和注释。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§DALIM-ES" ;
+    skos:prefLabel "DALIM ES"@da,
+        "DALIM ES"@de,
+        "DALIM ES"@en,
+        "DALIM ES"@es,
+        "DALIM ES"@hi,
+        "DALIM ES"@ja,
+        "DALIM ES"@nb,
+        "DALIM ES"@nl,
+        "DALIM ES"@pl,
+        "DALIM ES"@pt,
+        "DALIM ES"@sv,
+        "DALIM ES"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

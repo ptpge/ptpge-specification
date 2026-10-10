@@ -1,0 +1,144 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/colors/black",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Black",
+    "nb": "Sort",
+    "de": "Schwarz",
+    "ja": "ブラック",
+    "es": "Negro",
+    "zh-Hans": "黑色",
+    "nl": "Zwart",
+    "sv": "Svart",
+    "da": "Sort",
+    "pl": "Czerń",
+    "pt": "Preto",
+    "hi": "काला"
+  },
+  "altLabels": {
+    "en": [
+      "Black Only",
+      "Monochrome",
+      "K Only",
+      "1-Color Black"
+    ],
+    "nb": [
+      "Kun sort",
+      "Svart",
+      "Sort/hvitt",
+      "Ensfarget sort"
+    ],
+    "de": [
+      "Nur Schwarz",
+      "Schwarzdruck",
+      "Einfarbig schwarz",
+      "Monochrom"
+    ],
+    "nl": [
+      "Alleen zwart",
+      "Zwartdruk",
+      "Eenkleurig zwart",
+      "Monochroom"
+    ],
+    "sv": [
+      "Endast svart",
+      "Svarttryck",
+      "Enfärgssvart",
+      "Monokrom"
+    ],
+    "da": [
+      "Kun sort",
+      "Sorttryk",
+      "Enfarvet sort",
+      "Monokrom"
+    ],
+    "es": [
+      "Solo negro",
+      "Impresión en negro",
+      "Monocromo",
+      "Una tinta"
+    ],
+    "ja": [
+      "スミ",
+      "スミ1色",
+      "黒のみ",
+      "モノクロ"
+    ],
+    "zh-Hans": [
+      "单黑",
+      "单色黑",
+      "黑白印刷",
+      "只印黑色"
+    ],
+    "pl": [
+      "tylko czerń",
+      "monochromatyczny",
+      "tylko K",
+      "1-kolor czarny"
+    ],
+    "pt": [
+      "só preto",
+      "monocromático",
+      "1x0",
+      "1 cor preto",
+      "preto e branco",
+      "P&B"
+    ],
+    "hi": [
+      "केवल काला",
+      "मोनोक्रोम",
+      "ब्लैक ओनली",
+      "सिंगल कलर ब्लैक",
+      "ब्लैक एंड व्हाइट"
+    ]
+  },
+  "definition": {
+    "en": "Single-color printing using only black ink. The most economical color mode. Used for text-heavy interiors, draft prints, and budget-conscious productions.",
+    "nb": "Enfarget trykk med kun sort blekk. Den mest økonomiske fargemodusen. Brukes for tekst-tunge interiører, utkast og budsjett-bevisste produksjoner.",
+    "de": "Einfarbiger Druck nur mit schwarzer Druckfarbe. Der wirtschaftlichste Farbmodus. Wird für textlastige Innenseiten, Entwürfe und budgetbewusste Produktionen verwendet.",
+    "ja": "黒インキのみの単色印刷。最も経済的なカラーモード。文字主体の本文、試し刷り、コスト重視の制作に使われる。",
+    "es": "Impresión monocolor solo con tinta negra. El modo de color más económico. Usado para interiores con mucho texto, borradores y producciones de bajo presupuesto.",
+    "zh-Hans": "仅用黑色油墨的单色印刷。最经济的色彩模式。用于以文字为主的内页、样稿与预算优先的生产。",
+    "sv": "Enfärgstryck med enbart svart bläck. Det mest ekonomiska färgläget. Används för texttunga inlagor, korrektur och budgetmedvetna produktioner.",
+    "da": "Enkeltfarvetryk med kun sort farve. Den mest økonomiske farvetilstand. Bruges til teksttunge indmader, kladdetryk og budgetbevidste produktioner.",
+    "nl": "Eenkleurendruk met alleen zwarte inkt. De voordeligste kleurmodus. Gebruikt voor tekstrijke binnenwerken, drukproeven en budgetbewuste producties.",
+    "pl": "Druk jednokolorowy tylko czarną farbą. Najbardziej ekonomiczny tryb koloru. Używany do wnętrz z dużą ilością tekstu, wydruków roboczych i produkcji budżetowych.",
+    "pt": "Impressão monocromática usando apenas tinta preta. O modo de cor mais econômico. Usado em miolos com muito texto, provas e produções de orçamento contido.",
+    "hi": "केवल काली स्याही से एक-रंग छपाई। सबसे किफ़ायती कलर मोड। पाठ-प्रधान भीतरी पृष्ठों, ड्राफ़्ट प्रिंट और बजट उत्पादन में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/colors",
+  "properties": {
+    "inkColorants": [
+      "K"
+    ],
+    "colorChannelCount": 1,
+    "colorModel": "subtractive"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§BLACK",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "ColorantControl"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§6.15 · p.168"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 24"
+    }
+  ]
+}

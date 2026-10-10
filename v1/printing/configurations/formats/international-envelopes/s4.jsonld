@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s4",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "S4 (250 x 330 mm)",
+    "es": "S4 (250 × 330 mm)",
+    "zh-Hans": "S4 (250 × 330 mm)",
+    "nb": "S4 (250 x 330 mm)",
+    "de": "S4 (250 x 330 mm)",
+    "ja": "S4 (250 x 330 mm)",
+    "sv": "S4 (250 x 330 mm)",
+    "da": "S4 (250 x 330 mm)",
+    "nl": "S4 (250 x 330 mm)",
+    "pl": "S4 (250 x 330 mm)",
+    "pt": "S4 (250 x 330 mm)",
+    "hi": "S4 (250 x 330 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§S4",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "250 × 330 mm. S-series envelope, slightly different proportions to C4.",
+    "nb": "250 × 330 mm. S-serie-konvolutt, litt annerledes proporsjoner enn C4.",
+    "de": "250 × 330 mm. Briefumschlag der S-Reihe, mit leicht abweichenden Proportionen zu C4.",
+    "ja": "250×330mm。Sシリーズ封筒、C4とわずかに異なる比例。",
+    "es": "Sobre S4 — formato especializado para correspondencia europea.",
+    "zh-Hans": "S4信封 —— 欧洲通信的专业格式。",
+    "sv": "250 × 330 mm. Kuvert i S-serien, med något andra proportioner än C4.",
+    "da": "250 × 330 mm. Kuvert i S-serien, med lidt andre proportioner end C4.",
+    "nl": "250 × 330 mm. Envelop in de S-reeks, met net iets andere verhoudingen dan C4.",
+    "pl": "250 × 330 mm. Koperta serii S o nieco innych proporcjach niż C4.",
+    "pt": "250 × 330 mm. Envelope da série S, proporções ligeiramente diferentes do C4.",
+    "hi": "250 × 330 mm. S-सीरीज़ लिफ़ाफ़ा, C4 से थोड़े अलग अनुपात।"
+  },
+  "properties": {
+    "width": 250,
+    "height": 330,
+    "unit": "mm",
+    "aspectRatio": 1.32,
+    "standard": "ISO 269",
+    "area": 82500
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "250 x 330 mm",
+      "250x330",
+      "250×330",
+      "25 x 33 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

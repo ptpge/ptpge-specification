@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/open-gate-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Variant af portfalsen, hvor de to sidepaneler ikke mødes på midten, så et synligt inderpanel efterlades selv i foldet tilstand — bruges når en delvis afsløring af indersiden ønskes."@da,
+        "Variante des Altarfalzes, bei der die beiden Seitenflügel sich nicht in der Mitte treffen und ein sichtbares Innenfeld auch im geschlossenen Zustand belassen — verwendet, wenn ein teilweises Sichtbarmachen des Inneren gewünscht ist."@de,
+        "Variant of the gate fold where the two side panels do not meet at the center, leaving a visible inside panel even when folded — used when a partial reveal of the inside is desired."@en,
+        "Variante del gate fold donde los paneles laterales abren al centro pero no se cierran completamente — habitual en folletos con efecto de revelación."@es,
+        "गेट फ़ोल्ड का वह रूप जिसमें दोनों बग़ल के पैनल बीच में नहीं मिलते और मुड़ी अवस्था में भी भीतरी पैनल दिखता रहता है — जब भीतर की आंशिक झलक चाहिए।"@hi,
+        "観音折りのバリアントで、両側の面が中央で合わさらず、折った状態でも内側の面が見える — 内側の部分的な演出が望まれる場合に使用される。"@ja,
+        "Variant av gate fold der de to sidepanelene ikke møtes på midten, og etterlater et synlig innerpanel selv når den er foldet — brukt når en delvis avsløring av innsiden er ønsket."@nb,
+        "Variant van de luikvouw waarbij de twee zijpanelen elkaar niet in het midden raken, zodat een zichtbaar binnenpaneel overblijft, zelfs in gevouwen toestand — gebruikt wanneer een gedeeltelijke onthulling gewenst is."@nl,
+        "Wariant złamu okienkowego, w którym oba skrzydła boczne nie stykają się na środku, pozostawiając widoczne skrzydło wewnętrzne nawet po złożeniu — stosowany, gdy pożądane jest częściowe odsłonięcie wnętrza."@pl,
+        "Variante da dobra janela em que os dois painéis laterais não se encontram no centro, deixando um painel interno visível mesmo dobrado — usada quando se deseja uma revelação parcial do interior."@pt,
+        "Variant av portfalsen där de två sidopanelerna inte möts i mitten, så att en synlig innerpanel blir kvar även i vikt läge — används när ett partiellt avslöjande av insidan önskas."@sv,
+        "门折的变体，侧面板向中心开但不完全闭合 —— 常用于带揭示效果的宣传册。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§OPEN-GATE-FOLD" ;
+    skos:prefLabel "Åben portfals"@da,
+        "Offener Altarfalz"@de,
+        "Open Gate Fold"@en,
+        "Pliegue Gate Abierto"@es,
+        "खुला गेट फ़ोल्ड"@hi,
+        "オープンゲートフォールド"@ja,
+        "Åpen port-fold"@nb,
+        "Open luikvouw"@nl,
+        "Złam okienkowy otwarty"@pl,
+        "Dobra janela aberta"@pt,
+        "Öppen portfals"@sv,
+        "门折开式"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

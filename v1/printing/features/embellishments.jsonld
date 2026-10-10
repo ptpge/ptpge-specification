@@ -1,0 +1,52 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Embellishments",
+    "nb": "Foredling",
+    "de": "Veredelung",
+    "ja": "装飾加工",
+    "es": "Embellecimientos",
+    "zh-Hans": "装饰加工",
+    "sv": "Dekor",
+    "da": "Forædlinger",
+    "nl": "Veredelingen",
+    "pl": "Uszlachetnienia",
+    "pt": "Enobrecimentos",
+    "hi": "सजावटी प्रभाव (एम्बेलिशमेंट)"
+  },
+  "definition": {
+    "en": "Embellishments are the middle layer of the Print Layer Stack — selective additive treatments applied on top of the Color Layer. Embellishments add visual or tactile interest (foil-stamping, spot UV varnish, embossing, debossing, relief treatments). They are typically applied to specific design elements, not full coverage. The Surface Finish layer (if any) sits on top of embellishments.",
+    "nb": "Embellishments er det midterste laget i trykklags-stacken — selektive additive behandlinger lagt på toppen av Color Layer. Embellishments gir visuell eller taktil interesse (folie-trykk, spot UV-lakk, embossing, debossing, relief-behandlinger). De er typisk lagt på spesifikke design-elementer, ikke full-flate. Surface Finish (om den finnes) ligger over embellishments.",
+    "de": "Embellishments sind die mittlere Schicht des Druckschichten-Stacks — selektive additive Behandlungen, die auf die Color Layer aufgebracht werden.",
+    "ja": "Embellishmentsはカラー層の後に基材上に施される装飾的効果 — 箔押し、エンボス、デボス、ホットフォイル。印刷物の視覚的または触覚的外観を変える。Surface Finish（ニスやラミネーションなどの保護的または美的な表面層を加えるもの）とは区別される。",
+    "es": "Los Embellishments son efectos decorativos aplicados sobre el sustrato después de la capa de color — estampado con lámina, relieve, hundido, lámina caliente. Modifican la apariencia visual o táctil de una pieza impresa. Se distinguen del Surface Finish (que añade una capa superficial protectora o estética como barniz o laminado).",
+    "zh-Hans": "Embellishments 是色彩层之后施加于承印物之上的装饰效果——烫箔、凸压、凹压、热烫箔。它们改变印刷品的视觉或触感外观。与 Surface Finish（添加保护性或美学表面层，如上光或覆膜）有所区别。",
+    "sv": "Dekor är mellanskiktet i tryckskiktstacken — selektiva additiva behandlingar applicerade ovanpå färgskiktet. Dekor tillför visuellt eller taktilt intresse (folieprägling, partiell UV-lack, prägling, försänkt prägling, reliefbehandlingar). De appliceras typiskt på specifika designelement, inte heltäckande. Ytbehandlingsskiktet (om något) ligger ovanpå dekoren.",
+    "da": "Forædlinger er mellemlaget i trykklagstakken — selektive additive behandlinger påført oven på farvelaget. Forædlinger tilføjer visuel eller taktil interesse (folieprægning, partiel UV-lak, prægning m.fl.).",
+    "nl": "Veredelingen vormen de middelste laag van de druklaagstapel — selectieve additieve behandelingen bovenop de kleurlaag. Veredelingen voegen visuele of tactiele interesse toe (foliedruk, spot-UV-lak, preging e.a.).",
+    "pl": "Uszlachetnienia to środkowa warstwa stosu warstw druku — wybiórcze zabiegi addytywne nanoszone na warstwę barwną. Dodają efektu wizualnego lub dotykowego (folia na gorąco, lakier UV wybiórczy, tłoczenie wypukłe, tłoczenie wklęsłe, efekty reliefowe). Zwykle stosowane do wybranych elementów projektu, nie na całej powierzchni. Warstwa wykończenia powierzchni (jeśli jest) leży na uszlachetnieniach.",
+    "pt": "Enobrecimentos são a camada intermediária da pilha de camadas de impressão — tratamentos aditivos seletivos aplicados sobre a camada de cor. Acrescentam interesse visual ou tátil (hot stamping, verniz UV localizado, relevo alto, relevo baixo, tratamentos em relevo). Normalmente aplicados a elementos específicos do design, não em cobertura total. A camada de acabamento de superfície (se houver) fica por cima dos enobrecimentos.",
+    "hi": "एम्बेलिशमेंट प्रिंट लेयर स्टैक की बीच की परत हैं — रंग परत के ऊपर चुनिंदा जगह लगाए गए योगात्मक उपचार। ये दृश्य या स्पर्श आकर्षण जोड़ते हैं (फ़ॉइल स्टैंपिंग, स्पॉट UV वार्निश, एम्बॉसिंग, डिबॉसिंग, उभार)। आमतौर पर विशिष्ट डिज़ाइन तत्वों पर, पूरी सतह पर नहीं। सतह फ़िनिश की परत (यदि हो) एम्बेलिशमेंट के ऊपर रहती है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features",
+  "narrower": [
+    "https://ptpge.org/v1/printing/features/embellishments/debossing",
+    "https://ptpge.org/v1/printing/features/embellishments/embossing",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping",
+    "https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish",
+    "https://ptpge.org/v1/printing/features/embellishments/spot-aqueous-varnish",
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
+    "https://ptpge.org/v1/printing/features/embellishments/none"
+  ],
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT-EMB"
+}

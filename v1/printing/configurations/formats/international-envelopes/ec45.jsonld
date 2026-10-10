@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ec45",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "EC45 (220 x 229 mm)",
+    "es": "EC45 (220 × 229 mm)",
+    "zh-Hans": "EC45 (220 × 229 mm)",
+    "nb": "EC45 (220 x 229 mm)",
+    "de": "EC45 (220 x 229 mm)",
+    "ja": "EC45 (220 x 229 mm)",
+    "sv": "EC45 (220 x 229 mm)",
+    "da": "EC45 (220 x 229 mm)",
+    "nl": "EC45 (220 x 229 mm)",
+    "pl": "EC45 (220 x 229 mm)",
+    "pt": "EC45 (220 x 229 mm)",
+    "hi": "EC45 (220 x 229 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§EC45",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "220 × 229 mm. Square-ish envelope between C4 and C5 in proportions. Used for specialty mailings.",
+    "nb": "220 × 229 mm. Tilnærmet kvadratisk konvolutt med proporsjoner mellom C4 og C5. Brukt til spesialutsendelser.",
+    "de": "220 × 229 mm. Quadratisch wirkender Briefumschlag mit Proportionen zwischen C4 und C5. Verwendet für Spezialversand.",
+    "ja": "220×229mm。比例的にC4とC5の中間にある正方形に近い封筒。特殊郵送に使用される。",
+    "es": "Sobre EC45 — formato europeo casi cuadrado para mailings especializados.",
+    "zh-Hans": "EC45信封 —— 用于专业邮寄的近方形欧洲格式。",
+    "sv": "220 × 229 mm. Nära kvadratiskt kuvert mellan C4 och C5 i proportioner. Används för specialutskick.",
+    "da": "220 × 229 mm. Næsten kvadratisk kuvert mellem C4 og C5 i proportioner. Bruges til specialutskick.",
+    "nl": "220 × 229 mm. Bijna vierkante envelop tussen C4 en C5 in verhoudingen. Gebruikt voor specialutskick.",
+    "pl": "220 × 229 mm. Niemal kwadratowa koperta o proporcjach między C4 a C5. Używana do przesyłek specjalnych.",
+    "pt": "220 × 229 mm. Envelope quase quadrado, entre C4 e C5 em proporções. Usado em envios especiais.",
+    "hi": "220 × 229 mm. लगभग चौकोर लिफ़ाफ़ा, अनुपात में C4 और C5 के बीच। विशेष डाक में।"
+  },
+  "properties": {
+    "width": 220,
+    "height": 229,
+    "unit": "mm",
+    "aspectRatio": 1.0409,
+    "standard": "ISO 269",
+    "area": 50380
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "220 x 229 mm",
+      "220x229",
+      "220×229",
+      "22 x 22.9 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

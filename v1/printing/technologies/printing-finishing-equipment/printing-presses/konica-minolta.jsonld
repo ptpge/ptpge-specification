@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/konica-minolta",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Konica Minolta",
+    "es": "Konica Minolta",
+    "zh-Hans": "Konica Minolta",
+    "nb": "Konica Minolta",
+    "de": "Konica Minolta",
+    "ja": "Konica Minolta",
+    "sv": "Konica Minolta",
+    "da": "Konica Minolta",
+    "nl": "Konica Minolta",
+    "pl": "Konica Minolta",
+    "pt": "Konica Minolta",
+    "hi": "Konica Minolta"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Konica Minolta — Japanese manufacturer of digital production presses (AccurioPress, AccurioJet), particularly strong in mid-range color production.",
+    "nb": "Konica Minolta — japansk produsent av digitale produksjonspresser (AccurioPress, AccurioJet), særlig sterk i mellomklasse-fargeproduksjon.",
+    "de": "Konica Minolta — japanischer Hersteller digitaler Produktionsdruckmaschinen (AccurioPress, AccurioJet), besonders stark im mittleren Segment des Farbproduktionsdrucks.",
+    "ja": "コニカミノルタ — デジタル生産印刷機（AccurioPress、AccurioJet）の日本のメーカー。特に中レンジのカラー生産で強い。",
+    "es": "Konica Minolta — fabricante japonés de prensas digitales de producción a color basadas en tóner (serie AccurioPress) y soluciones de inyección de tinta.",
+    "zh-Hans": "Konica Minolta —— 日本基于碳粉的数码彩色生产印刷机制造商（AccurioPress系列）和喷墨解决方案。",
+    "sv": "Konica Minolta — japansk tillverkare av digitala produktionspressar (AccurioPress, AccurioJet), särskilt stark inom färgproduktion i mellansegmentet.",
+    "da": "Konica Minolta — japansk producent af digitale produktionspresser (AccurioPress, AccurioJet), særligt stærk inden for farveproduktion i mellemsegmentet.",
+    "nl": "Konica Minolta — Japanse fabrikant van digitale productiepersen (AccurioPress, AccurioJet), bijzonder sterk in kleurproductie in het middensegment.",
+    "pl": "Konica Minolta — japoński producent cyfrowych maszyn produkcyjnych (AccurioPress, AccurioJet), szczególnie silny w produkcji kolorowej średniej klasy.",
+    "pt": "Konica Minolta — fabricante japonês de impressoras digitais de produção (AccurioPress, AccurioJet), especialmente forte na produção em cores de médio porte.",
+    "hi": "Konica Minolta — डिजिटल प्रोडक्शन प्रेस (AccurioPress, AccurioJet) का जापानी निर्माता, मध्यम-श्रेणी रंग उत्पादन में विशेष रूप से मज़बूत।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-KONI",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

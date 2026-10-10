@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet> a skos:Concept ;
+    dcterms:created "2026-05-19T13:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Brettet ark"@nb,
+        "Falset ark"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models> ;
+    skos:definition "En tryksag bestående af ét fysisk ark falset en eller flere gange, så flere visuelle paneler opstår, organiseret i to flader — yderside (den side af det ufoldede ark, der ses når folderen er lukket) og inderside (den anden side, der ses når den åbnes). Falstopologien vælges via setup-model-varianterne."@da,
+        "Ein Druckprodukt aus einem einzelnen physischen Bogen, der einmal oder mehrmals gefalzt wird, um mehrere visuelle Paneele zu erzeugen, organisiert in zwei Surfaces — Außen (eine Seite des ungefalzten Bogens, sichtbar bei geschlossenem Leaflet) und Innen (die andere Seite, sichtbar beim Öffnen). Jede Surface ist unabhängig konfigurierbar mit eigenem Druckschichten-Stack."@de,
+        "A printed product consisting of a single physical sheet folded one or more times to create multiple visual panels organised into two surfaces — Outside (one side of the unfolded sheet, visible when the leaflet is closed) and Inside (the other side, visible when opened). Each surface is independently configurable with its own Print Layer Stack (Color Layer → Embellishment → Surface Finish). Used for leaflets, single/tri/accordion-fold brochures, and gate-fold marketing materials. Each variant under this family defines its specific panel count and fold geometry."@en,
+        "Folded Sheet Setup describe la topología de productos impresos que consisten en una sola hoja de sustrato dividida en múltiples paneles mediante plegado. Trece variantes cubren todo el espacio de patrones de plegado (plegado simple, tríptico, en Z, plegado en puerta y sus variantes, acordeón, plegado en rollo, plegado cruzado, etc.). Todas se agrupan en 2 Surfaces (outside / inside)."@es,
+        "एक या अधिक बार मुड़ी एक ही भौतिक शीट का मुद्रित उत्पाद, जिससे कई दृश्य पैनल बनते हैं और दो सतहों में व्यवस्थित होते हैं — बाहरी (खुली शीट का एक पक्ष, लीफ़लेट बंद होने पर दिखने वाला) और भीतरी (दूसरा पक्ष, खोलने पर दिखने वाला)। हर सतह अपनी प्रिंट लेयर स्टैक (रंग परत → एम्बेलिशमेंट → सतह फ़िनिश) के साथ स्वतंत्र रूप से कॉन्फ़िगर होती है। लीफ़लेट, सिंगल/ट्राई/अकॉर्डियन-फ़ोल्ड ब्रोशर और गेट-फ़ोल्ड मार्केटिंग सामग्री में। इस परिवार का हर वेरिएंट अपनी पैनल संख्या और फ़ोल्ड ज्यामिति परिभाषित करता है।"@hi,
+        "Folded Sheet Setupは、折りによって複数のパネルに分割された単一の基材シートで構成される印刷物のトポロジを記述する。十三の派生があり、折りパターンの全空間（シングルフォールド、トライフォールド、Zフォールド、ゲートフォールドとそのバリエーション、アコーディオン、ロールフォールド、クロスフォールドなど）をカバーする。すべて2つのSurface（outside / inside）にグループ化される。"@ja,
+        "Et trykkprodukt som består av ett enkelt fysisk ark brettet en eller flere ganger for å lage flere visuelle paneler organisert i to surfaces — Outside (én side av det ubrettede arket, synlig når leaflet er lukket) og Inside (den andre siden, synlig når åpnet). Hver surface konfigureres uavhengig med sin egen trykklags-stack (Color Layer → Embellishment → Surface Finish). Brukes for leaflets, single/tri/accordion-fold brosjyrer, og gate-fold markedsmateriell. Hver variant under denne familien definerer sitt spesifikke panel-antall og brett-geometri."@nb,
+        "Drukwerk bestaande uit één fysiek vel, een of meer keren gevouwen zodat meerdere visuele panelen ontstaan, georganiseerd in twee vlakken — buitenzijde (de kant van het ongevouwen vel die zichtbaar is als de folder dicht is) en binnenzijde (de andere kant, zichtbaar bij openen). De vouwtopologie wordt gekozen via de opbouwmodel-varianten."@nl,
+        "Produkt drukowany składający się z jednego fizycznego arkusza złożonego raz lub więcej razy, tworzącego wiele wizualnych skrzydeł zorganizowanych w dwie powierzchnie — Zewnętrzna (jedna strona rozłożonego arkusza, widoczna po zamknięciu) i Wewnętrzna (druga strona, widoczna po otwarciu). Każda powierzchnia jest konfigurowana niezależnie z własnym stosem warstw druku (warstwa barwna → uszlachetnienie → wykończenie powierzchni). Używana do ulotek, folderów z jednym złamem, na C i harmonijkowych oraz materiałów marketingowych ze złamem okienkowym. Każdy wariant w tej rodzinie definiuje własną liczbę skrzydeł i geometrię złamów."@pl,
+        "Impresso formado por uma única folha física dobrada uma ou mais vezes para criar vários painéis visuais organizados em duas faces — Exterior (um lado da folha aberta, visível com o folheto fechado) e Interior (o outro lado, visível quando aberto). Cada face é configurável de forma independente com sua própria pilha de camadas de impressão (Camada de cor → Enobrecimento → Acabamento de superfície). Usada em folhetos, brochuras com dobra simples/tríptico/sanfona e materiais de marketing com dobra janela. Cada variante desta família define seu número de painéis e geometria de dobra."@pt,
+        "En trycksak bestående av ett enda fysiskt ark falsat en eller flera gånger så att flera visuella paneler skapas, organiserade i två ytor — utsida (den sida av det ovikta arket som syns när foldern är stängd) och insida (den andra sidan, som syns när den öppnas). Varje yta konfigureras oberoende med sin egen tryckskiktstack (färgskikt → dekor → ytbehandling). Används för foldrar, enkel-/C-/dragspelsfalsade broschyrer och portfalsat marknadsmaterial. Varje variant i familjen definierar sitt specifika panelantal och sin falsgeometri."@sv,
+        "Folded Sheet Setup 描述由单张承印物经折页分为多个面板构成的印刷品拓扑。十三种变体涵盖完整的折页方式空间（单折、三折、Z 折、对开门折及其变体、风琴折、卷折、交叉折等）。所有变体均归入 2 个 Surfaces（外侧 / 内侧）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/accordion-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/closed-gate-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/cross-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/cross-tri-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/double-closed-gate-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/double-parallel-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/gate-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/open-gate-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/roll-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/single-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold-stand>,
+        <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/z-fold> ;
+    skos:notation "P:CF-SMO-FOS" ;
+    skos:prefLabel "Falset ark"@da,
+        "Gefalzter Bogen-Setup"@de,
+        "Folded Sheet Setup"@en,
+        "Configuración de hoja plegada"@es,
+        "फ़ोल्डेड शीट सेटअप"@hi,
+        "折りシート構成"@ja,
+        "Brettet ark oppsett"@nb,
+        "Gevouwen vel"@nl,
+        "Konfiguracja arkusz złożony"@pl,
+        "Montagem em folha dobrada"@pt,
+        "Falsat ark"@sv,
+        "折页结构"@zh-Hans ;
+    skos:scopeNote "Thirteen Setup Models cover the full folded-sheet topology space, matching the corresponding Folding operations in printing/completions/finishing/folding/. Surface structure varies: 4 panels (single-fold), 6 panels (tri-fold, z-fold, gate-fold variants, tri-fold-stand), 8 panels (double-closed-gate-fold, double-parallel-fold, cross-fold, roll-fold), 12 panels (cross-tri-fold), and variable count (accordion-fold)."@en,
+        "तेरह सेटअप मॉडल पूरे फ़ोल्डेड-शीट बनावट-दायरे को कवर करते हैं, printing/completions/finishing/folding/ की संगत फ़ोल्डिंग क्रियाओं से मेल खाते हुए। सतह संरचना भिन्न है: 4 पैनल (सिंगल-फ़ोल्ड), 6 पैनल (ट्राई-फ़ोल्ड, Z-फ़ोल्ड, गेट-फ़ोल्ड वेरिएंट, ट्राई-फ़ोल्ड स्टैंड), 8 पैनल (डबल-क्लोज़्ड-गेट-फ़ोल्ड, डबल-पैरलल-फ़ोल्ड, क्रॉस-फ़ोल्ड, रोल-फ़ोल्ड), 12 पैनल (क्रॉस-ट्राई-फ़ोल्ड) और परिवर्तनशील संख्या (अकॉर्डियन-फ़ोल्ड)।"@hi,
+        "Treze Modelos de Montagem cobrem todo o espaço topológico de folha dobrada, correspondendo às operações de Dobra em printing/completions/finishing/folding/. A estrutura de faces varia: 4 painéis (dobra simples), 6 painéis (tríptico, dobra Z, variantes de dobra janela, tríptico de mesa), 8 painéis (dobra janela fechada dupla, dobra paralela dupla, dobra cruzada, dobra envolvente), 12 painéis (tríptico cruzado) e número variável (sanfona)."@pt ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

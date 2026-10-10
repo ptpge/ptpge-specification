@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering> ;
+    skos:definition "Kontrolleret vokabular, der beskriver hvordan trykte produkter typisk bruges. Refereres af produktskabeloner via `ptpge:typicalUse`, som er en liste af URI-referencer ind i denne kategori. Giver standardiseret købersprog til søgning, filtrering og produktmatchning."@da,
+        "Kontrolliertes Vokabular, das beschreibt, wie Druckprodukte typischerweise verwendet werden. Wird von Product Templates über `ptpge:typicalUse` referenziert, eine Liste von URI-Referenzen in diese Kategorie."@de,
+        "Controlled vocabulary describing how printed products are typically used. Referenced by Product Templates via `ptpge:typicalUse`, which is a list of URI references into this category. Provides standardised buyer-facing language for search, filtering, and product matching."@en,
+        "Vocabulario controlado que describe cómo se utilizan típicamente los productos impresos. Es referenciado por Product Templates mediante `ptpge:typicalUse`, una lista de referencias URI dentro de esta categoría. Proporciona un lenguaje estandarizado orientado al comprador para búsqueda, filtrado y emparejamiento de productos."@es,
+        "मुद्रित उत्पादों के सामान्य उपयोग का वर्णन करने वाला नियंत्रित शब्दकोश। उत्पाद टेम्पलेट `ptpge:typicalUse` के ज़रिए इसे संदर्भित करते हैं — इस श्रेणी में URI संदर्भों की सूची। खोज, फ़िल्टर और उत्पाद मिलान के लिए खरीदार-उन्मुख मानकीकृत भाषा देता है।"@hi,
+        "印刷物が典型的にどのように使用されるかを記述する統制語彙。Product Templates から `ptpge:typicalUse`（このカテゴリ内のURI参照のリスト）を介して参照される。検索、フィルタリング、製品マッチングのための、購入者向けに標準化された言語を提供する。"@ja,
+        "Kontrollert vokabular som beskriver hvordan trykkprodukter typisk brukes. Refereres av Product Templates via `ptpge:typicalUse`, som er en liste av URI-referanser inn i denne kategorien. Gir standardisert kjøper-rettet språk for søk, filtrering og produktmatching."@nb,
+        "Gecontroleerd vocabulaire dat beschrijft hoe drukwerk doorgaans wordt gebruikt. Wordt door productsjablonen gerefereerd via `ptpge:typicalUse`, een lijst van URI-verwijzingen naar deze categorie. Biedt gestandaardiseerde kopersgerichte taal voor zoeken, filteren en productmatching."@nl,
+        "Kontrolowane słownictwo opisujące typowe zastosowania produktów drukowanych. Przywoływane przez szablony produktów poprzez `ptpge:typicalUse`, będące listą odwołań URI do tej kategorii. Dostarcza ustandaryzowanego języka zorientowanego na nabywcę do wyszukiwania, filtrowania i dopasowywania produktów."@pl,
+        "Vocabulário controlado que descreve como os impressos são normalmente usados. Referenciado pelos Modelos de Produto via `ptpge:typicalUse`, uma lista de referências URI para esta categoria. Fornece linguagem padronizada, voltada ao comprador, para busca, filtragem e correspondência de produtos."@pt,
+        "Kontrollerad vokabulär som beskriver hur trycksaker typiskt används. Refereras av produktmallar via `ptpge:typicalUse`, en lista med URI-referenser in i denna kategori. Ger ett standardiserat köparvänt språk för sökning, filtrering och produktmatchning."@sv,
+        "用于描述印刷品典型用途的受控词汇。Product Templates 通过 `ptpge:typicalUse`（指向本类目内 URI 引用的列表）进行引用。为搜索、筛选与产品匹配提供面向买方的标准化用语。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/use-cases/branding>,
+        <https://ptpge.org/v1/ordering/use-cases/educational>,
+        <https://ptpge.org/v1/ordering/use-cases/event-promotion>,
+        <https://ptpge.org/v1/ordering/use-cases/informational>,
+        <https://ptpge.org/v1/ordering/use-cases/instructional>,
+        <https://ptpge.org/v1/ordering/use-cases/marketing>,
+        <https://ptpge.org/v1/ordering/use-cases/networking>,
+        <https://ptpge.org/v1/ordering/use-cases/packaging-presentation>,
+        <https://ptpge.org/v1/ordering/use-cases/professional-contact>,
+        <https://ptpge.org/v1/ordering/use-cases/wayfinding> ;
+    skos:notation "O:UC" ;
+    skos:prefLabel "Anvendelser"@da,
+        "Anwendungsfälle"@de,
+        "Use Cases"@en,
+        "Casos de Uso"@es,
+        "उपयोग के मामले"@hi,
+        "ユースケース"@ja,
+        "Bruksområder"@nb,
+        "Toepassingen"@nl,
+        "Przypadki użycia"@pl,
+        "Casos de uso"@pt,
+        "Användningsområden"@sv,
+        "使用场景"@zh-Hans ;
+    skos:scopeNote "v1 ships with 10 initial use cases covering the most common buyer intents. The vocabulary expands as new product domains are modelled. New values follow the standard term-addition workflow (see PTPGE-Product-Model.md § 11.3)."@en,
+        "v1 में 10 प्रारंभिक उपयोग-मामले हैं जो खरीदार के सबसे आम इरादे कवर करते हैं। नए उत्पाद क्षेत्र मॉडल होने पर शब्दकोश बढ़ता है। नए मान मानक पद-जोड़ने की प्रक्रिया का पालन करते हैं (देखें PTPGE-Product-Model.md § 11.3)।"@hi,
+        "A v1 traz 10 casos de uso iniciais que cobrem as intenções de compra mais comuns. O vocabulário cresce à medida que novos domínios de produto são modelados. Novos valores seguem o fluxo padrão de adição de termos (ver PTPGE-Product-Model.md § 11.3)."@pt ;
+    ptpge:group "use-cases" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

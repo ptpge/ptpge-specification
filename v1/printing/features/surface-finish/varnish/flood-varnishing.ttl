@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/varnish/flood-varnishing> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Flood varnish"@en,
+        "Full varnish"@en,
+        "Overall varnish"@en,
+        "Sealer"@en,
+        "ओवरऑल वार्निश"@hi,
+        "पूरी सतह पर वार्निश"@hi,
+        "फ़ुल वार्निश"@hi,
+        "सीलर"@hi,
+        "Fullakk"@nb,
+        "Hellakk"@nb,
+        "lakier całościowy"@pl,
+        "lakier ochronny"@pl,
+        "lakier pełny"@pl,
+        "selador"@pt,
+        "verniz de cobertura"@pt,
+        "verniz geral"@pt,
+        "verniz integral"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/varnish> ;
+    skos:definition "En lak påført hele overfladen for samlet beskyttelse og glans."@da,
+        "Über die gesamte Fläche aufgetragener Lack für Schutz und Glanz."@de,
+        "A varnish applied across the entire surface for overall protection and sheen."@en,
+        "Un barniz aplicado a toda la superficie para protección y brillo generales."@es,
+        "समग्र सुरक्षा और चमक के लिए पूरी सतह पर लगाया गया वार्निश।"@hi,
+        "全面に塗布するニス。全体の保護と光沢のために施す。"@ja,
+        "Lakk påført hele overflaten for beskyttelse og glans."@nb,
+        "Een lak over het volledige oppervlak voor algehele bescherming en glans."@nl,
+        "Lakier nanoszony na całą powierzchnię dla ogólnej ochrony i połysku."@pl,
+        "Verniz aplicado em toda a superfície para proteção e brilho gerais."@pt,
+        "En lack applicerad över hela ytan för generellt skydd och lyster."@sv,
+        "涂布于整个表面的上光油，提供整体保护与光泽。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§FLOOD-VARNISHING" ;
+    skos:prefLabel "Heldækkende lakering"@da,
+        "Vollflächiger Lack"@de,
+        "Flood Varnishing"@en,
+        "Flood Varnishing"@es,
+        "फ़्लड वार्निश"@hi,
+        "Flood Varnishing"@ja,
+        "Hellakkering"@nb,
+        "Volvlaks lakken"@nl,
+        "Lakierowanie pełne"@pl,
+        "Verniz total"@pt,
+        "Heltäckande lackering"@sv,
+        "Flood Varnishing"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§5.5.3 · p.112" ;
+            ptpge:mappingRow "crosswalk row 26" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "Varnishing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

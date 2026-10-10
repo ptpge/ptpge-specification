@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/osb-board> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "OSB"@en,
+        "OSB Board"@en,
+        "Oriented Strand Board"@en,
+        "oriented strand board"@en,
+        "OSB"@hi,
+        "OSB बोर्ड"@hi,
+        "ओरिएंटेड स्ट्रैंड बोर्ड"@hi,
+        "OSB"@nb,
+        "OSB-plate"@nb,
+        "płyta OSB"@pl,
+        "płyta o wiórach orientowanych"@pl,
+        "OSB"@pt,
+        "chapa OSB"@pt,
+        "oriented strand board"@pt,
+        "painel OSB"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite> ;
+    skos:definition "Oriented strand board — konstrueret panel af sammenpressede, limede træstrimler."@da,
+        "Grobspanplatte (OSB) — Platte aus verpressten, verleimten Holzspänen."@de,
+        "Oriented strand board — engineered panel of compressed, glued wood strands."@en,
+        "Tablero de virutas orientadas — panel derivado de virutas de madera prensadas y encoladas."@es,
+        "ओरिएंटेड स्ट्रैंड बोर्ड — दबाई और चिपकाई गई लकड़ी की पट्टियों का इंजीनियर्ड पैनल।"@hi,
+        "配向性ストランドボード（OSB） — 圧縮・接着した木質ストランドのエンジニアードパネル。"@ja,
+        "Oriented strand board — teknisk plate av komprimerte, limte trespon."@nb,
+        "Oriented strand board — samengesteld paneel van samengeperste, gelijmde houtstrengen."@nl,
+        "Płyta o wiórach orientowanych — płyta drewnopochodna ze sprasowanych, sklejonych wiórów drzewnych."@pl,
+        "Painel de tiras de madeira orientadas — chapa engenheirada de tiras de madeira prensadas e coladas."@pt,
+        "Oriented strand board — konstruerad skiva av sammanpressade, limmade träspån."@sv,
+        "定向刨花板（OSB） — 由压缩胶合的木质刨花制成的工程板材。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§OSB-BOARD" ;
+    skos:prefLabel "OSB"@da,
+        "OSB-Platte"@de,
+        "OSB"@en,
+        "Tablero OSB"@es,
+        "OSB"@hi,
+        "OSB板"@ja,
+        "OSB"@nb,
+        "OSB"@nl,
+        "OSB"@pl,
+        "OSB"@pt,
+        "OSB"@sv,
+        "OSB板"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/distribution/incoterms/fas> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "FAS"@en,
+        "Free Alongside Ship"@en,
+        "FAS"@hi,
+        "Free Alongside Ship"@hi,
+        "FAS"@pl,
+        "Franco wzdłuż burty statku"@pl,
+        "Free Alongside Ship"@pl,
+        "FAS"@pt,
+        "Free Alongside Ship"@pt ;
+    skos:broader <https://ptpge.org/v1/ordering/distribution/incoterms> ;
+    skos:definition "FAS (Free Alongside Ship) — en Incoterms® 2020-handelsklausul (ICC), der definerer fordelingen af omkostninger, risiko og ansvar mellem køber og sælger. Kun til reference; ICC er den autoritative kilde. Transportform: sø- og indlandsvandvejstransport."@da,
+        "FAS (Frei Längsseite Schiff) — eine Incoterms®-2020-Handelsklausel (ICC), die die Verteilung von Kosten, Risiko und Verantwortung zwischen Käufer und Verkäufer festlegt. Nur zur Referenz; maßgeblich ist die ICC. Geeignet für den See- und Binnenschiffstransport."@de,
+        "FAS (Free Alongside Ship) — an Incoterms® 2020 trade term (ICC) defining the division of cost, risk and responsibility between buyer and seller. Reference only; the ICC is authoritative. Transport mode: sea and inland waterway."@en,
+        "FAS (Franco al costado del buque) — un término comercial Incoterms® 2020 (ICC) que define el reparto de costes, riesgo y responsabilidad entre comprador y vendedor. Solo referencia; la ICC es la autoridad. Modo de transporte: marítimo y vías navegables interiores."@es,
+        "FAS (Free Alongside Ship) — Incoterms® 2020 व्यापार शर्त (ICC) जो खरीदार और विक्रेता के बीच लागत, जोखिम और ज़िम्मेदारी के बँटवारे को परिभाषित करती है। केवल संदर्भ; ICC प्रामाणिक है। परिवहन माध्यम: समुद्री और अंतर्देशीय जलमार्ग।"@hi,
+        "FAS（船側渡し） — 買い手と売り手の間の費用・リスク・責任の分担を定める Incoterms® 2020 の貿易条件（ICC）。参照用であり、正文は ICC。輸送手段：海上・内陸水路輸送。"@ja,
+        "FAS (Free Alongside Ship) — et Incoterms® 2020-handelsvilkår (ICC) som definerer fordelingen av kostnad, risiko og ansvar mellom kjøper og selger. Kun referanse; ICC er autoritativ. Transportmodus: sjø og innlands vannvei."@nb,
+        "FAS (Free Alongside Ship) — een Incoterms® 2020-handelsterm (ICC) die de verdeling van kosten, risico en verantwoordelijkheid tussen koper en verkoper definieert. Uitsluitend ter referentie; de ICC is de gezaghebbende bron. Vervoerswijze: zee- en binnenvaarttransport."@nl,
+        "FAS (Franco wzdłuż burty statku) — reguła handlowa Incoterms® 2020 (ICC) definiująca podział kosztów, ryzyka i odpowiedzialności między kupującym a sprzedającym. Wyłącznie odniesienie; źródłem autorytatywnym jest ICC. Rodzaj transportu: morski i śródlądowy."@pl,
+        "FAS (Free Alongside Ship) — termo comercial Incoterms® 2020 (ICC) que define a divisão de custo, risco e responsabilidade entre comprador e vendedor. Apenas referência; a ICC é a fonte autoritativa. Modal de transporte: marítimo e hidroviário interior."@pt,
+        "FAS (Free Alongside Ship) — en handelsterm i Incoterms® 2020 (ICC) som definierar fördelningen av kostnad, risk och ansvar mellan köpare och säljare. Endast referens; ICC är auktoritativ. Transportsätt: sjöfart och transport på inre vattenvägar."@sv,
+        "FAS（船边交货）——Incoterms® 2020 贸易术语（ICC），界定买卖双方在费用、风险与责任上的划分。仅供参考，以 ICC 正文为准。运输方式：海运及内河水运。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:DS§FAS" ;
+    skos:prefLabel "FAS — Free Alongside Ship"@da,
+        "FAS — Frei Längsseite Schiff"@de,
+        "FAS — Free Alongside Ship"@en,
+        "FAS — Franco al costado del buque"@es,
+        "FAS — जहाज़ के बग़ल में मुक्त"@hi,
+        "FAS — 船側渡し"@ja,
+        "FAS — Free Alongside Ship"@nb,
+        "FAS — Free Alongside Ship"@nl,
+        "FAS — Franco wzdłuż burty statku"@pl,
+        "FAS — Livre ao Lado do Navio"@pt,
+        "FAS — Free Alongside Ship"@sv,
+        "FAS — 船边交货"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "distribution" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

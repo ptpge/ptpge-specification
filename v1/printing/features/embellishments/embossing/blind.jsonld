@@ -1,0 +1,94 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/embossing/blind",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Blind Embossing",
+    "nb": "Blind embossing",
+    "de": "Blindprägung",
+    "ja": "ブラインドエンボス",
+    "es": "Relieve en seco / Embossing ciego",
+    "zh-Hans": "盲压凸",
+    "nl": "Blindpreeg",
+    "sv": "Blindprägling",
+    "da": "Blindprægning",
+    "pl": "Tłoczenie ślepe",
+    "pt": "Relevo seco",
+    "hi": "ब्लाइंड एम्बॉसिंग"
+  },
+  "definition": {
+    "en": "Embossing without ink or foil — the raised relief is in the substrate's natural colour. Creates a subtle, sophisticated tactile effect. Common on premium business cards and luxury packaging.",
+    "nb": "Embossing uten blekk eller folie — den hevede relieffen er i substratets naturlige farge. Skaper en subtil, sofistikert taktil effekt. Vanlig på premium visittkort og luksusemballasje.",
+    "de": "Prägung ohne Druckfarbe oder Folie — das erhabene Relief ist in der natürlichen Farbe des Substrats.",
+    "ja": "インキも箔も使わないエンボス — 盛り上がったレリーフは基材の地色のまま。控えめで上質な触感効果を生む。プレミアム名刺や高級パッケージで一般的。",
+    "es": "Gofrado sin tinta ni foil — el relieve elevado queda en el color natural del sustrato. Crea un efecto táctil sutil y sofisticado. Común en tarjetas de visita premium y packaging de lujo.",
+    "zh-Hans": "不用油墨或电化铝的压凸 — 凸起浮雕保持材料本色。营造微妙而高级的触感效果。常见于高档名片与奢华包装。",
+    "sv": "Prägling utan bläck eller folie — den upphöjda reliefen är i substratets naturfärg. Skapar en subtil, sofistikerad taktil effekt. Vanlig på exklusiva visitkort och lyxförpackningar.",
+    "da": "Prægning uden farve eller folie — det hævede relief står i substratets naturlige farve. Skaber en diskret, sofistikeret taktil effekt. Almindelig på eksklusive visitkort og luksusemballage.",
+    "nl": "Preging zonder inkt of folie — het verhoogde reliëf blijft in de natuurlijke substraatkleur. Creëert een subtiel, verfijnd tactiel effect. Gebruikelijk op exclusieve visitekaartjes en luxeverpakkingen.",
+    "pl": "Tłoczenie bez farby ani folii — wypukły relief ma naturalny kolor podłoża. Daje subtelny, wyrafinowany efekt dotykowy. Typowe dla wizytówek premium i opakowań luksusowych.",
+    "pt": "Relevo sem tinta nem foil — o relevo elevado fica na cor natural do substrato. Cria um efeito tátil sutil e sofisticado. Comum em cartões de visita premium e embalagens de luxo.",
+    "hi": "बिना स्याही या फ़ॉइल के एम्बॉसिंग — उभार सब्सट्रेट के प्राकृतिक रंग में रहता है। सूक्ष्म, परिष्कृत स्पर्श प्रभाव। प्रीमियम विज़िटिंग कार्ड और लक्ज़री पैकेजिंग में आम।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments/embossing",
+  "properties": {
+    "selective": true,
+    "processType": "mechanical-press",
+    "coverage": "selective",
+    "reliefDirection": "raised"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§BLIND",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "Blind emboss",
+      "Blind embossing",
+      "Embossed no ink"
+    ],
+    "nb": [
+      "Blindpreg"
+    ],
+    "pl": [
+      "ślepy tłok",
+      "tłoczenie bez farby",
+      "suchy tłok"
+    ],
+    "pt": [
+      "relevo seco",
+      "alto-relevo seco",
+      "relevo sem tinta",
+      "relevo cego"
+    ],
+    "hi": [
+      "ब्लाइंड एम्बॉस",
+      "सादा एम्बॉसिंग",
+      "बिना स्याही का उभार"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent",
+        "Embossing",
+        "EmbossingParams"
+      ],
+      "refs": [
+        "§4.6 · p.74",
+        "§5.6.12 · p.118",
+        "§6.32 · p.197"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 27"
+    }
+  ]
+}

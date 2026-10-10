@@ -1,0 +1,87 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/side-stapling",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§SIDE-STAPLING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "label": {
+    "en": "Side Stapling",
+    "nb": "Sidestifting",
+    "de": "Seitenheftung",
+    "ja": "Side Stapling",
+    "es": "Side Stapling",
+    "zh-Hans": "Side Stapling",
+    "sv": "Sidohäftning",
+    "da": "Sidehæftning",
+    "nl": "Zijdelings nieten",
+    "pl": "Zszywanie boczne",
+    "pt": "Grampo lateral",
+    "hi": "साइड स्टेपलिंग"
+  },
+  "definition": {
+    "en": "Staples through the side edge of a stack, near the spine.",
+    "nb": "Stifter gjennom sidekanten av en bunke, nær ryggen.",
+    "de": "Heftklammern durch die Seitenkante eines Stapels, nahe dem Rücken.",
+    "ja": "束の側端、背の近くを貫いてステープルで綴じる。",
+    "es": "Grapas a través del borde lateral de la pila, cerca del lomo.",
+    "zh-Hans": "在纸叠侧边靠近书脊处穿钉装订。",
+    "sv": "Klamrar genom buntens sidkant, nära ryggen.",
+    "da": "Klammer gennem sidekanten af en stak, nær ryggen.",
+    "nl": "Nietjes door de zijkant van een stapel, dicht bij de rug.",
+    "pl": "Zszywki przez boczną krawędź stosu, blisko grzbietu.",
+    "pt": "Grampos pela borda lateral do maço, junto à lombada.",
+    "hi": "ढेर के किनारे से, स्पाइन के पास, स्टेपल।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Side stitch",
+      "Side staple",
+      "Stab stitch"
+    ],
+    "nb": [
+      "Sidestifting",
+      "Sidestift"
+    ],
+    "pl": [
+      "zszycie boczne",
+      "zszywanie przez blok"
+    ],
+    "pt": [
+      "grampeado na lateral",
+      "grampo de lado",
+      "costura lateral"
+    ],
+    "hi": [
+      "साइड स्टिच",
+      "साइड पिनिंग",
+      "किनारे की पिन",
+      "स्टैब स्टिच"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "Stitching"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.32 · p.132"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 39"
+    }
+  ]
+}

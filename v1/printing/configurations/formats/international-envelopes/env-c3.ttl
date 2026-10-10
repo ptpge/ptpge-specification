@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c3> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "32.4 x 45.8 cm"@en,
+        "324 x 458 mm"@en,
+        "324x458"@en,
+        "324×458"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "324 × 458 mm. C3-kuvert efter ISO 269 — rummer et A3-ark fladt. Bruges til katalog- og stordokumentforsendelserutskick."@da,
+        "324 × 458 mm. ISO-269-C3-Briefumschlag — fasst einen A3-Bogen ungefaltet. Verwendet für Katalog- und Großdokumentversand."@de,
+        "324 × 458 mm. ISO 269 C3 envelope — holds an A3 sheet flat. Used for catalog and large-document mailings."@en,
+        "Sobre C3 de la serie C de ISO 269, dimensiones 324 × 458 mm. Diseñado para contener la hoja A del mismo número."@es,
+        "324 × 458 mm. ISO 269 C3 लिफ़ाफ़ा — A3 शीट सपाट समाती है। कैटलॉग और बड़े दस्तावेज़ों की डाक में।"@hi,
+        "324×458mm。ISO 269 C3封筒 — A3シートを折らずに収納する。カタログおよび大型書類郵送に使用される。"@ja,
+        "324 × 458 mm. ISO 269 C3-konvolutt — rommer et A3-ark uten brett. Brukt til katalog- og storformat-utsendelser."@nb,
+        "324 × 458 mm. C3-envelop volgens ISO 269 — biedt plaats aan een vlak A3-vel. Gebruikt voor catalogus- en grootformaatzendingenutskick."@nl,
+        "324 × 458 mm. Koperta ISO 269 C3 — mieści arkusz A3 na płasko. Używana do wysyłki katalogów i dużych dokumentów."@pl,
+        "324 × 458 mm. Envelope C3 da ISO 269 — comporta uma folha A3 aberta. Usado em catálogos e documentos grandes."@pt,
+        "324 × 458 mm. C3-kuvert enligt ISO 269 — rymmer ett A3-ark plant. Används för katalog- och stordokumentutskick."@sv,
+        "ISO 269 C系列C3信封，尺寸324 × 458 mm。设计用于装相同编号的A纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ENV-C3" ;
+    skos:prefLabel "Kuvert C3 (324 × 458 mm)"@da,
+        "Envelope C3 (324 × 458 mm)"@de,
+        "Envelope C3 (324 × 458 mm)"@en,
+        "C3 (324 × 458 mm)"@es,
+        "लिफ़ाफ़ा C3 (324 × 458 mm)"@hi,
+        "Envelope C3 (324 × 458 mm)"@ja,
+        "Envelope C3 (324 × 458 mm)"@nb,
+        "Kuvert C3 (324 × 458 mm)"@nl,
+        "Koperta C3 (324 × 458 mm)"@pl,
+        "Envelope C3 (324 × 458 mm)"@pt,
+        "Kuvert C3 (324 × 458 mm)"@sv,
+        "C3 (324 × 458 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 148392.0 ;
+            ptpge:aspectRatio 1.4136 ;
+            ptpge:height 458.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 324.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

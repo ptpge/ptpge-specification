@@ -1,0 +1,48 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/special-materials/specials",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Specials",
+    "es": "Materiales Especiales",
+    "zh-Hans": "特殊材料",
+    "nb": "Spesielt",
+    "de": "Spezialprodukte",
+    "ja": "特殊製品",
+    "sv": "Specialer",
+    "da": "Specialer",
+    "nl": "Specials",
+    "pl": "Specjalne",
+    "pt": "Especiais",
+    "hi": "स्पेशल"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§SPECIALS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/special-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Specialty substrates outside standard categories — niche materials chosen for specific functional or aesthetic requirements that don't fit board, sheet, roll, or object substrates.",
+    "nb": "Spesialsubstrater utenfor standardkategoriene — nisjemateriealer valgt av spesifikke funksjonelle eller estetiske krav som ikke passer i board-, sheet-, roll- eller object-substrater.",
+    "de": "Spezialbedruckstoffe außerhalb der Standardkategorien — Nischenmaterialien, die für spezifische funktionale oder ästhetische Anforderungen ausgewählt werden und nicht in die Kategorien Platten-, Bogen-, Rollen- oder Objektmaterialien passen.",
+    "ja": "標準カテゴリ外の特殊基材 — ボード、シート、ロール、立体物の基材に当てはまらない、特定の機能的または美的要件のために選ばれるニッチ材料。",
+    "es": "Sustratos de nicho — papel transfer, plástico magnético, papel adhesivo, materiales fluorescentes — utilizados para aplicaciones específicas fuera de las categorías estándar.",
+    "zh-Hans": "小众承印物 —— 转印纸、磁性塑料、自粘纸、荧光材料 —— 用于标准分类之外的特定应用。",
+    "sv": "Specialsubstrat utanför standardkategorierna — nischmaterial valda för specifika funktionella eller estetiska krav som inte passar skiv-, ark-, rull- eller objektsubstrat.",
+    "da": "Specialsubstrater uden for standardkategorierne — nichematerialer valgt til specifikke funktionelle eller æstetiske krav, der ikke passer i plade-, ark-, rulle- eller objektsubstrater.",
+    "nl": "Speciale substraten buiten de standaardcategorieën — nichematerialen gekozen om specifieke functionele of esthetische eisen die niet passen bij plaat-, vel-, rol- of objectsubstraten.",
+    "pl": "Podłoża specjalne spoza standardowych kategorii — materiały niszowe wybierane pod konkretne wymagania funkcjonalne lub estetyczne, niepasujące do podłoży płytowych, arkuszowych, zwojowych ani obiektowych.",
+    "pt": "Substratos especiais fora das categorias padrão — materiais de nicho escolhidos por requisitos funcionais ou estéticos específicos que não cabem em chapa, folha, rolo ou objeto.",
+    "hi": "मानक श्रेणियों से बाहर के विशेष सब्सट्रेट — विशिष्ट कार्यात्मक या सौंदर्य आवश्यकताओं के लिए चुनी गई नीश सामग्री जो बोर्ड, शीट, रोल या वस्तु सब्सट्रेट में नहीं आती।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

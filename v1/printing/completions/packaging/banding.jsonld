@@ -1,0 +1,106 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/banding",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§BANDING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Banding",
+    "nb": "Banding",
+    "de": "Banderolierung",
+    "ja": "Banding",
+    "es": "Banding",
+    "zh-Hans": "Banding",
+    "sv": "Banderollering",
+    "da": "Bandering",
+    "nl": "Banderolleren",
+    "pl": "Banderolowanie",
+    "pt": "Cintagem",
+    "hi": "बैंडिंग"
+  },
+  "definition": {
+    "en": "Securing a stack or bundle with a paper or plastic band.",
+    "nb": "Sikring av en bunke eller pakke med en papir- eller plastbånd.",
+    "de": "Sichern eines Stapels oder Bündels mit einer Papier- oder Kunststoffbanderole.",
+    "ja": "紙またはプラスチックの帯で束を固定する。",
+    "es": "Asegurar una pila o un paquete con una banda de papel o plástico.",
+    "zh-Hans": "用纸带或塑料带捆扎一叠或一捆印品。",
+    "sv": "Säkring av en bunt eller ett paket med ett pappers- eller plastband.",
+    "da": "Sikring af en stak eller et bundt med et papir- eller plastbånd.",
+    "nl": "Een stapel of bundel vastzetten met een papieren of kunststof band.",
+    "pl": "Zabezpieczenie stosu lub paczki papierową lub plastikową opaską.",
+    "pt": "Prender um maço ou pacote com uma cinta de papel ou plástico.",
+    "hi": "ढेर या बंडल को काग़ज़ या प्लास्टिक की पट्टी से बाँधना।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Paper band",
+      "Banded",
+      "Belly band"
+    ],
+    "nb": [
+      "Banderole"
+    ],
+    "pl": [
+      "opaska papierowa",
+      "banderola",
+      "opaska"
+    ],
+    "pt": [
+      "cinta de papel",
+      "cintado",
+      "cinta"
+    ],
+    "hi": [
+      "पेपर बैंड",
+      "बैंड लगाना",
+      "बेली बैंड",
+      "पट्टी"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Bundling",
+        "Strapping"
+      ],
+      "refs": [
+        "§5.6.4 · p.114",
+        "§5.6.33 · p.132"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 46"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

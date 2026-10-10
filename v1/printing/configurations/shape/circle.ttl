@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/shape/circle> a skos:Concept ;
+    dcterms:created "2026-06-19T10:33:12+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Circular"@en,
+        "Disc"@en,
+        "Round"@en,
+        "गोल"@hi,
+        "डिस्क"@hi,
+        "राउंड"@hi,
+        "वृत्ताकार"@hi,
+        "Rund"@nb,
+        "Sirkulær"@nb,
+        "kolisty"@pl,
+        "krążek"@pl,
+        "okrągły"@pl,
+        "circular"@pt,
+        "disco"@pt,
+        "redondo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/shape> ;
+    skos:definition "Rund (cirkulær) kontur — fremstillet ved udstansning eller konturskæring af et rektangulært ark. Bruges til klistermærker, etiketter, ølbrikker og badges."@da,
+        "Runder (kreisförmiger) Umriss — durch Stanzen oder Konturschnitt aus dem rechteckigen Bogen. Für Sticker, Etiketten, Untersetzer und Buttons."@de,
+        "Round (circular) outline — produced by die-cutting or contour-cutting a rectangular sheet. Used for stickers, labels, coasters and badges."@en,
+        "Contorno redondo (circular) — producido troquelando o cortando por contorno una hoja rectangular. Para pegatinas, etiquetas, posavasos e insignias."@es,
+        "गोल (वृत्ताकार) रूपरेखा — आयताकार शीट को डाई-कट या कंटूर-कट करके। स्टिकर, लेबल, कोस्टर और बैज में।"@hi,
+        "円形の輪郭 — 長方形の用紙を型抜きまたは輪郭カットして作る。ステッカー、ラベル、コースター、バッジに使われる。"@ja,
+        "Rundt (sirkulært) omriss — laget ved stansing eller konturskjæring av et rektangulært ark. Brukt for klistremerker, etiketter, brikker og merker."@nb,
+        "Ronde (cirkelvormige) contour — gemaakt door stansen of contoursnijden van een rechthoekig vel. Gebruikt voor stickers, etiketten, bierviltjes en buttons."@nl,
+        "Okrągły obrys — uzyskiwany przez wykrawanie lub cięcie konturowe prostokątnego arkusza. Używany do naklejek, etykiet, podkładek i przypinek."@pl,
+        "Contorno redondo (circular) — obtido por corte especial ou corte de contorno de uma folha retangular. Usado em adesivos, rótulos, porta-copos e crachás."@pt,
+        "Rund (cirkulär) kontur — framställd genom stansning eller konturskärning av ett rektangulärt ark. Används för klistermärken, etiketter, glasunderlägg och knappar."@sv,
+        "圆形轮廓 — 通过模切或轮廓切割矩形纸张制成。用于贴纸、标签、杯垫与徽章。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§CIRCLE" ;
+    skos:prefLabel "Cirkel"@da,
+        "Kreis"@de,
+        "Circle"@en,
+        "Círculo"@es,
+        "वृत्त"@hi,
+        "円"@ja,
+        "Sirkel"@nb,
+        "Cirkel"@nl,
+        "Koło"@pl,
+        "Círculo"@pt,
+        "Cirkel"@sv,
+        "圆形"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.13 · p.81" ;
+            ptpge:mappingRow "crosswalk row 22" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "ShapeCuttingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

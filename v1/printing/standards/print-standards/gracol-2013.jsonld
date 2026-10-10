@@ -1,0 +1,63 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+  "type": "skos:Concept",
+  "version": "2026-06-17",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "GRACoL 2013",
+    "nb": "GRACoL 2013",
+    "sv": "GRACoL 2013",
+    "da": "GRACoL 2013",
+    "nl": "GRACoL 2013",
+    "pl": "GRACoL 2013",
+    "pt": "GRACoL 2013",
+    "hi": "GRACoL 2013"
+  },
+  "notation": "P:ST§GRACOL-2013",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-06-17T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Idealliance specification for premium sheetfed offset on Grade 1 coated stock (GRACoL2013 / CRPC6).",
+    "nb": "Idealliance-spesifikasjon for høykvalitets arkoffset på bestrøket papir (GRACoL2013 / CRPC6).",
+    "de": "Idealliance-Spezifikation für Premium-Bogenoffset auf gestrichenem Grade-1-Papier (GRACoL2013 / CRPC6).",
+    "es": "Especificación de Idealliance para ófset de pliegos premium sobre papel estucado Grade 1 (GRACoL2013 / CRPC6).",
+    "ja": "グレード1塗工紙上のプレミアム枚葉オフセット向け Idealliance 仕様（GRACoL2013／CRPC6）。",
+    "zh-Hans": "Idealliance 面向一级涂布纸高档单张纸胶印的规范（GRACoL2013 / CRPC6）。",
+    "sv": "Idealliance-specifikation för exklusiv arkoffset på bestruket Grade 1-papper (GRACoL2013 / CRPC6).",
+    "da": "Idealliance-specifikation for eksklusiv arkoffset på bestrøget Grade 1-papir (GRACoL2013 / CRPC6).",
+    "nl": "Idealliance-specificatie voor premium vellenoffset op gestreken Grade 1-papier (GRACoL2013 / CRPC6).",
+    "pl": "Specyfikacja Idealliance dla arkuszowego offsetu premium na papierze powlekanym klasy 1 (GRACoL2013 / CRPC6).",
+    "pt": "Especificação da Idealliance para offset de folha premium em papel revestido Grade 1 (GRACoL2013 / CRPC6).",
+    "hi": "Grade 1 कोटेड स्टॉक पर प्रीमियम शीटफ़ेड ऑफसेट के लिए Idealliance विनिर्देश (GRACoL2013 / CRPC6)।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "GRACoL",
+      "GRACoL2013",
+      "G7 GRACoL"
+    ],
+    "pl": [
+      "GRACoL",
+      "GRACoL2013",
+      "G7 GRACoL"
+    ],
+    "pt": [
+      "GRACoL",
+      "GRACoL2013",
+      "G7 GRACoL"
+    ],
+    "hi": [
+      "GRACoL",
+      "GRACoL2013",
+      "G7 GRACoL"
+    ]
+  }
+}

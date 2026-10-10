@@ -1,0 +1,148 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/vinyl-graphics> a skos:Concept ;
+    dcterms:created "2026-08-12T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T10:00:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "bildekoration"@da,
+        "folietekst"@da,
+        "gulvfolie"@da,
+        "vinduesdekoration"@da,
+        "vinduesfolie"@da,
+        "vinyldekaler"@da,
+        "vægdekoration"@da,
+        "Autobeschriftung"@de,
+        "Bodenaufkleber"@de,
+        "Fahrzeugbeschriftung"@de,
+        "Fensterbeschriftung"@de,
+        "Fensterfolie"@de,
+        "Klebefolien"@de,
+        "Schaufensterfolie"@de,
+        "Decals"@en,
+        "Floor stickers"@en,
+        "Vehicle graphics"@en,
+        "Vinyl decals"@en,
+        "Vinyl lettering"@en,
+        "Wall vinyl"@en,
+        "Window vinyl"@en,
+        "Vinilo de corte"@es,
+        "Vinilos para escaparates"@es,
+        "letras de vinilo"@es,
+        "rotulación de vehículos"@es,
+        "vinilo de escaparate"@es,
+        "vinilo de pared"@es,
+        "vinilo de suelo"@es,
+        "vinilo decorativo"@es,
+        "कार रैप"@hi,
+        "फ़्लोर स्टिकर"@hi,
+        "विंडो विनाइल"@hi,
+        "विनाइल ग्राफ़िक्स"@hi,
+        "विनाइल डीकल"@hi,
+        "विनाइल लेटरिंग"@hi,
+        "वॉल विनाइल"@hi,
+        "व्हीकल ग्राफ़िक्स"@hi,
+        "ウィンドウフィルム"@ja,
+        "ウォールステッカー"@ja,
+        "カッティングシート"@ja,
+        "カーラッピング"@ja,
+        "デカール"@ja,
+        "フロアシート"@ja,
+        "フロアステッカー"@ja,
+        "車両ラッピング"@ja,
+        "Bilddekor"@nb,
+        "Folie (trykt)"@nb,
+        "Folieskilt"@nb,
+        "Gulvklistremerker"@nb,
+        "Vindusfolie"@nb,
+        "autobelettering"@nl,
+        "belettering"@nl,
+        "muurdecoratie"@nl,
+        "raamdecoratie"@nl,
+        "raamfolie"@nl,
+        "vinylstickers"@nl,
+        "vloerstickers"@nl,
+        "folia na okno"@pl,
+        "folia na ścianę"@pl,
+        "litery z folii"@pl,
+        "naklejka podłogowa"@pl,
+        "oklejanie pojazdów"@pl,
+        "adesivagem de veículo"@pt,
+        "adesivo de parede"@pt,
+        "adesivo de piso"@pt,
+        "adesivo de vitrine"@pt,
+        "decalque"@pt,
+        "envelopamento"@pt,
+        "letras em vinil"@pt,
+        "bildekor"@sv,
+        "folietext"@sv,
+        "fönsterdekor"@sv,
+        "fönsterfolie"@sv,
+        "golvdekor"@sv,
+        "vinyldekaler"@sv,
+        "väggdekor"@sv,
+        "刻字贴"@zh-Hans,
+        "地贴"@zh-Hans,
+        "墙贴"@zh-Hans,
+        "橱窗贴"@zh-Hans,
+        "车贴"@zh-Hans,
+        "车贴膜"@zh-Hans,
+        "车身贴"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Storformat selvklæbende vinyl trykt og skåret i form — vindues-, væg-, gulv- og køretøjsgrafik, decals og bogstaver."@da,
+        "Großformatige selbstklebende Vinylfolie, bedruckt und konturgeschnitten — Fenster-, Wand-, Boden- und Fahrzeuggrafiken, Aufkleber und Beschriftungen."@de,
+        "Large-format self-adhesive vinyl printed and cut to shape — window, wall, floor and vehicle graphics, decals and lettering."@en,
+        "Vinilo autoadhesivo de gran formato, impreso y cortado a forma — gráficos para escaparates, paredes, suelos y vehículos, y rotulación."@es,
+        "आकार में मुद्रित और कटा हुआ लार्ज-फॉर्मेट स्वयं-चिपकने वाला विनाइल — खिड़की, दीवार, फ़र्श और वाहन ग्राफ़िक्स, डीकल और अक्षर।"@hi,
+        "大判の粘着ビニールに印刷し形状にカットするグラフィックス。ウィンドウ・壁面・床面・車両の装飾、デカール、切り文字に。"@ja,
+        "Storformat selvklebende vinyl, trykt og skåret til form — vindus-, vegg-, gulv- og kjøretøydekor, decals og bokstaver."@nb,
+        "Grootformaat zelfklevend vinyl, gedrukt en op vorm gesneden — raam-, wand-, vloer- en voertuiggraphics, stickers en belettering."@nl,
+        "Wielkoformatowa folia samoprzylepna zadrukowana i wycięta do kształtu — grafiki na okna, ściany, podłogi i pojazdy, kalkomanie i litery."@pl,
+        "Vinil autoadesivo em grande formato, impresso e recortado no formato — adesivos para vitrine, parede, piso e veículos, decalques e letras."@pt,
+        "Storformats självhäftande vinyl, tryckt och skuren till form — fönster-, vägg-, golv- och fordonsdekor, dekaler och bokstäver."@sv,
+        "大幅面自粘乙烯基印刷并按形状裁切——橱窗、墙面、地面与车身图形、贴花及字样。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§VINYL-GRAPHICS" ;
+    skos:prefLabel "Vinylgrafik"@da,
+        "Vinylgrafiken"@de,
+        "Vinyl Graphics"@en,
+        "Vinilos impresos"@es,
+        "विनाइल ग्राफ़िक्स"@hi,
+        "ビニールグラフィックス"@ja,
+        "Vinyldekor"@nb,
+        "Vinylgraphics"@nl,
+        "Grafiki winylowe"@pl,
+        "Adesivos de vinil (grande formato)"@pt,
+        "Vinyldekor"@sv,
+        "乙烯基贴膜"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/vinyl> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    ptpge:version "2026-08-27" .
+

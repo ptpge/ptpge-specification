@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/shape/freeform> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bespoke shape"@en,
+        "Contour cut"@en,
+        "Custom contour"@en,
+        "Custom shape"@en,
+        "Die-cut shape"@en,
+        "Figure cut"@en,
+        "Irregular"@en,
+        "अनियमित आकृति"@hi,
+        "कंटूर कट"@hi,
+        "कस्टम आकृति"@hi,
+        "कस्टम कंटूर"@hi,
+        "डाई-कट आकृति"@hi,
+        "Egendefinert form"@nb,
+        "Figurskåret"@nb,
+        "Fri form"@nb,
+        "Konturskåret"@nb,
+        "cięcie konturowe"@pl,
+        "kontur niestandardowy"@pl,
+        "kształt niestandardowy"@pl,
+        "kształt wykrawany"@pl,
+        "contorno personalizado"@pt,
+        "corte de contorno"@pt,
+        "forma com corte especial"@pt,
+        "forma irregular"@pt,
+        "forma personalizada"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/shape> ;
+    skos:definition "Fri, skræddersyet kontur, der følger motivet — fremstillet ved figurskæring, konturskæring eller fræsning. Varje anpassad form bortom de geometriska standardformerna."@da,
+        "Freie, individuelle Umrissform, die dem Motiv folgt — durch Figurenschnitt, Konturschnitt oder Fräsen. Jede Sonderform jenseits der geometrischen Standardformen."@de,
+        "Free-form, bespoke outline that follows the artwork — produced by figure cutting, contour cutting or routing. Any custom shape beyond the standard geometric forms."@en,
+        "Contorno libre y a medida que sigue el arte — producido por corte de figura, corte de contorno o fresado. Cualquier forma personalizada más allá de las formas geométricas estándar."@es,
+        "आर्टवर्क के अनुसार मुक्त, कस्टम रूपरेखा — फ़िगर कटिंग, कंटूर कटिंग या राउटिंग से। मानक ज्यामितीय रूपों से परे कोई भी कस्टम आकृति।"@hi,
+        "アートワークに沿った自由形状の輪郭 — 図形カット、輪郭カット、ルーター加工で作る。標準的な幾何学形状以外のあらゆるカスタム形状。"@ja,
+        "Fri, egendefinert kontur som følger motivet — laget ved figurskjæring, konturskjæring eller fresing. Enhver tilpasset form utover de standard geometriske formene."@nb,
+        "Vrije contour op maat die het motief volgt — gemaakt door figuursnijden, contoursnijden of frezen. Varje anpassad form bortom de geometriska standardformerna."@nl,
+        "Dowolny, indywidualny obrys podążający za projektem — uzyskiwany przez wycinanie figur, cięcie konturowe lub frezowanie. Każdy niestandardowy kształt poza standardowymi formami geometrycznymi."@pl,
+        "Contorno livre e sob medida que segue a arte — obtido por corte de figura, corte de contorno ou fresagem. Qualquer forma personalizada além das formas geométricas padrão."@pt,
+        "Fri, skräddarsydd kontur som följer motivet — framställd genom figurskärning, konturskärning eller fräsning. Varje anpassad form bortom de geometriska standardformerna."@sv,
+        "跟随画面的自由定制轮廓 — 通过异形切割、轮廓切割或铣切制成。标准几何形状之外的任何自定义形状。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§FREEFORM" ;
+    skos:prefLabel "Friform"@da,
+        "Freiform"@de,
+        "Freeform"@en,
+        "Forma Libre"@es,
+        "मुक्त आकृति"@hi,
+        "フリーフォーム"@ja,
+        "Friform"@nb,
+        "Friform"@nl,
+        "Dowolny"@pl,
+        "Forma livre"@pt,
+        "Friform"@sv,
+        "自由形状"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.13 · p.81" ;
+            ptpge:mappingRow "crosswalk row 22" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "ShapeCuttingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

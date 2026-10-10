@@ -1,0 +1,92 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/substrate/substrate-weight",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:SB§SUBSTRATE-WEIGHT",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Substrate Weight",
+    "nb": "Substratvekt",
+    "de": "Grammatur",
+    "es": "Gramaje",
+    "ja": "坪量",
+    "zh-Hans": "克重",
+    "sv": "Substratvikt",
+    "da": "Substratvægt",
+    "nl": "Substraatgewicht",
+    "pl": "Gramatura podłoża",
+    "pt": "Gramatura do substrato",
+    "hi": "सब्सट्रेट का वज़न"
+  },
+  "altLabels": {
+    "en": [
+      "Paper Weight",
+      "Grammage",
+      "GSM"
+    ],
+    "nb": [
+      "Papirvekt",
+      "Gramvekt"
+    ],
+    "pl": [
+      "gramatura papieru",
+      "gramatura",
+      "g/m²"
+    ],
+    "pt": [
+      "gramatura",
+      "gramatura do papel",
+      "g/m²",
+      "peso do papel"
+    ],
+    "hi": [
+      "काग़ज़ का वज़न",
+      "ग्रामेज",
+      "GSM",
+      "पेपर वेट"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Substrate Weight. A printed product is configured along this variable (numeric, single selection, in gsm). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Substratvekt. Et trykkprodukt konfigureres langs denne variabelen (numeric, single valg, i gsm). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Grammatur. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (numerisch, Einfachauswahl, in g/m²). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Gramaje. Un producto impreso se configura a lo largo de esta variable (numérico, selección única, en g/m²). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：坪量。印刷物はこの変数に沿って構成される（数値、単一選択、g/m²単位）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：克重。印刷品沿此变量进行配置（数值，单选，以 g/m² 计）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Substratvikt. En trycksak konfigureras längs denna variabel (numerisk, enkelval, i g/m²). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Substratvægt. Et trykt produkt konfigureres langs denne variabel (numerisk, enkeltvalg, i g/m²). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Substraatgewicht. Een drukproduct wordt langs deze variabele geconfigureerd (numeriek, enkelvoudig, in g/m²). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Gramatura podłoża. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (numeryczna, wybór pojedynczy, w g/m²). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Gramatura do Substrato. Um impresso é configurado ao longo desta variável (numérico, seleção única, em g/m²). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट का वज़न (ग्रामेज)। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (संख्यात्मक, एकल चयन, GSM में)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "How heavy a paper?",
+    "nb": "Hvor tykt papir?",
+    "de": "Welches Papiergewicht?",
+    "es": "¿Qué gramaje?",
+    "ja": "紙の厚さ（坪量）は？",
+    "zh-Hans": "纸张多重？",
+    "sv": "Vilken pappersvikt?",
+    "da": "Hvilken papirvægt?",
+    "nl": "Welk papiergewicht?",
+    "pl": "Jaka gramatura?",
+    "pt": "Que gramagem?",
+    "hi": "कागज़ कितना भारी?"
+  },
+  "datatype": "numeric",
+  "cardinality": "single",
+  "scope": "product",
+  "unit": "gsm",
+  "valueDomain": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights",
+  "rangeMin": 40,
+  "rangeMax": 600,
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/substrate",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

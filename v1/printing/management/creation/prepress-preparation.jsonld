@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/creation/prepress-preparation",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Prepress Preparation",
+    "es": "Preparación Pre-prensa",
+    "zh-Hans": "印前准备",
+    "nb": "Prepress-klargjøring",
+    "de": "Druckvorstufenvorbereitung",
+    "ja": "プリプレス準備",
+    "sv": "Prepressförberedelse",
+    "da": "Prepress-klargøring",
+    "nl": "Prepressvoorbereiding",
+    "pl": "Przygotowanie prepress",
+    "pt": "Preparação de pré-impressão",
+    "hi": "प्रीप्रेस तैयारी"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§PREPRESS-PREPARATION",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/creation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Final technical preparation of files for production — color separation, trapping, bleed and slug setup, font embedding, and compliance with PDF/X standards. The bridge between Creation and Quality Assurance.",
+    "nb": "Endelig teknisk forberedelse av filer for produksjon — fargeseparasjon, trapping, oppsett av utfall og slug, fontinnbygging og samsvar med PDF/X-standarder. Broen mellom Creation og Quality Assurance.",
+    "de": "Letzte technische Aufbereitung der Dateien für die Produktion — Farbseparation, Trapping, Anschnitt- und Slug-Einrichtung, Schrifteneinbettung und Konformität mit PDF/X-Standards. Bindeglied zwischen Creation und Qualitätssicherung.",
+    "ja": "生産用ファイルの最終的な技術準備 — 色分解、トラッピング、ブリードとスラグ設定、フォント埋め込み、PDF/X規格への適合。CreationとQuality Assuranceの間の橋渡し。",
+    "es": "Operaciones de pre-prensa que convierten el diseño aprobado en un archivo listo para imprimir — comprobación de fuentes, perfiles de color, sangrados, marcas de corte.",
+    "zh-Hans": "将批准的设计转换为印刷就绪文件的印前操作——字体检查、色彩配置文件、出血、裁切标记。",
+    "sv": "Slutlig teknisk förberedelse av filer för produktion — färgseparation, trapping, utfall och slug, typsnittsinbäddning och efterlevnad av PDF/X-standarder. Bron mellan Skapande och Kvalitetssäkring.",
+    "da": "Endelig teknisk klargøring af filer til produktion — farveseparation, trapping, opsætning af beskæring og slug, skriftindlejring og overholdelse af PDF/X-standarder. Broen mellem Kreation og Kvalitetssikring.",
+    "nl": "Definitieve technische voorbereiding van bestanden voor productie — kleurscheiding, trapping, afloop- en slug-instelling, lettertype-insluiting en naleving van PDF/X-standaarden. De brug tussen Creatie en Kwaliteitsborging.",
+    "pl": "Końcowe techniczne przygotowanie plików do produkcji — separacja barw, trapping, ustawienie spadów i pola informacyjnego, osadzanie fontów i zgodność ze standardami PDF/X. Pomost między Tworzeniem a Zapewnieniem jakości.",
+    "pt": "Preparação técnica final dos arquivos para produção — separação de cor, trapping, configuração de sangria e slug, incorporação de fontes e conformidade com as normas PDF/X. A ponte entre Criação e Garantia de qualidade.",
+    "hi": "उत्पादन के लिए फ़ाइलों की अंतिम तकनीकी तैयारी — रंग सेपरेशन, ट्रैपिंग, ब्लीड और स्लग सेटअप, फ़ॉन्ट एम्बेडिंग और PDF/X मानकों का अनुपालन। निर्माण और गुणवत्ता आश्वासन के बीच का पुल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "prepress",
+      "pre-press"
+    ],
+    "nb": [
+      "prepress",
+      "forhåndstrykk"
+    ],
+    "pl": [
+      "prepress",
+      "przygotowalnia",
+      "przygotowanie do druku"
+    ],
+    "pt": [
+      "pré-impressão",
+      "prepress"
+    ],
+    "hi": [
+      "प्रीप्रेस",
+      "प्री-प्रेस"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutElementProduction"
+      ],
+      "refs": [
+        "§5.4.11 · p.98"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 6"
+    }
+  ]
+}

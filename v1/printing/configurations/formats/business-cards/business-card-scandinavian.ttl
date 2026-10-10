@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-scandinavian> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "9 x 5.5 cm"@en,
+        "90 x 55 mm"@en,
+        "90x55"@en,
+        "90×55"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/business-cards> ;
+    skos:definition "90 × 55 mm. Standardvisitkortformatet i Norge, Sverige, Danmark, Finland og Island. Lidt større end EU-standarden."@da,
+        "90 × 55 mm. Das Standardvisitenkartenformat in Norwegen, Schweden, Dänemark, Finnland und Island. Etwas größer als der EU-Standard."@de,
+        "90 × 55 mm. The standard business card size in Norway, Sweden, Denmark, Finland, and Iceland. Slightly larger than the EU standard."@en,
+        "Tarjeta de visita escandinava, 90 × 55 mm — variante regional utilizada en Noruega, Suecia y Dinamarca."@es,
+        "90 × 55 mm. नॉर्वे, स्वीडन, डेनमार्क, फ़िनलैंड और आइसलैंड का मानक विज़िटिंग कार्ड आकार। EU मानक से थोड़ा बड़ा।"@hi,
+        "90×55mm。ノルウェー、スウェーデン、デンマーク、フィンランド、アイスランドの標準名刺サイズ。EU標準よりわずかに大きい。"@ja,
+        "90 × 55 mm. Standard visittkortstørrelse i Norge, Sverige, Danmark, Finland og Island. Litt større enn EU-standarden."@nb,
+        "90 × 55 mm. Standardvisitkortformatet in Norge, Sverige, Danmark, Finland en Island. Iets groter dan de EU-standaard."@nl,
+        "90 × 55 mm. Standardowy format wizytówki w Norwegii, Szwecji, Danii, Finlandii i Islandii. Nieco większy niż standard UE."@pl,
+        "90 × 55 mm. O tamanho padrão de cartão de visita na Noruega, Suécia, Dinamarca, Finlândia e Islândia. Um pouco maior que o padrão europeu."@pt,
+        "90 × 55 mm. Standardvisitkortsformatet i Norge, Sverige, Danmark, Finland och Island. Något större än EU-standarden."@sv,
+        "北欧名片，90 × 55 毫米 —— 挪威、瑞典和丹麦使用的地区变体。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§BUSINESS-CARD-SCANDINAVIAN" ;
+    skos:prefLabel "Visitkort Skandinavien (90 x 55 mm)"@da,
+        "Business Card Scandinavian (90 x 55 mm)"@de,
+        "Business Card Scandinavian (90 x 55 mm)"@en,
+        "Tarjeta de Visita Escandinava (90 × 55 mm)"@es,
+        "विज़िटिंग कार्ड स्कैंडिनेवियाई (90 x 55 mm)"@hi,
+        "Business Card Scandinavian (90 x 55 mm)"@ja,
+        "Business Card Scandinavian (90 x 55 mm)"@nb,
+        "Visitekaartje Scandinavisch (90 x 55 mm)"@nl,
+        "Wizytówka skandynawska (90 x 55 mm)"@pl,
+        "Cartão de visita escandinavo (90 x 55 mm)"@pt,
+        "Visitkort Skandinavien (90 x 55 mm)"@sv,
+        "北欧名片 (90 × 55 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 4950.0 ;
+            ptpge:aspectRatio 1.6364 ;
+            ptpge:height 55.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 90.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

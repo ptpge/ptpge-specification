@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/process/iso-14298",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "ISO 14298",
+    "es": "ISO 14298",
+    "zh-Hans": "ISO 14298",
+    "nb": "ISO 14298",
+    "de": "ISO 14298",
+    "ja": "ISO 14298",
+    "sv": "ISO 14298",
+    "da": "ISO 14298",
+    "nl": "ISO 14298",
+    "pl": "ISO 14298",
+    "pt": "ISO 14298",
+    "hi": "ISO 14298"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§ISO-14298",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/process",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "ISO standard for the management of security printing processes, defining requirements for facilities producing banknotes, identity documents, and other secure printed items.",
+    "nb": "ISO-standard for styring av sikkerhetstrykkprosesser, som definerer krav til anlegg som produserer pengesedler, identitetsdokumenter og andre sikre trykksaker.",
+    "de": "ISO-Norm für die Steuerung von Sicherheitsdruckprozessen, definiert Anforderungen an Anlagen, die Banknoten, Ausweise und andere sicherheitsrelevante Druckerzeugnisse herstellen.",
+    "ja": "セキュリティ印刷工程の管理に関するISO規格。紙幣、身分証明書、その他のセキュリティ印刷物を製造する施設に対する要件を定義する。",
+    "es": "Norma ISO para la gestión de procesos de impresión de seguridad, que define los requisitos para instalaciones que producen billetes, documentos de identidad y otros impresos seguros.",
+    "zh-Hans": "安全印刷工艺管理的ISO标准，定义生产纸币、身份证件和其他安全印刷品的设施要求。",
+    "sv": "ISO-standard för styrning av säkerhetstryckprocesser, definierar krav på anläggningar som producerar sedlar, identitetshandlingar och andra säkra trycksaker.",
+    "da": "ISO-standard for styring af sikkerhedstrykprocesser, der definerer krav til virksomheder, som producerer pengesedler, identitetsdokumenter og andre sikre tryksager.",
+    "nl": "ISO-standaard voor het beheer van beveiligde drukprocessen, met eisen aan faciliteiten die bankbiljetten, identiteitsdocumenten en ander beveiligd drukwerk produceren.",
+    "pl": "Norma ISO dotycząca zarządzania procesami druku zabezpieczonego, określająca wymagania dla zakładów produkujących banknoty, dokumenty tożsamości i inne zabezpieczone druki.",
+    "pt": "Norma ISO para a gestão de processos de impressão de segurança, definindo requisitos para instalações que produzem cédulas, documentos de identidade e outros itens impressos seguros.",
+    "hi": "सुरक्षा मुद्रण प्रक्रियाओं के प्रबंधन का ISO मानक, जो बैंकनोट, पहचान दस्तावेज़ और अन्य सुरक्षित मुद्रित वस्तुएँ बनाने वाली सुविधाओं की आवश्यकताएँ परिभाषित करता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "security printing management"
+    ],
+    "pl": [
+      "zarządzanie drukiem zabezpieczonym"
+    ],
+    "pt": [
+      "gestão de impressão de segurança"
+    ],
+    "hi": [
+      "सुरक्षा मुद्रण प्रबंधन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

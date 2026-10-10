@@ -1,0 +1,51 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/polar",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "notation": "P:TC§POLAR",
+  "level": "element",
+  "label": {
+    "en": "POLAR",
+    "nb": "POLAR",
+    "de": "POLAR",
+    "es": "POLAR",
+    "ja": "POLAR",
+    "zh-Hans": "POLAR",
+    "sv": "POLAR",
+    "da": "POLAR",
+    "nl": "POLAR",
+    "pl": "POLAR",
+    "pt": "POLAR",
+    "hi": "POLAR"
+  },
+  "definition": {
+    "en": "German manufacturer of high-speed guillotine cutting systems and peripherals (POLAR Mohr) — the de-facto standard cutter in offset pressrooms, long distributed alongside Heidelberg presses.",
+    "nb": "Tysk produsent av høyhastighets giljotin-skjæresystemer med periferiutstyr (POLAR Mohr) — de facto-standarden i offsettrykkerier, lenge distribuert sammen med Heidelberg-presser.",
+    "de": "Deutscher Hersteller von Schnellschneidern und Peripherie (POLAR Mohr) — der De-facto-Standard-Planschneider in Offsetdruckereien, lange gemeinsam mit Heidelberg-Maschinen vertrieben.",
+    "es": "Fabricante alemán de sistemas de corte de guillotina de alta velocidad y periféricos (POLAR Mohr) — la guillotina estándar de facto en salas de ófset, distribuida durante décadas junto a las prensas Heidelberg.",
+    "ja": "高速断裁システムと周辺機器のドイツメーカー（POLAR Mohr）。オフセット印刷現場の事実上の標準断裁機で、長らくハイデルベルクの印刷機とともに販売されてきた。",
+    "zh-Hans": "德国高速切纸系统及外围设备制造商（POLAR Mohr）— 胶印车间事实上的标准切纸机，长期与海德堡印刷机配套销售。",
+    "sv": "Tysk tillverkare av snabbgående skärmaskinssystem och kringutrustning (POLAR Mohr) — de facto-standardskärmaskinen i offsettryckerier, länge distribuerad tillsammans med Heidelberg-pressar.",
+    "da": "Tysk producent af hurtige skæremaskinesystemer og periferiudstyr (POLAR Mohr) — de facto-standardskæremaskinen i offsettrykkerier, længe distribueret sammen med Heidelberg-presser.",
+    "nl": "Duitse fabrikant van snelle snijsystemen en randapparatuur (POLAR Mohr) — de facto de standaardsnijmachine in offsetdrukkerijen, lang gedistribueerd naast Heidelberg-persen.",
+    "pl": "Niemiecki producent szybkobieżnych krajarek gilotynowych i urządzeń peryferyjnych (POLAR Mohr) — faktyczny standard krajarki w drukarniach offsetowych, długo dystrybuowany wraz z maszynami Heidelberg.",
+    "pt": "Fabricante alemão de sistemas de corte em guilhotina de alta velocidade e periféricos (POLAR Mohr) — a guilhotina padrão de fato nas salas de impressão offset, há muito distribuída junto com as impressoras Heidelberg.",
+    "hi": "हाई-स्पीड गिलोटिन कटिंग सिस्टम और परिधीय उपकरणों का जर्मन निर्माता (POLAR Mohr) — ऑफसेट प्रेसरूम का वास्तविक मानक कटर, लंबे समय से Heidelberg प्रेस के साथ वितरित।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "elementType": "value",
+  "created": "2026-08-12T11:02:25Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/polar",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

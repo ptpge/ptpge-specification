@@ -1,0 +1,71 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "version": "2026-09-05",
+  "status": "proposed",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "created": "2026-09-05T00:00:00Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/v1/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/v1/contributors/patrik-knutsson"
+  ],
+  "id": "https://ptpge.org/v1/printing/configurations/formats/event-tents",
+  "notation": "P:CF-FMT-TENT",
+  "level": "sub-category",
+  "label": {
+    "en": "Event Tent Sizes",
+    "nb": "Teltformater",
+    "de": "Eventzelt-Formate",
+    "es": "Formatos de carpa",
+    "ja": "イベントテントサイズ",
+    "zh-Hans": "活动帐篷尺寸",
+    "sv": "Tältformat",
+    "da": "Teltformater",
+    "nl": "Tentformaten",
+    "pl": "Formaty namiotów eventowych",
+    "pt": "Tamanhos de tenda para eventos",
+    "hi": "इवेंट टेंट आकार"
+  },
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats",
+  "definition": {
+    "en": "Standard frame footprints for printed pop-up and frame event tents, European (m) and US (ft) families. The format is the frame's footprint — what is sold and what the printed canopy and walls must fit. The printed pieces themselves (canopy panels, wall panels, their seam pattern and hems) are production geometry derived by the producer from the frame model and the textile width, and are not part of the product identity.",
+    "nb": "Standard rammemål for trykte pop-up- og rammetelt, europeisk (m) og amerikansk (ft) familie. Formatet er rammens fotavtrykk — det som selges og det canopy og vegger må passe til. De trykte stykkene (canopy-paneler, veggpaneler, sømmønster og fald) er produksjonsgeometri utledet av produsenten fra rammemodell og tekstilbredde, og inngår ikke i produktidentiteten.",
+    "de": "Standard-Rahmenmaße für bedruckte Faltpavillons und Rahmenzelte, europäische (m) und US-Familie (ft). Das Format ist die Grundfläche des Rahmens — das, was verkauft wird und wozu Dach und Wände passen müssen. Die bedruckten Teile (Dachbahnen, Wandbahnen, Nahtbild, Säume) sind vom Hersteller aus Rahmenmodell und Stoffbreite abgeleitete Produktionsgeometrie und nicht Teil der Produktidentität.",
+    "es": "Medidas estándar de estructura para carpas plegables y de armazón impresas, familias europea (m) y estadounidense (ft). El formato es la huella de la estructura — lo que se vende y a lo que deben ajustarse techo y paredes. Las piezas impresas (paneles del techo, paneles de pared, patrón de costura, dobladillos) son geometría de producción derivada por el productor a partir del modelo de estructura y el ancho del textil, y no forman parte de la identidad del producto.",
+    "ja": "印刷対応のポップアップ／フレームテントの標準フレーム寸法。欧州系（m）と米国系（ft）。判型はフレームの設置面積であり、販売単位であり、天幕と側幕が適合すべき寸法である。印刷部材そのもの（天幕パネル、側幕パネル、縫製パターン、縁）は製造者がフレーム型番と生地幅から導出する生産上の寸法であり、製品識別には含まれない。",
+    "zh-Hans": "印刷弹出式帐篷与框架帐篷的标准框架尺寸，分欧洲（m）和美国（ft）两系。规格即框架的占地尺寸——这是所售之物，也是顶篷与围布必须匹配的尺寸。印刷件本身（顶篷片、围布片、缝合方式与折边）是生产者依据框架型号和面料幅宽推导的生产几何尺寸，不属于产品身份。",
+    "sv": "Standardmått för ramar till tryckta pop-up- och ramtält, europeisk (m) och amerikansk (ft) familj. Formatet är ramens fotavtryck — det som säljs och det tak och väggar måste passa. De tryckta delarna (takpaneler, väggpaneler, sömmönster, fållar) är produktionsgeometri som producenten härleder ur rammodell och textilbredd, och ingår inte i produktidentiteten.",
+    "da": "Standardmål for rammer til trykte pop-up- og rammetelte, europæisk (m) og amerikansk (ft) familie. Formatet er rammens fodaftryk — det, der sælges, og det tag og vægge skal passe til. De trykte dele (tagpaneler, vægpaneler, sømmønster, sømme) er produktionsgeometri, som producenten udleder af rammemodel og tekstilbredde, og indgår ikke i produktidentiteten.",
+    "nl": "Standaard framematen voor bedrukte pop-up- en frametenten, Europese (m) en Amerikaanse (ft) familie. Het formaat is de voetafdruk van het frame — wat verkocht wordt en waar dak en wanden op moeten passen. De bedrukte delen zelf (dakpanelen, wandpanelen, naadpatroon, zomen) zijn productiegeometrie die de producent afleidt uit frametype en textielbreedte, en maken geen deel uit van de productidentiteit.",
+    "pl": "Standardowe obrysy stelaży drukowanych namiotów ekspresowych i ramowych, rodziny europejska (m) i amerykańska (ft). Format to obrys stelaża — to, co jest sprzedawane i do czego muszą pasować zadrukowany dach i ściany. Same zadrukowane elementy (panele dachu, panele ścian, ich układ szwów i obszycia) są geometrią produkcyjną wyprowadzaną przez producenta z modelu stelaża i szerokości tkaniny i nie są częścią tożsamości produktu.",
+    "pt": "Áreas de estrutura padrão para tendas sanfonadas e de estrutura impressas, famílias europeia (m) e americana (ft). O formato é a área da estrutura — o que se vende e a que a cobertura e as paredes impressas devem se ajustar. As peças impressas em si (painéis de cobertura, painéis de parede, seu padrão de costura e bainhas) são geometria de produção derivada pelo produtor a partir do modelo da estrutura e da largura do tecido, e não fazem parte da identidade do produto.",
+    "hi": "मुद्रित पॉप-अप और फ़्रेम टेंट के मानक फ़्रेम फुटप्रिंट, यूरोपीय (मी) और US (फ़ुट) परिवार। फ़ॉर्मेट फ़्रेम का फुटप्रिंट है — जो बेचा जाता है और जिसमें छपी छतरी और दीवारें फ़िट होनी चाहिए। छपे हिस्से स्वयं (छतरी पैनल, दीवार पैनल, उनकी सिलाई और किनारे) फ़्रेम मॉडल और कपड़े की चौड़ाई से उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति हैं, उत्पाद पहचान का हिस्सा नहीं।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ],
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x3",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x4-5",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x6",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x10-ft",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x15-ft",
+    "https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x20-ft"
+  ]
+}

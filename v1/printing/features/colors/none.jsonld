@@ -1,0 +1,131 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/colors/none",
+  "type": "skos:Concept",
+  "version": "2026-09-20",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "None (no color)",
+    "nb": "Ingen (ingen farge)",
+    "de": "Keine (keine Farbe)",
+    "ja": "なし（カラーなし）",
+    "es": "Ninguno (sin color)",
+    "zh-Hans": "无（不上色）",
+    "sv": "Ingen (utan färg)",
+    "da": "Ingen (uden farve)",
+    "nl": "Geen (zonder kleur)",
+    "pl": "Brak (bez koloru)",
+    "pt": "Nenhuma (sem cor)",
+    "hi": "कोई नहीं (बिना रंग)"
+  },
+  "altLabels": {
+    "en": [
+      "Unprinted",
+      "No Printing",
+      "None (no colour)"
+    ],
+    "nb": [
+      "Uten trykk",
+      "Blank"
+    ],
+    "de": [
+      "Ohne Farbe",
+      "Unbedruckt",
+      "Keine Druckfarbe"
+    ],
+    "nl": [
+      "Geen kleur",
+      "Onbedrukt",
+      "Blanco"
+    ],
+    "sv": [
+      "Ingen färg",
+      "Otryckt",
+      "Blank"
+    ],
+    "da": [
+      "Ingen farve",
+      "Utrykt",
+      "Blank"
+    ],
+    "es": [
+      "Sin color",
+      "Sin imprimir",
+      "Sin tinta"
+    ],
+    "ja": [
+      "色なし",
+      "刷りなし",
+      "無地"
+    ],
+    "zh-Hans": [
+      "无色",
+      "不印刷",
+      "空白面"
+    ],
+    "pl": [
+      "niezadrukowane",
+      "bez druku",
+      "brak (bez barwy)"
+    ],
+    "pt": [
+      "sem impressão",
+      "não impresso",
+      "em branco",
+      "0 cores"
+    ],
+    "hi": [
+      "बिना छपाई",
+      "अनप्रिंटेड",
+      "कोरा",
+      "सादा"
+    ]
+  },
+  "definition": {
+    "en": "No color applied. Used when a surface has only embellishments (e.g., blind embossing on uncolored substrate) or only surface finish (e.g., spot UV on substrate's natural colour). The substrate's own colour is the entire visual.",
+    "nb": "Ingen farge påført. Brukes når en surface kun har embellishments (eks. blind embossing på ufarget substrate) eller kun surface finish (eks. spot UV på substratets naturlige farge).",
+    "de": "Keine Farbe aufgebracht. Wird verwendet, wenn eine Surface nur Embellishments oder nur Surface Finish hat.",
+    "ja": "色を刷らない。面に加飾のみ（例：無地の基材への空押し）または表面加工のみ（例：基材の地色へのスポットUV）を施す場合に使う。基材そのものの色がビジュアルのすべてとなる。",
+    "es": "Sin color aplicado. Se usa cuando una superficie solo lleva ornamentación (p. ej., gofrado en seco sobre sustrato sin imprimir) o solo acabado superficial (p. ej., UV selectivo sobre el color natural del sustrato). El color propio del sustrato es todo el visual.",
+    "zh-Hans": "不施加任何颜色。用于表面仅有装饰工艺（如在未印色的材料上作素压凸）或仅有表面处理（如在材料本色上作局部UV）的情况。承印材料自身的颜色即是全部视觉效果。",
+    "sv": "Ingen färg applicerad. Används när en yta bara har dekor (t.ex. blindprägling på ofärgat substrat) eller bara ytbehandling (t.ex. partiell UV-lack på substratets naturfärg). Substratets egen färg utgör hela det visuella uttrycket.",
+    "da": "Ingen farve påført. Bruges når en flade kun har forædlinger (f.eks. blindprægning på ufarvet substrat) eller kun overfladefinish (f.eks. partiel UV-lak på substratets naturlige farve). Substratets egen farve er udtrykket.",
+    "nl": "Geen kleur aangebracht. Gebruikt wanneer een vlak alleen veredelingen heeft (bijv. blindpreging op ongekleurd substraat) of alleen oppervlakteafwerking (bijv. spot-UV op de natuurlijke substraatkleur). De eigen kleur van het substraat is de expressie.",
+    "pl": "Bez nanoszenia koloru. Używane, gdy powierzchnia ma tylko uszlachetnienia (np. ślepe tłoczenie na niezadrukowanym podłożu) lub tylko wykończenie powierzchni (np. lakier UV wybiórczy na naturalnym kolorze podłoża). Cały efekt wizualny stanowi własny kolor podłoża.",
+    "pt": "Nenhuma cor aplicada. Usado quando uma face tem apenas enobrecimentos (p. ex., relevo seco em substrato sem cor) ou apenas acabamento de superfície (p. ex., verniz UV localizado na cor natural do substrato). A cor do próprio substrato é todo o visual.",
+    "hi": "कोई रंग नहीं लगाया गया। तब प्रयुक्त जब किसी सतह पर केवल सजावटी प्रभाव हों (जैसे बिना रंग के सब्सट्रेट पर ब्लाइंड एम्बॉसिंग) या केवल सतह फ़िनिश (जैसे सब्सट्रेट के प्राकृतिक रंग पर स्पॉट UV)। सब्सट्रेट का अपना रंग ही पूरा दृश्य है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/colors",
+  "created": "2026-05-19T23:30:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§NONE",
+  "elementType": "value",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "properties": {
+    "colorChannelCount": 0
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "ColorantControl"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§6.15 · p.168"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 24"
+    }
+  ],
+  "standalone": true
+}

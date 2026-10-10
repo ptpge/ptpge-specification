@@ -1,0 +1,64 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hp-indichrome",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "HP IndiChrome",
+    "sv": "HP IndiChrome",
+    "da": "HP IndiChrome",
+    "nl": "HP IndiChrome",
+    "pl": "HP IndiChrome",
+    "pt": "HP IndiChrome",
+    "hi": "HP IndiChrome"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§HP-INDICHROME",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "HP Indigo IndiChrome extended-gamut ink system for digital offset.",
+    "nb": "HP Indigo IndiChrome utvidet-gamut blekksystem for digital offset.",
+    "de": "HP Indigo IndiChrome — Extended-Gamut-Farbsystem für Digital-Offset.",
+    "es": "Sistema de tintas de gama extendida HP Indigo IndiChrome para ófset digital.",
+    "ja": "デジタルオフセットのための HP Indigo IndiChrome 拡張ガモットインキシステム。",
+    "zh-Hans": "用于数字胶印的 HP Indigo IndiChrome 扩展色域油墨系统。",
+    "sv": "HP Indigo IndiChrome — bläcksystem för utökad färgomfattning inom digital offset.",
+    "da": "HP Indigo IndiChrome — farvesystem for udvidet farveomfang inden for digital offset.",
+    "nl": "HP Indigo IndiChrome — inktsysteem voor uitgebreid gamma binnen digitale offset.",
+    "pl": "System farb o rozszerzonym gamucie HP Indigo IndiChrome dla cyfrowego offsetu.",
+    "pt": "Sistema de tintas de gamut estendido HP Indigo IndiChrome para offset digital.",
+    "hi": "डिजिटल ऑफसेट के लिए HP Indigo IndiChrome विस्तारित-गैमट स्याही प्रणाली।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

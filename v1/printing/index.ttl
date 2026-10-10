@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:definition "Producentperspektivet: hvordan trykte produkter fremstilles. Dækker trykteknologier, substrater, konfigurationer, karakteristika, færdiggørelse, standarder og intern trykkeristyring. Ét af PTPGE's to topkoncepter — det andet, 'Ordering Process', beskriver køberperspektivet."@da,
+        "Produzenten-Perspektive: wie Druckprodukte hergestellt werden. Umfasst Drucktechnologien, Substrate, Konfigurationen, Eigenschaften, Weiterverarbeitung, Standards und die interne Druckerei-Verwaltung. Eines der beiden Oberkonzepte von PTPGE — das andere, 'Bestellprozess', beschreibt die Käufer-Perspektive."@de,
+        "Producer-side view: how printed products are manufactured. Covers printing technologies, substrates, configurations, features, completions, standards, and internal print-shop management. One of PTPGE's two top concepts — the other, 'Ordering Process', describes the buyer-side view."@en,
+        "Vista desde el lado del productor: cómo se fabrican los productos impresos. Cubre tecnologías de impresión, sustratos, configuraciones, características, acabados, normas y la gestión interna del taller. Es uno de los dos conceptos principales de PTPGE — el otro, 'Proceso de Pedido', describe la vista del comprador."@es,
+        "उत्पादक के पक्ष का दृष्टिकोण: मुद्रित उत्पाद कैसे बनाए जाते हैं। इसमें मानक, प्रबंधन, तकनीकें, कॉन्फ़िगरेशन, फ़ीचर, सब्सट्रेट और फ़िनिशिंग शामिल हैं। PTPGE के दो शीर्ष संकल्पनाओं में से एक — दूसरी, «ऑर्डरिंग प्रक्रिया», खरीदार के पक्ष का वर्णन करती है।"@hi,
+        "生産者側の視点：印刷物がどのように製造されるか。印刷技術、基材、構成、特徴、後加工、規格、印刷所の内部管理を含む。PTPGEの2つのトップ概念の1つで、もう1つは『発注プロセス』であり、購入者側の視点を表す。"@ja,
+        "Produsentside-perspektiv: hvordan trykkprodukter blir fremstilt. Dekker trykketeknologier, substrater, konfigurasjoner, egenskaper, etterbehandlinger, standarder og intern trykkeri-administrasjon. Et av PTPGEs to toppkonsepter — det andre, 'Bestillingsprosess', beskriver kjøperside-perspektivet."@nb,
+        "Het productieperspectief: hoe drukwerk wordt vervaardigd. Omvat druktechnologieën, substraten, configuraties, kenmerken, afwerking, standaarden en interne drukkerijorganisatie. Eén van de twee topconcepten van PTPGE — het andere, 'Ordering Process', beschrijft het koperperspectief."@nl,
+        "Perspektywa producenta: jak wytwarza się produkty drukowane. Obejmuje technologie druku, podłoża, konfiguracje, cechy, wykończenia, standardy i wewnętrzne zarządzanie drukarnią. Jedno z dwóch pojęć nadrzędnych PTPGE — drugie, „Proces zamawiania”, opisuje perspektywę nabywcy."@pl,
+        "Visão do lado do produtor: como os impressos são feitos. Abrange normas, gestão, tecnologias, configurações, características, substratos e acabamentos. Um dos dois conceitos de topo do PTPGE — o outro, «Processo de Compra», descreve a visão do lado do comprador."@pt,
+        "Producentsidans vy: hur trycksaker tillverkas. Omfattar trycktekniker, substrat, konfigurationer, egenskaper, färdigställande, standarder och tryckeriets interna administration. Ett av PTPGE:s två toppkoncept — det andra, 'Beställningsprocess', beskriver köparsidans vy."@sv,
+        "从生产方视角描述印刷品的制造方式。涵盖印刷工艺、承印物、配置、特性、印后加工、标准和印刷厂内部管理。这是PTPGE的两个主要顶层概念之一——另一个是『订购过程』，描述买方视角。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions>,
+        <https://ptpge.org/v1/printing/configurations>,
+        <https://ptpge.org/v1/printing/features>,
+        <https://ptpge.org/v1/printing/management>,
+        <https://ptpge.org/v1/printing/standards>,
+        <https://ptpge.org/v1/printing/substrates>,
+        <https://ptpge.org/v1/printing/technologies> ;
+    skos:notation "P" ;
+    skos:prefLabel "Trykproces"@da,
+        "Druckprozess"@de,
+        "Printing Process"@en,
+        "Proceso de Impresión"@es,
+        "मुद्रण प्रक्रिया"@hi,
+        "印刷プロセス"@ja,
+        "Trykkeprosess"@nb,
+        "Drukproces"@nl,
+        "Proces drukowania"@pl,
+        "Processo de impressão"@pt,
+        "Tryckprocess"@sv,
+        "印刷过程"@zh-Hans ;
+    skos:topConceptOf <https://ptpge.org/v1/scheme> ;
+    ptpge:level "top-concept" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

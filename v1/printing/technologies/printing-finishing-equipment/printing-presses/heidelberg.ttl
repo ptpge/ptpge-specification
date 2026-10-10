@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/heidelberg> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/suppliers/heidelberg> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Heidelberger Druckmaschinen AG — tysk producent grundlagt 1850, den dominerende producent af arkoffsetpresser i verden. Producerer også digitalpresser (Versafire) i partnerskab samt integrerede workflowsystemer."@da,
+        "Heidelberger Druckmaschinen AG — deutscher Hersteller, gegründet 1850, weltweit führender Anbieter von Bogenoffsetdruckmaschinen. Produziert zudem Digitaldruckmaschinen (Versafire) im Rahmen einer Partnerschaft sowie integrierte Workflow-Systeme."@de,
+        "Heidelberger Druckmaschinen AG — German manufacturer founded in 1850, the dominant maker of sheet-fed offset presses worldwide. Also produces digital presses (Versafire) under partnership and integrated workflow systems."@en,
+        "Heidelberger Druckmaschinen AG — fabricante alemán líder en prensas offset, conocido por la serie Speedmaster, y referente histórico de la industria."@es,
+        "Heidelberger Druckmaschinen AG — 1850 में स्थापित जर्मन निर्माता, दुनिया में शीट-फ़ेड ऑफसेट प्रेस का प्रमुख निर्माता। साझेदारी में डिजिटल प्रेस (Versafire) और एकीकृत वर्कफ़्लो सिस्टम भी बनाता है।"@hi,
+        "Heidelberger Druckmaschinen AG — 1850年創業のドイツのメーカー。世界的に枚葉オフセット印刷機の代表的なメーカー。提携によりデジタル印刷機（Versafire）と統合ワークフローシステムも製造する。"@ja,
+        "Heidelberger Druckmaschinen AG — tysk produsent grunnlagt i 1850, den dominerende produsenten av ark-mate offset-presser globalt. Produserer også digitale presser (Versafire) gjennom partnerskap og integrerte arbeidsflyt-systemer."@nb,
+        "Heidelberger Druckmaschinen AG — Duitse fabrikant, opgericht in 1850, wereldwijd de dominante maker van vellenoffsetpersen. Produceert ook digitale persen (Versafire) in partnerschap en geïntegreerde workflowsystemen."@nl,
+        "Heidelberger Druckmaschinen AG — niemiecki producent założony w 1850 r., dominujący wytwórca arkuszowych maszyn offsetowych na świecie. Produkuje też maszyny cyfrowe (Versafire) w ramach partnerstwa oraz zintegrowane systemy workflow."@pl,
+        "Heidelberger Druckmaschinen AG — fabricante alemão fundado em 1850, o maior fabricante mundial de impressoras offset de folha. Também produz impressoras digitais (Versafire) em parceria e sistemas integrados de fluxo de trabalho."@pt,
+        "Heidelberger Druckmaschinen AG — tysk tillverkare grundad 1850, den dominerande tillverkaren av arkoffsetpressar i världen. Producerar även digitalpressar (Versafire) i partnerskap samt integrerade arbetsflödessystem."@sv,
+        "Heidelberger Druckmaschinen AG —— 德国胶印机领导厂家，以Speedmaster系列著称，是行业历史标杆。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/heidelberg/speedmaster> ;
+    skos:notation "P:TC-PFE-PRES-HEID" ;
+    skos:prefLabel "Heidelberg"@da,
+        "Heidelberg"@de,
+        "Heidelberg"@en,
+        "Heidelberg"@es,
+        "Heidelberg"@hi,
+        "Heidelberg"@ja,
+        "Heidelberg"@nb,
+        "Heidelberg"@nl,
+        "Heidelberg"@pl,
+        "Heidelberg"@pt,
+        "Heidelberg"@sv,
+        "Heidelberg"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,71 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/varnish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:FT-SFI-VARN",
+  "level": "sub-category",
+  "label": {
+    "en": "Varnish",
+    "nb": "Lakk",
+    "de": "Lack",
+    "ja": "Varnish",
+    "es": "Varnish",
+    "zh-Hans": "Varnish",
+    "sv": "Lack",
+    "da": "Lak",
+    "nl": "Lak",
+    "pl": "Lakier",
+    "pt": "Verniz",
+    "hi": "वार्निश"
+  },
+  "definition": {
+    "en": "A liquid coating applied over print to add sheen, protection or selective highlighting.",
+    "nb": "Et flytende belegg påført trykk for glans, beskyttelse eller selektiv fremheving.",
+    "de": "Eine flüssige Beschichtung über dem Druck für Glanz, Schutz oder selektive Hervorhebung.",
+    "ja": "印刷の上に塗布する液体コーティング。光沢や保護、部分的な強調を加える。",
+    "es": "Un recubrimiento líquido aplicado sobre la impresión para añadir brillo, protección o realce selectivo.",
+    "zh-Hans": "涂布于印刷品之上的液体涂层，用于增加光泽、保护或选择性强调。",
+    "sv": "En flytande beläggning applicerad över tryck för att tillföra lyster, skydd eller selektiv accentuering.",
+    "da": "En flydende belægning påført over tryk for at tilføje glans, beskyttelse eller selektiv fremhævning.",
+    "nl": "Een vloeibare coating over drukwerk voor glans, bescherming of selectieve accentuering.",
+    "pl": "Płynna powłoka nanoszona na druk, aby dodać połysk, ochronę lub wybiórcze podkreślenie.",
+    "pt": "Revestimento líquido aplicado sobre a impressão para dar brilho, proteção ou destaque seletivo.",
+    "hi": "चमक, सुरक्षा या चुनिंदा हाइलाइट के लिए प्रिंट के ऊपर लगाई गई तरल कोटिंग।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish",
+  "narrower": [
+    "https://ptpge.org/v1/printing/features/surface-finish/varnish/flood-varnishing",
+    "https://ptpge.org/v1/printing/features/surface-finish/varnish/spot-varnish",
+    "https://ptpge.org/v1/printing/features/surface-finish/varnish/uv-varnish",
+    "https://ptpge.org/v1/printing/features/surface-finish/varnish/matte-varnish",
+    "https://ptpge.org/v1/printing/features/surface-finish/varnish/gloss-varnish"
+  ],
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "lakierowanie"
+    ]
+  }
+}

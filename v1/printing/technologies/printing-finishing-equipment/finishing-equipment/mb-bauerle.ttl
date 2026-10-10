@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/mb-bauerle> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "MB Bäuerle — tysk producent af false- og kuverteringsudstyr, især til direct mail og transaktionstryk."@da,
+        "MB Bäuerle — deutscher Hersteller von Falz- und Kuvertiermaschinen, insbesondere für Direktwerbung und Transaktionsdruck."@de,
+        "MB Bäuerle — German manufacturer of folding and inserting equipment, particularly for direct mail and transactional printing."@en,
+        "MB Bäuerle — fabricante alemán de plegadoras de alta precisión para producción comercial."@es,
+        "MB Bäuerle — फ़ोल्डिंग और इन्सर्टिंग उपकरणों का जर्मन निर्माता, विशेषकर डायरेक्ट मेल और ट्रांज़ैक्शनल प्रिंटिंग के लिए।"@hi,
+        "MB Bäuerle — ドイツの折り機・封入機メーカー。特にダイレクトメールおよびトランザクション印刷向け。"@ja,
+        "MB Bäuerle — tysk produsent av brett- og innleggingsutstyr, særlig for direktreklame og transaksjons-trykk."@nb,
+        "MB Bäuerle — Duitse fabrikant van vouw- en couverteerapparatuur, met name voor direct mail en transactiedruk."@nl,
+        "MB Bäuerle — niemiecki producent urządzeń do składania i kopertowania, zwłaszcza dla direct mail i druku transakcyjnego."@pl,
+        "MB Bäuerle — fabricante alemão de equipamentos de dobra e envelopamento, especialmente para mala direta e impressão transacional."@pt,
+        "MB Bäuerle — tysk tillverkare av fals- och kuverteringsutrustning, särskilt för direktreklam och transaktionstryck."@sv,
+        "MB Bäuerle —— 德国商业生产用高精度折页机制造商。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-MBBA" ;
+    skos:prefLabel "MB Bäuerle"@da,
+        "MB Bäuerle"@de,
+        "MB Bäuerle"@en,
+        "MB Bäuerle"@es,
+        "MB Bäuerle"@hi,
+        "MB Bäuerle"@ja,
+        "MB Bäuerle"@nb,
+        "MB Bäuerle"@nl,
+        "MB Bäuerle"@pl,
+        "MB Bäuerle"@pt,
+        "MB Bäuerle"@sv,
+        "MB Bäuerle"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

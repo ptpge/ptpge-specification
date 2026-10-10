@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/fogra52> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "FOGRA52"@en,
+        "Fogra 52"@en,
+        "PSO Uncoated v3"@en,
+        "FOGRA52"@hi,
+        "Fogra 52"@hi,
+        "PSO Uncoated v3"@hi,
+        "Fogra 52"@pl,
+        "PSO Uncoated v3"@pl,
+        "FOGRA52"@pt,
+        "Fogra 52"@pt,
+        "PSO Uncoated v3"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Fogra-karakteriseringsdata for ISO 12647-2:2013 ubestrøget træfrit (FOGRA52 / PSO Uncoated v3)."@da,
+        "Fogra-Charakterisierungsdatensatz für ungestrichen holzfrei nach ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3)."@de,
+        "Fogra characterization dataset for ISO 12647-2:2013 uncoated wood-free (FOGRA52 / PSO Uncoated v3)."@en,
+        "Conjunto de caracterización Fogra para papel no estucado libre de madera según ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3)."@es,
+        "ISO 12647-2:2013 अनकोटेड वुड-फ़्री के लिए Fogra लक्षण-वर्णन डेटासेट (FOGRA52 / PSO Uncoated v3)।"@hi,
+        "ISO 12647-2:2013 上質紙（非塗工）向けの Fogra 特性化データセット（FOGRA52／PSO Uncoated v3）。"@ja,
+        "Fogra-karakteriseringsdatasett for ISO 12647-2:2013 ubestrøket trefritt (FOGRA52 / PSO Uncoated v3)."@nb,
+        "Fogra-karakteriseringsdata voor ISO 12647-2:2013 ongestreken houtvrij (FOGRA52 / PSO Uncoated v3)."@nl,
+        "Zbiór charakteryzacji Fogra dla papieru niepowlekanego bezdrzewnego wg ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3)."@pl,
+        "Conjunto de dados de caracterização Fogra para não revestido sem pasta mecânica ISO 12647-2:2013 (FOGRA52 / PSO Uncoated v3)."@pt,
+        "Fogra-karakteriseringsdata för ISO 12647-2:2013 obestruket träfritt (FOGRA52 / PSO Uncoated v3)."@sv,
+        "ISO 12647-2:2013 非涂布无木浆纸的 Fogra 特性化数据集（FOGRA52 / PSO Uncoated v3）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§FOGRA52" ;
+    skos:prefLabel "Fogra52"@da,
+        "Fogra52"@en,
+        "Fogra52"@hi,
+        "Fogra52"@nb,
+        "Fogra52"@nl,
+        "Fogra52"@pl,
+        "Fogra52"@pt,
+        "Fogra52"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

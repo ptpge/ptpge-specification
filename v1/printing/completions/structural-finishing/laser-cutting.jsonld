@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§LASER-CUTTING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Laser Cutting",
+    "nb": "Laserskjæring",
+    "de": "Laserschneiden",
+    "ja": "Laser Cutting",
+    "es": "Laser Cutting",
+    "zh-Hans": "Laser Cutting",
+    "sv": "Laserskärning",
+    "da": "Laserskæring",
+    "nl": "Lasersnijden",
+    "pl": "Cięcie laserowe",
+    "pt": "Corte a laser",
+    "hi": "लेज़र कटिंग"
+  },
+  "definition": {
+    "en": "Cutting or engraving the substrate with a focused laser beam for fine, intricate detail.",
+    "nb": "Skjæring eller gravering av substratet med en fokusert laserstråle for fine detaljer.",
+    "de": "Schneiden oder Gravieren des Bedruckstoffs mit einem fokussierten Laserstrahl für feine Details.",
+    "ja": "集束レーザービームで基材を切断・彫刻し、微細で複雑なディテールを実現する。",
+    "es": "Cortar o grabar el sustrato con un haz láser enfocado para detalles finos e intrincados.",
+    "zh-Hans": "用聚焦激光束切割或雕刻承印材料，实现精细复杂的细节。",
+    "sv": "Skärning eller gravyr av substratet med fokuserad laserstråle för fina, intrikata detaljer.",
+    "da": "Skæring eller gravering af substratet med en fokuseret laserstråle til fine, indviklede detaljer.",
+    "nl": "Het substraat snijden of graveren met een gefocuste laserstraal voor fijne, gedetailleerde vormen.",
+    "pl": "Cięcie lub grawerowanie podłoża skupioną wiązką lasera dla drobnych, misternych detali.",
+    "pt": "Corte ou gravação do substrato com um feixe de laser focalizado, para detalhes finos e intrincados.",
+    "hi": "बारीक, जटिल विवरण के लिए केंद्रित लेज़र किरण से सब्सट्रेट को काटना या उकेरना।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Laser cut",
+      "Laser-cut"
+    ],
+    "nb": [
+      "Laserskjæring",
+      "Laserkutt"
+    ],
+    "pl": [
+      "cięte laserem",
+      "wycinanie laserowe"
+    ],
+    "pt": [
+      "cortado a laser",
+      "laser cut",
+      "recorte a laser"
+    ],
+    "hi": [
+      "लेज़र कट",
+      "लेज़र से कटाई",
+      "लेज़र एनग्रेविंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ShapeCuttingIntent",
+        "ShapeCutting",
+        "DieMaking"
+      ],
+      "refs": [
+        "§4.13 · p.81",
+        "§5.6.27 · p.127",
+        "§5.6.11 · p.117"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 28"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ce64> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "11.4 x 31 cm"@en,
+        "114 x 310 mm"@en,
+        "114x310"@en,
+        "114×310"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "114 × 310 mm. Langt smalt kuvert til aflange dokumenter og specialforsendelser."@da,
+        "114 × 310 mm. Langer, schmaler Briefumschlag für längliche Dokumente und Spezialversand."@de,
+        "114 × 310 mm. Long narrow envelope used for elongated documents and specialty mailings."@en,
+        "Sobre CE64 — formato europeo alargado para folletos plegados estrechos."@es,
+        "114 × 310 mm. लंबे दस्तावेज़ों और विशेष डाक के लिए लंबा पतला लिफ़ाफ़ा।"@hi,
+        "114×310mm。細長い書類および特殊郵送に使用される細長い封筒。"@ja,
+        "114 × 310 mm. Lang smal konvolutt brukt til langstrakte dokumenter og spesialutsendelser."@nb,
+        "114 × 310 mm. Lange smalle envelop voor langwerpige documenten en speciale zendingen."@nl,
+        "114 × 310 mm. Długa, wąska koperta do wydłużonych dokumentów i przesyłek specjalnych."@pl,
+        "114 × 310 mm. Envelope longo e estreito para documentos alongados e envios especiais."@pt,
+        "114 × 310 mm. Långt smalt kuvert för avlånga dokument och specialutskick."@sv,
+        "CE64信封 —— 用于狭窄折页宣传册的欧洲细长格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§CE64" ;
+    skos:prefLabel "CE64 (114 x 310 mm)"@da,
+        "CE64 (114 x 310 mm)"@de,
+        "CE64 (114 x 310 mm)"@en,
+        "CE64 (114 × 310 mm)"@es,
+        "CE64 (114 x 310 mm)"@hi,
+        "CE64 (114 x 310 mm)"@ja,
+        "CE64 (114 x 310 mm)"@nb,
+        "CE64 (114 x 310 mm)"@nl,
+        "CE64 (114 x 310 mm)"@pl,
+        "CE64 (114 x 310 mm)"@pt,
+        "CE64 (114 x 310 mm)"@sv,
+        "CE64 (114 × 310 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 35340.0 ;
+            ptpge:aspectRatio 2.7193 ;
+            ptpge:height 310.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 114.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

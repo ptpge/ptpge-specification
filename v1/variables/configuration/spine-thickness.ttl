@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/configuration/spine-thickness> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "szerokość grzbietu"@pl ;
+    skos:broader <https://ptpge.org/v1/variables/configuration> ;
+    skos:definition "Den færdige tykkelse af et indbundet produkts ryg (permdybde), i millimeter — den tredje dimension Format ikke bærer. Numerisk akse med interval pr. skabelon; kanonisk enhed mm. Synlig for køberen ved hardcover og tykke paperbacks; producenten afleder den fra sidetal, papirtykkelse og indbinding, men den bestilte værdi er hvad identiteten binder."@da,
+        "Die fertige Rückenstärke eines gebundenen Produkts (Deckeltiefe) in Millimetern — die dritte Dimension, die Format nicht trägt. Numerische Achse mit Bereich pro Vorlage; kanonische Einheit mm. Käuferrelevant bei Hardcovern und dicken Taschenbüchern; der Hersteller leitet sie aus Seitenzahl, Papierdicke und Bindung ab, doch der bestellte Wert ist, was die Identität bindet."@de,
+        "The finished thickness of a bound product's spine (case depth), in millimetres — the third dimension Format does not carry. Numeric axis with a per-template range; canonical unit mm. Buyer-visible for hardcovers and thick paperbacks; producers derive it from page count, paper caliper and binding, but the ordered value is what the identity binds."@en,
+        "El grosor final del lomo de un producto encuadernado (profundidad de la tapa), en milímetros: la tercera dimensión que Formato no recoge. Eje numérico con rango por plantilla; unidad canónica mm. Visible para el comprador en tapa dura y rústica gruesa; el productor lo deriva del número de páginas, calibre del papel y encuadernación, pero el valor pedido es lo que vincula la identidad."@es,
+        "बँधे उत्पाद की स्पाइन (रीढ़) की तैयार मोटाई (केस की गहराई), मिलीमीटर में — वह तीसरा आयाम जो फ़ॉर्मेट नहीं रखता। हर टेम्पलेट की अपनी सीमा वाला संख्यात्मक अक्ष; मानक इकाई मिमी। हार्डकवर और मोटी पेपरबैक में खरीदार को दिखता है; उत्पादक इसे पृष्ठ संख्या, काग़ज़ की मोटाई और बाइंडिंग से निकालते हैं, पर ऑर्डर किया गया मान ही पहचान में बँधता है।"@hi,
+        "製本製品の仕上がり背幅（表紙の奥行き）をミリメートルで表す。Format が持たない第三の寸法。テンプレートごとの範囲を持つ数値軸で、正規単位は mm。ハードカバーや厚い並製本では購入者に見える。製造者はページ数・紙厚・製本方式から導出するが、識別子が束縛するのは注文された値である。"@ja,
+        "Ferdig tykkelse på et innbundet produkts rygg (permdybde), i millimeter — den tredje dimensjonen Format ikke bærer. Numerisk akse med område per mal; kanonisk enhet mm. Kjøpersynlig for innbundne bøker og tykke heftede; produsenten avleder den fra sidetall, papirtykkelse og innbinding, men den bestilte verdien er det identiteten binder."@nb,
+        "De afgewerkte dikte van de rug van een gebonden product (banddiepte), in millimeter — de derde dimensie die Format niet draagt. Numerieke as met een bereik per sjabloon; canonieke eenheid mm. Zichtbaar voor de koper bij hardcovers en dikke paperbacks; de producent leidt hem af uit paginatal, papierdikte en bindwijze, maar de bestelde waarde is wat de identiteit bindt."@nl,
+        "Gotowa grubość grzbietu produktu oprawionego (głębokość okładki) w milimetrach — trzeci wymiar, którego Format nie niesie. Oś numeryczna z zakresem per szablon; jednostka kanoniczna mm. Widoczna dla nabywcy przy oprawie twardej i grubych oprawach miękkich; producenci wyprowadzają ją z liczby stron, grubości papieru i oprawy, lecz to zamówiona wartość jest wiązana przez tożsamość."@pl,
+        "A espessura final da lombada de um produto encadernado (profundidade da capa), em milímetros — a terceira dimensão que o Formato não carrega. Eixo numérico com faixa por modelo; unidade canônica mm. Visível ao comprador em capas duras e brochuras grossas; os produtores derivam-na do número de páginas, do calibre do papel e da encadernação, mas o valor pedido é o que a identidade vincula."@pt,
+        "Den färdiga tjockleken på en bunden produkts rygg (pärmdjup), i millimeter — den tredje dimensionen Format inte bär. Numerisk axel med intervall per mall; kanonisk enhet mm. Synlig för köparen på hårdband och tjocka mjukband; producenten härleder den från sidantal, papperstjocklek och bindning, men det beställda värdet är vad identiteten binder."@sv,
+        "装订产品书脊的成品厚度（封面深度），单位毫米——Format 不承载的第三个尺寸。按模板设定范围的数值轴；规范单位为 mm。精装与厚平装中买方可见；生产者根据页数、纸张厚度和装订方式推算，但标识绑定的是订购值。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:CF§SPINE-THICKNESS" ;
+    skos:prefLabel "Rygtykkelse"@da,
+        "Rückenstärke"@de,
+        "Spine Thickness"@en,
+        "Grosor del lomo"@es,
+        "स्पाइन की मोटाई"@hi,
+        "背幅"@ja,
+        "Ryggtykkelse"@nb,
+        "Rugdikte"@nl,
+        "Grubość grzbietu"@pl,
+        "Espessura da lombada"@pt,
+        "Ryggtjocklek"@sv,
+        "书脊厚度"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "numeric" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvor tyk er ryggen?"@da,
+        "Wie dick ist der Rücken?"@de,
+        "How thick is the spine?"@en,
+        "¿Qué grosor tiene el lomo?"@es,
+        "रीढ़ (स्पाइन) कितनी मोटी?"@hi,
+        "背の厚さは？"@ja,
+        "Hvor tykk er ryggen?"@nb,
+        "Hoe dik is de rug?"@nl,
+        "Jak gruby jest grzbiet?"@pl,
+        "Que espessura tem a lombada?"@pt,
+        "Hur tjock är ryggen?"@sv,
+        "书脊多厚？"@zh-Hans ;
+    ptpge:rangeMax 150.0 ;
+    ptpge:rangeMin 1.0 ;
+    ptpge:scope "product" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§4.3 · p.64" ;
+            ptpge:mappingRow "SD-0076" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "BindingIntent",
+                "LayoutIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:unit "mm" ;
+    ptpge:version "2026-09-03" .
+

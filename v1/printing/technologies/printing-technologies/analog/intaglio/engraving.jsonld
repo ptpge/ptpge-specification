@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/engraving",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Engraving",
+    "es": "Grabado al Buril",
+    "zh-Hans": "刻凹版 (Engraving)",
+    "nb": "Gravering",
+    "de": "Gravur",
+    "ja": "エングレービング",
+    "sv": "Gravyr",
+    "da": "Gravure (stik)",
+    "nl": "Gravure (burijn)",
+    "pl": "Miedzioryt",
+    "pt": "Buril",
+    "hi": "एनग्रेविंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§ENGRAVING",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Intaglio printmaking technique where the image is incised directly into a metal plate using a burin (sharp tool) — producing crisp, precisely-controlled lines. The original printmaking technique used for security printing and fine art.",
+    "nb": "Intaglio-grafikkteknikk der bildet er skåret direkte inn i en metallplate ved hjelp av et stikkjern (skarpt verktøy) — gir skarpe, presist kontrollerte linjer. Den opprinnelige grafikkteknikken brukt til sikkerhetstrykk og kunstgrafikk.",
+    "de": "Stichtiefdruck-Technik, bei der das Bild mit einem Grabstichel (scharfes Werkzeug) direkt in eine Metallplatte eingeschnitten wird — sie erzeugt klare, präzise kontrollierte Linien. Die ursprüngliche Druckgrafiktechnik für Sicherheitsdruck und bildende Kunst.",
+    "ja": "ビュラン（鋭利な道具）を用いて画像を金属板に直接彫り込む凹版版画技法 — 鮮明で精密に制御された線を生み出す。セキュリティ印刷および美術に使用された元来の版画技法。",
+    "es": "Técnica de intaglio donde las líneas se incisan directamente con un buril en una plancha metálica. Resultado de líneas precisas y limpias.",
+    "zh-Hans": "凹版技术，线条直接用刻刀切入金属板。结果是精确清晰的线条。",
+    "sv": "Koppartrycksteknik där bilden ristas direkt i en metallplåt med en gravstickel (vasst verktyg) — ger skarpa, exakt kontrollerade linjer. Den ursprungliga grafiktekniken använd för säkerhetstryck och konst.",
+    "da": "Kobbertryksteknik, hvor billedet ridses direkte i en metalplade med en gravstik (skarpt værktøj) — giver skarpe, præcist kontrollerede linjer. Den oprindelige grafikteknik brugt til sikkerhedstryk og kunst.",
+    "nl": "Koperdiepdruktechniek waarbij het beeld direct in een metalen plaat wordt gestoken met een burijn (scherp gereedschap) — geeft scherpe, precies gecontroleerde lijnen. De oorspronkelijke prenttechniek voor beveiligd drukwerk en kunst.",
+    "pl": "Technika druku wklęsłego, w której obraz jest ryty bezpośrednio w metalowej płycie rylcem (ostrym narzędziem) — daje ostre, precyzyjnie kontrolowane linie. Pierwotna technika graficzna używana w druku zabezpieczonym i sztuce.",
+    "pt": "Técnica de gravura calcográfica em que a imagem é incisa diretamente numa chapa metálica com um buril (ferramenta afiada) — produzindo linhas nítidas e precisamente controladas. A técnica original de gravura usada em impressão de segurança e belas-artes.",
+    "hi": "इंटैग्लियो प्रिंटमेकिंग तकनीक जिसमें छवि ब्यूरिन (नुकीले औज़ार) से सीधे धातु की प्लेट में उकेरी जाती है — स्पष्ट, सटीक नियंत्रित रेखाएँ। सुरक्षा मुद्रण और ललित कला में प्रयुक्त मूल प्रिंटमेकिंग तकनीक।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Engraved"
+    ],
+    "nb": [
+      "Gravyr",
+      "Gravering"
+    ],
+    "pl": [
+      "rytownictwo",
+      "grawiura",
+      "staloryt"
+    ],
+    "pt": [
+      "Gravura a buril",
+      "Talhe-doce"
+    ],
+    "hi": [
+      "उत्कीर्णन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/colors/cmyk> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "4 farver"@da,
+        "4-farve"@da,
+        "Firefarve"@da,
+        "Firefarvetryk"@da,
+        "Processfarver"@da,
+        "4-farbig"@de,
+        "4c"@de,
+        "Euroskala"@de,
+        "Prozessfarben"@de,
+        "Skalenfarben"@de,
+        "Vierfarbdruck"@de,
+        "4 Color"@en,
+        "4 Colour"@en,
+        "4-Color"@en,
+        "4-Colour"@en,
+        "CMYK-color"@en,
+        "CMYK-colours"@en,
+        "Four-Color"@en,
+        "Four-Color Process"@en,
+        "Four-Colour"@en,
+        "Four-Colour Process"@en,
+        "Full Color"@en,
+        "Full Colour"@en,
+        "Process Color"@en,
+        "Process Colour"@en,
+        "Color de proceso"@es,
+        "Cuatricromía"@es,
+        "Cuatro colores"@es,
+        "Cuatro tintas"@es,
+        "4 कलर"@hi,
+        "चार रंग"@hi,
+        "प्रोसेस कलर"@hi,
+        "फ़ुल कलर"@hi,
+        "फ़ोर कलर प्रोसेस"@hi,
+        "मल्टीकलर"@hi,
+        "4色"@ja,
+        "4色印刷"@ja,
+        "フルカラー"@ja,
+        "プロセスカラー"@ja,
+        "四色"@ja,
+        "4 farge"@nb,
+        "4 farger"@nb,
+        "4-fargers trykk"@nb,
+        "CMYK-farger"@nb,
+        "Firefargetrykk"@nb,
+        "Fullfarge"@nb,
+        "Prosessfarger"@nb,
+        "Full colour"@nl,
+        "Vierkleurendruk"@nl,
+        "kolor CMYK"@pl,
+        "pełnokolorowy"@pl,
+        "pełny kolor"@pl,
+        "4 cores"@pt,
+        "cor completa"@pt,
+        "cores de escala"@pt,
+        "policromia"@pt,
+        "quadricromia"@pt,
+        "4 färger"@sv,
+        "4-färg"@sv,
+        "Fyrfärg"@sv,
+        "Fyrfärgstryck"@sv,
+        "Processfärger"@sv,
+        "全彩"@zh-Hans,
+        "四色"@zh-Hans,
+        "四色印刷"@zh-Hans,
+        "彩色印刷"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/colors> ;
+    skos:definition "Standard firefarvetryk med cyan, magenta, gul og sort (Key). Den dominerende farvetilstand til fuldfarvegengivelse på tværs af offset, digital toner og inkjet."@da,
+        "Standard-Vierfarbdruck mit Cyan, Magenta, Yellow und Key (Schwarz). Der dominierende Farbmodus für Vollfarbreproduktion in Offset-, Digital-Toner- und Inkjet-Verfahren."@de,
+        "Standard four-color process printing using Cyan, Magenta, Yellow, and Key (black) inks. The dominant color mode for full-color reproduction across offset, digital toner, and inkjet processes."@en,
+        "Impresión estándar de cuatricromía con tintas Cian, Magenta, Amarillo y Negro (Key). El modo de color dominante para la reproducción a todo color en ófset, tóner digital e inyección."@es,
+        "सायन, मैजेंटा, पीला और की (काला) स्याही से मानक चार-रंग प्रोसेस छपाई। ऑफसेट, डिजिटल टोनर और इंकजेट में पूर्ण-रंग पुनरुत्पादन का प्रमुख कलर मोड।"@hi,
+        "シアン、マゼンタ、イエロー、キー（黒）の4色によるプロセス印刷の標準。オフセット、デジタルトナー、インクジェットでのフルカラー再現の主流カラーモード。"@ja,
+        "Standard 4-fargers prosesstrykk med Cyan, Magenta, Yellow og Key (sort). Den dominerende fargemodusen for fullfargereproduksjon på tvers av offset, digital toner og inkjet."@nb,
+        "Standaard vierkleurendruk met cyaan, magenta, geel en zwart (Key). De dominante kleurmodus voor fullcolourweergave in offset, digitale toner en inkjet."@nl,
+        "Standardowy czterokolorowy druk procesowy farbami cyjan, magenta, żółtą i czarną (Key). Dominujący tryb koloru dla reprodukcji pełnokolorowej w offsecie, cyfrowym druku tonerowym i atramentowym."@pl,
+        "Impressão padrão em quadricromia com as tintas Ciano, Magenta, Amarelo e Preto (Key). O modo de cor dominante para reprodução em cores em offset, toner digital e jato de tinta."@pt,
+        "Standardmässigt fyrfärgstryck med cyan, magenta, gult och svart (Key). Det dominerande färgläget för fullfärgsåtergivning i offset, digital toner och inkjet."@sv,
+        "使用青、品红、黄、黑（Key）油墨的标准四色印刷。胶印、数字碳粉与喷墨全彩再现的主导色彩模式。"@zh-Hans ;
+    skos:exactMatch <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmyk> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§CMYK" ;
+    skos:prefLabel "CMYK"@da,
+        "CMYK"@de,
+        "CMYK"@en,
+        "CMYK"@es,
+        "CMYK"@hi,
+        "CMYK"@ja,
+        "CMYK"@nb,
+        "CMYK"@nl,
+        "CMYK"@pl,
+        "CMYK"@pt,
+        "CMYK"@sv,
+        "CMYK"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§6.15 · p.168" ;
+            ptpge:mappingRow "crosswalk row 24" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" ;
+    ptpge:visual [ ] .
+

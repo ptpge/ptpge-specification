@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-profiles/device-profiles",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Device Profiles",
+    "de": "Geräteprofile",
+    "es": "Perfiles de dispositivo",
+    "ja": "デバイスプロファイル",
+    "zh-Hans": "设备配置文件",
+    "sv": "Enhetsprofiler",
+    "da": "Enhedsprofiler",
+    "nl": "Apparaatprofielen",
+    "pl": "Profile urządzeń",
+    "pt": "Perfis de dispositivo",
+    "hi": "डिवाइस प्रोफ़ाइल"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-profiles",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§DEVICE-PROFILES",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "Device-specific colour profiles characterising a particular printer/press/paper combination.",
+    "nb": "Enhetsspesifikke fargeprofiler som karakteriserer en bestemt printer/presse/papir-kombinasjon.",
+    "de": "Gerätespezifische Farbprofile, die eine bestimmte Drucker-/Maschinen-/Papier-Kombination charakterisieren.",
+    "es": "Perfiles de color específicos de dispositivo que caracterizan una combinación concreta de impresora/prensa/papel.",
+    "ja": "特定のプリンター／印刷機／用紙の組み合わせを特性化するデバイス固有のカラープロファイル。",
+    "zh-Hans": "描述特定打印机/印刷机/纸张组合特性的设备专用色彩配置文件。",
+    "sv": "Enhetsspecifika färgprofiler som karakteriserar en viss kombination av skrivare/press/papper.",
+    "da": "Enhedsspecifikke farveprofiler, der karakteriserer en bestemt kombination af printer/presse/papir.",
+    "nl": "Apparaatspecifieke kleurprofielen die een bepaalde combinatie van printer/pers/papier karakteriseren.",
+    "pl": "Profile barw specyficzne dla urządzenia, charakteryzujące konkretne połączenie drukarki/maszyny i papieru.",
+    "pt": "Perfis de cor específicos de dispositivo que caracterizam uma determinada combinação de impressora/máquina/papel.",
+    "hi": "किसी विशेष प्रिंटर/प्रेस/काग़ज़ संयोजन का लक्षण-वर्णन करने वाली डिवाइस-विशिष्ट रंग प्रोफ़ाइल।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

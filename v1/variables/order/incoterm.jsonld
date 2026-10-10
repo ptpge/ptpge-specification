@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/order/incoterm",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "VAR:OR§INCOTERM",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Incoterm",
+    "nb": "Incoterm",
+    "de": "Incoterm",
+    "es": "Incoterm",
+    "ja": "インコタームズ",
+    "zh-Hans": "国际贸易术语",
+    "sv": "Incoterm",
+    "da": "Incoterm",
+    "nl": "Incoterm",
+    "pl": "Incoterm",
+    "pt": "Incoterm",
+    "hi": "इनकोटर्म"
+  },
+  "definition": {
+    "en": "Configurable axis: Incoterm (enum, single). Allowed values are the Incoterms 2020 terms in the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Incoterm (enum, single). Verdier er Incoterms 2020-vilkårene i value-domain.",
+    "de": "Konfigurierbare Achse: Incoterm (Enum, Einfachauswahl). Zulässige Werte sind die Incoterms-2020-Klauseln in der referenzierten valueDomain.",
+    "es": "Eje configurable: Incoterm (enum, selección única). Los valores permitidos son los términos Incoterms 2020 del valueDomain referenciado.",
+    "ja": "構成可能な軸：インコタームズ（列挙型、単一選択）。許容値は参照先 valueDomain にある Incoterms 2020 の条件。",
+    "zh-Hans": "可配置轴：国际贸易术语（枚举，单选）。允许的取值为所引用 valueDomain 中的 Incoterms 2020 条款。",
+    "sv": "Konfigurerbar axel: Incoterm (uppräkning, enkelval). Tillåtna värden är Incoterms 2020-termerna i den refererade värdedomänen.",
+    "da": "Konfigurerbar akse: Incoterm (enum, enkeltvalg). Tilladte værdier er Incoterms 2020-klausulerne i det refererede værdidomæne.",
+    "nl": "Configureerbare as: Incoterm (enum, enkelvoudig). Toegestane waarden zijn de Incoterms 2020-termen in het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Incoterm (enum, pojedynczy). Dozwolone wartości to reguły Incoterms 2020 z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Incoterm (enumeração, único). Os valores permitidos são os termos Incoterms 2020 do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: इनकोटर्म (enum, एकल)। अनुमत मान संदर्भित valueDomain के Incoterms 2020 पद हैं।"
+  },
+  "question": {
+    "en": "Which delivery terms?",
+    "nb": "Hvilke leveringsbetingelser?",
+    "de": "Welche Lieferbedingungen?",
+    "es": "¿Qué condiciones de entrega?",
+    "ja": "取引条件は？",
+    "zh-Hans": "什么交货条款？",
+    "sv": "Vilka leveransvillkor?",
+    "da": "Hvilke leveringsbetingelser?",
+    "nl": "Welke leveringsvoorwaarden?",
+    "pl": "Jakie warunki dostawy?",
+    "pt": "Que condições de entrega?",
+    "hi": "कौन-सी डिलीवरी शर्तें?"
+  },
+  "cardinality": "single",
+  "scope": "product",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/order",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Incoterms 2020",
+      "Trade term",
+      "Delivery term"
+    ],
+    "pl": [
+      "Incoterms 2020",
+      "reguła handlowa",
+      "warunki dostawy"
+    ],
+    "pt": [
+      "Incoterms 2020",
+      "termo comercial",
+      "condição de entrega"
+    ],
+    "hi": [
+      "Incoterms 2020",
+      "व्यापार शर्त",
+      "डिलीवरी शर्त"
+    ]
+  },
+  "datatype": "enum",
+  "valueDomain": "https://ptpge.org/v1/ordering/distribution/incoterms"
+}

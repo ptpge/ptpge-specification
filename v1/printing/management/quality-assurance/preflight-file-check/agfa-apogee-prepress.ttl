@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/agfa-apogee-prepress> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> ;
+    skos:definition "Agfa Apogee Prepress — automatiseringssystem fra Agfa Graphics, der håndterer preflight, normalisering, farvestyring og udskydning for offset- og digitaltrykproduktion."@da,
+        "Agfa Apogee Prepress — Automatisierungssystem von Agfa Graphics für Preflight, Normalisierung, Farbmanagement und Ausschießen in der Offset- und Digitalproduktion."@de,
+        "Agfa Apogee Prepress — automation system from Agfa Graphics that handles preflight, normalization, color management, and imposition for offset and digital print production."@en,
+        "Solución integrada de pre-prensa de Agfa Graphics que incluye preflight de archivos como parte del flujo de procesamiento desde el envío del trabajo hasta la salida en plancha o digital."@es,
+        "Agfa Apogee Prepress — Agfa Graphics का स्वचालन सिस्टम जो ऑफसेट और डिजिटल प्रिंट उत्पादन के लिए प्रीफ़्लाइट, नॉर्मलाइज़ेशन, रंग प्रबंधन और इम्पोज़िशन संभालता है।"@hi,
+        "Agfa Apogee Prepress — Agfa Graphicsによる自動化システム。オフセットおよびデジタル印刷生産のためのプリフライト、正規化、カラーマネジメント、面付けを処理する。"@ja,
+        "Agfa Apogee Prepress — automasjonssystem fra Agfa Graphics som håndterer preflight, normalisering, fargestyring og impositioning for offset- og digital trykkproduksjon."@nb,
+        "Agfa Apogee Prepress — automatiseringssysteem van Agfa Graphics voor preflight, normalisatie, kleurbeheer en impositie voor offset- en digitale drukproductie."@nl,
+        "Agfa Apogee Prepress — system automatyzacji firmy Agfa Graphics obsługujący preflight, normalizację, zarządzanie barwą i impozycję dla produkcji offsetowej i cyfrowej."@pl,
+        "Agfa Apogee Prepress — sistema de automação da Agfa Graphics que trata preflight, normalização, gerenciamento de cor e imposição para produção de impressão offset e digital."@pt,
+        "Agfa Apogee Prepress — automationssystem från Agfa Graphics som hanterar preflight, normalisering, färghantering och utskjutning för offset- och digitaltryckproduktion."@sv,
+        "Agfa Graphics的集成印前解决方案，文件飞检是从作业提交到印版或数码输出的处理流程的一部分。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§AGFA-APOGEE-PREPRESS" ;
+    skos:prefLabel "Agfa Apogee Prepress"@da,
+        "Agfa Apogee Prepress"@de,
+        "Agfa Apogee Prepress"@en,
+        "Agfa Apogee Prepress"@es,
+        "Agfa Apogee Prepress"@hi,
+        "Agfa Apogee Prepress"@ja,
+        "Agfa Apogee Prepress"@nb,
+        "Agfa Apogee Prepress"@nl,
+        "Agfa Apogee Prepress"@pl,
+        "Agfa Apogee Prepress"@pt,
+        "Agfa Apogee Prepress"@sv,
+        "Agfa Apogee Prepress"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.4.14 · p.100",
+                "§6.64 · p.249",
+                "§6.65 · p.250" ;
+            ptpge:mappingRow "crosswalk row 13" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ContentCheckIntent",
+                "Preflight",
+                "PreflightParams",
+                "PreflightReport" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

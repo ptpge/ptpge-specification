@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Light paper"@en,
+        "Lightweight paper"@en,
+        "लाइट पेपर"@hi,
+        "हल्का काग़ज़"@hi,
+        "हल्का मध्यम काग़ज़"@hi,
+        "Lett papir"@nb,
+        "papier lekki"@pl,
+        "papier o niskiej gramaturze"@pl,
+        "papel de gramatura leve"@pt,
+        "papel leve"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:definition "Papir i området 110–149 g/m² — brugt til brevpapir af højere kvalitet, brochurer og kvalitetsflyers. Tungere end standard tekstpapir, men falses stadig rent."@da,
+        "Papier im Bereich 110–149 g/m² — eingesetzt für hochwertigere Briefbögen, Broschüren und Qualitätsflyer. Schwerer als Standard-Textpapier, dabei dennoch sauber falzbar."@de,
+        "Paper in the 110–149 gsm range — used for higher-quality letterheads, brochures, and quality flyers. Heavier than standard text paper but still folds cleanly."@en,
+        "Papel de gramaje ligero a medio, 90–120 gsm — para folletos, papelería de calidad y manuales."@es,
+        "110–149 GSM रेंज का काग़ज़ — बेहतर गुणवत्ता के लेटरहेड, ब्रोशर और अच्छे फ़्लायर में। मानक टेक्स्ट पेपर से भारी पर अब भी साफ़ मुड़ता है।"@hi,
+        "110〜149gsmの坪量範囲の紙 — 上質な便箋、ブローシュア、上質チラシに使用される。標準的な本文用紙より重いが、それでもきれいに折ることができる。"@ja,
+        "Papir i området 110–149 gsm — brukt til høyere kvalitets-brevhoder, brosjyrer og kvalitets-flyers. Tyngre enn standard tekstpapir, men bretter fortsatt rent."@nb,
+        "Papier in het bereik 110–149 g/m² — gebruikt voor briefpapier van hogere kwaliteit, brochures en kwaliteitsflyers. Zwaarder dan standaard tekstpapier, maar vouwt nog steeds netjes."@nl,
+        "Papier w zakresie 110–149 g/m² — używany do lepszych papierów firmowych, broszur i ulotek dobrej jakości. Cięższy niż standardowy papier tekstowy, lecz nadal składa się czysto."@pl,
+        "Papel na faixa de 110–149 g/m² — usado em papel timbrado de melhor qualidade, folhetos e flyers de qualidade. Mais pesado que o papel de texto padrão, mas ainda dobra bem."@pt,
+        "Papper i intervallet 110–149 g/m² — används för kvalitetsbrevpapper, broschyrer och bättre flygblad. Tyngre än vanligt textpapper men falsas fortfarande rent."@sv,
+        "轻到中等克重纸，90–120克 —— 用于宣传册、优质文具和手册。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§LIGHT-MEDIUM-PAPER" ;
+    skos:prefLabel "Let mellempapir (110–149 g/m²)"@da,
+        "Leichtes Mittelpapier (110–149 g/m²)"@de,
+        "Light Medium Paper (110–149 gsm)"@en,
+        "Papel Ligero-Medio (110–149 gsm)"@es,
+        "लाइट मीडियम काग़ज़ (110–149 GSM)"@hi,
+        "中軽量紙（110〜149 gsm）"@ja,
+        "Lett medium-papir (110–149 g/m²)"@nb,
+        "Licht-medium papier (110–149 g/m²)"@nl,
+        "Papier lekko-średni (110–149 g/m²)"@pl,
+        "Papel médio leve (110–149 g/m²)"@pt,
+        "Lätt mellanpapper (110–149 g/m²)"@sv,
+        "轻-中等纸 (110–149克)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:hasProperty [ ptpge:unit "gsm" ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

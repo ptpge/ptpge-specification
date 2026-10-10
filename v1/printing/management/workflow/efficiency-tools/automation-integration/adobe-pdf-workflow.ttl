@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/adobe-pdf-workflow> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    skos:definition "Adobe PDF Workflow — Acrobat-baseret automatisering med Action Wizards, preflight-droplets og integrationer med Creative Suite-output til at standardisere og automatisere PDF-produktionsopgaver."@da,
+        "Adobe PDF Workflow — Acrobat-basierte Automatisierung über Action Wizards, Preflight-Droplets und Integrationen mit der Creative Suite, um PDF-Produktionsaufgaben zu standardisieren und zu automatisieren."@de,
+        "Adobe PDF Workflow — Acrobat-based automation using Action Wizards, Preflight droplets, and integrations with creative-suite output to standardize and automate PDF production tasks."@en,
+        "Conjunto de soluciones Adobe para automatización del flujo de PDF en pre-prensa — Acrobat Pro, scripts JavaScript, integración con Prinergy/Apogee/Apogee."@es,
+        "Adobe PDF Workflow — Action Wizards, प्रीफ़्लाइट ड्रॉपलेट और क्रिएटिव-सूट आउटपुट के एकीकरण से Acrobat-आधारित स्वचालन, PDF उत्पादन कार्यों को मानकीकृत और स्वचालित करने के लिए।"@hi,
+        "Adobe PDF Workflow — Action Wizards、プリフライトドロップレット、クリエイティブスイート出力との統合を用いてPDF生産タスクを標準化・自動化するAcrobatベースの自動化。"@ja,
+        "Adobe PDF Workflow — Acrobat-basert automasjon som bruker Action Wizards, Preflight-droplets og integrasjoner med kreativ-suite-output for å standardisere og automatisere PDF-produksjonsoppgaver."@nb,
+        "Adobe PDF Workflow — Acrobat-gebaseerde automatisering met Action Wizards, preflight-droplets en integraties met Creative Suite-output om PDF-productietaken te standaardiseren en automatiseren."@nl,
+        "Adobe PDF Workflow — automatyzacja oparta na Acrobacie z użyciem kreatorów akcji, dropletów preflight i integracji z wyjściem pakietu kreatywnego w celu standaryzacji i automatyzacji zadań produkcji PDF."@pl,
+        "Adobe PDF Workflow — automação baseada no Acrobat usando Action Wizards, droplets de preflight e integrações com a saída da suíte criativa para padronizar e automatizar tarefas de produção de PDF."@pt,
+        "Adobe PDF Workflow — Acrobat-baserad automation med åtgärdsguider, preflight-droplets och integrationer med Creative Suite-utdata för att standardisera och automatisera PDF-produktionsuppgifter."@sv,
+        "Adobe印前PDF流程自动化解决方案集——Acrobat Pro、JavaScript脚本、与Prinergy/Apogee/Apogee的集成。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ADOBE-PDF-WORKFLOW" ;
+    skos:prefLabel "Adobe PDF Workflow"@da,
+        "Adobe PDF Workflow"@de,
+        "Adobe PDF Workflow"@en,
+        "Adobe PDF Workflow"@es,
+        "Adobe PDF Workflow"@hi,
+        "Adobe PDF Workflow"@ja,
+        "Adobe PDF Workflow"@nb,
+        "Adobe PDF Workflow"@nl,
+        "Adobe PDF Workflow"@pl,
+        "Adobe PDF Workflow"@pt,
+        "Adobe PDF Workflow"@sv,
+        "Adobe PDF Workflow"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

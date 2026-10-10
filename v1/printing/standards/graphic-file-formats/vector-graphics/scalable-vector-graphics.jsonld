@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/vector-graphics/scalable-vector-graphics",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Scalable Vector Graphics (.svg)",
+    "es": "SVG (.svg)",
+    "zh-Hans": "SVG (.svg)",
+    "nb": "Scalable Vector Graphics (.svg)",
+    "de": "Scalable Vector Graphics (.svg)",
+    "ja": "Scalable Vector Graphics (.svg)",
+    "sv": "SVG (.svg)",
+    "da": "SVG (.svg)",
+    "nl": "SVG (.svg)",
+    "pl": "Scalable Vector Graphics (.svg)",
+    "pt": "Scalable Vector Graphics (.svg)",
+    "hi": "Scalable Vector Graphics (.svg)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§SCALABLE-VECTOR-GRAPHICS",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/vector-graphics",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "SVG (.svg) — W3C open standard for vector graphics in XML format, supporting interactivity, animation, and direct embedding in HTML for web and print delivery.",
+    "nb": "SVG (.svg) — W3Cs åpne standard for vektorgrafikk i XML-format, med støtte for interaktivitet, animasjon og direkte innlemming i HTML for web- og trykklevering.",
+    "de": "SVG (.svg) — offener W3C-Standard für Vektorgrafiken im XML-Format, unterstützt Interaktivität, Animation und direkte Einbettung in HTML für Web- und Drucklieferung.",
+    "ja": "SVG（.svg）— XML形式のベクターグラフィックスのためのW3Cオープン規格。インタラクティブ性、アニメーション、HTMLへの直接埋め込みをサポートし、ウェブおよび印刷納品に対応する。",
+    "es": "Scalable Vector Graphics — norma abierta del W3C para gráficos vectoriales 2D basada en XML. Utilizada para entrega web e iconografía.",
+    "zh-Hans": "Scalable Vector Graphics —— W3C基于XML的2D矢量图形开放标准。用于网络交付和图标。",
+    "sv": "SVG (.svg) — W3C:s öppna standard för vektorgrafik i XML-format, med stöd för interaktivitet, animation och direkt inbäddning i HTML för webb- och tryckleverans.",
+    "da": "SVG (.svg) — W3C’s åbne standard for vektorgrafik i XML-format med understøttelse af interaktivitet, animation og direkte indlejring i HTML til web- og tryklevering.",
+    "nl": "SVG (.svg) — de open W3C-standaard voor vectorgraphics in XML-formaat, met ondersteuning voor interactiviteit, animatie en directe insluiting in HTML voor web- en druklevering.",
+    "pl": "SVG (.svg) — otwarty standard W3C grafiki wektorowej w formacie XML, obsługujący interaktywność, animację i bezpośrednie osadzanie w HTML na potrzeby sieci i druku.",
+    "pt": "SVG (.svg) — norma aberta do W3C para gráficos vetoriais em formato XML, com suporte a interatividade, animação e incorporação direta em HTML para entrega web e impressa.",
+    "hi": "SVG (.svg) — XML फ़ॉर्मेट में वेक्टर ग्राफ़िक्स का W3C खुला मानक, वेब और प्रिंट डिलीवरी के लिए इंटरैक्टिविटी, एनिमेशन और HTML में सीधे एम्बेडिंग का समर्थन।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "SVG",
+      ".svg"
+    ],
+    "pl": [
+      "SVG",
+      ".svg"
+    ],
+    "pt": [
+      "SVG",
+      ".svg"
+    ],
+    "hi": [
+      "SVG",
+      ".svg"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

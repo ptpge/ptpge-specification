@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/substrate/substrate-weight> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "GSM"@en,
+        "Grammage"@en,
+        "Paper Weight"@en,
+        "GSM"@hi,
+        "काग़ज़ का वज़न"@hi,
+        "ग्रामेज"@hi,
+        "पेपर वेट"@hi,
+        "Gramvekt"@nb,
+        "Papirvekt"@nb,
+        "g/m²"@pl,
+        "gramatura"@pl,
+        "gramatura papieru"@pl,
+        "g/m²"@pt,
+        "gramatura"@pt,
+        "gramatura do papel"@pt,
+        "peso do papel"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/substrate> ;
+    skos:definition "Konfigurerbar akse: Substratvægt. Et trykt produkt konfigureres langs denne variabel (numerisk, enkeltvalg, i g/m²). Tilladte værdier hentes fra det refererede værdidomæne."@da,
+        "Konfigurierbare Achse: Grammatur. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (numerisch, Einfachauswahl, in g/m²). Zulässige Werte stammen aus der referenzierten valueDomain."@de,
+        "Configurable axis: Substrate Weight. A printed product is configured along this variable (numeric, single selection, in gsm). Allowed values are drawn from the referenced valueDomain."@en,
+        "Eje configurable: Gramaje. Un producto impreso se configura a lo largo de esta variable (numérico, selección única, en g/m²). Los valores permitidos provienen del valueDomain referenciado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: सब्सट्रेट का वज़न (ग्रामेज)। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (संख्यात्मक, एकल चयन, GSM में)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"@hi,
+        "構成可能な軸：坪量。印刷物はこの変数に沿って構成される（数値、単一選択、g/m²単位）。許容値は参照先の valueDomain から取得される。"@ja,
+        "Konfigurerbar akse: Substratvekt. Et trykkprodukt konfigureres langs denne variabelen (numeric, single valg, i gsm). Verdier hentes fra value-domain."@nb,
+        "Configureerbare as: Substraatgewicht. Een drukproduct wordt langs deze variabele geconfigureerd (numeriek, enkelvoudig, in g/m²). Toegestane waarden komen uit het gerefereerde waardedomein."@nl,
+        "Oś konfigurowalna: Gramatura podłoża. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (numeryczna, wybór pojedynczy, w g/m²). Dozwolone wartości pochodzą z przywołanej valueDomain."@pl,
+        "Eixo configurável: Gramatura do Substrato. Um impresso é configurado ao longo desta variável (numérico, seleção única, em g/m²). Os valores permitidos vêm do valueDomain referenciado."@pt,
+        "Konfigurerbar axel: Substratvikt. En trycksak konfigureras längs denna variabel (numerisk, enkelval, i g/m²). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain)."@sv,
+        "可配置轴：克重。印刷品沿此变量进行配置（数值，单选，以 g/m² 计）。允许的取值来自所引用的 valueDomain。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:SB§SUBSTRATE-WEIGHT" ;
+    skos:prefLabel "Substratvægt"@da,
+        "Grammatur"@de,
+        "Substrate Weight"@en,
+        "Gramaje"@es,
+        "सब्सट्रेट का वज़न"@hi,
+        "坪量"@ja,
+        "Substratvekt"@nb,
+        "Substraatgewicht"@nl,
+        "Gramatura podłoża"@pl,
+        "Gramatura do substrato"@pt,
+        "Substratvikt"@sv,
+        "克重"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "numeric" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken papirvægt?"@da,
+        "Welches Papiergewicht?"@de,
+        "How heavy a paper?"@en,
+        "¿Qué gramaje?"@es,
+        "कागज़ कितना भारी?"@hi,
+        "紙の厚さ（坪量）は？"@ja,
+        "Hvor tykt papir?"@nb,
+        "Welk papiergewicht?"@nl,
+        "Jaka gramatura?"@pl,
+        "Que gramagem?"@pt,
+        "Vilken pappersvikt?"@sv,
+        "纸张多重？"@zh-Hans ;
+    ptpge:rangeMax 600.0 ;
+    ptpge:rangeMin 40.0 ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:unit "gsm" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    ptpge:version "2026-06-05" .
+

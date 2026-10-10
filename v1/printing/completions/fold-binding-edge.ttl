@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/fold-binding-edge> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Den kant af produktet, hvor indbindingen eller falsen sidder — venstre, højre, top eller bund. En fælles kantakse, uafhængig af indbindings-/falstype; vælges via variablen Kant."@da,
+        "Die Kante des Produkts, an der Bindung oder Falz sitzt — links, rechts, oben oder unten. Eine gemeinsame Kantenachse, unabhängig von Binde-/Falzart; gewählt über die Variable Edge."@de,
+        "The edge of the product where the binding or fold sits — left, right, top or bottom. A shared edge axis, independent of binding/fold type; selected via the Edge variable."@en,
+        "El borde del producto donde asienta la encuadernación o el plegado — izquierdo, derecho, superior o inferior. Un eje de borde compartido, independiente del tipo de encuadernación o plegado; se selecciona mediante la variable Edge."@es,
+        "उत्पाद का वह किनारा जहाँ बाइंडिंग या फ़ोल्ड होता है — बायाँ, दायाँ, ऊपर या नीचे। बाइंडिंग/फ़ोल्ड के प्रकार से स्वतंत्र एक साझा किनारा-अक्ष; किनारा वेरिएबल से चुना जाता है।"@hi,
+        "製本または折りが位置する製品の辺 — 左・右・上・下。製本・折りの種類に依存しない共通の辺軸で、Edge 変数で選択される。"@ja,
+        "Kanten på produktet der innbindingen eller folden sitter — venstre, høyre, topp eller bunn. En delt kant-akse, uavhengig av innbindings-/foldetype; velges via Edge-variabelen."@nb,
+        "De zijde van het product waar de binding of vouw zit — links, rechts, boven of onder. Een gedeelde zijde-as, onafhankelijk van bind-/vouwtype; gekozen via de variabele Zijde."@nl,
+        "Krawędź produktu, na której znajduje się oprawa lub złam — lewa, prawa, górna lub dolna. Wspólna oś krawędzi, niezależna od typu oprawy/złamu; wybierana przez zmienną Krawędź."@pl,
+        "A borda do produto onde fica a encadernação ou a dobra — esquerda, direita, topo ou base. Um eixo de borda compartilhado, independente do tipo de encadernação/dobra; selecionado pela variável Borda."@pt,
+        "Den kant av produkten där bindningen eller falsen sitter — vänster, höger, ovan- eller nederkant. En gemensam kantaxel, oberoende av bindnings-/falstyp; väljs via variabeln Kant."@sv,
+        "装订或折页所在的产品边 — 左、右、上或下。与装订/折页类型无关的共用边轴，通过 Edge 变量选择。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/fold-binding-edge/bottom>,
+        <https://ptpge.org/v1/printing/completions/fold-binding-edge/left>,
+        <https://ptpge.org/v1/printing/completions/fold-binding-edge/right>,
+        <https://ptpge.org/v1/printing/completions/fold-binding-edge/top> ;
+    skos:notation "P:CP-FBE" ;
+    skos:prefLabel "Fals- og indbindingskant"@da,
+        "Falz- und Bindekante"@de,
+        "Fold & Binding Edge"@en,
+        "Borde de Pliegue y Encuadernación"@es,
+        "फ़ोल्ड और बाइंडिंग किनारा"@hi,
+        "折り・製本エッジ"@ja,
+        "Fals- og innbindingskant"@nb,
+        "Vouw- en bindzijde"@nl,
+        "Krawędź złamu i oprawy"@pl,
+        "Borda de dobra e encadernação"@pt,
+        "Fals- och bindningskant"@sv,
+        "折页与装订边缘"@zh-Hans ;
+    skos:scopeNote "Bestimmt Leserichtung und Bindungstyp-Kompatibilität. Linksrandbindung ist Standard für Bücher und Berichte in westlichen Sprachen. Oberkantenbindung wird für Notizblöcke, Kalender und Präsentationen verwendet. Rechtsrandbindung wird für Sprachen verwendet, die von rechts nach links gelesen werden (Arabisch, Hebräisch)."@de,
+        "Determines reading direction and binding type compatibility. Left-edge binding is the default for Western-language books and reports. Top-edge binding is used for notepads, calendars, and presentations. Right-edge binding is used for right-to-left languages (Arabic, Hebrew)."@en,
+        "Determina la dirección de lectura y la compatibilidad del tipo de encuadernación. La encuadernación por el lado izquierdo es la predeterminada para libros e informes en lenguas occidentales. La encuadernación superior se utiliza para blocs, calendarios y carpetas de presentación."@es,
+        "पढ़ने की दिशा और बाइंडिंग प्रकार की अनुकूलता तय करता है। पश्चिमी भाषाओं की किताबों और रिपोर्टों में बाईं ओर बाइंडिंग डिफ़ॉल्ट है। ऊपर की बाइंडिंग नोटपैड, कैलेंडर और प्रस्तुतियों में। दाईं ओर बाइंडिंग दाएँ-से-बाएँ लिखी भाषाओं (अरबी, हिब्रू; भारत में उर्दू) में।"@hi,
+        "読み方向と綴じ方法の互換性を決定する。左綴じが西欧語の書籍と報告書の標準。上綴じはノート、カレンダー、プレゼンテーションに使用される。右綴じは右から左への言語（アラビア語、ヘブライ語）に使用される。"@ja,
+        "Bestemmer leseretning og kompatibilitet med innbindingstype. Venstrekant-binding er standard for vestlig-språklige bøker og rapporter. Toppkant-binding brukes til notatblokker, kalendere og presentasjoner. Høyrekant-binding brukes til høyre-til-venstre-språk (arabisk, hebraisk)."@nb,
+        "Determina o sentido de leitura e a compatibilidade com o tipo de encadernação. Encadernação à esquerda é o padrão para livros e relatórios em línguas ocidentais. Encadernação no topo é usada em blocos, calendários e apresentações. Encadernação à direita é usada em línguas escritas da direita para a esquerda (árabe, hebraico)."@pt,
+        "决定阅读方向和装订类型兼容性。左侧装订是西方语言书籍和报告的默认方向。顶部装订用于便签、日历和演示文件夹。"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64" ;
+            ptpge:mappingRow "crosswalk row 47" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

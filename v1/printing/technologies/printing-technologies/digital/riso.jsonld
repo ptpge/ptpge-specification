@@ -1,0 +1,88 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/riso",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Riso",
+    "es": "Riso (Duplicador Digital)",
+    "zh-Hans": "Riso（数码油印）",
+    "nb": "Riso",
+    "de": "Riso",
+    "ja": "Riso",
+    "sv": "Riso",
+    "da": "Riso",
+    "nl": "Riso",
+    "pl": "Riso",
+    "pt": "Riso",
+    "hi": "रिसो"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§RISO",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Stencil-based digital duplication technology developed by RISO Kagaku Corporation — fast and economical for short-to-medium run printing of mostly text and simple graphics. A digital descendant of mimeograph.",
+    "nb": "Sjablongbasert digital duplikeringsteknologi utviklet av RISO Kagaku Corporation — rask og økonomisk for kort-til-middel-opplag-trykk av mest tekst og enkel grafikk. En digital etterkommer av mimeograf.",
+    "de": "Schablonenbasierte digitale Vervielfältigungstechnologie, entwickelt von der RISO Kagaku Corporation — schnell und wirtschaftlich für kleine bis mittlere Auflagen, hauptsächlich für Text und einfache Grafiken. Ein digitaler Nachfahre des Mimeografen.",
+    "ja": "理想科学工業（RISO Kagaku Corporation）が開発したステンシルベースのデジタル謄写技術 — テキストや簡単なグラフィックスが大半を占める短～中量印刷において高速かつ経済的。謄写版のデジタル後継。",
+    "es": "Duplicador digital Riso — tecnología económica de alta velocidad similar a la serigrafía digital, con tintas a base de soja. Usada para tiradas medias en escuelas, iglesias y producción ligera.",
+    "zh-Hans": "Riso数码油印机——类似数码丝印的经济高速技术，使用大豆基油墨。用于学校、教堂和轻量生产的中等印次。",
+    "sv": "Schablonbaserad digital dupliceringsteknik utvecklad av RISO Kagaku Corporation — snabb och ekonomisk för tryck i korta till medellånga serier av mestadels text och enkel grafik. En digital ättling till stencilapparaten.",
+    "da": "Stencilbaseret digital dupliceringsteknik udviklet af RISO Kagaku Corporation — hurtig og økonomisk til tryk i korte og mellemlange serier af mest tekst og enkel grafik. En digital efterkommer af stencilmaskinen.",
+    "nl": "Sjabloongebaseerde digitale dupliceertechnologie, ontwikkeld door RISO Kagaku Corporation — snel en voordelig voor drukwerk in kleine tot middelgrote oplagen van vooral tekst en eenvoudige graphics. Een digitale afstammeling van de stencilmachine.",
+    "pl": "Cyfrowa technologia powielania oparta na matrycach, opracowana przez RISO Kagaku Corporation — szybka i ekonomiczna dla krótkich i średnich nakładów głównie tekstu i prostej grafiki. Cyfrowy potomek powielacza.",
+    "pt": "Tecnologia de duplicação digital a estêncil desenvolvida pela RISO Kagaku Corporation — rápida e econômica para impressão de tiragem curta a média, sobretudo de texto e gráficos simples. Descendente digital do mimeógrafo.",
+    "hi": "RISO Kagaku Corporation द्वारा विकसित स्टेंसिल-आधारित डिजिटल डुप्लीकेशन तकनीक — मुख्यतः पाठ और सरल ग्राफ़िक्स के शॉर्ट से मीडियम रन के लिए तेज़ और किफ़ायती। मिमियोग्राफ़ का डिजिटल वंशज।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Risograph",
+      "Digital duplicator"
+    ],
+    "nb": [
+      "Risograf"
+    ],
+    "pl": [
+      "Risograph",
+      "powielacz cyfrowy"
+    ],
+    "pt": [
+      "Risografia",
+      "Duplicador digital",
+      "Risograph"
+    ],
+    "hi": [
+      "रिसोग्राफ़",
+      "डिजिटल डुप्लीकेटर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "DigitalPrinting",
+        "DigitalPrintingParams"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.2 · p.111",
+        "§6.31 · p.196"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 17"
+    }
+  ]
+}

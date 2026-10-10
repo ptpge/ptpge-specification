@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-spaces/adobe-rgb> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Adobe RGB (1998)"@en,
+        "Adobe RGB (1998)"@hi,
+        "Adobe RGB (1998)"@pl,
+        "Adobe RGB (1998)"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-spaces> ;
+    skos:definition "Adobe RGB (1998) — et RGB-farverum med bredt farveomfang designet af Adobe til at rumme de fleste CMYK-trykbare farver, brugt af fotografer og designere, der klargør indhold til tryk."@da,
+        "Adobe RGB (1998) — ein RGB-Farbraum mit erweitertem Farbumfang, von Adobe entwickelt, um die meisten CMYK-druckbaren Farben zu umfassen, verwendet von Fotografen und Designern bei der Druckvorbereitung."@de,
+        "Adobe RGB (1998) — a wide-gamut RGB color space designed by Adobe to encompass most CMYK printable colors, used by photographers and designers preparing content for print."@en,
+        "Espacio de color RGB con un gamut más amplio que sRGB, especialmente en los cianes y verdes. Diseñado por Adobe para cubrir la mayor parte del gamut CMYK reproducible en impresión."@es,
+        "Adobe RGB (1998) — Adobe द्वारा डिज़ाइन किया व्यापक-गैमट RGB रंग स्पेस, जो अधिकांश CMYK मुद्रण-योग्य रंगों को समेटता है; प्रिंट के लिए सामग्री तैयार करने वाले फ़ोटोग्राफ़रों और डिज़ाइनरों द्वारा प्रयुक्त।"@hi,
+        "Adobe RGB（1998）— Adobeが設計した広色域RGB色空間。CMYKで印刷可能な色の大部分を包含するように設計されており、印刷物用のコンテンツを準備する写真家やデザイナーに使用される。"@ja,
+        "Adobe RGB (1998) — et bredt RGB-fargerom utviklet av Adobe for å dekke de fleste CMYK-trykkbare fargene, brukt av fotografer og designere som forbereder innhold for trykk."@nb,
+        "Adobe RGB (1998) — een RGB-kleurruimte met breed gamma, ontworpen door Adobe om de meeste CMYK-drukbare kleuren te omvatten, gebruikt door fotografen en ontwerpers die content voor druk voorbereiden."@nl,
+        "Adobe RGB (1998) — szerokogamutowa przestrzeń barw RGB zaprojektowana przez Adobe tak, aby obejmować większość barw drukowalnych w CMYK; używana przez fotografów i projektantów przygotowujących treści do druku."@pl,
+        "Adobe RGB (1998) — espaço de cor RGB de gamut amplo projetado pela Adobe para abranger a maioria das cores imprimíveis em CMYK, usado por fotógrafos e designers que preparam conteúdo para impressão."@pt,
+        "Adobe RGB (1998) — en RGB-färgrymd med bred färgomfattning designad av Adobe för att rymma de flesta CMYK-tryckbara kulörer, använd av fotografer och formgivare som förbereder innehåll för tryck."@sv,
+        "色域比sRGB更广的RGB色彩空间，尤其在青色和绿色方面。由Adobe设计，覆盖印刷中可再现的大部分CMYK色域。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§ADOBE-RGB" ;
+    skos:prefLabel "Adobe RGB"@da,
+        "Adobe RGB"@de,
+        "Adobe RGB"@en,
+        "Adobe RGB"@es,
+        "Adobe RGB"@hi,
+        "Adobe RGB"@ja,
+        "Adobe RGB"@nb,
+        "Adobe RGB"@nl,
+        "Adobe RGB"@pl,
+        "Adobe RGB"@pt,
+        "Adobe RGB"@sv,
+        "Adobe RGB"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

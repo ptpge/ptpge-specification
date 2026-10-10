@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Printing & Finishing Equipment",
+    "es": "Equipo de Impresión y Acabado",
+    "zh-Hans": "印刷与印后设备",
+    "nb": "Trykk- og etterbehandlings-utstyr",
+    "de": "Druck- und Weiterverarbeitungsausrüstung",
+    "ja": "印刷・後加工機器",
+    "sv": "Tryck- & efterbehandlingsutrustning",
+    "da": "Tryk- & efterbehandlingsudstyr",
+    "nl": "Druk- & afwerkingsapparatuur",
+    "pl": "Urządzenia drukujące i wykończeniowe",
+    "pt": "Equipamentos de impressão e acabamento",
+    "hi": "मुद्रण और फ़िनिशिंग उपकरण"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies",
+  "narrower": [
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:39:22Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Manufacturers and product lines of physical equipment used in printing and post-press finishing — the machinery on the production floor.",
+    "nb": "Produsenter og produktlinjer av fysisk utstyr brukt i trykk og post-press etterbehandling — maskineriet på produksjonsgolvet.",
+    "de": "Hersteller und Produktlinien physischer Geräte, die in Druck und Druckweiterverarbeitung eingesetzt werden — die Maschinen auf der Produktionsfläche.",
+    "ja": "印刷および後加工に使用される物理的機器のメーカーと製品ライン — 生産現場の機械類。",
+    "es": "Fabricantes y líneas de producto del equipo físico utilizado en impresión y acabado post-prensa — la maquinaria que se encuentra en la planta de producción.",
+    "zh-Hans": "用于印刷和印后加工的物理设备制造商和产品线——生产车间内的机械设备。",
+    "sv": "Tillverkare och produktlinjer av fysisk utrustning för tryck och efterbehandling — maskinparken på produktionsgolvet.",
+    "da": "Producenter og produktlinjer af fysisk udstyr til tryk og efterbehandling — maskinparken på produktionsgulvet.",
+    "nl": "Fabrikanten en productlijnen van fysieke apparatuur voor druk en afwerking — het machinepark op de productievloer.",
+    "pl": "Producenci i linie produktów fizycznych urządzeń używanych w druku i wykończeniu po druku — maszyny na hali produkcyjnej.",
+    "pt": "Fabricantes e linhas de produto de equipamentos físicos usados na impressão e no acabamento pós-impressão — as máquinas do chão de fábrica.",
+    "hi": "मुद्रण और पोस्ट-प्रेस फ़िनिशिंग में प्रयुक्त भौतिक उपकरणों के निर्माता और उत्पाद श्रृंखलाएँ — उत्पादन फ़्लोर की मशीनरी।"
+  },
+  "scopeNote": {
+    "en": "Includes printing presses (offset, digital, flexographic), wide-format printers (UV flatbed, dye-sublimation, eco-solvent), and finishing equipment (folders, binders, cutters, laminators, die-cutters). The actual printing technologies these machines use are tracked under Printing Technologies.",
+    "nb": "Inkluderer trykkpresser (offset, digital, fleksografi), storformat-skrivere (UV flatbed, fargesublimering, øko-solvent) og etterbehandlingsutstyr (foldere, innbindere, kuttere, laminatorer, stansere). Selve trykketeknologiene maskinene bruker spores under Printing Technologies.",
+    "de": "Umfasst Druckmaschinen (Offset, Digital, Flexo), Großformatdrucker (UV-Flachbett, Sublimation, Eco-Solvent) und Weiterverarbeitungsgeräte (Falzmaschinen, Buchbindemaschinen, Schneidemaschinen, Laminiergeräte, Stanzen). Die eigentlichen Drucktechnologien dieser Maschinen werden unter Drucktechnologien geführt.",
+    "ja": "印刷機（オフセット、デジタル、フレキソ）、大判プリンター（UVフラットベッド、昇華転写、エコソルベント）、後加工機器（折り機、製本機、断裁機、ラミネーター、抜き機）を含む。これらの機器が使用する実際の印刷技術はPrinting Technologiesで扱う。",
+    "es": "Incluye prensas de impresión (offset, digital, flexográficas), impresoras de gran formato (UV plana, sublimación, eco-solvente) y equipo de acabado (plegadoras, encuadernadoras, guillotinas, plastificadoras, troqueladoras).",
+    "zh-Hans": "包括印刷机（胶印、数码、柔印）、大幅面打印机（UV平板、热升华、环保溶剂）和印后设备（折页机、装订机、裁切机、覆膜机、模切机）。",
+    "pt": "Inclui impressoras (offset, digital, flexográfica), impressoras de grande formato (UV flatbed, sublimação, eco-solvente) e equipamentos de acabamento (dobradeiras, encadernadoras, guilhotinas, laminadoras, cortadoras). As tecnologias de impressão que essas máquinas usam ficam em Tecnologias de impressão.",
+    "hi": "प्रिंटिंग प्रेस (ऑफसेट, डिजिटल, फ़्लेक्सोग्राफ़िक), वाइड-फॉर्मेट प्रिंटर (UV फ़्लैटबेड, डाई-सब्लिमेशन, इको-सॉल्वेंट) और फ़िनिशिंग उपकरण (फ़ोल्डर, बाइंडर, कटर, लैमिनेटर, डाई-कटर) शामिल। इन मशीनों की वास्तविक मुद्रण तकनीकें मुद्रण तकनीकों के अंतर्गत हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Device"
+      ],
+      "refs": [
+        "§6.28 · p.188"
+      ],
+      "match": "concept",
+      "via": "crosswalk row 19"
+    }
+  ]
+}

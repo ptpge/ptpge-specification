@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:39:22+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing> ;
+    skos:definition "Metoderne, der overfører billede til substrat, og udstyret der udfører dem. Spænder over analoge teknikker (offset, flexo, dybtryk, serigrafi, bogtryk, kobbertryk, træsnit, termisk, tampon), digitale teknikker (inkjet, laser/toner, 3D, nano, riso) og hybride metoder, der kombinerer de to — sammen med trykpresserne, storformatprinterne og efterbehandlingsudstyret, der udfører dem i produktion."@da,
+        "Die Verfahren zum Aufbringen eines Bildes auf einen Bedruckstoff und die Maschinen, die diese Verfahren ausführen. Umfasst analoge Verfahren (Offsetdruck, Flexodruck, Tiefdruck, Siebdruck, Buchdruck, Intaglio, Holzschnitt, Thermodruck, Tampondruck), digitale Verfahren (Tintenstrahl, Laser/Toner, 3D, Nano, Riso) sowie hybride Ansätze, die beides kombinieren — zusammen mit den Druckmaschinen, Großformatdruckern und Veredelungsanlagen, die sie in der Produktion ausführen."@de,
+        "The methods used to put image onto substrate, and the equipment that performs them. Spans analog techniques (offset, flexo, gravure, screen, letterpress, intaglio, woodcut, thermal, pad), digital techniques (inkjet, laser/toner, 3D, nano, riso), and hybrid approaches that combine the two — together with the printing presses, wide-format printers, and finishing equipment that execute them in production."@en,
+        "Los métodos utilizados para transferir imagen al sustrato, y el equipo que los ejecuta. Cubre técnicas analógicas (offset, flexografía, huecograbado, serigrafía, tipografía, calcografía, xilografía, térmica, tampografía), técnicas digitales (inyección de tinta, láser/tóner, 3D, nano, riso) y enfoques híbridos que combinan ambas — junto con los fabricantes de equipo correspondientes."@es,
+        "सब्सट्रेट पर छवि डालने की विधियाँ और उन्हें करने वाले उपकरण। एनालॉग तकनीकें (ऑफसेट, फ़्लेक्सो, ग्रेव्योर, स्क्रीन, लेटरप्रेस, इंटैग्लियो, वुडकट, थर्मल, पैड), डिजिटल तकनीकें (इंकजेट, लेज़र/टोनर, 3D, नैनो, रिसो) और दोनों को मिलाने वाले हाइब्रिड तरीके — साथ में वे प्रिंटिंग प्रेस, वाइड-फॉर्मेट प्रिंटर और फ़िनिशिंग उपकरण जो उत्पादन में इन्हें चलाते हैं।"@hi,
+        "基材に画像を載せる方法と、それを実行する機器。アナログ技術（オフセット、フレキソ、グラビア、シルク、活版、凹版、木版、感熱、タンポ）、デジタル技術（インクジェット、レーザー／トナー、3D、ナノ、Riso）、両者を組み合わせるハイブリッド方式 — およびそれらを生産現場で実行する印刷機、大判プリンター、後加工機器を含む。"@ja,
+        "Metodene som brukes for å sette bilde på substrat, og utstyret som utfører dem. Spenner over analoge teknikker (offset, fleksografi, dyptrykk, screen, høytrykk, intaglio, tresnitt, termisk, pad), digitale teknikker (blekkskriver, laser/toner, 3D, nano, riso), og hybride tilnærminger som kombinerer de to — sammen med trykkpressene, storformat-printerne og etterbehandlingsutstyret som utfører dem i produksjon."@nb,
+        "De methoden die beeld op substraat overbrengen, en de apparatuur die ze uitvoert. Omvat analoge technieken (offset, flexo, diepdruk, zeefdruk, hoogdruk, koperdiepdruk, houtsnede, thermisch, tampon), digitale technieken (inkjet, laser/toner, 3D, nano, riso) en hybride benaderingen die beide combineren — samen met de drukpersen, grootformaatprinters en afwerkingsapparatuur die ze in productie uitvoeren."@nl,
+        "Metody nanoszenia obrazu na podłoże oraz urządzenia, które je wykonują. Obejmują techniki analogowe (offset, fleksografia, wklęsłodruk, sitodruk, typografia, staloryt, drzeworyt, termodruk, tampodruk), techniki cyfrowe (atramentowa, laserowa/tonerowa, 3D, nano, riso) i podejścia hybrydowe łączące obie — wraz z maszynami drukującymi, ploterami wielkoformatowymi i urządzeniami wykończeniowymi, które realizują je w produkcji."@pl,
+        "Os métodos usados para colocar a imagem no substrato e o equipamento que os executa. Abrange técnicas analógicas (offset, flexo, rotogravura, serigrafia, tipografia, calcografia, xilogravura, térmica, tampografia), técnicas digitais (jato de tinta, laser/toner, 3D, nano, riso) e abordagens híbridas que combinam as duas — junto com as impressoras, impressoras de grande formato e equipamentos de acabamento que as executam na produção."@pt,
+        "Metoderna som överför bild till substrat, och utrustningen som utför dem. Spänner över analoga tekniker (offset, flexo, djuptryck, screen, boktryck, koppartryck, träsnitt, termisk, tampong), digitala tekniker (inkjet, laser/toner, 3D, nano, riso) och hybridmetoder som kombinerar de två — tillsammans med tryckpressarna, storformatsskrivarna och efterbehandlingsutrustningen som utför dem i produktion."@sv,
+        "将图像转移到承印物上的方法以及执行此过程的设备。涵盖模拟工艺（胶印、柔印、凹印、丝印、活字印刷、铜版凹印、木版、热敏、移印）、数码工艺（喷墨、激光/碳粉、3D、纳米、理想）以及结合两者的混合工艺——以及相应的设备制造商。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies> ;
+    skos:notation "P:TC" ;
+    skos:prefLabel "Teknologier"@da,
+        "Technologien"@de,
+        "Technologies"@en,
+        "Tecnologías"@es,
+        "तकनीकें"@hi,
+        "技術"@ja,
+        "Teknologier"@nb,
+        "Technologieën"@nl,
+        "Technologie"@pl,
+        "Tecnologias"@pt,
+        "Teknologier"@sv,
+        "工艺技术"@zh-Hans ;
+    skos:scopeNote "Technologies umfasst sowohl den Druckprozess als auch die Maschinen, die ihn ausführen. Der geometrische Aufbau eines Auftrags (Format, Orientierung) gehört zu Configurations; Veredelungen und Weiterverarbeitungsschritte gehören zu Features und Completions."@de,
+        "Technologies covers both the printing process and the equipment that performs it. The geometric setup of a job (format, orientation) belongs to Configurations; embellishments and post-press operations belong to Features and Completions."@en,
+        "Tecnologías cubre tanto el proceso de impresión como el equipo que lo ejecuta. La configuración geométrica del trabajo (formato, orientación) pertenece a Configuraciones; los embellecimientos y operaciones post-prensa pertenecen a Características y Acabados."@es,
+        "तकनीकें मुद्रण प्रक्रिया और उसे करने वाले उपकरण दोनों को कवर करती हैं। किसी काम की ज्यामितीय बनावट (फ़ॉर्मेट, ओरिएंटेशन) कॉन्फ़िगरेशन में है; सजावटी प्रभाव और पोस्ट-प्रेस क्रियाएँ फ़ीचर और फ़िनिशिंग में।"@hi,
+        "Technologiesは印刷工程と、それを実行する機器の両方を扱う。ジョブの幾何学的設定（フォーマット、向き）はConfigurationsに、加飾と後加工はFeaturesとCompletionsに属する。"@ja,
+        "Technologies dekker både selve trykkeprosessen og utstyret som utfører den. Den geometriske oppsettingen av en jobb (format, orientering) hører til Configurations; embellishments og post-press-operasjoner hører til Features og Completions."@nb,
+        "Tecnologias cobre tanto o processo de impressão quanto o equipamento que o realiza. A montagem geométrica de um trabalho (formato, orientação) pertence a Configurações; enobrecimentos e operações pós-impressão pertencem a Características e Acabamentos."@pt,
+        "工艺技术涵盖印刷工艺及执行该工艺的设备。作业的几何设置（开本、方向）属于配置；装饰效果和印后操作属于特性和印后加工。"@zh-Hans ;
+    ptpge:group "technologies" ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" ;
+    ptpge:visual [ ptpge:color "#638C1C" ;
+            ptpge:colorName "PTPGE Green 1" ;
+            ptpge:palette "#007934",
+                "#638C1C" ;
+            ptpge:pantone "P 370 C" ] .
+

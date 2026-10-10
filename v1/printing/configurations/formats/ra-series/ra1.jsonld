@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/ra-series/ra1",
+  "type": "skos:Concept",
+  "version": "2026-08-12",
+  "status": "proposed",
+  "notation": "P:CF§RA1",
+  "level": "element",
+  "label": {
+    "en": "RA1 (610 x 860 mm)",
+    "nb": "RA1 (610 x 860 mm)",
+    "de": "RA1 (610 x 860 mm)",
+    "ja": "RA1 (610 x 860 mm)",
+    "nl": "RA1 (610 x 860 mm)",
+    "es": "RA1 (610 × 860 mm)",
+    "zh-Hans": "RA1 (610 × 860 mm)",
+    "sv": "RA1 (610 x 860 mm)",
+    "da": "RA1 (610 x 860 mm)",
+    "pl": "RA1 (610 x 860 mm)",
+    "pt": "RA1 (610 x 860 mm)",
+    "hi": "RA1 (610 x 860 mm)"
+  },
+  "definition": {
+    "en": "610 × 860 mm. Untrimmed press sheet of the ISO 217 RA (Raw format A) series — slightly oversized relative to the corresponding A format, used where less trim allowance is needed than SRA.",
+    "nb": "610 × 860 mm. Ubeskåret trykkark i ISO 217 RA-serien — litt overdimensjonert i forhold til tilsvarende A-format, brukt der mindre beskjæringsmonn trengs enn SRA.",
+    "de": "610 × 860 mm. Unbeschnittener Druckbogen der ISO-217-RA-Reihe — gegenüber dem entsprechenden A-Format leicht vergrößert; verwendet, wo weniger Beschnittzugabe als bei SRA genügt.",
+    "es": "610 × 860 mm. Pliego sin recortar de la serie RA de ISO 217 — ligeramente sobredimensionado respecto al formato A correspondiente; se usa donde se necesita menos demasía que en SRA.",
+    "ja": "610 × 860 mm。ISO 217 RA系列の断裁前の印刷用紙。対応するA判よりわずかに大きく、SRAほどの余白が不要な場合に使う。",
+    "zh-Hans": "610 × 860 毫米。ISO 217 RA 系列的未裁切印刷纸张 — 比对应 A 系列略大，用于所需裁切余量小于 SRA 的场合。",
+    "sv": "610 × 860 mm. Obeskuret tryckark i RA-serien (Raw format A) i ISO 217 — något överdimensionerat i förhållande till motsvarande A-format, används där mindre skärmån behövs än i SRA-serien.",
+    "da": "610 × 860 mm. Ubeskåret trykark i RA-serien (Raw format A) i ISO 217 — lidt overdimensioneret i forhold til det tilsvarende A-format, bruges hvor der behøves mindre skæremargin end i SRA-serien.",
+    "nl": "610 × 860 mm. Onbesneden drukvel in de RA-reeks (Raw format A) van ISO 217 — iets ruimer dan het overeenkomstige A-formaat, gebruikt waar een kleinere snijmarge volstaat dan bij de SRA-reeks.",
+    "pl": "610 × 860 mm. Nieprzycięty arkusz drukowy serii RA (Raw format A) normy ISO 217 — nieco większy od odpowiadającego formatu A, używany tam, gdzie potrzebny jest mniejszy naddatek na obcięcie niż w SRA.",
+    "pt": "610 × 860 mm. Folha de impressão não refilada da série RA (Raw format A) da ISO 217 — um pouco maior que o formato A correspondente, usada onde se precisa de menos margem de refile que na SRA.",
+    "hi": "610 × 860 mm. ISO 217 RA (Raw format A) सीरीज़ की बिना ट्रिम प्रेस शीट — संगत A फ़ॉर्मेट से थोड़ी बड़ी, जहाँ SRA से कम ट्रिम भत्ता चाहिए।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/ra-series",
+  "elementType": "value",
+  "properties": {
+    "width": 610,
+    "height": 860,
+    "unit": "mm",
+    "aspectRatio": 1.4098,
+    "standard": "ISO 217",
+    "area": 524600
+  },
+  "created": "2026-08-12T11:00:47Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

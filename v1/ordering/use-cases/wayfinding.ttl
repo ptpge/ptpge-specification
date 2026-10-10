@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases/wayfinding> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:definition "Produkter brugt til at lede folk gennem fysiske rum. Omfatter kort, skiltning, retningsplakater, bygningsoversigter og ruteguider."@da,
+        "Produkte zur Führung von Menschen durch physische Räume. Umfasst Karten, Beschilderung, Wegweiser-Poster und Gebäudeverzeichnisse."@de,
+        "Products used to guide people through physical spaces. Includes maps, signage, directional posters, building directories, and route guides."@en,
+        "Productos usados para guiar a las personas por espacios físicos. Incluye mapas, señalización, pósteres direccionales, directorios de edificios y guías de ruta."@es,
+        "लोगों को भौतिक स्थानों में राह दिखाने वाले उत्पाद। नक़्शे, साइनेज, दिशा-सूचक पोस्टर, भवन निर्देशिकाएँ और मार्ग गाइड शामिल।"@hi,
+        "物理的な空間で人を導くための製品。地図、サイン、方向案内ポスター、館内案内板、経路ガイドを含む。"@ja,
+        "Produkter brukt for å veilede folk gjennom fysiske rom. Inkluderer kart, skilting, retningsplakater, bygnings-oversikter og rute-guider."@nb,
+        "Producten die mensen door fysieke ruimtes leiden. Omvat plattegronden, signalisatie, richtingsposters, gebouwoverzichten en routegidsen."@nl,
+        "Produkty pomagające prowadzić ludzi przez przestrzenie fizyczne. Obejmuje mapy, oznakowanie, plakaty kierunkowe, tablice informacyjne budynków i przewodniki po trasach."@pl,
+        "Produtos usados para guiar pessoas em espaços físicos. Inclui mapas, sinalização, pôsteres direcionais, diretórios de edifícios e guias de rota."@pt,
+        "Produkter som vägleder människor genom fysiska miljöer. Omfattar kartor, skyltning, riktningsaffischer, byggnadsregister och ruttguider."@sv,
+        "用于引导人们通过物理空间的产品。包括地图、标识、方向海报、楼宇导览与路线指南。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:UC§WAYFINDING" ;
+    skos:prefLabel "Wayfinding"@da,
+        "Wegeleitsystem"@de,
+        "Wayfinding"@en,
+        "Señalética direccional"@es,
+        "मार्गदर्शन (वेफ़ाइंडिंग)"@hi,
+        "ウェイファインディング"@ja,
+        "Veifinning"@nb,
+        "Bewegwijzering"@nl,
+        "Orientacja w przestrzeni"@pl,
+        "Orientação (wayfinding)"@pt,
+        "Vägledning (wayfinding)"@sv,
+        "导视"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "use-cases" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

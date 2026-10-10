@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e56> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "15.5 x 15.5 cm"@en,
+        "155 x 155 mm"@en,
+        "155x155"@en,
+        "155×155"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "155 × 155 mm. Kvadratisk kuvert, populært til lykønskningskort, invitationer og dekorative forsendelser."@da,
+        "155 × 155 mm. Quadratischer Briefumschlag, beliebt für Grußkarten, Einladungen und dekorativen Versand."@de,
+        "155 × 155 mm. Square envelope, popular for greeting cards, invitations, and decorative mailings."@en,
+        "Sobre E56 cuadrado, 155 × 155 mm — formato decorativo para invitaciones y tarjetas premium."@es,
+        "155 × 155 mm. चौकोर लिफ़ाफ़ा, ग्रीटिंग कार्ड, निमंत्रण और सजावटी डाक में लोकप्रिय।"@hi,
+        "155×155mm。グリーティングカード、招待状、装飾的な郵送物で人気の正方形封筒。"@ja,
+        "155 × 155 mm. Kvadratisk konvolutt, populær for gratulasjonskort, invitasjoner og dekorative utsendelser."@nb,
+        "155 × 155 mm. Vierkante envelop, populair voor wenskaarten, uitnodigingen en decoratieve mailings."@nl,
+        "155 × 155 mm. Koperta kwadratowa, popularna do kartek okolicznościowych, zaproszeń i przesyłek dekoracyjnych."@pl,
+        "155 × 155 mm. Envelope quadrado, popular para cartões, convites e envios decorativos."@pt,
+        "155 × 155 mm. Kvadratiskt kuvert, populärt för gratulationskort, inbjudningar och dekorativa utskick."@sv,
+        "E56方形信封，155 × 155 毫米 —— 用于请柬和高级卡片的装饰格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§E56" ;
+    skos:prefLabel "E56 (155 x 155 mm)"@da,
+        "E56 (155 x 155 mm)"@de,
+        "E56 (155 x 155 mm)"@en,
+        "E56 (155 × 155 mm)"@es,
+        "E56 (155 x 155 mm)"@hi,
+        "E56 (155 x 155 mm)"@ja,
+        "E56 (155 x 155 mm)"@nb,
+        "E56 (155 x 155 mm)"@nl,
+        "E56 (155 x 155 mm)"@pl,
+        "E56 (155 x 155 mm)"@pt,
+        "E56 (155 x 155 mm)"@sv,
+        "E56 (155 × 155 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 24025.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 155.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 155.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

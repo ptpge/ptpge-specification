@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Prepress Proofing",
+    "es": "Pruebas Pre-prensa",
+    "zh-Hans": "印前校样",
+    "nb": "Prepress-proofing",
+    "de": "Prepress-Proofing",
+    "ja": "プリプレス校正",
+    "sv": "Förprovtryck (prepress)",
+    "da": "Prøvetryk før tryk",
+    "nl": "Proeven vóór het drukken",
+    "pl": "Proofing prepress",
+    "pt": "Provas de pré-impressão",
+    "hi": "प्रीप्रेस प्रूफ़िंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing",
+  "narrower": [
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/openai-chatgpt",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/adobeacrobat-pro-dc",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/gmg-colorproof",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/efi-fiery-xf",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/kodak-insite-prepress-portal",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/esko-webcenter",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/remote-director",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/color-tuner-web",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/agfa-apogee-webapproval",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/epson-proofing-solutions",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/dalim-es"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Proofing performed before the press run — the print operation reviews and the customer approves a representation of the final product without committing to ink and substrate. Soft proofs (on-screen) and hard proofs (printed simulation) are the two main types.",
+    "nb": "Proofing utført før pressen kjøres — trykkeriet gjennomgår og kunden godkjenner en representasjon av det ferdige produktet uten å forplikte seg til blekk og substrat. Soft proofs (på skjerm) og hard proofs (trykt simulering) er de to hovedtypene.",
+    "de": "Proofing vor dem Druckdurchlauf — die Druckerei überprüft und der Kunde gibt eine Darstellung des fertigen Produkts frei, ohne Druckfarbe und Bedruckstoff einzusetzen. Soft Proofs (am Bildschirm) und Hard Proofs (gedruckte Simulation) sind die zwei Haupttypen.",
+    "ja": "印刷機運転前に行われる校正 — 印刷会社が審査し、顧客がインキと基材に確約することなく最終製品の表現を承認する。ソフトプルーフ（画面上）とハードプルーフ（印刷シミュレーション）の2つが主要なタイプ。",
+    "es": "Pruebas realizadas antes de la tirada en máquina — la imprenta revisa y el cliente aprueba una representación del producto final sin comprometer tinta y sustrato. Las pruebas blandas (en pantalla) y las pruebas duras (simulación impresa) son las dos modalidades principales.",
+    "zh-Hans": "在上机印刷之前进行的校样——印刷厂审核、客户批准最终产品的呈现，无需承担油墨和承印物成本。软校样（屏幕上）和硬校样（印刷模拟）是两种主要形式。",
+    "sv": "Provtryck utfört före tryckningen — tryckeriet granskar och kunden godkänner en representation av slutprodukten utan att binda bläck och substrat. Skärmprov (soft proof) och tryckta prov (hard proof) är de två huvudtyperna.",
+    "da": "Prøvetryk udført før trykkørslen — trykkeriet gennemgår og kunden godkender en repræsentation af det færdige produkt uden at forpligte farve og substrat. Soft proofs (på skærm) og hard proofs (fysiske).",
+    "nl": "Proeven vóór de drukgang — de drukkerij beoordeelt en de klant keurt een weergave van het eindproduct goed zonder inkt en substraat vast te leggen. Soft proofs (op scherm) en hard proofs (fysiek).",
+    "pl": "Proofing wykonywany przed nakładem — drukarnia przegląda, a klient zatwierdza reprezentację końcowego produktu bez angażowania farby i podłoża. Dwa główne typy to soft proof (na ekranie) i hard proof (drukowana symulacja).",
+    "pt": "Provas realizadas antes da tiragem — a gráfica revisa e o cliente aprova uma representação do produto final sem comprometer tinta e substrato. Provas de tela (na tela) e provas físicas (simulação impressa) são os dois tipos principais.",
+    "hi": "प्रेस रन से पहले की गई प्रूफ़िंग — प्रिंट संचालन समीक्षा करता है और ग्राहक स्याही और सब्सट्रेट लगाए बिना अंतिम उत्पाद के प्रतिरूप को अनुमोदित करता है। सॉफ़्ट प्रूफ़ (स्क्रीन पर) और हार्ड प्रूफ़ (छपा अनुकरण) दो मुख्य प्रकार।"
+  },
+  "scopeNote": {
+    "en": "Tools span dedicated soft-proof systems (GMG ColorProof, EFI Fiery XF, Color Tuner//Web), browser-based approval portals (Agfa Apogee WebApproval, Esko WebCenter, Kodak InSite, DALIM ES, Remote Director), hard-proof printing solutions (Epson Proofing), and general-purpose PDF proof reviewing (Adobe Acrobat Pro DC).",
+    "nb": "Verktøyene spenner fra dedikerte soft-proof-systemer (GMG ColorProof, EFI Fiery XF, Color Tuner//Web), nettleserbaserte godkjenningsportaler (Agfa Apogee WebApproval, Esko WebCenter, Kodak InSite, DALIM ES, Remote Director), hard-proof-trykkløsninger (Epson Proofing), og generell PDF-proof-gjennomgang (Adobe Acrobat Pro DC).",
+    "de": "Werkzeuge umfassen dedizierte Soft-Proof-Systeme (GMG ColorProof, EFI Fiery XF, Color Tuner//Web), browser-basierte Freigabeportale (Agfa Apogee WebApproval, Esko WebCenter, Kodak InSite, DALIM ES, Remote Director), Hard-Proof-Drucklösungen (Epson Proofing) sowie allgemeine PDF-Proof-Prüfung (Adobe Acrobat Pro DC).",
+    "ja": "ツールは専用ソフトプルーフシステム（GMG ColorProof、EFI Fiery XF、Color Tuner//Web）、ブラウザベースの承認ポータル（Agfa Apogee WebApproval、Esko WebCenter、Kodak InSite、DALIM ES、Remote Director）、ハードプルーフ印刷ソリューション（Epson Proofing）、汎用PDF校正レビュー（Adobe Acrobat Pro DC）にわたる。",
+    "es": "Las herramientas abarcan sistemas dedicados de prueba blanda (GMG ColorProof, EFI Fiery XF, Color Tuner//Web), portales de aprobación basados en navegador (Agfa Apogee WebApproval, Esko WebCenter, Kodak InSite, DALIM ES, Remote Director) y dispositivos de prueba dura calibrados.",
+    "zh-Hans": "工具涵盖专用软校样系统（GMG ColorProof、EFI Fiery XF、Color Tuner//Web）、基于浏览器的批准门户（Agfa Apogee WebApproval、Esko WebCenter、Kodak InSite、DALIM ES、Remote Director）以及校准的硬校样设备。",
+    "pt": "As ferramentas vão de sistemas dedicados de prova de tela (GMG ColorProof, EFI Fiery XF, Color Tuner//Web), portais de aprovação em navegador (Agfa Apogee WebApproval, Esko WebCenter, Kodak InSite, DALIM ES, Remote Director), soluções de impressão de provas físicas (Epson Proofing) a revisão de provas em PDF de uso geral (Adobe Acrobat Pro DC).",
+    "hi": "औज़ारों में समर्पित सॉफ़्ट-प्रूफ़ सिस्टम (GMG ColorProof, EFI Fiery XF, Color Tuner//Web), ब्राउज़र-आधारित अनुमोदन पोर्टल (Agfa Apogee WebApproval, Esko WebCenter, Kodak InSite, DALIM ES, Remote Director), हार्ड-प्रूफ़ प्रिंटिंग समाधान (Epson Proofing) और सामान्य PDF प्रूफ़ समीक्षा (Adobe Acrobat Pro DC)।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:MG-QAS-PROF-PREP",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ],
+  "replaces": [
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/kodak-insite-prepress-portal",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/esko-webcenter",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/agfa-apogee-webapproval",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/epson-proofing-solutions",
+    "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/efi-fiery-xf"
+  ]
+}

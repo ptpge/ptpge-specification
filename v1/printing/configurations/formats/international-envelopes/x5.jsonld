@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/x5",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "X5 (105 x 216 mm)",
+    "es": "X5 (105 × 216 mm)",
+    "zh-Hans": "X5 (105 × 216 mm)",
+    "nb": "X5 (105 x 216 mm)",
+    "de": "X5 (105 x 216 mm)",
+    "ja": "X5 (105 x 216 mm)",
+    "sv": "X5 (105 x 216 mm)",
+    "da": "X5 (105 x 216 mm)",
+    "nl": "X5 (105 x 216 mm)",
+    "pl": "X5 (105 x 216 mm)",
+    "pt": "X5 (105 x 216 mm)",
+    "hi": "X5 (105 x 216 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§X5",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "105 × 216 mm. Specialty narrow envelope, used for specific A5-related correspondence.",
+    "nb": "105 × 216 mm. Spesialisert smal konvolutt, brukt til spesifikk A5-relatert korrespondanse.",
+    "de": "105 × 216 mm. Spezial-Briefumschlag im schmalen Format, eingesetzt für bestimmte A5-bezogene Korrespondenz.",
+    "ja": "105×216mm。特定のA5関連通信に使用される特殊な細長い封筒。",
+    "es": "Sobre X5 — formato extra extendido para envíos voluminosos europeos.",
+    "zh-Hans": "X5信封 —— 用于大容量邮寄的欧洲超加大格式。",
+    "sv": "105 × 216 mm. Smalt specialkuvert för viss A5-relaterad korrespondens.",
+    "da": "105 × 216 mm. Smalt specialkuvert til visse A5-relaterede forsendelser.",
+    "nl": "105 × 216 mm. Smalle speciale envelop voor bepaalde A5-gerelateerde zendingen.",
+    "pl": "105 × 216 mm. Specjalna wąska koperta, używana do określonej korespondencji związanej z formatem A5.",
+    "pt": "105 × 216 mm. Envelope estreito especial, para correspondência específica relacionada a A5.",
+    "hi": "105 × 216 mm. विशेष पतला लिफ़ाफ़ा, A5 से जुड़े विशिष्ट पत्राचार के लिए।"
+  },
+  "properties": {
+    "width": 105,
+    "height": 216,
+    "unit": "mm",
+    "aspectRatio": 2.0571,
+    "standard": "ISO 269",
+    "area": 22680
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "105 x 216 mm",
+      "105x216",
+      "105×216",
+      "10.5 x 21.6 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

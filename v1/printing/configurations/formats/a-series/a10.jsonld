@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a10",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A10 (26 x 37 mm)",
+    "es": "A10 (26 × 37 mm)",
+    "zh-Hans": "A10 (26 × 37 mm)",
+    "nb": "A10 (26 x 37 mm)",
+    "de": "A10 (26 x 37 mm)",
+    "ja": "A10 (26 x 37 mm)",
+    "sv": "A10 (26 x 37 mm)",
+    "da": "A10 (26 x 37 mm)",
+    "nl": "A10 (26 x 37 mm)",
+    "pl": "A10 (26 x 37 mm)",
+    "pt": "A10 (26 x 37 mm)",
+    "hi": "A10 (26 x 37 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A10",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "26 × 37 mm (1.02 × 1.46 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A9. Used for postage stamps and other very small printed items.",
+    "nb": "26 × 37 mm (1,02 × 1,46 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A9. Brukt til frimerker og andre svært små trykksaker.",
+    "de": "26 × 37 mm (1,02 × 1,46 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A9. Verwendet für Briefmarken und andere sehr kleine Druckerzeugnisse.",
+    "ja": "26×37mm（1.02×1.46インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A9の半分の面積。切手およびその他の超小型印刷物に使用される。",
+    "es": "Formato A10 de la serie A de ISO 216, dimensiones 26 × 37 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A.",
+    "zh-Hans": "ISO 216 A系列A10开本，尺寸26 × 37 mm。比例1:√2 —— 对折后得到下一个A尺寸。",
+    "sv": "26 × 37 mm (1.02 × 1.46 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A9. Används för frimärken och andra mycket små trycksaker.",
+    "da": "26 × 37 mm (1.02 × 1.46 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A9. Bruges til frimærker og andre meget små tryksager.",
+    "nl": "26 × 37 mm (1.02 × 1.46 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A9. Gebruikt voor postzegels en ander zeer klein drukwerk.",
+    "pl": "26 × 37 mm (1,02 × 1,46 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A9. Używany do znaczków pocztowych i innych bardzo małych druków.",
+    "pt": "26 × 37 mm (1.02 × 1.46 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A9. Usado em selos postais e outros itens impressos muito pequenos.",
+    "hi": "26 × 37 mm (1.02 × 1.46 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A9 का आधा क्षेत्रफल। डाक टिकटों और अन्य बहुत छोटी मुद्रित वस्तुओं में।"
+  },
+  "properties": {
+    "width": 26,
+    "height": 37,
+    "unit": "mm",
+    "aspectRatio": 1.4231,
+    "standard": "ISO 216",
+    "area": 962
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "26 x 37 mm",
+      "26x37",
+      "26×37",
+      "2.6 x 3.7 cm",
+      "DIN A10"
+    ],
+    "nb": [
+      "A10-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

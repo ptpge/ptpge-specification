@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/europe/dach> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/geography/europe> ;
+    skos:definition "Subregional gruppering, der omfatter Tyskland (DE), Østrig (AT) og Schweiz (CH). Behandles ofte som ét tysksproget marked i tryk- og leveringssammenhæng."@da,
+        "DACH-Untergruppierung, die Deutschland (DE), Österreich (AT) und die Schweiz (CH) umfasst. In der europäischen Druckindustrie häufig als einheitliches Marktsegment behandelt aufgrund gemeinsamer Sprache, ähnlicher Regulierungsrahmen und abgestimmter Handelskonventionen."@de,
+        "DACH sub-region grouping covering Germany (DE), Austria (AT), and Switzerland (CH). Frequently treated as a single market segment in the European printing industry due to shared language, similar regulatory frameworks, and aligned trade conventions."@en,
+        "Subagrupación DACH que cubre Alemania (DE), Austria (AT) y Suiza (CH). Frecuentemente tratada como un único segmento de mercado en la industria europea de impresión debido al idioma compartido, marcos regulatorios similares y convenciones comerciales alineadas."@es,
+        "DACH उप-क्षेत्रीय समूह: जर्मनी (DE), ऑस्ट्रिया (AT) और स्विट्ज़रलैंड (CH)। साझा भाषा, समान नियामक ढाँचों और संरेखित व्यापार परंपराओं के कारण यूरोपीय मुद्रण उद्योग में अक्सर एक ही बाज़ार खंड माना जाता है।"@hi,
+        "ドイツ（DE）、オーストリア（AT）、スイス（CH）を含むDACHサブ地域グループ。共通言語、類似の規制枠組み、整合した取引慣行により、欧州印刷業界で単一の市場セグメントとして扱われることが多い。"@ja,
+        "DACH-undergruppe som dekker Tyskland (DE), Østerrike (AT) og Sveits (CH). Behandles ofte som ett markedssegment i den europeiske trykkindustrien på grunn av felles språk, lignende regulatoriske rammer og forente handelskonvensjoner."@nb,
+        "Subregionale groepering die Duitsland (DE), Oostenrijk (AT) en Zwitserland (CH) omvat. Wordt in druk- en leveringscontext vaak als één Duitstalige markt behandeld."@nl,
+        "Grupowanie subregionalne DACH obejmujące Niemcy (DE), Austrię (AT) i Szwajcarię (CH). W europejskim przemyśle poligraficznym często traktowane jako jeden segment rynku ze względu na wspólny język, podobne ramy regulacyjne i zbieżne zwyczaje handlowe."@pl,
+        "Agrupamento sub-regional DACH: Alemanha (DE), Áustria (AT) e Suíça (CH). Frequentemente tratado como um único segmento de mercado na indústria gráfica europeia, pela língua comum, quadros regulatórios semelhantes e convenções comerciais alinhadas."@pt,
+        "Subregional gruppering som omfattar Tyskland (DE), Österrike (AT) och Schweiz (CH). Behandlas ofta som ett enda marknadssegment i den europeiska tryckindustrin på grund av gemensamt språk, likartade regelverk och samstämmiga handelskonventioner."@sv,
+        "DACH 次区域分组，涵盖德国（DE）、奥地利（AT）和瑞士（CH）。由于共同语言、相似的法规框架和一致的贸易惯例，在欧洲印刷行业中常被视为单一市场细分。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/geography/europe/dach/austria>,
+        <https://ptpge.org/v1/ordering/geography/europe/dach/germany>,
+        <https://ptpge.org/v1/ordering/geography/europe/dach/switzerland> ;
+    skos:notation "O:GY-EUR-DACH" ;
+    skos:prefLabel "DACH"@da,
+        "DACH"@de,
+        "DACH"@en,
+        "DACH"@es,
+        "DACH"@hi,
+        "DACH（独・墺・瑞）"@ja,
+        "DACH"@nb,
+        "DACH"@nl,
+        "DACH"@pl,
+        "DACH"@pt,
+        "DACH"@sv,
+        "DACH（德奥瑞）"@zh-Hans ;
+    ptpge:group "geography" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

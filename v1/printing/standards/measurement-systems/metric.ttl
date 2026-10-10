@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/measurement-systems/metric> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "cm"@en,
+        "millimetres"@en,
+        "mm"@en,
+        "cm"@hi,
+        "mm"@hi,
+        "मिलीमीटर"@hi,
+        "cm"@pl,
+        "milimetry"@pl,
+        "mm"@pl,
+        "system metryczny"@pl,
+        "cm"@pt,
+        "milímetros"@pt,
+        "mm"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/measurement-systems> ;
+    skos:definition "Det internationale enhedssystem (SI) i tryk — primært millimeter for arkstørrelser, mikrometer for papirtykkelse. Standard i ISO-papirformater og de fleste ikke-amerikanske trykspecifikationer."@da,
+        "Internationales Einheitensystem im Druckbereich — vorwiegend Millimeter für Bogenformate, Mikrometer für Papierdicke. Standard in ISO-Papierformaten und den meisten nicht-amerikanischen Druckspezifikationen."@de,
+        "International System of Units used in printing — primarily millimeters for sheet sizes, micrometers for paper thickness. Standard in ISO paper sizes and most non-American print specifications."@en,
+        "Sistema métrico decimal — milímetro, centímetro, metro. Estándar para dimensiones precisas en impresión y sustratos en la mayor parte del mundo."@es,
+        "मुद्रण में प्रयुक्त अंतरराष्ट्रीय इकाई प्रणाली — मुख्यतः शीट आकार के लिए मिलीमीटर, काग़ज़ की मोटाई के लिए माइक्रोमीटर। ISO काग़ज़ आकारों और अधिकांश गैर-अमेरिकी प्रिंट विनिर्देशों में मानक।"@hi,
+        "印刷で使用される国際単位系 — 主にシート寸法用のミリメートル、紙の厚さ用のマイクロメートル。ISO用紙寸法および北米以外の大半の印刷仕様における標準。"@ja,
+        "Internasjonalt enhetssystem brukt i trykk — primært millimeter for arkstørrelser, mikrometer for papirtykkelse. Standard i ISO-papirstørrelser og de fleste ikke-amerikanske trykkspesifikasjoner."@nb,
+        "Het internationale eenhedenstelsel (SI) in druk — voornamelijk millimeters voor velformaten, micrometers voor papierdikte. Standaard in ISO-papierformaten en de meeste niet-Amerikaanse drukspecificaties."@nl,
+        "Międzynarodowy Układ Jednostek Miar używany w poligrafii — głównie milimetry dla formatów arkuszy, mikrometry dla grubości papieru. Standard w formatach ISO i większości specyfikacji druku poza Ameryką."@pl,
+        "Sistema Internacional de Unidades usado na impressão — principalmente milímetros para tamanhos de folha, micrômetros para espessura de papel. Padrão nos tamanhos de papel ISO e na maioria das especificações de impressão fora dos EUA."@pt,
+        "Internationella måttenhetssystemet (SI) i tryck — främst millimeter för arkstorlekar, mikrometer för papperstjocklek. Standard i ISO-pappersformat och de flesta icke-amerikanska tryckspecifikationer."@sv,
+        "公制十进制系统 —— 毫米、厘米、米。世界大部分地区印刷和承印物精确尺寸的标准。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§METRIC" ;
+    skos:prefLabel "Metersystemet"@da,
+        "Metrisches System"@de,
+        "Metric"@en,
+        "Métrico"@es,
+        "मीट्रिक"@hi,
+        "メートル法"@ja,
+        "Metrisk system"@nb,
+        "Metriek stelsel"@nl,
+        "Metryczny"@pl,
+        "Métrico"@pt,
+        "Metersystemet"@sv,
+        "公制"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

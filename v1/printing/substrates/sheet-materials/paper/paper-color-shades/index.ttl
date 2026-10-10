@@ -1,0 +1,77 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Paper Colour Shades"@en,
+        "काग़ज़ का रंग"@hi,
+        "पेपर शेड"@hi,
+        "białość papieru"@pl,
+        "kolory papieru"@pl,
+        "cor do papel"@pt,
+        "tonalidade do papel"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    skos:definition "Farve- og hvidhedsklassifikationer for papir, målt med CIE-hvidhedsindeks — beskriver papirets naturlige farve, før der påføres trykfarve."@da,
+        "Farb- und Helligkeitsklassifizierungen für Papier, gemessen am CIE-Weißegrad — beschreibt die natürliche Farbe des Papiers vor dem Auftragen jeglicher Druckfarbe."@de,
+        "Color and brightness classifications for paper, measured by CIE whiteness index — describes the paper's natural color before any printed ink is applied."@en,
+        "Clasificaciones de color y blancura del papel, medidas por el índice CIE de blancura — describen el color natural del papel antes de aplicar tinta impresa."@es,
+        "CIE सफ़ेदी सूचकांक से मापे गए काग़ज़ के रंग और चमक के वर्ग — किसी छपी स्याही से पहले काग़ज़ के प्राकृतिक रंग का वर्णन।"@hi,
+        "CIE白色度指数で測定される、紙の色および明度の分類 — インキが印刷される前の紙そのものの色を記述する。"@ja,
+        "Farge- og lysstyrkeklassifiseringer for papir, målt med CIE-hvithetsindeks — beskriver papirets naturlige farge før noe trykkblekk påføres."@nb,
+        "Kleur- en witheidsclassificaties voor papier, gemeten met de CIE-witheidsindex — beschrijft de natuurlijke kleur van het papier vóór het aanbrengen van drukinkt."@nl,
+        "Klasyfikacje barwy i jasności papieru mierzone wskaźnikiem białości CIE — opisują naturalną barwę papieru przed naniesieniem jakiejkolwiek farby."@pl,
+        "Classificações de cor e brancura do papel, medidas pelo índice de brancura CIE — descreve a cor natural do papel antes de qualquer tinta impressa."@pt,
+        "Färg- och vithetsklassificeringar för papper, mätta med CIE-vithetsindex — beskriver papperets naturliga färg innan något tryckt bläck applicerats."@sv,
+        "纸张颜色和白度分类，按CIE白度指数测量——描述施加印刷油墨之前纸张的天然颜色。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/gray-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/ivory-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper> ;
+    skos:notation "P:SB-SHT-PAPR-PCSH" ;
+    skos:prefLabel "Papirnuancer"@da,
+        "Papierfarbtöne"@de,
+        "Paper Color Shades"@en,
+        "Tonos de Color del Papel"@es,
+        "काग़ज़ की रंगत"@hi,
+        "用紙の色合い"@ja,
+        "Papirfargenyanser"@nb,
+        "Papiertinten"@nl,
+        "Odcienie papieru"@pl,
+        "Tonalidades de papel"@pt,
+        "Pappersnyanser"@sv,
+        "纸张色调"@zh-Hans ;
+    skos:scopeNote "Reicht von Kraft- und Naturpapier (CIE 60–80, warmer Ton) über Elfenbein und Grau (mittel) bis Weiß und Hochweiß (CIE 90+). Die Wahl beeinflusst den wahrgenommenen Ton der gedruckten Farben und den Gesamtcharakter des Druckerzeugnisses."@de,
+        "Ranges from kraft and natural papers (CIE 60–80, warm tone) through ivory and gray (intermediate) to white and bright-white (CIE 90+). Choice affects the perceived tone of printed colors and the overall character of the printed product."@en,
+        "Va desde papeles kraft y naturales (CIE 60–80, tono cálido) pasando por marfil y gris (intermedios) hasta blanco y blanco-brillante (CIE 90+). La elección afecta al tono percibido de los colores impresos y al carácter visual general del producto."@es,
+        "क्राफ़्ट और नैचुरल काग़ज़ (CIE 60–80, गर्म टोन) से आइवरी और ग्रे (मध्यम) से सफ़ेद और ब्राइट-व्हाइट (CIE 90+) तक। चुनाव छपे रंगों की अनुभूत टोन और उत्पाद के समग्र चरित्र को प्रभावित करता है।"@hi,
+        "クラフトおよび自然紙（CIE 60〜80、暖色系）から、アイボリーおよびグレー（中間色）を経て、ホワイトおよびブライトホワイト（CIE 90以上）まで及ぶ。選択は印刷された色の見え方や印刷物全体の特徴に影響する。"@ja,
+        "Strekker seg fra kraft- og naturpapir (CIE 60–80, varm tone) via ivory og grått (mellomtone) til hvitt og ekstra hvitt (CIE 90+). Valget påvirker oppfattet tone av trykkfarger og det helhetlige uttrykket til trykksaken."@nb,
+        "Vai de papéis kraft e naturais (CIE 60–80, tom quente), passando por marfim e cinza (intermediários), até branco e branco brilhante (CIE 90+). A escolha afeta o tom percebido das cores impressas e o caráter geral do impresso."@pt,
+        "范围从牛皮纸和天然纸（CIE 60–80，暖调）经象牙和灰色（中间）到白色和亮白色（CIE 90+）。选择影响印刷颜色的感知色调和产品的整体视觉特性。"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

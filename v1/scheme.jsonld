@@ -1,0 +1,115 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/scheme",
+  "type": "skos:ConceptScheme",
+  "version": "2026-05-30",
+  "label": {
+    "en": "PTPGE — Periodic Table of Print & Graphic Elements",
+    "nb": "PTPGE — Periodisk tabell over trykk- og grafikkelementer",
+    "ja": "PTPGE — 印刷・グラフィック要素の周期表",
+    "es": "PTPGE — Tabla Periódica de Elementos de Impresión y Gráficos",
+    "zh-Hans": "PTPGE — 印刷与图形元素周期表",
+    "sv": "PTPGE — Periodiska systemet för tryck- och grafikelement",
+    "da": "PTPGE — Det periodiske system for tryk- og grafikelementer",
+    "nl": "PTPGE — Periodiek systeem van druk- en grafische elementen",
+    "pl": "PTPGE — Układ okresowy elementów druku i grafiki"
+  },
+  "definition": {
+    "en": "An open, multi-faceted Standard for the printing industry, covering how printed things are produced (Printing Process), how they are ordered (Ordering Process), and the configurable axes that connect the two (Variables). Layer 1 of PTPGE Infrastructure — the open reference for print, built as a structured vocabulary with stable URIs, under CC BY 4.0.",
+    "nb": "En åpen, fasettert Standard for trykkeribransjen som dekker både hvordan trykte ting produseres (bransjeperspektiv) og hvordan de bestilles (sluttbrukerperspektiv). Lag 1 av PTPGE Print Infrastructure — den åpne referansen for trykk, bygget som et strukturert vokabular med stabile URI-er, under CC BY 4.0.",
+    "de": "Ein offener, facettenreicher Standard für die Druckindustrie, der sowohl die Herstellung von Druckerzeugnissen (Branchenperspektive) als auch deren Bestellung (Endkundenperspektive) abdeckt. Schicht 1 der PTPGE Print Infrastructure — die offene Referenz für die Druckindustrie, aufgebaut als strukturiertes Vokabular mit stabilen URIs, unter CC BY 4.0.",
+    "ja": "印刷業界向けのオープンな多面的標準。印刷物がどのように製造されるか（業界視点）と、どのように発注されるか（エンドユーザー視点）の両方を扱う。PTPGE Print Infrastructureのレイヤー1 — 安定したURIを持つ構造化された語彙として構築された、印刷業界のためのオープンな参照、CC BY 4.0で公開。",
+    "es": "Norma abierta y multifacética para la industria de la impresión, que cubre tanto cómo se producen los productos impresos (vista del productor) como cómo se piden (vista del comprador). Capa 1 de PTPGE Print Infrastructure — la referencia abierta para la impresión, construida como vocabulario estructurado con URIs estables, bajo CC BY 4.0.",
+    "zh-Hans": "面向印刷行业的开放多面标准，涵盖印刷品如何生产（生产方视角）以及如何订购（买方视角）。PTPGE Print Infrastructure的第1层 —— 印刷行业的开放参照，以稳定URI的结构化词汇构建，采用CC BY 4.0许可。",
+    "sv": "En öppen, mångfacetterad standard för tryckbranschen som täcker både hur trycksaker produceras (branschperspektiv) och hur de beställs (slutkundsperspektiv). Lager 1 av PTPGE Print Infrastructure — den öppna referensen för tryck, byggd som ett strukturerat vokabulär med stabila URI:er, under CC BY 4.0.",
+    "da": "En åben, mangefacetteret standard for trykbranchen, der dækker både hvordan tryksager produceres (brancheperspektiv) og hvordan de bestilles (slutkundeperspektiv). Lag 1 af PTPGE Print Infrastructure — den åbne reference for tryk, bygget som et struktureret vokabular med stabile URI'er, under CC BY 4.0.",
+    "nl": "Een open, veelzijdige standaard voor de grafische industrie, die zowel beschrijft hoe drukwerk wordt geproduceerd (productieperspectief) als hoe het wordt besteld (klantperspectief). Laag 1 van PTPGE Print Infrastructure — de open referentie voor drukwerk, opgebouwd als een gestructureerd vocabulaire met stabiele URI's, onder CC BY 4.0.",
+    "pl": "Otwarty, wielostronny standard dla przemysłu poligraficznego, opisujący zarówno sposób produkcji druku (perspektywa produkcyjna), jak i sposób jego zamawiania (perspektywa klienta). Warstwa 1 PTPGE Print Infrastructure — otwarte odniesienie dla druku, zbudowane jako ustrukturyzowane słownictwo ze stabilnymi URI, na licencji CC BY 4.0."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "created": "2025-09-01T00:00:00Z",
+  "modified": "2026-09-08T11:40:54Z",
+  "topConcepts": [
+    "https://ptpge.org/v1/printing",
+    "https://ptpge.org/v1/ordering",
+    "https://ptpge.org/v1/variables"
+  ],
+  "scopeNote": {
+    "en": "Release 2026-05-30 covers three top concepts: Printing Process (industry view, seven Groups), Ordering Process (end-user view, five Groups), and Variables (the configurable axes that bridge the two — Format, Color Mode, Fold, Quantity, etc.). Notation v3.0 is axis-typed (P:/O:/V:). The design lets the same vocabulary serve production workflows, end-customer ordering, and agentic configuration.",
+    "de": "Die Version 2026-05-18 umfasst beide Top-Konzepte: Printing Process (Branchenperspektive, sieben Gruppen) und Ordering Process (Endkundenperspektive, drei Gruppen). Das Zwei-Rollen-Design ermöglicht es demselben Vokabular, sowohl Produktions- als auch Endkundenbestellprozesse zu bedienen.",
+    "ja": "リリース2026-05-18では、Printing Process（業界視点、7グループ）とOrdering Process（エンドユーザー視点、3グループ）の両方のトップコンセプトを対象としている。この二役設計により、同じ語彙で製造ワークフローと顧客発注ワークフローの両方に対応できる。",
+    "es": "La versión 2026-05-18 cubre ambos conceptos principales: Proceso de Impresión (vista del productor, siete grupos) y Proceso de Pedido (vista del comprador, tres grupos). El diseño de dos roles permite que el mismo vocabulario sirva tanto para flujos de producción como para flujos de pedido del cliente final.",
+    "zh-Hans": "2026-05-18版本涵盖两个顶层概念：印刷过程（生产方视角，七个分组）和订购过程（买方视角，三个分组）。两役设计使同一词汇能同时服务于生产工作流程和终端客户订购流程。"
+  },
+  "ptpge:translationStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "llm-draft",
+    "es": "llm-draft",
+    "zh-Hans": "llm-draft",
+    "sv": "llm-draft",
+    "da": "llm-draft",
+    "nl": "llm-draft",
+    "pl": "llm-draft",
+    "pt": "llm-draft",
+    "hi": "llm-draft"
+  },
+  "ptpge:translationProvenance": {
+    "ja": {
+      "status": "llm-draft",
+      "generated": "2026-05-08",
+      "method": "LLM-generated initial translation using established Japanese print-industry terminology (印刷, 製版, 規格, 色空間, 色域, 認証制度, 用紙寸法, 製本, 仕上げ, 折り, 校正). Loanwords used where they are the established industry term (デジタル, インクジェット, ラミネート).",
+      "review": "Not yet reviewed by professional Japanese print-domain translator. Targeted for v1.1 (Q3 2026) — Japan is the centre of gravity for the global digital production-press industry (Komori, Konica Minolta, Canon, Ricoh, Fujifilm, Mimaki, Mutoh, Roland DG, Brother, Mitsubishi, Horizon, Duplo) — so professional verification is the highest-priority language milestone."
+    },
+    "es": {
+      "status": "llm-draft",
+      "generated": "2026-05-18",
+      "method": "LLM-generated initial translation; terminology choices documented in tools/_translate_es_*.py.",
+      "review": "Not yet reviewed by professional translator. Targeted for v1.2 (Q4 2026). Use with the understanding that terminology may need refinement (e.g., regional variants for huecograbado/rotograbado, sustrato/soporte, encuadernación rústica/perfecta)."
+    },
+    "zh-Hans": {
+      "status": "llm-draft",
+      "generated": "2026-05-18",
+      "method": "LLM-generated initial translation using mainland China print-industry terminology (承印物, 印后加工, 装订, 折页, 模切, etc.). Terminology choices documented in tools/_translate_zh_*.py.",
+      "review": "Not yet reviewed by professional translator. Targeted for v1.3 (Q1 2027). Use with the understanding that terminology may need refinement for regional variants (mainland vs. Taiwan/HK conventions) or vendor-specific preferences."
+    },
+    "sv": {
+      "status": "llm-draft",
+      "generated": "2026-08-15",
+      "method": "LLM-generated initial translation using established Swedish print-trade terminology (arkoffset, rulloffset, djuptryck, bigning via 'bigning/big', limbindning, klammerhäftning, foliering, bestruket/obestruket papper, färgrymd, dekorfärg, efterbehandling). Conservative altLabels added only where a second trade synonym is well established (serigrafi, högtryck, flexografi, tampotryck, limhäftning, sublimering).",
+      "review": "Not yet reviewed by professional Swedish print-domain translator. Review and enrichment by a Swedish print-trade partner is planned ahead of the wider language-sponsorship programme."
+    },
+    "da": {
+      "status": "llm-draft",
+      "generated": "2026-08-16",
+      "method": "LLM-generated initial translation using established Danish print-trade terminology (arkoffset, rotationsoffset, dybtryk, limbinding, hæftning med klammer via 'klammerhæftning', falsning, foliering, bestrøget/ubestrøget papir, farverum, staffagefarve, færdiggørelse). Conservative altLabels added only where a second trade synonym is well established.",
+      "review": "Not yet reviewed by professional Danish print-domain translator."
+    },
+    "nl": {
+      "status": "llm-draft",
+      "generated": "2026-08-16",
+      "method": "LLM-generated initial translation using established Dutch/Flemish print-trade terminology (vellenoffset, rotatieoffset, diepdruk, garenloos binden, nieten (hechten), rillen, stansen, gestreken/ongestreken papier, steunkleur, afwerking). 139 pre-existing Dutch labels (from external field-mapping work) were preserved unchanged. Conservative altLabels added only where a second trade synonym is well established.",
+      "review": "Not yet reviewed by professional Dutch print-domain translator. VIGC (Flanders) is the natural review channel via the ongoing field-mapping collaboration."
+    },
+    "pl": {
+      "status": "llm-draft",
+      "generated": "2026-09-08",
+      "method": "LLM-generated initial translation using established Polish print-trade terminology (offset arkuszowy, offset zwojowy, wklęsłodruk, fleksografia, sitodruk, typografia, oprawa klejona, oprawa zeszytowa, bigowanie, wykrawanie, papier powlekany/niepowlekany, kolor dodatkowy, uszlachetnienie, wykończenie, podłoże, gramatura). Inch-based North American format labels (ANSI, Arch, US Letter family) keep their English label form, as in the other languages. altLabels.pl follow the English altLabel set plus Polish trade synonyms; cross-term collisions were pruned before publication (SD-0071).",
+      "review": "Not yet reviewed by professional Polish print-domain translator. Reviewer channel to be confirmed."
+    },
+    "pt": {
+      "status": "llm-draft",
+      "generated": "2026-09-22",
+      "method": "LLM-generated initial translation in Portuguese with Acordo Ortográfico spelling readable in Brazil and Portugal, using established Portuguese-language print-trade terminology (offset plano/rotativo, rotogravura, flexografia, serigrafia, tipografia, encadernação colada/canoa/espiral, vinco, corte e vinco, papel couché/offset, gramatura, cor especial/Pantone, acabamento, laminação, verniz, substrato). Brand names, format codes and ISO references pass through unchanged, as in the other languages. Translations are kept as reviewable data files in tools/i18n/.",
+      "review": "Not yet reviewed by a professional Portuguese-language print-domain translator. Brazil is the natural review channel (largest Portuguese-language print market); a Portuguese (PT) reviewer for European usage is welcome. Candidate for the first language-sponsorship (SD-0017 §3)."
+    },
+    "hi": {
+      "status": "llm-draft",
+      "generated": "2026-09-22",
+      "method": "LLM-generated initial translation in Hindi (Devanagari script). Follows Indian print-trade practice: established English trade terms are transliterated into Devanagari where that is what the trade says (ऑफसेट, लैमिनेशन, फ्लेक्सो, डाई-कट, कोटेड पेपर, पैंटोन), native Hindi is used where it is current (कागज़, छपाई, बाइंडिंग/जिल्दसाज़ी, मोड़, रंग, आकार). Brand names, format codes and ISO references pass through unchanged. Translations are kept as reviewable data files in tools/i18n/.",
+      "review": "Not yet reviewed by a professional Hindi print-domain translator. Reviewer channel to be confirmed (North Indian print associations; Delhi/Mumbai printers). English remains the working language of much of the Indian trade, so Hindi labels serve buyers first."
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Silk Paper",
+    "es": "Papel Satinado (Silk)",
+    "zh-Hans": "丝面纸",
+    "nb": "Silkepapir",
+    "de": "Seidenmattes Papier",
+    "ja": "シルク紙（コート）",
+    "nl": "Zijdeglanspapier",
+    "sv": "Silkpapper",
+    "da": "Silkepapir",
+    "pl": "Papier satynowy",
+    "pt": "Papel acetinado",
+    "hi": "सिल्क काग़ज़"
+  },
+  "altLabels": {
+    "en": [
+      "Satin Paper",
+      "Silk Paper (Coated)"
+    ],
+    "nb": [
+      "Halvmatt papir",
+      "Silk bestrøket",
+      "Silkepapir (bestrøket)"
+    ],
+    "de": [
+      "Seidenmattes Papier (gestrichen)"
+    ],
+    "nl": [
+      "Zijdeglanspapier (gestreken)"
+    ],
+    "sv": [
+      "Silkpapper (bestruket)"
+    ],
+    "da": [
+      "Silkepapir (bestrøget)"
+    ],
+    "pl": [
+      "papier silk",
+      "papier satynowy (powlekany)",
+      "kreda silk",
+      "kreda satynowa"
+    ],
+    "pt": [
+      "couché acetinado",
+      "papel silk",
+      "papel cetim",
+      "semibrilho"
+    ],
+    "hi": [
+      "सैटिन पेपर",
+      "सिल्क आर्ट पेपर",
+      "सेमी-ग्लॉस काग़ज़"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§SILK-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Coated paper with a satin (semi-gloss) finish — between glossy and matte. Combines good color reproduction with reduced glare. Common for magazines and quality marketing material.",
+    "nb": "Belagt papir med satin (halv-blank) overflate — mellom blank og matt. Kombinerer god fargegjengivelse med redusert gjenskinn. Vanlig for magasiner og kvalitetsmarkedsmateriell.",
+    "de": "Gestrichenes Papier mit seidenmatter (halbglänzender) Oberfläche — zwischen glänzend und matt. Verbindet gute Farbreproduktion mit reduzierter Blendung. Häufig bei Magazinen und hochwertigem Marketingmaterial.",
+    "ja": "サテン（半光沢）仕上げの塗工紙 — グロスとマットの中間。良好な色再現とグレア低減を兼ね備える。雑誌や上質なマーケティング素材で一般的。",
+    "es": "Papel estucado satinado — punto intermedio entre brillante y mate. Reduce reflejos manteniendo viveza cromática.",
+    "zh-Hans": "丝光涂布纸 —— 光面和哑光之间的中间点。减少反光同时保持色彩活力。",
+    "sv": "Bestruket papper med satinerad (halvmatt) finish — mellan glättat och matt. Kombinerar god färgåtergivning med minskad bländning. Vanligt för tidskrifter och kvalitetsmarknadsmaterial.",
+    "da": "Bestrøget papir med satin (halvmat) finish — mellem glittet og mat. Kombinerer god farvegengivelse med reduceret genskin. Almindeligt til magasiner og kvalitetsmarkedsføring.",
+    "nl": "Gestreken papier met een satijnen (halfmatte) afwerking — tussen glanzend en mat. Combineert goede kleurweergave met minder schittering. Gebruikelijk voor magazines en kwaliteitsmarketingmateriaal.",
+    "pl": "Papier powlekany o satynowym (półmatowym) wykończeniu — między błyszczącym a matowym. Łączy dobrą reprodukcję barw z ograniczonymi odblaskami. Typowy dla czasopism i materiałów marketingowych dobrej jakości.",
+    "pt": "Papel couché com acabamento acetinado (semibrilho) — entre brilhante e fosco. Combina boa reprodução de cor com reflexo reduzido. Comum em revistas e material de marketing de qualidade.",
+    "hi": "सैटिन (सेमी-ग्लॉस) फ़िनिश वाला कोटेड काग़ज़ — ग्लॉसी और मैट के बीच। अच्छे रंग पुनरुत्पादन के साथ कम चमक। पत्रिकाओं और गुणवत्तापूर्ण मार्केटिंग सामग्री में आम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

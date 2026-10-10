@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Glittet papir (bestrøget)"@da,
+        "Glänzendes Papier (gestrichen)"@de,
+        "Gloss Coated"@en,
+        "Glossy Paper (Coated)"@en,
+        "ग्लॉस कोटेड"@hi,
+        "ग्लॉसी आर्ट पेपर"@hi,
+        "चमकीला काग़ज़"@hi,
+        "Blankt papir"@nb,
+        "Blankt papir (bestrøket)"@nb,
+        "Glanset papir"@nb,
+        "Glanzend machinegestreken (MC)"@nl,
+        "Glanzend papier (gestreken)"@nl,
+        "Maco glanzend"@nl,
+        "kreda błysk"@pl,
+        "kreda błyszcząca"@pl,
+        "papier błyszczący (powlekany)"@pl,
+        "couché brilhante"@pt,
+        "couché brilho"@pt,
+        "papel brilho"@pt,
+        "Glättat papper (bestruket)"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces> ;
+    skos:definition "Bestrøget papir med højglans reflekterende overflade — giver livlig, mættet farvegengivelse. Bruges til fotobøger, magasinomslag og eksklusive produktbrochurer."@da,
+        "Gestrichenes Papier mit hochglänzender, reflektierender Oberfläche — erzeugt lebendige, satte Farbreproduktion. Eingesetzt für Fotobücher, Magazintitelseiten und hochwertige Produktbroschüren."@de,
+        "Coated paper with a high-shine reflective surface — produces vivid, saturated color reproduction. Used for photo books, magazine covers, and high-end product brochures."@en,
+        "Papel estucado brillante — superficie altamente reflectante que satura los colores y produce contraste alto. Habitual para fotografías, catálogos y publicidad."@es,
+        "उच्च-चमक परावर्तक सतह वाला कोटेड काग़ज़ — जीवंत, संतृप्त रंग पुनरुत्पादन। फ़ोटो बुक, पत्रिका के कवर और हाई-एंड उत्पाद ब्रोशर में।"@hi,
+        "光沢のある反射面を持つ塗工紙 — 鮮やかで彩度の高い色再現を生み出す。写真集、雑誌の表紙、高級製品ブローシュアに使用される。"@ja,
+        "Belagt papir med høyglans reflekterende overflate — gir levende, mettet fargegjengivelse. Brukt til fotobøker, magasinforsider og eksklusive produktbrosjyrer."@nb,
+        "Gestreken papier met een hoogglanzend reflecterend oppervlak — geeft levendige, verzadigde kleurweergave. Gebruikt voor fotoboeken, magazineomslagen en exclusieve productbrochures."@nl,
+        "Papier powlekany o silnie połyskliwej, odbijającej powierzchni — daje żywą, nasyconą reprodukcję barw. Używany do fotoksiążek, okładek czasopism i ekskluzywnych broszur produktowych."@pl,
+        "Papel couché com superfície reflexiva de alto brilho — produz reprodução de cor viva e saturada. Usado em fotolivros, capas de revista e folhetos de produto de alto padrão."@pt,
+        "Bestruket papper med högblank reflekterande yta — ger livfull, mättad färgåtergivning. Används för fotoböcker, tidskriftsomslag och påkostade produktbroschyrer."@sv,
+        "光泽涂布纸 —— 高反射表面，使颜色饱和并产生高对比度。常用于照片、目录和广告。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§GLOSSY-PAPER" ;
+    skos:prefLabel "Glittet papir"@da,
+        "Glänzendes Papier"@de,
+        "Glossy Paper"@en,
+        "Papel Brillante"@es,
+        "ग्लॉसी काग़ज़"@hi,
+        "光沢紙（コート）"@ja,
+        "Blankt papir"@nb,
+        "Glanzend papier"@nl,
+        "Papier błyszczący"@pl,
+        "Papel brilhante"@pt,
+        "Glättat papper"@sv,
+        "光面纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

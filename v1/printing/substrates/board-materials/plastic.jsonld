@@ -1,0 +1,121 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/plastic",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Plastic",
+    "es": "Plástico",
+    "zh-Hans": "塑料",
+    "nb": "Plast",
+    "de": "Kunststoff",
+    "ja": "プラスチック",
+    "sv": "Plast",
+    "da": "Plast",
+    "nl": "Kunststof",
+    "pl": "Tworzywo sztuczne",
+    "pt": "Plástico",
+    "hi": "प्लास्टिक"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§PLASTIC",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Rigid plastic panels (PVC, polypropylene, polycarbonate) used for signage, displays, and durable graphics. Available in solid, foamed, and twin-wall variants.",
+    "nb": "Stive plastpaneler (PVC, polypropylen, polykarbonat) brukt til skilting, displayer og holdbar grafikk. Tilgjengelig i massive, oppskummede og dobbeltveggsvarianter.",
+    "de": "Starre Kunststoffplatten (PVC, Polypropylen, Polycarbonat), eingesetzt für Beschilderung, Displays und langlebige Grafiken. Erhältlich in massiver, geschäumter und Doppelsteg-Ausführung.",
+    "ja": "サイン、ディスプレイ、耐久性グラフィックに使用される剛性のあるプラスチックパネル（PVC、ポリプロピレン、ポリカーボネート）。ソリッド、発泡、ツインウォールのバリエーションがある。",
+    "es": "Planchas plásticas rígidas (PVC, polipropileno, policarbonato) — utilizadas para signage durable y aplicaciones industriales.",
+    "zh-Hans": "刚性塑料板（PVC、聚丙烯、聚碳酸酯）—— 用于耐用标识和工业应用。",
+    "sv": "Styva plastskivor (PVC, polypropen, polykarbonat) för skyltar, displayer och tålig grafik. Finns i massiva, skummade och kanalvarianter.",
+    "da": "Stive plastpaneler (PVC, polypropylen, polycarbonat) brugt til skiltning, displays og holdbar grafik. Fås i massive, opskummede og kanalplade-varianter.",
+    "nl": "Stijve kunststofplaten (pvc, polypropyleen, polycarbonaat) voor signalisatie, displays en duurzame graphics. Verkrijgbaar in massieve, geschuimde en kanaalplaatvarianten.",
+    "pl": "Sztywne płyty z tworzyw sztucznych (PCV, polipropylen, poliwęglan) używane do oznakowania, ekspozycji i trwałych grafik. Dostępne w wariantach litym, spienionym i kanalikowym.",
+    "pt": "Painéis plásticos rígidos (PVC, polipropileno, policarbonato) usados em sinalização, displays e gráficos duráveis. Disponíveis em versões maciça, expandida e alveolar.",
+    "hi": "साइनेज, डिस्प्ले और टिकाऊ ग्राफ़िक्स के लिए कठोर प्लास्टिक पैनल (PVC, पॉलीप्रोपिलीन, पॉलीकार्बोनेट)। ठोस, फ़ोम्ड और ट्विन-वॉल रूपों में उपलब्ध।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "PVC",
+      "Polypropylene",
+      "Plastic board",
+      "Correx",
+      "Corriboard",
+      "Fluted polypropylene",
+      "Twin-wall board",
+      "Foamex",
+      "Foamed PVC"
+    ],
+    "nb": [
+      "Plast",
+      "Kanalplast",
+      "Korrugert plast"
+    ],
+    "sv": [
+      "Kanalplast"
+    ],
+    "da": [
+      "Kanalplade"
+    ],
+    "de": [
+      "Hohlkammerplatte",
+      "Stegplatte",
+      "Hohlkammerplatten"
+    ],
+    "pl": [
+      "PCV",
+      "PVC",
+      "polipropylen",
+      "płyta z tworzywa",
+      "płyta kanalikowa",
+      "polipropylen kanalikowy",
+      "Foamex",
+      "spienione PCV",
+      "płyta PCV"
+    ],
+    "pt": [
+      "PVC",
+      "polipropileno",
+      "chapa plástica",
+      "polipropileno alveolar",
+      "Correx",
+      "PVC expandido",
+      "Foamex"
+    ],
+    "hi": [
+      "PVC",
+      "पॉलीप्रोपिलीन",
+      "प्लास्टिक बोर्ड",
+      "PP शीट",
+      "फ़्लूटेड पॉलीप्रोपिलीन",
+      "Correx",
+      "फ़ोम्ड PVC",
+      "Foamex"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "status": "proposed",
+  "level": "element",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "reference",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/dic",
+  "notation": "P:ST§DIC",
+  "label": {
+    "en": "DIC",
+    "nb": "DIC",
+    "de": "DIC",
+    "ja": "DIC",
+    "es": "DIC",
+    "zh-Hans": "DIC",
+    "nl": "DIC",
+    "sv": "DIC",
+    "da": "DIC",
+    "pl": "DIC",
+    "pt": "DIC",
+    "hi": "DIC"
+  },
+  "altLabels": {
+    "en": [
+      "DIC Color Guide",
+      "DIC Colors",
+      "Dainippon Ink"
+    ],
+    "ja": [
+      "DIC カラーガイド",
+      "DICカラー"
+    ],
+    "zh-Hans": [
+      "DIC色卡"
+    ],
+    "nb": [
+      "DIC-fargeguide"
+    ],
+    "de": [
+      "DIC Farbfächer"
+    ],
+    "pl": [
+      "DIC Color Guide",
+      "kolory DIC",
+      "Dainippon Ink"
+    ],
+    "pt": [
+      "DIC Color Guide",
+      "DIC Colors",
+      "Dainippon Ink"
+    ],
+    "hi": [
+      "DIC Color Guide",
+      "DIC Colors",
+      "Dainippon Ink"
+    ]
+  },
+  "definition": {
+    "en": "DIC Color Guide — Japanese spot-colour matching system from DIC Corporation, used alongside Toyo as a standard reference in the Japanese market.",
+    "nb": "DIC Color Guide — japansk system for spotfargematching fra DIC Corporation, brukt side om side med Toyo som standardreferanse i det japanske markedet.",
+    "pl": "DIC Color Guide — japoński system wzorcowania kolorów dodatkowych firmy DIC Corporation, używany obok Toyo jako standardowe odniesienie na rynku japońskim.",
+    "pt": "DIC Color Guide — sistema japonês de correspondência de cores especiais da DIC Corporation, usado junto com a Toyo como referência padrão no mercado japonês.",
+    "hi": "DIC Color Guide — DIC Corporation की जापानी स्पॉट-कलर मिलान प्रणाली, जापानी बाज़ार में Toyo के साथ मानक संदर्भ के रूप में प्रयुक्त।"
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "created": "2026-08-27T00:00:00Z",
+  "version": "2026-08-27",
+  "modified": "2026-09-23T06:50:01Z",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "properties": {
+    "systemRole": "ink-library"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

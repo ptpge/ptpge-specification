@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/binding/coil-binding",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§COIL-BINDING",
+  "level": "element",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "label": {
+    "en": "Coil Binding",
+    "nb": "Spiralbinding",
+    "de": "Spiralbindung",
+    "ja": "Coil Binding",
+    "es": "Coil Binding",
+    "zh-Hans": "Coil Binding",
+    "sv": "Spiralbindning",
+    "da": "Spiralindbinding",
+    "nl": "Spiraalbinding",
+    "pl": "Oprawa spiralna",
+    "pt": "Espiral",
+    "hi": "स्पाइरल (कॉइल) बाइंडिंग"
+  },
+  "definition": {
+    "en": "Pages bound with a plastic or metal spiral coil through punched holes; lies flat and rotates 360°.",
+    "nb": "Sider bundet med en plast- eller metallspiral gjennom stansede hull; ligger flatt og roterer 360°.",
+    "de": "Seiten, mit einer Kunststoff- oder Metallspirale durch gestanzte Löcher gebunden; liegt flach und dreht 360°.",
+    "ja": "パンチ穴にプラスチックまたは金属のスパイラルコイルを通して綴じたページ。フラットに開き、360°回転する。",
+    "es": "Páginas encuadernadas con una espiral de plástico o metal a través de perforaciones; abre plano y gira 360°.",
+    "zh-Hans": "用塑料或金属螺旋线圈穿过冲孔装订的页面；可平摊并360°翻转。",
+    "sv": "Sidor bundna med en plast- eller metallspiral genom stansade hål; ligger plant och kan vridas 360°.",
+    "da": "Sider indbundet med en plast- eller metalspiral gennem udstansede huller; ligger fladt og kan drejes 360°.",
+    "nl": "Pagina's gebonden met een kunststof of metalen spiraal door geponste gaten; ligt vlak en draait 360°.",
+    "pl": "Strony połączone plastikową lub metalową spiralą przez wybite otwory; rozkłada się płasko i obraca o 360°.",
+    "pt": "Páginas presas por uma espiral de plástico ou metal através de furos; abre totalmente plano e gira 360°.",
+    "hi": "छेदों के ज़रिए प्लास्टिक या धातु की स्पाइरल कॉइल से बँधे पृष्ठ; सपाट खुलती है और 360° घूमती है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/binding",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Spiral binding",
+      "Spiral-bound",
+      "Plastic coil"
+    ],
+    "nb": [
+      "Spiralinnbinding",
+      "Spiral"
+    ],
+    "pl": [
+      "spirala",
+      "oprawa spiralowa",
+      "spirala plastikowa"
+    ],
+    "pt": [
+      "encadernação em espiral",
+      "espiralado",
+      "espiral plástica",
+      "espiral de metal"
+    ],
+    "hi": [
+      "स्पाइरल बाइंडिंग",
+      "स्पाइरल बाउंड",
+      "प्लास्टिक कॉइल",
+      "कॉइल बाइंडिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BindingIntent",
+        "LooseBinding"
+      ],
+      "refs": [
+        "§4.3 · p.64",
+        "§5.6.24 · p.125"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 41"
+    }
+  ]
+}

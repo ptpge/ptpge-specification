@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    skos:definition "Papirvægtkategorier målt i gram pr. kvadratmeter (g/m²) — tungere vægte giver tykkere, stivere papir, mens lettere vægte er økonomiske og lette at false."@da,
+        "Grammatur-Kategorien für Papier, gemessen in Gramm pro Quadratmeter (g/m²) — höhere Grammaturen erzeugen dickeres, steiferes Papier, niedrigere sind wirtschaftlicher und leichter zu falzen."@de,
+        "Paper weight categories measured in grams per square meter (gsm) — heavier weights produce thicker, stiffer paper while lighter weights are economical and easy to fold."@en,
+        "Categorías de gramaje del papel medidas en gramos por metro cuadrado (gsm) — los gramajes más altos producen papel más grueso y rígido, mientras que los más bajos son económicos y fáciles de plegar."@es,
+        "ग्राम प्रति वर्ग मीटर (GSM) में मापे गए काग़ज़ वज़न के वर्ग — भारी वज़न मोटा, कड़ा काग़ज़ देता है जबकि हल्का वज़न किफ़ायती और मोड़ने में आसान।"@hi,
+        "1平方メートルあたりのグラム数（gsm）で測定される坪量カテゴリ — 重い坪量はより厚く硬い紙を生み、軽い坪量は経済的で折りやすい。"@ja,
+        "Papirvektkategorier målt i gram per kvadratmeter (gsm) — tyngre vekter gir tykkere, stivere papir, mens lettere vekter er økonomiske og lette å brette."@nb,
+        "Papiergewichtcategorieën gemeten in gram per vierkante meter (g/m²) — zwaardere gewichten geven dikker, stijver papier, terwijl lichtere gewichten economisch zijn en makkelijk vouwen."@nl,
+        "Kategorie gramatury papieru mierzonej w gramach na metr kwadratowy (g/m²) — wyższe gramatury dają grubszy, sztywniejszy papier, a niższe są ekonomiczne i łatwe do składania."@pl,
+        "Categorias de gramatura do papel medidas em gramas por metro quadrado (g/m²) — gramaturas maiores dão papel mais espesso e rígido, enquanto as menores são econômicas e fáceis de dobrar."@pt,
+        "Papperets viktkategorier mätta i gram per kvadratmeter (g/m²) — högre vikter ger tjockare, styvare papper medan lägre vikter är ekonomiska och lätta att falsa."@sv,
+        "以克/平方米（gsm）为单位测量的纸张克重类别——较重的克重产生较厚、较硬的纸，而较轻的克重经济且易于折叠。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-light-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    skos:notation "P:SB-SHT-PAPR-PWGT" ;
+    skos:prefLabel "Papirvægte"@da,
+        "Papiergewichte"@de,
+        "Paper Weights"@en,
+        "Gramajes de Papel"@es,
+        "काग़ज़ का वज़न"@hi,
+        "用紙の坪量"@ja,
+        "Papirvekter"@nb,
+        "Papiergewichten"@nl,
+        "Gramatury papieru"@pl,
+        "Gramaturas de papel"@pt,
+        "Pappersvikter"@sv,
+        "纸张克重"@zh-Hans ;
+    skos:scopeNote "Reicht von extra leicht (50–79 g/m² — Zeitungsdruck, leichte Publikationen) über mittel (150–179 g/m² — Briefpapier, Broschüren) bis zu extra-dickem Karton (450+ g/m² — Premium-Visitenkarten, Verpackungen). Die Grenze zwischen Papier und Karton liegt typischerweise bei rund 200 g/m²."@de,
+        "Ranges from extra light (50–79 gsm — newsprint, lightweight publication) through medium (150–179 gsm — letterheads, brochures) to extra-thick cardstock (450+ gsm — premium business cards, packaging). The boundary between paper and cardstock typically falls around 200 gsm."@en,
+        "Va desde extra ligero (50–79 gsm — papel de prensa, publicaciones ligeras) pasando por medio (150–179 gsm — membretes, folletos) hasta cartulinas extra gruesas (450+ gsm — tarjetas de visita premium, packaging). Los rangos se superponen y el gramaje exacto depende del proveedor y de la máquina."@es,
+        "एक्स्ट्रा लाइट (50–79 GSM — न्यूज़प्रिंट, हल्के प्रकाशन) से मीडियम (150–179 GSM — लेटरहेड, ब्रोशर) से एक्स्ट्रा-थिक कार्डस्टॉक (450+ GSM — प्रीमियम विज़िटिंग कार्ड, पैकेजिंग) तक। काग़ज़ और कार्डस्टॉक की सीमा आमतौर पर 200 GSM के आसपास।"@hi,
+        "極軽（50〜79gsm — 新聞用紙、軽量出版物）から、中量（150〜179gsm — 便箋、ブローシュア）、超厚カード紙（450gsm以上 — プレミアム名刺、パッケージ）まで及ぶ。紙とカード紙の境界は通常200gsm前後。"@ja,
+        "Strekker seg fra ekstra lett (50–79 gsm — avispapir, lett publikasjon) via medium (150–179 gsm — brevhoder, brosjyrer) til ekstra tykt kartong (450+ gsm — premium-visittkort, emballasje). Grensen mellom papir og kartong ligger typisk rundt 200 gsm."@nb,
+        "Vai de extra leve (50–79 g/m² — jornal, publicações leves), passando por médio (150–179 g/m² — papel timbrado, folhetos), até cartão extra grosso (450+ g/m² — cartões de visita premium, embalagens). A fronteira entre papel e cartão fica normalmente em torno de 200 g/m²."@pt,
+        "范围从超轻（50–79克——新闻纸、轻型出版物）经中等（150–179克——信纸、宣传册）到超厚卡纸（450+克——优质名片、包装）。范围会重叠，确切克重取决于供应商和印刷机。"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

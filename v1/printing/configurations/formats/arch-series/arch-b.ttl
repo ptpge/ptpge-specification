@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-b> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "12 x 18 in"@en,
+        "12x18"@en,
+        "12×18"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/arch-series> ;
+    skos:definition "12 × 18 tommer (304.8 × 457.2 mm). Dubbla arealet av Arch A. Almindeligt til arbejdstegninger og detaljer."@da,
+        "12 × 18 in (304,8 × 457,2 mm). Doppelte Fläche von Arch A. Üblich für Werkpläne und Detailzeichnungen."@de,
+        "12 × 18 in (304.8 × 457.2 mm). Twice the area of Arch A. Common for working drawings and details."@en,
+        "Tamaño arquitectónico Arch B para planos arquitectónicos y de ingeniería norteamericanos, 305 × 457 mm / 12 × 18 in."@es,
+        "12 × 18 in (304.8 × 457.2 mm). Arch A का दोगुना क्षेत्रफल। कार्य-चित्रों और विवरणों में आम।"@hi,
+        "12×18インチ（304.8×457.2mm）。Arch Aの2倍の面積。作業図面および詳細で一般的。"@ja,
+        "12 × 18 in (304,8 × 457,2 mm). Dobbelt areal av Arch A. Vanlig for arbeidstegninger og detaljer."@nb,
+        "12 × 18 inch (304.8 × 457.2 mm). Dubbel het oppervlak van Arch A. Gebruikelijk voor werktekeningen en details."@nl,
+        "12 × 18 cali (304,8 × 457,2 mm). Dwukrotna powierzchnia Arch A. Typowy dla rysunków roboczych i detali."@pl,
+        "12 × 18 in (304.8 × 457.2 mm). O dobro da área do Arch A. Comum em desenhos de trabalho e detalhes."@pt,
+        "12 × 18 tum (304.8 × 457.2 mm). Dubbla arean av Arch A. Vanligt för arbetsritningar och detaljer."@sv,
+        "建筑尺寸Arch B，用于北美建筑和工程图纸，305 × 457 mm / 12 × 18 in。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ARCH-B" ;
+    skos:prefLabel "Arch B (12 x 18 tum)"@da,
+        "Arch B (12 x 18 in)"@de,
+        "Arch B (12 x 18 in)"@en,
+        "Arch B (305 × 457 mm / 12 × 18 in)"@es,
+        "Arch B (12 x 18 in)"@hi,
+        "Arch B (12 x 18 in)"@ja,
+        "Arch B (12 x 18 in)"@nb,
+        "Arch B (12 x 18 tum)"@nl,
+        "Arch B (12 x 18 in)"@pl,
+        "Arch B (12 x 18 in)"@pt,
+        "Arch B (12 x 18 tum)"@sv,
+        "Arch B (305 × 457 mm / 12 × 18 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 216.0 ;
+            ptpge:aspectRatio 1.5 ;
+            ptpge:height 18.0 ;
+            ptpge:standard "ANSI/ASME Y14.1" ;
+            ptpge:unit "in" ;
+            ptpge:width 12.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

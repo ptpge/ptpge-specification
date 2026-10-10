@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/uv-inkjet",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "UV Inkjet",
+    "es": "Inyección UV",
+    "zh-Hans": "UV喷墨",
+    "nb": "UV-blekkstråle",
+    "de": "UV-Inkjet",
+    "ja": "UVインクジェット",
+    "sv": "UV-inkjet",
+    "da": "UV-inkjet",
+    "nl": "UV-inkjet",
+    "pl": "Atramentowy UV",
+    "pt": "Jato de tinta UV",
+    "hi": "UV इंकजेट"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§UV-INKJET",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Inkjet variant using UV-curable inks that remain liquid until exposed to ultraviolet light, which polymerizes them instantly into a solid film. Dominant in wide-format flatbed printing, sign-making, and on rigid non-porous substrates.",
+    "nb": "Inkjet-variant som bruker UV-herdbare blekk som forblir flytende inntil de eksponeres for ultrafiolett lys, som polymeriserer dem umiddelbart til en fast film. Dominerende i storformat flatbed-trykk, skiltproduksjon og på stive ikke-porøse substrater.",
+    "de": "Inkjet-Variante mit UV-härtenden Tinten, die flüssig bleiben, bis sie ultraviolettem Licht ausgesetzt werden, das sie sofort zu einem festen Film polymerisiert. Dominant im Großformat-Flachbettdruck, Schilderbau und auf festen, nicht porösen Bedruckstoffen.",
+    "ja": "紫外線にさらされるまで液体のままで、紫外線によって瞬時に固体膜に重合するUV硬化インキを使用するインクジェットのバリアント。大判フラットベッド印刷、サイン制作、剛性のある非多孔質基材で主流。",
+    "es": "Variante de inyección de tinta con tintas curables por luz ultravioleta — la tinta se solidifica al instante al exponerse a UV. Habitual en gran formato y signage industrial.",
+    "zh-Hans": "使用紫外线固化油墨的喷墨变体 —— 油墨暴露于UV时立即固化。在大幅面和工业标识中常见。",
+    "sv": "Inkjetvariant med UV-härdande bläck som förblir flytande tills de exponeras för ultraviolett ljus, vilket polymeriserar dem omedelbart till en fast film. Dominerande inom storformats-flatbäddstryck, skylttillverkning och på styva icke-porösa substrat.",
+    "da": "Inkjetvariant med UV-hærdende blæk, der forbliver flydende, indtil de udsættes for ultraviolet lys, som øjeblikkeligt polymeriserer dem til en fast film. Dominerende inden for storformat-flatbedtryk, skilteproduktion og på stive ikke-porøse substrater.",
+    "nl": "Inkjetvariant met uv-hardende inkten die vloeibaar blijven tot blootstelling aan ultraviolet licht, dat ze onmiddellijk polymeriseert tot een vaste film. Dominant in grootformaat-flatbeddruk, signmaking en op stijve niet-poreuze substraten.",
+    "pl": "Wariant druku atramentowego z atramentami utwardzanymi UV, które pozostają ciekłe do chwili naświetlenia ultrafioletem, natychmiast polimeryzującym je w stałą warstwę. Dominujący w płaskim druku wielkoformatowym, produkcji reklamy i na sztywnych nieporowatych podłożach.",
+    "pt": "Variante de jato de tinta que usa tintas curáveis por UV, que permanecem líquidas até serem expostas à luz ultravioleta, que as polimeriza instantaneamente num filme sólido. Dominante na impressão flatbed de grande formato, na comunicação visual e em substratos rígidos não porosos.",
+    "hi": "इंकजेट वेरिएंट जिसमें UV-क्योरेबल स्याही पराबैंगनी प्रकाश के संपर्क तक तरल रहती है, जो उसे तुरंत ठोस परत में पॉलिमराइज़ करता है। वाइड-फॉर्मेट फ़्लैटबेड छपाई, साइन-मेकिंग और कठोर गैर-सरंध्र सब्सट्रेट पर प्रमुख।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "UV-cured inkjet"
+    ],
+    "nb": [
+      "UV-blekkskriver"
+    ],
+    "pl": [
+      "druk UV",
+      "atramentowy utwardzany UV"
+    ],
+    "pt": [
+      "Inkjet UV",
+      "Jato de tinta curado por UV"
+    ],
+    "hi": [
+      "UV-क्योर्ड इंकजेट"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "DigitalPrinting",
+        "DigitalPrintingParams"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.2 · p.111",
+        "§6.31 · p.196"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 17"
+    }
+  ]
+}

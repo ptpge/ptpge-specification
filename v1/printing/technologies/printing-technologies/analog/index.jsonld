@@ -1,0 +1,91 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Analog",
+    "es": "Analógicas",
+    "zh-Hans": "模拟",
+    "nb": "Analog",
+    "de": "Analog",
+    "ja": "アナログ",
+    "sv": "Analog",
+    "da": "Analog",
+    "nl": "Analoog",
+    "pl": "Analogowe",
+    "pt": "Analógica",
+    "hi": "एनालॉग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies",
+  "narrower": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/lithography",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/pad",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/thermography",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/woodcut"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Traditional printing technologies that use a physical image carrier (plate, cylinder, screen, or block) to transfer ink to the substrate — the entire job uses the same physical pattern repeatedly.",
+    "nb": "Tradisjonelle trykketeknologier som bruker en fysisk bildebærer (plate, sylinder, sil eller blokk) til å overføre blekk til substratet — hele jobben bruker det samme fysiske mønsteret gjentatt.",
+    "de": "Traditionelle Drucktechnologien, die einen physischen Bildträger (Platte, Zylinder, Sieb oder Stock) verwenden, um Tinte auf den Bedruckstoff zu übertragen — der gesamte Auftrag nutzt wiederholt dasselbe physische Muster.",
+    "ja": "物理的な画像担体（刷版、シリンダー、スクリーン、版木）を使用してインキを基材に転写する伝統的な印刷技術 — ジョブ全体で同じ物理パターンを繰り返し使用する。",
+    "es": "Tecnologías tradicionales de impresión que utilizan un portador físico de imagen (plancha, cilindro, malla o bloque) para transferir tinta al sustrato — todo el trabajo utiliza el mismo patrón físico repetidamente.",
+    "zh-Hans": "使用物理图像载体（印版、滚筒、网或木块）将油墨转移到承印物的传统印刷工艺——整个作业重复使用相同的物理图案。",
+    "sv": "Traditionella tryckteknologier som använder en fysisk bildbärare (plåt, cylinder, schablon eller block) för att överföra bläck till substratet — hela jobbet använder samma fysiska mönster upprepade gånger.",
+    "da": "Traditionelle trykteknologier, der bruger en fysisk billedbærer (plade, cylinder, stencil eller blok) til at overføre farve til substratet — hele opgaven bruger samme fysiske mønster gentagne gange.",
+    "nl": "Traditionele druktechnologieën die een fysieke beelddrager gebruiken (plaat, cilinder, zeef of blok) om inkt op het substraat over te brengen — de hele opdracht gebruikt herhaaldelijk hetzelfde fysieke patroon.",
+    "pl": "Tradycyjne technologie druku wykorzystujące fizyczny nośnik obrazu (płytę, cylinder, sito lub klocek) do przenoszenia farby na podłoże — całe zlecenie wielokrotnie używa tego samego fizycznego wzoru.",
+    "pt": "Tecnologias de impressão tradicionais que usam um portador físico de imagem (chapa, cilindro, tela ou bloco) para transferir tinta ao substrato — todo o trabalho usa o mesmo padrão físico repetidamente.",
+    "hi": "पारंपरिक मुद्रण तकनीकें जो स्याही को सब्सट्रेट पर उतारने के लिए भौतिक छवि-वाहक (प्लेट, सिलिंडर, स्क्रीन या ब्लॉक) का उपयोग करती हैं — पूरा काम बार-बार उसी भौतिक पैटर्न से होता है।"
+  },
+  "scopeNote": {
+    "en": "Covers offset (planographic, dominant for commercial printing), flexography (relief, dominant for packaging), gravure (intaglio rotary, dominant for very long runs), screen printing (porous), letterpress and woodcut (relief), pad printing (transfer), thermal transfer, and intaglio printmaking (etching, engraving, aquatint, mezzotint).",
+    "nb": "Dekker offset (planografisk, dominerende for kommersiell trykk), fleksografi (relieff, dominerende for emballasje), gravure (intaglio roterende, dominerende for svært lange opplag), silketrykk (porøs), letterpress og tresnitt (relieff), padtrykk (overføring), termisk overføring, og intaglio-trykk (etsing, gravering, akvatinta, mezzotinta).",
+    "de": "Umfasst Offset (Flachdruck, dominant im Akzidenzdruck), Flexodruck (Hochdruck, dominant in der Verpackung), Tiefdruck (Rotationstiefdruck, dominant für sehr lange Auflagen), Siebdruck (Durchdruck), Buchdruck und Holzschnitt (Hochdruck), Tampondruck (Übertragung), Thermodruck und Stichtiefdruck-Druckgrafik (Radierung, Stich, Aquatinta, Schabkunst).",
+    "ja": "オフセット（平版、商業印刷で主流）、フレキソ（凸版、パッケージで主流）、グラビア（凹版輪転、超大量部数で主流）、シルクスクリーン印刷（孔版）、活版および木版（凸版）、タンポ印刷（転写）、感熱転写、凹版版画（エッチング、エングレービング、アクアチント、メゾチント）を扱う。",
+    "es": "Cubre offset (planográfico, dominante para impresión comercial), flexografía (relieve, dominante para packaging), huecograbado (intaglio rotativo, dominante para tiradas muy largas), serigrafía (poroso), tipografía, calcografía artística, xilografía y técnicas térmicas/tampografía. Las tecnologías digitales se sitúan en una sub-categoría hermana.",
+    "zh-Hans": "涵盖胶印（平版，商业印刷的主导）、柔印（凸版，包装的主导）、凹印（凹版旋转，超长印次的主导）、丝印（孔版）、活字印刷、铜版凹印、木版以及热敏/移印技术。数码工艺位于兄弟子分类中。",
+    "pt": "Cobre offset (planográfico, dominante na impressão comercial), flexografia (relevo, dominante em embalagens), rotogravura (calcografia rotativa, dominante em tiragens muito longas), serigrafia (permeográfico), tipografia e xilogravura (relevo), tampografia (transferência), transferência térmica e gravura calcográfica (água-forte, buril, água-tinta, meia-tinta).",
+    "hi": "ऑफसेट (प्लैनोग्राफ़िक, व्यावसायिक मुद्रण में प्रमुख), फ़्लेक्सोग्राफ़ी (रिलीफ़, पैकेजिंग में प्रमुख), ग्रेव्योर (रोटरी इंटैग्लियो, बहुत लंबे रन में प्रमुख), स्क्रीन प्रिंटिंग (सरंध्र), लेटरप्रेस और वुडकट (रिलीफ़), पैड प्रिंटिंग (ट्रांसफ़र), थर्मल ट्रांसफ़र और इंटैग्लियो प्रिंटमेकिंग (एचिंग, एनग्रेविंग, एक्वाटिंट, मेज़ोटिंट) शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PTC-ANLG",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "druk analogowy",
+      "druk konwencjonalny"
+    ]
+  }
+}

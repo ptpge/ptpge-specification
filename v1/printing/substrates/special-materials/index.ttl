@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/special-materials> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/substrates> ;
+    skos:definition "Substrater uden for standardkategorierne — specialmaterialer til nicheanvendelser eller specialproduktion."@da,
+        "Bedruckstoffe außerhalb der Standardkategorien — Spezialmaterialien für Nischenanwendungen oder Sonderproduktionen."@de,
+        "Substrates outside the standard categories — specialty materials used for niche applications or custom production."@en,
+        "Sustratos fuera de las categorías estándar — materiales especiales usados para aplicaciones de nicho o producción personalizada."@es,
+        "मानक श्रेणियों से बाहर के सब्सट्रेट — विशिष्ट अनुप्रयोगों या कस्टम उत्पादन के लिए विशेष सामग्री।"@hi,
+        "標準カテゴリ外の基材 — ニッチな用途またはカスタム生産に使用される特殊材料。"@ja,
+        "Substrater utenfor standardkategoriene — spesialmaterialer brukt til nisjeanvendelser eller tilpasset produksjon."@nb,
+        "Substraten buiten de standaardcategorieën — speciale materialen voor nichetoepassingen of maatwerkproductie."@nl,
+        "Podłoża spoza standardowych kategorii — materiały specjalne używane do zastosowań niszowych lub produkcji na zamówienie."@pl,
+        "Substratos fora das categorias padrão — materiais especiais usados em aplicações de nicho ou produção sob medida."@pt,
+        "Substrat utanför standardkategorierna — specialmaterial för nischtillämpningar eller specialproduktion."@sv,
+        "标准分类之外的承印物——用于小众应用或定制生产的特殊材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/special-materials/specials> ;
+    skos:notation "P:SB-SPM" ;
+    skos:prefLabel "Specialmaterialer"@da,
+        "Spezialmaterialien"@de,
+        "Special Materials"@en,
+        "Materiales Especiales"@es,
+        "विशेष सामग्री"@hi,
+        "特殊基材"@ja,
+        "Spesial-materialer"@nb,
+        "Speciale materialen"@nl,
+        "Materiały specjalne"@pl,
+        "Materiais especiais"@pt,
+        "Specialmaterial"@sv,
+        "特殊材料"@zh-Hans ;
+    skos:scopeNote "Sammelkategorie für Materialien, die nicht in die Kategorien Platte, Objekt, Rolle oder Bogen passen — einschließlich Nischenbedruckstoffen, die für spezifische funktionale oder ästhetische Anforderungen ausgewählt werden."@de,
+        "Catch-all for materials that don't fit board, object, roll, or sheet categories — including niche substrates chosen for specific functional or aesthetic requirements."@en,
+        "Cajón de sastre para materiales que no encajan en placa, objeto, bobina u hoja — incluyendo sustratos de nicho elegidos por requisitos funcionales o estéticos específicos."@es,
+        "उन सामग्रियों के लिए सर्व-श्रेणी जो बोर्ड, वस्तु, रोल या शीट में नहीं आतीं — विशिष्ट कार्यात्मक या सौंदर्य आवश्यकताओं के लिए चुने गए नीश सब्सट्रेट सहित।"@hi,
+        "ボード、立体物、ロール、シートのカテゴリに当てはまらない材料の総称 — 特定の機能的または美的要件のために選ばれるニッチ基材を含む。"@ja,
+        "Samlekategori for materialer som ikke passer i board-, object-, roll- eller sheet-kategoriene — inkluderer nisjemateriealer valgt for spesifikke funksjonelle eller estetiske krav."@nb,
+        "Categoria geral para materiais que não cabem em chapa, objeto, rolo ou folha — incluindo substratos de nicho escolhidos por requisitos funcionais ou estéticos específicos."@pt,
+        "涵盖不适合板材、物体、卷材或纸张分类的材料——包括基于具体功能或美学要求选择的小众承印物。"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

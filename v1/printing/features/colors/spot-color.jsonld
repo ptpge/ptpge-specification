@@ -1,0 +1,123 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/colors/spot-color",
+  "type": "skos:Concept",
+  "version": "2026-09-20",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Spot Color",
+    "nl": "Steunkleur",
+    "de": "Sonderfarbe",
+    "es": "Color directo",
+    "ja": "特色",
+    "zh-Hans": "专色",
+    "sv": "Dekorfärg",
+    "da": "Staffagefarve",
+    "nb": "Spotfarge",
+    "pl": "Kolor dodatkowy",
+    "pt": "Cor especial",
+    "hi": "स्पॉट रंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/colors",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§SPOT-COLOR",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "definition": {
+    "en": "Spot/named-ink colour printing — a specific premixed ink referencing a matching system (Pantone, HKS, RAL, Toyo …) rather than a process build.",
+    "nb": "Spot-/dekkfarge — en spesifikk forhåndsblandet blekkfarge som refererer et matchingsystem (Pantone, HKS, RAL, Toyo …) i stedet for prosessbygg.",
+    "de": "Sonderfarben-Druck (Schmuckfarbe) — eine vorgemischte Spezialfarbe mit Referenz auf ein Farbsystem (Pantone, HKS, RAL, Toyo …) statt eines Prozessaufbaus.",
+    "es": "Impresión con tinta plana (color directo) — una tinta premezclada específica que referencia un sistema de igualación (Pantone, HKS, RAL, Toyo …) en lugar de una composición de cuatricromía.",
+    "ja": "特色（スポットカラー）印刷 — プロセス掛け合わせではなく、カラーマッチングシステム（Pantone、HKS、RAL、Toyo など）を参照する調合済みインキ。",
+    "zh-Hans": "专色印刷 — 引用配色系统（Pantone、HKS、RAL、Toyo 等）的特定预混油墨，而非四色叠印。",
+    "sv": "Tryck med dekor-/namngiven färg — ett specifikt förblandat bläck som refererar till ett matchningssystem (Pantone, HKS, RAL, Toyo …) i stället för en processblandning.",
+    "da": "Tryk med staffage-/navngiven farve — en specifik færdigblandet farve, der refererer til et matchsystem (Pantone, HKS, RAL, Toyo …) frem for en procesopbygning.",
+    "nl": "Druk met steun-/benoemde kleur — een specifieke voorgemengde inkt die verwijst naar een matchsysteem (Pantone, HKS, RAL, Toyo …) in plaats van een procesopbouw.",
+    "pl": "Druk kolorem dodatkowym (farbą nazwaną) — konkretną, wstępnie zmieszaną farbą odwołującą się do systemu wzorcowego (Pantone, HKS, RAL, Toyo …), a nie do zestawienia farb procesowych.",
+    "pt": "Impressão com cor especial/tinta nomeada — uma tinta pré-misturada específica que referencia um sistema de correspondência (Pantone, HKS, RAL, Toyo …) em vez de uma composição de escala.",
+    "hi": "स्पॉट/नामित-स्याही रंग छपाई — पहले से मिली एक विशिष्ट स्याही जो प्रोसेस मिश्रण के बजाय किसी मिलान प्रणाली (पैंटोन, HKS, RAL, Toyo …) को संदर्भित करती है।"
+  },
+  "altLabels": {
+    "en": [
+      "Spot colour",
+      "Named ink",
+      "Spot ink",
+      "Spot Colour"
+    ],
+    "nb": [
+      "Dekkfarge"
+    ],
+    "nl": [],
+    "de": [
+      "Schmuckfarbe",
+      "Volltonfarbe"
+    ],
+    "sv": [
+      "Specialfärg"
+    ],
+    "da": [
+      "Spotfarve",
+      "Specialfarve"
+    ],
+    "es": [
+      "Tinta plana",
+      "Tinta directa"
+    ],
+    "ja": [
+      "特色インキ",
+      "スポットカラー"
+    ],
+    "zh-Hans": [
+      "专色油墨"
+    ],
+    "pl": [
+      "kolor specjalny",
+      "farba nazwana",
+      "farba dodatkowa",
+      "Pantone"
+    ],
+    "pt": [
+      "cor especial",
+      "cor Pantone",
+      "tinta especial",
+      "cor sólida",
+      "spot color",
+      "tinta direta"
+    ],
+    "hi": [
+      "स्पॉट कलर",
+      "पैंटोन रंग",
+      "नामित स्याही",
+      "स्पेशल कलर",
+      "स्पॉट इंक"
+    ]
+  },
+  "properties": {
+    "colorChannelCount": 1
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "ColorantControl"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§6.15 · p.168"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 24"
+    }
+  ],
+  "multiInstance": true
+}

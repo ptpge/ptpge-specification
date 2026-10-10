@@ -1,0 +1,59 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "CRPC1",
+    "nb": "CRPC1",
+    "sv": "CRPC1",
+    "da": "CRPC1",
+    "nl": "CRPC1",
+    "pl": "CRPC1",
+    "pt": "CRPC1",
+    "hi": "CRPC1"
+  },
+  "notation": "P:ST§CRPC1",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Characterized Reference Printing Condition 1 of ISO/PAS 15339-2:2015 (CGATS 21-2): typical coldset newsprint — the smallest gamut of the seven. Process-agnostic reference conditions spanning the range of printable gamuts.",
+    "nb": "Karakterisert referanse-trykkbetingelse 1 i ISO/PAS 15339-2:2015 (CGATS 21-2): typisk coldset-avistrykk — det minste fargerommet av de sju. Prosessuavhengige referansebetingelser som spenner over de trykkbare fargerommene.",
+    "de": "Charakterisierte Referenzdruckbedingung 1 nach ISO/PAS 15339-2:2015 (CGATS 21-2): typischer Coldset-Zeitungsdruck — der kleinste Farbraum der sieben. Prozessunabhängige Referenzbedingungen über die Spanne der druckbaren Farbräume.",
+    "es": "Condición de impresión de referencia caracterizada 1 de ISO/PAS 15339-2:2015 (CGATS 21-2): impresión coldset típica en papel prensa — la gama más pequeña de las siete. Condiciones de referencia independientes del proceso que abarcan las gamas imprimibles.",
+    "ja": "ISO/PAS 15339-2:2015（CGATS 21-2）の特性化参照印刷条件 1：典型的なコールドセット新聞印刷 — 7条件中最小の色域。印刷可能な色域の範囲をカバーする、プロセス非依存の参照条件。",
+    "zh-Hans": "ISO/PAS 15339-2:2015（CGATS 21-2）特性化参考印刷条件 1：典型冷固新闻纸印刷——七个条件中色域最小。与工艺无关、覆盖可印刷色域范围的参考条件。",
+    "sv": "Karakteriserat referenstryckvillkor 1 i ISO/PAS 15339-2:2015 (CGATS 21-2): typiskt coldset-tidningstryck — det minsta färgomfånget av de sju. Processoberoende referensvillkor som spänner över de tryckbara färgomfången.",
+    "da": "Karakteriseret referencetrykbetingelse 1 i ISO/PAS 15339-2:2015 (CGATS 21-2): typisk coldset-avistryk — det mindste farverum af de syv. Procesuafhængige referencebetingelser der spænder over de trykbare farverum.",
+    "nl": "Gekarakteriseerde referentiedrukconditie 1 van ISO/PAS 15339-2:2015 (CGATS 21-2): typische coldset-krantendruk — het kleinste kleurbereik van de zeven. Procesonafhankelijke referentiecondities die het bereik van drukbare kleurbereiken omspannen.",
+    "pl": "Characterized Reference Printing Condition 1 wg ISO/PAS 15339-2:2015 (CGATS 21-2): typowy coldsetowy papier gazetowy — najmniejszy gamut z siedmiu. Warunki odniesienia niezależne od procesu, obejmujące zakres drukowalnych gamutów.",
+    "pt": "Characterized Reference Printing Condition 1 da ISO/PAS 15339-2:2015 (CGATS 21-2): papel-jornal coldset típico — o menor gamut dos sete. Condições de referência independentes de processo que abrangem a gama de gamuts imprimíveis.",
+    "hi": "ISO/PAS 15339-2:2015 (CGATS 21-2) की Characterized Reference Printing Condition 1: सामान्य कोल्डसेट न्यूज़प्रिंट — सातों में सबसे छोटा गैमट। मुद्रण-योग्य गैमट की सीमा को समेटने वाली प्रक्रिया-निरपेक्ष संदर्भ स्थितियाँ।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "CRPC 1",
+      "Characterized Reference Printing Condition 1"
+    ],
+    "pl": [
+      "CRPC 1",
+      "Characterized Reference Printing Condition 1"
+    ],
+    "pt": [
+      "CRPC 1",
+      "Characterized Reference Printing Condition 1"
+    ],
+    "hi": [
+      "CRPC 1",
+      "Characterized Reference Printing Condition 1"
+    ]
+  }
+}

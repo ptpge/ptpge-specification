@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/heatset-web-offset> a skos:Concept ;
+    dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Heatset"@en,
+        "हीटसेट"@hi,
+        "heatset"@pl,
+        "Heatset"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset> ;
+    skos:definition "Rotationsoffset trykt fra kontinuerlig rulle med varmluftstørring af farverne. Højhastigheds- og højvolumenproduktion af magasiner, kataloger og brochurer på bestrøgne papirer."@da,
+        "Rollenoffset von der Endlosrolle mit Heißlufttrocknung der Farben. Schnelle Großauflagen-Produktion von Magazinen, Katalogen und Broschüren auf gestrichenen Papieren."@de,
+        "Web offset printed from a continuous roll with hot-air drying of the inks. High-speed, high-volume production of magazines, catalogues and brochures on coated papers."@en,
+        "Ófset de bobina impreso desde rollo continuo con secado de tintas por aire caliente. Producción de alta velocidad y gran volumen de revistas, catálogos y folletos en papeles estucados."@es,
+        "निरंतर रोल से छपा वेब ऑफसेट जिसमें स्याही गर्म हवा से सुखाई जाती है। कोटेड काग़ज़ पर पत्रिकाओं, कैटलॉग और ब्रोशर का उच्च-गति, उच्च-मात्रा उत्पादन।"@hi,
+        "連続する巻取紙に印刷し、インキを熱風乾燥させる輪転オフセット。塗工紙の雑誌・カタログ・パンフレットの高速大量生産に使われる。"@ja,
+        "Rulleoffset fra kontinuerlig rull med varmluftstørking av fargene. Høyhastighets storvolumproduksjon av magasiner, kataloger og brosjyrer på bestrøket papir."@nb,
+        "Rotatieoffset gedrukt vanaf een doorlopende rol met heteluchtdroging van de inkten. Productie op hoge snelheid en in hoge volumes van magazines, catalogi en brochures op gestreken papieren."@nl,
+        "Offset zwojowy drukowany z ciągłej roli z suszeniem farb gorącym powietrzem. Szybka, wysokonakładowa produkcja czasopism, katalogów i broszur na papierach powlekanych."@pl,
+        "Offset de bobina impresso a partir de um rolo contínuo com secagem das tintas por ar quente. Produção de alta velocidade e alto volume de revistas, catálogos e folhetos em papéis revestidos."@pt,
+        "Rulloffset tryckt från kontinuerlig rulle med varmluftstorkning av bläcken. Höghastighets- och högvolymproduktion av tidskrifter, kataloger och broschyrer på bestrukna papper."@sv,
+        "从连续卷筒纸印刷、油墨经热风干燥的轮转胶印。用于涂布纸上杂志、目录与手册的高速大批量生产。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§HEATSET-WEB-OFFSET" ;
+    skos:prefLabel "Heatset-rotationsoffset"@da,
+        "Rollenoffset (Heatset)"@de,
+        "Heatset Web Offset"@en,
+        "Ófset de bobina heatset"@es,
+        "हीटसेट वेब ऑफसेट"@hi,
+        "ヒートセット輪転オフセット"@ja,
+        "Rulleoffset (heatset)"@nb,
+        "Heatset-rotatieoffset"@nl,
+        "Offset zwojowy heatset"@pl,
+        "Offset de bobina heatset"@pt,
+        "Heatset-rulloffset"@sv,
+        "热固轮转胶印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

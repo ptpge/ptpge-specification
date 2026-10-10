@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/thermography",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Thermography",
+    "es": "Térmica",
+    "zh-Hans": "热敏印刷",
+    "nb": "Termografi",
+    "de": "Thermografie",
+    "ja": "サーモグラフィー",
+    "sv": "Termotryck",
+    "da": "Termotryk",
+    "nl": "Thermodruk",
+    "pl": "Termodruk",
+    "pt": "Termografia",
+    "hi": "थर्मोग्राफ़ी"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§THERMOGRAPHY",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Printing technology that uses heat to transfer wax or resin from a ribbon onto the substrate, or to chemically activate color in a heat-sensitive coated paper. Common for receipts, labels, and barcode printing.",
+    "nb": "Trykketeknologi som bruker varme til å overføre voks eller harpiks fra et bånd til substratet, eller til kjemisk å aktivere farge i et varmefølsomt belagt papir. Vanlig for kvitteringer, etiketter og strekkode-trykk.",
+    "de": "Drucktechnologie, die Wärme nutzt, um Wachs oder Harz von einem Farbband auf den Bedruckstoff zu übertragen oder Farbe in einem hitzeempfindlich beschichteten Papier chemisch zu aktivieren. Üblich für Quittungen, Etiketten und Barcode-Druck.",
+    "ja": "熱を使用してリボンから蝋または樹脂を基材に転写するか、感熱コーティング紙の色を化学的に発現させる印刷技術。レシート、ラベル、バーコード印刷で一般的。",
+    "es": "Familia de tecnologías de impresión basadas en calor — térmica directa (papel sensible al calor) y transferencia térmica (cinta de tinta fundida).",
+    "zh-Hans": "基于热量的印刷技术家族 —— 热敏直接（对热敏感的纸）和热转印（熔融油墨带）。",
+    "sv": "Tryckteknik som använder värme för att överföra vax eller harts från ett band till substratet, eller för att kemiskt aktivera kulör i ett värmekänsligt bestruket papper. Vanligt för kvitton, etiketter och streckkodstryck.",
+    "da": "Trykteknik, der bruger varme til at overføre voks eller harpiks fra et bånd til substratet, eller til kemisk at aktivere farve i et varmefølsomt bestrøget papir. Almindeligt til kvitteringer, etiketter og stregkodetryk.",
+    "nl": "Druktechnologie die warmte gebruikt om was of hars van een lint op het substraat over te brengen, of om kleur chemisch te activeren in warmtegevoelig gestreken papier. Gebruikelijk voor kassabonnen, etiketten en barcodedruk.",
+    "pl": "Technologia druku wykorzystująca ciepło do przeniesienia wosku lub żywicy z taśmy na podłoże albo do chemicznego wywołania barwy w papierze termoczułym. Typowa dla paragonów, etykiet i druku kodów kreskowych.",
+    "pt": "Tecnologia de impressão que usa calor para transferir cera ou resina de uma fita ao substrato, ou para ativar quimicamente a cor num papel revestido termossensível. Comum em recibos, etiquetas e impressão de códigos de barras.",
+    "hi": "मुद्रण तकनीक जो गर्मी से रिबन का मोम या रेज़िन सब्सट्रेट पर उतारती है, या ताप-संवेदी कोटेड काग़ज़ में रासायनिक रूप से रंग सक्रिय करती है। रसीदों, लेबलों और बारकोड छपाई में आम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Raised printing"
+    ],
+    "nb": [
+      "Termografi"
+    ],
+    "pl": [
+      "druk termiczny",
+      "termografia"
+    ],
+    "pt": [
+      "Impressão térmica"
+    ],
+    "hi": [
+      "थर्मल प्रिंटिंग"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/europe/benelux",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "O:GY-EUR-BENELUX",
+  "label": {
+    "en": "BeNeLux",
+    "nb": "Benelux",
+    "de": "Benelux",
+    "ja": "ベネルクス",
+    "es": "Benelux",
+    "zh-Hans": "比荷卢",
+    "sv": "Benelux",
+    "da": "BeNeLux",
+    "nl": "BeNeLux",
+    "pl": "Benelux",
+    "pt": "Benelux",
+    "hi": "बेनेलक्स"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography/europe",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/geography/europe/benelux/belgium",
+    "https://ptpge.org/v1/ordering/geography/europe/benelux/netherlands",
+    "https://ptpge.org/v1/ordering/geography/europe/benelux/luxembourg"
+  ],
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "BeNeLux sub-region grouping covering Belgium (BE), the Netherlands (NL), and Luxembourg (LU). Frequently treated as a single market segment in the European printing industry due to close economic integration, shared trade conventions, and aligned regulatory frameworks.",
+    "nb": "Benelux-undergruppe som dekker Belgia (BE), Nederland (NL) og Luxemburg (LU). Behandles ofte som ett markedssegment i den europeiske trykkindustrien på grunn av tett økonomisk integrasjon, felles handelskonvensjoner og forente regulatoriske rammer.",
+    "de": "Benelux-Untergruppierung, die Belgien (BE), die Niederlande (NL) und Luxemburg (LU) umfasst. In der europäischen Druckindustrie häufig als einheitliches Marktsegment behandelt aufgrund enger wirtschaftlicher Integration, gemeinsamer Handelskonventionen und abgestimmter Regulierungsrahmen.",
+    "ja": "ベルギー（BE）、オランダ（NL）、ルクセンブルク（LU）を含むベネルクスサブ地域グループ。緊密な経済統合、共通の取引慣行、整合した規制枠組みにより、欧州印刷業界で単一の市場セグメントとして扱われることが多い。",
+    "es": "Subagrupación Benelux que cubre Bélgica (BE), los Países Bajos (NL) y Luxemburgo (LU). Frecuentemente tratada como un único segmento de mercado en la industria europea de impresión debido a la estrecha integración económica, convenciones comerciales compartidas y marcos regulatorios alineados.",
+    "zh-Hans": "比荷卢次区域分组，涵盖比利时（BE）、荷兰（NL）和卢森堡（LU）。由于紧密的经济一体化、共同的贸易惯例和一致的法规框架，在欧洲印刷行业中常被视为单一市场细分。",
+    "sv": "Subregional gruppering som omfattar Belgien (BE), Nederländerna (NL) och Luxemburg (LU). Behandlas ofta som ett enda marknadssegment i den europeiska tryckindustrin på grund av tät ekonomisk integration, gemensamma handelskonventioner och samstämmiga regelverk.",
+    "da": "Subregional gruppering, der omfatter Belgien (BE), Nederlandene (NL) og Luxembourg (LU). Behandles ofte som ét marked i tryk- og leveringssammenhæng.",
+    "nl": "Subregionale groepering die België (BE), Nederland (NL) en Luxemburg (LU) omvat. Wordt in druk- en leveringscontext vaak als één markt behandeld.",
+    "pl": "Grupowanie subregionalne Benelux obejmujące Belgię (BE), Holandię (NL) i Luksemburg (LU). W europejskim przemyśle poligraficznym często traktowane jako jeden segment rynku ze względu na ścisłą integrację gospodarczą, wspólne zwyczaje handlowe i zbliżone ramy regulacyjne.",
+    "pt": "Agrupamento sub-regional Benelux: Bélgica (BE), Países Baixos (NL) e Luxemburgo (LU). Frequentemente tratado como um único segmento de mercado na indústria gráfica europeia, pela estreita integração econômica, convenções comerciais compartilhadas e quadros regulatórios alinhados.",
+    "hi": "बेनेलक्स उप-क्षेत्रीय समूह: बेल्जियम (BE), नीदरलैंड (NL) और लक्ज़मबर्ग (LU)। घनिष्ठ आर्थिक एकीकरण, साझा व्यापार परंपराओं और संरेखित नियामक ढाँचों के कारण यूरोपीय मुद्रण उद्योग में अक्सर एक ही बाज़ार खंड माना जाता है।"
+  }
+}

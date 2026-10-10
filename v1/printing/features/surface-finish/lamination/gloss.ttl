@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Gloss laminate"@en,
+        "Gloss laminated"@en,
+        "Glossy Lamination"@en,
+        "Glossy lamination"@en,
+        "High-gloss lamination"@en,
+        "ग्लॉस लैमिनेट"@hi,
+        "ग्लॉसी लैमिनेशन"@hi,
+        "चमकीला लैमिनेशन"@hi,
+        "हाई-ग्लॉस लैमिनेशन"@hi,
+        "Blank laminering"@nb,
+        "Glanslaminat"@nb,
+        "Glanslaminering"@nb,
+        "Glans laminaat"@nl,
+        "Glanzend gelamineerd"@nl,
+        "folia błysk"@pl,
+        "folia błyszcząca"@pl,
+        "laminat błyszczący"@pl,
+        "BOPP brilho"@pt,
+        "laminado brilho"@pt,
+        "laminação brilhante"@pt,
+        "plastificação brilho"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/lamination> ;
+    skos:definition "Blank plastfilm lamineret på den trykte overflade. Giver en stærkt reflekterende, skinnende finish, der intensiverer trykkets farver. Modstår slid og fugt. Almindelig på emballage, omslag og salgsmateriale."@da,
+        "Glänzender Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet ein stark reflektierendes, glänzendes Finish."@de,
+        "Gloss plastic film laminated to the printed surface. Provides a highly reflective, shiny finish that intensifies the colors of the underlying print. Resists scuffing and moisture. Common on packaging, brochures, and high-impact marketing materials."@en,
+        "Película plástica brillante laminada sobre la superficie impresa. Proporciona un acabado muy reflectante que intensifica los colores de la impresión. Resiste el roce y la humedad. Común en packaging, folletos y materiales de marketing de alto impacto."@es,
+        "छपी सतह पर लैमिनेट की गई ग्लॉस प्लास्टिक फ़िल्म। बहुत परावर्तक, चमकीली फ़िनिश जो नीचे के प्रिंट के रंग गहरे करती है। रगड़ और नमी रोकती है। पैकेजिंग, ब्रोशर और हाई-इम्पैक्ट मार्केटिंग सामग्री में आम।"@hi,
+        "印刷面に貼り合わせるグロスフィルム。高い反射性で下の印刷の色を鮮やかに見せる。擦れや湿気に強い。パッケージ、パンフレット、インパクト重視のマーケティング資料で一般的。"@ja,
+        "Glansig plastikkfilm laminert til den trykte overflaten. Gir en svært reflekterende, blank finish som intensiverer fargene i den underliggende trykken. Motstår skrap og fuktighet. Vanlig på emballasje, brosjyrer og high-impact markedsmateriell."@nb,
+        "Glanzende kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een sterk reflecterende, glimmende afwerking die de kleuren van de onderliggende druk intensiveert. Bestand tegen slijtage en vocht."@nl,
+        "Błyszcząca folia laminowana na zadrukowanej powierzchni. Daje silnie odbijające, lśniące wykończenie, które intensyfikuje kolory druku. Odporne na otarcia i wilgoć. Typowe dla opakowań, folderów i wyrazistych materiałów marketingowych."@pl,
+        "Filme plástico brilhante laminado sobre a superfície impressa. Dá um acabamento muito reflexivo e lustroso que intensifica as cores do impresso. Resiste a arranhões e umidade. Comum em embalagens, folhetos e materiais de marketing de alto impacto."@pt,
+        "Blank plastfilm laminerad på tryckytan. Ger en starkt reflekterande, glansig finish som förstärker det underliggande tryckets färger. Motstår skavning och fukt. Vanlig på förpackningar, broschyrer och slagkraftigt marknadsmaterial."@sv,
+        "复合在印刷表面的亮光塑料薄膜。高反射效果使底层印刷色彩更鲜艳。耐蹭划与潮气。常见于包装、手册与高冲击力营销材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§GLOSS-LAMINATION" ;
+    skos:prefLabel "Blank laminering"@da,
+        "Glanz-Laminierung"@de,
+        "Gloss Lamination"@en,
+        "Laminado brillante"@es,
+        "ग्लॉस लैमिनेशन"@hi,
+        "光沢ラミネート"@ja,
+        "Glansig laminering"@nb,
+        "Glanslaminaat"@nl,
+        "Laminowanie błyszczące"@pl,
+        "Laminação brilho"@pt,
+        "Blank laminering"@sv,
+        "光膜覆膜"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.9 · p.78",
+                "§5.6.23 · p.125" ;
+            ptpge:mappingRow "crosswalk row 45" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Laminating",
+                "LaminatingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

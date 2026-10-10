@@ -1,0 +1,166 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/cross-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§CROSS-FOLD",
+  "elementType": "value",
+  "label": {
+    "en": "Cross Fold Setup",
+    "nb": "Kryss-brett oppsett",
+    "de": "Kreuzfalz-Setup",
+    "ja": "クロス折り構成",
+    "es": "Configuración de plegado cruzado",
+    "zh-Hans": "交叉折结构",
+    "nl": "Kruisvouw-opzet",
+    "sv": "Korsfals",
+    "da": "Krydsfals",
+    "pl": "Konfiguracja złam krzyżowy",
+    "pt": "Montagem dobra cruzada",
+    "hi": "क्रॉस फ़ोल्ड सेटअप"
+  },
+  "definition": {
+    "en": "A folded sheet setup with one horizontal fold and one vertical fold (perpendicular to each other), producing 8 panels in a 2×2 grid layout organised into 2 surfaces: Outside (4 quadrants) and Inside (4 quadrants). Each quadrant is roughly square. Used for maps, posters that compact into pocket size, and tablet-format brochures.",
+    "nb": "Et brettet ark-oppsett med ett horisontalt brett og ett vertikalt brett (vinkelrett på hverandre), som produserer 8 paneler i en 2×2 rutenettlayout organisert i 2 surfaces: Outside (4 kvadranter) og Inside (4 kvadranter). Hver kvadrant er omtrent kvadratisk. Brukes for kart, plakater som komprimerer til lommestørrelse, og nettbrett-format brosjyrer.",
+    "de": "Ein Falzbogen-Setup mit einer horizontalen und einer vertikalen Falzung (senkrecht zueinander), das 8 Paneele in einem 2×2-Raster erzeugt.",
+    "ja": "水平方向1本と垂直方向1本（互いに直交）の折りを持つセットアップ。2×2グリッドの8パネルが2つの面 — Outside（4区画）と Inside（4区画） — に編成される。各区画はほぼ正方形。地図、ポケットサイズに畳めるポスター、タブレット判のパンフレットに使われる。",
+    "es": "Una configuración de hoja plegada con un pliegue horizontal y uno vertical (perpendiculares entre sí), que produce 8 paneles en una cuadrícula de 2×2 organizados en 2 superficies: Outside (4 cuadrantes) e Inside (4 cuadrantes). Cada cuadrante es aproximadamente cuadrado. Se usa para mapas, pósteres que se compactan a tamaño de bolsillo y folletos en formato tableta.",
+    "zh-Hans": "一道横折加一道竖折（相互垂直）的折页构成，形成2×2网格的8个面板，分为2个表面：Outside（4个象限）与 Inside（4个象限）。每个象限近似正方形。用于地图、可折成口袋大小的海报与平板开本手册。",
+    "sv": "En falsat ark-uppbyggnad med en horisontell och en vertikal fals (vinkelräta mot varandra) som ger 8 paneler i ett 2×2-rutnät organiserade i 2 ytor: utsida (4 kvadranter) och insida (4 kvadranter). Varje kvadrant är ungefär kvadratisk. Används för kartor, affischer som viks ned till fickformat och broschyrer i surfplatteformat.",
+    "da": "En falset ark-opbygning med to false vinkelret på hinanden (én lodret, én vandret), der giver 8 paneler i 2 flader. Almindelig til kort, programmer og kompakte foldere fra større ark.",
+    "nl": "Een gevouwen-vel-opbouw met twee vouwen haaks op elkaar (één verticaal, één horizontaal), die 8 panelen in 2 vlakken geeft. Gebruikelijk voor kaarten, programma's en compacte folders uit grotere vellen.",
+    "pl": "Konfiguracja arkusza złożonego z jednym złamem poziomym i jednym pionowym (prostopadłymi), dająca 8 skrzydeł w siatce 2×2 zorganizowanych w 2 powierzchnie: Zewnętrzna (4 ćwiartki) i Wewnętrzna (4 ćwiartki). Każda ćwiartka jest w przybliżeniu kwadratowa. Używana do map, plakatów składanych do rozmiaru kieszonkowego i folderów formatu tabletowego.",
+    "pt": "Montagem em folha dobrada com uma dobra horizontal e uma vertical (perpendiculares), produzindo 8 painéis em grade 2×2 organizados em 2 faces: Exterior (4 quadrantes) e Interior (4 quadrantes). Cada quadrante é aproximadamente quadrado. Usada em mapas, pôsteres que se compactam para o bolso e folhetos formato tablet.",
+    "hi": "एक क्षैतिज और एक ऊर्ध्वाधर (परस्पर लंबवत) फ़ोल्ड वाला फ़ोल्डेड शीट सेटअप, जिससे 2×2 ग्रिड में 8 पैनल बनते हैं, 2 सतहों में: बाहरी (4 चौथाई) और भीतरी (4 चौथाई)। हर चौथाई लगभग वर्गाकार। नक़्शों, जेब में समाने वाले पोस्टरों और टैबलेट-फ़ॉर्मेट ब्रोशर में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet",
+  "related": [
+    "https://ptpge.org/v1/printing/completions/folding/cross-fold"
+  ],
+  "surfaces": [
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "nb": "Utside",
+        "de": "Außen"
+      },
+      "panels": [
+        {
+          "id": "outside-top-left",
+          "label": {
+            "en": "Outside Top Left",
+            "nb": "Utside oppe venstre",
+            "de": "Außen oben links"
+          }
+        },
+        {
+          "id": "outside-top-right",
+          "label": {
+            "en": "Outside Top Right",
+            "nb": "Utside oppe høyre",
+            "de": "Außen oben rechts"
+          }
+        },
+        {
+          "id": "outside-bottom-left",
+          "label": {
+            "en": "Outside Bottom Left",
+            "nb": "Utside nede venstre",
+            "de": "Außen unten links"
+          }
+        },
+        {
+          "id": "outside-bottom-right",
+          "label": {
+            "en": "Outside Bottom Right",
+            "nb": "Utside nede høyre",
+            "de": "Außen unten rechts"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "nb": "Innside",
+        "de": "Innen"
+      },
+      "panels": [
+        {
+          "id": "inside-top-left",
+          "label": {
+            "en": "Inside Top Left",
+            "nb": "Innside oppe venstre",
+            "de": "Innen oben links"
+          }
+        },
+        {
+          "id": "inside-top-right",
+          "label": {
+            "en": "Inside Top Right",
+            "nb": "Innside oppe høyre",
+            "de": "Innen oben rechts"
+          }
+        },
+        {
+          "id": "inside-bottom-left",
+          "label": {
+            "en": "Inside Bottom Left",
+            "nb": "Innside nede venstre",
+            "de": "Innen unten links"
+          }
+        },
+        {
+          "id": "inside-bottom-right",
+          "label": {
+            "en": "Inside Bottom Right",
+            "nb": "Innside nede høyre",
+            "de": "Innen unten rechts"
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent"
+      ],
+      "refs": [
+        "Table 4.28 · p.76–77",
+        "Appendix A · Fold catalog"
+      ],
+      "match": "partial",
+      "via": "FoldCatalog"
+    }
+  ]
+}

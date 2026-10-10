@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft/microsoft-word",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Microsoft Word (.docx)",
+    "es": "Microsoft Word (.docx)",
+    "zh-Hans": "Microsoft Word (.docx)",
+    "nb": "Microsoft Word (.docx)",
+    "de": "Microsoft Word (.docx)",
+    "ja": "Microsoft Word (.docx)",
+    "sv": "Microsoft Word (.docx)",
+    "da": "Microsoft Word (.docx)",
+    "nl": "Microsoft Word (.docx)",
+    "pl": "Microsoft Word (.docx)",
+    "pt": "Microsoft Word (.docx)",
+    "hi": "Microsoft Word (.docx)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§MICROSOFT-WORD",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native word-processing file format (.docx) for Microsoft Word, the dominant business document application — based on Office Open XML (ECMA-376 / ISO 29500).",
+    "nb": "Programspesifikt tekstbehandlingsformat (.docx) for Microsoft Word, den dominerende dokumentapplikasjonen i næringslivet — basert på Office Open XML (ECMA-376 / ISO 29500).",
+    "de": "Anwendungseigenes Textverarbeitungsformat (.docx) von Microsoft Word, der dominierenden Dokumentanwendung im Geschäftsumfeld — basierend auf Office Open XML (ECMA-376 / ISO 29500).",
+    "ja": "Microsoft Wordのネイティブワードプロセッシングファイル形式（.docx）。ビジネス向け文書アプリケーションの代表 — Office Open XML（ECMA-376 / ISO 29500）に基づく。",
+    "es": "Formato Office Open XML (ECMA-376 / ISO 29500) para documentos de texto. La exportación a PDF es el estándar de entrega a imprenta.",
+    "zh-Hans": "用于文本文档的Office Open XML格式（ECMA-376 / ISO 29500）。导出为PDF是印刷交付标准。",
+    "sv": "Programeget ordbehandlingsformat (.docx) för Microsoft Word, det dominerande dokumentprogrammet — baserat på Office Open XML (ECMA-376 / ISO 29500).",
+    "da": "Programeget tekstbehandlingsformat (.docx) for Microsoft Word, det dominerende dokumentprogram — baseret på Office Open XML (ECMA-376 / ISO 29500).",
+    "nl": "Programma-eigen tekstverwerkingsformaat (.docx) voor Microsoft Word, het dominante documentprogramma — gebaseerd op Office Open XML (ECMA-376 / ISO 29500).",
+    "pl": "Natywny format edytora tekstu (.docx) programu Microsoft Word, dominującej biznesowej aplikacji do dokumentów — oparty na Office Open XML (ECMA-376 / ISO 29500).",
+    "pt": "Formato de arquivo nativo de processamento de texto (.docx) do Microsoft Word, o aplicativo de documentos empresarial dominante — baseado no Office Open XML (ECMA-376 / ISO 29500).",
+    "hi": "Microsoft Word का नेटिव वर्ड-प्रोसेसिंग फ़ाइल फ़ॉर्मेट (.docx), प्रमुख व्यावसायिक दस्तावेज़ एप्लिकेशन — Office Open XML (ECMA-376 / ISO 29500) पर आधारित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      ".docx",
+      "Word"
+    ],
+    "pl": [
+      ".docx",
+      "Word"
+    ],
+    "pt": [
+      ".docx",
+      "Word"
+    ],
+    "hi": [
+      ".docx",
+      "Word"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

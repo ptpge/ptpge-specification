@@ -1,0 +1,100 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper",
+  "type": "skos:Concept",
+  "version": "2026-09-23",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Natural Paper (CIE 80–90, slightly warm)",
+    "es": "Papel Natural (CIE 80–90, ligeramente cálido)",
+    "zh-Hans": "自然色纸 (CIE 80–90，微暖)",
+    "nb": "Naturlig papir (CIE 80–90, lett varm)",
+    "de": "Naturpapier (CIE 80–90, leicht warm)",
+    "ja": "ナチュラル紙（CIE 80〜90、やや温かみ）",
+    "sv": "Naturpapper (CIE 80–90, lätt varm)",
+    "da": "Naturpapir (CIE 80–90, let varm)",
+    "nl": "Naturelpapier (CIE 80–90, licht warm)",
+    "pl": "Papier naturalny (CIE 80–90, lekko ciepły)",
+    "pt": "Papel natural (CIE 80–90, levemente quente)",
+    "hi": "नैचुरल काग़ज़ (CIE 80–90, हल्का गर्म)"
+  },
+  "altLabels": {
+    "en": [
+      "Natural White",
+      "Off-White"
+    ],
+    "nb": [
+      "Naturhvit",
+      "Offhvit"
+    ],
+    "pl": [
+      "biel naturalna",
+      "złamana biel"
+    ],
+    "pt": [
+      "branco natural",
+      "papel natural",
+      "off-white"
+    ],
+    "hi": [
+      "नैचुरल व्हाइट",
+      "ऑफ़-व्हाइट",
+      "प्राकृतिक रंग का काग़ज़"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§NATURAL-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T16:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Off-white paper with a soft natural tone, CIE whiteness 80–90. Less stark than bright white, used for premium book printing, stationery, and design-conscious print products.",
+    "nb": "Råhvitt papir med en myk naturlig tone, CIE-hvithet 80–90. Mindre skarp enn klart hvitt, brukt til premium-boktrykk, brevpapir og designbevisste trykkprodukter.",
+    "de": "Gebrochen-weißes Papier mit weichem, natürlichem Ton, CIE-Weißegrad 80–90. Weniger stark wirkend als reines Weiß, eingesetzt für hochwertigen Buchdruck, Korrespondenzpapier und designorientierte Druckprodukte.",
+    "ja": "柔らかな自然色のオフホワイト紙、CIE白色度80〜90。明白色ほど鮮明ではなく、高級書籍印刷、便箋、デザイン志向の印刷物に使用される。",
+    "es": "Papel sin blanqueado intenso — tono ligeramente amarillento, considerado más sostenible y suave a la vista.",
+    "zh-Hans": "未强烈漂白的纸 —— 略带黄色调，被认为更可持续且对眼睛更柔和。",
+    "sv": "Off-white-papper med mjuk naturlig ton, CIE-vithet 80–90. Mindre skarpt än klarvitt, används för påkostat boktryck, kontorsmateriel och designmedvetna trycksaker.",
+    "da": "Offwhite papir med en blød naturlig tone, CIE-hvidhed 80–90. Mindre skarpt end klart hvidt, brugt til eksklusivt bogtryk, kontorpapir og designbevidste trykprodukter.",
+    "nl": "Gebroken wit papier met een zachte natuurlijke toon, CIE-witheid 80–90. Minder fel dan helder wit, gebruikt voor exclusief boekdrukwerk, briefpapier en designbewust drukwerk.",
+    "pl": "Papier złamany biały o łagodnym naturalnym odcieniu, białość CIE 80–90. Mniej ostry niż jasna biel, używany do druku książek premium, papeterii i produktów drukowanych o wysokich wymaganiach projektowych.",
+    "pt": "Papel branco-sujo com tom natural suave, brancura CIE 80–90. Menos duro que o branco brilhante, usado em impressão de livros premium, papelaria e impressos orientados por design.",
+    "hi": "मुलायम प्राकृतिक टोन वाला ऑफ़-व्हाइट काग़ज़, CIE सफ़ेदी 80–90। ब्राइट व्हाइट से कम तीखा, प्रीमियम पुस्तक छपाई, स्टेशनरी और डिज़ाइन-सजग उत्पादों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 36"
+    }
+  ]
+}

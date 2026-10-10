@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "17.6 x 25 cm"@en,
+        "176 x 250 mm"@en,
+        "176x250"@en,
+        "176×250"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "176 × 250 mm. B5-kuvert efter ISO 216 — rummer foldede A4-dokumenter og B5-hæfter."@da,
+        "176 × 250 mm. ISO-216-B5-Briefumschlag — fasst gefaltete A4-Dokumente und B5-Broschüren."@de,
+        "176 × 250 mm. ISO 216 B5 envelope — holds folded A4 documents and B5 booklets."@en,
+        "Sobre B5 de la serie B de ISO 216 — contiene hojas de la serie B correspondiente."@es,
+        "176 × 250 mm. ISO 216 B5 लिफ़ाफ़ा — मुड़े A4 दस्तावेज़ और B5 बुकलेट समाते हैं।"@hi,
+        "176×250mm。ISO 216 B5封筒 — 折ったA4書類およびB5ブックレットを収納する。"@ja,
+        "176 × 250 mm. ISO 216 B5-konvolutt — rommer brettede A4-dokumenter og B5-hefter."@nb,
+        "176 × 250 mm. B5-envelop volgens ISO 216 — biedt plaats aan gevouwen A4-documenten en B5-boekjes."@nl,
+        "176 × 250 mm. Koperta ISO 216 B5 — mieści złożone dokumenty A4 i broszury B5."@pl,
+        "176 × 250 mm. Envelope B5 da ISO 216 — comporta documentos A4 dobrados e folhetos B5."@pt,
+        "176 × 250 mm. B5-kuvert enligt ISO 216 — rymmer vikta A4-dokument och B5-häften."@sv,
+        "ISO 216 B系列B5信封 —— 装对应B系列纸张。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ENV-B5" ;
+    skos:prefLabel "Kuvert B5 (176 × 250 mm)"@da,
+        "Envelope B5 (176 × 250 mm)"@de,
+        "Envelope B5 (176 × 250 mm)"@en,
+        "Sobre B5 (176 × 250 mm)"@es,
+        "लिफ़ाफ़ा B5 (176 × 250 mm)"@hi,
+        "Envelope B5 (176 × 250 mm)"@ja,
+        "Envelope B5 (176 × 250 mm)"@nb,
+        "Kuvert B5 (176 × 250 mm)"@nl,
+        "Koperta B5 (176 × 250 mm)"@pl,
+        "Envelope B5 (176 × 250 mm)"@pt,
+        "Kuvert B5 (176 × 250 mm)"@sv,
+        "B5信封 (176 × 250 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 44000.0 ;
+            ptpge:aspectRatio 1.4205 ;
+            ptpge:height 250.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 176.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

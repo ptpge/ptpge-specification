@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/duplo-international> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Duplo International — japansk producent af efterbehandlingssystemer, især hæftemaskiner, slitter/skærer/rillere og inline-efterbehandling til digitaltrykmaskiner."@da,
+        "Duplo International — japanischer Hersteller von Weiterverarbeitungssystemen, insbesondere Broschürenfertigern, Slitter/Cutter/Creasern und Inline-Finishing für Digitaldruckmaschinen."@de,
+        "Duplo International — Japanese manufacturer of finishing systems, particularly bookletmakers, slitter/cutter/creasers, and inline finishing for digital printers."@en,
+        "Duplo International — división internacional de Duplo Corporation, fabricante japonés de equipo de acabado para producción digital."@es,
+        "Duplo International — फ़िनिशिंग सिस्टम का जापानी निर्माता, विशेषकर बुकलेटमेकर, स्लिटर/कटर/क्रीज़र और डिजिटल प्रिंटरों के लिए इनलाइन फ़िनिशिंग।"@hi,
+        "デュプロインターナショナル — 仕上げシステムの日本のメーカー。特にデジタル印刷機向けのブックレットメーカー、スリッター/カッター/クリーザー、インライン仕上げ装置を扱う。"@ja,
+        "Duplo International — japansk produsent av etterbehandlingssystemer, særlig bookletmakers, slitter/cutter/creasers og inline-etterbehandling for digitale skrivere."@nb,
+        "Duplo International — Japanse fabrikant van afwerkingssystemen, met name boekjesmakers, snij-/ril-/vouwlijnen en inline-afwerking voor digitale drukmachines."@nl,
+        "Duplo International — japoński producent systemów wykończeniowych, zwłaszcza bookletmakerów, urządzeń tnąco-bigujących oraz wykończenia w linii dla maszyn cyfrowych."@pl,
+        "Duplo International — fabricante japonês de sistemas de acabamento, especialmente montadoras de folhetos, refiladoras/cortadoras/vincadoras e acabamento em linha para impressoras digitais."@pt,
+        "Duplo International — japansk tillverkare av efterbehandlingssystem, särskilt häftesmakare, slitter/skärare/bigare och inline-efterbehandling för digitaltryckmaskiner."@sv,
+        "Duplo International —— Duplo Corporation的国际部门，日本数码生产印后设备制造商。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-DUPL" ;
+    skos:prefLabel "Duplo International"@da,
+        "Duplo International"@de,
+        "Duplo International"@en,
+        "Duplo International"@es,
+        "Duplo International"@hi,
+        "Duplo International"@ja,
+        "Duplo International"@nb,
+        "Duplo International"@nl,
+        "Duplo International"@pl,
+        "Duplo International"@pt,
+        "Duplo International"@sv,
+        "Duplo International"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

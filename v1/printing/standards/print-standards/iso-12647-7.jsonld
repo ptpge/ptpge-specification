@@ -1,0 +1,59 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-7",
+  "type": "skos:Concept",
+  "version": "2026-06-17",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "ISO 12647-7 (Proofing)",
+    "nb": "ISO 12647-7 (Proofing)",
+    "sv": "ISO 12647-7 (provtryck)",
+    "da": "ISO 12647-7 (prøvetryk)",
+    "nl": "ISO 12647-7 (proefdruk)",
+    "pl": "ISO 12647-7 (proofing)",
+    "pt": "ISO 12647-7 (Provas)",
+    "hi": "ISO 12647-7 (प्रूफ़िंग)"
+  },
+  "notation": "P:ST§ISO-12647-7",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-06-17T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Requirements for contract proofing systems and proofs intended to simulate ISO 12647 printing.",
+    "nb": "Krav til kontraktsproofing-systemer og prøvetrykk som skal simulere ISO 12647-trykk.",
+    "de": "Anforderungen an Contract-Proof-Systeme und Proofs, die ISO-12647-Druckbedingungen simulieren sollen.",
+    "es": "Requisitos para sistemas de prueba de contrato y pruebas destinadas a simular la impresión ISO 12647.",
+    "ja": "ISO 12647 の印刷条件をシミュレートするコントラクトプルーフシステムおよびプルーフへの要求事項。",
+    "zh-Hans": "对合同打样系统及旨在模拟 ISO 12647 印刷的样张的要求。",
+    "sv": "Krav på kontraktsprovtryckssystem och prov avsedda att simulera ISO 12647-tryck.",
+    "da": "Krav til kontraktprøvetrykssystemer og prøver beregnet til at simulere ISO 12647-tryk.",
+    "nl": "Eisen aan contractproefsystemen en proeven bedoeld om ISO 12647-druk te simuleren.",
+    "pl": "Wymagania dla systemów proofingu kontraktowego i proofów symulujących druk wg ISO 12647.",
+    "pt": "Requisitos para sistemas de prova contratual e provas destinadas a simular a impressão ISO 12647.",
+    "hi": "ISO 12647 मुद्रण का अनुकरण करने वाले कॉन्ट्रैक्ट प्रूफ़िंग सिस्टम और प्रूफ़ की आवश्यकताएँ।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "ISO12647-7",
+      "proofing standard"
+    ],
+    "pl": [
+      "ISO12647-7",
+      "norma proofingu"
+    ],
+    "pt": [
+      "ISO12647-7",
+      "norma de provas"
+    ],
+    "hi": [
+      "ISO12647-7",
+      "प्रूफ़िंग मानक"
+    ]
+  }
+}

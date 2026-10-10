@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:39:22+00:00"^^xsd:dateTime ;
+    skos:altLabel "drukarki wielkoformatowe"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment> ;
+    skos:definition "Producenter af storformatprintere — enheder, der printer på substrater bredere end standardarkformater (typisk over 24 tommer / 60 cm), brugt til skilte, bannere, plakater og messegrafik."@da,
+        "Hersteller von Großformatdruckern — Geräte, die auf Bedruckstoffen drucken, die breiter als Standardformate sind (typisch über 24 Zoll / 60 cm), eingesetzt für Beschilderung, Banner, Poster und Messegrafiken."@de,
+        "Manufacturers of large-format printers — devices that print on substrates wider than standard sheet sizes (typically over 24 inches / 60 cm), used for signage, banners, posters, and exhibition graphics."@en,
+        "Fabricantes de impresoras de gran formato — dispositivos que imprimen sobre sustratos más anchos que los tamaños de hoja estándar (típicamente más de 24 pulgadas / 60 cm), utilizados para señalética, banderolas, carteles y gráficos de exposición."@es,
+        "लार्ज-फॉर्मेट प्रिंटरों के निर्माता — मानक शीट आकारों से चौड़े सब्सट्रेट (आमतौर पर 24 इंच / 60 सेमी से ऊपर) पर छापने वाले उपकरण, साइनेज, बैनर, पोस्टर और प्रदर्शनी ग्राफ़िक्स में।"@hi,
+        "大判プリンターメーカー — 標準シートサイズより広い基材（通常24インチ／60cm超）に印刷する機器。サイン、バナー、ポスター、展示グラフィックに使用される。"@ja,
+        "Produsenter av storformat-skrivere — enheter som trykker på substrater bredere enn standard arkstørrelser (vanligvis over 24 tommer / 60 cm), brukt til skilting, bannere, plakater og messegrafikk."@nb,
+        "Fabrikanten van grootformaatprinters — apparaten die drukken op substraten breder dan standaardvelformaten (doorgaans meer dan 24 inch / 60 cm), gebruikt voor signalisatie, banners, posters en beursgraphics."@nl,
+        "Producenci drukarek wielkoformatowych — urządzeń drukujących na podłożach szerszych niż standardowe formaty arkuszy (zwykle ponad 24 cale / 60 cm), używanych do oznakowania, banerów, plakatów i grafik wystawienniczych."@pl,
+        "Fabricantes de impressoras de grande formato — dispositivos que imprimem em substratos mais largos que os tamanhos padrão de folha (normalmente acima de 24 polegadas / 60 cm), usados em sinalização, banners, pôsteres e gráficos de exposição."@pt,
+        "Tillverkare av storformatsskrivare — enheter som skriver ut på substrat bredare än standardarkformat (typiskt över 24 tum / 60 cm), använda för skyltar, banderoller, affischer och mässgrafik."@sv,
+        "大幅面打印机制造商——在比标准纸张尺寸更宽的承印物上印刷的设备（通常超过24英寸/60厘米），用于标识、横幅、海报和展览图形。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/agfa-graphics>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/cet-color>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/durst>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/gandy-digital>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/hp>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/inca-digital>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/mimaki>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/mutoh>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/swissqprint>,
+        <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/vanguard-digital-printing-systems> ;
+    skos:notation "P:TC-PFE-WIDE" ;
+    skos:prefLabel "Storformatprintere"@da,
+        "Großformatdrucker"@de,
+        "Wide Format Printers"@en,
+        "Impresoras de Gran Formato"@es,
+        "वाइड-फॉर्मेट प्रिंटर"@hi,
+        "大判プリンター"@ja,
+        "Storformat-printere"@nb,
+        "Grootformaatprinters"@nl,
+        "Plotery wielkoformatowe"@pl,
+        "Impressoras de grande formato"@pt,
+        "Storformatsskrivare"@sv,
+        "大幅面打印机"@zh-Hans ;
+    skos:scopeNote "Umfasst UV-Flachbett-Hersteller (Durst, SwissQprint, Inca Digital, Vanguard, CET Color), Eco-Solvent- und Sublimationsdrucker-Hersteller (Mimaki, Mutoh, Roland DG), traditionelle Bogen-Crossover (HP, Agfa Graphics) sowie Einsteigeranbieter (Gandy Digital). Spezifische SwissQprint-Produkte werden als Unterkategorie geführt."@de,
+        "Includes UV flatbed makers (Durst, SwissQprint, Inca Digital, Vanguard, CET Color), eco-solvent and dye-sublimation makers (Mimaki, Mutoh, Roland DG), traditional sheet-fed crossover (HP, Agfa Graphics), and entry-level (Gandy Digital). Specific SwissQprint products are tracked as a sub-category."@en,
+        "Incluye fabricantes de UV plana (Durst, SwissQprint, Inca Digital, Vanguard, CET Color), fabricantes eco-solvente y de sublimación (Mimaki, Mutoh, Roland DG), fabricantes tradicionales con cruce a sheet-fed (HP, Agfa Graphics, Canon, Epson) y fabricantes especializados en textil (Kornit, EFI Reggiani)."@es,
+        "UV फ़्लैटबेड निर्माता (Durst, SwissQprint, Inca Digital, Vanguard, CET Color), इको-सॉल्वेंट और डाई-सब्लिमेशन निर्माता (Mimaki, Mutoh, Roland DG), पारंपरिक शीट-फ़ेड क्रॉसओवर (HP, Agfa Graphics) और प्रारंभिक स्तर (Gandy Digital) शामिल। विशिष्ट SwissQprint उत्पाद उप-श्रेणी में दर्ज हैं।"@hi,
+        "UVフラットベッドメーカー（Durst、SwissQprint、Inca Digital、Vanguard、CET Color）、エコソルベントおよび昇華転写メーカー（Mimaki、Mutoh、Roland DG）、伝統的な枚葉クロスオーバー（HP、Agfa Graphics）、エントリーレベル（Gandy Digital）を含む。具体的なSwissQprint製品はサブカテゴリで扱う。"@ja,
+        "Inkluderer UV flatbed-produsenter (Durst, SwissQprint, Inca Digital, Vanguard, CET Color), øko-solvent og fargesublimering-produsenter (Mimaki, Mutoh, Roland DG), tradisjonelle ark-baserte krysskoblinger (HP, Agfa Graphics), og entry-level (Gandy Digital). Spesifikke SwissQprint-produkter spores som en underkategori."@nb,
+        "Inclui fabricantes de UV flatbed (Durst, SwissQprint, Inca Digital, Vanguard, CET Color), eco-solvente e sublimação (Mimaki, Mutoh, Roland DG), transição a partir da folha (HP, Agfa Graphics) e entrada (Gandy Digital). Produtos específicos da SwissQprint são registrados em subcategoria."@pt,
+        "包括UV平板制造商（Durst、SwissQprint、Inca Digital、Vanguard、CET Color）、环保溶剂和热升华制造商（Mimaki、Mutoh、Roland DG）、传统纸张打印机的跨界制造商（HP、Agfa Graphics、Canon、Epson）以及纺织品专业制造商（Kornit、EFI Reggiani）。"@zh-Hans ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,63 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution/delivery-methods/standard-delivery",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS§STANDARD-DELIVERY",
+  "level": "element",
+  "label": {
+    "en": "Standard Delivery",
+    "nb": "Standard levering",
+    "de": "Standardversand",
+    "es": "Entrega estándar",
+    "ja": "通常配送",
+    "zh-Hans": "标准配送",
+    "sv": "Standardleverans",
+    "da": "Standardlevering",
+    "nl": "Standaardlevering",
+    "pl": "Dostawa standardowa",
+    "pt": "Entrega padrão",
+    "hi": "स्टैंडर्ड डिलीवरी"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering/distribution/delivery-methods",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "Standard",
+      "Economy"
+    ],
+    "pl": [
+      "standard",
+      "ekonomiczna"
+    ],
+    "pt": [
+      "padrão",
+      "econômica"
+    ],
+    "hi": [
+      "स्टैंडर्ड",
+      "सामान्य डिलीवरी",
+      "इकोनॉमी"
+    ]
+  },
+  "definition": {
+    "en": "Standard Delivery — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data.",
+    "nb": "Standard Delivery — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data.",
+    "de": "Standardversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4).",
+    "es": "Entrega estándar — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4).",
+    "ja": "通常配送 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。",
+    "zh-Hans": "标准配送——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。",
+    "sv": "Standardleverans — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4).",
+    "da": "Standardlevering — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4).",
+    "nl": "Standaardlevering — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4).",
+    "pl": "Dostawa standardowa — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4).",
+    "pt": "Entrega padrão — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4).",
+    "hi": "स्टैंडर्ड डिलीवरी — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/lamination",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Lamination",
+    "de": "Kaschierung",
+    "es": "Laminado",
+    "ja": "ラミネート",
+    "zh-Hans": "覆膜",
+    "sv": "Laminering",
+    "da": "Laminering",
+    "nl": "Lamineren",
+    "pl": "Laminowanie",
+    "pt": "Laminação",
+    "hi": "लैमिनेशन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish",
+  "created": "2026-06-18T11:33:35Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT-SFI-LAMI",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "narrower": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/anti-scratch",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/silk",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
+  ],
+  "definition": {
+    "en": "Lamination surface finishes — a plastic film bonded to the printed sheet for protection and tactile/visual effect.",
+    "nb": "Laminerings-overflatefinish — en plastfilm bondet til arket for beskyttelse og taktil/visuell effekt.",
+    "de": "Kaschierungen (Laminat-Oberflächen) — eine Kunststofffolie, die zum Schutz und für haptisch-visuelle Wirkung auf den bedruckten Bogen aufgebracht wird.",
+    "es": "Acabados de laminado — una película plástica adherida a la hoja impresa para protección y efecto táctil y visual.",
+    "ja": "ラミネート系の表面加工 — 保護と触感・視覚効果のため、印刷済み用紙に貼り合わせるプラスチックフィルム。",
+    "zh-Hans": "覆膜类表面处理 — 将塑料薄膜复合到印张上，以保护并产生触觉与视觉效果。",
+    "sv": "Lamineringsytbehandlingar — en plastfilm limmad mot det tryckta arket för skydd och taktil/visuell effekt.",
+    "da": "Lamineringsfinish — en plastfilm bundet til det trykte ark for beskyttelse og taktil/visuel effekt.",
+    "nl": "Laminaatafwerkingen — een kunststoffilm verbonden met het gedrukte vel voor bescherming en tactiel/visueel effect.",
+    "pl": "Wykończenia powierzchni przez laminowanie — folia z tworzywa sztucznego łączona z zadrukowanym arkuszem dla ochrony oraz efektu dotykowego/wizualnego.",
+    "pt": "Acabamentos de superfície por laminação — um filme plástico colado à folha impressa para proteção e efeito tátil/visual.",
+    "hi": "लैमिनेशन सतह फ़िनिश — सुरक्षा और स्पर्श/दृश्य प्रभाव के लिए छपी शीट पर चिपकाई गई प्लास्टिक फ़िल्म।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LaminatingIntent",
+        "Laminating"
+      ],
+      "refs": [
+        "§4.9 · p.78",
+        "§5.6.23 · p.125"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 45"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "foliowanie"
+    ]
+  }
+}

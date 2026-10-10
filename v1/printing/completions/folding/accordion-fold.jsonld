@@ -1,0 +1,97 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding/accordion-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Accordion Fold",
+    "es": "Pliegue Acordeón",
+    "zh-Hans": "风琴折",
+    "nb": "Trekkspill-fold",
+    "de": "Leporellofalz / Akkordeon",
+    "ja": "アコーディオン折り",
+    "sv": "Dragspelsfals",
+    "da": "Leporellofals",
+    "nl": "Harmonicavouw (leporello)",
+    "pl": "Złam harmonijkowy",
+    "pt": "Dobra sanfona",
+    "hi": "अकॉर्डियन फ़ोल्ड"
+  },
+  "altLabels": {
+    "en": [
+      "Zigzag Fold",
+      "Concertina Fold",
+      "Fan Fold"
+    ],
+    "nb": [
+      "Trekkspill",
+      "Leporello",
+      "Sikksakkfals",
+      "Trekkspillfals"
+    ],
+    "pl": [
+      "harmonijka",
+      "złam zygzakowy",
+      "leporello"
+    ],
+    "pt": [
+      "sanfona",
+      "dobra em ziguezague",
+      "dobra concertina",
+      "dobra leque"
+    ],
+    "hi": [
+      "ज़िगज़ैग फ़ोल्ड",
+      "कॉन्सर्टीना फ़ोल्ड",
+      "फ़ैन फ़ोल्ड"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§ACCORDION-FOLD",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/completions/folding",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Multi-panel fold where the sheet is folded in alternating directions, like an accordion bellows — each fold reverses the previous one. Common for brochures, maps, and pop-up displays.",
+    "nb": "Flerpanel-folde der arket folder seg i vekslende retninger, som et trekkspill — hver folde reverserer den forrige. Vanlig for brosjyrer, kart og pop-up-displayer.",
+    "de": "Mehrteiliger Falz, bei dem der Bogen abwechselnd in entgegengesetzte Richtungen gefalzt wird — wie ein Akkordeonbalg, jeder Falz dreht den vorherigen um. Häufig bei Broschüren, Karten und Pop-up-Aufstellern.",
+    "ja": "アコーディオンの蛇腹のように、シートを交互の方向に折る多面折り — 各折りが直前の折りを反転する。ブローシュア、地図、ポップアップ展示で一般的。",
+    "es": "Múltiples pliegues paralelos alternos formando un acordeón — se despliega completamente en una sola extensión. Habitual en folletos de muchos paneles.",
+    "zh-Hans": "多个交替方向的平行折页形成风琴 —— 完全展开为单一延伸。常用于多面板宣传册。",
+    "sv": "Flerpanelsfals där arket viks i växlande riktningar, som en dragspelsbälg — varje fals vänder den föregående. Vanlig för broschyrer, kartor och pop-up-displayer.",
+    "da": "Flerpanelsfals, hvor arket falses i skiftende retninger som en harmonika — hver fals vender modsat den forrige. Almindelig til brochurer, kort og pop-up-displays.",
+    "nl": "Meerpaneelvouw waarbij het vel in afwisselende richtingen wordt gevouwen, als een harmonica — elke vouw keert de vorige om. Gebruikelijk voor brochures, kaarten en pop-updisplays.",
+    "pl": "Złam wieloskrzydłowy, w którym arkusz składa się naprzemiennie w przeciwnych kierunkach jak miech harmonii — każdy złam odwraca poprzedni. Typowy dla folderów, map i ekspozytorów.",
+    "pt": "Dobra de vários painéis em que a folha é dobrada em direções alternadas, como o fole de uma sanfona — cada dobra inverte a anterior. Comum em folhetos, mapas e displays.",
+    "hi": "बहु-पैनल फ़ोल्ड जिसमें शीट बारी-बारी विपरीत दिशाओं में मुड़ती है, अकॉर्डियन की धौंकनी की तरह — हर फ़ोल्ड पिछले को उलटता है। ब्रोशर, नक़्शों और पॉप-अप डिस्प्ले में आम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

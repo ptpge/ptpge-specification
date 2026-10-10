@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2> a skos:Concept ;
+    dcterms:created "2026-06-17T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "ISO 12647"@en,
+        "ISO12647-2"@en,
+        "offset print standard"@en,
+        "ISO 12647"@hi,
+        "ISO12647-2"@hi,
+        "ऑफसेट प्रिंट मानक"@hi,
+        "ISO 12647"@pl,
+        "ISO12647-2"@pl,
+        "norma druku offsetowego"@pl,
+        "ISO 12647"@pt,
+        "ISO12647-2"@pt,
+        "norma de impressão offset"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Processtyring for offsetlitografisk tryk — den internationale standard, der definerer trykvilkår, målværdier og tolerancer for CMYK-offset."@da,
+        "Prozesskontrolle für den Offsetdruck — der internationale Standard, der Druckbedingungen, Zielwerte und Toleranzen für CMYK-Offset definiert."@de,
+        "Process control for offset lithographic printing — the international standard defining print conditions, target values and tolerances for CMYK offset."@en,
+        "Control de proceso para la impresión ófset — el estándar internacional que define condiciones de impresión, valores objetivo y tolerancias para el ófset CMYK."@es,
+        "ऑफसेट लिथोग्राफ़िक मुद्रण का प्रक्रिया नियंत्रण — CMYK ऑफसेट के लिए प्रिंट स्थितियाँ, लक्ष्य मान और सहनशीलता परिभाषित करने वाला अंतरराष्ट्रीय मानक।"@hi,
+        "オフセット印刷の工程管理 — CMYK オフセットの印刷条件、目標値、許容差を定める国際規格。"@ja,
+        "Prosesskontroll for offset-litografi — den internasjonale standarden som definerer trykkbetingelser, målverdier og toleranser for CMYK-offset."@nb,
+        "Processturing voor offsetlithografisch drukken — de internationale standaard die drukcondities, doelwaarden en toleranties voor CMYK-offset definieert."@nl,
+        "Kontrola procesu druku offsetowego — międzynarodowa norma definiująca warunki druku, wartości docelowe i tolerancje dla offsetu CMYK."@pl,
+        "Controle de processo para impressão litográfica offset — a norma internacional que define condições de impressão, valores-alvo e tolerâncias para offset CMYK."@pt,
+        "Processtyrning för offsetlitografiskt tryck — den internationella standard som definierar tryckvillkor, målvärden och toleranser för CMYK-offset."@sv,
+        "胶印过程控制 — 定义 CMYK 胶印的印刷条件、目标值与容差的国际标准。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§ISO-12647-2" ;
+    skos:prefLabel "ISO 12647-2 (offset)"@da,
+        "ISO 12647-2 (Offset)"@en,
+        "ISO 12647-2 (ऑफसेट)"@hi,
+        "ISO 12647-2 (Offset)"@nb,
+        "ISO 12647-2 (offset)"@nl,
+        "ISO 12647-2 (offset)"@pl,
+        "ISO 12647-2 (Offset)"@pt,
+        "ISO 12647-2 (offset)"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-17" .
+

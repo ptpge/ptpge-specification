@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/pages> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".pages"@en,
+        ".pages"@hi,
+        ".pages"@pl,
+        ".pages"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple> ;
+    skos:definition "Programeget tekstbehandlings- og sidelayoutformat (.pages) for Apple Pages med understøttelse af dokumenter og enklere layouts på macOS og iOS."@da,
+        "Anwendungseigenes Textverarbeitungs- und Seitenlayout-Format (.pages) von Apple Pages, unterstützt Dokumente und einfache Layouts unter macOS und iOS."@de,
+        "Native word-processing and page-layout file format (.pages) for Apple Pages, supporting documents and lightweight layouts on macOS and iOS."@en,
+        "Formato nativo de Apple Pages para procesamiento de texto y maquetación ligera. Para entrega a imprenta se exporta a PDF."@es,
+        "Apple Pages का नेटिव वर्ड-प्रोसेसिंग और पेज-लेआउट फ़ाइल फ़ॉर्मेट (.pages), macOS और iOS पर दस्तावेज़ों और हल्के लेआउट का समर्थन।"@hi,
+        "Apple Pagesのネイティブワードプロセッシングおよびページレイアウトファイル形式（.pages）。macOSおよびiOS上で文書および簡易レイアウトをサポートする。"@ja,
+        "Programspesifikt tekstbehandlings- og sideoppsettsformat (.pages) for Apple Pages, med støtte for dokumenter og enklere oppsett på macOS og iOS."@nb,
+        "Programma-eigen tekstverwerkings- en paginaopmaakformaat (.pages) voor Apple Pages, voor documenten en eenvoudige lay-outs op macOS en iOS."@nl,
+        "Natywny format edytora tekstu i składu stron (.pages) programu Apple Pages, obsługujący dokumenty i proste układy na macOS i iOS."@pl,
+        "Formato de arquivo nativo de processamento de texto e layout de página (.pages) do Apple Pages, com suporte a documentos e layouts leves no macOS e iOS."@pt,
+        "Programeget ordbehandlings- och sidlayoutformat (.pages) för Apple Pages, med stöd för dokument och enklare layouter på macOS och iOS."@sv,
+        "Apple Pages用于文字处理和轻量级版面的原生格式。交付印刷时导出为PDF。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PAGES" ;
+    skos:prefLabel "Pages (.pages)"@da,
+        "Pages (.pages)"@de,
+        "Pages (.pages)"@en,
+        "Apple Pages (.pages)"@es,
+        "Pages (.pages)"@hi,
+        "Pages (.pages)"@ja,
+        "Pages (.pages)"@nb,
+        "Pages (.pages)"@nl,
+        "Pages (.pages)"@pl,
+        "Pages (.pages)"@pt,
+        "Pages (.pages)"@sv,
+        "Apple Pages (.pages)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

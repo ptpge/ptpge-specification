@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/compliance/print-standard> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables/compliance> ;
+    skos:definition "Konfigurerbar akse: Trykstandard. Et trykt produkt konfigureres langs denne variabel (enum, flervalg). Værdidomæne under afklaring."@da,
+        "Konfigurierbare Achse: Druckstandard. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Mehrfachauswahl). Value-Domain noch zu definieren."@de,
+        "Configurable axis: Print Standard. A printed product is configured along this variable (enum, multiple selection). Value-domain to be defined."@en,
+        "Eje configurable: Estándar de impresión. Un producto impreso se configura a lo largo de esta variable (enum, selección múltiple). Value-domain aún por definir."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: मुद्रण मानक। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, बहु-चयन)। मान-डोमेन परिभाषित किया जाना है।"@hi,
+        "構成可能な軸：印刷標準。印刷物はこの変数に沿って構成される（列挙型、複数選択）。valueDomain は今後定義予定。"@ja,
+        "Konfigurerbar akse: Trykkstandard. Et trykkprodukt konfigureres langs denne variabelen (enum, multiple valg). Value-domain ikke definert ennå."@nb,
+        "Configureerbare as: Drukstandaard. Een drukproduct wordt langs deze variabele geconfigureerd (enum, meerkeuze). Waardedomein in ontwikkeling."@nl,
+        "Oś konfigurowalna: Standard druku. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór wielokrotny). Dziedzina wartości do zdefiniowania."@pl,
+        "Eixo configurável: Norma de Impressão. Um impresso é configurado ao longo desta variável (enumeração, seleção múltipla). Domínio de valores a definir."@pt,
+        "Konfigurerbar axel: Tryckstandard. En trycksak konfigureras längs denna variabel (uppräkning, flerval). Värdedomän ännu ej definierad."@sv,
+        "可配置轴：印刷标准。印刷品沿此变量进行配置（枚举，多选）。valueDomain 待定义。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:CM§PRINT-STANDARD" ;
+    skos:prefLabel "Trykstandard"@da,
+        "Druckstandard"@de,
+        "Print Standard"@en,
+        "Estándar de impresión"@es,
+        "मुद्रण मानक"@hi,
+        "印刷標準"@ja,
+        "Trykkstandard"@nb,
+        "Drukstandaard"@nl,
+        "Standard druku"@pl,
+        "Norma de impressão"@pt,
+        "Tryckstandard"@sv,
+        "印刷标准"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken trykstandard?"@da,
+        "Welcher Druckstandard?"@de,
+        "Which print standard?"@en,
+        "¿Qué estándar de impresión?"@es,
+        "कौन-सा प्रिंट मानक?"@hi,
+        "印刷規格は？"@ja,
+        "Hvilken trykkstandard?"@nb,
+        "Welke drukstandaard?"@nl,
+        "Jaki standard druku?"@pl,
+        "Que norma de impressão?"@pt,
+        "Vilken tryckstandard?"@sv,
+        "什么印刷标准？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/standards/print-standards> ;
+    ptpge:version "2026-06-05" .
+

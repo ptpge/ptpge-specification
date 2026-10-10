@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:definition "Køberperspektivet: hvordan trykte produkter bestilles. Dækker produkter, viden (substrater, formater, farvesystemer), geografi (regionale standarder), opsætningsmodeller (kompositionsskabeloner), anvendelser og målgrupper. Ét af PTPGE's to topkoncepter — det andet, 'Printing Process', beskriver producentperspektivet."@da,
+        "Käufer-Perspektive: wie Druckprodukte bestellt werden. Umfasst Produkte, Wissen (Substrate, Formate, Farbsysteme), Geografie (regionale Standards), Setup-Modelle (Kompositionsvorlagen), Anwendungsfälle und Zielgruppen. Eines der beiden Oberkonzepte von PTPGE — das andere, 'Druckprozess', beschreibt die Produzenten-Perspektive."@de,
+        "Buyer-side view: how printed products are ordered. Covers products, knowledge (substrates, formats, color systems), geography (regional standards), setup models (composition templates), use cases, and audiences. One of PTPGE's two top concepts — the other, 'Printing Process', describes the producer-side view."@en,
+        "Vista desde el lado del comprador: cómo se piden los productos impresos. Cubre productos, conocimiento (sustratos, formatos, sistemas de color), geografía (estándares regionales), modelos de configuración (plantillas de composición), casos de uso y audiencias. Es uno de los dos conceptos principales de PTPGE — el otro, 'Proceso de Impresión', describe la vista del productor."@es,
+        "खरीदार के पक्ष का दृष्टिकोण: मुद्रित उत्पाद कैसे ऑर्डर किए जाते हैं। इसमें उत्पाद, ज्ञान (सब्सट्रेट, फ़ॉर्मेट, रंग प्रणालियाँ), भूगोल (क्षेत्रीय मानक), सेटअप मॉडल (संरचना टेम्पलेट), उपयोग-मामले और लक्षित वर्ग शामिल हैं। PTPGE के दो शीर्ष संकल्पनाओं में से एक — दूसरी, «मुद्रण प्रक्रिया», उत्पादक के पक्ष का वर्णन करती है।"@hi,
+        "購入者側の視点：印刷物がどのように発注されるか。製品、知識（基材、フォーマット、カラーシステム）、地理（地域標準）、セットアップモデル（構成テンプレート）、用途、対象者を含む。PTPGEの2つのトップ概念の1つで、もう1つは『印刷プロセス』であり、生産者側の視点を表す。"@ja,
+        "Kjøperside-perspektiv: hvordan trykkprodukter blir bestilt. Dekker produkter, kunnskap (substrater, formater, fargesystemer), geografi (regionale standarder), oppsett-modeller (sammensetningsmaler), bruksområder og målgrupper. Et av PTPGEs to toppkonsepter — det andre, 'Trykkeprosess', beskriver produsentside-perspektivet."@nb,
+        "Het koperperspectief: hoe drukwerk wordt besteld. Omvat producten, kennis (substraten, formaten, kleursystemen), geografie (regionale standaarden), opbouwmodellen (compositiesjablonen), toepassingen en doelgroepen. Eén van de twee topconcepten van PTPGE — het andere, 'Printing Process', beschrijft het productieperspectief."@nl,
+        "Perspektywa nabywcy: jak zamawia się produkty drukowane. Obejmuje produkty, wiedzę (podłoża, formaty, systemy barw), geografię (standardy regionalne), modele konfiguracji (szablony kompozycji), przypadki użycia i grupy odbiorców. Jedno z dwóch pojęć nadrzędnych PTPGE — drugie, „Proces drukowania”, opisuje perspektywę producenta."@pl,
+        "Visão do lado do comprador: como os impressos são pedidos. Abrange produtos, conhecimento (substratos, formatos, sistemas de cor), geografia (normas regionais), modelos de montagem (modelos de composição), casos de uso e públicos. Um dos dois conceitos de topo do PTPGE — o outro, «Processo de Impressão», descreve a visão do lado do produtor."@pt,
+        "Köparsidans vy: hur trycksaker beställs. Omfattar produkter, kunskap (substrat, format, färgsystem), geografi (regionala standarder), uppbyggnadsmodeller (kompositionsmallar), användningsområden och målgrupper. Ett av PTPGE:s två toppkoncept — det andra, 'Tryckprocess', beskriver producentsidans vy."@sv,
+        "从买方视角描述印刷品的订购方式。涵盖产品、知识（承印物、规格、色彩系统）、地理（地区标准）、设置模型（组合模板）、用例和受众。这是PTPGE的两个主要顶层概念之一——另一个是『印刷过程』，描述生产方视角。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/audiences>,
+        <https://ptpge.org/v1/ordering/distribution>,
+        <https://ptpge.org/v1/ordering/geography>,
+        <https://ptpge.org/v1/ordering/knowledge>,
+        <https://ptpge.org/v1/ordering/products>,
+        <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:notation "O" ;
+    skos:prefLabel "Bestillingsproces"@da,
+        "Bestellprozess"@de,
+        "Ordering Process"@en,
+        "Proceso de Pedido"@es,
+        "ऑर्डरिंग प्रक्रिया"@hi,
+        "発注プロセス"@ja,
+        "Bestillingsprosess"@nb,
+        "Bestelproces"@nl,
+        "Proces zamawiania"@pl,
+        "Processo de compra"@pt,
+        "Beställningsprocess"@sv,
+        "订购过程"@zh-Hans ;
+    skos:topConceptOf <https://ptpge.org/v1/scheme> ;
+    ptpge:level "top-concept" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

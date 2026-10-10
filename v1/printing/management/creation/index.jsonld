@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/creation",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Creation",
+    "es": "Creación",
+    "zh-Hans": "创建",
+    "nb": "Opprettelse",
+    "de": "Erstellung",
+    "ja": "制作",
+    "sv": "Skapande",
+    "da": "Kreation",
+    "nl": "Creatie",
+    "pl": "Tworzenie",
+    "pt": "Criação",
+    "hi": "निर्माण"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "broader": "https://ptpge.org/v1/printing/management",
+  "narrower": [
+    "https://ptpge.org/v1/printing/management/creation/design-artwork",
+    "https://ptpge.org/v1/printing/management/creation/typography-layout",
+    "https://ptpge.org/v1/printing/management/creation/imaging-graphics",
+    "https://ptpge.org/v1/printing/management/creation/prepress-preparation"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The pre-production phase where content is conceived, designed, and prepared for printing — encompassing all creative and prepress work before the file is committed to a print job.",
+    "nb": "Pre-produksjonsfasen der innhold blir unnfanget, designet og forberedt for trykk — omfatter alt kreativt og prepress-arbeid før filen sendes til en trykkjobb.",
+    "de": "Die vorbereitende Phase, in der Inhalte konzipiert, gestaltet und für den Druck aufbereitet werden — umfasst alle gestalterischen und Druckvorstufen-Arbeiten, bevor die Datei für einen Druckauftrag freigegeben wird.",
+    "ja": "コンテンツが構想、設計、印刷準備される生産前の段階 — ファイルが印刷ジョブに送られる前の創造的および製版作業のすべてを含む。",
+    "es": "La fase de pre-producción donde el contenido se concibe, diseña y prepara para impresión — abarcando todo el trabajo creativo y de pre-prensa antes de que el archivo se comprometa a un trabajo de impresión.",
+    "zh-Hans": "内容构思、设计和印刷准备的预生产阶段——涵盖在文件提交印刷作业之前的所有创意和印前工作。",
+    "sv": "Förproduktionsfasen där innehåll utformas, designas och förbereds för tryck — omfattar allt kreativt arbete och prepress innan filen binds till ett tryckjobb.",
+    "da": "Fasen før produktion, hvor indhold udtænkes, designes og klargøres til tryk — omfatter alt kreativt og prepress-arbejde, før filen sendes til en trykopgave.",
+    "nl": "De fase vóór productie waarin inhoud wordt bedacht, ontworpen en voorbereid voor druk — al het creatieve en prepresswerk voordat het bestand naar een drukopdracht gaat.",
+    "pl": "Faza przedprodukcyjna, w której treść jest wymyślana, projektowana i przygotowywana do druku — obejmuje całą pracę kreatywną i prepress przed przekazaniem pliku do zlecenia drukarskiego.",
+    "pt": "A fase de pré-produção em que o conteúdo é concebido, projetado e preparado para impressão — abrangendo todo o trabalho criativo e de pré-impressão antes de o arquivo ser confiado a um trabalho de impressão.",
+    "hi": "पूर्व-उत्पादन चरण जहाँ सामग्री की कल्पना, डिज़ाइन और मुद्रण की तैयारी होती है — फ़ाइल को प्रिंट जॉब में सौंपने से पहले का सारा रचनात्मक और प्रीप्रेस कार्य।"
+  },
+  "scopeNote": {
+    "en": "Includes design and artwork (visual concept, branding, illustration), typography and layout (text composition, page design), imaging and graphics (photo editing, vector creation), and prepress preparation (color separation, trapping, imposition setup). Output is print-ready files handed off to Quality Assurance.",
+    "nb": "Inkluderer design og artwork (visuelt konsept, merkevarebygging, illustrasjon), typografi og layout (tekstkomposisjon, sidedesign), bildebehandling og grafikk (fotoredigering, vektorgrafikk) og prepress-forberedelse (fargeseparasjon, trapping, oppsett av impositioning). Resultat er trykkferdige filer som overleveres til Quality Assurance.",
+    "de": "Umfasst Design und Reinzeichnung (visuelles Konzept, Branding, Illustration), Typografie und Layout (Textsatz, Seitengestaltung), Bildbearbeitung und Grafik (Fotobearbeitung, Vektorgrafik) sowie Druckvorstufen-Vorbereitung (Farbseparation, Trapping, Ausschießung). Ergebnis sind druckfertige Dateien, die an die Qualitätssicherung übergeben werden.",
+    "ja": "デザインとアートワーク（視覚コンセプト、ブランディング、イラストレーション）、タイポグラフィとレイアウト（テキスト組版、ページデザイン）、画像とグラフィックス（写真編集、ベクター作成）、製版準備（色分解、トラッピング、面付け設定）を含む。出力はQuality Assuranceに引き渡される印刷可能ファイル。",
+    "es": "Incluye diseño y arte (concepto visual, branding, ilustración), tipografía y maquetación (composición de texto, diseño de página), tratamiento de imagen y gráficos (edición fotográfica, creación vectorial) y preparación pre-prensa.",
+    "zh-Hans": "包括设计与美术（视觉概念、品牌、插图）、字体与版式（文本组版、页面设计）、图像与图形（照片编辑、矢量创建）和印前准备。",
+    "pt": "Inclui design e arte (conceito visual, branding, ilustração), tipografia e layout (composição de texto, design de página), imagem e gráficos (edição de foto, criação vetorial) e preparação de pré-impressão (separação de cor, trapping, configuração de imposição). A saída são arquivos prontos para impressão entregues à Garantia de qualidade.",
+    "hi": "डिज़ाइन और आर्टवर्क (दृश्य अवधारणा, ब्रांडिंग, चित्रण), टाइपोग्राफ़ी और लेआउट (पाठ संयोजन, पेज डिज़ाइन), इमेजिंग और ग्राफ़िक्स (फ़ोटो संपादन, वेक्टर निर्माण) और प्रीप्रेस तैयारी (रंग सेपरेशन, ट्रैपिंग, इम्पोज़िशन सेटअप) शामिल। आउटपुट गुणवत्ता आश्वासन को सौंपी गई प्रिंट-रेडी फ़ाइलें।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:MG-CRE",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutElementProduction"
+      ],
+      "refs": [
+        "§5.4.11 · p.98"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 6"
+    }
+  ]
+}

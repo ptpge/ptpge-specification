@@ -1,0 +1,236 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/placemats",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§PLACEMATS",
+  "elementType": "product",
+  "label": {
+    "en": "Placemats",
+    "nb": "Bordbrikker",
+    "de": "Tischsets",
+    "ja": "ランチョンマット",
+    "es": "Manteles individuales",
+    "zh-Hans": "餐垫",
+    "nl": "Placemats",
+    "sv": "Bordstabletter",
+    "da": "Dækkeservietter",
+    "pl": "Podkładki na stół",
+    "pt": "Jogos americanos",
+    "hi": "प्लेसमैट"
+  },
+  "altLabels": {
+    "en": [
+      "Table Mats",
+      "table mat",
+      "paper placemat"
+    ],
+    "nb": [
+      "Spisebrikker",
+      "Dekkebrikker",
+      "bordbrikke",
+      "dekkebrikke"
+    ],
+    "de": [
+      "Platzsets",
+      "Papierunterlagen"
+    ],
+    "pl": [
+      "podkładka stołowa",
+      "podkładka papierowa",
+      "mata na stół"
+    ],
+    "sv": [
+      "bordstablett",
+      "tablett",
+      "tabletter",
+      "pappersunderlägg"
+    ],
+    "da": [
+      "dækkeserviet",
+      "bordunderlag",
+      "papirunderlag"
+    ],
+    "nl": [
+      "placemat",
+      "tafelonderlegger",
+      "papieren placemat"
+    ],
+    "pt": [
+      "jogo americano",
+      "jogo americano de papel",
+      "toalha de bandeja",
+      "individual de mesa"
+    ],
+    "hi": [
+      "प्लेसमैट",
+      "टेबल मैट",
+      "पेपर प्लेसमैट",
+      "ट्रे मैट"
+    ],
+    "es": [
+      "mantel individual",
+      "salvamantel",
+      "mantel de papel",
+      "bajoplato de papel"
+    ],
+    "ja": [
+      "紙マット",
+      "テーブルマット",
+      "紙製ランチョンマット"
+    ],
+    "zh-Hans": [
+      "纸餐垫",
+      "桌垫",
+      "餐桌纸垫"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printed mat for table settings — disposable paper or laminated, for hospitality and promotion.",
+    "nb": "En trykt brikke for borddekking — engangs papir eller laminert, for servering og kampanje.",
+    "de": "Ein bedrucktes Tischset — Einweg-Papier oder laminiert.",
+    "ja": "テーブルセッティング用の印刷ランチョンマット。使い捨て紙またはラミネート加工で、飲食店や販促に。",
+    "es": "Un mantel individual impreso para la mesa — de papel desechable o plastificado, para hostelería y promoción.",
+    "zh-Hans": "餐桌用印刷餐垫——一次性纸质或覆膜款，用于餐饮和促销。",
+    "sv": "En tryckt tablett för dukning — engångs i papper eller laminerad, för besöksnäring och promotion.",
+    "da": "En trykt måtte til borddækning — engangspapir eller lamineret, til hoteller, restauranter og promovering.",
+    "nl": "Een gedrukte placemat voor tafelschikking — wegwerp-papier of gelamineerd, voor horeca en promotie.",
+    "pl": "Drukowana podkładka do nakrycia stołu — jednorazowa papierowa lub laminowana, dla gastronomii i promocji.",
+    "pt": "Jogo americano impresso para a mesa — descartável de papel ou plastificado, para hotelaria, restaurantes e promoção.",
+    "hi": "टेबल सेटिंग के लिए मुद्रित मैट — डिस्पोज़ेबल काग़ज़ या लैमिनेटेड, आतिथ्य और प्रचार के लिए।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/ledger",
+    "https://ptpge.org/v1/printing/configurations/formats/us/tabloid"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 200,
+    "max": 500,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

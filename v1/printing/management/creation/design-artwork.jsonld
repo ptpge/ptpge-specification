@@ -1,0 +1,88 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/creation/design-artwork",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Design & Artwork",
+    "es": "Diseño y Arte",
+    "zh-Hans": "设计与美术",
+    "nb": "Design & artwork",
+    "de": "Design & Artwork",
+    "ja": "デザインとアートワーク",
+    "sv": "Design & original",
+    "da": "Design & grafik",
+    "nl": "Ontwerp & artwork",
+    "pl": "Projekt i grafika",
+    "pt": "Design e arte",
+    "hi": "डिज़ाइन और आर्टवर्क"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§DESIGN-ARTWORK",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/creation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Visual design and original artwork creation — the conceptual and aesthetic phase covering branding, illustration, photography commissioning, and overall visual identity work that precedes layout.",
+    "nb": "Visuell design og opprinnelig artwork-skaping — den konseptuelle og estetiske fasen som dekker merkevarebygging, illustrasjon, fotokommandering og generell visuell identitetsarbeid som går forut for layout.",
+    "de": "Visuelle Gestaltung und originäre Reinzeichnung — die konzeptionelle und ästhetische Phase, die Branding, Illustration, Foto-Briefing und allgemeine visuelle Identitätsarbeit umfasst, bevor das Layout beginnt.",
+    "ja": "視覚デザインとオリジナルアートワークの制作 — レイアウトに先立つ概念的および美的な段階で、ブランディング、イラストレーション、写真の発注、全体的なビジュアルアイデンティティ業務を扱う。",
+    "es": "Trabajo creativo visual previo a la producción — concepto, branding, ilustración, dirección artística. Determina la apariencia del producto impreso final.",
+    "zh-Hans": "生产前的创意视觉工作——概念、品牌、插图、艺术指导。决定最终印刷品的外观。",
+    "sv": "Visuell design och skapande av originalmaterial — den konceptuella och estetiska fasen som täcker varumärkesarbete, illustration, fotobeställning och övergripande visuellt identitetsarbete före layout.",
+    "da": "Visuelt design og original grafik — den konceptuelle og æstetiske fase, der dækker branding, illustration, bestilling af fotografi og det samlede arbejde med visuel identitet forud for layout.",
+    "nl": "Visueel ontwerp en origineel artwork — de conceptuele en esthetische fase met branding, illustratie, fotografieopdrachten en het totale werk aan visuele identiteit dat aan de opmaak voorafgaat.",
+    "pl": "Projektowanie wizualne i tworzenie oryginalnej grafiki — faza koncepcyjna i estetyczna obejmująca branding, ilustrację, zlecanie fotografii i całościową pracę nad identyfikacją wizualną poprzedzającą skład.",
+    "pt": "Design visual e criação de arte original — a fase conceitual e estética que cobre branding, ilustração, encomenda de fotografia e o trabalho geral de identidade visual que precede o layout.",
+    "hi": "दृश्य डिज़ाइन और मूल आर्टवर्क निर्माण — वैचारिक और सौंदर्यात्मक चरण जो ब्रांडिंग, चित्रण, फ़ोटोग्राफ़ी कमीशनिंग और लेआउट से पहले के समग्र दृश्य-पहचान कार्य को ढकता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "artwork",
+      "graphic design",
+      "design"
+    ],
+    "nb": [
+      "grafisk design",
+      "design"
+    ],
+    "pl": [
+      "grafika",
+      "projekt graficzny",
+      "projektowanie"
+    ],
+    "pt": [
+      "arte",
+      "design gráfico",
+      "design"
+    ],
+    "hi": [
+      "आर्टवर्क",
+      "ग्राफ़िक डिज़ाइन",
+      "डिज़ाइन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutElementProduction"
+      ],
+      "refs": [
+        "§5.4.11 · p.98"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 6"
+    }
+  ]
+}

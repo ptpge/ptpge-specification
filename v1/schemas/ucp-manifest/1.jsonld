@@ -1,0 +1,27 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/schemas/ucp-manifest/1",
+  "type": "ptpge:Schema",
+  "version": "2026-10-06",
+  "status": "proposed",
+  "notation": "SCH:UCP-MANIFEST",
+  "level": "element",
+  "label": {
+    "en": "UCP manifest",
+    "nb": "UCP-manifest"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/schemas",
+  "schemaVersion": 1,
+  "stage": "draft",
+  "writtenBy": "a storefront",
+  "holds": "the PTPGE identity on a checkout line",
+  "jsonSchema": null,
+  "definition": {
+    "en": "How a storefront carries the PTPGE identity in a Universal Commerce Protocol manifest: the fingerprint on the line item, the configuration behind it resolvable at ptpge.org/f. The bridge from the specification to agentic checkout.",
+    "nb": "How a storefront carries the PTPGE identity in a Universal Commerce Protocol manifest: the fingerprint on the line item, the configuration behind it resolvable at ptpge.org/f. The bridge from the specification to agentic checkout."
+  },
+  "created": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

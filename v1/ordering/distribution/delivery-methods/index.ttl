@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/distribution/delivery-methods> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/distribution> ;
+    skos:definition "Hvordan en færdig trykordre sendes eller overdrages til køberen."@da,
+        "Wie eine fertige Druckbestellung versendet oder an den Käufer übergeben wird."@de,
+        "How a finished print order is shipped or handed over to the buyer."@en,
+        "Cómo se envía o se entrega al comprador un pedido de impresión terminado."@es,
+        "तैयार मुद्रण ऑर्डर खरीदार तक कैसे भेजा या सौंपा जाता है।"@hi,
+        "完成した印刷注文を買い手へ出荷または引き渡す方法。"@ja,
+        "Hvordan en ferdig trykkordre sendes eller overleveres til kjøper."@nb,
+        "Hoe een afgewerkte drukorder wordt verzonden of overgedragen aan de koper."@nl,
+        "Jak gotowe zamówienie drukarskie jest wysyłane lub przekazywane nabywcy."@pl,
+        "Como um pedido gráfico acabado é expedido ou entregue ao comprador."@pt,
+        "Hur en färdig tryckorder skickas eller överlämnas till köparen."@sv,
+        "已完成的印刷订单如何发运或交付给买方。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/distribution/delivery-methods/courier>,
+        <https://ptpge.org/v1/ordering/distribution/delivery-methods/express-delivery>,
+        <https://ptpge.org/v1/ordering/distribution/delivery-methods/freight-pallet>,
+        <https://ptpge.org/v1/ordering/distribution/delivery-methods/pickup>,
+        <https://ptpge.org/v1/ordering/distribution/delivery-methods/postal-mail>,
+        <https://ptpge.org/v1/ordering/distribution/delivery-methods/standard-delivery> ;
+    skos:notation "O:DS-DELIVERY" ;
+    skos:prefLabel "Leveringsmetoder"@da,
+        "Versandarten"@de,
+        "Delivery Methods"@en,
+        "Métodos de entrega"@es,
+        "डिलीवरी विधियाँ"@hi,
+        "配送方法"@ja,
+        "Leveringsmetoder"@nb,
+        "Leveringsmethoden"@nl,
+        "Sposoby dostawy"@pl,
+        "Métodos de entrega"@pt,
+        "Leveranssätt"@sv,
+        "交付方式"@zh-Hans ;
+    ptpge:group "distribution" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

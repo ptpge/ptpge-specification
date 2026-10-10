@@ -1,0 +1,183 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/tickets> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "billet"@da,
+        "entrébillet"@da,
+        "entrébilletter"@da,
+        "kupon"@da,
+        "kuponer"@da,
+        "lodder"@da,
+        "lodsedler"@da,
+        "Eintrittskarten"@de,
+        "Veranstaltungstickets"@de,
+        "Cloakroom tickets"@en,
+        "Entrance Tickets"@en,
+        "Raffle tickets"@en,
+        "Ticket"@en,
+        "admission ticket"@en,
+        "coupon"@en,
+        "event ticket"@en,
+        "voucher"@en,
+        "boleto"@es,
+        "cupón"@es,
+        "entrada"@es,
+        "entradas"@es,
+        "ticket"@es,
+        "ticket de rifa"@es,
+        "vale"@es,
+        "इवेंट टिकट"@hi,
+        "एंट्री पास"@hi,
+        "कूपन"@hi,
+        "टिकट"@hi,
+        "प्रवेश टिकट"@hi,
+        "रैफ़ल टिकट"@hi,
+        "लकी ड्रॉ टिकट"@hi,
+        "वाउचर"@hi,
+        "クーポン券"@ja,
+        "入場券"@ja,
+        "回数券"@ja,
+        "抽選券"@ja,
+        "整理券"@ja,
+        "Billett"@nb,
+        "adgangsbillett"@nb,
+        "billett"@nb,
+        "kupong"@nb,
+        "Entreekaarten"@nl,
+        "Toegangskaarten"@nl,
+        "coupon"@nl,
+        "coupons"@nl,
+        "entreebewijs"@nl,
+        "loten"@nl,
+        "ticket"@nl,
+        "toegangsbewijs"@nl,
+        "toegangskaart"@nl,
+        "bilet"@pl,
+        "bilet wstępu"@pl,
+        "kupon"@pl,
+        "los loteryjny"@pl,
+        "voucher"@pl,
+        "bilhete"@pt,
+        "bilhete de rifa"@pt,
+        "cupom"@pt,
+        "entrada"@pt,
+        "ingresso"@pt,
+        "ingresso de evento"@pt,
+        "ticket"@pt,
+        "vale"@pt,
+        "biljett"@sv,
+        "entrébiljett"@sv,
+        "entrébiljetter"@sv,
+        "inträdesbiljett"@sv,
+        "lotter"@sv,
+        "lotteribiljetter"@sv,
+        "优惠券"@zh-Hans,
+        "入场券"@zh-Hans,
+        "抽奖券"@zh-Hans,
+        "票"@zh-Hans,
+        "票据"@zh-Hans,
+        "门票"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En trykt adgangsbillet, værdikupon eller rabatkupon — ofte nummereret eller perforeret, til arrangementer, transport og kampagner."@da,
+        "Eine gedruckte Eintrittskarte, Gutschein oder Coupon — oft nummeriert oder perforiert."@de,
+        "A printed admission ticket, voucher or coupon — often numbered or perforated, for events, transport and promotions."@en,
+        "Una entrada, vale o cupón impresos — a menudo numerados o perforados, para eventos, transporte y promociones."@es,
+        "मुद्रित प्रवेश टिकट, वाउचर या कूपन — अक्सर क्रमांकित या छिद्रित, आयोजनों, परिवहन और प्रचार के लिए।"@hi,
+        "入場券・引換券・クーポンなどの印刷チケット。ナンバリングやミシン目入りが多く、イベントや交通、販促に。"@ja,
+        "En trykt adgangsbillett, voucher eller kupong — ofte nummerert eller perforert, for arrangementer, transport og kampanjer."@nb,
+        "Een gedrukt toegangsbewijs, voucher of coupon — vaak genummerd of geperforeerd, voor evenementen, vervoer en promoties."@nl,
+        "Drukowany bilet wstępu, voucher lub kupon — często numerowany lub perforowany, na wydarzenia, transport i promocje."@pl,
+        "Ingresso, vale ou cupom impresso — muitas vezes numerado ou picotado, para eventos, transporte e promoções."@pt,
+        "En tryckt entrébiljett, voucher eller kupong — ofta numrerad eller perforerad, för evenemang, transport och kampanjer."@sv,
+        "印刷门票、凭证或优惠券——常带编号或撕线，用于活动、交通和促销。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§TICKETS" ;
+    skos:prefLabel "Billetter"@da,
+        "Tickets / Eintrittskarten"@de,
+        "Tickets"@en,
+        "Entradas / Tickets"@es,
+        "टिकट"@hi,
+        "チケット"@ja,
+        "Billetter"@nb,
+        "Tickets"@nl,
+        "Bilety"@pl,
+        "Ingressos"@pt,
+        "Biljetter"@sv,
+        "票券"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:perSurfaceSupportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

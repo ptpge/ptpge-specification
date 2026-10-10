@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/hexachrome> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Hexachrome (6-colour)"@en,
+        "Hexachrome"@hi,
+        "Hexachrome"@pl,
+        "Hexachrome"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems> ;
+    skos:definition "Pantones seksfarvesystem for udvidet farveomfang (CMYK + orange + grøn). Giver et bredere farveomfang end CMYK alene og fanger cirka 90 % af Pantones staffagefarver. Historisk navn; mindre almindeligt i dag, men bruges stadig i udvalgt eksklusiv produktion."@da,
+        "Pantones Sechsfarben-Extended-Gamut-Drucksystem (CMYK + Orange + Grün). Bietet einen breiteren Farbraum als reines CMYK."@de,
+        "Pantone's six-color extended-gamut printing system (CMYK + Orange + Green). Provides a wider color range than CMYK alone, capturing approximately 90% of Pantone solid colors. Historical name; less common today but still used in select high-end production."@en,
+        "El sistema de impresión de gama extendida de seis colores de Pantone (CMYK + Naranja + Verde). Ofrece una gama más amplia que el CMYK solo, capturando aproximadamente el 90% de los colores sólidos Pantone. Nombre histórico; menos común hoy pero aún usado en producción selecta de gama alta."@es,
+        "Pantone की छह-रंग विस्तारित-गैमट मुद्रण प्रणाली (CMYK + नारंगी + हरा)। अकेले CMYK से व्यापक रंग-सीमा, लगभग 90% Pantone ठोस रंगों को समेटती है। ऐतिहासिक नाम; आज कम आम, पर चुनिंदा हाई-एंड उत्पादन में अब भी प्रयुक्त।"@hi,
+        "Pantone の6色拡張ガモット印刷システム（CMYK＋オレンジ＋グリーン）。CMYK 単独より広い色域を持ち、Pantone ソリッドカラーの約90%を再現する。歴史的な名称で、今日では少ないが、一部のハイエンド生産で今も使われる。"@ja,
+        "Pantones 6-fargers utvidet gamut-trykksystem (CMYK + Oransje + Grønn). Gir et bredere fargeomfang enn CMYK alene, fanger ~90% av Pantones solide farger. Historisk navn; mindre vanlig i dag, men fortsatt brukt i utvalgte high-end produksjoner."@nb,
+        "Pantones zeskleurensysteem voor uitgebreid gamma (CMYK + oranje + groen). Geeft een breder kleurbereik dan CMYK alleen en vangt circa 90% van de Pantone-steunkleuren. Historische naam; vandaag minder gangbaar, maar nog gebruikt in geselecteerde high-end productie."@nl,
+        "Sześciokolorowy system druku o rozszerzonym gamucie firmy Pantone (CMYK + pomarańcz + zieleń). Daje szerszy zakres barw niż sam CMYK, oddając około 90% pełnych kolorów Pantone. Nazwa historyczna; dziś rzadziej spotykana, lecz wciąż używana w wybranej produkcji z wyższej półki."@pl,
+        "Sistema de impressão de gamut estendido de seis cores da Pantone (CMYK + Laranja + Verde). Oferece uma gama de cores mais ampla que o CMYK sozinho, capturando aproximadamente 90 % das cores sólidas Pantone. Nome histórico; menos comum hoje, mas ainda usado em produção de alto nível selecionada."@pt,
+        "Pantones sexfärgssystem för utökad färgomfattning (CMYK + orange + grönt). Ger bredare färgomfång än enbart CMYK och fångar cirka 90 % av Pantones dekorfärger. Historiskt namn; mindre vanligt i dag men används fortfarande i utvald exklusiv produktion."@sv,
+        "Pantone 的六色扩展色域印刷系统（CMYK+橙+绿）。色域比单纯 CMYK 更宽，可再现约90%的 Pantone 实色。属历史名称；如今较少见，但仍用于部分高端生产。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§HEXACHROME" ;
+    skos:prefLabel "Hexachrome (6-farve)"@da,
+        "Hexachrome (6-farbig)"@de,
+        "Hexachrome (6-color)"@en,
+        "Hexachrome (6-color)"@es,
+        "Hexachrome (6-रंग)"@hi,
+        "Hexachrome (6-color)"@ja,
+        "Hexachrome (6-fargers)"@nb,
+        "Hexachrome (6-kleuren)"@nl,
+        "Hexachrome (6 kolorów)"@pl,
+        "Hexachrome (6 cores)"@pt,
+        "Hexachrome (6-färg)"@sv,
+        "Hexachrome (6-color)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

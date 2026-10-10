@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/ryobi",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Ryobi",
+    "es": "Ryobi",
+    "zh-Hans": "Ryobi",
+    "nb": "Ryobi",
+    "de": "Ryobi",
+    "ja": "Ryobi",
+    "sv": "Ryobi",
+    "da": "Ryobi",
+    "nl": "Ryobi",
+    "pl": "Ryobi",
+    "pt": "Ryobi",
+    "hi": "Ryobi"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Ryobi MHI Graphic Technology (formed by merger of Ryobi and Mitsubishi MGMT) — Japanese manufacturer of small to mid-size sheet-fed offset presses, popular in the entry-level and mid-range commercial market.",
+    "nb": "Ryobi MHI Graphic Technology (dannet ved sammenslåing av Ryobi og Mitsubishi MGMT) — japansk produsent av små til mellomstore ark-mate offset-presser, populært i entry-level- og mellomklasse-markedet for kommersiell trykk.",
+    "de": "Ryobi MHI Graphic Technology (entstanden durch die Fusion von Ryobi und Mitsubishi MGMT) — japanischer Hersteller kleiner bis mittelgroßer Bogenoffsetdruckmaschinen, beliebt im Einsteiger- und Mittelklasse-Akzidenzmarkt.",
+    "ja": "リョービMHIグラフィックテクノロジー（リョービと三菱MGMTの合併により設立）— 小～中サイズの枚葉オフセット印刷機の日本のメーカー。エントリーレベルおよび中レンジの商業市場で人気。",
+    "es": "Ryobi MHI Graphic Technology — fabricante japonés de prensas offset y digitales (RMGT) para imprentas comerciales medianas.",
+    "zh-Hans": "Ryobi MHI Graphic Technology —— 日本中型商业印刷厂用的胶印和数码印刷机制造商（RMGT）。",
+    "sv": "Ryobi MHI Graphic Technology (bildat genom sammanslagning av Ryobi och Mitsubishi MGMT) — japansk tillverkare av små till medelstora arkoffsetpressar, populär i instegs- och mellanklassmarknaden för civiltryck.",
+    "da": "Ryobi MHI Graphic Technology (dannet ved fusion af Ryobi og Mitsubishi MGMT) — japansk producent af små til mellemstore arkoffsetpresser, populær i indstigs- og mellemklassen for kommercielt tryk.",
+    "nl": "Ryobi MHI Graphic Technology (ontstaan uit de fusie van Ryobi en Mitsubishi MGMT) — Japanse fabrikant van kleine tot middelgrote vellenoffsetpersen, populair in het instap- en middensegment van commercieel drukwerk.",
+    "pl": "Ryobi MHI Graphic Technology (powstałe z połączenia Ryobi i Mitsubishi MGMT) — japoński producent małych i średnich arkuszowych maszyn offsetowych, popularnych na rynku komercyjnym klasy podstawowej i średniej.",
+    "pt": "Ryobi MHI Graphic Technology (formada pela fusão da Ryobi com a Mitsubishi MGMT) — fabricante japonês de impressoras offset de folha de pequeno e médio porte, popular no mercado comercial de entrada e médio.",
+    "hi": "Ryobi MHI Graphic Technology (Ryobi और Mitsubishi MGMT के विलय से बनी) — छोटे से मध्यम आकार की शीट-फ़ेड ऑफसेट प्रेस का जापानी निर्माता, प्रारंभिक और मध्यम-श्रेणी व्यावसायिक बाज़ार में लोकप्रिय।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-RYOB",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/single-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bi-Fold"@en,
+        "Half Fold"@en,
+        "आधा मोड़"@hi,
+        "एक तह"@hi,
+        "बाई-फ़ोल्ड"@hi,
+        "हाफ़ फ़ोल्ड"@hi,
+        "Enkeltfals"@nb,
+        "Halvbrett"@nb,
+        "Midtbrett"@nb,
+        "bigowanie na pół"@pl,
+        "składanie na pół"@pl,
+        "złam na pół"@pl,
+        "bifold"@pt,
+        "dobra ao meio"@pt,
+        "dobra em dois"@pt,
+        "meia dobra"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Én fals, der deler arket i to lige store paneler — den enkleste fals, som giver et firesidet dokument (forside, inderside venstre, inderside højre, bagside). Bruges til lykønskningskort, enkle brochurer og invitationer."@da,
+        "Einzelner Falz, der den Bogen in zwei gleiche Felder unterteilt — der einfachste Falz, ergibt ein vierseitiges Dokument (Vorderseite, innen-links, innen-rechts, Rückseite). Verwendet für Grußkarten, einfache Broschüren und Einladungen."@de,
+        "Single fold dividing the sheet into two equal panels — the simplest fold, producing a four-page document (front, inside-left, inside-right, back). Used for greeting cards, simple brochures, and invitations."@en,
+        "Un solo pliegue por el centro del pliego — la operación más simple, divide la hoja en dos paneles iguales."@es,
+        "शीट को दो बराबर पैनलों में बाँटने वाला एक फ़ोल्ड — सबसे सरल फ़ोल्ड, चार-पृष्ठ दस्तावेज़ (आगे, भीतर-बाएँ, भीतर-दाएँ, पीछे)। ग्रीटिंग कार्ड, सरल ब्रोशर और निमंत्रण में।"@hi,
+        "シートを2つの等しい面に分ける単一の折り — 最もシンプルな折りで、4ページの文書（表紙、内側左、内側右、裏表紙）を作る。グリーティングカード、シンプルなブローシュア、招待状に使用される。"@ja,
+        "Enkel folde som deler arket i to like paneler — den enkleste folden, som produserer et firesidig dokument (forside, innside-venstre, innside-høyre, bakside). Brukt til gratulasjonskort, enkle brosjyrer og invitasjoner."@nb,
+        "Eén vouw die het vel in twee gelijke panelen verdeelt — de eenvoudigste vouw, die een vierpaginadocument geeft (voorzijde, binnen-links, binnen-rechts, achterzijde). Gebruikt voor wenskaarten, eenvoudige brochures en uitnodigingen."@nl,
+        "Pojedynczy złam dzielący arkusz na dwa równe skrzydła — najprostszy złam, dający dokument czterostronicowy (przód, lewa strona wewnętrzna, prawa strona wewnętrzna, tył). Stosowany w kartkach okolicznościowych, prostych folderach i zaproszeniach."@pl,
+        "Uma única dobra que divide a folha em dois painéis iguais — a dobra mais simples, que produz um documento de quatro páginas (frente, interior esquerdo, interior direito, verso). Usada em cartões, folhetos simples e convites."@pt,
+        "En enda fals som delar arket i två lika paneler — den enklaste falsen, ger ett fyrsidigt dokument (framsida, insida vänster, insida höger, baksida). Används för gratulationskort, enkla broschyrer och inbjudningar."@sv,
+        "通过纸张中心的单一折页 —— 最简单的操作，将纸张分为两个相等的面板。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§SINGLE-FOLD" ;
+    skos:prefLabel "Enkeltfals"@da,
+        "Einfachfalz"@de,
+        "Single Fold"@en,
+        "Pliegue Simple"@es,
+        "सिंगल फ़ोल्ड"@hi,
+        "シングル折り"@ja,
+        "Enkel fold"@nb,
+        "Enkele vouw"@nl,
+        "Złam pojedynczy"@pl,
+        "Dobra simples"@pt,
+        "Enkelfals"@sv,
+        "对折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

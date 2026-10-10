@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/xerox> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/suppliers/xerox> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Xerox Corporation — amerikansk producent af digitale produktionspresser og virksomheden, der banede vejen for xerografi (elektrofotografi) i 1960’erne."@da,
+        "Xerox Corporation — US-amerikanischer Hersteller digitaler Produktionsdruckmaschinen und das Unternehmen, das in den 1960er-Jahren die Xerografie (Elektrofotografie) entwickelte."@de,
+        "Xerox Corporation — American manufacturer of digital production presses and the company that pioneered xerography (electrophotography) in the 1960s."@en,
+        "Xerox Corporation — fabricante estadounidense de prensas digitales de producción y la empresa que fue pionera de la xerografía (electrofotografía) en los años 60."@es,
+        "Xerox Corporation — डिजिटल प्रोडक्शन प्रेस का अमेरिकी निर्माता और 1960 के दशक में ज़ीरोग्राफ़ी (इलेक्ट्रोफ़ोटोग्राफ़ी) की अग्रणी कंपनी।"@hi,
+        "Xerox Corporation — デジタル生産印刷機の米国のメーカーで、1960年代にゼログラフィー（電子写真）を先駆けた企業。"@ja,
+        "Xerox Corporation — amerikansk produsent av digitale produksjonspresser og selskapet som var pionerer for xerografi (elektrofotografi) på 1960-tallet."@nb,
+        "Xerox Corporation — Amerikaanse fabrikant van digitale productiepersen en het bedrijf dat de xerografie (elektrofotografie) pionierde in de jaren zestig."@nl,
+        "Xerox Corporation — amerykański producent cyfrowych maszyn produkcyjnych i firma, która w latach 60. zapoczątkowała kserografię (elektrofotografię)."@pl,
+        "Xerox Corporation — fabricante americano de impressoras digitais de produção e a empresa que foi pioneira da xerografia (eletrofotografia) nos anos 1960."@pt,
+        "Xerox Corporation — amerikansk tillverkare av digitala produktionspressar och företaget som banade väg för xerografi (elektrofotografi) på 1960-talet."@sv,
+        "Xerox Corporation——美国数码生产印刷机制造商，是1960年代静电摄影（电子照相）的先驱。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-PRES-XRX" ;
+    skos:prefLabel "Xerox"@da,
+        "Xerox"@de,
+        "Xerox"@en,
+        "Xerox"@es,
+        "Xerox"@hi,
+        "Xerox"@ja,
+        "Xerox"@nb,
+        "Xerox"@nl,
+        "Xerox"@pl,
+        "Xerox"@pt,
+        "Xerox"@sv,
+        "Xerox"@zh-Hans ;
+    skos:scopeNote "Das Xerox-Produktportfolio umfasst die iGen-, Iridesse- und Versant-Serien für die Farbproduktion, die Nuvera-Serie für Schwarzweißproduktion sowie die Baltoro HF Inkjet-Druckmaschine für hohe Farbauflagen. Jedes Modell adressiert eine spezifische Volumen- und Qualitätsstufe."@de,
+        "Xerox's product lineup spans the iGen, Iridesse, and Versant series for color production, the Nuvera series for black-and-white production, and the Baltoro HF inkjet press for high-volume color. Each model targets a specific volume and quality tier."@en,
+        "La gama de productos de Xerox abarca las series iGen, Iridesse y Versant para producción a color, la serie Nuvera para producción en blanco y negro, y la prensa de inyección de tinta Baltoro HF para producción a color de alto volumen. Cada serie se posiciona en distintos puntos de la curva precio-volumen."@es,
+        "Xerox की उत्पाद श्रृंखला में रंग उत्पादन के लिए iGen, Iridesse और Versant सीरीज़, ब्लैक-एंड-व्हाइट उत्पादन के लिए Nuvera सीरीज़ और उच्च-मात्रा रंग के लिए Baltoro HF इंकजेट प्रेस शामिल। हर मॉडल विशिष्ट मात्रा और गुणवत्ता स्तर के लिए।"@hi,
+        "Xeroxの製品ラインアップは、カラー生産向けのiGen、Iridesse、Versantシリーズ、白黒生産向けのNuveraシリーズ、大量カラー向けのBaltoro HFインクジェット印刷機にわたる。各モデルは特定の生産量と品質階層を対象とする。"@ja,
+        "Xerox' produktlinje dekker iGen-, Iridesse- og Versant-serien for fargeproduksjon, Nuvera-serien for sort-hvitt produksjon, og Baltoro HF inkjet-pressen for høyvolum farge. Hver modell retter seg mot et spesifikt volum- og kvalitetsnivå."@nb,
+        "A linha de produtos da Xerox abrange as séries iGen, Iridesse e Versant para produção em cores, a série Nuvera para produção em preto e branco e a impressora de jato de tinta Baltoro HF para cores em alto volume. Cada modelo mira uma faixa específica de volume e qualidade."@pt,
+        "Xerox的产品线涵盖用于彩色生产的iGen、Iridesse和Versant系列、用于黑白生产的Nuvera系列以及用于大容量彩色印刷的Baltoro HF喷墨印刷机。每个系列定位于价格-数量曲线上的不同点。"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/saddle-stitching> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Ryghæftning"@da,
+        "Saddle stitch"@en,
+        "Saddle-stitched"@en,
+        "Stapled"@en,
+        "Stitched"@en,
+        "पिनिंग"@hi,
+        "सेंटर पिन"@hi,
+        "सेंटर स्टेपल"@hi,
+        "सैडल स्टिच"@hi,
+        "स्टेपल बाइंडिंग"@hi,
+        "Midtstiftet"@nb,
+        "Stiftet"@nb,
+        "Stifting"@nb,
+        "hechten"@nl,
+        "nieten"@nl,
+        "oprawa zeszytowa"@pl,
+        "zszywane"@pl,
+        "zszywanie zeszytowe"@pl,
+        "canoa"@pt,
+        "encadernação canoa"@pt,
+        "grampeado"@pt,
+        "grampo a cavalo"@pt,
+        "sela"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "Falsede ark hæftet med klammer gennem rygfalsen; almindeligt for hæfter og tynde magasiner."@da,
+        "Gefalzte Bogen, durch den Rückenfalz geheftet; üblich für Broschüren und dünne Magazine."@de,
+        "Folded sheets stapled through the spine fold; common for booklets and thin magazines."@en,
+        "Hojas plegadas grapadas a través del pliegue del lomo; común en folletos y revistas finas."@es,
+        "मुड़ी शीटें स्पाइन की तह पर स्टेपल से बँधी; बुकलेट और पतली पत्रिकाओं में आम।"@hi,
+        "折り丁の背の折り目を針金で綴じる。小冊子や薄い雑誌で一般的。"@ja,
+        "Brettede ark stiftet gjennom ryggbretten; vanlig for hefter og tynne magasiner."@nb,
+        "Gevouwen vellen door de rugvouw geniet; gebruikelijk voor boekjes en dunne magazines."@nl,
+        "Złożone arkusze zszyte przez złam grzbietu; typowe dla broszur i cienkich czasopism."@pl,
+        "Folhas dobradas grampeadas pela dobra da lombada; comum em folhetos e revistas finas."@pt,
+        "Falsade ark häftade genom ryggfalsen; vanligt för häften och tunna tidskrifter."@sv,
+        "对折页沿书脊折线穿钉装订；常见于小册子与薄杂志。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§SADDLE-STITCHING" ;
+    skos:prefLabel "Klammerhæftning"@da,
+        "Rückenstichheftung"@de,
+        "Saddle Stitching"@en,
+        "Saddle Stitching"@es,
+        "सैडल स्टिचिंग (सेंटर पिनिंग)"@hi,
+        "Saddle Stitching"@ja,
+        "Stifting"@nb,
+        "Nieten (hechten)"@nl,
+        "Szycie zeszytowe"@pl,
+        "Grampo canoa"@pt,
+        "Klammerhäftning"@sv,
+        "Saddle Stitching"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountConstraint "multipleOf(4)" ;
+    ptpge:pageCountMultiple 4 ;
+    ptpge:pageCountRange [ ] ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.32 · p.132" ;
+            ptpge:mappingRow "crosswalk row 39" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "Stitching" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,174 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/colors/cmyk",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "CMYK",
+    "nb": "CMYK",
+    "de": "CMYK",
+    "ja": "CMYK",
+    "es": "CMYK",
+    "zh-Hans": "CMYK",
+    "nl": "CMYK",
+    "sv": "CMYK",
+    "da": "CMYK",
+    "pl": "CMYK",
+    "pt": "CMYK",
+    "hi": "CMYK"
+  },
+  "altLabels": {
+    "en": [
+      "CMYK-color",
+      "CMYK-colours",
+      "Full Color",
+      "Full Colour",
+      "Four-Color",
+      "Four-Colour",
+      "Four-Color Process",
+      "Four-Colour Process",
+      "Process Color",
+      "Process Colour",
+      "4 Color",
+      "4 Colour",
+      "4-Color",
+      "4-Colour"
+    ],
+    "nb": [
+      "CMYK-farger",
+      "Fullfarge",
+      "Firefargetrykk",
+      "Prosessfarger",
+      "4-fargers trykk",
+      "4 farge",
+      "4 farger"
+    ],
+    "nl": [
+      "Vierkleurendruk",
+      "Full colour"
+    ],
+    "de": [
+      "Vierfarbdruck",
+      "4-farbig",
+      "4c",
+      "Prozessfarben",
+      "Skalenfarben",
+      "Euroskala"
+    ],
+    "sv": [
+      "Fyrfärgstryck",
+      "Fyrfärg",
+      "4-färg",
+      "4 färger",
+      "Processfärger"
+    ],
+    "da": [
+      "Firefarvetryk",
+      "Firefarve",
+      "4-farve",
+      "4 farver",
+      "Processfarver"
+    ],
+    "es": [
+      "Cuatricromía",
+      "Cuatro colores",
+      "Cuatro tintas",
+      "Color de proceso"
+    ],
+    "ja": [
+      "4色",
+      "四色",
+      "4色印刷",
+      "フルカラー",
+      "プロセスカラー"
+    ],
+    "zh-Hans": [
+      "四色印刷",
+      "四色",
+      "全彩",
+      "彩色印刷"
+    ],
+    "pl": [
+      "pełny kolor",
+      "pełnokolorowy",
+      "kolor CMYK"
+    ],
+    "pt": [
+      "quadricromia",
+      "4 cores",
+      "policromia",
+      "cores de escala",
+      "cor completa"
+    ],
+    "hi": [
+      "फ़ुल कलर",
+      "चार रंग",
+      "मल्टीकलर",
+      "प्रोसेस कलर",
+      "4 कलर",
+      "फ़ोर कलर प्रोसेस"
+    ]
+  },
+  "definition": {
+    "en": "Standard four-color process printing using Cyan, Magenta, Yellow, and Key (black) inks. The dominant color mode for full-color reproduction across offset, digital toner, and inkjet processes.",
+    "nb": "Standard 4-fargers prosesstrykk med Cyan, Magenta, Yellow og Key (sort). Den dominerende fargemodusen for fullfargereproduksjon på tvers av offset, digital toner og inkjet.",
+    "de": "Standard-Vierfarbdruck mit Cyan, Magenta, Yellow und Key (Schwarz). Der dominierende Farbmodus für Vollfarbreproduktion in Offset-, Digital-Toner- und Inkjet-Verfahren.",
+    "ja": "シアン、マゼンタ、イエロー、キー（黒）の4色によるプロセス印刷の標準。オフセット、デジタルトナー、インクジェットでのフルカラー再現の主流カラーモード。",
+    "es": "Impresión estándar de cuatricromía con tintas Cian, Magenta, Amarillo y Negro (Key). El modo de color dominante para la reproducción a todo color en ófset, tóner digital e inyección.",
+    "zh-Hans": "使用青、品红、黄、黑（Key）油墨的标准四色印刷。胶印、数字碳粉与喷墨全彩再现的主导色彩模式。",
+    "sv": "Standardmässigt fyrfärgstryck med cyan, magenta, gult och svart (Key). Det dominerande färgläget för fullfärgsåtergivning i offset, digital toner och inkjet.",
+    "da": "Standard firefarvetryk med cyan, magenta, gul og sort (Key). Den dominerende farvetilstand til fuldfarvegengivelse på tværs af offset, digital toner og inkjet.",
+    "nl": "Standaard vierkleurendruk met cyaan, magenta, geel en zwart (Key). De dominante kleurmodus voor fullcolourweergave in offset, digitale toner en inkjet.",
+    "pl": "Standardowy czterokolorowy druk procesowy farbami cyjan, magenta, żółtą i czarną (Key). Dominujący tryb koloru dla reprodukcji pełnokolorowej w offsecie, cyfrowym druku tonerowym i atramentowym.",
+    "pt": "Impressão padrão em quadricromia com as tintas Ciano, Magenta, Amarelo e Preto (Key). O modo de cor dominante para reprodução em cores em offset, toner digital e jato de tinta.",
+    "hi": "सायन, मैजेंटा, पीला और की (काला) स्याही से मानक चार-रंग प्रोसेस छपाई। ऑफसेट, डिजिटल टोनर और इंकजेट में पूर्ण-रंग पुनरुत्पादन का प्रमुख कलर मोड।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/colors",
+  "properties": {
+    "inkColorants": [
+      "C",
+      "M",
+      "Y",
+      "K"
+    ],
+    "colorChannelCount": 4,
+    "colorModel": "subtractive"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§CMYK",
+  "elementType": "value",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "visual": {
+    "symbols": {
+      "mockup": "assets/symbols/p:ft-cmyk-mockup.svg"
+    }
+  },
+  "exactMatch": [
+    "https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmyk"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "ColorantControl"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§6.15 · p.168"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 24"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a11> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "1.8 x 2.6 cm"@en,
+        "18 x 26 mm"@en,
+        "18x26"@en,
+        "18×26"@en,
+        "DIN A11"@en,
+        "A11-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "18 × 26 mm (0.71 × 1.02 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A10. Sjældent brugt uden for specialanvendelser som miniatureetiketter."@da,
+        "18 × 26 mm (0,71 × 1,02 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A10. Außerhalb von Spezialanwendungen wie Miniaturetiketten selten verwendet."@de,
+        "18 × 26 mm (0.71 × 1.02 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A10. Rarely used outside specialty applications such as miniature labels."@en,
+        "Formato A11 de la serie A de ISO 216, dimensiones 18 × 26 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
+        "18 × 26 mm (0.71 × 1.02 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A10 का आधा क्षेत्रफल। लघु लेबल जैसे विशेष उपयोगों के बाहर दुर्लभ।"@hi,
+        "18×26mm（0.71×1.02インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A10の半分の面積。ミニラベルなどの特殊用途以外ではほとんど使用されない。"@ja,
+        "18 × 26 mm (0,71 × 1,02 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A10. Sjelden brukt utenfor spesielle bruksområder som miniatyretiketter."@nb,
+        "18 × 26 mm (0.71 × 1.02 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A10. Zelden gebruikt buiten speciale toepassingen zoals miniatuuretiketten."@nl,
+        "18 × 26 mm (0,71 × 1,02 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A10. Rzadko używany poza zastosowaniami specjalnymi, np. miniaturowymi etykietami."@pl,
+        "18 × 26 mm (0.71 × 1.02 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A10. Raro fora de aplicações especiais como etiquetas em miniatura."@pt,
+        "18 × 26 mm (0.71 × 1.02 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A10. Sällan använt utanför specialtillämpningar som miniatyretiketter."@sv,
+        "ISO 216 A系列A11开本，尺寸18 × 26 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A11" ;
+    skos:prefLabel "A11 (18 x 26 mm)"@da,
+        "A11 (18 x 26 mm)"@de,
+        "A11 (18 x 26 mm)"@en,
+        "A11 (18 × 26 mm)"@es,
+        "A11 (18 x 26 mm)"@hi,
+        "A11 (18 x 26 mm)"@ja,
+        "A11 (18 x 26 mm)"@nb,
+        "A11 (18 x 26 mm)"@nl,
+        "A11 (18 x 26 mm)"@pl,
+        "A11 (18 x 26 mm)"@pt,
+        "A11 (18 x 26 mm)"@sv,
+        "A11 (18 × 26 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 468.0 ;
+            ptpge:aspectRatio 1.4444 ;
+            ptpge:height 26.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 18.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/varnish/uv-varnish> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "UV coating"@en,
+        "UV lacquer"@en,
+        "UV कोटिंग"@hi,
+        "UV लैकर"@hi,
+        "UV वार्निशिंग"@hi,
+        "UV-lakk"@nb,
+        "UV-lakkering"@nb,
+        "lakierowanie UV"@pl,
+        "powłoka UV"@pl,
+        "laca UV"@pt,
+        "revestimento UV"@pt,
+        "verniz UV"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/varnish> ;
+    skos:definition "En højglanslak, der hærdes øjeblikkeligt under ultraviolet lys."@da,
+        "Hochglänzender, sofort unter UV-Licht ausgehärteter Lack."@de,
+        "A high-gloss varnish cured instantly under ultraviolet light."@en,
+        "Un barniz de alto brillo curado instantáneamente con luz ultravioleta."@es,
+        "पराबैंगनी प्रकाश में तुरंत क्योर होने वाला उच्च-चमक वार्निश।"@hi,
+        "紫外線で瞬時に硬化する高光沢ニス。"@ja,
+        "Høyglans-lakk herdet umiddelbart under UV-lys."@nb,
+        "Een hoogglanslak die onmiddellijk uithardt onder ultraviolet licht."@nl,
+        "Lakier o wysokim połysku utwardzany natychmiast pod światłem ultrafioletowym."@pl,
+        "Verniz de alto brilho curado instantaneamente sob luz ultravioleta."@pt,
+        "En högglanslack som härdas omedelbart under ultraviolett ljus."@sv,
+        "在紫外光下瞬间固化的高光上光油。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§UV-VARNISH" ;
+    skos:prefLabel "UV-lak"@da,
+        "UV-Lack"@de,
+        "UV Varnish"@en,
+        "UV Varnish"@es,
+        "UV वार्निश"@hi,
+        "UV Varnish"@ja,
+        "UV-lakk"@nb,
+        "UV-lak"@nl,
+        "Lakier UV"@pl,
+        "Verniz UV"@pt,
+        "UV-lack"@sv,
+        "UV Varnish"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§5.5.3 · p.112" ;
+            ptpge:mappingRow "crosswalk row 26" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "Varnishing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

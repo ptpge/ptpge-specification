@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/vanguard-digital-printing-systems",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Vanguard Digital Printing Systems",
+    "es": "Vanguard Digital Printing Systems",
+    "zh-Hans": "Vanguard Digital Printing Systems",
+    "nb": "Vanguard Digital Printing Systems",
+    "de": "Vanguard Digital Printing Systems",
+    "ja": "Vanguard Digital Printing Systems",
+    "sv": "Vanguard Digital Printing Systems",
+    "da": "Vanguard Digital Printing Systems",
+    "nl": "Vanguard Digital Printing Systems",
+    "pl": "Vanguard Digital Printing Systems",
+    "pt": "Vanguard Digital Printing Systems",
+    "hi": "Vanguard Digital Printing Systems"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Vanguard Digital Printing Systems — American manufacturer of UV flatbed and roll-to-roll printers, focused on the wide-format sign and display market.",
+    "nb": "Vanguard Digital Printing Systems — amerikansk produsent av UV flatbed- og rull-til-rull-skrivere, fokusert på markedet for storformat skilt- og display.",
+    "de": "Vanguard Digital Printing Systems — US-amerikanischer Hersteller von UV-Flachbett- und Roll-to-Roll-Druckern, fokussiert auf den Großformat-Schilder- und Displaymarkt.",
+    "ja": "Vanguard Digital Printing Systems — UVフラットベッドおよびロールツーロールプリンターの米国のメーカー。大判サインおよびディスプレイ市場に焦点を当てる。",
+    "es": "Vanguard Digital Printing Systems — fabricante estadounidense de impresoras UV flatbed e híbridas para producción de signage industrial.",
+    "zh-Hans": "Vanguard Digital Printing Systems —— 美国工业标识生产用UV平板和混合打印机制造商。",
+    "sv": "Vanguard Digital Printing Systems — amerikansk tillverkare av UV-flatbädds- och rulle-till-rulle-skrivare, fokuserad på storformatsmarknaden för skyltar och displayer.",
+    "da": "Vanguard Digital Printing Systems — amerikansk producent af UV-flatbed- og rulle-til-rulle-printere, fokuseret på storformatmarkedet for skilte og displays.",
+    "nl": "Vanguard Digital Printing Systems — Amerikaanse fabrikant van UV-flatbed- en rol-naar-rolprinters, gericht op de grootformaatmarkt voor borden en displays.",
+    "pl": "Vanguard Digital Printing Systems — amerykański producent płaskich i rolowych drukarek UV, skupiony na wielkoformatowym rynku reklamy i ekspozycji.",
+    "pt": "Vanguard Digital Printing Systems — fabricante americano de impressoras UV flatbed e rolo a rolo, voltado ao mercado de sinalização e display de grande formato.",
+    "hi": "Vanguard Digital Printing Systems — UV फ़्लैटबेड और रोल-टू-रोल प्रिंटरों का अमेरिकी निर्माता, वाइड-फॉर्मेट साइन और डिस्प्ले बाज़ार पर केंद्रित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-WIDE-VANG",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

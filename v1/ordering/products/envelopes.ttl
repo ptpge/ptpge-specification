@@ -1,0 +1,178 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/envelopes> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "C4-kuvert"@da,
+        "C5-kuvert"@da,
+        "kuvert"@da,
+        "rudekuvert"@da,
+        "trykte kuverter"@da,
+        "Briefumschläge"@de,
+        "Fensterumschläge"@de,
+        "Kuverts"@de,
+        "Window envelopes"@en,
+        "envelope"@en,
+        "printed envelope"@en,
+        "sobre"@es,
+        "sobre DL"@es,
+        "sobre americano"@es,
+        "sobre con ventana"@es,
+        "sobre impreso"@es,
+        "एनवेलप"@hi,
+        "मुद्रित लिफ़ाफ़ा"@hi,
+        "लिफ़ाफ़ा"@hi,
+        "विंडो लिफ़ाफ़ा"@hi,
+        "印刷封筒"@ja,
+        "洋封筒"@ja,
+        "窓付き封筒"@ja,
+        "角2封筒"@ja,
+        "長3封筒"@ja,
+        "konvolutt"@nb,
+        "C4-envelop"@nl,
+        "C5-envelop"@nl,
+        "bedrukte enveloppen"@nl,
+        "envelop"@nl,
+        "vensterenvelop"@nl,
+        "koperta"@pl,
+        "koperta z nadrukiem"@pl,
+        "koperta z okienkiem"@pl,
+        "envelope"@pt,
+        "envelope com janela"@pt,
+        "envelope impresso"@pt,
+        "envelope personalizado"@pt,
+        "C4-kuvert"@sv,
+        "C5-kuvert"@sv,
+        "fönsterkuvert"@sv,
+        "kuverten"@sv,
+        "tryckta kuvert"@sv,
+        "中式信封"@zh-Hans,
+        "印刷信封"@zh-Hans,
+        "定制信封"@zh-Hans,
+        "开窗信封"@zh-Hans,
+        "西式信封"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En trykt kuvert til korrespondance og forsendelse — standard-, helflade- og papbagsideformater."@da,
+        "Ein bedruckter Umschlag für Korrespondenz und Versand."@de,
+        "A printed envelope for correspondence and mailing — standard, full-surface and board-back formats."@en,
+        "Un sobre impreso para correspondencia y envíos — formatos estándar, de impresión total y con dorso rígido."@es,
+        "पत्राचार और डाक के लिए मुद्रित लिफ़ाफ़ा — मानक, पूरी सतह पर छपा और बोर्ड-बैक फ़ॉर्मेट।"@hi,
+        "通信・郵送用の印刷封筒。標準タイプ、全面印刷、厚紙台紙付きなどの形式。"@ja,
+        "En trykt konvolutt for korrespondanse og utsending — standard, fullflate og kartongbakside."@nb,
+        "Een gedrukte envelop voor correspondentie en mailing — standaard-, volvlak- en bordrugformaten."@nl,
+        "Drukowana koperta do korespondencji i wysyłki — formaty standardowe, z zadrukiem pełnym i z usztywnionym tyłem."@pl,
+        "Envelope impresso para correspondência e mala direta — formatos padrão, com impressão total e com fundo rígido."@pt,
+        "Ett tryckt kuvert för korrespondens och utskick — standard-, heltäckande och kartongförstärkta format."@sv,
+        "用于通信和邮寄的印刷信封——标准、满版印刷和硬底格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§ENVELOPES" ;
+    skos:prefLabel "Kuverter"@da,
+        "Umschläge"@de,
+        "Envelopes"@en,
+        "Sobres"@es,
+        "लिफ़ाफ़े"@hi,
+        "封筒"@ja,
+        "Konvolutter"@nb,
+        "Enveloppen"@nl,
+        "Koperty"@pl,
+        "Envelopes"@pt,
+        "Kuvert"@sv,
+        "信封"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-fibre>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/c4m>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/c6-c5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ce4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ce64>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e56>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e6>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e65>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ec45>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ec5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b6>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c3>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c6>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-c7>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/ex5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/r7>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s5>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/s65>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/x5> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFibre <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

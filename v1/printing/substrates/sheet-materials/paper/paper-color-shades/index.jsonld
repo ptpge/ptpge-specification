@@ -1,0 +1,110 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Paper Color Shades",
+    "es": "Tonos de Color del Papel",
+    "zh-Hans": "纸张色调",
+    "nb": "Papirfargenyanser",
+    "de": "Papierfarbtöne",
+    "ja": "用紙の色合い",
+    "sv": "Pappersnyanser",
+    "da": "Papirnuancer",
+    "nl": "Papiertinten",
+    "pl": "Odcienie papieru",
+    "pt": "Tonalidades de papel",
+    "hi": "काग़ज़ की रंगत"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/ivory-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/gray-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Color and brightness classifications for paper, measured by CIE whiteness index — describes the paper's natural color before any printed ink is applied.",
+    "nb": "Farge- og lysstyrkeklassifiseringer for papir, målt med CIE-hvithetsindeks — beskriver papirets naturlige farge før noe trykkblekk påføres.",
+    "de": "Farb- und Helligkeitsklassifizierungen für Papier, gemessen am CIE-Weißegrad — beschreibt die natürliche Farbe des Papiers vor dem Auftragen jeglicher Druckfarbe.",
+    "ja": "CIE白色度指数で測定される、紙の色および明度の分類 — インキが印刷される前の紙そのものの色を記述する。",
+    "es": "Clasificaciones de color y blancura del papel, medidas por el índice CIE de blancura — describen el color natural del papel antes de aplicar tinta impresa.",
+    "zh-Hans": "纸张颜色和白度分类，按CIE白度指数测量——描述施加印刷油墨之前纸张的天然颜色。",
+    "sv": "Färg- och vithetsklassificeringar för papper, mätta med CIE-vithetsindex — beskriver papperets naturliga färg innan något tryckt bläck applicerats.",
+    "da": "Farve- og hvidhedsklassifikationer for papir, målt med CIE-hvidhedsindeks — beskriver papirets naturlige farve, før der påføres trykfarve.",
+    "nl": "Kleur- en witheidsclassificaties voor papier, gemeten met de CIE-witheidsindex — beschrijft de natuurlijke kleur van het papier vóór het aanbrengen van drukinkt.",
+    "pl": "Klasyfikacje barwy i jasności papieru mierzone wskaźnikiem białości CIE — opisują naturalną barwę papieru przed naniesieniem jakiejkolwiek farby.",
+    "pt": "Classificações de cor e brancura do papel, medidas pelo índice de brancura CIE — descreve a cor natural do papel antes de qualquer tinta impressa.",
+    "hi": "CIE सफ़ेदी सूचकांक से मापे गए काग़ज़ के रंग और चमक के वर्ग — किसी छपी स्याही से पहले काग़ज़ के प्राकृतिक रंग का वर्णन।"
+  },
+  "scopeNote": {
+    "en": "Ranges from kraft and natural papers (CIE 60–80, warm tone) through ivory and gray (intermediate) to white and bright-white (CIE 90+). Choice affects the perceived tone of printed colors and the overall character of the printed product.",
+    "nb": "Strekker seg fra kraft- og naturpapir (CIE 60–80, varm tone) via ivory og grått (mellomtone) til hvitt og ekstra hvitt (CIE 90+). Valget påvirker oppfattet tone av trykkfarger og det helhetlige uttrykket til trykksaken.",
+    "de": "Reicht von Kraft- und Naturpapier (CIE 60–80, warmer Ton) über Elfenbein und Grau (mittel) bis Weiß und Hochweiß (CIE 90+). Die Wahl beeinflusst den wahrgenommenen Ton der gedruckten Farben und den Gesamtcharakter des Druckerzeugnisses.",
+    "ja": "クラフトおよび自然紙（CIE 60〜80、暖色系）から、アイボリーおよびグレー（中間色）を経て、ホワイトおよびブライトホワイト（CIE 90以上）まで及ぶ。選択は印刷された色の見え方や印刷物全体の特徴に影響する。",
+    "es": "Va desde papeles kraft y naturales (CIE 60–80, tono cálido) pasando por marfil y gris (intermedios) hasta blanco y blanco-brillante (CIE 90+). La elección afecta al tono percibido de los colores impresos y al carácter visual general del producto.",
+    "zh-Hans": "范围从牛皮纸和天然纸（CIE 60–80，暖调）经象牙和灰色（中间）到白色和亮白色（CIE 90+）。选择影响印刷颜色的感知色调和产品的整体视觉特性。",
+    "pt": "Vai de papéis kraft e naturais (CIE 60–80, tom quente), passando por marfim e cinza (intermediários), até branco e branco brilhante (CIE 90+). A escolha afeta o tom percebido das cores impressas e o caráter geral do impresso.",
+    "hi": "क्राफ़्ट और नैचुरल काग़ज़ (CIE 60–80, गर्म टोन) से आइवरी और ग्रे (मध्यम) से सफ़ेद और ब्राइट-व्हाइट (CIE 90+) तक। चुनाव छपे रंगों की अनुभूत टोन और उत्पाद के समग्र चरित्र को प्रभावित करता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:SB-SHT-PAPR-PCSH",
+  "altLabels": {
+    "en": [
+      "Paper Colour Shades"
+    ],
+    "pl": [
+      "kolory papieru",
+      "białość papieru"
+    ],
+    "pt": [
+      "cor do papel",
+      "tonalidade do papel"
+    ],
+    "hi": [
+      "काग़ज़ का रंग",
+      "पेपर शेड"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 36"
+    }
+  ]
+}

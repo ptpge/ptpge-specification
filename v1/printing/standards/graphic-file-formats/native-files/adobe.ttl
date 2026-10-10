@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files> ;
+    skos:definition "Programegne filformater for Adobes design- og Creative Suite-programmer."@da,
+        "Anwendungseigene Dateiformate für Adobes Design- und Creative-Suite-Anwendungen."@de,
+        "Native file formats for Adobe's design and creative-suite applications."@en,
+        "Formatos de archivo nativos para las aplicaciones de diseño y suite creativa de Adobe."@es,
+        "Adobe के डिज़ाइन और क्रिएटिव-सूट एप्लिकेशनों के नेटिव फ़ाइल फ़ॉर्मेट।"@hi,
+        "Adobeのデザインおよびクリエイティブスイートアプリケーション用のネイティブファイル形式。"@ja,
+        "Programspesifikke filformater for Adobes design- og kreativsuite-applikasjoner."@nb,
+        "Programma-eigen bestandsformaten voor Adobes ontwerp- en Creative Suite-programma's."@nl,
+        "Natywne formaty plików aplikacji projektowych i pakietu kreatywnego Adobe."@pl,
+        "Formatos de arquivo nativos dos aplicativos de design e da suíte criativa da Adobe."@pt,
+        "Programegna filformat för Adobes design- och Creative Suite-program."@sv,
+        "Adobe设计和创意套件应用程序的原生文件格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/adobe-illustrator>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/adobe-photoshop>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/indesign> ;
+    skos:notation "P:ST-GFF-NATV-ADOB" ;
+    skos:prefLabel "Adobe"@da,
+        "Adobe"@de,
+        "Adobe"@en,
+        "Adobe"@es,
+        "Adobe"@hi,
+        "Adobe"@ja,
+        "Adobe"@nb,
+        "Adobe"@nl,
+        "Adobe"@pl,
+        "Adobe"@pt,
+        "Adobe"@sv,
+        "Adobe"@zh-Hans ;
+    skos:scopeNote "Umfasst Adobe Illustrator (.ai) für Vektorillustrationen, Adobe Photoshop (.psd) für Rasterbildbearbeitung und Adobe InDesign (.indd) für Seitenlayout. Aus jeder dieser Anwendungen exportiertes PDF ist das Lieferformat für den Druck."@de,
+        "Covers Adobe Illustrator (.ai) for vector illustration, Adobe Photoshop (.psd) for raster image editing, and Adobe InDesign (.indd) for page layout. PDF, exported from any of these, is the print delivery format."@en,
+        "Cubre Adobe Illustrator (.ai) para ilustración vectorial, Adobe Photoshop (.psd) para edición de imagen raster y Adobe InDesign (.indd) para maquetación de página. El PDF, exportado desde cualquiera de ellos, es el estándar de entrega a imprenta."@es,
+        "वेक्टर चित्रण के लिए Adobe Illustrator (.ai), रास्टर छवि संपादन के लिए Adobe Photoshop (.psd) और पेज लेआउट के लिए Adobe InDesign (.indd) शामिल। इनमें से किसी से निर्यात की गई PDF प्रिंट डिलीवरी फ़ॉर्मेट है।"@hi,
+        "ベクターイラストレーション用のAdobe Illustrator（.ai）、ラスター画像編集用のAdobe Photoshop（.psd）、ページレイアウト用のAdobe InDesign（.indd）を扱う。これらのいずれからエクスポートされたPDFが、印刷の納品形式となる。"@ja,
+        "Dekker Adobe Illustrator (.ai) for vektorillustrasjon, Adobe Photoshop (.psd) for rasterredigering, og Adobe InDesign (.indd) for sideoppsett. PDF, eksportert fra hvilken som helst av disse, er leveringsformatet til trykk."@nb,
+        "Cobre Adobe Illustrator (.ai) para ilustração vetorial, Adobe Photoshop (.psd) para edição de imagem raster e Adobe InDesign (.indd) para diagramação. O PDF, exportado de qualquer um deles, é o formato de entrega para impressão."@pt,
+        "涵盖用于矢量插图的Adobe Illustrator（.ai）、用于位图图像编辑的Adobe Photoshop（.psd）和用于页面布局的Adobe InDesign（.indd）。从任一格式导出的PDF是印刷交付标准。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

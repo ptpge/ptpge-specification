@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/c-series/c5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "16.2 x 22.9 cm"@en,
+        "162 x 229 mm"@en,
+        "162x229"@en,
+        "162×229"@en,
+        "DIN C5"@en,
+        "C5-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/c-series> ;
+    skos:definition "162 × 229 mm (6.38 × 9.02 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A4-ark foldet én gang, eller et A5-ark fladt. Almindeligt til tykkere korrespondance."@da,
+        "162 × 229 mm (6,38 × 9,02 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen einmal gefalteten A4-Bogen oder einen ungefalteten A5-Bogen. Üblich für umfangreichere Korrespondenz."@de,
+        "162 × 229 mm (6.38 × 9.02 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A4 sheet folded once, or an A5 sheet flat. Common for thick correspondence."@en,
+        "Sobre C5 de la serie C de ISO 269, dimensiones 162 × 229 mm. Diseñado para contener una hoja A del mismo número."@es,
+        "162 × 229 mm (6.38 × 9.02 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A4 शीट एक बार मुड़ी या A5 सपाट समाती है। मोटे पत्राचार में आम।"@hi,
+        "162×229mm（6.38×9.02インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A4を1回折って、またはA5を折らずに収納。厚みのある書類で一般的。"@ja,
+        "162 × 229 mm (6,38 × 9,02 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A4-ark brettet én gang, eller et A5-ark uten brett. Vanlig for tykk korrespondanse."@nb,
+        "162 × 229 mm (6.38 × 9.02 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een eenmaal gevouwen A4-vel, of een vlak A5-vel. Gebruikelijk voor dikkere correspondentie."@nl,
+        "162 × 229 mm (6,38 × 9,02 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A4 złożony raz lub arkusz A5 na płasko. Typowa dla grubszej korespondencji."@pl,
+        "162 × 229 mm (6.38 × 9.02 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A4 dobrada uma vez, ou uma A5 aberta. Comum em correspondência volumosa."@pt,
+        "162 × 229 mm (6.38 × 9.02 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A4-ark vikt en gång, eller ett A5-ark plant. Vanligt för tjockare korrespondens."@sv,
+        "ISO 269 C系列C5信封，尺寸162 × 229 mm。设计用于装相同编号的A纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§C5" ;
+    skos:prefLabel "C5 (162 x 229 mm)"@da,
+        "C5 (162 x 229 mm)"@de,
+        "C5 (162 x 229 mm)"@en,
+        "C5 (162 × 229 mm)"@es,
+        "C5 (162 x 229 mm)"@hi,
+        "C5 (162 x 229 mm)"@ja,
+        "C5 (162 x 229 mm)"@nb,
+        "C5 (162 x 229 mm)"@nl,
+        "C5 (162 x 229 mm)"@pl,
+        "C5 (162 x 229 mm)"@pt,
+        "C5 (162 x 229 mm)"@sv,
+        "C5 (162 × 229 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 37098.0 ;
+            ptpge:aspectRatio 1.4136 ;
+            ptpge:height 229.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 162.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

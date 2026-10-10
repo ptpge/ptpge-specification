@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Flood UV Coating"@en,
+        "पूरी UV कोटिंग"@hi,
+        "फ़ुल UV"@hi,
+        "फ़्लड UV कोटिंग"@hi,
+        "Heldekkende UV-lakk"@nb,
+        "lakier UV całościowy"@pl,
+        "lakierowanie UV pełne"@pl,
+        "UV total"@pt,
+        "verniz UV de cobertura"@pt,
+        "verniz UV total"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments> ;
+    skos:definition "UV-hærdet lak påført hele overfladen (helflade blank eller mat finish afhængigt af lakformulering). Giver slidstyrke og et ensartet beskyttende lag."@da,
+        "UV-gehärteter Lack, vollflächig aufgebracht (glänzendes oder mattes Finish, je nach Lackformulierung)."@de,
+        "UV-cured varnish applied to the entire surface (full-coverage glossy or matte finish, depending on varnish formulation). Provides scuff resistance and a uniform protective layer."@en,
+        "Barniz curado por UV aplicado a toda la superficie (acabado brillante o mate de cobertura total, según la formulación). Aporta resistencia al roce y una capa protectora uniforme."@es,
+        "पूरी सतह पर लगाया गया UV-क्योर्ड वार्निश (वार्निश के अनुसार पूर्ण-कवरेज ग्लॉसी या मैट फ़िनिश)। खरोंच-रोधी और एकसमान सुरक्षात्मक परत।"@hi,
+        "表面全体に塗布する UV 硬化ニス（処方によりグロスまたはマットの全面仕上げ）。擦り傷への耐性と均一な保護層を与える。"@ja,
+        "UV-herdet lakk påført hele overflaten (full-flate glanset eller matt finish, avhengig av lakk-formulering). Gir skrap-motstand og et uniform beskyttelseslag."@nb,
+        "UV-gehard lak op het volledige oppervlak (dekkende glanzende of matte afwerking, afhankelijk van de lakformulering). Biedt slijtvastheid en een uniforme beschermlaag."@nl,
+        "Lakier utwardzany UV nanoszony na całą powierzchnię (pełnokryjące wykończenie błyszczące lub matowe, zależnie od receptury lakieru). Zapewnia odporność na zarysowania i jednolitą warstwę ochronną."@pl,
+        "Verniz curado por UV aplicado em toda a superfície (acabamento brilhante ou fosco de cobertura total, conforme a formulação). Dá resistência a arranhões e uma camada protetora uniforme."@pt,
+        "UV-härdad lack applicerad över hela ytan (heltäckande blank eller matt finish beroende på lackformulering). Ger nötningsskydd och ett enhetligt skyddande skikt."@sv,
+        "施加于整个表面的 UV 固化上光油（视配方呈全幅亮光或哑光效果）。提供耐磨性与均匀的保护层。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§FULL-UV-VARNISH" ;
+    skos:prefLabel "Heldækkende UV-lak"@da,
+        "Vollflächiger UV-Lack"@de,
+        "Full UV Varnish"@en,
+        "Barniz UV total"@es,
+        "फ़ुल UV वार्निश"@hi,
+        "全面UVニス"@ja,
+        "Full UV-lakk"@nb,
+        "Volvlaks UV-lak"@nl,
+        "Lakier UV pełny"@pl,
+        "Verniz UV total"@pt,
+        "Heltäckande UV-lack"@sv,
+        "全面 UV 上光"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§5.5.3 · p.112" ;
+            ptpge:mappingRow "crosswalk row 26" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "Varnishing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

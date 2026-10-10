@@ -1,0 +1,68 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding/tri-fold-stand",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Tri Fold Stand",
+    "es": "Tríptico Display",
+    "zh-Hans": "三折立式",
+    "nb": "Tre-fold stativ",
+    "de": "Wickelfalz mit Standfuß",
+    "ja": "三つ折りスタンド",
+    "sv": "C-fals med ställ",
+    "da": "Trefals bordstander",
+    "nl": "Wikkelvouw tafelstandaard",
+    "pl": "Złam na C stojący",
+    "pt": "Tríptico de mesa",
+    "hi": "ट्राई-फ़ोल्ड स्टैंड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§TRI-FOLD-STAND",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/completions/folding",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Tri-fold variant where one panel is sized to act as a base or stand, allowing the folded piece to stand upright on a flat surface. Used for table tents, freestanding promotional cards, and counter displays.",
+    "nb": "Tri-fold-variant der ett panel er dimensjonert til å fungere som en base eller stativ, og lar den foldede biten stå oppreist på en flat overflate. Brukt til bordreklame, frittstående promoteringskort og diskdisplayer.",
+    "de": "Variante des Wickelfalzes, bei der ein Feld als Sockel oder Standfuß bemessen ist und so dem gefalzten Stück ermöglicht, aufrecht auf einer ebenen Fläche zu stehen. Verwendet für Tischaufsteller, freistehende Werbekarten und Thekendisplays.",
+    "ja": "三つ折りのバリアントで、1つの面が台または支えとして機能するサイズに設定され、折った印刷物が平らな面に直立できるようにする。テーブルテント、自立型プロモーションカード、カウンターディスプレイに使用される。",
+    "es": "Tríptico plegado de forma que permita al producto quedar de pie como display — habitual en menús, tarjetones de mesa.",
+    "zh-Hans": "三折以使产品能像立式展示一样直立 —— 常见于菜单、桌面卡片。",
+    "sv": "C-falsvariant där en panel är dimensionerad som bas eller stöd, så att den falsade produkten kan stå upprätt på ett plant underlag. Används för bordsryttare, fristående kampanjkort och diskdisplayer.",
+    "da": "Trefals-variant, hvor ét panel er dimensioneret som base eller stander, så det falsede tryk kan stå oprejst på en flad overflade. Bruges til bordkort, fritstående kampagnekort og diskdisplay.",
+    "nl": "Wikkelvouwvariant waarbij één paneel als basis of standaard is bemeten, zodat het gevouwen stuk rechtop kan staan op een vlak oppervlak. Gebruikt voor tafelkaarten, vrijstaande promotiekaarten en baliedisplays.",
+    "pl": "Wariant złamu na C, w którym jedno skrzydło ma rozmiar podstawy lub stojaka, dzięki czemu złożony element stoi pionowo na płaskiej powierzchni. Stosowany w stojaczkach na stół, wolnostojących kartach promocyjnych i ekspozytorach ladowych.",
+    "pt": "Variante do tríptico em que um painel é dimensionado para servir de base ou apoio, permitindo que a peça dobrada fique em pé sobre uma superfície plana. Usada em cartões de mesa, peças promocionais autoportantes e displays de balcão.",
+    "hi": "ट्राई-फ़ोल्ड का वह रूप जिसमें एक पैनल आधार या स्टैंड की तरह मापा जाता है ताकि मुड़ी सामग्री सपाट सतह पर खड़ी रहे। टेबल टेंट, स्वयं खड़े प्रचार कार्ड और काउंटर डिस्प्ले में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

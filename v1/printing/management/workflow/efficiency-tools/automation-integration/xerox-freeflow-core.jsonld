@@ -1,0 +1,54 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/xerox-freeflow-core",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Xerox FreeFlow Core",
+    "es": "Xerox FreeFlow Core",
+    "zh-Hans": "Xerox FreeFlow Core",
+    "nb": "Xerox FreeFlow Core",
+    "de": "Xerox FreeFlow Core",
+    "ja": "Xerox FreeFlow Core",
+    "sv": "Xerox FreeFlow Core",
+    "da": "Xerox FreeFlow Core",
+    "nl": "Xerox FreeFlow Core",
+    "pl": "Xerox FreeFlow Core",
+    "pt": "Xerox FreeFlow Core",
+    "hi": "Xerox FreeFlow Core"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§XEROX-FREEFLOW-CORE",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Xerox FreeFlow Core — workflow automation platform optimized for Xerox digital production presses, providing job intake, preflight, automated routing, and integration with Xerox press controllers.",
+    "nb": "Xerox FreeFlow Core — workflow-automasjonsplattform optimalisert for Xerox digitale produksjonspresser, med jobb-mottak, preflight, automatisert ruting og integrasjon med Xerox press-kontrollere.",
+    "de": "Xerox FreeFlow Core — auf Xerox-Digitalproduktionsmaschinen optimierte Workflow-Automatisierungsplattform, die Auftragsannahme, Preflight, automatisches Routing und Integration mit den Xerox-Maschinensteuerungen bietet.",
+    "ja": "Xerox FreeFlow Core — Xeroxデジタル生産印刷機向けに最適化されたワークフロー自動化プラットフォーム。ジョブ受付、プリフライト、自動ルーティング、Xerox印刷機コントローラーとの統合を提供する。",
+    "es": "Plataforma de automatización del flujo de trabajo de Xerox para producción digital — automatiza preflight, imposición y procesamiento previo a la prensa.",
+    "zh-Hans": "Xerox面向数码生产的工作流程自动化平台——自动化印前、拼版和印刷前处理。",
+    "sv": "Xerox FreeFlow Core — automationsplattform optimerad för Xerox digitala produktionspressar, med jobbintag, preflight, automatiserad dirigering och integration med Xerox presskontrollers.",
+    "da": "Xerox FreeFlow Core — workflow-automatiseringsplatform optimeret til Xerox' digitale produktionspresser med ordremodtagelse, preflight, automatiseret rutning og integration med Xerox' pressestyring.",
+    "nl": "Xerox FreeFlow Core — workflowautomatiseringsplatform geoptimaliseerd voor Xerox' digitale productiepersen, met orderintake, preflight, geautomatiseerde routering en integratie met Xerox-persbesturing.",
+    "pl": "Xerox FreeFlow Core — platforma automatyzacji workflow zoptymalizowana pod maszyny cyfrowe Xerox, zapewniająca przyjęcie zlecenia, preflight, automatyczne kierowanie i integrację z kontrolerami maszyn Xerox.",
+    "pt": "Xerox FreeFlow Core — plataforma de automação de fluxo de trabalho otimizada para impressoras digitais de produção Xerox, com entrada de trabalhos, preflight, roteamento automatizado e integração com os controladores de impressora Xerox.",
+    "hi": "Xerox FreeFlow Core — Xerox डिजिटल प्रोडक्शन प्रेस के लिए अनुकूलित वर्कफ़्लो स्वचालन प्लेटफ़ॉर्म, जॉब इनटेक, प्रीफ़्लाइट, स्वचालित रूटिंग और Xerox प्रेस कंट्रोलरों से एकीकरण।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

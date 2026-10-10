@@ -1,0 +1,139 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/rollups> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "oprullelig banner"@da,
+        "roll-up"@da,
+        "rollup"@da,
+        "rollup-banner"@da,
+        "rollups"@da,
+        "Roll-up-Banner"@de,
+        "Roll-up-Displays"@de,
+        "Rollbanner"@de,
+        "Pull-up Banners"@en,
+        "Roll-up Banners"@en,
+        "Roller banner"@en,
+        "Roller banners"@en,
+        "banner stand"@en,
+        "pull-up banner"@en,
+        "retractable banner"@en,
+        "roll-up banner"@en,
+        "banner enrollable"@es,
+        "display enrollable"@es,
+        "enrollable"@es,
+        "expositor enrollable"@es,
+        "roll up"@es,
+        "roller banner"@es,
+        "पुल-अप बैनर"@hi,
+        "बैनर स्टैंड"@hi,
+        "रिट्रैक्टेबल बैनर"@hi,
+        "रोल-अप"@hi,
+        "रोल-अप स्टैंडी"@hi,
+        "रोलर बैनर"@hi,
+        "バナースタンド"@ja,
+        "ロールアップ"@ja,
+        "ロールスクリーンバナー"@ja,
+        "巻き取り式バナー"@ja,
+        "Roll-up"@nb,
+        "Rollup"@nb,
+        "banner-stativ"@nb,
+        "rollup"@nb,
+        "Rolbanner"@nl,
+        "Rolbanners"@nl,
+        "Roll-upbanners"@nl,
+        "bannerstandaard"@nl,
+        "oprolbare banner"@nl,
+        "roll-up"@nl,
+        "rollup"@nl,
+        "rollups"@nl,
+        "baner roll-up"@pl,
+        "baner zwijany"@pl,
+        "roll-up"@pl,
+        "stojak roll-up"@pl,
+        "banner enrolável"@pt,
+        "banner retrátil"@pt,
+        "banner roll-up"@pt,
+        "porta-banner"@pt,
+        "roll up banner"@pt,
+        "roll-up"@pt,
+        "roll-up"@sv,
+        "rollup"@sv,
+        "rollupbanderoll"@sv,
+        "rollups"@sv,
+        "rullbanderoll"@sv,
+        "rullgardinsbanderoll"@sv,
+        "X展架"@zh-Hans,
+        "卷轴展架"@zh-Hans,
+        "展架"@zh-Hans,
+        "拉画展架"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et optrækkeligt banner, der trækkes op fra en basekassette til et fritstående display — til arrangementer og detail."@da,
+        "Ein einziehbares Banner, das aus einer Bodenkassette zu einem freistehenden Display aufgezogen wird."@de,
+        "A retractable banner that pulls up from a base cassette into a free-standing display — for events and retail."@en,
+        "Una pancarta retráctil que se despliega desde una base con casete hasta formar un expositor autoportante — para eventos y retail."@es,
+        "बेस कैसेट से ऊपर खींचकर स्वयं खड़ा होने वाला रिट्रैक्टेबल बैनर — आयोजनों और खुदरा के लिए।"@hi,
+        "ベースのカセットから引き上げて自立させるロールアップバナー。イベントや店頭に。"@ja,
+        "Et opprullbart banner som trekkes opp fra en bunnkassett til en frittstående display — for arrangementer og butikk."@nb,
+        "Een oprolbaar banner dat vanuit een cassette omhoog wordt getrokken tot een vrijstaand display — voor evenementen en retail."@nl,
+        "Zwijany baner wysuwany z kasety podstawy w wolnostojącą ekspozycję — na wydarzenia i do handlu."@pl,
+        "Banner retrátil que se puxa de uma base com cassete até formar um display autoportante — para eventos e varejo."@pt,
+        "En indragbar banderoll som dras upp ur en baskassett till en fristående display — för evenemang och detaljhandel."@sv,
+        "从底座卷盒拉出的自立式易拉宝展架——用于活动和零售。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§ROLLUPS" ;
+    skos:prefLabel "Roll-ups"@da,
+        "Roll-ups"@de,
+        "Rollups"@en,
+        "Enrollables"@es,
+        "रोल-अप बैनर"@hi,
+        "ロールアップバナー"@ja,
+        "Rollups"@nb,
+        "Roll-ups"@nl,
+        "Roll-upy"@pl,
+        "Roll-ups"@pt,
+        "Roll-ups"@sv,
+        "易拉宝"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-100x200>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-120x200>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-150x200>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-200x200>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-23-5x80-in>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-33-5x80-in>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-47x80-in>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-85x200> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/paper>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/textile>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/vinyl> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    ptpge:version "2026-09-28" .
+

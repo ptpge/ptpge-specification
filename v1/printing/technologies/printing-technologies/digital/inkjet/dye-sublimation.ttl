@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Sublimering"@da,
+        "Dye sublimation"@en,
+        "Dye-sub"@en,
+        "Sublimation"@en,
+        "डाई सब्लिमेशन"@hi,
+        "सब्लिमेशन"@hi,
+        "Sublimering"@nb,
+        "sublimatie"@nl,
+        "druk sublimacyjny"@pl,
+        "sublimacja barwnikowa"@pl,
+        "termosublimacja"@pl,
+        "Dye-sub"@pt,
+        "Sublimação de corante"@pt,
+        "Sublimática"@pt,
+        "Sublimering"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    skos:definition "Inkjetvariant med farvestofbaserede blæk, der ved opvarmning går fra fast form til gas og binder direkte til syntetiske substratfibre (især polyester). Giver lysende, holdbare, heldækkende tryk. Dominerende til tekstil, blød skiltning og beklædningstryk."@da,
+        "Inkjet-Variante mit Farbstofftinten, die beim Erwärmen vom festen in den gasförmigen Zustand übergehen und sich direkt mit synthetischen Bedruckstofffasern (insbesondere Polyester) verbinden. Erzeugt leuchtende, haltbare und vollflächige Drucke. Dominant für Textil-, Soft-Signage- und Bekleidungsdruck."@de,
+        "Inkjet variant using dye-based inks that, when heated, transition from solid to gas and bond directly with synthetic substrate fibers (especially polyester). Produces vibrant, durable, full-coverage prints. Dominant for textile, soft signage, and apparel printing."@en,
+        "Variante de inyección de tinta donde el tinte se transfiere en estado gaseoso al sustrato por calor — habitual para textiles sintéticos, productos promocionales y signage soft."@es,
+        "इंकजेट वेरिएंट जिसमें डाई-आधारित स्याही गर्म होने पर ठोस से गैस बनकर सीधे सिंथेटिक सब्सट्रेट के रेशों (विशेषकर पॉलिएस्टर) से जुड़ती है। चटख, टिकाऊ, पूर्ण-कवरेज प्रिंट। कपड़ा, सॉफ़्ट साइनेज और परिधान छपाई में प्रमुख।"@hi,
+        "加熱により固体から気体に転移し、合成基材繊維（特にポリエステル）と直接結合する染料系インキを使用するインクジェットのバリアント。鮮やか、耐久性、全面被覆の印刷物を生み出す。テキスタイル、ソフトサイン、アパレル印刷で主流。"@ja,
+        "Inkjet-variant som bruker farge-baserte blekk som, når de varmes opp, går fra fast til gass og binder seg direkte med syntetiske substratfibre (spesielt polyester). Produserer levende, holdbare, helhetsdekkende trykk. Dominerende for tekstil, myk skilting og klær."@nb,
+        "Inkjetvariant met kleurstofinkten die bij verhitting van vast naar gas overgaan en zich direct binden aan synthetische substraatvezels (vooral polyester). Levert levendige, duurzame, dekkende prints. Dominant voor textiel, soft signage en kledingdruk."@nl,
+        "Wariant druku atramentowego z atramentami barwnikowymi, które po podgrzaniu przechodzą ze stanu stałego w gaz i wiążą się bezpośrednio z włóknami podłoża syntetycznego (zwłaszcza poliestru). Daje żywe, trwałe wydruki pełnokryjące. Dominująca w druku na tekstyliach, miękkim oznakowaniu i odzieży."@pl,
+        "Variante de jato de tinta que usa tintas à base de corante que, ao serem aquecidas, passam de sólido a gás e se ligam diretamente às fibras de substratos sintéticos (especialmente poliéster). Produz impressões vibrantes, duráveis e de cobertura total. Dominante em têxteis, sinalização flexível e vestuário."@pt,
+        "Inkjetvariant med färgämnesbaserade bläck som vid uppvärmning övergår från fast form till gas och binder direkt till syntetiska substratfibrer (särskilt polyester). Ger lysande, hållbara, heltäckande tryck. Dominerande för textil, mjuk skyltning och konfektionstryck."@sv,
+        "喷墨变体，染料通过热量以气态转移到承印物 —— 常用于合成纺织品、宣传产品和软标识。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§DYE-SUBLIMATION" ;
+    skos:prefLabel "Sublimeringstryk"@da,
+        "Thermosublimation"@de,
+        "Dye-sublimation"@en,
+        "Sublimación de Tinta"@es,
+        "डाई-सब्लिमेशन"@hi,
+        "昇華転写"@ja,
+        "Dye-sublimering"@nb,
+        "Sublimatiedruk"@nl,
+        "Sublimacja"@pl,
+        "Sublimação"@pt,
+        "Sublimeringstryck"@sv,
+        "热升华"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

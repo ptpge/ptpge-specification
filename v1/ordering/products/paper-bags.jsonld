@@ -1,0 +1,214 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/paper-bags",
+  "type": "skos:Concept",
+  "version": "2026-09-23",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§PAPER-BAGS",
+  "elementType": "product",
+  "label": {
+    "en": "Paper Bags",
+    "nb": "Papirposer",
+    "de": "Papier- & Geschenktüten",
+    "ja": "紙袋・ギフトバッグ",
+    "es": "Bolsas de papel y regalo",
+    "zh-Hans": "纸袋与礼品袋",
+    "nl": "Papieren draagtassen",
+    "sv": "Papperspåsar",
+    "da": "Papirsposer",
+    "pl": "Torby papierowe",
+    "pt": "Sacolas de papel",
+    "hi": "पेपर बैग"
+  },
+  "altLabels": {
+    "en": [
+      "paper bag",
+      "gift bag",
+      "carrier bag",
+      "kraft bag"
+    ],
+    "nb": [
+      "papirpose",
+      "gavepose",
+      "bærepose"
+    ],
+    "de": [
+      "Papiertüten",
+      "Tragetaschen",
+      "Papiertragetaschen"
+    ],
+    "pl": [
+      "torba papierowa",
+      "torba prezentowa",
+      "torba reklamowa",
+      "torba kraft"
+    ],
+    "sv": [
+      "papperspåse",
+      "presentpåse",
+      "bärkasse",
+      "papperskasse",
+      "kraftpåse"
+    ],
+    "da": [
+      "papirpose",
+      "gavepose",
+      "bærepose",
+      "papirbærepose",
+      "kraftpose"
+    ],
+    "nl": [
+      "papieren tas",
+      "papieren tassen",
+      "draagtas",
+      "draagtassen",
+      "geschenktas",
+      "kraft tas"
+    ],
+    "pt": [
+      "sacola de papel",
+      "sacola kraft",
+      "sacola de presente",
+      "saco de papel",
+      "sacola personalizada"
+    ],
+    "hi": [
+      "पेपर बैग",
+      "काग़ज़ का थैला",
+      "गिफ़्ट बैग",
+      "कैरी बैग",
+      "क्राफ़्ट बैग"
+    ],
+    "es": [
+      "bolsa de papel",
+      "bolsa de regalo",
+      "bolsa kraft",
+      "bolsa con asas",
+      "bolsa personalizada"
+    ],
+    "ja": [
+      "紙袋",
+      "手提げ袋",
+      "ギフトバッグ",
+      "クラフト袋",
+      "オリジナル紙袋"
+    ],
+    "zh-Hans": [
+      "纸袋",
+      "手提袋",
+      "礼品袋",
+      "牛皮纸袋",
+      "定制纸袋"
+    ]
+  },
+  "definition": {
+    "en": "A printed paper bag for retail, gifting or carrying — kraft and full-colour paper carrier bags.",
+    "nb": "En trykt papirpose for butikk, gave eller bæring — kraft og fullfarge papirbæreposer.",
+    "de": "Eine bedruckte Papiertüte für Handel, Geschenk oder Transport.",
+    "ja": "小売・ギフト・持ち運びに使う印刷紙袋。クラフト紙やフルカラーの手提げ袋。",
+    "es": "Una bolsa de papel impresa para retail, regalo o transporte — bolsas kraft y de papel a todo color.",
+    "zh-Hans": "用于零售、礼品或提携的印刷纸袋——牛皮纸袋和全彩纸质购物袋。",
+    "sv": "En tryckt papperspåse för detaljhandel, gåvor eller bärande — kraftpapper och fullfärgstryckta bärkassar.",
+    "da": "En trykt papirspose til detail, gaver eller transport — kraft- og fuldfarvede papirbæreposer.",
+    "nl": "Een gedrukte papieren tas voor retail, geschenken of transport — kraft- en fullcolour papieren draagtassen.",
+    "pl": "Drukowana torba papierowa do handlu, prezentów lub noszenia — torby kraft i torby papierowe z pełnokolorowym nadrukiem.",
+    "pt": "Sacola de papel impressa para varejo, presente ou transporte — sacolas kraft e em cores, com alça.",
+    "hi": "खुदरा, उपहार या सामान ले जाने के लिए मुद्रित काग़ज़ का थैला — क्राफ़्ट और फ़ुल-कलर पेपर कैरी बैग।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/structural"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T16:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/scoring"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "customSizeRange": {
+    "min": 80,
+    "max": 550,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper"
+  ],
+  "supportsSubstrateFibre": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/substrate/substrate-fibre"
+  ]
+}

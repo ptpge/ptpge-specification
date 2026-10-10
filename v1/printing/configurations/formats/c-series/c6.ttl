@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/c-series/c6> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "11.4 x 16.2 cm"@en,
+        "114 x 162 mm"@en,
+        "114x162"@en,
+        "114×162"@en,
+        "DIN C6"@en,
+        "C6-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/c-series> ;
+    skos:definition "114 × 162 mm (4.49 × 6.38 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A4-ark foldet to gange, eller et A6-postkort fladt. Almindeligt til lykønskningskort og invitationer."@da,
+        "114 × 162 mm (4,49 × 6,38 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen zweimal gefalteten A4-Bogen oder eine ungefaltete A6-Postkarte. Üblich für Grußkarten und Einladungen."@de,
+        "114 × 162 mm (4.49 × 6.38 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A4 sheet folded twice, or an A6 postcard flat. Common for greeting cards and invitations."@en,
+        "Sobre C6 de la serie C de ISO 269, dimensiones 114 × 162 mm. Diseñado para contener una hoja A del mismo número."@es,
+        "114 × 162 mm (4.49 × 6.38 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A4 शीट दो बार मुड़ी या A6 पोस्टकार्ड सपाट समाता है। ग्रीटिंग कार्ड और निमंत्रणों में आम।"@hi,
+        "114×162mm（4.49×6.38インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A4を2回折って、またはA6ハガキを折らずに収納。グリーティングカードおよび招待状で一般的。"@ja,
+        "114 × 162 mm (4,49 × 6,38 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A4-ark brettet to ganger, eller et A6-postkort uten brett. Vanlig for gratulasjonskort og invitasjoner."@nb,
+        "114 × 162 mm (4.49 × 6.38 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een tweemaal gevouwen A4-vel, of een vlakke A6-kaart. Gebruikelijk voor wenskaarten en uitnodigingen."@nl,
+        "114 × 162 mm (4,49 × 6,38 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A4 złożony dwukrotnie lub pocztówkę A6 na płasko. Typowa dla kartek okolicznościowych i zaproszeń."@pl,
+        "114 × 162 mm (4.49 × 6.38 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A4 dobrada duas vezes, ou um postal A6 aberto. Comum em cartões e convites."@pt,
+        "114 × 162 mm (4.49 × 6.38 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A4-ark vikt två gånger, eller ett A6-vykort plant. Vanligt för gratulationskort och inbjudningar."@sv,
+        "ISO 269 C系列C6信封，尺寸114 × 162 mm。设计用于装相同编号的A纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§C6" ;
+    skos:prefLabel "C6 (114 x 162 mm)"@da,
+        "C6 (114 x 162 mm)"@de,
+        "C6 (114 x 162 mm)"@en,
+        "C6 (114 × 162 mm)"@es,
+        "C6 (114 x 162 mm)"@hi,
+        "C6 (114 x 162 mm)"@ja,
+        "C6 (114 x 162 mm)"@nb,
+        "C6 (114 x 162 mm)"@nl,
+        "C6 (114 x 162 mm)"@pl,
+        "C6 (114 x 162 mm)"@pt,
+        "C6 (114 x 162 mm)"@sv,
+        "C6 (114 × 162 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 18468.0 ;
+            ptpge:aspectRatio 1.4211 ;
+            ptpge:height 162.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 114.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

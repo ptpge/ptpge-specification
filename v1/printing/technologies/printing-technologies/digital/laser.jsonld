@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Laser",
+    "es": "Láser / Tóner",
+    "zh-Hans": "激光/碳粉",
+    "nb": "Laser",
+    "de": "Laser",
+    "ja": "レーザー",
+    "sv": "Laser",
+    "da": "Laser",
+    "nl": "Laser",
+    "pl": "Laserowy",
+    "pt": "Laser",
+    "hi": "लेज़र"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§LASER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/digital",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A digital printing technology where a laser writes a charge pattern onto a photoreceptor drum, attracting toner particles that are transferred to the substrate and fused with heat. Distinct from inkjet by using dry toner instead of liquid ink; dominant in office printing and on-demand short-run commercial work.",
+    "nb": "En digital trykketeknologi der en laser skriver et ladningsmønster på en fotoreceptor-trommel, som trekker til seg tonerpartikler som overføres til underlaget og smelter med varme. Forskjellig fra blekkskriver ved at den bruker tørr toner i stedet for flytende blekk; dominerende i kontortrykk og on-demand korte opplag.",
+    "de": "Eine digitale Drucktechnologie, bei der ein Laser ein Ladungsmuster auf eine fotoempfindliche Trommel schreibt, die Tonerpartikel anzieht; diese werden auf den Bedruckstoff übertragen und mit Hitze fixiert. Unterscheidet sich vom Inkjet durch trockenen Toner statt flüssiger Tinte; dominant im Büro- und On-Demand-Kleinauflagen-Akzidenzdruck.",
+    "ja": "レーザーが感光ドラムに電荷パターンを書き込み、トナー粒子を引きつけて基材に転写し、熱で定着させるデジタル印刷技術。液体インキの代わりに乾式トナーを使用する点でインクジェットと区別される。オフィス印刷およびオンデマンドの短納期商業業務で主流。",
+    "es": "Tecnología digital basada en electrofotografía — un tambor cargado eléctricamente atrae tóner que se transfiere y fija al sustrato con calor. Dominante en impresión de oficina y producción digital de tirada corta.",
+    "zh-Hans": "基于电子照相的数码技术 —— 带电的滚筒吸引碳粉，碳粉转移并通过热量固定在承印物上。在办公印刷和短印次数码生产中占主导地位。",
+    "sv": "En digital tryckteknik där en laser skriver ett laddningsmönster på en fotoreceptortrumma som drar till sig tonerpartiklar, vilka överförs till substratet och fixeras med värme. Skiljer sig från inkjet genom torr toner i stället för flytande bläck; dominerande inom kontorsutskrift och kommersiellt on-demand-arbete i korta serier.",
+    "da": "En digital trykteknik, hvor en laser skriver et ladningsmønster på en fotoreceptortromle, som tiltrækker tonerpartikler, der overføres til substratet og fikseres med varme. Adskiller sig fra inkjet ved tør toner i stedet for flydende blæk; dominerende inden for kontorprint og kommercielt on-demand-arbejde i korte serier.",
+    "nl": "Een digitale druktechnologie waarbij een laser een ladingspatroon op een fotoreceptortrommel schrijft dat tonerdeeltjes aantrekt, die op het substraat worden overgebracht en met warmte gefixeerd. Onderscheidt zich van inkjet door droge toner in plaats van vloeibare inkt; dominant in kantoorprint en on-demand commercieel werk in kleine oplagen.",
+    "pl": "Cyfrowa technologia druku, w której laser zapisuje wzór ładunku na bębnie światłoczułym, przyciągającym cząstki tonera przenoszone na podłoże i utrwalane ciepłem. Różni się od druku atramentowego użyciem suchego tonera zamiast ciekłego atramentu; dominująca w druku biurowym i krótkoseryjnym druku komercyjnym na żądanie.",
+    "pt": "Tecnologia de impressão digital em que um laser escreve um padrão de carga num tambor fotorreceptor, atraindo partículas de toner que são transferidas ao substrato e fundidas com calor. Distingue-se do jato de tinta por usar toner seco em vez de tinta líquida; dominante na impressão de escritório e no trabalho comercial de tiragem curta sob demanda.",
+    "hi": "डिजिटल मुद्रण तकनीक जिसमें लेज़र फ़ोटोरिसेप्टर ड्रम पर आवेश-पैटर्न लिखता है, जो टोनर कणों को खींचता है; ये सब्सट्रेट पर उतरकर गर्मी से जमाए जाते हैं। तरल स्याही की जगह सूखे टोनर के कारण इंकजेट से भिन्न; कार्यालय छपाई और ऑन-डिमांड शॉर्ट-रन व्यावसायिक कार्य में प्रमुख।"
+  },
+  "exactMatch": [
+    "http://www.wikidata.org/entity/Q83696"
+  ],
+  "altLabels": {
+    "en": [
+      "Laser printing",
+      "Electrophotography",
+      "Toner",
+      "Xerography"
+    ],
+    "nb": [
+      "Lasertrykk",
+      "Toner"
+    ],
+    "pl": [
+      "druk laserowy",
+      "elektrofotografia",
+      "toner",
+      "kserografia"
+    ],
+    "pt": [
+      "Impressão a laser",
+      "Eletrofotografia",
+      "Toner",
+      "Xerografia"
+    ],
+    "hi": [
+      "लेज़र प्रिंटिंग",
+      "इलेक्ट्रोफ़ोटोग्राफ़ी",
+      "टोनर",
+      "ज़ीरोग्राफ़ी"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "DigitalPrinting",
+        "DigitalPrintingParams"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.2 · p.111",
+        "§6.31 · p.196"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 17"
+    }
+  ]
+}

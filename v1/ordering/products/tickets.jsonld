@@ -1,0 +1,274 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/tickets",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§TICKETS",
+  "elementType": "product",
+  "label": {
+    "en": "Tickets",
+    "nb": "Billetter",
+    "de": "Tickets / Eintrittskarten",
+    "ja": "チケット",
+    "es": "Entradas / Tickets",
+    "zh-Hans": "票券",
+    "nl": "Tickets",
+    "sv": "Biljetter",
+    "da": "Billetter",
+    "pl": "Bilety",
+    "pt": "Ingressos",
+    "hi": "टिकट"
+  },
+  "altLabels": {
+    "en": [
+      "Ticket",
+      "admission ticket",
+      "voucher",
+      "coupon",
+      "event ticket",
+      "Raffle tickets",
+      "Cloakroom tickets",
+      "Entrance Tickets"
+    ],
+    "nb": [
+      "Billett",
+      "billett",
+      "adgangsbillett",
+      "kupong"
+    ],
+    "de": [
+      "Eintrittskarten",
+      "Veranstaltungstickets"
+    ],
+    "zh-Hans": [
+      "门票",
+      "入场券",
+      "票",
+      "优惠券",
+      "抽奖券",
+      "票据"
+    ],
+    "nl": [
+      "Toegangskaarten",
+      "Entreekaarten",
+      "ticket",
+      "toegangskaart",
+      "toegangsbewijs",
+      "entreebewijs",
+      "coupon",
+      "coupons",
+      "loten"
+    ],
+    "pl": [
+      "bilet",
+      "bilet wstępu",
+      "voucher",
+      "kupon",
+      "los loteryjny"
+    ],
+    "sv": [
+      "biljett",
+      "entrébiljett",
+      "entrébiljetter",
+      "lotter",
+      "lotteribiljetter",
+      "inträdesbiljett"
+    ],
+    "da": [
+      "billet",
+      "entrébillet",
+      "entrébilletter",
+      "kupon",
+      "kuponer",
+      "lodder",
+      "lodsedler"
+    ],
+    "pt": [
+      "ingresso",
+      "bilhete",
+      "vale",
+      "cupom",
+      "ingresso de evento",
+      "bilhete de rifa",
+      "ticket",
+      "entrada"
+    ],
+    "hi": [
+      "टिकट",
+      "प्रवेश टिकट",
+      "एंट्री पास",
+      "वाउचर",
+      "कूपन",
+      "इवेंट टिकट",
+      "रैफ़ल टिकट",
+      "लकी ड्रॉ टिकट"
+    ],
+    "es": [
+      "entrada",
+      "entradas",
+      "ticket",
+      "boleto",
+      "vale",
+      "cupón",
+      "ticket de rifa"
+    ],
+    "ja": [
+      "入場券",
+      "整理券",
+      "クーポン券",
+      "抽選券",
+      "回数券"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printed admission ticket, voucher or coupon — often numbered or perforated, for events, transport and promotions.",
+    "nb": "En trykt adgangsbillett, voucher eller kupong — ofte nummerert eller perforert, for arrangementer, transport og kampanjer.",
+    "de": "Eine gedruckte Eintrittskarte, Gutschein oder Coupon — oft nummeriert oder perforiert.",
+    "ja": "入場券・引換券・クーポンなどの印刷チケット。ナンバリングやミシン目入りが多く、イベントや交通、販促に。",
+    "es": "Una entrada, vale o cupón impresos — a menudo numerados o perforados, para eventos, transporte y promociones.",
+    "zh-Hans": "印刷门票、凭证或优惠券——常带编号或撕线，用于活动、交通和促销。",
+    "sv": "En tryckt entrébiljett, voucher eller kupong — ofta numrerad eller perforerad, för evenemang, transport och kampanjer.",
+    "da": "En trykt adgangsbillet, værdikupon eller rabatkupon — ofte nummereret eller perforeret, til arrangementer, transport og kampagner.",
+    "nl": "Een gedrukt toegangsbewijs, voucher of coupon — vaak genummerd of geperforeerd, voor evenementen, vervoer en promoties.",
+    "pl": "Drukowany bilet wstępu, voucher lub kupon — często numerowany lub perforowany, na wydarzenia, transport i promocje.",
+    "pt": "Ingresso, vale ou cupom impresso — muitas vezes numerado ou picotado, para eventos, transporte e promoções.",
+    "hi": "मुद्रित प्रवेश टिकट, वाउचर या कूपन — अक्सर क्रमांकित या छिद्रित, आयोजनों, परिवहन और प्रचार के लिए।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/perforation"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 45,
+    "max": 220,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

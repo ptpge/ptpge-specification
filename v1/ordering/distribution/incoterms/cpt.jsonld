@@ -1,0 +1,68 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution/incoterms/cpt",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS§CPT",
+  "level": "element",
+  "label": {
+    "en": "CPT — Carriage Paid To",
+    "nb": "CPT — Carriage Paid To",
+    "de": "CPT — Frachtfrei",
+    "es": "CPT — Transporte pagado hasta",
+    "ja": "CPT — 輸送費込み",
+    "zh-Hans": "CPT — 运费付至",
+    "sv": "CPT — Carriage Paid To",
+    "da": "CPT — Carriage Paid To",
+    "nl": "CPT — Carriage Paid To",
+    "pl": "CPT — Przewóz opłacony do",
+    "pt": "CPT — Transporte Pago Até",
+    "hi": "CPT — परिवहन भुगतान सहित"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering/distribution/incoterms",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "CPT",
+      "Carriage Paid To"
+    ],
+    "pl": [
+      "CPT",
+      "Carriage Paid To",
+      "Przewóz opłacony do"
+    ],
+    "pt": [
+      "CPT",
+      "Carriage Paid To"
+    ],
+    "hi": [
+      "CPT",
+      "Carriage Paid To"
+    ]
+  },
+  "properties": {
+    "incotermCode": "CPT",
+    "incotermsVersion": "2020",
+    "transportMode": "any mode of transport"
+  },
+  "definition": {
+    "en": "CPT (Carriage Paid To) — an Incoterms® 2020 trade term (ICC) defining the division of cost, risk and responsibility between buyer and seller. Reference only; the ICC is authoritative. Transport mode: any mode.",
+    "nb": "CPT (Carriage Paid To) — et Incoterms® 2020-handelsvilkår (ICC) som definerer fordelingen av kostnad, risiko og ansvar mellom kjøper og selger. Kun referanse; ICC er autoritativ. Transportmodus: alle transportformer.",
+    "de": "CPT (Frachtfrei) — eine Incoterms®-2020-Handelsklausel (ICC), die die Verteilung von Kosten, Risiko und Verantwortung zwischen Käufer und Verkäufer festlegt. Nur zur Referenz; maßgeblich ist die ICC. Geeignet für alle Transportarten.",
+    "es": "CPT (Transporte pagado hasta) — un término comercial Incoterms® 2020 (ICC) que define el reparto de costes, riesgo y responsabilidad entre comprador y vendedor. Solo referencia; la ICC es la autoridad. Modo de transporte: cualquier modo.",
+    "ja": "CPT（輸送費込み） — 買い手と売り手の間の費用・リスク・責任の分担を定める Incoterms® 2020 の貿易条件（ICC）。参照用であり、正文は ICC。輸送手段：あらゆる輸送手段。",
+    "zh-Hans": "CPT（运费付至）——Incoterms® 2020 贸易术语（ICC），界定买卖双方在费用、风险与责任上的划分。仅供参考，以 ICC 正文为准。运输方式：任何运输方式。",
+    "sv": "CPT (Carriage Paid To) — en handelsterm i Incoterms® 2020 (ICC) som definierar fördelningen av kostnad, risk och ansvar mellan köpare och säljare. Endast referens; ICC är auktoritativ. Transportsätt: alla transportsätt.",
+    "da": "CPT (Carriage Paid To) — en Incoterms® 2020-handelsklausul (ICC), der definerer fordelingen af omkostninger, risiko og ansvar mellem køber og sælger. Kun til reference; ICC er den autoritative kilde. Transportform: alle transportformer.",
+    "nl": "CPT (Carriage Paid To) — een Incoterms® 2020-handelsterm (ICC) die de verdeling van kosten, risico en verantwoordelijkheid tussen koper en verkoper definieert. Uitsluitend ter referentie; de ICC is de gezaghebbende bron. Vervoerswijze: alle vervoerswijzen.",
+    "pl": "CPT (Przewóz opłacony do) — reguła handlowa Incoterms® 2020 (ICC) definiująca podział kosztów, ryzyka i odpowiedzialności między kupującym a sprzedającym. Wyłącznie odniesienie; źródłem autorytatywnym jest ICC. Rodzaj transportu: dowolny.",
+    "pt": "CPT (Carriage Paid To) — termo comercial Incoterms® 2020 (ICC) que define a divisão de custo, risco e responsabilidade entre comprador e vendedor. Apenas referência; a ICC é a fonte autoritativa. Modal de transporte: qualquer modal.",
+    "hi": "CPT (Carriage Paid To) — Incoterms® 2020 व्यापार शर्त (ICC) जो खरीदार और विक्रेता के बीच लागत, जोखिम और ज़िम्मेदारी के बँटवारे को परिभाषित करती है। केवल संदर्भ; ICC प्रामाणिक है। परिवहन माध्यम: कोई भी माध्यम।"
+  }
+}

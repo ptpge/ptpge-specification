@@ -1,0 +1,90 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/colors/none> a skos:Concept ;
+    dcterms:created "2026-05-19T23:30:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Blank"@da,
+        "Ingen farve"@da,
+        "Utrykt"@da,
+        "Keine Druckfarbe"@de,
+        "Ohne Farbe"@de,
+        "Unbedruckt"@de,
+        "No Printing"@en,
+        "None (no colour)"@en,
+        "Unprinted"@en,
+        "Sin color"@es,
+        "Sin imprimir"@es,
+        "Sin tinta"@es,
+        "अनप्रिंटेड"@hi,
+        "कोरा"@hi,
+        "बिना छपाई"@hi,
+        "सादा"@hi,
+        "刷りなし"@ja,
+        "無地"@ja,
+        "色なし"@ja,
+        "Blank"@nb,
+        "Uten trykk"@nb,
+        "Blanco"@nl,
+        "Geen kleur"@nl,
+        "Onbedrukt"@nl,
+        "bez druku"@pl,
+        "brak (bez barwy)"@pl,
+        "niezadrukowane"@pl,
+        "0 cores"@pt,
+        "em branco"@pt,
+        "não impresso"@pt,
+        "sem impressão"@pt,
+        "Blank"@sv,
+        "Ingen färg"@sv,
+        "Otryckt"@sv,
+        "不印刷"@zh-Hans,
+        "无色"@zh-Hans,
+        "空白面"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/colors> ;
+    skos:definition "Ingen farve påført. Bruges når en flade kun har forædlinger (f.eks. blindprægning på ufarvet substrat) eller kun overfladefinish (f.eks. partiel UV-lak på substratets naturlige farve). Substratets egen farve er udtrykket."@da,
+        "Keine Farbe aufgebracht. Wird verwendet, wenn eine Surface nur Embellishments oder nur Surface Finish hat."@de,
+        "No color applied. Used when a surface has only embellishments (e.g., blind embossing on uncolored substrate) or only surface finish (e.g., spot UV on substrate's natural colour). The substrate's own colour is the entire visual."@en,
+        "Sin color aplicado. Se usa cuando una superficie solo lleva ornamentación (p. ej., gofrado en seco sobre sustrato sin imprimir) o solo acabado superficial (p. ej., UV selectivo sobre el color natural del sustrato). El color propio del sustrato es todo el visual."@es,
+        "कोई रंग नहीं लगाया गया। तब प्रयुक्त जब किसी सतह पर केवल सजावटी प्रभाव हों (जैसे बिना रंग के सब्सट्रेट पर ब्लाइंड एम्बॉसिंग) या केवल सतह फ़िनिश (जैसे सब्सट्रेट के प्राकृतिक रंग पर स्पॉट UV)। सब्सट्रेट का अपना रंग ही पूरा दृश्य है।"@hi,
+        "色を刷らない。面に加飾のみ（例：無地の基材への空押し）または表面加工のみ（例：基材の地色へのスポットUV）を施す場合に使う。基材そのものの色がビジュアルのすべてとなる。"@ja,
+        "Ingen farge påført. Brukes når en surface kun har embellishments (eks. blind embossing på ufarget substrate) eller kun surface finish (eks. spot UV på substratets naturlige farge)."@nb,
+        "Geen kleur aangebracht. Gebruikt wanneer een vlak alleen veredelingen heeft (bijv. blindpreging op ongekleurd substraat) of alleen oppervlakteafwerking (bijv. spot-UV op de natuurlijke substraatkleur). De eigen kleur van het substraat is de expressie."@nl,
+        "Bez nanoszenia koloru. Używane, gdy powierzchnia ma tylko uszlachetnienia (np. ślepe tłoczenie na niezadrukowanym podłożu) lub tylko wykończenie powierzchni (np. lakier UV wybiórczy na naturalnym kolorze podłoża). Cały efekt wizualny stanowi własny kolor podłoża."@pl,
+        "Nenhuma cor aplicada. Usado quando uma face tem apenas enobrecimentos (p. ex., relevo seco em substrato sem cor) ou apenas acabamento de superfície (p. ex., verniz UV localizado na cor natural do substrato). A cor do próprio substrato é todo o visual."@pt,
+        "Ingen färg applicerad. Används när en yta bara har dekor (t.ex. blindprägling på ofärgat substrat) eller bara ytbehandling (t.ex. partiell UV-lack på substratets naturfärg). Substratets egen färg utgör hela det visuella uttrycket."@sv,
+        "不施加任何颜色。用于表面仅有装饰工艺（如在未印色的材料上作素压凸）或仅有表面处理（如在材料本色上作局部UV）的情况。承印材料自身的颜色即是全部视觉效果。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§NONE" ;
+    skos:prefLabel "Ingen (uden farve)"@da,
+        "Keine (keine Farbe)"@de,
+        "None (no color)"@en,
+        "Ninguno (sin color)"@es,
+        "कोई नहीं (बिना रंग)"@hi,
+        "なし（カラーなし）"@ja,
+        "Ingen (ingen farge)"@nb,
+        "Geen (zonder kleur)"@nl,
+        "Brak (bez koloru)"@pl,
+        "Nenhuma (sem cor)"@pt,
+        "Ingen (utan färg)"@sv,
+        "无（不上色）"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§6.15 · p.168" ;
+            ptpge:mappingRow "crosswalk row 24" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:standalone true ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-20" .
+

@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/distribution/incoterms> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/distribution> ;
+    skos:definition "Incoterms 2020 — standardiserede internationale handelsklausuler (ICC), der definerer fordelingen af omkostninger, risiko og ansvar mellem køber og sælger."@da,
+        "Incoterms 2020 — standardisierte internationale Handelsklauseln (ICC), die die Verteilung von Kosten, Risiko und Verantwortung zwischen Käufer und Verkäufer festlegen."@de,
+        "Incoterms 2020 — standardised international trade terms (ICC) defining the division of cost, risk and responsibility between buyer and seller."@en,
+        "Incoterms 2020 — términos de comercio internacional estandarizados (ICC) que definen el reparto de costes, riesgo y responsabilidad entre comprador y vendedor."@es,
+        "Incoterms 2020 — मानकीकृत अंतरराष्ट्रीय व्यापार शर्तें (ICC) जो खरीदार और विक्रेता के बीच लागत, जोखिम और ज़िम्मेदारी के बँटवारे को परिभाषित करती हैं।"@hi,
+        "インコタームズ2020 — 買い手と売り手の間の費用・リスク・責任の分担を定める標準化された国際貿易条件（ICC）。"@ja,
+        "Incoterms 2020 — standardiserte internasjonale handelsvilkår (ICC) som definerer fordelingen av kostnad, risiko og ansvar mellom kjøper og selger."@nb,
+        "Incoterms 2020 — gestandaardiseerde internationale handelstermen (ICC) die de verdeling van kosten, risico en verantwoordelijkheid tussen koper en verkoper definiëren."@nl,
+        "Incoterms 2020 — ustandaryzowane międzynarodowe reguły handlowe (ICC) określające podział kosztów, ryzyka i odpowiedzialności między kupującym a sprzedającym."@pl,
+        "Incoterms 2020 — termos comerciais internacionais padronizados (ICC) que definem a divisão de custo, risco e responsabilidade entre comprador e vendedor."@pt,
+        "Incoterms 2020 — standardiserade internationella handelstermer (ICC) som definierar fördelningen av kostnad, risk och ansvar mellan köpare och säljare."@sv,
+        "国际贸易术语解释通则2020（Incoterms 2020）——由国际商会（ICC）制定的标准化国际贸易条款，界定买卖双方在费用、风险与责任上的划分。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/distribution/incoterms/cfr>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/cif>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/cip>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/cpt>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/dap>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/ddp>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/dpu>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/exw>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/fas>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/fca>,
+        <https://ptpge.org/v1/ordering/distribution/incoterms/fob> ;
+    skos:notation "O:DS-INCOTERMS" ;
+    skos:prefLabel "Incoterms 2020"@da,
+        "Incoterms 2020"@de,
+        "Incoterms 2020"@en,
+        "Incoterms 2020"@es,
+        "Incoterms 2020"@hi,
+        "インコタームズ2020"@ja,
+        "Incoterms 2020"@nb,
+        "Incoterms 2020"@nl,
+        "Incoterms 2020"@pl,
+        "Incoterms 2020"@pt,
+        "Incoterms 2020"@sv,
+        "国际贸易术语2020"@zh-Hans ;
+    skos:scopeNote "Incoterms® is a registered trademark of the International Chamber of Commerce (ICC). These terms are referenced, not redefined; the ICC publication is authoritative."@en,
+        "Incoterms® अंतरराष्ट्रीय वाणिज्य मंडल (ICC) का पंजीकृत ट्रेडमार्क है। ये पद संदर्भित हैं, पुनर्परिभाषित नहीं; ICC का प्रकाशन प्रामाणिक है।"@hi,
+        "Incoterms® er et registrert varemerke tilhørende International Chamber of Commerce (ICC). Disse vilkårene refereres, ikke omdefineres; ICC-publikasjonen er autoritativ."@nb,
+        "Incoterms® é marca registrada da Câmara de Comércio Internacional (ICC). Estes termos são referenciados, não redefinidos; a publicação da ICC é a fonte autoritativa."@pt ;
+    ptpge:group "distribution" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "intaglio"@pl,
+        "techniki metalowe"@pl,
+        "Gravura em metal"@pt,
+        "Intaglio"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "Familie af kunstgrafiske trykteknikker, hvor billedet ridses ind under overfladen på en metalplade; farve fylder fordybningerne, tørres af overfladen og overføres under højt tryk."@da,
+        "Familie kunsthandwerklicher Druckgrafiktechnologien, bei denen das Bild unterhalb der Oberfläche einer Metallplatte eingearbeitet wird; Farbe füllt die Vertiefungen, wird von der Oberfläche abgewischt und unter hohem Druck übertragen."@de,
+        "Family of fine-art printmaking technologies where the image is incised below the surface of a metal plate; ink fills the recesses, is wiped from the surface, and transferred under high pressure."@en,
+        "Familia de tecnologías de grabado de bellas artes donde la imagen se incisa por debajo de la superficie de una plancha metálica; la tinta llena los huecos, se limpia de la superficie y se transfiere bajo alta presión."@es,
+        "फ़ाइन-आर्ट प्रिंटमेकिंग तकनीकों का परिवार जिसमें छवि धातु की प्लेट की सतह के नीचे उकेरी जाती है; स्याही खाँचों में भरती है, सतह से पोंछी जाती है और उच्च दबाव में स्थानांतरित होती है।"@hi,
+        "金属板の表面より下に画像を彫り込む美術版画技術のファミリー。インキが凹部に満たされ、表面から拭き取られ、高圧で転写される。"@ja,
+        "Familie av kunstgrafiske trykketeknikker der bildet er skåret inn under overflaten av en metallplate; blekk fyller fordypningene, tørkes av overflaten og overføres under høyt trykk."@nb,
+        "Familie van kunstgrafische druktechnieken waarbij het beeld onder het oppervlak van een metalen plaat wordt gegraveerd; inkt vult de verdiepingen, wordt van het oppervlak geveegd en onder hoge druk overgebracht."@nl,
+        "Rodzina technik grafiki artystycznej, w których obraz jest wycięty poniżej powierzchni metalowej płyty; farba wypełnia zagłębienia, jest wytarta z powierzchni i przeniesiona pod wysokim ciśnieniem."@pl,
+        "Família de técnicas de gravura artística em que a imagem é incisa abaixo da superfície de uma chapa metálica; a tinta preenche as cavidades, é limpa da superfície e transferida sob alta pressão."@pt,
+        "Familj av konstgrafiska trycktekniker där bilden ristas in under ytan på en metallplåt; bläck fyller fördjupningarna, torkas av från ytan och överförs under högt tryck."@sv,
+        "美术版画工艺家族，图像被刻在金属板表面以下；油墨填充凹处，从表面擦去，并在高压下转移。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/aquatint>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/engraving>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/etching>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/mezzotint> ;
+    skos:notation "P:TC-PTC-ANLG-INTG" ;
+    skos:prefLabel "Kobbertryk (intaglio)"@da,
+        "Intaglio (Tiefdruck)"@de,
+        "Intaglio"@en,
+        "Calcografía Artística (Intaglio)"@es,
+        "इंटैग्लियो"@hi,
+        "凹版印刷（インタリオ）"@ja,
+        "Intaglio (kobberstikk-trykk)"@nb,
+        "Koperdiepdruk (intaglio)"@nl,
+        "Druk wklęsły (intaglio)"@pl,
+        "Calcografia"@pt,
+        "Koppartryck (intaglio)"@sv,
+        "铜版凹印（Intaglio）"@zh-Hans ;
+    skos:scopeNote "Umfasst Stich (mit Grabstichel eingeschnitten), Radierung (säuregeätzte Linien), Aquatinta (tonale Flächen über Harz und Säure) und Schabkunst (von Schwarz nach Hell mit der Wiege gearbeitet). Unterscheidet sich vom industriellen Tiefdruck, der eine hochvolumig mechanisierte Variante darstellt."@de,
+        "Includes engraving (incised with burin), etching (acid-eaten lines), aquatint (tonal areas via resin and acid), and mezzotint (worked from black to light using a rocker). Distinct from industrial gravure, which is a high-volume mechanized variant."@en,
+        "Incluye grabado al buril (incisado con buril), aguafuerte (líneas mordidas por ácido), aguatinta (zonas tonales mediante resina y ácido) y mezzotinto (trabajado de negro a luz utilizando un balancín). Distinto del huecograbado industrial."@es,
+        "एनग्रेविंग (ब्यूरिन से उकेरी), एचिंग (अम्ल से बनी रेखाएँ), एक्वाटिंट (रेज़िन और अम्ल से टोनल क्षेत्र) और मेज़ोटिंट (रॉकर से काले से हल्के की ओर) शामिल। औद्योगिक ग्रेव्योर से भिन्न, जो उच्च-मात्रा यांत्रिक वेरिएंट है।"@hi,
+        "エングレービング（ビュランで彫刻）、エッチング（酸で腐食された線）、アクアチント（樹脂と酸による階調領域）、メゾチント（ロッカーで黒から白へ向かって作業）を含む。工業的グラビア（大量機械化バリアント）とは区別される。"@ja,
+        "Inkluderer gravering (skåret med stikkjern), etsing (syre-etsede linjer), akvatinta (tonale områder via harpiks og syre), og mezzotinta (bearbeidet fra svart til lys ved hjelp av en rocker). Forskjellig fra industriell gravure, som er en høyvolum-mekanisert variant."@nb,
+        "Inclui buril (incisão direta), água-forte (linhas corroídas por ácido), água-tinta (áreas tonais via resina e ácido) e meia-tinta (trabalhada do preto para o claro com um berceau). Distinta da rotogravura industrial, que é uma variante mecanizada de alto volume."@pt,
+        "包括刻凹版（用刻刀切入）、蚀刻（酸蚀线条）、飞尘蚀刻（通过树脂和酸形成色调区域）和美柔汀（用摇凿器从黑色到光线加工）。区别于工业凹印。"@zh-Hans ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,72 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/agfa-apogee-webapproval",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Agfa Apogee WebApproval",
+    "es": "Agfa Apogee WebApproval",
+    "zh-Hans": "Agfa Apogee WebApproval",
+    "nb": "Agfa Apogee WebApproval",
+    "de": "Agfa Apogee WebApproval",
+    "ja": "Agfa Apogee WebApproval",
+    "sv": "Agfa Apogee WebApproval",
+    "da": "Agfa Apogee WebApproval",
+    "nl": "Agfa Apogee WebApproval",
+    "pl": "Agfa Apogee WebApproval",
+    "pt": "Agfa Apogee WebApproval",
+    "hi": "Agfa Apogee WebApproval"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§AGFA-APOGEE-WEBAPPROVAL",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Agfa Apogee WebApproval — browser-based remote proofing portal that lets customers review and approve prepress proofs without installing software. Integrated with the Apogee workflow system.",
+    "nb": "Agfa Apogee WebApproval — nettleserbasert portal for fjernproofing som lar kunder gjennomgå og godkjenne prepress-proofs uten å installere programvare. Integrert med Apogee workflow-systemet.",
+    "de": "Agfa Apogee WebApproval — browser-basiertes Remote-Proofing-Portal, mit dem Kunden Druckvorstufen-Proofs ohne Software-Installation prüfen und freigeben können. In das Apogee-Workflow-System integriert.",
+    "ja": "Agfa Apogee WebApproval — ソフトウェアをインストールせずに顧客が製版校正を審査・承認できるブラウザベースの遠隔校正ポータル。Apogeeワークフローシステムと統合されている。",
+    "es": "Portal web de aprobación de Agfa Apogee — permite al cliente revisar y aprobar pruebas blandas desde el navegador, registrando comentarios y firmas.",
+    "zh-Hans": "Agfa Apogee的网络批准门户——允许客户从浏览器中审查和批准软校样，记录评论和签名。",
+    "sv": "Agfa Apogee WebApproval — webbläsarbaserad portal för distansgodkännande som låter kunder granska och godkänna förprov utan att installera programvara. Integrerad med arbetsflödessystemet Apogee.",
+    "da": "Agfa Apogee WebApproval — browserbaseret fjernprøvetryk-portal, der lader kunder gennemgå og godkende prepress-prøver uden at installere software. Integreret med Apogee-workflowsystemet.",
+    "nl": "Agfa Apogee WebApproval — browsergebaseerd portaal voor proeven op afstand, waarmee klanten prepressproeven kunnen beoordelen en goedkeuren zonder software te installeren. Geïntegreerd met het Apogee-workflowsysteem.",
+    "pl": "Agfa Apogee WebApproval — przeglądarkowy portal zdalnego proofingu pozwalający klientom przeglądać i zatwierdzać proofy prepress bez instalowania oprogramowania. Zintegrowany z systemem workflow Apogee.",
+    "pt": "Agfa Apogee WebApproval — portal de provas remotas em navegador que permite aos clientes revisar e aprovar provas de pré-impressão sem instalar software. Integrado ao sistema de fluxo de trabalho Apogee.",
+    "hi": "Agfa Apogee WebApproval — ब्राउज़र-आधारित दूरस्थ प्रूफ़िंग पोर्टल जो ग्राहकों को सॉफ़्टवेयर स्थापित किए बिना प्रीप्रेस प्रूफ़ की समीक्षा और अनुमोदन देता है। Apogee वर्कफ़्लो सिस्टम से एकीकृत।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

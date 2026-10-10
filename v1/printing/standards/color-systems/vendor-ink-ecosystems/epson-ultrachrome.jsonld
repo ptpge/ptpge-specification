@@ -1,0 +1,64 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/epson-ultrachrome",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Epson UltraChrome",
+    "sv": "Epson UltraChrome",
+    "da": "Epson UltraChrome",
+    "nl": "Epson UltraChrome",
+    "pl": "Epson UltraChrome",
+    "pt": "Epson UltraChrome",
+    "hi": "Epson UltraChrome"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§EPSON-ULTRACHROME",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "Epson UltraChrome pigment-ink ecosystem for wide-gamut inkjet and proofing.",
+    "nb": "Epson UltraChrome pigmentblekk-økosystem for bredt-gamut blekkskriver og prøvetrykk.",
+    "de": "Epson UltraChrome — Pigmenttinten-Ökosystem für Inkjet mit großem Gamut und Proofing.",
+    "es": "Ecosistema de tintas pigmentadas Epson UltraChrome para inyección de amplia gama y pruebas.",
+    "ja": "広色域インクジェットとプルーフィングのためのエプソン UltraChrome 顔料インキ・エコシステム。",
+    "zh-Hans": "用于宽色域喷墨与打样的爱普生 UltraChrome 颜料墨水生态系统。",
+    "sv": "Epson UltraChrome — pigmentbläcksekosystem för inkjet med bred färgomfattning och provtryck.",
+    "da": "Epson UltraChrome — pigmentblæk-økosystem til inkjet med bredt farveomfang og prøvetryk.",
+    "nl": "Epson UltraChrome — pigmentinktecosysteem voor inkjet met breed gamma en proefdruk.",
+    "pl": "Ekosystem atramentów pigmentowych Epson UltraChrome dla szerokogamutowego druku atramentowego i proofingu.",
+    "pt": "Ecossistema de tintas pigmentadas Epson UltraChrome para jato de tinta de gamut amplo e provas.",
+    "hi": "व्यापक-गैमट इंकजेट और प्रूफ़िंग के लिए Epson UltraChrome पिगमेंट-स्याही पारितंत्र।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

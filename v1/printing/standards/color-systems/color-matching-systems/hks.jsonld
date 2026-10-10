@@ -1,0 +1,78 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/hks",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "HKS",
+    "sv": "HKS",
+    "da": "HKS",
+    "nl": "HKS",
+    "pl": "HKS",
+    "pt": "HKS",
+    "hi": "HKS"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+  "created": "2026-06-18T10:00:07Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§HKS",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "reference",
+  "definition": {
+    "en": "German spot-colour matching system (HKS) widely used in European print.",
+    "nb": "Tysk spotfarge-matchingsystem (HKS), mye brukt i europeisk trykk.",
+    "de": "Deutsches Sonderfarbensystem (HKS), im europäischen Druck weit verbreitet.",
+    "es": "Sistema alemán de igualación de tintas planas (HKS), muy usado en la impresión europea.",
+    "ja": "欧州の印刷で広く使われるドイツの特色カラーマッチングシステム（HKS）。",
+    "zh-Hans": "德国专色配色系统（HKS），在欧洲印刷业广泛使用。",
+    "sv": "Tyskt dekorfärgssystem (HKS) brett använt i europeiskt tryck.",
+    "da": "Tysk staffagefarvesystem (HKS), bredt anvendt i europæisk tryk.",
+    "nl": "Duits steunkleursysteem (HKS), breed gebruikt in Europees drukwerk.",
+    "pl": "Niemiecki system wzorcowania kolorów dodatkowych (HKS), szeroko stosowany w druku europejskim.",
+    "pt": "Sistema alemão de correspondência de cores especiais (HKS), amplamente usado na impressão europeia.",
+    "hi": "जर्मन स्पॉट-कलर मिलान प्रणाली (HKS), यूरोपीय मुद्रण में व्यापक रूप से प्रयुक्त।"
+  },
+  "altLabels": {
+    "en": [
+      "HKS colours"
+    ],
+    "pl": [
+      "kolory HKS"
+    ],
+    "pt": [
+      "cores HKS"
+    ],
+    "hi": [
+      "HKS रंग"
+    ]
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "properties": {
+    "systemRole": "ink-library"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

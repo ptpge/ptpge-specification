@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/shape/circle",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Circle",
+    "nb": "Sirkel",
+    "de": "Kreis",
+    "ja": "円",
+    "es": "Círculo",
+    "zh-Hans": "圆形",
+    "sv": "Cirkel",
+    "da": "Cirkel",
+    "nl": "Cirkel",
+    "pl": "Koło",
+    "pt": "Círculo",
+    "hi": "वृत्त"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/shape",
+  "created": "2026-06-19T10:33:12Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:CF§CIRCLE",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "definition": {
+    "en": "Round (circular) outline — produced by die-cutting or contour-cutting a rectangular sheet. Used for stickers, labels, coasters and badges.",
+    "nb": "Rundt (sirkulært) omriss — laget ved stansing eller konturskjæring av et rektangulært ark. Brukt for klistremerker, etiketter, brikker og merker.",
+    "de": "Runder (kreisförmiger) Umriss — durch Stanzen oder Konturschnitt aus dem rechteckigen Bogen. Für Sticker, Etiketten, Untersetzer und Buttons.",
+    "es": "Contorno redondo (circular) — producido troquelando o cortando por contorno una hoja rectangular. Para pegatinas, etiquetas, posavasos e insignias.",
+    "ja": "円形の輪郭 — 長方形の用紙を型抜きまたは輪郭カットして作る。ステッカー、ラベル、コースター、バッジに使われる。",
+    "zh-Hans": "圆形轮廓 — 通过模切或轮廓切割矩形纸张制成。用于贴纸、标签、杯垫与徽章。",
+    "sv": "Rund (cirkulär) kontur — framställd genom stansning eller konturskärning av ett rektangulärt ark. Används för klistermärken, etiketter, glasunderlägg och knappar.",
+    "da": "Rund (cirkulær) kontur — fremstillet ved udstansning eller konturskæring af et rektangulært ark. Bruges til klistermærker, etiketter, ølbrikker og badges.",
+    "nl": "Ronde (cirkelvormige) contour — gemaakt door stansen of contoursnijden van een rechthoekig vel. Gebruikt voor stickers, etiketten, bierviltjes en buttons.",
+    "pl": "Okrągły obrys — uzyskiwany przez wykrawanie lub cięcie konturowe prostokątnego arkusza. Używany do naklejek, etykiet, podkładek i przypinek.",
+    "pt": "Contorno redondo (circular) — obtido por corte especial ou corte de contorno de uma folha retangular. Usado em adesivos, rótulos, porta-copos e crachás.",
+    "hi": "गोल (वृत्ताकार) रूपरेखा — आयताकार शीट को डाई-कट या कंटूर-कट करके। स्टिकर, लेबल, कोस्टर और बैज में।"
+  },
+  "altLabels": {
+    "en": [
+      "Round",
+      "Circular",
+      "Disc"
+    ],
+    "nb": [
+      "Rund",
+      "Sirkulær"
+    ],
+    "pl": [
+      "okrągły",
+      "kolisty",
+      "krążek"
+    ],
+    "pt": [
+      "redondo",
+      "circular",
+      "disco"
+    ],
+    "hi": [
+      "गोल",
+      "वृत्ताकार",
+      "डिस्क",
+      "राउंड"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ShapeCuttingIntent"
+      ],
+      "refs": [
+        "§4.13 · p.81"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 22"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/us/ledger",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Ledger (17 x 11 in)",
+    "es": "Ledger (432 × 279 mm / 17 × 11 in)",
+    "zh-Hans": "Ledger (432 × 279 mm / 17 × 11 in)",
+    "nb": "Ledger (17 x 11 in)",
+    "de": "Ledger (17 x 11 in)",
+    "ja": "Ledger (17 x 11 in)",
+    "sv": "Ledger (17 x 11 tum)",
+    "da": "Ledger (17 x 11 tum)",
+    "nl": "Ledger (17 x 11 tum)",
+    "pl": "Ledger (17 x 11 in)",
+    "pt": "Ledger (17 x 11 in)",
+    "hi": "Ledger (17 x 11 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§LEDGER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/us",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "17 × 11 in (431.8 × 279.4 mm). Same dimensions as Tabloid but in landscape orientation — used for accounting ledgers and wide tabular documents.",
+    "nb": "17 × 11 in (431,8 × 279,4 mm). Samme dimensjoner som Tabloid, men i landskapsorientering — brukt til hovedbøker og brede tabellariske dokumenter.",
+    "de": "17 × 11 in (431,8 × 279,4 mm). Gleiche Maße wie Tabloid, aber im Querformat — verwendet für Buchhaltungsbücher und breite Tabellendokumente.",
+    "ja": "17×11インチ（431.8×279.4mm）。Tabloidと同一寸法だが横向き — 会計帳簿および幅広の表形式書類に使用される。",
+    "es": "Tamaño Ledger — dimensiones idénticas a Tabloide pero en orientación horizontal. Utilizado para libros mayores, planos y dibujos técnicos.",
+    "zh-Hans": "Ledger —— 尺寸与Tabloid相同但方向为横向。用于账簿、平面图和技术图纸。",
+    "sv": "17 × 11 tum (431.8 × 279.4 mm). Samma dimensioner som Tabloid men i liggande orientering — används för bokföringsliggare och breda tabelldokument.",
+    "da": "17 × 11 tommer (431.8 × 279.4 mm). Samme dimensioner som Tabloid, men i liggende orientering — bruges til regnskabsprotokoller og brede tabeldokumenter.",
+    "nl": "17 × 11 inch (431.8 × 279.4 mm). Dezelfde afmetingen als Tabloid, maar in liggende oriëntatie — gebruikt voor grootboeken en brede tabeldocumenten.",
+    "pl": "17 × 11 cali (431,8 × 279,4 mm). Te same wymiary co Tabloid, lecz w orientacji poziomej — używany do ksiąg rachunkowych i szerokich dokumentów tabelarycznych.",
+    "pt": "17 × 11 in (431.8 × 279.4 mm). Mesmas dimensões do Tabloid, mas em orientação paisagem — usado em livros-razão e documentos tabulares largos.",
+    "hi": "17 × 11 in (431.8 × 279.4 mm). Tabloid जैसे ही आयाम पर लैंडस्केप दिशा में — लेखा बहीखातों और चौड़े सारणीबद्ध दस्तावेज़ों में।"
+  },
+  "properties": {
+    "width": 17,
+    "height": 11,
+    "unit": "in",
+    "aspectRatio": 1.5455,
+    "standard": "ANSI",
+    "area": 187
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "17 x 11 in",
+      "17x11",
+      "17×11",
+      "Ledger size",
+      "Tabloid",
+      "11x17",
+      "ANSI B"
+    ],
+    "pl": [
+      "format Ledger"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

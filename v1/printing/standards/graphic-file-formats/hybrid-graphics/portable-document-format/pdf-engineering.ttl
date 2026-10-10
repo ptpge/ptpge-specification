@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-engineering> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".pdf"@en,
+        "PDF"@en,
+        "print-ready PDF"@en,
+        ".pdf"@hi,
+        "PDF"@hi,
+        "प्रिंट-रेडी PDF"@hi,
+        ".pdf"@pl,
+        "PDF"@pl,
+        "PDF gotowy do druku"@pl,
+        ".pdf"@pt,
+        "PDF"@pt,
+        "PDF pronto para impressão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format> ;
+    skos:definition "PDF/E — ISO 24517-specifikation for teknisk dokumentation med understøttelse af interaktivt 3D-indhold, lagdelte tegninger og teknisk metadata."@da,
+        "PDF/E — ISO-Spezifikation 24517 für Ingenieur- und technische Dokumentation, unterstützt interaktive 3D-Inhalte, geschichtete Zeichnungen und Engineering-Metadaten."@de,
+        "PDF/E — ISO 24517 specification for engineering and technical documentation, supporting interactive 3D content, layered drawings, and engineering metadata."@en,
+        "Sub-conjunto ISO de PDF para documentos técnicos e ingeniería (ISO 24517), con soporte para dibujos 3D, capas técnicas y especificaciones de fabricación."@es,
+        "PDF/E — इंजीनियरिंग और तकनीकी दस्तावेज़ीकरण का ISO 24517 विनिर्देश, जो इंटरैक्टिव 3D सामग्री, परतदार ड्रॉइंग और इंजीनियरिंग मेटाडेटा का समर्थन करता है।"@hi,
+        "PDF/E — エンジニアリングおよび技術文書に関するISO 24517仕様。インタラクティブな3Dコンテンツ、レイヤー化された図面、エンジニアリングメタデータをサポートする。"@ja,
+        "PDF/E — ISO 24517-spesifikasjonen for ingeniør- og teknisk dokumentasjon, som støtter interaktivt 3D-innhold, lagdelte tegninger og ingeniørmetadata."@nb,
+        "PDF/E — ISO 24517-specificatie voor technische documentatie, met ondersteuning voor interactieve 3D-inhoud, gelaagde tekeningen en technische metadata."@nl,
+        "PDF/E — specyfikacja ISO 24517 dla dokumentacji inżynierskiej i technicznej, obsługująca interaktywną treść 3D, rysunki warstwowe i metadane inżynierskie."@pl,
+        "PDF/E — especificação ISO 24517 para documentação técnica e de engenharia, com suporte a conteúdo 3D interativo, desenhos em camadas e metadados de engenharia."@pt,
+        "PDF/E — ISO 24517-specifikation för teknisk dokumentation, med stöd för interaktivt 3D-innehåll, skiktade ritningar och teknisk metadata."@sv,
+        "用于技术和工程文档的PDF ISO子集（ISO 24517），支持3D图形、技术图层和制造规范。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PDF-ENGINEERING" ;
+    skos:prefLabel "PDF Engineering (PDF/E)"@da,
+        "PDF Engineering (PDF/E)"@de,
+        "PDF Engineering (PDF/E)"@en,
+        "PDF/E (Engineering)"@es,
+        "PDF इंजीनियरिंग (PDF/E)"@hi,
+        "PDF Engineering (PDF/E)"@ja,
+        "PDF Engineering (PDF/E)"@nb,
+        "PDF Engineering (PDF/E)"@nl,
+        "PDF inżynierski (PDF/E)"@pl,
+        "PDF de engenharia (PDF/E)"@pt,
+        "PDF Engineering (PDF/E)"@sv,
+        "PDF/E (工程)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-universal-accessibility",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "PDF Universal Accessibility (PDF/UA)",
+    "es": "PDF/UA (Universal Accessibility)",
+    "zh-Hans": "PDF/UA (通用无障碍)",
+    "nb": "PDF Universal Accessibility (PDF/UA)",
+    "de": "PDF Universal Accessibility (PDF/UA)",
+    "ja": "PDF Universal Accessibility (PDF/UA)",
+    "sv": "PDF universell tillgänglighet (PDF/UA)",
+    "da": "PDF universel tilgængelighed (PDF/UA)",
+    "nl": "PDF universele toegankelijkheid (PDF/UA)",
+    "pl": "PDF dostępny (PDF/UA)",
+    "pt": "PDF de acessibilidade universal (PDF/UA)",
+    "hi": "PDF सार्वभौमिक सुगम्यता (PDF/UA)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§PDF-UNIVERSAL-ACCESSIBILITY",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "PDF/UA — ISO 14289 specification ensuring that PDF documents are accessible to assistive technologies, with proper tagging, reading order, alternative text, and language metadata.",
+    "nb": "PDF/UA — ISO 14289-spesifikasjonen som sikrer at PDF-dokumenter er tilgjengelige for hjelpemidler, med korrekt tagging, leserekkefølge, alternativ tekst og språkmetadata.",
+    "de": "PDF/UA — ISO-Spezifikation 14289 stellt sicher, dass PDF-Dokumente für assistive Technologien zugänglich sind, mit korrekter Auszeichnung, Lesereihenfolge, Alternativtexten und Sprach-Metadaten.",
+    "ja": "PDF/UA — PDF文書が支援技術にアクセス可能であることを保証するISO 14289仕様。適切なタグ付け、読み上げ順序、代替テキスト、言語メタデータを規定する。",
+    "es": "Sub-conjunto ISO de PDF para accesibilidad universal (ISO 14289), que define requisitos de etiquetado semántico, lectura asistida y descripción alternativa de imágenes para usuarios con discapacidad.",
+    "zh-Hans": "通用无障碍的PDF ISO子集（ISO 14289），定义语义标记、辅助阅读和图像替代描述的要求，供残障用户使用。",
+    "sv": "PDF/UA — ISO 14289-specifikation som säkerställer att PDF-dokument är tillgängliga för hjälpmedel, med korrekt taggning, läsordning, alternativtext och språkmetadata.",
+    "da": "PDF/UA — ISO 14289-specifikation, der sikrer at PDF-dokumenter er tilgængelige for hjælpemidler, med korrekt tagging, læserækkefølge, alternativ tekst og sprogmetadata.",
+    "nl": "PDF/UA — ISO 14289-specificatie die waarborgt dat PDF-documenten toegankelijk zijn voor hulptechnologie, met correcte tagging, leesvolgorde, alternatieve tekst en taalmetadata.",
+    "pl": "PDF/UA — specyfikacja ISO 14289 zapewniająca dostępność dokumentów PDF dla technologii wspomagających, z właściwym tagowaniem, kolejnością czytania, tekstem alternatywnym i metadanymi języka.",
+    "pt": "PDF/UA — especificação ISO 14289 que garante que documentos PDF sejam acessíveis a tecnologias assistivas, com marcação adequada, ordem de leitura, texto alternativo e metadados de idioma.",
+    "hi": "PDF/UA — ISO 14289 विनिर्देश जो सुनिश्चित करता है कि PDF दस्तावेज़ सहायक तकनीकों के लिए सुगम हों, उचित टैगिंग, पठन क्रम, वैकल्पिक पाठ और भाषा मेटाडेटा के साथ।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "PDF",
+      ".pdf",
+      "print-ready PDF"
+    ],
+    "pl": [
+      "PDF",
+      ".pdf",
+      "PDF gotowy do druku"
+    ],
+    "pt": [
+      "PDF",
+      ".pdf",
+      "PDF pronto para impressão"
+    ],
+    "hi": [
+      "PDF",
+      ".pdf",
+      "प्रिंट-रेडी PDF"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

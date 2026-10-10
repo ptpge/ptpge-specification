@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/embossing/foil> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Combination embossing"@en,
+        "Foil and emboss"@en,
+        "Foil emboss"@en,
+        "कॉम्बिनेशन एम्बॉसिंग"@hi,
+        "फ़ॉइल उभार"@hi,
+        "फ़ॉइल एम्बॉस"@hi,
+        "फ़ॉइल और एम्बॉस"@hi,
+        "Foliepreg"@nb,
+        "folia z tłoczeniem"@pl,
+        "tłoczenie kombinowane"@pl,
+        "hot stamping em relevo"@pt,
+        "relevo com hot stamping"@pt,
+        "relevo e foil"@pt,
+        "relevo metalizado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments/embossing> ;
+    skos:definition "Prægning kombineret med varmfolieprægning i én operation — reliefet hæves OG dækkes med en metallisk eller pigmenteret folie. Den visuelt mest markante enkeltforædling, ofte brugt på luksusprodukter."@da,
+        "Prägung kombiniert mit Heißfolienprägung in einem Arbeitsgang — das Relief ist erhaben UND mit einer metallischen oder pigmentierten Folie bedeckt."@de,
+        "Embossing combined with hot-foil stamping in one operation — the relief is raised AND covered with a metallic or pigmented foil. The most visually impactful single embellishment, frequently used on luxury packaging logos."@en,
+        "Gofrado combinado con estampación de foil en caliente en una sola operación — el relieve queda elevado Y cubierto con un foil metálico o pigmentado. La ornamentación individual de mayor impacto visual, frecuente en logotipos de packaging de lujo."@es,
+        "एक ही क्रिया में एम्बॉसिंग और हॉट-फ़ॉइल स्टैंपिंग — उभार भी और उस पर मेटैलिक या रंजित फ़ॉइल भी। सबसे प्रभावशाली एकल सजावटी प्रभाव, लक्ज़री पैकेजिंग के लोगो पर अक्सर प्रयुक्त।"@hi,
+        "エンボスとホットフォイル（箔押し）を1工程で組み合わせる — レリーフを盛り上げ、同時にメタリックまたは顔料箔で覆う。単体の加飾として最も視覚的インパクトが強く、高級パッケージのロゴによく使われる。"@ja,
+        "Embossing kombinert med varmfolie-preging i én operasjon — relieffen er hevet OG dekket med en metallisk eller pigmentert folie. Den mest visuelt effektfulle enkeltforedlingen, ofte brukt på luksusemballasje-logoer."@nb,
+        "Preging gecombineerd met warmfoliedruk in één bewerking — het reliëf wordt verhoogd ÉN bedekt met een metallic of gepigmenteerde folie. De visueel meest opvallende enkelvoudige veredeling, vaak op luxeproducten."@nl,
+        "Tłoczenie połączone z folią na gorąco w jednej operacji — relief jest wypukły I pokryty folią metaliczną lub pigmentowaną. Najbardziej efektowne pojedyncze uszlachetnienie, często stosowane do logo na opakowaniach luksusowych."@pl,
+        "Relevo combinado com hot stamping em uma única operação — o relevo é elevado E coberto com foil metálico ou pigmentado. O enobrecimento único de maior impacto visual, muito usado em logotipos de embalagens de luxo."@pt,
+        "Prägling kombinerad med varmfoliering i en operation — reliefen är upphöjd OCH täckt med metallisk eller pigmenterad folie. Den visuellt mest slagkraftiga enskilda dekoren, ofta använd på lyxförpackningars logotyper."@sv,
+        "压凸与烫印一次完成的组合工艺 — 浮雕既凸起又覆以金属或颜料箔。视觉冲击力最强的单项装饰工艺，常用于奢华包装标志。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§FOIL" ;
+    skos:prefLabel "Folieprægning (relief)"@da,
+        "Folienhochprägung"@de,
+        "Foil Embossing"@en,
+        "Relieve con lámina"@es,
+        "फ़ॉइल एम्बॉसिंग"@hi,
+        "箔エンボス"@ja,
+        "Folie-embossing"@nb,
+        "Foliepreging (reliëf)"@nl,
+        "Tłoczenie z folią"@pl,
+        "Relevo com foil"@pt,
+        "Folieprägling"@sv,
+        "烫箔凸压"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.6 · p.74",
+                "§5.6.12 · p.118",
+                "§6.32 · p.197" ;
+            ptpge:mappingRow "crosswalk row 27" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Embossing",
+                "EmbossingIntent",
+                "EmbossingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

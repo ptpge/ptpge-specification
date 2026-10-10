@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/hahnemuhle",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Hahnemühle",
+    "es": "Hahnemühle",
+    "zh-Hans": "Hahnemühle",
+    "nb": "Hahnemühle",
+    "de": "Hahnemühle",
+    "ja": "Hahnemühle",
+    "sv": "Hahnemühle",
+    "da": "Hahnemühle",
+    "nl": "Hahnemühle",
+    "pl": "Hahnemühle",
+    "pt": "Hahnemühle",
+    "hi": "Hahnemühle"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB-SHT-PAPR-PSUP-HAHN",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "German specialty paper manufacturer (founded 1584) — known for premium fine art papers, archival inkjet papers, and traditional artist papers used in fine art reproduction and photography.",
+    "nb": "Tysk spesialpapirprodusent (grunnlagt 1584) — kjent for premium kunstpapir, arkiv-inkjet-papir og tradisjonelle kunstnerpapirer brukt til kunstreproduksjon og fotografi.",
+    "de": "Deutscher Spezialpapierhersteller (gegründet 1584) — bekannt für Premium-Künstlerpapiere, archivfähige Inkjet-Papiere und traditionelle Künstlerpapiere für Kunstreproduktionen und Fotografie.",
+    "ja": "ドイツの特殊紙メーカー（1584年創業）— プレミアム美術紙、アーカイブ用インクジェット紙、伝統的なアーティスト紙で知られ、美術複製や写真に使用される。",
+    "es": "Hahnemühle FineArt — fabricante alemán de papeles especiales y de bellas artes, conocido por papeles de algodón para impresión inkjet, acuarela y artes gráficas.",
+    "zh-Hans": "Hahnemühle FineArt —— 德国特种纸和美术纸制造商，以棉纸用于喷墨印刷、水彩和图艺著称。",
+    "sv": "Tysk specialpapperstillverkare (grundad 1584) — känd för exklusiva konstpapper, arkivbeständiga inkjetpapper och traditionella konstnärspapper för konstreproduktion och fotografi.",
+    "da": "Tysk specialpapirproducent (grundlagt 1584) — kendt for eksklusive kunstpapirer, arkivbestandige inkjetpapirer og traditionelle kunstnerpapirer brugt i kunstreproduktion og fotografi.",
+    "nl": "Duitse fabrikant van speciaalpapier (opgericht 1584) — bekend om premium kunstpapieren, archiefbestendige inkjetpapieren en traditionele kunstenaarspapieren voor kunstreproductie en fotografie.",
+    "pl": "Niemiecki producent papierów specjalnych (założony w 1584 r.) — znany z papierów artystycznych premium, archiwalnych papierów do druku atramentowego i tradycyjnych papierów dla artystów, używanych w reprodukcji dzieł sztuki i fotografii.",
+    "pt": "Fabricante alemão de papéis especiais (fundado em 1584) — conhecido por papéis fine art premium, papéis arquivísticos para jato de tinta e papéis tradicionais de artista usados em reprodução de arte e fotografia.",
+    "hi": "जर्मन विशेष काग़ज़ निर्माता (स्थापना 1584) — प्रीमियम फ़ाइन आर्ट काग़ज़, अभिलेखीय इंकजेट काग़ज़ और कला प्रतिकृति व फ़ोटोग्राफ़ी में प्रयुक्त पारंपरिक कलाकार काग़ज़ों के लिए प्रसिद्ध।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

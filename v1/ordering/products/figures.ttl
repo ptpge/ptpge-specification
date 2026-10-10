@@ -1,0 +1,123 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/figures> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "figur"@da,
+        "papfigur"@da,
+        "standee"@da,
+        "udstanset figur"@da,
+        "Aufsteller"@de,
+        "Displayfiguren"@de,
+        "Pappaufsteller"@de,
+        "Figure"@en,
+        "Figurine"@en,
+        "Model figure"@en,
+        "cardboard cut-out"@en,
+        "cut-out figure"@en,
+        "standee"@en,
+        "expositor recortado"@es,
+        "figura"@es,
+        "figura a tamaño real"@es,
+        "figura de cartón"@es,
+        "figura recortada"@es,
+        "silueta"@es,
+        "कटआउट"@hi,
+        "कार्डबोर्ड कटआउट"@hi,
+        "फ़िगर"@hi,
+        "लाइफ़-साइज़ कटआउट"@hi,
+        "स्टैंडी"@hi,
+        "スタンディ"@ja,
+        "切り抜きパネル"@ja,
+        "立て看板"@ja,
+        "等身大パネル"@ja,
+        "Figur"@nb,
+        "pappfigur"@nb,
+        "standee"@nb,
+        "utstillingsfigur"@nb,
+        "displayfiguur"@nl,
+        "figuur"@nl,
+        "kartonnen figuur"@nl,
+        "standee"@nl,
+        "uitgestanste figuur"@nl,
+        "figura"@pl,
+        "figurka"@pl,
+        "postać tekturowa"@pl,
+        "standee"@pl,
+        "wycinanka tekturowa"@pl,
+        "boneco de papelão"@pt,
+        "display de chão"@pt,
+        "figura recortada"@pt,
+        "standee"@pt,
+        "totem recortado"@pt,
+        "figur"@sv,
+        "kartongfigur"@sv,
+        "pappfigur"@sv,
+        "standee"@sv,
+        "utstansad figur"@sv,
+        "人形立牌"@zh-Hans,
+        "展示模型"@zh-Hans,
+        "异形立牌"@zh-Hans,
+        "纸板人像"@zh-Hans,
+        "造型立牌"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En fritstående udstanset papfigur (standee) af en person, et produkt eller en karakter — til detaildisplay og arrangementer."@da,
+        "Ein freistehender gestanzter Pappaufsteller (Standee) — für Handelsdisplay und Events."@de,
+        "A free-standing die-cut cardboard cut-out (standee) of a person, product or character — for retail display and events."@en,
+        "Una figura troquelada de cartón autoportante (standee) de una persona, producto o personaje — para exhibición en retail y eventos."@es,
+        "किसी व्यक्ति, उत्पाद या पात्र का स्वयं खड़ा रहने वाला डाई-कट कार्डबोर्ड कटआउट (स्टैंडी) — खुदरा प्रदर्शन और आयोजनों के लिए।"@hi,
+        "人物・商品・キャラクターを型抜きした自立式の厚紙パネル（スタンディ）。店頭展示やイベントに。"@ja,
+        "En frittstående stanset pappfigur (standee) av en person, et produkt eller en figur — for butikkdisplay og arrangementer."@nb,
+        "Een vrijstaande gestanste kartonnen figuur (standee) van een persoon, product of personage — voor winkeldisplay en evenementen."@nl,
+        "Wolnostojąca, wykrawana tekturowa figura (standee) przedstawiająca osobę, produkt lub postać — do ekspozycji w handlu i na wydarzeniach."@pl,
+        "Figura recortada em cartão, autoportante (standee), de uma pessoa, produto ou personagem — para exposição no varejo e em eventos."@pt,
+        "En fristående stansad kartongfigur (standee) av en person, produkt eller karaktär — för butiksexponering och evenemang."@sv,
+        "自立式模切纸板立牌——人物、产品或角色造型，用于零售陈列和活动。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§FIGURES" ;
+    skos:prefLabel "Figurer"@da,
+        "Figuren"@de,
+        "Figures"@en,
+        "Figuras"@es,
+        "स्टैंडी (कटआउट)"@hi,
+        "フィギュア"@ja,
+        "Figurer"@nb,
+        "Figuren"@nl,
+        "Figury"@pl,
+        "Displays de chão (figuras)"@pt,
+        "Figurer"@sv,
+        "造型物"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-thickness>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/board-materials/cardboard>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/cardboard/solid-board>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/foam>,
+        <https://ptpge.org/v1/printing/substrates/board-materials/plastic>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/cardboard> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    ptpge:version "2026-09-28" .
+

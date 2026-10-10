@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/us/legal> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "8.5 x 14 in"@en,
+        "8.5x14"@en,
+        "8.5×14"@en,
+        "Legal size"@en,
+        "format Legal"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:definition "8.5 × 14 tommer (215.9 × 355.6 mm). Samme bredde som Letter, men højere — bruges i USA til juridiske dokumenter, kontrakter og formularer."@da,
+        "8,5 × 14 in (215,9 × 355,6 mm). Gleiche Breite wie Letter, aber höher — verwendet in den USA für Rechtsdokumente, Verträge und Formulare."@de,
+        "8.5 × 14 in (215.9 × 355.6 mm). Same width as Letter but taller — used in US for legal documents, contracts, and forms."@en,
+        "Tamaño Oficio de EE. UU., 8,5 × 14 pulgadas. Habitual para documentos legales, contratos y formularios extensos."@es,
+        "8.5 × 14 in (215.9 × 355.6 mm). Letter जितनी चौड़ाई पर ऊँचा — US में विधिक दस्तावेज़ों, अनुबंधों और फ़ॉर्मों में।"@hi,
+        "8.5×14インチ（215.9×355.6mm）。Letterと同じ幅だが背が高い — 米国で法律文書、契約書、書式に使用される。"@ja,
+        "8,5 × 14 in (215,9 × 355,6 mm). Samme bredde som Letter, men høyere — brukt i USA til juridiske dokumenter, kontrakter og skjemaer."@nb,
+        "8.5 × 14 inch (215.9 × 355.6 mm). Even breed als Letter, maar hoger — in de VS gebruikt voor juridische documenten, contracten en formulieren."@nl,
+        "8,5 × 14 cali (215,9 × 355,6 mm). Tej samej szerokości co Letter, lecz wyższy — używany w USA do dokumentów prawnych, umów i formularzy."@pl,
+        "8.5 × 14 in (215.9 × 355.6 mm). Mesma largura do Letter, porém mais alto — usado nos EUA em documentos jurídicos, contratos e formulários."@pt,
+        "8.5 × 14 tum (215.9 × 355.6 mm). Samma bredd som Letter men högre — används i USA för juridiska dokument, kontrakt och blanketter."@sv,
+        "美国Legal尺寸，8.5 × 14英寸。常用于法律文件、合同和长篇表格。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§LEGAL" ;
+    skos:prefLabel "Legal (8.5 x 14 tum)"@da,
+        "Legal (8.5 x 14 in)"@de,
+        "Legal (8.5 x 14 in)"@en,
+        "Legal (216 × 356 mm / 8.5 × 14 in)"@es,
+        "Legal (8.5 x 14 in)"@hi,
+        "Legal (8.5 x 14 in)"@ja,
+        "Legal (8.5 x 14 in)"@nb,
+        "Legal (8.5 x 14 in)"@nl,
+        "Legal (8.5 x 14 in)"@pl,
+        "Legal (8.5 x 14 in)"@pt,
+        "Legal (8.5 x 14 tum)"@sv,
+        "Legal (216 × 356 mm / 8.5 × 14 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 119.0 ;
+            ptpge:aspectRatio 1.6471 ;
+            ptpge:height 14.0 ;
+            ptpge:standard "ANSI" ;
+            ptpge:unit "in" ;
+            ptpge:width 8.5 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

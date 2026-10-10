@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/berliner",
+  "type": "skos:Concept",
+  "version": "2026-08-12",
+  "status": "proposed",
+  "notation": "P:CF§BERLINER",
+  "level": "element",
+  "label": {
+    "en": "Berliner (315 x 470 mm)",
+    "nb": "Berliner (315 x 470 mm)",
+    "de": "Berliner (315 x 470 mm)",
+    "ja": "Berliner (315 x 470 mm)",
+    "nl": "Berliner (315 x 470 mm)",
+    "es": "Berliner (315 × 470 mm)",
+    "zh-Hans": "Berliner (315 × 470 mm)",
+    "sv": "Berliner (315 x 470 mm)",
+    "da": "Berliner (315 x 470 mm)",
+    "pl": "Berliner (315 x 470 mm)",
+    "pt": "Berliner (315 x 470 mm)",
+    "hi": "Berliner (315 x 470 mm)"
+  },
+  "definition": {
+    "en": "315 × 470 mm (nominal — exact dimensions vary by press). Mid-size newspaper format between broadsheet and compact; also called Midi.",
+    "nb": "315 × 470 mm (nominelt — eksakte mål varierer med pressen). Mellomstort avisformat mellom broadsheet og compact; også kalt Midi.",
+    "de": "315 × 470 mm (nominell — genaue Maße variieren je nach Rotation). Mittleres Zeitungsformat zwischen Broadsheet und Compact; auch Midi genannt (Berliner Format).",
+    "es": "315 × 470 mm (nominal — las dimensiones exactas varían según rotativa). Formato de periódico intermedio entre sábana y compacto; también llamado Midi (formato berlinés).",
+    "ja": "315 × 470 mm（公称 — 実寸は輪転機により異なる）。ブロードシートとコンパクトの中間の新聞判型。Midi とも呼ばれる（ベルリナー判）。",
+    "zh-Hans": "315 × 470 毫米（名义尺寸 — 具体尺寸因轮转机而异）。介于对开与四开之间的中型报纸幅面，也称 Midi（柏林式）。",
+    "sv": "315 × 470 mm (nominellt — exakta mått varierar med pressen). Mellanstort tidningsformat mellan fullformat och tabloid; kallas även Midi.",
+    "da": "315 × 470 mm (nominelt — de præcise mål varierer med pressen). Mellemstort avisformat mellem fuldformat og tabloid; kaldes også Midi.",
+    "nl": "315 × 470 mm (nominellt — exakta mått varierar met pressen). Middelgroot krantenformaat tussen broadsheet en tabloid; ook Midi genoemd.",
+    "pl": "315 × 470 mm (nominalnie — dokładne wymiary zależą od maszyny). Średni format gazetowy między broadsheet a compact; zwany także Midi.",
+    "pt": "315 × 470 mm (nominal — as dimensões exatas variam conforme a rotativa). Formato de jornal médio, entre broadsheet e compacto; também chamado Midi.",
+    "hi": "315 × 470 mm (नाममात्र — सटीक आयाम प्रेस से बदलते हैं). ब्रॉडशीट और कॉम्पैक्ट के बीच का मध्यम अख़बार फ़ॉर्मेट; इसे Midi भी कहते हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats",
+  "elementType": "value",
+  "properties": {
+    "width": 315,
+    "height": 470,
+    "unit": "mm",
+    "aspectRatio": 1.4921,
+    "standard": "trade convention",
+    "area": 148050
+  },
+  "created": "2026-08-12T11:00:47Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "Midi"
+    ],
+    "pl": [
+      "Midi"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

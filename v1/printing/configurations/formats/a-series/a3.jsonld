@@ -1,0 +1,92 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A3 (297 x 420 mm)",
+    "es": "A3 (297 × 420 mm)",
+    "zh-Hans": "A3 (297 × 420 mm)",
+    "nb": "A3 (297 x 420 mm)",
+    "de": "A3 (297 x 420 mm)",
+    "ja": "A3 (297 x 420 mm)",
+    "nl": "A3 (297 x 420 mm)",
+    "sv": "A3 (297 x 420 mm)",
+    "da": "A3 (297 x 420 mm)",
+    "pl": "A3 (297 x 420 mm)",
+    "pt": "A3 (297 x 420 mm)",
+    "hi": "A3 (297 x 420 mm)"
+  },
+  "altLabels": {
+    "en": [
+      "A3 Size",
+      "297 x 420 mm",
+      "297x420",
+      "297×420",
+      "29.7 x 42 cm",
+      "DIN A3"
+    ],
+    "nb": [
+      "A3-format",
+      "A3-størrelse"
+    ],
+    "pl": [
+      "format A3"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A3",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "297 × 420 mm (11.69 × 16.54 in). The next size up from A4 in the ISO 216 A series — twice the area, the same aspect ratio. Used for posters, large-format reports, double-page spreads, and as the print sheet for booklets folded down to A4.",
+    "nb": "297 × 420 mm (11,69 × 16,54 in). Neste størrelse over A4 i ISO 216 A-serien — dobbelt areal, samme sideforhold. Brukes til plakater, storformat-rapporter, oppslagssider og som trykkark for hefter som brettes ned til A4.",
+    "de": "297 × 420 mm (11,69 × 16,54 in). Das nächstgrößere Format nach A4 in der ISO-216-A-Reihe — doppelte Fläche, gleiches Seitenverhältnis. Verwendet für Plakate, Großformatberichte, doppelseitige Spreads und als Druckbogen für Broschüren, die auf A4 gefalzt werden.",
+    "ja": "297×420mm(11.69×16.54インチ）。ISO 216 AシリーズでA4の次のサイズ — 面積は2倍、アスペクト比は同じ。ポスター、大判の報告書、見開き、A4に折りたたむブックレットの印刷シートとして使用される。",
+    "es": "Formato A3 de la serie A de ISO 216, dimensiones 297 × 420 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A.",
+    "zh-Hans": "ISO 216 A系列A3开本，尺寸297 × 420 mm。比例1:√2 —— 对折后得到下一个A尺寸。",
+    "sv": "297 × 420 mm (11.69 × 16.54 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Formatet över A4 i A-serien — dubbla arean, samma proportioner. Används för affischer, större rapporter, uppslag och som tryckark för häften som falsas ned till A4.",
+    "da": "297 × 420 mm (11.69 × 16.54 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Formatet over A4 i A-serien — dobbelt areal, samme proportioner. Bruges til plakater, større rapporter, opslag og som trykark til hæfter, der falses ned til A4.",
+    "nl": "297 × 420 mm (11.69 × 16.54 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Het formaat boven A4 in de A-reeks — dubbel oppervlak, dezelfde verhoudingen. Gebruikt voor posters, grotere rapporten, spreads en als drukvel voor boekjes die worden gevouwen naar A4.",
+    "pl": "297 × 420 mm (11,69 × 16,54 cala). Kolejny format po A4 w serii A normy ISO 216 — dwukrotna powierzchnia, te same proporcje. Używany do plakatów, dużych raportów, rozkładówek i jako arkusz drukowy broszur składanych do A4.",
+    "pt": "297 × 420 mm (11.69 × 16.54 in). O tamanho seguinte ao A4 na série A da ISO 216 — o dobro da área, a mesma proporção. Usado em pôsteres, relatórios grandes, páginas duplas e como folha de impressão de folhetos dobrados para A4.",
+    "hi": "297 × 420 mm (11.69 × 16.54 in). ISO 216 A-सीरीज़ में A4 से अगला आकार — दोगुना क्षेत्रफल, वही अनुपात। पोस्टर, बड़ी रिपोर्ट, डबल-पेज स्प्रेड और A4 में मुड़ने वाली बुकलेट की प्रिंट शीट के रूप में।"
+  },
+  "exactMatch": [
+    "http://www.wikidata.org/entity/Q83059"
+  ],
+  "properties": {
+    "width": 297,
+    "height": 420,
+    "unit": "mm",
+    "aspectRatio": 1.4141,
+    "standard": "ISO 216",
+    "area": 124740
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

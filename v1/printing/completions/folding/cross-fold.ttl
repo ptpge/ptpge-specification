@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/cross-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "French Fold"@en,
+        "Right-Angle Fold"@en,
+        "चौकोर फ़ोल्ड"@hi,
+        "फ़्रेंच फ़ोल्ड"@hi,
+        "राइट-एंगल फ़ोल्ड"@hi,
+        "Kryssfals"@nb,
+        "złam francuski"@pl,
+        "złam na krzyż"@pl,
+        "złam prostopadły"@pl,
+        "dobra em ângulo reto"@pt,
+        "dobra francesa"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Ark falset langs to vinkelrette akser — den anden fals ligger 90° på den første. Giver et kompakt flerpanelsprodukt med højt panelantal fra ét ark."@da,
+        "Bogen, der entlang zweier rechtwinklig zueinander stehender Achsen gefalzt wird — der zweite Falz verläuft im 90°-Winkel zum ersten. Erzeugt aus einem einzelnen Bogen ein kompaktes mehrteiliges Produkt mit hoher Seitenzahl."@de,
+        "Sheet folded along two perpendicular axes — the second fold runs at 90° to the first. Produces a compact multi-panel product with high panel count from a single sheet."@en,
+        "Pliegues en direcciones perpendiculares — produce productos compactos a partir de pliegos grandes (mapas detallados, planos)."@es,
+        "दो लंबवत अक्षों पर मुड़ी शीट — दूसरा फ़ोल्ड पहले से 90° पर। एक ही शीट से अधिक पैनलों वाला सघन उत्पाद बनता है।"@hi,
+        "シートを2つの直交する軸で折る — 2つ目の折りが1つ目の折りに対して90°走る。1枚のシートから多くの面数を持つコンパクトな多面製品を作る。"@ja,
+        "Ark foldet langs to vinkelrette akser — den andre folden går 90° til den første. Produserer et kompakt flerpanel-produkt med høyt antall paneler fra ett enkelt ark."@nb,
+        "Vel gevouwen langs twee haakse assen — de tweede vouw staat op 90° van de eerste. Geeft een compact meerpaneelproduct met hoog paneelaantal uit één vel."@nl,
+        "Arkusz złożony wzdłuż dwóch prostopadłych osi — drugi złam biegnie pod kątem 90° do pierwszego. Daje kompaktowy produkt wieloskrzydłowy o dużej liczbie skrzydeł z jednego arkusza."@pl,
+        "Folha dobrada em dois eixos perpendiculares — a segunda dobra a 90° da primeira. Produz um produto compacto com muitos painéis a partir de uma única folha."@pt,
+        "Ark falsat längs två vinkelräta axlar — den andra falsen löper i 90° mot den första. Ger en kompakt flerpanelsprodukt med högt panelantal ur ett enda ark."@sv,
+        "垂直方向的折页 —— 从大纸张产生紧凑产品（详细地图、平面图）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§CROSS-FOLD" ;
+    skos:prefLabel "Krydsfals"@da,
+        "Kreuzfalz"@de,
+        "Cross Fold"@en,
+        "Pliegue Cruzado"@es,
+        "क्रॉस फ़ोल्ड"@hi,
+        "クロス折り"@ja,
+        "Kryss-fold"@nb,
+        "Kruisvouw"@nl,
+        "Złam krzyżowy"@pl,
+        "Dobra cruzada"@pt,
+        "Korsfals"@sv,
+        "十字折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

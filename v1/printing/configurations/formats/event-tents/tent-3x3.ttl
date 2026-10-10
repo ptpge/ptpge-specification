@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-3x3> a skos:Concept ;
+    dcterms:created "2026-09-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/v1/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "3 × 3 m tent"@en,
+        "3x3 m"@en,
+        "Pop-up tent 3 × 3 m"@en,
+        "namiot ekspresowy 3 × 3 m"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/event-tents> ;
+    skos:definition "Europæisk standardmål for pop-up- og rammetelte — 3 × 3 m. Formatet er rammens fodaftryk; tag- og vægpaneler, sømme og kanter er produktionsgeometri udledt af producenten."@da,
+        "Europäisches Standardmaß für Faltpavillons und Rahmenzelte — 3 × 3 m. Das Format ist die Rahmengrundfläche; Dach- und Wandbahnen, Nähte und Säume sind vom Hersteller abgeleitete Produktionsgeometrie."@de,
+        "Event tent format 3 × 3 m: European standard footprint for pop-up and frame event tents. The format is the frame footprint; canopy and wall panels, seams and hems are production geometry derived by the producer."@en,
+        "Medida estándar europea para carpas plegables y de armazón — 3 × 3 m. El formato es la huella de la estructura; paneles de techo y pared, costuras y dobladillos son geometría de producción derivada por el productor."@es,
+        "इवेंट टेंट फ़ॉर्मेट 3 × 3 m: पॉप-अप और फ़्रेम टेंट के लिए यूरोपीय मानक फुटप्रिंट। फ़ॉर्मेट फ़्रेम का फुटप्रिंट है; छतरी और दीवार पैनल, सिलाई और किनारे उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति हैं।"@hi,
+        "ポップアップ／フレームテントの欧州標準サイズ。 — 3 × 3 m. 判型はフレームの設置面積。天幕・側幕パネル、縫い目、縁は製造者が導出する生産上の寸法。"@ja,
+        "Europeisk standardmål for pop-up- og rammetelt — 3 × 3 m. Formatet er rammens fotavtrykk; canopy- og veggpaneler, sømmer og fald er produksjonsgeometri utledet av produsenten."@nb,
+        "Europese standaardmaat voor pop-up- en frametenten — 3 × 3 m. Het formaat is de voetafdruk van het frame; dak- en wandpanelen, naden en zomen zijn door de producent afgeleide productiegeometrie."@nl,
+        "Format namiotu eventowego 3 × 3 m: europejski standardowy obrys namiotów ekspresowych i ramowych. Format to obrys stelaża; panele dachu i ścian, szwy i obszycia są geometrią produkcyjną wyprowadzaną przez producenta."@pl,
+        "Formato de tenda para eventos 3 × 3 m: área padrão europeia para tendas sanfonadas e de estrutura. O formato é a área da estrutura; painéis de cobertura e paredes, costuras e bainhas são geometria de produção derivada pelo produtor."@pt,
+        "Europeiskt standardmått för pop-up- och ramtält — 3 × 3 m. Formatet är ramens fotavtryck; tak- och väggpaneler, sömmar och fållar är produktionsgeometri som producenten härleder."@sv,
+        "弹出式与框架帐篷的欧洲标准尺寸。 — 3 × 3 m. 规格为框架占地尺寸；顶篷与围布片、缝线与折边为生产者推导的生产几何尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§TENT-3X3" ;
+    skos:prefLabel "Tent 3 × 3 m"@da,
+        "Tent 3 × 3 m"@de,
+        "Tent 3 × 3 m"@en,
+        "Tent 3 × 3 m"@es,
+        "टेंट 3 × 3 m"@hi,
+        "Tent 3 × 3 m"@ja,
+        "Tent 3 × 3 m"@nb,
+        "Tent 3 × 3 m"@nl,
+        "Namiot 3 × 3 m"@pl,
+        "Tenda 3 × 3 m"@pt,
+        "Tent 3 × 3 m"@sv,
+        "Tent 3 × 3 m"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 9000000.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 3000.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 3000.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-05" .
+

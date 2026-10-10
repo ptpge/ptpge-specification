@@ -1,0 +1,94 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/structural-finishing/scoring",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§SCORING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Scoring",
+    "nb": "Rilling",
+    "de": "Rillen",
+    "ja": "Scoring",
+    "es": "Scoring",
+    "zh-Hans": "Scoring",
+    "sv": "Bigning",
+    "da": "Rilning",
+    "nl": "Rillen",
+    "pl": "Bigowanie",
+    "pt": "Vinco",
+    "hi": "स्कोरिंग (क्रीज़िंग)"
+  },
+  "definition": {
+    "en": "Pressing a crease line into the substrate so it folds cleanly without cracking.",
+    "nb": "Pressing av en rillelinje i substratet så det brettes rent uten å sprekke.",
+    "de": "Eindrücken einer Rilllinie, damit der Bedruckstoff sauber und ohne Brechen gefalzt werden kann.",
+    "ja": "基材に折りスジを圧して入れ、割れずにきれいに折れるようにする。",
+    "es": "Presionar una línea de hendido en el sustrato para que se pliegue limpiamente sin agrietarse.",
+    "zh-Hans": "在承印材料上压出折痕线，使其折叠平整而不开裂。",
+    "sv": "Pressning av en veckningslinje i substratet så att det falsas rent utan att spricka.",
+    "da": "Presning af en rillelinje i substratet, så det falses rent uden at revne.",
+    "nl": "Een rillijn in het substraat persen zodat het netjes vouwt zonder te breken.",
+    "pl": "Wytłoczenie linii zagięcia w podłożu, aby składało się czysto, bez pękania.",
+    "pt": "Marcar uma linha de vinco no substrato para que dobre limpo, sem rachar.",
+    "hi": "सब्सट्रेट में क्रीज़ की लाइन दबाना ताकि वह बिना दरार के साफ़ मुड़े।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "properties": {
+    "recommendedFromWeight": 170,
+    "standardFromWeight": 250,
+    "weightUnit": "gsm"
+  },
+  "altLabels": {
+    "en": [
+      "Scored",
+      "Crease",
+      "Creasing",
+      "Score line"
+    ],
+    "nb": [
+      "Rilling",
+      "Rillet",
+      "Biging"
+    ],
+    "pl": [
+      "bigowane",
+      "big",
+      "bigówka",
+      "linia bigu"
+    ],
+    "pt": [
+      "vincado",
+      "vincagem",
+      "linha de vinco",
+      "vinco de dobra"
+    ],
+    "hi": [
+      "क्रीज़िंग",
+      "क्रीज़",
+      "स्कोर लाइन",
+      "मोड़ की लाइन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Creasing"
+      ],
+      "refs": [
+        "§5.6.9 · p.117"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 43"
+    }
+  ]
+}

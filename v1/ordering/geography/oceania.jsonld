@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/oceania",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "notation": "O:GY-OCE",
+  "label": {
+    "en": "Oceania",
+    "nb": "Oseania",
+    "de": "Ozeanien",
+    "ja": "オセアニア",
+    "es": "Oceanía",
+    "zh-Hans": "大洋洲",
+    "sv": "Oceanien",
+    "da": "Oceanien",
+    "nl": "Oceanië",
+    "pl": "Oceania",
+    "pt": "Oceania",
+    "hi": "ओशिनिया"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/geography/oceania/australia",
+    "https://ptpge.org/v1/ordering/geography/oceania/new-zealand"
+  ],
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Oceania region grouping. Contains country-level subdivisions for Australia (AU), New Zealand (NZ), and Pacific island nations. Used as geographic facet in product specification, supplier listing, and shipping/delivery scoping.",
+    "nb": "Oseania-regionen som gruppering. Inneholder land-nivå underinndelinger for Australia (AU), New Zealand (NZ) og stillehavsøy-nasjoner. Brukt som geografisk fasett i produkt-spesifikasjon, leverandør-lister og frakt/leverings-avgrensning.",
+    "de": "Regionale Gruppierung Ozeanien. Enthält länderspezifische Unterteilungen für Australien (AU), Neuseeland (NZ) und pazifische Inselstaaten. Verwendet als geografische Facette in der Produktspezifikation, Lieferantenlisten und Versand-/Lieferzonen.",
+    "ja": "オセアニア地域のグループ。オーストラリア（AU）、ニュージーランド（NZ）、太平洋諸島国家の国レベルの細分を含む。製品仕様、供給者リスト、配送ゾーンの地理的ファセットとして使用される。",
+    "es": "Agrupación regional de Oceanía. Contiene subdivisiones a nivel de país para Australia (AU), Nueva Zelanda (NZ) y naciones insulares del Pacífico. Utilizada como faceta geográfica en la especificación de productos, listados de proveedores y zonas de envío y entrega.",
+    "zh-Hans": "大洋洲区域分组。包含澳大利亚（AU）、新西兰（NZ）以及太平洋岛国的国家级细分。作为产品规格、供应商列表和发货/配送范围的地理分面使用。",
+    "sv": "Regiongruppering för Oceanien. Innehåller underindelningar på landsnivå för Australien (AU), Nya Zeeland (NZ) och önationer i Stilla havet. Används som geografisk facett i produktspecifikation, leverantörslistning och avgränsning av frakt och leverans.",
+    "da": "Oceanien — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering.",
+    "nl": "Oceanië — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering.",
+    "pl": "Grupowanie regionalne dla Oceanii. Zawiera podziały na poziomie krajów: Australia (AU), Nowa Zelandia (NZ) i państwa wyspiarskie Pacyfiku. Używane jako aspekt geograficzny w specyfikacji produktu, listach dostawców i zakresie wysyłki/dostawy.",
+    "pt": "Agrupamento regional: Oceania. Contém subdivisões de nível de país para Austrália (AU), Nova Zelândia (NZ) e nações insulares do Pacífico. Usado como faceta geográfica em especificação de produto, listagem de fornecedores e delimitação de envio/entrega.",
+    "hi": "क्षेत्रीय समूह: ओशिनिया। ऑस्ट्रेलिया (AU), न्यूज़ीलैंड (NZ) और प्रशांत द्वीप राष्ट्रों के देश-स्तरीय उपविभाग। उत्पाद विनिर्देश, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे में भौगोलिक पहलू के रूप में प्रयुक्त।"
+  }
+}

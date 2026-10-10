@@ -1,0 +1,73 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/features/embellishment",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:FT§EMBELLISHMENT",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Embellishment",
+    "nb": "Dekor",
+    "de": "Veredelung",
+    "es": "Ornamentación",
+    "ja": "加飾",
+    "zh-Hans": "装饰工艺",
+    "sv": "Dekor",
+    "da": "Forædling",
+    "nl": "Veredeling",
+    "pl": "Uszlachetnienie",
+    "pt": "Enobrecimento",
+    "hi": "एम्बेलिशमेंट"
+  },
+  "definition": {
+    "en": "Configurable axis: Embellishment. A printed product is configured along this variable (enum, multiple selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Dekor. Et trykkprodukt konfigureres langs denne variabelen (enum, multiple valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Veredelung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Mehrfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Ornamentación. Un producto impreso se configura a lo largo de esta variable (enum, selección múltiple). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：加飾。印刷物はこの変数に沿って構成される（列挙型、複数選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：装饰工艺。印刷品沿此变量进行配置（枚举，多选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Dekor. En trycksak konfigureras längs denna variabel (uppräkning, flerval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Forædling. Et trykt produkt konfigureres langs denne variabel (enum, flervalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Veredeling. Een drukproduct wordt langs deze variabele geconfigureerd (enum, meerkeuze). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Uszlachetnienie. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór wielokrotny). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Enobrecimento. Um impresso é configurado ao longo desta variável (enumeração, seleção múltipla). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: एम्बेलिशमेंट (सजावटी प्रभाव)। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, बहु-चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Any embellishment?",
+    "nb": "Noen forsiring?",
+    "de": "Eine Veredelung?",
+    "es": "¿Algún embellecimiento?",
+    "ja": "加飾はありますか？",
+    "zh-Hans": "需要装饰工艺吗？",
+    "sv": "Någon förädling?",
+    "da": "Nogen forædling?",
+    "nl": "Een verfraaiing?",
+    "pl": "Jakieś uszlachetnienie?",
+    "pt": "Algum acabamento decorativo?",
+    "hi": "कोई सज्जा (एम्बेलिशमेंट)?"
+  },
+  "datatype": "enum",
+  "cardinality": "multiple",
+  "scope": "surface",
+  "valueDomain": "https://ptpge.org/v1/printing/features/embellishments",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/features",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "pt": [
+      "acabamento especial",
+      "efeitos especiais",
+      "hot stamping e relevo"
+    ],
+    "hi": [
+      "सजावटी प्रभाव",
+      "स्पेशल इफ़ेक्ट",
+      "फ़ॉइल और एम्बॉसिंग"
+    ]
+  }
+}

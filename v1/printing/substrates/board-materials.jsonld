@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Board Materials",
+    "es": "Materiales en Placa",
+    "zh-Hans": "板材",
+    "nb": "Plate-materialer",
+    "de": "Plattenmaterialien",
+    "ja": "ボード基材",
+    "sv": "Skivmaterial",
+    "da": "Plader",
+    "nl": "Plaatmaterialen",
+    "pl": "Materiały płytowe",
+    "pt": "Materiais em chapa",
+    "hi": "बोर्ड सामग्री"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/acrylic",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard",
+    "https://ptpge.org/v1/printing/substrates/board-materials/foam",
+    "https://ptpge.org/v1/printing/substrates/board-materials/glass",
+    "https://ptpge.org/v1/printing/substrates/board-materials/metal",
+    "https://ptpge.org/v1/printing/substrates/board-materials/plastic",
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Rigid flat-panel substrates used as printing surfaces — typically thicker than 1 mm, requiring specialized presses or wide-format printers.",
+    "nb": "Stive flatpanel-substrater brukt som trykkflater — vanligvis tykkere enn 1 mm, krever spesialiserte presser eller storformatskrivere.",
+    "de": "Starre flache Plattenmaterialien als Druckoberflächen — typischerweise dicker als 1 mm, erfordern spezialisierte Druckmaschinen oder Großformatdrucker.",
+    "ja": "印刷面として使用される剛性のある平面パネル基材 — 通常1mmより厚く、専用の印刷機または大判プリンターを必要とする。",
+    "es": "Sustratos planos rígidos utilizados como superficies de impresión — habitualmente de más de 1 mm de grosor, requieren prensas especializadas o impresoras de gran formato.",
+    "zh-Hans": "用作印刷表面的刚性平板承印物——通常厚度超过1毫米，需要专用印刷机或大幅面打印机。",
+    "sv": "Styva plana skivsubstrat som tryckytor — typiskt tjockare än 1 mm och kräver specialiserade pressar eller storformatsskrivare.",
+    "da": "Stive fladpanel-substrater brugt som trykflader — typisk tykkere end 1 mm og kræver specialpresser eller storformatprintere.",
+    "nl": "Stijve vlakke plaatsubstraten als drukoppervlak — doorgaans dikker dan 1 mm, vereisen gespecialiseerde persen of grootformaatprinters.",
+    "pl": "Sztywne płaskie podłoża płytowe używane jako powierzchnie drukowe — zwykle grubsze niż 1 mm, wymagające specjalistycznych maszyn lub ploterów wielkoformatowych.",
+    "pt": "Substratos rígidos em painel plano usados como superfície de impressão — normalmente com mais de 1 mm, exigindo impressoras especializadas ou de grande formato.",
+    "hi": "छपाई की सतह के रूप में प्रयुक्त कठोर सपाट पैनल सब्सट्रेट — आमतौर पर 1 मिमी से मोटे, विशेष प्रेस या वाइड-फॉर्मेट प्रिंटर की ज़रूरत।"
+  },
+  "scopeNote": {
+    "en": "Includes acrylic, foam, glass, plastic, wood, and metal panels. Used for signage, exhibition graphics, durable displays, and architectural applications. Industrial uses such as direct-to-product printing fall under Object Materials.",
+    "nb": "Inkluderer akryl, skumplate, glass, plast, tre og metallpanel. Brukt til skilting, messegrafikk, holdbar visning og arkitekturanvendelser. Industrielle bruksområder som direkte-på-produkt trykk hører til Object Materials.",
+    "de": "Umfasst Acryl-, Schaumstoff-, Glas-, Kunststoff-, Holz- und Metallplatten. Verwendet für Beschilderung, Messegrafiken, langlebige Displays und Architekturanwendungen. Industrielle Anwendungen wie Direktdruck auf Produkte fallen unter Object Materials.",
+    "ja": "アクリル、フォーム、ガラス、プラスチック、木材、金属パネルを含む。サイン、展示グラフィック、耐久性のあるディスプレイ、建築用途に使用される。製品への直接印刷などの工業用途はObject Materialsに属する。",
+    "es": "Incluye acrílico, foam, vidrio, plástico, madera y paneles metálicos. Utilizados para señalética, gráficos para exposiciones, expositores duraderos y aplicaciones arquitectónicas. Los usos industriales como la impresión directa sobre producto pertenecen a materiales-objeto.",
+    "zh-Hans": "包括亚克力、泡沫、玻璃、塑料、木材和金属面板。用于标识、展览图形、耐用展示和建筑应用。工业用途如直接对产品印刷属于物体材料。",
+    "pt": "Inclui acrílico, espuma, vidro, plástico, madeira e painéis metálicos. Usados em sinalização, gráficos de exposição, displays duráveis e aplicações arquitetônicas. Usos industriais como impressão direta no produto ficam em Materiais-objeto.",
+    "hi": "ऐक्रेलिक, फ़ोम, काँच, प्लास्टिक, लकड़ी और धातु पैनल शामिल। साइनेज, प्रदर्शनी ग्राफ़िक्स, टिकाऊ डिस्प्ले और वास्तु अनुप्रयोगों में। सीधे उत्पाद पर छपाई जैसे औद्योगिक उपयोग वस्तु सामग्री के अंतर्गत आते हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:SB-BRD",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "płyty"
+    ]
+  }
+}

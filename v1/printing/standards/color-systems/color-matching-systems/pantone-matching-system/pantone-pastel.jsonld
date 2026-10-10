@@ -1,0 +1,81 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system/pantone-pastel",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Pantone Pastel",
+    "nb": "Pantone Pastell",
+    "de": "Pantone Pastell",
+    "ja": "Pantone Pastel",
+    "es": "Pantone Pastel",
+    "zh-Hans": "Pantone Pastel",
+    "sv": "Pantone Pastel",
+    "da": "Pantone Pastel",
+    "nl": "Pantone Pastel",
+    "pl": "Pantone Pastel",
+    "pt": "Pantone Pastel",
+    "hi": "Pantone Pastel"
+  },
+  "definition": {
+    "en": "Pantone's pastel color library — soft, desaturated, light-tone colors with a chalky/milky character. Common for branding, fashion, and editorial design where a softer palette is desired.",
+    "nb": "Pantones pastell-fargebibliotek — myke, ned-mettede, lyse fargetoner med kritakaktig/melkete karakter. Vanlig for branding, mote og redaksjonell design hvor mykere palett er ønsket.",
+    "de": "Pantones Pastell-Farbbibliothek — weiche, entsättigte, helle Farbtöne mit kreidiger/milchiger Anmutung.",
+    "ja": "Pantone のパステルカラーライブラリ — チョーク／ミルク調の、柔らかく彩度を抑えた明るい色。柔らかなパレットが求められるブランディング、ファッション、エディトリアルデザインで一般的。",
+    "es": "La biblioteca de colores pastel de Pantone — colores suaves, desaturados y claros con carácter tiza/lechoso. Común en branding, moda y diseño editorial donde se desea una paleta más suave.",
+    "zh-Hans": "Pantone 粉彩色库 — 带粉质/奶感的柔和、低饱和浅色。常用于需要柔和配色的品牌、时尚与出版设计。",
+    "sv": "Pantones pastellfärgbibliotek — mjuka, avmättade, ljusa kulörer med kritig/mjölkig karaktär. Vanligt för varumärken, mode och redaktionell design där en mjukare palett önskas.",
+    "da": "Pantones pastelfarvebibliotek — bløde, afdæmpede, lyse farver med kridtet/mælket karakter. Almindeligt til branding, mode og redaktionelt design, hvor en blødere palet ønskes.",
+    "nl": "Pantones pastelkleurbibliotheek — zachte, gedempte, lichte kleuren met een krijtachtig/melkachtig karakter. Gebruikelijk voor branding, mode en redactioneel ontwerp waar een zachter palet gewenst is.",
+    "pl": "Biblioteka barw pastelowych Pantone — miękkie, zdesaturowane, jasne barwy o kredowym/mlecznym charakterze. Typowe dla brandingu, mody i projektów redakcyjnych, gdzie pożądana jest łagodniejsza paleta.",
+    "pt": "Biblioteca de cores pastel da Pantone — cores suaves, dessaturadas e de tom claro, com caráter giz/leitoso. Comum em branding, moda e design editorial onde se deseja uma paleta mais suave.",
+    "hi": "Pantone का पेस्टल रंग पुस्तकालय — कोमल, असंतृप्त, हल्के-टोन रंग जिनमें चॉक/दूधिया चरित्र। ब्रांडिंग, फ़ैशन और संपादकीय डिज़ाइन में आम, जहाँ नरम पैलेट चाहिए।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/pantone-matching-system",
+  "properties": {
+    "library": "pantone",
+    "subLibrary": "pastel"
+  },
+  "created": "2026-05-19T23:30:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:ST§PANTONE-PASTEL",
+  "elementType": "reference",
+  "altLabels": {
+    "en": [
+      "Pantone Pastels"
+    ],
+    "pl": [
+      "Pantone Pastels",
+      "Pantone pastelowe"
+    ],
+    "pt": [
+      "Pantone Pastels"
+    ],
+    "hi": [
+      "Pantone Pastels"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

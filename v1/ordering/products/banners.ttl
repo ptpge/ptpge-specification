@@ -1,0 +1,144 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/banners> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "PVC-banner"@da,
+        "banner"@da,
+        "stofbanner"@da,
+        "storformatbanner"@da,
+        "Blachen"@de,
+        "PVC-Banner"@de,
+        "Werbebanner"@de,
+        "Werbeplanen"@de,
+        "Barrier covers"@en,
+        "Fence banners"@en,
+        "Mesh banners"@en,
+        "PVC banner"@en,
+        "banner"@en,
+        "fabric banner"@en,
+        "vinyl banner"@en,
+        "Lonas publicitarias"@es,
+        "Pancartas"@es,
+        "banner"@es,
+        "banner de PVC"@es,
+        "banner de malla"@es,
+        "banner de tela"@es,
+        "lona impresa"@es,
+        "lona publicitaria"@es,
+        "pancarta publicitaria"@es,
+        "PVC बैनर"@hi,
+        "कपड़े का बैनर"@hi,
+        "फ्लेक्स बैनर"@hi,
+        "बैनर"@hi,
+        "मेश बैनर"@hi,
+        "विनाइल बैनर"@hi,
+        "ターポリンバナー"@ja,
+        "バナー"@ja,
+        "メッシュバナー"@ja,
+        "垂れ幕"@ja,
+        "布バナー"@ja,
+        "懸垂幕"@ja,
+        "横断幕"@ja,
+        "banner"@nb,
+        "tekstilbanner"@nb,
+        "vinylbanner"@nb,
+        "PVC-spandoek"@nl,
+        "banner"@nl,
+        "banners"@nl,
+        "doek"@nl,
+        "spandoek"@nl,
+        "textielspandoek"@nl,
+        "baner"@pl,
+        "baner PCW"@pl,
+        "baner na ogrodzenie"@pl,
+        "baner siatkowy (mesh)"@pl,
+        "baner tekstylny"@pl,
+        "baner winylowy"@pl,
+        "banner"@pt,
+        "banner de lona"@pt,
+        "banner de tecido"@pt,
+        "banner em mesh"@pt,
+        "banner para grade"@pt,
+        "faixa"@pt,
+        "lona impressa"@pt,
+        "PVC-banderoll"@sv,
+        "banderoll"@sv,
+        "storformatsbanderoll"@sv,
+        "tygbanderoll"@sv,
+        "vepa"@sv,
+        "vepor"@sv,
+        "PVC横幅"@zh-Hans,
+        "喷绘布"@zh-Hans,
+        "围挡布"@zh-Hans,
+        "布横幅"@zh-Hans,
+        "条幅"@zh-Hans,
+        "网格布横幅"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et storformat trykt banner til ophængning — vinyl/PVC og tekstil, inde og ude."@da,
+        "Ein großformatiges bedrucktes Banner für hängende Präsentation."@de,
+        "A large-format printed banner for hanging display — vinyl/PVC and fabric, indoor and outdoor."@en,
+        "Una pancarta impresa de gran formato para colgar — vinilo/PVC y tela, interior y exterior."@es,
+        "लटकाकर प्रदर्शित करने के लिए लार्ज-फॉर्मेट मुद्रित बैनर — विनाइल/PVC और कपड़े का, इनडोर और आउटडोर।"@hi,
+        "吊り下げ展示用の大判印刷バナー。ビニール／PVCや布素材で、屋内外に対応。"@ja,
+        "Et storformat trykt banner for hengende visning — vinyl/PVC og tekstil, inne og ute."@nb,
+        "Een grootformaat gedrukt spandoek om op te hangen — vinyl/pvc en textiel, binnen en buiten."@nl,
+        "Wielkoformatowy baner drukowany do zawieszenia — winylowy/PCW i tekstylny, do wnętrz i na zewnątrz."@pl,
+        "Banner impresso em grande formato para exposição suspensa — lona/PVC e tecido, para interior e exterior."@pt,
+        "En storformatstryckt banderoll för hängande exponering — vinyl/PVC och textil, inom- och utomhus."@sv,
+        "用于悬挂展示的大幅面印刷横幅——乙烯基/PVC 和织物材质，室内外皆宜。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§BANNERS" ;
+    skos:prefLabel "Bannere"@da,
+        "Banner"@de,
+        "Banners"@en,
+        "Pancartas"@es,
+        "बैनर"@hi,
+        "バナー"@ja,
+        "Bannere"@nb,
+        "Spandoeken"@nl,
+        "Banery"@pl,
+        "Banners"@pt,
+        "Banderoller"@sv,
+        "横幅"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/paper>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/textile>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/vinyl> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation> ;
+    ptpge:version "2026-09-28" .
+

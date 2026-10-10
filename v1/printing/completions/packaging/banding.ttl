@@ -1,0 +1,78 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/packaging/banding> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Banded"@en,
+        "Belly band"@en,
+        "Paper band"@en,
+        "पट्टी"@hi,
+        "पेपर बैंड"@hi,
+        "बेली बैंड"@hi,
+        "बैंड लगाना"@hi,
+        "Banderole"@nb,
+        "banderola"@pl,
+        "opaska"@pl,
+        "opaska papierowa"@pl,
+        "cinta"@pt,
+        "cinta de papel"@pt,
+        "cintado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/packaging> ;
+    skos:definition "Sikring af en stak eller et bundt med et papir- eller plastbånd."@da,
+        "Sichern eines Stapels oder Bündels mit einer Papier- oder Kunststoffbanderole."@de,
+        "Securing a stack or bundle with a paper or plastic band."@en,
+        "Asegurar una pila o un paquete con una banda de papel o plástico."@es,
+        "ढेर या बंडल को काग़ज़ या प्लास्टिक की पट्टी से बाँधना।"@hi,
+        "紙またはプラスチックの帯で束を固定する。"@ja,
+        "Sikring av en bunke eller pakke med en papir- eller plastbånd."@nb,
+        "Een stapel of bundel vastzetten met een papieren of kunststof band."@nl,
+        "Zabezpieczenie stosu lub paczki papierową lub plastikową opaską."@pl,
+        "Prender um maço ou pacote com uma cinta de papel ou plástico."@pt,
+        "Säkring av en bunt eller ett paket med ett pappers- eller plastband."@sv,
+        "用纸带或塑料带捆扎一叠或一捆印品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§BANDING" ;
+    skos:prefLabel "Bandering"@da,
+        "Banderolierung"@de,
+        "Banding"@en,
+        "Banding"@es,
+        "बैंडिंग"@hi,
+        "Banding"@ja,
+        "Banding"@nb,
+        "Banderolleren"@nl,
+        "Banderolowanie"@pl,
+        "Cintagem"@pt,
+        "Banderollering"@sv,
+        "Banding"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.33 · p.132",
+                "§5.6.4 · p.114" ;
+            ptpge:mappingRow "crosswalk row 46" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Bundling",
+                "Strapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+                "§5.6.28 · p.128",
+                "§5.6.3 · p.113",
+                "§5.6.39 · p.135",
+                "§6.10 · p.161" ;
+            ptpge:mappingRow "crosswalk row 48" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BoxPacking",
+                "Bundle",
+                "Palletizing",
+                "Shrinking",
+                "Wrapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

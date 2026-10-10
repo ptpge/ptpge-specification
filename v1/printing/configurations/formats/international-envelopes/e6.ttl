@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e6> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "11 x 15.5 cm"@en,
+        "110 x 155 mm"@en,
+        "110x155"@en,
+        "110×155"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "110 × 155 mm. Kompakt kuvert til korte meddelelser og små forsendelser."@da,
+        "110 × 155 mm. Kompakter Briefumschlag, eingesetzt für kurze Notizen und kleine Beilagen."@de,
+        "110 × 155 mm. Compact envelope used for short notes and small enclosures."@en,
+        "Sobre E6 — formato europeo especializado para correspondencia y marketing directo."@es,
+        "110 × 155 mm. छोटे नोट और छोटे संलग्नकों के लिए कॉम्पैक्ट लिफ़ाफ़ा।"@hi,
+        "110×155mm。短いノートおよび小さな同封物に使用されるコンパクトな封筒。"@ja,
+        "110 × 155 mm. Kompakt konvolutt brukt til korte notater og små vedlegg."@nb,
+        "110 × 155 mm. Compacte envelop voor korte berichten en kleine zendingen."@nl,
+        "110 × 155 mm. Kompaktowa koperta do krótkich notatek i małych przesyłek."@pl,
+        "110 × 155 mm. Envelope compacto para notas curtas e pequenos encartes."@pt,
+        "110 × 155 mm. Kompakt kuvert för korta meddelanden och små försändelser."@sv,
+        "E6信封 —— 用于通信和直邮的欧洲专业格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§E6" ;
+    skos:prefLabel "E6 (110 x 155 mm)"@da,
+        "E6 (110 x 155 mm)"@de,
+        "E6 (110 x 155 mm)"@en,
+        "E6 (110 × 155 mm)"@es,
+        "E6 (110 x 155 mm)"@hi,
+        "E6 (110 x 155 mm)"@ja,
+        "E6 (110 x 155 mm)"@nb,
+        "E6 (110 x 155 mm)"@nl,
+        "E6 (110 x 155 mm)"@pl,
+        "E6 (110 x 155 mm)"@pt,
+        "E6 (110 x 155 mm)"@sv,
+        "E6 (110 × 155 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 17050.0 ;
+            ptpge:aspectRatio 1.4091 ;
+            ptpge:height 155.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 110.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

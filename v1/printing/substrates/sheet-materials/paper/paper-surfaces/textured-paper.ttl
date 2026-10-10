@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Struktureret papir (bestrøget eller ubestrøget)"@da,
+        "Strukturpapier (gestrichen oder ungestrichen)"@de,
+        "Textured Paper (Coated or uncoated)"@en,
+        "Textured Stock"@en,
+        "एम्बॉस्ड पेपर"@hi,
+        "टेक्सचर पेपर"@hi,
+        "बनावटदार काग़ज़"@hi,
+        "लिनन पेपर"@hi,
+        "Preget papir"@nb,
+        "Strukturert papir (bestrøket eller ubestrøket)"@nb,
+        "Strukturpapir"@nb,
+        "Gestructureerd papier (gestreken of ongestreken)"@nl,
+        "papier fakturowany (powlekany lub niepowlekany)"@pl,
+        "papier strukturalny"@pl,
+        "papier z fakturą"@pl,
+        "papel gofrado"@pt,
+        "papel linho"@pt,
+        "papel texturizado"@pt,
+        "papel vergê"@pt,
+        "Strukturpapper (bestruket eller obestruket)"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces> ;
+    skos:definition "Papir med taktil overfladestruktur — vergé, ribbet, lærred, filt eller prægede strukturer. Bestrøget eller ubestrøget. Bruges til eksklusivt kontorpapir, invitationer og designdrevne projekter."@da,
+        "Papier mit haptischer Oberflächenstruktur — geripptes, gestreiftes, leinenartiges, filzartiges oder geprägtes Muster. Gestrichen oder ungestrichen. Eingesetzt für Premium-Korrespondenzpapier, Einladungen und designgetriebene Projekte."@de,
+        "Paper with a tactile surface pattern — laid, ribbed, linen, felt, or embossed textures. Coated or uncoated. Used for premium stationery, invitations, and design-driven projects."@en,
+        "Papel con textura física aplicada durante la fabricación — verjurado, estriado, gofrado, marcado en relieve. Aporta carácter táctil distintivo."@es,
+        "स्पर्शनीय सतह पैटर्न वाला काग़ज़ — लेड, रिब्ड, लिनन, फ़ेल्ट या एम्बॉस्ड बनावट। कोटेड या अनकोटेड। प्रीमियम स्टेशनरी, निमंत्रणों और डिज़ाइन-प्रधान परियोजनाओं में।"@hi,
+        "触覚的な表面パターンを持つ紙 — レイド、リブ、リネン、フェルト、エンボスなど。塗工または非塗工。プレミアム便箋、招待状、デザイン主導のプロジェクトに使用される。"@ja,
+        "Papir med taktilt overflatemønster — vannhalt, ribbet, linned, filt eller preget struktur. Belagt eller ubelagt. Brukt til premium-brevpapir, invitasjoner og designdrevne prosjekter."@nb,
+        "Papier met een voelbaar oppervlaktepatroon — vergé, geribd, linnen, vilt of gepreegde structuren. Gestreken of ongestreken. Gebruikt voor exclusief briefpapier, uitnodigingen en designgedreven projecten."@nl,
+        "Papier o wyczuwalnym wzorze powierzchni — żeberkowanym, prążkowanym, lnianym, filcowym lub tłoczonym. Powlekany lub niepowlekany. Używany do papeterii premium, zaproszeń i projektów o wysokich wymaganiach projektowych."@pl,
+        "Papel com padrão tátil de superfície — vergê, canelado, linho, feltro ou gofrado. Revestido ou não. Usado em papelaria premium, convites e projetos orientados por design."@pt,
+        "Papper med taktil ytstruktur — randat, ribbat, linne-, filt- eller präglade strukturer. Bestruket eller obestruket. Används för exklusivt kontorsmateriel, inbjudningar och designdrivna projekt."@sv,
+        "在制造过程中施加物理纹理的纸 —— 条纹、罗纹、压花、浮雕。带来独特的触感特征。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§TEXTURED-PAPER" ;
+    skos:prefLabel "Struktureret papir"@da,
+        "Strukturpapier"@de,
+        "Textured Paper"@en,
+        "Papel Texturado"@es,
+        "टेक्सचर्ड काग़ज़"@hi,
+        "テクスチャ紙（コートまたは非コート）"@ja,
+        "Strukturert papir"@nb,
+        "Gestructureerd papier"@nl,
+        "Papier fakturowany"@pl,
+        "Papel texturizado"@pt,
+        "Strukturpapper"@sv,
+        "纹理纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

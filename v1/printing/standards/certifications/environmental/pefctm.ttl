@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "PEFC"@en,
+        "Programme for the Endorsement of Forest Certification"@en,
+        "PEFC"@hi,
+        "Programme for the Endorsement of Forest Certification"@hi,
+        "PEFC-sertifisert"@nb,
+        "PEFC"@pl,
+        "certyfikat PEFC"@pl,
+        "PEFC"@pt,
+        "Programme for the Endorsement of Forest Certification"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental> ;
+    skos:definition "Programme for the Endorsement of Forest Certification (PEFC) — en global sporbarhedscertificering, der verificerer at træ- og papirprodukter stammer fra bæredygtigt forvaltede skove."@da,
+        "Programme for the Endorsement of Forest Certification (PEFC) — eine globale Chain-of-Custody-Zertifizierung, die bestätigt, dass Holz- und Papierprodukte aus nachhaltig bewirtschafteten Wäldern stammen."@de,
+        "Programme for the Endorsement of Forest Certification (PEFC) — a global chain-of-custody certification verifying that wood and paper products originate from sustainably managed forests."@en,
+        "Programme for the Endorsement of Forest Certification (PEFC) — certificación global de cadena de custodia que verifica que los productos de madera y papel proceden de bosques gestionados de forma sostenible."@es,
+        "Programme for the Endorsement of Forest Certification (PEFC) — वैश्विक चेन-ऑफ़-कस्टडी प्रमाणन जो सत्यापित करता है कि लकड़ी और काग़ज़ उत्पाद टिकाऊ रूप से प्रबंधित वनों से आते हैं।"@hi,
+        "Programme for the Endorsement of Forest Certification（PEFC）— 木材および紙製品が持続可能に管理された森林に由来することを検証する、国際的な加工流通過程（CoC）認証。"@ja,
+        "Programme for the Endorsement of Forest Certification (PEFC) — en global sporbarhetssertifisering som verifiserer at tre- og papirprodukter stammer fra bærekraftig forvaltede skoger."@nb,
+        "Programme for the Endorsement of Forest Certification (PEFC) — een wereldwijde chain-of-custody-certificering die verifieert dat hout- en papierproducten afkomstig zijn uit duurzaam beheerde bossen."@nl,
+        "Programme for the Endorsement of Forest Certification (PEFC) — globalna certyfikacja łańcucha dostaw weryfikująca, że produkty z drewna i papieru pochodzą z lasów zarządzanych w sposób zrównoważony."@pl,
+        "Programme for the Endorsement of Forest Certification (PEFC) — certificação global de cadeia de custódia que verifica que produtos de madeira e papel provêm de florestas manejadas de forma sustentável."@pt,
+        "Programme for the Endorsement of Forest Certification (PEFC) — en global spårbarhetscertifiering som verifierar att trä- och pappersprodukter kommer från hållbart brukade skogar."@sv,
+        "Programme for the Endorsement of Forest Certification (PEFC) —— 全球产销监管链认证，验证木材和纸制品来自可持续管理的森林。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PEFCTM" ;
+    skos:prefLabel "PEFC™"@da,
+        "PEFC™"@de,
+        "PEFC™"@en,
+        "PEFC™"@es,
+        "PEFC™"@hi,
+        "PEFC™"@ja,
+        "PEFC™"@nb,
+        "PEFC™"@nl,
+        "PEFC™"@pl,
+        "PEFC™"@pt,
+        "PEFC™"@sv,
+        "PEFC™（森林认证体系）"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

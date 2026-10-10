@@ -1,0 +1,67 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/object-materials",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Object Materials",
+    "es": "Materiales-Objeto",
+    "zh-Hans": "物体材料",
+    "nb": "Objekt-materialer",
+    "de": "Objektmaterialien",
+    "ja": "オブジェクト基材",
+    "sv": "Objektmaterial",
+    "da": "Objektmaterialer",
+    "nl": "Objectmaterialen",
+    "pl": "Materiały obiektowe",
+    "pt": "Materiais-objeto",
+    "hi": "वस्तु सामग्री"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/object-materials/3d",
+    "https://ptpge.org/v1/printing/substrates/object-materials/bootle",
+    "https://ptpge.org/v1/printing/substrates/object-materials/box"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Three-dimensional or curved objects printed directly using specialized printing equipment — bypassing the traditional flat-substrate model.",
+    "nb": "Tredimensjonale eller buede objekter trykt direkte ved hjelp av spesialisert utstyr — utenom den tradisjonelle flat-substrat-modellen.",
+    "de": "Dreidimensionale oder gewölbte Objekte, die direkt mit spezialisierten Druckanlagen bedruckt werden — abseits des klassischen Modells eines flachen Bedruckstoffs.",
+    "ja": "従来の平面基材モデルを迂回して、専用の印刷機で直接印刷される三次元または曲面の物体。",
+    "es": "Objetos tridimensionales o curvos impresos directamente con equipo de impresión especializado — superando el modelo tradicional de sustrato plano.",
+    "zh-Hans": "使用专用印刷设备直接印刷的三维或曲面物体——超越传统的平面承印物模式。",
+    "sv": "Tredimensionella eller böjda objekt som trycks direkt med specialiserad tryckutrustning — förbi den traditionella modellen med plana substrat.",
+    "da": "Tredimensionelle eller buede objekter trykt direkte med specialiseret trykudstyr — uden om den traditionelle fladsubstratmodel.",
+    "nl": "Driedimensionale of gebogen objecten, direct bedrukt met gespecialiseerde drukapparatuur — buiten het traditionele vlaksubstraatmodel om.",
+    "pl": "Obiekty trójwymiarowe lub zakrzywione zadrukowywane bezpośrednio na specjalistycznych urządzeniach — z pominięciem tradycyjnego modelu płaskiego podłoża.",
+    "pt": "Objetos tridimensionais ou curvos impressos diretamente com equipamento de impressão especializado — fora do modelo tradicional de substrato plano.",
+    "hi": "विशेष छपाई उपकरण से सीधे छपी त्रि-आयामी या घुमावदार वस्तुएँ — पारंपरिक सपाट-सब्सट्रेट मॉडल से हटकर।"
+  },
+  "scopeNote": {
+    "en": "Includes 3D-printed objects, bottles (printed via inkjet or screen printing on the curved surface), and pre-assembled boxes (printed after construction). Custom industrial substrates and conformal printing technologies belong here.",
+    "nb": "Inkluderer 3D-trykte objekter, flasker (trykt via inkjet eller silketrykk på den buede overflaten), og ferdigmonterte bokser (trykt etter sammenstilling). Tilpassede industrielle substrater og konforme trykketeknologier hører hjemme her.",
+    "de": "Umfasst 3D-gedruckte Objekte, Flaschen (mit Tintenstrahl- oder Siebdruck auf der gewölbten Oberfläche bedruckt) und vorgefertigte Schachteln (nach der Konstruktion bedruckt). Spezielle Industriebedruckstoffe und konturierte Drucktechnologien gehören hierher.",
+    "ja": "3D印刷物体、ボトル（曲面にインクジェットまたはシルクスクリーン印刷）、組立済みボックス（組立後に印刷）を含む。カスタム工業用基材および曲面追従印刷技術もここに属する。",
+    "es": "Incluye objetos impresos en 3D, botellas (impresas mediante inyección de tinta o serigrafía sobre la superficie curva) y cajas preensambladas (impresas tras el montaje). Los sustratos industriales personalizados y la impresión conformal se rastrean aquí cuando corresponde.",
+    "zh-Hans": "包括3D打印物体、瓶子（通过UV喷墨或丝印在曲面上印刷）和预组装盒子（组装后印刷）。定制工业承印物和异形印刷酌情在此处跟踪。",
+    "pt": "Inclui objetos impressos em 3D, garrafas (impressas por jato de tinta ou serigrafia na superfície curva) e caixas pré-montadas (impressas depois de montadas). Substratos industriais personalizados e tecnologias de impressão conformal pertencem aqui.",
+    "hi": "3D-प्रिंटेड वस्तुएँ, बोतलें (घुमावदार सतह पर इंकजेट या स्क्रीन प्रिंटिंग से) और पहले से जुड़े डिब्बे (बनने के बाद छपे) शामिल। कस्टम औद्योगिक सब्सट्रेट और कन्फ़ॉर्मल प्रिंटिंग तकनीकें यहीं आती हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:SB-OBJ",
+  "altLabels": {
+    "pl": [
+      "obiekty"
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/colors/cmykogv",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "CMYKOGV",
+    "nb": "CMYKOGV",
+    "de": "CMYKOGV",
+    "ja": "CMYKOGV",
+    "es": "CMYKOGV",
+    "zh-Hans": "CMYKOGV",
+    "nl": "CMYKOGV",
+    "sv": "CMYKOGV",
+    "da": "CMYKOGV",
+    "pl": "CMYKOGV",
+    "pt": "CMYKOGV",
+    "hi": "CMYKOGV"
+  },
+  "definition": {
+    "en": "Extended 7-color gamut printing using CMYK plus Orange, Green, and Violet inks. Captures up to ~95% of Pantone solid colors using process inks only — eliminating the need for spot inks for most brand colors. Used by Esko and Heidelberg systems for high-volume packaging and commercial work.",
+    "nb": "Utvidet 7-fargers gamut-trykk med CMYK pluss Oransje, Grønn og Fiolett blekk. Fanger opp til ~95% av Pantones solide farger med kun prosess-blekk. Brukes av Esko og Heidelberg-systemer for høyvolums emballasje og kommersielt arbeid.",
+    "de": "Erweiterter 7-Farbgamut-Druck mit CMYK plus Orange, Grün und Violett. Erfasst bis zu ~95% der Pantone-Vollfarben mit reinen Prozessfarben.",
+    "ja": "CMYK にオレンジ、グリーン、バイオレットを加えた7色の拡張ガモット印刷。プロセスインキのみで Pantone ソリッドカラーの約95%までを再現し、大半のブランドカラーで特色インキを不要にする。Esko や Heidelberg のシステムにより、大量パッケージや商業印刷で使われる。",
+    "es": "Impresión de gama extendida de 7 colores con CMYK más tintas Naranja, Verde y Violeta. Captura hasta ~95% de los colores sólidos Pantone solo con tintas de proceso — eliminando la necesidad de tintas planas para la mayoría de los colores de marca. Usado por sistemas de Esko y Heidelberg para packaging de alto volumen y trabajo comercial.",
+    "zh-Hans": "在 CMYK 基础上加入橙、绿、紫油墨的7色扩展色域印刷。仅用工艺油墨即可再现约95%的 Pantone 实色 — 使大多数品牌色无需专色油墨。Esko 与 Heidelberg 系统用于大批量包装与商业印刷。",
+    "sv": "Utökat 7-färgstryck med CMYK plus orange, grönt och violett bläck. Fångar upp till ~95 % av Pantones dekorfärger med enbart processbläck — vilket eliminerar behovet av dekorbläck för de flesta varumärkesfärger. Används av Esko- och Heidelberg-system för högvolymförpackningar och civiltryck.",
+    "da": "Udvidet 7-farvetryk med CMYK plus orange, grøn og violet farve. Fanger op til ~95 % af Pantones staffagefarver med procesfarver alene — og fjerner behovet for staffagefarver for de fleste brandfarver.",
+    "nl": "Uitgebreide 7-kleurendruk met CMYK plus oranje, groene en violette inkt. Vangt tot ~95% van de Pantone-steunkleuren met procesinkten alleen — en maakt steunkleuren voor de meeste merkkleuren overbodig.",
+    "pl": "Druk o rozszerzonym gamucie w 7 kolorach: CMYK plus farby pomarańczowa, zielona i fioletowa. Oddaje do ~95% pełnych kolorów Pantone wyłącznie farbami procesowymi — eliminując potrzebę farb dodatkowych dla większości kolorów firmowych. Stosowany w systemach Esko i Heidelberg do wysokonakładowych opakowań i prac komercyjnych.",
+    "pt": "Impressão em gama estendida de 7 cores usando CMYK mais tintas Laranja, Verde e Violeta. Alcança até ~95% das cores sólidas Pantone só com tintas de escala — eliminando a necessidade de cores especiais para a maioria das cores de marca. Usada por sistemas Esko e Heidelberg em embalagem de alto volume e impressão comercial.",
+    "hi": "CMYK के साथ नारंगी, हरी और बैंगनी स्याही से 7-रंग विस्तारित गैमट छपाई। केवल प्रोसेस स्याहियों से ~95% पैंटोन सॉलिड रंग पकड़ती है — अधिकांश ब्रांड रंगों के लिए स्पॉट स्याही की ज़रूरत ख़त्म। उच्च-मात्रा पैकेजिंग और व्यावसायिक काम में Esko और Heidelberg प्रणालियों द्वारा प्रयुक्त।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/colors",
+  "properties": {
+    "inkColorants": [
+      "C",
+      "M",
+      "Y",
+      "K",
+      "Orange",
+      "Green",
+      "Violet"
+    ],
+    "colorChannelCount": 7,
+    "colorModel": "subtractive"
+  },
+  "created": "2026-05-19T23:30:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§CMYKOGV",
+  "elementType": "value",
+  "visual": {
+    "symbols": {
+      "mockup": "assets/symbols/p:ft-cmyk-ogv-mockup.svg"
+    }
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "exactMatch": [
+    "https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykogv"
+  ],
+  "altLabels": {
+    "en": [
+      "7-color",
+      "7-colour",
+      "Extended gamut",
+      "CMYK+OGV",
+      "Heptachrome",
+      "7-Color",
+      "Seven-Color",
+      "Extended Gamut"
+    ],
+    "nb": [
+      "7-farge",
+      "Utvidet gamut",
+      "7-fargers trykk",
+      "Utvidet fargeomfang",
+      "CMYK+OGV"
+    ],
+    "de": [
+      "7-Farben-Druck",
+      "Erweiterter Farbraum",
+      "CMYK+OGV"
+    ],
+    "nl": [
+      "Zevenkleurendruk",
+      "Uitgebreid kleurbereik",
+      "CMYK+OGV"
+    ],
+    "sv": [
+      "Sjufärgstryck",
+      "Utökad färgrymd",
+      "CMYK+OGV"
+    ],
+    "da": [
+      "Syvfarvetryk",
+      "Udvidet farverum",
+      "CMYK+OGV"
+    ],
+    "es": [
+      "Heptacromía",
+      "Gama extendida",
+      "CMYK+OGV"
+    ],
+    "ja": [
+      "7色印刷",
+      "拡張色域",
+      "CMYK+OGV"
+    ],
+    "zh-Hans": [
+      "七色印刷",
+      "扩展色域",
+      "CMYK+OGV"
+    ],
+    "pl": [
+      "7 kolorów",
+      "gamut rozszerzony",
+      "CMYK+OGV"
+    ],
+    "pt": [
+      "7 cores",
+      "gama estendida",
+      "CMYK+OGV",
+      "heptacromia",
+      "sete cores"
+    ],
+    "hi": [
+      "7 रंग",
+      "विस्तारित गैमट",
+      "CMYK+OGV",
+      "हेप्टाक्रोम",
+      "सेवन कलर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "ColorantControl"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§6.15 · p.168"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 24"
+    }
+  ]
+}

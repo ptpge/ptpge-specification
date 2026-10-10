@@ -1,0 +1,82 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/finishing/folding",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:FN§FOLDING",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Folding",
+    "nb": "Bretting",
+    "de": "Falzung",
+    "es": "Plegado",
+    "ja": "折り",
+    "zh-Hans": "折页",
+    "sv": "Falsning",
+    "da": "Falsning",
+    "nl": "Vouwen",
+    "pl": "Składanie",
+    "pt": "Dobra",
+    "hi": "फ़ोल्डिंग"
+  },
+  "altLabels": {
+    "en": [
+      "Fold"
+    ],
+    "nb": [
+      "Fals",
+      "Brett"
+    ],
+    "pl": [
+      "złam"
+    ],
+    "pt": [
+      "dobradura",
+      "tipo de dobra"
+    ],
+    "hi": [
+      "फ़ोल्ड",
+      "मोड़",
+      "तह"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Fold. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Bretting. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Falzung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Plegado. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：折り。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：折页。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Fals. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Fals. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Vouw. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Składanie. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Dobra. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: फ़ोल्ड। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "How is it folded?",
+    "nb": "Hvordan er den brettet?",
+    "de": "Wie ist es gefalzt?",
+    "es": "¿Cómo está plegado?",
+    "ja": "折り方は？",
+    "zh-Hans": "如何折叠？",
+    "sv": "Hur är den falsad?",
+    "da": "Hvordan er den falset?",
+    "nl": "Hoe is het gevouwen?",
+    "pl": "Jak jest złożony?",
+    "pt": "Como é dobrado?",
+    "hi": "फ़ोल्ड कैसे?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/completions/folding",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

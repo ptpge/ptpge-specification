@@ -1,0 +1,84 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/colors/spot-color> a skos:Concept ;
+    dcterms:created "2026-06-18T10:00:07+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Specialfarve"@da,
+        "Spotfarve"@da,
+        "Schmuckfarbe"@de,
+        "Volltonfarbe"@de,
+        "Named ink"@en,
+        "Spot Colour"@en,
+        "Spot colour"@en,
+        "Spot ink"@en,
+        "Tinta directa"@es,
+        "Tinta plana"@es,
+        "नामित स्याही"@hi,
+        "पैंटोन रंग"@hi,
+        "स्पेशल कलर"@hi,
+        "स्पॉट इंक"@hi,
+        "स्पॉट कलर"@hi,
+        "スポットカラー"@ja,
+        "特色インキ"@ja,
+        "Dekkfarge"@nb,
+        "Pantone"@pl,
+        "farba dodatkowa"@pl,
+        "farba nazwana"@pl,
+        "kolor specjalny"@pl,
+        "cor Pantone"@pt,
+        "cor especial"@pt,
+        "cor sólida"@pt,
+        "spot color"@pt,
+        "tinta direta"@pt,
+        "tinta especial"@pt,
+        "Specialfärg"@sv,
+        "专色油墨"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/colors> ;
+    skos:definition "Tryk med staffage-/navngiven farve — en specifik færdigblandet farve, der refererer til et matchsystem (Pantone, HKS, RAL, Toyo …) frem for en procesopbygning."@da,
+        "Sonderfarben-Druck (Schmuckfarbe) — eine vorgemischte Spezialfarbe mit Referenz auf ein Farbsystem (Pantone, HKS, RAL, Toyo …) statt eines Prozessaufbaus."@de,
+        "Spot/named-ink colour printing — a specific premixed ink referencing a matching system (Pantone, HKS, RAL, Toyo …) rather than a process build."@en,
+        "Impresión con tinta plana (color directo) — una tinta premezclada específica que referencia un sistema de igualación (Pantone, HKS, RAL, Toyo …) en lugar de una composición de cuatricromía."@es,
+        "स्पॉट/नामित-स्याही रंग छपाई — पहले से मिली एक विशिष्ट स्याही जो प्रोसेस मिश्रण के बजाय किसी मिलान प्रणाली (पैंटोन, HKS, RAL, Toyo …) को संदर्भित करती है।"@hi,
+        "特色（スポットカラー）印刷 — プロセス掛け合わせではなく、カラーマッチングシステム（Pantone、HKS、RAL、Toyo など）を参照する調合済みインキ。"@ja,
+        "Spot-/dekkfarge — en spesifikk forhåndsblandet blekkfarge som refererer et matchingsystem (Pantone, HKS, RAL, Toyo …) i stedet for prosessbygg."@nb,
+        "Druk met steun-/benoemde kleur — een specifieke voorgemengde inkt die verwijst naar een matchsysteem (Pantone, HKS, RAL, Toyo …) in plaats van een procesopbouw."@nl,
+        "Druk kolorem dodatkowym (farbą nazwaną) — konkretną, wstępnie zmieszaną farbą odwołującą się do systemu wzorcowego (Pantone, HKS, RAL, Toyo …), a nie do zestawienia farb procesowych."@pl,
+        "Impressão com cor especial/tinta nomeada — uma tinta pré-misturada específica que referencia um sistema de correspondência (Pantone, HKS, RAL, Toyo …) em vez de uma composição de escala."@pt,
+        "Tryck med dekor-/namngiven färg — ett specifikt förblandat bläck som refererar till ett matchningssystem (Pantone, HKS, RAL, Toyo …) i stället för en processblandning."@sv,
+        "专色印刷 — 引用配色系统（Pantone、HKS、RAL、Toyo 等）的特定预混油墨，而非四色叠印。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§SPOT-COLOR" ;
+    skos:prefLabel "Staffagefarve"@da,
+        "Sonderfarbe"@de,
+        "Spot Color"@en,
+        "Color directo"@es,
+        "स्पॉट रंग"@hi,
+        "特色"@ja,
+        "Spotfarge"@nb,
+        "Steunkleur"@nl,
+        "Kolor dodatkowy"@pl,
+        "Cor especial"@pt,
+        "Dekorfärg"@sv,
+        "专色"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems> ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:multiInstance true ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§6.15 · p.168" ;
+            ptpge:mappingRow "crosswalk row 24" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-20" .
+

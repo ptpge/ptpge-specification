@@ -1,0 +1,155 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold-stand",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§TRI-FOLD-STAND",
+  "elementType": "value",
+  "label": {
+    "en": "Tri-Fold Stand Setup",
+    "nb": "Tri-fold stand oppsett",
+    "de": "Wickelfalz-Display-Setup",
+    "ja": "三つ折りスタンド構成",
+    "es": "Configuración de tríptico con base",
+    "zh-Hans": "立式三折结构",
+    "nl": "Drieluikstandaard-opzet",
+    "sv": "C-fals med ställ",
+    "da": "Trefals bordstander",
+    "pl": "Konfiguracja złam na C stojący",
+    "pt": "Montagem tríptico de mesa",
+    "hi": "ट्राई-फ़ोल्ड स्टैंड सेटअप"
+  },
+  "definition": {
+    "en": "A tri-fold setup with an additional structural fold creating a free-standing tent/display configuration. Produces 6 visual panels organised into 2 surfaces: Outside and Inside (each with 3 panels — left, middle, right). The structural fold (typically at the base) enables the piece to stand upright on a flat surface without external support, making it suitable for table-top displays at trade shows, restaurant table cards, and point-of-sale promotional pieces. Each surface is independently configurable; the structural fold geometry is intrinsic to the Setup Model.",
+    "nb": "Et tri-fold-oppsett med en ekstra strukturell brett som lager en frittstående telt/display-konfigurasjon. Produserer 6 visuelle paneler organisert i 2 surfaces: Outside og Inside (hver med 3 paneler — venstre, midt, høyre). Den strukturelle bretten (typisk i basen) lar produktet stå oppreist på en flat overflate uten ekstern støtte, noe som gjør den egnet for bord-displayer på messer, restaurant-bordskort, og point-of-sale-markedsføringsmateriale.",
+    "de": "Ein Wickelfalz-Setup mit einem zusätzlichen Strukturfalz, der eine frei stehende Zelt-/Display-Konfiguration erzeugt. Produziert 6 visuelle Paneele in 2 Surfaces: Außen und Innen (jeweils 3 Paneele — links, Mitte, rechts). Der Strukturfalz (typischerweise an der Basis) ermöglicht es dem Stück, ohne externe Unterstützung aufrecht auf einer flachen Oberfläche zu stehen.",
+    "ja": "三つ折りに構造用の折りを加え、自立するテント／ディスプレイ形状にしたセットアップ。6つの視覚パネルが2面 — Outside と Inside（各3パネル：左・中・右） — に編成される。構造折り（通常は底部）により、外部支持なしで平面上に自立でき、展示会の卓上ディスプレイ、レストランのテーブルカード、POP販促物に適する。各面は独立に構成でき、構造折りの形状は Setup Model に内在する。",
+    "es": "Un tríptico con un pliegue estructural adicional que crea una configuración autoportante tipo tienda/expositor. Produce 6 paneles visuales organizados en 2 superficies: Outside e Inside (cada una con 3 paneles — izquierdo, central, derecho). El pliegue estructural (normalmente en la base) permite que la pieza se mantenga en pie sobre una superficie plana sin soporte externo, lo que la hace adecuada para expositores de mesa en ferias, tarjetas de mesa de restaurante y piezas promocionales en el punto de venta. Cada superficie es configurable de forma independiente; la geometría del pliegue estructural es intrínseca al Setup Model.",
+    "zh-Hans": "在三折页基础上增加一道结构折，形成可自立的帐篷/展示构成。共6个视觉面板，分为2个表面：Outside 与 Inside（各3个面板 — 左、中、右）。结构折（通常在底部）使印品无需外部支撑即可立于平面，适合展会桌面展示、餐厅桌卡与售点促销品。每个表面可独立配置；结构折的几何形态是该 Setup Model 的固有属性。",
+    "sv": "En C-falsuppbyggnad med en extra strukturell fals som skapar en fristående tält-/displaykonfiguration. Ger 6 visuella paneler organiserade i 2 ytor: utsida och insida (var och en med 3 paneler — vänster, mitt, höger). Den strukturella falsen (typiskt vid basen) gör att produkten kan stå upprätt på ett plant underlag utan stöd, vilket passar bordsdisplayer på mässor, bordsryttare på restauranger och kampanjmaterial vid kassan. Varje yta konfigureras oberoende; den strukturella falsgeometrin är inbyggd i uppbyggnadsmodellen.",
+    "da": "En trefalset opbygning, der stilles op som en fritstående trekantet bordstander (bordrytter) — panelerne danner en prisme. Bruges til bordkampagner, menukort og skilte.",
+    "nl": "Een driegevouwen opbouw die als vrijstaande driehoekige tafelstandaard (tafelkaart) wordt opgezet — de panelen vormen een prisma. Gebruikt voor tafelcampagnes, menukaarten en bordjes.",
+    "pl": "Konfiguracja na C z dodatkowym złamem konstrukcyjnym tworzącym wolnostojącą konfigurację namiotową/ekspozycyjną. Daje 6 wizualnych skrzydeł zorganizowanych w 2 powierzchnie: Zewnętrzna i Wewnętrzna (każda z 3 skrzydłami — lewe, środkowe, prawe). Złam konstrukcyjny (zwykle u podstawy) pozwala elementowi stać pionowo na płaskiej powierzchni bez podparcia, co czyni go odpowiednim do ekspozycji na stołach targowych, stojaczków restauracyjnych i materiałów promocyjnych w miejscu sprzedaży. Każda powierzchnia jest konfigurowana niezależnie; geometria złamu konstrukcyjnego jest nieodłączna od modelu konfiguracji.",
+    "pt": "Montagem em tríptico com uma dobra estrutural adicional que cria uma configuração autoportante de tenda/display. Produz 6 painéis visuais em 2 faces: Exterior e Interior (cada uma com 3 painéis — esquerdo, meio, direito). A dobra estrutural (normalmente na base) permite que a peça fique em pé sobre uma superfície plana sem apoio externo, o que a torna adequada a displays de mesa em feiras, cartões de mesa de restaurante e peças promocionais de ponto de venda. Cada face é configurável de forma independente; a geometria da dobra estrutural é intrínseca ao Modelo de Montagem.",
+    "hi": "एक अतिरिक्त संरचनात्मक फ़ोल्ड वाला ट्राई-फ़ोल्ड सेटअप जो स्वयं खड़ा रहने वाला टेंट/डिस्प्ले रूप बनाता है। 6 दृश्य पैनल, 2 सतहों में: बाहरी और भीतरी (हर एक में 3 पैनल — बायाँ, बीच, दायाँ)। संरचनात्मक फ़ोल्ड (आमतौर पर आधार पर) सामग्री को बिना बाहरी सहारे सपाट सतह पर खड़ा रखता है — व्यापार मेलों के टेबलटॉप डिस्प्ले, रेस्तराँ टेबल कार्ड और बिक्री-स्थल प्रचार सामग्री के लिए उपयुक्त। हर सतह स्वतंत्र रूप से कॉन्फ़िगर होती है; संरचनात्मक फ़ोल्ड की ज्यामिति सेटअप मॉडल में अंतर्निहित है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet",
+  "related": [
+    "https://ptpge.org/v1/printing/completions/folding/tri-fold-stand"
+  ],
+  "surfaces": [
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "nb": "Utside",
+        "de": "Außen"
+      },
+      "panels": [
+        {
+          "id": "outside-left",
+          "label": {
+            "en": "Outside Left",
+            "nb": "Utside venstre",
+            "de": "Außen links"
+          }
+        },
+        {
+          "id": "outside-middle",
+          "label": {
+            "en": "Outside Middle",
+            "nb": "Utside midt",
+            "de": "Außen Mitte"
+          }
+        },
+        {
+          "id": "outside-right",
+          "label": {
+            "en": "Outside Right",
+            "nb": "Utside høyre",
+            "de": "Außen rechts"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "nb": "Innside",
+        "de": "Innen"
+      },
+      "panels": [
+        {
+          "id": "inside-left",
+          "label": {
+            "en": "Inside Left",
+            "nb": "Innside venstre",
+            "de": "Innen venstre"
+          }
+        },
+        {
+          "id": "inside-middle",
+          "label": {
+            "en": "Inside Middle",
+            "nb": "Innside midt",
+            "de": "Innen Mitte"
+          }
+        },
+        {
+          "id": "inside-right",
+          "label": {
+            "en": "Inside Right",
+            "nb": "Innside høyre",
+            "de": "Innen rechts"
+          }
+        }
+      ]
+    }
+  ],
+  "scopeNote": {
+    "en": "The structural stand-fold differentiates this Setup Model from tri-fold. While the Surface structure is identical, fulfilment (typically `flat` for shipping, deployed `standing` for use) and supportsFoldDirection (constrained to stand-compatible directions) differ.",
+    "pt": "A dobra estrutural de apoio diferencia este Modelo de Montagem do tríptico. Embora a estrutura de faces seja idêntica, o atendimento (normalmente `flat` para envio, `standing` em uso) e o supportsFoldDirection (restrito a direções compatíveis com o apoio) diferem.",
+    "hi": "संरचनात्मक स्टैंड-फ़ोल्ड इस सेटअप मॉडल को ट्राई-फ़ोल्ड से अलग करता है। सतह संरचना एक जैसी होने पर भी फ़ुलफ़िलमेंट (शिपिंग के लिए आमतौर पर `flat`, उपयोग में `standing`) और supportsFoldDirection (स्टैंड-संगत दिशाओं तक सीमित) भिन्न हैं।"
+  },
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent"
+      ],
+      "refs": [
+        "Table 4.28 · p.76–77",
+        "Appendix A · Fold catalog"
+      ],
+      "match": "partial",
+      "via": "FoldCatalog"
+    }
+  ]
+}

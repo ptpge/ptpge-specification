@@ -1,0 +1,137 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/multi-page",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§MULTI-PAGE",
+  "label": {
+    "en": "Multi-page Setup",
+    "nb": "Flersidig oppsett",
+    "de": "Mehrseiten-Setup",
+    "ja": "複数ページ構成",
+    "es": "Configuración multipágina",
+    "zh-Hans": "多页结构",
+    "nl": "Meerpagina-opzet",
+    "sv": "Flersidig",
+    "da": "Flersidet",
+    "pl": "Konfiguracja wielostronicowa",
+    "pt": "Montagem multipágina",
+    "hi": "मल्टी-पेज सेटअप"
+  },
+  "definition": {
+    "en": "A multi-page product (booklet, catalogue, magazine, manual) formed by binding multiple sheets. Five addressable Surfaces cover the booklet — Front Cover, Inside Front Cover, Inside Pages (the text block), Inside Back Cover, Back Cover — each independently configurable (Color → Embellishment → Surface Finish). The interior page count is driven by the Page Count variable; the binding method (saddle-stitch, perfect, coil …) and its page-count limits are a separate finishing choice on the Binding axis.",
+    "nb": "Et flersidig produkt (hefte, katalog, magasin, manual) dannet ved å binde sammen flere ark. Fem adresserbare flater dekker heftet — Forside, Innside forside, Innmat, Innside bakside, Bakside — hver uavhengig konfigurerbar (Farge → Embellishment → Surface Finish). Antall innsider drives av Page Count-variabelen; bindingsmetoden (saddle-stitch, perfekt, spiral …) og dens sidetalls-grenser er et eget finishing-valg på Binding-aksen.",
+    "de": "Ein mehrseitiges Produkt (Broschüre, Katalog, Magazin, Handbuch), das durch Binden mehrerer Bogen entsteht. Fünf adressierbare Oberflächen decken das Heft ab — Front Cover, Inside Front Cover, Inside Pages (Innenteil), Inside Back Cover, Back Cover — jede unabhängig konfigurierbar (Farbe → Veredelung → Oberflächenveredelung). Die Innenseitenzahl steuert die Variable Page Count; das Bindeverfahren (Rückstichheftung, Klebebindung, Spirale …) und seine Seitenzahlgrenzen sind eine separate Weiterverarbeitungswahl auf der Binding-Achse.",
+    "es": "Un producto multipágina (folleto, catálogo, revista, manual) formado encuadernando varias hojas. Cinco Superficies direccionables cubren el cuadernillo — Front Cover, Inside Front Cover, Inside Pages (interior), Inside Back Cover, Back Cover — cada una configurable de forma independiente (Color → Ornamentación → Acabado superficial). El número de páginas interiores lo determina la variable Page Count; el método de encuadernación (a caballete, encolada, espiral …) y sus límites de páginas son una elección de acabado aparte en el eje Binding.",
+    "ja": "複数の用紙を綴じて構成される多ページ製品（小冊子、カタログ、雑誌、マニュアル）。冊子は5つのアドレス可能な面 — Front Cover、Inside Front Cover、Inside Pages（本文）、Inside Back Cover、Back Cover — で覆われ、それぞれ独立に構成できる（カラー → 加飾 → 表面加工）。本文ページ数は Page Count 変数が駆動し、製本方式（中綴じ、無線綴じ、コイル…）とそのページ数制限は Binding 軸上の別個の後加工選択である。",
+    "zh-Hans": "由多张纸装订而成的多页产品（小册子、目录、杂志、手册）。五个可寻址表面覆盖整本册子 — Front Cover、Inside Front Cover、Inside Pages（内页）、Inside Back Cover、Back Cover — 每个表面可独立配置（色彩 → 装饰工艺 → 表面处理）。内页页数由 Page Count 变量驱动；装订方式（骑马钉、胶装、线圈…）及其页数限制是 Binding 轴上单独的印后选择。",
+    "sv": "En flersidig produkt (häfte, katalog, tidskrift, manual) som bildas genom att flera ark binds samman. Fem adresserbara ytor täcker häftet — omslagets framsida, omslagets insida fram, inlagan, omslagets insida bak och omslagets baksida — var och en oberoende konfigurerbar (färg → dekor → ytbehandling). Inlagans sidantal styrs av variabeln Sidantal; bindningsmetoden (klammerhäftning, limbindning, spiral …) och dess sidantalsgränser är ett separat efterbehandlingsval på Bindningsaxeln.",
+    "da": "Et flersidet produkt (hæfte, katalog, magasin, manual), der dannes ved at flere ark indbindes sammen. Fem adresserbare flader dækker hæftet — omslagets forside, omslagets inderside for, indholdet, omslagets inderside bag og omslagets bagside.",
+    "nl": "Een meerpaginaproduct (boekje, catalogus, magazine, handleiding) gevormd door meerdere vellen samen te binden. Vijf adresseerbare vlakken dekken het boekje — omslagvoorzijde, binnenzijde omslag voor, het binnenwerk, binnenzijde omslag achter en omslagachterzijde.",
+    "pl": "Produkt wielostronicowy (broszura, katalog, czasopismo, instrukcja) utworzony przez oprawę wielu arkuszy. Pięć adresowalnych powierzchni pokrywa broszurę — Okładka przednia, Wewnętrzna strona okładki przedniej, Środek, Wewnętrzna strona okładki tylnej, Okładka tylna — każda konfigurowana niezależnie (barwa → uszlachetnienie → wykończenie powierzchni). Liczbę stron wnętrza określa zmienna Liczba stron; sposób oprawy (szycie zeszytowe, klejenie, spirala …) i jego limity liczby stron są osobnym wyborem wykończenia na osi Oprawa.",
+    "pt": "Produto de várias páginas (folheto, catálogo, revista, manual) formado pela encadernação de várias folhas. Cinco Faces endereçáveis cobrem o folheto — Capa, Segunda capa, Miolo (o bloco de texto), Terceira capa, Quarta capa — cada uma configurável de forma independente (Cor → Enobrecimento → Acabamento de superfície). O número de páginas do miolo é definido pela variável Número de Páginas; o método de encadernação (canoa, colada, espiral …) e seus limites de páginas são uma escolha de acabamento separada, no eixo Encadernação.",
+    "hi": "कई शीटें बाँधकर बना बहु-पृष्ठ उत्पाद (बुकलेट, कैटलॉग, पत्रिका, मैनुअल)। पाँच पता-योग्य सतहें बुकलेट को कवर करती हैं — फ्रंट कवर, इनसाइड फ्रंट कवर, इनसाइड पेज (टेक्स्ट ब्लॉक), इनसाइड बैक कवर, बैक कवर — हर एक स्वतंत्र रूप से कॉन्फ़िगर होती है (रंग → एम्बेलिशमेंट → सतह फ़िनिश)। भीतरी पृष्ठ संख्या पृष्ठ संख्या वेरिएबल से तय होती है; बाइंडिंग विधि (सैडल-स्टिच, परफेक्ट, कॉइल …) और उसकी पृष्ठ-सीमाएँ बाइंडिंग अक्ष पर अलग फ़िनिशिंग विकल्प हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models",
+  "scopeNote": {
+    "en": "v1 pilot ships with saddle-stitched only. Perfect-bound, wire-O, sewn-binding, and case-bound (hardback) follow in subsequent releases.",
+    "pt": "O piloto v1 traz apenas grampo canoa. Lombada colada, wire-o, costura e capa dura seguem em versões posteriores.",
+    "hi": "v1 पायलट में केवल सैडल-स्टिच। परफेक्ट-बाउंड, वायर-ओ, सिलाई बाइंडिंग और केस-बाउंड (हार्डबैक) बाद के संस्करणों में।"
+  },
+  "created": "2026-05-19T22:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "value",
+  "pageCountMultiple": 2,
+  "surfaces": [
+    {
+      "id": "front-cover",
+      "label": {
+        "en": "Front Cover",
+        "nb": "Forside",
+        "de": "Vorderseite",
+        "sv": "Framsida",
+        "da": "Forside",
+        "nl": "Voorzijde omslag",
+        "pl": "Okładka przednia",
+        "es": "Portada",
+        "ja": "表紙",
+        "zh-Hans": "封面"
+      },
+      "surfaceGroup": "cover-outside"
+    },
+    {
+      "id": "inside-front-cover",
+      "label": {
+        "en": "Inside Front Cover",
+        "nb": "Innside forside",
+        "de": "Innenvorderseite",
+        "sv": "Insida framsida",
+        "da": "Inderside forside",
+        "nl": "Binnenzijde voorkant",
+        "pl": "Wewnętrzna strona okładki przedniej",
+        "es": "Interior de portada",
+        "ja": "表2",
+        "zh-Hans": "封二"
+      },
+      "surfaceGroup": "cover-inside"
+    },
+    {
+      "id": "inside-pages",
+      "label": {
+        "en": "Inside Pages",
+        "nb": "Innmat",
+        "de": "Innenteil",
+        "sv": "Inlaga",
+        "da": "Indhold",
+        "nl": "Binnenwerk",
+        "pl": "Środek",
+        "es": "Interior",
+        "ja": "本文",
+        "zh-Hans": "内页"
+      },
+      "surfaceGroup": "interior",
+      "count": "variable",
+      "description": {
+        "en": "The text block — every interior page between the covers, configured as one face. Page count is the Page Count variable; sections and signatures are the printer's imposition, not the buyer's specification.",
+        "nb": "Innmaten — alle sidene mellom omslagene, konfigurert som én flate. Sidetallet er Page Count-variabelen; ark og signaturer er trykkeriets utskyting, ikke kjøperens spesifikasjon."
+      }
+    },
+    {
+      "id": "inside-back-cover",
+      "label": {
+        "en": "Inside Back Cover",
+        "nb": "Innside bakside",
+        "de": "Innenrückseite",
+        "sv": "Insida baksida",
+        "da": "Inderside bagside",
+        "nl": "Binnenzijde achterkant",
+        "pl": "Wewnętrzna strona okładki tylnej",
+        "es": "Interior de contraportada",
+        "ja": "表3",
+        "zh-Hans": "封三"
+      },
+      "surfaceGroup": "cover-inside"
+    },
+    {
+      "id": "back-cover",
+      "label": {
+        "en": "Back Cover",
+        "nb": "Bakside",
+        "de": "Rückseite",
+        "sv": "Baksida",
+        "da": "Bagside",
+        "nl": "Achterzijde omslag",
+        "pl": "Okładka tylna",
+        "es": "Contraportada",
+        "ja": "裏表紙",
+        "zh-Hans": "封底"
+      },
+      "surfaceGroup": "cover-outside"
+    }
+  ]
+}

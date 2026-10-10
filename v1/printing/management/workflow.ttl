@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Workflow"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management> ;
+    skos:definition "Systemer og værktøjer, der orkestrerer en trykopgaves forløb fra ordre til levering — styring af filer, opgaver, automatisering og samarbejde på tværs af produktionskæden."@da,
+        "Systeme und Werkzeuge, die den Verlauf eines Druckauftrags von der Bestellung bis zur Auslieferung orchestrieren — sie verwalten Dateien, Aufträge, Automatisierung und Zusammenarbeit über die gesamte Produktionspipeline hinweg."@de,
+        "Systems and tools that orchestrate the flow of a print job from order to delivery — managing files, jobs, automation, and collaboration across the production pipeline."@en,
+        "Sistemas y herramientas que orquestan el flujo de un trabajo de impresión desde el pedido hasta la entrega — gestionando archivos, trabajos, automatización y colaboración a lo largo de la cadena de producción."@es,
+        "सिस्टम और औज़ार जो प्रिंट जॉब के प्रवाह को ऑर्डर से डिलीवरी तक संचालित करते हैं — उत्पादन पाइपलाइन में फ़ाइलों, जॉब, स्वचालन और सहयोग का प्रबंधन।"@hi,
+        "発注から納品までの印刷ジョブの流れを統括するシステムとツール — 生産パイプライン全体にわたるファイル、ジョブ、自動化、協業を管理する。"@ja,
+        "Systemer og verktøy som orkestrerer flyten av en trykkjobb fra bestilling til levering — håndterer filer, jobber, automatisering og samarbeid gjennom produksjonsledningen."@nb,
+        "Systemen en tools die het verloop van een drukopdracht orkestreren van order tot levering — beheer van bestanden, opdrachten, automatisering en samenwerking door de hele productieketen."@nl,
+        "Systemy i narzędzia orkiestrujące przepływ zlecenia drukarskiego od zamówienia do dostawy — zarządzanie plikami, zleceniami, automatyzacją i współpracą w całym potoku produkcji."@pl,
+        "Sistemas e ferramentas que orquestram o fluxo de um trabalho de impressão do pedido à entrega — gerenciando arquivos, trabalhos, automação e colaboração ao longo do pipeline de produção."@pt,
+        "System och verktyg som orkestrerar ett tryckjobbs flöde från order till leverans — hanterar filer, jobb, automation och samarbete genom hela produktionskedjan."@sv,
+        "协调印刷作业从下单到交付流程的系统和工具——管理文件、作业、自动化和生产线各环节之间的协作。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/workflow/data-management>,
+        <https://ptpge.org/v1/printing/management/workflow/efficiency-tools>,
+        <https://ptpge.org/v1/printing/management/workflow/file-preparation>,
+        <https://ptpge.org/v1/printing/management/workflow/ganging>,
+        <https://ptpge.org/v1/printing/management/workflow/job-management>,
+        <https://ptpge.org/v1/printing/management/workflow/versioning-storage> ;
+    skos:notation "P:MG-WFL" ;
+    skos:prefLabel "Workflow"@da,
+        "Workflow"@de,
+        "Workflow"@en,
+        "Flujo de Trabajo"@es,
+        "वर्कफ़्लो"@hi,
+        "ワークフロー"@ja,
+        "Arbeidsflyt"@nb,
+        "Workflow"@nl,
+        "Workflow"@pl,
+        "Fluxo de trabalho"@pt,
+        "Arbetsflöde"@sv,
+        "工作流"@zh-Hans ;
+    skos:scopeNote "Umfasst Auftragsmanagement (Annahme, Routing, Statusverfolgung), Datei-Vorbereitung (Ausschießen, RIP-Verarbeitung), Datenmanagement und Versionierung sowie Effizienz-Werkzeuge (Automatisierungsplattformen wie Heidelberg Prinect, Kodak Prinergy, EFI Fiery; Kollaborationsplattformen; Integration-Middleware wie Enfocus Switch). Workflow ist das operative Rückgrat, das Creation mit der Druckmaschine verbindet."@de,
+        "Includes job management (intake, routing, status tracking), file preparation (imposition, RIP processing), data management and versioning, and efficiency tools (automation engines like Heidelberg Prinect, Kodak Prinergy, EFI Fiery; collaboration platforms; integration middleware like Enfocus Switch). Workflow is the operational backbone connecting Creation to the press floor."@en,
+        "Incluye gestión de trabajos (recepción, enrutamiento, seguimiento de estado), preparación de archivos (imposición, procesamiento RIP), gestión y versionado de datos, y herramientas de eficiencia (motores de automatización como Heidelberg Prinect, Kodak Prinergy, Esko Automation Engine)."@es,
+        "जॉब प्रबंधन (इनटेक, रूटिंग, स्थिति ट्रैकिंग), फ़ाइल तैयारी (इम्पोज़िशन, RIP प्रोसेसिंग), डेटा प्रबंधन और संस्करण, और दक्षता औज़ार (Heidelberg Prinect, Kodak Prinergy, EFI Fiery जैसे स्वचालन इंजन; सहयोग प्लेटफ़ॉर्म; Enfocus Switch जैसा एकीकरण मिडलवेयर) शामिल। वर्कफ़्लो वह परिचालन रीढ़ है जो निर्माण को प्रेस फ़्लोर से जोड़ती है।"@hi,
+        "ジョブ管理（受付、ルーティング、ステータス追跡）、ファイル準備（面付け、RIP処理）、データ管理とバージョン管理、効率化ツール（Heidelberg Prinect、Kodak Prinergy、EFI Fieryなどの自動化エンジン、協業プラットフォーム、Enfocus Switchなどの統合ミドルウェア）を含む。WorkflowはCreationと印刷現場をつなぐ運用上の基盤である。"@ja,
+        "Inkluderer jobbhåndtering (mottak, ruting, statusoppfølging), filforberedelse (impositioning, RIP-prosessering), datahåndtering og versjonering, og effektivitetsverktøy (automasjonsmotorer som Heidelberg Prinect, Kodak Prinergy, EFI Fiery; samarbeidsplattformer; integrasjonsmiddelvare som Enfocus Switch). Workflow er den operative ryggraden som kobler Creation til trykkrommet."@nb,
+        "Inclui gestão de trabalhos (entrada, roteamento, acompanhamento de status), preparação de arquivos (imposição, processamento RIP), gestão de dados e versionamento, e ferramentas de eficiência (motores de automação como Heidelberg Prinect, Kodak Prinergy, EFI Fiery; plataformas de colaboração; middleware de integração como Enfocus Switch). O fluxo de trabalho é a espinha dorsal operacional que liga a Criação ao chão de fábrica."@pt,
+        "包括作业管理（接单、路由、状态跟踪）、文件准备（拼版、RIP处理）、数据管理与版本控制以及效率工具（Heidelberg Prinect、Kodak Prinergy、Esko Automation Engine等自动化引擎）。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

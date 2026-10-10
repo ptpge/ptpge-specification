@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft/microsoft-powerpoint",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Microsoft Powerpoint (.pptx)",
+    "es": "Microsoft PowerPoint (.pptx)",
+    "zh-Hans": "Microsoft PowerPoint (.pptx)",
+    "nb": "Microsoft Powerpoint (.pptx)",
+    "de": "Microsoft Powerpoint (.pptx)",
+    "ja": "Microsoft Powerpoint (.pptx)",
+    "sv": "Microsoft PowerPoint (.pptx)",
+    "da": "Microsoft PowerPoint (.pptx)",
+    "nl": "Microsoft PowerPoint (.pptx)",
+    "pl": "Microsoft Powerpoint (.pptx)",
+    "pt": "Microsoft PowerPoint (.pptx)",
+    "hi": "Microsoft PowerPoint (.pptx)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§MICROSOFT-POWERPOINT",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native presentation file format (.pptx) for Microsoft PowerPoint, the dominant business presentation application — based on Office Open XML (ECMA-376 / ISO 29500).",
+    "nb": "Programspesifikt presentasjonsformat (.pptx) for Microsoft PowerPoint, den dominerende presentasjonsapplikasjonen i næringslivet — basert på Office Open XML (ECMA-376 / ISO 29500).",
+    "de": "Anwendungseigenes Präsentationsformat (.pptx) von Microsoft PowerPoint, der dominierenden Präsentationsanwendung im Geschäftsumfeld — basierend auf Office Open XML (ECMA-376 / ISO 29500).",
+    "ja": "Microsoft PowerPointのネイティブプレゼンテーションファイル形式（.pptx）。ビジネス向けプレゼンテーションアプリケーションの代表 — Office Open XML（ECMA-376 / ISO 29500）に基づく。",
+    "es": "Formato Office Open XML para presentaciones. La exportación a PDF es la entrega práctica para imprenta.",
+    "zh-Hans": "用于演示的Office Open XML格式。导出为PDF是印刷的实际交付方式。",
+    "sv": "Programeget presentationsformat (.pptx) för Microsoft PowerPoint, det dominerande presentationsprogrammet — baserat på Office Open XML (ECMA-376 / ISO 29500).",
+    "da": "Programeget præsentationsformat (.pptx) for Microsoft PowerPoint, det dominerende præsentationsprogram — baseret på Office Open XML (ECMA-376 / ISO 29500).",
+    "nl": "Programma-eigen presentatieformaat (.pptx) voor Microsoft PowerPoint, het dominante presentatieprogramma — gebaseerd op Office Open XML (ECMA-376 / ISO 29500).",
+    "pl": "Natywny format prezentacji (.pptx) programu Microsoft PowerPoint, dominującej biznesowej aplikacji prezentacyjnej — oparty na Office Open XML (ECMA-376 / ISO 29500).",
+    "pt": "Formato de arquivo nativo de apresentação (.pptx) do Microsoft PowerPoint, o aplicativo de apresentações empresarial dominante — baseado no Office Open XML (ECMA-376 / ISO 29500).",
+    "hi": "Microsoft PowerPoint का नेटिव प्रस्तुति फ़ाइल फ़ॉर्मेट (.pptx), प्रमुख व्यावसायिक प्रस्तुति एप्लिकेशन — Office Open XML (ECMA-376 / ISO 29500) पर आधारित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      ".pptx",
+      "PowerPoint"
+    ],
+    "pl": [
+      ".pptx",
+      "PowerPoint"
+    ],
+    "pt": [
+      ".pptx",
+      "PowerPoint"
+    ],
+    "hi": [
+      ".pptx",
+      "PowerPoint"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

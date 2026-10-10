@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/north-america> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/geography> ;
+    skos:definition "Nordamerika — geografisk facet på regionsniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering."@da,
+        "Regionale Gruppierung Nordamerika. Enthält länderspezifische Unterteilungen für die Vereinigten Staaten (US), Kanada (CA) und Mexiko (MX). Verwendet als geografische Facette für Papierformatstandards (US Letter, Legal, Tabloid), Zertifizierungen, Lieferantenlisten und Versandzonen."@de,
+        "North American region grouping. Contains country-level subdivisions for the United States (US), Canada (CA), and Mexico (MX). Used as geographic facet for paper size standards (US Letter, Legal, Tabloid), certifications, supplier listings, and shipping zones."@en,
+        "Agrupación regional de Norteamérica. Contiene subdivisiones a nivel de país para Estados Unidos (US), Canadá (CA) y México (MX). Utilizada como faceta geográfica para normas de tamaño de papel (US Letter, Legal, Tabloid), certificaciones, listados de proveedores y zonas de envío."@es,
+        "क्षेत्रीय समूह: उत्तर अमेरिका। संयुक्त राज्य (US), कनाडा (CA) और मेक्सिको (MX) के देश-स्तरीय उपविभाग। काग़ज़ आकार मानकों (US Letter, Legal, Tabloid), प्रमाणन, आपूर्तिकर्ता सूचियों और शिपिंग ज़ोन के लिए भौगोलिक पहलू के रूप में प्रयुक्त।"@hi,
+        "北アメリカ地域のグループ。米国（US）、カナダ（CA）、メキシコ（MX）の国レベルの細分を含む。用紙サイズ規格（US Letter、Legal、Tabloid）、認証、供給者リスト、配送ゾーンの地理的ファセットとして使用される。"@ja,
+        "Nord-Amerika-regionen som gruppering. Inneholder land-nivå underinndelinger for USA (US), Canada (CA) og Mexico (MX). Brukt som geografisk fasett for papirformat-standarder (US Letter, Legal, Tabloid), sertifiseringer, leverandør-lister og fraktsoner."@nb,
+        "Noord-Amerika — geografische facet op regioniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering."@nl,
+        "Grupowanie regionalne dla Ameryki Północnej. Zawiera podziały na poziomie krajów: Stany Zjednoczone (US), Kanada (CA) i Meksyk (MX). Używane jako aspekt geograficzny dla standardów formatów papieru (US Letter, Legal, Tabloid), certyfikatów, list dostawców i stref wysyłki."@pl,
+        "Agrupamento regional: América do Norte. Contém subdivisões de nível de país para Estados Unidos (US), Canadá (CA) e México (MX). Usado como faceta geográfica para normas de tamanho de papel (US Letter, Legal, Tabloid), certificações, listagens de fornecedores e zonas de envio."@pt,
+        "Nordamerikansk regiongruppering. Innehåller underindelningar på landsnivå för USA (US), Kanada (CA) och Mexiko (MX). Används som geografisk facett för pappersformatstandarder (US Letter, Legal, Tabloid), certifieringar, leverantörslistningar och fraktzoner."@sv,
+        "北美洲区域分组。包含美国（US）、加拿大（CA）和墨西哥（MX）的国家级细分。作为纸张规格标准（US Letter、Legal、Tabloid）、认证、供应商列表和发货区域的地理分面使用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/ordering/geography/north-america/canada>,
+        <https://ptpge.org/v1/ordering/geography/north-america/mexico>,
+        <https://ptpge.org/v1/ordering/geography/north-america/united-states> ;
+    skos:notation "O:GY-NAM" ;
+    skos:prefLabel "Nordamerika"@da,
+        "Nordamerika"@de,
+        "North America"@en,
+        "Norteamérica"@es,
+        "उत्तर अमेरिका"@hi,
+        "北アメリカ"@ja,
+        "Nord-Amerika"@nb,
+        "Noord-Amerika"@nl,
+        "Ameryka Północna"@pl,
+        "América do Norte"@pt,
+        "Nordamerika"@sv,
+        "北美洲"@zh-Hans ;
+    ptpge:group "geography" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

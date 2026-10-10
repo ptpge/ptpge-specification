@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/fold-binding-edge/top> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Calendar binding"@en,
+        "Top edge"@en,
+        "Top fold"@en,
+        "Top-bound"@en,
+        "Top-edge binding"@en,
+        "ऊपर का फ़ोल्ड"@hi,
+        "ऊपर की बाइंडिंग"@hi,
+        "ऊपरी किनारा"@hi,
+        "कैलेंडर बाइंडिंग"@hi,
+        "टॉप बाइंडिंग"@hi,
+        "Topp fals"@nb,
+        "Topp kant"@nb,
+        "Toppbundet"@nb,
+        "krawędź górna"@pl,
+        "oprawa górna"@pl,
+        "oprawa kalendarzowa"@pl,
+        "złam górny"@pl,
+        "borda superior"@pt,
+        "dobra no topo"@pt,
+        "encadernação de calendário"@pt,
+        "encadernação no topo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/fold-binding-edge> ;
+    skos:definition "Fals- eller indbindingskant placeret langs produktets top — bruges til notesblokke, vendekalendere, præsentationshæfter og udgivelser i liggende orientering. Læseren vender siderne opad."@da,
+        "Falz- oder Bindungskante an der Oberkante des Produkts — verwendet für Notizblöcke, Kalender im Flip-Stil, Präsentationshefte und Publikationen im Querformat. Der Leser blättert die Seiten nach oben."@de,
+        "Fold or binding edge placed along the top of the product — used for notepads, flip-style calendars, presentation booklets, and landscape-orientation publications. Reader flips pages upward."@en,
+        "Pliegue o encuadernación por la parte superior — habitual en blocs, calendarios y carpetas de presentación."@es,
+        "उत्पाद के ऊपरी किनारे पर फ़ोल्ड या बाइंडिंग — नोटपैड, फ़्लिप-शैली कैलेंडर, प्रेज़ेंटेशन बुकलेट और लैंडस्केप प्रकाशनों में। पाठक पृष्ठ ऊपर की ओर पलटता है।"@hi,
+        "折りまたは綴じの辺が印刷物の上部に配置される — ノート、フリップ式カレンダー、プレゼンテーション用ブックレット、横長の出版物に使用される。読者はページを上方向にめくる。"@ja,
+        "Folde- eller bindingskant plassert langs toppen av produktet — brukt til notatblokker, kalendere med vippefunksjon, presentasjonshefter og landskaps-orienterte publikasjoner. Leseren blar sidene oppover."@nb,
+        "Vouw- of bindzijde langs de bovenkant van het product — gebruikt voor notitieblokken, omslagkalenders, presentatieboekjes en publicaties in liggende oriëntatie. De lezer slaat de pagina's naar boven om."@nl,
+        "Krawędź złamu lub oprawy umieszczona wzdłuż górnej krawędzi produktu — stosowana w notatnikach, kalendarzach przerzucanych, broszurach prezentacyjnych i publikacjach poziomych. Czytelnik przerzuca strony w górę."@pl,
+        "Dobra ou encadernação ao longo do topo do produto — usada em blocos de notas, calendários de virar, folhetos de apresentação e publicações em orientação paisagem. O leitor vira as páginas para cima."@pt,
+        "Fals eller bindningskant placerad längs produktens ovankant — används för anteckningsblock, vändkalendrar, presentationshäften och publikationer i liggande orientering. Läsaren bläddrar sidorna uppåt."@sv,
+        "顶部折页或装订 —— 常见于便签、日历和演示文件夹。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§TOP" ;
+    skos:prefLabel "Top"@da,
+        "Oben"@de,
+        "Top"@en,
+        "Superior"@es,
+        "ऊपर"@hi,
+        "上"@ja,
+        "Topp"@nb,
+        "Boven"@nl,
+        "Góra"@pl,
+        "Topo"@pt,
+        "Ovankant"@sv,
+        "顶部"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64" ;
+            ptpge:mappingRow "crosswalk row 47" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

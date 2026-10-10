@@ -1,0 +1,61 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Efficiency Tools",
+    "es": "Herramientas de Eficiencia",
+    "zh-Hans": "效率工具",
+    "nb": "Effektivitetsverktøy",
+    "de": "Effizienzwerkzeuge",
+    "ja": "効率化ツール",
+    "sv": "Effektivitetsverktyg",
+    "da": "Effektivitetsværktøjer",
+    "nl": "Efficiencytools",
+    "pl": "Narzędzia efektywności",
+    "pt": "Ferramentas de eficiência",
+    "hi": "दक्षता औज़ार"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "broader": "https://ptpge.org/v1/printing/management/workflow",
+  "narrower": [
+    "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration",
+    "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/collaboration-tools"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Software platforms and integrations that reduce manual work in the print production pipeline — automation engines, collaboration systems, and middleware connecting prepress, press, and finishing.",
+    "nb": "Programvareplattformer og integrasjoner som reduserer manuelt arbeid i trykkproduksjonsledningen — automasjonsmotorer, samarbeidssystemer og middelvare som kobler prepress, presse og etterbehandling.",
+    "de": "Software-Plattformen und Integrationen, die manuelle Arbeit in der Druckproduktionspipeline reduzieren — Automatisierungs-Engines, Kollaborationssysteme und Middleware, die Druckvorstufe, Druck und Veredelung verbinden.",
+    "ja": "印刷生産パイプラインで手作業を削減するソフトウェアプラットフォームと統合 — 自動化エンジン、協業システム、製版・印刷・仕上げをつなぐミドルウェア。",
+    "es": "Plataformas de software e integraciones que reducen el trabajo manual en la cadena de producción de impresión — motores de automatización, sistemas de colaboración y middleware que conecta pre-prensa, prensa y acabado.",
+    "zh-Hans": "减少印刷生产管道中手工工作的软件平台和集成——自动化引擎、协作系统以及连接印前、印刷和印后的中间件。",
+    "sv": "Programvaruplattformar och integrationer som minskar manuellt arbete i tryckproduktionskedjan — automationsmotorer, samarbetssystem och mellanprogram som kopplar samman prepress, press och efterbehandling.",
+    "da": "Softwareplatforme og integrationer, der reducerer manuelt arbejde i trykproduktionskæden — automatiseringsmotorer, samarbejdssystemer og middleware, der forbinder prepress, presse og færdiggørelse.",
+    "nl": "Softwareplatformen en integraties die handwerk in de drukproductieketen verminderen — automatiseringsengines, samenwerkingssystemen en middleware die prepress, pers en afwerking verbinden.",
+    "pl": "Platformy programowe i integracje ograniczające pracę ręczną w potoku produkcji poligraficznej — silniki automatyzacji, systemy współpracy i oprogramowanie pośredniczące łączące prepress, maszynę i wykończenie.",
+    "pt": "Plataformas de software e integrações que reduzem o trabalho manual no pipeline de produção gráfica — motores de automação, sistemas de colaboração e middleware que conecta pré-impressão, impressão e acabamento.",
+    "hi": "सॉफ़्टवेयर प्लेटफ़ॉर्म और एकीकरण जो प्रिंट उत्पादन पाइपलाइन में हाथ का काम घटाते हैं — स्वचालन इंजन, सहयोग सिस्टम और प्रीप्रेस, प्रेस और फ़िनिशिंग को जोड़ने वाला मिडलवेयर।"
+  },
+  "scopeNote": {
+    "en": "Includes automation and integration platforms (Heidelberg Prinect, Kodak Prinergy, Agfa Apogee, EFI Fiery, Esko Automation Engine, Enfocus Switch, Xerox FreeFlow Core, Adobe PDF Workflow), and collaboration tools that connect customers, designers, and production. The boundary with Job Management is fluid — automation tools often include job-tracking features.",
+    "nb": "Inkluderer automasjons- og integrasjonsplattformer (Heidelberg Prinect, Kodak Prinergy, Agfa Apogee, EFI Fiery, Esko Automation Engine, Enfocus Switch, Xerox FreeFlow Core, Adobe PDF Workflow) og samarbeidsverktøy som kobler kunder, designere og produksjon. Grensen mot Job Management er flytende — automasjonsverktøy inkluderer ofte funksjoner for jobbsporing.",
+    "de": "Umfasst Automatisierungs- und Integrationsplattformen (Heidelberg Prinect, Kodak Prinergy, Agfa Apogee, EFI Fiery, Esko Automation Engine, Enfocus Switch, Xerox FreeFlow Core, Adobe PDF Workflow) sowie Kollaborationswerkzeuge, die Kunden, Designer und Produktion verbinden. Die Grenze zum Auftragsmanagement ist fließend — Automatisierungswerkzeuge enthalten oft auch Funktionen zur Auftragsverfolgung.",
+    "ja": "自動化および統合プラットフォーム（Heidelberg Prinect、Kodak Prinergy、Agfa Apogee、EFI Fiery、Esko Automation Engine、Enfocus Switch、Xerox FreeFlow Core、Adobe PDF Workflow）と、顧客、デザイナー、生産をつなぐ協業ツールを含む。Job Managementとの境界は流動的である — 自動化ツールはジョブ追跡機能を含むことが多い。",
+    "es": "Incluye plataformas de automatización e integración (Heidelberg Prinect, Kodak Prinergy, Agfa Apogee, EFI Fiery, Esko Automation Engine, Enfocus Switch, Xerox FreeFlow Core, Adobe PDF Workflow) y herramientas de colaboración para gestión de archivos y aprobaciones.",
+    "zh-Hans": "包括自动化与集成平台（Heidelberg Prinect、Kodak Prinergy、Agfa Apogee、EFI Fiery、Esko Automation Engine、Enfocus Switch、Xerox FreeFlow Core、Adobe PDF Workflow）以及文件管理和批准的协作工具。",
+    "pt": "Inclui plataformas de automação e integração (Heidelberg Prinect, Kodak Prinergy, Agfa Apogee, EFI Fiery, Esko Automation Engine, Enfocus Switch, Xerox FreeFlow Core, Adobe PDF Workflow) e ferramentas de colaboração que conectam clientes, designers e produção. A fronteira com Gestão de trabalhos é fluida — ferramentas de automação muitas vezes incluem recursos de acompanhamento de trabalhos.",
+    "hi": "स्वचालन और एकीकरण प्लेटफ़ॉर्म (Heidelberg Prinect, Kodak Prinergy, Agfa Apogee, EFI Fiery, Esko Automation Engine, Enfocus Switch, Xerox FreeFlow Core, Adobe PDF Workflow) और ग्राहकों, डिज़ाइनरों और उत्पादन को जोड़ने वाले सहयोग औज़ार शामिल। जॉब प्रबंधन से सीमा तरल — स्वचालन औज़ारों में प्रायः जॉब-ट्रैकिंग सुविधाएँ होती हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:MG-WFL-EFFT"
+}

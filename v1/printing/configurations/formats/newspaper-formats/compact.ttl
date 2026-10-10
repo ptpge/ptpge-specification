@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/compact> a skos:Concept ;
+    dcterms:created "2026-08-12T11:00:47+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "Tabloid (newspaper)"@en,
+        "tabloid (gazeta)"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats> ;
+    skos:definition "280 × 430 mm (nominelt — de præcise mål varierer med pressen). Det kompakte avisformat, i daglig tale 'tabloid' — adskilt fra det amerikanske papirformat Tabloid (11 × 17 tommer / 279 × 432 mm), som er et renskåret kontorformat."@da,
+        "280 × 430 mm (nominell — genaue Maße variieren je nach Rotation). Das kompakte Zeitungsformat, umgangssprachlich «Tabloid» — zu unterscheiden vom US-Papierformat Tabloid (11 × 17 in), einem beschnittenen Büroformat."@de,
+        "280 × 430 mm (nominal — exact dimensions vary by press). The compact newspaper format, colloquially 'tabloid' — distinct from the US Tabloid paper size (11 × 17 in / 279 × 432 mm), which is a trimmed office format."@en,
+        "280 × 430 mm (nominal — las dimensiones exactas varían según rotativa). El formato compacto de periódico, coloquialmente «tabloide» — distinto del tamaño de papel US Tabloid (11 × 17 in), que es un formato de oficina recortado."@es,
+        "280 × 430 mm (नाममात्र — सटीक आयाम प्रेस से बदलते हैं). कॉम्पैक्ट अख़बार फ़ॉर्मेट, बोलचाल में «टैब्लॉइड» — US Tabloid काग़ज़ आकार (11 × 17 इंच / 279 × 432 मिमी) से अलग, जो ट्रिम किया ऑफ़िस फ़ॉर्मेट है।"@hi,
+        "280 × 430 mm（公称 — 実寸は輪転機により異なる）。コンパクトな新聞判型で、通称「タブロイド」。事務用の断裁判型である米国のTabloid用紙サイズ（11 × 17インチ）とは別物。"@ja,
+        "280 × 430 mm (nominelt — eksakte mål varierer med pressen). Det kompakte avisformatet, i dagligtale «tabloid» — distinkt fra det amerikanske Tabloid-papirformatet (11 × 17 in), som er et beskåret kontorformat."@nb,
+        "280 × 430 mm (nominellt — exakta mått varierar met pressen). Het compacte krantenformaat, in de volksmond 'tabloid' — te onderscheiden van het Amerikaanse papierformaat Tabloid (11 × 17 inch / 279 × 432 mm), een schoongesneden kantoorformaat."@nl,
+        "280 × 430 mm (nominalnie — dokładne wymiary zależą od maszyny). Kompaktowy format gazetowy, potocznie „tabloid” — inny niż amerykański format papieru Tabloid (11 × 17 cali / 279 × 432 mm), który jest przyciętym formatem biurowym."@pl,
+        "280 × 430 mm (nominal — as dimensões exatas variam conforme a rotativa). O formato de jornal compacto, coloquialmente «tabloide» — distinto do tamanho de papel US Tabloid (11 × 17 in / 279 × 432 mm), que é um formato de escritório refilado."@pt,
+        "280 × 430 mm (nominellt — exakta mått varierar med pressen). Det kompakta tidningsformatet, i dagligt tal 'tabloid' — skilt från det amerikanska pappersformatet Tabloid (11 × 17 tum / 279 × 432 mm), som är ett renskuret kontorsformat."@sv,
+        "280 × 430 毫米（名义尺寸 — 具体尺寸因轮转机而异）。紧凑型报纸幅面，俗称「小报」— 区别于美国 Tabloid 纸张尺寸（11 × 17 英寸，裁切后的办公幅面）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§COMPACT" ;
+    skos:prefLabel "Tabloid/Compact (280 x 430 mm)"@da,
+        "Compact (280 x 430 mm)"@de,
+        "Compact (280 x 430 mm)"@en,
+        "Compact (280 × 430 mm)"@es,
+        "Compact (280 x 430 mm)"@hi,
+        "Compact (280 x 430 mm)"@ja,
+        "Compact (280 x 430 mm)"@nb,
+        "Compact (280 x 430 mm)"@nl,
+        "Compact (280 x 430 mm)"@pl,
+        "Compact (280 x 430 mm)"@pt,
+        "Tabloid/Compact (280 x 430 mm)"@sv,
+        "Compact (280 × 430 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 120400.0 ;
+            ptpge:aspectRatio 1.5357 ;
+            ptpge:height 430.0 ;
+            ptpge:standard "trade convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 280.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

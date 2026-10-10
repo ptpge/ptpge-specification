@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/environmental/carbon/ghg-protocol-product> a skos:Concept ;
+    dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental/carbon> ;
+    skos:definition "Bredt anvendt ramme for drivhusgasregnskab over produkters livscyklus, udgivet af WRI/WBCSD. En alternativ referencemetode for CO₂e-deklarationer på produktniveau i tryktilbud."@da,
+        "Weit verbreitetes Rahmenwerk für die produktbezogene Lebenszyklus-Treibhausgasbilanzierung, herausgegeben von WRI/WBCSD. Eine alternative Referenzmethode für CO₂e-Deklarationen in Druckangeboten."@de,
+        "Widely used framework for product life-cycle greenhouse-gas accounting, published by WRI/WBCSD. An alternative reference method for product-level CO₂e declarations in print offers."@en,
+        "Marco ampliamente utilizado para la contabilidad de gases de efecto invernadero del ciclo de vida del producto, publicado por WRI/WBCSD. Un método de referencia alternativo para declaraciones de CO₂e en ofertas de impresión."@es,
+        "WRI/WBCSD द्वारा प्रकाशित, उत्पाद जीवनचक्र ग्रीनहाउस-गैस लेखांकन का व्यापक रूप से प्रयुक्त ढाँचा। प्रिंट ऑफ़र में उत्पाद-स्तर CO₂e घोषणाओं की वैकल्पिक संदर्भ विधि।"@hi,
+        "WRI/WBCSDが発行する、製品ライフサイクルの温室効果ガス会計の広く使われる枠組み。印刷オファーにおける製品レベルCO₂e宣言の代替基準手法。"@ja,
+        "Mye brukt rammeverk for livsløpsbasert klimagassregnskap på produktnivå, utgitt av WRI/WBCSD. En alternativ referansemetode for CO₂e-deklarasjoner i trykktilbud."@nb,
+        "Breed gebruikt kader voor broeikasgasboekhouding over de levenscyclus van producten, uitgegeven door WRI/WBCSD. Een alternatieve referentiemethode voor CO₂e-declaraties op productniveau in drukoffertes."@nl,
+        "Szeroko stosowane ramy rachunkowości gazów cieplarnianych w cyklu życia produktu, opublikowane przez WRI/WBCSD. Alternatywna metoda odniesienia dla deklaracji CO₂e na poziomie produktu w ofertach druku."@pl,
+        "Quadro amplamente usado para contabilidade de gases de efeito estufa no ciclo de vida de produtos, publicado por WRI/WBCSD. Método de referência alternativo para declarações de CO₂e no nível do produto em ofertas de impressão."@pt,
+        "Brett använt ramverk för växthusgasredovisning över produkters livscykel, utgivet av WRI/WBCSD. En alternativ referensmetod för CO₂e-deklarationer på produktnivå i tryckerbjudanden."@sv,
+        "由 WRI/WBCSD 发布、广泛使用的产品生命周期温室气体核算框架。印刷报价中产品级 CO₂e 声明的替代参考方法。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§GHG-PROTOCOL-PRODUCT" ;
+    skos:prefLabel "GHG Protocol Product Standard"@da,
+        "GHG Protocol Product Standard"@de,
+        "GHG Protocol Product Standard"@en,
+        "Estándar de Producto del Protocolo GHG"@es,
+        "GHG Protocol Product Standard"@hi,
+        "GHGプロトコル製品基準"@ja,
+        "GHG Protocol Product Standard"@nb,
+        "GHG Protocol Product Standard"@nl,
+        "GHG Protocol Product Standard"@pl,
+        "GHG Protocol Product Standard"@pt,
+        "GHG Protocol Product Standard"@sv,
+        "温室气体核算体系产品标准"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-07-18" .
+

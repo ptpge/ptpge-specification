@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials> ;
+    skos:definition "Arksubstrater lavet af cellulosefibre (typisk træmasse), presset og tørret til tynde, fleksible ark. Den største og mest varierede substratkategori i tryk. Spænder over ubestrøgne og bestrøgne kvaliteter og vægte fra silkepapir (≈30 g/m²) til tung karton."@da,
+        "Bogenförmige Bedruckstoffe aus Zellulosefasern (typischerweise Holzzellstoff), zu dünnen, flexiblen Bogen gepresst und getrocknet. Die größte und vielfältigste Bedruckstoffkategorie im Druckbereich. Reicht von ungestrichenen und gestrichenen Sorten, von Grammaturen wie Papier hauchdünn (≈30 g/m²) bis zu schwerem Karton (>300 g/m²) und von glänzenden über strukturierten bis recycelten Oberflächen."@de,
+        "Sheet substrates made from cellulose fibers (typically wood pulp), pressed and dried into thin, flexible sheets. The largest and most varied substrate category in print. Spans uncoated and coated grades, weights from tissue (≈30 gsm) to heavy cardstock (>300 gsm), and surfaces from glossy to textured to recycled."@en,
+        "Sustratos en hoja hechos de fibras de celulosa (habitualmente pulpa de madera), prensadas y secadas en hojas delgadas y flexibles. La categoría más grande y variada de sustratos en impresión. Abarca grados sin estucar y estucados, gramajes desde papel tisú (≈30 gsm) hasta cartulinas pesadas y, en PTPGE, se sub-divide aún por proveedores, gramajes, superficies y colores."@es,
+        "सेल्युलोज़ रेशों (आमतौर पर लकड़ी की लुगदी) से बने, दबाकर और सुखाकर पतली लचीली शीट बनाए गए शीट सब्सट्रेट। छपाई की सबसे बड़ी और सबसे विविध सब्सट्रेट श्रेणी। अनकोटेड और कोटेड ग्रेड, टिशू (≈30 GSM) से भारी कार्डस्टॉक (>300 GSM) तक के वज़न, और ग्लॉसी से टेक्सचर्ड से रीसाइकल्ड तक की सतहें।"@hi,
+        "セルロース繊維（通常木材パルプ）から作られ、薄く柔軟なシートに加圧乾燥されたシート基材。印刷で最大かつ最も多様な基材カテゴリ。非塗工と塗工のグレード、ティッシュ（約30gsm）から重いカード紙（300gsm超）までの坪量、グロスからテクスチャ加工、リサイクルまでの表面を含む。"@ja,
+        "Arksubstrater laget av cellulosefibre (typisk treavmasse), presset og tørket til tynne, fleksible ark. Den største og mest varierte substrat-kategorien i trykk. Spenner fra ubelagte til belagte kvaliteter, vekter fra silkepapir (≈30 gsm) til tungt kartong (>300 gsm), og overflater fra blank til strukturert til resirkulert."@nb,
+        "Velsubstraten van cellulosevezels (doorgaans houtpulp), geperst en gedroogd tot dunne, flexibele vellen. De grootste en meest gevarieerde substraatcategorie in druk. Omvat ongestreken en gestreken kwaliteiten en gewichten van zijdepapier (≈30 g/m²) tot zwaar karton."@nl,
+        "Podłoża arkuszowe z włókien celulozowych (zwykle masy drzewnej), prasowane i suszone w cienkie, elastyczne arkusze. Największa i najbardziej zróżnicowana kategoria podłoży w druku. Obejmuje gatunki niepowlekane i powlekane, gramatury od bibułki (≈30 g/m²) do ciężkiego kartonu (>300 g/m²) oraz powierzchnie od błyszczących przez fakturowane po makulaturowe."@pl,
+        "Substratos em folha feitos de fibras de celulose (normalmente polpa de madeira), prensadas e secas em folhas finas e flexíveis. A maior e mais variada categoria de substrato em impressão. Abrange qualidades revestidas e não revestidas, gramaturas de papel de seda (≈30 g/m²) a cartão pesado (>300 g/m²) e superfícies de brilhante a texturizado a reciclado."@pt,
+        "Arksubstrat av cellulosafibrer (typiskt trämassa), pressade och torkade till tunna, flexibla ark. Den största och mest varierade substratkategorin i tryck. Spänner över obestrukna och bestrukna kvaliteter, vikter från silkespapper (≈30 g/m²) till tung kartong (>300 g/m²) och ytor från glättade till strukturerade till returfiber."@sv,
+        "由纤维素纤维（通常为木浆）制成的纸张承印物，经压制和干燥成为薄而柔韧的纸张。印刷中最大、最多样化的承印物类别。涵盖未涂布和涂布等级，克重从棉纸（约30克/平方米）到重磅卡纸，PTPGE中进一步按供应商、克重、表面和颜色细分。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q11472> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:notation "P:SB-SHT-PAPR" ;
+    skos:prefLabel "Papir"@da,
+        "Papier"@de,
+        "Paper"@en,
+        "Papel"@es,
+        "काग़ज़"@hi,
+        "紙"@ja,
+        "Papir"@nb,
+        "Papier"@nl,
+        "Papier"@pl,
+        "Papel"@pt,
+        "Papper"@sv,
+        "纸"@zh-Hans ;
+    skos:scopeNote "Papier ist hier der Sammelbegriff für bogenförmige Zellulose-Bedruckstoffe. Rollenförmige Zellulose-Bedruckstoffe gehören zu Roll Materials; mehrlagige Faserkartons (Wellpappe, Vollkarton) sind verwandte Kategorien."@de,
+        "Paper here is the umbrella for sheet-form cellulose substrates. Roll-form cellulose is under Roll Materials; multi-layer fibre boards (corrugated, solid board) are sibling categories."@en,
+        "El Papel aquí es el paraguas para sustratos celulósicos en forma de hoja. La forma en bobina del mismo material está bajo Materiales en Bobina; los cartones multicapa (ondulado, cartón compacto) son categorías hermanas."@es,
+        "यहाँ काग़ज़ शीट-रूप सेल्युलोज़ सब्सट्रेट का छत्र-पद है। रोल-रूप सेल्युलोज़ रोल सामग्री के अंतर्गत है; बहु-परत फ़ाइबर बोर्ड (कोरुगेटेड, सॉलिड बोर्ड) सहोदर श्रेणियाँ हैं।"@hi,
+        "ここでの紙はシート形態のセルロース基材の総称である。ロール形態のセルロースはRoll Materialsに属し、多層繊維板（コルゲート、ソリッドボード）は兄弟カテゴリ。"@ja,
+        "Papir er her paraplyen for ark-form cellulose­substrater. Rull-form cellulose ligger under Roll Materials; flerlags­kartong (bølge­papp, kompakt kartong) er søsken-kategorier."@nb,
+        "Papel aqui é o guarda-chuva dos substratos de celulose em forma de folha. A celulose em rolo está em Materiais em rolo; chapas de fibra multicamada (ondulado, cartão compacto) são categorias irmãs."@pt,
+        "此处的纸是纸张形态纤维素承印物的统称。同一材料的卷筒形态在卷材中；多层纤维板（瓦楞、实心板）是兄弟分类。"@zh-Hans ;
+    ptpge:group "substrates" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

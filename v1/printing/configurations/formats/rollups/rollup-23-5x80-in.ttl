@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-23-5x80-in> a skos:Concept ;
+    dcterms:created "2026-08-21T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/rollups> ;
+    skos:definition "Roll-up-bannerformat Rollup 23.5 × 80 in: amerikansk standardkassettebredde til udtrækkelige bannerstandere. Formatet er den synlige grafik i monteret stand. Tryklængden får et monteringstillæg bestemt af kassetten — ekstra materiale nederst (ind i kassetten) og øverst (topskinnen) — som er produktionsgeometri udledt af producenten, ikke en del af produktidentiteten; nominelle værdier publiceres som mountingAllowance."@da,
+        "Roll-up-Bannerformat Rollup 23.5 × 80 in: US-amerikanische Standard-Kassettenbreite für ausziehbare Bannerdisplays. Das Format ist die sichtbare Grafik im montierten Zustand. Die Drucklänge erhält eine von der Kassette bestimmte Montagezugabe — zusätzliches Material unten (in die Kassette) und oben (Klemmleiste) —, die vom Hersteller abgeleitete Produktionsgeometrie und nicht Teil der Produktidentität ist; Nennwerte werden als mountingAllowance veröffentlicht."@de,
+        "Roll-up banner format Rollup 23.5 × 80 in: US standard cassette width for retractable banner stands. The format is the visible graphic once mounted. The printed length adds a mounting allowance set by the cassette — extra material at the bottom (into the cassette) and at the top (leader rail) — which is production geometry derived by the producer, not part of the product identity; nominal values are published as mountingAllowance."@en,
+        "Formato de banner enrollable Rollup 23.5 × 80 in: ancho de casete estándar estadounidense para expositores retráctiles. El formato es el gráfico visible una vez montado. La longitud impresa añade un margen de montaje definido por el casete — material extra abajo (dentro del casete) y arriba (perfil superior) —, geometría de producción derivada por el productor, no parte de la identidad del producto; los valores nominales se publican como mountingAllowance."@es,
+        "रोल-अप बैनर फ़ॉर्मेट 23.5 × 80 in: रिट्रैक्टेबल बैनर स्टैंड के लिए US मानक कैसेट चौड़ाई। फ़ॉर्मेट लगाने के बाद दिखने वाला ग्राफ़िक है। छपी लंबाई में कैसेट-निर्धारित माउंटिंग भत्ता जुड़ता है — नीचे (कैसेट के भीतर) और ऊपर (लीडर रेल) अतिरिक्त सामग्री — जो उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति है, उत्पाद पहचान का हिस्सा नहीं; नाममात्र मान mountingAllowance के रूप में प्रकाशित हैं।"@hi,
+        "ロールアップバナー判型 Rollup 23.5 × 80 in：米国の標準カセット幅（引き出し式バナースタンド用）。判型は設置後に見える印刷面を指す。印刷長にはカセットが決める取付余白（下部はカセット内へ、上部はトップレール用の追加材料）が加わる。これは製造者が導出する生産上の寸法であり、製品識別の一部ではない。名目値は mountingAllowance として公開される。"@ja,
+        "Roll-up-bannerformat Rollup 23.5 × 80 in: amerikansk standard kassettbredde for uttrekkbare bannerstativ. Formatet er den synlige grafikken i montert stand. Trykklengden får et monteringstillegg bestemt av kassetten — ekstra materiale nederst (inn i kassetten) og øverst (toppskinnen) — som er produksjonsgeometri utledet av produsenten, ikke del av produktidentiteten; nominelle verdier publiseres som mountingAllowance."@nb,
+        "Roll-upbannerformaat Rollup 23.5 × 80 in: Amerikaanse standaard cassettebreedte voor uittrekbare bannerdisplays. Het formaat is de zichtbare grafiek in gemonteerde toestand. De druklengte krijgt een montagetoeslag bepaald door de cassette — extra materiaal onderaan (in de cassette) en bovenaan (toprail) — productiegeometrie afgeleid door de producent, geen deel van de productidentiteit; nominale waarden worden gepubliceerd als mountingAllowance."@nl,
+        "Format roll-upu 23,5 × 80 in: amerykańska standardowa szerokość kasety stojaków na banery zwijane. Format to widoczna grafika po zamontowaniu. Drukowana długość zawiera naddatek montażowy określony przez kasetę — dodatkowy materiał u dołu (do kasety) i u góry (listwa prowadząca) — będący geometrią produkcyjną wyprowadzaną przez producenta, a nie częścią tożsamości produktu; wartości nominalne publikowane są jako mountingAllowance."@pl,
+        "Formato de roll-up 23.5 × 80 in: largura de cassete padrão americana para porta-banners retráteis. O formato é o gráfico visível depois de montado. O comprimento impresso acrescenta uma folga de montagem definida pelo cassete — material extra embaixo (dentro do cassete) e em cima (trilho superior) — que é geometria de produção derivada pelo produtor, não parte da identidade do produto; os valores nominais são publicados como mountingAllowance."@pt,
+        "Roll-up-bannerformat Rollup 23.5 × 80 in: amerikansk standardkassettbredd för utdragbara bannerställ. Formatet är den synliga grafiken i monterat läge. Trycklängden får ett monteringstillägg som bestäms av kassetten — extra material nedtill (in i kassetten) och upptill (toppskenan) — vilket är produktionsgeometri som producenten härleder, inte en del av produktidentiteten; nominella värden publiceras som mountingAllowance."@sv,
+        "易拉宝横幅规格 Rollup 23.5 × 80 in：美国标准卡匣宽度（用于可伸缩横幅展架）。规格指安装后可见的画面。印刷长度需加上由卡匣决定的安装余量——底部（卷入卡匣）和顶部（上夹条）的额外材料——这是由生产者推导的生产几何尺寸，不属于产品身份；名义值以 mountingAllowance 发布。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ROLLUP-23-5X80-IN" ;
+    skos:prefLabel "Rollup 23.5 × 80 in"@da,
+        "Rollup 23.5 × 80 in"@de,
+        "Rollup 23.5 × 80 in"@en,
+        "Rollup 23.5 × 80 in"@es,
+        "रोल-अप 23.5 × 80 in"@hi,
+        "Rollup 23.5 × 80 in"@ja,
+        "Rollup 23.5 × 80 in"@nb,
+        "Rollup 23.5 × 80 in"@nl,
+        "Rollup 23.5 × 80 in"@pl,
+        "Roll-up 23.5 × 80 in"@pt,
+        "Rollup 23.5 × 80 in"@sv,
+        "Rollup 23.5 × 80 in"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 1880.0 ;
+            ptpge:aspectRatio 3.4043 ;
+            ptpge:height 80.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "in" ;
+            ptpge:width 23.5 ] ;
+    ptpge:level "element" ;
+    ptpge:mountingAllowance [ ptpge:unit "in" ] ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

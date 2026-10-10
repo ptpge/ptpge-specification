@@ -1,0 +1,96 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding/single-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Single Fold",
+    "es": "Pliegue Simple",
+    "zh-Hans": "对折",
+    "nb": "Enkel fold",
+    "de": "Einfachfalz",
+    "ja": "シングル折り",
+    "sv": "Enkelfals",
+    "da": "Enkeltfals",
+    "nl": "Enkele vouw",
+    "pl": "Złam pojedynczy",
+    "pt": "Dobra simples",
+    "hi": "सिंगल फ़ोल्ड"
+  },
+  "altLabels": {
+    "en": [
+      "Half Fold",
+      "Bi-Fold"
+    ],
+    "nb": [
+      "Enkeltfals",
+      "Midtbrett",
+      "Halvbrett"
+    ],
+    "pl": [
+      "złam na pół",
+      "bigowanie na pół",
+      "składanie na pół"
+    ],
+    "pt": [
+      "dobra ao meio",
+      "meia dobra",
+      "dobra em dois",
+      "bifold"
+    ],
+    "hi": [
+      "हाफ़ फ़ोल्ड",
+      "बाई-फ़ोल्ड",
+      "आधा मोड़",
+      "एक तह"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§SINGLE-FOLD",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/completions/folding",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Single fold dividing the sheet into two equal panels — the simplest fold, producing a four-page document (front, inside-left, inside-right, back). Used for greeting cards, simple brochures, and invitations.",
+    "nb": "Enkel folde som deler arket i to like paneler — den enkleste folden, som produserer et firesidig dokument (forside, innside-venstre, innside-høyre, bakside). Brukt til gratulasjonskort, enkle brosjyrer og invitasjoner.",
+    "de": "Einzelner Falz, der den Bogen in zwei gleiche Felder unterteilt — der einfachste Falz, ergibt ein vierseitiges Dokument (Vorderseite, innen-links, innen-rechts, Rückseite). Verwendet für Grußkarten, einfache Broschüren und Einladungen.",
+    "ja": "シートを2つの等しい面に分ける単一の折り — 最もシンプルな折りで、4ページの文書（表紙、内側左、内側右、裏表紙）を作る。グリーティングカード、シンプルなブローシュア、招待状に使用される。",
+    "es": "Un solo pliegue por el centro del pliego — la operación más simple, divide la hoja en dos paneles iguales.",
+    "zh-Hans": "通过纸张中心的单一折页 —— 最简单的操作，将纸张分为两个相等的面板。",
+    "sv": "En enda fals som delar arket i två lika paneler — den enklaste falsen, ger ett fyrsidigt dokument (framsida, insida vänster, insida höger, baksida). Används för gratulationskort, enkla broschyrer och inbjudningar.",
+    "da": "Én fals, der deler arket i to lige store paneler — den enkleste fals, som giver et firesidet dokument (forside, inderside venstre, inderside højre, bagside). Bruges til lykønskningskort, enkle brochurer og invitationer.",
+    "nl": "Eén vouw die het vel in twee gelijke panelen verdeelt — de eenvoudigste vouw, die een vierpaginadocument geeft (voorzijde, binnen-links, binnen-rechts, achterzijde). Gebruikt voor wenskaarten, eenvoudige brochures en uitnodigingen.",
+    "pl": "Pojedynczy złam dzielący arkusz na dwa równe skrzydła — najprostszy złam, dający dokument czterostronicowy (przód, lewa strona wewnętrzna, prawa strona wewnętrzna, tył). Stosowany w kartkach okolicznościowych, prostych folderach i zaproszeniach.",
+    "pt": "Uma única dobra que divide a folha em dois painéis iguais — a dobra mais simples, que produz um documento de quatro páginas (frente, interior esquerdo, interior direito, verso). Usada em cartões, folhetos simples e convites.",
+    "hi": "शीट को दो बराबर पैनलों में बाँटने वाला एक फ़ोल्ड — सबसे सरल फ़ोल्ड, चार-पृष्ठ दस्तावेज़ (आगे, भीतर-बाएँ, भीतर-दाएँ, पीछे)। ग्रीटिंग कार्ड, सरल ब्रोशर और निमंत्रण में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

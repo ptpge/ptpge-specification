@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e1> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "30 x 42 in"@en,
+        "30x42"@en,
+        "30×42"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/arch-series> ;
+    skos:definition "30 × 42 tommer (762 × 1066.8 mm). Lidt mindre end Arch E. Almindeligt alternativ til arkitekttegninger i fuld størrelse."@da,
+        "30 × 42 in (762 × 1066,8 mm). Etwas kleiner als Arch E. Übliche Alternative für vollformatige Architekturzeichnungen."@de,
+        "30 × 42 in (762 × 1066.8 mm). Slightly smaller than Arch E. Common alternative for full-size architectural drawings."@en,
+        "Tamaño arquitectónico Arch E1 para planos arquitectónicos y de ingeniería norteamericanos, 762 × 1067 mm / 30 × 42 in."@es,
+        "30 × 42 in (762 × 1066.8 mm). Arch E से थोड़ा छोटा। पूर्ण-आकार वास्तु चित्रों का आम विकल्प।"@hi,
+        "30×42インチ（762×1066.8mm）。Arch Eよりわずかに小さい。フルサイズ建築図面の一般的な代替。"@ja,
+        "30 × 42 in (762 × 1066,8 mm). Litt mindre enn Arch E. Vanlig alternativ for fullskala arkitekturtegninger."@nb,
+        "30 × 42 inch (762 × 1066.8 mm). Iets kleiner dan Arch E. Gangbaar alternatief voor architectuurtekeningen op ware grootte."@nl,
+        "30 × 42 cale (762 × 1066,8 mm). Nieco mniejszy niż Arch E. Popularna alternatywa dla pełnowymiarowych rysunków architektonicznych."@pl,
+        "30 × 42 in (762 × 1066.8 mm). Ligeiramente menor que o Arch E. Alternativa comum para desenhos arquitetônicos em tamanho real."@pt,
+        "30 × 42 tum (762 × 1066.8 mm). Något mindre än Arch E. Vanligt alternativ för arkitektritningar i full storlek."@sv,
+        "建筑尺寸Arch E1，用于北美建筑和工程图纸，762 × 1067 mm / 30 × 42 in。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ARCH-E1" ;
+    skos:prefLabel "Arch E1 (30 x 42 tum)"@da,
+        "Arch E1 (30 x 42 in)"@de,
+        "Arch E1 (30 x 42 in)"@en,
+        "Arch E1 (762 × 1067 mm / 30 × 42 in)"@es,
+        "Arch E1 (30 x 42 in)"@hi,
+        "Arch E1 (30 x 42 in)"@ja,
+        "Arch E1 (30 x 42 in)"@nb,
+        "Arch E1 (30 x 42 tum)"@nl,
+        "Arch E1 (30 x 42 in)"@pl,
+        "Arch E1 (30 x 42 in)"@pt,
+        "Arch E1 (30 x 42 tum)"@sv,
+        "Arch E1 (762 × 1067 mm / 30 × 42 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 1260.0 ;
+            ptpge:aspectRatio 1.4 ;
+            ptpge:height 42.0 ;
+            ptpge:standard "ANSI/ASME Y14.1" ;
+            ptpge:unit "in" ;
+            ptpge:width 30.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

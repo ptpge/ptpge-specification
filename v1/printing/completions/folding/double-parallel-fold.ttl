@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/double-parallel-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Ark falset to gange med begge false parallelle og i samme retning — giver otte paneler, brugt til produktkataloger, kort og detaljerede brochurer."@da,
+        "Bogen, der zweimal parallel und in dieselbe Richtung gefalzt wird — erzeugt ein achtseitiges Ergebnis, verwendet für Produktkataloge, Karten und detaillierte Broschüren."@de,
+        "Sheet folded twice with both folds parallel and in the same direction — produces an eight-panel result, used for product catalogs, maps, and detailed brochures."@en,
+        "Dos pliegues paralelos consecutivos — divide el pliego en cuatro paneles iguales."@es,
+        "दो बार मुड़ी शीट, दोनों फ़ोल्ड समानांतर और एक ही दिशा में — आठ-पैनल परिणाम; उत्पाद कैटलॉग, नक़्शों और विस्तृत ब्रोशर में।"@hi,
+        "両方の折りが平行で同じ方向にシートを2回折るもの — 8面の結果を生み、製品カタログ、地図、詳細なブローシュアに使用される。"@ja,
+        "Ark foldet to ganger med begge folder parallelle og i samme retning — produserer et åtte-panel resultat, brukt til produktkataloger, kart og detaljerte brosjyrer."@nb,
+        "Vel tweemaal gevouwen met beide vouwen parallel en in dezelfde richting — geeft acht panelen, gebruikt voor productcatalogi, kaarten en gedetailleerde brochures."@nl,
+        "Arkusz złożony dwukrotnie, oba złamy równoległe i w tym samym kierunku — daje osiem skrzydeł; stosowany w katalogach produktów, mapach i rozbudowanych folderach."@pl,
+        "Folha dobrada duas vezes com ambas as dobras paralelas e na mesma direção — resulta em oito painéis; usada em catálogos de produto, mapas e folhetos detalhados."@pt,
+        "Ark falsat två gånger med båda falsarna parallella och åt samma håll — ger ett åttapanelsresultat, används för produktkataloger, kartor och detaljerade broschyrer."@sv,
+        "两个连续平行折 —— 将纸张分为四个相等面板。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§DOUBLE-PARALLEL-FOLD" ;
+    skos:prefLabel "Dobbelt parallelfals"@da,
+        "Doppelter Parallelfalz"@de,
+        "Double Parallel Fold"@en,
+        "Pliegue Paralelo Doble"@es,
+        "डबल पैरलल फ़ोल्ड"@hi,
+        "ダブルパラレル折り"@ja,
+        "Dobbel parallell-fold"@nb,
+        "Dubbele parallelvouw"@nl,
+        "Złam podwójny równoległy"@pl,
+        "Dobra paralela dupla"@pt,
+        "Dubbel parallellfals"@sv,
+        "双平行折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

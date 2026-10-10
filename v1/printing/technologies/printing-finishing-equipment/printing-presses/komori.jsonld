@@ -1,0 +1,54 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/komori",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Komori",
+    "es": "Komori",
+    "zh-Hans": "Komori",
+    "nb": "Komori",
+    "de": "Komori",
+    "ja": "Komori",
+    "sv": "Komori",
+    "da": "Komori",
+    "nl": "Komori",
+    "pl": "Komori",
+    "pt": "Komori",
+    "hi": "Komori"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Komori Corporation — Japanese manufacturer of sheet-fed offset presses, founded in 1923. Major competitor to Heidelberg in the commercial-print press market.",
+    "nb": "Komori Corporation — japansk produsent av ark-mate offset-presser, grunnlagt i 1923. Stor konkurrent til Heidelberg i markedet for kommersielle trykkpresser.",
+    "de": "Komori Corporation — japanischer Hersteller von Bogenoffsetdruckmaschinen, gegründet 1923. Wichtiger Wettbewerber von Heidelberg im Markt für kommerzielle Druckmaschinen.",
+    "ja": "小森コーポレーション — 1923年創業の日本の枚葉オフセット印刷機メーカー。商業印刷市場でハイデルベルクの主要競合。",
+    "es": "Komori Corporation — fabricante japonés de prensas offset y digitales de producción, conocido por la serie Lithrone offset y la Impremia digital.",
+    "zh-Hans": "Komori Corporation —— 日本胶印和数码生产印刷机制造商，以Lithrone胶印系列和Impremia数码系列著称。",
+    "sv": "Komori Corporation — japansk tillverkare av arkoffsetpressar, grundad 1923. Stor konkurrent till Heidelberg på civiltryckets pressmarknad.",
+    "da": "Komori Corporation — japansk producent af arkoffsetpresser, grundlagt 1923. Stor konkurrent til Heidelberg på det kommercielle pressemarked.",
+    "nl": "Komori Corporation — Japanse fabrikant van vellenoffsetpersen, opgericht in 1923. Grote concurrent van Heidelberg op de commerciële persenmarkt.",
+    "pl": "Komori Corporation — japoński producent arkuszowych maszyn offsetowych, założony w 1923 r. Główny konkurent Heidelberga na rynku maszyn do druku komercyjnego.",
+    "pt": "Komori Corporation — fabricante japonês de impressoras offset de folha, fundado em 1923. Grande concorrente da Heidelberg no mercado de impressoras para impressão comercial.",
+    "hi": "Komori Corporation — 1923 में स्थापित शीट-फ़ेड ऑफसेट प्रेस का जापानी निर्माता। व्यावसायिक-प्रिंट प्रेस बाज़ार में Heidelberg का प्रमुख प्रतिद्वंद्वी।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-KOMO",
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/komori",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

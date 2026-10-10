@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/lamination> a skos:Concept ;
+    dcterms:created "2026-06-18T11:33:35+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "foliowanie"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish> ;
+    skos:definition "Lamineringsfinish — en plastfilm bundet til det trykte ark for beskyttelse og taktil/visuel effekt."@da,
+        "Kaschierungen (Laminat-Oberflächen) — eine Kunststofffolie, die zum Schutz und für haptisch-visuelle Wirkung auf den bedruckten Bogen aufgebracht wird."@de,
+        "Lamination surface finishes — a plastic film bonded to the printed sheet for protection and tactile/visual effect."@en,
+        "Acabados de laminado — una película plástica adherida a la hoja impresa para protección y efecto táctil y visual."@es,
+        "लैमिनेशन सतह फ़िनिश — सुरक्षा और स्पर्श/दृश्य प्रभाव के लिए छपी शीट पर चिपकाई गई प्लास्टिक फ़िल्म।"@hi,
+        "ラミネート系の表面加工 — 保護と触感・視覚効果のため、印刷済み用紙に貼り合わせるプラスチックフィルム。"@ja,
+        "Laminerings-overflatefinish — en plastfilm bondet til arket for beskyttelse og taktil/visuell effekt."@nb,
+        "Laminaatafwerkingen — een kunststoffilm verbonden met het gedrukte vel voor bescherming en tactiel/visueel effect."@nl,
+        "Wykończenia powierzchni przez laminowanie — folia z tworzywa sztucznego łączona z zadrukowanym arkuszem dla ochrony oraz efektu dotykowego/wizualnego."@pl,
+        "Acabamentos de superfície por laminação — um filme plástico colado à folha impressa para proteção e efeito tátil/visual."@pt,
+        "Lamineringsytbehandlingar — en plastfilm limmad mot det tryckta arket för skydd och taktil/visuell effekt."@sv,
+        "覆膜类表面处理 — 将塑料薄膜复合到印张上，以保护并产生触觉与视觉效果。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/features/surface-finish/lamination/anti-scratch>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/silk>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
+    skos:notation "P:FT-SFI-LAMI" ;
+    skos:prefLabel "Laminering"@da,
+        "Kaschierung"@de,
+        "Lamination"@en,
+        "Laminado"@es,
+        "लैमिनेशन"@hi,
+        "ラミネート"@ja,
+        "Lamineren"@nl,
+        "Laminowanie"@pl,
+        "Laminação"@pt,
+        "Laminering"@sv,
+        "覆膜"@zh-Hans ;
+    ptpge:group "features" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.9 · p.78",
+                "§5.6.23 · p.125" ;
+            ptpge:mappingRow "crosswalk row 45" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Laminating",
+                "LaminatingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

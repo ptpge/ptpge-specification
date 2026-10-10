@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/c-series/c1",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "C1 (648 x 917 mm)",
+    "es": "C1 (648 × 917 mm)",
+    "zh-Hans": "C1 (648 × 917 mm)",
+    "nb": "C1 (648 x 917 mm)",
+    "de": "C1 (648 x 917 mm)",
+    "ja": "C1 (648 x 917 mm)",
+    "sv": "C1 (648 x 917 mm)",
+    "da": "C1 (648 x 917 mm)",
+    "nl": "C1 (648 x 917 mm)",
+    "pl": "C1 (648 x 917 mm)",
+    "pt": "C1 (648 x 917 mm)",
+    "hi": "C1 (648 x 917 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§C1",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/c-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "648 × 917 mm (25.51 × 36.1 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A1 sheet flat. Specialty large-document envelope.",
+    "nb": "648 × 917 mm (25,51 × 36,1 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A1-ark uten brett. Spesialisert konvolutt for store dokumenter.",
+    "de": "648 × 917 mm (25,51 × 36,1 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen A1-Bogen ungefaltet. Spezial-Briefumschlag für große Dokumente.",
+    "ja": "648×917mm（25.51×36.1インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A1シートを折らずに収納。特殊な大型書類用封筒。",
+    "es": "Sobre C1 de la serie C de ISO 269, dimensiones 648 × 917 mm. Diseñado para contener una hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C1信封，尺寸648 × 917 mm。设计用于装相同编号的A纸。",
+    "sv": "648 × 917 mm (25.51 × 36.1 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A1-ark plant. Specialkuvert för stora dokument.",
+    "da": "648 × 917 mm (25.51 × 36.1 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A1-ark fladt. Specialkuvert til store dokumenter.",
+    "nl": "648 × 917 mm (25.51 × 36.1 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een A1-ark vlak. Speciale envelop voor grote documenten.",
+    "pl": "648 × 917 mm (25,51 × 36,1 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A1 na płasko. Specjalna koperta na duże dokumenty.",
+    "pt": "648 × 917 mm (25.51 × 36.1 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A1 aberta. Envelope especial para documentos grandes.",
+    "hi": "648 × 917 mm (25.51 × 36.1 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A1 शीट सपाट समाती है। बड़े दस्तावेज़ों के लिए विशेष लिफ़ाफ़ा।"
+  },
+  "properties": {
+    "width": 648,
+    "height": 917,
+    "unit": "mm",
+    "aspectRatio": 1.4151,
+    "standard": "ISO 269",
+    "area": 594216
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "648 x 917 mm",
+      "648x917",
+      "648×917",
+      "64.8 x 91.7 cm",
+      "DIN C1"
+    ],
+    "nb": [
+      "C1-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

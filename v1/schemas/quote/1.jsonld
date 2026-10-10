@@ -1,0 +1,31 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/schemas/quote/1",
+  "type": "ptpge:Schema",
+  "version": "2026-10-09",
+  "status": "proposed",
+  "notation": "SCH:QUOTE",
+  "level": "element",
+  "label": {
+    "en": "Quote",
+    "nb": "Tilbud"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/schemas",
+  "schemaVersion": 1,
+  "stage": "draft",
+  "writtenBy": "a printer, in answer to a request",
+  "holds": "price · quantity · delivery · validity, for one configuration",
+  "jsonSchema": null,
+  "definition": {
+    "en": "A printer's answer to one request: the same configuration (the ptpge-cfs/1 fingerprint it was asked for), a quantity, a price in one currency, delivery terms and a validity period, addressed to the buyer who asked. Together with the request it is one deal; its acceptance is the event an implementation acts on. Not published at a known path — it has a recipient.",
+    "nb": "Et trykkeris svar på én forespørsel: samme konfigurasjon (ptpge-cfs/1-fingeravtrykket det ble spurt om), et antall, en pris i én valuta, leveringsvilkår og en gyldighetsperiode, adressert til kjøperen som spurte. Sammen med forespørselen utgjør det én handel; aksepten er hendelsen en implementasjon handler på. Publiseres ikke på kjent sti – det har en mottaker."
+  },
+  "note": {
+    "en": "Pairs with request/1: a quote answers exactly one request and repeats its fingerprint, so the two can be matched without a system in between.",
+    "nb": "Hører sammen med request/1: et tilbud svarer på nøyaktig én forespørsel og gjentar dens fingeravtrykk, så de to kan kobles uten et system imellom."
+  },
+  "created": "2026-10-09T17:30:00Z",
+  "modified": "2026-10-09T17:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

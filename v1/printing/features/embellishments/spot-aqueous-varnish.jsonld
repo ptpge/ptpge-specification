@@ -1,0 +1,92 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/spot-aqueous-varnish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Spot Aqueous Varnish",
+    "nb": "Spot vannbasert lakk",
+    "de": "Spot-Wasserlack",
+    "ja": "部分水性ニス",
+    "es": "Barniz acuoso localizado",
+    "zh-Hans": "局部水性光油",
+    "sv": "Partiell dispersionslack",
+    "da": "Partiel dispersionslak",
+    "nl": "Spot-dispersielak",
+    "pl": "Lakier dyspersyjny wybiórczy",
+    "pt": "Verniz aquoso localizado",
+    "hi": "स्पॉट एक्वियस वार्निश"
+  },
+  "definition": {
+    "en": "Water-based varnish applied to specific design elements. More environmentally friendly than UV varnish but with a subtler sheen. Applied inline on press as a flood coat or selectively via a press tower.",
+    "nb": "Vannbasert lakk påført spesifikke design-elementer. Mer miljøvennlig enn UV-lakk, men med subtilere glans. Påført inline på pressen som flood-coat eller selektivt via et press-tårn.",
+    "de": "Wasserbasierter Lack, der auf bestimmte Designelemente aufgebracht wird. Umweltfreundlicher als UV-Lack, jedoch mit dezenterem Glanz.",
+    "ja": "デザインの特定要素に塗布する水性ニス。UV ニスより環境負荷が低いが、光沢は控えめ。印刷機のインラインで全面またはニスユニットによる部分塗布で施される。",
+    "es": "Barniz al agua aplicado a elementos concretos del diseño. Más respetuoso con el medio ambiente que el barniz UV pero con un brillo más sutil. Se aplica en línea en máquina, como capa completa o de forma selectiva mediante un cuerpo de barnizado.",
+    "zh-Hans": "施加于特定设计元素的水性上光油。比 UV 上光更环保，但光泽更含蓄。在印刷机上联线施加，可整面涂布或经上光单元选择性施加。",
+    "sv": "Vattenbaserad lack applicerad på specifika designelement. Mer miljövänlig än UV-lack men med diskretare lyster. Appliceras i linje i pressen som heltäckande skikt eller selektivt via ett lacktorn.",
+    "da": "Vandbaseret lak påført udvalgte designelementer. Mere miljøvenlig end UV-lak, men med mere afdæmpet glans. Påføres inline på pressen som heldækkende lag eller selektivt via et lakværk.",
+    "nl": "Waterbasislak op geselecteerde ontwerpelementen. Milieuvriendelijker dan UV-lak, maar met subtielere glans. Inline op de pers aangebracht als volvlakslaag of selectief via een lakwerk.",
+    "pl": "Lakier wodny nanoszony na wybrane elementy projektu. Bardziej przyjazny środowisku niż lakier UV, lecz o subtelniejszym połysku. Nanoszony w linii na maszynie jako lakier pełny lub wybiórczo z wieży lakierującej.",
+    "pt": "Verniz à base de água aplicado em elementos específicos do design. Mais ecológico que o verniz UV, mas com brilho mais sutil. Aplicado em linha na impressora, como verniz total ou seletivamente por uma torre de verniz.",
+    "hi": "विशिष्ट डिज़ाइन तत्वों पर लगाया गया जल-आधारित वार्निश। UV वार्निश से अधिक पर्यावरण-अनुकूल पर हल्की चमक। प्रेस पर इनलाइन फ़्लड कोट के रूप में या प्रेस टावर से चुनिंदा जगह।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments",
+  "properties": {
+    "selective": true,
+    "processType": "aqueous",
+    "coverage": "selective"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§SPOT-AQUEOUS-VARNISH",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "Spot aqueous",
+      "Aqueous coating",
+      "Spot AQ"
+    ],
+    "nb": [
+      "Vannbasert lakk",
+      "Akvalakk"
+    ],
+    "pl": [
+      "lakier wodny wybiórczy",
+      "lakier dyspersyjny",
+      "lakier akrylowy wybiórczy"
+    ],
+    "pt": [
+      "verniz aquoso",
+      "verniz de água localizado",
+      "verniz AQ"
+    ],
+    "hi": [
+      "स्पॉट एक्वियस",
+      "एक्वियस कोटिंग",
+      "जल-आधारित वार्निश",
+      "स्पॉट AQ"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "Varnishing"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§5.5.3 · p.112"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 26"
+    }
+  ]
+}

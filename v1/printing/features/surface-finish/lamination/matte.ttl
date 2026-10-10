@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Dull lamination"@en,
+        "Matt Lamination"@en,
+        "Matt laminated"@en,
+        "Matt lamination"@en,
+        "Matte Laminate"@en,
+        "Matte laminated"@en,
+        "डल लैमिनेशन"@hi,
+        "मैट फ़िनिश लैमिनेशन"@hi,
+        "मैट लैमिनेट"@hi,
+        "मैट लैमिनेशन"@hi,
+        "Matt folie"@nb,
+        "Matt laminering"@nb,
+        "Mattlaminat"@nb,
+        "Mat gelamineerd"@nl,
+        "Mat laminaat"@nl,
+        "folia mat"@pl,
+        "folia matowa"@pl,
+        "laminat matowy"@pl,
+        "BOPP fosco"@pt,
+        "laminado fosco"@pt,
+        "laminação fosca"@pt,
+        "laminação mate"@pt,
+        "plastificação fosca"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/lamination> ;
+    skos:definition "Mat plastfilm lamineret på den trykte overflade. Giver en glat, ikke-reflekterende finish, der føles fløjlsagtig. Reducerer genskin i direkte lys og giver et sofistikeret, moderne udtryk."@da,
+        "Matter Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet ein glattes, nicht reflektierendes Finish."@de,
+        "Matte plastic film laminated to the printed surface. Provides a smooth, non-reflective finish that feels velvety to the touch. Reduces glare under direct light and gives a sophisticated, modern look. Common on business cards, book covers, and premium marketing materials."@en,
+        "Película plástica mate laminada sobre la superficie impresa. Proporciona un acabado liso y sin reflejos, aterciopelado al tacto. Reduce el deslumbramiento bajo luz directa y da un aspecto sofisticado y moderno. Común en tarjetas de visita, cubiertas de libros y materiales premium."@es,
+        "छपी सतह पर लैमिनेट की गई मैट प्लास्टिक फ़िल्म। चिकनी, बिना परावर्तन वाली फ़िनिश जो छूने में मखमली लगती है। सीधी रोशनी में चमक कम करती है और परिष्कृत, आधुनिक रूप देती है। विज़िटिंग कार्ड, किताब के कवर और प्रीमियम मार्केटिंग सामग्री में आम।"@hi,
+        "印刷面に貼り合わせるマットフィルム。滑らかで反射のない、ビロードのような手触りの仕上げ。直射光下のギラつきを抑え、洗練されたモダンな印象を与える。名刺、書籍カバー、プレミアムなマーケティング資料で一般的。"@ja,
+        "Matt plastikkfilm laminert til den trykte overflaten. Gir en glatt, ikke-reflekterende finish som føles velour-aktig å ta på. Reduserer gjenskinn under direkte lys og gir et sofistikert, moderne utseende. Vanlig på visittkort, bok-omslag og premium markedsmateriell."@nb,
+        "Matte kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een gladde, niet-reflecterende afwerking die fluweelachtig aanvoelt. Vermindert schittering bij direct licht en oogt verfijnd en modern."@nl,
+        "Matowa folia laminowana na zadrukowanej powierzchni. Daje gładkie, nieodbijające wykończenie, aksamitne w dotyku. Redukuje odblaski w bezpośrednim świetle i nadaje wyrafinowany, nowoczesny wygląd. Typowe dla wizytówek, okładek książek i materiałów marketingowych premium."@pl,
+        "Filme plástico fosco laminado sobre a superfície impressa. Dá um acabamento liso e não reflexivo, aveludado ao toque. Reduz o reflexo sob luz direta e confere um visual sofisticado e moderno. Comum em cartões de visita, capas de livro e materiais de marketing premium."@pt,
+        "Matt plastfilm laminerad på tryckytan. Ger en slät, reflexfri finish som känns sammetslen. Minskar bländning i direkt ljus och ger ett sofistikerat, modernt uttryck. Vanlig på visitkort, bokomslag och exklusivt marknadsmaterial."@sv,
+        "复合在印刷表面的哑光塑料薄膜。呈现平滑无反光、触感如天鹅绒的效果。减少直射光下的眩光，观感精致现代。常见于名片、书籍封面与高档营销材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§MATTE-LAMINATION" ;
+    skos:prefLabel "Mat laminering"@da,
+        "Matt-Laminierung"@de,
+        "Matte Lamination"@en,
+        "Laminado mate"@es,
+        "मैट लैमिनेशन"@hi,
+        "マットラミネート"@ja,
+        "Matt laminering"@nb,
+        "Matlaminaat"@nl,
+        "Laminowanie matowe"@pl,
+        "Laminação fosca"@pt,
+        "Matt laminering"@sv,
+        "哑膜覆膜"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.9 · p.78",
+                "§5.6.23 · p.125" ;
+            ptpge:mappingRow "crosswalk row 45" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Laminating",
+                "LaminatingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

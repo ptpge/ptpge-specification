@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/particle-board> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Chipboard"@en,
+        "Particle Board"@en,
+        "chipboard"@en,
+        "चिपबोर्ड"@hi,
+        "पार्टिकल बोर्ड"@hi,
+        "बुरादे का बोर्ड"@hi,
+        "Particle Board"@nb,
+        "sponplate"@nb,
+        "wiórówka"@pl,
+        "MDP"@pt,
+        "aglomerado"@pt,
+        "chapa de partículas"@pt,
+        "compensado de partículas"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/wood/composite> ;
+    skos:definition "Konstrueret panel af træpartikler bundet med harpiks — økonomisk stiv plade."@da,
+        "Platte aus harzgebundenen Holzpartikeln — günstige starre Platte."@de,
+        "Engineered panel of wood particles bonded with resin — economical rigid board."@en,
+        "Tablero de partículas de madera unidas con resina — tablero rígido económico."@es,
+        "रेज़िन से जुड़े लकड़ी के कणों का इंजीनियर्ड पैनल — किफ़ायती कठोर बोर्ड।"@hi,
+        "樹脂で固めた木質パーティクルのパネル — 経済的な硬質ボード。"@ja,
+        "Teknisk plate av trepartikler bundet med harpiks — rimelig rigid plate."@nb,
+        "Samengesteld paneel van houtspaanders gebonden met hars — economische stijve plaat."@nl,
+        "Płyta drewnopochodna z cząstek drewna związanych żywicą — ekonomiczna sztywna płyta."@pl,
+        "Painel engenheirado de partículas de madeira unidas com resina — chapa rígida econômica."@pt,
+        "Konstruerad skiva av träpartiklar bundna med harts — ekonomisk styv skiva."@sv,
+        "以树脂粘合木颗粒制成的板材 — 经济型硬板。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PARTICLE-BOARD" ;
+    skos:prefLabel "Spånplade"@da,
+        "Spanplatte"@de,
+        "Particleboard"@en,
+        "Tablero de partículas"@es,
+        "पार्टिकल बोर्ड"@hi,
+        "パーティクルボード"@ja,
+        "Sponplate"@nb,
+        "Spaanplaat"@nl,
+        "Płyta wiórowa"@pl,
+        "Aglomerado"@pt,
+        "Spånskiva"@sv,
+        "刨花板"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

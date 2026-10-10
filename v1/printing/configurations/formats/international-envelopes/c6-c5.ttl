@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/c6-c5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "11.4 x 22.9 cm"@en,
+        "114 x 229 mm"@en,
+        "114x229"@en,
+        "114×229"@en,
+        "C6/5 envelope"@en,
+        "DL+"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "114 × 229 mm. Hybridkuvert C6/C5 — samme højde som C5, men smallere. Rummer et A4-ark foldet to gange eller et A5-ark foldet én gang."@da,
+        "114 × 229 mm. Hybrider C6/C5-Briefumschlag — gleiche Höhe wie C5, aber schmaler. Fasst einen zweimal gefalteten A4-Bogen oder einen einmal gefalteten A5-Bogen."@de,
+        "114 × 229 mm. Hybrid C6/C5 envelope — same height as C5 but narrower. Holds an A4 sheet folded twice or an A5 sheet folded once."@en,
+        "Sobre C6/C5 — formato alargado intermedio entre C6 y C5, habitual para correspondencia comercial DL-equivalente."@es,
+        "114 × 229 mm. संकर C6/C5 लिफ़ाफ़ा — C5 जितनी ऊँचाई पर पतला। A4 शीट दो बार मुड़ी या A5 एक बार मुड़ी समाती है।"@hi,
+        "114×229mm。ハイブリッドC6/C5封筒 — 高さはC5と同じだが幅が狭い。A4を2回折って、またはA5を1回折って収納する。"@ja,
+        "114 × 229 mm. Hybrid C6/C5-konvolutt — samme høyde som C5, men smalere. Rommer et A4-ark brettet to ganger eller et A5-ark brettet én gang."@nb,
+        "114 × 229 mm. Hybride envelop C6/C5 — even hoog als C5, maar smaller. Biedt plaats aan een tweemaal gevouwen A4-vel of een eenmaal gevouwen A5-vel."@nl,
+        "114 × 229 mm. Hybrydowa koperta C6/C5 — tej samej wysokości co C5, lecz węższa. Mieści arkusz A4 złożony dwukrotnie lub arkusz A5 złożony raz."@pl,
+        "114 × 229 mm. Envelope híbrido C6/C5 — mesma altura do C5, mas mais estreito. Comporta uma folha A4 dobrada duas vezes ou uma A5 dobrada uma vez."@pt,
+        "114 × 229 mm. Hybridkuvert C6/C5 — samma höjd som C5 men smalare. Rymmer ett A4-ark vikt två gånger eller ett A5-ark vikt en gång."@sv,
+        "C6/C5信封 —— C6和C5之间的细长中间格式，常用于商业通信DL等效。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§C6-C5" ;
+    skos:prefLabel "C6/C5 (114 x 229 mm)"@da,
+        "C6/C5 (114 x 229 mm)"@de,
+        "C6/C5 (114 x 229 mm)"@en,
+        "C6/C5 (114 × 229 mm)"@es,
+        "C6/C5 (114 x 229 mm)"@hi,
+        "C6/C5 (114 x 229 mm)"@ja,
+        "C6/C5 (114 x 229 mm)"@nb,
+        "C6/C5 (114 x 229 mm)"@nl,
+        "C6/C5 (114 x 229 mm)"@pl,
+        "C6/C5 (114 x 229 mm)"@pt,
+        "C6/C5 (114 x 229 mm)"@sv,
+        "C6/C5 (114 × 229 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 26106.0 ;
+            ptpge:aspectRatio 2.0088 ;
+            ptpge:height 229.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 114.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

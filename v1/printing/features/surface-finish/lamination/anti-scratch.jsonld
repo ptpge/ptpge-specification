@@ -1,0 +1,94 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/lamination/anti-scratch",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Anti-scratch Lamination",
+    "nb": "Anti-scratch laminering",
+    "de": "Kratzfeste Laminierung",
+    "ja": "耐スクラッチラミネート",
+    "es": "Laminado antirayas",
+    "zh-Hans": "耐刮覆膜",
+    "sv": "Reptålig laminering",
+    "da": "Ridsefast laminering",
+    "nl": "Krasvast laminaat",
+    "pl": "Laminowanie antyzarysowaniowe",
+    "pt": "Laminação antirrisco",
+    "hi": "एंटी-स्क्रैच लैमिनेशन"
+  },
+  "altLabels": {
+    "en": [
+      "Scratch-Resistant Lamination",
+      "Anti-scratch laminated",
+      "Scratch-resistant lamination",
+      "Scuff-resistant lamination"
+    ],
+    "nb": [
+      "Ripebestandig laminering"
+    ],
+    "pl": [
+      "folia antyzarysowaniowa",
+      "laminat odporny na zarysowania",
+      "folia anti-scratch"
+    ],
+    "pt": [
+      "laminação antirrisco",
+      "laminação resistente a riscos",
+      "antirrisco",
+      "anti-scratch"
+    ],
+    "hi": [
+      "खरोंच-रोधी लैमिनेशन",
+      "स्क्रैच-रेज़िस्टेंट लैमिनेशन",
+      "एंटी-स्क्रैच"
+    ]
+  },
+  "definition": {
+    "en": "Scratch-resistant plastic film laminated to the printed surface. Engineered to resist scuffing, scratching, and abrasion better than standard matte or gloss laminations. Used for items with heavy handling — folders, menus, instructional cards, and POS displays.",
+    "nb": "Skrap-resistent plastikkfilm laminert til den trykte overflaten. Konstruert for å motstå skrap og abrasjon bedre enn standard matt eller glanset laminering. Brukes for produkter med tung håndtering — mapper, menyer, instruksjonskort og POS-displays.",
+    "de": "Kratzfester Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird.",
+    "ja": "印刷面に貼り合わせる耐スクラッチ性のフィルム。標準のマット／グロスラミネートより擦れ・引っかき・摩耗に強い設計。フォルダー、メニュー、説明カード、店頭ディスプレイなど、頻繁に扱われるものに使われる。",
+    "es": "Película plástica antirrayado laminada sobre la superficie impresa. Diseñada para resistir el roce, el rayado y la abrasión mejor que los laminados mate o brillo estándar. Para piezas muy manipuladas — carpetas, menús, tarjetas de instrucciones y expositores de punto de venta.",
+    "zh-Hans": "复合在印刷表面的抗刮塑料薄膜。比标准哑膜或亮膜更耐蹭划与磨损。用于频繁翻用的印品 — 文件夹、菜单、说明卡与售点展示。",
+    "sv": "Reptålig plastfilm laminerad på tryckytan. Konstruerad för att motstå skavning, repor och nötning bättre än standardmatt eller -blank laminering. Används för produkter som hanteras mycket — mappar, menyer, instruktionskort och butiksdisplayer.",
+    "da": "Ridsefast plastfilm lamineret på den trykte overflade. Konstrueret til at modstå slid, ridser og afskrabning bedre end standard mat eller blank laminering. Bruges til produkter med kraftig håndtering.",
+    "nl": "Krasbestendige kunststoffilm gelamineerd op het gedrukte oppervlak. Ontworpen om beter bestand te zijn tegen slijtage, krassen en schuren dan standaard mat of glanzend laminaat. Gebruikt voor intensief gehanteerde producten.",
+    "pl": "Folia odporna na zarysowania laminowana na zadrukowanej powierzchni. Zaprojektowana, by lepiej niż standardowe laminaty matowe lub błyszczące opierać się otarciom, zarysowaniom i ścieraniu. Stosowana do produktów intensywnie używanych — teczek, kart menu, kart instruktażowych i ekspozytorów POS.",
+    "pt": "Filme plástico resistente a riscos laminado sobre a superfície impressa. Projetado para resistir a arranhões e abrasão melhor que as laminações fosca ou brilhante padrão. Usado em itens de muito manuseio — pastas, cardápios, cartões de instrução e displays de PDV.",
+    "hi": "छपी सतह पर लैमिनेट की गई खरोंच-रोधी प्लास्टिक फ़िल्म। मानक मैट या ग्लॉस लैमिनेशन से बेहतर रगड़, खरोंच और घिसाव रोकती है। ज़्यादा हाथ लगने वाली वस्तुओं में — फ़ोल्डर, मेन्यू, निर्देश कार्ड और POS डिस्प्ले।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/lamination",
+  "properties": {
+    "selective": false,
+    "coverage": "full",
+    "appearance": "varies",
+    "filmType": "plastic-film",
+    "abrasionResistant": true
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§ANTI-SCRATCH-LAMINATION",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LaminatingIntent",
+        "Laminating"
+      ],
+      "refs": [
+        "§4.9 · p.78",
+        "§5.6.23 · p.125"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 45"
+    }
+  ]
+}

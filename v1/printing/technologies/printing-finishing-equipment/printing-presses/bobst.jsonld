@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/bobst",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Bobst",
+    "es": "Bobst",
+    "zh-Hans": "Bobst",
+    "nb": "Bobst",
+    "de": "Bobst",
+    "ja": "Bobst",
+    "sv": "Bobst",
+    "da": "Bobst",
+    "nl": "Bobst",
+    "pl": "Bobst",
+    "pt": "Bobst",
+    "hi": "Bobst"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Bobst Group — Swiss manufacturer of equipment for folding cartons, corrugated board, and flexible materials. Dominant in packaging post-press converting.",
+    "nb": "Bobst Group — sveitsisk produsent av utstyr for foldekartonger, bølgepapp og fleksible materialer. Dominerende innen emballasje post-press konvertering.",
+    "de": "Bobst Group — Schweizer Hersteller von Maschinen für Faltschachteln, Wellpappe und flexible Materialien. Marktführend in der Verpackungsweiterverarbeitung.",
+    "ja": "Bobst Group — 折りたたみカートン、段ボール、軟包装材料用の機器を製造するスイスのメーカー。パッケージ後加工コンバーティングで圧倒的な地位を占める。",
+    "es": "Bobst Group — fabricante suizo de equipo para producción de packaging: prensas flexográficas, huecograbado, troqueladoras y plegadoras-pegadoras.",
+    "zh-Hans": "Bobst Group —— 瑞士包装生产设备制造商：柔印机、凹印机、模切机和折页粘合机。",
+    "sv": "Bobst Group — schweizisk tillverkare av utrustning för falskartonger, wellpapp och flexibla material. Dominerande inom förpackningskonvertering efter tryck.",
+    "da": "Bobst Group — schweizisk producent af udstyr til foldeæsker, bølgepap og fleksible materialer. Dominerende inden for emballagekonvertering efter tryk.",
+    "nl": "Bobst Group — Zwitserse fabrikant van apparatuur voor vouwkartons, golfkarton en flexibele materialen. Dominant in verpakkingsconversie na druk.",
+    "pl": "Bobst Group — szwajcarski producent urządzeń do opakowań składanych, tektury falistej i materiałów elastycznych. Dominujący w przetwórstwie opakowań po druku.",
+    "pt": "Bobst Group — fabricante suíço de equipamentos para cartuchos, papelão ondulado e materiais flexíveis. Dominante na conversão pós-impressão de embalagens.",
+    "hi": "Bobst Group — फ़ोल्डिंग कार्टन, कोरुगेटेड बोर्ड और लचीली सामग्री के उपकरणों का स्विस निर्माता। पैकेजिंग पोस्ट-प्रेस कन्वर्टिंग में प्रमुख।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-BOBS",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

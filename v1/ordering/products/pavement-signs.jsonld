@@ -1,0 +1,209 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/pavement-signs",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§PAVEMENT-SIGNS",
+  "elementType": "product",
+  "label": {
+    "en": "Sidewalk Signs",
+    "nb": "Fortausskilt",
+    "de": "Garten- & Aufstellschilder",
+    "ja": "ヤードサイン・A型看板",
+    "es": "Carteles de jardín y caballetes",
+    "zh-Hans": "庭院标牌与A型展架",
+    "nl": "Stoepborden",
+    "sv": "Trottoarpratare",
+    "da": "Gadeskilte",
+    "pl": "Potykacze i tablice",
+    "pt": "Placas de calçada",
+    "hi": "फ़ुटपाथ साइन"
+  },
+  "altLabels": {
+    "en": [
+      "yard sign",
+      "lawn sign",
+      "A-frame",
+      "sidewalk sign",
+      "sandwich board",
+      "pavement sign",
+      "A-board",
+      "Pavement Signs",
+      "Pavement signs",
+      "A-boards",
+      "A-frame signs",
+      "Sandwich boards",
+      "A boards"
+    ],
+    "nb": [
+      "hageskilt",
+      "gateskilt",
+      "fortauskilt",
+      "A-skilt"
+    ],
+    "de": [
+      "Kundenstopper",
+      "Gehwegaufsteller",
+      "Plakatständer"
+    ],
+    "pl": [
+      "potykacz",
+      "stojak A",
+      "tablica ogrodowa",
+      "tablica na palikach",
+      "tablica chodnikowa"
+    ],
+    "sv": [
+      "gatupratare",
+      "gatupratarskylt",
+      "A-skylt",
+      "trottoarskylt"
+    ],
+    "da": [
+      "gadeskilt",
+      "A-skilt",
+      "fortovsskilt",
+      "klapskilt"
+    ],
+    "nl": [
+      "stoepbord",
+      "A-bord",
+      "trottoirbord",
+      "klapbord"
+    ],
+    "pt": [
+      "cavalete",
+      "placa cavalete",
+      "placa de calçada",
+      "placa de jardim",
+      "placa em estaca",
+      "placa sanduíche",
+      "placa A"
+    ],
+    "hi": [
+      "A-फ़्रेम साइन",
+      "A-बोर्ड",
+      "सैंडविच बोर्ड",
+      "फ़ुटपाथ बोर्ड",
+      "यार्ड साइन",
+      "लॉन साइन"
+    ],
+    "es": [
+      "cartel de jardín",
+      "caballete",
+      "cartel de acera",
+      "pizarra de calle",
+      "señal de césped",
+      "cartel de suelo"
+    ],
+    "ja": [
+      "A型看板",
+      "スタンド看板",
+      "立て看板",
+      "ヤードサイン",
+      "店頭看板"
+    ],
+    "zh-Hans": [
+      "A字展架",
+      "路边立牌",
+      "庭院标牌",
+      "门口立牌",
+      "户外立牌",
+      "插地牌"
+    ]
+  },
+  "definition": {
+    "en": "A rigid printed sign mounted on a stake or A-frame for ground-level display — estate, event and pavement signage.",
+    "nb": "Et rigid trykt skilt montert på spyd eller A-stativ for visning på bakkenivå — eiendoms-, arrangements- og fortausskilt.",
+    "de": "Ein starres bedrucktes Schild auf Erdspieß oder A-Ständer.",
+    "ja": "杭やA型フレームに取り付ける地上設置型の硬質看板。不動産・イベント・歩道サインに。",
+    "es": "Un cartel rígido impreso montado en estaca o caballete para exhibición a pie de calle — señalización inmobiliaria, de eventos y de acera.",
+    "zh-Hans": "安装在插杆或A字架上的硬质印刷标牌——地产、活动和人行道标识。",
+    "sv": "En styv tryckt skylt monterad på stativ eller A-ställning för exponering i marknivå — fastighets-, evenemangs- och trottoarskyltar.",
+    "da": "Et stift trykt skilt monteret på pæl eller A-skilt til visning i gadeniveau — ejendoms-, event- og fortovsskilte.",
+    "nl": "Een stijf gedrukt bord op een paal of A-frame voor presentatie op straatniveau — makelaars-, evenement- en stoepborden.",
+    "pl": "Sztywna drukowana tablica montowana na palikach lub stojaku typu A do ekspozycji przy ziemi — oznakowanie nieruchomości, wydarzeń i chodników.",
+    "pt": "Placa impressa rígida montada em estaca ou cavalete para exposição ao nível do chão — sinalização imobiliária, de eventos e de calçada.",
+    "hi": "ज़मीन के स्तर पर प्रदर्शन के लिए खूँटे या A-फ़्रेम पर लगा कठोर मुद्रित साइन — प्रॉपर्टी, इवेंट और फ़ुटपाथ साइनेज।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a2",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/foam",
+    "https://ptpge.org/v1/printing/substrates/board-materials/plastic",
+    "https://ptpge.org/v1/printing/substrates/board-materials/acrylic"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "customSizeRange": {
+    "min": 400,
+    "max": 1200,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series"
+  ],
+  "supportsSubstrateThickness": {
+    "min": 1,
+    "max": 20,
+    "unit": "mm"
+  },
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-thickness"
+  ]
+}

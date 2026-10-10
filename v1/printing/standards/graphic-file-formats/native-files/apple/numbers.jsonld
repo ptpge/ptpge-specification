@@ -1,0 +1,76 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple/numbers",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Numbers (.numbers)",
+    "es": "Apple Numbers (.numbers)",
+    "zh-Hans": "Apple Numbers (.numbers)",
+    "nb": "Numbers (.numbers)",
+    "de": "Numbers (.numbers)",
+    "ja": "Numbers (.numbers)",
+    "sv": "Numbers (.numbers)",
+    "da": "Numbers (.numbers)",
+    "nl": "Numbers (.numbers)",
+    "pl": "Numbers (.numbers)",
+    "pt": "Numbers (.numbers)",
+    "hi": "Numbers (.numbers)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§NUMBERS",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native spreadsheet file format (.numbers) for Apple Numbers, used for tabular data and calculations on macOS and iOS.",
+    "nb": "Programspesifikt regnearkformat (.numbers) for Apple Numbers, brukt for tabulærdata og kalkulasjoner på macOS og iOS.",
+    "de": "Anwendungseigenes Tabellenkalkulationsformat (.numbers) von Apple Numbers, verwendet für tabellarische Daten und Berechnungen unter macOS und iOS.",
+    "ja": "Apple Numbersのネイティブ表計算ファイル形式（.numbers）。macOSおよびiOS上で表データおよび計算に使用される。",
+    "es": "Formato nativo de Apple Numbers para hojas de cálculo. Raramente utilizado como entrega de imprenta; se exporta a PDF si es necesario.",
+    "zh-Hans": "Apple Numbers用于电子表格的原生格式。很少用作印刷交付；如需要导出为PDF。",
+    "sv": "Programeget kalkylbladsformat (.numbers) för Apple Numbers, använt för tabelldata och beräkningar på macOS och iOS.",
+    "da": "Programeget regnearksformat (.numbers) for Apple Numbers, brugt til tabeldata og beregninger på macOS og iOS.",
+    "nl": "Programma-eigen spreadsheetformaat (.numbers) voor Apple Numbers, gebruikt voor tabeldata en berekeningen op macOS en iOS.",
+    "pl": "Natywny format arkusza kalkulacyjnego (.numbers) programu Apple Numbers, używany do danych tabelarycznych i obliczeń na macOS i iOS.",
+    "pt": "Formato de arquivo nativo de planilha (.numbers) do Apple Numbers, usado para dados tabulares e cálculos no macOS e iOS.",
+    "hi": "Apple Numbers का नेटिव स्प्रेडशीट फ़ाइल फ़ॉर्मेट (.numbers), macOS और iOS पर सारणीबद्ध डेटा और गणनाओं के लिए।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      ".numbers"
+    ],
+    "pl": [
+      ".numbers"
+    ],
+    "pt": [
+      ".numbers"
+    ],
+    "hi": [
+      ".numbers"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

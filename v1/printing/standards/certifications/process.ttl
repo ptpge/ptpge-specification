@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/process> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications> ;
+    skos:definition "Standarder, der definerer trykprocessers tekniske parametre — farvegengivelse, sikkerhedstryk, prepress-dataudveksling — og certificerer trykkeriers overholdelse af dem."@da,
+        "Normen, die die technischen Parameter von Druckverfahren definieren — Farbreproduktion, Sicherheitsdruck, Druckvorstufen-Datenaustausch — und die Einhaltung durch Druckereien zertifizieren."@de,
+        "Standards that define the technical parameters of printing processes — color reproduction, security printing, prepress data exchange — and certify printers' adherence to them."@en,
+        "Normas que definen los parámetros técnicos de los procesos de impresión — reproducción de color, impresión de seguridad, intercambio de datos pre-prensa — y certifican el cumplimiento de las imprentas con ellos."@es,
+        "मुद्रण प्रक्रियाओं के तकनीकी मापदंड — रंग पुनरुत्पादन, सुरक्षा मुद्रण, प्रीप्रेस डेटा विनिमय — परिभाषित करने वाले और प्रिंटरों के पालन को प्रमाणित करने वाले मानक।"@hi,
+        "印刷工程の技術的パラメータ（色再現、セキュリティ印刷、製版データ交換）を定義し、印刷会社のそれらへの適合を認証する規格。"@ja,
+        "Standarder som definerer tekniske parametre i trykkeprosesser — fargegjengivelse, sikkerhetstrykk, preprintdatautveksling — og sertifiserer trykkeriers etterlevelse av dem."@nb,
+        "Standaarden die de technische parameters van drukprocessen definiëren — kleurweergave, beveiligd drukwerk, prepressdata-uitwisseling — en certificeren dat drukkerijen ze naleven."@nl,
+        "Standardy definiujące parametry techniczne procesów drukowania — reprodukcję barw, druk zabezpieczony, wymianę danych prepress — i certyfikujące ich przestrzeganie przez drukarnie."@pl,
+        "Normas que definem os parâmetros técnicos dos processos de impressão — reprodução de cor, impressão de segurança, troca de dados de pré-impressão — e certificam a aderência dos impressores a elas."@pt,
+        "Standarder som definierar tryckprocessers tekniska parametrar — färgåtergivning, säkerhetstryck, prepressdatautbyte — och certifierar tryckeriers efterlevnad av dem."@sv,
+        "定义印刷工艺技术参数——色彩再现、安全印刷、印前数据交换——并认证印刷厂遵守度的标准。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/certifications/process/intergraf-15374>,
+        <https://ptpge.org/v1/printing/standards/certifications/process/iso-14298> ;
+    skos:notation "P:ST-CER-PROC" ;
+    skos:prefLabel "Proces"@da,
+        "Prozess"@de,
+        "Process"@en,
+        "Proceso"@es,
+        "प्रक्रिया"@hi,
+        "プロセス"@ja,
+        "Prosess"@nb,
+        "Proces"@nl,
+        "Procesowe"@pl,
+        "Processo"@pt,
+        "Process"@sv,
+        "工艺"@zh-Hans ;
+    skos:scopeNote "Umfasst Skalenfarben-Normen (Familie ISO 12647), Anforderungen an den Sicherheitsdruck (ISO 14298) und Druckvorstufen-Datenaustausch (Intergraf 15374). Qualitäts- und Umweltmanagementsysteme befinden sich in benachbarten Unterkategorien."@de,
+        "Covers process-color standards (ISO 12647 family), security-printing requirements (ISO 14298), and prepress data interchange (Intergraf 15374). Quality and environmental management systems live in adjacent sub-categories."@en,
+        "Cubre las normas de proceso de color (familia ISO 12647), los requisitos para impresión de seguridad (ISO 14298) y el intercambio de datos pre-prensa (Intergraf 15374). Los sistemas de gestión de calidad y ambientales se sitúan en sub-categorías adyacentes."@es,
+        "प्रोसेस-कलर मानक (ISO 12647 परिवार), सुरक्षा-मुद्रण आवश्यकताएँ (ISO 14298) और प्रीप्रेस डेटा विनिमय (Intergraf 15374) शामिल। गुणवत्ता और पर्यावरण प्रबंधन प्रणालियाँ निकटवर्ती उप-श्रेणियों में।"@hi,
+        "プロセスカラー規格（ISO 12647ファミリー）、セキュリティ印刷要件（ISO 14298）、製版データ交換（Intergraf 15374）を扱う。品質および環境マネジメントシステムは隣接サブカテゴリに属する。"@ja,
+        "Dekker prosessfarge-standarder (ISO 12647-familien), sikkerhetstrykk-krav (ISO 14298), og preprintdatautveksling (Intergraf 15374). Kvalitets- og miljøledelsessystemer hører til tilstøtende underkategorier."@nb,
+        "Cobre normas de cor de processo (família ISO 12647), requisitos de impressão de segurança (ISO 14298) e intercâmbio de dados de pré-impressão (Intergraf 15374). Sistemas de gestão de qualidade e ambiental ficam em subcategorias adjacentes."@pt,
+        "涵盖过程色标准（ISO 12647系列）、安全印刷要求（ISO 14298）和印前数据交换（Intergraf 15374）。质量和环境管理系统位于相邻子分类。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

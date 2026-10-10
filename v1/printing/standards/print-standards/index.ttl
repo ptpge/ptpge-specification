@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards> a skos:Concept ;
+    dcterms:created "2026-06-17T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards> ;
+    skos:definition "Konformitets- og processtyringsstandarder, en opgave kan produceres efter (ISO 12647, G7, GRACoL, SWOP, PSO, Fogra-karakteriseringsdata)."@da,
+        "Druck-Konformitäts- und Prozesskontroll-Standards, nach denen ein Auftrag produziert werden kann (ISO 12647, G7, GRACoL, SWOP, PSO, Fogra-Charakterisierungsdaten)."@de,
+        "Print conformance and process-control standards a job can be produced to (ISO 12647, G7, GRACoL, SWOP, PSO, Fogra characterization datasets)."@en,
+        "Estándares de conformidad y control de proceso conforme a los cuales puede producirse un trabajo (ISO 12647, G7, GRACoL, SWOP, PSO, conjuntos de caracterización Fogra)."@es,
+        "प्रिंट अनुरूपता और प्रक्रिया-नियंत्रण मानक जिनके अनुसार कोई काम बनाया जा सकता है (ISO 12647, G7, GRACoL, SWOP, PSO, Fogra लक्षण-वर्णन डेटासेट)।"@hi,
+        "ジョブの生産基準となる印刷適合・工程管理標準（ISO 12647、G7、GRACoL、SWOP、PSO、Fogra 特性化データセット）。"@ja,
+        "Trykk-konformitets- og prosesskontroll-standarder et oppdrag kan produseres etter (ISO 12647, G7, GRACoL, SWOP, PSO, Fogra-karakteriseringsdatasett)."@nb,
+        "Conformiteits- en processturingsstandaarden waarnaar een opdracht kan worden geproduceerd (ISO 12647, G7, GRACoL, SWOP, PSO, Fogra-karakteriseringsdata)."@nl,
+        "Standardy zgodności i kontroli procesu druku, według których można wyprodukować zlecenie (ISO 12647, G7, GRACoL, SWOP, PSO, zbiory charakteryzacji Fogra)."@pl,
+        "Normas de conformidade e controle de processo de impressão às quais um trabalho pode ser produzido (ISO 12647, G7, GRACoL, SWOP, PSO, conjuntos de caracterização Fogra)."@pt,
+        "Konformitets- och processtyrningsstandarder ett jobb kan produceras enligt (ISO 12647, G7, GRACoL, SWOP, PSO, Fogra-karakteriseringsdata)."@sv,
+        "作业可依据生产的印刷符合性与过程控制标准（ISO 12647、G7、GRACoL、SWOP、PSO、Fogra 特性化数据集）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    skos:notation "P:ST-PST" ;
+    skos:prefLabel "Trykstandarder"@da,
+        "Druckstandards"@de,
+        "Print Standards"@en,
+        "Estándares de impresión"@es,
+        "मुद्रण मानक"@hi,
+        "印刷標準"@ja,
+        "Trykkstandarder"@nb,
+        "Drukstandaarden"@nl,
+        "Standardy druku"@pl,
+        "Normas de impressão"@pt,
+        "Tryckstandarder"@sv,
+        "印刷标准"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-17" .
+

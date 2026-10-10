@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/job-management",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Job Management",
+    "es": "Gestión de Trabajos",
+    "zh-Hans": "作业管理",
+    "nb": "Jobb-håndtering",
+    "de": "Auftragsverwaltung",
+    "ja": "ジョブ管理",
+    "sv": "Jobbhantering",
+    "da": "Opgavestyring",
+    "nl": "Opdrachtbeheer",
+    "pl": "Zarządzanie zleceniami",
+    "pt": "Gestão de trabalhos",
+    "hi": "जॉब प्रबंधन"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§JOB-MANAGEMENT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Tracking and orchestration of individual print jobs from intake to delivery — quote, order, prepress, scheduling, production, finishing, shipping. Often handled by Management Information Systems (MIS) integrated with workflow automation.",
+    "nb": "Sporing og orkestrering av individuelle trykkjobber fra mottak til levering — tilbud, bestilling, prepress, planlegging, produksjon, etterbehandling, forsendelse. Ofte håndtert av Management Information Systems (MIS) integrert med workflow-automasjon.",
+    "de": "Verfolgung und Orchestrierung einzelner Druckaufträge von der Annahme bis zur Auslieferung — Angebot, Bestellung, Druckvorstufe, Terminplanung, Produktion, Veredelung, Versand. Wird häufig durch Management-Informations-Systeme (MIS) erledigt, die mit der Workflow-Automatisierung integriert sind.",
+    "ja": "個々の印刷ジョブを受付から納品まで追跡・統括する — 見積、受注、製版、スケジューリング、生産、仕上げ、出荷。多くの場合、ワークフロー自動化と統合された経営情報システム（MIS）が処理する。",
+    "es": "Sistemas que rastrean el trabajo desde la entrada hasta la entrega — recepción, enrutamiento, estado, asignación de máquina y seguimiento del progreso.",
+    "zh-Hans": "跟踪作业从输入到交付的系统——接收、路由、状态、机器分配和进度跟踪。",
+    "sv": "Spårning och orkestrering av enskilda tryckjobb från intag till leverans — offert, order, prepress, planering, produktion, efterbehandling, frakt. Hanteras ofta av MIS-system integrerade med arbetsflödesautomation.",
+    "da": "Sporing og orkestrering af enkelte trykopgaver fra modtagelse til levering — tilbud, ordre, prepress, planlægning, produktion, færdiggørelse, forsendelse. Ofte håndteret af MIS-systemer.",
+    "nl": "Volgen en orkestreren van individuele drukopdrachten van intake tot levering — offerte, order, prepress, planning, productie, afwerking, verzending. Vaak verzorgd door MIS-systemen.",
+    "pl": "Śledzenie i orkiestracja poszczególnych zleceń drukarskich od przyjęcia do dostawy — wycena, zamówienie, prepress, planowanie, produkcja, wykończenie, wysyłka. Często obsługiwane przez systemy informacji zarządczej (MIS) zintegrowane z automatyzacją workflow.",
+    "pt": "Acompanhamento e orquestração de trabalhos de impressão individuais da entrada à entrega — orçamento, pedido, pré-impressão, programação, produção, acabamento, expedição. Muitas vezes tratada por sistemas de informação gerencial (MIS) integrados à automação de fluxo de trabalho.",
+    "hi": "अलग-अलग प्रिंट जॉब की इनटेक से डिलीवरी तक ट्रैकिंग और संचालन — कोटेशन, ऑर्डर, प्रीप्रेस, शेड्यूलिंग, उत्पादन, फ़िनिशिंग, शिपिंग। प्रायः वर्कफ़्लो स्वचालन से एकीकृत प्रबंधन सूचना प्रणालियों (MIS) द्वारा संभाला जाता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "job tracking",
+      "print MIS"
+    ],
+    "nb": [
+      "jobbstyring"
+    ],
+    "pl": [
+      "śledzenie zleceń",
+      "MIS poligraficzny"
+    ],
+    "pt": [
+      "acompanhamento de trabalhos",
+      "MIS gráfico"
+    ],
+    "hi": [
+      "जॉब ट्रैकिंग",
+      "प्रिंट MIS"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "NodeInfo",
+        "CustomerInfo"
+      ],
+      "refs": [
+        "§6.59 · p.241",
+        "§6.24 · p.184"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 10"
+    }
+  ]
+}

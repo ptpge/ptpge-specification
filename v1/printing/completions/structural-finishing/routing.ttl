@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/routing> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "CNC routing"@en,
+        "Cut-to-shape"@en,
+        "Milling"@en,
+        "Routed"@en,
+        "CNC कटिंग"@hi,
+        "CNC राउटिंग"@hi,
+        "आकार में कटाई"@hi,
+        "मिलिंग"@hi,
+        "Fresing"@nb,
+        "Frest"@nb,
+        "cięcie do kształtu"@pl,
+        "frezowane"@pl,
+        "frezowanie CNC"@pl,
+        "corte CNC"@pt,
+        "corte no formato"@pt,
+        "fresado"@pt,
+        "fresagem CNC"@pt,
+        "usinagem"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Skæring eller beskæring af stive substrater med et roterende fræsejern; typisk for storformat- og skiltearbejde."@da,
+        "Schneiden oder Beschneiden starrer Bedruckstoffe mit einem rotierenden Fräser; typisch für Großformat und Schilder."@de,
+        "Cutting or trimming rigid substrates with a rotating router bit; typical of large-format and sign work."@en,
+        "Cortar o recortar sustratos rígidos con una fresa rotativa; típico del gran formato y la rotulación."@es,
+        "घूमते राउटर बिट से कठोर सब्सट्रेट की कटाई या ट्रिमिंग; लार्ज-फॉर्मेट और साइन के काम में आम।"@hi,
+        "回転するルータービットで硬質基材を切断・整形する。大判やサイン製作で典型的。"@ja,
+        "Skjæring eller trimming av stive substrater med et roterende fresehode; typisk for storformat og skilt."@nb,
+        "Stijve substraten snijden of aftekenen met een roterende frees; typisch voor grootformaat- en bordwerk."@nl,
+        "Cięcie lub przycinanie sztywnych podłoży obrotowym frezem; typowe dla prac wielkoformatowych i szyldów."@pl,
+        "Corte ou refile de substratos rígidos com uma fresa rotativa; típico de grande formato e sinalização."@pt,
+        "Skärning eller trimning av styva substrat med roterande fräs; typiskt för storformat och skyltarbete."@sv,
+        "用旋转铣刀切割或修整硬质板材；常见于宽幅与标识制作。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§ROUTING" ;
+    skos:prefLabel "Fræsning"@da,
+        "Fräsen"@de,
+        "Routing"@en,
+        "Routing"@es,
+        "राउटिंग (CNC कटिंग)"@hi,
+        "Routing"@ja,
+        "Fresing"@nb,
+        "Frezen"@nl,
+        "Frezowanie"@pl,
+        "Fresagem"@pt,
+        "Fräsning"@sv,
+        "Routing"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

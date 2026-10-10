@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/agfa-graphics> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers> ;
+    skos:definition "Agfa Graphics (nu Agfa NV) — belgisk producent af prepress-udstyr, trykplader og storformat-inkjetprintere (Jeti, Anapurna, Avinci) til skilte- og displayproduktion."@da,
+        "Agfa Graphics (heute Agfa NV) — belgischer Hersteller von Druckvorstufengeräten, Druckplatten und Großformat-Inkjet-Druckern (Jeti, Anapurna, Avinci) für die Schilder- und Displayproduktion."@de,
+        "Agfa Graphics (now Agfa NV) — Belgian manufacturer of prepress equipment, printing plates, and wide-format inkjet printers (Jeti, Anapurna, Avinci) for sign and display production."@en,
+        "Agfa Graphics (parte de Agfa-Gevaert) — fabricante belga de impresoras de gran formato (serie Anapurna, Jeti) y soluciones de pre-prensa."@es,
+        "Agfa Graphics (अब Agfa NV) — प्रीप्रेस उपकरणों, प्रिंटिंग प्लेटों और साइन व डिस्प्ले उत्पादन के लिए वाइड-फॉर्मेट इंकजेट प्रिंटरों (Jeti, Anapurna, Avinci) का बेल्जियाई निर्माता।"@hi,
+        "Agfa Graphics（現Agfa NV）— 製版機器、刷版、サインおよびディスプレイ生産向けの大判インクジェットプリンター（Jeti、Anapurna、Avinci）のベルギーのメーカー。"@ja,
+        "Agfa Graphics (nå Agfa NV) — belgisk produsent av prepress-utstyr, trykkplater og storformat-inkjet-skrivere (Jeti, Anapurna, Avinci) for skilt- og display-produksjon."@nb,
+        "Agfa Graphics (nu Agfa NV) — Belgische fabrikant van prepressapparatuur, drukplaten en grootformaat-inkjetprinters (Jeti, Anapurna, Avinci) voor sign- en displayproductie."@nl,
+        "Agfa Graphics (obecnie Agfa NV) — belgijski producent urządzeń prepress, płyt drukowych i wielkoformatowych drukarek atramentowych (Jeti, Anapurna, Avinci) do produkcji reklamowej i ekspozycyjnej."@pl,
+        "Agfa Graphics (hoje Agfa NV) — fabricante belga de equipamentos de pré-impressão, chapas e impressoras de jato de tinta de grande formato (Jeti, Anapurna, Avinci) para produção de sinalização e display."@pt,
+        "Agfa Graphics (numera Agfa NV) — belgisk tillverkare av prepressutrustning, tryckplåtar och storformats-inkjetskrivare (Jeti, Anapurna, Avinci) för skylt- och displayproduktion."@sv,
+        "Agfa Graphics（Agfa-Gevaert的一部分）—— 比利时大幅面打印机制造商（Anapurna、Jeti系列）和印前解决方案。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-WIDE-AGFA" ;
+    skos:prefLabel "Agfa Graphics"@da,
+        "Agfa Graphics"@de,
+        "Agfa Graphics"@en,
+        "Agfa Graphics"@es,
+        "Agfa Graphics"@hi,
+        "Agfa Graphics"@ja,
+        "Agfa Graphics"@nb,
+        "Agfa Graphics"@nl,
+        "Agfa Graphics"@pl,
+        "Agfa Graphics"@pt,
+        "Agfa Graphics"@sv,
+        "Agfa Graphics"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

@@ -1,0 +1,202 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/wine-boxes",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§WINE-BOXES",
+  "elementType": "product",
+  "label": {
+    "en": "Wine Boxes",
+    "nb": "Vinkasser",
+    "de": "Weinkartons",
+    "ja": "ワインボックス",
+    "es": "Cajas de vino",
+    "zh-Hans": "葡萄酒礼盒",
+    "nl": "Wijndozen",
+    "sv": "Vinlådor",
+    "da": "Vinæsker",
+    "pl": "Pudełka na wino",
+    "pt": "Caixas para vinho",
+    "hi": "वाइन बॉक्स"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-23T10:00:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A rigid printed box for one or more wine bottles — card or wooden gift boxes for retail and gifting.",
+    "nb": "En rigid trykt eske for én eller flere vinflasker — kartong eller treesker for butikk og gave.",
+    "de": "Eine starre bedruckte Schachtel für eine oder mehrere Weinflaschen — Karton- oder Holzgeschenkboxen.",
+    "ja": "ワインボトル用の硬質印刷ボックス。1本用から複数本用まで、厚紙や木製のギフト箱。",
+    "es": "Una caja rígida impresa para una o varias botellas de vino — cajas de regalo de cartón o madera para retail y obsequios.",
+    "zh-Hans": "用于单瓶或多瓶葡萄酒的硬质印刷盒——纸板或木质礼盒，适合零售与馈赠。",
+    "sv": "En styv tryckt låda för en eller flera vinflaskor — present- och detaljhandelsaskar i kartong eller trä.",
+    "da": "En stiv trykt æske til en eller flere vinflasker — gaveæsker i pap eller træ til detail og gaver.",
+    "nl": "Een stevige gedrukte doos voor een of meer wijnflessen — kartonnen of houten geschenkdozen voor retail en cadeaus.",
+    "pl": "Sztywne drukowane pudełko na jedną lub więcej butelek wina — pudełka prezentowe z tektury lub drewna do handlu i na prezenty.",
+    "pt": "Caixa rígida impressa para uma ou mais garrafas de vinho — caixas de presente em cartão ou madeira para varejo e presentes.",
+    "hi": "एक या अधिक वाइन की बोतलों के लिए कठोर मुद्रित बॉक्स — खुदरा और उपहार के लिए कार्ड या लकड़ी के गिफ़्ट बॉक्स।"
+  },
+  "altLabels": {
+    "en": [
+      "Wine box",
+      "Wine packaging",
+      "Bottle box",
+      "wine box",
+      "bottle box",
+      "wooden wine box"
+    ],
+    "nb": [
+      "Vineske",
+      "vineske",
+      "flaskeeske",
+      "vintreeske"
+    ],
+    "de": [
+      "Weinverpackungen",
+      "Flaschenkartons"
+    ],
+    "pl": [
+      "pudełko na wino",
+      "opakowanie na wino",
+      "pudełko na butelkę",
+      "drewniana skrzynka na wino"
+    ],
+    "sv": [
+      "vinlåda",
+      "vinkartong",
+      "flasklåda",
+      "vinförpackning",
+      "presentlåda för vin"
+    ],
+    "da": [
+      "vinæske",
+      "vinkarton",
+      "flaskeæske",
+      "vinemballage",
+      "gaveæske til vin"
+    ],
+    "nl": [
+      "wijndoos",
+      "wijnkist",
+      "flessendoos",
+      "wijnverpakking",
+      "wijngeschenkdoos"
+    ],
+    "pt": [
+      "caixa para vinho",
+      "caixa de vinho",
+      "embalagem para vinho",
+      "caixa para garrafa",
+      "caixa de madeira para vinho",
+      "estojo para vinho"
+    ],
+    "hi": [
+      "वाइन बॉक्स",
+      "वाइन पैकेजिंग",
+      "बोतल बॉक्स",
+      "लकड़ी का वाइन बॉक्स",
+      "गिफ़्ट बॉक्स (वाइन)"
+    ],
+    "es": [
+      "caja de vino",
+      "estuche de vino",
+      "caja para botella",
+      "caja de madera para vino",
+      "packaging de vino"
+    ],
+    "ja": [
+      "ワイン箱",
+      "ボトル箱",
+      "ワイン用ギフトボックス",
+      "木箱"
+    ],
+    "zh-Hans": [
+      "酒盒",
+      "红酒盒",
+      "酒瓶包装盒",
+      "木制酒盒"
+    ]
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/structural"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/wood/solid/edge-glued-panel",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/cardboard"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver",
+    "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/routing",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 80,
+    "max": 400,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateThickness": {
+    "min": 4,
+    "max": 20,
+    "unit": "mm"
+  },
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-thickness"
+  ]
+}

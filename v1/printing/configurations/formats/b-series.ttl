@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/b-series> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Papirformater i B-serien efter ISO 216, større end de tilsvarende A-formater — bruges hvor et lidt større ark behøves: bøger, plakater og skiltning."@da,
+        "ISO-216-B-Reihe-Papierformate, größer als die entsprechende A-Reihe und überall dort eingesetzt, wo ein etwas größerer Bogen benötigt wird — Bücher, Plakate und Beschilderung."@de,
+        "ISO 216 B-series paper sizes, larger than the corresponding A-series and used where a slightly bigger sheet is needed — books, posters, and signage."@en,
+        "Tamaños de papel de la serie B de ISO 216, mayores que los correspondientes de la serie A y utilizados cuando se necesita una hoja ligeramente más grande — libros, carteles y señalética."@es,
+        "ISO 216 B-सीरीज़ काग़ज़ आकार, संगत A-सीरीज़ से बड़े और वहाँ प्रयुक्त जहाँ थोड़ी बड़ी शीट चाहिए — किताबें, पोस्टर और साइनेज।"@hi,
+        "ISO 216 Bシリーズ用紙寸法。対応するAシリーズより大きく、書籍、ポスター、サインなど、わずかに大きなシートが必要な場面で使用される。"@ja,
+        "ISO 216 B-seriens papirstørrelser, større enn tilsvarende A-serien og brukt der man trenger et litt større ark — bøker, plakater og skilting."@nb,
+        "Papierformaten in de B-reeks volgens ISO 216, groter dan de overeenkomstige A-formaten — gebruikt waar een iets groter vel nodig is: boeken, posters en signalisatie."@nl,
+        "Formaty papieru serii B normy ISO 216, większe od odpowiadających im formatów serii A, używane tam, gdzie potrzebny jest nieco większy arkusz — książki, plakaty i oznakowanie."@pl,
+        "Tamanhos de papel da série B da ISO 216, maiores que a série A correspondente e usados onde se precisa de uma folha um pouco maior — livros, pôsteres e sinalização."@pt,
+        "Pappersformat i B-serien enligt ISO 216, större än motsvarande A-format och används där ett något större ark behövs — böcker, affischer och skyltning."@sv,
+        "ISO 216 B系列纸张尺寸，比对应的A系列大，用于需要稍大纸张的场景——书籍、海报和标识。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/b-series/b0>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b0-plus>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b1>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b1-plus>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b10>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b11>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b12>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b13>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b2>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b2-plus>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b3>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b4>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b5>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b6>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b7>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b8>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series/b9> ;
+    skos:notation "P:CF-FMT-BSER" ;
+    skos:prefLabel "B-serien (ISO 216)"@da,
+        "B-Reihe (ISO 216)"@de,
+        "B Series (ISO 216)"@en,
+        "Serie B (ISO 216)"@es,
+        "B सीरीज़ (ISO 216)"@hi,
+        "B判（ISO 216）"@ja,
+        "B-serie (ISO 216)"@nb,
+        "B-reeks (ISO 216)"@nl,
+        "Seria B (ISO 216)"@pl,
+        "Série B (ISO 216)"@pt,
+        "B-serien (ISO 216)"@sv,
+        "B系列（ISO 216）"@zh-Hans ;
+    skos:scopeNote "Umfasst B0 bis B13 mit derselben Halbierungsregel im Verhältnis 1:√2 wie die A-Reihe. Jedes B-Format ist das geometrische Mittel zwischen den beiden entsprechenden A-Formaten (z. B. liegt B4 zwischen A3 und A4). Plus-Formate (B0+, B1+, B2+) bieten Beschnittzugaben für den Druck."@de,
+        "Includes B0 through B13, with the same 1:√2 halving rule as the A-series. Each B size is the geometric mean between the two corresponding A sizes (e.g. B4 sits between A3 and A4). Plus formats (B0+, B1+, B2+) provide bleeds for printing."@en,
+        "Incluye desde B0 hasta B13, con la misma regla 1:√2 de división por la mitad que la serie A. Cada tamaño B es la media geométrica entre los dos tamaños A correspondientes (p. ej. B4 está entre A3 y A4). Los formatos plus (B0+, B1+, B2+) se utilizan en impresión para sangrados."@es,
+        "B0 से B13, A-सीरीज़ जैसे ही 1:√2 आधा करने के नियम के साथ। हर B आकार दो संगत A आकारों का ज्यामितीय माध्य है (जैसे B4, A3 और A4 के बीच)। «प्लस» फ़ॉर्मेट (B0+, B1+, B2+) छपाई के लिए ब्लीड देते हैं।"@hi,
+        "B0からB13まで含み、Aシリーズと同じ1:√2の半分化規則を持つ。各Bサイズは対応する2つのAサイズの幾何平均（例：B4はA3とA4の中間）。プラス形式（B0+、B1+、B2+）は印刷用のブリードを提供する。"@ja,
+        "Inkluderer B0 til B13, med samme 1:√2-halveringsregel som A-serien. Hver B-størrelse er det geometriske gjennomsnittet mellom de to tilsvarende A-størrelsene (f.eks. ligger B4 mellom A3 og A4). Plus-formater (B0+, B1+, B2+) gir utfall for trykk."@nb,
+        "Inclui B0 a B13, com a mesma regra de divisão 1:√2 da série A. Cada tamanho B é a média geométrica entre os dois tamanhos A correspondentes (p. ex. B4 fica entre A3 e A4). Os formatos «plus» (B0+, B1+, B2+) dão sangria para impressão."@pt,
+        "包括B0到B13，遵循与A系列相同的1:√2对折规则。每个B尺寸是相应两个A尺寸的几何平均（如B4位于A3和A4之间）。加大尺寸（B0+、B1+、B2+）用于印刷出血。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

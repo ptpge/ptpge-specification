@@ -1,0 +1,88 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§PS5",
+  "label": {
+    "en": "PS5 — Wood-free uncoated",
+    "nb": "PS5 — Ubestrøket trefritt",
+    "de": "PS5 — Ungestrichen holzfrei",
+    "es": "PS5 — No estucado libre de madera",
+    "ja": "PS5 — 上質紙（非塗工）",
+    "zh-Hans": "PS5 — 非涂布无木浆纸",
+    "sv": "PS5 — Obestruket träfritt",
+    "da": "PS5 — Ubestrøget træfrit",
+    "nl": "PS5 — Houtvrij ongestreken",
+    "pl": "PS5 — Niepowlekany bezdrzewny",
+    "pt": "PS5 — Offset sem pasta mecânica",
+    "hi": "PS5 — वुड-फ़्री अनकोटेड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Wood-free uncoated paper per ISO 12647-2:2013 (PS5) — the class characterized by the FOGRA52 dataset (PSO Uncoated v3).",
+    "nb": "Ubestrøket trefritt papir etter ISO 12647-2:2013 (PS5) — klassen som karakteriseres av FOGRA52-datasettet (PSO Uncoated v3).",
+    "de": "Ungestrichenes holzfreies Papier nach ISO 12647-2:2013 (PS5) — die durch den FOGRA52-Datensatz (PSO Uncoated v3) charakterisierte Klasse.",
+    "es": "Papel no estucado libre de madera según ISO 12647-2:2013 (PS5): la clase caracterizada por el conjunto FOGRA52 (PSO Uncoated v3).",
+    "ja": "ISO 12647-2:2013 の上質紙・非塗工（PS5）。FOGRA52 データセット（PSO Uncoated v3）で特性化されるクラス。",
+    "zh-Hans": "ISO 12647-2:2013 非涂布无木浆纸（PS5）——由 FOGRA52 数据集（PSO Uncoated v3）特性化的类别。",
+    "sv": "Obestruket träfritt papper enligt ISO 12647-2:2013 (PS5) — klassen som karakteriseras av FOGRA52-datasetet (PSO Uncoated v3).",
+    "da": "Ubestrøget træfrit papir efter ISO 12647-2:2013 (PS5) — klassen der karakteriseres af FOGRA52-datasættet (PSO Uncoated v3).",
+    "nl": "Houtvrij ongestreken papier volgens ISO 12647-2:2013 (PS5) — de klasse die door de FOGRA52-dataset (PSO Uncoated v3) wordt gekarakteriseerd.",
+    "pl": "Papier niepowlekany bezdrzewny wg ISO 12647-2:2013 (PS5) — klasa scharakteryzowana zbiorem FOGRA52 (PSO Uncoated v3).",
+    "pt": "Papel não revestido sem pasta mecânica conforme ISO 12647-2:2013 (PS5) — a classe caracterizada pelo conjunto de dados FOGRA52 (PSO Uncoated v3).",
+    "hi": "ISO 12647-2:2013 (PS5) के अनुसार वुड-फ़्री अनकोटेड काग़ज़ — FOGRA52 डेटासेट (PSO Uncoated v3) से चरित्रित वर्ग।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes",
+  "related": [
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "altLabels": {
+    "en": [
+      "PS5",
+      "Wood-free uncoated"
+    ],
+    "pl": [
+      "PS5",
+      "niepowlekany bezdrzewny"
+    ],
+    "pt": [
+      "PS5",
+      "não revestido sem pasta mecânica",
+      "offset woodfree",
+      "papel offset"
+    ],
+    "hi": [
+      "PS5",
+      "वुड-फ़्री अनकोटेड",
+      "मैपलिथो",
+      "ऑफसेट पेपर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

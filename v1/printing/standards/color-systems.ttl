@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Colour Systems"@en,
+        "systemy kolorów"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/standards> ;
+    skos:definition "Standardiserede systemer til at specificere, kommunikere og gengive farve på tværs af digitale og trykte arbejdsgange."@da,
+        "Standardisierte Systeme für die Spezifikation, Kommunikation und Reproduktion von Farben über digitale und Druck-Workflows hinweg."@de,
+        "Standardized systems for specifying, communicating, and reproducing color across digital and print workflows."@en,
+        "Sistemas estandarizados para especificar, comunicar y reproducir color a lo largo de flujos de trabajo digitales y de impresión."@es,
+        "डिजिटल और प्रिंट वर्कफ़्लो में रंग निर्दिष्ट करने, संप्रेषित करने और पुनरुत्पादित करने की मानकीकृत प्रणालियाँ।"@hi,
+        "デジタルおよび印刷ワークフローにおいて色を指定、伝達、再現するための標準化されたシステム。"@ja,
+        "Standardiserte systemer for å spesifisere, kommunisere og reprodusere farge på tvers av digitale og analoge trykkprosesser."@nb,
+        "Gestandaardiseerde systemen om kleur te specificeren, te communiceren en weer te geven in digitale en gedrukte workflows."@nl,
+        "Ustandaryzowane systemy specyfikowania, komunikowania i reprodukowania barw w cyfrowych i drukarskich przepływach pracy."@pl,
+        "Sistemas padronizados para especificar, comunicar e reproduzir cor em fluxos de trabalho digitais e impressos."@pt,
+        "Standardiserade system för att specificera, kommunicera och återge färg i digitala och tryckta arbetsflöden."@sv,
+        "用于在数字和印刷工作流程中规定、传达和再现色彩的标准化系统。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-profiles>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-spaces>,
+        <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems> ;
+    skos:notation "P:ST-CSY" ;
+    skos:prefLabel "Farvesystemer"@da,
+        "Farbsysteme"@de,
+        "Color Systems"@en,
+        "Sistemas de Color"@es,
+        "रंग प्रणालियाँ"@hi,
+        "色彩システム"@ja,
+        "Fargesystemer"@nb,
+        "Kleursystemen"@nl,
+        "Systemy barw"@pl,
+        "Sistemas de cor"@pt,
+        "Färgsystem"@sv,
+        "色彩系统"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/features/colors> ;
+    skos:scopeNote "Color Systems beschreibt die Vokabulare und Rahmenwerke zur Farbspezifikation (CMYK, RGB, Pantone, RAL, ICC-Profile). Verwandt mit, aber unterschieden von Print Colors unter Features, das die tatsächlich auf einem Druckerzeugnis angewendeten Farben beschreibt. Die Beziehung ist referenziell: eine Print Color kann ein Color System referenzieren (z. B. verweist 'Pantone 185 C' auf das Pantone-System)."@de,
+        "Color Systems describes the vocabularies and frameworks for specifying color (CMYK, RGB, Pantone, RAL, ICC profiles). Related to but distinct from Print Colors under Features, which describes the actual colors applied to a printed piece. The relationship is referential: a Print Color may reference a Color System (e.g., 'Pantone 185 C' references the Pantone system)."@en,
+        "Color Systems describe los vocabularios y marcos para especificar color (CMYK, RGB, Pantone, RAL, perfiles ICC). Relacionado pero distinto de Print Colors bajo Features, que describe los colores reales aplicados a una pieza impresa. La relación es referencial: un Print Color puede referenciar un Color System (p. ej., 'Pantone 185 C' referencia el sistema Pantone)."@es,
+        "रंग प्रणालियाँ रंग निर्दिष्ट करने की शब्दावली और ढाँचों (CMYK, RGB, Pantone, RAL, ICC प्रोफ़ाइल) का वर्णन करती हैं। फ़ीचर के अंतर्गत प्रिंट रंग से संबंधित पर भिन्न, जो मुद्रित वस्तु पर वास्तव में लगे रंगों का वर्णन करता है। संबंध संदर्भात्मक है: एक प्रिंट रंग किसी रंग प्रणाली का संदर्भ दे सकता है (जैसे «Pantone 185 C» Pantone प्रणाली का संदर्भ देता है)।"@hi,
+        "Color Systems は色を指定するための語彙とフレームワーク（CMYK、RGB、Pantone、RAL、ICC プロファイル）を記述する。Features 下の Print Colors とは関連するが区別される — Print Colors は印刷物に実際に適用される色を記述する。関係は参照的：Print Color は Color System を参照できる（例：『Pantone 185 C』は Pantone システムを参照）。"@ja,
+        "Color Systems beskriver vokabularene og rammeverkene for å spesifisere farge (CMYK, RGB, Pantone, RAL, ICC-profiler). Relatert til, men forskjellig fra Print Colors under Features, som beskriver de faktiske fargene som påføres en trykksak. Forholdet er referensielt: en Print Color kan referere et Color System (f.eks. 'Pantone 185 C' refererer Pantone-systemet)."@nb,
+        "Sistemas de cor descreve os vocabulários e quadros para especificar cor (CMYK, RGB, Pantone, RAL, perfis ICC). Relacionado, mas distinto, de Cores de impressão em Características, que descreve as cores efetivamente aplicadas a uma peça impressa. A relação é referencial: uma Cor de impressão pode referenciar um Sistema de cor (por exemplo, «Pantone 185 C» referencia o sistema Pantone)."@pt,
+        "Color Systems 描述用于指定颜色的词汇与框架（CMYK、RGB、Pantone、RAL、ICC 配置文件）。与 Features 下的 Print Colors 有关但有所区别——后者描述实际应用于印刷品上的颜色。两者关系为引用性：一个 Print Color 可以引用某个 Color System（例如『Pantone 185 C』引用 Pantone 系统）。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

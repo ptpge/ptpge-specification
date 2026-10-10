@@ -1,0 +1,68 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding/double-parallel-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Double Parallel Fold",
+    "es": "Pliegue Paralelo Doble",
+    "zh-Hans": "双平行折",
+    "nb": "Dobbel parallell-fold",
+    "de": "Doppelter Parallelfalz",
+    "ja": "ダブルパラレル折り",
+    "sv": "Dubbel parallellfals",
+    "da": "Dobbelt parallelfals",
+    "nl": "Dubbele parallelvouw",
+    "pl": "Złam podwójny równoległy",
+    "pt": "Dobra paralela dupla",
+    "hi": "डबल पैरलल फ़ोल्ड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§DOUBLE-PARALLEL-FOLD",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/completions/folding",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Sheet folded twice with both folds parallel and in the same direction — produces an eight-panel result, used for product catalogs, maps, and detailed brochures.",
+    "nb": "Ark foldet to ganger med begge folder parallelle og i samme retning — produserer et åtte-panel resultat, brukt til produktkataloger, kart og detaljerte brosjyrer.",
+    "de": "Bogen, der zweimal parallel und in dieselbe Richtung gefalzt wird — erzeugt ein achtseitiges Ergebnis, verwendet für Produktkataloge, Karten und detaillierte Broschüren.",
+    "ja": "両方の折りが平行で同じ方向にシートを2回折るもの — 8面の結果を生み、製品カタログ、地図、詳細なブローシュアに使用される。",
+    "es": "Dos pliegues paralelos consecutivos — divide el pliego en cuatro paneles iguales.",
+    "zh-Hans": "两个连续平行折 —— 将纸张分为四个相等面板。",
+    "sv": "Ark falsat två gånger med båda falsarna parallella och åt samma håll — ger ett åttapanelsresultat, används för produktkataloger, kartor och detaljerade broschyrer.",
+    "da": "Ark falset to gange med begge false parallelle og i samme retning — giver otte paneler, brugt til produktkataloger, kort og detaljerede brochurer.",
+    "nl": "Vel tweemaal gevouwen met beide vouwen parallel en in dezelfde richting — geeft acht panelen, gebruikt voor productcatalogi, kaarten en gedetailleerde brochures.",
+    "pl": "Arkusz złożony dwukrotnie, oba złamy równoległe i w tym samym kierunku — daje osiem skrzydeł; stosowany w katalogach produktów, mapach i rozbudowanych folderach.",
+    "pt": "Folha dobrada duas vezes com ambas as dobras paralelas e na mesma direção — resulta em oito painéis; usada em catálogos de produto, mapas e folhetos detalhados.",
+    "hi": "दो बार मुड़ी शीट, दोनों फ़ोल्ड समानांतर और एक ही दिशा में — आठ-पैनल परिणाम; उत्पाद कैटलॉग, नक़्शों और विस्तृत ब्रोशर में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

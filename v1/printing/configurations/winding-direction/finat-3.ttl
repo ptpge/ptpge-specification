@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/winding-direction/finat-3> a skos:Concept ;
+    dcterms:created "2026-09-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/v1/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Position 3"@en,
+        "Winding 3"@en,
+        "WindingResult 3"@en,
+        "Wound out, right leading"@en,
+        "WindingResult 3"@pl,
+        "nawijanie 3"@pl,
+        "pozycja 3"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/winding-direction> ;
+    skos:definition "FINAT-rulleposition 3: etiketter rullet med trykside ud, højre kant forlader rullen først. XJDF Component/@WindingResult = 3."@da,
+        "FINAT-Wickelposition 3: Etiketten mit Druckseite außen gewickelt, rechte Kante verlässt die Rolle zuerst. XJDF Component/@WindingResult = 3."@de,
+        "FINAT winding position 3: labels wound with the printed face out, right edge leaving the roll first. XJDF Component/@WindingResult = 3."@en,
+        "Posición de bobinado FINAT 3: etiquetas bobinadas con la cara impresa hacia fuera, el borde derecho sale primero de la bobina. XJDF Component/@WindingResult = 3."@es,
+        "FINAT वाइंडिंग स्थिति 3: छपा चेहरा बाहर, दायाँ किनारा रोल से पहले निकलता है। XJDF Component/@WindingResult = 3।"@hi,
+        "FINAT 巻き位置 3：外巻きで巻かれ、右辺が先に繰り出される。XJDF Component/@WindingResult = 3。"@ja,
+        "FINAT-viklingsposisjon 3: etiketter viklet med trykkside ut, høyre kant forlater rullen først. XJDF Component/@WindingResult = 3."@nb,
+        "FINAT-wikkelpositie 3: etiketten gewikkeld met beeld buiten, rechterrand verlaat de rol als eerste. XJDF Component/@WindingResult = 3."@nl,
+        "Pozycja nawijania FINAT 3: etykiety nawinięte zadrukowaną stroną na zewnątrz, prawa krawędź schodzi z roli pierwsza. XJDF Component/@WindingResult = 3."@pl,
+        "Posição de enrolamento FINAT 3: rótulos enrolados com a face impressa para fora, borda direita saindo primeiro do rolo. XJDF Component/@WindingResult = 3."@pt,
+        "FINAT-rullposition 3: etiketter rullade med tryck utåt, högerkanten lämnar rullen först. XJDF Component/@WindingResult = 3."@sv,
+        "FINAT 卷绕位置 3：印刷面朝外卷绕，右边先出卷。XJDF Component/@WindingResult = 3。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§FINAT-3" ;
+    skos:prefLabel "FINAT 3"@da,
+        "FINAT 3"@de,
+        "FINAT 3"@en,
+        "FINAT 3"@es,
+        "FINAT 3"@hi,
+        "FINAT 3"@ja,
+        "FINAT 3"@nb,
+        "FINAT 3"@nl,
+        "FINAT 3"@pl,
+        "FINAT 3"@pt,
+        "FINAT 3"@sv,
+        "FINAT 3"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.38 · p.113",
+                "§6.18 · p.176" ;
+            ptpge:mappingRow "Component@WindingResult" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Component",
+                "Component@WindingResult",
+                "Winding" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-05" .
+

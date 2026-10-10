@@ -1,0 +1,114 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Folding",
+    "es": "Plegado",
+    "zh-Hans": "折页",
+    "nb": "Bretting",
+    "de": "Falzen",
+    "ja": "折り加工",
+    "sv": "Falsning",
+    "da": "Falsning",
+    "nl": "Vouwen",
+    "pl": "Falcowanie",
+    "pt": "Dobra",
+    "hi": "फ़ोल्डिंग"
+  },
+  "altLabels": {
+    "en": [
+      "Folds"
+    ],
+    "nb": [
+      "Falsing",
+      "Fals",
+      "Brett"
+    ],
+    "pl": [
+      "złamy"
+    ],
+    "pt": [
+      "dobras",
+      "dobradura"
+    ],
+    "hi": [
+      "फ़ोल्ड",
+      "मोड़",
+      "तह"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions",
+  "narrower": [
+    "https://ptpge.org/v1/printing/completions/folding/accordion-fold",
+    "https://ptpge.org/v1/printing/completions/folding/closed-gate-fold",
+    "https://ptpge.org/v1/printing/completions/folding/cross-fold",
+    "https://ptpge.org/v1/printing/completions/folding/cross-tri-fold",
+    "https://ptpge.org/v1/printing/completions/folding/double-closed-gate-fold",
+    "https://ptpge.org/v1/printing/completions/folding/double-parallel-fold",
+    "https://ptpge.org/v1/printing/completions/folding/gate-fold",
+    "https://ptpge.org/v1/printing/completions/folding/open-gate-fold",
+    "https://ptpge.org/v1/printing/completions/folding/roll-fold",
+    "https://ptpge.org/v1/printing/completions/folding/single-fold",
+    "https://ptpge.org/v1/printing/completions/folding/tri-fold",
+    "https://ptpge.org/v1/printing/completions/folding/tri-fold-stand",
+    "https://ptpge.org/v1/printing/completions/folding/z-fold"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Mechanical operations that fold a printed sheet into a multi-panel product — leaflet, brochure, map, or insert. The fold pattern determines the panel sequence and how the product opens.",
+    "nb": "Mekaniske operasjoner som folder et trykt ark til et flerpanel-produkt — flyer, brosjyre, kart eller innstikk. Foldemønsteret avgjør panelrekkefølgen og hvordan produktet åpnes.",
+    "de": "Mechanische Verfahren, die einen bedruckten Bogen zu einem mehrseitigen Produkt falzen — Faltblatt, Broschüre, Karte oder Beilage. Das Falzschema bestimmt die Seitenfolge und wie sich das Produkt öffnet.",
+    "ja": "印刷されたシートを多面構成の製品（リーフレット、ブローシュア、地図、折込）に折る機械的工程。折りパターンが面の順序と製品の開き方を決定する。",
+    "es": "Operaciones mecánicas que pliegan una hoja impresa en un producto de múltiples paneles — folleto, tríptico, mapa o encarte. El patrón de plegado determina la secuencia de los paneles y cómo se abre el producto.",
+    "zh-Hans": "将印刷张折叠成多面板产品的机械操作——传单、宣传册、地图或插页。折页模式决定面板顺序和产品打开方式。",
+    "sv": "Mekaniska operationer som falsar ett tryckt ark till en flerpanelsprodukt — folder, broschyr, karta eller inlaga. Falsmönstret avgör panelernas ordningsföljd och hur produkten öppnas.",
+    "da": "Mekaniske operationer, der falser et trykt ark til et flerpanelsprodukt — folder, brochure, kort eller indstik. Falsemønstret bestemmer panelrækkefølgen og hvordan produktet åbner.",
+    "nl": "Mechanische bewerkingen die een bedrukt vel vouwen tot een meerpaneelproduct — folder, brochure, kaart of bijsluiter. Het vouwpatroon bepaalt de paneelvolgorde en hoe het product opent.",
+    "pl": "Operacje mechaniczne składające zadrukowany arkusz w produkt wieloskrzydłowy — ulotkę, folder, mapę lub wkładkę. Wzór złamów określa kolejność skrzydeł i sposób otwierania produktu.",
+    "pt": "Operações mecânicas que dobram uma folha impressa em um produto de vários painéis — folheto, brochura, mapa ou encarte. O padrão de dobra determina a sequência dos painéis e como o produto se abre.",
+    "hi": "यांत्रिक क्रियाएँ जो छपी शीट को बहु-पैनल उत्पाद में मोड़ती हैं — लीफ़लेट, ब्रोशर, नक़्शा या इन्सर्ट। फ़ोल्ड पैटर्न पैनलों का क्रम और उत्पाद के खुलने का तरीका तय करता है।"
+  },
+  "scopeNote": {
+    "en": "Includes single-axis folds (single fold, tri-fold, Z-fold, accordion, roll fold), gate folds (open, closed, double), parallel and cross folds, and standing fold variants. Folding is performed on dedicated folder machines or inline with the press.",
+    "nb": "Inkluderer ettakset folder (enkel folde, tri-fold, Z-fold, trekkspill, rullefold), gate folder (åpen, lukket, dobbel), parallelle og kryssende folder, og stående folde-varianter. Folding utføres på dedikerte folde-maskiner eller inline med pressen.",
+    "de": "Umfasst Einachsenfalze (Einbruchfalz, Wickelfalz, Zickzackfalz, Leporellofalz, Wickelfalz mit Rollung), Altarfalze (offen, geschlossen, doppelt), Parallel- und Kreuzfalze sowie Standfalz-Varianten. Die Falzung erfolgt auf speziellen Falzmaschinen oder inline mit der Druckmaschine.",
+    "ja": "単軸折り（二つ折り、三つ折り、Z折り、巻き折り、観音折り）、観音折り（オープン、クローズド、ダブル）、平行折りと十字折り、自立式折りバリアントを含む。折りは専用の折り機、または印刷機とインラインで行う。",
+    "es": "Incluye pliegues de un solo eje (pliegue simple, tríptico, pliegue en Z, acordeón, enrollado), pliegues en gate (abierto, cerrado, doble), pliegues paralelos y cruzados, y variantes de pliegue vertical. El plegado se realiza en plegadoras dedicadas o como parte de líneas de acabado en línea.",
+    "zh-Hans": "包括单轴折页（对折、三折、Z折、风琴折、卷折）、门折（开式、闭式、双门折）、平行与十字折以及立式折变体。折页在专用折页机或印后联线设备上进行。",
+    "pt": "Inclui dobras de eixo único (dobra simples, tríptico, dobra Z, sanfona, dobra envolvente), dobras janela (aberta, fechada, dupla), dobras paralelas e cruzadas e variantes de dobra em pé. A dobra é feita em dobradeiras dedicadas ou em linha com a impressora.",
+    "hi": "एक-अक्ष फ़ोल्ड (सिंगल, ट्राई-फ़ोल्ड, Z-फ़ोल्ड, अकॉर्डियन, रोल फ़ोल्ड), गेट फ़ोल्ड (खुला, बंद, डबल), पैरलल और क्रॉस फ़ोल्ड और खड़े फ़ोल्ड वेरिएंट शामिल। फ़ोल्डिंग समर्पित फ़ोल्डर मशीनों पर या प्रेस के साथ इनलाइन की जाती है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:CP-FOLD",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

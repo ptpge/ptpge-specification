@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/woodcut",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Woodcut",
+    "es": "Xilografía",
+    "zh-Hans": "木版画",
+    "nb": "Tresnitt",
+    "de": "Holzschnitt",
+    "ja": "木版画",
+    "sv": "Träsnitt",
+    "da": "Træsnit",
+    "nl": "Houtsnede",
+    "pl": "Drzeworyt",
+    "pt": "Xilogravura",
+    "hi": "वुडकट"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§WOODCUT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Original relief printing technology where the image is carved into the surface of a wooden block — non-image areas are removed, leaving the image raised. Ink is applied to the raised surface and pressed onto paper. The oldest known printing method, originating in China before AD 220.",
+    "nb": "Opprinnelig relieff-trykketeknologi der bildet er skåret inn i overflaten av en treblokk — ikke-bildeområder fjernes og etterlater bildet opphøyd. Blekk påføres den opphøyde overflaten og presses mot papir. Den eldste kjente trykkmetoden, med opprinnelse i Kina før år 220.",
+    "de": "Ursprüngliche Hochdrucktechnologie, bei der das Bild in die Oberfläche eines Holzstocks geschnitten wird — bildfreie Bereiche werden entfernt, sodass das Bild erhaben stehen bleibt. Die Farbe wird auf die erhabene Fläche aufgetragen und auf Papier gepresst. Die älteste bekannte Druckmethode, mit Ursprüngen in China vor 220 n. Chr.",
+    "ja": "木版の表面に画像を彫り込む元来の凸版印刷技術 — 非画像領域を取り除き、画像を凸状に残す。凸状の表面にインキを塗布し紙に押し付ける。中国で紀元220年以前に始まった、知られている最古の印刷方式。",
+    "es": "Técnica tradicional de impresión en relieve sobre madera tallada — la imagen se talla en negativo y la tinta se aplica a la superficie en relieve. Hoy práctica artística más que industrial.",
+    "zh-Hans": "在雕刻木材上的传统凸版印刷技术——图像以负向雕刻，油墨施加于凸起表面。如今主要是艺术实践而非工业实践。",
+    "sv": "Ursprunglig högtrycksteknik där bilden skärs in i ytan på ett träblock — icke-bildytor avlägsnas så att bilden står upphöjd. Bläck appliceras på den upphöjda ytan och pressas mot papper. Den äldsta kända tryckmetoden, med ursprung i Kina före år 220 e.Kr.",
+    "da": "Oprindelig højtryksteknik, hvor billedet skæres ind i overfladen på en træblok — ikke-billedflader fjernes, så billedet står ophøjet. Farve påføres den ophøjede overflade og presses mod papir. Den ældste kendte trykmetode, med oprindelse i Kina før år 220 e.Kr.",
+    "nl": "Oorspronkelijke hoogdruktechnologie waarbij het beeld in het oppervlak van een houtblok wordt gesneden — niet-beeldvlakken worden weggehaald zodat het beeld verhoogd staat. Inkt wordt op het verhoogde oppervlak aangebracht en op papier gedrukt. De oudst bekende drukmethode, ontstaan in China vóór 220 n.Chr.",
+    "pl": "Pierwotna technologia druku wypukłego, w której obraz jest wycinany w powierzchni drewnianego klocka — obszary bez obrazu są usuwane, a obraz pozostaje wypukły. Farba jest nakładana na wypukłą powierzchnię i odciskana na papierze. Najstarsza znana metoda druku, wywodząca się z Chin sprzed 220 r. n.e.",
+    "pt": "Tecnologia original de impressão em relevo em que a imagem é entalhada na superfície de um bloco de madeira — as áreas sem imagem são removidas, deixando a imagem em relevo. A tinta é aplicada à superfície elevada e pressionada sobre o papel. O método de impressão mais antigo conhecido, originário da China antes de 220 d.C.",
+    "hi": "मूल रिलीफ़ मुद्रण तकनीक जिसमें छवि लकड़ी के ब्लॉक की सतह में तराशी जाती है — गैर-छवि क्षेत्र हटाए जाते हैं, छवि उभरी रहती है। उभरी सतह पर स्याही लगाकर काग़ज़ पर दबाया जाता है। ज्ञात सबसे पुरानी मुद्रण विधि, ईसवी 220 से पहले चीन में उद्भूत।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Woodblock"
+    ],
+    "nb": [
+      "Tresnitt"
+    ],
+    "pl": [
+      "klocek drzeworytniczy"
+    ],
+    "pt": [
+      "Gravura em madeira",
+      "Xilografia"
+    ],
+    "hi": [
+      "वुडब्लॉक",
+      "काष्ठ-उत्कीर्णन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ]
+}

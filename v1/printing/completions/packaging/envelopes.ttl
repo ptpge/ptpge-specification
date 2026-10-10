@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/packaging/envelopes> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions/packaging> ;
+    skos:definition "Papir- eller polyethylenkuverter til forsendelse af enkelte tryksager eller små bundter — dimensioneret efter indholdet. Standard ISO 269-kuverter er almindelige; polstrede kuverter beskytter skrøbeligt indhold."@da,
+        "Briefumschläge aus Papier oder Polyethylen, die zum Versand einzelner Druckerzeugnisse oder kleiner Bündel verwendet werden — auf den Inhalt zugeschnitten. Standard-Umschläge nach ISO 269 sind verbreitet; gepolsterte Versandtaschen bieten zusätzlichen Schutz für empfindliche Artikel."@de,
+        "Paper or polyethylene envelopes used to ship individual printed products or small bundles — sized to match the contents. Standard ISO 269 envelopes are common; padded mailers add cushioning for fragile items."@en,
+        "Sobres protectores para envío individual de tarjetas, folletos y documentos planos."@es,
+        "अलग-अलग मुद्रित उत्पाद या छोटे बंडल भेजने के लिए काग़ज़ या पॉलीथीन के लिफ़ाफ़े — सामग्री के अनुसार आकार। मानक ISO 269 लिफ़ाफ़े आम हैं; पैडेड मेलर नाज़ुक वस्तुओं के लिए गद्दी देते हैं।"@hi,
+        "個別の印刷物または小束を発送するための紙またはポリエチレンの封筒 — 内容物に合わせたサイズ。標準ISO 269封筒が一般的。クッション付きメーラーは壊れやすい商品に緩衝材を追加する。"@ja,
+        "Konvolutter av papir eller polyetylen brukt til å sende individuelle trykte produkter eller små bunter — dimensjonert til å passe innholdet. Standard ISO 269-konvolutter er vanlige; polstrede mailers gir polstring for skjøre gjenstander."@nb,
+        "Papieren of polyethyleen enveloppen voor verzending van losse drukwerken of kleine bundels — bemeten naar de inhoud. Standaard ISO 269-enveloppen zijn gebruikelijk; luchtkussenenveloppen beschermen breekbare inhoud."@nl,
+        "Koperty papierowe lub polietylenowe używane do wysyłki pojedynczych produktów drukowanych lub małych paczek — dobrane rozmiarem do zawartości. Powszechne są standardowe koperty ISO 269; koperty bąbelkowe dodają amortyzację dla delikatnych przedmiotów."@pl,
+        "Envelopes de papel ou polietileno usados para enviar impressos individuais ou pequenos pacotes — dimensionados conforme o conteúdo. Envelopes padrão ISO 269 são comuns; envelopes almofadados acrescentam proteção a itens frágeis."@pt,
+        "Kuvert av papper eller polyeten som används för att skicka enskilda trycksaker eller små buntar — dimensionerade efter innehållet. ISO 269-standardkuvert är vanliga; vadderade påsar ger stötskydd för ömtåliga produkter."@sv,
+        "用于单独发送卡片、宣传册和平面文件的保护性信封。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§ENVELOPES" ;
+    skos:prefLabel "Forsendelseskuverter"@da,
+        "Versandumschläge"@de,
+        "Mailing Envelopes"@en,
+        "Sobres de envío"@es,
+        "डाक लिफ़ाफ़े"@hi,
+        "配送用封筒"@ja,
+        "Forsendelseskonvolutter"@nb,
+        "Verzendenveloppen"@nl,
+        "Koperty wysyłkowe"@pl,
+        "Envelopes de envio"@pt,
+        "Försändelsekuvert"@sv,
+        "邮寄信封"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+                "§5.6.28 · p.128",
+                "§5.6.3 · p.113",
+                "§5.6.39 · p.135",
+                "§6.10 · p.161" ;
+            ptpge:mappingRow "crosswalk row 48" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BoxPacking",
+                "Bundle",
+                "Palletizing",
+                "Shrinking",
+                "Wrapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

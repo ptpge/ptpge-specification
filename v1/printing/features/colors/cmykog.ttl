@@ -1,0 +1,101 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/colors/cmykog> a skos:Concept ;
+    dcterms:created "2026-06-18T11:10:58+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "CMYK+OG"@da,
+        "Seksfarvetryk"@da,
+        "Udvidet farverum"@da,
+        "6-Farben-Druck"@de,
+        "CMYK+OG"@de,
+        "Erweiterter Farbraum"@de,
+        "6-Color"@en,
+        "6-color"@en,
+        "6-colour"@en,
+        "CMYK+OG"@en,
+        "EG Printing"@en,
+        "Extended Gamut"@en,
+        "Extended gamut"@en,
+        "Orange Green"@en,
+        "Six-Color"@en,
+        "CMYK+OG"@es,
+        "Gama extendida"@es,
+        "Hexacromía"@es,
+        "6 रंग"@hi,
+        "CMYK+OG"@hi,
+        "एक्सटेंडेड गैमट"@hi,
+        "ऑरेंज ग्रीन"@hi,
+        "विस्तारित गैमट"@hi,
+        "6色印刷"@ja,
+        "CMYK+OG"@ja,
+        "拡張色域"@ja,
+        "6-farge"@nb,
+        "6-fargers trykk"@nb,
+        "CMYK+OG"@nb,
+        "Utvidet fargeomfang"@nb,
+        "Utvidet gamut"@nb,
+        "CMYK+OG"@nl,
+        "Uitgebreid kleurbereik"@nl,
+        "Zeskleurendruk"@nl,
+        "6 kolorów"@pl,
+        "CMYK+OG"@pl,
+        "gamut rozszerzony"@pl,
+        "6 cores"@pt,
+        "CMYK+OG"@pt,
+        "gama estendida"@pt,
+        "hexacromia estendida"@pt,
+        "laranja e verde"@pt,
+        "CMYK+OG"@sv,
+        "Sexfärgstryck"@sv,
+        "Utökad färgrymd"@sv,
+        "CMYK+OG"@zh-Hans,
+        "六色印刷"@zh-Hans,
+        "扩展色域"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/colors> ;
+    skos:definition "Udvidet 6-farvetryk med CMYK plus orange og grøn farve, som udvider det gengivelige farveomfang ud over proces-CMYK uden violet fra et fuldt 7-farvesæt."@da,
+        "Erweiterter 6-Farben-Gamut-Druck mit CMYK plus Orange und Grün — erweitert den reproduzierbaren Farbraum über Prozess-CMYK hinaus, ohne das Violett des vollen 7-Farben-Satzes."@de,
+        "Extended 6-color gamut printing using CMYK plus Orange and Green inks, widening the reproducible gamut beyond process CMYK without the Violet of a full 7-color set."@en,
+        "Impresión de gama extendida de 6 colores con CMYK más tintas Naranja y Verde, ampliando la gama reproducible más allá del CMYK de proceso sin el Violeta del juego completo de 7 colores."@es,
+        "CMYK के साथ नारंगी और हरी स्याही से 6-रंग विस्तारित गैमट छपाई — पूर्ण 7-रंग सेट के बैंगनी के बिना, प्रोसेस CMYK से आगे पुनरुत्पादन योग्य गैमट बढ़ाती है।"@hi,
+        "CMYK にオレンジとグリーンのインキを加えた6色の拡張ガモット印刷。7色セットのバイオレットなしで、プロセス CMYK を超える再現域へ広げる。"@ja,
+        "Utvidet 6-fargers gamut-trykk med CMYK pluss oransje og grønt blekk, som utvider det gjengivbare fargeområdet utover prosess-CMYK uten fioletten i et fullt 7-fargersett."@nb,
+        "Uitgebreide 6-kleurendruk met CMYK plus oranje en groene inkt, die het weergeefbare gamma verruimt voorbij proces-CMYK zonder het violet van een volledige 7-kleurenset."@nl,
+        "Druk o rozszerzonym gamucie w 6 kolorach: CMYK plus farby pomarańczowa i zielona, poszerzający reprodukowalny gamut poza procesowy CMYK bez fioletu z pełnego zestawu 7-kolorowego."@pl,
+        "Impressão em gama estendida de 6 cores usando CMYK mais tintas Laranja e Verde, ampliando a gama reproduzível além do CMYK sem o Violeta do conjunto completo de 7 cores."@pt,
+        "Utökat 6-färgstryck med CMYK plus orange och grönt bläck, vilket vidgar den återgivbara färgrymden bortom process-CMYK utan sjufärgsuppsättningens violett."@sv,
+        "在 CMYK 基础上加入橙色与绿色油墨的6色扩展色域印刷，在不使用7色方案中紫色的情况下将可再现色域扩展至超越常规 CMYK。"@zh-Hans ;
+    skos:exactMatch <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykog> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§CMYKOG" ;
+    skos:prefLabel "CMYKOG"@da,
+        "CMYKOG"@de,
+        "CMYKOG"@en,
+        "CMYKOG"@es,
+        "CMYKOG"@hi,
+        "CMYKOG"@ja,
+        "CMYKOG"@nb,
+        "CMYKOG"@nl,
+        "CMYKOG"@pl,
+        "CMYKOG"@pt,
+        "CMYKOG"@sv,
+        "CMYKOG"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§6.15 · p.168" ;
+            ptpge:mappingRow "crosswalk row 24" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

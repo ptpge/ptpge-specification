@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "CRPC3",
+    "nb": "CRPC3",
+    "sv": "CRPC3",
+    "da": "CRPC3",
+    "nl": "CRPC3",
+    "pl": "CRPC3",
+    "pt": "CRPC3",
+    "hi": "CRPC3"
+  },
+  "notation": "P:ST§CRPC3",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Characterized Reference Printing Condition 3 of ISO/PAS 15339-2:2015 (CGATS 21-2): utility printing on matte uncoated wood-free paper. Process-agnostic reference conditions spanning the range of printable gamuts.",
+    "nb": "Karakterisert referanse-trykkbetingelse 3 i ISO/PAS 15339-2:2015 (CGATS 21-2): enkelt trykk på matt ubestrøket trefritt papir. Prosessuavhengige referansebetingelser som spenner over de trykkbare fargerommene.",
+    "de": "Charakterisierte Referenzdruckbedingung 3 nach ISO/PAS 15339-2:2015 (CGATS 21-2): einfacher Druck auf mattem ungestrichenem holzfreiem Papier. Prozessunabhängige Referenzbedingungen über die Spanne der druckbaren Farbräume.",
+    "es": "Condición de impresión de referencia caracterizada 3 de ISO/PAS 15339-2:2015 (CGATS 21-2): impresión básica en papel no estucado mate libre de madera. Condiciones de referencia independientes del proceso que abarcan las gamas imprimibles.",
+    "ja": "ISO/PAS 15339-2:2015（CGATS 21-2）の特性化参照印刷条件 3：マット非塗工上質紙への汎用印刷。印刷可能な色域の範囲をカバーする、プロセス非依存の参照条件。",
+    "zh-Hans": "ISO/PAS 15339-2:2015（CGATS 21-2）特性化参考印刷条件 3：哑光非涂布无木浆纸上的通用印刷。与工艺无关、覆盖可印刷色域范围的参考条件。",
+    "sv": "Karakteriserat referenstryckvillkor 3 i ISO/PAS 15339-2:2015 (CGATS 21-2): enkelt tryck på matt obestruket träfritt papper. Processoberoende referensvillkor som spänner över de tryckbara färgomfången.",
+    "da": "Karakteriseret referencetrykbetingelse 3 i ISO/PAS 15339-2:2015 (CGATS 21-2): enkelt tryk på mat ubestrøget træfrit papir. Procesuafhængige referencebetingelser der spænder over de trykbare farverum.",
+    "nl": "Gekarakteriseerde referentiedrukconditie 3 van ISO/PAS 15339-2:2015 (CGATS 21-2): eenvoudig drukwerk op mat ongestreken houtvrij papier. Procesonafhankelijke referentiecondities die het bereik van drukbare kleurbereiken omspannen.",
+    "pl": "Characterized Reference Printing Condition 3 wg ISO/PAS 15339-2:2015 (CGATS 21-2): druk użytkowy na matowym niepowlekanym papierze bezdrzewnym. Warunki odniesienia niezależne od procesu, obejmujące zakres drukowalnych gamutów.",
+    "pt": "Characterized Reference Printing Condition 3 da ISO/PAS 15339-2:2015 (CGATS 21-2): impressão utilitária em papel não revestido fosco sem pasta mecânica. Condições de referência independentes de processo que abrangem a gama de gamuts imprimíveis.",
+    "hi": "ISO/PAS 15339-2:2015 (CGATS 21-2) की Characterized Reference Printing Condition 3: मैट अनकोटेड वुड-फ़्री काग़ज़ पर उपयोगिता मुद्रण। मुद्रण-योग्य गैमट की सीमा को समेटने वाली प्रक्रिया-निरपेक्ष संदर्भ स्थितियाँ।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "CRPC 3",
+      "Characterized Reference Printing Condition 3"
+    ],
+    "pl": [
+      "CRPC 3",
+      "Characterized Reference Printing Condition 3"
+    ],
+    "pt": [
+      "CRPC 3",
+      "Characterized Reference Printing Condition 3"
+    ],
+    "hi": [
+      "CRPC 3",
+      "Characterized Reference Printing Condition 3"
+    ]
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ]
+}

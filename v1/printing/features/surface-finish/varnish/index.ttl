@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/varnish> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "lakierowanie"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish> ;
+    skos:definition "En flydende belægning påført over tryk for at tilføje glans, beskyttelse eller selektiv fremhævning."@da,
+        "Eine flüssige Beschichtung über dem Druck für Glanz, Schutz oder selektive Hervorhebung."@de,
+        "A liquid coating applied over print to add sheen, protection or selective highlighting."@en,
+        "Un recubrimiento líquido aplicado sobre la impresión para añadir brillo, protección o realce selectivo."@es,
+        "चमक, सुरक्षा या चुनिंदा हाइलाइट के लिए प्रिंट के ऊपर लगाई गई तरल कोटिंग।"@hi,
+        "印刷の上に塗布する液体コーティング。光沢や保護、部分的な強調を加える。"@ja,
+        "Et flytende belegg påført trykk for glans, beskyttelse eller selektiv fremheving."@nb,
+        "Een vloeibare coating over drukwerk voor glans, bescherming of selectieve accentuering."@nl,
+        "Płynna powłoka nanoszona na druk, aby dodać połysk, ochronę lub wybiórcze podkreślenie."@pl,
+        "Revestimento líquido aplicado sobre a impressão para dar brilho, proteção ou destaque seletivo."@pt,
+        "En flytande beläggning applicerad över tryck för att tillföra lyster, skydd eller selektiv accentuering."@sv,
+        "涂布于印刷品之上的液体涂层，用于增加光泽、保护或选择性强调。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/features/surface-finish/varnish/flood-varnishing>,
+        <https://ptpge.org/v1/printing/features/surface-finish/varnish/gloss-varnish>,
+        <https://ptpge.org/v1/printing/features/surface-finish/varnish/matte-varnish>,
+        <https://ptpge.org/v1/printing/features/surface-finish/varnish/spot-varnish>,
+        <https://ptpge.org/v1/printing/features/surface-finish/varnish/uv-varnish> ;
+    skos:notation "P:FT-SFI-VARN" ;
+    skos:prefLabel "Lak"@da,
+        "Lack"@de,
+        "Varnish"@en,
+        "Varnish"@es,
+        "वार्निश"@hi,
+        "Varnish"@ja,
+        "Lakk"@nb,
+        "Lak"@nl,
+        "Lakier"@pl,
+        "Verniz"@pt,
+        "Lack"@sv,
+        "Varnish"@zh-Hans ;
+    ptpge:group "features" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§5.5.3 · p.112" ;
+            ptpge:mappingRow "crosswalk row 26" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "Varnishing" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

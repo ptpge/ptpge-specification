@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Copy Paper Weight"@en,
+        "Standard Paper"@en,
+        "कॉपी पेपर वज़न"@hi,
+        "मानक काग़ज़"@hi,
+        "साधारण काग़ज़"@hi,
+        "Kopipapirvekt"@nb,
+        "Vanlig papir"@nb,
+        "gramatura kserograficzna"@pl,
+        "papier standardowy"@pl,
+        "gramatura de sulfite"@pt,
+        "papel padrão"@pt,
+        "papel sulfite"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:definition "Papir i området 80–109 g/m² — standard kontor- og bogpapir. Standardvægten til brevpapir, interne dokumenter og de fleste bogindmader."@da,
+        "Papier im Bereich 80–109 g/m² — Standard-Büro- und Buchpapier. Standardgrammatur für Briefbögen, interne Dokumente und die meisten Buchinhalte."@de,
+        "Paper in the 80–109 gsm range — standard office and book paper. The default weight for letterhead, internal documents, and most book interiors."@en,
+        "Papel de gramaje ligero, 70–90 gsm — habitual para libros, papelería de oficina y documentos."@es,
+        "80–109 GSM रेंज का काग़ज़ — मानक ऑफ़िस और पुस्तक काग़ज़। लेटरहेड, आंतरिक दस्तावेज़ों और अधिकांश किताबों की इनर के लिए डिफ़ॉल्ट वज़न।"@hi,
+        "80〜109gsmの坪量範囲の紙 — 標準的なオフィス用および書籍用紙。便箋、社内文書、大半の書籍本文の標準坪量。"@ja,
+        "Papir i området 80–109 gsm — standard kontor- og bokpapir. Standardvekt for brevpapir, interne dokumenter og de fleste bokinteriør."@nb,
+        "Papier in het bereik 80–109 g/m² — standaard kantoor- en boekpapier. Het standaardgewicht voor briefpapier, interne documenten en de meeste boekbinnenwerken."@nl,
+        "Papier w zakresie 80–109 g/m² — standardowy papier biurowy i książkowy. Domyślna gramatura papieru firmowego, dokumentów wewnętrznych i większości wnętrz książek."@pl,
+        "Papel na faixa de 80–109 g/m² — papel padrão de escritório e de livro. A gramatura padrão para papel timbrado, documentos internos e a maioria dos miolos de livro."@pt,
+        "Papper i intervallet 80–109 g/m² — standardpapper för kontor och böcker. Standardvikten för brevpapper, interna dokument och de flesta bokinlagor."@sv,
+        "轻克重纸，70–90克 —— 常用于书籍、办公文具和文件。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§LIGHT-PAPER" ;
+    skos:prefLabel "Let papir (80–109 g/m²)"@da,
+        "Leichtes Papier (80–109 g/m²)"@de,
+        "Light Paper (80–109 gsm)"@en,
+        "Papel Ligero (80–109 gsm)"@es,
+        "लाइट काग़ज़ (80–109 GSM)"@hi,
+        "軽量紙（80〜109 gsm）"@ja,
+        "Lett papir (80–109 g/m²)"@nb,
+        "Licht papier (80–109 g/m²)"@nl,
+        "Papier lekki (80–109 g/m²)"@pl,
+        "Papel leve (80–109 g/m²)"@pt,
+        "Lätt papper (80–109 g/m²)"@sv,
+        "轻纸 (80–109克)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:hasProperty [ ptpge:unit "gsm" ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

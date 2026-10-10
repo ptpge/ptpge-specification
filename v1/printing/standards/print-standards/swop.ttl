@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/swop> a skos:Concept ;
+    dcterms:created "2026-06-17T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "SWOP coated"@en,
+        "Specifications for Web Offset Publications"@en,
+        "SWOP coated"@hi,
+        "Specifications for Web Offset Publications"@hi,
+        "SWOP coated"@pl,
+        "Specifications for Web Offset Publications"@pl,
+        "SWOP coated"@pt,
+        "Specifications for Web Offset Publications"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Specifications for Web Offset Publications — nordamerikanske rotationsoffsetvilkår for publikationstryk."@da,
+        "Specifications for Web Offset Publications — nordamerikanische Rollenoffset-Druckbedingungen für den Publikationsdruck."@de,
+        "Specifications for Web Offset Publications — North American web offset print conditions for publication printing."@en,
+        "Specifications for Web Offset Publications — condiciones norteamericanas de ófset de bobina para impresión de publicaciones."@es,
+        "Specifications for Web Offset Publications — प्रकाशन मुद्रण के लिए उत्तर अमेरिकी वेब ऑफसेट प्रिंट स्थितियाँ।"@hi,
+        "Specifications for Web Offset Publications — 出版物印刷のための北米の輪転オフセット印刷条件。"@ja,
+        "Specifications for Web Offset Publications — nordamerikanske rulloffset-betingelser for publikasjonstrykk."@nb,
+        "Specifications for Web Offset Publications — Noord-Amerikaanse rotatieoffsetcondities voor publicatiedruk."@nl,
+        "Specifications for Web Offset Publications — północnoamerykańskie warunki druku offsetowego zwojowego dla druku publikacyjnego."@pl,
+        "Specifications for Web Offset Publications — condições de impressão offset de bobina norte-americanas para impressão de publicações."@pt,
+        "Specifications for Web Offset Publications — nordamerikanska rulloffsetvillkor för publikationstryck."@sv,
+        "Specifications for Web Offset Publications——北美出版物轮转胶印印刷条件。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§SWOP" ;
+    skos:prefLabel "SWOP"@da,
+        "SWOP"@en,
+        "SWOP"@hi,
+        "SWOP"@nb,
+        "SWOP"@nl,
+        "SWOP"@pl,
+        "SWOP"@pt,
+        "SWOP"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-17" .
+

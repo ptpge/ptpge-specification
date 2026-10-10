@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/ra-series> a skos:Concept ;
+    dcterms:created "2026-08-12T11:00:47+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "RA Sizes"@en,
+        "RA-formater"@nb,
+        "formaty RA"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Ubeskårne trykarkformater efter ISO 217 (RA = Raw format A) — overdimensionerede ark, der renskæres ned til A-serien efter tryk, med mindre skæremargin end SRA-serien."@da,
+        "Unbeschnittene Druckbogenformate nach ISO 217 (RA) — vergrößerte Bogen, die nach dem Druck auf die A-Reihe beschnitten werden, mit geringerer Zugabe als die SRA-Reihe."@de,
+        "Untrimmed press-sheet formats of ISO 217 (RA = Raw format A) — oversized sheets trimmed down to the A series after printing, with a smaller allowance than the SRA series."@en,
+        "Formatos de pliego sin recortar de ISO 217 (RA) — pliegos sobredimensionados que se refilan a la serie A tras la impresión, con menos demasía que la serie SRA."@es,
+        "ISO 217 के बिना ट्रिम प्रेस-शीट फ़ॉर्मेट (RA = Raw format A) — छपाई के बाद A सीरीज़ में ट्रिम की जाने वाली बड़ी शीटें, SRA सीरीज़ से कम भत्ते के साथ।"@hi,
+        "ISO 217 の断裁前印刷用紙判型（RA）。印刷後にA判へ断裁される大きめの用紙で、SRA系列より余白が小さい。"@ja,
+        "Ubeskårne trykkarkformater i ISO 217 (RA) — overdimensjonerte ark som renskjæres til A-serien etter trykk, med mindre monn enn SRA-serien."@nb,
+        "Onbesneden drukvelformaten volgens ISO 217 (RA = Raw format A) — ruimer bemeten vellen die na het drukken worden schoongesneden naar de A-reeks, met kleinere snijmarge dan de SRA-reeks."@nl,
+        "Nieprzycięte formaty arkuszy drukowych normy ISO 217 (RA = Raw format A) — powiększone arkusze przycinane po druku do serii A, z mniejszym naddatkiem niż seria SRA."@pl,
+        "Formatos de folha de impressão não refilada da ISO 217 (RA = Raw format A) — folhas superdimensionadas refiladas para a série A após a impressão, com margem menor que a série SRA."@pt,
+        "Obeskurna tryckarksformat enligt ISO 217 (RA = Raw format A) — överdimensionerade ark som renskärs ned till A-serien efter tryck, med mindre skärmån än SRA-serien."@sv,
+        "ISO 217 的未裁切印刷纸张幅面（RA）— 印后裁切为 A 系列的加大纸张，裁切余量小于 SRA 系列。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/ra-series/ra0>,
+        <https://ptpge.org/v1/printing/configurations/formats/ra-series/ra1>,
+        <https://ptpge.org/v1/printing/configurations/formats/ra-series/ra2> ;
+    skos:notation "P:CF-RA" ;
+    skos:prefLabel "RA-serien (ISO 217)"@da,
+        "RA-Reihe (ISO 217)"@de,
+        "RA Series (ISO 217)"@en,
+        "Serie RA (ISO 217)"@es,
+        "RA सीरीज़ (ISO 217)"@hi,
+        "RA判（ISO 217）"@ja,
+        "RA-serie (ISO 217)"@nb,
+        "RA-serie (ISO 217)"@nl,
+        "Seria RA (ISO 217)"@pl,
+        "Série RA (ISO 217)"@pt,
+        "RA-serien (ISO 217)"@sv,
+        "RA系列（ISO 217）"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/enfocus-switch> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    skos:definition "Enfocus Switch — leverandørneutral workflow-automatiseringsplatform, der forbinder forskellige prepress-, design- og produktionsværktøjer gennem konfigurerbare flowdefinitioner. Almindelig som middleware."@da,
+        "Enfocus Switch — anbieterneutrale Workflow-Automatisierungsplattform, die verschiedene Druckvorstufen-, Design- und Produktionswerkzeuge über konfigurierbare Flow-Definitionen verbindet. Häufig als Middleware zwischen Systemen, die nicht nativ integriert sind."@de,
+        "Enfocus Switch — vendor-neutral workflow automation platform that connects different prepress, design, and production tools through configurable flow definitions. Common as middleware between systems that don't natively integrate."@en,
+        "Plataforma de orquestación independiente del vendor para conectar herramientas pre-prensa heterogéneas en un flujo automatizado."@es,
+        "Enfocus Switch — विक्रेता-तटस्थ वर्कफ़्लो स्वचालन प्लेटफ़ॉर्म जो कॉन्फ़िगर करने योग्य फ़्लो परिभाषाओं से विभिन्न प्रीप्रेस, डिज़ाइन और उत्पादन औज़ारों को जोड़ता है। मूल रूप से न जुड़ने वाले सिस्टम के बीच मिडलवेयर के रूप में आम।"@hi,
+        "Enfocus Switch — 設定可能なフロー定義を通じて異なる製版、デザイン、生産ツールを接続するベンダー中立のワークフロー自動化プラットフォーム。ネイティブに統合されないシステム間のミドルウェアとして一般的。"@ja,
+        "Enfocus Switch — leverandørnøytral workflow-automasjonsplattform som kobler forskjellige prepress-, design- og produksjonsverktøy gjennom konfigurerbare flytdefinisjoner. Vanlig som middelvare mellom systemer som ikke integrerer direkte."@nb,
+        "Enfocus Switch — leveranciersneutraal workflowautomatiseringsplatform dat verschillende prepress-, ontwerp- en productietools verbindt via configureerbare flowdefinities. Gebruikelijk als middleware."@nl,
+        "Enfocus Switch — niezależna od dostawcy platforma automatyzacji workflow łącząca różne narzędzia prepress, projektowe i produkcyjne przez konfigurowalne definicje przepływów. Powszechna jako oprogramowanie pośredniczące między systemami bez natywnej integracji."@pl,
+        "Enfocus Switch — plataforma de automação de fluxo de trabalho neutra quanto a fornecedores, que conecta diferentes ferramentas de pré-impressão, design e produção por meio de definições de fluxo configuráveis. Comum como middleware entre sistemas que não se integram nativamente."@pt,
+        "Enfocus Switch — leverantörsneutral automationsplattform som kopplar samman olika prepress-, design- och produktionsverktyg genom konfigurerbara flödesdefinitioner. Vanlig som mellanprogram mellan system utan inbyggd integration."@sv,
+        "独立于供应商的编排平台，用于在自动化工作流程中连接异构印前工具。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ENFOCUS-SWITCH" ;
+    skos:prefLabel "Enfocus Switch"@da,
+        "Enfocus Switch"@de,
+        "Enfocus Switch"@en,
+        "Enfocus Switch"@es,
+        "Enfocus Switch"@hi,
+        "Enfocus Switch"@ja,
+        "Enfocus Switch"@nb,
+        "Enfocus Switch"@nl,
+        "Enfocus Switch"@pl,
+        "Enfocus Switch"@pt,
+        "Enfocus Switch"@sv,
+        "Enfocus Switch"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

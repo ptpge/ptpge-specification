@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/enfocus-pitstop-pro",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Enfocus PitStop Pro",
+    "es": "Enfocus PitStop Pro",
+    "zh-Hans": "Enfocus PitStop Pro",
+    "nb": "Enfocus PitStop Pro",
+    "de": "Enfocus PitStop Pro",
+    "ja": "Enfocus PitStop Pro",
+    "sv": "Enfocus PitStop Pro",
+    "da": "Enfocus PitStop Pro",
+    "nl": "Enfocus PitStop Pro",
+    "pl": "Enfocus PitStop Pro",
+    "pt": "Enfocus PitStop Pro",
+    "hi": "Enfocus PitStop Pro"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§ENFOCUS-PITSTOP-PRO",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Enfocus PitStop Pro — industry-standard PDF preflight and fix tool from Enfocus (Belgium). Available as an Adobe Acrobat plug-in and as part of Enfocus Switch automation. Widely used in commercial print prepress.",
+    "nb": "Enfocus PitStop Pro — bransjestandard verktøy for PDF preflight og fiksing fra Enfocus (Belgia). Tilgjengelig som en Adobe Acrobat-plugin og som del av Enfocus Switch-automasjon. Mye brukt i kommersiell trykk-prepress.",
+    "de": "Enfocus PitStop Pro — Industriestandard für PDF-Preflight und -Korrektur von Enfocus (Belgien). Verfügbar als Adobe Acrobat-Plug-in und als Bestandteil der Enfocus Switch-Automatisierung. Weit verbreitet in der gewerblichen Druckvorstufe.",
+    "ja": "Enfocus PitStop Pro — Enfocus（ベルギー）による業界標準のPDFプリフライトおよび修正ツール。Adobe Acrobatプラグインとして、またEnfocus Switch自動化の一部として利用可能。商用印刷の製版で広く使用される。",
+    "es": "Plug-in para Adobe Acrobat de Enfocus, estándar de la industria para preflight y corrección automática de PDF en pre-prensa.",
+    "zh-Hans": "Enfocus为Adobe Acrobat开发的插件，是印前PDF飞检和自动修正的行业标准。",
+    "sv": "Enfocus PitStop Pro — branschstandardverktyg för PDF-preflight och korrigering från Enfocus (Belgien). Finns som Adobe Acrobat-insticksprogram och som del av Enfocus Switch-automation. Brett använt i civiltryckets prepress.",
+    "da": "Enfocus PitStop Pro — branchestandard for PDF-preflight og -reparation fra Enfocus (Belgien). Fås som Adobe Acrobat-plugin og som del af Enfocus Switch-automatisering. Bredt brugt i kommercielt tryk.",
+    "nl": "Enfocus PitStop Pro — de industriestandaard voor PDF-preflight en -reparatie van Enfocus (België). Verkrijgbaar als Adobe Acrobat-plug-in en als onderdeel van Enfocus Switch-automatisering. Breed gebruikt in commercieel drukwerk.",
+    "pl": "Enfocus PitStop Pro — branżowy standard narzędzi do preflightu i naprawy PDF firmy Enfocus (Belgia). Dostępny jako wtyczka do Adobe Acrobat i jako część automatyzacji Enfocus Switch. Szeroko używany w prepressie druku komercyjnego.",
+    "pt": "Enfocus PitStop Pro — ferramenta de preflight e correção de PDF padrão do setor, da Enfocus (Bélgica). Disponível como plug-in do Adobe Acrobat e como parte da automação Enfocus Switch. Amplamente usada na pré-impressão comercial.",
+    "hi": "Enfocus PitStop Pro — Enfocus (बेल्जियम) का उद्योग-मानक PDF प्रीफ़्लाइट और फ़िक्स औज़ार। Adobe Acrobat प्लग-इन और Enfocus Switch स्वचालन के हिस्से के रूप में उपलब्ध। व्यावसायिक प्रिंट प्रीप्रेस में व्यापक रूप से प्रयुक्त।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Preflight",
+        "PreflightParams",
+        "PreflightReport",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.4.14 · p.100",
+        "§6.64 · p.249",
+        "§6.65 · p.250",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 13"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

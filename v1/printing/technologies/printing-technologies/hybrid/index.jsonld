@@ -1,0 +1,61 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Hybrid",
+    "es": "Híbridas",
+    "zh-Hans": "混合",
+    "nb": "Hybrid",
+    "de": "Hybrid",
+    "ja": "ハイブリッド",
+    "sv": "Hybrid",
+    "da": "Hybrid",
+    "nl": "Hybride",
+    "pl": "Hybrydowe",
+    "pt": "Híbrida",
+    "hi": "हाइब्रिड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies",
+  "narrower": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/hybrid-flexo"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Printing technologies that combine analog and digital methods — typically a traditional press augmented with a digital print head for personalization or variable elements.",
+    "nb": "Trykketeknologier som kombinerer analoge og digitale metoder — vanligvis en tradisjonell presse utvidet med et digitalt trykkhode for personalisering eller variable elementer.",
+    "de": "Drucktechnologien, die analoge und digitale Verfahren kombinieren — typischerweise eine traditionelle Druckmaschine, ergänzt um einen digitalen Druckkopf für Personalisierung oder variable Elemente.",
+    "ja": "アナログとデジタルの方法を組み合わせる印刷技術 — 通常、伝統的な印刷機にパーソナライゼーションまたは可変要素のためのデジタルプリントヘッドが追加される。",
+    "es": "Tecnologías de impresión que combinan métodos analógicos y digitales — habitualmente una prensa tradicional aumentada con un cabezal digital para personalización o elementos variables.",
+    "zh-Hans": "结合模拟和数码方法的印刷工艺——通常是传统印刷机加装数码打印头用于个性化或可变元素。",
+    "sv": "Tryckteknologier som kombinerar analoga och digitala metoder — typiskt en traditionell press kompletterad med ett digitalt skrivhuvud för personalisering eller variabla element.",
+    "da": "Trykteknologier, der kombinerer analoge og digitale metoder — typisk en traditionel presse suppleret med et digitalt printhoved til personalisering eller variable elementer.",
+    "nl": "Druktechnologieën die analoge en digitale methoden combineren — doorgaans een traditionele pers aangevuld met een digitale printkop voor personalisatie of variabele elementen.",
+    "pl": "Technologie druku łączące metody analogowe i cyfrowe — zwykle tradycyjna maszyna uzupełniona cyfrową głowicą do personalizacji lub elementów zmiennych.",
+    "pt": "Tecnologias de impressão que combinam métodos analógicos e digitais — normalmente uma impressora tradicional ampliada com uma cabeça de impressão digital para personalização ou elementos variáveis.",
+    "hi": "मुद्रण तकनीकें जो एनालॉग और डिजिटल विधियों को जोड़ती हैं — आमतौर पर पारंपरिक प्रेस में वैयक्तिकरण या परिवर्तनशील तत्वों के लिए डिजिटल प्रिंट हेड जोड़ा जाता है।"
+  },
+  "scopeNote": {
+    "en": "Includes hybrid flexo (flexographic press with one or more digital stations) and digital offset (HP Indigo's liquid-electroink technology, which behaves like offset but is digitally addressable). Bridges the cost-per-impression of analog with the variability of digital.",
+    "nb": "Inkluderer hybrid flexo (fleksografisk presse med en eller flere digitale stasjoner) og digital offset (HP Indigos flytende elektroink-teknologi, som oppfører seg som offset men kan adresseres digitalt). Brobygger mellom analog kostnad-per-avtrykk og digital variabilitet.",
+    "de": "Umfasst Hybrid-Flexo (Flexodruckmaschine mit einer oder mehreren digitalen Stationen) und Digitaloffset (HP Indigos ElectroInk-Technologie, die sich wie Offset verhält, aber digital adressierbar ist). Verbindet die Stückkosten des Analogdrucks mit der Variabilität des Digitaldrucks.",
+    "ja": "ハイブリッドフレキソ（1つ以上のデジタルステーションを備えたフレキソ印刷機）と、デジタルオフセット（HP Indigoの液状エレクトロインキ技術、オフセットのように動作するがデジタルにアドレス可能）を含む。アナログの1印刷あたりのコストとデジタルの可変性を橋渡しする。",
+    "es": "Incluye flexografía híbrida (prensa flexográfica con una o más estaciones digitales) y offset digital (tecnología de tinta electrónica líquida de HP Indigo, que se comporta como offset pero es direccionable digitalmente). Tiende un puente entre el alto volumen analógico y la flexibilidad digital.",
+    "zh-Hans": "包括混合柔印（柔印机配一个或多个数码工位）和数码胶印（HP Indigo的液态电子油墨技术，行为类似胶印但数码可寻址）。在高产量模拟和数码灵活性之间架起桥梁。",
+    "pt": "Inclui flexo híbrida (impressora flexográfica com uma ou mais estações digitais) e offset digital (a tecnologia de ElectroInk líquida da HP Indigo, que se comporta como offset mas é digitalmente endereçável). Une o custo por impressão do analógico à variabilidade do digital.",
+    "hi": "हाइब्रिड फ़्लेक्सो (एक या अधिक डिजिटल स्टेशन वाली फ़्लेक्सोग्राफ़िक प्रेस) और डिजिटल ऑफसेट (HP Indigo की लिक्विड-इलेक्ट्रोइंक तकनीक, जो ऑफसेट जैसी व्यवहार करती है पर डिजिटल रूप से संबोधित होती है) शामिल। एनालॉग की प्रति-इंप्रेशन लागत को डिजिटल की परिवर्तनशीलता से जोड़ता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PTC-HYBR"
+}

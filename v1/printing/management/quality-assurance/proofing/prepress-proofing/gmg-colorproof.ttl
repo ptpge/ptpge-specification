@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/gmg-colorproof> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "GMG ColourProof"@en ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    skos:definition "GMG ColorProof — farvestyret prøvetrykssoftware fra GMG Color (Tyskland), regnet som branchestandard for farvenøjagtige fysiske prøver, der simulerer offset-, dybtryks- og digitaltrykoutput."@da,
+        "GMG ColorProof — farbkontrollierte Proofing-Software von GMG Color (Deutschland), gilt als Industriestandard für farbgenaue Hard Proofs, die Offset-, Tiefdruck- und Digitaldruckausgaben simulieren."@de,
+        "GMG ColorProof — color-managed proofing software from GMG Color (Germany), considered an industry standard for color-accurate hard proofs that simulate offset, gravure, and digital press output."@en,
+        "Sistema GMG ColorProof para pruebas duras con simulación precisa de objetivos CMYK (FOGRA, GRACoL, etc.) sobre dispositivos calibrados."@es,
+        "GMG ColorProof — GMG Color (जर्मनी) का रंग-प्रबंधित प्रूफ़िंग सॉफ़्टवेयर, ऑफसेट, ग्रेव्योर और डिजिटल प्रेस आउटपुट का अनुकरण करने वाले रंग-सटीक हार्ड प्रूफ़ के लिए उद्योग मानक माना जाता है।"@hi,
+        "GMG ColorProof — GMG Color（ドイツ）によるカラーマネジメント校正ソフトウェア。オフセット、グラビア、デジタル印刷機の出力をシミュレートする色精度の高いハードプルーフの業界標準とみなされている。"@ja,
+        "GMG ColorProof — fargestyrt proofing-programvare fra GMG Color (Tyskland), regnet som en bransjestandard for fargenøyaktige hard proofs som simulerer offset-, gravure- og digital-presseutgang."@nb,
+        "GMG ColorProof — kleurbeheerde proefsoftware van GMG Color (Duitsland), beschouwd als industriestandaard voor kleurnauwkeurige fysieke proeven die offset-, diepdruk- en digitaaldrukoutput simuleren."@nl,
+        "GMG ColorProof — oprogramowanie do proofingu z zarządzaniem barwą firmy GMG Color (Niemcy), uznawane za branżowy standard wiernych barwnie hard proofów symulujących druk offsetowy, wklęsły i cyfrowy."@pl,
+        "GMG ColorProof — software de provas com gerenciamento de cor da GMG Color (Alemanha), considerado padrão do setor para provas físicas com cor precisa que simulam a saída de máquinas offset, rotogravura e digitais."@pt,
+        "GMG ColorProof — färghanterad provtrycksprogramvara från GMG Color (Tyskland), betraktad som branschstandard för färgriktiga tryckta prov som simulerar offset-, djuptrycks- och digitalpressutfall."@sv,
+        "GMG ColorProof系统，用于在校准设备上精确模拟CMYK目标（FOGRA、GRACoL等）的硬校样。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§GMG-COLORPROOF" ;
+    skos:prefLabel "GMG ColorProof"@da,
+        "GMG ColorProof"@de,
+        "GMG ColorProof"@en,
+        "GMG ColorProof"@es,
+        "GMG ColorProof"@hi,
+        "GMG ColorProof"@ja,
+        "GMG ColorProof"@nb,
+        "GMG ColorProof"@nl,
+        "GMG ColorProof"@pl,
+        "GMG ColorProof"@pt,
+        "GMG ColorProof"@sv,
+        "GMG ColorProof"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

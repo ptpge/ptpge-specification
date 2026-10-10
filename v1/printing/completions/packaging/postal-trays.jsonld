@@ -1,0 +1,67 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/packaging/postal-trays",
+  "type": "skos:Concept",
+  "version": "2026-08-12",
+  "status": "proposed",
+  "notation": "P:CP§POSTAL-TRAYS",
+  "level": "element",
+  "label": {
+    "en": "Postal Trays",
+    "nb": "Postbakker",
+    "de": "Postbehälter",
+    "es": "Bandejas postales",
+    "ja": "郵便トレイ",
+    "zh-Hans": "邮政周转箱",
+    "sv": "Postbackar",
+    "da": "Postbakker",
+    "nl": "Postbakken",
+    "pl": "Pojemniki pocztowe",
+    "pt": "Caixas postais (bandejas)",
+    "hi": "डाक ट्रे"
+  },
+  "definition": {
+    "en": "Packing finished print in reusable postal trays or crates for injection into the mail stream — standard for direct mail, magazines and addressed distribution.",
+    "nb": "Pakking av ferdig trykksak i gjenbrukbare postbakker eller -kasser for innlevering i postgangen — standard for direktereklame, magasiner og adressert distribusjon.",
+    "de": "Verpacken fertiger Drucksachen in wiederverwendbare Postbehälter für die Einspeisung in den Postweg — Standard für Direktwerbung, Magazine und adressierte Distribution.",
+    "es": "Empaquetado del impreso terminado en bandejas o cajas postales reutilizables para su inyección en el circuito postal — estándar para publicidad directa, revistas y distribución con dirección.",
+    "ja": "完成した印刷物を再利用可能な郵便トレイやコンテナに詰め、郵便網に引き渡す方法。DM、雑誌、宛名付き配布の標準。",
+    "zh-Hans": "将成品印刷品装入可重复使用的邮政周转箱以进入邮政系统 — 直邮、杂志与具名投递的标准做法。",
+    "sv": "Packning av färdigt tryck i återanvändbara postbackar eller postlådor för inmatning i postflödet — standard för direktreklam, tidskrifter och adresserad distribution.",
+    "da": "Pakning af færdigt tryk i genbrugelige postbakker eller -kasser til indlevering i poststrømmen — standard for direct mail, magasiner og adresseret distribution.",
+    "nl": "Afgewerkt drukwerk verpakken in herbruikbare postbakken of -kratten voor aanlevering aan de poststroom — standaard voor direct mail, magazines en geadresseerde distributie.",
+    "pl": "Pakowanie gotowego druku do zwrotnych pojemników lub skrzynek pocztowych w celu nadania do obiegu pocztowego — standard dla direct mail, czasopism i dystrybucji adresowanej.",
+    "pt": "Acondicionar o impresso acabado em bandejas ou caixas postais reutilizáveis para entrada no fluxo postal — padrão para mala direta, revistas e distribuição endereçada.",
+    "hi": "तैयार मुद्रित सामग्री को डाक प्रवाह में डालने के लिए पुन: प्रयोज्य डाक ट्रे या क्रेट में भरना — डायरेक्ट मेल, पत्रिकाओं और पते वाले वितरण के लिए मानक।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/packaging",
+  "elementType": "value",
+  "created": "2026-08-12T11:02:25Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "BoxPacking",
+        "Wrapping",
+        "Shrinking",
+        "Palletizing",
+        "Bundle"
+      ],
+      "refs": [
+        "§5.6.3 · p.113",
+        "§5.6.39 · p.135",
+        "§5.6.28 · p.128",
+        "§5.6.25 · p.126",
+        "§6.10 · p.161"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 48"
+    }
+  ]
+}

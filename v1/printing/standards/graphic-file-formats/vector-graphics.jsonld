@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/vector-graphics",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Vector Graphics",
+    "es": "Gráficos Vectoriales",
+    "zh-Hans": "矢量图形",
+    "nb": "Vektorgrafikk",
+    "de": "Vektorgrafik",
+    "ja": "ベクターグラフィック",
+    "sv": "Vektorgrafik",
+    "da": "Vektorgrafik",
+    "nl": "Vectorgraphics",
+    "pl": "Grafika wektorowa",
+    "pt": "Gráficos vetoriais",
+    "hi": "वेक्टर ग्राफ़िक्स"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/vector-graphics/scalable-vector-graphics"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Image file formats that store visual content as mathematical paths, points, and shapes — scalable to any size without quality loss.",
+    "nb": "Bildefilformater som lagrer visuelt innhold som matematiske baner, punkter og former — skalerbare til enhver størrelse uten kvalitetstap.",
+    "de": "Bilddateiformate, die visuelle Inhalte als mathematische Pfade, Punkte und Formen speichern — verlustfrei auf jede Größe skalierbar.",
+    "ja": "視覚コンテンツを数学的な経路、点、形状として保存する画像ファイル形式 — 品質を損なうことなく任意のサイズに拡大縮小可能。",
+    "es": "Formatos de archivo de imagen que almacenan el contenido visual como trayectorias matemáticas, puntos y formas — escalables a cualquier tamaño sin pérdida de calidad.",
+    "zh-Hans": "将视觉内容存储为数学路径、点和形状的图像文件格式——可缩放至任意尺寸而不损失质量。",
+    "sv": "Bildfilformat som lagrar visuellt innehåll som matematiska banor, punkter och former — skalbara till valfri storlek utan kvalitetsförlust.",
+    "da": "Billedfilformater, der lagrer visuelt indhold som matematiske kurver, punkter og former — skalerbare til enhver størrelse uden kvalitetstab.",
+    "nl": "Beeldbestandsformaten die visuele inhoud opslaan als wiskundige paden, punten en vormen — schaalbaar naar elk formaat zonder kwaliteitsverlies.",
+    "pl": "Formaty plików obrazów przechowujące treść wizualną jako matematyczne ścieżki, punkty i kształty — skalowalne do dowolnego rozmiaru bez utraty jakości.",
+    "pt": "Formatos de arquivo de imagem que armazenam o conteúdo visual como caminhos, pontos e formas matemáticas — escaláveis a qualquer tamanho sem perda de qualidade.",
+    "hi": "छवि फ़ाइल फ़ॉर्मेट जो दृश्य सामग्री को गणितीय पथ, बिंदु और आकृतियों के रूप में संग्रहीत करते हैं — गुणवत्ता खोए बिना किसी भी आकार तक स्केलेबल।"
+  },
+  "scopeNote": {
+    "en": "Centered on SVG (the open W3C standard) for web and print delivery. Native vector files from design applications (Illustrator) are categorized under Native Files; hybrid formats containing both vector and raster (PDF, EPS) are in Hybrid Graphics.",
+    "nb": "Sentrert rundt SVG (den åpne W3C-standarden) for web- og trykklevering. Programspesifikke vektorfiler fra designprogrammer (Illustrator) er kategorisert under Native Files; hybridformater med både vektor og raster (PDF, EPS) hører til Hybrid Graphics.",
+    "de": "Im Mittelpunkt steht SVG (der offene W3C-Standard) für die Web- und Drucklieferung. Anwendungseigene Vektordateien (Illustrator) werden unter Native Files geführt; Hybridformate mit sowohl Vektor- als auch Rasterinhalten (PDF, EPS) gehören zu Hybrid Graphics.",
+    "ja": "ウェブおよび印刷納品向けのオープンなW3C規格であるSVGを中心とする。デザインアプリケーション（Illustrator）のネイティブベクターファイルはNative Filesに分類され、ベクターとラスターの両方を含むハイブリッド形式（PDF、EPS）はHybrid Graphicsに属する。",
+    "es": "Centrado en SVG (la norma abierta del W3C) para entrega web e impresa. Los archivos vectoriales nativos de aplicaciones de diseño (Illustrator) se categorizan en Archivos Nativos; los formatos híbridos que contienen tanto contenido vectorial como raster pertenecen a Gráficos Híbridos.",
+    "zh-Hans": "以SVG（W3C的开放标准）为中心，用于网络和印刷交付。设计应用程序（Illustrator）的原生矢量文件在原生文件中分类；包含矢量和位图内容的混合格式属于混合图形。",
+    "pt": "Centrado no SVG (a norma aberta do W3C) para entrega web e impressa. Arquivos vetoriais nativos de aplicativos de design (Illustrator) ficam em Arquivos nativos; formatos híbridos com vetor e raster (PDF, EPS) ficam em Gráficos híbridos.",
+    "hi": "वेब और प्रिंट डिलीवरी के लिए SVG (खुला W3C मानक) पर केंद्रित। डिज़ाइन एप्लिकेशनों (Illustrator) की नेटिव वेक्टर फ़ाइलें नेटिव फ़ाइलों में; वेक्टर और रास्टर दोनों वाले हाइब्रिड फ़ॉर्मेट (PDF, EPS) हाइब्रिड ग्राफ़िक्स में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-GFF-VECT",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/features> ;
+    skos:definition "Visuelle overfladebehandlinger påført en tryksag — lak og laminering — der ændrer dens glans, taktile fornemmelse og holdbarhed."@da,
+        "Visuelle Oberflächenbehandlungen eines Druckerzeugnisses — Lack und Laminierung — die Glanz, Haptik und Haltbarkeit verändern."@de,
+        "Visual surface treatments applied to a printed piece — varnish and lamination — that change its sheen, tactile feel and durability."@en,
+        "Tratamientos visuales de superficie aplicados a una pieza impresa — barniz y laminado — que cambian su brillo, tacto y durabilidad."@es,
+        "मुद्रित सामग्री पर लगाए गए दृश्य सतह उपचार — वार्निश और लैमिनेशन — जो उसकी चमक, स्पर्श और टिकाऊपन बदलते हैं।"@hi,
+        "印刷物に施す視覚的な表面処理 — ニスとラミネート — で、光沢、手触り、耐久性を変える。"@ja,
+        "Visuelle overflatebehandlinger på et trykk — lakk og laminering — som endrer glans, følelse og holdbarhet."@nb,
+        "Visuele oppervlaktebehandelingen op drukwerk — lak en laminaat — die glans, tactiel gevoel en duurzaamheid veranderen."@nl,
+        "Wizualne zabiegi powierzchniowe stosowane na druku — lakier i laminowanie — zmieniające jego połysk, odczucie dotykowe i trwałość."@pl,
+        "Tratamentos visuais de superfície aplicados a um impresso — verniz e laminação — que alteram seu brilho, toque e durabilidade."@pt,
+        "Visuella ytbehandlingar applicerade på en trycksak — lack och laminering — som förändrar dess lyster, taktila känsla och hållbarhet."@sv,
+        "施加于印刷品的视觉性表面处理 — 上光与覆膜 — 改变其光泽、手感与耐久性。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/features/surface-finish/lamination>,
+        <https://ptpge.org/v1/printing/features/surface-finish/none>,
+        <https://ptpge.org/v1/printing/features/surface-finish/varnish> ;
+    skos:notation "P:FT-SFI" ;
+    skos:prefLabel "Overfladefinish"@da,
+        "Oberflächenfinish"@de,
+        "Surface Finish"@en,
+        "Surface Finish"@es,
+        "सतह फ़िनिश"@hi,
+        "Surface Finish"@ja,
+        "Overflatefinish"@nb,
+        "Oppervlakteafwerking"@nl,
+        "Wykończenie powierzchni"@pl,
+        "Acabamento de superfície"@pt,
+        "Ytbehandling"@sv,
+        "Surface Finish"@zh-Hans ;
+    ptpge:group "features" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

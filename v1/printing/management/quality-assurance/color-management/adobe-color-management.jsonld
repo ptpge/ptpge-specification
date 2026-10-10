@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/color-management/adobe-color-management",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Adobe Color Management",
+    "es": "Adobe Color Management",
+    "zh-Hans": "Adobe Color Management",
+    "nb": "Adobe Color Management",
+    "de": "Adobe Color Management",
+    "ja": "Adobe Color Management",
+    "sv": "Adobe Color Management",
+    "da": "Adobe Color Management",
+    "nl": "Adobe Color Management",
+    "pl": "Zarządzanie barwą Adobe",
+    "pt": "Adobe Color Management",
+    "hi": "Adobe Color Management"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§ADOBE-COLOR-MANAGEMENT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/color-management",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Adobe's color management framework integrated into Photoshop, Illustrator, InDesign, and Acrobat — handles ICC profile assignment, conversion, and soft-proofing across the Creative Suite.",
+    "nb": "Adobes fargestyrings-rammeverk integrert i Photoshop, Illustrator, InDesign og Acrobat — håndterer ICC-profiltildeling, konvertering og soft-proofing på tvers av Creative Suite.",
+    "de": "Adobes Farbmanagement-Framework, integriert in Photoshop, Illustrator, InDesign und Acrobat — verwaltet die Zuweisung, Konvertierung und Soft-Proof-Vorschau von ICC-Profilen über die Creative Suite hinweg.",
+    "ja": "Photoshop、Illustrator、InDesign、Acrobatに統合されたAdobeのカラーマネジメントフレームワーク — Creative Suite全体にわたるICCプロファイルの割り当て、変換、ソフトプルーフを処理する。",
+    "es": "Sistema de gestión de color integrado en las aplicaciones Adobe Creative Cloud, basado en perfiles ICC y configuraciones de color compartidas entre Photoshop, Illustrator, InDesign y Acrobat.",
+    "zh-Hans": "集成在Adobe Creative Cloud应用程序中的色彩管理系统，基于ICC配置文件和Photoshop、Illustrator、InDesign及Acrobat之间共享的色彩设置。",
+    "sv": "Adobes färghanteringsramverk integrerat i Photoshop, Illustrator, InDesign och Acrobat — hanterar tilldelning av ICC-profiler, konvertering och skärmprovtryck genom hela Creative Suite.",
+    "da": "Adobes farvestyringsramme integreret i Photoshop, Illustrator, InDesign og Acrobat — håndterer tildeling af ICC-profiler, konvertering og soft-proofing på tværs af Creative Suite.",
+    "nl": "Adobes kleurbeheerraamwerk, geïntegreerd in Photoshop, Illustrator, InDesign en Acrobat — verzorgt ICC-profieltoewijzing, conversie en soft-proofing door de hele Creative Suite.",
+    "pl": "Framework zarządzania barwą Adobe zintegrowany z Photoshopem, Illustratorem, InDesignem i Acrobatem — obsługuje przypisywanie profili ICC, konwersję i soft-proofing w całym pakiecie Creative Suite.",
+    "pt": "Quadro de gerenciamento de cor da Adobe integrado ao Photoshop, Illustrator, InDesign e Acrobat — trata atribuição de perfil ICC, conversão e prova de tela em toda a Creative Suite.",
+    "hi": "Photoshop, Illustrator, InDesign और Acrobat में एकीकृत Adobe का रंग प्रबंधन ढाँचा — पूरी Creative Suite में ICC प्रोफ़ाइल असाइनमेंट, रूपांतरण और सॉफ़्ट-प्रूफ़िंग संभालता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Adobe Colour Management"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorCorrection",
+        "ColorSpaceConversion",
+        "PrintCondition"
+      ],
+      "refs": [
+        "§5.4.2 · p.91",
+        "§5.4.3 · p.91",
+        "§6.68 · p.252"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 12"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/color-management",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

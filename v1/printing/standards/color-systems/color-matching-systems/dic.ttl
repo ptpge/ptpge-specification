@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/dic> a skos:Concept ;
+    dcterms:created "2026-08-27T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "DIC Farbfächer"@de,
+        "DIC Color Guide"@en,
+        "DIC Colors"@en,
+        "Dainippon Ink"@en,
+        "DIC Color Guide"@hi,
+        "DIC Colors"@hi,
+        "Dainippon Ink"@hi,
+        "DIC カラーガイド"@ja,
+        "DICカラー"@ja,
+        "DIC-fargeguide"@nb,
+        "DIC Color Guide"@pl,
+        "Dainippon Ink"@pl,
+        "kolory DIC"@pl,
+        "DIC Color Guide"@pt,
+        "DIC Colors"@pt,
+        "Dainippon Ink"@pt,
+        "DIC色卡"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems> ;
+    skos:definition "DIC Color Guide — Japanese spot-colour matching system from DIC Corporation, used alongside Toyo as a standard reference in the Japanese market."@en,
+        "DIC Color Guide — DIC Corporation की जापानी स्पॉट-कलर मिलान प्रणाली, जापानी बाज़ार में Toyo के साथ मानक संदर्भ के रूप में प्रयुक्त।"@hi,
+        "DIC Color Guide — japansk system for spotfargematching fra DIC Corporation, brukt side om side med Toyo som standardreferanse i det japanske markedet."@nb,
+        "DIC Color Guide — japoński system wzorcowania kolorów dodatkowych firmy DIC Corporation, używany obok Toyo jako standardowe odniesienie na rynku japońskim."@pl,
+        "DIC Color Guide — sistema japonês de correspondência de cores especiais da DIC Corporation, usado junto com a Toyo como referência padrão no mercado japonês."@pt ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§DIC" ;
+    skos:prefLabel "DIC"@da,
+        "DIC"@de,
+        "DIC"@en,
+        "DIC"@es,
+        "DIC"@hi,
+        "DIC"@ja,
+        "DIC"@nb,
+        "DIC"@nl,
+        "DIC"@pl,
+        "DIC"@pt,
+        "DIC"@sv,
+        "DIC"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/gracol-2013> a skos:Concept ;
+    dcterms:created "2026-06-17T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "G7 GRACoL"@en,
+        "GRACoL"@en,
+        "GRACoL2013"@en,
+        "G7 GRACoL"@hi,
+        "GRACoL"@hi,
+        "GRACoL2013"@hi,
+        "G7 GRACoL"@pl,
+        "GRACoL"@pl,
+        "GRACoL2013"@pl,
+        "G7 GRACoL"@pt,
+        "GRACoL"@pt,
+        "GRACoL2013"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Idealliance-specifikation for eksklusiv arkoffset på bestrøget Grade 1-papir (GRACoL2013 / CRPC6)."@da,
+        "Idealliance-Spezifikation für Premium-Bogenoffset auf gestrichenem Grade-1-Papier (GRACoL2013 / CRPC6)."@de,
+        "Idealliance specification for premium sheetfed offset on Grade 1 coated stock (GRACoL2013 / CRPC6)."@en,
+        "Especificación de Idealliance para ófset de pliegos premium sobre papel estucado Grade 1 (GRACoL2013 / CRPC6)."@es,
+        "Grade 1 कोटेड स्टॉक पर प्रीमियम शीटफ़ेड ऑफसेट के लिए Idealliance विनिर्देश (GRACoL2013 / CRPC6)।"@hi,
+        "グレード1塗工紙上のプレミアム枚葉オフセット向け Idealliance 仕様（GRACoL2013／CRPC6）。"@ja,
+        "Idealliance-spesifikasjon for høykvalitets arkoffset på bestrøket papir (GRACoL2013 / CRPC6)."@nb,
+        "Idealliance-specificatie voor premium vellenoffset op gestreken Grade 1-papier (GRACoL2013 / CRPC6)."@nl,
+        "Specyfikacja Idealliance dla arkuszowego offsetu premium na papierze powlekanym klasy 1 (GRACoL2013 / CRPC6)."@pl,
+        "Especificação da Idealliance para offset de folha premium em papel revestido Grade 1 (GRACoL2013 / CRPC6)."@pt,
+        "Idealliance-specifikation för exklusiv arkoffset på bestruket Grade 1-papper (GRACoL2013 / CRPC6)."@sv,
+        "Idealliance 面向一级涂布纸高档单张纸胶印的规范（GRACoL2013 / CRPC6）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§GRACOL-2013" ;
+    skos:prefLabel "GRACoL 2013"@da,
+        "GRACoL 2013"@en,
+        "GRACoL 2013"@hi,
+        "GRACoL 2013"@nb,
+        "GRACoL 2013"@nl,
+        "GRACoL 2013"@pl,
+        "GRACoL 2013"@pt,
+        "GRACoL 2013"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-17" .
+

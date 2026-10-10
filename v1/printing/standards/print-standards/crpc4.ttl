@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/crpc4> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "CRPC 4"@en,
+        "Characterized Reference Printing Condition 4"@en,
+        "CRPC 4"@hi,
+        "Characterized Reference Printing Condition 4"@hi,
+        "CRPC 4"@pl,
+        "Characterized Reference Printing Condition 4"@pl,
+        "CRPC 4"@pt,
+        "Characterized Reference Printing Condition 4"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Karakteriseret referencetrykbetingelse 4 i ISO/PAS 15339-2:2015 (CGATS 21-2): generelt tryk på superkalandreret papir. Procesuafhængige referencebetingelser der spænder over de trykbare farverum."@da,
+        "Charakterisierte Referenzdruckbedingung 4 nach ISO/PAS 15339-2:2015 (CGATS 21-2): allgemeiner Druck auf superkalandriertem Papier. Prozessunabhängige Referenzbedingungen über die Spanne der druckbaren Farbräume."@de,
+        "Characterized Reference Printing Condition 4 of ISO/PAS 15339-2:2015 (CGATS 21-2): general printing on supercalendered paper. Process-agnostic reference conditions spanning the range of printable gamuts."@en,
+        "Condición de impresión de referencia caracterizada 4 de ISO/PAS 15339-2:2015 (CGATS 21-2): impresión general en papel supercalandrado. Condiciones de referencia independientes del proceso que abarcan las gamas imprimibles."@es,
+        "ISO/PAS 15339-2:2015 (CGATS 21-2) की Characterized Reference Printing Condition 4: सुपरकैलेंडर्ड काग़ज़ पर सामान्य मुद्रण। मुद्रण-योग्य गैमट की सीमा को समेटने वाली प्रक्रिया-निरपेक्ष संदर्भ स्थितियाँ।"@hi,
+        "ISO/PAS 15339-2:2015（CGATS 21-2）の特性化参照印刷条件 4：スーパーカレンダー紙への一般印刷。印刷可能な色域の範囲をカバーする、プロセス非依存の参照条件。"@ja,
+        "Karakterisert referanse-trykkbetingelse 4 i ISO/PAS 15339-2:2015 (CGATS 21-2): generelt trykk på superkalandrert papir. Prosessuavhengige referansebetingelser som spenner over de trykkbare fargerommene."@nb,
+        "Gekarakteriseerde referentiedrukconditie 4 van ISO/PAS 15339-2:2015 (CGATS 21-2): algemeen drukwerk op supergekalanderd papier. Procesonafhankelijke referentiecondities die het bereik van drukbare kleurbereiken omspannen."@nl,
+        "Characterized Reference Printing Condition 4 wg ISO/PAS 15339-2:2015 (CGATS 21-2): druk ogólny na papierze superkalandrowanym. Warunki odniesienia niezależne od procesu, obejmujące zakres drukowalnych gamutów."@pl,
+        "Characterized Reference Printing Condition 4 da ISO/PAS 15339-2:2015 (CGATS 21-2): impressão geral em papel supercalandrado. Condições de referência independentes de processo que abrangem a gama de gamuts imprimíveis."@pt,
+        "Karakteriserat referenstryckvillkor 4 i ISO/PAS 15339-2:2015 (CGATS 21-2): allmänt tryck på superkalandrerat papper. Processoberoende referensvillkor som spänner över de tryckbara färgomfången."@sv,
+        "ISO/PAS 15339-2:2015（CGATS 21-2）特性化参考印刷条件 4：超级压光纸上的一般印刷。与工艺无关、覆盖可印刷色域范围的参考条件。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§CRPC4" ;
+    skos:prefLabel "CRPC4"@da,
+        "CRPC4"@en,
+        "CRPC4"@hi,
+        "CRPC4"@nb,
+        "CRPC4"@nl,
+        "CRPC4"@pl,
+        "CRPC4"@pt,
+        "CRPC4"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

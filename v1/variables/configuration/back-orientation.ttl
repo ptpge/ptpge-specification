@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/configuration/back-orientation> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "orientacja strony tylnej"@pl ;
+    skos:broader <https://ptpge.org/v1/variables/configuration> ;
+    skos:definition "Hvordan bagsiden af et tosidet produkt er orienteret i forhold til forsiden: top-mod-top (samme vej) eller top-mod-fod (roteret 180°). Synligt for køberen og produktafhængigt — en bordkalender læses top-mod-top, en vægkalender der bladres over toppen top-mod-fod. Kilde: XJDF LayoutIntent@Sides. Ubundet betyder uspecificeret."@da,
+        "Ausrichtung der Rückseite eines beidseitigen Produkts relativ zur Vorderseite: Kopf-an-Kopf (gleiche Richtung) oder Kopf-an-Fuß (um 180° gedreht). Käuferrelevant und produktabhängig — ein Tischkalender liest sich Kopf-an-Kopf, ein über den Kopf geblätterter Wandkalender Kopf-an-Fuß. Quelle: XJDF LayoutIntent@Sides. Ungebunden bedeutet unspezifiziert."@de,
+        "How the back side of a two-sided product is oriented relative to the front: head-to-head (same way up) or head-to-foot (rotated 180°). Buyer-visible and product-dependent — a desk calendar reads head-to-head, a wall calendar flipped over the top reads head-to-foot. Source: XJDF LayoutIntent@Sides. Unbound means unspecified."@en,
+        "Orientación del reverso de un producto a dos caras respecto al anverso: cabeza con cabeza (misma dirección) o cabeza con pie (girado 180°). Visible para el comprador y dependiente del producto: un calendario de mesa se lee cabeza con cabeza; un calendario de pared que se pasa por arriba, cabeza con pie. Fuente: XJDF LayoutIntent@Sides. Sin vincular significa sin especificar."@es,
+        "दो-तरफ़ा उत्पाद का पिछला हिस्सा सामने के सापेक्ष कैसे रखा है: हेड-टू-हेड (एक ही दिशा में) या हेड-टू-फ़ुट (180° घुमा हुआ)। खरीदार को दिखने वाला और उत्पाद पर निर्भर — डेस्क कैलेंडर हेड-टू-हेड पढ़ा जाता है, ऊपर से पलटने वाला दीवार कैलेंडर हेड-टू-फ़ुट। स्रोत: XJDF LayoutIntent@Sides। अनबाउंड का अर्थ अनिर्दिष्ट।"@hi,
+        "両面製品の裏面が表面に対してどの向きかを表す：天地同方向（head-to-head）または180°回転（head-to-foot）。購入者に見える製品依存の属性で、卓上カレンダーは天地同方向、上辺でめくる壁掛けカレンダーは天地逆になる。出典：XJDF LayoutIntent@Sides。未束縛は未指定を意味する。"@ja,
+        "Hvordan baksiden av et tosidig produkt er orientert i forhold til forsiden: topp-mot-topp (samme vei) eller topp-mot-bunn (rotert 180°). Kjøpersynlig og produktavhengig — en bordkalender leses topp-mot-topp, en veggkalender som bles over toppen leses topp-mot-bunn. Kilde: XJDF LayoutIntent@Sides. Ubundet betyr uspesifisert."@nb,
+        "Hoe de achterzijde van een tweezijdig product is georiënteerd ten opzichte van de voorzijde: kop-aan-kop (dezelfde kant op) of kop-aan-voet (180° gedraaid). Zichtbaar voor de koper en productafhankelijk — een bureaukalender leest kop-aan-kop, een wandkalender die over de bovenkant omslaat kop-aan-voet. Bron: XJDF LayoutIntent@Sides. Ongebonden betekent niet gespecificeerd."@nl,
+        "Jak strona tylna produktu dwustronnego jest zorientowana względem przedniej: głowa do głowy (tak samo do góry) lub głowa do stopy (obrócona o 180°). Widoczna dla nabywcy i zależna od produktu — kalendarz biurkowy czyta się głowa do głowy, kalendarz ścienny przewracany przez górę czyta się głowa do stopy. Źródło: XJDF LayoutIntent@Sides. Brak wartości oznacza nieokreślone."@pl,
+        "Como o verso de um produto de dois lados está orientado em relação à frente: cabeça com cabeça (mesmo sentido) ou cabeça com pé (girado 180°). Visível ao comprador e dependente do produto — um calendário de mesa lê-se cabeça com cabeça, um calendário de parede virado pelo topo lê-se cabeça com pé. Fonte: XJDF LayoutIntent@Sides. Não vinculado significa não especificado."@pt,
+        "Hur baksidan av en tvåsidig produkt är orienterad i förhållande till framsidan: huvud-mot-huvud (samma håll) eller huvud-mot-fot (roterad 180°). Synligt för köparen och produktberoende — en bordskalender läses huvud-mot-huvud, en väggkalender som bläddras över toppen huvud-mot-fot. Källa: XJDF LayoutIntent@Sides. Obundet betyder ospecificerat."@sv,
+        "双面产品背面相对正面的方向：天对天（同向）或天对地（旋转180°）。买方可见且取决于产品——台历为天对天，从顶部翻页的挂历为天对地。来源：XJDF LayoutIntent@Sides。未绑定即未指定。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:CF§BACK-ORIENTATION" ;
+    skos:prefLabel "Bagsideorientering"@da,
+        "Rückseitenausrichtung"@de,
+        "Back Orientation"@en,
+        "Orientación del reverso"@es,
+        "पीछे की दिशा"@hi,
+        "裏面の向き"@ja,
+        "Baksideorientering"@nb,
+        "Achterzijde-oriëntatie"@nl,
+        "Orientacja rewersu"@pl,
+        "Orientação do verso"@pt,
+        "Baksidesorientering"@sv,
+        "背面方向"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken vej vender bagsiden?"@da,
+        "Wie ist die Rückseite ausgerichtet?"@de,
+        "Which way up is the back?"@en,
+        "¿Cómo va orientado el reverso?"@es,
+        "पीछे का हिस्सा किस दिशा में?"@hi,
+        "裏面の向きは？"@ja,
+        "Hvilken vei vender baksiden?"@nb,
+        "Hoe staat de achterkant?"@nl,
+        "Jak zorientowany jest tył?"@pl,
+        "Como fica orientado o verso?"@pt,
+        "Åt vilket håll vänder baksidan?"@sv,
+        "背面的方向是？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78" ;
+            ptpge:mappingRow "LayoutIntent@Sides" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "LayoutIntent@Sides" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/configurations/back-orientation> ;
+    ptpge:version "2026-09-03" .
+

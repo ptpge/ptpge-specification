@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/environmental/carbon/climatecalc> a skos:Concept ;
+    dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental/carbon> ;
+    skos:definition "Trykbranchens ramme for CO₂-beregning, støttet af Intergraf, der beregner CO₂-aftryk på både virksomheds- og produktniveau (pr. ordre) efter en fælles branchemetodik. Sektorens eget instrument til sammenlignelige CO₂e-deklarationer pr. trykopgave."@da,
+        "Von Intergraf getragenes CO₂-Berechnungsrahmenwerk der Druckindustrie, das sowohl Betriebs- als auch Produktebene (pro Auftrag) nach einer gemeinsamen Branchenmethodik berechnet. Das brancheneigene Instrument für vergleichbare CO₂e-Deklarationen je Druckauftrag."@de,
+        "Print-industry carbon calculation framework endorsed by Intergraf, computing both plant-level and product-level (per-order) carbon footprints on a common industry methodology. The sector's own instrument for comparable CO₂e declarations per print job."@en,
+        "Marco de cálculo de carbono de la industria gráfica respaldado por Intergraf, que calcula huellas a nivel de planta y de producto (por pedido) con una metodología sectorial común. El instrumento propio del sector para declaraciones de CO₂e comparables por trabajo."@es,
+        "Intergraf द्वारा समर्थित प्रिंट-उद्योग कार्बन गणना ढाँचा, जो एक साझा उद्योग पद्धति पर संयंत्र-स्तर और उत्पाद-स्तर (प्रति-ऑर्डर) कार्बन फ़ुटप्रिंट दोनों निकालता है। प्रति प्रिंट जॉब तुलनीय CO₂e घोषणाओं के लिए क्षेत्र का अपना साधन।"@hi,
+        "Intergrafが支持する印刷業界のカーボン計算枠組み。共通の業界方法論で工場レベルと製品レベル（受注ごと）の両方のカーボンフットプリントを算出する。印刷ジョブごとの比較可能なCO₂e宣言のための業界自身の手段。"@ja,
+        "Trykkbransjens karbonkalkyle-rammeverk, støttet av Intergraf, som beregner både bedrifts- og produktnivå (per ordre) på en felles bransjemetodikk. Bransjens eget instrument for sammenlignbare CO₂e-deklarasjoner per trykkjobb."@nb,
+        "CO₂-rekenkader van de grafische industrie, gesteund door Intergraf, dat de voetafdruk berekent op zowel bedrijfs- als productniveau (per order) volgens een gemeenschappelijke branchemethodiek. Het eigen instrument van de sector voor vergelijkbare CO₂e-declaraties per drukopdracht."@nl,
+        "Branżowe ramy obliczania śladu węglowego w poligrafii, popierane przez Intergraf, obliczające ślad węglowy zarówno na poziomie zakładu, jak i produktu (na zamówienie) według wspólnej metodologii branżowej. Własny instrument sektora do porównywalnych deklaracji CO₂e na zlecenie drukarskie."@pl,
+        "Quadro de cálculo de carbono da indústria gráfica endossado pela Intergraf, que calcula pegadas de carbono tanto no nível da planta quanto do produto (por pedido) numa metodologia comum do setor. O instrumento próprio do setor para declarações comparáveis de CO₂e por trabalho impresso."@pt,
+        "Tryckbranschens ramverk för koldioxidberäkning, stött av Intergraf, som beräknar koldioxidavtryck på både anläggnings- och produktnivå (per order) enligt en gemensam branschmetodik. Sektorns eget instrument för jämförbara CO₂e-deklarationer per tryckjobb."@sv,
+        "由 Intergraf 支持的印刷业碳计算框架，按统一行业方法论计算工厂级和产品级（每订单）碳足迹。是行业自身用于每个印刷作业可比 CO₂e 声明的工具。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§CLIMATECALC" ;
+    skos:prefLabel "ClimateCalc"@da,
+        "ClimateCalc"@de,
+        "ClimateCalc"@en,
+        "ClimateCalc"@es,
+        "ClimateCalc"@hi,
+        "ClimateCalc"@ja,
+        "ClimateCalc"@nb,
+        "ClimateCalc"@nl,
+        "ClimateCalc"@pl,
+        "ClimateCalc"@pt,
+        "ClimateCalc"@sv,
+        "ClimateCalc"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-07-18" .
+

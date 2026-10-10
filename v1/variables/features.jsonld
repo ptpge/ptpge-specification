@@ -1,0 +1,48 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/features",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "group",
+  "label": {
+    "en": "Features",
+    "nb": "Egenskaper",
+    "de": "Merkmale",
+    "es": "Características",
+    "ja": "特性",
+    "zh-Hans": "特性",
+    "sv": "Egenskaper",
+    "da": "Karakteristika",
+    "nl": "Kenmerken",
+    "pl": "Cechy",
+    "pt": "Características",
+    "hi": "फ़ीचर"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables",
+  "created": "2026-06-17T10:05:27Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "VAR:FT",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "narrower": [
+    "https://ptpge.org/v1/variables/features/color-mode",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish"
+  ],
+  "definition": {
+    "en": "Feature configuration variables — the visual and tactile feature axes a printed product can be configured along: color mode, surface finish and embellishment.",
+    "nb": "Egenskapsvariabler — aksene for visuelle og taktile egenskaper et trykkprodukt kan konfigureres langs: fargemodus, overflatebehandling og dekor.",
+    "de": "Merkmal-Konfigurationsvariablen — die Achsen visueller und haptischer Merkmale, entlang derer ein Druckprodukt konfiguriert werden kann: Farbmodus, Oberflächenveredelung und Zusatzveredelung.",
+    "es": "Variables de configuración de características — los ejes de características visuales y táctiles a lo largo de los cuales puede configurarse un producto impreso: modo de color, acabado superficial y ornamentación.",
+    "ja": "特性の構成変数 — 印刷物を構成できる視覚的・触覚的特性の軸。カラーモード、表面加工、加飾など。",
+    "zh-Hans": "特性配置变量 — 印刷品可沿其配置的视觉与触觉特性轴：色彩模式、表面处理与装饰工艺。",
+    "sv": "Konfigurationsvariabler för egenskaper — de visuella och taktila egenskapsaxlar en trycksak kan konfigureras längs: färgläge, ytbehandling och dekor.",
+    "da": "Karakteristik-konfigurationsvariabler — de visuelle og taktile akser et trykt produkt kan konfigureres langs: farvetilstand, overfladefinish og forædling.",
+    "nl": "Kenmerk-configuratievariabelen — de visuele en tactiele assen waarlangs een drukproduct kan worden geconfigureerd: kleurmodus, oppervlakteafwerking en veredeling.",
+    "pl": "Zmienne konfiguracyjne cech — osie cech wizualnych i dotykowych, wzdłuż których można skonfigurować produkt drukowany: tryb koloru, wykończenie powierzchni i uszlachetnienie.",
+    "pt": "Variáveis de configuração de características — os eixos visuais e táteis ao longo dos quais um impresso pode ser configurado: modo de cor, acabamento de superfície e enobrecimento.",
+    "hi": "फ़ीचर कॉन्फ़िगरेशन वेरिएबल — वे दृश्य और स्पर्श अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है: कलर मोड, सरफ़ेस फ़िनिश और एम्बेलिशमेंट।"
+  }
+}

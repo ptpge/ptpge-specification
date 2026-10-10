@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle> a skos:Concept ;
+    dcterms:created "2026-06-19T10:33:12+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Radius corners"@en,
+        "Round-cornered"@en,
+        "Rounded corners"@en,
+        "गोल कोने"@hi,
+        "राउंडेड कॉर्नर"@hi,
+        "रेडियस कोने"@hi,
+        "Avrundede hjørner"@nb,
+        "Runde hjørner"@nb,
+        "rogi z promieniem"@pl,
+        "z zaokrąglonymi narożnikami"@pl,
+        "zaokrąglone rogi"@pl,
+        "cantos arredondados"@pt,
+        "cantos com raio"@pt,
+        "cantos redondos"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/shape> ;
+    skos:definition "Rektangulær kontur med runde hjørner — almindelig til kort, etiketter og skilte; fremstilles med stanseform eller konturskæring."@da,
+        "Rechteckiger Umriss mit abgerundeten Ecken — üblich bei Karten, Etiketten und Beschilderung; per Stanze oder Konturschnitt."@de,
+        "Rectangular outline with rounded corners — common for cards, labels and signage; produced with a die or contour cut."@en,
+        "Contorno rectangular con esquinas redondeadas — común en tarjetas, etiquetas y señalización; producido con troquel o corte de contorno."@es,
+        "गोल कोनों वाली आयताकार रूपरेखा — कार्ड, लेबल और साइनेज में आम; डाई या कंटूर कट से।"@hi,
+        "角を丸めた長方形の輪郭 — カード、ラベル、サインでよく使われ、型または輪郭カットで作る。"@ja,
+        "Rektangulært omriss med avrundede hjørner — vanlig for kort, etiketter og skilt; laget med stanse- eller konturskjæring."@nb,
+        "Rechthoekige contour met afgeronde hoeken — gemaakt door hoekafronding of stansen. Gebruikelijk voor visitekaartjes, speelkaarten en duurzaam drukwerk."@nl,
+        "Prostokątny obrys z zaokrąglonymi rogami — typowy dla kart, etykiet i oznakowania; uzyskiwany wykrojnikiem lub cięciem konturowym."@pl,
+        "Contorno retangular com cantos arredondados — comum em cartões, rótulos e sinalização; obtido com faca ou corte de contorno."@pt,
+        "Rektangulär kontur med rundade hörn — vanlig för kort, etiketter och skyltar; framställs med stans eller konturskärning."@sv,
+        "圆角矩形轮廓 — 常见于卡片、标签与标识；用模具或轮廓切割制成。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ROUNDED-RECTANGLE" ;
+    skos:prefLabel "Rektangel med runde hjørner"@da,
+        "Abgerundetes Rechteck"@de,
+        "Rounded Rectangle"@en,
+        "Rectángulo Redondeado"@es,
+        "गोल कोनों वाला आयत"@hi,
+        "角丸長方形"@ja,
+        "Avrundet rektangel"@nb,
+        "Rechthoek met ronde hoeken"@nl,
+        "Prostokąt z zaokrąglonymi rogami"@pl,
+        "Retângulo arredondado"@pt,
+        "Rektangel med rundade hörn"@sv,
+        "圆角矩形"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.13 · p.81" ;
+            ptpge:mappingRow "crosswalk row 22" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "ShapeCuttingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

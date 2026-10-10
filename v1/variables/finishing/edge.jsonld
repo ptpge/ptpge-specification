@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/finishing/edge",
+  "type": "skos:Concept",
+  "version": "2026-09-20",
+  "status": "proposed",
+  "notation": "VAR:FN§EDGE",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Fold / Binding Edge",
+    "nb": "Brette-/innbindingskant",
+    "sv": "Fals-/bindningskant",
+    "da": "Fals-/indbindingskant",
+    "de": "Falz-/Bindekante",
+    "nl": "Vouw-/bindzijde",
+    "pl": "Krawędź składania / oprawy",
+    "es": "Borde de plegado / encuadernación",
+    "ja": "折り・綴じ辺",
+    "zh-Hans": "折页/装订边",
+    "pt": "Borda de dobra / encadernação",
+    "hi": "फ़ोल्ड / बाइंडिंग किनारा"
+  },
+  "altLabels": {
+    "en": [
+      "Fold Direction",
+      "Binding Edge"
+    ],
+    "nb": [
+      "Bretteretning",
+      "Falseretning"
+    ],
+    "pl": [
+      "kierunek składania",
+      "krawędź oprawy"
+    ],
+    "pt": [
+      "sentido da dobra",
+      "borda de encadernação",
+      "lado da lombada"
+    ],
+    "hi": [
+      "फ़ोल्ड की दिशा",
+      "बाइंडिंग किनारा",
+      "बाइंडिंग साइड"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Fold Direction. A printed product is configured along this variable (enum, single selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Bretteretning. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Falzrichtung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Dirección de plegado. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：折り方向。印刷物はこの変数に沿って構成される（列挙型、単一選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：折页方向。印刷品沿此变量进行配置（枚举，单选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Falsriktning. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Falsretning. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Vouwrichting. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Kierunek składania. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Sentido da Dobra. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: फ़ोल्ड की दिशा। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Which edge finish?",
+    "nb": "Hvilken kantbehandling?",
+    "de": "Welche Kantenveredelung?",
+    "es": "¿Qué acabado de borde?",
+    "ja": "小口の仕上げは？",
+    "zh-Hans": "边缘如何处理？",
+    "sv": "Vilken kantbehandling?",
+    "da": "Hvilken kantbehandling?",
+    "nl": "Welke randafwerking?",
+    "pl": "Jakie wykończenie krawędzi?",
+    "pt": "Que acabamento de borda?",
+    "hi": "किनारे की फ़िनिश?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/completions/fold-binding-edge",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

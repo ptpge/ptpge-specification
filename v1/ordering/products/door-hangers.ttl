@@ -1,0 +1,145 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/door-hangers> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "dørhænger"@da,
+        "dørskilt"@da,
+        "forstyr ikke-skilt"@da,
+        "Türanhänger"@de,
+        "Türhänger-Karten"@de,
+        "Door hanger"@en,
+        "Door knob hanger"@en,
+        "door hanger card"@en,
+        "door knob hanger"@en,
+        "cartel para pomo"@es,
+        "colgador de pomo"@es,
+        "colgador de puerta"@es,
+        "colgante de puerta"@es,
+        "no molestar"@es,
+        "डोर नॉब हैंगर"@hi,
+        "डोर हैंगर"@hi,
+        "दरवाज़े का कार्ड"@hi,
+        "ドアノブハンガー"@ja,
+        "ドアノブ広告"@ja,
+        "ドアプレート"@ja,
+        "Dørhenger"@nb,
+        "dørhenger"@nb,
+        "dørskilt"@nb,
+        "deurbordje"@nl,
+        "deurhanger"@nl,
+        "niet-storen-kaart"@nl,
+        "zawieszka na drzwi"@pl,
+        "zawieszka na klamkę"@pl,
+        "aviso de maçaneta"@pt,
+        "cartão de porta"@pt,
+        "não perturbe"@pt,
+        "pendurador de porta"@pt,
+        "dörrhängaren"@sv,
+        "dörrskylt"@sv,
+        "stör ej-skylt"@sv,
+        "请勿打扰牌"@zh-Hans,
+        "门把手挂牌"@zh-Hans,
+        "门挂广告"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et udstanset kort med hul eller slids til ophæng på et dørhåndtag — kampagner, 'forstyr ikke' og meddelelser."@da,
+        "Eine gestanzte Karte mit Loch zum Aufhängen an der Türklinke — Werbung, „Bitte nicht stören“ und Hinweise."@de,
+        "A die-cut card with a hole or slot to hang on a door handle — promotions, 'do not disturb' and notices."@en,
+        "Una tarjeta troquelada con orificio o ranura para colgar en el pomo de la puerta — promociones, «no molestar» y avisos."@es,
+        "दरवाज़े के हैंडल पर लटकाने के लिए छेद या स्लॉट वाला डाई-कट कार्ड — प्रचार, «डिस्टर्ब न करें» और सूचनाएँ।"@hi,
+        "ドアノブに掛けられるよう穴やスリットを打ち抜いたカード。販促や「起こさないでください」表示、案内に。"@ja,
+        "Et stanset kort med hull eller utsparing til å henge på et dørhåndtak — kampanjer, «ikke forstyrr» og beskjeder."@nb,
+        "Een gestanste kaart met gat of gleuf om aan een deurklink te hangen — promoties, 'niet storen' en mededelingen."@nl,
+        "Wykrawana karta z otworem lub wycięciem do zawieszenia na klamce — promocje, „nie przeszkadzać” i komunikaty."@pl,
+        "Cartão com corte especial e furo ou fenda para pendurar na maçaneta — promoções, «não perturbe» e avisos."@pt,
+        "Ett stansat kort med hål eller skåra för att hängas på ett dörrhandtag — kampanjer, 'stör ej' och meddelanden."@sv,
+        "带孔或开槽的模切卡片，可挂在门把手上——用于促销、“请勿打扰”和通知。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§DOOR-HANGERS" ;
+    skos:prefLabel "Dørhængere"@da,
+        "Türhänger"@de,
+        "Door Hangers"@en,
+        "Colgadores para puertas"@es,
+        "डोर हैंगर"@hi,
+        "ドアハンガー"@ja,
+        "Dørhengere"@nb,
+        "Deurhangers"@nl,
+        "Zawieszki na klamkę"@pl,
+        "Aviso de porta"@pt,
+        "Dörrhängare"@sv,
+        "门挂"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/kolbus",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Kolbus",
+    "es": "Kolbus",
+    "zh-Hans": "Kolbus",
+    "nb": "Kolbus",
+    "de": "Kolbus",
+    "ja": "Kolbus",
+    "sv": "Kolbus",
+    "da": "Kolbus",
+    "nl": "Kolbus",
+    "pl": "Kolbus",
+    "pt": "Kolbus",
+    "hi": "Kolbus"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Kolbus GmbH — German manufacturer of book-binding equipment, particularly perfect binders and case binders for hardcover book production.",
+    "nb": "Kolbus GmbH — tysk produsent av bokinnbindingsutstyr, særlig perfect binders og case binders for hardcover-bokproduksjon.",
+    "de": "Kolbus GmbH — deutscher Hersteller von Buchbindemaschinen, insbesondere Klebebinder und Buchdeckenmaschinen für die Hardcover-Buchproduktion.",
+    "ja": "Kolbus GmbH — 書籍製本機器のドイツのメーカー。特にハードカバー書籍生産向けの無線綴じ機と上製本機を扱う。",
+    "es": "Kolbus GmbH — fabricante alemán de equipo de encuadernación, conocido por sus líneas de tapa dura y rústica de alta producción.",
+    "zh-Hans": "Kolbus GmbH —— 德国装订设备制造商，以其高产量精装和平装线著称。",
+    "sv": "Kolbus GmbH — tysk tillverkare av bokbindningsutrustning, särskilt limbindare och bokbindningsmaskiner för produktion av inbundna böcker.",
+    "da": "Kolbus GmbH — tysk producent af bogbindingsudstyr, især limbindere og bogbindsmaskiner til produktion af indbundne bøger.",
+    "nl": "Kolbus GmbH — Duitse fabrikant van boekbindapparatuur, met name garenloosbinders en boekbandmachines voor de productie van gebonden boeken.",
+    "pl": "Kolbus GmbH — niemiecki producent urządzeń introligatorskich, zwłaszcza oprawiarek do oprawy klejonej i linii do oprawy twardej.",
+    "pt": "Kolbus GmbH — fabricante alemão de equipamentos de encadernação de livros, especialmente encadernadoras de lombada colada e de capa dura para produção de livros cartonados.",
+    "hi": "Kolbus GmbH — पुस्तक-बाइंडिंग उपकरणों का जर्मन निर्माता, विशेषकर परफेक्ट बाइंडर और हार्डकवर पुस्तक उत्पादन के लिए केस बाइंडर।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-KOLB",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

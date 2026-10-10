@@ -1,0 +1,78 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "group",
+  "label": {
+    "en": "Substrates",
+    "es": "Sustratos",
+    "zh-Hans": "承印物",
+    "nb": "Substrater",
+    "de": "Bedruckstoffe",
+    "ja": "印刷基材",
+    "sv": "Substrat",
+    "da": "Substrater",
+    "nl": "Substraten",
+    "pl": "Podłoża",
+    "pt": "Substratos",
+    "hi": "सब्सट्रेट"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB",
+  "broader": "https://ptpge.org/v1/printing",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials",
+    "https://ptpge.org/v1/printing/substrates/roll-materials",
+    "https://ptpge.org/v1/printing/substrates/board-materials",
+    "https://ptpge.org/v1/printing/substrates/object-materials",
+    "https://ptpge.org/v1/printing/substrates/special-materials"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "What is printed on. Spans sheet materials (paper, corrugated, cardstock), roll materials (canvas, cardboard, foil, vinyl, textile), board materials (acrylic, foam, glass, plastic, metal, wood), object materials (3D, bottles, boxes), and special materials. Substrates is the most-asked-about facet for buyers and the most operationally significant for printers — it determines which technologies are viable and which finishing operations are possible.",
+    "nb": "Det som trykkes på. Spenner over arkmaterialer (papir, bølgepapp, kartong), rullmaterialer (canvas, papp, folie, vinyl, tekstil), platematerialer (akryl, skum, glass, plast, metall, tre), objektmaterialer (3D, flasker, esker), og spesialmaterialer. Substrates er den fasetten kjøpere oftest spør etter, og den som har størst operasjonell betydning for trykkerier — den avgjør hvilke teknologier som er aktuelle og hvilke etterbehandlingsoperasjoner som er mulige.",
+    "de": "Worauf gedruckt wird. Umfasst Bogenmaterialien (Papier, Wellpappe, Karton), Rollenmaterialien (Leinwand, Karton, Folie, Vinyl, Textil), Plattenmaterialien (Acryl, Schaumstoff, Glas, Kunststoff, Metall, Holz), Objektmaterialien (3D, Flaschen, Boxen) und Spezialmaterialien. Substrates ist die am häufigsten nachgefragte Facette für Käufer und die operativ bedeutsamste für Druckereien — sie bestimmt, welche Technologien einsetzbar und welche Veredelungsverfahren möglich sind.",
+    "ja": "印刷される対象。シート材（紙、段ボール、カード紙）、ロール材（キャンバス、段ボール、箔、ビニール、テキスタイル）、ボード材（アクリル、フォーム、ガラス、プラスチック、金属、木材）、立体材（3D、ボトル、ボックス）、特殊材を含む。Substratesは買い手から最も多く問い合わせを受けるファセットであり、印刷会社にとっても運用上最も重要なファセットである — どの技術が実行可能か、どの後加工が可能かを決定する。",
+    "es": "Lo que se imprime. Abarca materiales en hojas (papel, ondulado, cartulina), materiales en bobina (lona, cartón, foil, vinilo, textil), materiales en placa (acrílico, foam, vidrio, plástico, metal, madera), materiales-objeto (3D, botellas, cajas) y materiales especiales. Sustratos es la faceta sobre la que más preguntan los clientes finales.",
+    "zh-Hans": "印刷所施加的载体。涵盖纸张材料（纸、瓦楞、卡纸）、卷材（帆布、纸板、铝箔、乙烯基、纺织品）、板材（亚克力、泡沫、玻璃、塑料、金属、木材）、物体材料（3D、瓶子、盒子）和特殊材料。承印物是终端客户最常询问的分面。",
+    "sv": "Det som trycks på. Spänner över arkmaterial (papper, wellpapp, kartong), rullmaterial (canvas, kartong, folie, vinyl, textil), skivmaterial (akryl, skum, glas, plast, metall, trä), objektmaterial (3D, flaskor, lådor) och specialmaterial. Substrat är den facett köpare frågar mest om och den operativt mest betydelsefulla för tryckerier — den avgör vilka tekniker som är möjliga och vilka efterbehandlingar som går att göra.",
+    "da": "Det der trykkes på. Spænder over arkmaterialer (papir, bølgepap, karton), rullematerialer (kanvas, pap, folie, vinyl, tekstil), plademateraler (akryl, skum, glas, plast, metal, træ), objektmaterialer (3D, flasker, æsker) og specialmaterialer.",
+    "nl": "Waarop gedrukt wordt. Omvat velmaterialen (papier, golfkarton, karton), rolmaterialen (canvas, karton, folie, vinyl, textiel), plaatmaterialen (acryl, schuim, glas, kunststof, metaal, hout), objectmaterialen (3D, flessen, dozen) en speciale materialen.",
+    "pl": "To, na czym się drukuje. Obejmuje materiały arkuszowe (papier, tektura falista, karton), materiały zwojowe (płótno, tektura, folia, winyl, tekstylia), materiały płytowe (akryl, pianka, szkło, tworzywo, metal, drewno), materiały obiektowe (3D, butelki, pudełka) i materiały specjalne. Podłoża to aspekt, o który nabywcy pytają najczęściej, i najistotniejszy operacyjnie dla drukarń — decyduje o tym, które technologie są możliwe i które operacje wykończeniowe są wykonalne.",
+    "pt": "Aquilo sobre o que se imprime. Abrange materiais em folha (papel, ondulado, cartão), materiais em rolo (canvas, cartão, filme, vinil, tecido), materiais em chapa (acrílico, espuma, vidro, plástico, metal, madeira), materiais-objeto (3D, garrafas, caixas) e materiais especiais. Substratos é a faceta mais perguntada pelos compradores e a mais significativa operacionalmente para os impressores — determina quais tecnologias são viáveis e quais acabamentos são possíveis.",
+    "hi": "जिस पर छपाई होती है। शीट सामग्री (काग़ज़, कोरुगेटेड, कार्डस्टॉक), रोल सामग्री (कैनवास, गत्ता, फ़ॉइल, विनाइल, कपड़ा), बोर्ड सामग्री (ऐक्रेलिक, फ़ोम, काँच, प्लास्टिक, धातु, लकड़ी), वस्तु सामग्री (3D, बोतलें, डिब्बे) और विशेष सामग्री। खरीदारों के लिए सबसे अधिक पूछा जाने वाला और प्रिंटरों के लिए परिचालन में सबसे महत्वपूर्ण पहलू — यह तय करता है कि कौन-सी तकनीकें व्यवहार्य हैं और कौन-सी फ़िनिशिंग संभव है।"
+  },
+  "scopeNote": {
+    "en": "Substrates covers the physical material being printed on, including its color, surface finish, weight, and supplier. The size and shape of the finished piece belong to Configurations.",
+    "nb": "Substrates dekker det fysiske materialet det trykkes på, inkludert farge, overflate, vekt og leverandør. Størrelsen og formen på det ferdige produktet hører til Configurations.",
+    "de": "Substrates umfasst das physische Material, auf dem gedruckt wird, einschließlich seiner Farbe, Oberflächenbeschaffenheit, Grammatur und Lieferanten. Größe und Form des fertigen Produkts gehören zu Configurations.",
+    "ja": "Substratesは、印刷される物理的な材料（色、表面仕上げ、坪量、サプライヤーを含む）を扱う。完成品のサイズと形状はConfigurationsに属する。",
+    "es": "Sustratos cubre el material físico sobre el que se imprime, incluyendo su color, acabado de superficie, gramaje y proveedor. El tamaño y la forma de la pieza acabada pertenecen a Configuraciones.",
+    "zh-Hans": "承印物涵盖被印刷的物理材料，包括颜色、表面处理、克重和供应商。成品的尺寸和形状属于配置。",
+    "pt": "Substratos cobre o material físico sobre o qual se imprime, incluindo sua cor, acabamento de superfície, gramatura e fornecedor. O tamanho e a forma da peça acabada pertencem a Configurações.",
+    "hi": "सब्सट्रेट में वह भौतिक सामग्री आती है जिस पर छपाई होती है — उसका रंग, सतह फ़िनिश, वज़न और आपूर्तिकर्ता सहित। तैयार वस्तु का आकार और आकृति कॉन्फ़िगरेशन के अंतर्गत हैं।"
+  },
+  "visual": {
+    "color": "#EA0029",
+    "colorName": "PTPGE Red 1",
+    "palette": [
+      "#EA0029",
+      "#FB5373",
+      "#EC008C",
+      "#DD858A",
+      "#BA5B80"
+    ],
+    "pantone": "P 185 C"
+  },
+  "altLabels": {
+    "pl": [
+      "materiały",
+      "podłoża drukowe"
+    ]
+  }
+}

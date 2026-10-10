@@ -1,0 +1,102 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/colors/black> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Enfarvet sort"@da,
+        "Kun sort"@da,
+        "Monokrom"@da,
+        "Sorttryk"@da,
+        "Einfarbig schwarz"@de,
+        "Monochrom"@de,
+        "Nur Schwarz"@de,
+        "Schwarzdruck"@de,
+        "1-Color Black"@en,
+        "Black Only"@en,
+        "K Only"@en,
+        "Monochrome"@en,
+        "Impresión en negro"@es,
+        "Monocromo"@es,
+        "Solo negro"@es,
+        "Una tinta"@es,
+        "केवल काला"@hi,
+        "ब्लैक एंड व्हाइट"@hi,
+        "ब्लैक ओनली"@hi,
+        "मोनोक्रोम"@hi,
+        "सिंगल कलर ब्लैक"@hi,
+        "スミ"@ja,
+        "スミ1色"@ja,
+        "モノクロ"@ja,
+        "黒のみ"@ja,
+        "Ensfarget sort"@nb,
+        "Kun sort"@nb,
+        "Sort/hvitt"@nb,
+        "Svart"@nb,
+        "Alleen zwart"@nl,
+        "Eenkleurig zwart"@nl,
+        "Monochroom"@nl,
+        "Zwartdruk"@nl,
+        "1-kolor czarny"@pl,
+        "monochromatyczny"@pl,
+        "tylko K"@pl,
+        "tylko czerń"@pl,
+        "1 cor preto"@pt,
+        "1x0"@pt,
+        "P&B"@pt,
+        "monocromático"@pt,
+        "preto e branco"@pt,
+        "só preto"@pt,
+        "Endast svart"@sv,
+        "Enfärgssvart"@sv,
+        "Monokrom"@sv,
+        "Svarttryck"@sv,
+        "单色黑"@zh-Hans,
+        "单黑"@zh-Hans,
+        "只印黑色"@zh-Hans,
+        "黑白印刷"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/colors> ;
+    skos:definition "Enkeltfarvetryk med kun sort farve. Den mest økonomiske farvetilstand. Bruges til teksttunge indmader, kladdetryk og budgetbevidste produktioner."@da,
+        "Einfarbiger Druck nur mit schwarzer Druckfarbe. Der wirtschaftlichste Farbmodus. Wird für textlastige Innenseiten, Entwürfe und budgetbewusste Produktionen verwendet."@de,
+        "Single-color printing using only black ink. The most economical color mode. Used for text-heavy interiors, draft prints, and budget-conscious productions."@en,
+        "Impresión monocolor solo con tinta negra. El modo de color más económico. Usado para interiores con mucho texto, borradores y producciones de bajo presupuesto."@es,
+        "केवल काली स्याही से एक-रंग छपाई। सबसे किफ़ायती कलर मोड। पाठ-प्रधान भीतरी पृष्ठों, ड्राफ़्ट प्रिंट और बजट उत्पादन में।"@hi,
+        "黒インキのみの単色印刷。最も経済的なカラーモード。文字主体の本文、試し刷り、コスト重視の制作に使われる。"@ja,
+        "Enfarget trykk med kun sort blekk. Den mest økonomiske fargemodusen. Brukes for tekst-tunge interiører, utkast og budsjett-bevisste produksjoner."@nb,
+        "Eenkleurendruk met alleen zwarte inkt. De voordeligste kleurmodus. Gebruikt voor tekstrijke binnenwerken, drukproeven en budgetbewuste producties."@nl,
+        "Druk jednokolorowy tylko czarną farbą. Najbardziej ekonomiczny tryb koloru. Używany do wnętrz z dużą ilością tekstu, wydruków roboczych i produkcji budżetowych."@pl,
+        "Impressão monocromática usando apenas tinta preta. O modo de cor mais econômico. Usado em miolos com muito texto, provas e produções de orçamento contido."@pt,
+        "Enfärgstryck med enbart svart bläck. Det mest ekonomiska färgläget. Används för texttunga inlagor, korrektur och budgetmedvetna produktioner."@sv,
+        "仅用黑色油墨的单色印刷。最经济的色彩模式。用于以文字为主的内页、样稿与预算优先的生产。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§BLACK" ;
+    skos:prefLabel "Sort"@da,
+        "Schwarz"@de,
+        "Black"@en,
+        "Negro"@es,
+        "काला"@hi,
+        "ブラック"@ja,
+        "Sort"@nb,
+        "Zwart"@nl,
+        "Czerń"@pl,
+        "Preto"@pt,
+        "Svart"@sv,
+        "黑色"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§6.15 · p.168" ;
+            ptpge:mappingRow "crosswalk row 24" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

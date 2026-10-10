@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/paper-size-standards/arch-paper-sizes> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "ARCH sizes"@en,
+        "architectural sizes"@en,
+        "ARCH आकार"@hi,
+        "आर्किटेक्चरल आकार"@hi,
+        "formaty architektoniczne"@pl,
+        "tamanhos ARCH"@pt,
+        "tamanhos arquiteturais"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/paper-size-standards> ;
+    skos:definition "Arkitektpapirformater (Arch A til Arch E1) brugt i nordamerikanske arkitekt- og ingeniørtegninger, med proportioner optimeret til teknisk tegning."@da,
+        "Architektonische Papierformate (Arch A bis Arch E1), eingesetzt in nordamerikanischen Architektur- und Ingenieurzeichnungen, mit Proportionen, die für technisches Zeichnen optimiert sind."@de,
+        "Architectural paper sizes (Arch A through Arch E1) used in North American architectural and engineering drawings, with proportions optimized for technical drafting."@en,
+        "Sistema de tamaños arquitectónicos para planos arquitectónicos y de ingeniería en Norteamérica — Arch A a E3."@es,
+        "उत्तर अमेरिकी वास्तुकला और इंजीनियरिंग ड्रॉइंग में प्रयुक्त आर्किटेक्चरल काग़ज़ आकार (Arch A से Arch E1), तकनीकी ड्राफ़्टिंग के लिए अनुकूलित अनुपात।"@hi,
+        "建築用の用紙寸法（Arch AからArch E1まで）。北米の建築および工学図面で使用され、技術的な作図に最適化された比率を持つ。"@ja,
+        "Arkitekturpapirstørrelser (Arch A til Arch E1) brukt i nordamerikanske arkitektur- og ingeniørtegninger, med proporsjoner optimalisert for teknisk tegning."@nb,
+        "Architectenpapierformaten (Arch A tot Arch E1), gebruikt in Noord-Amerikaanse architectuur- en engineeringtekeningen, met verhoudingen geoptimaliseerd voor technisch tekenen."@nl,
+        "Architektoniczne formaty papieru (Arch A do Arch E1) używane w północnoamerykańskich rysunkach architektonicznych i inżynierskich, o proporcjach zoptymalizowanych pod kreślenie techniczne."@pl,
+        "Tamanhos de papel arquiteturais (Arch A a Arch E1) usados em desenhos de arquitetura e engenharia na América do Norte, com proporções otimizadas para desenho técnico."@pt,
+        "Arkitektpappersformat (Arch A till Arch E1) använda i nordamerikanska arkitekt- och ingenjörsritningar, med proportioner optimerade för tekniskt ritande."@sv,
+        "用于北美建筑和工程图纸的建筑尺寸系统 —— Arch A到E3。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§ARCH-PAPER-SIZES" ;
+    skos:prefLabel "Arch-papirformater"@da,
+        "Arch Paper Sizes"@de,
+        "Arch Paper Sizes"@en,
+        "Tamaños Arquitectónicos (Arch)"@es,
+        "Arch काग़ज़ आकार"@hi,
+        "Arch Paper Sizes"@ja,
+        "Arch Paper Sizes"@nb,
+        "Arch-papierformaten"@nl,
+        "Formaty Arch"@pl,
+        "Tamanhos de papel Arch"@pt,
+        "Arch-pappersformat"@sv,
+        "建筑尺寸 (Arch)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 2" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

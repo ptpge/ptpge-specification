@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b4",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Envelope B4 (250 × 353 mm)",
+    "es": "Sobre B4 (250 × 353 mm)",
+    "zh-Hans": "B4信封 (250 × 353 mm)",
+    "nb": "Envelope B4 (250 × 353 mm)",
+    "de": "Envelope B4 (250 × 353 mm)",
+    "ja": "Envelope B4 (250 × 353 mm)",
+    "sv": "Kuvert B4 (250 × 353 mm)",
+    "da": "Kuvert B4 (250 × 353 mm)",
+    "nl": "Kuvert B4 (250 × 353 mm)",
+    "pl": "Koperta B4 (250 × 353 mm)",
+    "pt": "Envelope B4 (250 × 353 mm)",
+    "hi": "लिफ़ाफ़ा B4 (250 × 353 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ENV-B4",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "250 × 353 mm. ISO 216 B4 envelope — holds an A4 sheet flat with extra margin, used for catalog mailings and reports.",
+    "nb": "250 × 353 mm. ISO 216 B4-konvolutt — rommer et A4-ark uten brett med ekstra margin, brukt til katalogutsendelser og rapporter.",
+    "de": "250 × 353 mm. ISO-216-B4-Briefumschlag — fasst einen A4-Bogen ungefaltet mit zusätzlichem Spielraum, eingesetzt für Katalogversand und Berichte.",
+    "ja": "250×353mm。ISO 216 B4封筒 — A4シートを余裕を持って折らずに収納する。カタログ郵送および報告書に使用される。",
+    "es": "Sobre B4 de la serie B de ISO 216 — contiene hojas de la serie B correspondiente.",
+    "zh-Hans": "ISO 216 B系列B4信封 —— 装对应B系列纸张。",
+    "sv": "250 × 353 mm. B4-kuvert enligt ISO 216 — rymmer ett A4-ark plant med extra marginal, används för katalogutskick och rapporter.",
+    "da": "250 × 353 mm. B4-kuvert efter ISO 216 — rummer et A4-ark fladt med ekstra margin, bruges til katalogutskick og rapporter.",
+    "nl": "250 × 353 mm. B4-envelop volgens ISO 216 — biedt plaats aan een vlak A4-vel met extra marge, gebruikt voor katalogutskick en rapporter.",
+    "pl": "250 × 353 mm. Koperta ISO 216 B4 — mieści arkusz A4 na płasko z dodatkowym marginesem; używana do wysyłki katalogów i raportów.",
+    "pt": "250 × 353 mm. Envelope B4 da ISO 216 — comporta uma folha A4 aberta com margem extra; usado em catálogos e relatórios.",
+    "hi": "250 × 353 mm. ISO 216 B4 लिफ़ाफ़ा — अतिरिक्त मार्जिन के साथ A4 शीट सपाट समाती है, कैटलॉग और रिपोर्ट डाक में।"
+  },
+  "properties": {
+    "width": 250,
+    "height": 353,
+    "unit": "mm",
+    "aspectRatio": 1.412,
+    "standard": "ISO 269",
+    "area": 88250
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "250 x 353 mm",
+      "250x353",
+      "250×353",
+      "25 x 35.3 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

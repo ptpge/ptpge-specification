@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-spaces/rgb> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "RGB colour space"@en,
+        "RGB रंग स्पेस"@hi,
+        "przestrzeń barw RGB"@pl,
+        "espaço de cor RGB"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-spaces> ;
+    skos:definition "Generisk RGB-farvemodel, der repræsenterer farver som kombinationer af rødt, grønt og blåt lys — grundlaget for skærme, sensorer og additiv lysgengivelse."@da,
+        "Allgemeines RGB-Farbmodell, das Farben als Kombinationen aus Rot-, Grün- und Blaulicht darstellt — die Grundlage für Bildschirme, Sensoren und additive Lichtreproduktion."@de,
+        "Generic RGB color model that represents colors as combinations of red, green, and blue light — the basis for screens, sensors, and additive light reproduction."@en,
+        "Modelo de color aditivo basado en los componentes Rojo, Verde y Azul, utilizado en pantallas, sensores y archivos digitales. El RGB del trabajo debe convertirse a CMYK antes de imprimir, perdiendo parte del gamut."@es,
+        "सामान्य RGB रंग मॉडल जो रंगों को लाल, हरी और नीली रोशनी के संयोजन के रूप में दर्शाता है — स्क्रीन, सेंसर और योगात्मक प्रकाश पुनरुत्पादन का आधार।"@hi,
+        "赤、緑、青の光の組み合わせとして色を表現する一般的なRGB色モデル — 画面、センサー、加法混色による光の再現の基礎。"@ja,
+        "Generisk RGB-fargemodell som representerer farger som kombinasjoner av rødt, grønt og blått lys — grunnlaget for skjermer, sensorer og additiv lysgjengivelse."@nb,
+        "Generiek RGB-kleurmodel dat kleuren voorstelt als combinaties van rood, groen en blauw licht — de basis voor schermen, sensoren en additieve lichtweergave."@nl,
+        "Ogólny model barw RGB reprezentujący kolory jako kombinacje światła czerwonego, zielonego i niebieskiego — podstawa ekranów, sensorów i addytywnej reprodukcji światła."@pl,
+        "Modelo de cor RGB genérico que representa cores como combinações de luz vermelha, verde e azul — a base de telas, sensores e reprodução aditiva de luz."@pt,
+        "Generisk RGB-färgmodell som representerar kulörer som kombinationer av rött, grönt och blått ljus — grunden för skärmar, sensorer och additiv ljusåtergivning."@sv,
+        "基于红、绿、蓝分量的加色色彩模型，用于显示器、传感器和数字文件。作业的RGB必须在印刷前转换为CMYK，会损失部分色域。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§RGB" ;
+    skos:prefLabel "RGB"@da,
+        "RGB"@de,
+        "RGB"@en,
+        "RGB"@es,
+        "RGB"@hi,
+        "RGB"@ja,
+        "RGB"@nb,
+        "RGB"@nl,
+        "RGB"@pl,
+        "RGB"@pt,
+        "RGB"@sv,
+        "RGB"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

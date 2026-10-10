@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/portable-network-group",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Portable Network Group (.png)",
+    "es": "PNG (.png)",
+    "zh-Hans": "PNG (.png)",
+    "nb": "Portable Network Group (.png)",
+    "de": "Portable Network Group (.png)",
+    "ja": "Portable Network Group (.png)",
+    "sv": "PNG (.png)",
+    "da": "PNG (.png)",
+    "nl": "PNG (.png)",
+    "pl": "Portable Network Group (.png)",
+    "pt": "Portable Network Group (.png)",
+    "hi": "Portable Network Group (.png)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§PORTABLE-NETWORK-GROUP",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "PNG (.png) — ISO/IEC 15948 standard for lossless raster image compression with support for transparency, designed as a patent-free alternative to GIF.",
+    "nb": "PNG (.png) — ISO/IEC 15948-standarden for tapsfri rasterbildekomprimering med støtte for transparens, utviklet som et patentfritt alternativ til GIF.",
+    "de": "PNG (.png) — ISO/IEC-Standard 15948 für verlustfreie Rasterbild-Kompression mit Transparenz-Unterstützung, als patentfreie Alternative zu GIF entwickelt.",
+    "ja": "PNG（.png）— 透明度をサポートするラスター画像の可逆圧縮に関するISO/IEC 15948規格。GIFの特許なし代替として設計された。",
+    "es": "Portable Network Graphics — formato raster de compresión sin pérdida (ISO 15948) con soporte de transparencia. Adecuado para gráficos web con áreas planas.",
+    "zh-Hans": "Portable Network Graphics —— 支持透明度的无损压缩位图格式（ISO 15948）。适合带平涂区域的网页图形。",
+    "sv": "PNG (.png) — ISO/IEC 15948-standard för förlustfri rasterbildkomprimering med stöd för transparens, designad som patentfritt alternativ till GIF.",
+    "da": "PNG (.png) — ISO/IEC 15948-standard for tabsfri rasterbilledkomprimering med understøttelse af transparens, designet som patentfrit alternativ til GIF.",
+    "nl": "PNG (.png) — ISO/IEC 15948-standaard voor verliesloze rasterbeeldcompressie met transparantieondersteuning, ontworpen als patentvrij alternatief voor GIF.",
+    "pl": "PNG (.png) — norma ISO/IEC 15948 bezstratnej kompresji obrazów rastrowych z obsługą przezroczystości, zaprojektowana jako wolna od patentów alternatywa dla GIF.",
+    "pt": "PNG (.png) — norma ISO/IEC 15948 para compressão sem perdas de imagens raster com suporte a transparência, projetada como alternativa livre de patentes ao GIF.",
+    "hi": "PNG (.png) — पारदर्शिता समर्थन के साथ हानिरहित रास्टर छवि संपीड़न का ISO/IEC 15948 मानक, GIF के पेटेंट-मुक्त विकल्प के रूप में डिज़ाइन किया गया।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "PNG",
+      ".png"
+    ],
+    "pl": [
+      "PNG",
+      ".png"
+    ],
+    "pt": [
+      "PNG",
+      ".png"
+    ],
+    "hi": [
+      "PNG",
+      ".png"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

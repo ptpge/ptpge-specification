@@ -1,0 +1,114 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "A Series (ISO 216)",
+    "es": "Serie A (ISO 216)",
+    "zh-Hans": "A系列（ISO 216）",
+    "nb": "A-serie (ISO 216)",
+    "de": "A-Reihe (ISO 216)",
+    "ja": "A判（ISO 216）",
+    "sv": "A-serien (ISO 216)",
+    "da": "A-serien (ISO 216)",
+    "nl": "A-reeks (ISO 216)",
+    "pl": "Seria A (ISO 216)",
+    "pt": "Série A (ISO 216)",
+    "hi": "A सीरीज़ (ISO 216)"
+  },
+  "altLabels": {
+    "en": [
+      "A Sizes",
+      "DIN A"
+    ],
+    "nb": [
+      "A-formater"
+    ],
+    "pl": [
+      "formaty A",
+      "DIN A"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats",
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a2",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a7",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a8",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a9",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a10",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a11",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a12",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a13",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/2a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/4a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "ISO 216 A-series paper sizes, based on a 1:√2 aspect ratio that preserves proportions when sheets are halved or doubled. Used worldwide outside North America.",
+    "nb": "ISO 216 A-seriens papirstørrelser, basert på et 1:√2-sideforhold som bevarer proporsjonene når ark deles i to eller dobles. Brukt globalt utenom Nord-Amerika.",
+    "de": "ISO-216-A-Reihe-Papierformate, basierend auf einem Seitenverhältnis von 1:√2, das die Proportionen beim Halbieren oder Verdoppeln der Bogen bewahrt. Weltweit außerhalb Nordamerikas in Verwendung.",
+    "ja": "ISO 216 Aシリーズ用紙寸法。1:√2のアスペクト比に基づき、シートを半分または倍にしたときに比率が保たれる。北米以外の世界中で使用される。",
+    "es": "Tamaños de papel de la serie A de ISO 216, basados en una relación de aspecto 1:√2 que preserva las proporciones cuando las hojas se dividen por la mitad o se duplican. Utilizados mundialmente fuera de Norteamérica.",
+    "zh-Hans": "ISO 216 A系列纸张尺寸，基于1:√2的宽高比，对折或对倍时保持比例。在北美以外全球使用。",
+    "sv": "Pappersformat i A-serien enligt ISO 216, baserade på proportionen 1:√2 som bevarar formatet när ark halveras eller dubbleras. Används världen över utanför Nordamerika.",
+    "da": "Papirformater i A-serien efter ISO 216, baseret på proportionen 1:√2, som bevarer formatet når ark halveres eller fordobles. Bruges verden over uden for Nordamerika.",
+    "nl": "Papierformaten in de A-reeks volgens ISO 216, gebaseerd op de verhouding 1:√2, die de vorm behoudt wanneer vellen worden gehalveerd of verdubbeld. Wereldwijd gebruikt buiten Noord-Amerika.",
+    "pl": "Formaty papieru serii A normy ISO 216, oparte na proporcjach 1:√2, które zachowują kształt przy połowieniu lub podwajaniu arkuszy. Używane na całym świecie poza Ameryką Północną.",
+    "pt": "Tamanhos de papel da série A da ISO 216, baseados na proporção 1:√2, que preserva as proporções quando a folha é dividida ou dobrada ao meio. Usados no mundo todo fora da América do Norte.",
+    "hi": "ISO 216 A-सीरीज़ काग़ज़ आकार, 1:√2 अनुपात पर आधारित, जो शीट को आधा या दोगुना करने पर अनुपात बनाए रखता है। उत्तर अमेरिका के बाहर पूरी दुनिया में प्रयुक्त।"
+  },
+  "scopeNote": {
+    "en": "Includes A0 through A13 (each half the area of the previous), oversize plus formats (A0+, A1+, A3+) used in printing for bleeds, and the rare half-A4 (A4H) and double/quadruple A0 (2A0, 4A0) sizes for posters.",
+    "nb": "Inkluderer A0 til A13 (hver halvparten av arealet til den forrige), overdimensjonerte plus-formater (A0+, A1+, A3+) brukt i trykk med utfall, og de sjeldne halv-A4 (A4H) og dobbel/kvadruppel-A0-størrelsene (2A0, 4A0) for plakater.",
+    "de": "Umfasst A0 bis A13 (jedes mit der Hälfte der Fläche des vorhergehenden), Übergrößen-Plus-Formate (A0+, A1+, A3+) im Druck für Beschnittzugaben sowie die seltenen Halb-A4-Formate (A4H) und Doppel-/Vierfach-A0-Formate (2A0, 4A0) für Plakate.",
+    "ja": "A0からA13まで（各サイズは前のサイズの半分の面積）、印刷時のブリード用のオーバーサイズ・プラス形式（A0+、A1+、A3+）、ポスター用の希少なハーフA4（A4H）およびダブル／クアドラプルA0（2A0、4A0）サイズを含む。",
+    "es": "Incluye desde A0 hasta A13 (cada uno con la mitad de área del anterior), formatos plus oversize (A0+, A1+, A3+) utilizados en impresión para sangrados, y los tamaños menos comunes media A4 (A4H) y doble/cuádruple A0 (2A0, 4A0) para planos y carteles.",
+    "zh-Hans": "包括A0到A13（每个面积为前一个的一半）、印刷用的加大尺寸（A0+、A1+、A3+）以及罕见的半A4（A4H）和双倍/四倍A0（2A0、4A0）。",
+    "pt": "Inclui A0 a A13 (cada um com metade da área do anterior), formatos «plus» superdimensionados (A0+, A1+, A3+) usados na impressão para sangria, e os raros meio-A4 (A4H) e duplo/quádruplo A0 (2A0, 4A0) para pôsteres.",
+    "hi": "A0 से A13 (हर एक पिछले का आधा क्षेत्रफल), छपाई में ब्लीड के लिए बड़े «प्लस» फ़ॉर्मेट (A0+, A1+, A3+), और पोस्टरों के लिए दुर्लभ आधा-A4 (A4H) और डबल/चौगुना A0 (2A0, 4A0) शामिल।"
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/standards/measurement-systems/metric"
+  ],
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:CF-FMT-ASER",
+  "exactMatch": [
+    "https://www.iso.org/standard/36631.html"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/production> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables> ;
+    skos:definition "Produktions-konfigurationsvariabler — de produktionsakser et trykt produkt kan konfigureres langs."@da,
+        "Produktions-Konfigurationsvariablen — die Produktionsachsen, entlang derer ein Druckprodukt konfiguriert werden kann."@de,
+        "Production configuration variables — the production axes a printed product can be configured along."@en,
+        "Variables de configuración de producción — los ejes de producción a lo largo de los cuales puede configurarse un producto impreso."@es,
+        "उत्पादन कॉन्फ़िगरेशन वेरिएबल — वे उत्पादन अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है।"@hi,
+        "生産の構成変数 — 印刷物を構成できる生産の軸。"@ja,
+        "Produksjon konfigurasjonsvariabler — produksjon-aksene et trykkprodukt kan konfigureres langs."@nb,
+        "Productie-configuratievariabelen — de productieassen waarlangs een drukproduct kan worden geconfigureerd."@nl,
+        "Zmienne konfiguracyjne produkcji — osie produkcyjne, wzdłuż których można skonfigurować produkt drukowany."@pl,
+        "Variáveis de configuração de produção — os eixos de produção ao longo dos quais um impresso pode ser configurado."@pt,
+        "Konfigurationsvariabler för produktion — de produktionsaxlar en trycksak kan konfigureras längs."@sv,
+        "生产配置变量 — 印刷品可沿其配置的生产轴。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/production/press-type>,
+        <https://ptpge.org/v1/variables/production/technology> ;
+    skos:notation "VAR:PD" ;
+    skos:prefLabel "Produktion"@da,
+        "Produktion"@de,
+        "Production"@en,
+        "Producción"@es,
+        "उत्पादन"@hi,
+        "生産"@ja,
+        "Produksjon"@nb,
+        "Productie"@nl,
+        "Produkcja"@pl,
+        "Produção"@pt,
+        "Produktion"@sv,
+        "生产"@zh-Hans ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

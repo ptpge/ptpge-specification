@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/distribution/incoterms/ddp> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "DDP"@en,
+        "Delivered Duty Paid"@en,
+        "DDP"@hi,
+        "Delivered Duty Paid"@hi,
+        "DDP"@pl,
+        "Delivered Duty Paid"@pl,
+        "Dostarczone, cło opłacone"@pl,
+        "DDP"@pt,
+        "Delivered Duty Paid"@pt ;
+    skos:broader <https://ptpge.org/v1/ordering/distribution/incoterms> ;
+    skos:definition "DDP (Delivered Duty Paid) — en Incoterms® 2020-handelsklausul (ICC), der definerer fordelingen af omkostninger, risiko og ansvar mellem køber og sælger. Kun til reference; ICC er den autoritative kilde. Transportform: alle transportformer."@da,
+        "DDP (Geliefert verzollt) — eine Incoterms®-2020-Handelsklausel (ICC), die die Verteilung von Kosten, Risiko und Verantwortung zwischen Käufer und Verkäufer festlegt. Nur zur Referenz; maßgeblich ist die ICC. Geeignet für alle Transportarten."@de,
+        "DDP (Delivered Duty Paid) — an Incoterms® 2020 trade term (ICC) defining the division of cost, risk and responsibility between buyer and seller. Reference only; the ICC is authoritative. Transport mode: any mode."@en,
+        "DDP (Entregada con derechos pagados) — un término comercial Incoterms® 2020 (ICC) que define el reparto de costes, riesgo y responsabilidad entre comprador y vendedor. Solo referencia; la ICC es la autoridad. Modo de transporte: cualquier modo."@es,
+        "DDP (Delivered Duty Paid) — Incoterms® 2020 व्यापार शर्त (ICC) जो खरीदार और विक्रेता के बीच लागत, जोखिम और ज़िम्मेदारी के बँटवारे को परिभाषित करती है। केवल संदर्भ; ICC प्रामाणिक है। परिवहन माध्यम: कोई भी माध्यम।"@hi,
+        "DDP（関税込持込渡し） — 買い手と売り手の間の費用・リスク・責任の分担を定める Incoterms® 2020 の貿易条件（ICC）。参照用であり、正文は ICC。輸送手段：あらゆる輸送手段。"@ja,
+        "DDP (Delivered Duty Paid) — et Incoterms® 2020-handelsvilkår (ICC) som definerer fordelingen av kostnad, risiko og ansvar mellom kjøper og selger. Kun referanse; ICC er autoritativ. Transportmodus: alle transportformer."@nb,
+        "DDP (Delivered Duty Paid) — een Incoterms® 2020-handelsterm (ICC) die de verdeling van kosten, risico en verantwoordelijkheid tussen koper en verkoper definieert. Uitsluitend ter referentie; de ICC is de gezaghebbende bron. Vervoerswijze: alle vervoerswijzen."@nl,
+        "DDP (Dostarczone, cło opłacone) — reguła handlowa Incoterms® 2020 (ICC) definiująca podział kosztów, ryzyka i odpowiedzialności między kupującym a sprzedającym. Wyłącznie odniesienie; źródłem autorytatywnym jest ICC. Rodzaj transportu: dowolny."@pl,
+        "DDP (Delivered Duty Paid) — termo comercial Incoterms® 2020 (ICC) que define a divisão de custo, risco e responsabilidade entre comprador e vendedor. Apenas referência; a ICC é a fonte autoritativa. Modal de transporte: qualquer modal."@pt,
+        "DDP (Delivered Duty Paid) — en handelsterm i Incoterms® 2020 (ICC) som definierar fördelningen av kostnad, risk och ansvar mellan köpare och säljare. Endast referens; ICC är auktoritativ. Transportsätt: alla transportsätt."@sv,
+        "DDP（完税后交货）——Incoterms® 2020 贸易术语（ICC），界定买卖双方在费用、风险与责任上的划分。仅供参考，以 ICC 正文为准。运输方式：任何运输方式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:DS§DDP" ;
+    skos:prefLabel "DDP — Delivered Duty Paid"@da,
+        "DDP — Geliefert verzollt"@de,
+        "DDP — Delivered Duty Paid"@en,
+        "DDP — Entregada con derechos pagados"@es,
+        "DDP — शुल्क सहित सुपुर्द"@hi,
+        "DDP — 関税込持込渡し"@ja,
+        "DDP — Delivered Duty Paid"@nb,
+        "DDP — Delivered Duty Paid"@nl,
+        "DDP — Dostarczone, cło opłacone"@pl,
+        "DDP — Entregue com Direitos Pagos"@pt,
+        "DDP — Delivered Duty Paid"@sv,
+        "DDP — 完税后交货"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "distribution" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

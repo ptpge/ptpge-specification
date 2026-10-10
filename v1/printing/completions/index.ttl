@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing> ;
+    skos:definition "De operationer, der forvandler trykte ark til et færdigt, leverbart produkt: efterbehandling (falsning, indbinding, rilning, perforering, laminering, bandering), placeringsvalgene for disse operationer (venstre/højre/top/bund) og emballering til forsendelse."@da,
+        "Die Schritte, die bedruckte Bogen in ein fertiges, lieferbares Produkt verwandeln: Veredelung (Falzen, Bindung, Rillen, Perforation, Laminierung, Banderolieren), die Platzierungsentscheidungen für diese Operationen (Falzung oder Bindung an der Längs- vs. Schmalseite) und die Verpackung, die das Produkt auf dem Transportweg schützt. Completions ist die letzte Facette in der Fertigungssequenz — alles davor produziert bedrucktes Material; alles in Completions verwandelt dieses Material in etwas, das versendet werden kann."@de,
+        "The operations that turn printed sheets into a finished, deliverable product: finishing (folding, binding, scoring, perforation, lamination, banding), the placement decisions for those operations (left-side vs top-side fold or binding), and the packaging that protects the product in transit. Completions is the last facet in the manufacturing sequence — everything before it produces printed material; everything in Completions turns that material into something that can be shipped."@en,
+        "Las operaciones que convierten hojas impresas en un producto terminado y entregable: acabado (plegado, encuadernación, hendido, perforación, plastificado, fajeado), decisiones de colocación para esas operaciones (pliegue o encuadernación al lado izquierdo o superior) y el embalaje que protege el producto durante el transporte. Acabados cubre todo lo que ocurre después de aplicar la tinta."@es,
+        "वे क्रियाएँ जो छपी शीटों को तैयार, सुपुर्द करने योग्य उत्पाद बनाती हैं: फ़िनिशिंग (फ़ोल्डिंग, बाइंडिंग, क्रीज़िंग, परफ़ोरेशन, लैमिनेशन, बैंडिंग), उन क्रियाओं की स्थिति के निर्णय (बाईं ओर बनाम ऊपर की ओर फ़ोल्ड या बाइंडिंग), और वह पैकेजिंग जो उत्पाद को परिवहन में बचाती है। यह निर्माण क्रम का अंतिम पहलू है — इससे पहले का सब कुछ छपी सामग्री बनाता है; यहाँ का सब कुछ उस सामग्री को भेजने योग्य चीज़ में बदलता है।"@hi,
+        "印刷されたシートを完成した出荷可能な製品に変える工程：仕上げ加工（折り、製本、筋入れ、ミシン目、ラミネート、帯掛け）、それらの工程の配置に関する決定（左綴じ・上綴じ、左折り・上折り）、および輸送中に製品を保護する梱包。Completionsは製造シーケンスの最後のファセットであり、これより前の工程はすべて印刷物を生産し、Completionsの工程はその印刷物を出荷可能なものに変える。"@ja,
+        "Operasjonene som forvandler trykte ark til et ferdig, leveringsklart produkt: etterbehandling (folding, innbinding, scoring, perforering, laminering, banding), plasseringsbeslutninger for disse operasjonene (venstre vs topp folding eller innbinding), og pakkingen som beskytter produktet under transport. Completions er den siste fasetten i produksjonssekvensen — alt før denne produserer trykt materiale; alt i Completions forvandler dette materialet til noe som kan sendes."@nb,
+        "De bewerkingen die bedrukte vellen omvormen tot een afgewerkt, leverbaar product: afwerking (vouwen, binden, rillen, perforeren, lamineren, banderolleren), de plaatsingskeuzes voor die bewerkingen (links/rechts/boven/onder) en verpakking voor verzending."@nl,
+        "Operacje, które zamieniają zadrukowane arkusze w gotowy produkt do dostarczenia: uszlachetnianie i obróbka (falcowanie, oprawa, bigowanie, perforacja, laminowanie, banderolowanie), decyzje o umiejscowieniu tych operacji (złam lub oprawa po lewej stronie czy u góry) oraz pakowanie chroniące produkt w transporcie. Wykończenie jest ostatnim aspektem w sekwencji produkcji — wszystko przed nim wytwarza zadrukowany materiał; wszystko w Wykończeniu zamienia ten materiał w coś, co można wysłać."@pl,
+        "As operações que transformam folhas impressas em um produto acabado e entregável: acabamento (dobra, encadernação, vinco, picote, laminação, cintagem), as decisões de posicionamento dessas operações (dobra ou encadernação à esquerda ou no topo) e a embalagem que protege o produto no transporte. Acabamentos é a última faceta da sequência de fabricação — tudo antes dela produz material impresso; tudo em Acabamentos transforma esse material em algo que pode ser expedido."@pt,
+        "Operationerna som förvandlar tryckta ark till en färdig, leveransklar produkt: efterbehandling (falsning, bindning, bigning, perforering, laminering, banderollering), placeringsbesluten för dessa operationer (fals eller bindning på vänster- kontra ovansida) och emballaget som skyddar produkten under transport. Färdigställande är den sista facetten i tillverkningssekvensen — allt före den producerar tryckt material; allt i Färdigställande förvandlar materialet till något som kan skickas."@sv,
+        "将印刷张转化为可交付成品的操作：印后加工（折页、装订、压痕、打孔、覆膜、捆扎）、这些操作的位置决策（左侧或顶部折页/装订）以及保护产品运输的包装。印后加工涵盖所有油墨施加之后的环节。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/binding>,
+        <https://ptpge.org/v1/printing/completions/fold-binding-edge>,
+        <https://ptpge.org/v1/printing/completions/folding>,
+        <https://ptpge.org/v1/printing/completions/packaging>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:notation "P:CP" ;
+    skos:prefLabel "Færdiggørelse"@da,
+        "Weiterverarbeitung"@de,
+        "Completions"@en,
+        "Acabados"@es,
+        "पोस्ट-प्रेस (फ़िनिशिंग)"@hi,
+        "後加工"@ja,
+        "Ferdiggjøring"@nb,
+        "Afwerking"@nl,
+        "Wykończenie"@pl,
+        "Acabamentos"@pt,
+        "Färdigställande"@sv,
+        "印后加工"@zh-Hans ;
+    skos:scopeNote "Completions umfasst Weiterverarbeitungsschritte, die Form, Struktur oder Schutz des Druckerzeugnisses verändern. Dekorative Oberflächeneffekte — Prägung, Lack, Folienveredelung — gehören zu Features, auch wenn sie nach dem Druck angebracht werden."@de,
+        "Completions covers post-press operations that change the form, structure, or protection of the printed product. Decorative surface effects — embossing, varnish, foiling — belong to Features even when applied post-print."@en,
+        "Acabados cubre las operaciones post-prensa que cambian la forma, estructura o protección del producto impreso. Los efectos decorativos de superficie — gofrado, barniz, estampado en lámina — pertenecen a Características, aun cuando se apliquen post-prensa."@es,
+        "इसमें वे पोस्ट-प्रेस क्रियाएँ आती हैं जो मुद्रित उत्पाद का रूप, संरचना या सुरक्षा बदलती हैं। सजावटी सतह प्रभाव — एम्बॉसिंग, वार्निश, फ़ॉइलिंग — फ़ीचर के अंतर्गत आते हैं, भले ही छपाई के बाद लगाए जाएँ।"@hi,
+        "Completionsは、印刷物の形状、構造、または保護を変える後加工工程を扱う。装飾的な表面効果 — エンボス、ニス、箔押し — は印刷後に施される場合でもFeaturesに属する。"@ja,
+        "Completions dekker post-press-operasjoner som endrer form, struktur eller beskyttelse på det trykte produktet. Dekorative overflateeffekter — prege, lakk, folie — hører til Features selv når de påføres etter trykking."@nb,
+        "Acabamentos cobre as operações pós-impressão que alteram a forma, a estrutura ou a proteção do impresso. Efeitos decorativos de superfície — relevo, verniz, hot stamping — pertencem a Características mesmo quando aplicados após a impressão."@pt,
+        "印后加工涵盖改变印刷品形态、结构或保护的印后操作。装饰性表面效果——凹凸压印、上光、烫金——属于特性分组，即使它们也在印后应用。"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" ;
+    ptpge:visual [ ptpge:color "#0071CE" ;
+            ptpge:colorName "PTPGE Blue 1" ;
+            ptpge:palette "#0071CE",
+                "#00AEEF",
+                "#9164CC" ;
+            ptpge:pantone "P 285 C" ] .
+

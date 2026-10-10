@@ -1,0 +1,48 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre",
+  "type": "skos:Concept",
+  "version": "2026-09-23",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "P:SB-SHT-PAPR-FIBR",
+  "label": {
+    "en": "Paper Fibre",
+    "nb": "Papirfiber",
+    "de": "Papierfaser",
+    "es": "Fibra del papel",
+    "ja": "紙の繊維",
+    "zh-Hans": "纸张纤维",
+    "sv": "Pappersfiber",
+    "da": "Papirfiber",
+    "nl": "Papiervezel",
+    "pl": "Włókno papieru",
+    "pt": "Fibra do papel",
+    "hi": "काग़ज़ का रेशा"
+  },
+  "definition": {
+    "en": "Origin of the fibre in the base paper — recovered (recycled) or fresh (virgin) — independent of coating and surface. Optional refinement in configurations: unbound means unspecified (SD-0069).",
+    "nb": "Fiberens opphav i råpapiret — gjenvunnet (resirkulert) eller ny (jomfruelig) — uavhengig av bestrykning og overflate. Valgfri presisjon i konfigurasjoner: ubundet betyr uspesifisert (SD-0069).",
+    "de": "Herkunft der Faser im Rohpapier — Altpapier (recycelt) oder Frischfaser — unabhängig von Strich und Oberfläche. Optionale Präzisierung in Konfigurationen: ungebunden bedeutet unspezifiziert (SD-0069).",
+    "es": "Origen de la fibra del papel base: recuperada (reciclada) o virgen, con independencia del estucado y la superficie. Refinamiento opcional en configuraciones: sin vincular significa sin especificar (SD-0069).",
+    "ja": "原紙の繊維の由来 — 回収繊維（再生）か新しい繊維（バージン）か。塗工や表面とは独立。構成では任意の精密化：未束縛は未指定を意味する（SD-0069）。",
+    "zh-Hans": "原纸纤维的来源——回收纤维（再生）或原生纤维，与涂布和表面无关。配置中为可选精化：未绑定即未指定（SD-0069）。",
+    "sv": "Fiberns ursprung i baspappret — returfiber (återvunnet) eller färsk fiber (jungfrulig) — oberoende av bestrykning och yta. Valfri precisering i konfigurationer: obundet betyder ospecificerat (SD-0069).",
+    "da": "Fiberens oprindelse i basispapiret — genvundet (genbrug) eller frisk (jomfruelig) — uafhængigt af bestrygning og overflade. Valgfri præcisering i konfigurationer: ubundet betyder uspecificeret (SD-0069).",
+    "nl": "Herkomst van de vezel in het basispapier — teruggewonnen (gerecycled) of vers (virgin) — los van strijklaag en oppervlak. Optionele verfijning in configuraties: ongebonden betekent niet gespecificeerd (SD-0069).",
+    "pl": "Pochodzenie włókna w papierze bazowym — odzyskane (makulaturowe) lub świeże (pierwotne) — niezależnie od powłoki i powierzchni. Opcjonalne uściślenie w konfiguracjach: brak wartości oznacza nieokreślone (SD-0069).",
+    "pt": "Origem da fibra do papel base — recuperada (reciclada) ou virgem — independente do revestimento e da superfície. Refinamento opcional nas configurações: não vinculado significa não especificado (SD-0069).",
+    "hi": "आधार काग़ज़ में रेशे का स्रोत — पुनर्प्राप्त (रीसाइकल्ड) या ताज़ा (वर्जिन) — कोटिंग और सतह से स्वतंत्र। कॉन्फ़िगरेशन में वैकल्पिक परिष्करण: अनबाउंड का अर्थ अनिर्दिष्ट (SD-0069)।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+  "created": "2026-09-23T16:40:00Z",
+  "modified": "2026-09-23T16:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre"
+  ]
+}

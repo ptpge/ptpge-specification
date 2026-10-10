@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-a> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "8.5 x 11 in"@en,
+        "8.5x11"@en,
+        "8.5×11"@en,
+        "Letter"@en,
+        "Letter"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/ansi-series> ;
+    skos:definition "8.5 × 11 tommer (215.9 × 279.4 mm). Samme dimensioner som US Letter — basisformatet i ANSI-serien."@da,
+        "8,5 × 11 in (215,9 × 279,4 mm). Identisch zu US Letter — das Basisformat der ANSI-Reihe. Standardpapierformat im US-amerikanischen Büroumfeld."@de,
+        "8.5 × 11 in (215.9 × 279.4 mm). Same dimensions as US Letter — the base size of the ANSI series. The default office paper size in the United States."@en,
+        "Tamaño ANSI A del estándar American National Standards Institute, 216 × 279 mm / 8.5 × 11 in."@es,
+        "8.5 × 11 in (215.9 × 279.4 mm). US Letter जैसे ही आयाम — ANSI सीरीज़ का आधार आकार। संयुक्त राज्य का डिफ़ॉल्ट ऑफ़िस काग़ज़ आकार।"@hi,
+        "8.5×11インチ（215.9×279.4mm）。米国Letterと同一寸法 — ANSIシリーズの基本サイズ。米国における既定のオフィス用紙サイズ。"@ja,
+        "8,5 × 11 in (215,9 × 279,4 mm). Samme dimensjoner som US Letter — grunnstørrelsen i ANSI-serien. Standard kontorpapir i USA."@nb,
+        "8.5 × 11 inch (215.9 × 279.4 mm). Samme dimensioner som US Letter — basisformatet in ANSI-serien."@nl,
+        "8,5 × 11 cala (215,9 × 279,4 mm). Te same wymiary co US Letter — format bazowy serii ANSI. Domyślny format papieru biurowego w Stanach Zjednoczonych."@pl,
+        "8.5 × 11 in (215.9 × 279.4 mm). Mesmas dimensões do US Letter — o tamanho base da série ANSI. O papel de escritório padrão nos Estados Unidos."@pt,
+        "8.5 × 11 tum (215.9 × 279.4 mm). Samma dimensioner som US Letter — basformatet i ANSI-serien. Standardkontorsformatet i USA."@sv,
+        "ANSI A尺寸，American National Standards Institute标准，216 × 279 mm / 8.5 × 11 in。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ANSI-A" ;
+    skos:prefLabel "ANSI A (8.5 x 11 tum)"@da,
+        "ANSI A (8.5 x 11 in)"@de,
+        "ANSI A (8.5 x 11 in)"@en,
+        "ANSI A (216 × 279 mm / 8.5 × 11 in)"@es,
+        "ANSI A (8.5 x 11 in)"@hi,
+        "ANSI A (8.5 x 11 in)"@ja,
+        "ANSI A (8.5 x 11 in)"@nb,
+        "ANSI A (8.5 x 11 in)"@nl,
+        "ANSI A (8.5 x 11 in)"@pl,
+        "ANSI A (8.5 x 11 in)"@pt,
+        "ANSI A (8.5 x 11 tum)"@sv,
+        "ANSI A (216 × 279 mm / 8.5 × 11 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 93.5 ;
+            ptpge:aspectRatio 1.2941 ;
+            ptpge:height 11.0 ;
+            ptpge:standard "ANSI/ASME Y14.1" ;
+            ptpge:unit "in" ;
+            ptpge:width 8.5 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

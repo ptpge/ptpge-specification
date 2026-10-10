@@ -1,0 +1,126 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/wine-boxes> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T10:00:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "flaskeæske"@da,
+        "gaveæske til vin"@da,
+        "vinemballage"@da,
+        "vinkarton"@da,
+        "vinæske"@da,
+        "Flaschenkartons"@de,
+        "Weinverpackungen"@de,
+        "Bottle box"@en,
+        "Wine box"@en,
+        "Wine packaging"@en,
+        "bottle box"@en,
+        "wine box"@en,
+        "wooden wine box"@en,
+        "caja de madera para vino"@es,
+        "caja de vino"@es,
+        "caja para botella"@es,
+        "estuche de vino"@es,
+        "packaging de vino"@es,
+        "गिफ़्ट बॉक्स (वाइन)"@hi,
+        "बोतल बॉक्स"@hi,
+        "लकड़ी का वाइन बॉक्स"@hi,
+        "वाइन पैकेजिंग"@hi,
+        "वाइन बॉक्स"@hi,
+        "ボトル箱"@ja,
+        "ワイン用ギフトボックス"@ja,
+        "ワイン箱"@ja,
+        "木箱"@ja,
+        "Vineske"@nb,
+        "flaskeeske"@nb,
+        "vineske"@nb,
+        "vintreeske"@nb,
+        "flessendoos"@nl,
+        "wijndoos"@nl,
+        "wijngeschenkdoos"@nl,
+        "wijnkist"@nl,
+        "wijnverpakking"@nl,
+        "drewniana skrzynka na wino"@pl,
+        "opakowanie na wino"@pl,
+        "pudełko na butelkę"@pl,
+        "pudełko na wino"@pl,
+        "caixa de madeira para vinho"@pt,
+        "caixa de vinho"@pt,
+        "caixa para garrafa"@pt,
+        "caixa para vinho"@pt,
+        "embalagem para vinho"@pt,
+        "estojo para vinho"@pt,
+        "flasklåda"@sv,
+        "presentlåda för vin"@sv,
+        "vinförpackning"@sv,
+        "vinkartong"@sv,
+        "vinlåda"@sv,
+        "木制酒盒"@zh-Hans,
+        "红酒盒"@zh-Hans,
+        "酒瓶包装盒"@zh-Hans,
+        "酒盒"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En stiv trykt æske til en eller flere vinflasker — gaveæsker i pap eller træ til detail og gaver."@da,
+        "Eine starre bedruckte Schachtel für eine oder mehrere Weinflaschen — Karton- oder Holzgeschenkboxen."@de,
+        "A rigid printed box for one or more wine bottles — card or wooden gift boxes for retail and gifting."@en,
+        "Una caja rígida impresa para una o varias botellas de vino — cajas de regalo de cartón o madera para retail y obsequios."@es,
+        "एक या अधिक वाइन की बोतलों के लिए कठोर मुद्रित बॉक्स — खुदरा और उपहार के लिए कार्ड या लकड़ी के गिफ़्ट बॉक्स।"@hi,
+        "ワインボトル用の硬質印刷ボックス。1本用から複数本用まで、厚紙や木製のギフト箱。"@ja,
+        "En rigid trykt eske for én eller flere vinflasker — kartong eller treesker for butikk og gave."@nb,
+        "Een stevige gedrukte doos voor een of meer wijnflessen — kartonnen of houten geschenkdozen voor retail en cadeaus."@nl,
+        "Sztywne drukowane pudełko na jedną lub więcej butelek wina — pudełka prezentowe z tektury lub drewna do handlu i na prezenty."@pl,
+        "Caixa rígida impressa para uma ou mais garrafas de vinho — caixas de presente em cartão ou madeira para varejo e presentes."@pt,
+        "En styv tryckt låda för en eller flera vinflaskor — present- och detaljhandelsaskar i kartong eller trä."@sv,
+        "用于单瓶或多瓶葡萄酒的硬质印刷盒——纸板或木质礼盒，适合零售与馈赠。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§WINE-BOXES" ;
+    skos:prefLabel "Vinæsker"@da,
+        "Weinkartons"@de,
+        "Wine Boxes"@en,
+        "Cajas de vino"@es,
+        "वाइन बॉक्स"@hi,
+        "ワインボックス"@ja,
+        "Vinkasser"@nb,
+        "Wijndozen"@nl,
+        "Pudełka na wino"@pl,
+        "Caixas para vinho"@pt,
+        "Vinlådor"@sv,
+        "葡萄酒礼盒"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-thickness>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/board-materials/wood/solid/edge-glued-panel>,
+        <https://ptpge.org/v1/printing/substrates/roll-materials/cardboard> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    ptpge:version "2026-08-27" .
+

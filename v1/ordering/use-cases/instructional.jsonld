@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/use-cases/instructional",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:UC§INSTRUCTIONAL",
+  "elementType": "context",
+  "label": {
+    "en": "Instructional",
+    "nb": "Instruktiv",
+    "de": "Instruktiv",
+    "ja": "教材・指導用",
+    "es": "Instructivo",
+    "zh-Hans": "教学指引",
+    "sv": "Instruktion",
+    "da": "Instruktion",
+    "nl": "Instructie",
+    "pl": "Instruktażowe",
+    "pt": "Instrucional",
+    "hi": "निर्देशात्मक"
+  },
+  "definition": {
+    "en": "Products used to instruct or guide the reader through a process, procedure, or skill. Includes user manuals, installation guides, training materials, and step-by-step booklets.",
+    "nb": "Produkter brukt til å instruere eller veilede leseren gjennom en prosess, prosedyre eller ferdighet. Inkluderer brukerveiledninger, installasjonsguider, opplæringsmateriell, og steg-for-steg-hefter.",
+    "de": "Produkte zur Anleitung oder Führung des Lesers durch einen Prozess, ein Verfahren oder eine Fertigkeit. Umfasst Benutzerhandbücher, Installationsanleitungen und Schulungsmaterialien.",
+    "ja": "プロセス、手順、技能について読者を導き、指導するための製品。取扱説明書、設置ガイド、研修教材、ステップ式の小冊子を含む。",
+    "es": "Productos usados para instruir o guiar al lector a través de un proceso, procedimiento o habilidad. Incluye manuales de usuario, guías de instalación, materiales de formación y cuadernillos paso a paso.",
+    "zh-Hans": "用于指导读者完成流程、程序或技能的产品。包括用户手册、安装指南、培训材料与分步小册子。",
+    "sv": "Produkter som instruerar eller vägleder läsaren genom en process, procedur eller färdighet. Omfattar bruksanvisningar, installationsguider, utbildningsmaterial och steg-för-steg-häften.",
+    "da": "Produkter brugt til at instruere eller guide læseren gennem en proces, procedure eller færdighed. Omfatter brugermanualer, installationsvejledninger, kursusmateriale og trin-for-trin-hæfter.",
+    "nl": "Producten die de lezer door een proces, procedure of vaardigheid leiden. Omvat gebruikershandleidingen, installatiegidsen, cursusmateriaal en stap-voor-stapboekjes.",
+    "pl": "Produkty służące instruowaniu lub prowadzeniu czytelnika przez proces, procedurę lub umiejętność. Obejmuje instrukcje obsługi, przewodniki instalacji, materiały szkoleniowe i broszury krok po kroku.",
+    "pt": "Produtos usados para instruir ou guiar o leitor por um processo, procedimento ou habilidade. Inclui manuais do usuário, guias de instalação, materiais de treinamento e folhetos passo a passo.",
+    "hi": "पाठक को किसी प्रक्रिया, विधि या कौशल में निर्देश या मार्गदर्शन देने वाले उत्पाद। यूज़र मैनुअल, इंस्टॉलेशन गाइड, प्रशिक्षण सामग्री और चरण-दर-चरण पुस्तिकाएँ शामिल।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "use-cases",
+  "broader": "https://ptpge.org/v1/ordering/use-cases",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/TeachAction"
+  ]
+}

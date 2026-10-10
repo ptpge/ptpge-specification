@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/morgana> a skos:Concept ;
+    dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:39:22+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Britisk producent af rille-, false- og efterbehandlingssystemer til digitaltryk (del af Plockmatic Group) — kendt for roterende rillemaskiner, der forhindrer tonerrevner."@da,
+        "Britischer Hersteller von Rill-, Falz- und Finishing-Systemen für den Digitaldruck (Teil der Plockmatic Group) — bekannt für Rotationsrillmaschinen, die Tonerbruch verhindern."@de,
+        "British manufacturer of creasing, folding and finishing systems for digital print (part of the Plockmatic Group) — known for rotary creasers that prevent toner cracking."@en,
+        "Fabricante británico de sistemas de hendido, plegado y acabado para impresión digital (parte del Grupo Plockmatic) — conocido por sus hendedoras rotativas que evitan el agrietado del tóner."@es,
+        "डिजिटल प्रिंट के लिए क्रीज़िंग, फ़ोल्डिंग और फ़िनिशिंग सिस्टम का ब्रिटिश निर्माता (Plockmatic Group का हिस्सा) — टोनर को चटकने से बचाने वाले रोटरी क्रीज़र के लिए प्रसिद्ध।"@hi,
+        "デジタル印刷向けのスジ入れ・折り・仕上げシステムの英国メーカー（Plockmatic グループ）。トナー割れを防ぐロータリークリーザーで知られる。"@ja,
+        "Britisk produsent av rille-, false- og ferdiggjøringssystemer for digitaltrykk (del av Plockmatic Group) — kjent for roterende rillemaskiner som hindrer tonersprekker."@nb,
+        "Britse fabrikant van ril-, vouw- en afwerkingssystemen voor digitaal drukwerk (onderdeel van de Plockmatic Group) — bekend om roterende rilmachines die tonerbreuk voorkomen."@nl,
+        "Brytyjski producent systemów bigowania, składania i wykończenia dla druku cyfrowego (część Plockmatic Group) — znany z bigówek rotacyjnych zapobiegających pękaniu tonera."@pl,
+        "Fabricante britânico de sistemas de vinco, dobra e acabamento para impressão digital (parte do Plockmatic Group) — conhecido por vincadoras rotativas que evitam a quebra do toner."@pt,
+        "Brittisk tillverkare av big-, fals- och efterbehandlingssystem för digitaltryck (del av Plockmatic Group) — känd för roterande bigmaskiner som förhindrar tonersprickor."@sv,
+        "英国数字印刷压痕、折页与整饰系统制造商（隶属 Plockmatic 集团）— 以防止碳粉开裂的旋转压痕机著称。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§MORGANA" ;
+    skos:prefLabel "Morgana"@da,
+        "Morgana"@de,
+        "Morgana"@en,
+        "Morgana"@es,
+        "Morgana"@hi,
+        "Morgana"@ja,
+        "Morgana"@nb,
+        "Morgana"@nl,
+        "Morgana"@pl,
+        "Morgana"@pt,
+        "Morgana"@sv,
+        "Morgana"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

@@ -1,0 +1,75 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Hybrid Graphics",
+    "es": "Gráficos Híbridos",
+    "zh-Hans": "混合图形",
+    "nb": "Hybride grafikkformater",
+    "de": "Hybride Grafiken",
+    "ja": "ハイブリッドグラフィック",
+    "sv": "Hybridgrafik",
+    "da": "Hybridgrafik",
+    "nl": "Hybride graphics",
+    "pl": "Grafika hybrydowa",
+    "pt": "Gráficos híbridos",
+    "hi": "हाइब्रिड ग्राफ़िक्स"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/encapsulated-postscript"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "File formats that combine vector and raster content along with embedded text, fonts, and metadata in a single document — designed for layout exchange.",
+    "nb": "Filformater som kombinerer vektor- og rasterinnhold med innebygd tekst, fonter og metadata i ett dokument — laget for utveksling av layout.",
+    "de": "Dateiformate, die Vektor- und Rasterinhalte zusammen mit eingebettetem Text, Schriften und Metadaten in einem einzigen Dokument kombinieren — entwickelt für den Layout-Austausch.",
+    "ja": "ベクターおよびラスターのコンテンツを、埋め込みのテキスト、フォント、メタデータとともに単一の文書に統合するファイル形式 — レイアウト交換用に設計されている。",
+    "es": "Formatos de archivo que combinan contenido vectorial y raster junto con texto, fuentes y metadatos incrustados en un solo documento — diseñados para el intercambio de maquetación.",
+    "zh-Hans": "在单一文档中结合矢量和位图内容以及嵌入文本、字体和元数据的文件格式——为版面交换设计。",
+    "sv": "Filformat som kombinerar vektor- och rasterinnehåll tillsammans med inbäddad text, typsnitt och metadata i ett enda dokument — designade för layoututbyte.",
+    "da": "Filformater, der kombinerer vektor- og rasterindhold sammen med indlejret tekst, skrifter og metadata i ét dokument — designet til layoutudveksling.",
+    "nl": "Bestandsformaten die vector- en rasterinhoud combineren met ingesloten tekst, lettertypen en metadata in één document — ontworpen voor lay-outuitwisseling.",
+    "pl": "Formaty plików łączące treść wektorową i rastrową wraz z osadzonym tekstem, fontami i metadanymi w jednym dokumencie — przeznaczone do wymiany układów.",
+    "pt": "Formatos de arquivo que combinam conteúdo vetorial e raster com texto, fontes e metadados incorporados num único documento — projetados para troca de layouts.",
+    "hi": "फ़ाइल फ़ॉर्मेट जो एक ही दस्तावेज़ में वेक्टर और रास्टर सामग्री को एम्बेडेड पाठ, फ़ॉन्ट और मेटाडेटा के साथ जोड़ते हैं — लेआउट विनिमय के लिए डिज़ाइन किए गए।"
+  },
+  "scopeNote": {
+    "en": "Centered on PDF and its print-industry derivatives (PDF/X, PDF/A, PDF/E, PDF/UA, PDF/VT) plus the older Encapsulated PostScript. Pure vector or pure raster formats are categorized separately.",
+    "nb": "Sentrert rundt PDF og dets trykkerivarianter (PDF/X, PDF/A, PDF/E, PDF/UA, PDF/VT) pluss den eldre Encapsulated PostScript. Rene vektor- eller rasterformater er kategorisert separat.",
+    "de": "Im Mittelpunkt stehen PDF und seine druckbranchenspezifischen Ableitungen (PDF/X, PDF/A, PDF/E, PDF/UA, PDF/VT) sowie das ältere Encapsulated PostScript. Reine Vektor- oder reine Rasterformate werden separat klassifiziert.",
+    "ja": "PDFおよびその印刷業界向け派生形式（PDF/X、PDF/A、PDF/E、PDF/UA、PDF/VT）、加えて旧来のEncapsulated PostScriptを中心とする。純粋なベクターまたはラスター形式は別カテゴリに分類される。",
+    "es": "Centrado en PDF y sus derivados para la industria de impresión (PDF/X, PDF/A, PDF/E, PDF/UA, PDF/VT) más el más antiguo Encapsulated PostScript. Los formatos vectoriales puros o raster puros se categorizan por separado.",
+    "zh-Hans": "以PDF及其印刷行业衍生格式（PDF/X、PDF/A、PDF/E、PDF/UA、PDF/VT）为中心，加上较旧的Encapsulated PostScript。纯矢量或纯位图格式单独分类。",
+    "pt": "Centrado no PDF e seus derivados da indústria gráfica (PDF/X, PDF/A, PDF/E, PDF/UA, PDF/VT), além do antigo Encapsulated PostScript. Formatos puramente vetoriais ou puramente raster são categorizados separadamente.",
+    "hi": "PDF और इसके प्रिंट-उद्योग व्युत्पन्न (PDF/X, PDF/A, PDF/E, PDF/UA, PDF/VT) तथा पुराने Encapsulated PostScript पर केंद्रित। शुद्ध वेक्टर या शुद्ध रास्टर फ़ॉर्मेट अलग वर्गीकृत।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-GFF-HYBR",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

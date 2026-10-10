@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution/incoterms",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS-INCOTERMS",
+  "level": "category",
+  "label": {
+    "en": "Incoterms 2020",
+    "nb": "Incoterms 2020",
+    "de": "Incoterms 2020",
+    "es": "Incoterms 2020",
+    "ja": "インコタームズ2020",
+    "zh-Hans": "国际贸易术语2020",
+    "sv": "Incoterms 2020",
+    "da": "Incoterms 2020",
+    "nl": "Incoterms 2020",
+    "pl": "Incoterms 2020",
+    "pt": "Incoterms 2020",
+    "hi": "Incoterms 2020"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering/distribution",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/distribution/incoterms/exw",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/fca",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/cpt",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/cip",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/dap",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/dpu",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/ddp",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/fas",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/fob",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/cfr",
+    "https://ptpge.org/v1/ordering/distribution/incoterms/cif"
+  ],
+  "scopeNote": {
+    "en": "Incoterms® is a registered trademark of the International Chamber of Commerce (ICC). These terms are referenced, not redefined; the ICC publication is authoritative.",
+    "nb": "Incoterms® er et registrert varemerke tilhørende International Chamber of Commerce (ICC). Disse vilkårene refereres, ikke omdefineres; ICC-publikasjonen er autoritativ.",
+    "pt": "Incoterms® é marca registrada da Câmara de Comércio Internacional (ICC). Estes termos são referenciados, não redefinidos; a publicação da ICC é a fonte autoritativa.",
+    "hi": "Incoterms® अंतरराष्ट्रीय वाणिज्य मंडल (ICC) का पंजीकृत ट्रेडमार्क है। ये पद संदर्भित हैं, पुनर्परिभाषित नहीं; ICC का प्रकाशन प्रामाणिक है।"
+  },
+  "definition": {
+    "en": "Incoterms 2020 — standardised international trade terms (ICC) defining the division of cost, risk and responsibility between buyer and seller.",
+    "nb": "Incoterms 2020 — standardiserte internasjonale handelsvilkår (ICC) som definerer fordelingen av kostnad, risiko og ansvar mellom kjøper og selger.",
+    "de": "Incoterms 2020 — standardisierte internationale Handelsklauseln (ICC), die die Verteilung von Kosten, Risiko und Verantwortung zwischen Käufer und Verkäufer festlegen.",
+    "es": "Incoterms 2020 — términos de comercio internacional estandarizados (ICC) que definen el reparto de costes, riesgo y responsabilidad entre comprador y vendedor.",
+    "ja": "インコタームズ2020 — 買い手と売り手の間の費用・リスク・責任の分担を定める標準化された国際貿易条件（ICC）。",
+    "zh-Hans": "国际贸易术语解释通则2020（Incoterms 2020）——由国际商会（ICC）制定的标准化国际贸易条款，界定买卖双方在费用、风险与责任上的划分。",
+    "sv": "Incoterms 2020 — standardiserade internationella handelstermer (ICC) som definierar fördelningen av kostnad, risk och ansvar mellan köpare och säljare.",
+    "da": "Incoterms 2020 — standardiserede internationale handelsklausuler (ICC), der definerer fordelingen af omkostninger, risiko og ansvar mellem køber og sælger.",
+    "nl": "Incoterms 2020 — gestandaardiseerde internationale handelstermen (ICC) die de verdeling van kosten, risico en verantwoordelijkheid tussen koper en verkoper definiëren.",
+    "pl": "Incoterms 2020 — ustandaryzowane międzynarodowe reguły handlowe (ICC) określające podział kosztów, ryzyka i odpowiedzialności między kupującym a sprzedającym.",
+    "pt": "Incoterms 2020 — termos comerciais internacionais padronizados (ICC) que definem a divisão de custo, risco e responsabilidade entre comprador e vendedor.",
+    "hi": "Incoterms 2020 — मानकीकृत अंतरराष्ट्रीय व्यापार शर्तें (ICC) जो खरीदार और विक्रेता के बीच लागत, जोखिम और ज़िम्मेदारी के बँटवारे को परिभाषित करती हैं।"
+  }
+}

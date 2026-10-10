@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/openai-chatgpt> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    skos:definition "OpenAI ChatGPT — LLM-baseret AI-assistent, der lejlighedsvis bruges som supplerende værktøj i prepress-workflows til opgaver som korrekturlæsning, generering af alt-tekster og udkast til godkendelsesnoter."@da,
+        "OpenAI ChatGPT — KI-Assistent auf Basis eines großen Sprachmodells, gelegentlich als ergänzendes Werkzeug in Druckvorstufen-Workflows eingesetzt für Aufgaben wie Korrekturlesen, Generieren von Alt-Texten für Barrierefreiheit, Texterstellung oder inhaltliche Plausibilitätsprüfung. Kein dediziertes Proofing-Werkzeug — hier zur Information aufgeführt."@de,
+        "OpenAI ChatGPT — large-language-model AI assistant occasionally used as a supplementary tool in prepress workflows for tasks like proofreading text, generating alt-text for accessibility, drafting copy, or sanity-checking content. Not a dedicated proofing tool — flagged here for informational purposes."@en,
+        "ChatGPT de OpenAI — utilizado en algunos flujos editoriales para revisión de texto y detección de errores. Inclusión experimental; no es un sistema de prueba formal."@es,
+        "OpenAI ChatGPT — बड़े भाषा मॉडल पर आधारित AI सहायक, प्रीप्रेस वर्कफ़्लो में पाठ प्रूफ़रीडिंग, सुगम्यता के लिए ऑल्ट-टेक्स्ट बनाने, कॉपी ड्राफ़्ट करने या सामग्री जाँचने जैसे कार्यों के लिए कभी-कभी पूरक औज़ार के रूप में प्रयुक्त। समर्पित प्रूफ़िंग औज़ार नहीं — सूचनार्थ यहाँ चिह्नित।"@hi,
+        "OpenAI ChatGPT — 大規模言語モデルによるAIアシスタント。製版ワークフローでテキストの校正、アクセシビリティ用の代替テキスト生成、コピーの草案、内容の妥当性チェックなどの補助的な作業に時折使用される。専用の校正ツールではない — 参考のためここに掲載。"@ja,
+        "OpenAI ChatGPT — språkmodell-AI-assistent som av og til brukes som et supplerende verktøy i prepress-arbeidsflyter for oppgaver som korrekturlesing av tekst, generering av alt-tekst for tilgjengelighet, utforming av tekst eller sanity-sjekk av innhold. Ikke et dedikert proofing-verktøy — flagget her for informasjon."@nb,
+        "OpenAI ChatGPT — LLM-gebaseerde AI-assistent, incidenteel gebruikt als aanvullende tool in prepressworkflows voor taken als tekstcorrectie, het genereren van alt-teksten en concepten voor goedkeuringsnotities."@nl,
+        "OpenAI ChatGPT — asystent AI oparty na dużym modelu językowym, okazjonalnie używany jako narzędzie pomocnicze w workflow prepress do zadań takich jak korekta tekstu, generowanie tekstów alternatywnych dla dostępności, tworzenie treści lub sprawdzanie sensowności zawartości. Nie jest dedykowanym narzędziem proofingu — wymieniony tu informacyjnie."@pl,
+        "OpenAI ChatGPT — assistente de IA baseado em grande modelo de linguagem, ocasionalmente usado como ferramenta complementar em fluxos de pré-impressão para tarefas como revisão de texto, geração de texto alternativo para acessibilidade, redação de textos ou verificação de conteúdo. Não é uma ferramenta dedicada de provas — sinalizada aqui para fins informativos."@pt,
+        "OpenAI ChatGPT — AI-assistent baserad på stora språkmodeller, ibland använd som kompletterande verktyg i prepressflöden för uppgifter som korrekturläsning, alt-texter för tillgänglighet, textutkast eller rimlighetskontroll av innehåll. Inte ett dedikerat provtrycksverktyg — listat här i informationssyfte."@sv,
+        "OpenAI的ChatGPT —— 在某些编辑工作流程中用于文本审核和错误检测。实验性纳入；不是正式校样系统。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§OPENAI-CHATGPT" ;
+    skos:prefLabel "OpenAI ChatGPT"@da,
+        "OpenAI ChatGPT"@de,
+        "OpenAI ChatGPT"@en,
+        "OpenAI ChatGPT"@es,
+        "OpenAI ChatGPT"@hi,
+        "OpenAI ChatGPT"@ja,
+        "OpenAI ChatGPT"@nb,
+        "OpenAI ChatGPT"@nl,
+        "OpenAI ChatGPT"@pl,
+        "OpenAI ChatGPT"@pt,
+        "OpenAI ChatGPT"@sv,
+        "OpenAI ChatGPT"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

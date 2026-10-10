@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure/sheet-fed-rotogravure> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Sheet-fed gravure"@en,
+        "शीट-फ़ेड ग्रेव्योर"@hi,
+        "Arkrotogravyr"@nb,
+        "wklęsłodruk arkuszowy"@pl,
+        "Gravura de folha"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure> ;
+    skos:definition "Industrielt dybtryk på skårne ark, der fødes enkeltvis ind i pressen — bruges til reproduktioner af meget høj kvalitet, hvor konsistens ark for ark skal holdes over lange oplag."@da,
+        "Industrieller Tiefdruck auf Einzelbogen, die der Druckmaschine separat zugeführt werden — eingesetzt für sehr hochwertige Reproduktionen, bei denen die Bogen-zu-Bogen-Konsistenz über lange Auflagen aufrechterhalten werden muss."@de,
+        "Industrial gravure printing on cut sheets fed individually into the press — used for very high-quality reproductions where consistency from sheet to sheet must be maintained over long runs."@en,
+        "Variante de huecograbado industrial que imprime sobre hojas cortadas en lugar de bobina continua. Menos común que la versión en bobina; reservada a aplicaciones especializadas."@es,
+        "प्रेस में एक-एक करके डाली गई कटी शीटों पर औद्योगिक ग्रेव्योर मुद्रण — बहुत उच्च-गुणवत्ता प्रतिकृतियों के लिए, जहाँ लंबे रन में शीट-दर-शीट स्थिरता बनाए रखनी हो।"@hi,
+        "印刷機に1枚ずつ給紙されたカットシートに対する工業的グラビア印刷 — 長納期にわたってシート間の一貫性を維持しなければならない超高品質複製に使用される。"@ja,
+        "Industriell gravure-trykk på kuttede ark mates individuelt inn i pressen — brukt til svært høykvalitets-reproduksjoner der konsistens fra ark til ark må opprettholdes over lange opplag."@nb,
+        "Industriële diepdruk op gesneden vellen die afzonderlijk in de pers worden gevoerd — gebruikt voor reproducties van zeer hoge kwaliteit waarbij consistentie van vel tot vel over lange oplagen behouden moet blijven."@nl,
+        "Przemysłowy wklęsłodruk na ciętych arkuszach podawanych pojedynczo do maszyny — używany do reprodukcji bardzo wysokiej jakości, gdzie powtarzalność arkusz po arkuszu musi być utrzymana w długich nakładach."@pl,
+        "Rotogravura industrial em folhas cortadas alimentadas uma a uma na impressora — usada em reproduções de altíssima qualidade onde a consistência de folha a folha deve ser mantida em tiragens longas."@pt,
+        "Industriellt djuptryck på skurna ark som matas in individuellt i pressen — används för mycket högkvalitativa reproduktioner där konsekvens ark för ark måste hållas över långa upplagor."@sv,
+        "工业凹印的变体，在切张上印刷而非连续卷材。比卷材版本少见；保留用于特殊应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§SHEET-FED-ROTOGRAVURE" ;
+    skos:prefLabel "Arkfødet rotogravure"@da,
+        "Bogen-Tiefdruck"@de,
+        "Sheet-fed Rotogravure"@en,
+        "Rotograbado en Hoja"@es,
+        "शीट-फ़ेड रोटोग्रेव्योर"@hi,
+        "枚葉式グラビア"@ja,
+        "Ark-matet dyptrykk"@nb,
+        "Vellenrotogravure"@nl,
+        "Rotograwiura arkuszowa"@pl,
+        "Rotogravura de folha"@pt,
+        "Arkmatad rotogravyr"@sv,
+        "单张凹印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

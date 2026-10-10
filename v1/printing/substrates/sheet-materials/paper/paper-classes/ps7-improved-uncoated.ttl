@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps7-improved-uncoated> a skos:Concept ;
+    dcterms:created "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T16:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes> ;
+    skos:definition "Forbedret ubestrøget træholdigt papir efter ISO 12647-2:2013 (PS7) — hvidere og glattere end almindeligt avispapir; indstik, tillæg og billige kataloger i rulleoffset."@da,
+        "Verbessertes ungestrichenes holzhaltiges Papier nach ISO 12647-2:2013 (PS7) — weißer und glatter als Standard-Zeitungsdruckpapier; Beilagen, Supplements und günstige Kataloge im Rollenoffset."@de,
+        "Improved uncoated wood-containing paper per ISO 12647-2:2013 (PS7) — brighter and smoother than standard newsprint-type stock; inserts, supplements and low-cost catalogues in web offset."@en,
+        "Papel no estucado mejorado con pasta mecánica según ISO 12647-2:2013 (PS7): más blanco y liso que el papel prensa estándar; encartes, suplementos y catálogos económicos en offset de bobina."@es,
+        "ISO 12647-2:2013 के अनुसार इम्प्रूव्ड अनकोटेड वुड-कंटेनिंग काग़ज़ (PS7) — मानक न्यूज़प्रिंट से अधिक सफ़ेद और चिकना; वेब ऑफ़सेट में इन्सर्ट, सप्लीमेंट और कम लागत के कैटलॉग।"@hi,
+        "ISO 12647-2:2013 の改良非塗工紙（PS7）。標準的な新聞用紙より白く平滑な機械パルプ含有紙。輪転オフセットの折込・付録・低コストのカタログ用。"@ja,
+        "Forbedret ubestrøket treholdig papir etter ISO 12647-2:2013 (PS7) — hvitere og glattere enn vanlig avispapir; innstikk, bilag og rimelige kataloger i rulloffset."@nb,
+        "Verbeterd ongestreken houthoudend papier volgens ISO 12647-2:2013 (PS7) — witter en gladder dan standaard krantenpapier; bijlagen, supplementen en goedkope catalogi in rotatieoffset."@nl,
+        "Ulepszony papier niepowlekany drzewny wg ISO 12647-2:2013 (PS7) — bielszy i gładszy niż standardowy papier gazetowy; wkładki, dodatki i tanie katalogi w offsecie zwojowym."@pl,
+        "Papel não revestido melhorado com pasta mecânica segundo ISO 12647-2:2013 (PS7) — mais branco e liso que o papel-jornal padrão; encartes, suplementos e catálogos económicos em offset rotativo."@pt,
+        "Förbättrat obestruket trähaltigt papper enligt ISO 12647-2:2013 (PS7) — vitare och slätare än standardtidningspapper; bilagor, supplement och enklare kataloger i rulloffset."@sv,
+        "ISO 12647-2:2013 改良非涂布含机械浆纸（PS7）——比标准新闻纸更白更平滑；轮转胶印的插页、增刊和低成本目录。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PS7" ;
+    skos:prefLabel "PS7 — Forbedret ubestrøget (træholdigt)"@da,
+        "PS7 — Verbessert ungestrichen (holzhaltig)"@de,
+        "PS7 — Improved uncoated (wood-containing)"@en,
+        "PS7 — No estucado mejorado (con pasta mecánica)"@es,
+        "PS7 — इम्प्रूव्ड अनकोटेड (वुड-कंटेनिंग)"@hi,
+        "PS7 — 改良非塗工紙（機械パルプ含有）"@ja,
+        "PS7 — Forbedret ubestrøket (treholdig)"@nb,
+        "PS7 — Verbeterd ongestreken (houthoudend)"@nl,
+        "PS7 — Niepowlekany ulepszony (drzewny)"@pl,
+        "PS7 — Não revestido melhorado (com pasta mecânica)"@pt,
+        "PS7 — Förbättrat obestruket (trähaltigt)"@sv,
+        "PS7 — 改良非涂布纸（含机械浆）"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated> ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Table 1 — Printing substrate types" ;
+            ptpge:sourceStandard "ISO 12647-2" ;
+            ptpge:sourceVersion "2013" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-23" .
+

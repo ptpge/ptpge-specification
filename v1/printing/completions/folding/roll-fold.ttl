@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/roll-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Barrel Fold"@en,
+        "बैरल फ़ोल्ड"@hi,
+        "लपेट फ़ोल्ड"@hi,
+        "Rullefals"@nb,
+        "zwijany"@pl,
+        "złam rolowany"@pl,
+        "dobra barril"@pt,
+        "dobra em espiral"@pt,
+        "dobra rolo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Flerpanelsfals, hvor hvert panel falses omkring det forrige og skaber en kompakt sammenrullet struktur. Hvert panel er en anelse mindre end det næste, så de passer rent ind i hinanden. Bruges til brochurer med progressiv afsløring."@da,
+        "Mehrteiliger Falz, bei dem jedes Feld der Reihe nach um das vorherige gerollt wird, wodurch eine kompakte aufgerollte Struktur entsteht. Jedes Feld ist geringfügig kleiner als das nächste, damit sie sauber ineinanderpassen. Verwendet für Broschüren mit progressiver Inhaltsoffenbarung."@de,
+        "Multi-panel fold where each panel folds in turn around the previous one, creating a compact rolled-up structure. Each panel is slightly smaller than the next to nest cleanly. Used for brochures with progressive content reveal."@en,
+        "Múltiples pliegues paralelos en la misma dirección — el pliego se enrolla sobre sí mismo. Habitual en folletos compactos."@es,
+        "बहु-पैनल फ़ोल्ड जिसमें हर पैनल बारी-बारी पिछले के चारों ओर मुड़ता है, सघन लिपटी संरचना बनाता है। हर पैनल अगले से थोड़ा छोटा होता है ताकि साफ़ बैठे। क्रमशः खुलने वाली सामग्री वाले ब्रोशर में।"@hi,
+        "各面が直前の面の周囲に順次折られ、コンパクトな巻き上げ構造を作る多面折り。各面はきれいに収まるように直前の面より少し小さくする。段階的に内容を見せるブローシュアに使用される。"@ja,
+        "Flerpanel-folde der hvert panel folder seg etter tur rundt det forrige, og skaper en kompakt rullet struktur. Hvert panel er litt mindre enn det neste for å nestes rent. Brukt til brosjyrer med progressiv innholdsavsløring."@nb,
+        "Meerpaneelvouw waarbij elk paneel om het vorige heen vouwt en een compacte opgerolde structuur vormt. Elk paneel is net iets kleiner dan het volgende om netjes te nesten. Gebruikt voor brochures met progressieve onthulling."@nl,
+        "Złam wieloskrzydłowy, w którym każde skrzydło składa się kolejno wokół poprzedniego, tworząc zwartą, zwiniętą strukturę. Każde skrzydło jest nieco mniejsze od następnego, aby czysto się zagnieżdżać. Stosowany w folderach ze stopniowym odsłanianiem treści."@pl,
+        "Dobra de vários painéis em que cada painel se dobra por vez em torno do anterior, criando uma estrutura enrolada compacta. Cada painel é ligeiramente menor que o seguinte para encaixar bem. Usada em folhetos com revelação progressiva de conteúdo."@pt,
+        "Flerpanelsfals där varje panel i tur och ordning viks runt den föregående och skapar en kompakt hoprullad struktur. Varje panel är något mindre än nästa för att gå rent in. Används för broschyrer med stegvis innehållsavslöjande."@sv,
+        "同一方向的多个平行折页 —— 纸张自身卷起来。常见于紧凑宣传册。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§ROLL-FOLD" ;
+    skos:prefLabel "Rullefals"@da,
+        "Wickelfalz"@de,
+        "Roll Fold"@en,
+        "Pliegue Enrollado"@es,
+        "रोल फ़ोल्ड"@hi,
+        "巻き折り"@ja,
+        "Rull-fold"@nb,
+        "Rolvouw (wikkelvouw)"@nl,
+        "Złam zwijany"@pl,
+        "Dobra envolvente"@pt,
+        "Rullfals"@sv,
+        "卷折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

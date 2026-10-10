@@ -1,0 +1,81 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/finishing/binding",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:FN§BINDING",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Binding",
+    "nb": "Innbinding",
+    "de": "Bindung",
+    "es": "Encuadernación",
+    "ja": "製本",
+    "zh-Hans": "装订",
+    "sv": "Bindning",
+    "da": "Indbinding",
+    "nl": "Binden",
+    "pl": "Oprawa",
+    "pt": "Encadernação",
+    "hi": "बाइंडिंग"
+  },
+  "altLabels": {
+    "en": [
+      "Bookbinding"
+    ],
+    "nb": [
+      "Heftemetode"
+    ],
+    "pl": [
+      "introligatorstwo",
+      "rodzaj oprawy"
+    ],
+    "pt": [
+      "tipo de encadernação",
+      "acabamento de encadernação"
+    ],
+    "hi": [
+      "जिल्दसाज़ी",
+      "बाइंडिंग का प्रकार"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Binding. A printed product is configured along this variable (enum, single selection). Values: binding methods from printing/completions/binding.",
+    "nb": "Konfigurerbar akse: Innbinding. Et trykkprodukt konfigureres langs denne variabelen (enum, single valg). Verdier: innbindingsmetoder fra printing/completions/binding.",
+    "de": "Konfigurierbare Achse: Bindung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Einfachauswahl). Werte: Bindeverfahren aus printing/completions/binding.",
+    "es": "Eje configurable: Encuadernación. Un producto impreso se configura a lo largo de esta variable (enum, selección única). Valores: métodos de encuadernación de printing/completions/binding.",
+    "ja": "構成可能な軸：製本。印刷物はこの変数に沿って構成される（列挙型、単一選択）。値は printing/completions/binding の製本方式。",
+    "zh-Hans": "可配置轴：装订。印刷品沿此变量进行配置（枚举，单选）。取值：printing/completions/binding 中的装订方式。",
+    "sv": "Konfigurerbar axel: Bindning. En trycksak konfigureras längs denna variabel (uppräkning, enkelval). Värden: bindningsmetoder från printing/completions/binding.",
+    "da": "Konfigurerbar akse: Indbinding. Et trykt produkt konfigureres langs denne variabel (enum, enkeltvalg). Værdier: indbindingsmetoder fra printing/completions/binding.",
+    "nl": "Configureerbare as: Binden. Een drukproduct wordt langs deze variabele geconfigureerd (enum, enkelvoudig). Waarden: bindwijzen uit printing/completions/binding.",
+    "pl": "Oś konfigurowalna: Oprawa. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór pojedynczy). Wartości: metody oprawy z printing/completions/binding.",
+    "pt": "Eixo configurável: Encadernação. Um impresso é configurado ao longo desta variável (enumeração, seleção única). Valores: métodos de encadernação de printing/completions/binding.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: बाइंडिंग। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, एकल चयन)। मान: printing/completions/binding की बाइंडिंग विधियाँ।"
+  },
+  "question": {
+    "en": "How is it bound?",
+    "nb": "Hvordan er den innbundet?",
+    "de": "Wie ist es gebunden?",
+    "es": "¿Cómo está encuadernado?",
+    "ja": "綴じ方は？",
+    "zh-Hans": "如何装订？",
+    "sv": "Hur är den bunden?",
+    "da": "Hvordan er den indbundet?",
+    "nl": "Hoe is het gebonden?",
+    "pl": "Jak jest oprawiony?",
+    "pt": "Como é encadernado?",
+    "hi": "बाइंडिंग कैसी?"
+  },
+  "datatype": "enum",
+  "cardinality": "single",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/completions/binding",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

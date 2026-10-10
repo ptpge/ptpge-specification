@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration/agfa-apogee> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/workflow/efficiency-tools/automation-integration> ;
+    skos:definition "Agfa Apogee — workflow-automatiseringsplatform fra Agfa Graphics, der dækker ordremodtagelse, preflight, farvestyring, udskydning, RIP og prøvetryk for offset- og hybrid offset/digital-produktion."@da,
+        "Agfa Apogee — Workflow-Automatisierungsplattform von Agfa Graphics, die Auftragsannahme, Preflight, Farbmanagement, Ausschießen, RIP und Proofing für Offset- und hybride Offset-/Digitalproduktion abdeckt."@de,
+        "Agfa Apogee — workflow automation platform from Agfa Graphics covering job intake, preflight, color management, imposition, RIP, and proofing for offset and hybrid offset/digital production."@en,
+        "Plataforma de automatización de pre-prensa de Agfa Graphics, frecuente en imprentas comerciales de tamaño medio."@es,
+        "Agfa Apogee — Agfa Graphics का वर्कफ़्लो स्वचालन प्लेटफ़ॉर्म जो ऑफसेट और हाइब्रिड ऑफसेट/डिजिटल उत्पादन के लिए जॉब इनटेक, प्रीफ़्लाइट, रंग प्रबंधन, इम्पोज़िशन, RIP और प्रूफ़िंग को ढकता है।"@hi,
+        "Agfa Apogee — Agfa Graphicsによるワークフロー自動化プラットフォーム。オフセットおよびオフセット／デジタル混成生産向けに、ジョブ受付、プリフライト、カラーマネジメント、面付け、RIP、校正を扱う。"@ja,
+        "Agfa Apogee — workflow-automasjonsplattform fra Agfa Graphics som dekker jobb-mottak, preflight, fargestyring, impositioning, RIP og proofing for offset- og hybrid offset/digital-produksjon."@nb,
+        "Agfa Apogee — workflowautomatiseringsplatform van Agfa Graphics voor orderintake, preflight, kleurbeheer, impositie, RIP en proeven voor offset- en hybride offset/digitale productie."@nl,
+        "Agfa Apogee — platforma automatyzacji workflow firmy Agfa Graphics obejmująca przyjęcie zlecenia, preflight, zarządzanie barwą, impozycję, RIP i proofing dla produkcji offsetowej i hybrydowej offset/cyfra."@pl,
+        "Agfa Apogee — plataforma de automação de fluxo de trabalho da Agfa Graphics que cobre entrada de trabalhos, preflight, gerenciamento de cor, imposição, RIP e provas para produção offset e híbrida offset/digital."@pt,
+        "Agfa Apogee — plattform för arbetsflödesautomation från Agfa Graphics som täcker jobbintag, preflight, färghantering, utskjutning, RIP och provtryck för offset- och hybridproduktion offset/digitalt."@sv,
+        "Agfa Graphics的印前自动化平台，在中型商业印刷厂中常见。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§AGFA-APOGEE" ;
+    skos:prefLabel "Agfa Apogee"@da,
+        "Agfa Apogee"@de,
+        "Agfa Apogee"@en,
+        "Agfa Apogee"@es,
+        "Agfa Apogee"@hi,
+        "Agfa Apogee"@ja,
+        "Agfa Apogee"@nb,
+        "Agfa Apogee"@nl,
+        "Agfa Apogee"@pl,
+        "Agfa Apogee"@pt,
+        "Agfa Apogee"@sv,
+        "Agfa Apogee"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

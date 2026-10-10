@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/joint-picture-expert-group> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".jpeg"@en,
+        ".jpg"@en,
+        "JPEG"@en,
+        "JPG"@en,
+        ".jpeg"@hi,
+        ".jpg"@hi,
+        "JPEG"@hi,
+        "JPG"@hi,
+        ".jpeg"@pl,
+        ".jpg"@pl,
+        "JPEG"@pl,
+        "JPG"@pl,
+        ".jpeg"@pt,
+        ".jpg"@pt,
+        "JPEG"@pt,
+        "JPG"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics> ;
+    skos:definition "JPEG (.jpg) — ISO/IEC 10918-standard for komprimering af fotografiske billeder med tab, det dominerende format for fotografi på nettet og i forbrugerenheder."@da,
+        "JPEG (.jpg) — ISO/IEC-Standard 10918 für die verlustbehaftete Komprimierung fotografischer Bilder, das dominierende Format für Fotografien im Web und auf Endgeräten."@de,
+        "JPEG (.jpg) — ISO/IEC 10918 standard for lossy compression of photographic images, the dominant format for photography on the web and in consumer devices."@en,
+        "Joint Photographic Experts Group — formato raster de compresión con pérdida (ISO 10918), dominante para fotografías web y entrega a imprenta de imágenes de tono continuo."@es,
+        "JPEG (.jpg) — फ़ोटोग्राफ़िक छवियों के हानिपूर्ण संपीड़न का ISO/IEC 10918 मानक, वेब और उपभोक्ता उपकरणों में फ़ोटोग्राफ़ी का प्रमुख फ़ॉर्मेट।"@hi,
+        "JPEG（.jpg）— 写真画像の非可逆圧縮に関するISO/IEC 10918規格。ウェブおよびコンシューマーデバイスにおける写真の代表的な形式。"@ja,
+        "JPEG (.jpg) — ISO/IEC 10918-standarden for tapsbehandlet komprimering av fotografiske bilder, det dominerende formatet for fotografi på web og i forbrukerenheter."@nb,
+        "JPEG (.jpg) — ISO/IEC 10918-standaard voor compressie van fotografische beelden met verlies, het dominante formaat voor fotografie op het web en in consumentenapparaten."@nl,
+        "JPEG (.jpg) — norma ISO/IEC 10918 stratnej kompresji obrazów fotograficznych, dominujący format fotografii w sieci i urządzeniach konsumenckich."@pl,
+        "JPEG (.jpg) — norma ISO/IEC 10918 para compressão com perdas de imagens fotográficas, o formato dominante para fotografia na web e em dispositivos de consumo."@pt,
+        "JPEG (.jpg) — ISO/IEC 10918-standard för destruktiv komprimering av fotografiska bilder, det dominerande formatet för fotografi på webben och i konsumentenheter."@sv,
+        "Joint Photographic Experts Group —— 有损压缩位图格式（ISO 10918），网络照片和连续色调图像印刷交付的主导格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§JOINT-PICTURE-EXPERT-GROUP" ;
+    skos:prefLabel "JPEG (.jpg)"@da,
+        "Joint Picture Expert Group (.jpg)"@de,
+        "Joint Picture Expert Group (.jpg)"@en,
+        "JPEG (.jpg)"@es,
+        "Joint Picture Expert Group (.jpg)"@hi,
+        "Joint Picture Expert Group (.jpg)"@ja,
+        "Joint Picture Expert Group (.jpg)"@nb,
+        "JPEG (.jpg)"@nl,
+        "Joint Picture Expert Group (.jpg)"@pl,
+        "Joint Picture Expert Group (.jpg)"@pt,
+        "JPEG (.jpg)"@sv,
+        "JPEG (.jpg)"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

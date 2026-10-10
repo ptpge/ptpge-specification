@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/muller-martini> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "Müller Martini — schweizisk producent af bogbinderiudstyr og efterbehandlingssystemer med stærke positioner inden for klammerhæftning, limbinding og digital efterbehandling til bogproduktion i korte serier."@da,
+        "Müller Martini — Schweizer Hersteller von Buchbinderei- und Weiterverarbeitungssystemen, mit starken Marktpositionen bei Rückstichheftung, Klebebindung und digitaler Weiterverarbeitung für die Kleinauflagen-Buchproduktion."@de,
+        "Müller Martini — Swiss manufacturer of bindery equipment and finishing systems, with strong positions in saddle-stitching, perfect binding, and digital finishing for short-run book production."@en,
+        "Müller Martini — fabricante suizo de equipo de encuadernación y acabado de alto volumen, líder en sistemas para libros y revistas."@es,
+        "Müller Martini — बाइंडरी उपकरणों और फ़िनिशिंग सिस्टम का स्विस निर्माता, सैडल-स्टिचिंग, परफेक्ट बाइंडिंग और शॉर्ट-रन पुस्तक उत्पादन के डिजिटल फ़िनिशिंग में मज़बूत स्थिति।"@hi,
+        "ミューラー・マルティーニ — スイスの製本機器および仕上げシステムメーカー。中綴じ、無線綴じ、短納期書籍生産向けデジタル仕上げで強い地位を占める。"@ja,
+        "Müller Martini — sveitsisk produsent av innbindingsutstyr og etterbehandlingssystemer, med sterke posisjoner innen stiftet rygg, perfect binding og digital etterbehandling for korttopplag bokproduksjon."@nb,
+        "Müller Martini — Zwitserse fabrikant van binderijapparatuur en afwerkingssystemen, met sterke posities in nieten, garenloos binden en digitale afwerking voor boekproductie in kleine oplagen."@nl,
+        "Müller Martini — szwajcarski producent urządzeń introligatorskich i systemów wykończeniowych, z silną pozycją w oprawie zeszytowej, oprawie klejonej i cyfrowym wykończeniu krótkoseryjnej produkcji książek."@pl,
+        "Müller Martini — fabricante suíço de equipamentos de encadernação e sistemas de acabamento, com posições fortes em grampo canoa, lombada colada e acabamento digital para produção de livros em tiragens curtas."@pt,
+        "Müller Martini — schweizisk tillverkare av bokbinderiutrustning och efterbehandlingssystem, med starka positioner inom klammerhäftning, limbindning och digital efterbehandling för bokproduktion i korta serier."@sv,
+        "Müller Martini —— 瑞士大容量装订和印后设备制造商，是书籍和杂志系统的领导者。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-MULL" ;
+    skos:prefLabel "Müller Martini"@da,
+        "Müller Martini"@de,
+        "Müller Martini"@en,
+        "Müller Martini"@es,
+        "Müller Martini"@hi,
+        "Müller Martini"@ja,
+        "Müller Martini"@nb,
+        "Müller Martini"@nl,
+        "Müller Martini"@pl,
+        "Müller Martini"@pt,
+        "Müller Martini"@sv,
+        "Müller Martini"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

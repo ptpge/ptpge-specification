@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Rotogravure"@da,
+        "rotogravure"@nl,
+        "rotograwiura"@pl,
+        "Gravura industrial"@pt,
+        "Rotogravyr"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "Industriel dybtryksteknik, hvor billedet ætses som forsænkede celler i en metalcylinder; farve fylder cellerne og overføres til substratet ved direkte kontakt."@da,
+        "Industrielle Tiefdrucktechnologie, bei der das Bild als vertiefte Näpfchen in einen Metallzylinder geätzt wird; die Farbe füllt die Näpfchen und wird durch direkten Kontakt auf den Bedruckstoff übertragen."@de,
+        "Industrial intaglio printing technology where the image is etched as recessed cells into a metal cylinder; ink fills the cells and is transferred to the substrate by direct contact."@en,
+        "Tecnología industrial de impresión en intaglio donde la imagen se graba como celdas hundidas en un cilindro metálico; la tinta llena las celdas y se transfiere al sustrato por contacto directo."@es,
+        "औद्योगिक इंटैग्लियो मुद्रण तकनीक जिसमें छवि धातु के सिलिंडर में धँसी कोशिकाओं के रूप में उकेरी जाती है; स्याही कोशिकाओं में भरती है और सीधे संपर्क से सब्सट्रेट पर उतरती है।"@hi,
+        "画像が金属シリンダーに凹んだセルとして彫刻される工業的な凹版印刷技術。インキがセルに満たされ、直接接触によって基材に転写される。"@ja,
+        "Industriell intaglio-trykkteknologi der bildet er etset som nedsenkede celler i en metallsylinder; blekk fyller cellene og overføres til substratet ved direkte kontakt."@nb,
+        "Industriële diepdruktechnologie waarbij het beeld als verzonken napjes in een metalen cilinder wordt geëtst; inkt vult de napjes en wordt door direct contact op het substraat overgebracht."@nl,
+        "Przemysłowa technologia druku wklęsłego, w której obraz jest wytrawiony jako zagłębione kałamarzyki w metalowym cylindrze; farba wypełnia kałamarzyki i jest przenoszona na podłoże przez bezpośredni kontakt."@pl,
+        "Tecnologia industrial de impressão calcográfica em que a imagem é gravada como células rebaixadas num cilindro metálico; a tinta preenche as células e é transferida ao substrato por contato direto."@pt,
+        "Industriell djuptrycksteknik där bilden etsas som försänkta celler i en metallcylinder; bläck fyller cellerna och överförs till substratet genom direktkontakt."@sv,
+        "工业凹版印刷工艺，图像作为凹陷的网穴蚀刻到金属滚筒中；油墨填充网穴并通过直接接触转移到承印物。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure/sheet-fed-rotogravure>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure/web-rotogravure> ;
+    skos:notation "P:TC-PTC-ANLG-GRAV" ;
+    skos:prefLabel "Dybtryk (rotogravure)"@da,
+        "Tiefdruck"@de,
+        "Gravure"@en,
+        "Huecograbado"@es,
+        "ग्रेव्योर"@hi,
+        "グラビア印刷"@ja,
+        "Dyptrykk"@nb,
+        "Diepdruk (rotogravure)"@nl,
+        "Wklęsłodruk"@pl,
+        "Rotogravura"@pt,
+        "Djuptryck (rotogravyr)"@sv,
+        "凹印"@zh-Hans ;
+    skos:scopeNote "Unterscheidet sich vom künstlerischen Stichtiefdruck. Industrieller Tiefdruck wird unterteilt in Bogentiefdruck (Einzelbogen) und Rollentiefdruck (Endlosrollen). Eingesetzt für sehr hochvolumige Verpackungen, Magazine und Dekorlaminate, wo die Konsistenz über Millionen von Drucken die hohen Plattenkosten rechtfertigt."@de,
+        "Distinct from intaglio printmaking (artist-driven). Industrial gravure is sub-divided into sheet-fed rotogravure (cut sheets) and web rotogravure (continuous rolls). Used for very high-volume packaging, magazines, and decorative laminates where consistency over millions of impressions justifies the high plate cost."@en,
+        "Distinto de la calcografía artística (impulsada por el artista). El huecograbado industrial se sub-divide en rotograbado en hoja (hojas cortadas) y rotograbado en bobina (rollos continuos). Utilizado para packaging de muy alto volumen, papeles decorativos y antiguamente para revistas de gran tirada."@es,
+        "इंटैग्लियो प्रिंटमेकिंग (कलाकार-संचालित) से भिन्न। औद्योगिक ग्रेव्योर शीट-फ़ेड रोटोग्रेव्योर (कटी शीटें) और वेब रोटोग्रेव्योर (निरंतर रोल) में विभाजित। बहुत उच्च-मात्रा पैकेजिंग, पत्रिकाओं और सजावटी लैमिनेट में, जहाँ लाखों इंप्रेशन में स्थिरता ऊँची प्लेट लागत को सही ठहराती है।"@hi,
+        "凹版版画（作家主導）とは区別される。工業的グラビアは枚葉グラビア（カットシート）と輪転グラビア（連続ロール）に細分化される。数百万部にわたる一貫性が高い刷版コストを正当化する超大量パッケージ、雑誌、装飾ラミネートに使用される。"@ja,
+        "Forskjellig fra intaglio-trykk som kunst. Industriell gravure deles inn i ark-matet rotogravyr (kuttede ark) og web-rotogravyr (kontinuerlige ruller). Brukt til svært høyvolum-emballasje, magasiner og dekorative laminater der konsistens over millioner av avtrykk rettferdiggjør den høye platekostnaden."@nb,
+        "Distinta da gravura calcográfica artística. A rotogravura industrial subdivide-se em rotogravura de folha (folhas cortadas) e rotogravura de bobina (rolos contínuos). Usada em embalagens, revistas e laminados decorativos de altíssimo volume, onde a consistência ao longo de milhões de impressões justifica o alto custo do cilindro."@pt,
+        "区别于铜版凹印（艺术家驱动）。工业凹印分为单张凹印（切张）和卷筒凹印（连续卷材）。用于超大批量包装、装饰纸，过去用于大量发行的杂志。"@zh-Hans ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

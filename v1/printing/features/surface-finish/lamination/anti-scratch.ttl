@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/lamination/anti-scratch> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Anti-scratch laminated"@en,
+        "Scratch-Resistant Lamination"@en,
+        "Scratch-resistant lamination"@en,
+        "Scuff-resistant lamination"@en,
+        "एंटी-स्क्रैच"@hi,
+        "खरोंच-रोधी लैमिनेशन"@hi,
+        "स्क्रैच-रेज़िस्टेंट लैमिनेशन"@hi,
+        "Ripebestandig laminering"@nb,
+        "folia anti-scratch"@pl,
+        "folia antyzarysowaniowa"@pl,
+        "laminat odporny na zarysowania"@pl,
+        "anti-scratch"@pt,
+        "antirrisco"@pt,
+        "laminação antirrisco"@pt,
+        "laminação resistente a riscos"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/lamination> ;
+    skos:definition "Ridsefast plastfilm lamineret på den trykte overflade. Konstrueret til at modstå slid, ridser og afskrabning bedre end standard mat eller blank laminering. Bruges til produkter med kraftig håndtering."@da,
+        "Kratzfester Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird."@de,
+        "Scratch-resistant plastic film laminated to the printed surface. Engineered to resist scuffing, scratching, and abrasion better than standard matte or gloss laminations. Used for items with heavy handling — folders, menus, instructional cards, and POS displays."@en,
+        "Película plástica antirrayado laminada sobre la superficie impresa. Diseñada para resistir el roce, el rayado y la abrasión mejor que los laminados mate o brillo estándar. Para piezas muy manipuladas — carpetas, menús, tarjetas de instrucciones y expositores de punto de venta."@es,
+        "छपी सतह पर लैमिनेट की गई खरोंच-रोधी प्लास्टिक फ़िल्म। मानक मैट या ग्लॉस लैमिनेशन से बेहतर रगड़, खरोंच और घिसाव रोकती है। ज़्यादा हाथ लगने वाली वस्तुओं में — फ़ोल्डर, मेन्यू, निर्देश कार्ड और POS डिस्प्ले।"@hi,
+        "印刷面に貼り合わせる耐スクラッチ性のフィルム。標準のマット／グロスラミネートより擦れ・引っかき・摩耗に強い設計。フォルダー、メニュー、説明カード、店頭ディスプレイなど、頻繁に扱われるものに使われる。"@ja,
+        "Skrap-resistent plastikkfilm laminert til den trykte overflaten. Konstruert for å motstå skrap og abrasjon bedre enn standard matt eller glanset laminering. Brukes for produkter med tung håndtering — mapper, menyer, instruksjonskort og POS-displays."@nb,
+        "Krasbestendige kunststoffilm gelamineerd op het gedrukte oppervlak. Ontworpen om beter bestand te zijn tegen slijtage, krassen en schuren dan standaard mat of glanzend laminaat. Gebruikt voor intensief gehanteerde producten."@nl,
+        "Folia odporna na zarysowania laminowana na zadrukowanej powierzchni. Zaprojektowana, by lepiej niż standardowe laminaty matowe lub błyszczące opierać się otarciom, zarysowaniom i ścieraniu. Stosowana do produktów intensywnie używanych — teczek, kart menu, kart instruktażowych i ekspozytorów POS."@pl,
+        "Filme plástico resistente a riscos laminado sobre a superfície impressa. Projetado para resistir a arranhões e abrasão melhor que as laminações fosca ou brilhante padrão. Usado em itens de muito manuseio — pastas, cardápios, cartões de instrução e displays de PDV."@pt,
+        "Reptålig plastfilm laminerad på tryckytan. Konstruerad för att motstå skavning, repor och nötning bättre än standardmatt eller -blank laminering. Används för produkter som hanteras mycket — mappar, menyer, instruktionskort och butiksdisplayer."@sv,
+        "复合在印刷表面的抗刮塑料薄膜。比标准哑膜或亮膜更耐蹭划与磨损。用于频繁翻用的印品 — 文件夹、菜单、说明卡与售点展示。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§ANTI-SCRATCH-LAMINATION" ;
+    skos:prefLabel "Ridsefast laminering"@da,
+        "Kratzfeste Laminierung"@de,
+        "Anti-scratch Lamination"@en,
+        "Laminado antirayas"@es,
+        "एंटी-स्क्रैच लैमिनेशन"@hi,
+        "耐スクラッチラミネート"@ja,
+        "Anti-scratch laminering"@nb,
+        "Krasvast laminaat"@nl,
+        "Laminowanie antyzarysowaniowe"@pl,
+        "Laminação antirrisco"@pt,
+        "Reptålig laminering"@sv,
+        "耐刮覆膜"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.9 · p.78",
+                "§5.6.23 · p.125" ;
+            ptpge:mappingRow "crosswalk row 45" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Laminating",
+                "LaminatingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

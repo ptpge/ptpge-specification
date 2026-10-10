@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/roll-materials/cardboard> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Cardboard roll"@en,
+        "कार्डबोर्ड रोल"@hi,
+        "गत्ते का रोल"@hi,
+        "बोर्ड रील"@hi,
+        "Papp"@nb,
+        "karton w roli"@pl,
+        "cartão em bobina"@pt,
+        "rolo de cartão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/roll-materials> ;
+    skos:definition "Enkeltlagskarton leveret på ruller — bruges til foldeæsketryk i store oplag, hvor rullebaserede flexopresser er mere effektive end arkbaserede."@da,
+        "Einlagiger Karton in Rollen — eingesetzt für die hochvolumige Produktion von Faltschachteln, bei denen Rollen-Flexodruckmaschinen wirtschaftlicher sind als Bogendruck."@de,
+        "Single-layer cardboard supplied on rolls — used for high-volume folding-carton printing where roll-fed flexographic presses are more efficient than sheet-fed."@en,
+        "Cartón en bobina para producción de packaging de alto volumen y prensas rotativas de cartón ondulado."@es,
+        "रोल में दिया जाने वाला एक-परत गत्ता — उच्च-मात्रा फ़ोल्डिंग-कार्टन छपाई में जहाँ रोल-फ़ेड फ़्लेक्सो प्रेस शीट-फ़ेड से अधिक कुशल हैं।"@hi,
+        "ロールで供給される単層段ボール — シートフェッドより輪転フレキソ印刷機の方が効率的な大量生産の折りたたみカートン印刷に使用される。"@ja,
+        "Énlags papp levert på rull — brukt til høyvolum-folde-kartongtrykk der rull-matede fleksografiske presser er mer effektive enn ark-matede."@nb,
+        "Enkellaags karton op rollen — gebruikt voor vouwdoosdruk in grote oplagen, waar rolgevoede flexopersen efficiënter zijn dan vellenpersen."@nl,
+        "Jednowarstwowy karton dostarczany w rolach — używany w wysokonakładowym druku opakowań składanych, gdzie zwojowe maszyny fleksograficzne są wydajniejsze niż arkuszowe."@pl,
+        "Cartão de camada única fornecido em rolos — usado na impressão de alto volume de cartuchos, onde as impressoras flexográficas rotativas são mais eficientes que as de folha."@pt,
+        "Enskiktskartong levererad på rulle — används för högvolymtryck av vikkartonger där rullmatade flexopressar är effektivare än arkmatade."@sv,
+        "卷筒纸板，用于大容量包装生产和瓦楞纸板旋转印刷机。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§CARDBOARD" ;
+    skos:prefLabel "Karton (rulle)"@da,
+        "Karton"@de,
+        "Cardboard"@en,
+        "Cartón (Bobina)"@es,
+        "गत्ता (रोल)"@hi,
+        "段ボール"@ja,
+        "Papp"@nb,
+        "Karton (rol)"@nl,
+        "Karton"@pl,
+        "Cartão em rolo"@pt,
+        "Kartong"@sv,
+        "纸板（卷材）"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 31" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,72 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/epson-proofing-solutions",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Epson Proofing Solutions",
+    "es": "Epson Proofing Solutions",
+    "zh-Hans": "Epson Proofing Solutions",
+    "nb": "Epson Proofing Solutions",
+    "de": "Epson Proofing Solutions",
+    "ja": "Epson Proofing Solutions",
+    "sv": "Epson Proofing Solutions",
+    "da": "Epson Proofing Solutions",
+    "nl": "Epson Proofing Solutions",
+    "pl": "Epson Proofing Solutions",
+    "pt": "Epson Proofing Solutions",
+    "hi": "Epson Proofing Solutions"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§EPSON-PROOFING-SOLUTIONS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Epson Proofing Solutions — combination of Epson SureColor proofing printers, dedicated proofing inks, and color-management software (often Fiery XF or Epson's own RIP) used to produce hard proofs that simulate offset press output.",
+    "nb": "Epson Proofing Solutions — kombinasjon av Epsons SureColor-proofing-skrivere, dedikerte proofing-blekk og fargestyringsprogramvare (ofte Fiery XF eller Epsons egen RIP) brukt til å produsere hard proofs som simulerer offset-presseutgang.",
+    "de": "Epson Proofing Solutions — Kombination aus Epson-SureColor-Proofingdruckern, dedizierten Proofingtinten und Farbmanagement-Software (häufig Fiery XF oder Epsons eigener RIP) zur Erstellung von Hard Proofs, die die Ausgabe einer Offsetdruckmaschine simulieren.",
+    "ja": "Epson Proofing Solutions — Epson SureColor校正用プリンター、専用校正用インキ、カラーマネジメントソフトウェア（多くはFiery XFまたはEpson独自のRIP）の組み合わせ。オフセット印刷機の出力をシミュレートするハードプルーフを生成する。",
+    "es": "Soluciones Epson para pruebas duras — impresoras de inyección de tinta de gran formato calibradas con software de gestión de color y certificación Fogra.",
+    "zh-Hans": "Epson的硬校样解决方案 —— 配有色彩管理软件和Fogra认证的校准大幅面喷墨打印机。",
+    "sv": "Epson Proofing Solutions — kombination av Epson SureColor-provskrivare, dedikerade provbläck och färghanteringsprogram (ofta Fiery XF eller Epsons egen RIP) för tryckta prov som simulerar offsetpressens utfall.",
+    "da": "Epson Proofing Solutions — kombination af Epson SureColor-prøvetryksprintere, dedikerede prøvetryksfarver og farvestyringssoftware (ofte Fiery XF eller Epsons egen RIP) til farvenøjagtige fysiske prøver.",
+    "nl": "Epson Proofing Solutions — combinatie van Epson SureColor-proefprinters, speciale proefkleuren en kleurbeheersoftware (vaak Fiery XF of Epsons eigen RIP) voor kleurnauwkeurige fysieke proeven.",
+    "pl": "Epson Proofing Solutions — połączenie drukarek proofingowych Epson SureColor, dedykowanych atramentów i oprogramowania do zarządzania barwą (często Fiery XF lub własny RIP Epsona) do wykonywania hard proofów symulujących druk offsetowy.",
+    "pt": "Epson Proofing Solutions — combinação de impressoras de prova Epson SureColor, tintas dedicadas a provas e software de gerenciamento de cor (muitas vezes Fiery XF ou o RIP da própria Epson) usada para produzir provas físicas que simulam a saída de máquina offset.",
+    "hi": "Epson Proofing Solutions — Epson SureColor प्रूफ़िंग प्रिंटरों, समर्पित प्रूफ़िंग स्याही और रंग-प्रबंधन सॉफ़्टवेयर (प्रायः Fiery XF या Epson का अपना RIP) का संयोजन, ऑफसेट प्रेस आउटपुट का अनुकरण करने वाले हार्ड प्रूफ़ बनाने के लिए।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

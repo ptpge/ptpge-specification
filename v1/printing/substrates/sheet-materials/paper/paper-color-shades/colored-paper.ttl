@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/colored-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Colored Stock"@en,
+        "Coloured Paper"@en,
+        "Coloured Paper (CIE Variable)"@en,
+        "कलर्ड पेपर"@hi,
+        "रँगा हुआ काग़ज़"@hi,
+        "रंगीन काग़ज़"@hi,
+        "Farget papir"@nb,
+        "Kulørt papir"@nb,
+        "papier barwiony"@pl,
+        "papier barwiony w masie"@pl,
+        "papel color plus"@pt,
+        "papel colorido"@pt,
+        "papel tingido na massa"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades> ;
+    skos:definition "Papir gennemfarvet til en bestemt ikke-hvid farve — adskilt fra hvidt papir, der er trykt over. Bruges til designdrevne anvendelser, hvor substratfarven er en del af den visuelle identitet."@da,
+        "Durchgehend in einer bestimmten Nicht-Weiß-Farbe gefärbtes Papier — zu unterscheiden von weißem Papier, das einfach überdruckt wurde. Eingesetzt bei designgetriebenen Anwendungen, in denen die Substratfarbe Teil der visuellen Identität ist."@de,
+        "Paper dyed throughout to a specific non-white color — distinct from white paper that has been printed over. Used for design-driven applications where the substrate color is part of the visual identity."@en,
+        "Papel teñido en masa con un color específico — habitual para diseño editorial, papelería corporativa y aplicaciones decorativas."@es,
+        "पूरी तरह किसी विशेष ग़ैर-सफ़ेद रंग में रँगा काग़ज़ — ऊपर से छपे सफ़ेद काग़ज़ से अलग। डिज़ाइन-प्रधान अनुप्रयोगों में जहाँ सब्सट्रेट का रंग दृश्य पहचान का हिस्सा है।"@hi,
+        "白色紙の上から印刷したものとは異なり、繊維全体を特定の非白色に染めた紙。基材の色がビジュアルアイデンティティの一部となるデザイン主導の用途に使用される。"@ja,
+        "Papir farget gjennom hele med en bestemt ikke-hvit farge — forskjellig fra hvitt papir som er trykt over. Brukt til designdrevne anvendelser der substratfargen er en del av den visuelle identiteten."@nb,
+        "Papier dat door en door gekleurd is in een specifieke niet-witte kleur — te onderscheiden van wit papier dat is overdrukt. Gebruikt voor designgedreven toepassingen waarbij de substraatkleur deel is van de visuele identiteit."@nl,
+        "Papier barwiony w masie na określony kolor inny niż biały — w odróżnieniu od białego papieru zadrukowanego. Używany w zastosowaniach projektowych, gdzie barwa podłoża jest częścią identyfikacji wizualnej."@pl,
+        "Papel tingido na massa em uma cor específica não branca — distinto do papel branco impresso por cima. Usado em aplicações orientadas por design, em que a cor do substrato faz parte da identidade visual."@pt,
+        "Papper genomfärgat till en specifik icke-vit kulör — skilt från vitt papper som tryckts över. Används för designdrivna tillämpningar där substratets färg är del av den visuella identiteten."@sv,
+        "按特定颜色整体染色的纸 —— 常用于编辑设计、企业文具和装饰应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§COLORED-PAPER" ;
+    skos:prefLabel "Farvet papir (CIE variabel)"@da,
+        "Farbpapier (CIE variabel)"@de,
+        "Colored Paper (CIE Variable)"@en,
+        "Papel de Color"@es,
+        "रंगीन काग़ज़ (CIE परिवर्तनशील)"@hi,
+        "色付き用紙（CIE可変）"@ja,
+        "Farget papir (CIE-variabel)"@nb,
+        "Gekleurd papier (CIE variabel)"@nl,
+        "Papier kolorowy (CIE zmienne)"@pl,
+        "Papel colorido (CIE variável)"@pt,
+        "Färgat papper (CIE varierande)"@sv,
+        "彩色纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

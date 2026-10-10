@@ -1,0 +1,27 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/schemas/request/1",
+  "type": "ptpge:Schema",
+  "version": "2026-10-06",
+  "status": "proposed",
+  "notation": "SCH:REQUEST",
+  "level": "element",
+  "label": {
+    "en": "Request",
+    "nb": "Forespørsel"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/schemas",
+  "schemaVersion": 1,
+  "stage": "draft",
+  "writtenBy": "a buyer or an agent",
+  "holds": "a configuration + quantity, asked of one or many vendors",
+  "jsonSchema": null,
+  "definition": {
+    "en": "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between.",
+    "nb": "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between."
+  },
+  "created": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

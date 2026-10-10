@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/aquatint> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Aquatint"@en,
+        "Akvatint"@nb,
+        "Aquatinta"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio> ;
+    skos:definition "Kobbertryksteknik, der skaber brede toneflader ved at pudre en kobberplade med harpiks, smelte den fast med varme og selektivt ætse det ubeskyttede metal med syre. Hvert harpikskorn efterlader en lille prik, hvilket skaber tonegraderinger."@da,
+        "Stichtiefdruck-Technik, die durch Aufstäuben von Kolophoniumstaub auf eine Kupferplatte, Anschmelzen mit Hitze und selektives Ätzen des unbedeckten Metalls mit Säure breite Tonflächen erzeugt. Jedes Harzkorn hinterlässt einen kleinen Punkt und schafft so tonale Abstufungen."@de,
+        "Intaglio printmaking technique that produces broad tonal areas by dusting a copper plate with rosin powder, fusing it with heat, and selectively biting the unprotected metal with acid. Each rosin grain leaves a small dot, creating tonal gradations."@en,
+        "Técnica de grabado en intaglio que utiliza resina y ácido para crear zonas tonales — la resina protege partes de la plancha mientras el ácido muerde otras, generando texturas continuas."@es,
+        "इंटैग्लियो प्रिंटमेकिंग तकनीक जो ताँबे की प्लेट पर रोज़िन पाउडर छिड़ककर, गर्मी से पिघलाकर और असुरक्षित धातु को चुनिंदा रूप से अम्ल से खाकर विस्तृत टोनल क्षेत्र बनाती है। हर रोज़िन कण एक छोटा बिंदु छोड़ता है, जिससे टोनल क्रम बनते हैं।"@hi,
+        "銅板にロジン粉末をまぶし、加熱で溶着し、保護されていない金属を選択的に酸で腐食させて広い階調領域を生み出す凹版版画技法。各ロジン粒が小さなドットを残し、階調グラデーションを作る。"@ja,
+        "Intaglio-grafikkteknikk som produserer brede tonale områder ved å støve en kobberplate med harpikspulver, smelte det med varme, og selektivt bite ubeskyttet metall med syre. Hvert harpikskorn etterlater en liten prikk og skaper tonale graderinger."@nb,
+        "Koperdiepdruktechniek die brede toonvlakken oplevert door een koperplaat met harspoeder te bestuiven, dit met warmte te fixeren en het onbeschermde metaal selectief met zuur te etsen. Elke harskorrel laat een puntje achter, wat toongradaties oplevert."@nl,
+        "Technika druku wklęsłego dająca szerokie płaszczyzny tonalne przez opylenie płyty miedzianej sproszkowaną kalafonią, stopienie jej ciepłem i wybiórcze trawienie odsłoniętego metalu kwasem. Każde ziarno kalafonii zostawia drobny punkt, tworząc gradacje tonalne."@pl,
+        "Técnica de gravura calcográfica que produz amplas áreas tonais polvilhando uma chapa de cobre com pó de resina, fundindo-o com calor e corroendo seletivamente com ácido o metal desprotegido. Cada grão de resina deixa um pequeno ponto, criando gradações tonais."@pt,
+        "Koppartrycksteknik som skapar breda tonytor genom att pudra en kopparplåt med harts, smälta fast det med värme och selektivt etsa den oskyddade metallen med syra. Varje hartskorn lämnar en liten punkt, vilket skapar tongraderingar."@sv,
+        "凹版蚀刻技术，使用树脂和酸创造色调区域——树脂保护版的部分区域，酸蚀其他区域，产生连续纹理。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§AQUATINT" ;
+    skos:prefLabel "Akvatinte"@da,
+        "Aquatinta"@de,
+        "Aquatint"@en,
+        "Aguatinta"@es,
+        "एक्वाटिंट"@hi,
+        "アクアチント"@ja,
+        "Akvatint"@nb,
+        "Aquatint"@nl,
+        "Akwatinta"@pl,
+        "Água-tinta"@pt,
+        "Akvatint"@sv,
+        "飞尘蚀刻"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

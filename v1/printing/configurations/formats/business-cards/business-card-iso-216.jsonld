@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-iso-216",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Business Card ISO 216 (74 x 52 mm)",
+    "es": "Tarjeta de Visita ISO 216 (74 × 52 mm)",
+    "zh-Hans": "ISO 216名片 (74 × 52 mm)",
+    "nb": "Business Card ISO 216 (74 x 52 mm)",
+    "de": "Business Card ISO 216 (74 x 52 mm)",
+    "ja": "Business Card ISO 216 (74 x 52 mm)",
+    "nl": "Visitekaartje ISO 216 (74 x 52 mm)",
+    "sv": "Visitkort ISO 216 (74 x 52 mm)",
+    "da": "Visitkort ISO 216 (74 x 52 mm)",
+    "pl": "Wizytówka ISO 216 (74 x 52 mm)",
+    "pt": "Cartão de visita ISO 216 (74 x 52 mm)",
+    "hi": "विज़िटिंग कार्ड ISO 216 (74 x 52 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§BUSINESS-CARD-ISO-216",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/business-cards",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "74 × 52 mm. Equivalent to ISO 216 A8 — used in countries where business cards follow the ISO paper system. The least common of the regional sizes.",
+    "nb": "74 × 52 mm. Tilsvarer ISO 216 A8 — brukt i land der visittkort følger ISO-papirsystemet. Den minst vanlige av de regionale størrelsene.",
+    "de": "74 × 52 mm. Entspricht ISO 216 A8 — verwendet in Ländern, in denen Visitenkarten dem ISO-Papiersystem folgen. Das am wenigsten verbreitete der regionalen Formate.",
+    "ja": "74×52mm。ISO 216 A8相当 — 名刺がISO用紙体系に従う国で使用される。地域別サイズの中で最も使用頻度が低い。",
+    "es": "Tarjeta de visita en formato ISO 216 A8 (74 × 52 mm) — variante compacta basada en el sistema A.",
+    "zh-Hans": "ISO 216格式的名片（A8，74 × 52毫米）—— 基于A系统的紧凑变体。",
+    "sv": "74 × 52 mm. Motsvarar ISO 216 A8 — används i länder där visitkort följer ISO-pappersystemet. Det minst vanliga av regionalformaten.",
+    "da": "74 × 52 mm. Svarer til ISO 216 A8 — bruges i lande, hvor visitkort følger ISO-papirsystemet. Det mindst udbredte af regionalformaterne.",
+    "nl": "74 × 52 mm. Komt overeen met ISO 216 A8 — gebruikt in landen waar visitekaartjes het ISO-papiersysteem volgen. Het minst gangbare van de regionale formaten.",
+    "pl": "74 × 52 mm. Odpowiednik ISO 216 A8 — używany w krajach, gdzie wizytówki podążają za systemem formatów ISO. Najrzadszy z formatów regionalnych.",
+    "pt": "74 × 52 mm. Equivalente ao ISO 216 A8 — usado em países onde os cartões de visita seguem o sistema ISO de papel. O menos comum dos tamanhos regionais.",
+    "hi": "74 × 52 mm. ISO 216 A8 के बराबर — उन देशों में जहाँ विज़िटिंग कार्ड ISO काग़ज़ प्रणाली का पालन करते हैं। क्षेत्रीय आकारों में सबसे कम प्रचलित।"
+  },
+  "properties": {
+    "width": 74,
+    "height": 52,
+    "unit": "mm",
+    "aspectRatio": 1.4231,
+    "standard": "ISO 7810",
+    "area": 3848
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "74 x 52 mm",
+      "74x52",
+      "74×52",
+      "7.4 x 5.2 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

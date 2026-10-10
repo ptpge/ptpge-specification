@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated> a skos:Concept ;
+    dcterms:created "2026-08-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "अनकोटेड पेपर"@hi,
+        "ऑफसेट पेपर"@hi,
+        "बिना लेप का काग़ज़"@hi,
+        "मैपलिथो"@hi,
+        "papier niepowlekany"@pl,
+        "papier offsetowy"@pl,
+        "não revestido"@pt,
+        "offset"@pt,
+        "papel offset"@pt,
+        "sem revestimento"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings> ;
+    skos:definition "Papir uden mineralsk bestrygning — den naturlige, åbne fiberoverflade. Taktilt og mat af natur; almindeligt til bøger, kontortryksager og designpapir. Teksturen udtrykkes via overfladeaksen."@da,
+        "Papier ohne mineralischen Strich — die natürliche, offene Faseroberfläche. Von Natur aus haptisch und matt; üblich für Bücher, Geschäftsdrucksachen und Designpapiere. Die Textur wird über die Oberflächenachse ausgedrückt."@de,
+        "Paper without mineral coating — the natural, open fibre surface. Tactile and matte by nature; common for books, stationery and design papers. The texture is expressed via the surface axis."@en,
+        "Papel sin estucado mineral: la superficie natural y abierta de la fibra. Táctil y mate por naturaleza; común en libros, papelería y papeles de diseño. La textura se expresa mediante el eje de superficie."@es,
+        "बिना खनिज कोटिंग का काग़ज़ — प्राकृतिक, खुली रेशा सतह। स्वभावतः स्पर्शनीय और मैट; किताबों, स्टेशनरी और डिज़ाइन काग़ज़ों में आम। बनावट सतह अक्ष से व्यक्त होती है।"@hi,
+        "鉱物性塗工のない紙。自然で開いた繊維表面を持つ。本来的に触感がありマット。書籍、ステーショナリー、ファインペーパーに一般的。テクスチャは表面軸で表現される。"@ja,
+        "Papir uten mineralsk bestrykning — den naturlige, åpne fiberoverflaten. Taktilt og matt av natur; vanlig for bøker, kontortrykksaker og designpapir. Teksturen uttrykkes via overflate-aksen."@nb,
+        "Papier zonder minerale strijklaag — het natuurlijke, open vezeloppervlak. Van nature tactiel en mat; gebruikelijk voor boeken, kantoordrukwerk en designpapier. De textuur wordt via de oppervlakte-as uitgedrukt."@nl,
+        "Papier bez powłoki mineralnej — naturalna, otwarta powierzchnia włókien. Z natury dotykowy i matowy; typowy dla książek, papeterii i papierów ozdobnych. Faktura wyrażana jest osią powierzchni."@pl,
+        "Papel sem revestimento mineral — a superfície natural e aberta da fibra. Tátil e fosco por natureza; comum em livros, papelaria e papéis de design. A textura é expressa pelo eixo de superfície."@pt,
+        "Papper utan mineralbestrykning — den naturliga, öppna fiberytan. Taktilt och matt till sin natur; vanligt för böcker, kontorstryck och designpapper. Texturen uttrycks via ytaxeln."@sv,
+        "无矿物涂层的纸张——自然、开放的纤维表面。天然具有触感且为哑光；常见于书籍、办公用品和艺术纸。质感通过表面轴表达。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§UNCOATED" ;
+    skos:prefLabel "Ubestrøget"@da,
+        "Ungestrichen"@de,
+        "Uncoated"@en,
+        "Sin estucar"@es,
+        "अनकोटेड"@hi,
+        "非塗工紙"@ja,
+        "Ubestrøket"@nb,
+        "Ongestreken"@nl,
+        "Niepowlekany"@pl,
+        "Não revestido (offset)"@pt,
+        "Obestruket"@sv,
+        "非涂布纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-22" .
+

@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "PS1"@en,
+        "Premium coated"@en,
+        "PS1"@hi,
+        "प्रीमियम आर्ट पेपर"@hi,
+        "प्रीमियम कोटेड"@hi,
+        "PS1"@pl,
+        "powlekany premium"@pl,
+        "PS1"@pt,
+        "couché premium"@pt,
+        "revestido premium"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes> ;
+    skos:definition "Premium bestrøget papir efter ISO 12647-2:2013 (PS1): 80–250 g/m², høj hvidhed — klassen der karakteriseres af FOGRA51-datasættet (PSO Coated v3)."@da,
+        "Premium gestrichenes Papier nach ISO 12647-2:2013 (PS1): 80–250 g/m², hohe Weiße — die durch den FOGRA51-Datensatz (PSO Coated v3) charakterisierte Klasse."@de,
+        "Premium coated paper per ISO 12647-2:2013 (PS1): 80–250 g/m², high whiteness — the class characterized by the FOGRA51 dataset (PSO Coated v3)."@en,
+        "Papel estucado premium según ISO 12647-2:2013 (PS1): 80–250 g/m², alta blancura — la clase caracterizada por el conjunto FOGRA51 (PSO Coated v3)."@es,
+        "ISO 12647-2:2013 (PS1) के अनुसार प्रीमियम कोटेड काग़ज़: 80–250 g/m², उच्च सफ़ेदी — FOGRA51 डेटासेट (PSO Coated v3) से चरित्रित वर्ग।"@hi,
+        "ISO 12647-2:2013 のプレミアム塗工紙（PS1）：80–250 g/m²、高白色度。FOGRA51 データセット（PSO Coated v3）で特性化されるクラス。"@ja,
+        "Premium bestrøket papir etter ISO 12647-2:2013 (PS1): 80–250 g/m², høy hvithet — klassen som karakteriseres av FOGRA51-datasettet (PSO Coated v3)."@nb,
+        "Premium gestreken papier volgens ISO 12647-2:2013 (PS1): 80–250 g/m², hoge witheid — de klasse die door de FOGRA51-dataset (PSO Coated v3) wordt gekarakteriseerd."@nl,
+        "Papier powlekany premium wg ISO 12647-2:2013 (PS1): 80–250 g/m², wysoka białość — klasa scharakteryzowana zbiorem FOGRA51 (PSO Coated v3)."@pl,
+        "Papel couché premium conforme ISO 12647-2:2013 (PS1): 80–250 g/m², alta brancura — a classe caracterizada pelo conjunto de dados FOGRA51 (PSO Coated v3)."@pt,
+        "Premium bestruket papper enligt ISO 12647-2:2013 (PS1): 80–250 g/m², hög vithet — klassen som karakteriseras av FOGRA51-datasetet (PSO Coated v3)."@sv,
+        "ISO 12647-2:2013 高级涂布纸（PS1）：80–250 g/m²，高白度——由 FOGRA51 数据集（PSO Coated v3）特性化的类别。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PS1" ;
+    skos:prefLabel "PS1 — Premium bestrøget"@da,
+        "PS1 — Premium gestrichen"@de,
+        "PS1 — Premium coated"@en,
+        "PS1 — Estucado premium"@es,
+        "PS1 — प्रीमियम कोटेड"@hi,
+        "PS1 — プレミアム塗工紙"@ja,
+        "PS1 — Premium bestrøket"@nb,
+        "PS1 — Premium gestreken"@nl,
+        "PS1 — Powlekany premium"@pl,
+        "PS1 — Couché premium"@pt,
+        "PS1 — Premium bestruket"@sv,
+        "PS1 — 高级涂布纸"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated> ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

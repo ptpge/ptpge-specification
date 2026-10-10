@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/winding-direction/finat-7> a skos:Concept ;
+    dcterms:created "2026-09-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/v1/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Position 7"@en,
+        "Winding 7"@en,
+        "WindingResult 7"@en,
+        "Wound in, right leading"@en,
+        "WindingResult 7"@pl,
+        "nawijanie 7"@pl,
+        "pozycja 7"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/winding-direction> ;
+    skos:definition "FINAT-rulleposition 7: etiketter rullet med trykside ind, højre kant forlader rullen først. XJDF Component/@WindingResult = 7."@da,
+        "FINAT-Wickelposition 7: Etiketten mit Druckseite innen gewickelt, rechte Kante verlässt die Rolle zuerst. XJDF Component/@WindingResult = 7."@de,
+        "FINAT winding position 7: labels wound with the printed face in, right edge leaving the roll first. XJDF Component/@WindingResult = 7."@en,
+        "Posición de bobinado FINAT 7: etiquetas bobinadas con la cara impresa hacia dentro, el borde derecho sale primero de la bobina. XJDF Component/@WindingResult = 7."@es,
+        "FINAT वाइंडिंग स्थिति 7: छपा चेहरा अंदर, दायाँ किनारा रोल से पहले निकलता है। XJDF Component/@WindingResult = 7।"@hi,
+        "FINAT 巻き位置 7：内巻きで巻かれ、右辺が先に繰り出される。XJDF Component/@WindingResult = 7。"@ja,
+        "FINAT-viklingsposisjon 7: etiketter viklet med trykkside inn, høyre kant forlater rullen først. XJDF Component/@WindingResult = 7."@nb,
+        "FINAT-wikkelpositie 7: etiketten gewikkeld met beeld binnen, rechterrand verlaat de rol als eerste. XJDF Component/@WindingResult = 7."@nl,
+        "Pozycja nawijania FINAT 7: etykiety nawinięte zadrukowaną stroną do wewnątrz, prawa krawędź schodzi z roli pierwsza. XJDF Component/@WindingResult = 7."@pl,
+        "Posição de enrolamento FINAT 7: rótulos enrolados com a face impressa para dentro, borda direita saindo primeiro do rolo. XJDF Component/@WindingResult = 7."@pt,
+        "FINAT-rullposition 7: etiketter rullade med tryck inåt, högerkanten lämnar rullen först. XJDF Component/@WindingResult = 7."@sv,
+        "FINAT 卷绕位置 7：印刷面朝内卷绕，右边先出卷。XJDF Component/@WindingResult = 7。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§FINAT-7" ;
+    skos:prefLabel "FINAT 7"@da,
+        "FINAT 7"@de,
+        "FINAT 7"@en,
+        "FINAT 7"@es,
+        "FINAT 7"@hi,
+        "FINAT 7"@ja,
+        "FINAT 7"@nb,
+        "FINAT 7"@nl,
+        "FINAT 7"@pl,
+        "FINAT 7"@pt,
+        "FINAT 7"@sv,
+        "FINAT 7"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.38 · p.113",
+                "§6.18 · p.176" ;
+            ptpge:mappingRow "Component@WindingResult" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Component",
+                "Component@WindingResult",
+                "Winding" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-05" .
+

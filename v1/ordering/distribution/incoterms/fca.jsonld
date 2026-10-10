@@ -1,0 +1,68 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/distribution/incoterms/fca",
+  "type": "skos:Concept",
+  "version": "2026-06-26",
+  "status": "proposed",
+  "notation": "O:DS§FCA",
+  "level": "element",
+  "label": {
+    "en": "FCA — Free Carrier",
+    "nb": "FCA — Free Carrier",
+    "de": "FCA — Frei Frachtführer",
+    "es": "FCA — Franco transportista",
+    "ja": "FCA — 運送人渡し",
+    "zh-Hans": "FCA — 货交承运人",
+    "sv": "FCA — Free Carrier",
+    "da": "FCA — Free Carrier",
+    "nl": "FCA — Free Carrier",
+    "pl": "FCA — Franco przewoźnik",
+    "pt": "FCA — Livre no Transportador",
+    "hi": "FCA — वाहक को मुक्त"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "distribution",
+  "broader": "https://ptpge.org/v1/ordering/distribution/incoterms",
+  "created": "2026-06-26T05:36:54Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "FCA",
+      "Free Carrier"
+    ],
+    "pl": [
+      "FCA",
+      "Free Carrier",
+      "Franco przewoźnik"
+    ],
+    "pt": [
+      "FCA",
+      "Free Carrier"
+    ],
+    "hi": [
+      "FCA",
+      "Free Carrier"
+    ]
+  },
+  "properties": {
+    "incotermCode": "FCA",
+    "incotermsVersion": "2020",
+    "transportMode": "any mode of transport"
+  },
+  "definition": {
+    "en": "FCA (Free Carrier) — an Incoterms® 2020 trade term (ICC) defining the division of cost, risk and responsibility between buyer and seller. Reference only; the ICC is authoritative. Transport mode: any mode.",
+    "nb": "FCA (Free Carrier) — et Incoterms® 2020-handelsvilkår (ICC) som definerer fordelingen av kostnad, risiko og ansvar mellom kjøper og selger. Kun referanse; ICC er autoritativ. Transportmodus: alle transportformer.",
+    "de": "FCA (Frei Frachtführer) — eine Incoterms®-2020-Handelsklausel (ICC), die die Verteilung von Kosten, Risiko und Verantwortung zwischen Käufer und Verkäufer festlegt. Nur zur Referenz; maßgeblich ist die ICC. Geeignet für alle Transportarten.",
+    "es": "FCA (Franco transportista) — un término comercial Incoterms® 2020 (ICC) que define el reparto de costes, riesgo y responsabilidad entre comprador y vendedor. Solo referencia; la ICC es la autoridad. Modo de transporte: cualquier modo.",
+    "ja": "FCA（運送人渡し） — 買い手と売り手の間の費用・リスク・責任の分担を定める Incoterms® 2020 の貿易条件（ICC）。参照用であり、正文は ICC。輸送手段：あらゆる輸送手段。",
+    "zh-Hans": "FCA（货交承运人）——Incoterms® 2020 贸易术语（ICC），界定买卖双方在费用、风险与责任上的划分。仅供参考，以 ICC 正文为准。运输方式：任何运输方式。",
+    "sv": "FCA (Free Carrier) — en handelsterm i Incoterms® 2020 (ICC) som definierar fördelningen av kostnad, risk och ansvar mellan köpare och säljare. Endast referens; ICC är auktoritativ. Transportsätt: alla transportsätt.",
+    "da": "FCA (Free Carrier) — en Incoterms® 2020-handelsklausul (ICC), der definerer fordelingen af omkostninger, risiko og ansvar mellem køber og sælger. Kun til reference; ICC er den autoritative kilde. Transportform: alle transportformer.",
+    "nl": "FCA (Free Carrier) — een Incoterms® 2020-handelsterm (ICC) die de verdeling van kosten, risico en verantwoordelijkheid tussen koper en verkoper definieert. Uitsluitend ter referentie; de ICC is de gezaghebbende bron. Vervoerswijze: alle vervoerswijzen.",
+    "pl": "FCA (Franco przewoźnik) — reguła handlowa Incoterms® 2020 (ICC) definiująca podział kosztów, ryzyka i odpowiedzialności między kupującym a sprzedającym. Wyłącznie odniesienie; źródłem autorytatywnym jest ICC. Rodzaj transportu: dowolny.",
+    "pt": "FCA (Free Carrier) — termo comercial Incoterms® 2020 (ICC) que define a divisão de custo, risco e responsabilidade entre comprador e vendedor. Apenas referência; a ICC é a fonte autoritativa. Modal de transporte: qualquer modal.",
+    "hi": "FCA (Free Carrier) — Incoterms® 2020 व्यापार शर्त (ICC) जो खरीदार और विक्रेता के बीच लागत, जोखिम और ज़िम्मेदारी के बँटवारे को परिभाषित करती है। केवल संदर्भ; ICC प्रामाणिक है। परिवहन माध्यम: कोई भी माध्यम।"
+  }
+}

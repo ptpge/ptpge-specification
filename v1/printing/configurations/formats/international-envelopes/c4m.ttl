@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/c4m> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "31.8 x 22.9 cm"@en,
+        "318 x 229 mm"@en,
+        "318x229"@en,
+        "318×229"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "318 × 229 mm. C4 i liggende orientering — bruges hvor vandret adressering foretrækkes."@da,
+        "318 × 229 mm. C4 im Querformat — eingesetzt, wo eine horizontale Adressierung bevorzugt wird."@de,
+        "318 × 229 mm. C4 in landscape orientation — used where horizontal addressing is preferred."@en,
+        "Sobre C4M — variante de C4 con dimensiones ligeramente ajustadas para mailings especializados."@es,
+        "318 × 229 mm. लैंडस्केप दिशा में C4 — जहाँ क्षैतिज पता लिखना पसंद हो।"@hi,
+        "318×229mm。横向きのC4 — 横方向の宛名表示が好まれる場合に使用される。"@ja,
+        "318 × 229 mm. C4 i landskapsorientering — brukt der horisontal adressering foretrekkes."@nb,
+        "318 × 229 mm. C4 in liggende oriëntatie — gebruikt waar horizontale adressering de voorkeur heeft."@nl,
+        "318 × 229 mm. C4 w orientacji poziomej — używana tam, gdzie preferowane jest adresowanie poziome."@pl,
+        "318 × 229 mm. C4 em orientação paisagem — usado onde se prefere o endereçamento horizontal."@pt,
+        "318 × 229 mm. C4 i liggande orientering — används där horisontell adressering föredras."@sv,
+        "C4M信封 —— 用于专业邮寄的略微调整尺寸的C4变体。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§C4M" ;
+    skos:prefLabel "C4M (318 x 229 mm)"@da,
+        "C4M (318 x 229 mm)"@de,
+        "C4M (318 x 229 mm)"@en,
+        "C4M (318 × 229 mm)"@es,
+        "C4M (318 x 229 mm)"@hi,
+        "C4M (318 x 229 mm)"@ja,
+        "C4M (318 x 229 mm)"@nb,
+        "C4M (318 x 229 mm)"@nl,
+        "C4M (318 x 229 mm)"@pl,
+        "C4M (318 x 229 mm)"@pt,
+        "C4M (318 x 229 mm)"@sv,
+        "C4M (318 × 229 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 72822.0 ;
+            ptpge:aspectRatio 1.3886 ;
+            ptpge:height 229.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 318.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

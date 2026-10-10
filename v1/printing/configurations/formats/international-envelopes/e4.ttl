@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e4> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "22 x 31.2 cm"@en,
+        "220 x 312 mm"@en,
+        "220x312"@en,
+        "220×312"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "220 × 312 mm. Kuvert i E-serien — bruges på visse europæiske markeder til ufoldede A4-forsendelser."@da,
+        "220 × 312 mm. Briefumschlag der E-Reihe — in einigen europäischen Märkten für ungefalteten A4-Versand verwendet."@de,
+        "220 × 312 mm. E-series envelope — used in some European markets for unfolded A4 mailings."@en,
+        "Sobre E4 — formato europeo especializado para correspondencia y marketing directo."@es,
+        "220 × 312 mm. E-सीरीज़ लिफ़ाफ़ा — कुछ यूरोपीय बाज़ारों में बिना मुड़े A4 डाक के लिए।"@hi,
+        "220×312mm。Eシリーズ封筒 — 一部の欧州市場で折らないA4郵送に使用される。"@ja,
+        "220 × 312 mm. E-serie-konvolutt — brukt i noen europeiske markeder for ubrettede A4-utsendelser."@nb,
+        "220 × 312 mm. Envelop in de E-reeks — op sommige Europese markten gebruikt voor ongevouwen A4-zendingen."@nl,
+        "220 × 312 mm. Koperta serii E — używana na niektórych rynkach europejskich do niezłożonych przesyłek A4."@pl,
+        "220 × 312 mm. Envelope da série E — usado em alguns mercados europeus para envios de A4 sem dobra."@pt,
+        "220 × 312 mm. Kuvert i E-serien — används på vissa europeiska marknader för ovikta A4-utskick."@sv,
+        "E4信封 —— 用于通信和直邮的欧洲专业格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§E4" ;
+    skos:prefLabel "E4 (220 x 312 mm)"@da,
+        "E4 (220 x 312 mm)"@de,
+        "E4 (220 x 312 mm)"@en,
+        "E4 (220 × 312 mm)"@es,
+        "E4 (220 x 312 mm)"@hi,
+        "E4 (220 x 312 mm)"@ja,
+        "E4 (220 x 312 mm)"@nb,
+        "E4 (220 x 312 mm)"@nl,
+        "E4 (220 x 312 mm)"@pl,
+        "E4 (220 x 312 mm)"@pt,
+        "E4 (220 x 312 mm)"@sv,
+        "E4 (220 × 312 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 68640.0 ;
+            ptpge:aspectRatio 1.4182 ;
+            ptpge:height 312.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 220.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

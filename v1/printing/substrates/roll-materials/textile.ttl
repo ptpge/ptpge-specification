@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/roll-materials/textile> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Cloth"@en,
+        "Fabric"@en,
+        "कपड़ा"@hi,
+        "टेक्सटाइल"@hi,
+        "फ़ैब्रिक"@hi,
+        "Stoff"@nb,
+        "Tekstil"@nb,
+        "materiał tekstylny"@pl,
+        "tkanina"@pl,
+        "pano"@pt,
+        "tecido"@pt,
+        "têxtil"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/roll-materials> ;
+    skos:definition "Stofruller — naturlige (bomuld, hør, silke) eller syntetiske (polyester, nylon) — trykt via sublimering, serigrafi eller direkte tekstil-inkjet. Bruges til blød skiltning, bannere, beklædning og boligtekstiler."@da,
+        "Stoffrollen — natürlich (Baumwolle, Leinen, Seide) oder synthetisch (Polyester, Nylon) — bedruckt mittels Sublimationsdruck, Siebdruck oder Direkt-Tintenstrahl auf Stoff. Verwendet für Soft-Beschilderung, Banner, Bekleidung und Heimtextilien."@de,
+        "Fabric rolls — natural (cotton, linen, silk) or synthetic (polyester, nylon) — printed via dye-sublimation, screen printing, or direct-to-fabric inkjet. Used for soft signage, banners, apparel, and home textiles."@en,
+        "Textil en bobina — algodón, poliéster, mezcla — para impresión directa o por sublimación en producción de moda y decoración."@es,
+        "कपड़े के रोल — प्राकृतिक (सूती, लिनन, रेशम) या कृत्रिम (पॉलिएस्टर, नायलॉन) — डाई-सब्लिमेशन, स्क्रीन प्रिंटिंग या सीधे कपड़े पर इंकजेट से छपे। सॉफ़्ट साइनेज, बैनर, परिधान और घरेलू वस्त्रों में।"@hi,
+        "天然（綿、麻、絹）または合成（ポリエステル、ナイロン）の生地ロール — 昇華転写、シルクスクリーン印刷、または生地への直接インクジェットで印刷される。ソフトサイン、バナー、アパレル、ホームテキスタイルに使用される。"@ja,
+        "Stoffruller — naturlige (bomull, lin, silke) eller syntetiske (polyester, nylon) — trykt via fargesublimering, silketrykk eller direkte-til-stoff-inkjet. Brukt til myk skilting, bannere, klær og hjemmetekstiler."@nb,
+        "Stofrollen — natuurlijk (katoen, linnen, zijde) of synthetisch (polyester, nylon) — bedrukt via sublimatie, zeefdruk of directe textiel-inkjet. Gebruikt voor soft signage, banners, kleding en woontextiel."@nl,
+        "Role tkanin — naturalnych (bawełna, len, jedwab) lub syntetycznych (poliester, nylon) — zadrukowywane sublimacją, sitodrukiem lub bezpośrednio atramentowo. Używane do miękkiego oznakowania, banerów, odzieży i tekstyliów domowych."@pl,
+        "Rolos de tecido — natural (algodão, linho, seda) ou sintético (poliéster, náilon) — impressos por sublimação, serigrafia ou jato de tinta direto no tecido. Usados em sinalização têxtil, banners, vestuário e têxteis para o lar."@pt,
+        "Tygrullar — naturmaterial (bomull, linne, siden) eller syntet (polyester, nylon) — tryckta via sublimering, screentryck eller direkt-till-textil-inkjet. Används för mjuk skyltning, banderoller, kläder och hemtextil."@sv,
+        "卷筒纺织品 —— 棉、聚酯、混纺 —— 通过直接印刷或热升华用于时尚和装饰生产。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§TEXTILE" ;
+    skos:prefLabel "Tekstil"@da,
+        "Textil"@de,
+        "Textile"@en,
+        "Textil (Bobina)"@es,
+        "कपड़ा (टेक्सटाइल)"@hi,
+        "テキスタイル"@ja,
+        "Tekstil"@nb,
+        "Textiel"@nl,
+        "Tekstylia"@pl,
+        "Tecido"@pt,
+        "Textil"@sv,
+        "纺织品（卷材）"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 31" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

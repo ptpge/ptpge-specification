@@ -1,0 +1,98 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "version": "2026-08-23",
+  "status": "proposed",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "created": "2026-08-23T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/solid-board",
+  "level": "element",
+  "elementType": "value",
+  "notation": "P:SB§SOLID-BOARD",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/cardboard",
+  "label": {
+    "en": "Solid Board",
+    "nb": "Massivpapp",
+    "de": "Massivkarton",
+    "es": "Cartón sólido",
+    "ja": "ソリッドボード",
+    "zh-Hans": "实心纸板",
+    "sv": "Massivkartong",
+    "da": "Massivpap",
+    "nl": "Massief karton",
+    "pl": "Tektura lita",
+    "pt": "Cartão compacto",
+    "hi": "सॉलिड बोर्ड"
+  },
+  "altLabels": {
+    "en": [
+      "solid fibre board",
+      "compressed board",
+      "display board"
+    ],
+    "nb": [
+      "massiv displaypapp"
+    ],
+    "pl": [
+      "tektura prasowana",
+      "płyta ekspozycyjna"
+    ],
+    "pt": [
+      "cartão compacto",
+      "papelão compacto",
+      "cartão para display"
+    ],
+    "hi": [
+      "ठोस फ़ाइबर बोर्ड",
+      "दबा हुआ बोर्ड",
+      "डिस्प्ले बोर्ड"
+    ]
+  },
+  "definition": {
+    "en": "Compressed solid fibre board (typically 1–3 mm) — die-cuttable, printable rigid cardboard for standees, POS displays and rigid posters.",
+    "nb": "Komprimert massivpapp (typisk 1–3 mm) — stansbar, trykkbar stiv papp for standees, POS-displayer og stive plakater.",
+    "de": "Gepresster Massivkarton (typisch 1–3 mm) — stanzbar und bedruckbar, für Aufsteller, POS-Displays und starre Plakate.",
+    "nl": "Geperst massief karton (doorgaans 1–3 mm) — stansbaar, bedrukbaar stijf karton voor standees, POS-displays en stijve posters.",
+    "sv": "Pressad massivkartong (typiskt 1–3 mm) — stansbar, tryckbar styv kartong för standees, POS-displayer och styva affischer.",
+    "da": "Presset massivpap (typisk 1–3 mm) — stansbart, trykbart stift pap til standees, POS-displays og stive plakater.",
+    "ja": "圧縮ソリッドファイバーボード（通常1–3 mm）— 型抜き・印刷可能な硬質厚紙。スタンディ、POSディスプレイ、硬質ポスター用。",
+    "es": "Cartón sólido comprimido (típicamente 1–3 mm) — troquelable e imprimible, para standees, displays de punto de venta y pósteres rígidos.",
+    "zh-Hans": "压缩实心纤维板（通常 1–3 毫米）——可模切、可印刷的硬质纸板，用于立牌、终端陈列和硬质海报。",
+    "pl": "Prasowana tektura lita (zwykle 1–3 mm) — sztywna tektura do wykrawania i zadruku na standy, ekspozytory POS i sztywne plakaty.",
+    "pt": "Cartão de fibra comprimida (normalmente 1–3 mm) — cartão rígido imprimível e recortável para displays de chão, PDV e pôsteres rígidos.",
+    "hi": "दबा हुआ ठोस फ़ाइबर बोर्ड (आमतौर पर 1–3 मिमी) — स्टैंडी, POS डिस्प्ले और कठोर पोस्टरों के लिए डाई-कट और छपाई योग्य कठोर गत्ता।"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 37"
+    }
+  ]
+}

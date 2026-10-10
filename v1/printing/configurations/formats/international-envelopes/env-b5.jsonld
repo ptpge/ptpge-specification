@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/env-b5",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Envelope B5 (176 × 250 mm)",
+    "es": "Sobre B5 (176 × 250 mm)",
+    "zh-Hans": "B5信封 (176 × 250 mm)",
+    "nb": "Envelope B5 (176 × 250 mm)",
+    "de": "Envelope B5 (176 × 250 mm)",
+    "ja": "Envelope B5 (176 × 250 mm)",
+    "sv": "Kuvert B5 (176 × 250 mm)",
+    "da": "Kuvert B5 (176 × 250 mm)",
+    "nl": "Kuvert B5 (176 × 250 mm)",
+    "pl": "Koperta B5 (176 × 250 mm)",
+    "pt": "Envelope B5 (176 × 250 mm)",
+    "hi": "लिफ़ाफ़ा B5 (176 × 250 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ENV-B5",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "176 × 250 mm. ISO 216 B5 envelope — holds folded A4 documents and B5 booklets.",
+    "nb": "176 × 250 mm. ISO 216 B5-konvolutt — rommer brettede A4-dokumenter og B5-hefter.",
+    "de": "176 × 250 mm. ISO-216-B5-Briefumschlag — fasst gefaltete A4-Dokumente und B5-Broschüren.",
+    "ja": "176×250mm。ISO 216 B5封筒 — 折ったA4書類およびB5ブックレットを収納する。",
+    "es": "Sobre B5 de la serie B de ISO 216 — contiene hojas de la serie B correspondiente.",
+    "zh-Hans": "ISO 216 B系列B5信封 —— 装对应B系列纸张。",
+    "sv": "176 × 250 mm. B5-kuvert enligt ISO 216 — rymmer vikta A4-dokument och B5-häften.",
+    "da": "176 × 250 mm. B5-kuvert efter ISO 216 — rummer foldede A4-dokumenter og B5-hæfter.",
+    "nl": "176 × 250 mm. B5-envelop volgens ISO 216 — biedt plaats aan gevouwen A4-documenten en B5-boekjes.",
+    "pl": "176 × 250 mm. Koperta ISO 216 B5 — mieści złożone dokumenty A4 i broszury B5.",
+    "pt": "176 × 250 mm. Envelope B5 da ISO 216 — comporta documentos A4 dobrados e folhetos B5.",
+    "hi": "176 × 250 mm. ISO 216 B5 लिफ़ाफ़ा — मुड़े A4 दस्तावेज़ और B5 बुकलेट समाते हैं।"
+  },
+  "properties": {
+    "width": 176,
+    "height": 250,
+    "unit": "mm",
+    "aspectRatio": 1.4205,
+    "standard": "ISO 269",
+    "area": 44000
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "176 x 250 mm",
+      "176x250",
+      "176×250",
+      "17.6 x 25 cm"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

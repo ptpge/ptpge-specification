@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish/lamination/silk",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Silk Lamination",
+    "nb": "Silke-laminering",
+    "de": "Seiden-Laminierung",
+    "ja": "シルクラミネート",
+    "es": "Laminado seda",
+    "zh-Hans": "丝绒覆膜",
+    "nl": "Zijdeglanslaminaat",
+    "sv": "Silklaminering",
+    "da": "Silkelaminering",
+    "pl": "Laminowanie satynowe",
+    "pt": "Laminação acetinada",
+    "hi": "सिल्क लैमिनेशन"
+  },
+  "altLabels": {
+    "en": [
+      "Satin Lamination",
+      "Silk laminated",
+      "Satin lamination",
+      "Satin laminated"
+    ],
+    "nb": [
+      "Silkematt laminering",
+      "Silke-laminering",
+      "Satenglaminering"
+    ],
+    "pl": [
+      "folia satynowa",
+      "folia silk",
+      "laminat satynowy"
+    ],
+    "pt": [
+      "laminação seda",
+      "laminação cetim",
+      "laminação satin",
+      "acetinado"
+    ],
+    "hi": [
+      "सैटिन लैमिनेशन",
+      "सिल्क लैमिनेट",
+      "सैटिन फ़िनिश लैमिनेशन"
+    ]
+  },
+  "definition": {
+    "en": "Silk plastic film laminated to the printed surface. Provides a smooth, slightly satin finish between matte and gloss — neither dull nor highly reflective. Subtle premium feel, often chosen for editorial and corporate communications.",
+    "nb": "Silke plastikkfilm laminert til den trykte overflaten. Gir en glatt, lett satin finish mellom matt og glans — verken matt eller svært reflekterende. Subtil premium-følelse, ofte valgt for redaksjonell og bedriftskommunikasjon.",
+    "de": "Seiden-Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet ein glattes, leicht satiniertes Finish zwischen matt und glänzend.",
+    "ja": "印刷面に貼り合わせるシルクフィルム。マットとグロスの中間の、滑らかでわずかにサテン調の仕上げ — 沈まず、強く反射もしない。さりげない上質感があり、エディトリアルやコーポレートのコミュニケーションによく選ばれる。",
+    "es": "Película plástica sedosa laminada sobre la superficie impresa. Un acabado suave, ligeramente satinado, entre mate y brillo — ni apagado ni muy reflectante. Sensación premium sutil, a menudo elegida para comunicaciones editoriales y corporativas.",
+    "zh-Hans": "复合在印刷表面的丝光塑料薄膜。介于哑光与亮光之间的平滑微缎面效果 — 既不沉闷也不强反光。低调的高级质感，常用于出版物与企业宣传材料。",
+    "sv": "Silkplastfilm laminerad på tryckytan. Ger en slät, lätt satinerad finish mellan matt och blank — varken glanslös eller starkt reflekterande. Subtil premiumkänsla, ofta vald för redaktionell och företagskommunikation.",
+    "da": "Silkeplastfilm lamineret på den trykte overflade. Giver en glat, let satineret finish mellem mat og blank — hverken kedelig eller stærkt reflekterende. Diskret eksklusiv fornemmelse, ofte valgt til redaktionelt arbejde.",
+    "nl": "Silk-kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een gladde, licht satijnen afwerking tussen mat en glanzend — subtiel exclusief gevoel, vaak gekozen voor redactioneel werk.",
+    "pl": "Satynowa folia laminowana na zadrukowanej powierzchni. Daje gładkie, lekko satynowe wykończenie między matem a połyskiem — ani matowe, ani silnie odbijające. Subtelne odczucie premium, często wybierane do komunikacji redakcyjnej i korporacyjnej.",
+    "pt": "Filme plástico acetinado laminado sobre a superfície impressa. Dá um acabamento liso, levemente acetinado, entre fosco e brilho — nem opaco nem muito reflexivo. Toque premium sutil, escolhido com frequência para comunicação editorial e corporativa.",
+    "hi": "छपी सतह पर लैमिनेट की गई सिल्क प्लास्टिक फ़िल्म। मैट और ग्लॉस के बीच चिकनी, हल्की सैटिन फ़िनिश — न फीकी, न ज़्यादा चमकीली। सूक्ष्म प्रीमियम अहसास, अक्सर संपादकीय और कॉर्पोरेट संचार में।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/surface-finish/lamination",
+  "properties": {
+    "selective": false,
+    "coverage": "full",
+    "appearance": "satin",
+    "filmType": "plastic-film"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§SILK-LAMINATION",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LaminatingIntent",
+        "Laminating"
+      ],
+      "refs": [
+        "§4.9 · p.78",
+        "§5.6.23 · p.125"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 45"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/glass> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Glass pane"@en,
+        "काँच का पैनल"@hi,
+        "ग्लास शीट"@hi,
+        "शीशा"@hi,
+        "Glass"@nb,
+        "szyba"@pl,
+        "tafla szklana"@pl,
+        "placa de vidro"@pt,
+        "vidro plano"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials> ;
+    skos:definition "Transparente silikatpaneler trykt med UV-blæk direkte på glas eller påført vinyl. Bruges til arkitektonisk glas, detaildisplays og dekorative anvendelser."@da,
+        "Transparente Silikatplatten, bedruckt mittels UV-Direktdruck auf Glas oder mit aufgebrachtem Vinyl. Eingesetzt für Architekturverglasungen, Einzelhandelsdisplays und dekorative Anwendungen."@de,
+        "Transparent silicate panels printed via UV ink direct-to-glass or applied vinyl. Used for architectural glazing, retail displays, and decorative applications."@en,
+        "Plancha de vidrio utilizada como sustrato para impresión UV o serigrafía — habitual en señalética arquitectónica y trofeos."@es,
+        "पारदर्शी सिलिकेट पैनल जिन पर UV स्याही से सीधे या विनाइल लगाकर छपाई होती है। वास्तु ग्लेज़िंग, खुदरा डिस्प्ले और सजावटी अनुप्रयोगों में।"@hi,
+        "UVインキの直接印刷または貼付ビニールで印刷される透明なケイ酸塩パネル。建築用ガラス、小売ディスプレイ、装飾用途に使用される。"@ja,
+        "Gjennomsiktige silikatpaneler trykt via UV-blekk direkte på glass eller med påklistret vinyl. Brukt til arkitekturglass, butikkdisplay og dekorative anvendelser."@nb,
+        "Transparante silicaatplaten, bedrukt met UV-inkt direct op glas of met aangebrachte vinyl. Gebruikt voor architectonisch glas, winkeldisplays en decoratieve toepassingen."@nl,
+        "Przezroczyste płyty krzemianowe zadrukowywane atramentem UV bezpośrednio na szkle lub aplikowanym winylem. Używane do przeszkleń architektonicznych, ekspozycji sklepowych i zastosowań dekoracyjnych."@pl,
+        "Painéis transparentes de silicato impressos com tinta UV diretamente no vidro ou com vinil aplicado. Usados em envidraçamento arquitetônico, displays de varejo e aplicações decorativas."@pt,
+        "Transparenta silikatskivor tryckta med UV-bläck direkt på glas eller applicerad vinyl. Används för arkitektonisk glasning, butiksdisplayer och dekorativa tillämpningar."@sv,
+        "用作UV印刷或丝印承印物的玻璃板 —— 常见于建筑标识和奖杯。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§GLASS" ;
+    skos:prefLabel "Glas"@da,
+        "Glas"@de,
+        "Glass"@en,
+        "Vidrio"@es,
+        "काँच"@hi,
+        "ガラス"@ja,
+        "Glass"@nb,
+        "Glas"@nl,
+        "Szkło"@pl,
+        "Vidro"@pt,
+        "Glas"@sv,
+        "玻璃"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

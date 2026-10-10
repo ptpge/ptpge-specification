@@ -1,0 +1,91 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/debossing",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Debossing",
+    "nb": "Debossing",
+    "de": "Tiefprägung",
+    "ja": "デボス",
+    "es": "Hundido / Debossing",
+    "zh-Hans": "凹压",
+    "nl": "Dieppreeg (debossing)",
+    "sv": "Försänkt prägling",
+    "da": "Dybprægning",
+    "pl": "Tłoczenie wklęsłe",
+    "pt": "Baixo-relevo",
+    "hi": "डिबॉसिंग"
+  },
+  "altLabels": {
+    "en": [
+      "Deboss"
+    ],
+    "nb": [
+      "Nedsenket preging"
+    ],
+    "pl": [
+      "deboss",
+      "wytłoczenie wklęsłe"
+    ],
+    "pt": [
+      "relevo baixo",
+      "relevo negativo",
+      "deboss",
+      "relevo afundado"
+    ],
+    "hi": [
+      "डिबॉस",
+      "धँसा उभार",
+      "नेगेटिव एम्बॉसिंग"
+    ]
+  },
+  "definition": {
+    "en": "A relief impression pressed INTO the substrate, creating a recessed (sunken) image or text. Done with a male die that compresses the substrate; no ink or foil involved. Common on luxury packaging, business cards, and book covers.",
+    "nb": "Et relief-inntrykk presset INN i substratet, som skaper et nedsenket bilde eller tekst. Utført med en male die som komprimerer substratet; ingen blekk eller folie involvert. Vanlig på luksusemballasje, visittkort og bok-omslag.",
+    "de": "Ein Reliefeindruck, der IN das Substrat gepresst wird und ein vertieftes Bild oder Text erzeugt. Wird mit einem männlichen Stempel ausgeführt, der das Substrat zusammendrückt.",
+    "ja": "基材に押し込む凹の型押しで、沈んだ画像や文字を作る。凸型で基材を圧縮する加工で、インキも箔も使わない。高級パッケージ、名刺、書籍の表紙で一般的。",
+    "es": "Una impresión en relieve hundida EN el sustrato, creando una imagen o texto rebajado. Se hace con un troquel macho que comprime el sustrato; sin tinta ni foil. Común en packaging de lujo, tarjetas de visita y cubiertas de libros.",
+    "zh-Hans": "压入承印材料内部的凹陷压印，形成下沉的图文。用阳模压缩材料完成；不用油墨或电化铝。常见于奢华包装、名片与书籍封面。",
+    "sv": "Ett reliefavtryck pressat IN i substratet som skapar en försänkt bild eller text. Görs med ett hanverktyg som komprimerar substratet; inget bläck eller folie inblandat. Vanligt på lyxförpackningar, visitkort och bokomslag.",
+    "da": "Et reliefaftryk presset NED I substratet, der skaber et forsænket billede eller tekst. Udføres med en hanmatrice, der komprimerer substratet; ingen farve eller folie. Almindeligt på luksusemballage og visitkort.",
+    "nl": "Een reliëfafdruk IN het substraat geperst, die een verdiept beeld of tekst vormt. Uitgevoerd met een patrijs die het substraat samendrukt; zonder inkt of folie. Gebruikelijk op luxeverpakkingen en visitekaartjes.",
+    "pl": "Reliefowe wgniecenie W podłoże, tworzące wklęsły (zagłębiony) obraz lub tekst. Wykonywane matrycą męską ściskającą podłoże; bez farby ani folii. Typowe dla opakowań luksusowych, wizytówek i okładek książek.",
+    "pt": "Impressão em relevo prensada PARA DENTRO do substrato, criando imagem ou texto rebaixado (afundado). Feita com uma matriz macho que comprime o substrato; sem tinta nem foil. Comum em embalagens de luxo, cartões de visita e capas de livro.",
+    "hi": "सब्सट्रेट के भीतर दबाकर बनाया उभार, जिससे धँसा हुआ चित्र या पाठ बनता है। पुरुष डाई से सब्सट्रेट को दबाया जाता है; स्याही या फ़ॉइल नहीं। लक्ज़री पैकेजिंग, विज़िटिंग कार्ड और किताब के कवर में आम।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments",
+  "properties": {
+    "selective": true,
+    "processType": "mechanical-press",
+    "coverage": "selective",
+    "reliefDirection": "recessed"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§DEBOSSING",
+  "elementType": "value",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent",
+        "Embossing",
+        "EmbossingParams"
+      ],
+      "refs": [
+        "§4.6 · p.74",
+        "§5.6.12 · p.118",
+        "§6.32 · p.197"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 27"
+    }
+  ]
+}

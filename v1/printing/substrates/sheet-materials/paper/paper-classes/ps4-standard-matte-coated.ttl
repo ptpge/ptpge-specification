@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "PS4"@en,
+        "Standard matte coated"@en,
+        "PS4"@hi,
+        "स्टैंडर्ड मैट कोटेड"@hi,
+        "PS4"@pl,
+        "standardowy powlekany matowy"@pl,
+        "PS4"@pt,
+        "couché fosco padrão"@pt,
+        "revestido fosco"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes> ;
+    skos:definition "Standard mat bestrøget papir efter ISO 12647-2:2013 (PS4): 51–65 g/m², lav glans."@da,
+        "Standard matt gestrichenes Papier nach ISO 12647-2:2013 (PS4): 51–65 g/m², geringer Glanz."@de,
+        "Standard matte coated paper per ISO 12647-2:2013 (PS4): 51–65 g/m², low gloss."@en,
+        "Papel estucado mate estándar según ISO 12647-2:2013 (PS4): 51–65 g/m², bajo brillo."@es,
+        "ISO 12647-2:2013 (PS4) के अनुसार स्टैंडर्ड मैट कोटेड काग़ज़: 51–65 g/m², कम चमक।"@hi,
+        "ISO 12647-2:2013 の標準マット塗工紙（PS4）：51–65 g/m²、低光沢。"@ja,
+        "Standard matt bestrøket papir etter ISO 12647-2:2013 (PS4): 51–65 g/m², lav glans."@nb,
+        "Standaard mat gestreken papier volgens ISO 12647-2:2013 (PS4): 51–65 g/m², lage glans."@nl,
+        "Standardowy papier powlekany matowy wg ISO 12647-2:2013 (PS4): 51–65 g/m², niski połysk."@pl,
+        "Papel couché fosco padrão conforme ISO 12647-2:2013 (PS4): 51–65 g/m², baixo brilho."@pt,
+        "Standard matt bestruket papper enligt ISO 12647-2:2013 (PS4): 51–65 g/m², låg glans."@sv,
+        "ISO 12647-2:2013 标准哑光涂布纸（PS4）：51–65 g/m²，低光泽。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§PS4" ;
+    skos:prefLabel "PS4 — Standard mat bestrøget"@da,
+        "PS4 — Standard matt gestrichen"@de,
+        "PS4 — Standard matte coated"@en,
+        "PS4 — Estucado mate estándar"@es,
+        "PS4 — स्टैंडर्ड मैट कोटेड"@hi,
+        "PS4 — 標準マット塗工紙"@ja,
+        "PS4 — Standard matt bestrøket"@nb,
+        "PS4 — Standaard mat gestreken"@nl,
+        "PS4 — Standardowy powlekany matowy"@pl,
+        "PS4 — Couché fosco padrão"@pt,
+        "PS4 — Standard matt bestruket"@sv,
+        "PS4 — 标准哑光涂布纸"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated> ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-03" .
+

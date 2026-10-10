@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/fujifilm",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Fujifilm",
+    "es": "Fujifilm",
+    "zh-Hans": "Fujifilm",
+    "nb": "Fujifilm",
+    "de": "Fujifilm",
+    "ja": "Fujifilm",
+    "sv": "Fujifilm",
+    "da": "Fujifilm",
+    "nl": "Fujifilm",
+    "pl": "Fujifilm",
+    "pt": "Fujifilm",
+    "hi": "Fujifilm"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Fujifilm — Japanese manufacturer with a major presence in printing through digital production presses (Jet Press), wide-format inkjet, plates, and prepress workflow.",
+    "nb": "Fujifilm — japansk produsent med betydelig tilstedeværelse i trykkbransjen gjennom digitale produksjonspresser (Jet Press), storformat-inkjet, plater og prepress-arbeidsflyt.",
+    "de": "Fujifilm — japanischer Hersteller mit bedeutender Präsenz im Druck durch digitale Produktionsdruckmaschinen (Jet Press), Großformat-Inkjet, Druckplatten und Druckvorstufen-Workflows.",
+    "ja": "富士フイルム — デジタル生産印刷機（Jet Press）、大判インクジェット、刷版、製版ワークフローを通じて印刷分野で大きな存在感を持つ日本のメーカー。",
+    "es": "Fujifilm — fabricante japonés de prensas de inyección de tinta industrial (serie Jet Press) y sistemas de pre-prensa, con presencia notable en producción de packaging y comercial.",
+    "zh-Hans": "Fujifilm —— 日本工业喷墨印刷机制造商（Jet Press系列）和印前系统，在包装和商业生产中占显著地位。",
+    "sv": "Fujifilm — japansk tillverkare med stor närvaro i tryckbranschen genom digitala produktionspressar (Jet Press), storformats-inkjet, plåtar och prepressarbetsflöden.",
+    "da": "Fujifilm — japansk producent med stor tilstedeværelse i trykbranchen gennem digitale produktionspresser (Jet Press), storformat-inkjet, plader og prepress-workflow.",
+    "nl": "Fujifilm — Japanse fabrikant met grote aanwezigheid in de grafische industrie via digitale productiepersen (Jet Press), grootformaat-inkjet, platen en prepressworkflow.",
+    "pl": "Fujifilm — japoński producent z dużą obecnością w poligrafii poprzez cyfrowe maszyny produkcyjne (Jet Press), druk wielkoformatowy, płyty i workflow prepress.",
+    "pt": "Fujifilm — fabricante japonês com grande presença na impressão por meio de impressoras digitais de produção (Jet Press), jato de tinta de grande formato, chapas e fluxo de trabalho de pré-impressão.",
+    "hi": "Fujifilm — डिजिटल प्रोडक्शन प्रेस (Jet Press), वाइड-फॉर्मेट इंकजेट, प्लेट और प्रीप्रेस वर्कफ़्लो के ज़रिए मुद्रण में बड़ी उपस्थिति वाला जापानी निर्माता।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-FUJI",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

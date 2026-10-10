@@ -1,0 +1,85 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§PS3",
+  "label": {
+    "en": "PS3 — Standard glossy coated",
+    "nb": "PS3 — Standard glanset bestrøket",
+    "de": "PS3 — Standard glänzend gestrichen",
+    "es": "PS3 — Estucado brillante estándar",
+    "ja": "PS3 — 標準光沢塗工紙",
+    "zh-Hans": "PS3 — 标准光面涂布纸",
+    "sv": "PS3 — Standard glättat bestruket",
+    "da": "PS3 — Standard glittet bestrøget",
+    "nl": "PS3 — Standaard glanzend gestreken",
+    "pl": "PS3 — Standardowy powlekany błyszczący",
+    "pt": "PS3 — Couché brilhante padrão",
+    "hi": "PS3 — स्टैंडर्ड ग्लॉसी कोटेड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Standard glossy coated paper per ISO 12647-2:2013 (PS3): 48–70 g/m², high gloss — typically LWC grades.",
+    "nb": "Standard glanset bestrøket papir etter ISO 12647-2:2013 (PS3): 48–70 g/m², høy glans — typisk LWC-kvaliteter.",
+    "de": "Standard glänzend gestrichenes Papier nach ISO 12647-2:2013 (PS3): 48–70 g/m², hoher Glanz — typischerweise LWC-Sorten.",
+    "es": "Papel estucado brillante estándar según ISO 12647-2:2013 (PS3): 48–70 g/m², alto brillo — típicamente calidades LWC.",
+    "ja": "ISO 12647-2:2013 の標準光沢塗工紙（PS3）：48–70 g/m²、高光沢。主に LWC 紙。",
+    "zh-Hans": "ISO 12647-2:2013 标准光面涂布纸（PS3）：48–70 g/m²，高光泽——通常为 LWC 纸。",
+    "sv": "Standard glättat bestruket papper enligt ISO 12647-2:2013 (PS3): 48–70 g/m², hög glans — typiskt LWC-kvaliteter.",
+    "da": "Standard glittet bestrøget papir efter ISO 12647-2:2013 (PS3): 48–70 g/m², høj glans — typisk LWC-kvaliteter.",
+    "nl": "Standaard glanzend gestreken papier volgens ISO 12647-2:2013 (PS3): 48–70 g/m², hoge glans — doorgaans LWC-kwaliteiten.",
+    "pl": "Standardowy papier powlekany błyszczący wg ISO 12647-2:2013 (PS3): 48–70 g/m², wysoki połysk — zwykle gatunki LWC.",
+    "pt": "Papel couché brilhante padrão conforme ISO 12647-2:2013 (PS3): 48–70 g/m², alto brilho — normalmente qualidades LWC.",
+    "hi": "ISO 12647-2:2013 (PS3) के अनुसार स्टैंडर्ड ग्लॉसी कोटेड काग़ज़: 48–70 g/m², उच्च चमक — आमतौर पर LWC ग्रेड।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes",
+  "related": [
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated"
+  ],
+  "altLabels": {
+    "en": [
+      "PS3",
+      "Standard glossy coated"
+    ],
+    "pl": [
+      "PS3",
+      "standardowy powlekany błyszczący"
+    ],
+    "pt": [
+      "PS3",
+      "couché brilhante padrão",
+      "LWC brilhante"
+    ],
+    "hi": [
+      "PS3",
+      "स्टैंडर्ड ग्लॉसी कोटेड",
+      "LWC ग्लॉसी"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

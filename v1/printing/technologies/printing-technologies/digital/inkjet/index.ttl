@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "druk atramentowy"@pl,
+        "inkjet"@pl,
+        "Inkjet"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital> ;
+    skos:definition "En digital trykteknik, der slynger blækdråber direkte mod substratet fra et eller flere printhoveder, uden plader eller faste billedbærere. Spænder over skrivebordsprintere, storformatgrafik og kommercielle højvolumensystemer; velegnet til variable data, korte serier og substrater, der ikke tåler varme eller tryk."@da,
+        "Eine digitale Drucktechnologie, die Tintentröpfchen aus einem oder mehreren Druckköpfen direkt auf den Bedruckstoff schießt, ohne Druckplatten oder feste Bildträger. Reicht von Tischgeräten über Großformatgrafik bis zu hochvolumigen kommerziellen Systemen; gut geeignet für variable Daten, kurze Auflagen und Bedruckstoffe, die keine Hitze oder Druck vertragen."@de,
+        "A digital printing technology that propels droplets of ink directly onto the substrate from one or more print heads, with no plates or fixed image carriers. Spans desktop printers, large-format graphics, and high-volume commercial systems; well suited for variable-data, short runs, and substrates that do not tolerate heat or pressure."@en,
+        "Tecnología digital de impresión que propulsa gotas de tinta directamente sobre el sustrato desde uno o más cabezales de impresión, sin planchas ni portadores fijos de imagen. Abarca impresoras de sobremesa, gráficos de gran formato y sistemas comerciales de alto volumen; especialmente adecuada para datos variables y tiradas cortas."@es,
+        "डिजिटल मुद्रण तकनीक जो एक या अधिक प्रिंट हेड से स्याही की बूँदें सीधे सब्सट्रेट पर फेंकती है, बिना प्लेट या स्थिर छवि-वाहक के। डेस्कटॉप प्रिंटर, लार्ज-फॉर्मेट ग्राफ़िक्स और उच्च-मात्रा व्यावसायिक सिस्टम तक; वेरिएबल डेटा, शॉर्ट रन और गर्मी या दबाव न सहने वाले सब्सट्रेट के लिए उपयुक्त।"@hi,
+        "1つ以上のプリントヘッドからインキの液滴を直接基材に噴射するデジタル印刷技術で、刷版や固定された画像担体は使用しない。デスクトッププリンター、大判グラフィック、大量商業システムにわたる。バリアブルデータ、短納期、熱や圧力に耐えられない基材に適する。"@ja,
+        "En digital trykketeknologi som skyter blekkdråper direkte på underlaget fra ett eller flere trykkhoder, uten plater eller faste bildebærere. Spenner fra skrivebordsprintere via storformat til høyvolums kommersielle systemer; egnet for variabel data, korte opplag og substrater som ikke tåler varme eller trykk."@nb,
+        "Een digitale druktechnologie die inktdruppels rechtstreeks op het substraat schiet vanuit een of meer printkoppen, zonder platen of vaste beelddragers. Omvat desktopprinters, grootformaatgraphics en commerciële hoogvolumesystemen; zeer geschikt voor variabele data, kleine oplagen en substraten die geen warmte of druk verdragen."@nl,
+        "Cyfrowa technologia druku wyrzucająca krople atramentu bezpośrednio na podłoże z jednej lub kilku głowic, bez form ani stałych nośników obrazu. Obejmuje drukarki biurkowe, grafikę wielkoformatową i wysokonakładowe systemy komercyjne; dobrze nadaje się do danych zmiennych, krótkich nakładów i podłoży nietolerujących ciepła ani nacisku."@pl,
+        "Tecnologia de impressão digital que projeta gotículas de tinta diretamente sobre o substrato a partir de uma ou mais cabeças de impressão, sem chapas ou portadores fixos de imagem. Abrange impressoras de mesa, gráficos de grande formato e sistemas comerciais de alto volume; adequada para dados variáveis, tiragens curtas e substratos que não toleram calor ou pressão."@pt,
+        "En digital tryckteknik som slungar bläckdroppar direkt mot substratet från ett eller flera skrivhuvuden, utan plåtar eller fasta bildbärare. Spänner över skrivbordsskrivare, storformatsgrafik och kommersiella högvolymsystem; väl lämpad för variabeldata, korta serier och substrat som inte tål värme eller tryck."@sv,
+        "一种数码印刷技术，从一个或多个打印头将油墨滴直接喷射到承印物上，无需印版或固定图像载体。涵盖桌面打印机、大幅面图形和大容量商业系统；特别适合可变数据和短印次。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q53895> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/continuous>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/giclee>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/piezoelectric>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/thermal-inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/uv-inkjet> ;
+    skos:notation "P:TC-PTC-DIGT-INKJ" ;
+    skos:prefLabel "Inkjet"@da,
+        "Inkjet"@de,
+        "Inkjet"@en,
+        "Inyección de Tinta"@es,
+        "इंकजेट"@hi,
+        "インクジェット"@ja,
+        "Blekkstråle"@nb,
+        "Inkjet"@nl,
+        "Atramentowy"@pl,
+        "Jato de tinta"@pt,
+        "Inkjet"@sv,
+        "喷墨"@zh-Hans ;
+    skos:scopeNote "Las variantes incluyen drop-on-demand (térmica o piezoeléctrica) y continua (la gota se forma siempre y se desvía o no). Los químicos de tinta — solvente, eco-solvente, látex, UV — determinan la compatibilidad con sustratos."@es,
+        "变体包括drop-on-demand（热敏或压电）和连续（液滴始终形成并被偏转或不被偏转）。油墨化学——溶剂、环保溶剂、乳胶、UV——决定与承印物的兼容性。"@zh-Hans ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

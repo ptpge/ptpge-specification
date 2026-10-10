@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/callas-pdf-toolbox",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Callas PDF Toolbox",
+    "es": "Callas PDF Toolbox",
+    "zh-Hans": "Callas PDF Toolbox",
+    "nb": "Callas PDF Toolbox",
+    "de": "Callas PDF Toolbox",
+    "ja": "Callas PDF Toolbox",
+    "sv": "callas pdfToolbox",
+    "da": "callas pdfToolbox",
+    "nl": "callas pdfToolbox",
+    "pl": "Callas PDF Toolbox",
+    "pt": "Callas PDF Toolbox",
+    "hi": "Callas PDF Toolbox"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§CALLAS-PDF-TOOLBOX",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "callas pdfToolbox — comprehensive PDF preflight, fixup, and conversion tool from callas software (Berlin) — used standalone or embedded in Adobe Acrobat, EFI, Heidelberg, and other workflow systems.",
+    "nb": "callas pdfToolbox — omfattende verktøy for PDF preflight, fiksing og konvertering fra callas software (Berlin) — brukt frittstående eller innebygd i Adobe Acrobat, EFI, Heidelberg og andre workflow-systemer.",
+    "de": "callas pdfToolbox — umfassendes PDF-Preflight-, Korrektur- und Konvertierungswerkzeug von callas software (Berlin) — eigenständig oder eingebettet in Adobe Acrobat, EFI, Heidelberg und andere Workflow-Systeme einsetzbar.",
+    "ja": "callas pdfToolbox — callas software（ベルリン）による包括的なPDFプリフライト、修正、変換ツール — 単独で使用されるか、Adobe Acrobat、EFI、Heidelberg、その他のワークフローシステムに組み込まれる。",
+    "es": "Herramienta de verificación y corrección de PDF de Callas Software, ampliamente integrada en flujos pre-prensa para automatizar el control de archivos.",
+    "zh-Hans": "Callas Software的PDF验证和修正工具，广泛集成于印前工作流程中用于自动化文件控制。",
+    "sv": "callas pdfToolbox — omfattande verktyg för PDF-preflight, korrigering och konvertering från callas software (Berlin) — används fristående eller inbäddat i Adobe Acrobat, EFI, Heidelberg och andra arbetsflödessystem.",
+    "da": "callas pdfToolbox — omfattende værktøj til PDF-preflight, -reparation og -konvertering fra callas software (Berlin) — bruges selvstændigt eller indlejret i Adobe Acrobat, EFI, Heidelberg og andre workflowsystemer.",
+    "nl": "callas pdfToolbox — veelomvattende tool voor PDF-preflight, -reparatie en -conversie van callas software (Berlijn) — zelfstandig gebruikt of ingebed in Adobe Acrobat, EFI, Heidelberg en andere workflowsystemen.",
+    "pl": "callas pdfToolbox — kompleksowe narzędzie do preflightu, naprawy i konwersji PDF firmy callas software (Berlin) — używane samodzielnie lub osadzone w Adobe Acrobat, EFI, Heidelberg i innych systemach workflow.",
+    "pt": "callas pdfToolbox — ferramenta abrangente de preflight, correção e conversão de PDF da callas software (Berlim) — usada isoladamente ou incorporada ao Adobe Acrobat, EFI, Heidelberg e outros sistemas de fluxo de trabalho.",
+    "hi": "callas pdfToolbox — callas software (बर्लिन) का व्यापक PDF प्रीफ़्लाइट, फ़िक्सअप और रूपांतरण औज़ार — स्टैंडअलोन या Adobe Acrobat, EFI, Heidelberg और अन्य वर्कफ़्लो सिस्टम में एम्बेडेड।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Preflight",
+        "PreflightParams",
+        "PreflightReport",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.4.14 · p.100",
+        "§6.64 · p.249",
+        "§6.65 · p.250",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 13"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

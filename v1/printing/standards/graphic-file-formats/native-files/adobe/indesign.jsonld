@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe/indesign",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "InDesign (.indd)",
+    "es": "Adobe InDesign (.indd)",
+    "zh-Hans": "Adobe InDesign (.indd)",
+    "nb": "InDesign (.indd)",
+    "de": "InDesign (.indd)",
+    "ja": "InDesign (.indd)",
+    "sv": "InDesign (.indd)",
+    "da": "InDesign (.indd)",
+    "nl": "InDesign (.indd)",
+    "pl": "InDesign (.indd)",
+    "pt": "InDesign (.indd)",
+    "hi": "InDesign (.indd)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§INDESIGN",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Native page-layout file format (.indd) for Adobe InDesign, the industry-standard application for multi-page books, magazines, brochures, and complex print layouts.",
+    "nb": "Programspesifikt sideoppsettsformat (.indd) for Adobe InDesign, bransjestandardapplikasjonen for flersides bøker, magasiner, brosjyrer og komplekse trykkoppsett.",
+    "de": "Anwendungseigenes Seitenlayout-Format (.indd) von Adobe InDesign, der Industriestandard-Anwendung für mehrseitige Bücher, Magazine, Broschüren und komplexe Drucklayouts.",
+    "ja": "Adobe InDesignのネイティブページレイアウトファイル形式（.indd）。書籍、雑誌、パンフレット、複雑な印刷レイアウトの多ページ制作向け業界標準アプリケーション。",
+    "es": "Formato nativo de Adobe InDesign para maquetación de página profesional. Dominante en la pre-prensa editorial. Para entrega a imprenta se exporta a PDF/X.",
+    "zh-Hans": "Adobe InDesign用于专业页面布局的原生格式。在出版印前占主导地位。交付印刷时导出为PDF/X。",
+    "sv": "Programeget sidlayoutformat (.indd) för Adobe InDesign, branschstandardprogrammet för flersidiga böcker, tidskrifter, broschyrer och komplexa trycklayouter.",
+    "da": "Programeget sidelayoutformat (.indd) for Adobe InDesign, branchens standardprogram til flersidede bøger, magasiner, brochurer og komplekse tryklayouts.",
+    "nl": "Programma-eigen paginaopmaakformaat (.indd) voor Adobe InDesign, het industriestandaardprogramma voor meerpaginaboeken, magazines, brochures en complexe druklay-outs.",
+    "pl": "Natywny format składu stron (.indd) programu Adobe InDesign, branżowego standardu do wielostronicowych książek, czasopism, folderów i złożonych układów drukarskich.",
+    "pt": "Formato de arquivo nativo de diagramação (.indd) do Adobe InDesign, o aplicativo padrão do setor para livros, revistas, folhetos de várias páginas e layouts de impressão complexos.",
+    "hi": "Adobe InDesign का नेटिव पेज-लेआउट फ़ाइल फ़ॉर्मेट (.indd), बहु-पृष्ठ पुस्तकों, पत्रिकाओं, ब्रोशर और जटिल प्रिंट लेआउट का उद्योग-मानक एप्लिकेशन।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "InDesign",
+      ".indd"
+    ],
+    "pl": [
+      "InDesign",
+      ".indd"
+    ],
+    "pt": [
+      "InDesign",
+      ".indd"
+    ],
+    "hi": [
+      "InDesign",
+      ".indd"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/custom-foil",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Custom Foil",
+    "nb": "Egendefinert folie",
+    "de": "Benutzerdefinierte Folie",
+    "ja": "カスタム箔",
+    "es": "Lámina personalizada",
+    "zh-Hans": "定制箔",
+    "sv": "Specialfolie",
+    "da": "Specialfolie",
+    "nl": "Maatwerkfolie",
+    "pl": "Folia niestandardowa",
+    "pt": "Foil personalizado",
+    "hi": "कस्टम फ़ॉइल"
+  },
+  "definition": {
+    "en": "Hot-foil stamping with custom-colour pigmented foil. Available in solid colours (red, blue, green, copper, white, black, etc.) and matte or gloss finishes. Use this URI when the specific foil colour is not yet in the controlled vocabulary; vendor-specific colours can be expressed as Layer 2 extensions.",
+    "nb": "Varmfolie-preging med egendefinert pigmentert folie. Tilgjengelig i solide farger (rød, blå, grønn, kobber, hvit, sort osv.) og matte eller glansede finisher. Bruk denne URI-en når den spesifikke folie-fargen ikke er i kontrollert vokabular ennå.",
+    "de": "Heißfolienprägung mit kundenspezifischer pigmentierter Folie. Erhältlich in Vollfarben und matten oder glänzenden Ausführungen.",
+    "ja": "カスタムカラーの顔料箔によるホットフォイル。ソリッドカラー（赤、青、緑、銅、白、黒など）とマット／グロス仕上げがある。特定の箔色がまだ管理語彙にない場合はこの URI を使う。ベンダー固有の色は Layer 2 拡張として表現できる。",
+    "es": "Estampación en caliente con foil pigmentado de color personalizado. Disponible en colores sólidos (rojo, azul, verde, cobre, blanco, negro, etc.) y acabados mate o brillo. Usa este URI cuando el color de foil específico aún no está en el vocabulario controlado; los colores propios de un proveedor pueden expresarse como extensiones de Layer 2.",
+    "zh-Hans": "使用定制颜色颜料箔的烫印。提供实色（红、蓝、绿、铜、白、黑等）与哑光或亮光效果。当特定箔色尚未进入受控词汇时使用此 URI；厂商专属颜色可作为 Layer 2 扩展表达。",
+    "sv": "Varmfoliering med pigmenterad folie i specialkulör. Finns i solida kulörer (röd, blå, grön, koppar, vit, svart m.fl.) och matt eller blank finish. Använd denna URI när den specifika foliekulören ännu inte finns i den kontrollerade vokabulären; leverantörsspecifika kulörer kan uttryckas som Layer 2-utökningar.",
+    "da": "Varmfolieprægning med specialfarvet pigmenteret folie. Fås i dækkende farver (rød, blå, grøn, kobber, hvid, sort m.fl.) og mat eller blank finish. Brug denne URI, når den specifikke foliefarve aftales med producenten.",
+    "nl": "Warmfoliedruk met gepigmenteerde folie in maatwerkkleur. Verkrijgbaar in dekkende kleuren (rood, blauw, groen, koper, wit, zwart e.a.) en matte of glanzende afwerking. Gebruik deze URI wanneer de specifieke foliekleur met de producent wordt afgestemd.",
+    "pl": "Folia na gorąco w indywidualnym kolorze pigmentowanym. Dostępna w pełnych kolorach (czerwony, niebieski, zielony, miedziany, biały, czarny itd.) oraz w wykończeniu matowym lub błyszczącym. Użyj tego URI, gdy konkretny kolor folii nie jest jeszcze w kontrolowanym słownictwie; kolory specyficzne dla dostawcy można wyrazić jako rozszerzenia warstwy 2.",
+    "pt": "Hot stamping com foil pigmentado em cor personalizada. Disponível em cores sólidas (vermelho, azul, verde, cobre, branco, preto etc.) e acabamentos fosco ou brilhante. Use esta URI quando a cor específica do foil ainda não estiver no vocabulário controlado; cores específicas de fornecedor podem ser expressas como extensões da Camada 2.",
+    "hi": "कस्टम-रंग रंजित फ़ॉइल से हॉट-फ़ॉइल स्टैंपिंग। ठोस रंगों (लाल, नीला, हरा, तांबई, सफ़ेद, काला आदि) और मैट या ग्लॉस फ़िनिश में उपलब्ध। जब विशिष्ट फ़ॉइल रंग अभी नियंत्रित शब्दकोश में न हो तो यह URI प्रयोग करें; विक्रेता-विशेष रंग लेयर 2 विस्तार के रूप में व्यक्त किए जा सकते हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/embellishments/foil-stamping",
+  "properties": {
+    "selective": true,
+    "processType": "hot-foil",
+    "coverage": "selective",
+    "foilColor": "custom"
+  },
+  "created": "2026-05-19T20:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§CUSTOM-FOIL",
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "Specialty foil",
+      "Bespoke foil",
+      "Coloured Foil"
+    ],
+    "nb": [
+      "Egendefinert folie"
+    ],
+    "pl": [
+      "folia specjalna",
+      "folia na zamówienie",
+      "folia kolorowa"
+    ],
+    "pt": [
+      "foil especial",
+      "foil colorido",
+      "foil sob medida"
+    ],
+    "hi": [
+      "स्पेशल फ़ॉइल",
+      "रंगीन फ़ॉइल",
+      "कस्टम रंग फ़ॉइल"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "EmbossingIntent"
+      ],
+      "refs": [
+        "§4.6 · p.74"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 25"
+    }
+  ]
+}

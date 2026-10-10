@@ -1,0 +1,72 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/heidelberg",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Heidelberg",
+    "nb": "Heidelberg",
+    "de": "Heidelberg",
+    "ja": "Heidelberg",
+    "es": "Heidelberg",
+    "zh-Hans": "Heidelberg",
+    "sv": "Heidelberg",
+    "da": "Heidelberg",
+    "nl": "Heidelberg",
+    "pl": "Heidelberg",
+    "pt": "Heidelberg",
+    "hi": "Heidelberg"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Heidelberg's postpress portfolio — above all the Stahlfolder folding machines and integrated finishing systems. POLAR cutting systems, long sold through the Heidelberg partnership, are a separate brand entry.",
+    "nb": "Heidelbergs ferdiggjøringsportefølje — først og fremst Stahlfolder-falsemaskinene og integrerte ferdiggjøringssystemer. POLAR-skjæresystemene, lenge solgt gjennom Heidelberg-partnerskapet, er egen merkeoppføring.",
+    "de": "Heidelbergs Weiterverarbeitungs-Portfolio — allen voran die Stahlfolder-Falzmaschinen und integrierte Finishing-Systeme. Die POLAR-Schneidesysteme, lange über die Heidelberg-Partnerschaft vertrieben, sind ein eigener Markeneintrag.",
+    "ja": "ハイデルベルクのポストプレス製品群 — 何よりも Stahlfolder（スタールフォルダー）折り機と統合された後加工システム。長らくハイデルベルクとの提携で販売されてきた POLAR 断裁システムは、別のブランド項目。",
+    "es": "El portafolio de posimpresión de Heidelberg — ante todo las plegadoras Stahlfolder y los sistemas de acabado integrados. Los sistemas de corte POLAR, vendidos durante décadas a través de la alianza con Heidelberg, tienen su propia entrada de marca.",
+    "zh-Hans": "海德堡的印后产品组合 — 首推 Stahlfolder 折页机与集成整饰系统。长期通过海德堡合作渠道销售的 POLAR 裁切系统现为独立品牌条目。",
+    "sv": "Heidelbergs postpress-portfölj — framför allt Stahlfolder-falsmaskinerna och integrerade efterbehandlingssystem. POLAR-skärsystem, länge sålda genom Heidelberg-partnerskapet, är en egen varumärkespost.",
+    "da": "Heidelbergs postpress-portefølje — frem for alt Stahlfolder-falsemaskinerne og integrerede efterbehandlingssystemer. POLAR-skæresystemer, længe solgt gennem Heidelberg-partnerskabet, er en selvstændig mærkepost.",
+    "nl": "Heidelbergs postpressportfolio — bovenal de Stahlfolder-vouwmachines en geïntegreerde afwerkingssystemen. POLAR-snijsystemen, lang verkocht via het Heidelberg-partnerschap, vormen een aparte merkvermelding.",
+    "pl": "Portfolio postpress Heidelberga — przede wszystkim falcerki Stahlfolder i zintegrowane systemy wykończeniowe. Systemy tnące POLAR, długo sprzedawane w ramach partnerstwa z Heidelbergiem, mają osobny wpis marki.",
+    "pt": "O portfólio de pós-impressão da Heidelberg — sobretudo as dobradeiras Stahlfolder e sistemas de acabamento integrados. Os sistemas de corte POLAR, há muito vendidos pela parceria Heidelberg, são uma entrada de marca separada.",
+    "hi": "Heidelberg का पोस्टप्रेस पोर्टफ़ोलियो — सबसे बढ़कर Stahlfolder फ़ोल्डिंग मशीनें और एकीकृत फ़िनिशिंग सिस्टम। POLAR कटिंग सिस्टम, जो लंबे समय से Heidelberg साझेदारी से बिके, एक अलग ब्रांड प्रविष्टि है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-HEID",
+  "altLabels": {
+    "en": [
+      "Stahlfolder",
+      "Stahl"
+    ],
+    "pl": [
+      "Stahlfolder",
+      "Stahl"
+    ],
+    "pt": [
+      "Stahlfolder",
+      "Stahl"
+    ],
+    "hi": [
+      "Stahlfolder",
+      "Stahl"
+    ]
+  },
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/heidelberg",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management> ;
+    skos:definition "Processer og værktøjer, der verificerer at en trykopgave opfylder specifikationerne og er produktionsklar — anvendt før tryk (preflight, prøvetryk) og under/efter (farvestyring, kalibrering)."@da,
+        "Prozesse und Werkzeuge, die sicherstellen, dass ein Druckauftrag den Spezifikationen entspricht und produktionstauglich ist — eingesetzt vor dem Druck (Preflight, Proofing) und während/nach dem Druck (Farbmanagement, Kalibrierung)."@de,
+        "Processes and tools that verify a print job meets specifications and is suitable for production — applied before printing (preflight, proofing) and during/after (color management, calibration)."@en,
+        "Procesos y herramientas que verifican que un trabajo de impresión cumple con las especificaciones y es apto para producción — aplicados antes de imprimir (preflight, pruebas) y durante o después (gestión de color, calibración)."@es,
+        "प्रक्रियाएँ और औज़ार जो सत्यापित करते हैं कि प्रिंट जॉब विनिर्देशों को पूरा करता है और उत्पादन के लिए उपयुक्त है — मुद्रण से पहले (प्रीफ़्लाइट, प्रूफ़िंग) और दौरान/बाद (रंग प्रबंधन, अंशांकन) लागू।"@hi,
+        "印刷ジョブが仕様を満たし生産に適していることを検証する工程とツール — 印刷前（プリフライト、校正）と印刷中・後（カラーマネジメント、キャリブレーション）に適用される。"@ja,
+        "Prosesser og verktøy som verifiserer at en trykkjobb oppfyller spesifikasjoner og er egnet for produksjon — anvendt før trykking (preflight, proofing) og under/etter (fargestyring, kalibrering)."@nb,
+        "Processen en tools die verifiëren dat een drukopdracht aan de specificaties voldoet en productieklaar is — toegepast vóór het drukken (preflight, proeven) en tijdens/erna (kleurbeheer, kalibratie)."@nl,
+        "Procesy i narzędzia weryfikujące, czy zlecenie drukarskie spełnia specyfikację i nadaje się do produkcji — stosowane przed drukiem (preflight, proofing) oraz w trakcie/po nim (zarządzanie barwą, kalibracja)."@pl,
+        "Processos e ferramentas que verificam se um trabalho de impressão atende às especificações e é adequado para produção — aplicados antes da impressão (preflight, provas) e durante/depois (gerenciamento de cor, calibração)."@pt,
+        "Processer och verktyg som verifierar att ett tryckjobb uppfyller specifikationerna och är produktionsdugligt — tillämpade före tryck (preflight, provtryck) samt under/efter (färghantering, kalibrering)."@sv,
+        "验证印刷作业符合规格并适合生产的流程和工具——在印刷前应用（飞检、校样）以及在印刷期间和之后应用（色彩管理、校准）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/quality-assurance/color-calibration>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/color-management>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check>,
+        <https://ptpge.org/v1/printing/management/quality-assurance/proofing> ;
+    skos:notation "P:MG-QAS" ;
+    skos:prefLabel "Kvalitetssikring"@da,
+        "Qualitätssicherung"@de,
+        "Quality Assurance"@en,
+        "Aseguramiento de Calidad"@es,
+        "गुणवत्ता आश्वासन"@hi,
+        "品質保証"@ja,
+        "Kvalitetssikring"@nb,
+        "Kwaliteitsborging"@nl,
+        "Zapewnienie jakości"@pl,
+        "Garantia de qualidade"@pt,
+        "Kvalitetssäkring"@sv,
+        "质量保证"@zh-Hans ;
+    skos:scopeNote "Umfasst Preflight-Dateiprüfung (Enfocus PitStop, Callas PDF Toolbox, Esko Automation Engine), Proofing (Soft Proofs in der Druckvorstufe, Hard Proofs, Korrekturlesen nach Druck), Farbmanagement (ICC-Profile, Kalibrierung) und Farbabgleichssysteme. Jeder Schritt fängt Fehler in einer späteren Phase ab — Preflight findet Dateiprobleme vor der Plattenherstellung; Proofing fängt Farb- und Layoutfehler vor dem Druck ab; Kalibrierung stellt sicher, dass die Druckmaschine der Spezifikation entspricht."@de,
+        "Includes preflight file checking (Enfocus PitStop, Callas PDF Toolbox, Esko Automation Engine), proofing (prepress soft proofs, hard proofs, post-press proofreading), color management (ICC profiles, calibration), and color matching systems. Each step catches errors at successively later stages — preflight finds file problems before plates are made; proofing catches color/layout issues before printing; calibration ensures the press matches the specification."@en,
+        "Incluye verificación preflight de archivos (Enfocus PitStop, Callas PDF Toolbox, Esko Automation Engine), pruebas (pruebas blandas pre-prensa, pruebas duras, corrección post-prensa), gestión de color (perfiles ICC, calibración) y control de impresión."@es,
+        "प्रीफ़्लाइट फ़ाइल जाँच (Enfocus PitStop, Callas PDF Toolbox, Esko Automation Engine), प्रूफ़िंग (प्रीप्रेस सॉफ़्ट प्रूफ़, हार्ड प्रूफ़, पोस्ट-प्रेस प्रूफ़रीडिंग), रंग प्रबंधन (ICC प्रोफ़ाइल, अंशांकन) और रंग मिलान प्रणालियाँ शामिल। हर चरण क्रमशः बाद के स्तर पर त्रुटियाँ पकड़ता है — प्रीफ़्लाइट प्लेट बनने से पहले फ़ाइल समस्याएँ; प्रूफ़िंग मुद्रण से पहले रंग/लेआउट समस्याएँ; अंशांकन सुनिश्चित करता है कि प्रेस विनिर्देश से मेल खाए।"@hi,
+        "プリフライト・ファイルチェック（Enfocus PitStop、Callas PDF Toolbox、Esko Automation Engine）、校正（製版ソフトプルーフ、ハードプルーフ、刷り上がり校正）、カラーマネジメント（ICCプロファイル、キャリブレーション）、カラーマッチングシステムを含む。各工程はそれぞれ後の段階で発生するエラーを捕捉する — プリフライトは刷版作成前にファイルの問題を発見し、校正は印刷前に色やレイアウトの問題を捕捉し、キャリブレーションは印刷機が仕様に一致することを保証する。"@ja,
+        "Inkluderer preflight filsjekk (Enfocus PitStop, Callas PDF Toolbox, Esko Automation Engine), proofing (prepress soft proofs, hard proofs, post-press korrekturlesing), fargestyring (ICC-profiler, kalibrering) og fargematchingssystemer. Hvert trinn fanger feil på stadig senere stadier — preflight finner filproblemer før plater lages; proofing fanger farge/layout-problemer før trykking; kalibrering sikrer at pressen matcher spesifikasjonen."@nb,
+        "Inclui verificação de arquivos em preflight (Enfocus PitStop, Callas PDF Toolbox, Esko Automation Engine), provas (provas de tela de pré-impressão, provas físicas, revisão pós-impressão), gerenciamento de cor (perfis ICC, calibração) e sistemas de correspondência de cor. Cada etapa captura erros em estágios sucessivamente posteriores — o preflight encontra problemas de arquivo antes das chapas; as provas capturam problemas de cor/layout antes da impressão; a calibração garante que a máquina corresponda à especificação."@pt,
+        "包括飞检文件检查（Enfocus PitStop、Callas PDF Toolbox、EskoAutomation Engine）、校样（印前软校样、硬校样、印后校对）、色彩管理（ICC配置文件、校准）和印刷控制。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

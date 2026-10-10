@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/us/letter> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "8.5 x 11 in"@en,
+        "8.5x11"@en,
+        "8.5×11"@en,
+        "ANSI A"@en,
+        "Letter size"@en,
+        "US Letter"@en,
+        "Amerikansk brevformat"@nb,
+        "US Letter"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:definition "8.5 × 11 tommer (215.9 × 279.4 mm). Standardformatet til kontor og forbrugere i USA, Canada, Mexico, Filippinerne og Chile. Lidt bredere og kortere end A4, med andre proportioner — A4 og Letter kan ikke udskiftes med hinanden, uden at dokumentet layoutes om."@da,
+        "8,5 × 11 Zoll (215,9 × 279,4 mm). Das Standardpapierformat für Büro und Privatgebrauch in den Vereinigten Staaten, Kanada, Mexiko, auf den Philippinen und in Chile. Etwas breiter und kürzer als A4, mit einem anderen Seitenverhältnis — A4 und Letter lassen sich nicht ohne Neugestaltung des Dokuments austauschen."@de,
+        "8.5 × 11 inches (215.9 × 279.4 mm). The default office and consumer paper size in the United States, Canada, Mexico, the Philippines, and Chile. Slightly wider and shorter than A4, with a different aspect ratio — A4 and Letter cannot be substituted without re-laying out the document."@en,
+        "Tamaño Carta de EE. UU., 8,5 × 11 pulgadas. Estándar de papelería, oficinas, informes y documentos generales en Norteamérica."@es,
+        "8.5 × 11 inches (215.9 × 279.4 mm). संयुक्त राज्य, कनाडा, मेक्सिको, फ़िलीपींस और चिली का डिफ़ॉल्ट ऑफ़िस और उपभोक्ता काग़ज़ आकार। A4 से थोड़ा चौड़ा और छोटा, अलग अनुपात — A4 और Letter को दस्तावेज़ का लेआउट दोबारा बनाए बिना बदला नहीं जा सकता।"@hi,
+        "8.5×11インチ（215.9×279.4mm）。米国、カナダ、メキシコ、フィリピン、チリにおける既定のオフィスおよびコンシューマー用紙サイズ。A4よりわずかに広く短く、アスペクト比も異なる — A4とLetterは書類のレイアウトを再構成しないと相互置換できない。"@ja,
+        "8,5 × 11 tommer (215,9 × 279,4 mm). Standard kontor- og forbrukerpapirstørrelse i USA, Canada, Mexico, Filippinene og Chile. Litt bredere og kortere enn A4, med et annet sideforhold — A4 og Letter kan ikke byttes ut uten å re-layoute dokumentet."@nb,
+        "8.5 × 11 inch (215.9 × 279.4 mm). Het standaardformaat voor kantoor en consument in de VS, Canada, Mexico, de Filipijnen en Chili. Iets breder en korter dan A4, met andere verhoudingen — A4 en Letter zijn niet uitwisselbaar zonder het document opnieuw op te maken."@nl,
+        "8,5 × 11 cali (215,9 × 279,4 mm). Domyślny format papieru biurowego i konsumenckiego w Stanach Zjednoczonych, Kanadzie, Meksyku, na Filipinach i w Chile. Nieco szerszy i krótszy niż A4, o innych proporcjach — A4 i Letter nie są zamienne bez ponownego złożenia dokumentu."@pl,
+        "8.5 × 11 inches (215.9 × 279.4 mm). O tamanho de papel padrão de escritório e consumo nos Estados Unidos, Canadá, México, Filipinas e Chile. Um pouco mais largo e mais curto que o A4, com proporção diferente — A4 e Letter não são intercambiáveis sem rediagramar o documento."@pt,
+        "8.5 × 11 tum (215.9 × 279.4 mm). Standardformatet för kontor och konsumenter i USA, Kanada, Mexiko, Filippinerna och Chile. Något bredare och kortare än A4, med andra proportioner — A4 och Letter kan inte bytas mot varandra utan att dokumentet layoutas om."@sv,
+        "美国Letter尺寸，8.5 × 11英寸。北美文具、办公、报告和一般文件的标准。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q254446> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§LETTER" ;
+    skos:prefLabel "Letter (8.5 x 11 tum)"@da,
+        "Letter (8.5 x 11 in)"@de,
+        "Letter (8.5 x 11 in)"@en,
+        "Letter (216 × 279 mm / 8.5 × 11 in)"@es,
+        "Letter (8.5 x 11 in)"@hi,
+        "Letter (8.5 x 11 in)"@ja,
+        "Letter (8.5 x 11 in)"@nb,
+        "Letter (8.5 x 11 in)"@nl,
+        "Letter (8.5 x 11 in)"@pl,
+        "Letter (8.5 x 11 in)"@pt,
+        "Letter (8.5 x 11 tum)"@sv,
+        "Letter (216 × 279 mm / 8.5 × 11 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 93.5 ;
+            ptpge:aspectRatio 1.2941 ;
+            ptpge:height 11.0 ;
+            ptpge:standard "ANSI" ;
+            ptpge:unit "in" ;
+            ptpge:width 8.5 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

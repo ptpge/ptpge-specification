@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/knowledge/tools/paper-weights",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:KN§PAPER-WEIGHTS",
+  "elementType": "resource",
+  "label": {
+    "en": "Paper Weights",
+    "nb": "Papirvekter",
+    "de": "Papiergewichte",
+    "ja": "用紙の坪量",
+    "es": "Gramajes de papel",
+    "zh-Hans": "纸张克重",
+    "sv": "Pappersvikter",
+    "da": "Papirvægte",
+    "nl": "Papiergewichten",
+    "pl": "Gramatury papieru",
+    "pt": "Gramaturas de papel",
+    "hi": "काग़ज़ का वज़न"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "knowledge",
+  "broader": "https://ptpge.org/v1/ordering/knowledge/tools",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T16:33:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "related": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials"
+  ],
+  "definition": {
+    "en": "Paper Weights — interactive utility for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related.",
+    "nb": "Paper Weights — interaktivt verktøy for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related.",
+    "de": "Paper Weights — interaktives Werkzeug für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe.",
+    "ja": "Paper Weights — 印刷物の購入者およびデザイナー向けのインタラクティブツール。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。",
+    "es": "Paper Weights — utilidad interactiva para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre.",
+    "zh-Hans": "Paper Weights——面向印刷买方和设计师的交互式工具。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。",
+    "sv": "Pappersvikter — interaktivt verktyg för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer det täcker via skos:related.",
+    "da": "Papirvægte — interaktivt hjælpemiddel for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, det dækker.",
+    "nl": "Papiergewichten — interactief hulpmiddel voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt.",
+    "pl": "Gramatury papieru — interaktywne narzędzie dla nabywców druku i projektantów. Odwołuje się poprzez skos:related do terminów słownictwa warstwy 1, które obejmuje.",
+    "pt": "Gramaturas de papel — utilitário interativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre.",
+    "hi": "काग़ज़ का वज़न — मुद्रण खरीदारों और डिज़ाइनरों के लिए इंटरैक्टिव उपयोगिता। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"
+  }
+}

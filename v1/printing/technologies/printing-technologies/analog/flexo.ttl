@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Flexografi"@da,
+        "Flexotryk"@da,
+        "Flexographic printing"@en,
+        "Flexography"@en,
+        "फ़्लेक्सोग्राफ़िक मुद्रण"@hi,
+        "फ़्लेक्सोग्राफ़ी"@hi,
+        "Fleksografi"@nb,
+        "flexografie"@nl,
+        "druk fleksograficzny"@pl,
+        "flekso"@pl,
+        "Flexografia"@pt,
+        "Impressão flexográfica"@pt,
+        "Flexografi"@sv,
+        "Flexotryck"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "En analog trykproces med fleksible reliefplader og hurtigttørrende flydende farver, kørt på rullefødte presser i høj hastighed. Den dominerende teknologi for trykt emballage — etiketter, fleksibel emballage, bølgepapkasser — og for avis- og magasinarbejde i store mængder."@da,
+        "Ein analoges Druckverfahren, das flexible Hochdruckplatten und schnell trocknende flüssige Druckfarben verwendet und auf Rollendruckmaschinen mit hoher Geschwindigkeit läuft. Die dominante Technologie für bedruckte Verpackungen — Etiketten, flexible Verpackungen, Wellpappe — sowie für hochvolumige Zeitungs- und Magazinaufträge."@de,
+        "An analog printing process using flexible relief plates and fast-drying liquid inks, run on web-fed presses at high speed. The dominant technology for printed packaging — labels, flexible packaging, corrugated boxes — and for high-volume newspaper and magazine work."@en,
+        "Tecnología de impresión en relieve que utiliza planchas de polímero flexible montadas sobre cilindros. Dominante en packaging por su capacidad de imprimir sobre sustratos no uniformes."@es,
+        "लचीली रिलीफ़ प्लेटों और जल्दी सूखने वाली तरल स्याही का एनालॉग मुद्रण प्रक्रिया, वेब-फ़ेड प्रेस पर उच्च गति से चलती है। छपी पैकेजिंग — लेबल, लचीली पैकेजिंग, कोरुगेटेड बॉक्स — और उच्च-मात्रा अख़बार व पत्रिका कार्य की प्रमुख तकनीक।"@hi,
+        "柔軟な凸版と速乾性の液体インキを使用し、輪転印刷機で高速に運転されるアナログ印刷工程。印刷パッケージ — ラベル、軟包装、段ボール — および大量の新聞・雑誌業務における主要技術。"@ja,
+        "En analog trykkeprosess som bruker fleksible relieffplater og hurtigtørkende flytende blekk, kjørt på rull-matede presser i høy hastighet. Den dominerende teknologien for trykt emballasje — etiketter, fleksibel emballasje, bølgepappkasser — og for store opplag av aviser og magasiner."@nb,
+        "Een analoog drukproces met flexibele reliëfplaten en sneldrogende vloeibare inkten, gedraaid op rolgevoede persen op hoge snelheid. De dominante technologie voor bedrukte verpakkingen — etiketten, flexibele verpakkingen, golfkartonnen dozen — en voor kranten- en magazinewerk in hoge volumes."@nl,
+        "Analogowy proces druku z użyciem elastycznych form wypukłych i szybkoschnących farb ciekłych, prowadzony na maszynach zwojowych z dużą prędkością. Dominująca technologia druku opakowań — etykiet, opakowań giętkich, pudeł z tektury falistej — oraz wysokonakładowych gazet i czasopism."@pl,
+        "Processo analógico de impressão que usa chapas flexíveis em relevo e tintas líquidas de secagem rápida, rodado em impressoras de bobina em alta velocidade. A tecnologia dominante para embalagens impressas — rótulos, embalagens flexíveis, caixas de papelão ondulado — e para grandes volumes de jornais e revistas."@pt,
+        "En analog tryckprocess med flexibla reliefplåtar och snabbtorkande flytande bläck, körd på rullmatade pressar i hög hastighet. Den dominerande teknologin för tryckta förpackningar — etiketter, flexibla förpackningar, wellpapplådor — och för tidnings- och tidskriftsarbete i höga volymer."@sv,
+        "使用安装在滚筒上的柔性聚合物印版的凸版印刷技术。在包装中占主导地位，能够在不均匀承印物上印刷。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1043861> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§FLEXO" ;
+    skos:prefLabel "Flexo"@da,
+        "Flexodruck"@de,
+        "Flexo"@en,
+        "Flexografía"@es,
+        "फ़्लेक्सो"@hi,
+        "フレキソ印刷"@ja,
+        "Fleksografi"@nb,
+        "Flexo"@nl,
+        "Fleksografia"@pl,
+        "Flexo"@pt,
+        "Flexo"@sv,
+        "柔印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

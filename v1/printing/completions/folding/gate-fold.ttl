@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/gate-fold> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Window Fold"@en,
+        "दरवाज़ा फ़ोल्ड"@hi,
+        "विंडो फ़ोल्ड"@hi,
+        "Portfals"@nb,
+        "złam bramkowy"@pl,
+        "złam w okno"@pl,
+        "dobra em janela"@pt,
+        "dobra portão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "To yderpaneler falses indad og mødes ved eller nær midten, som portene i en indgang. Skaber et bredt trepanelslayout med central afsløring. Bruges til helsides featureopslag, invitationer og eksklusive brochurer."@da,
+        "Zwei äußere Flügel falzen sich nach innen und treffen sich in oder nahe der Mitte, wie die Flügel eines Tors. Erzeugt ein breites dreiteiliges Layout mit zentralem Reveal. Verwendet für ganzseitige Themenseiten, Einladungen und Werbestücke."@de,
+        "Two outer panels fold inward to meet at or near the center, like the gates of an entrance. Creates a wide three-panel layout with a central reveal. Used for full-bleed feature spreads, invitations, and promotional pieces."@en,
+        "Tres paneles plegados como puertas que se abren hacia el centro — el panel central queda revelado al abrir."@es,
+        "दो बाहरी पैनल अंदर की ओर मुड़कर बीच में या उसके पास मिलते हैं, किसी प्रवेश-द्वार के फाटकों की तरह। बीच में खुलने वाला चौड़ा तीन-पैनल लेआउट। फ़ुल-ब्लीड फ़ीचर स्प्रेड, निमंत्रण और प्रचार सामग्री में।"@hi,
+        "外側の2つの面が、入口の門のように中央またはその近くで合わさるように内側に折られる。中央が開かれる広い3面のレイアウトを作る。フルブリードの特集見開き、招待状、プロモーション用印刷物に使用される。"@ja,
+        "To ytre paneler folder seg innover for å møtes ved eller nær midten, som portene i en inngang. Skaper et bredt tre-panel oppsett med en sentral avsløring. Brukt til fullbleed-oppslag, invitasjoner og promoteringsmateriell."@nb,
+        "Twee buitenpanelen vouwen naar binnen en raken elkaar bij of nabij het midden, als de luiken van een poort. Geeft een brede driepaneellay-out met centrale onthulling. Gebruikt voor aflopende featurespreads, uitnodigingen en exclusieve brochures."@nl,
+        "Dwa zewnętrzne skrzydła składają się do środka i spotykają na środku lub blisko niego, jak skrzydła bramy. Tworzy szeroki układ trzech skrzydeł z centralnym odsłonięciem. Stosowany w rozkładówkach na spad, zaproszeniach i materiałach promocyjnych."@pl,
+        "Dois painéis externos dobram para dentro até se encontrarem no centro ou perto dele, como os portões de uma entrada. Cria um layout largo de três painéis com revelação central. Usada em páginas duplas de destaque, convites e peças promocionais."@pt,
+        "Två yttre paneler viks inåt och möts vid eller nära mitten, som portarna i en entré. Skapar en bred trepanelslayout med central avslöjandeeffekt. Används för utfallande featureuppslag, inbjudningar och kampanjmaterial."@sv,
+        "三个面板像门一样向中心折叠 —— 打开时显示中央面板。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§GATE-FOLD" ;
+    skos:prefLabel "Portfals"@da,
+        "Altarfalz"@de,
+        "Gate Fold"@en,
+        "Pliegue Gate"@es,
+        "गेट फ़ोल्ड"@hi,
+        "ゲートフォールド"@ja,
+        "Port-fold"@nb,
+        "Luikvouw"@nl,
+        "Złam okienkowy"@pl,
+        "Dobra janela"@pt,
+        "Portfals"@sv,
+        "门折"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,66 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/compliance/certification",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "VAR:CM§CERTIFICATION",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Certification",
+    "nb": "Sertifisering",
+    "de": "Zertifizierung",
+    "es": "Certificación",
+    "ja": "認証",
+    "zh-Hans": "认证",
+    "sv": "Certifiering",
+    "da": "Certificering",
+    "nl": "Certificering",
+    "pl": "Certyfikat",
+    "pt": "Certificação",
+    "hi": "प्रमाणन"
+  },
+  "definition": {
+    "en": "Configurable axis: Certification. A printed product is configured along this variable (enum, multiple selection). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Sertifisering. Et trykkprodukt konfigureres langs denne variabelen (enum, multiple valg). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Zertifizierung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, Mehrfachauswahl). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Certificación. Un producto impreso se configura a lo largo de esta variable (enum, selección múltiple). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：認証。印刷物はこの変数に沿って構成される（列挙型、複数選択）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：认证。印刷品沿此变量进行配置（枚举，多选）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Certifiering. En trycksak konfigureras längs denna variabel (uppräkning, flerval). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Certificering. Et trykt produkt konfigureres langs denne variabel (enum, flervalg). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Certificering. Een drukproduct wordt langs deze variabele geconfigureerd (enum, meerkeuze). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Certyfikat. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, wybór wielokrotny). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Certificação. Um impresso é configurado ao longo desta variável (enumeração, seleção múltipla). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: प्रमाणन। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, बहु-चयन)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Any certification?",
+    "nb": "Noen sertifisering?",
+    "de": "Eine Zertifizierung?",
+    "es": "¿Alguna certificación?",
+    "ja": "認証はありますか？",
+    "zh-Hans": "需要认证吗？",
+    "sv": "Någon certifiering?",
+    "da": "Nogen certificering?",
+    "nl": "Een certificering?",
+    "pl": "Jakiś certyfikat?",
+    "pt": "Alguma certificação?",
+    "hi": "कोई प्रमाणन?"
+  },
+  "datatype": "enum",
+  "cardinality": "multiple",
+  "scope": "product",
+  "valueDomain": "https://ptpge.org/v1/printing/standards/certifications",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/compliance",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "pl": [
+      "certyfikacja"
+    ]
+  }
+}

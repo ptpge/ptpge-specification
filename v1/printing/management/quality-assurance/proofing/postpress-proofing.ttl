@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/postpress-proofing> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "post-press proofing"@en,
+        "पोस्ट-प्रेस प्रूफ़िंग"@hi,
+        "kontrola po druku"@pl,
+        "prova pós-impressão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing> ;
+    skos:definition "Verifikation udført efter trykkørslen — en prøve fra produktionen undersøges for at bekræfte, at farve, register, færdiggørelse og samlet kvalitet matcher det godkendte prepress-prøvetryk."@da,
+        "Verifizierung nach dem Druckdurchlauf — Untersuchung eines Produktionsmusters, um zu bestätigen, dass Farbe, Passer, Veredelung und Gesamtqualität dem freigegebenen Druckvorstufen-Proof entsprechen. Erfasst druckbedingte Abweichungen und Veredelungsfehler."@de,
+        "Verification performed after the press run — examining a sample from production to confirm color, registration, finishing, and overall quality match the approved prepress proof. Catches press-related drift and finishing errors."@en,
+        "Verificación realizada después de la tirada para confirmar que el producto coincide con la prueba aprobada — comparación visual y, opcionalmente, medición espectrofotométrica."@es,
+        "प्रेस रन के बाद किया गया सत्यापन — उत्पादन के नमूने की जाँच ताकि पुष्टि हो कि रंग, रजिस्ट्रेशन, फ़िनिशिंग और समग्र गुणवत्ता अनुमोदित प्रीप्रेस प्रूफ़ से मेल खाती है। प्रेस-संबंधी विचलन और फ़िनिशिंग त्रुटियाँ पकड़ता है।"@hi,
+        "印刷機運転後に行われる検証 — 生産物のサンプルを審査し、色、見当合わせ、仕上げ、全体的な品質が承認済みの製版校正と一致することを確認する。印刷機関連のドリフトおよび仕上げエラーを捕捉する。"@ja,
+        "Verifikasjon utført etter pressekjøringen — undersøker en prøve fra produksjonen for å bekrefte at farge, registrering, etterbehandling og samlet kvalitet matcher det godkjente prepress-proofet. Fanger presse-relatert drift og etterbehandlingsfeil."@nb,
+        "Verificatie na de drukgang — een monster uit de productie wordt onderzocht om te bevestigen dat kleur, register, afwerking en algehele kwaliteit overeenkomen met de goedgekeurde prepressproef."@nl,
+        "Weryfikacja wykonywana po nakładzie — badanie próbki z produkcji w celu potwierdzenia, że barwa, pasowanie, wykończenie i ogólna jakość odpowiadają zatwierdzonemu proofowi prepress. Wyłapuje dryf maszyny i błędy wykończenia."@pl,
+        "Verificação realizada após a tiragem — exame de uma amostra da produção para confirmar que cor, registro, acabamento e qualidade geral correspondem à prova de pré-impressão aprovada. Captura desvios de máquina e erros de acabamento."@pt,
+        "Verifiering utförd efter tryckningen — ett produktionsprov granskas för att bekräfta att färg, passning, efterbehandling och helhetskvalitet motsvarar det godkända förprovet. Fångar tryckdrift och efterbehandlingsfel."@sv,
+        "印刷后进行的验证，确认产品与批准的校样相符 —— 视觉比较以及可选的分光光度测量。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§POSTPRESS-PROOFING" ;
+    skos:prefLabel "Prøve efter tryk"@da,
+        "Postpress-Proofing"@de,
+        "Postpress Proofing"@en,
+        "Pruebas Post-prensa"@es,
+        "पोस्टप्रेस प्रूफ़िंग"@hi,
+        "ポストプレス校正"@ja,
+        "Etterpress-proofing"@nb,
+        "Proef na het drukken"@nl,
+        "Proofing po druku"@pl,
+        "Provas pós-impressão"@pt,
+        "Efterkontroll (postpress)"@sv,
+        "印后校样"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

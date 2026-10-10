@@ -1,0 +1,215 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/wrapping-paper",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "notation": "O:PR§WRAPPING-PAPER",
+  "level": "element",
+  "elementType": "product",
+  "label": {
+    "en": "Wrapping Paper",
+    "nb": "Gavepapir",
+    "de": "Geschenkpapier",
+    "es": "Papel de regalo",
+    "ja": "包装紙",
+    "zh-Hans": "包装纸",
+    "sv": "Presentpapper",
+    "da": "Gavepapir",
+    "nl": "Inpakpapier",
+    "pl": "Papier prezentowy",
+    "pt": "Papel de presente",
+    "hi": "रैपिंग पेपर"
+  },
+  "definition": {
+    "en": "Printed gift wrap supplied as sheets or rolls — custom patterns and branding on lightweight paper.",
+    "nb": "Trykt gavepapir levert som ark eller ruller — egne mønstre og merkevare på lett papir.",
+    "de": "Bedrucktes Geschenkpapier als Bogen oder Rollen — eigene Muster und Branding auf leichtem Papier.",
+    "es": "Papel de regalo impreso en hojas o rollos — patrones propios y marca sobre papel ligero.",
+    "ja": "シートまたはロールで納品する印刷包装紙。軽量紙にオリジナル柄やブランドデザインを。",
+    "zh-Hans": "以张或卷供应的印刷包装纸——在轻质纸上定制图案与品牌设计。",
+    "sv": "Tryckt presentpapper levererat som ark eller rullar — egna mönster och varumärkesprofilering på lätt papper.",
+    "da": "Trykt gavepapir leveret som ark eller ruller — specialmønstre og branding på let papir.",
+    "nl": "Gedrukt cadeaupapier geleverd als vellen of rollen — eigen patronen en branding op licht papier.",
+    "pl": "Drukowany papier do pakowania prezentów w arkuszach lub rolach — indywidualne wzory i branding na lekkim papierze.",
+    "pt": "Papel de presente impresso, fornecido em folhas ou rolos — padrões personalizados e marca em papel leve.",
+    "hi": "शीट या रोल में दिया जाने वाला मुद्रित गिफ़्ट रैप — हल्के काग़ज़ पर कस्टम पैटर्न और ब्रांडिंग।"
+  },
+  "altLabels": {
+    "en": [
+      "Gift wrap",
+      "Gift wrapping paper",
+      "Wrapping paper sheets",
+      "Wrapping paper rolls"
+    ],
+    "nb": [
+      "Innpakningspapir",
+      "Gavepapirark"
+    ],
+    "de": [
+      "Geschenkpapierbogen",
+      "Packpapier (bedruckt)"
+    ],
+    "es": [
+      "Papel de envolver",
+      "papel para envolver",
+      "papel de envolver regalos",
+      "papel de regalo personalizado",
+      "rollo de papel de regalo"
+    ],
+    "ja": [
+      "ラッピングペーパー",
+      "ギフト包装紙",
+      "オリジナル包装紙"
+    ],
+    "zh-Hans": [
+      "礼品包装纸",
+      "礼物纸",
+      "定制包装纸"
+    ],
+    "pl": [
+      "papier do pakowania",
+      "papier ozdobny",
+      "papier prezentowy w arkuszach",
+      "papier prezentowy w rolce"
+    ],
+    "sv": [
+      "presentpapperet",
+      "omslagspapper",
+      "tryckt presentpapper",
+      "presentpapper på rulle"
+    ],
+    "da": [
+      "gavepapiret",
+      "indpakningspapir",
+      "trykt gavepapir",
+      "gavepapir på rulle"
+    ],
+    "nl": [
+      "cadeaupapier",
+      "geschenkpapier",
+      "bedrukt inpakpapier",
+      "inpakpapier op rol"
+    ],
+    "pt": [
+      "papel de presente",
+      "papel de embrulho",
+      "papel de presente personalizado",
+      "folhas de papel de presente",
+      "rolos de papel de presente"
+    ],
+    "hi": [
+      "रैपिंग पेपर",
+      "गिफ़्ट रैप",
+      "उपहार काग़ज़",
+      "गिफ़्ट रैपिंग शीट",
+      "रैपिंग पेपर रोल"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-08-12T00:00:00Z",
+  "modified": "2026-09-23T10:00:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet",
+    "https://ptpge.org/v1/printing/configurations/setup-models/roll"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/flexo",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/black"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "customSizeRange": {
+    "min": 300,
+    "max": 3000,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

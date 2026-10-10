@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/g7> a skos:Concept ;
+    dcterms:created "2026-06-17T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "G7 Master"@en,
+        "G7+"@en,
+        "Idealliance G7"@en,
+        "G7 Master"@hi,
+        "G7+"@hi,
+        "Idealliance G7"@hi,
+        "G7 Master"@pl,
+        "G7+"@pl,
+        "Idealliance G7"@pl,
+        "G7 Master"@pt,
+        "G7+"@pt,
+        "Idealliance G7"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Idealliance-metodik for gråskala-/neutralkalibrering af tryk for et fælles visuelt udtryk på tværs af enheder og processer, baseret på neutral gråbalance og tonekurver frem for farvedensiteter. G7+ betegner masterkvalifikationsniveauet."@da,
+        "Idealliance-Kalibriermethodik über Graubalance/Neutraldruck für ein einheitliches visuelles Erscheinungsbild über Geräte und Verfahren hinweg — basierend auf neutraler Graubalance und Tonwertkurven statt Farbdichten. G7+ bezeichnet die Master-Qualifikationsstufe."@de,
+        "Idealliance grayscale/neutral-print calibration methodology for a shared visual appearance across devices and processes, based on neutral gray balance and tonal response curves rather than ink densities. G7+ denotes the master qualification level."@en,
+        "Metodología de calibración de Idealliance basada en grises neutros para una apariencia visual compartida entre dispositivos y procesos, fundada en el balance de grises y curvas de respuesta tonal en lugar de densidades de tinta. G7+ denota el nivel de cualificación master."@es,
+        "डिवाइसों और प्रक्रियाओं में साझा दृश्य रूप के लिए Idealliance की ग्रेस्केल/न्यूट्रल-प्रिंट अंशांकन पद्धति, स्याही घनत्व के बजाय न्यूट्रल ग्रे बैलेंस और टोनल प्रतिक्रिया वक्रों पर आधारित। G7+ मास्टर योग्यता स्तर दर्शाता है।"@hi,
+        "デバイスや印刷方式を越えて視覚的な見えを揃える Idealliance のグレースケール／ニュートラル校正手法。インキ濃度ではなくニュートラルグレーバランスと階調再現カーブに基づく。G7+ はマスター認定レベルを指す。"@ja,
+        "Idealliance-metodikk for gråskala-/nøytralkalibrering for felles visuelt uttrykk på tvers av enheter og prosesser."@nb,
+        "Idealliance-methodiek voor grijswaarden-/neutraalkalibratie van druk voor een gedeelde visuele uitstraling over apparaten en processen, gebaseerd op neutrale grijsbalans en tooncurven in plaats van inktdichtheden. G7+ duidt het masterkwalificatieniveau aan."@nl,
+        "Metodologia kalibracji Idealliance oparta na skali szarości/neutralnym druku, dająca wspólny wygląd wizualny między urządzeniami i procesami — na podstawie balansu szarości i krzywych tonalnych, a nie gęstości farb. G7+ oznacza najwyższy poziom kwalifikacji."@pl,
+        "Metodologia de calibração de escala de cinza/impressão neutra da Idealliance para uma aparência visual compartilhada entre dispositivos e processos, baseada no equilíbrio de cinza neutro e curvas de resposta tonal em vez de densidades de tinta. G7+ denota o nível máximo de qualificação."@pt,
+        "Idealliance-metodik för gråskale-/neutralkalibrering av tryck för gemensamt visuellt utseende över enheter och processer, baserad på neutral gråbalans och tonkurvor snarare än bläckdensiteter. G7+ betecknar masterkvalifikationsnivån."@sv,
+        "Idealliance 的灰平衡/中性印刷校准方法，使不同设备与工艺获得一致的视觉外观——基于中性灰平衡与阶调响应曲线而非油墨密度。G7+ 表示大师级认证等级。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§G7" ;
+    skos:prefLabel "G7"@da,
+        "G7"@en,
+        "G7"@hi,
+        "G7"@nb,
+        "G7"@nl,
+        "G7"@pl,
+        "G7"@pt,
+        "G7"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-17" .
+

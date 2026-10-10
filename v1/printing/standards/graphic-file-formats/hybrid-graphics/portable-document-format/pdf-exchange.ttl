@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format/pdf-exchange> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".pdf"@en,
+        "PDF"@en,
+        "print-ready PDF"@en,
+        ".pdf"@hi,
+        "PDF"@hi,
+        "प्रिंट-रेडी PDF"@hi,
+        ".pdf"@pl,
+        "PDF"@pl,
+        "PDF gotowy do druku"@pl,
+        ".pdf"@pt,
+        "PDF"@pt,
+        "PDF pronto para impressão"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/hybrid-graphics/portable-document-format> ;
+    skos:closeMatch <https://www.iso.org/standard/77103.html>,
+        <https://www.iso.org/standard/91144.html> ;
+    skos:definition "En familie af ISO-standardiserede PDF-delmængder (ISO 15930) designet til pålidelig filudveksling i grafisk industri. PDF/X kræver indlejrede skrifter og farveprofiler, forbyder transparens og JavaScript i de strengeste varianter og sikrer, at trykkeriet modtager præcis det, designeren sendte. De mest udbredte varianter i kommercielt tryk er PDF/X-1a og PDF/X-4."@da,
+        "Eine Familie ISO-standardisierter PDF-Untermengen (ISO 15930) für den zuverlässigen Dateiaustausch in der Grafikbranche. PDF/X verlangt eingebettete Schriften und Farbprofile, verbietet in den strengsten Varianten Transparenz und JavaScript und stellt sicher, dass eine Druckerei genau das erhält, was der Designer geliefert hat. Die im gewerblichen Druck am weitesten verbreiteten Varianten sind PDF/X-1a und PDF/X-4."@de,
+        "A family of ISO-standardized PDF subsets (ISO 15930) designed for reliable graphic-arts file exchange. PDF/X mandates embedded fonts and color profiles, prohibits transparency and JavaScript in the strictest variants, and ensures that a printer receives exactly what the designer sent. The most widely adopted variants in commercial print are PDF/X-1a and PDF/X-4."@en,
+        "Sub-conjunto ISO de PDF para intercambio de archivos listos para imprenta (ISO 15930). Múltiples variantes — PDF/X-1a (CMYK), PDF/X-3 (CMYK + spot + RGB), PDF/X-4 (transparencias, capas) — fijan los requisitos para producción profesional."@es,
+        "विश्वसनीय ग्राफ़िक-आर्ट्स फ़ाइल विनिमय के लिए डिज़ाइन किए ISO-मानकीकृत PDF उपसमुच्चयों का परिवार (ISO 15930)। PDF/X एम्बेडेड फ़ॉन्ट और रंग प्रोफ़ाइल अनिवार्य करता है, सबसे कड़े वेरिएंट में पारदर्शिता और JavaScript वर्जित करता है, और सुनिश्चित करता है कि प्रिंटर को वही मिले जो डिज़ाइनर ने भेजा। व्यावसायिक प्रिंट में सबसे अपनाए गए वेरिएंट PDF/X-1a और PDF/X-4।"@hi,
+        "信頼性の高いグラフィックアーツファイル交換のために設計された、ISO標準化されたPDFサブセットのファミリー（ISO 15930）。PDF/Xはフォントとカラープロファイルの埋め込みを必須とし、最も厳格なバリアントでは透明効果とJavaScriptを禁止し、印刷会社がデザイナーから送られた通りのデータを受け取ることを保証する。商用印刷で最も広く採用されているバリアントはPDF/X-1aおよびPDF/X-4である。"@ja,
+        "En familie av ISO-standardiserte PDF-delmengder (ISO 15930) utviklet for pålitelig filutveksling i grafisk produksjon. PDF/X krever innleirede skrifter og fargeprofiler, forbyr transparens og JavaScript i de strengeste variantene, og sørger for at trykkeriet mottar nøyaktig det designeren sendte. De mest brukte variantene er PDF/X-1a og PDF/X-4."@nb,
+        "Een familie ISO-gestandaardiseerde PDF-deelverzamelingen (ISO 15930) voor betrouwbare bestandsuitwisseling in de grafische industrie. PDF/X vereist ingesloten lettertypen en kleurprofielen, verbiedt transparantie en JavaScript in de strengste varianten en waarborgt dat de drukkerij exact ontvangt wat de ontwerper stuurde. De meest gebruikte varianten in commercieel drukwerk zijn PDF/X-1a en PDF/X-4."@nl,
+        "Rodzina ustandaryzowanych przez ISO podzbiorów PDF (ISO 15930) zaprojektowanych do niezawodnej wymiany plików w poligrafii. PDF/X wymaga osadzonych fontów i profili barw, zabrania przezroczystości i JavaScriptu w najściślejszych wariantach i zapewnia, że drukarnia otrzymuje dokładnie to, co wysłał projektant. Najszerzej przyjęte warianty w druku komercyjnym to PDF/X-1a i PDF/X-4."@pl,
+        "Família de subconjuntos PDF padronizados pela ISO (ISO 15930) projetada para troca confiável de arquivos de artes gráficas. O PDF/X exige fontes e perfis de cor incorporados, proíbe transparência e JavaScript nas variantes mais rigorosas e garante que o impressor receba exatamente o que o designer enviou. As variantes mais adotadas na impressão comercial são PDF/X-1a e PDF/X-4."@pt,
+        "En familj ISO-standardiserade PDF-delmängder (ISO 15930) designade för pålitligt filutbyte i grafisk industri. PDF/X kräver inbäddade typsnitt och färgprofiler, förbjuder transparens och JavaScript i de striktaste varianterna och säkerställer att tryckeriet får exakt det formgivaren skickade. De mest använda varianterna i civiltryck är PDF/X-1a och PDF/X-4."@sv,
+        "用于印刷就绪文件交换的PDF ISO子集（ISO 15930）。多个变体——PDF/X-1a (CMYK)、PDF/X-3 (CMYK + 专色 + RGB)、PDF/X-4 (透明度、图层)——为专业生产设定要求。"@zh-Hans ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1423339> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PDF-EXCHANGE" ;
+    skos:prefLabel "PDF Exchange (PDF/X)"@da,
+        "PDF Exchange (PDF/X)"@de,
+        "PDF Exchange (PDF/X)"@en,
+        "PDF/X (Exchange)"@es,
+        "PDF विनिमय (PDF/X)"@hi,
+        "PDF Exchange (PDF/X)"@ja,
+        "PDF Exchange (PDF/X)"@nb,
+        "PDF Exchange (PDF/X)"@nl,
+        "PDF do wymiany (PDF/X)"@pl,
+        "PDF de intercâmbio (PDF/X)"@pt,
+        "PDF Exchange (PDF/X)"@sv,
+        "PDF/X (交换)"@zh-Hans ;
+    skos:scopeNote "PDF/X ist der praktische Standard für den Druckaustausch. PDF/A (Archivierung), PDF/E (Engineering), PDF/UA (Barrierefreiheit) und PDF/VT (variabler und transaktionaler Druck) erfüllen andere Zwecke und stehen als Geschwister unter dem PDF-Oberbegriff."@de,
+        "PDF/X is the practical print-exchange standard. PDF/A (archival), PDF/E (engineering), PDF/UA (accessibility), and PDF/VT (variable & transactional) serve other purposes and are siblings under the PDF parent term."@en,
+        "PDF/X व्यावहारिक प्रिंट-विनिमय मानक है। PDF/A (संग्रहण), PDF/E (इंजीनियरिंग), PDF/UA (सुगम्यता) और PDF/VT (वेरिएबल व ट्रांज़ैक्शनल) अन्य उद्देश्य पूरे करते हैं और PDF मूल पद के अंतर्गत सहोदर हैं।"@hi,
+        "PDF/Xは実用的な印刷交換規格である。PDF/A（アーカイブ）、PDF/E（エンジニアリング）、PDF/UA（アクセシビリティ）、PDF/VT（可変・トランザクション）は別の目的を持ち、PDFの親概念のもとで姉妹関係にある。"@ja,
+        "PDF/X er den praktiske trykk-utvekslings­standarden. PDF/A (arkiv), PDF/E (engineering), PDF/UA (tilgjengelighet) og PDF/VT (variabel og transaksjonell) tjener andre formål og er søskenter under PDF-hoved­termet."@nb,
+        "O PDF/X é a norma prática de intercâmbio de impressão. PDF/A (arquivamento), PDF/E (engenharia), PDF/UA (acessibilidade) e PDF/VT (variável e transacional) servem a outros fins e são irmãos sob o termo pai PDF."@pt ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

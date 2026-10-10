@@ -1,0 +1,105 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Extra Heavy Paper (310–449 gsm)",
+    "es": "Papel Extra Pesado (310–449 gsm)",
+    "zh-Hans": "超重纸 (310–449克)",
+    "nb": "Ekstra tungt papir (310–449 g/m²)",
+    "de": "Extra schweres Papier (310–449 g/m²)",
+    "ja": "超厚紙（310〜449 gsm）",
+    "nl": "Extra zwaar papier (310–449 g/m²)",
+    "sv": "Extra tungt papper (310–449 g/m²)",
+    "da": "Ekstra tungt papir (310–449 g/m²)",
+    "pl": "Papier bardzo ciężki (310–449 g/m²)",
+    "pt": "Papel extra pesado (310–449 g/m²)",
+    "hi": "एक्स्ट्रा हेवी काग़ज़ (310–449 GSM)"
+  },
+  "altLabels": {
+    "en": [
+      "Cardstock"
+    ],
+    "nb": [
+      "Kartong"
+    ],
+    "pl": [
+      "karton"
+    ],
+    "pt": [
+      "cartão",
+      "cartolina pesada"
+    ],
+    "hi": [
+      "कार्डस्टॉक",
+      "मोटा कार्ड",
+      "बोर्ड"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§EXTRA-HEAVY-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights",
+  "properties": {
+    "minWeight": 310,
+    "maxWeight": 449,
+    "unit": "gsm",
+    "commonWeights": [
+      310,
+      320,
+      330,
+      340,
+      350,
+      360,
+      370,
+      380,
+      390,
+      400,
+      410,
+      420,
+      430,
+      440
+    ]
+  },
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper in the 310–449 gsm range — typically referred to as cardstock. Stiff and durable, used for premium business cards, postcards, book covers, and high-quality packaging.",
+    "nb": "Papir i området 310–449 gsm — vanligvis kalt kartong. Stivt og holdbart, brukt til premium-visittkort, postkort, bokomslag og høykvalitets emballasje.",
+    "de": "Papier im Bereich 310–449 g/m² — typischerweise als Karton bezeichnet. Steif und langlebig, eingesetzt für Premium-Visitenkarten, Postkarten, Buchcover und hochwertige Verpackungen.",
+    "ja": "310〜449gsmの坪量範囲の紙 — 通常はカード紙と呼ばれる。硬く耐久性があり、プレミアム名刺、ハガキ、書籍カバー、高級パッケージに使用される。",
+    "es": "Papel extra pesado, 250–350 gsm — cartulina utilizada para tarjetas de visita, invitaciones y materiales promocionales rígidos.",
+    "zh-Hans": "超重纸，250–350克 —— 用于名片、请柬和刚性宣传材料的卡纸。",
+    "sv": "Papper i intervallet 310–449 g/m² — kallas typiskt kartong. Styvt och tåligt, används för exklusiva visitkort, vykort, bokomslag och kvalitetsförpackningar.",
+    "da": "Papir i området 310–449 g/m² — typisk betegnet som karton. Stift og holdbart, brugt til eksklusive visitkort, postkort, bogomslag og emballage af høj kvalitet.",
+    "nl": "Papier in het bereik 310–449 g/m² — doorgaans aangeduid als karton. Stijf en duurzaam, gebruikt voor premium visitekaartjes, kaarten, boekomslagen en hoogwaardige verpakkingen.",
+    "pl": "Papier w zakresie 310–449 g/m² — zwykle nazywany kartonem. Sztywny i trwały, używany do wizytówek premium, pocztówek, okładek książek i wysokiej jakości opakowań.",
+    "pt": "Papel na faixa de 310–449 g/m² — normalmente chamado de cartão. Rígido e durável, usado em cartões de visita premium, postais, capas de livro e embalagens de alta qualidade.",
+    "hi": "310–449 GSM रेंज का काग़ज़ — आमतौर पर कार्डस्टॉक कहा जाता है। कड़ा और टिकाऊ, प्रीमियम विज़िटिंग कार्ड, पोस्टकार्ड, किताब के कवर और उच्च गुणवत्ता की पैकेजिंग में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

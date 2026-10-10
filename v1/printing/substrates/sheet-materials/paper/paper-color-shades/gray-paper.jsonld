@@ -1,0 +1,97 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/gray-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Gray Paper (CIE 60–80)",
+    "es": "Papel Gris (CIE 60–80)",
+    "zh-Hans": "灰色纸 (CIE 60–80)",
+    "nb": "Grått papir (CIE 60–80)",
+    "de": "Graues Papier (CIE 60–80)",
+    "ja": "グレー用紙（CIE 60〜80）",
+    "sv": "Grått papper (CIE 60–80)",
+    "da": "Gråt papir (CIE 60–80)",
+    "nl": "Grijs papier (CIE 60–80)",
+    "pl": "Papier szary (CIE 60–80)",
+    "pt": "Papel cinza (CIE 60–80)",
+    "hi": "ग्रे काग़ज़ (CIE 60–80)"
+  },
+  "altLabels": {
+    "en": [
+      "Grey Paper",
+      "Grey Paper (CIE 60–80)"
+    ],
+    "nb": [
+      "Grått papir"
+    ],
+    "pl": [
+      "papier szary"
+    ],
+    "pt": [
+      "papel cinza",
+      "papel cinzento"
+    ],
+    "hi": [
+      "ग्रे पेपर",
+      "धूसर काग़ज़",
+      "स्लेटी काग़ज़"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§GRAY-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Paper with a CIE whiteness index between 60 and 80 — a neutral gray tone, often used for editorial design, photography books, and minimalist branding.",
+    "nb": "Papir med CIE-hvithetsindeks mellom 60 og 80 — en nøytral gråtone, ofte brukt til redaksjonell design, fotobøker og minimalistisk merkevarebygging.",
+    "de": "Papier mit einem CIE-Weißegrad zwischen 60 und 80 — ein neutraler Grauton, häufig eingesetzt für redaktionelle Gestaltung, Fotobücher und minimalistisches Branding.",
+    "ja": "CIE白色度指数が60〜80の紙 — 中性的なグレー調で、エディトリアルデザイン、写真集、ミニマリストブランディングに使用されることが多い。",
+    "es": "Papel con tono gris natural o teñido — utilizado para diseño editorial y productos especiales con efecto cromático intencional.",
+    "zh-Hans": "天然或染色的灰色调纸 —— 用于编辑设计和具有意图色彩效果的特殊产品。",
+    "sv": "Papper med CIE-vithetsindex mellan 60 och 80 — en neutral gråton, ofta använd för redaktionell design, fotoböcker och minimalistisk varumärkesprofilering.",
+    "da": "Papir med CIE-hvidhedsindeks mellem 60 og 80 — en neutral grå tone, ofte brugt til redaktionelt design, fotobøger og minimalistisk branding.",
+    "nl": "Papier met een CIE-witheidsindex tussen 60 en 80 — een neutrale grijstint, vaak gebruikt voor redactioneel ontwerp, fotoboeken en minimalistische branding.",
+    "pl": "Papier o wskaźniku białości CIE między 60 a 80 — neutralny szary odcień, często używany w projektach redakcyjnych, albumach fotograficznych i minimalistycznym brandingu.",
+    "pt": "Papel com índice de brancura CIE entre 60 e 80 — tom cinza neutro, muito usado em design editorial, livros de fotografia e branding minimalista.",
+    "hi": "60 से 80 के बीच CIE सफ़ेदी सूचकांक वाला काग़ज़ — तटस्थ ग्रे टोन, अक्सर संपादकीय डिज़ाइन, फ़ोटोग्राफ़ी पुस्तकों और मिनिमल ब्रांडिंग में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 36"
+    }
+  ]
+}

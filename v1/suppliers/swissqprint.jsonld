@@ -1,0 +1,24 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/suppliers/swissqprint",
+  "type": "ptpge:Supplier",
+  "version": "2026-10-06",
+  "label": {
+    "en": "SwissQprint",
+    "sv": "swissQprint",
+    "da": "swissQprint",
+    "nl": "swissQprint"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/suppliers",
+  "makes": [
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers"
+  ],
+  "identityClaimed": false,
+  "replaces": [
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/swissqprint"
+  ],
+  "created": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "A4H (105 x 297 mm)",
+    "es": "A4H (105 × 297 mm)",
+    "zh-Hans": "A4H (105 × 297 mm)",
+    "nb": "A4H (105 x 297 mm)",
+    "de": "A4H (105 x 297 mm)",
+    "ja": "A4H (105 x 297 mm)",
+    "sv": "A4H (105 x 297 mm)",
+    "da": "A4H (105 x 297 mm)",
+    "nl": "A4H (105 x 297 mm)",
+    "pl": "A4H (105 x 297 mm)",
+    "pt": "A4H (105 x 297 mm)",
+    "hi": "A4H (105 x 297 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§A4H",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/a-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "105 × 297 mm (4.13 × 11.69 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half-A4 — long narrow format, used for tall thin documents like programs, postcards, or specialty marketing material.",
+    "nb": "105 × 297 mm (4,13 × 11,69 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halv-A4 — langt smalt format, brukt til høye smale dokumenter som programmer, postkort eller spesialisert markedsmateriell.",
+    "de": "105 × 297 mm (4,13 × 11,69 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Halb-A4 — schmales, langes Format, eingesetzt für hohe, schmale Dokumente wie Programme, Postkarten oder spezielle Werbematerialien.",
+    "ja": "105×297mm（4.13×11.69インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。ハーフA4 — 細長い形式で、プログラム、ハガキ、特殊マーケティング素材などの縦長で細い文書に使用される。",
+    "es": "Formato A4H (half A4) — la mitad de A4 cortado a lo largo, utilizado para insertos estrechos, marcadores y publicidad.",
+    "zh-Hans": "A4H（半A4）—— A4沿长边对半切，用于窄插页、书签和广告。",
+    "sv": "105 × 297 mm (4.13 × 11.69 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halv-A4 — långt smalt format, används för höga smala trycksaker som program, vykort och specialmarknadsföring.",
+    "da": "105 × 297 mm (4.13 × 11.69 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halv A4 — langt smalt format, bruges til høje smalle tryksager som programmer, postkort og specialmarkedsføring.",
+    "nl": "105 × 297 mm (4.13 × 11.69 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Half A4 — lang smal formaat, gebruikt voor hoge smalle drukwerken zoals programma's, kaarten en bijzondere marketing.",
+    "pl": "105 × 297 mm (4,13 × 11,69 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa A4 — długi, wąski format używany do wysokich, smukłych dokumentów, takich jak programy, pocztówki czy specjalne materiały marketingowe.",
+    "pt": "105 × 297 mm (4.13 × 11.69 in). Faz parte da série A da ISO 216, com proporção 1:√2. Meio A4 — formato longo e estreito, usado em documentos altos e finos como programas, postais ou material de marketing especial.",
+    "hi": "105 × 297 mm (4.13 × 11.69 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। आधा A4 — लंबा पतला फ़ॉर्मेट, कार्यक्रम, पोस्टकार्ड या विशेष मार्केटिंग सामग्री जैसे ऊँचे पतले दस्तावेज़ों में।"
+  },
+  "properties": {
+    "width": 105,
+    "height": 297,
+    "unit": "mm",
+    "aspectRatio": 2.8286,
+    "standard": "ISO 216",
+    "area": 31185
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "105 x 297 mm",
+      "105x297",
+      "105×297",
+      "10.5 x 29.7 cm",
+      "DIN A4H"
+    ],
+    "nb": [
+      "A4H-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

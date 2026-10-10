@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a0> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "84.1 x 118.9 cm"@en,
+        "841 x 1189 mm"@en,
+        "841x1189"@en,
+        "841×1189"@en,
+        "DIN A0"@en,
+        "A0-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "841 × 1189 mm (33.11 × 46.81 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Det største basisformat i A-serien, defineret som præcis 1 kvadratmeter i areal. Bruges til plakater, arkitektritningar og storformatstryck."@da,
+        "841 × 1189 mm (33,11 × 46,81 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Das größte Basisformat der A-Reihe, definiert mit einer Fläche von genau einem Quadratmeter. Verwendet für Plakate, Architekturzeichnungen und Großformatdrucke."@de,
+        "841 × 1189 mm (33.11 × 46.81 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. The largest base size in the A series, defined as having an area of exactly 1 square meter. Used for posters, architectural drawings, and large-format prints."@en,
+        "Formato A0 de la serie A de ISO 216, dimensiones 841 × 1189 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
+        "841 × 1189 mm (33.11 × 46.81 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A-सीरीज़ का सबसे बड़ा आधार आकार, ठीक 1 वर्ग मीटर क्षेत्रफल। पोस्टर, वास्तु चित्र और लार्ज-फॉर्मेट प्रिंट में।"@hi,
+        "841×1189mm（33.11×46.81インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。Aシリーズの最大の基本サイズで、面積が正確に1平方メートルとして定義されている。ポスター、建築図面、大判印刷物に使用される。"@ja,
+        "841 × 1189 mm (33,11 × 46,81 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Den største grunnstørrelsen i A-serien, definert med et areal på nøyaktig 1 kvadratmeter. Brukt til plakater, arkitekturtegninger og storformat-trykk."@nb,
+        "841 × 1189 mm (33.11 × 46.81 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. Het grootste basisformaat in de A-reeks, gedefinieerd als precies 1 vierkante meter oppervlak. Gebruikt voor plakater, arkitektritningar en storformatstryck."@nl,
+        "841 × 1189 mm (33,11 × 46,81 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Największy format bazowy serii A, zdefiniowany jako mający powierzchnię dokładnie 1 m². Używany do plakatów, rysunków architektonicznych i wydruków wielkoformatowych."@pl,
+        "841 × 1189 mm (33.11 × 46.81 in). Faz parte da série A da ISO 216, com proporção 1:√2. O maior tamanho base da série A, definido com área de exatamente 1 metro quadrado. Usado em pôsteres, desenhos arquitetônicos e grande formato."@pt,
+        "841 × 1189 mm (33.11 × 46.81 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Det största basformatet i A-serien, definierat som exakt 1 kvadratmeter i area. Används för affischer, arkitektritningar och storformatstryck."@sv,
+        "ISO 216 A系列A0开本，尺寸841 × 1189 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A0" ;
+    skos:prefLabel "A0 (841 x 1189 mm)"@da,
+        "A0 (841 x 1189 mm)"@de,
+        "A0 (841 x 1189 mm)"@en,
+        "A0 (841 × 1189 mm)"@es,
+        "A0 (841 x 1189 mm)"@hi,
+        "A0 (841 x 1189 mm)"@ja,
+        "A0 (841 x 1189 mm)"@nb,
+        "A0 (841 x 1189 mm)"@nl,
+        "A0 (841 x 1189 mm)"@pl,
+        "A0 (841 x 1189 mm)"@pt,
+        "A0 (841 x 1189 mm)"@sv,
+        "A0 (841 × 1189 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 999949.0 ;
+            ptpge:aspectRatio 1.4138 ;
+            ptpge:height 1189.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 841.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

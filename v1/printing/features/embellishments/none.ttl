@@ -1,0 +1,77 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/embellishments/none> a skos:Concept ;
+    dcterms:created "2026-09-22T11:55:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Uden folie"@da,
+        "Uden prægning"@da,
+        "Ohne Folie"@de,
+        "Ohne Prägung"@de,
+        "Ohne Veredelung"@de,
+        "No embossing"@en,
+        "No finishing effects"@en,
+        "No foil"@en,
+        "Plain"@en,
+        "Sin efectos"@es,
+        "Sin estampado"@es,
+        "Sin relieve"@es,
+        "बिना एम्बॉसिंग"@hi,
+        "बिना प्रभाव"@hi,
+        "बिना फ़ॉइल"@hi,
+        "सादा"@hi,
+        "エンボスなし"@ja,
+        "箔なし"@ja,
+        "Uten effekter"@nb,
+        "Uten folie"@nb,
+        "Uten preging"@nb,
+        "Zonder folie"@nl,
+        "Zonder preging"@nl,
+        "bez folii"@pl,
+        "bez tłoczenia"@pl,
+        "liso"@pt,
+        "sem efeitos"@pt,
+        "sem foil"@pt,
+        "sem relevo"@pt,
+        "Utan folie"@sv,
+        "Utan prägling"@sv,
+        "不压凹凸"@zh-Hans,
+        "不烫金"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments> ;
+    skos:definition "Ingen forædling på fladen: ingen folie, prægning eller punkteffekt. Et udtrykkeligt udsagn, forskelligt fra at lade aksen stå uspecificeret (hvilket lader leverandøren foreslå en effekt). Står alene: tåler ingen anden forædlingsværdi på samme flade."@da,
+        "Keine Veredelung auf der Seite: keine Folie, keine Prägung, kein Spot-Effekt. Eine ausdrückliche Aussage, im Unterschied zur offen gelassenen Achse (bei der der Anbieter einen Effekt vorschlagen darf). Steht allein: duldet keinen anderen Veredelungswert auf derselben Seite."@de,
+        "No embellishment on the face: no foil, embossing, debossing or spot effect. An explicit statement, distinct from leaving the axis unspecified (which lets the vendor propose an effect). Stands alone: it tolerates no other embellishment value on the same face."@en,
+        "Sin ornamentación en la cara: sin estampado, relieve, bajorrelieve ni efecto localizado. Una declaración explícita, distinta de dejar el eje sin especificar (que permite al proveedor proponer un efecto). Va sola: no tolera otro valor de ornamentación en la misma cara."@es,
+        "सतह पर कोई सजावटी प्रभाव नहीं: न फ़ॉइल, न एम्बॉसिंग, न डिबॉसिंग, न स्पॉट प्रभाव। एक स्पष्ट कथन, अक्ष को अनिर्दिष्ट छोड़ने से अलग (जो विक्रेता को प्रभाव सुझाने देता है)। अकेला रहता है: उसी सतह पर कोई अन्य एम्बेलिशमेंट मान सहन नहीं करता।"@hi,
+        "面に加飾を施さない：箔、エンボス、デボス、スポット効果なし。軸を未指定のままにするのとは異なる明示的な指定。単独値：同じ面に他の加飾値を許さない。"@ja,
+        "Ingen dekor på flaten: verken folie, preging eller punkteffekt. Et eksplisitt utsagn, forskjellig fra å la aksen stå uspesifisert (som lar leverandøren foreslå en effekt). Står alene: tåler ingen annen dekor-verdi på samme flate."@nb,
+        "Geen veredeling op het vlak: geen folie, preging of spot-effect. Een expliciete uitspraak, anders dan de as open laten (waarbij de leverancier een effect mag voorstellen). Staat alleen: duldt geen andere veredelingswaarde op hetzelfde vlak."@nl,
+        "Brak uszlachetnienia na tej stronie: bez folii, tłoczenia ani efektu punktowego. Wyraźne oświadczenie, w odróżnieniu od pozostawienia osi nieokreślonej (co pozwala dostawcy zaproponować efekt). Wartość samodzielna: nie toleruje innej wartości uszlachetnienia na tej samej stronie."@pl,
+        "Nenhum enobrecimento na face: sem foil, relevo alto, relevo baixo ou efeito localizado. Uma declaração explícita, distinta de deixar o eixo sem especificar (o que permite ao fornecedor propor um efeito). Vai sozinho: não tolera outro valor de enobrecimento na mesma face."@pt,
+        "Ingen dekor på sidan: ingen folie, prägling eller punkteffekt. Ett uttryckligt påstående, skilt från att lämna axeln ospecificerad (vilket låter leverantören föreslå en effekt). Står ensam: tål inget annat dekorvärde på samma sida."@sv,
+        "该面不作任何装饰工艺：不烫金、不压凸、不压凹、无局部效果。明确的声明，不同于将该轴留空（由供应商提议）。独立值：同一面上不容许其他装饰工艺值。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§NO-EMBELLISHMENT" ;
+    skos:prefLabel "Ingen (uden forædling)"@da,
+        "Keine (keine Veredelung)"@de,
+        "None (no embellishment)"@en,
+        "Ninguno (sin ornamentación)"@es,
+        "कोई नहीं (बिना सजावटी प्रभाव)"@hi,
+        "なし（加飾なし）"@ja,
+        "Ingen (uten dekor)"@nb,
+        "Geen (zonder veredeling)"@nl,
+        "Brak (bez uszlachetnienia)"@pl,
+        "Nenhum (sem enobrecimento)"@pt,
+        "Ingen (utan dekor)"@sv,
+        "无（无装饰工艺）"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:level "element" ;
+    ptpge:standalone true ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-22" .
+

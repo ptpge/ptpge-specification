@@ -1,0 +1,104 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Glossy Paper",
+    "es": "Papel Brillante",
+    "zh-Hans": "光面纸",
+    "nb": "Blankt papir",
+    "de": "Glänzendes Papier",
+    "ja": "光沢紙（コート）",
+    "nl": "Glanzend papier",
+    "sv": "Glättat papper",
+    "da": "Glittet papir",
+    "pl": "Papier błyszczący",
+    "pt": "Papel brilhante",
+    "hi": "ग्लॉसी काग़ज़"
+  },
+  "altLabels": {
+    "en": [
+      "Gloss Coated",
+      "Glossy Paper (Coated)"
+    ],
+    "nb": [
+      "Glanset papir",
+      "Blankt papir",
+      "Blankt papir (bestrøket)"
+    ],
+    "nl": [
+      "Glanzend machinegestreken (MC)",
+      "Maco glanzend",
+      "Glanzend papier (gestreken)"
+    ],
+    "de": [
+      "Glänzendes Papier (gestrichen)"
+    ],
+    "sv": [
+      "Glättat papper (bestruket)"
+    ],
+    "da": [
+      "Glittet papir (bestrøget)"
+    ],
+    "pl": [
+      "kreda błyszcząca",
+      "papier błyszczący (powlekany)",
+      "kreda błysk"
+    ],
+    "pt": [
+      "couché brilho",
+      "papel brilho",
+      "couché brilhante"
+    ],
+    "hi": [
+      "ग्लॉस कोटेड",
+      "ग्लॉसी आर्ट पेपर",
+      "चमकीला काग़ज़"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§GLOSSY-PAPER",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Coated paper with a high-shine reflective surface — produces vivid, saturated color reproduction. Used for photo books, magazine covers, and high-end product brochures.",
+    "nb": "Belagt papir med høyglans reflekterende overflate — gir levende, mettet fargegjengivelse. Brukt til fotobøker, magasinforsider og eksklusive produktbrosjyrer.",
+    "de": "Gestrichenes Papier mit hochglänzender, reflektierender Oberfläche — erzeugt lebendige, satte Farbreproduktion. Eingesetzt für Fotobücher, Magazintitelseiten und hochwertige Produktbroschüren.",
+    "ja": "光沢のある反射面を持つ塗工紙 — 鮮やかで彩度の高い色再現を生み出す。写真集、雑誌の表紙、高級製品ブローシュアに使用される。",
+    "es": "Papel estucado brillante — superficie altamente reflectante que satura los colores y produce contraste alto. Habitual para fotografías, catálogos y publicidad.",
+    "zh-Hans": "光泽涂布纸 —— 高反射表面，使颜色饱和并产生高对比度。常用于照片、目录和广告。",
+    "sv": "Bestruket papper med högblank reflekterande yta — ger livfull, mättad färgåtergivning. Används för fotoböcker, tidskriftsomslag och påkostade produktbroschyrer.",
+    "da": "Bestrøget papir med højglans reflekterende overflade — giver livlig, mættet farvegengivelse. Bruges til fotobøger, magasinomslag og eksklusive produktbrochurer.",
+    "nl": "Gestreken papier met een hoogglanzend reflecterend oppervlak — geeft levendige, verzadigde kleurweergave. Gebruikt voor fotoboeken, magazineomslagen en exclusieve productbrochures.",
+    "pl": "Papier powlekany o silnie połyskliwej, odbijającej powierzchni — daje żywą, nasyconą reprodukcję barw. Używany do fotoksiążek, okładek czasopism i ekskluzywnych broszur produktowych.",
+    "pt": "Papel couché com superfície reflexiva de alto brilho — produz reprodução de cor viva e saturada. Usado em fotolivros, capas de revista e folhetos de produto de alto padrão.",
+    "hi": "उच्च-चमक परावर्तक सतह वाला कोटेड काग़ज़ — जीवंत, संतृप्त रंग पुनरुत्पादन। फ़ोटो बुक, पत्रिका के कवर और हाई-एंड उत्पाद ब्रोशर में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ]
+}

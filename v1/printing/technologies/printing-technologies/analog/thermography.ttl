@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/thermography> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Raised printing"@en,
+        "थर्मल प्रिंटिंग"@hi,
+        "Termografi"@nb,
+        "druk termiczny"@pl,
+        "termografia"@pl,
+        "Impressão térmica"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog> ;
+    skos:definition "Trykteknik, der bruger varme til at overføre voks eller harpiks fra et bånd til substratet, eller til kemisk at aktivere farve i et varmefølsomt bestrøget papir. Almindeligt til kvitteringer, etiketter og stregkodetryk."@da,
+        "Drucktechnologie, die Wärme nutzt, um Wachs oder Harz von einem Farbband auf den Bedruckstoff zu übertragen oder Farbe in einem hitzeempfindlich beschichteten Papier chemisch zu aktivieren. Üblich für Quittungen, Etiketten und Barcode-Druck."@de,
+        "Printing technology that uses heat to transfer wax or resin from a ribbon onto the substrate, or to chemically activate color in a heat-sensitive coated paper. Common for receipts, labels, and barcode printing."@en,
+        "Familia de tecnologías de impresión basadas en calor — térmica directa (papel sensible al calor) y transferencia térmica (cinta de tinta fundida)."@es,
+        "मुद्रण तकनीक जो गर्मी से रिबन का मोम या रेज़िन सब्सट्रेट पर उतारती है, या ताप-संवेदी कोटेड काग़ज़ में रासायनिक रूप से रंग सक्रिय करती है। रसीदों, लेबलों और बारकोड छपाई में आम।"@hi,
+        "熱を使用してリボンから蝋または樹脂を基材に転写するか、感熱コーティング紙の色を化学的に発現させる印刷技術。レシート、ラベル、バーコード印刷で一般的。"@ja,
+        "Trykketeknologi som bruker varme til å overføre voks eller harpiks fra et bånd til substratet, eller til kjemisk å aktivere farge i et varmefølsomt belagt papir. Vanlig for kvitteringer, etiketter og strekkode-trykk."@nb,
+        "Druktechnologie die warmte gebruikt om was of hars van een lint op het substraat over te brengen, of om kleur chemisch te activeren in warmtegevoelig gestreken papier. Gebruikelijk voor kassabonnen, etiketten en barcodedruk."@nl,
+        "Technologia druku wykorzystująca ciepło do przeniesienia wosku lub żywicy z taśmy na podłoże albo do chemicznego wywołania barwy w papierze termoczułym. Typowa dla paragonów, etykiet i druku kodów kreskowych."@pl,
+        "Tecnologia de impressão que usa calor para transferir cera ou resina de uma fita ao substrato, ou para ativar quimicamente a cor num papel revestido termossensível. Comum em recibos, etiquetas e impressão de códigos de barras."@pt,
+        "Tryckteknik som använder värme för att överföra vax eller harts från ett band till substratet, eller för att kemiskt aktivera kulör i ett värmekänsligt bestruket papper. Vanligt för kvitton, etiketter och streckkodstryck."@sv,
+        "基于热量的印刷技术家族 —— 热敏直接（对热敏感的纸）和热转印（熔融油墨带）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§THERMOGRAPHY" ;
+    skos:prefLabel "Termotryk"@da,
+        "Thermografie"@de,
+        "Thermography"@en,
+        "Térmica"@es,
+        "थर्मोग्राफ़ी"@hi,
+        "サーモグラフィー"@ja,
+        "Termografi"@nb,
+        "Thermodruk"@nl,
+        "Termodruk"@pl,
+        "Termografia"@pt,
+        "Termotryck"@sv,
+        "热敏印刷"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

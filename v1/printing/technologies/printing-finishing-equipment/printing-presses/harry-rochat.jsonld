@@ -1,0 +1,54 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/harry-rochat",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Harry Rochat",
+    "es": "Harry Rochat",
+    "zh-Hans": "Harry Rochat",
+    "nb": "Harry Rochat",
+    "de": "Harry Rochat",
+    "ja": "Harry Rochat",
+    "sv": "Harry Rochat",
+    "da": "Harry Rochat",
+    "nl": "Harry Rochat",
+    "pl": "Harry Rochat",
+    "pt": "Harry Rochat",
+    "hi": "Harry Rochat"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Harry Rochat — Harry F. Rochat Ltd, British manufacturer (Barnet, Hertfordshire) of fine-art printmaking equipment: bench and floor-standing etching presses for intaglio, Albion and cylinder proof presses for relief printing, litho presses and traditional bookbinding machinery.",
+    "nb": "Harry Rochat — Harry F. Rochat Ltd, britisk produsent (Barnet, Hertfordshire) av kunstgrafisk trykkutstyr: benk- og gulvstående dyptrykkpresser (etching presses), Albion- og sylinderprøvepresser for høytrykk, litopresser og tradisjonelle bokbindermaskiner.",
+    "de": "Harry Rochat — Harry F. Rochat Ltd, britischer Hersteller (Barnet, Hertfordshire) von Druckgrafik-Ausrüstung: Tisch- und Standradierpressen für den Tiefdruck, Albion- und Zylinder-Andruckpressen für den Hochdruck, Lithopressen und traditionelle Buchbindemaschinen.",
+    "es": "Harry Rochat — Harry F. Rochat Ltd, fabricante británico (Barnet, Hertfordshire) de equipos de grabado artístico: tórculos de mesa y de pie para calcografía, prensas Albion y de cilindro para relieve, prensas litográficas y maquinaria tradicional de encuadernación.",
+    "zh-Hans": "Harry Rochat —— Harry F. Rochat Ltd，英国（赫特福德郡巴尼特）艺术版画设备制造商：凹版用台式与落地式蚀刻印刷机、凸版用 Albion 手扳机与滚筒打样机、石版印刷机及传统装订机械。",
+    "ja": "Harry Rochat — Harry F. Rochat Ltd。英国（ハートフォードシャー州バーネット）の版画用機器メーカー。凹版用の卓上型・床置型エッチングプレス、凸版用のアルビオンプレスとシリンダー校正機、リトグラフプレス、伝統的な製本機械を製造する。",
+    "sv": "Harry Rochat — Harry F. Rochat Ltd, brittisk tillverkare (Barnet, Hertfordshire) av grafisk konstutrustning: bänk- och golvstående djuptryckspressar (etsningspressar), Albion- och cylinderprovpressar för högtryck, litopressar och traditionella bokbinderimaskiner.",
+    "da": "Harry Rochat — Harry F. Rochat Ltd, britisk producent (Barnet, Hertfordshire) af grafisk kunstudstyr: bord- og gulvstående dybtrykspresser (raderpresser), Albion- og cylinderprøvepresser til højtryk, litopresser og traditionelle bogbindermaskiner.",
+    "nl": "Harry Rochat — Harry F. Rochat Ltd, Britse fabrikant (Barnet, Hertfordshire) van grafische kunstapparatuur: tafel- en vloermodel etspersen voor diepdruk, Albion- en cilinderproefpersen voor hoogdruk, lithopersen en traditionele boekbindmachines.",
+    "pl": "Harry Rochat — Harry F. Rochat Ltd, brytyjski producent (Barnet, Hertfordshire) sprzętu do grafiki artystycznej: stołowe i stojące prasy do akwaforty (druk wklęsły), prasy Albion i cylindryczne prasy próbne do druku wypukłego, prasy litograficzne oraz tradycyjne maszyny introligatorskie.",
+    "pt": "Harry Rochat — Harry F. Rochat Ltd, fabricante britânico (Barnet, Hertfordshire) de equipamentos de gravura artística: prensas de gravura de bancada e de piso para calcografia, prensas de prova Albion e de cilindro para impressão em relevo, prensas litográficas e maquinário tradicional de encadernação.",
+    "hi": "Harry Rochat — Harry F. Rochat Ltd, फ़ाइन-आर्ट प्रिंटमेकिंग उपकरणों का ब्रिटिश निर्माता (Barnet, Hertfordshire): इंटैग्लियो के लिए बेंच और फ़्लोर-स्टैंडिंग एचिंग प्रेस, रिलीफ़ प्रिंटिंग के लिए Albion और सिलिंडर प्रूफ़ प्रेस, लिथो प्रेस और पारंपरिक बुकबाइंडिंग मशीनरी।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-HARR",
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/harry-rochat",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

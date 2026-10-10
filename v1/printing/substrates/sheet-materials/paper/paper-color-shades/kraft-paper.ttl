@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Brown Paper"@en,
+        "क्राफ़्ट पेपर"@hi,
+        "ब्राउन पेपर"@hi,
+        "भूरा काग़ज़"@hi,
+        "Brunt papir"@nb,
+        "papier brązowy"@pl,
+        "papier pakowy"@pl,
+        "papier siarczanowy"@pl,
+        "kraft"@pt,
+        "papel kraft natural"@pt,
+        "papel pardo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades> ;
+    skos:definition "Ubleget papir af kraftmasse — naturlig brun farve, CIE-hvidhed 60–70. Stærkt, rustikt udseende, almindeligt brugt til emballage, miljøbevidst branding og hobbyprojekter."@da,
+        "Ungebleichtes Papier aus Kraftzellstoff — natürliche braune Farbe, CIE-Weißegrad 60–70. Robuste, rustikale Optik, häufig eingesetzt für Verpackungen, ökologisch positioniertes Branding und Handwerkskunst."@de,
+        "Unbleached paper made from kraft pulp — natural brown color, CIE whiteness 60–70. Strong, rustic appearance commonly used for packaging, eco-conscious branding, and craft applications."@en,
+        "Papel kraft natural — tono marrón cálido (CIE 60–80), sustrato típico para embalaje rústico, etiquetas eco-friendly y artesanía."@es,
+        "क्राफ़्ट लुगदी से बना बिना ब्लीच किया काग़ज़ — प्राकृतिक भूरा रंग, CIE सफ़ेदी 60–70। मज़बूत, देहाती रूप, पैकेजिंग, पर्यावरण-सजग ब्रांडिंग और शिल्प अनुप्रयोगों में आम।"@hi,
+        "クラフトパルプから作られた未漂白の紙 — 自然な茶色、CIE白色度60〜70。強靭で素朴な外観で、パッケージ、環境配慮型ブランディング、クラフト用途に使用される。"@ja,
+        "Ubleket papir laget av kraftmasse — naturlig brun farge, CIE-hvithet 60–70. Sterkt og rustikt utseende, vanlig brukt til emballasje, miljøbevisst merkevarebygging og håndverk."@nb,
+        "Ongebleekt papier van kraftpulp — natuurlijke bruine kleur, CIE-witheid 60–70. Sterk, rustiek uiterlijk, veel gebruikt voor verpakkingen, milieubewuste branding en hobbytoepassingen."@nl,
+        "Niebielony papier z masy siarczanowej — naturalna brązowa barwa, białość CIE 60–70. Wytrzymały, rustykalny wygląd, powszechnie używany do opakowań, ekologicznego brandingu i zastosowań rzemieślniczych."@pl,
+        "Papel não branqueado feito de polpa kraft — cor marrom natural, brancura CIE 60–70. Aparência forte e rústica, muito usada em embalagens, branding ecológico e aplicações artesanais."@pt,
+        "Oblekt papper av kraftmassa — naturligt brun färg, CIE-vithet 60–70. Starkt, rustikt utseende som ofta används för förpackningar, miljöprofilerad varumärkesdesign och hantverkstillämpningar."@sv,
+        "天然牛皮纸 —— 暖棕色调（CIE 60–80），是乡村风包装、环保标签和工艺品的典型承印物。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§KRAFT-PAPER" ;
+    skos:prefLabel "Kraftpapir (CIE 60–70)"@da,
+        "Kraftpapier (CIE 60–70)"@de,
+        "Kraft Paper (CIE 60–70)"@en,
+        "Papel Kraft (CIE 60–70)"@es,
+        "क्राफ़्ट काग़ज़ (CIE 60–70)"@hi,
+        "クラフト紙（CIE 60〜70）"@ja,
+        "Kraftpapir (CIE 60–70)"@nb,
+        "Kraftpapier (CIE 60–70)"@nl,
+        "Papier kraft (CIE 60–70)"@pl,
+        "Papel kraft (CIE 60–70)"@pt,
+        "Kraftpapper (CIE 60–70)"@sv,
+        "牛皮纸 (CIE 60–70)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

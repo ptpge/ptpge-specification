@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems/efi-fiery-xf> a skos:Concept ;
+    dcterms:created "2026-06-18T10:00:07+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/vendor-ink-ecosystems> ;
+    skos:definition "EFI Fiery XF — økosystem for farve-/blækstyring inden for storformat og prøvetryk."@da,
+        "EFI Fiery XF — Farb-/Tintenmanagement-Ökosystem für Großformat und Proofing."@de,
+        "EFI Fiery XF colour/ink management ecosystem for wide-format and proofing."@en,
+        "Ecosistema de gestión de color/tinta EFI Fiery XF para gran formato y pruebas de color."@es,
+        "वाइड-फॉर्मेट और प्रूफ़िंग के लिए EFI Fiery XF रंग/स्याही प्रबंधन पारितंत्र।"@hi,
+        "ワイドフォーマットとプルーフィングのための EFI Fiery XF カラー／インキ管理エコシステム。"@ja,
+        "EFI Fiery XF farge-/blekkstyringsøkosystem for storformat og prøvetrykk."@nb,
+        "EFI Fiery XF — ecosysteem voor kleur-/inktbeheer in grootformaat en proefdruk."@nl,
+        "Ekosystem zarządzania barwą/farbą EFI Fiery XF dla druku wielkoformatowego i proofingu."@pl,
+        "Ecossistema de gerenciamento de cor/tinta EFI Fiery XF para grande formato e provas."@pt,
+        "EFI Fiery XF — ekosystem för färg-/bläckhantering inom storformat och provtryck."@sv,
+        "面向宽幅与打样的 EFI Fiery XF 色彩/油墨管理生态系统。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§EFI-FIERY-XF" ;
+    skos:prefLabel "EFI Fiery XF"@da,
+        "EFI Fiery XF"@en,
+        "EFI Fiery XF"@hi,
+        "EFI Fiery XF"@nl,
+        "EFI Fiery XF"@pl,
+        "EFI Fiery XF"@pt,
+        "EFI Fiery XF"@sv ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

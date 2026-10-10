@@ -1,0 +1,92 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/structural-finishing/perforation",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:CP§PERFORATION",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Perforation",
+    "nb": "Perforering",
+    "de": "Perforation",
+    "ja": "Perforation",
+    "es": "Perforation",
+    "zh-Hans": "Perforation",
+    "sv": "Perforering",
+    "da": "Perforering",
+    "nl": "Perforeren",
+    "pl": "Perforacja",
+    "pt": "Picote",
+    "hi": "परफ़ोरेशन"
+  },
+  "definition": {
+    "en": "Punching a line of small holes or slits so a portion can be torn off cleanly.",
+    "nb": "Stansing av en linje med små hull eller snitt så en del kan rives av rent.",
+    "de": "Stanzen einer Linie aus kleinen Löchern oder Schlitzen, damit ein Abschnitt sauber abgetrennt werden kann.",
+    "ja": "小さな穴や切れ込みを一列に開け、一部をきれいに切り離せるようにする。",
+    "es": "Punzonar una línea de pequeños orificios o cortes para poder desprender una parte limpiamente.",
+    "zh-Hans": "冲出一排小孔或切缝，使部分可被整齐撕下。",
+    "sv": "Stansning av en rad små hål eller slitsar så att en del kan rivas av rent.",
+    "da": "Stansning af en linje af små huller eller slidser, så en del kan rives rent af.",
+    "nl": "Een lijn van kleine gaatjes of sneetjes ponsen zodat een deel netjes kan worden afgescheurd.",
+    "pl": "Wybicie linii małych otworów lub nacięć, aby część można było czysto oderwać.",
+    "pt": "Perfurar uma linha de pequenos furos ou fendas para que uma parte possa ser destacada com limpeza.",
+    "hi": "छोटे छेदों या कटों की एक पंक्ति बनाना ताकि कोई हिस्सा साफ़ फाड़ा जा सके।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/structural-finishing",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Perforated",
+      "Tear-off",
+      "Perf line",
+      "Tear line"
+    ],
+    "nb": [
+      "Perforering",
+      "Perforert",
+      "Avrivning"
+    ],
+    "pl": [
+      "perforowane",
+      "odrywane",
+      "linia perforacji",
+      "linia odrywania"
+    ],
+    "pt": [
+      "picotado",
+      "serrilha",
+      "linha de picote",
+      "serrilhado",
+      "destacável"
+    ],
+    "hi": [
+      "परफ़ोरेटेड",
+      "छिद्रण",
+      "फाड़ने की लाइन",
+      "टियर-ऑफ़ लाइन"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Perforating",
+        "Perforate"
+      ],
+      "refs": [
+        "§5.6.26 · p.127",
+        "§8.34 · p.368"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 44"
+    }
+  ]
+}

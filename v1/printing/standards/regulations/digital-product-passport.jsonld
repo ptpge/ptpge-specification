@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/regulations/digital-product-passport",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Digital Product Passport (DPP)",
+    "nb": "Digitalt produktpass (DPP)",
+    "de": "Digitaler Produktpass (DPP)",
+    "ja": "デジタル製品パスポート（DPP）",
+    "es": "Pasaporte Digital de Producto (DPP)",
+    "zh-Hans": "数字产品护照（DPP）",
+    "sv": "Digitalt produktpass (DPP)",
+    "da": "Digitalt produktpas (DPP)",
+    "nl": "Digitaal productpaspoort (DPP)",
+    "pl": "Cyfrowy paszport produktu (DPP)",
+    "pt": "Passaporte digital de produto (DPP)",
+    "hi": "डिजिटल उत्पाद पासपोर्ट (DPP)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§DIGITAL-PRODUCT-PASSPORT",
+  "broader": "https://ptpge.org/v1/printing/standards/regulations",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Machine-readable product passport required by the EU Ecodesign for Sustainable Products Regulation (ESPR); carries origin, material and sustainability data through the value chain. Referenced here as the regulatory anchor for machine-readable sustainability proof — PTPGE terms supply the print-domain semantics such a passport points into.",
+    "nb": "Maskinlesbart produktpass påkrevd av EUs økodesignforordning (ESPR); bærer opprinnelses-, material- og bærekraftsdata gjennom verdikjeden. Referert her som det regulatoriske ankeret for maskinlesbart bærekraftsbevis — PTPGE-termene leverer trykkfagets semantikk et slikt pass peker inn i.",
+    "de": "Maschinenlesbarer Produktpass gemäß der EU-Ökodesign-Verordnung (ESPR); trägt Herkunfts-, Material- und Nachhaltigkeitsdaten durch die Wertschöpfungskette. Hier referenziert als regulatorischer Anker für maschinenlesbaren Nachhaltigkeitsnachweis — PTPGE-Begriffe liefern die Druckfach-Semantik, in die ein solcher Pass zeigt.",
+    "ja": "EUエコデザイン規則（ESPR）が求める機械可読の製品パスポート。原産地・材料・サステナビリティのデータをバリューチェーンを通じて運ぶ。機械可読なサステナビリティ証明の規制上のアンカーとしてここで参照される——PTPGEの用語は、そうしたパスポートが指し示す印刷分野の意味論を提供する。",
+    "es": "Pasaporte de producto legible por máquina exigido por el Reglamento de Ecodiseño de la UE (ESPR); transporta datos de origen, materiales y sostenibilidad a lo largo de la cadena de valor. Referenciado aquí como ancla regulatoria de la prueba de sostenibilidad legible por máquina: los términos PTPGE aportan la semántica del dominio de impresión a la que apunta tal pasaporte.",
+    "zh-Hans": "欧盟可持续产品生态设计法规（ESPR）要求的机器可读产品护照，承载原产地、材料与可持续性数据贯穿价值链。在此作为机器可读可持续性证明的监管锚点——PTPGE 术语提供此类护照所指向的印刷领域语义。",
+    "sv": "Maskinläsbart produktpass som krävs av EU:s ekodesignförordning för hållbara produkter (ESPR); bär ursprungs-, material- och hållbarhetsdata genom värdekedjan. Refererat här som det regulatoriska ankaret för maskinläsbara hållbarhetsbevis — PTPGE-termerna tillhandahåller den tryckdomänssemantik ett sådant pass pekar in i.",
+    "da": "Maskinlæsbart produktpas krævet af EU’s ecodesignforordning for bæredygtige produkter (ESPR); bærer oprindelses-, materiale- og bæredygtighedsdata gennem værdikæden. Refereret her som det regulatoriske anker for maskinlæsbare bæredygtighedsbeviser — PTPGE-termerne leverer den trykfaglige semantik, et sådant pas peger ind i.",
+    "nl": "Machineleesbaar productpaspoort, vereist door de EU-verordening ecologisch ontwerp voor duurzame producten (ESPR); draagt herkomst-, materiaal- en duurzaamheidsdata door de waardeketen. Hier gerefereerd als het regulatoire anker voor machineleesbaar duurzaamheidsbewijs — de PTPGE-termen leveren de drukvakspecifieke semantiek waar zo'n paspoort naar verwijst.",
+    "pl": "Maszynowo czytelny paszport produktu wymagany przez unijne rozporządzenie w sprawie ekoprojektu dla zrównoważonych produktów (ESPR); niesie dane o pochodzeniu, materiałach i zrównoważoności przez cały łańcuch wartości. Przywołany tu jako regulacyjna kotwica maszynowo czytelnego dowodu zrównoważoności — terminy PTPGE dostarczają semantyki dziedziny druku, na którą taki paszport wskazuje.",
+    "pt": "Passaporte de produto legível por máquina exigido pelo Regulamento de Ecodesign para Produtos Sustentáveis da UE (ESPR); transporta dados de origem, material e sustentabilidade ao longo da cadeia de valor. Referenciado aqui como âncora regulatória para prova de sustentabilidade legível por máquina — os termos PTPGE fornecem a semântica do domínio gráfico para a qual tal passaporte aponta.",
+    "hi": "EU Ecodesign for Sustainable Products Regulation (ESPR) द्वारा अनिवार्य मशीन-पठनीय उत्पाद पासपोर्ट; मूल्य श्रृंखला में मूल, सामग्री और स्थिरता डेटा ले जाता है। यहाँ मशीन-पठनीय स्थिरता प्रमाण के नियामक लंगर के रूप में संदर्भित — PTPGE पद वह प्रिंट-क्षेत्र शब्दार्थ देते हैं जिसकी ओर ऐसा पासपोर्ट इशारा करता है।"
+  },
+  "elementType": "reference",
+  "altLabels": {
+    "pl": [
+      "DPP",
+      "Digital Product Passport"
+    ],
+    "pt": [
+      "DPP",
+      "Digital Product Passport"
+    ],
+    "hi": [
+      "DPP",
+      "Digital Product Passport"
+    ]
+  }
+}

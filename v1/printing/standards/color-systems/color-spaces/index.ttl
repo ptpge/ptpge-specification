@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-spaces> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Colour Spaces"@en,
+        "przestrzenie kolorów"@pl,
+        "Espaços de cores"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems> ;
+    skos:definition "Matematiske modeller, der beskriver farver som numeriske koordinater og muliggør konsekvent gengivelse på tværs af enheder, formater og processer."@da,
+        "Mathematische Modelle, die Farben als numerische Koordinaten beschreiben und so eine konsistente Reproduktion über Geräte, Formate und Verfahren hinweg ermöglichen."@de,
+        "Mathematical models that describe colors as numerical coordinates, enabling consistent reproduction across devices, formats, and processes."@en,
+        "Modelos matemáticos que describen los colores como coordenadas numéricas, permitiendo una reproducción consistente entre dispositivos, formatos y procesos."@es,
+        "गणितीय मॉडल जो रंगों को संख्यात्मक निर्देशांक के रूप में वर्णित करते हैं, जिससे डिवाइस, फ़ॉर्मेट और प्रक्रियाओं में एक-समान पुनरुत्पादन संभव होता है।"@hi,
+        "色を数値座標として記述する数学的モデル。デバイス、形式、工程を超えた一貫した色再現を可能にする。"@ja,
+        "Matematiske modeller som beskriver farger som numeriske koordinater, slik at konsistent reproduksjon på tvers av enheter, formater og prosesser er mulig."@nb,
+        "Wiskundige modellen die kleuren beschrijven als numerieke coördinaten, waardoor consistente weergave over apparaten, formaten en processen mogelijk is."@nl,
+        "Modele matematyczne opisujące barwy jako współrzędne liczbowe, umożliwiające spójną reprodukcję między urządzeniami, formatami i procesami."@pl,
+        "Modelos matemáticos que descrevem cores como coordenadas numéricas, permitindo reprodução consistente entre dispositivos, formatos e processos."@pt,
+        "Matematiska modeller som beskriver kulörer som numeriska koordinater, vilket möjliggör konsekvent återgivning över enheter, format och processer."@sv,
+        "将颜色描述为数值坐标的数学模型，实现跨设备、格式和工艺的一致再现。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/adobe-rgb>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cielab>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmyk>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykog>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykogv>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/rgb>,
+        <https://ptpge.org/v1/printing/standards/color-systems/color-spaces/srgb> ;
+    skos:notation "P:ST-CSY-CSPC" ;
+    skos:prefLabel "Farverum"@da,
+        "Farbräume"@de,
+        "Color Spaces"@en,
+        "Espacios de Color"@es,
+        "रंग स्पेस"@hi,
+        "色空間"@ja,
+        "Fargerom"@nb,
+        "Kleurruimten"@nl,
+        "Przestrzenie barw"@pl,
+        "Espaços de cor"@pt,
+        "Färgrymder"@sv,
+        "色彩空间"@zh-Hans ;
+    skos:scopeNote "Umfasst additive RGB-Familien (sRGB für Bildschirme, Adobe RGB für erweiterten Farbraum), subtraktives CMYK für den Druck und geräteunabhängige Referenzräume (CIELAB). ICC-Profile vermitteln zwischen ihnen, gehören aber zur Qualitätssicherung."@de,
+        "Includes additive RGB-family spaces (sRGB for screens, Adobe RGB for wider gamut), subtractive CMYK for print, and device-independent reference spaces (CIELAB). ICC profiles map between them but live in Quality Assurance."@en,
+        "Incluye espacios aditivos de la familia RGB (sRGB para pantallas, Adobe RGB para gamut más amplio), CMYK sustractivo para impresión y espacios de referencia independientes del dispositivo (CIELAB). Los perfiles ICC mapean entre ellos pero se gestionan en Gestión › Aseguramiento de Calidad › Gestión de Color."@es,
+        "योगात्मक RGB-परिवार स्पेस (स्क्रीन के लिए sRGB, व्यापक गैमट के लिए Adobe RGB), प्रिंट के लिए व्यवकलनात्मक CMYK और डिवाइस-स्वतंत्र संदर्भ स्पेस (CIELAB) शामिल। ICC प्रोफ़ाइल इनके बीच मैप करती हैं पर गुणवत्ता आश्वासन में रहती हैं।"@hi,
+        "加法混色のRGB系色空間（画面用のsRGB、より広い色域のAdobe RGB）、印刷用の減法混色のCMYK、デバイス非依存の参照色空間（CIELAB）を含む。ICCプロファイルはこれらの間を変換するが、品質保証カテゴリに属する。"@ja,
+        "Inkluderer additive RGB-familien (sRGB for skjerm, Adobe RGB for utvidet gamut), subtraktiv CMYK for trykk, og enhetsuavhengige referanserom (CIELAB). ICC-profiler kobler mellom dem men hører til Quality Assurance."@nb,
+        "Inclui espaços aditivos da família RGB (sRGB para telas, Adobe RGB para gamut mais amplo), CMYK subtrativo para impressão e espaços de referência independentes de dispositivo (CIELAB). Os perfis ICC mapeiam entre eles, mas ficam em Garantia de qualidade."@pt,
+        "包括加色RGB系列空间（用于屏幕的sRGB、用于更宽色域的Adobe RGB）、用于印刷的减色CMYK以及与设备无关的参考空间（CIELAB）。ICC配置文件在它们之间映射，但位于管理 › 质量保证 › 色彩管理。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

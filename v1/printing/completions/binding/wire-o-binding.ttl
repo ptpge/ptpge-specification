@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/binding/wire-o-binding> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Drahtkammbindung"@de,
+        "Wire-O-Bindung"@de,
+        "Double-loop wire"@en,
+        "Twin loop bound"@en,
+        "Twin-loop wire"@en,
+        "Wire binding"@en,
+        "Wire bound"@en,
+        "Wire-o bound"@en,
+        "Wiro"@en,
+        "Wiro bound"@en,
+        "ट्विन-लूप वायर"@hi,
+        "डबल-लूप वायर"@hi,
+        "वायर बाइंडिंग"@hi,
+        "वायर-ओ बाउंड"@hi,
+        "वायरो"@hi,
+        "Spiralinnbinding med wire"@nb,
+        "Spiralwire"@nb,
+        "Wire-innbinding"@nb,
+        "Wire-o"@nb,
+        "oprawa drutowa"@pl,
+        "spirala podwójna"@pl,
+        "wiro"@pl,
+        "arame duplo"@pt,
+        "encadernação wire-o"@pt,
+        "espiral dupla"@pt,
+        "garra dupla"@pt,
+        "wire-o"@pt,
+        "wiro"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/binding> ;
+    skos:definition "Sider indbundet med en dobbeltløkket metalwire gennem udstansede huller; ligger fladt når den er åben."@da,
+        "Seiten, mit einem Doppelschlaufendraht durch gestanzte Löcher gebunden; liegt offen flach."@de,
+        "Pages bound with a double-loop metal wire through punched holes; lies flat when open."@en,
+        "Páginas encuadernadas con un alambre metálico de doble bucle a través de perforaciones; abre plano."@es,
+        "छेदों के ज़रिए डबल-लूप धातु तार से बँधे पृष्ठ; खुलने पर सपाट रहते हैं।"@hi,
+        "パンチ穴にダブルループの金属ワイヤーを通して綴じたページ。開くとフラットになる。"@ja,
+        "Sider bundet med en dobbeltløkket metalltråd gjennom stansede hull; ligger flatt når åpen."@nb,
+        "Pagina's gebonden met een dubbellus metalen draad door geponste gaten; ligt vlak wanneer geopend."@nl,
+        "Strony połączone metalową spiralą o podwójnej pętli przez wybite otwory; rozkłada się płasko po otwarciu."@pl,
+        "Páginas presas por um arame metálico de dupla argola através de furos; abre plano."@pt,
+        "Sidor bundna med dubbel metallögla genom stansade hål; ligger plant när den är öppen."@sv,
+        "用双环金属丝穿过冲孔装订的页面；打开时可平摊。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§WIRE-O-BINDING" ;
+    skos:prefLabel "Wire-o-indbinding"@da,
+        "Wire-O-Bindung"@de,
+        "Wire-o Binding"@en,
+        "Wire-o Binding"@es,
+        "वायर-ओ बाइंडिंग"@hi,
+        "Wire-o Binding"@ja,
+        "Wire-o-binding"@nb,
+        "Wire-o-binding"@nl,
+        "Oprawa wire-O"@pl,
+        "Wire-o"@pt,
+        "Wire-o-bindning"@sv,
+        "Wire-o Binding"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:pageCountMultiple 2 ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64",
+                "§5.6.24 · p.125" ;
+            ptpge:mappingRow "crosswalk row 41" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent",
+                "LooseBinding" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-27" .
+

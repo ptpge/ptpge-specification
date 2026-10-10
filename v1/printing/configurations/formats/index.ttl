@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations> ;
+    skos:definition "Standardiserede fysiske størrelser for skårne ark, kuverter og færdige trykte objekter — de dimensioner et produkt produceres i, bestilles i eller leveres som."@da,
+        "Standardisierte physische Größen für zugeschnittene Bogen, Briefumschläge und fertige Druckprodukte — die Maße, in denen ein Produkt produziert, bestellt oder ausgeliefert wird."@de,
+        "Standardized physical sizes for cut sheets, envelopes, and finished printed objects — the dimensions a product is produced at, ordered in, or delivered as."@en,
+        "Tamaños físicos estandarizados para hojas cortadas, sobres y objetos impresos terminados — las dimensiones en las que se produce, pide o entrega un producto."@es,
+        "कटी शीटों, लिफ़ाफ़ों और तैयार मुद्रित वस्तुओं के मानकीकृत भौतिक आकार — वे आयाम जिनमें उत्पाद बनाया, ऑर्डर किया या सुपुर्द किया जाता है।"@hi,
+        "カットシート、封筒、完成印刷物のための標準化された物理寸法 — 製品が生産、発注、納品される寸法。"@ja,
+        "Standardiserte fysiske størrelser for ark, konvolutter og ferdige trykte objekter — dimensjonene et produkt produseres i, bestilles i eller leveres som."@nb,
+        "Gestandaardiseerde fysieke afmetingen voor gesneden vellen, enveloppen en afgewerkte drukobjecten — de afmetingen waarin een product wordt geproduceerd, besteld of geleverd."@nl,
+        "Ustandaryzowane wymiary fizyczne arkuszy ciętych, kopert i gotowych obiektów drukowanych — wymiary, w jakich produkt jest wytwarzany, zamawiany lub dostarczany."@pl,
+        "Tamanhos físicos padronizados de folhas cortadas, envelopes e objetos impressos acabados — as dimensões em que um produto é produzido, pedido ou entregue."@pt,
+        "Standardiserade fysiska storlekar för skurna ark, kuvert och färdiga tryckta objekt — de dimensioner en produkt produceras i, beställs i eller levereras som."@sv,
+        "切张、信封和印刷成品的标准化物理尺寸——产品被生产、订购或交付的尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/a-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/ansi-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/event-tents>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes>,
+        <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats>,
+        <https://ptpge.org/v1/printing/configurations/formats/ra-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups>,
+        <https://ptpge.org/v1/printing/configurations/formats/sra-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:notation "P:CF-FMT" ;
+    skos:prefLabel "Formater"@da,
+        "Formate"@de,
+        "Formats"@en,
+        "Formatos"@es,
+        "फ़ॉर्मेट"@hi,
+        "フォーマット"@ja,
+        "Formater"@nb,
+        "Formaten"@nl,
+        "Formaty"@pl,
+        "Formatos"@pt,
+        "Format"@sv,
+        "开本"@zh-Hans ;
+    skos:scopeNote "Umfasst die ISO-216-A- und -B-Reihe, ISO-269-C-Reihen-Briefumschläge, nordamerikanische ANSI- und Architektenformate, US-Standardformate (Letter, Legal, Tabloid), regionale Visitenkartenformate und gängige Briefumschlagsformate. Die Standards hinter diesen Formaten (ISO 216, ANSI, JIS) werden unter Standards › Papierformat-Standards erfasst."@de,
+        "Includes ISO 216 A and B series, ISO 269 C series envelopes, North American ANSI and Architectural sizes, US standard sizes (Letter, Legal, Tabloid), regional business card sizes, and common envelope formats. The standards behind these formats (ISO 216, ANSI, JIS) are tracked under Standards › Paper Size Standards."@en,
+        "Incluye las series A y B de ISO 216, los sobres serie C de ISO 269, los formatos ANSI y arquitectónicos norteamericanos, los tamaños estándar de EE. UU. (Carta, Oficio, Tabloide), los tamaños regionales de tarjeta de visita y los formatos comunes de sobre."@es,
+        "ISO 216 A और B सीरीज़, ISO 269 C-सीरीज़ लिफ़ाफ़े, उत्तर अमेरिकी ANSI और Arch आकार, US मानक आकार (Letter, Legal, Tabloid), क्षेत्रीय विज़िटिंग कार्ड आकार और आम लिफ़ाफ़ा फ़ॉर्मेट शामिल। इन फ़ॉर्मेटों के पीछे के मानक (ISO 216, ANSI, JIS) मानक › काग़ज़ आकार मानक के अंतर्गत हैं।"@hi,
+        "ISO 216 AおよびBシリーズ、ISO 269 Cシリーズ封筒、北米ANSIおよびArchitecturalサイズ、米国標準サイズ（Letter、Legal、Tabloid）、地域別の名刺サイズ、一般的な封筒形式を含む。これらの形式の背景にある規格（ISO 216、ANSI、JIS）はStandards › Paper Size Standardsで扱う。"@ja,
+        "Inkluderer ISO 216 A- og B-serien, ISO 269 C-serien-konvolutter, nordamerikanske ANSI- og Architectural-størrelser, US-standardstørrelser (Letter, Legal, Tabloid), regionale visittkortstørrelser og vanlige konvoluttformater. Selve standardene (ISO 216, ANSI, JIS) spores under Standards › Paper Size Standards."@nb,
+        "Inclui as séries A e B da ISO 216, envelopes da série C da ISO 269, tamanhos norte-americanos ANSI e Arch, tamanhos padrão dos EUA (Letter, Legal, Tabloid), tamanhos regionais de cartão de visita e formatos comuns de envelope. As normas por trás desses formatos (ISO 216, ANSI, JIS) estão em Normas › Normas de tamanho de papel."@pt,
+        "包括ISO 216 A和B系列、ISO 269 C系列信封、北美ANSI和建筑系列、美国标准尺寸（Letter、Legal、Tabloid）、地区名片尺寸和常见信封格式。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

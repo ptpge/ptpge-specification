@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/business-cards> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Standardvisitkortformater pr. region — små trykte kort med kontaktoplysninger, som regel brugt til professionel netværksdannelse."@da,
+        "Standardvisitenkartenformate nach Region — kleine bedruckte Karten mit Kontaktinformationen, typischerweise im professionellen Networking eingesetzt."@de,
+        "Standard business card sizes by region — small printed cards bearing contact information, typically used for professional networking."@en,
+        "Tamaños estándar de tarjeta de visita por región — pequeñas tarjetas impresas con información de contacto, utilizadas habitualmente para presentación profesional."@es,
+        "क्षेत्र के अनुसार मानक विज़िटिंग कार्ड आकार — संपर्क जानकारी वाले छोटे मुद्रित कार्ड, आमतौर पर पेशेवर नेटवर्किंग में।"@hi,
+        "地域別の標準名刺サイズ — 連絡先情報を記載した小型印刷カード。通常、業務上のネットワーキングで使用される。"@ja,
+        "Standard visittkortstørrelser etter region — små trykte kort med kontaktinformasjon, vanligvis brukt til profesjonell nettverksbygging."@nb,
+        "Standaardformaten voor visitekaartjes per regio — kleine gedrukte kaartjes met contactgegevens, doorgaans gebruikt voor professioneel netwerken."@nl,
+        "Standardowe formaty wizytówek według regionu — małe drukowane karty z danymi kontaktowymi, zwykle używane w kontaktach zawodowych."@pl,
+        "Tamanhos padrão de cartão de visita por região — pequenos cartões impressos com dados de contato, normalmente usados em networking profissional."@pt,
+        "Standardvisitkortsformat per region — små tryckta kort med kontaktuppgifter, vanligen använda för professionellt nätverkande."@sv,
+        "按地区分类的标准名片尺寸——印有联系信息的小型印刷卡片，通常用于商务交流。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-china>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-eu>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-iso-216>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-japan-91-x-55-mm>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-scandinavian>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-us> ;
+    skos:notation "P:CF-FMT-BCRD" ;
+    skos:prefLabel "Visitkortformater"@da,
+        "Visitenkartenformate"@de,
+        "Business Card Sizes"@en,
+        "Formatos de tarjeta de visita"@es,
+        "विज़िटिंग कार्ड आकार"@hi,
+        "名刺サイズ"@ja,
+        "Visittkortformater"@nb,
+        "Visitekaartformaten"@nl,
+        "Formaty wizytówek"@pl,
+        "Tamanhos de cartão de visita"@pt,
+        "Visitkortsformat"@sv,
+        "名片尺寸"@zh-Hans ;
+    skos:scopeNote "Umfasst EU (85 × 55 mm, Kreditkarten-Seitenverhältnis), Skandinavien (90 × 55 mm), USA (3,5 × 2 in / 88,9 × 50,8 mm), Japan (91 × 55 mm), China (90 × 54 mm) und ISO 216 (74 × 52 mm — entspricht A8). Kartenstärke, Veredelungen und Verzierungen werden unter Substrates und Features geführt."@de,
+        "Includes EU (85×55 mm, credit-card aspect ratio), Scandinavian (90×55 mm), US (3.5×2 in / 88.9×50.8 mm), Japanese (91×55 mm), Chinese (90×54 mm), and ISO 216 (74×52 mm — equivalent to A8). Card thickness, finishes, and embellishments are tracked under Substrates and Features."@en,
+        "Incluye UE (85×55 mm, relación de tarjeta de crédito), escandinavo (90×55 mm), EE. UU. (3,5×2 in / 88,9×50,8 mm), japonés (91×55 mm), chino (90×54 mm) e ISO 216 (74×52 mm — equivalente a A8). El grosor de la tarjeta y los acabados se rastrean por separado."@es,
+        "EU (85×55 मिमी, क्रेडिट-कार्ड अनुपात), स्कैंडिनेवियाई (90×55 मिमी), US (3.5×2 इंच / 88.9×50.8 मिमी), जापानी (91×55 मिमी), चीनी (90×54 मिमी) और ISO 216 (74×52 मिमी — A8 के बराबर) शामिल। कार्ड की मोटाई, फ़िनिश और सजावटी प्रभाव सब्सट्रेट और फ़ीचर के अंतर्गत हैं।"@hi,
+        "EU（85×55mm、クレジットカードのアスペクト比）、北欧（90×55mm）、米国（3.5×2インチ／88.9×50.8mm）、日本（91×55mm）、中国（90×54mm）、ISO 216（74×52mm — A8相当）を含む。カードの厚み、仕上げ、加飾はSubstratesおよびFeaturesで扱う。"@ja,
+        "Inkluderer EU (85×55 mm, kredittkort-sideforhold), skandinavisk (90×55 mm), US (3,5×2 in / 88,9×50,8 mm), japansk (91×55 mm), kinesisk (90×54 mm) og ISO 216 (74×52 mm — tilsvarer A8). Korttykkelse, overflater og embellishments spores under Substrates og Features."@nb,
+        "Inclui UE (85×55 mm, proporção de cartão de crédito), escandinavo (90×55 mm), EUA (3,5×2 in / 88,9×50,8 mm), japonês (91×55 mm), chinês (90×54 mm) e ISO 216 (74×52 mm — equivalente a A8). Espessura, acabamentos e enobrecimentos do cartão ficam em Substratos e Características."@pt,
+        "包括欧盟（85×55毫米，信用卡比例）、北欧（90×55毫米）、美国（3.5×2英寸/88.9×50.8毫米）、日本（91×55毫米）、中国（90×54毫米）和ISO 216（74×52毫米——相当于A8）。卡片厚度和表面处理另行跟踪。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio/etching",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Etching",
+    "es": "Aguafuerte",
+    "zh-Hans": "蚀刻 (Etching)",
+    "nb": "Etsing",
+    "de": "Radierung",
+    "ja": "エッチング",
+    "sv": "Etsning",
+    "da": "Radering",
+    "nl": "Ets",
+    "pl": "Akwaforta",
+    "pt": "Água-forte",
+    "hi": "एचिंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§ETCHING",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/intaglio",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Intaglio printmaking technique where the image is drawn through an acid-resistant ground on a metal plate; the exposed metal is then bitten by acid to create the recessed lines that hold ink. More fluid than engraving, allowing painterly line work.",
+    "nb": "Intaglio-grafikkteknikk der bildet er tegnet gjennom en syrebestandig grunn på en metallplate; den eksponerte metallen bites deretter av syre for å skape de nedsenkede linjene som holder blekk. Mer flytende enn gravering, og tillater malerisk linjearbeid.",
+    "de": "Stichtiefdruck-Technik, bei der das Bild durch einen säurefesten Ätzgrund auf eine Metallplatte gezeichnet wird; das freigelegte Metall wird anschließend von Säure geätzt, um die vertieften Linien zu schaffen, die die Farbe halten. Fließender als der Stich, ermöglicht malerische Linienführung.",
+    "ja": "金属板に塗布された耐酸性グランド越しに画像を描き、露出した金属を酸で腐食してインキを保持する凹線を作る凹版版画技法。エングレービングより流動的で、絵画的な線描を可能にする。",
+    "es": "Técnica de intaglio donde el artista dibuja con punta sobre una plancha cubierta de barniz, exponiendo el metal; el ácido muerde las líneas expuestas, creando los surcos que retendrán tinta.",
+    "zh-Hans": "凹版技术，艺术家在覆盖防腐剂的板上用尖针绘图，露出金属；酸蚀露出的线条，产生保留油墨的凹槽。",
+    "sv": "Koppartrycksteknik där bilden tecknas genom en syraresistent grund på en metallplåt; den blottade metallen etsas sedan av syra för att skapa de försänkta linjer som håller bläcket. Friare än gravyr och tillåter måleriskt linjearbete.",
+    "da": "Kobbertryksteknik, hvor billedet tegnes gennem en syrefast grund på en metalplade; det blottede metal ætses derefter af syre for at skabe de forsænkede linjer, der holder farven. Friere end stik og tillader malerisk linjearbejde.",
+    "nl": "Koperdiepdruktechniek waarbij het beeld door een zuurbestendige grondlaag op een metalen plaat wordt getekend; het blootgelegde metaal wordt vervolgens door zuur gebeten om de verdiepte lijnen te vormen die de inkt vasthouden. Vloeiender dan de burijn en geschikt voor schilderachtig lijnwerk.",
+    "pl": "Technika druku wklęsłego, w której obraz jest rysowany przez kwasoodporny werniks na metalowej płycie; odsłonięty metal jest następnie trawiony kwasem, tworząc zagłębione linie utrzymujące farbę. Bardziej płynna niż miedzioryt, pozwala na malarską kreskę.",
+    "pt": "Técnica de gravura calcográfica em que a imagem é desenhada através de um verniz resistente ao ácido sobre uma chapa metálica; o metal exposto é então corroído pelo ácido, criando as linhas rebaixadas que retêm a tinta. Mais fluida que o buril, permitindo traço pictórico.",
+    "hi": "इंटैग्लियो प्रिंटमेकिंग तकनीक जिसमें छवि धातु की प्लेट पर अम्ल-रोधी ग्राउंड के आर-पार खींची जाती है; खुली धातु को फिर अम्ल खाता है, जिससे स्याही रोकने वाली धँसी रेखाएँ बनती हैं। एनग्रेविंग से अधिक तरल, चित्रकारी जैसी रेखाओं की अनुमति देती है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Etched"
+    ],
+    "nb": [
+      "Etsing"
+    ],
+    "sv": [
+      "Radering"
+    ],
+    "da": [
+      "Ætsning"
+    ],
+    "pl": [
+      "trawienie"
+    ],
+    "pt": [
+      "Gravura a água-forte"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ]
+}

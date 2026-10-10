@@ -1,0 +1,173 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/ncr-pads> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "NCR-blok"@da,
+        "dublet-blok"@da,
+        "gennemslagspapir"@da,
+        "selvkopierende blok"@da,
+        "triplet-blok"@da,
+        "Durchschreibesätze"@de,
+        "Formularsätze"@de,
+        "Selbstdurchschreibepapier"@de,
+        "Carbonless pad"@en,
+        "Duplicate books"@en,
+        "NCR"@en,
+        "NCR pad"@en,
+        "Triplicate books"@en,
+        "carbonless form"@en,
+        "duplicate pad"@en,
+        "triplicate pad"@en,
+        "albarán"@es,
+        "bloc autocopiativo"@es,
+        "formulario autocopiativo"@es,
+        "papel químico"@es,
+        "talonario autocopiativo"@es,
+        "talonario de facturas"@es,
+        "NCR पैड"@hi,
+        "कार्बनलेस फ़ॉर्म"@hi,
+        "कार्बनलेस बुक"@hi,
+        "ट्रिप्लीकेट पैड"@hi,
+        "डुप्लीकेट पैड"@hi,
+        "बिल बुक"@hi,
+        "ノーカーボン伝票"@ja,
+        "伝票"@ja,
+        "納品書"@ja,
+        "複写伝票"@ja,
+        "領収書"@ja,
+        "Gjennomslagsblokker"@nb,
+        "Gjennomslagspapir"@nb,
+        "blåkopiblokk"@nb,
+        "gjenpartsblokk"@nb,
+        "karbonfri blokk"@nb,
+        "NCR-blok"@nl,
+        "doordrukformulieren"@nl,
+        "doordrukset"@nl,
+        "doordruksets"@nl,
+        "drievoud"@nl,
+        "tweevoud"@nl,
+        "zelfkopiërend blok"@nl,
+        "NCR"@pl,
+        "bloczek samokopiujący"@pl,
+        "druk samokopiujący"@pl,
+        "formularz samokopiujący"@pl,
+        "bloco autocopiativo"@pt,
+        "bloco em 2 vias"@pt,
+        "bloco em 3 vias"@pt,
+        "formulário autocopiativo"@pt,
+        "papel NCR"@pt,
+        "talão autocopiativo"@pt,
+        "NCR-block"@sv,
+        "dubblettblock"@sv,
+        "kopieblock"@sv,
+        "självkopierande blanketter"@sv,
+        "tripplettblock"@sv,
+        "复写单据"@zh-Hans,
+        "收据本"@zh-Hans,
+        "联单"@zh-Hans,
+        "送货单"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En blok af stablede selvkopierende dele, der kopierer toparket til delene nedenunder — fakturaer, ordrer og formularer i to eller tre eksemplarer."@da,
+        "Ein Block selbstdurchschreibender Teile, der das oberste Blatt auf die darunterliegenden kopiert."@de,
+        "A pad of stacked carbonless parts that copy the top sheet to the parts beneath — invoices, orders and forms in duplicate/triplicate."@en,
+        "Un bloc de hojas autocopiativas que transfieren lo escrito en la hoja superior a las inferiores — facturas, pedidos y formularios en duplicado o triplicado."@es,
+        "एक के ऊपर एक रखी कार्बनलेस प्रतियों का पैड, जिसमें ऊपरी शीट की लिखावट नीचे की प्रतियों पर उतरती है — इनवॉइस, ऑर्डर और फ़ॉर्म दो/तीन प्रतियों में।"@hi,
+        "上の用紙への記入が下の複写紙に転写されるノーカーボン複写伝票。請求書・注文書などの2枚複写／3枚複写に。"@ja,
+        "En blokk av stablede karbonfrie deler som kopierer det øverste arket til delene under — fakturaer, ordrer og skjemaer i to/tre eksemplarer."@nb,
+        "Een blok gestapelde zelfkopiërende delen die het bovenste vel doorschrijven naar de onderliggende delen — facturen, orders en formulieren in twee- of drievoud."@nl,
+        "Bloczek z ułożonych warstw papieru samokopiującego, przenoszących zapis z górnej kartki na kolejne — faktury, zamówienia i formularze w dwóch/trzech egzemplarzach."@pl,
+        "Bloco de vias autocopiativas empilhadas que copiam a folha de cima para as vias abaixo — notas, pedidos e formulários em duas ou três vias."@pt,
+        "Ett block av staplade självkopierande delar som kopierar det översta arket till delarna under — fakturor, order och blanketter i två eller tre exemplar."@sv,
+        "无碳复写联单本——上联书写内容复写到下联，用于一式两联/三联的发票、订单和表单。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§NCR-PADS" ;
+    skos:prefLabel "NCR-blokke"@da,
+        "Selbstdurchschreibe-Blöcke"@de,
+        "NCR Pads"@en,
+        "Talonarios autocopiativos"@es,
+        "NCR पैड"@hi,
+        "ノーカーボン複写伝票"@ja,
+        "NCR-blokker"@nb,
+        "Doordruksets (NCR)"@nl,
+        "Bloczki samokopiujące"@pl,
+        "Blocos autocopiativos"@pt,
+        "Självkopierande block"@sv,
+        "无碳复写本"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/finishing/edge>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/page-count>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsFoldDirection <https://ptpge.org/v1/printing/completions/fold-binding-edge/top> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4h>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a5>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a7>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/half-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/junior-legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/letter> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure/web-rotogravure> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Gravure"@en,
+        "Rotogravure"@en,
+        "Web gravure"@en,
+        "रोटोग्रेव्योर"@hi,
+        "वेब ग्रेव्योर"@hi,
+        "Dyptrykk"@nb,
+        "Rotogravyr"@nb,
+        "rotograwiura"@pl,
+        "wklęsłodruk"@pl,
+        "wklęsłodruk zwojowy"@pl,
+        "Gravura de bobina"@pt,
+        "Rotogravura"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure> ;
+    skos:definition "Industrielt dybtryk på kontinuerlige ruller (baner) af substrat — den dominerende gravurevariant til meget lange emballage-, magasin- og dekorlaminatoplag, hvor den høje pris for cylindergravering fordeles over millioner af tryk."@da,
+        "Industrieller Tiefdruck auf Endlosrollen (Bahnen) des Bedruckstoffs — die dominante Tiefdruckvariante für sehr lange Verpackungs-, Magazin- und Dekorlaminat-Auflagen, bei denen sich die hohen Kosten der Zylindergravur über Millionen von Drucken amortisieren."@de,
+        "Industrial gravure printing on continuous rolls (webs) of substrate — the dominant gravure variant for very-long-run packaging, magazines, and decorative laminates where the high cost of engraving cylinders is amortized over millions of impressions."@en,
+        "Variante dominante del huecograbado industrial — imprime sobre rollos continuos a alta velocidad. Utilizada para packaging flexible de alto volumen, papeles decorativos y antiguamente para revistas."@es,
+        "सब्सट्रेट के निरंतर रोल (वेब) पर औद्योगिक ग्रेव्योर मुद्रण — बहुत लंबे रन की पैकेजिंग, पत्रिकाओं और सजावटी लैमिनेट के लिए प्रमुख ग्रेव्योर वेरिएंट, जहाँ सिलिंडर उकेरने की ऊँची लागत लाखों इंप्रेशन में बँट जाती है।"@hi,
+        "連続ロール（ウェブ）の基材に対する工業的グラビア印刷 — 彫刻シリンダーの高コストが数百万部にわたって償却される超大量パッケージ、雑誌、装飾ラミネートにおける主要なグラビアバリアント。"@ja,
+        "Industriell gravure-trykk på kontinuerlige ruller (webs) av substrat — den dominerende gravure-varianten for svært lange opplag av emballasje, magasiner og dekorative laminater der den høye kostnaden av graverte sylindere amortiseres over millioner av avtrykk."@nb,
+        "Industriële diepdruk op doorlopende rollen (banen) substraat — de dominante gravurevariant voor zeer lange verpakkings-, magazine- en decorlaminaatoplagen, waarbij de hoge kosten van cilindergravure over miljoenen drukken worden uitgesmeerd."@nl,
+        "Przemysłowy wklęsłodruk na ciągłych zwojach podłoża — dominujący wariant wklęsłodruku dla bardzo długich nakładów opakowań, czasopism i laminatów dekoracyjnych, gdzie wysoki koszt grawerowania cylindrów rozkłada się na miliony odbitek."@pl,
+        "Rotogravura industrial em rolos contínuos (bobinas) de substrato — a variante dominante de rotogravura para embalagens, revistas e laminados decorativos de tiragens muito longas, onde o alto custo de gravar os cilindros é amortizado ao longo de milhões de impressões."@pt,
+        "Industriellt djuptryck på kontinuerliga rullar (banor) av substrat — den dominerande gravyrvarianten för mycket långa förpacknings-, tidskrifts- och dekorlaminatupplagor där den höga kostnaden för cylindergravyr slås ut över miljontals tryck."@sv,
+        "工业凹印的主导变体——在连续卷材上高速印刷。用于高产量软包装、装饰纸，过去用于杂志。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§WEB-ROTOGRAVURE" ;
+    skos:prefLabel "Rotationsrotogravure"@da,
+        "Rollen-Tiefdruck"@de,
+        "Web Rotogravure"@en,
+        "Rotograbado en Bobina"@es,
+        "वेब रोटोग्रेव्योर"@hi,
+        "輪転式グラビア"@ja,
+        "Bane-matet dyptrykk"@nb,
+        "Rotatierotogravure"@nl,
+        "Rotograwiura zwojowa"@pl,
+        "Rotogravura de bobina"@pt,
+        "Rullrotogravyr"@sv,
+        "卷筒凹印"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.1 · p.110" ;
+            ptpge:mappingRow "crosswalk row 16" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ConventionalPrinting",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/giclee> a skos:Concept ;
+    dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "archival inkjet"@en,
+        "fine art inkjet"@en,
+        "giclee"@en,
+        "giclee"@hi,
+        "आर्काइवल इंकजेट"@hi,
+        "फ़ाइन आर्ट इंकजेट"@hi,
+        "giclée"@nb,
+        "kunsttrykk-blekkskriver"@nb,
+        "artystyczny druk atramentowy"@pl,
+        "druk archiwalny"@pl,
+        "giclee"@pl,
+        "fine art"@pt,
+        "giclee"@pt,
+        "jato de tinta arquivístico"@pt,
+        "jato de tinta de belas-artes"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet> ;
+    skos:definition "Kunsttryk med pigment-inkjet på arkivbestandigt papir eller kanvas, der giver høj farvepræcision og levetid — trykteknikken bag kunstreproduktioner."@da,
+        "Fine-Art-Pigment-Inkjet auf archivfestem Papier oder Leinwand mit hoher Farbgenauigkeit und Langlebigkeit — die Drucktechnik hinter Kunstreproduktionen."@de,
+        "Fine-art pigment inkjet on archival paper or canvas, giving high colour accuracy and longevity — the printing technique behind fine-art reproductions."@en,
+        "Inyección de tinta pigmentada de bellas artes sobre papel o lienzo de archivo, con alta fidelidad de color y longevidad — la técnica detrás de las reproducciones de arte."@es,
+        "आर्काइवल काग़ज़ या कैनवास पर फ़ाइन-आर्ट पिगमेंट इंकजेट, उच्च रंग सटीकता और दीर्घायु — ललित-कला प्रतिकृतियों के पीछे की मुद्रण तकनीक।"@hi,
+        "アーカイバル紙やキャンバスへのファインアート顔料インクジェット。高い色再現性と保存性を持つ — 美術複製の背後にある印刷技法。"@ja,
+        "Fine-art pigment-blekkskriver på arkivbestandig papir eller lerret, med høy fargenøyaktighet og holdbarhet — trykketeknikken bak kunstgjengivelser."@nb,
+        "Kunstdruk met pigment-inkjet op archiefbestendig papier of canvas, met hoge kleurnauwkeurigheid en levensduur — de druktechniek achter kunstreproducties."@nl,
+        "Artystyczny druk atramentowy pigmentowy na papierze lub płótnie archiwalnym, dający wysoką wierność barw i trwałość — technika stojąca za reprodukcjami dzieł sztuki."@pl,
+        "Jato de tinta pigmentada de belas-artes em papel ou tela de qualidade arquivística, com alta fidelidade de cor e longevidade — a técnica de impressão por trás das reproduções de arte."@pt,
+        "Konsttryck med pigment-inkjet på arkivbeständigt papper eller kanvas, ger hög färgprecision och livslängd — trycktekniken bakom konstreproduktioner."@sv,
+        "在收藏级纸张或画布上进行的美术级颜料喷墨印刷，色彩精准且保存持久 — 美术复制品背后的印刷技法。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§GICLEE" ;
+    skos:prefLabel "Giclée"@da,
+        "Giclée"@de,
+        "Giclée"@en,
+        "Giclée"@es,
+        "जिक्ले"@hi,
+        "ジクレー"@ja,
+        "Giclée"@nb,
+        "Giclée"@nl,
+        "Giclée"@pl,
+        "Giclée"@pt,
+        "Giclée"@sv,
+        "艺术微喷"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-22" .
+

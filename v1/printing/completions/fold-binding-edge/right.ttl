@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/fold-binding-edge/right> a skos:Concept ;
+    dcterms:created "2026-06-19T09:56:13+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:altLabel "Bound on the right"@en,
+        "Right edge"@en,
+        "Right fold"@en,
+        "Right-edge binding"@en,
+        "Right-hand binding"@en,
+        "दाईं बाइंडिंग"@hi,
+        "दायाँ किनारा"@hi,
+        "दायाँ फ़ोल्ड"@hi,
+        "राइट बाइंडिंग"@hi,
+        "Høyre fals"@nb,
+        "Høyre kant"@nb,
+        "Høyrebundet"@nb,
+        "krawędź prawa"@pl,
+        "oprawa prawostronna"@pl,
+        "złam prawy"@pl,
+        "borda direita"@pt,
+        "dobra à direita"@pt,
+        "encadernado à direita"@pt,
+        "encadernação à direita"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/completions/fold-binding-edge> ;
+    skos:definition "Fals- eller indbindingskant placeret på produktets højre side — bruges til højre-mod-venstre-sprog som arabisk, hebraisk og traditionelle japanske/kinesiske udgivelser samt manga. Læseren åbner omslaget fra venstre mod højre."@da,
+        "Falz- oder Bindungskante an der rechten Seite des Produkts — verwendet für Sprachen mit Leserichtung von rechts nach links wie Arabisch, Hebräisch und traditionelle japanische/chinesische Publikationen sowie Manga. Der Leser öffnet das Cover von links nach rechts."@de,
+        "Fold or binding edge placed on the right side of the product — used for right-to-left languages such as Arabic, Hebrew, and traditional Japanese/Chinese publications, and for manga. Reader opens the cover from left to right."@en,
+        "Pliegue o encuadernación por el lado derecho — para lenguas de derecha a izquierda como el árabe y el hebreo, y para manga."@es,
+        "उत्पाद के दाएँ किनारे पर फ़ोल्ड या बाइंडिंग — अरबी, हिब्रू और उर्दू जैसी दाएँ-से-बाएँ भाषाओं, पारंपरिक जापानी/चीनी प्रकाशनों और मांगा में। पाठक कवर बाएँ से दाएँ खोलता है।"@hi,
+        "折りまたは綴じの辺が印刷物の右側に配置される — アラビア語、ヘブライ語、伝統的な日本語・中国語の出版物やマンガなど右から左に読む言語に使用される。読者は表紙を左から右に開く。"@ja,
+        "Folde- eller bindingskant plassert på høyre side av produktet — brukt for høyre-til-venstre-språk som arabisk, hebraisk og tradisjonelle japanske/kinesiske publikasjoner, samt manga. Leseren åpner omslaget fra venstre til høyre."@nb,
+        "Vouw- of bindzijde aan de rechterkant van het product — gebruikt voor rechts-naar-linkstalen zoals Arabisch en Hebreeuws, traditionele Japanse/Chinese publicaties en manga. De lezer opent het omslag van links naar rechts."@nl,
+        "Krawędź złamu lub oprawy umieszczona po prawej stronie produktu — stosowana w językach pisanych od prawej do lewej, takich jak arabski i hebrajski, w tradycyjnych publikacjach japońskich/chińskich oraz w mandze. Czytelnik otwiera okładkę od lewej do prawej."@pl,
+        "Dobra ou encadernação no lado direito do produto — usada em línguas escritas da direita para a esquerda, como árabe e hebraico, em publicações tradicionais japonesas/chinesas e em mangás. O leitor abre a capa da esquerda para a direita."@pt,
+        "Fals eller bindningskant placerad på produktens högra sida — används för höger-till-vänster-språk som arabiska, hebreiska och traditionella japanska/kinesiska publikationer samt manga. Läsaren öppnar omslaget från vänster till höger."@sv,
+        "右侧折页或装订 —— 用于阿拉伯语、希伯来语等从右到左的语言及漫画。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§RIGHT" ;
+    skos:prefLabel "Højre"@da,
+        "Rechts"@de,
+        "Right"@en,
+        "Derecha"@es,
+        "दाएँ"@hi,
+        "右"@ja,
+        "Høyre"@nb,
+        "Rechts"@nl,
+        "Prawa"@pl,
+        "Direita"@pt,
+        "Höger"@sv,
+        "右"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.3 · p.64" ;
+            ptpge:mappingRow "crosswalk row 47" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "BindingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

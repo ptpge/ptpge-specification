@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/arch-series",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Arch Series",
+    "es": "Serie Arch (Arquitectónica)",
+    "zh-Hans": "建筑系列（Arch）",
+    "nb": "Arch-serie",
+    "de": "Arch-Reihe",
+    "ja": "Arch判",
+    "sv": "Arch-serien",
+    "da": "Arch-serien",
+    "nl": "Arch-reeks",
+    "pl": "Seria Arch",
+    "pt": "Série Arch",
+    "hi": "Arch सीरीज़"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats",
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-a",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-b",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-c",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-d",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e1",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Architectural paper sizes (Arch A through Arch E3) used in North American architectural and engineering drawings, with proportions optimized for technical drafting.",
+    "nb": "Arkitekturpapirstørrelser (Arch A til Arch E3) brukt i nordamerikanske arkitektur- og ingeniørtegninger, med proporsjoner optimalisert for teknisk tegning.",
+    "de": "Architekten-Papierformate (Arch A bis Arch E3), eingesetzt für nordamerikanische Architektur- und Konstruktionszeichnungen, mit für das technische Zeichnen optimierten Proportionen.",
+    "ja": "建築用用紙寸法（Arch A〜Arch E3）。北米の建築・エンジニアリング図面で使用され、技術製図に最適化された比率。",
+    "es": "Tamaños arquitectónicos de papel (Arch A a Arch E3) utilizados en planos arquitectónicos y de ingeniería en Norteamérica, con proporciones optimizadas para dibujo técnico.",
+    "zh-Hans": "用于北美建筑和工程图纸的建筑纸张尺寸（Arch A到Arch E3），比例针对技术制图优化。",
+    "sv": "Arkitektpappersformat (Arch A till Arch E3) som används i nordamerikanska arkitekt- och ingenjörsritningar, med proportioner optimerade för tekniskt ritande.",
+    "da": "Arkitektpapirformater (Arch A til Arch E3), der bruges i nordamerikanske arkitekt- og ingeniørtegninger, med proportioner optimeret til teknisk tegning.",
+    "nl": "Architectenpapierformaten (Arch A tot Arch E3), gebruikt in Noord-Amerikaanse architectuur- en engineeringtekeningen, met verhoudingen geoptimaliseerd voor technisch tekenen.",
+    "pl": "Architektoniczne formaty papieru (Arch A do Arch E3) używane w północnoamerykańskich rysunkach architektonicznych i inżynierskich, o proporcjach zoptymalizowanych pod kreślenie techniczne.",
+    "pt": "Tamanhos de papel arquitetônicos (Arch A a Arch E3) usados em desenhos arquitetônicos e de engenharia na América do Norte, com proporções otimizadas para desenho técnico.",
+    "hi": "उत्तर अमेरिकी वास्तु और इंजीनियरिंग चित्रों में प्रयुक्त वास्तु काग़ज़ आकार (Arch A से Arch E3), तकनीकी ड्राफ़्टिंग के लिए अनुकूलित अनुपात।"
+  },
+  "scopeNote": {
+    "en": "Eight sizes total. Arch A through Arch E1 follow the standard architectural progression; Arch E2 and E3 are less common engineering sizes. Aspect ratios are 4:3 or 3:2 — better suited to technical drawings than the ANSI 1:1.29 ratio.",
+    "nb": "Åtte størrelser totalt. Arch A til Arch E1 følger standard arkitekturprogresjonen; Arch E2 og E3 er mindre vanlige ingeniørstørrelser. Sideforhold er 4:3 eller 3:2 — bedre egnet for tekniske tegninger enn ANSI 1:1,29.",
+    "de": "Insgesamt acht Größen. Arch A bis Arch E1 folgen der klassischen Architektenstaffelung; Arch E2 und E3 sind weniger verbreitete Konstruktionsformate. Die Seitenverhältnisse betragen 4:3 oder 3:2 — für technische Zeichnungen besser geeignet als das ANSI-Verhältnis von 1:1,29.",
+    "ja": "全部で8サイズ。Arch A〜Arch E1は標準的な建築用進行に従う。Arch E2およびE3は使用頻度が低いエンジニアリングサイズ。アスペクト比は4:3または3:2 — ANSIの1:1.29比率より技術図面に適する。",
+    "es": "Ocho tamaños en total. De Arch A a Arch E1 siguen la progresión arquitectónica estándar; Arch E2 y E3 son tamaños de ingeniería menos comunes. Las relaciones de aspecto son 4:3 o 3:2 — más adecuadas para dibujo técnico que la 1:√2 de la serie ISO.",
+    "zh-Hans": "共八种尺寸。Arch A到Arch E1遵循标准建筑级数；Arch E2和E3是较不常见的工程尺寸。宽高比为4:3或3:2——比ISO的1:√2更适合技术制图。",
+    "pt": "Oito tamanhos no total. Arch A a Arch E1 seguem a progressão arquitetônica padrão; Arch E2 e E3 são tamanhos de engenharia menos comuns. As proporções são 4:3 ou 3:2 — mais adequadas a desenhos técnicos que a proporção ANSI de 1:1,29.",
+    "hi": "कुल आठ आकार। Arch A से Arch E1 मानक वास्तु क्रम का पालन करते हैं; Arch E2 और E3 कम प्रचलित इंजीनियरिंग आकार हैं। अनुपात 4:3 या 3:2 — ANSI के 1:1.29 अनुपात से तकनीकी चित्रों के लिए बेहतर।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:CF-FMT-ARCH",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/c-series/c5",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "C5 (162 x 229 mm)",
+    "es": "C5 (162 × 229 mm)",
+    "zh-Hans": "C5 (162 × 229 mm)",
+    "nb": "C5 (162 x 229 mm)",
+    "de": "C5 (162 x 229 mm)",
+    "ja": "C5 (162 x 229 mm)",
+    "sv": "C5 (162 x 229 mm)",
+    "da": "C5 (162 x 229 mm)",
+    "nl": "C5 (162 x 229 mm)",
+    "pl": "C5 (162 x 229 mm)",
+    "pt": "C5 (162 x 229 mm)",
+    "hi": "C5 (162 x 229 mm)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§C5",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/c-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "162 × 229 mm (6.38 × 9.02 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A4 sheet folded once, or an A5 sheet flat. Common for thick correspondence.",
+    "nb": "162 × 229 mm (6,38 × 9,02 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A4-ark brettet én gang, eller et A5-ark uten brett. Vanlig for tykk korrespondanse.",
+    "de": "162 × 229 mm (6,38 × 9,02 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen einmal gefalteten A4-Bogen oder einen ungefalteten A5-Bogen. Üblich für umfangreichere Korrespondenz.",
+    "ja": "162×229mm（6.38×9.02インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A4を1回折って、またはA5を折らずに収納。厚みのある書類で一般的。",
+    "es": "Sobre C5 de la serie C de ISO 269, dimensiones 162 × 229 mm. Diseñado para contener una hoja A del mismo número.",
+    "zh-Hans": "ISO 269 C系列C5信封，尺寸162 × 229 mm。设计用于装相同编号的A纸。",
+    "sv": "162 × 229 mm (6.38 × 9.02 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A4-ark vikt en gång, eller ett A5-ark plant. Vanligt för tjockare korrespondens.",
+    "da": "162 × 229 mm (6.38 × 9.02 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A4-ark foldet én gang, eller et A5-ark fladt. Almindeligt til tykkere korrespondance.",
+    "nl": "162 × 229 mm (6.38 × 9.02 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een eenmaal gevouwen A4-vel, of een vlak A5-vel. Gebruikelijk voor dikkere correspondentie.",
+    "pl": "162 × 229 mm (6,38 × 9,02 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A4 złożony raz lub arkusz A5 na płasko. Typowa dla grubszej korespondencji.",
+    "pt": "162 × 229 mm (6.38 × 9.02 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A4 dobrada uma vez, ou uma A5 aberta. Comum em correspondência volumosa.",
+    "hi": "162 × 229 mm (6.38 × 9.02 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A4 शीट एक बार मुड़ी या A5 सपाट समाती है। मोटे पत्राचार में आम।"
+  },
+  "properties": {
+    "width": 162,
+    "height": 229,
+    "unit": "mm",
+    "aspectRatio": 1.4136,
+    "standard": "ISO 269",
+    "area": 37098
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "162 x 229 mm",
+      "162x229",
+      "162×229",
+      "16.2 x 22.9 cm",
+      "DIN C5"
+    ],
+    "nb": [
+      "C5-format"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

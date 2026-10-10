@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/geography/europe/bosnia-and-herzegovina> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T18:09:48+00:00"^^xsd:dateTime ;
+    skos:altLabel "BA"@en,
+        "BIH"@en,
+        "BA"@pl,
+        "BIH"@pl ;
+    skos:broader <https://ptpge.org/v1/ordering/geography/europe> ;
+    skos:definition "Bosnien-Hercegovina — geografisk facet på landeniveau, der bruges til produktspecifikation, tilpasning til regionale standarder, leverandørlistning og afgrænsning af fragt og levering."@da,
+        "Bosnia and Herzegovina — länderspezifische geografische Facette zur Verwendung in der Produktspezifikation, regionalen Standardausrichtung, Lieferantenliste und Versand-/Lieferzonen."@de,
+        "Bosnia and Herzegovina — country-level geographic facet used for product specification, regional standards alignment, supplier listing, and shipping/delivery scoping."@en,
+        "Bosnia and Herzegovina — faceta geográfica a nivel de país utilizada para especificación de producto, alineación con normas regionales, listados de proveedores y zonas de envío y entrega."@es,
+        "बोस्निया और हर्ज़ेगोविना — देश-स्तरीय भौगोलिक पहलू, जो उत्पाद विनिर्देश, क्षेत्रीय मानकों के संरेखण, आपूर्तिकर्ता सूची और शिपिंग/डिलीवरी के दायरे के लिए प्रयुक्त होता है।"@hi,
+        "Bosnia and Herzegovina — 製品仕様、地域標準への適合、供給者リスト、配送ゾーンに使用される国レベルの地理的ファセット。"@ja,
+        "Bosnia and Herzegovina — land-nivå geografisk fasett brukt til produkt-spesifikasjon, regional standard-tilpasning, leverandør-lister og frakt/leverings-avgrensning."@nb,
+        "Bosnië en Herzegovina — geografische facet op landniveau, gebruikt voor productspecificatie, afstemming op regionale standaarden, leverancierslijsten en afbakening van verzending en levering."@nl,
+        "Bośnia i Hercegowina — aspekt geograficzny na poziomie kraju używany do specyfikacji produktu, dopasowania standardów regionalnych, listowania dostawców i zakresu wysyłki/dostawy."@pl,
+        "Bósnia e Herzegovina — faceta geográfica de nível de país usada para especificação de produto, alinhamento a normas regionais, listagem de fornecedores e delimitação de envio/entrega."@pt,
+        "Bosnien och Hercegovina — geografisk facett på landsnivå som används för produktspecifikation, anpassning till regionala standarder, leverantörslistning och avgränsning av frakt och leverans."@sv,
+        "Bosnia and Herzegovina——用于产品规格、地区标准对接、供应商列表和发货/配送范围的国家级地理分面。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:GY§BOSNIA-AND-HERZEGOVINA" ;
+    skos:prefLabel "Bosnien-Hercegovina"@da,
+        "Bosnien und Herzegowina"@de,
+        "Bosnia and Herzegovina"@en,
+        "Bosnia y Herzegovina"@es,
+        "बोस्निया और हर्ज़ेगोविना"@hi,
+        "ボスニア・ヘルツェゴビナ"@ja,
+        "Bosnia-Hercegovina"@nb,
+        "Bosnië en Herzegovina"@nl,
+        "Bośnia i Hercegowina"@pl,
+        "Bósnia e Herzegovina"@pt,
+        "Bosnien och Hercegovina"@sv,
+        "波斯尼亚和黑塞哥维那"@zh-Hans ;
+    ptpge:elementType "place" ;
+    ptpge:group "geography" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-26" .
+

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "26 x 38 in"@en,
+        "26x38"@en,
+        "26×38"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/arch-series> ;
+    skos:definition "26 × 38 tommer (660.4 × 965.2 mm). Mindre almindeligt arkitekttegningsformat."@da,
+        "26 × 38 in (660,4 × 965,2 mm). Weniger verbreitetes Format für Architekturzeichnungen."@de,
+        "26 × 38 in (660.4 × 965.2 mm). Less common architectural drawing size."@en,
+        "Tamaño arquitectónico Arch E2 para planos arquitectónicos y de ingeniería norteamericanos, 660 × 965 mm / 26 × 38 in."@es,
+        "26 × 38 in (660.4 × 965.2 mm). कम प्रचलित वास्तु चित्र आकार।"@hi,
+        "26×38インチ（660.4×965.2mm）。使用頻度が低い建築図面サイズ。"@ja,
+        "26 × 38 in (660,4 × 965,2 mm). Mindre vanlig arkitekturtegningsstørrelse."@nb,
+        "26 × 38 inch (660.4 × 965.2 mm). Minder gangbaar formaat voor architectuurtekeningen."@nl,
+        "26 × 38 cali (660,4 × 965,2 mm). Rzadziej używany format rysunków architektonicznych."@pl,
+        "26 × 38 in (660.4 × 965.2 mm). Tamanho de desenho arquitetônico menos comum."@pt,
+        "26 × 38 tum (660.4 × 965.2 mm). Mindre vanligt arkitektritningsformat."@sv,
+        "建筑尺寸Arch E2，用于北美建筑和工程图纸，660 × 965 mm / 26 × 38 in。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§ARCH-E2" ;
+    skos:prefLabel "Arch E2 (26 x 38 tum)"@da,
+        "Arch E2 (26 x 38 in)"@de,
+        "Arch E2 (26 x 38 in)"@en,
+        "Arch E2 (660 × 965 mm / 26 × 38 in)"@es,
+        "Arch E2 (26 x 38 in)"@hi,
+        "Arch E2 (26 x 38 in)"@ja,
+        "Arch E2 (26 x 38 in)"@nb,
+        "Arch E2 (26 x 38 tum)"@nl,
+        "Arch E2 (26 x 38 in)"@pl,
+        "Arch E2 (26 x 38 in)"@pt,
+        "Arch E2 (26 x 38 tum)"@sv,
+        "Arch E2 (660 × 965 mm / 26 × 38 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 988.0 ;
+            ptpge:aspectRatio 1.4615 ;
+            ptpge:height 38.0 ;
+            ptpge:standard "ANSI/ASME Y14.1" ;
+            ptpge:unit "in" ;
+            ptpge:width 26.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

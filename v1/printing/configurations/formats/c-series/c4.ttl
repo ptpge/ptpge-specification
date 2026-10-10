@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/c-series/c4> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "22.9 x 32.4 cm"@en,
+        "229 x 324 mm"@en,
+        "229x324"@en,
+        "229×324"@en,
+        "DIN C4"@en,
+        "C4-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/c-series> ;
+    skos:definition "229 × 324 mm (9.02 × 12.76 tommer). Del af C-serien i ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært som kuvertformat. Rummer et A4-ark fladt — almindeligt til ufoldet forretningskorrespondance og certifikater."@da,
+        "229 × 324 mm (9,02 × 12,76 in). Teil der ISO-269-C-Reihe, dimensioniert zwischen A- und B-Reihe — hauptsächlich als Briefumschlagformat verwendet. Fasst einen A4-Bogen ungefaltet — üblich für ungefaltete Geschäftskorrespondenz und Urkunden."@de,
+        "229 × 324 mm (9.02 × 12.76 in). Part of the ISO 269 C series, sized between the A and B series — primarily used as an envelope size. Holds an A4 sheet flat — common for unfolded business correspondence and certificates."@en,
+        "Sobre C4 de la serie C de ISO 269, dimensiones 229 × 324 mm. Diseñado para contener una hoja A del mismo número."@es,
+        "229 × 324 mm (9.02 × 12.76 in). ISO 269 C-सीरीज़ का हिस्सा, A और B सीरीज़ के बीच — मुख्यतः लिफ़ाफ़े के आकार के रूप में। A4 शीट सपाट समाती है — बिना मुड़े व्यावसायिक पत्राचार और प्रमाणपत्रों में आम।"@hi,
+        "229×324mm（9.02×12.76インチ）。ISO 269 Cシリーズの一部、AシリーズとBシリーズの中間 — 主に封筒サイズとして使用される。A4シートを折らずに収納 — 折らないビジネス文書および証書で一般的。"@ja,
+        "229 × 324 mm (9,02 × 12,76 in). Del av ISO 269 C-serien, dimensjonert mellom A- og B-serien — primært brukt som konvoluttstørrelse. Rommer et A4-ark uten brett — vanlig for ubrettet forretningskorrespondanse og diplomer."@nb,
+        "229 × 324 mm (9.02 × 12.76 inch). Onderdeel van de C-reeks in ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt als envelopformaat. Biedt plaats aan een vlak A4-vel — gebruikelijk voor ongevouwen zakelijke correspondentie en certificaten."@nl,
+        "229 × 324 mm (9,02 × 12,76 cala). Część serii C normy ISO 269, pomiędzy seriami A i B — używana głównie jako format kopert. Mieści arkusz A4 na płasko — typowa dla niezłożonej korespondencji biznesowej i certyfikatów."@pl,
+        "229 × 324 mm (9.02 × 12.76 in). Faz parte da série C da ISO 269, entre as séries A e B — usada sobretudo como tamanho de envelope. Comporta uma folha A4 aberta — comum em correspondência comercial sem dobra e certificados."@pt,
+        "229 × 324 mm (9.02 × 12.76 tum). Del av C-serien i ISO 269, dimensionerad mellan motsvarande A- och B-format — används främst som kuvertformat. Rymmer ett A4-ark plant — vanligt för ovikt affärskorrespondens och certifikat."@sv,
+        "ISO 269 C系列C4信封，尺寸229 × 324 mm。设计用于装相同编号的A纸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§C4" ;
+    skos:prefLabel "C4 (229 x 324 mm)"@da,
+        "C4 (229 x 324 mm)"@de,
+        "C4 (229 x 324 mm)"@en,
+        "C4 (229 × 324 mm)"@es,
+        "C4 (229 x 324 mm)"@hi,
+        "C4 (229 x 324 mm)"@ja,
+        "C4 (229 x 324 mm)"@nb,
+        "C4 (229 x 324 mm)"@nl,
+        "C4 (229 x 324 mm)"@pl,
+        "C4 (229 x 324 mm)"@pt,
+        "C4 (229 x 324 mm)"@sv,
+        "C4 (229 × 324 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 74196.0 ;
+            ptpge:aspectRatio 1.4148 ;
+            ptpge:height 324.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 229.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

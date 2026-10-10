@@ -1,0 +1,115 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "type": "skos:Concept",
+  "status": "proposed",
+  "level": "element",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "elementType": "reference",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "id": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems/ncs",
+  "notation": "P:ST§NCS",
+  "label": {
+    "en": "NCS",
+    "nb": "NCS",
+    "de": "NCS",
+    "ja": "NCS",
+    "es": "NCS",
+    "zh-Hans": "NCS",
+    "nl": "NCS",
+    "sv": "NCS",
+    "da": "NCS",
+    "pl": "NCS",
+    "pt": "NCS",
+    "hi": "NCS"
+  },
+  "altLabels": {
+    "en": [
+      "Natural Colour System",
+      "Natural Color System",
+      "NCS Colour",
+      "NCS notation"
+    ],
+    "nb": [
+      "Natural Colour System",
+      "NCS-farger"
+    ],
+    "sv": [
+      "Natural Colour System",
+      "NCS-färger"
+    ],
+    "da": [
+      "Natural Colour System",
+      "NCS-farver"
+    ],
+    "de": [
+      "Natural Colour System",
+      "NCS-Farben"
+    ],
+    "nl": [
+      "Natural Colour System"
+    ],
+    "es": [
+      "Natural Colour System"
+    ],
+    "ja": [
+      "ナチュラルカラーシステム"
+    ],
+    "zh-Hans": [
+      "自然色彩系统"
+    ],
+    "pl": [
+      "Natural Colour System",
+      "notacja NCS",
+      "kolor NCS"
+    ],
+    "pt": [
+      "Natural Colour System",
+      "Natural Color System",
+      "NCS Colour",
+      "notação NCS"
+    ],
+    "hi": [
+      "Natural Colour System",
+      "Natural Color System",
+      "NCS Colour",
+      "NCS नोटेशन"
+    ]
+  },
+  "definition": {
+    "en": "NCS (Natural Colour System) — Swedish perceptual colour standard that describes any surface colour by its likeness to six elementary colours. Widely specified for paint, coatings, interiors and signage rather than for printing inks: a print job meets NCS when it is asked to MATCH a painted or coated surface, and the notation is converted to process or spot colour for reproduction. Not an ink library to order from.",
+    "nb": "NCS (Natural Colour System) — svensk perseptuell fargestandard som beskriver enhver overflatefarge ut fra likheten til seks elementærfarger. Spesifiseres mest for maling, belegg, interiør og skilt, ikke for trykkfarger: et trykk møter NCS når det skal TREFFE en malt eller belagt flate, og notasjonen omregnes til prosess- eller spotfarge. Ikke et blekkbibliotek å bestille fra.",
+    "pl": "NCS (Natural Colour System) — szwedzki percepcyjny standard barw opisujący każdą barwę powierzchni przez jej podobieństwo do sześciu barw elementarnych. Specyfikowany głównie dla farb malarskich, powłok, wnętrz i oznakowania, a nie dla farb drukarskich: zlecenie drukarskie spotyka NCS, gdy ma DOPASOWAĆ się do malowanej lub powlekanej powierzchni, a notacja jest konwertowana na kolor procesowy lub dodatkowy do reprodukcji. Nie jest biblioteką farb do zamawiania.",
+    "pt": "NCS (Natural Colour System) — norma sueca de cor perceptiva que descreve qualquer cor de superfície por sua semelhança com seis cores elementares. Amplamente especificada para tintas de parede, revestimentos, interiores e sinalização, não para tintas de impressão: um trabalho impresso atende ao NCS quando lhe pedem para CORRESPONDER a uma superfície pintada ou revestida, e a notação é convertida em cor de processo ou especial para reprodução. Não é uma biblioteca de tintas para encomendar.",
+    "hi": "NCS (Natural Colour System) — स्वीडिश प्रत्यक्षण रंग मानक जो किसी भी सतह रंग को छह मूल रंगों से उसकी समानता से वर्णित करता है। मुद्रण स्याही के बजाय पेंट, कोटिंग, इंटीरियर और साइनेज के लिए व्यापक रूप से निर्दिष्ट: प्रिंट जॉब NCS तब पूरा करता है जब उसे किसी पेंटेड या कोटेड सतह से मिलान करने को कहा जाए, और नोटेशन पुनरुत्पादन के लिए प्रोसेस या स्पॉट रंग में बदला जाता है। ऑर्डर करने का स्याही पुस्तकालय नहीं।"
+  },
+  "properties": {
+    "systemRole": "surface-standard"
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "created": "2026-08-27T00:00:00Z",
+  "version": "2026-08-27",
+  "modified": "2026-09-23T06:50:01Z",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Color",
+        "ColorantControl",
+        "ColorSpaceConversionParams"
+      ],
+      "refs": [
+        "§6.14 · p.166",
+        "§6.15 · p.168",
+        "§6.17 · p.172"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 4"
+    }
+  ]
+}

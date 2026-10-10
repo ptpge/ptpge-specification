@@ -1,0 +1,67 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "category",
+  "label": {
+    "en": "Printing Technologies",
+    "es": "Tecnologías de Impresión",
+    "zh-Hans": "印刷工艺",
+    "nb": "Trykk-teknologier",
+    "de": "Drucktechnologien",
+    "ja": "印刷技術",
+    "sv": "Tryckteknologier",
+    "da": "Trykteknologier",
+    "nl": "Druktechnologieën",
+    "pl": "Technologie druku",
+    "pt": "Tecnologias de impressão",
+    "hi": "मुद्रण तकनीकें"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies",
+  "narrower": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The fundamental processes by which ink (or another marking agent) is transferred to a substrate — independent of the specific equipment used.",
+    "nb": "De grunnleggende prosessene som blekk (eller annet markeringsmiddel) overføres til et substrat med — uavhengig av det spesifikke utstyret som brukes.",
+    "de": "Die grundlegenden Verfahren, mit denen Tinte (oder ein anderes Markierungsmittel) auf einen Bedruckstoff übertragen wird — unabhängig vom konkret eingesetzten Gerät.",
+    "ja": "インキ（または他のマーキング剤）が基材に転写される基本的な工程 — 使用される具体的な機器とは独立している。",
+    "es": "Los procesos fundamentales por los que la tinta (u otro agente de marcado) se transfiere a un sustrato — independientes del equipo específico utilizado.",
+    "zh-Hans": "将油墨（或其他标记介质）转移到承印物上的基本工艺——独立于所用的具体设备。",
+    "sv": "De grundläggande processer genom vilka bläck (eller annat märkmedel) överförs till ett substrat — oberoende av vilken specifik utrustning som används.",
+    "da": "De grundlæggende processer, hvorved farve (eller et andet mærkemiddel) overføres til et substrat — uafhængigt af hvilket specifikt udstyr der bruges.",
+    "nl": "De fundamentele processen waarmee inkt (of een ander markeermiddel) op een substraat wordt overgebracht — onafhankelijk van de specifieke apparatuur.",
+    "pl": "Podstawowe procesy, w których farba (lub inny środek znakujący) jest przenoszona na podłoże — niezależnie od konkretnego użytego urządzenia.",
+    "pt": "Os processos fundamentais pelos quais a tinta (ou outro agente marcador) é transferida a um substrato — independentemente do equipamento específico usado.",
+    "hi": "वे मूलभूत प्रक्रियाएँ जिनसे स्याही (या कोई अन्य अंकन एजेंट) सब्सट्रेट पर स्थानांतरित होती है — प्रयुक्त विशिष्ट उपकरण से स्वतंत्र।"
+  },
+  "scopeNote": {
+    "en": "Includes analog technologies (offset, flexography, gravure, screen, letterpress, intaglio printmaking), digital technologies (electrophotography/laser, inkjet variants, Riso, nano), and hybrid combinations (digital offset, hybrid flexo). Equipment manufacturers and specific models are tracked under Printing & Finishing Equipment.",
+    "nb": "Inkluderer analoge teknologier (offset, fleksografi, gravure, silketrykk, letterpress, intaglio-trykk), digitale teknologier (elektrofotografi/laser, inkjet-varianter, Riso, nano) og hybrid-kombinasjoner (digital offset, hybrid flexo). Utstyrsprodusenter og spesifikke modeller spores under Printing & Finishing Equipment.",
+    "de": "Umfasst analoge Technologien (Offset, Flexodruck, Tiefdruck, Siebdruck, Buchdruck, Stichtiefdruck-Druckgrafik), digitale Technologien (Elektrofotografie/Laser, Inkjet-Varianten, Riso, Nano) und hybride Kombinationen (Digitaloffset, Hybrid-Flexo). Gerätehersteller und konkrete Modelle werden unter Druck- & Weiterverarbeitungsgeräte geführt.",
+    "ja": "アナログ技術（オフセット、フレキソ、グラビア、シルク、活版、凹版版画）、デジタル技術（電子写真／レーザー、インクジェットのバリアント、Riso、ナノ）、ハイブリッドの組み合わせ（デジタルオフセット、ハイブリッドフレキソ）を含む。機器メーカーおよび具体的なモデルはPrinting & Finishing Equipmentで扱う。",
+    "es": "Incluye tecnologías analógicas (offset, flexografía, huecograbado, serigrafía, tipografía, calcografía artística), tecnologías digitales (electrofotografía/láser, variantes de inyección de tinta, Riso, nano) y combinaciones híbridas. Los fabricantes de equipo y modelos pertenecen a Equipo de Impresión y Acabado.",
+    "zh-Hans": "包括模拟工艺（胶印、柔印、凹印、丝印、活字印刷、铜版凹印）、数码工艺（电子照相/激光、各种喷墨、理想、纳米）以及混合组合。具体的设备制造商和型号属于印刷与印后设备。",
+    "pt": "Inclui tecnologias analógicas (offset, flexografia, rotogravura, serigrafia, tipografia, gravura calcográfica), tecnologias digitais (eletrofotografia/laser, variantes de jato de tinta, Riso, nano) e combinações híbridas (offset digital, flexo híbrida). Fabricantes de equipamentos e modelos específicos ficam em Equipamentos de impressão e acabamento.",
+    "hi": "एनालॉग तकनीकें (ऑफसेट, फ़्लेक्सोग्राफ़ी, ग्रेव्योर, स्क्रीन, लेटरप्रेस, इंटैग्लियो प्रिंटमेकिंग), डिजिटल तकनीकें (इलेक्ट्रोफ़ोटोग्राफ़ी/लेज़र, इंकजेट वेरिएंट, रिसो, नैनो) और हाइब्रिड संयोजन (डिजिटल ऑफसेट, हाइब्रिड फ़्लेक्सो) शामिल। उपकरण निर्माता और विशिष्ट मॉडल मुद्रण और फ़िनिशिंग उपकरण के अंतर्गत।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PTC",
+  "altLabels": {
+    "pl": [
+      "techniki druku"
+    ]
+  }
+}

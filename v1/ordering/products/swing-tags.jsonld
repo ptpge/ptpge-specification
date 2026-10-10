@@ -1,0 +1,282 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/swing-tags",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§SWING-TAGS",
+  "elementType": "product",
+  "label": {
+    "en": "Hang Tags",
+    "nb": "Hengelapper",
+    "de": "Anhänge-Etiketten",
+    "ja": "下げ札",
+    "es": "Etiquetas colgantes",
+    "zh-Hans": "吊牌",
+    "nl": "Hanglabels",
+    "sv": "Hängetiketter",
+    "da": "Hangtags",
+    "pl": "Zawieszki",
+    "pt": "Tags (etiquetas penduradas)",
+    "hi": "हैंग टैग"
+  },
+  "altLabels": {
+    "en": [
+      "swing tag",
+      "hang tag",
+      "price tag",
+      "swing ticket",
+      "Swing Tags",
+      "Swing tags",
+      "Swing tag",
+      "Swing tickets",
+      "Gift tags",
+      "Garment tags",
+      "Clothing tags"
+    ],
+    "nb": [
+      "hengelapp",
+      "prislapp",
+      "Gavelapper"
+    ],
+    "de": [
+      "Geschenkanhänger",
+      "Hängeetiketten",
+      "Preisanhänger",
+      "Kartonanhänger",
+      "Anhänger",
+      "Anhängeetiketten"
+    ],
+    "pl": [
+      "zawieszka",
+      "metka",
+      "zawieszka cenowa",
+      "etykieta zawieszkowa"
+    ],
+    "sv": [
+      "hängetikett",
+      "prislapp",
+      "prislappar",
+      "hangtag",
+      "kläd-etikett"
+    ],
+    "da": [
+      "hangtag",
+      "prisskilt",
+      "prismærke",
+      "prismærker",
+      "hængemærke"
+    ],
+    "nl": [
+      "hanglabel",
+      "hangtag",
+      "hangtags",
+      "prijskaartje",
+      "prijskaartjes",
+      "kledinglabel"
+    ],
+    "pt": [
+      "tag",
+      "tag de roupa",
+      "etiqueta pendurada",
+      "etiqueta de preço",
+      "tag de presente",
+      "etiqueta de cartão"
+    ],
+    "hi": [
+      "हैंग टैग",
+      "स्विंग टैग",
+      "प्राइस टैग",
+      "कपड़ों का टैग",
+      "गारमेंट टैग",
+      "गिफ़्ट टैग"
+    ],
+    "es": [
+      "etiqueta colgante",
+      "etiqueta de cartón",
+      "etiqueta de precio",
+      "hang tag",
+      "etiqueta de ropa"
+    ],
+    "ja": [
+      "タグ",
+      "商品タグ",
+      "値札",
+      "ハングタグ"
+    ],
+    "zh-Hans": [
+      "挂牌",
+      "价格牌",
+      "服装吊牌",
+      "标价牌"
+    ]
+  },
+  "definition": {
+    "en": "A small die-cut card attached to a product by string or loop — pricing, branding and care information.",
+    "nb": "Et lite stanset kort festet til et produkt med snor eller hempe — pris, merkevare og vaskeråd.",
+    "de": "Eine kleine gestanzte Karte, die mit Schnur am Produkt befestigt wird.",
+    "ja": "紐やループで商品に取り付ける小さな型抜き下げ札。価格・ブランド・取り扱い表示に。",
+    "es": "Una etiqueta troquelada pequeña sujeta al producto con cordel o lazo — precio, marca e información de cuidado.",
+    "zh-Hans": "以细绳或环扣系于商品上的小型模切吊牌——价格、品牌与护理信息。",
+    "sv": "Ett litet stansat kort fäst vid en produkt med snöre eller ögla — pris-, varumärkes- och skötselinformation.",
+    "da": "Et lille udstanset kort fastgjort til et produkt med snor eller løkke — pris-, brand- og plejeinformation.",
+    "nl": "Een klein gestanst kaartje aan een product bevestigd met koord of lus — prijs-, merk- en onderhoudsinformatie.",
+    "pl": "Mała wykrawana karta mocowana do produktu sznurkiem lub pętelką — cena, branding i informacje o pielęgnacji.",
+    "pt": "Pequeno cartão com corte especial preso ao produto por cordão ou laço — preço, marca e informações de cuidado.",
+    "hi": "डोरी या लूप से उत्पाद पर लटकाया गया छोटा डाई-कट कार्ड — कीमत, ब्रांडिंग और देखभाल की जानकारी।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle",
+    "https://ptpge.org/v1/printing/configurations/shape/circle",
+    "https://ptpge.org/v1/printing/configurations/shape/freeform"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper"
+  ],
+  "supportsSubstrateFibre": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color"
+  ],
+  "supportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "customSizeRange": {
+    "min": 30,
+    "max": 200,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/kraft-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode",
+    "https://ptpge.org/v1/variables/configuration/shape"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/substrate/substrate-fibre",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

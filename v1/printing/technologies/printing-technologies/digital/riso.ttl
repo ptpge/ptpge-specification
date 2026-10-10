@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital/riso> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "Digital duplicator"@en,
+        "Risograph"@en,
+        "डिजिटल डुप्लीकेटर"@hi,
+        "रिसोग्राफ़"@hi,
+        "Risograf"@nb,
+        "Risograph"@pl,
+        "powielacz cyfrowy"@pl,
+        "Duplicador digital"@pt,
+        "Risografia"@pt,
+        "Risograph"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies/digital> ;
+    skos:definition "Stencilbaseret digital dupliceringsteknik udviklet af RISO Kagaku Corporation — hurtig og økonomisk til tryk i korte og mellemlange serier af mest tekst og enkel grafik. En digital efterkommer af stencilmaskinen."@da,
+        "Schablonenbasierte digitale Vervielfältigungstechnologie, entwickelt von der RISO Kagaku Corporation — schnell und wirtschaftlich für kleine bis mittlere Auflagen, hauptsächlich für Text und einfache Grafiken. Ein digitaler Nachfahre des Mimeografen."@de,
+        "Stencil-based digital duplication technology developed by RISO Kagaku Corporation — fast and economical for short-to-medium run printing of mostly text and simple graphics. A digital descendant of mimeograph."@en,
+        "Duplicador digital Riso — tecnología económica de alta velocidad similar a la serigrafía digital, con tintas a base de soja. Usada para tiradas medias en escuelas, iglesias y producción ligera."@es,
+        "RISO Kagaku Corporation द्वारा विकसित स्टेंसिल-आधारित डिजिटल डुप्लीकेशन तकनीक — मुख्यतः पाठ और सरल ग्राफ़िक्स के शॉर्ट से मीडियम रन के लिए तेज़ और किफ़ायती। मिमियोग्राफ़ का डिजिटल वंशज।"@hi,
+        "理想科学工業（RISO Kagaku Corporation）が開発したステンシルベースのデジタル謄写技術 — テキストや簡単なグラフィックスが大半を占める短～中量印刷において高速かつ経済的。謄写版のデジタル後継。"@ja,
+        "Sjablongbasert digital duplikeringsteknologi utviklet av RISO Kagaku Corporation — rask og økonomisk for kort-til-middel-opplag-trykk av mest tekst og enkel grafikk. En digital etterkommer av mimeograf."@nb,
+        "Sjabloongebaseerde digitale dupliceertechnologie, ontwikkeld door RISO Kagaku Corporation — snel en voordelig voor drukwerk in kleine tot middelgrote oplagen van vooral tekst en eenvoudige graphics. Een digitale afstammeling van de stencilmachine."@nl,
+        "Cyfrowa technologia powielania oparta na matrycach, opracowana przez RISO Kagaku Corporation — szybka i ekonomiczna dla krótkich i średnich nakładów głównie tekstu i prostej grafiki. Cyfrowy potomek powielacza."@pl,
+        "Tecnologia de duplicação digital a estêncil desenvolvida pela RISO Kagaku Corporation — rápida e econômica para impressão de tiragem curta a média, sobretudo de texto e gráficos simples. Descendente digital do mimeógrafo."@pt,
+        "Schablonbaserad digital dupliceringsteknik utvecklad av RISO Kagaku Corporation — snabb och ekonomisk för tryck i korta till medellånga serier av mestadels text och enkel grafik. En digital ättling till stencilapparaten."@sv,
+        "Riso数码油印机——类似数码丝印的经济高速技术，使用大豆基油墨。用于学校、教堂和轻量生产的中等印次。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC§RISO" ;
+    skos:prefLabel "Riso"@da,
+        "Riso"@de,
+        "Riso"@en,
+        "Riso (Duplicador Digital)"@es,
+        "रिसो"@hi,
+        "Riso"@ja,
+        "Riso"@nb,
+        "Riso"@nl,
+        "Riso"@pl,
+        "Riso"@pt,
+        "Riso"@sv,
+        "Riso（数码油印）"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "technologies" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

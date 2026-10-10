@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/double-parallel-fold> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "F8-2"@en,
+        "FoldCatalog F8-2"@en,
+        "F8-2"@hi,
+        "FoldCatalog F8-2"@hi,
+        "F8-2"@pl,
+        "FoldCatalog F8-2"@pl,
+        "F8-2"@pt,
+        "FoldCatalog F8-2"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet> ;
+    skos:definition "En falset ark-opbygning med to parallelle false i samme retning, hvor arket først foldes på midten og derefter på midten igen — giver 8 paneler i 2 flader. Almindelig til kort, instruktioner og indstik."@da,
+        "Ein Falzbogen-Setup mit zwei parallelen Falzungen in dieselbe Richtung, das 8 Paneele (4 pro Seite) in einer gestapelten Konfiguration erzeugt."@de,
+        "A folded sheet setup with two parallel folds in the same direction, producing 8 panels (4 panels per side) in a stacked configuration organised into 2 surfaces: Outside and Inside (each with 4 panels). Each panel is half the width of the previous. Used for compact informational brochures, technical reference sheets, and pharmaceutical inserts where dense content needs orderly multi-panel layout."@en,
+        "Una configuración de hoja plegada con dos pliegues paralelos en la misma dirección, que produce 8 paneles (4 por lado) en configuración apilada, organizados en 2 superficies: Outside e Inside (cada una con 4 paneles). Cada panel tiene la mitad del ancho del anterior. Se usa para folletos informativos compactos, hojas de referencia técnica y prospectos farmacéuticos donde el contenido denso necesita un diseño ordenado de varios paneles."@es,
+        "एक ही दिशा में दो समानांतर फ़ोल्ड वाला फ़ोल्डेड शीट सेटअप, जिससे 8 पैनल (प्रति पक्ष 4) एक के ऊपर एक बनते हैं, 2 सतहों में: बाहरी और भीतरी (हर एक में 4 पैनल)। हर पैनल पिछले की आधी चौड़ाई का। कॉम्पैक्ट सूचना ब्रोशर, तकनीकी संदर्भ शीट और दवाओं के पर्चों में, जहाँ सघन सामग्री को सुव्यवस्थित बहु-पैनल लेआउट चाहिए।"@hi,
+        "同一方向に2本の平行折りを持つ折り加工セットアップ。積み重なる形で8パネル（片面4パネル）が生じ、Outside と Inside の2面（各4パネル）に編成される。各パネルの幅は前のパネルの半分。コンパクトな情報パンフレット、技術リファレンスシート、医薬品添付文書など、密な内容を整然と多パネルに配置する用途に使われる。"@ja,
+        "Et brettet ark-oppsett med to parallelle brett i samme retning, som produserer 8 paneler (4 paneler per side) i en stablet konfigurasjon organisert i 2 surfaces: Outside og Inside (hver med 4 paneler). Hvert panel er halvparten av bredden til det forrige."@nb,
+        "Een gevouwen-vel-opbouw met twee parallelle vouwen in dezelfde richting, waarbij het vel eerst doormidden en daarna nogmaals doormidden wordt gevouwen — geeft 8 panelen in 2 vlakken. Gebruikelijk voor kaarten, instructies en bijsluiters."@nl,
+        "Konfiguracja arkusza złożonego z dwoma równoległymi złamami w tym samym kierunku, dająca 8 skrzydeł (4 na stronę) w układzie warstwowym zorganizowanym w 2 powierzchnie: Zewnętrzna i Wewnętrzna (każda z 4 skrzydłami). Każde skrzydło ma połowę szerokości poprzedniego. Używana do kompaktowych folderów informacyjnych, kart technicznych i ulotek farmaceutycznych, gdzie gęsta treść wymaga uporządkowanego wieloskrzydłowego układu."@pl,
+        "Montagem em folha dobrada com duas dobras paralelas na mesma direção, produzindo 8 painéis (4 por lado) em configuração empilhada, organizados em 2 faces: Exterior e Interior (cada uma com 4 painéis). Cada painel tem metade da largura do anterior. Usada em folhetos informativos compactos, fichas técnicas e bulas farmacêuticas, onde conteúdo denso precisa de layout ordenado em vários painéis."@pt,
+        "En falsat ark-uppbyggnad med två parallella falsar i samma riktning som ger 8 paneler (4 per sida) i staplad konfiguration organiserade i 2 ytor: utsida och insida (var och en med 4 paneler). Varje panel är hälften så bred som den föregående. Används för kompakta informationsbroschyrer, tekniska referensblad och bipacksedlar där tätt innehåll kräver ordnad flerpanelslayout."@sv,
+        "同方向两道平行折的折页构成，形成叠合的8个面板（每面4个），分为2个表面：Outside 与 Inside（各4个面板）。每个面板宽度为前一个的一半。用于紧凑型信息手册、技术参考页与药品说明书等需将密集内容有序多板排布的场合。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§DOUBLE-PARALLEL-FOLD" ;
+    skos:prefLabel "Dobbelt parallelfals"@da,
+        "Doppelparallelfalz-Setup"@de,
+        "Double Parallel Fold Setup"@en,
+        "Configuración de plegado doble paralelo"@es,
+        "डबल पैरलल फ़ोल्ड सेटअप"@hi,
+        "ダブルパラレル折り構成"@ja,
+        "Dobbel parallell brett oppsett"@nb,
+        "Dubbele parallelvouw-opzet"@nl,
+        "Konfiguracja złam podwójny równoległy"@pl,
+        "Montagem dobra paralela dupla"@pt,
+        "Dubbel parallellfals"@sv,
+        "双平行折结构"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/completions/folding/double-parallel-fold> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:panelProportions ( "1/4" "1/4" "1/4" "1/4" ) ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-2 (Parallel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

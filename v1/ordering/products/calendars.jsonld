@@ -1,0 +1,286 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/calendars",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§CALENDARS",
+  "elementType": "product",
+  "label": {
+    "en": "Calendars",
+    "nb": "Kalendere",
+    "de": "Kalender",
+    "ja": "カレンダー",
+    "es": "Calendarios",
+    "zh-Hans": "日历",
+    "nl": "Kalenders",
+    "sv": "Kalendrar",
+    "da": "Kalendere",
+    "pl": "Kalendarze",
+    "pt": "Calendários",
+    "hi": "कैलेंडर"
+  },
+  "altLabels": {
+    "en": [
+      "Calendars",
+      "Calendar",
+      "wall calendar",
+      "desk calendar",
+      "pocket calendar",
+      "Wall calendars",
+      "Wall calendar",
+      "Desk calendars",
+      "Desk calendar",
+      "Wall planners",
+      "Photo Calendars"
+    ],
+    "nb": [
+      "Kalender",
+      "veggkalender",
+      "bordkalender",
+      "kalender",
+      "Veggkalender",
+      "Bordkalender",
+      "Veggplanleggere"
+    ],
+    "de": [
+      "Wandkalender",
+      "Tischkalender",
+      "Wandplaner",
+      "Werbekalender"
+    ],
+    "zh-Hans": [
+      "台历",
+      "挂历",
+      "年历",
+      "口袋日历",
+      "定制日历"
+    ],
+    "pl": [
+      "kalendarz",
+      "kalendarz ścienny",
+      "kalendarz biurkowy",
+      "kalendarz kieszonkowy",
+      "planer ścienny",
+      "fotokalendarz"
+    ],
+    "sv": [
+      "kalender",
+      "väggkalender",
+      "bordskalender",
+      "fickkalender",
+      "almanacka",
+      "almanackor"
+    ],
+    "da": [
+      "kalender",
+      "vægkalender",
+      "bordkalender",
+      "lommekalender",
+      "almanak"
+    ],
+    "nl": [
+      "kalender",
+      "wandkalender",
+      "bureaukalender",
+      "zakkalender",
+      "jaarkalender"
+    ],
+    "pt": [
+      "calendário",
+      "calendário de parede",
+      "calendário de mesa",
+      "calendário de bolso",
+      "folhinha",
+      "planner de parede",
+      "calendário com fotos"
+    ],
+    "hi": [
+      "कैलेंडर",
+      "दीवार कैलेंडर",
+      "डेस्क कैलेंडर",
+      "टेबल कैलेंडर",
+      "पॉकेट कैलेंडर",
+      "फ़ोटो कैलेंडर",
+      "वॉल प्लानर"
+    ],
+    "es": [
+      "calendario",
+      "calendario de pared",
+      "calendario de mesa",
+      "calendario de bolsillo",
+      "agenda",
+      "calendario de sobremesa"
+    ],
+    "ja": [
+      "壁掛けカレンダー",
+      "卓上カレンダー",
+      "ポケットカレンダー",
+      "オリジナルカレンダー"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A printed calendar for wall, desk or pocket — dated month grids, often with images, for promotion and personal use.",
+    "nb": "En trykt kalender for vegg, bord eller lomme — daterte måneds-rutenett, ofte med bilder, for kampanje og personlig bruk.",
+    "de": "Ein gedruckter Kalender für Wand, Tisch oder Tasche — datierte Monatsraster, oft mit Bildern.",
+    "ja": "壁掛け・卓上・ポケット用の印刷カレンダー。月ごとの日付グリッドに写真などを添え、販促や個人利用に。",
+    "es": "Un calendario impreso de pared, sobremesa o bolsillo — cuadrículas mensuales con fechas, a menudo con imágenes, para promoción y uso personal.",
+    "zh-Hans": "挂墙、桌面或口袋式印刷日历——按月排布日期，常配图片，用于促销和个人使用。",
+    "sv": "En tryckt kalender för vägg, skrivbord eller ficka — daterade månadsuppslag, ofta med bilder, för profilering och personligt bruk.",
+    "da": "En trykt kalender til væg, bord eller lomme — daterede månedsgitre, ofte med billeder, til promovering og personlig brug.",
+    "nl": "Een gedrukte kalender voor wand, bureau of zak — gedateerde maandrasters, vaak met beeld, voor promotie en persoonlijk gebruik.",
+    "pl": "Drukowany kalendarz ścienny, biurkowy lub kieszonkowy — siatki miesięcy, często ze zdjęciami, do promocji i użytku osobistego.",
+    "pt": "Calendário impresso de parede, mesa ou bolso — grades mensais datadas, muitas vezes com imagens, para promoção e uso pessoal.",
+    "hi": "दीवार, डेस्क या जेब के लिए मुद्रित कैलेंडर — तारीख़ वाले महीने के ग्रिड, अक्सर चित्रों के साथ, प्रचार और निजी उपयोग के लिए।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/multi-page",
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a6",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4h",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a2",
+    "https://ptpge.org/v1/printing/configurations/formats/us/junior-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/half-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/ledger",
+    "https://ptpge.org/v1/printing/configurations/formats/us/tabloid"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsBinding": [
+    "https://ptpge.org/v1/printing/completions/binding/wire-o-binding",
+    "https://ptpge.org/v1/printing/completions/binding/saddle-stitching",
+    "https://ptpge.org/v1/printing/completions/binding/coil-binding"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 100,
+    "max": 600,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsFoldDirection": [
+    "https://ptpge.org/v1/printing/completions/fold-binding-edge/top"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsBackOrientation": [
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head",
+    "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/finishing/binding",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/page-count",
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/finishing/edge",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/configuration/back-orientation",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

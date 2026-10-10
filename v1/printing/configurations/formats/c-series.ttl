@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/c-series> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "C-serieformater efter ISO 269, dimensioneret mellem de tilsvarende A- og B-formater — bruges primært til kuverter, der rummer ark i A-serien."@da,
+        "ISO-269-C-Reihe-Formate, dimensioniert zwischen den entsprechenden A- und B-Formaten — hauptsächlich für Briefumschläge verwendet, die A-Reihe-Bogen aufnehmen."@de,
+        "ISO 269 C-series sizes, sized between the corresponding A and B sizes — primarily used for envelopes that hold A-series paper sheets."@en,
+        "Tamaños de la serie C de ISO 269, dimensionados entre los tamaños A y B correspondientes — utilizados principalmente para sobres que contienen hojas de papel de la serie A."@es,
+        "ISO 269 C-सीरीज़ आकार, संगत A और B आकारों के बीच — मुख्यतः A-सीरीज़ शीटें रखने वाले लिफ़ाफ़ों में।"@hi,
+        "ISO 269 Cシリーズサイズ。対応するAシリーズとBシリーズの中間に位置し、主にAシリーズ用紙シートを収納する封筒に使用される。"@ja,
+        "ISO 269 C-seriens størrelser, dimensjonert mellom tilsvarende A- og B-størrelser — primært brukt til konvolutter som rommer A-serie-papirark."@nb,
+        "C-reeksformaten volgens ISO 269, bemeten tussen de overeenkomstige A- en B-formaten — voornamelijk gebruikt voor enveloppen die A-reeksvellen bevatten."@nl,
+        "Formaty serii C normy ISO 269, o wymiarach pomiędzy odpowiadającymi formatami A i B — używane głównie do kopert mieszczących arkusze serii A."@pl,
+        "Tamanhos da série C da ISO 269, entre os tamanhos A e B correspondentes — usados sobretudo em envelopes que comportam folhas da série A."@pt,
+        "C-serieformat enligt ISO 269, dimensionerade mellan motsvarande A- och B-format — används främst för kuvert som rymmer ark i A-serien."@sv,
+        "ISO 269 C系列尺寸，介于对应的A和B尺寸之间——主要用于容纳A系列纸张的信封。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/c-series/c0>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c1>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c10>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c2>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c3>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c4>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c5>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c6>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c7>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c8>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series/c9> ;
+    skos:notation "P:CF-FMT-CSER" ;
+    skos:prefLabel "C-serien (ISO 269)"@da,
+        "C-Reihe (ISO 269)"@de,
+        "C Series (ISO 269)"@en,
+        "Serie C (ISO 269)"@es,
+        "C सीरीज़ (ISO 269)"@hi,
+        "C判（ISO 269）"@ja,
+        "C-serie (ISO 269)"@nb,
+        "C-reeks (ISO 269)"@nl,
+        "Seria C (ISO 269)"@pl,
+        "Série C (ISO 269)"@pt,
+        "C-serien (ISO 269)"@sv,
+        "C系列（ISO 269）"@zh-Hans ;
+    skos:scopeNote "Umfasst C0 bis C10. Ein C-Briefumschlag fasst den gleichnamigen A-Bogen ungefaltet (C4 fasst A4 ungefaltet; C5 fasst A4 einmal gefaltet; C6 fasst A4 zweimal gefaltet). Die Reihe ist das geometrische Mittel zwischen A- und B-Reihe."@de,
+        "Includes C0 through C10. A C-envelope holds the same-numbered A-sheet flat (C4 holds A4 unfolded; C5 holds A4 folded once; C6 holds A4 folded twice). The series is the geometric mean between A-series and B-series."@en,
+        "Incluye desde C0 hasta C10. Un sobre C contiene plana la hoja A del mismo número (C4 contiene un A4 sin doblar; C5 contiene un A4 doblado una vez; C6 contiene un A4 doblado dos veces). La serie es la media geométrica entre las series A y B."@es,
+        "C0 से C10। C-लिफ़ाफ़े में उसी संख्या की A-शीट सपाट समाती है (C4 में A4 बिना मुड़ी; C5 में A4 एक बार मुड़ी; C6 में A4 दो बार मुड़ी)। यह सीरीज़ A और B सीरीज़ का ज्यामितीय माध्य है।"@hi,
+        "C0からC10まで含む。C封筒は同番号のAシートを折らずに収納する（C4はA4を折らずに、C5はA4を1回折って、C6はA4を2回折って収納）。CシリーズはAシリーズとBシリーズの幾何平均。"@ja,
+        "Inkluderer C0 til C10. En C-konvolutt rommer samme nummererte A-ark uten brett (C4 rommer A4 ubrettet; C5 rommer A4 brettet én gang; C6 rommer A4 brettet to ganger). Serien er det geometriske gjennomsnittet mellom A- og B-serien."@nb,
+        "Inclui C0 a C10. Um envelope C comporta a folha A de mesmo número aberta (C4 comporta A4 sem dobra; C5 comporta A4 dobrada uma vez; C6 comporta A4 dobrada duas vezes). A série é a média geométrica entre as séries A e B."@pt,
+        "包括C0到C10。C信封平装可容纳相同编号的A纸（C4装A4不折叠；C5装对折一次的A4；C6装对折两次的A4）。该系列是A系列和B系列的几何平均。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

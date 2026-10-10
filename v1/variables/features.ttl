@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/features> a skos:Concept ;
+    dcterms:created "2026-06-17T10:05:27+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables> ;
+    skos:definition "Karakteristik-konfigurationsvariabler — de visuelle og taktile akser et trykt produkt kan konfigureres langs: farvetilstand, overfladefinish og forædling."@da,
+        "Merkmal-Konfigurationsvariablen — die Achsen visueller und haptischer Merkmale, entlang derer ein Druckprodukt konfiguriert werden kann: Farbmodus, Oberflächenveredelung und Zusatzveredelung."@de,
+        "Feature configuration variables — the visual and tactile feature axes a printed product can be configured along: color mode, surface finish and embellishment."@en,
+        "Variables de configuración de características — los ejes de características visuales y táctiles a lo largo de los cuales puede configurarse un producto impreso: modo de color, acabado superficial y ornamentación."@es,
+        "फ़ीचर कॉन्फ़िगरेशन वेरिएबल — वे दृश्य और स्पर्श अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है: कलर मोड, सरफ़ेस फ़िनिश और एम्बेलिशमेंट।"@hi,
+        "特性の構成変数 — 印刷物を構成できる視覚的・触覚的特性の軸。カラーモード、表面加工、加飾など。"@ja,
+        "Egenskapsvariabler — aksene for visuelle og taktile egenskaper et trykkprodukt kan konfigureres langs: fargemodus, overflatebehandling og dekor."@nb,
+        "Kenmerk-configuratievariabelen — de visuele en tactiele assen waarlangs een drukproduct kan worden geconfigureerd: kleurmodus, oppervlakteafwerking en veredeling."@nl,
+        "Zmienne konfiguracyjne cech — osie cech wizualnych i dotykowych, wzdłuż których można skonfigurować produkt drukowany: tryb koloru, wykończenie powierzchni i uszlachetnienie."@pl,
+        "Variáveis de configuração de características — os eixos visuais e táteis ao longo dos quais um impresso pode ser configurado: modo de cor, acabamento de superfície e enobrecimento."@pt,
+        "Konfigurationsvariabler för egenskaper — de visuella och taktila egenskapsaxlar en trycksak kan konfigureras längs: färgläge, ytbehandling och dekor."@sv,
+        "特性配置变量 — 印刷品可沿其配置的视觉与触觉特性轴：色彩模式、表面处理与装饰工艺。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/features/color-mode>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/surface-finish> ;
+    skos:notation "VAR:FT" ;
+    skos:prefLabel "Karakteristika"@da,
+        "Merkmale"@de,
+        "Features"@en,
+        "Características"@es,
+        "फ़ीचर"@hi,
+        "特性"@ja,
+        "Egenskaper"@nb,
+        "Kenmerken"@nl,
+        "Cechy"@pl,
+        "Características"@pt,
+        "Egenskaper"@sv,
+        "特性"@zh-Hans ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

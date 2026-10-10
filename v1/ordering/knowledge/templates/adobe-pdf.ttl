@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/knowledge/templates/adobe-pdf> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/knowledge/templates> ;
+    skos:definition "Adobe PDF — designfil-skabelon for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
+        "Adobe PDF — Design-Dateivorlage für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
+        "Adobe PDF — design file template for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Adobe PDF — plantilla de archivo de diseño para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
+        "Adobe PDF — मुद्रण खरीदारों और डिज़ाइनरों के लिए डिज़ाइन फ़ाइल टेम्पलेट। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
+        "Adobe PDF — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
+        "Adobe PDF — design-fil-mal for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Adobe PDF — ontwerpbestandssjabloon voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt."@nl,
+        "Adobe PDF — szablon pliku projektowego dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
+        "Adobe PDF — modelo de arquivo de design para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
+        "Adobe PDF — designfilsmall för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
+        "Adobe PDF——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:KN§ADOBE-PDF" ;
+    skos:prefLabel "Adobe PDF"@da,
+        "Adobe PDF"@de,
+        "Adobe PDF"@en,
+        "Adobe PDF"@es,
+        "Adobe PDF"@hi,
+        "Adobe PDF"@ja,
+        "Adobe PDF"@nb,
+        "Adobe PDF"@nl,
+        "Adobe PDF"@pl,
+        "Adobe PDF"@pt,
+        "Adobe PDF"@sv,
+        "Adobe PDF"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/graphic-file-formats> ;
+    ptpge:elementType "resource" ;
+    ptpge:group "knowledge" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

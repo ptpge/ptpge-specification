@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/graphic-whizard",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Graphic Whizard",
+    "es": "Graphic Whizard",
+    "zh-Hans": "Graphic Whizard",
+    "nb": "Graphic Whizard",
+    "de": "Graphic Whizard",
+    "ja": "Graphic Whizard",
+    "sv": "Graphic Whizard",
+    "da": "Graphic Whizard",
+    "nl": "Graphic Whizard",
+    "pl": "Graphic Whizard",
+    "pt": "Graphic Whizard",
+    "hi": "Graphic Whizard"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Graphic Whizard — Canadian manufacturer of compact finishing equipment for short-run digital print, including creasers, perforators, and number/score machines.",
+    "nb": "Graphic Whizard — kanadisk produsent av kompakt etterbehandlingsutstyr for korttopplag digital trykk, inkludert creasers, perforerere og nummer-/score-maskiner.",
+    "de": "Graphic Whizard — kanadischer Hersteller kompakter Weiterverarbeitungsgeräte für den Kleinauflagen-Digitaldruck, einschließlich Rillgeräten, Perforiergeräten und Nummerier-/Rillmaschinen.",
+    "ja": "Graphic Whizard — 短納期デジタル印刷向けのコンパクトな仕上げ機器を製造するカナダのメーカー。クリーザー、パーフォレーター、ナンバリング機・スコアリング機を扱う。",
+    "es": "Graphic Whizard — fabricante canadiense de equipo compacto de acabado: numeradoras, hendidoras, perforadoras y plegadoras para producción de tirada corta.",
+    "zh-Hans": "Graphic Whizard —— 加拿大紧凑型印后设备制造商：编号机、压痕机、打孔机和折页机，用于短印次生产。",
+    "sv": "Graphic Whizard — kanadensisk tillverkare av kompakt efterbehandlingsutrustning för digitaltryck i korta serier, inklusive bigmaskiner, perforeringsmaskiner och numrerings-/ritsmaskiner.",
+    "da": "Graphic Whizard — canadisk producent af kompakt efterbehandlingsudstyr til digitaltryk i korte serier, herunder rille-, perforerings- og nummererings-/ritsemaskiner.",
+    "nl": "Graphic Whizard — Canadese fabrikant van compacte afwerkingsapparatuur voor digitaal drukwerk in kleine oplagen, waaronder ril-, perforatie- en nummer-/scoremachines.",
+    "pl": "Graphic Whizard — kanadyjski producent kompaktowych urządzeń wykończeniowych do krótkoseryjnego druku cyfrowego, w tym bigówek, perforówek i numeratorów.",
+    "pt": "Graphic Whizard — fabricante canadense de equipamentos compactos de acabamento para impressão digital de tiragem curta, incluindo vincadoras, picotadoras e numeradoras/vincadoras.",
+    "hi": "Graphic Whizard — शॉर्ट-रन डिजिटल प्रिंट के लिए कॉम्पैक्ट फ़िनिशिंग उपकरणों का कनाडाई निर्माता, जिसमें क्रीज़र, परफ़ोरेटर और नंबरिंग/स्कोरिंग मशीनें शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-GRAP",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

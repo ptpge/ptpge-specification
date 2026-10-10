@@ -1,0 +1,236 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/newspapers",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "notation": "O:PR§NEWSPAPERS",
+  "level": "element",
+  "elementType": "product",
+  "pageCountMultiple": 4,
+  "label": {
+    "en": "Newspapers",
+    "nb": "Aviser",
+    "de": "Zeitungen",
+    "es": "Periódicos",
+    "ja": "新聞",
+    "zh-Hans": "报纸",
+    "sv": "Tidningar",
+    "da": "Aviser",
+    "nl": "Kranten",
+    "pl": "Gazety",
+    "pt": "Jornais",
+    "hi": "अख़बार"
+  },
+  "definition": {
+    "en": "A folded multi-page publication on lightweight newsprint-style paper — tabloid and custom formats, for news, events, weddings and brand storytelling.",
+    "nb": "En falset flersidig publikasjon på lett avispapir — tabloid- og spesialformater, for nyheter, arrangementer, bryllup og merkevarefortellinger.",
+    "de": "Eine gefalzte mehrseitige Publikation auf leichtem Zeitungspapier — Tabloid- und Sonderformate, für Nachrichten, Events, Hochzeiten und Marken-Storytelling.",
+    "es": "Una publicación plegada de varias páginas en papel prensa ligero — formatos tabloide y personalizados, para noticias, eventos, bodas y narrativa de marca.",
+    "ja": "軽量の新聞用紙に印刷する折りたたみ式の多ページ刊行物。タブロイド判やカスタム判で、ニュース・イベント・ウェディング・ブランドストーリーに。",
+    "zh-Hans": "以轻质新闻纸印刷的折叠多页出版物——小报及定制开本，用于新闻、活动、婚礼和品牌叙事。",
+    "sv": "En falsad flersidig publikation på lätt tidningspapper — tabloid- och specialformat, för nyheter, evenemang, bröllop och varumärkesberättelser.",
+    "da": "En falset flersidet udgivelse på let avispapirlignende papir — tabloid- og specialformater, til nyheder, arrangementer, bryllupper og brandfortælling.",
+    "nl": "Een gevouwen meerpaginapublicatie op licht krantenpapier — tabloid- en maatwerkformaten, voor nieuws, evenementen, huwelijken en merkverhalen.",
+    "pl": "Złożona wielostronicowa publikacja na lekkim papierze gazetowym — formaty tabloidowe i niestandardowe, na wiadomości, wydarzenia, śluby i opowieści marek.",
+    "pt": "Publicação dobrada de várias páginas em papel leve tipo jornal — formatos tabloide e personalizados, para notícias, eventos, casamentos e storytelling de marca.",
+    "hi": "हल्के न्यूज़प्रिंट-शैली काग़ज़ पर मुड़ा बहु-पृष्ठ प्रकाशन — टैब्लॉइड और कस्टम फ़ॉर्मेट, समाचार, आयोजनों, विवाह और ब्रांड कहानी के लिए।"
+  },
+  "altLabels": {
+    "en": [
+      "Newspaper",
+      "Custom newspapers",
+      "Wedding newspapers",
+      "Newsprint publications"
+    ],
+    "nb": [
+      "Avis",
+      "Kundeavis",
+      "Bryllupsavis"
+    ],
+    "de": [
+      "Zeitung",
+      "Kundenzeitung",
+      "Hochzeitszeitung",
+      "Kundenzeitungen",
+      "Vereinszeitungen"
+    ],
+    "es": [
+      "Periódico",
+      "Diario personalizado",
+      "diario",
+      "periódico personalizado",
+      "publicación en papel prensa"
+    ],
+    "ja": [
+      "タブロイド紙",
+      "オリジナル新聞",
+      "タブロイド",
+      "フリーペーパー"
+    ],
+    "zh-Hans": [
+      "定制报纸",
+      "小报",
+      "新闻纸刊物"
+    ],
+    "pl": [
+      "gazeta",
+      "gazeta na zamówienie",
+      "gazeta ślubna",
+      "publikacja na papierze gazetowym"
+    ],
+    "sv": [
+      "tidning",
+      "egen tidning",
+      "bröllopstidning",
+      "tabloid",
+      "dagstidningspapper",
+      "tidningstryck"
+    ],
+    "da": [
+      "avis",
+      "egen avis",
+      "kundeavis",
+      "bryllupsavis",
+      "tabloid",
+      "avistryk"
+    ],
+    "nl": [
+      "krant",
+      "eigen krant",
+      "relatiekrant",
+      "trouwkrant",
+      "tabloid",
+      "krantendruk"
+    ],
+    "pt": [
+      "jornal",
+      "jornal personalizado",
+      "jornal de casamento",
+      "tabloide",
+      "publicação em papel jornal"
+    ],
+    "hi": [
+      "अख़बार",
+      "समाचार-पत्र",
+      "कस्टम अख़बार",
+      "शादी का अख़बार",
+      "न्यूज़प्रिंट प्रकाशन"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-08-12T00:00:00Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/multi-page"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/us/tabloid",
+    "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/compact",
+    "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/berliner",
+    "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/broadsheet"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset/coldset-web-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateFinish": [],
+  "supportsSubstrateFibre": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "customSizeRange": {
+    "min": 250,
+    "max": 750,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/newspaper-formats"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps7-improved-uncoated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps8-standard-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/configuration/page-count",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/substrate/substrate-fibre",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/esko-webcenter> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:altLabel "Esko WebCentre"@en ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> ;
+    skos:definition "Esko WebCenter — browserbaseret samarbejds- og godkendelsesplatform for emballage- og etiketprojekter. Integrerer artwork-styring, soft-proofing, annotering og godkendelsesruter på tværs af flere parter."@da,
+        "Esko WebCenter — browser-basierte Plattform für Zusammenarbeit und Freigabe in Verpackungs- und Etikettenprojekten. Integriert Artwork-Management, Soft-Proofing, Annotationen und Freigabe-Workflows in mehrstufigen Teams."@de,
+        "Esko WebCenter — browser-based collaboration and approval platform for packaging and label projects. Integrates artwork management, soft-proofing, annotations, and approval routing across multi-stakeholder teams."@en,
+        "Plataforma de Esko orientada a packaging para gestión de aprobaciones, revisión de pruebas y control de versiones de artwork."@es,
+        "Esko WebCenter — पैकेजिंग और लेबल परियोजनाओं के लिए ब्राउज़र-आधारित सहयोग और अनुमोदन प्लेटफ़ॉर्म। बहु-हितधारक टीमों में आर्टवर्क प्रबंधन, सॉफ़्ट-प्रूफ़िंग, टिप्पणियाँ और अनुमोदन रूटिंग एकीकृत करता है।"@hi,
+        "Esko WebCenter — パッケージおよびラベルプロジェクト向けのブラウザベースの協業および承認プラットフォーム。アートワーク管理、ソフトプルーフ、注釈、承認ルーティングを複数の関係者チーム横断で統合する。"@ja,
+        "Esko WebCenter — nettleserbasert samarbeids- og godkjenningsplattform for emballasje- og etikettprosjekter. Integrerer artwork-håndtering, soft-proofing, annoteringer og godkjenningsruting på tvers av team med flere interessenter."@nb,
+        "Esko WebCenter — browsergebaseerd samenwerkings- en goedkeuringsplatform voor verpakkings- en etikettenprojecten. Integreert artworkbeheer, soft-proofing, annotaties en goedkeuringsroutes over meerdere partijen."@nl,
+        "Esko WebCenter — przeglądarkowa platforma współpracy i akceptacji dla projektów opakowań i etykiet. Integruje zarządzanie grafiką, soft-proofing, adnotacje i obieg akceptacji między wieloma interesariuszami."@pl,
+        "Esko WebCenter — plataforma de colaboração e aprovação em navegador para projetos de embalagens e rótulos. Integra gestão de arte, provas de tela, anotações e roteamento de aprovação entre equipes com vários interessados."@pt,
+        "Esko WebCenter — webbläsarbaserad samarbets- och godkännandeplattform för förpacknings- och etikettprojekt. Integrerar originalhantering, skärmprov, annoteringar och godkännandeflöden över team med många intressenter."@sv,
+        "Esko面向包装的平台，用于批准管理、校样审查和artwork版本控制。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ESKO-WEBCENTER" ;
+    skos:prefLabel "Esko WebCenter"@da,
+        "Esko WebCenter"@de,
+        "Esko WebCenter"@en,
+        "Esko WebCenter"@es,
+        "Esko WebCenter"@hi,
+        "Esko WebCenter"@ja,
+        "Esko WebCenter"@nb,
+        "Esko WebCenter"@nl,
+        "Esko WebCenter"@pl,
+        "Esko WebCenter"@pt,
+        "Esko WebCenter"@sv,
+        "Esko WebCenter"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.3.1 · p.87",
+                "§6.3 · p.144" ;
+            ptpge:mappingRow "crosswalk row 14" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Approval",
+                "ApprovalParams",
+                "ContentCheckIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

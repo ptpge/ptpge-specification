@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/colors> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Print Colours"@en,
+        "छपाई के रंग"@hi,
+        "प्रिंट कलर"@hi,
+        "स्याही"@hi,
+        "barwy druku"@pl,
+        "cores de impressão"@pt,
+        "tintas"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features> ;
+    skos:definition "Farvelag er det inderste lag i trykklagstakken — trykfarve påført direkte på substratet. Hver farvelags-URI beskriver en kombination af farver (en farvetilstand): CMYK, Pantone-staffage, sort m.fl."@da,
+        "Color Layers sind die innerste Schicht des Druckschichten-Stacks — Druckfarbe, die direkt auf das Substrat aufgebracht wird. Jede Color Layer-URI beschreibt eine Druckfarben-Kombination (einen Farbmodus): CMYK, Pantone-Sonderfarbe, nur Schwarz usw."@de,
+        "Color Layers are the innermost layer of the Print Layer Stack — ink applied directly to the substrate. Each Color Layer URI describes a combination of inks (a color mode): CMYK, Pantone spot, Black-only, etc. The Color Layer URI carries the ink colorant set, the color model (subtractive / additive), and the channel count."@en,
+        "Las Color Layers describen los colores aplicados directamente al sustrato — la capa más interna del Print Layer Stack. Cada URI de Color Layer representa una combinación de tintas (modo de color): CMYK, color directo Pantone, solo negro, blanco, metálico, etc. Pueden incluir referencias al vocabulario de color definido en Color Systems (bajo Standards)."@es,
+        "रंग परतें प्रिंट लेयर स्टैक की सबसे भीतरी परत हैं — सीधे सब्सट्रेट पर लगी स्याही। हर रंग-परत URI स्याहियों के संयोजन (कलर मोड) का वर्णन करता है: CMYK, पैंटोन स्पॉट, केवल काला आदि। रंग-परत URI में स्याही के रंजक-सेट, रंग मॉडल (घटाव/योग) और चैनल संख्या होती है।"@hi,
+        "Color Layersは印刷物に直接適用される色 — Print Layer Stackの最内層 — を記述する。各Color Layer URIはインクの組み合わせ（カラーモード）を表す：CMYK、Pantoneスポット、ブラックのみ、ホワイト、メタリックなど。Color Systems（Standards下）が定義する色彩語彙への参照を含む場合もある。"@ja,
+        "Color Layers er det innerste laget i trykklags-stacken — blekk påført direkte på substratet. Hver Color Layer-URI beskriver en blekk-kombinasjon (en fargemodus): CMYK, Pantone spot, kun sort osv. Color Layer-URI-en bærer blekk-fargesett, fargemodell (subtraktiv / additiv) og kanal-antall."@nb,
+        "Kleurlagen vormen de binnenste laag van de druklaagstapel — inkt direct op het substraat aangebracht. Elke kleurlaag-URI beschrijft een combinatie van inkten (een kleurmodus): CMYK, Pantone-steunkleur, zwart e.a."@nl,
+        "Warstwy barwne są najgłębszą warstwą stosu warstw druku — farba nanoszona bezpośrednio na podłoże. Każde URI warstwy barwnej opisuje kombinację farb (tryb koloru): CMYK, kolor dodatkowy Pantone, tylko czerń itd. URI warstwy barwnej niesie zestaw kolorantów, model barw (subtraktywny / addytywny) i liczbę kanałów."@pl,
+        "As camadas de cor são a camada mais interna da pilha de camadas de impressão — tinta aplicada diretamente no substrato. Cada URI de camada de cor descreve uma combinação de tintas (um modo de cor): CMYK, cor especial Pantone, só preto etc. A URI da camada de cor carrega o conjunto de corantes, o modelo de cor (subtrativo/aditivo) e o número de canais."@pt,
+        "Färgskikt är det innersta skiktet i tryckskiktstacken — bläck applicerat direkt på substratet. Varje färgskikts-URI beskriver en kombination av bläck (ett färgläge): CMYK, Pantone-dekorfärg, endast svart, osv. Färgskikts-URI:n bär bläckuppsättningen, färgmodellen (subtraktiv/additiv) och kanalantalet."@sv,
+        "Color Layers 描述直接施加于承印物的颜色——Print Layer Stack 的最内层。每个 Color Layer URI 表示一种油墨组合（颜色模式）：CMYK、Pantone 专色、单黑色、白色、金属色等。可包含对 Color Systems（位于 Standards 之下）所定义颜色词汇的引用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/cmykog>,
+        <https://ptpge.org/v1/printing/features/colors/cmykogv>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    skos:notation "P:FT-COL" ;
+    skos:prefLabel "Trykfarver"@da,
+        "Farbschichten"@de,
+        "Print Colors"@en,
+        "Capas de color"@es,
+        "प्रिंट रंग"@hi,
+        "カラーレイヤー"@ja,
+        "Trykkfarger"@nb,
+        "Drukkleuren"@nl,
+        "Kolory druku"@pl,
+        "Cores de impressão"@pt,
+        "Tryckfärger"@sv,
+        "颜色层"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/standards/color-systems> ;
+    skos:scopeNote "Print Colors beschreibt die tatsächlich auf einem Druckerzeugnis angewendeten Farben — die Druckfarbschicht-Auswahl (CMYK, Pantone-Sonderfarbe, nur Schwarz, Weiß, metallic usw.). Verwandt mit, aber unterschieden von Color Systems unter Standards, das die Vokabulare und Rahmenwerke zur Farbspezifikation beschreibt. Eine Print Color kann ein Color System referenzieren (z. B. verweist eine Pantone-Sonderfarbe auf das Pantone-System)."@de,
+        "Print Colors describes the actual colors applied to a printed piece — the ink layer choices (CMYK, Pantone spot, black-only, white, metallic, etc.). Related to but distinct from Color Systems under Standards, which describes the vocabularies and frameworks used to specify color. A Print Color may reference a Color System (e.g., a Pantone spot color references the Pantone system)."@en,
+        "Print Colors describe los colores reales aplicados a una pieza impresa — las elecciones de capa de tinta (CMYK, color Pantone directo, solo negro, blanco, metálico, etc.). Relacionado pero distinto de Color Systems bajo Standards, que describe los vocabularios y marcos utilizados para especificar color. Un Print Color puede referenciar un Color System (p. ej., un color Pantone directo referencia el sistema Pantone)."@es,
+        "प्रिंट रंग मुद्रित सामग्री पर वास्तव में लगाए गए रंगों का वर्णन करता है — स्याही परत के विकल्प (CMYK, पैंटोन स्पॉट, केवल काला, सफ़ेद, मेटैलिक आदि)। मानकों के अंतर्गत रंग प्रणालियों से संबंधित पर अलग, जो रंग निर्दिष्ट करने की शब्दावलियों और ढाँचों का वर्णन करती हैं। कोई प्रिंट रंग किसी रंग प्रणाली को संदर्भित कर सकता है (जैसे पैंटोन स्पॉट रंग पैंटोन प्रणाली को)।"@hi,
+        "Print Colors は印刷物に実際に適用される色 — インク層の選択（CMYK、Pantone スポット、黒のみ、白、メタリックなど）を記述する。Standards 下の Color Systems とは関連するが区別される — Color Systems は色を指定するための語彙とフレームワークを記述する。Print Color は Color System を参照できる（例：Pantone スポットカラーは Pantone システムを参照する）。"@ja,
+        "Print Colors beskriver de faktiske fargene som påføres en trykksak — blekklags-valgene (CMYK, Pantone spot, kun sort, hvit, metallisk, osv.). Relatert til, men forskjellig fra Color Systems under Standards, som beskriver vokabularene og rammeverkene som brukes til å spesifisere farge. En Print Color kan referere et Color System (f.eks. refererer en Pantone spot-farge Pantone-systemet)."@nb,
+        "Cores de impressão descreve as cores realmente aplicadas ao impresso — as escolhas de camada de tinta (CMYK, cor especial Pantone, só preto, branco, metalizado etc.). Relacionado, mas distinto, de Sistemas de Cor em Normas, que descreve os vocabulários e estruturas usados para especificar cor. Uma cor de impressão pode referenciar um sistema de cor (p. ex., uma cor especial Pantone referencia o sistema Pantone)."@pt,
+        "Print Colors 描述实际应用于印刷品上的颜色——油墨层的选择（CMYK、Pantone 专色、单黑色、白色、金属色等）。与 Standards 下的 Color Systems 有关但有所区别——Color Systems 描述用于指定颜色的词汇与框架。一个 Print Color 可以引用某个 Color System（例如 Pantone 专色引用 Pantone 系统）。"@zh-Hans ;
+    ptpge:group "features" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.4 · p.72",
+                "§6.15 · p.168" ;
+            ptpge:mappingRow "crosswalk row 24" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ColorIntent",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,58 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon/ghg-protocol-product",
+  "type": "skos:Concept",
+  "version": "2026-07-18",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "GHG Protocol Product Standard",
+    "nb": "GHG Protocol Product Standard",
+    "de": "GHG Protocol Product Standard",
+    "ja": "GHGプロトコル製品基準",
+    "es": "Estándar de Producto del Protocolo GHG",
+    "zh-Hans": "温室气体核算体系产品标准",
+    "sv": "GHG Protocol Product Standard",
+    "da": "GHG Protocol Product Standard",
+    "nl": "GHG Protocol Product Standard",
+    "pl": "GHG Protocol Product Standard",
+    "pt": "GHG Protocol Product Standard",
+    "hi": "GHG Protocol Product Standard"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "notation": "P:ST§GHG-PROTOCOL-PRODUCT",
+  "broader": "https://ptpge.org/v1/printing/standards/certifications/environmental/carbon",
+  "created": "2026-07-18T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Widely used framework for product life-cycle greenhouse-gas accounting, published by WRI/WBCSD. An alternative reference method for product-level CO₂e declarations in print offers.",
+    "nb": "Mye brukt rammeverk for livsløpsbasert klimagassregnskap på produktnivå, utgitt av WRI/WBCSD. En alternativ referansemetode for CO₂e-deklarasjoner i trykktilbud.",
+    "de": "Weit verbreitetes Rahmenwerk für die produktbezogene Lebenszyklus-Treibhausgasbilanzierung, herausgegeben von WRI/WBCSD. Eine alternative Referenzmethode für CO₂e-Deklarationen in Druckangeboten.",
+    "ja": "WRI/WBCSDが発行する、製品ライフサイクルの温室効果ガス会計の広く使われる枠組み。印刷オファーにおける製品レベルCO₂e宣言の代替基準手法。",
+    "es": "Marco ampliamente utilizado para la contabilidad de gases de efecto invernadero del ciclo de vida del producto, publicado por WRI/WBCSD. Un método de referencia alternativo para declaraciones de CO₂e en ofertas de impresión.",
+    "zh-Hans": "由 WRI/WBCSD 发布、广泛使用的产品生命周期温室气体核算框架。印刷报价中产品级 CO₂e 声明的替代参考方法。",
+    "sv": "Brett använt ramverk för växthusgasredovisning över produkters livscykel, utgivet av WRI/WBCSD. En alternativ referensmetod för CO₂e-deklarationer på produktnivå i tryckerbjudanden.",
+    "da": "Bredt anvendt ramme for drivhusgasregnskab over produkters livscyklus, udgivet af WRI/WBCSD. En alternativ referencemetode for CO₂e-deklarationer på produktniveau i tryktilbud.",
+    "nl": "Breed gebruikt kader voor broeikasgasboekhouding over de levenscyclus van producten, uitgegeven door WRI/WBCSD. Een alternatieve referentiemethode voor CO₂e-declaraties op productniveau in drukoffertes.",
+    "pl": "Szeroko stosowane ramy rachunkowości gazów cieplarnianych w cyklu życia produktu, opublikowane przez WRI/WBCSD. Alternatywna metoda odniesienia dla deklaracji CO₂e na poziomie produktu w ofertach druku.",
+    "pt": "Quadro amplamente usado para contabilidade de gases de efeito estufa no ciclo de vida de produtos, publicado por WRI/WBCSD. Método de referência alternativo para declarações de CO₂e no nível do produto em ofertas de impressão.",
+    "hi": "WRI/WBCSD द्वारा प्रकाशित, उत्पाद जीवनचक्र ग्रीनहाउस-गैस लेखांकन का व्यापक रूप से प्रयुक्त ढाँचा। प्रिंट ऑफ़र में उत्पाद-स्तर CO₂e घोषणाओं की वैकल्पिक संदर्भ विधि।"
+  },
+  "elementType": "reference",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Certification"
+      ],
+      "refs": [
+        "§8.7 · p.336"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 5"
+    }
+  ]
+}

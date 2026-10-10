@@ -1,0 +1,140 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/flags> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "beachflag"@da,
+        "beachflags"@da,
+        "dråbeflag"@da,
+        "fjerflag"@da,
+        "reklameflag"@da,
+        "vimpel"@da,
+        "vimpler"@da,
+        "Beachflags"@de,
+        "Fahnen"@de,
+        "Hissflaggen"@de,
+        "Werbefahnen"@de,
+        "Banner Flags"@en,
+        "Beach Flags"@en,
+        "beach flag"@en,
+        "bunting"@en,
+        "feather flag"@en,
+        "teardrop flag"@en,
+        "Banderas publicitarias"@es,
+        "Banderolas"@es,
+        "bandera"@es,
+        "bandera de playa"@es,
+        "bandera gota"@es,
+        "bandera pluma"@es,
+        "bandera publicitaria"@es,
+        "banderines"@es,
+        "fly banner"@es,
+        "झंडा"@hi,
+        "झंडियाँ"@hi,
+        "टियरड्रॉप फ़्लैग"@hi,
+        "फ़ेदर फ़्लैग"@hi,
+        "फ़्लैग"@hi,
+        "बंटिंग"@hi,
+        "बीच फ़्लैग"@hi,
+        "たれ幕"@ja,
+        "のぼり"@ja,
+        "のぼり旗"@ja,
+        "ティアドロップフラッグ"@ja,
+        "ビーチフラッグ"@ja,
+        "フェザーフラッグ"@ja,
+        "旗"@ja,
+        "Beachflagg"@nb,
+        "Strandflagg"@nb,
+        "beachflagg"@nb,
+        "fane"@nb,
+        "flagg"@nb,
+        "vimpel"@nb,
+        "beachvlag"@nl,
+        "beachvlaggen"@nl,
+        "druppelvlag"@nl,
+        "reclamevlag"@nl,
+        "veervlag"@nl,
+        "vlag"@nl,
+        "vlaggenlijn"@nl,
+        "flaga feather"@pl,
+        "flaga plażowa"@pl,
+        "flaga reklamowa"@pl,
+        "girlanda flagowa"@pl,
+        "winder"@pl,
+        "bandeira"@pt,
+        "bandeira de praia"@pt,
+        "bandeira gota"@pt,
+        "bandeira pena"@pt,
+        "bandeira personalizada"@pt,
+        "bandeirola"@pt,
+        "wind banner"@pt,
+        "Beachflaggor"@sv,
+        "Reklamflaggor"@sv,
+        "beachflagga"@sv,
+        "droppflagga"@sv,
+        "fjäderflagga"@sv,
+        "flagga"@sv,
+        "vimpel"@sv,
+        "vimplar"@sv,
+        "刀旗"@zh-Hans,
+        "广告旗"@zh-Hans,
+        "彩旗"@zh-Hans,
+        "水滴旗"@zh-Hans,
+        "沙滩旗"@zh-Hans,
+        "羽毛旗"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et trykt tekstilflag til indendørs eller udendørs brug — beachflag, dråbeflag, vimpelkæder og specialflag på stænger eller snore."@da,
+        "Eine bedruckte Textilfahne für drinnen oder draußen — Feder-, Tropfen-, Wimpel- und Sonderfahnen."@de,
+        "A printed textile flag for indoor or outdoor display — feather, teardrop, bunting and custom flags on poles or strings."@en,
+        "Una bandera textil impresa para exhibición interior o exterior — banderas de pluma, de gota, banderines y banderas personalizadas en mástiles o cuerdas."@es,
+        "इनडोर या आउटडोर प्रदर्शन के लिए मुद्रित कपड़े का झंडा — फ़ेदर, टियरड्रॉप, बंटिंग और खंभे या डोरी पर लगने वाले कस्टम झंडे।"@hi,
+        "屋内外の掲示に使う印刷テキスタイルフラッグ。フェザー型、ティアドロップ型、連旗（バンティング）、ポールやロープ掛けのカスタム旗。"@ja,
+        "Et trykt tekstilflagg for inne- eller utebruk — fjær-, dråpe-, vimpel- og spesialflagg på stang eller snor."@nb,
+        "Een gedrukte textielvlag voor binnen of buiten — beachflags, druppelvlaggen, vlaggenlijnen en maatwerkvlaggen aan masten of koorden."@nl,
+        "Drukowana flaga tekstylna do ekspozycji wewnątrz lub na zewnątrz — flagi typu feather, teardrop, girlandy i flagi na zamówienie na masztach lub linkach."@pl,
+        "Bandeira têxtil impressa para exposição interna ou externa — wind banner (pena e gota), bandeirolas e bandeiras personalizadas em mastro ou cordão."@pt,
+        "En tryckt textilflagga för inom- eller utomhusbruk — beachflaggor, droppflaggor, vimplar och specialflaggor på stänger eller linor."@sv,
+        "室内外展示用印刷织物旗帜——羽毛旗、水滴旗、串旗及杆挂/绳挂定制旗。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§FLAGS" ;
+    skos:prefLabel "Flag"@da,
+        "Flaggen"@de,
+        "Flags"@en,
+        "Banderas"@es,
+        "झंडे"@hi,
+        "フラッグ"@ja,
+        "Flagg"@nb,
+        "Vlaggen"@nl,
+        "Flagi"@pl,
+        "Bandeiras"@pt,
+        "Flaggor"@sv,
+        "旗帜"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/roll-materials/textile> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet/dye-sublimation> ;
+    ptpge:version "2026-09-28" .
+

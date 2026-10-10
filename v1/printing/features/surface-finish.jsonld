@@ -1,0 +1,48 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/surface-finish",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "notation": "P:FT-SFI",
+  "level": "category",
+  "label": {
+    "en": "Surface Finish",
+    "nb": "Overflatefinish",
+    "de": "Oberflächenfinish",
+    "ja": "Surface Finish",
+    "es": "Surface Finish",
+    "zh-Hans": "Surface Finish",
+    "sv": "Ytbehandling",
+    "da": "Overfladefinish",
+    "nl": "Oppervlakteafwerking",
+    "pl": "Wykończenie powierzchni",
+    "pt": "Acabamento de superfície",
+    "hi": "सतह फ़िनिश"
+  },
+  "definition": {
+    "en": "Visual surface treatments applied to a printed piece — varnish and lamination — that change its sheen, tactile feel and durability.",
+    "nb": "Visuelle overflatebehandlinger på et trykk — lakk og laminering — som endrer glans, følelse og holdbarhet.",
+    "de": "Visuelle Oberflächenbehandlungen eines Druckerzeugnisses — Lack und Laminierung — die Glanz, Haptik und Haltbarkeit verändern.",
+    "ja": "印刷物に施す視覚的な表面処理 — ニスとラミネート — で、光沢、手触り、耐久性を変える。",
+    "es": "Tratamientos visuales de superficie aplicados a una pieza impresa — barniz y laminado — que cambian su brillo, tacto y durabilidad.",
+    "zh-Hans": "施加于印刷品的视觉性表面处理 — 上光与覆膜 — 改变其光泽、手感与耐久性。",
+    "sv": "Visuella ytbehandlingar applicerade på en trycksak — lack och laminering — som förändrar dess lyster, taktila känsla och hållbarhet.",
+    "da": "Visuelle overfladebehandlinger påført en tryksag — lak og laminering — der ændrer dens glans, taktile fornemmelse og holdbarhed.",
+    "nl": "Visuele oppervlaktebehandelingen op drukwerk — lak en laminaat — die glans, tactiel gevoel en duurzaamheid veranderen.",
+    "pl": "Wizualne zabiegi powierzchniowe stosowane na druku — lakier i laminowanie — zmieniające jego połysk, odczucie dotykowe i trwałość.",
+    "pt": "Tratamentos visuais de superfície aplicados a um impresso — verniz e laminação — que alteram seu brilho, toque e durabilidade.",
+    "hi": "मुद्रित सामग्री पर लगाए गए दृश्य सतह उपचार — वार्निश और लैमिनेशन — जो उसकी चमक, स्पर्श और टिकाऊपन बदलते हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features",
+  "narrower": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination",
+    "https://ptpge.org/v1/printing/features/surface-finish/varnish",
+    "https://ptpge.org/v1/printing/features/surface-finish/none"
+  ],
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

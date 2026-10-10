@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/z-fold> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "F6-1"@en,
+        "FoldCatalog F6-1"@en,
+        "F6-1"@hi,
+        "FoldCatalog F6-1"@hi,
+        "Z-vouw"@nl,
+        "F6-1"@pl,
+        "FoldCatalog F6-1"@pl,
+        "F6-1"@pt,
+        "FoldCatalog F6-1"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet> ;
+    skos:definition "En flerpanelsopbygning med to parallelle false i modsat retning, så arket danner en Z-form — 6 paneler i 2 flader. I modsætning til C-falsen overlapper panelerne ikke; folderen åbner som en harmonika."@da,
+        "Ein mehrpaneeliges Falzbogen-Setup mit zwei parallelen Falzungen in wechselnden Richtungen, das 6 visuelle Paneele in Z-Form (Zickzack) erzeugt, organisiert in 2 Surfaces: Außen und Innen (jeweils 3 Paneele — links, Mitte, rechts). Im Gegensatz zum Wickelfalz, wo die Paneele übereinander gefaltet werden, wechseln beim Zickzackfalz die Faltrichtungen ab. Jede Surface ist unabhängig konfigurierbar."@de,
+        "A multi-panel folded sheet setup with two parallel folds in alternating directions, producing 6 visual panels in a Z (zig-zag) shape, organised into 2 surfaces: Outside and Inside (each with 3 panels — left, middle, right). Unlike tri-fold where panels fold inward over each other, z-fold panels alternate fold directions, creating an accordion-like Z shape when partially opened. Each surface is independently configurable. Used for direct mail, technical brochures, instruction leaflets, and step-by-step guides where each panel must be visible without unfolding others."@en,
+        "Una configuración de hoja plegada de varios paneles con dos pliegues paralelos en direcciones alternas, que produce 6 paneles visuales en forma de Z (zigzag), organizados en 2 superficies: Outside e Inside (cada una con 3 paneles — izquierdo, central, derecho). A diferencia del tríptico, donde los paneles se pliegan hacia dentro unos sobre otros, en el plegado en Z los pliegues alternan de dirección, creando una forma de Z tipo acordeón al abrirse parcialmente. Cada superficie es configurable de forma independiente. Se usa para correo directo, folletos técnicos, prospectos de instrucciones y guías paso a paso donde cada panel debe ser visible sin desplegar los demás."@es,
+        "बारी-बारी विपरीत दिशाओं में दो समानांतर फ़ोल्ड वाला बहु-पैनल फ़ोल्डेड शीट सेटअप, जिससे Z (ज़िगज़ैग) आकार में 6 दृश्य पैनल बनते हैं, 2 सतहों में: बाहरी और भीतरी (हर एक में 3 पैनल — बायाँ, बीच, दायाँ)। ट्राई-फ़ोल्ड के विपरीत, जहाँ पैनल एक-दूसरे पर अंदर मुड़ते हैं, Z-फ़ोल्ड में दिशाएँ बदलती हैं और आंशिक खुलने पर अकॉर्डियन जैसा Z बनता है। हर सतह स्वतंत्र रूप से कॉन्फ़िगर होती है। डायरेक्ट मेल, तकनीकी ब्रोशर, निर्देश पर्चों और चरण-दर-चरण गाइडों में, जहाँ हर पैनल दूसरों को खोले बिना दिखना चाहिए।"@hi,
+        "交互方向の2本の平行折りを持つ多パネルセットアップ。Z（ジグザグ）形の6つの視覚パネルが2面 — Outside と Inside（各3パネル：左・中・右） — に編成される。パネルを内側に折り重ねる三つ折りと異なり、Z折りは折り方向が交互で、途中まで開くと蛇腹のような Z 形になる。各面は独立に構成できる。DM、技術パンフレット、取扱説明リーフレット、他のパネルを開かずに各パネルが見える必要のあるステップガイドに使われる。"@ja,
+        "Et flerpanels brettet ark-oppsett med to parallelle brett i vekslende retninger, som lager 6 visuelle paneler i Z-form, organisert i 2 surfaces: Outside og Inside (hver med 3 paneler — venstre, midt, høyre). I motsetning til tri-fold der paneler brettes innover hverandre, veksler z-fold brett-retning og lager en trekkspill-aktig Z-form. Hver surface konfigureres uavhengig. Brukes for direkte post, tekniske brosjyrer, instruksjons-leaflets og steg-for-steg-guider."@nb,
+        "Een meerpaneelopbouw met twee parallelle vouwen in tegengestelde richting, zodat het vel een Z-vorm aanneemt — 6 panelen in 2 vlakken. Anders dan bij de wikkelvouw overlappen de panelen niet; de folder opent als een harmonica."@nl,
+        "Konfiguracja arkusza złożonego wieloskrzydłowo z dwoma równoległymi złamami w naprzemiennych kierunkach, dająca 6 wizualnych skrzydeł w kształcie Z (zygzak), zorganizowanych w 2 powierzchnie: Zewnętrzna i Wewnętrzna (każda z 3 skrzydłami — lewe, środkowe, prawe). W odróżnieniu od złamu na C, gdzie skrzydła składają się do środka jedno na drugie, skrzydła złamu w Z zmieniają kierunek, tworząc harmonijkowy kształt Z przy częściowym otwarciu. Każda powierzchnia jest konfigurowana niezależnie. Używana do direct mail, folderów technicznych, ulotek instruktażowych i przewodników krok po kroku, gdzie każde skrzydło musi być widoczne bez rozkładania pozostałych."@pl,
+        "Montagem em folha dobrada de vários painéis com duas dobras paralelas em direções alternadas, produzindo 6 painéis visuais em forma de Z (ziguezague), organizados em 2 faces: Exterior e Interior (cada uma com 3 painéis — esquerdo, meio, direito). Ao contrário do tríptico, em que os painéis dobram para dentro uns sobre os outros, na dobra Z as direções alternam, criando um Z tipo sanfona quando parcialmente aberta. Cada face é configurável de forma independente. Usada em mala direta, folhetos técnicos, folhetos de instrução e guias passo a passo, onde cada painel deve ser visível sem desdobrar os outros."@pt,
+        "En flerpanelsuppbyggnad med två parallella falsar i växlande riktningar som ger 6 visuella paneler i Z-form (sicksack), organiserade i 2 ytor: utsida och insida (var och en med 3 paneler — vänster, mitt, höger). Till skillnad från C-fals, där panelerna viks in över varandra, växlar Z-falsens paneler riktning och bildar en dragspelsliknande Z-form när den delvis öppnas. Varje yta konfigureras oberoende. Används för direktreklam, tekniska broschyrer, instruktionsfoldrar och steg-för-steg-guider där varje panel ska synas utan att andra viks ut."@sv,
+        "两道交替方向平行折的多面板折页构成，形成 Z（之字）形的6个视觉面板，分为2个表面：Outside 与 Inside（各3个面板 — 左、中、右）。与面板依次内折的三折页不同，Z 折的折向交替，部分展开时呈风琴式 Z 形。每个表面可独立配置。用于直邮、技术手册、说明书折页及每个面板无需展开其余即可见的分步指南。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§Z-FOLD" ;
+    skos:prefLabel "Z-fals"@da,
+        "Zickzackfalz-Setup"@de,
+        "Z-Fold Setup"@en,
+        "Configuración de plegado en Z"@es,
+        "Z-फ़ोल्ड सेटअप"@hi,
+        "Z折り構成"@ja,
+        "Z-fold oppsett"@nb,
+        "Zigzagvouw-opzet"@nl,
+        "Konfiguracja złam w Z"@pl,
+        "Montagem dobra Z"@pt,
+        "Z-fals"@sv,
+        "Z 折结构"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/completions/folding/z-fold> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:level "element" ;
+    ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-technologies/digital> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:42:30+00:00"^^xsd:dateTime ;
+    skos:altLabel "druk cyfrowy"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-technologies> ;
+    skos:definition "Trykteknologier, der overfører billedet fra en digital fil direkte til substratet — uden fast fysisk billedbærer. Hvert tryk kan være forskelligt (variable data, personalisering)."@da,
+        "Drucktechnologien, die das Bild direkt aus einer digitalen Datei auf den Bedruckstoff übertragen — ohne festen physischen Bildträger. Jeder Druck kann unterschiedlich sein (variable Daten, Personalisierung)."@de,
+        "Printing technologies that transfer the image from a digital file directly onto the substrate — without a fixed physical image carrier. Each impression can be different (variable data, personalization)."@en,
+        "Tecnologías de impresión que transfieren la imagen desde un archivo digital directamente al sustrato — sin portador físico fijo. Cada impresión puede ser diferente (dato variable, personalización)."@es,
+        "मुद्रण तकनीकें जो छवि डिजिटल फ़ाइल से सीधे सब्सट्रेट पर उतारती हैं — बिना स्थिर भौतिक छवि-वाहक के। हर इंप्रेशन अलग हो सकता है (वेरिएबल डेटा, वैयक्तिकरण)।"@hi,
+        "固定された物理的な画像担体なしに、デジタルファイルから直接基材に画像を転写する印刷技術。各印刷物が異なる場合がある（バリアブルデータ、パーソナライゼーション）。"@ja,
+        "Trykketeknologier som overfører bildet fra en digital fil direkte til substratet — uten en fast fysisk bildebærer. Hver avtrykk kan være forskjellig (variabel data, personalisering)."@nb,
+        "Druktechnologieën die het beeld rechtstreeks van een digitaal bestand op het substraat overbrengen — zonder vaste fysieke beelddrager. Elke druk kan verschillen (variabele data, personalisatie)."@nl,
+        "Technologie druku przenoszące obraz z pliku cyfrowego bezpośrednio na podłoże — bez stałego fizycznego nośnika obrazu. Każda odbitka może być inna (dane zmienne, personalizacja)."@pl,
+        "Tecnologias de impressão que transferem a imagem de um arquivo digital diretamente ao substrato — sem portador físico fixo de imagem. Cada impressão pode ser diferente (dados variáveis, personalização)."@pt,
+        "Tryckteknologier som överför bilden från en digital fil direkt till substratet — utan fast fysisk bildbärare. Varje tryck kan vara olika (variabeldata, personalisering)."@sv,
+        "将图像从数字文件直接转移到承印物的印刷工艺——没有固定的物理图像载体。每次印刷可以不同（可变数据、个性化）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/3d>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/nano>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/riso> ;
+    skos:notation "P:TC-PTC-DIGT" ;
+    skos:prefLabel "Digital"@da,
+        "Digital"@de,
+        "Digital"@en,
+        "Digitales"@es,
+        "डिजिटल"@hi,
+        "デジタル"@ja,
+        "Digital"@nb,
+        "Digitaal"@nl,
+        "Cyfrowe"@pl,
+        "Digital"@pt,
+        "Digital"@sv,
+        "数码"@zh-Hans ;
+    skos:scopeNote "Umfasst Elektrofotografie (laser-/tonerbasiert, dominant im Büro- und Kleinauflagen-Produktionsdruck), Inkjet-Varianten (Drop-on-Demand und Continuous, dominant in Großformat und Hochvolumen), Riso-Digitalvervielfältiger, additive 3D-Fertigung und Landas Nano-Tinten-Technologie. Digitaldruck eliminiert Plattenkosten, hat aber höhere Stückkosten als Analogdruck bei großen Auflagen."@de,
+        "Includes electrophotography (laser/toner-based, dominant in office and short-run production), inkjet variants (drop-on-demand and continuous, dominant in wide-format and high-volume), Riso digital duplicators, 3D additive manufacturing, and Landa nano-ink technology. Digital eliminates plate costs but per-impression cost is higher than analog at scale."@en,
+        "Incluye electrofotografía (basada en láser/tóner, dominante en oficina y producción de tirada corta), variantes de inyección de tinta (drop-on-demand y continuo, dominantes en gran formato y alto volumen), duplicadores digitales Riso, impresión 3D e impresión nano."@es,
+        "इलेक्ट्रोफ़ोटोग्राफ़ी (लेज़र/टोनर, कार्यालय और शॉर्ट-रन उत्पादन में प्रमुख), इंकजेट वेरिएंट (ड्रॉप-ऑन-डिमांड और कंटीन्युअस, वाइड-फॉर्मेट और उच्च-मात्रा में प्रमुख), रिसो डिजिटल डुप्लीकेटर, 3D एडिटिव मैन्युफ़ैक्चरिंग और Landa नैनो-इंक तकनीक शामिल। डिजिटल प्लेट लागत हटाता है, पर बड़े पैमाने पर प्रति-इंप्रेशन लागत एनालॉग से अधिक।"@hi,
+        "電子写真（レーザー／トナーベース、オフィスおよび短納期生産で主流）、インクジェットのバリアント（ドロップオンデマンドおよびコンティニュアス、大判および大量部数で主流）、Risoデジタル謄写、3D付加製造、Landaのナノインキ技術を含む。デジタル印刷は刷版コストを排除するが、大量部数では1印刷あたりのコストはアナログより高い。"@ja,
+        "Inkluderer elektrofotografi (laser/toner-basert, dominerende i kontor og kortopplag-produksjon), inkjet-varianter (drop-on-demand og kontinuerlig, dominerende i storformat og høyvolum), Riso digitale duplikatorer, 3D additiv produksjon, og Landa nano-blekk-teknologi. Digital eliminerer platekostnader, men kostnad per avtrykk er høyere enn analog i stor skala."@nb,
+        "Inclui eletrofotografia (laser/toner, dominante em escritório e produção de tiragem curta), variantes de jato de tinta (gota sob demanda e contínuo, dominantes em grande formato e alto volume), duplicadores digitais Riso, manufatura aditiva 3D e a tecnologia de nanotinta da Landa. O digital elimina custos de chapa, mas o custo por impressão é maior que o analógico em escala."@pt,
+        "包括电子照相（基于激光/碳粉，在办公和短印次生产中占主导）、喷墨变体（drop-on-demand和连续，在大幅面和高产量中占主导）、Riso数码油印机、3D印刷和纳米印刷。"@zh-Hans ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.12 · p.81",
+                "§5.5.2 · p.111",
+                "§6.31 · p.196" ;
+            ptpge:mappingRow "crosswalk row 17" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "DigitalPrinting",
+                "DigitalPrintingParams",
+                "ProductionIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

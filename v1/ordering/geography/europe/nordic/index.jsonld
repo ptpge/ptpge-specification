@@ -1,0 +1,50 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/geography/europe/nordic",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "notation": "O:GY-EUR-NORD",
+  "label": {
+    "en": "Nordic",
+    "nb": "Norden",
+    "de": "Nordeuropa",
+    "ja": "北欧",
+    "es": "Países nórdicos",
+    "zh-Hans": "北欧",
+    "sv": "Norden",
+    "da": "Norden",
+    "nl": "Noordse landen",
+    "pl": "Kraje nordyckie",
+    "pt": "Países Nórdicos",
+    "hi": "नॉर्डिक देश"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "geography",
+  "broader": "https://ptpge.org/v1/ordering/geography/europe",
+  "narrower": [
+    "https://ptpge.org/v1/ordering/geography/europe/nordic/denmark",
+    "https://ptpge.org/v1/ordering/geography/europe/nordic/iceland",
+    "https://ptpge.org/v1/ordering/geography/europe/nordic/finland",
+    "https://ptpge.org/v1/ordering/geography/europe/nordic/norway",
+    "https://ptpge.org/v1/ordering/geography/europe/nordic/sweden"
+  ],
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-22T18:09:48Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Nordic sub-region grouping covering Norway (NO), Sweden (SE), Denmark (DK), Finland (FI), and Iceland (IS). Common market segment in Northern European printing operations due to language proximity, harmonised standards, and shared shipping/logistics conventions.",
+    "nb": "Norden-undergruppe som dekker Norge (NO), Sverige (SE), Danmark (DK), Finland (FI) og Island (IS). Vanlig markedssegment i nord-europeisk trykkvirksomhet på grunn av språk-nærhet, harmoniserte standarder og felles frakt-/logistikk-konvensjoner.",
+    "de": "Nordeuropäische Untergruppierung, die Norwegen (NO), Schweden (SE), Dänemark (DK), Finnland (FI) und Island (IS) umfasst. Übliches Marktsegment in nordeuropäischen Druckereibetrieben aufgrund sprachlicher Nähe, harmonisierter Standards und gemeinsamer Versand-/Logistikkonventionen.",
+    "ja": "ノルウェー（NO）、スウェーデン（SE）、デンマーク（DK）、フィンランド（FI）、アイスランド（IS）を含む北欧サブ地域グループ。言語の近接性、調和された標準、共通の配送・物流慣行により、北欧の印刷業界で一般的な市場セグメント。",
+    "es": "Subagrupación nórdica que cubre Noruega (NO), Suecia (SE), Dinamarca (DK), Finlandia (FI) e Islandia (IS). Segmento de mercado común en las operaciones de impresión del norte de Europa debido a la proximidad lingüística, normas armonizadas y convenciones compartidas de envío y logística.",
+    "zh-Hans": "北欧次区域分组，涵盖挪威（NO）、瑞典（SE）、丹麦（DK）、芬兰（FI）和冰岛（IS）。由于语言相近、标准协调一致以及共同的运输物流惯例，是北欧印刷运营中的常见市场细分。",
+    "sv": "Subregional gruppering som omfattar Norge (NO), Sverige (SE), Danmark (DK), Finland (FI) och Island (IS). Vanligt marknadssegment i nordeuropeisk tryckproduktion på grund av språklig närhet, harmoniserade standarder och gemensamma frakt- och logistikkonventioner.",
+    "da": "Subregional gruppering, der omfatter Norge (NO), Sverige (SE), Danmark (DK), Finland (FI) og Island (IS). Behandles ofte som ét marked i tryk- og leveringssammenhæng.",
+    "nl": "Subregionale groepering die Noorwegen (NO), Zweden (SE), Denemarken (DK), Finland (FI) en IJsland (IS) omvat. Wordt in druk- en leveringscontext vaak als één markt behandeld.",
+    "pl": "Grupowanie subregionalne obejmujące Norwegię (NO), Szwecję (SE), Danię (DK), Finlandię (FI) i Islandię (IS). Powszechny segment rynku w poligrafii Europy Północnej ze względu na bliskość językową, zharmonizowane standardy i wspólne konwencje wysyłki/logistyki.",
+    "pt": "Agrupamento sub-regional nórdico: Noruega (NO), Suécia (SE), Dinamarca (DK), Finlândia (FI) e Islândia (IS). Segmento de mercado comum nas operações gráficas do norte da Europa, pela proximidade linguística, normas harmonizadas e convenções compartilhadas de envio/logística.",
+    "hi": "नॉर्डिक उप-क्षेत्रीय समूह: नॉर्वे (NO), स्वीडन (SE), डेनमार्क (DK), फ़िनलैंड (FI) और आइसलैंड (IS)। भाषाई निकटता, सामंजस्यपूर्ण मानकों और साझा शिपिंग/लॉजिस्टिक्स परंपराओं के कारण उत्तरी यूरोप के मुद्रण परिचालनों में एक सामान्य बाज़ार खंड।"
+  }
+}

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Extra thick card"@en,
+        "Ultra-thick cardstock"@en,
+        "अल्ट्रा-थिक कार्डस्टॉक"@hi,
+        "एक्स्ट्रा थिक कार्ड"@hi,
+        "बहुत मोटा कार्ड"@hi,
+        "Ekstra tykk kartong"@nb,
+        "karton ekstra gruby"@pl,
+        "karton ultragruby"@pl,
+        "cartão contracolado"@pt,
+        "cartão extra grosso"@pt,
+        "cartão ultra grosso"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
+    skos:definition "Karton over 450 g/m² — ekstra kraftig, ofte lamineret af flere ark. Bruges til luksusvisitkort, eksklusiv emballage og stive bogomslag."@da,
+        "Karton ab 450 g/m² — schwergewichtig, häufig durch Kaschierung mehrerer Bogen hergestellt. Eingesetzt für Luxus-Visitenkarten, Premium-Verpackungen und harte Buchcover."@de,
+        "Cardstock above 450 gsm — heavyweight, often laminated from multiple sheets. Used for luxury business cards, premium packaging, and rigid book covers."@en,
+        "Cartulina extra gruesa, 350+ gsm — utilizada para tarjetas premium, packaging ligero y aplicaciones que requieren rigidez."@es,
+        "450 GSM से ऊपर का कार्डस्टॉक — बहुत भारी, अक्सर कई शीटों को चिपकाकर बना। लक्ज़री विज़िटिंग कार्ड, प्रीमियम पैकेजिंग और कठोर किताब कवर में।"@hi,
+        "450gsmを超えるカード紙 — 重量級で、複数枚のシートをラミネートしている場合が多い。ラグジュアリー名刺、高級パッケージ、剛性のある書籍カバーに使用される。"@ja,
+        "Kartong over 450 gsm — tunge, ofte laminert fra flere ark. Brukt til luksus-visittkort, premium-emballasje og stive bokomslag."@nb,
+        "Karton boven 450 g/m² — extra zwaar, vaak gelamineerd uit meerdere vellen. Gebruikt voor luxe visitekaartjes, exclusieve verpakkingen en stijve boekomslagen."@nl,
+        "Karton powyżej 450 g/m² — ciężki, często laminowany z kilku arkuszy. Używany do luksusowych wizytówek, opakowań premium i sztywnych okładek książek."@pl,
+        "Cartão acima de 450 g/m² — muito pesado, muitas vezes contracolado a partir de várias folhas. Usado em cartões de visita de luxo, embalagens premium e capas rígidas de livro."@pt,
+        "Kartong över 450 g/m² — tung, ofta laminerad av flera ark. Används för lyxvisitkort, exklusiva förpackningar och styva bokomslag."@sv,
+        "超厚卡纸，350+克 —— 用于高级卡片、轻量包装和需要刚性的应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§EXTRA-THICK-CARDSTOCK" ;
+    skos:prefLabel "Ekstra tyk karton (450+ g/m²)"@da,
+        "Extra dicker Karton (450+ g/m²)"@de,
+        "Extra Thick Cardstock (450+ gsm)"@en,
+        "Cartulina Extra Gruesa (450+ gsm)"@es,
+        "एक्स्ट्रा थिक कार्डस्टॉक (450+ GSM)"@hi,
+        "超厚カードストック（450 gsm以上）"@ja,
+        "Ekstra tykk kartong (450+ g/m²)"@nb,
+        "Extra dik karton (450+ g/m²)"@nl,
+        "Karton bardzo gruby (450+ g/m²)"@pl,
+        "Cartão extra grosso (450+ g/m²)"@pt,
+        "Extra tjock kartong (450+ g/m²)"@sv,
+        "超厚卡纸 (450+克)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:hasProperty [ ptpge:unit "gsm" ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

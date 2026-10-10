@@ -1,0 +1,103 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/variables/features/surface-finish",
+  "type": "skos:Concept",
+  "version": "2026-09-20",
+  "status": "proposed",
+  "notation": "VAR:FT§SURFACE-FINISH",
+  "level": "element",
+  "elementType": "variable",
+  "label": {
+    "en": "Surface Finish",
+    "nb": "Overflatefinish",
+    "de": "Oberflächenveredelung",
+    "es": "Acabado superficial",
+    "ja": "表面加工",
+    "zh-Hans": "表面处理",
+    "sv": "Ytbehandling",
+    "da": "Overfladefinish",
+    "nl": "Oppervlakteafwerking",
+    "pl": "Wykończenie powierzchni",
+    "pt": "Acabamento de superfície",
+    "hi": "सरफ़ेस फ़िनिश"
+  },
+  "altLabels": {
+    "en": [
+      "Coating & Lamination",
+      "Finish"
+    ],
+    "nb": [
+      "Lakk og laminering",
+      "Overflatebehandling"
+    ],
+    "pl": [
+      "lakier i laminowanie"
+    ],
+    "pt": [
+      "laminação e verniz",
+      "acabamento",
+      "revestimento"
+    ],
+    "hi": [
+      "लैमिनेशन और कोटिंग",
+      "फ़िनिश",
+      "सतह फ़िनिश"
+    ]
+  },
+  "definition": {
+    "en": "Configurable axis: Surface Finish. A printed product is configured along this variable (enum, multiple ordered selection — up to two stacked finish layers per surface). Allowed values are drawn from the referenced valueDomain.",
+    "nb": "Konfigurerbar akse: Overflatefinish. Et trykkprodukt konfigureres langs denne variabelen (enum, flere ordnede valg — inntil to stablede finish-lag per surface). Verdier hentes fra value-domain.",
+    "de": "Konfigurierbare Achse: Oberflächenveredelung. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (Enum, geordnete Mehrfachauswahl — bis zu zwei gestapelte Veredelungslagen je Oberfläche). Zulässige Werte stammen aus der referenzierten valueDomain.",
+    "es": "Eje configurable: Acabado superficial. Un producto impreso se configura a lo largo de esta variable (enum, selección múltiple ordenada — hasta dos capas de acabado apiladas por superficie). Los valores permitidos provienen del valueDomain referenciado.",
+    "ja": "構成可能な軸：表面加工。印刷物はこの変数に沿って構成される（列挙型、順序付き複数選択 — 面ごとに最大2層まで重ねられる）。許容値は参照先の valueDomain から取得される。",
+    "zh-Hans": "可配置轴：表面处理。印刷品沿此变量进行配置（枚举，有序多选——每个表面最多可叠加两层加工）。允许的取值来自所引用的 valueDomain。",
+    "sv": "Konfigurerbar axel: Ytbehandling. En trycksak konfigureras längs denna variabel (uppräkning, ordnat flerval — upp till två staplade ytbehandlingsskikt per yta). Tillåtna värden hämtas ur den refererade värdedomänen (valueDomain).",
+    "da": "Konfigurerbar akse: Overfladefinish. Et trykt produkt konfigureres langs denne variabel (enum, flervalg med rækkefølge — op til to stablede finishlag pr. flade). Tilladte værdier hentes fra det refererede værdidomæne.",
+    "nl": "Configureerbare as: Oppervlakteafwerking. Een drukproduct wordt langs deze variabele geconfigureerd (enum, geordende meerkeuze — tot twee gestapelde afwerkingslagen per vlak). Toegestane waarden komen uit het gerefereerde waardedomein.",
+    "pl": "Oś konfigurowalna: Wykończenie powierzchni. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (enum, uporządkowany wybór wielokrotny — do dwóch nałożonych warstw wykończenia na powierzchnię). Dozwolone wartości pochodzą z przywołanej valueDomain.",
+    "pt": "Eixo configurável: Acabamento de Superfície. Um impresso é configurado ao longo desta variável (enumeração, seleção múltipla ordenada — até duas camadas de acabamento empilhadas por face). Os valores permitidos vêm do valueDomain referenciado.",
+    "hi": "कॉन्फ़िगर करने योग्य अक्ष: सरफ़ेस फ़िनिश। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (enum, क्रमबद्ध बहु-चयन — प्रति सतह अधिकतम दो परतें)। अनुमत मान संदर्भित valueDomain से लिए जाते हैं।"
+  },
+  "question": {
+    "en": "Which surface finish?",
+    "nb": "Hvilken overflatebehandling?",
+    "de": "Welche Oberflächenveredelung?",
+    "es": "¿Qué acabado de superficie?",
+    "ja": "表面加工は？",
+    "zh-Hans": "什么表面处理？",
+    "sv": "Vilken ytbehandling?",
+    "da": "Hvilken overfladebehandling?",
+    "nl": "Welke oppervlakteafwerking?",
+    "pl": "Jakie wykończenie powierzchni?",
+    "pt": "Que acabamento de superfície?",
+    "hi": "कौन-सी सतह फ़िनिश?"
+  },
+  "scopeNote": {
+    "en": "Partial domain (laminations). Varnish and soft-touch are not yet fully modelled.",
+    "pt": "Domínio parcial (laminações). Verniz e soft-touch ainda não estão totalmente modelados.",
+    "hi": "आंशिक डोमेन (लैमिनेशन)। वार्निश और सॉफ़्ट-टच अभी पूरी तरह मॉडल नहीं किए गए हैं।"
+  },
+  "datatype": "enum",
+  "cardinality": "multiple",
+  "ordered": true,
+  "scope": "surface",
+  "valueDomain": "https://ptpge.org/v1/printing/features/surface-finish",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/variables/features",
+  "created": "2026-05-30T00:00:00Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "exclusiveGroups": [
+    {
+      "name": "lamination",
+      "rule": "at-most-one",
+      "values": [
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/anti-scratch",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/silk",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
+      ]
+    }
+  ]
+}

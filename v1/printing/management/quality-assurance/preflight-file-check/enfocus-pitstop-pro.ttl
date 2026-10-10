@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/enfocus-pitstop-pro> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:29:35+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> ;
+    skos:definition "Enfocus PitStop Pro — branchestandard for PDF-preflight og -reparation fra Enfocus (Belgien). Fås som Adobe Acrobat-plugin og som del af Enfocus Switch-automatisering. Bredt brugt i kommercielt tryk."@da,
+        "Enfocus PitStop Pro — Industriestandard für PDF-Preflight und -Korrektur von Enfocus (Belgien). Verfügbar als Adobe Acrobat-Plug-in und als Bestandteil der Enfocus Switch-Automatisierung. Weit verbreitet in der gewerblichen Druckvorstufe."@de,
+        "Enfocus PitStop Pro — industry-standard PDF preflight and fix tool from Enfocus (Belgium). Available as an Adobe Acrobat plug-in and as part of Enfocus Switch automation. Widely used in commercial print prepress."@en,
+        "Plug-in para Adobe Acrobat de Enfocus, estándar de la industria para preflight y corrección automática de PDF en pre-prensa."@es,
+        "Enfocus PitStop Pro — Enfocus (बेल्जियम) का उद्योग-मानक PDF प्रीफ़्लाइट और फ़िक्स औज़ार। Adobe Acrobat प्लग-इन और Enfocus Switch स्वचालन के हिस्से के रूप में उपलब्ध। व्यावसायिक प्रिंट प्रीप्रेस में व्यापक रूप से प्रयुक्त।"@hi,
+        "Enfocus PitStop Pro — Enfocus（ベルギー）による業界標準のPDFプリフライトおよび修正ツール。Adobe Acrobatプラグインとして、またEnfocus Switch自動化の一部として利用可能。商用印刷の製版で広く使用される。"@ja,
+        "Enfocus PitStop Pro — bransjestandard verktøy for PDF preflight og fiksing fra Enfocus (Belgia). Tilgjengelig som en Adobe Acrobat-plugin og som del av Enfocus Switch-automasjon. Mye brukt i kommersiell trykk-prepress."@nb,
+        "Enfocus PitStop Pro — de industriestandaard voor PDF-preflight en -reparatie van Enfocus (België). Verkrijgbaar als Adobe Acrobat-plug-in en als onderdeel van Enfocus Switch-automatisering. Breed gebruikt in commercieel drukwerk."@nl,
+        "Enfocus PitStop Pro — branżowy standard narzędzi do preflightu i naprawy PDF firmy Enfocus (Belgia). Dostępny jako wtyczka do Adobe Acrobat i jako część automatyzacji Enfocus Switch. Szeroko używany w prepressie druku komercyjnego."@pl,
+        "Enfocus PitStop Pro — ferramenta de preflight e correção de PDF padrão do setor, da Enfocus (Bélgica). Disponível como plug-in do Adobe Acrobat e como parte da automação Enfocus Switch. Amplamente usada na pré-impressão comercial."@pt,
+        "Enfocus PitStop Pro — branschstandardverktyg för PDF-preflight och korrigering från Enfocus (Belgien). Finns som Adobe Acrobat-insticksprogram och som del av Enfocus Switch-automation. Brett använt i civiltryckets prepress."@sv,
+        "Enfocus为Adobe Acrobat开发的插件，是印前PDF飞检和自动修正的行业标准。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§ENFOCUS-PITSTOP-PRO" ;
+    skos:prefLabel "Enfocus PitStop Pro"@da,
+        "Enfocus PitStop Pro"@de,
+        "Enfocus PitStop Pro"@en,
+        "Enfocus PitStop Pro"@es,
+        "Enfocus PitStop Pro"@hi,
+        "Enfocus PitStop Pro"@ja,
+        "Enfocus PitStop Pro"@nb,
+        "Enfocus PitStop Pro"@nl,
+        "Enfocus PitStop Pro"@pl,
+        "Enfocus PitStop Pro"@pt,
+        "Enfocus PitStop Pro"@sv,
+        "Enfocus PitStop Pro"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving."@en,
+        "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.5 · p.73",
+                "§5.4.14 · p.100",
+                "§6.64 · p.249",
+                "§6.65 · p.250" ;
+            ptpge:mappingRow "crosswalk row 13" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "ContentCheckIntent",
+                "Preflight",
+                "PreflightParams",
+                "PreflightReport" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

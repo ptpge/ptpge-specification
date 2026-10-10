@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "grafika bitmapowa"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats> ;
+    skos:definition "Billedfilformater, der lagrer visuelt indhold som et gitter af pixels, hver med eksplicitte farveværdier — velegnet til fotografier og halvtoneoriginaler."@da,
+        "Bilddateiformate, die visuelle Inhalte als Pixelraster mit expliziten Farbwerten je Pixel speichern — geeignet für Fotografien und Halbton-Bildmaterial."@de,
+        "Image file formats that store visual content as a grid of pixels, each with explicit color values — appropriate for photographs and continuous-tone artwork."@en,
+        "Formatos de archivo de imagen que almacenan el contenido visual como una rejilla de píxeles, cada uno con valores de color explícitos — apropiados para fotografías y obras de tono continuo."@es,
+        "छवि फ़ाइल फ़ॉर्मेट जो दृश्य सामग्री को पिक्सेल की ग्रिड के रूप में संग्रहीत करते हैं, हर पिक्सेल के स्पष्ट रंग मान — फ़ोटोग्राफ़ और सतत-टोन आर्टवर्क के लिए उपयुक्त।"@hi,
+        "視覚コンテンツを、それぞれが明示的な色値を持つピクセルのグリッドとして保存する画像ファイル形式 — 写真および連続階調のアートワークに適する。"@ja,
+        "Bildefilformater som lagrer visuelt innhold som et rutenett av piksler, hver med eksplisitte fargeverdier — passende for fotografier og kontinuerlig-tonet kunst."@nb,
+        "Beeldbestandsformaten die visuele inhoud opslaan als een raster van pixels, elk met expliciete kleurwaarden — geschikt voor foto's en fulltone-originelen."@nl,
+        "Formaty plików obrazów przechowujące treść wizualną jako siatkę pikseli, każdy z jawnymi wartościami barw — właściwe dla fotografii i grafiki wielotonalnej."@pl,
+        "Formatos de arquivo de imagem que armazenam o conteúdo visual como uma grade de pixels, cada um com valores de cor explícitos — adequados para fotografias e arte de tom contínuo."@pt,
+        "Bildfilformat som lagrar visuellt innehåll som ett rutnät av pixlar, var och en med explicita färgvärden — lämpligt för fotografier och halvtonsoriginal."@sv,
+        "将视觉内容存储为像素网格的图像文件格式，每个像素具有明确的色值——适合照片和连续色调艺术作品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/camera-raw>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/joint-picture-expert-group>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/portable-network-group>,
+        <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/tagged-image-file-format> ;
+    skos:notation "P:ST-GFF-RAST" ;
+    skos:prefLabel "Rastergrafik"@da,
+        "Rastergrafik"@de,
+        "Raster Graphics"@en,
+        "Gráficos Raster"@es,
+        "रास्टर ग्राफ़िक्स"@hi,
+        "ラスターグラフィック"@ja,
+        "Rastergrafikk"@nb,
+        "Rastergraphics"@nl,
+        "Grafika rastrowa"@pl,
+        "Gráficos raster"@pt,
+        "Rastergrafik"@sv,
+        "位图图形"@zh-Hans ;
+    skos:scopeNote "Umfasst verlustbehaftete Kompression (JPEG), verlustfreie Kompression (PNG, TIFF) und unkomprimierte/minimal verarbeitete Sensordaten (Camera RAW). Auflösung und Farbtiefe bestimmen die Eignung für den Druck in einer bestimmten Größe."@de,
+        "Includes lossy compression (JPEG), lossless compression (PNG, TIFF), and uncompressed/minimally-processed sensor data (Camera RAW). Resolution and color depth determine fitness for print at a given size."@en,
+        "Incluye compresión con pérdida (JPEG), compresión sin pérdida (PNG, TIFF) y datos de sensor sin comprimir o mínimamente procesados (RAW de cámara). La resolución y la profundidad de color determinan la idoneidad para imprimir a un tamaño dado."@es,
+        "हानिपूर्ण संपीड़न (JPEG), हानिरहित संपीड़न (PNG, TIFF) और असंपीड़ित/न्यूनतम-प्रसंस्कृत सेंसर डेटा (Camera RAW) शामिल। रिज़ॉल्यूशन और रंग गहराई किसी आकार पर प्रिंट की उपयुक्तता तय करते हैं।"@hi,
+        "非可逆圧縮（JPEG）、可逆圧縮（PNG、TIFF）、無圧縮または最小限の処理を施したセンサーデータ（Camera RAW）を含む。解像度と色深度が、特定のサイズで印刷に適するかを決定する。"@ja,
+        "Inkluderer tapsbehandlet komprimering (JPEG), tapsfri komprimering (PNG, TIFF) og ubehandlet/minimalt behandlede sensordata (Camera RAW). Oppløsning og fargedybde avgjør egnethet for trykk i en gitt størrelse."@nb,
+        "Inclui compressão com perdas (JPEG), sem perdas (PNG, TIFF) e dados de sensor não comprimidos/minimamente processados (Camera RAW). Resolução e profundidade de cor determinam a adequação para impressão num dado tamanho."@pt,
+        "包括有损压缩（JPEG）、无损压缩（PNG、TIFF）以及未压缩或最低限度处理的传感器数据（相机RAW）。分辨率和色深决定在特定尺寸下印刷的适用性。"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

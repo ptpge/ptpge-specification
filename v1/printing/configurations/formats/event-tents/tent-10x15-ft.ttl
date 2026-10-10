@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/event-tents/tent-10x15-ft> a skos:Concept ;
+    dcterms:created "2026-09-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/v1/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "10 × 15 ft tent"@en,
+        "10x15 ft"@en,
+        "Pop-up tent 10 × 15 ft"@en,
+        "namiot ekspresowy 10 × 15 ft"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/event-tents> ;
+    skos:definition "Amerikansk standardmål for pop-up- og rammetelte — 10 × 15 ft. Formatet er rammens fodaftryk; tag- og vægpaneler, sømme og kanter er produktionsgeometri udledt af producenten."@da,
+        "US-Standardmaß für Faltpavillons und Rahmenzelte — 10 × 15 ft. Das Format ist die Rahmengrundfläche; Dach- und Wandbahnen, Nähte und Säume sind vom Hersteller abgeleitete Produktionsgeometrie."@de,
+        "Event tent format 10 × 15 ft: US standard footprint for pop-up and frame event tents. The format is the frame footprint; canopy and wall panels, seams and hems are production geometry derived by the producer."@en,
+        "Medida estándar estadounidense para carpas plegables y de armazón — 10 × 15 ft. El formato es la huella de la estructura; paneles de techo y pared, costuras y dobladillos son geometría de producción derivada por el productor."@es,
+        "इवेंट टेंट फ़ॉर्मेट 10 × 15 ft: पॉप-अप और फ़्रेम टेंट के लिए US मानक फुटप्रिंट। फ़ॉर्मेट फ़्रेम का फुटप्रिंट है; छतरी और दीवार पैनल, सिलाई और किनारे उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति हैं।"@hi,
+        "ポップアップ／フレームテントの米国標準サイズ。 — 10 × 15 ft. 判型はフレームの設置面積。天幕・側幕パネル、縫い目、縁は製造者が導出する生産上の寸法。"@ja,
+        "Amerikansk standardmål for pop-up- og rammetelt — 10 × 15 ft. Formatet er rammens fotavtrykk; canopy- og veggpaneler, sømmer og fald er produksjonsgeometri utledet av produsenten."@nb,
+        "Amerikaanse standaardmaat voor pop-up- en frametenten — 10 × 15 ft. Het formaat is de voetafdruk van het frame; dak- en wandpanelen, naden en zomen zijn door de producent afgeleide productiegeometrie."@nl,
+        "Format namiotu eventowego 10 × 15 ft: amerykański standardowy obrys namiotów ekspresowych i ramowych. Format to obrys stelaża; panele dachu i ścian, szwy i obszycia są geometrią produkcyjną wyprowadzaną przez producenta."@pl,
+        "Formato de tenda para eventos 10 × 15 ft: área padrão americana para tendas sanfonadas e de estrutura. O formato é a área da estrutura; painéis de cobertura e paredes, costuras e bainhas são geometria de produção derivada pelo produtor."@pt,
+        "Amerikanskt standardmått för pop-up- och ramtält — 10 × 15 ft. Formatet är ramens fotavtryck; tak- och väggpaneler, sömmar och fållar är produktionsgeometri som producenten härleder."@sv,
+        "弹出式与框架帐篷的美国标准尺寸。 — 10 × 15 ft. 规格为框架占地尺寸；顶篷与围布片、缝线与折边为生产者推导的生产几何尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§TENT-10X15-FT" ;
+    skos:prefLabel "Tent 10 × 15 ft"@da,
+        "Tent 10 × 15 ft"@de,
+        "Tent 10 × 15 ft"@en,
+        "Tent 10 × 15 ft"@es,
+        "टेंट 10 × 15 ft"@hi,
+        "Tent 10 × 15 ft"@ja,
+        "Tent 10 × 15 ft"@nb,
+        "Tent 10 × 15 ft"@nl,
+        "Namiot 10 × 15 ft"@pl,
+        "Tenda 10 × 15 ft"@pt,
+        "Tent 10 × 15 ft"@sv,
+        "Tent 10 × 15 ft"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 21600.0 ;
+            ptpge:aspectRatio 1.5 ;
+            ptpge:height 180.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "in" ;
+            ptpge:width 120.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-09-05" .
+

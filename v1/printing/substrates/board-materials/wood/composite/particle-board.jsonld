@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite/particle-board",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§PARTICLE-BOARD",
+  "label": {
+    "en": "Particleboard",
+    "nb": "Sponplate",
+    "de": "Spanplatte",
+    "es": "Tablero de partículas",
+    "ja": "パーティクルボード",
+    "zh-Hans": "刨花板",
+    "sv": "Spånskiva",
+    "da": "Spånplade",
+    "nl": "Spaanplaat",
+    "pl": "Płyta wiórowa",
+    "pt": "Aglomerado",
+    "hi": "पार्टिकल बोर्ड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/wood/composite",
+  "definition": {
+    "en": "Engineered panel of wood particles bonded with resin — economical rigid board.",
+    "nb": "Teknisk plate av trepartikler bundet med harpiks — rimelig rigid plate.",
+    "de": "Platte aus harzgebundenen Holzpartikeln — günstige starre Platte.",
+    "ja": "樹脂で固めた木質パーティクルのパネル — 経済的な硬質ボード。",
+    "es": "Tablero de partículas de madera unidas con resina — tablero rígido económico.",
+    "zh-Hans": "以树脂粘合木颗粒制成的板材 — 经济型硬板。",
+    "sv": "Konstruerad skiva av träpartiklar bundna med harts — ekonomisk styv skiva.",
+    "da": "Konstrueret panel af træpartikler bundet med harpiks — økonomisk stiv plade.",
+    "nl": "Samengesteld paneel van houtspaanders gebonden met hars — economische stijve plaat.",
+    "pl": "Płyta drewnopochodna z cząstek drewna związanych żywicą — ekonomiczna sztywna płyta.",
+    "pt": "Painel engenheirado de partículas de madeira unidas com resina — chapa rígida econômica.",
+    "hi": "रेज़िन से जुड़े लकड़ी के कणों का इंजीनियर्ड पैनल — किफ़ायती कठोर बोर्ड।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "chipboard",
+      "Particle Board",
+      "Chipboard"
+    ],
+    "nb": [
+      "sponplate",
+      "Particle Board"
+    ],
+    "pl": [
+      "wiórówka"
+    ],
+    "pt": [
+      "aglomerado",
+      "MDP",
+      "chapa de partículas",
+      "compensado de partículas"
+    ],
+    "hi": [
+      "चिपबोर्ड",
+      "पार्टिकल बोर्ड",
+      "बुरादे का बोर्ड"
+    ]
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

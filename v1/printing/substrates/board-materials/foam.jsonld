@@ -1,0 +1,105 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/foam",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Foam",
+    "es": "Foam (Espuma)",
+    "zh-Hans": "泡沫板",
+    "nb": "Skum",
+    "de": "Schaumstoff",
+    "ja": "フォーム",
+    "sv": "Skum",
+    "da": "Skum",
+    "nl": "Schuim",
+    "pl": "Pianka",
+    "pt": "Espuma",
+    "hi": "फ़ोम"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§FOAM",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Lightweight foam-core boards (e.g. Foamex, Forex) — rigid yet light, used for short-term displays, exhibition graphics, and temporary signage.",
+    "nb": "Lette skumkjerne-plater (f.eks. Foamex, Forex) — stive men lette, brukt til korttidsutstillinger, messegrafikk og midlertidig skilting.",
+    "de": "Leichte Schaumkernplatten (z. B. Foamex, Forex) — steif und zugleich leicht, eingesetzt für kurzfristige Displays, Messegrafiken und temporäre Beschilderungen.",
+    "ja": "軽量フォームコアボード（例：Foamex、Forex）— 剛性がありながら軽量で、短期ディスプレイ、展示グラフィック、仮設サインに使用される。",
+    "es": "Plancha de núcleo de espuma con caras de cartón o plástico — ligera y rígida, utilizada para signage temporal y display.",
+    "zh-Hans": "带纸板或塑料面的泡沫芯板 —— 轻便且坚固，用于临时标识和展示。",
+    "sv": "Lätta skivor med skumkärna (t.ex. Foamex, Forex) — styva men lätta, används för korttidsdisplayer, mässgrafik och tillfällig skyltning.",
+    "da": "Lette skumkerneplader (f.eks. Foamex, Forex) — stive men lette, bruges til kortvarige displays, udstillingsgrafik og midlertidig skiltning.",
+    "nl": "Lichte schuimkernplaten (bijv. Foamex, Forex) — stijf maar licht, gebruikt voor kortstondige displays, tentoonstellingsgraphics en tijdelijke signalisatie.",
+    "pl": "Lekkie płyty o rdzeniu piankowym (np. Foamex, Forex) — sztywne, lecz lekkie, używane do ekspozycji krótkoterminowych, grafik wystawienniczych i tymczasowego oznakowania.",
+    "pt": "Chapas leves com núcleo de espuma (p. ex. Foamex, Forex) — rígidas mas leves, usadas em displays de curta duração, gráficos de exposição e sinalização temporária.",
+    "hi": "हल्के फ़ोम-कोर बोर्ड (जैसे Foamex, Forex) — कठोर पर हल्के, अल्पकालिक डिस्प्ले, प्रदर्शनी ग्राफ़िक्स और अस्थायी साइनेज में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Foam board",
+      "Foamboard",
+      "Foamcore",
+      "Kapa",
+      "Forex",
+      "PVC foam board"
+    ],
+    "nb": [
+      "Skumplate",
+      "Foamboard"
+    ],
+    "de": [
+      "Hartschaumplatte",
+      "PVC-Hartschaum",
+      "Forex-Platte",
+      "Leichtschaumplatte"
+    ],
+    "pl": [
+      "płyta piankowa",
+      "pianka PCV",
+      "Kapa",
+      "Forex",
+      "płyta PCV spienionego"
+    ],
+    "pt": [
+      "foam board",
+      "placa de espuma",
+      "PVC expandido",
+      "Forex",
+      "Kapa",
+      "papel pluma"
+    ],
+    "hi": [
+      "फ़ोम बोर्ड",
+      "फ़ोम शीट",
+      "सनबोर्ड",
+      "Forex",
+      "Kapa",
+      "PVC फ़ोम बोर्ड"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

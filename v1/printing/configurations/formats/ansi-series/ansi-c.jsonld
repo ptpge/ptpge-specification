@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-c",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "ANSI C (17 x 22 in)",
+    "es": "ANSI C (432 × 559 mm / 17 × 22 in)",
+    "zh-Hans": "ANSI C (432 × 559 mm / 17 × 22 in)",
+    "nb": "ANSI C (17 x 22 in)",
+    "de": "ANSI C (17 x 22 in)",
+    "ja": "ANSI C (17 x 22 in)",
+    "sv": "ANSI C (17 x 22 tum)",
+    "da": "ANSI C (17 x 22 tum)",
+    "nl": "ANSI C (17 x 22 tum)",
+    "pl": "ANSI C (17 x 22 in)",
+    "pt": "ANSI C (17 x 22 in)",
+    "hi": "ANSI C (17 x 22 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§ANSI-C",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/ansi-series",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "17 × 22 in (431.8 × 558.8 mm). Twice the area of ANSI B. Common for technical drawings and engineering plots.",
+    "nb": "17 × 22 in (431,8 × 558,8 mm). Dobbelt areal av ANSI B. Vanlig for tekniske tegninger og ingeniørutskrifter.",
+    "de": "17 × 22 in (431,8 × 558,8 mm). Doppelte Fläche von ANSI B. Üblich für technische Zeichnungen und Konstruktionsplots.",
+    "ja": "17×22インチ（431.8×558.8mm）。ANSI Bの2倍の面積。技術図面およびエンジニアリングプロットで一般的。",
+    "es": "Tamaño ANSI C del estándar American National Standards Institute, 432 × 559 mm / 17 × 22 in.",
+    "zh-Hans": "ANSI C尺寸，American National Standards Institute标准，432 × 559 mm / 17 × 22 in。",
+    "sv": "17 × 22 tum (431.8 × 558.8 mm). Dubbla arean av ANSI B. Vanligt för tekniska ritningar och ingenjörsplottar.",
+    "da": "17 × 22 tommer (431.8 × 558.8 mm). Dubbla arealet av ANSI B. Almindeligt til tekniske tegninger og ingeniørplot.",
+    "nl": "17 × 22 inch (431.8 × 558.8 mm). Dubbel het oppervlak van ANSI B. Gebruikelijk voor technische tekeningen en engineeringplots.",
+    "pl": "17 × 22 cale (431,8 × 558,8 mm). Dwukrotna powierzchnia ANSI B. Typowy dla rysunków technicznych i wydruków inżynierskich.",
+    "pt": "17 × 22 in (431.8 × 558.8 mm). O dobro da área do ANSI B. Comum em desenhos técnicos e plotagens de engenharia.",
+    "hi": "17 × 22 in (431.8 × 558.8 mm). ANSI B का दोगुना क्षेत्रफल। तकनीकी चित्रों और इंजीनियरिंग प्लॉट में आम।"
+  },
+  "properties": {
+    "width": 17,
+    "height": 22,
+    "unit": "in",
+    "aspectRatio": 1.2941,
+    "standard": "ANSI/ASME Y14.1",
+    "area": 374
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "17 x 22 in",
+      "17x22",
+      "17×22"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

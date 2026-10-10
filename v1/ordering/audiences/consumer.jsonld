@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/audiences/consumer",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:AU§CONSUMER",
+  "elementType": "context",
+  "label": {
+    "en": "Consumer",
+    "nb": "Forbruker",
+    "de": "Verbraucher",
+    "ja": "消費者",
+    "es": "Consumidor",
+    "zh-Hans": "消费者",
+    "sv": "Konsument",
+    "da": "Forbruger",
+    "nl": "Consument",
+    "pl": "Konsument",
+    "pt": "Consumidor",
+    "hi": "उपभोक्ता"
+  },
+  "definition": {
+    "en": "Products targeted at general consumers across all segments — broader and less business-segmented than B2C, including hobbyists, event hosts, and personal-use buyers.",
+    "nb": "Produkter rettet mot generelle forbrukere på tvers av alle segmenter — bredere og mindre B2C-segmentert, inkludert hobbyister, arrangører og personlige kjøpere.",
+    "de": "Produkte für allgemeine Verbraucher über alle Segmente hinweg — breiter als B2C, einschließlich Hobbyisten und Veranstalter.",
+    "ja": "あらゆるセグメントの一般消費者向け製品 — B2C より広く、ビジネス区分の薄い層。趣味人、イベント主催者、個人利用の買い手を含む。",
+    "es": "Productos dirigidos a consumidores en general de todos los segmentos — más amplio y menos segmentado por negocio que B2C, incluyendo aficionados, anfitriones de eventos y compradores de uso personal.",
+    "zh-Hans": "面向各细分层面普通消费者的产品 — 比 B2C 更广、商业细分更弱，包括爱好者、活动主办者与个人用途买家。",
+    "sv": "Produkter riktade till konsumenter i alla segment — bredare och mindre affärssegmenterat än B2C, inklusive hobbyister, evenemangsvärdar och privatköpare.",
+    "da": "Produkter rettet mod almindelige forbrugere på tværs af alle segmenter — bredere og mindre erhvervssegmenteret end B2C, herunder hobbyister, værter for arrangementer og købere til personlig brug.",
+    "nl": "Producten gericht op algemene consumenten in alle segmenten — breder en minder zakelijk gesegmenteerd dan B2C, inclusief hobbyisten, organisatoren van evenementen en particuliere kopers.",
+    "pl": "Produkty skierowane do ogółu konsumentów we wszystkich segmentach — szerzej i mniej biznesowo niż B2C; obejmuje hobbystów, organizatorów wydarzeń i nabywców na użytek osobisty.",
+    "pt": "Produtos voltados ao consumidor em geral, em todos os segmentos — mais amplo e menos segmentado por negócio que B2C, incluindo hobbistas, anfitriões de eventos e compradores para uso pessoal.",
+    "hi": "सभी खंडों के सामान्य उपभोक्ताओं के लिए उत्पाद — B2C से व्यापक और कम व्यवसाय-खंडित, जिसमें शौक़ीन, आयोजन के मेज़बान और निजी उपयोग के खरीदार शामिल हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "audiences",
+  "broader": "https://ptpge.org/v1/ordering/audiences",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/PeopleAudience"
+  ]
+}

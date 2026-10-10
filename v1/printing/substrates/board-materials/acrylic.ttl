@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/acrylic> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Acrylglas"@de,
+        "PMMA"@de,
+        "Plexiglas"@de,
+        "Acrylic glass"@en,
+        "PMMA"@en,
+        "Perspex"@en,
+        "Plexi"@en,
+        "Plexiglas"@en,
+        "Plexiglass"@en,
+        "PMMA"@hi,
+        "ऐक्रेलिक ग्लास"@hi,
+        "ऐक्रेलिक शीट"@hi,
+        "पर्सपेक्स"@hi,
+        "प्लेक्सीग्लास"@hi,
+        "Akryl"@nb,
+        "Pleksiglass"@nb,
+        "PMMA"@pl,
+        "Plexiglas"@pl,
+        "pleksi"@pl,
+        "pleksiglas"@pl,
+        "plexi"@pl,
+        "szkło akrylowe"@pl,
+        "PMMA"@pt,
+        "acrílico transparente"@pt,
+        "chapa de acrílico"@pt,
+        "plexiglass"@pt,
+        "vidro acrílico"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials> ;
+    skos:definition "Transparente eller farvede termoplastpaneler (PMMA, også kendt som plexiglas) — bruges til bagbelyste skilte, udstillingsdisplays og arkitektoniske elementer."@da,
+        "Transparente oder gefärbte thermoplastische Platten (PMMA, auch Plexiglas genannt) — verwendet für hinterleuchtete Schilder, Messedisplays und Architekturelemente."@de,
+        "Transparent or colored thermoplastic panels (PMMA, also known as plexiglass) — used for backlit signs, exhibition displays, and architectural elements."@en,
+        "Plancha rígida de polimetacrilato — transparente o coloreado, durable, utilizado en señalética, displays y aplicaciones arquitectónicas."@es,
+        "पारदर्शी या रंगीन थर्मोप्लास्टिक पैनल (PMMA, जिसे प्लेक्सीग्लास भी कहते हैं) — बैकलिट साइन, प्रदर्शनी डिस्प्ले और वास्तु तत्वों में।"@hi,
+        "透明または着色された熱可塑性パネル（PMMA、別名プレキシガラス）— バックライト式サイン、展示ディスプレイ、建築要素に使用される。"@ja,
+        "Gjennomsiktige eller fargede termoplastpaneler (PMMA, også kjent som plexiglass) — brukt til bakgrunnsbelyste skilt, messeoppstillinger og arkitekturelementer."@nb,
+        "Transparante of gekleurde thermoplastische platen (PMMA, ook bekend als plexiglas) — gebruikt voor verlichte borden, tentoonstellingsdisplays en architectonische elementen."@nl,
+        "Przezroczyste lub barwione płyty termoplastyczne (PMMA, znane też jako pleksi) — używane do podświetlanych szyldów, ekspozycji wystawienniczych i elementów architektonicznych."@pl,
+        "Painéis termoplásticos transparentes ou coloridos (PMMA, também chamado plexiglass) — usados em letreiros retroiluminados, displays de exposição e elementos arquitetônicos."@pt,
+        "Transparenta eller färgade termoplastskivor (PMMA, även kallat plexiglas) — används för bakbelysta skyltar, mässdisplayer och arkitektoniska element."@sv,
+        "聚甲基丙烯酸甲酯的刚性板 —— 透明或彩色，耐用，用于标识、展示和建筑应用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§ACRYLIC" ;
+    skos:prefLabel "Akryl"@da,
+        "Acryl"@de,
+        "Acrylic"@en,
+        "Acrílico"@es,
+        "ऐक्रेलिक"@hi,
+        "アクリル"@ja,
+        "Akryl"@nb,
+        "Acryl"@nl,
+        "Akryl"@pl,
+        "Acrílico"@pt,
+        "Akryl"@sv,
+        "亚克力"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

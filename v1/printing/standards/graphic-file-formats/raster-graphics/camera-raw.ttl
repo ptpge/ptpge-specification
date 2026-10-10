@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics/camera-raw> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel ".raw"@en,
+        "RAW"@en,
+        "camera raw"@en,
+        ".raw"@hi,
+        "RAW"@hi,
+        "camera raw"@hi,
+        ".raw"@pl,
+        "RAW"@pl,
+        ".raw"@pt,
+        "RAW"@pt,
+        "camera raw"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/graphic-file-formats/raster-graphics> ;
+    skos:definition "Familie af filformater, der lagrer minimalt behandlede billedsensordata fra digitalkameraer (f.eks. .cr2, .nef, .arw) og bevarer maksimalt dynamisk omfang og redigeringsmuligheder."@da,
+        "Familie von Dateiformaten zur Speicherung minimal verarbeiteter Bildsensordaten von Digitalkameras (z. B. .cr2, .nef, .arw), behält maximalen Dynamikumfang und Bearbeitungsspielraum bei."@de,
+        "Family of file formats storing minimally-processed image sensor data from digital cameras (e.g. .cr2, .nef, .arw), preserving maximum dynamic range and editing latitude."@en,
+        "Datos crudos del sensor de la cámara, mínimamente procesados. Formato propietario por fabricante (.cr2, .nef, .arw, .raf, etc.). Se procesa a JPEG o TIFF antes de entregarlo a imprenta."@es,
+        "डिजिटल कैमरों के न्यूनतम-प्रसंस्कृत छवि सेंसर डेटा संग्रहीत करने वाले फ़ाइल फ़ॉर्मेट का परिवार (जैसे .cr2, .nef, .arw), अधिकतम डायनामिक रेंज और संपादन गुंजाइश संरक्षित।"@hi,
+        "デジタルカメラから最小限の処理を施した画像センサーデータを保存するファイル形式ファミリー（例：.cr2、.nef、.arw）。最大のダイナミックレンジと編集の自由度を保持する。"@ja,
+        "Familie av filformater som lagrer minimalt behandlede bildesensordata fra digitale kameraer (f.eks. .cr2, .nef, .arw), med bevart maksimalt dynamisk område og redigeringsfleksibilitet."@nb,
+        "Familie van bestandsformaten die minimaal bewerkte beeldsensordata van digitale camera's opslaan (bijv. .cr2, .nef, .arw) en maximaal dynamisch bereik en bewerkingsruimte behouden."@nl,
+        "Rodzina formatów plików przechowujących minimalnie przetworzone dane z sensora aparatu cyfrowego (np. .cr2, .nef, .arw), zachowujących maksymalny zakres dynamiczny i swobodę edycji."@pl,
+        "Família de formatos de arquivo que armazenam dados de sensor de imagem minimamente processados de câmeras digitais (por exemplo, .cr2, .nef, .arw), preservando máxima faixa dinâmica e latitude de edição."@pt,
+        "Familj av filformat som lagrar minimalt bearbetade bildsensordata från digitalkameror (t.ex. .cr2, .nef, .arw) och bevarar maximalt dynamiskt omfång och redigeringsutrymme."@sv,
+        "相机传感器的原始数据，经过最少处理。专有格式按制造商分（.cr2、.nef、.arw、.raf等）。交付印刷前处理为JPEG或TIFF。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§CAMERA-RAW" ;
+    skos:prefLabel "Camera RAW"@da,
+        "Camera RAW"@de,
+        "Camera RAW"@en,
+        "Camera RAW"@es,
+        "Camera RAW"@hi,
+        "Camera RAW"@ja,
+        "Camera RAW"@nb,
+        "Camera RAW"@nl,
+        "Camera RAW"@pl,
+        "Camera RAW"@pt,
+        "Camera RAW"@sv,
+        "相机RAW"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.19 · p.345" ;
+            ptpge:mappingRow "crosswalk row 3" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FileSpec" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

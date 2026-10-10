@@ -1,0 +1,197 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/figures",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§FIGURES",
+  "elementType": "product",
+  "label": {
+    "en": "Figures",
+    "nb": "Figurer",
+    "de": "Figuren",
+    "ja": "フィギュア",
+    "es": "Figuras",
+    "zh-Hans": "造型物",
+    "nl": "Figuren",
+    "sv": "Figurer",
+    "da": "Figurer",
+    "pl": "Figury",
+    "pt": "Displays de chão (figuras)",
+    "hi": "स्टैंडी (कटआउट)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A free-standing die-cut cardboard cut-out (standee) of a person, product or character — for retail display and events.",
+    "nb": "En frittstående stanset pappfigur (standee) av en person, et produkt eller en figur — for butikkdisplay og arrangementer.",
+    "de": "Ein freistehender gestanzter Pappaufsteller (Standee) — für Handelsdisplay und Events.",
+    "ja": "人物・商品・キャラクターを型抜きした自立式の厚紙パネル（スタンディ）。店頭展示やイベントに。",
+    "es": "Una figura troquelada de cartón autoportante (standee) de una persona, producto o personaje — para exhibición en retail y eventos.",
+    "zh-Hans": "自立式模切纸板立牌——人物、产品或角色造型，用于零售陈列和活动。",
+    "sv": "En fristående stansad kartongfigur (standee) av en person, produkt eller karaktär — för butiksexponering och evenemang.",
+    "da": "En fritstående udstanset papfigur (standee) af en person, et produkt eller en karakter — til detaildisplay og arrangementer.",
+    "nl": "Een vrijstaande gestanste kartonnen figuur (standee) van een persoon, product of personage — voor winkeldisplay en evenementen.",
+    "pl": "Wolnostojąca, wykrawana tekturowa figura (standee) przedstawiająca osobę, produkt lub postać — do ekspozycji w handlu i na wydarzeniach.",
+    "pt": "Figura recortada em cartão, autoportante (standee), de uma pessoa, produto ou personagem — para exposição no varejo e em eventos.",
+    "hi": "किसी व्यक्ति, उत्पाद या पात्र का स्वयं खड़ा रहने वाला डाई-कट कार्डबोर्ड कटआउट (स्टैंडी) — खुदरा प्रदर्शन और आयोजनों के लिए।"
+  },
+  "altLabels": {
+    "en": [
+      "Figure",
+      "Figurine",
+      "Model figure",
+      "standee",
+      "cardboard cut-out",
+      "cut-out figure"
+    ],
+    "nb": [
+      "Figur",
+      "pappfigur",
+      "standee",
+      "utstillingsfigur"
+    ],
+    "de": [
+      "Aufsteller",
+      "Pappaufsteller",
+      "Displayfiguren"
+    ],
+    "pl": [
+      "figura",
+      "figurka",
+      "standee",
+      "wycinanka tekturowa",
+      "postać tekturowa"
+    ],
+    "sv": [
+      "figur",
+      "kartongfigur",
+      "standee",
+      "utstansad figur",
+      "pappfigur"
+    ],
+    "da": [
+      "figur",
+      "papfigur",
+      "standee",
+      "udstanset figur"
+    ],
+    "nl": [
+      "figuur",
+      "kartonnen figuur",
+      "standee",
+      "uitgestanste figuur",
+      "displayfiguur"
+    ],
+    "pt": [
+      "standee",
+      "figura recortada",
+      "boneco de papelão",
+      "display de chão",
+      "totem recortado"
+    ],
+    "hi": [
+      "स्टैंडी",
+      "कटआउट",
+      "कार्डबोर्ड कटआउट",
+      "लाइफ़-साइज़ कटआउट",
+      "फ़िगर"
+    ],
+    "es": [
+      "figura",
+      "figura recortada",
+      "figura de cartón",
+      "silueta",
+      "figura a tamaño real",
+      "expositor recortado"
+    ],
+    "ja": [
+      "等身大パネル",
+      "スタンディ",
+      "切り抜きパネル",
+      "立て看板"
+    ],
+    "zh-Hans": [
+      "人形立牌",
+      "造型立牌",
+      "异形立牌",
+      "纸板人像",
+      "展示模型"
+    ]
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/freeform",
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/board-materials/foam",
+    "https://ptpge.org/v1/printing/substrates/board-materials/plastic",
+    "https://ptpge.org/v1/printing/substrates/roll-materials/cardboard",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/solid-board",
+    "https://ptpge.org/v1/printing/substrates/board-materials/cardboard/honeycomb-board"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/routing"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/white",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 200,
+    "max": 2100,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [],
+  "supportsSubstrateThickness": {
+    "min": 1,
+    "max": 20,
+    "unit": "mm"
+  },
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode",
+    "https://ptpge.org/v1/variables/configuration/shape"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/substrate/substrate-thickness"
+  ]
+}

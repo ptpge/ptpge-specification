@@ -1,0 +1,66 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/hybrid-flexo",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Hybrid Flexo",
+    "es": "Flexografía Híbrida",
+    "zh-Hans": "混合柔印",
+    "nb": "Hybrid fleksografi",
+    "de": "Hybrider Flexodruck",
+    "ja": "ハイブリッドフレキソ",
+    "sv": "Hybridflexo",
+    "da": "Hybridflexo",
+    "nl": "Hybride flexo",
+    "pl": "Flekso hybrydowe",
+    "pt": "Flexo híbrida",
+    "hi": "हाइब्रिड फ़्लेक्सो"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§HYBRID-FLEXO",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Flexographic press augmented with one or more inline digital print stations — typically inkjet for variable data, personalization, or short-run color changes within a long flexo run. Common in label, packaging, and corrugated production.",
+    "nb": "Fleksografisk presse utvidet med en eller flere inline digitale trykkstasjoner — vanligvis inkjet for variabel data, personalisering eller korttopplag fargeendringer innenfor et langt flexo-opplag. Vanlig i etikett-, emballasje- og bølgepapp-produksjon.",
+    "de": "Flexodruckmaschine, ergänzt um eine oder mehrere digitale Inline-Druckstationen — typischerweise Inkjet für variable Daten, Personalisierung oder Kurzfarbwechsel innerhalb einer langen Flexoauflage. Üblich in der Etiketten-, Verpackungs- und Wellpappenproduktion.",
+    "ja": "1つ以上のインラインデジタルプリントステーションを備えたフレキソ印刷機 — 通常、長納期のフレキソ業務内のバリアブルデータ、パーソナライゼーション、短納期色変更にインクジェットを使用する。ラベル、パッケージ、段ボール生産で一般的。",
+    "es": "Prensa flexográfica complementada con una o más estaciones de inyección digital en línea — permite añadir variabilidad o personalización a tiradas largas de packaging.",
+    "zh-Hans": "配有一个或多个联线数码喷墨工位的柔印机 —— 允许在长印次包装中添加可变性或个性化。",
+    "sv": "Flexopress kompletterad med en eller flera digitala tryckstationer inline — typiskt inkjet för variabeldata, personalisering eller korta kulörbyten inom en lång flexoupplaga. Vanligt inom etikett-, förpacknings- och wellpapproduktion.",
+    "da": "Flexopresse suppleret med en eller flere digitale trykstationer inline — typisk inkjet til variable data, personalisering eller korte farveskift inden for et langt flexooplag. Almindeligt inden for etiket-, emballage- og bølgepapproduktion.",
+    "nl": "Flexopers aangevuld met een of meer digitale drukstations inline — doorgaans inkjet voor variabele data, personalisatie of korte kleurwissels binnen een lange flexo-oplage. Gebruikelijk in etiketten-, verpakkings- en golfkartonproductie.",
+    "pl": "Maszyna fleksograficzna uzupełniona jednym lub kilkoma cyfrowymi zespołami drukującymi w linii — zwykle atramentowymi dla danych zmiennych, personalizacji lub krótkoseryjnych zmian koloru w długim nakładzie flekso. Typowa w produkcji etykiet, opakowań i tektury falistej.",
+    "pt": "Impressora flexográfica ampliada com uma ou mais estações digitais em linha — normalmente jato de tinta para dados variáveis, personalização ou trocas de cor em tiragem curta dentro de uma tiragem flexo longa. Comum na produção de rótulos, embalagens e papelão ondulado.",
+    "hi": "एक या अधिक इनलाइन डिजिटल प्रिंट स्टेशनों से युक्त फ़्लेक्सोग्राफ़िक प्रेस — आमतौर पर लंबे फ़्लेक्सो रन के भीतर वेरिएबल डेटा, वैयक्तिकरण या शॉर्ट-रन रंग बदलाव के लिए इंकजेट। लेबल, पैकेजिंग और कोरुगेटेड उत्पादन में आम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Hybrid printing"
+    ],
+    "nb": [
+      "Hybrid flexo"
+    ],
+    "pl": [
+      "druk hybrydowy",
+      "fleksografia hybrydowa"
+    ],
+    "pt": [
+      "Impressão híbrida"
+    ],
+    "hi": [
+      "हाइब्रिड प्रिंटिंग"
+    ]
+  }
+}

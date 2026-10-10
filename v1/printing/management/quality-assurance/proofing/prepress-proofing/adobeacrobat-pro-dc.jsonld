@@ -1,0 +1,66 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing/adobeacrobat-pro-dc",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "AdobeAcrobat Pro DC",
+    "es": "Adobe Acrobat Pro DC",
+    "zh-Hans": "Adobe Acrobat Pro DC",
+    "nb": "AdobeAcrobat Pro DC",
+    "de": "AdobeAcrobat Pro DC",
+    "ja": "AdobeAcrobat Pro DC",
+    "sv": "Adobe Acrobat Pro DC (provtryck)",
+    "da": "Adobe Acrobat Pro DC (prøvetryk)",
+    "nl": "Adobe Acrobat Pro DC (proeven)",
+    "pl": "AdobeAcrobat Pro DC",
+    "pt": "Adobe Acrobat Pro DC",
+    "hi": "Adobe Acrobat Pro DC"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§ADOBEACROBAT-PRO-DC",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Adobe Acrobat Pro DC — used in proofing workflows for soft-proof viewing of PDFs with embedded color profiles, comments and markup tools, and basic preflight verification before approval.",
+    "nb": "Adobe Acrobat Pro DC — brukt i proofing-arbeidsflyter for soft-proof visning av PDF-er med innebygde fargeprofiler, kommentar- og markeringsverktøy, og grunnleggende preflight-verifikasjon før godkjenning.",
+    "de": "Adobe Acrobat Pro DC — wird in Proofing-Workflows eingesetzt für die Soft-Proof-Anzeige von PDFs mit eingebetteten Farbprofilen, für Kommentar- und Markup-Werkzeuge sowie für eine grundlegende Preflight-Verifizierung vor der Freigabe.",
+    "ja": "Adobe Acrobat Pro DC — 校正ワークフローで使用され、埋め込みカラープロファイル付きPDFのソフトプルーフ表示、コメントとマークアップツール、承認前の基本的なプリフライト検証を提供する。",
+    "es": "Adobe Acrobat Pro DC — aplicación para edición y verificación de PDF, con motor de preflight integrado y capacidad de prueba blanda sobre archivo.",
+    "zh-Hans": "Adobe Acrobat Pro DC —— PDF编辑和验证应用程序，带有集成飞检引擎和基于文件的软校样能力。",
+    "sv": "Adobe Acrobat Pro DC — används i provtrycksflöden för skärmvisning av PDF:er med inbäddade färgprofiler, kommentars- och markeringsverktyg samt grundläggande preflightverifiering före godkännande.",
+    "da": "Adobe Acrobat Pro DC — bruges i prøvetryk-workflows til soft-proof-visning af PDF'er med indlejrede farveprofiler, kommentar- og markeringsværktøjer samt basal preflight-verifikation før godkendelse.",
+    "nl": "Adobe Acrobat Pro DC — in proefworkflows gebruikt voor soft-proofweergave van PDF's met ingesloten kleurprofielen, commentaar- en markeertools en basale preflightverificatie vóór goedkeuring.",
+    "pl": "Adobe Acrobat Pro DC — używany w workflow proofingu do przeglądania soft proofów PDF z osadzonymi profilami barw, narzędzi komentarzy i adnotacji oraz podstawowej weryfikacji preflight przed zatwierdzeniem.",
+    "pt": "Adobe Acrobat Pro DC — usado em fluxos de provas para visualização de provas de tela de PDFs com perfis de cor incorporados, ferramentas de comentário e marcação, e verificação básica de preflight antes da aprovação.",
+    "hi": "Adobe Acrobat Pro DC — प्रूफ़िंग वर्कफ़्लो में एम्बेडेड रंग प्रोफ़ाइल वाली PDF के सॉफ़्ट-प्रूफ़ देखने, टिप्पणी और मार्कअप औज़ारों और अनुमोदन से पहले बुनियादी प्रीफ़्लाइट सत्यापन के लिए प्रयुक्त।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Approval",
+        "ApprovalParams",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.3.1 · p.87",
+        "§6.3 · p.144",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 14"
+    }
+  ]
+}

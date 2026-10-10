@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a12> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "1.3 x 1.8 cm"@en,
+        "13 x 18 mm"@en,
+        "13x18"@en,
+        "13×18"@en,
+        "DIN A12"@en,
+        "A12-format"@nb ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "13 × 18 mm (0.51 × 0.71 tommer). Del af A-serien i ISO 216, med proportionen 1:√2. Halvdelen af arealet af A11. Specialformat til meget små tryksager."@da,
+        "13 × 18 mm (0,51 × 0,71 in). Teil der ISO-216-A-Reihe mit dem Seitenverhältnis 1:√2. Hälfte der Fläche von A11. Spezialformat für sehr kleine Druckerzeugnisse."@de,
+        "13 × 18 mm (0.51 × 0.71 in). Part of the ISO 216 A series, sized at a 1:√2 aspect ratio. Half the area of A11. Specialty size for very small printed items."@en,
+        "Formato A12 de la serie A de ISO 216, dimensiones 13 × 18 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
+        "13 × 18 mm (0.51 × 0.71 in). ISO 216 A-सीरीज़ का हिस्सा, 1:√2 अनुपात में। A11 का आधा क्षेत्रफल। बहुत छोटी मुद्रित वस्तुओं के लिए विशेष आकार।"@hi,
+        "13×18mm（0.51×0.71インチ）。ISO 216 Aシリーズの一部、1:√2のアスペクト比。A11の半分の面積。超小型印刷物用の特殊サイズ。"@ja,
+        "13 × 18 mm (0,51 × 0,71 in). Del av ISO 216 A-serien, med 1:√2-sideforhold. Halvparten av A11. Spesialstørrelse for svært små trykksaker."@nb,
+        "13 × 18 mm (0.51 × 0.71 inch). Onderdeel van de A-reeks in ISO 216, met de verhouding 1:√2. De helft van het oppervlak van A11. Speciaal formaat voor zeer klein drukwerk."@nl,
+        "13 × 18 mm (0,51 × 0,71 cala). Część serii A normy ISO 216 o proporcjach 1:√2. Połowa powierzchni A11. Format specjalny dla bardzo małych druków."@pl,
+        "13 × 18 mm (0.51 × 0.71 in). Faz parte da série A da ISO 216, com proporção 1:√2. Metade da área do A11. Tamanho especial para itens impressos muito pequenos."@pt,
+        "13 × 18 mm (0.51 × 0.71 tum). Del av A-serien i ISO 216, med proportionen 1:√2. Halva arean av A11. Specialformat för mycket små trycksaker."@sv,
+        "ISO 216 A系列A12开本，尺寸13 × 18 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A12" ;
+    skos:prefLabel "A12 (13 x 18 mm)"@da,
+        "A12 (13 x 18 mm)"@de,
+        "A12 (13 x 18 mm)"@en,
+        "A12 (13 × 18 mm)"@es,
+        "A12 (13 x 18 mm)"@hi,
+        "A12 (13 x 18 mm)"@ja,
+        "A12 (13 x 18 mm)"@nb,
+        "A12 (13 x 18 mm)"@nl,
+        "A12 (13 x 18 mm)"@pl,
+        "A12 (13 x 18 mm)"@pt,
+        "A12 (13 x 18 mm)"@sv,
+        "A12 (13 × 18 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 234.0 ;
+            ptpge:aspectRatio 1.3846 ;
+            ptpge:height 18.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 13.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

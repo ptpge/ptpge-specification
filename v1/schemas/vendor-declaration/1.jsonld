@@ -1,0 +1,37 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/schemas/vendor-declaration/1",
+  "type": "ptpge:Schema",
+  "version": "2026-10-06",
+  "status": "proposed",
+  "notation": "SCH:VENDOR-DECLARATION",
+  "level": "element",
+  "label": {
+    "en": "Vendor declaration",
+    "nb": "Leverandørdeklarasjon"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "broader": "https://ptpge.org/v1/schemas",
+  "schemaVersion": 1,
+  "stage": "draft",
+  "writtenBy": "a printer, or its MIS",
+  "holds": "identity · capability · offerings",
+  "jsonSchema": null,
+  "definition": {
+    "en": "What a printer is and can make, in the vocabulary: identity, production capability, the products it offers. Written by the printer or its MIS; carries the printer's identity (/v1/vendors/…).",
+    "nb": "Hva et trykkeri er og kan lage, i vokabularet: identitet, produksjonskapasitet, produktene det tilbyr. Skrives av trykkeriet eller dets MIS; bærer trykkeriets identitet (/v1/vendors/…)."
+  },
+  "created": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "location": "https://<domain>/.well-known/ptpge/declaration.json",
+  "carries": [
+    "identity — the printer's register URI (/v1/vendors/<slug>)",
+    "logo — optional, URL or data URI; shown on the register entry",
+    "schemaVersion — the version of this schema the document follows"
+  ],
+  "note": {
+    "en": "Published by the printer on its own domain at the known path (SD-0101). The register at ptpge.org points at the domain and validates the document; it never stores a copy. Prices and price rules are not part of this document — they belong to the printer's agreement with whatever implementation quotes for it.",
+    "nb": "Publiseres av trykkeriet på eget domene på den kjente stien (SD-0101). Registeret på ptpge.org peker på domenet og validerer dokumentet; det lagrer aldri en kopi. Priser og prisregler er ikke del av dokumentet — de hører til trykkeriets avtale med den implementasjonen som gir tilbud."
+  }
+}

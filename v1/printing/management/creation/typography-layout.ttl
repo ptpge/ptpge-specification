@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management/creation/typography-layout> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "layout"@en,
+        "typesetting"@en,
+        "typography"@en,
+        "टाइपसेटिंग"@hi,
+        "टाइपोग्राफ़ी"@hi,
+        "लेआउट"@hi,
+        "ombrekking"@nb,
+        "typografi"@nb,
+        "skład"@pl,
+        "łamanie"@pl,
+        "composição"@pt,
+        "diagramação"@pt,
+        "layout"@pt,
+        "tipografia"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/management/creation> ;
+    skos:definition "Komposition af tekst og arrangement af sideelementer — skriftvalg, spatiering, hierarki, grids og de sideniveau-designvalg, der gør indhold til en læsbar, visuelt sammenhængende side."@da,
+        "Textsatz und Anordnung der Seitenelemente — Schriftauswahl, Abstände, Hierarchie, Raster und die Seitenebenen-Designentscheidungen, die Inhalte in ein lesbares, visuell stimmiges Produkt verwandeln."@de,
+        "Composition of text and arrangement of page elements — typeface selection, spacing, hierarchy, grids, and the page-level design decisions that turn content into a readable, visually coherent product."@en,
+        "Composición de texto y diseño de página — tipografía, tamaños, interlineado, distribución en página, jerarquía visual."@es,
+        "पाठ का संयोजन और पेज तत्वों की व्यवस्था — टाइपफ़ेस चयन, स्पेसिंग, पदानुक्रम, ग्रिड और वे पेज-स्तरीय डिज़ाइन निर्णय जो सामग्री को पठनीय, दृश्य रूप से सुसंगत उत्पाद बनाते हैं।"@hi,
+        "テキストの組版とページ要素の配置 — 書体選択、字間、階層、グリッド、コンテンツを読みやすく視覚的に一貫した製品に変えるページレベルのデザイン判断。"@ja,
+        "Komposisjon av tekst og arrangement av sideelementer — valg av skrifttyper, avstand, hierarki, rutenett og sidenivå-designvalg som gjør innhold til et leselig og visuelt sammenhengende produkt."@nb,
+        "Compositie van tekst en schikking van pagina-elementen — letterkeuze, spatiëring, hiërarchie, grids en de paginabrede ontwerpbeslissingen die inhoud omzetten in een leesbare, visueel samenhangende pagina."@nl,
+        "Kompozycja tekstu i rozmieszczenie elementów strony — dobór krojów pisma, odstępy, hierarchia, siatki oraz decyzje projektowe na poziomie strony, które zamieniają treść w czytelny, wizualnie spójny produkt."@pl,
+        "Composição de texto e arranjo dos elementos de página — escolha de tipos, espaçamento, hierarquia, grades e as decisões de design no nível da página que transformam conteúdo num produto legível e visualmente coerente."@pt,
+        "Sättning av text och arrangemang av sidelement — typsnittsval, avstånd, hierarki, gridsystem och de sidnivåbeslut som gör innehåll till en läsbar, visuellt sammanhållen produkt."@sv,
+        "文本组版和页面设计——字体、大小、行距、页面分布、视觉层次。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:MG§TYPOGRAPHY-LAYOUT" ;
+    skos:prefLabel "Typografi & layout"@da,
+        "Typografie & Layout"@de,
+        "Typography & Layout"@en,
+        "Tipografía y Maquetación"@es,
+        "टाइपोग्राफ़ी और लेआउट"@hi,
+        "タイポグラフィとレイアウト"@ja,
+        "Typografi & layout"@nb,
+        "Typografie & opmaak"@nl,
+        "Typografia i skład"@pl,
+        "Tipografia e layout"@pt,
+        "Typografi & layout"@sv,
+        "字体与版式"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "management" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.4.11 · p.98" ;
+            ptpge:mappingRow "crosswalk row 6" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "LayoutElementProduction" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

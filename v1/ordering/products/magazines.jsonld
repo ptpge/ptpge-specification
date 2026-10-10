@@ -1,0 +1,251 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/magazines",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§MAGAZINES",
+  "elementType": "product",
+  "label": {
+    "en": "Magazines",
+    "nb": "Magasiner",
+    "de": "Magazine / Zeitschriften",
+    "ja": "雑誌",
+    "es": "Revistas",
+    "zh-Hans": "杂志",
+    "nl": "Magazines",
+    "sv": "Tidskrifter",
+    "da": "Magasiner",
+    "pl": "Czasopisma",
+    "pt": "Revistas",
+    "hi": "पत्रिकाएँ"
+  },
+  "altLabels": {
+    "en": [
+      "Periodicals",
+      "periodical",
+      "journal"
+    ],
+    "nb": [
+      "Tidsskrifter",
+      "Blader",
+      "magasin",
+      "blad",
+      "tidsskrift"
+    ],
+    "de": [
+      "Kundenmagazine",
+      "Mitgliederzeitschriften"
+    ],
+    "pl": [
+      "czasopismo",
+      "magazyn",
+      "periodyk"
+    ],
+    "sv": [
+      "tidskrift",
+      "magasin",
+      "magasinet",
+      "periodisk tidskrift",
+      "medlemstidning",
+      "kundtidning"
+    ],
+    "da": [
+      "magasin",
+      "tidsskrift",
+      "tidsskrifter",
+      "blad",
+      "medlemsblad",
+      "kundemagasin"
+    ],
+    "nl": [
+      "magazine",
+      "tijdschrift",
+      "tijdschriften",
+      "blad",
+      "ledenblad",
+      "relatiemagazine"
+    ],
+    "pt": [
+      "revista",
+      "periódico",
+      "publicação periódica",
+      "jornal de revista"
+    ],
+    "hi": [
+      "पत्रिका",
+      "मैगज़ीन",
+      "आवधिक प्रकाशन",
+      "जर्नल"
+    ],
+    "es": [
+      "revista",
+      "publicación periódica",
+      "boletín",
+      "revista corporativa"
+    ],
+    "ja": [
+      "定期刊行物",
+      "会報",
+      "社内報",
+      "マガジン",
+      "機関誌"
+    ],
+    "zh-Hans": [
+      "期刊",
+      "会刊",
+      "企业内刊",
+      "刊物"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A periodical multi-page publication of articles, features and advertising — saddle-stitched or perfect-bound.",
+    "nb": "En periodisk flersides publikasjon med artikler, reportasjer og annonser — stiftet eller limfrest.",
+    "de": "Eine periodische mehrseitige Publikation mit Artikeln und Anzeigen.",
+    "ja": "記事や特集、広告で構成される定期刊行の多ページ誌。中綴じまたは無線綴じ。",
+    "es": "Una publicación periódica de varias páginas con artículos, reportajes y publicidad — grapada o encuadernada en rústica.",
+    "zh-Hans": "多页期刊出版物，包含文章、专题和广告——骑马钉或胶装。",
+    "sv": "En periodisk flersidig publikation med artiklar, reportage och annonser — klammerhäftad eller limbunden.",
+    "da": "En periodisk flersidet udgivelse med artikler, reportager og annoncer — klammerhæftet eller limbundet.",
+    "nl": "Een periodieke meerpaginapublicatie met artikelen, reportages en advertenties — geniet of garenloos gebonden.",
+    "pl": "Periodyczna wielostronicowa publikacja z artykułami, reportażami i reklamami — szyta zeszytowo lub klejona.",
+    "pt": "Publicação periódica de várias páginas com artigos, reportagens e publicidade — grampeada (canoa) ou com lombada colada.",
+    "hi": "लेखों, फ़ीचरों और विज्ञापनों का आवधिक बहु-पृष्ठ प्रकाशन — सैडल-स्टिच या परफेक्ट-बाउंड।"
+  },
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/multi-page"
+  ],
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a5",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/letter"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/gravure"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk"
+  ],
+  "supportsBinding": [
+    "https://ptpge.org/v1/printing/completions/binding/saddle-stitching",
+    "https://ptpge.org/v1/printing/completions/binding/perfect-binding"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/none"
+  ],
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "customSizeRange": {
+    "min": 140,
+    "max": 320,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsFoldDirection": [
+    "https://ptpge.org/v1/printing/completions/fold-binding-edge/left"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps7-improved-uncoated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps8-standard-uncoated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps6-super-calendered"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/configuration/page-count",
+    "https://ptpge.org/v1/variables/finishing/binding",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/finishing/edge",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

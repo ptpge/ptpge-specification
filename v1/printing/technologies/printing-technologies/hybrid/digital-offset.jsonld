@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Digital Offset",
+    "es": "Offset Digital",
+    "zh-Hans": "数码胶印",
+    "nb": "Digital offset",
+    "de": "Digital-Offset",
+    "ja": "デジタルオフセット",
+    "sv": "Digital offset",
+    "da": "Digital offset",
+    "nl": "Digitale offset",
+    "pl": "Offset cyfrowy",
+    "pt": "Offset digital",
+    "hi": "डिजिटल ऑफसेट"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§DIGITAL-OFFSET",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "HP Indigo's liquid ElectroInk technology — combines digital variability (each impression can differ) with offset-like print quality through electrically-charged ink particles transferred via a rubber blanket. The dominant 'digital offset' system in commercial production.",
+    "nb": "HP Indigos flytende ElectroInk-teknologi — kombinerer digital variabilitet (hver avtrykk kan være forskjellig) med offset-lignende trykkkvalitet gjennom elektrisk ladede blekkpartikler overført via et gummiteppe. Det dominerende 'digital offset'-systemet i kommersiell produksjon.",
+    "de": "HP Indigos flüssige ElectroInk-Technologie — verbindet digitale Variabilität (jeder Druck kann anders sein) mit offsetähnlicher Druckqualität durch elektrisch geladene Tintenpartikel, die über ein Gummituch übertragen werden. Das dominante „Digitaloffset“-System in der kommerziellen Produktion.",
+    "ja": "HP Indigoの液状ElectroInk技術 — ゴムブランケットを介して転写される電気的に帯電したインキ粒子により、デジタルの可変性（各印刷物が異なる場合がある）とオフセット品質の印刷品質を兼ね備える。商業生産における主要な「デジタルオフセット」システム。",
+    "es": "Tecnología híbrida — notablemente HP Indigo — que utiliza tinta electrónica líquida sobre un cilindro de caucho como en offset, pero el patrón es direccionable digitalmente. Combina la calidad offset con la flexibilidad digital.",
+    "zh-Hans": "混合技术——尤其是HP Indigo——使用液体电子油墨在橡胶滚筒上，如胶印一样，但图案是数码可寻址的。结合胶印质量与数码灵活性。",
+    "sv": "HP Indigos teknik med flytande ElectroInk — kombinerar digital variabilitet (varje tryck kan skilja sig) med offsetlik tryckkvalitet genom elektriskt laddade bläckpartiklar överförda via en gummiduk. Det dominerande «digital offset»-systemet i kommersiell produktion.",
+    "da": "HP Indigos teknik med flydende ElectroInk — kombinerer digital variabilitet (hvert tryk kan afvige) med offsetlignende trykkvalitet gennem elektrisk ladede blækpartikler overført via en gummidug. Det dominerende «digital offset»-system i kommerciel produktion.",
+    "nl": "HP Indigo's technologie met vloeibare ElectroInk — combineert digitale variabiliteit (elke druk kan verschillen) met offsetachtige drukkwaliteit via elektrisch geladen inktdeeltjes, overgebracht via een rubberdoek. Het dominante «digitale offset»-systeem in commerciële productie.",
+    "pl": "Technologia ciekłej farby ElectroInk firmy HP Indigo — łączy cyfrową zmienność (każda odbitka może być inna) z jakością druku zbliżoną do offsetu dzięki elektrycznie naładowanym cząstkom farby przenoszonym przez gumowy obciąg. Dominujący system «cyfrowego offsetu» w produkcji komercyjnej.",
+    "pt": "A tecnologia de ElectroInk líquida da HP Indigo — combina variabilidade digital (cada impressão pode ser diferente) com qualidade de impressão semelhante ao offset por meio de partículas de tinta eletricamente carregadas transferidas por uma blanqueta de borracha. O sistema de «offset digital» dominante na produção comercial.",
+    "hi": "HP Indigo की लिक्विड ElectroInk तकनीक — डिजिटल परिवर्तनशीलता (हर इंप्रेशन अलग हो सकता है) को रबर ब्लैंकेट से स्थानांतरित विद्युत-आवेशित स्याही कणों द्वारा ऑफसेट-जैसी गुणवत्ता से जोड़ती है। व्यावसायिक उत्पादन में प्रमुख «डिजिटल ऑफसेट» सिस्टम।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "HP Indigo",
+      "Liquid toner"
+    ],
+    "nb": [
+      "Digital offset"
+    ],
+    "pl": [
+      "HP Indigo",
+      "toner ciekły"
+    ],
+    "pt": [
+      "HP Indigo",
+      "Toner líquido"
+    ],
+    "hi": [
+      "HP Indigo",
+      "लिक्विड टोनर"
+    ]
+  }
+}

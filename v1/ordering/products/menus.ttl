@@ -1,0 +1,189 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/menus> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "menu"@da,
+        "menuer"@da,
+        "menukortet"@da,
+        "restaurantmenu"@da,
+        "spisekort"@da,
+        "Getränkekarten"@de,
+        "Menükarten"@de,
+        "Menu Cards"@en,
+        "food menu"@en,
+        "menu card"@en,
+        "restaurant menu"@en,
+        "Cartas de menú"@es,
+        "Cartas de restaurante"@es,
+        "carta"@es,
+        "carta de bebidas"@es,
+        "carta de restaurante"@es,
+        "carta de vinos"@es,
+        "menú"@es,
+        "फ़ूड मेन्यू"@hi,
+        "मेन्यू"@hi,
+        "मेन्यू कार्ड"@hi,
+        "रेस्तराँ मेन्यू"@hi,
+        "お品書き"@ja,
+        "ドリンクメニュー"@ja,
+        "メニューカード"@ja,
+        "メニュー表"@ja,
+        "Menykort"@nb,
+        "meny"@nb,
+        "menykort"@nb,
+        "spisekart"@nb,
+        "drankenkaart"@nl,
+        "menu"@nl,
+        "menu's"@nl,
+        "menukaart"@nl,
+        "restaurantmenu"@nl,
+        "karta dań"@pl,
+        "karta menu"@pl,
+        "menu"@pl,
+        "cardápio"@pt,
+        "cardápio de restaurante"@pt,
+        "carta de vinhos"@pt,
+        "ementa"@pt,
+        "menu"@pt,
+        "matsedel"@sv,
+        "meny"@sv,
+        "menykort"@sv,
+        "restaurangmeny"@sv,
+        "菜谱"@zh-Hans,
+        "酒水单"@zh-Hans,
+        "餐厅菜单"@zh-Hans,
+        "餐牌"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et trykt menukort med mad og drikke — fladt, falset eller flersidet, til restauranter, caféer og barer."@da,
+        "Eine gedruckte Speisekarte — flach, gefalzt oder mehrseitig."@de,
+        "A printed menu listing food and drink — flat, folded or multi-page, for restaurants, cafés and bars."@en,
+        "Un menú impreso con comidas y bebidas — plano, plegado o de varias páginas, para restaurantes, cafés y bares."@es,
+        "खाने-पीने की सूची वाला मुद्रित मेन्यू — सपाट, मुड़ा या बहु-पृष्ठ, रेस्तराँ, कैफ़े और बार के लिए।"@hi,
+        "料理とドリンクを載せた印刷メニュー。平判・折り・多ページで、レストランやカフェ、バーに。"@ja,
+        "En trykt meny som lister mat og drikke — flat, brettet eller flersides, for restauranter, kafeer og barer."@nb,
+        "Een gedrukte menukaart met eten en drinken — vlak, gevouwen of meerpagina, voor restaurants, cafés en bars."@nl,
+        "Drukowane menu z listą potraw i napojów — płaskie, składane lub wielostronicowe, dla restauracji, kawiarni i barów."@pl,
+        "Cardápio impresso com comidas e bebidas — plano, dobrado ou de várias páginas, para restaurantes, cafés e bares."@pt,
+        "En tryckt meny med mat och dryck — plan, vikt eller flersidig, för restauranger, kaféer och barer."@sv,
+        "列明餐品与饮品的印刷菜单——平张、折页或多页，适用于餐厅、咖啡馆和酒吧。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§MENUS" ;
+    skos:prefLabel "Menukort"@da,
+        "Speisekarten"@de,
+        "Menus"@en,
+        "Menús"@es,
+        "मेन्यू कार्ड"@hi,
+        "メニュー"@ja,
+        "Menyer"@nb,
+        "Menukaarten"@nl,
+        "Karty menu"@pl,
+        "Cardápios"@pt,
+        "Menyer"@sv,
+        "菜单"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:perSurfaceSupportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/configuration/back-orientation>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/finishing/edge>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-fibre>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsBackOrientation <https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot>,
+        <https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head> ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:supportsFoldDirection <https://ptpge.org/v1/printing/completions/fold-binding-edge/left>,
+        <https://ptpge.org/v1/printing/completions/fold-binding-edge/top> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/a-series/a3>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a4h>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a5>,
+        <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
+        <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/government-legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/half-letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/junior-legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/ledger>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/legal>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/letter>,
+        <https://ptpge.org/v1/printing/configurations/formats/us/tabloid> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFibre <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

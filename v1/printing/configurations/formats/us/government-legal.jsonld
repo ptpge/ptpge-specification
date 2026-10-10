@@ -1,0 +1,79 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/us/government-legal",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Government Legal (8.5 x 13 in)",
+    "es": "Government Legal (216 × 330 mm / 8.5 × 13 in)",
+    "zh-Hans": "Government Legal (216 × 330 mm / 8.5 × 13 in)",
+    "nb": "Government Legal (8.5 x 13 in)",
+    "de": "Government Legal (8.5 x 13 in)",
+    "ja": "Government Legal (8.5 x 13 in)",
+    "sv": "Government Legal (8.5 x 13 tum)",
+    "da": "Government Legal (8.5 x 13 tum)",
+    "nl": "Government Legal (8.5 x 13 tum)",
+    "pl": "Government Legal (8.5 x 13 in)",
+    "pt": "Government Legal (8.5 x 13 in)",
+    "hi": "Government Legal (8.5 x 13 in)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§GOVERNMENT-LEGAL",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/us",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "8.5 × 13 in (215.9 × 330.2 mm). Used by US federal government agencies for legal documents — slightly shorter than standard Legal.",
+    "nb": "8,5 × 13 in (215,9 × 330,2 mm). Brukt av amerikanske føderale myndigheter til juridiske dokumenter — litt kortere enn standard Legal.",
+    "de": "8,5 × 13 in (215,9 × 330,2 mm). Verwendet von US-Bundesbehörden für Rechtsdokumente — etwas kürzer als Standard-Legal.",
+    "ja": "8.5×13インチ（215.9×330.2mm）。米国連邦政府機関が法律文書に使用 — 標準Legalよりわずかに短い。",
+    "es": "Government Legal — variante de Oficio utilizada en correspondencia gubernamental estadounidense, ligeramente más corta que Oficio estándar.",
+    "zh-Hans": "Government Legal —— 用于美国政府通信的Legal变体，比标准Legal略短。",
+    "sv": "8.5 × 13 tum (215.9 × 330.2 mm). Används av amerikanska federala myndigheter för juridiska dokument — något kortare än standard-Legal.",
+    "da": "8.5 × 13 tommer (215.9 × 330.2 mm). Bruges af amerikanske føderale myndigheder til juridiske dokumenter — lidt kortere end standard-Legal.",
+    "nl": "8.5 × 13 inch (215.9 × 330.2 mm). Gebruikt door Amerikaanse federale overheden voor juridische documenten — iets korter dan standaard-Legal.",
+    "pl": "8,5 × 13 cali (215,9 × 330,2 mm). Używany przez amerykańskie agencje federalne do dokumentów prawnych — nieco krótszy niż standardowy Legal.",
+    "pt": "8.5 × 13 in (215.9 × 330.2 mm). Usado por órgãos federais dos EUA para documentos jurídicos — um pouco mais curto que o Legal padrão.",
+    "hi": "8.5 × 13 in (215.9 × 330.2 mm). US संघीय एजेंसियों द्वारा विधिक दस्तावेज़ों के लिए — मानक Legal से थोड़ा छोटा।"
+  },
+  "properties": {
+    "width": 8.5,
+    "height": 13,
+    "unit": "in",
+    "aspectRatio": 1.5294,
+    "standard": "ANSI",
+    "area": 110.5
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "8.5 x 13 in",
+      "8.5x13",
+      "8.5×13"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Finishing Equipment",
+    "es": "Equipo de Acabado",
+    "zh-Hans": "印后设备",
+    "nb": "Etterbehandlings-utstyr",
+    "de": "Weiterverarbeitungsausrüstung",
+    "ja": "後加工機器",
+    "sv": "Efterbehandlingsutrustning",
+    "da": "Efterbehandlingsudstyr",
+    "nl": "Afwerkingsapparatuur",
+    "pl": "Urządzenia wykończeniowe",
+    "pt": "Equipamentos de acabamento",
+    "hi": "फ़िनिशिंग उपकरण"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment",
+  "narrower": [
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/baumfolder",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/c-p-bourg",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/duplo-international",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/gbc",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/graphic-whizard",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/heidelberg",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/horizon-international",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/kama",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/kolbus",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/mb-bauerle",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/muller-martini",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/plockmatic",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/rollem-international",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/standard-finishing-systems",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/mbo",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/morgana",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/polar",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/mgi",
+    "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/scodix"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:39:22Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Manufacturers of post-press finishing equipment — machines that fold, bind, cut, perforate, laminate, or assemble printed sheets after they leave the press.",
+    "nb": "Produsenter av post-press etterbehandlingsutstyr — maskiner som folder, binder, kutter, perforerer, laminerer eller monterer trykte ark etter at de forlater pressen.",
+    "de": "Hersteller von Druckweiterverarbeitungsgeräten — Maschinen, die bedruckte Bogen falzen, binden, schneiden, perforieren, laminieren oder zusammenfügen, nachdem sie die Druckmaschine verlassen haben.",
+    "ja": "後加工機器のメーカー — 印刷機を出たシートを折る、綴じる、断裁する、ミシン目を入れる、ラミネートする、組み立てる機械。",
+    "es": "Fabricantes de equipo de acabado post-prensa — máquinas que pliegan, encuadernan, cortan, perforan, plastifican o ensamblan hojas impresas después de que abandonan la prensa.",
+    "zh-Hans": "印后加工设备的制造商——在印张离开印刷机后对其进行折页、装订、裁切、打孔、覆膜或组装的机器。",
+    "sv": "Tillverkare av efterbehandlingsutrustning — maskiner som falsar, binder, skär, perforerar, laminerar eller monterar tryckta ark efter att de lämnat pressen.",
+    "da": "Producenter af efterbehandlingsudstyr — maskiner, der falser, indbinder, skærer, perforerer, laminerer eller samler trykte ark, efter de har forladt pressen.",
+    "nl": "Fabrikanten van afwerkingsapparatuur — machines die bedrukte vellen vouwen, binden, snijden, perforeren, lamineren of samenstellen nadat ze de pers hebben verlaten.",
+    "pl": "Producenci urządzeń wykończeniowych po druku — maszyn, które składają, oprawiają, tną, perforują, laminują lub montują zadrukowane arkusze po opuszczeniu maszyny drukującej.",
+    "pt": "Fabricantes de equipamentos de acabamento pós-impressão — máquinas que dobram, encadernam, cortam, picotam, laminam ou montam folhas impressas depois que saem da impressora.",
+    "hi": "पोस्ट-प्रेस फ़िनिशिंग उपकरणों के निर्माता — वे मशीनें जो प्रेस से निकलने के बाद छपी शीटों को मोड़ती, बाँधती, काटती, छिद्रित करती, लैमिनेट या जोड़ती हैं।"
+  },
+  "scopeNote": {
+    "en": "Covers folder makers (Baumfolder, MB Bäuerle), binders (C.P. Bourg, Kolbus, Müller Martini, Plockmatic), cutters (Heidelberg POLAR), die-cutters (Kama), bindery and finishing systems (Duplo, Horizon, GBC), and specialty equipment (Rollem, Standard Finishing Systems).",
+    "nb": "Dekker folder-produsenter (Baumfolder, MB Bäuerle), innbindere (C.P. Bourg, Kolbus, Müller Martini, Plockmatic), kuttere (Heidelberg POLAR), stansere (Kama), bindings- og etterbehandlingssystemer (Duplo, Horizon, GBC), og spesialutstyr (Rollem, Standard Finishing Systems).",
+    "de": "Umfasst Falzmaschinenhersteller (Baumfolder, MB Bäuerle), Buchbindemaschinen (C.P. Bourg, Kolbus, Müller Martini, Plockmatic), Schneidemaschinen (Heidelberg POLAR), Stanzen (Kama), Buchbinderei- und Weiterverarbeitungssysteme (Duplo, Horizon, GBC) sowie Spezialausrüstung (Rollem, Standard Finishing Systems).",
+    "ja": "折り機メーカー（Baumfolder、MB Bäuerle）、製本機（C.P. Bourg、Kolbus、Müller Martini、Plockmatic）、断裁機（Heidelberg POLAR）、抜き機（Kama）、製本・後加工システム（Duplo、Horizon、GBC）、特殊機器（Rollem、Standard Finishing Systems）を扱う。",
+    "es": "Cubre fabricantes de plegadoras (Baumfolder, MB Bäuerle), encuadernadoras (C.P. Bourg, Kolbus, Müller Martini, Plockmatic), guillotinas (Heidelberg POLAR), troqueladoras (Kama), y sistemas integrados de encuadernación y acabado (Duplo, Horizon, Hunkeler).",
+    "zh-Hans": "涵盖折页机制造商（Baumfolder、MB Bäuerle）、装订机制造商（C.P. Bourg、Kolbus、Müller Martini、Plockmatic）、裁切机（Heidelberg POLAR）、模切机（Kama）以及装订和印后系统（Duplo、Horizon、Hunkeler）。",
+    "pt": "Cobre fabricantes de dobradeiras (Baumfolder, MB Bäuerle), encadernadoras (C.P. Bourg, Kolbus, Müller Martini, Plockmatic), guilhotinas (Heidelberg POLAR), cortadoras (Kama), sistemas de acabamento (Duplo, Horizon, GBC) e equipamentos especiais (Rollem, Standard Finishing Systems).",
+    "hi": "फ़ोल्डर निर्माता (Baumfolder, MB Bäuerle), बाइंडर (C.P. Bourg, Kolbus, Müller Martini, Plockmatic), कटर (Heidelberg POLAR), डाई-कटर (Kama), बाइंडरी और फ़िनिशिंग सिस्टम (Duplo, Horizon, GBC) और विशेष उपकरण (Rollem, Standard Finishing Systems) शामिल।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ",
+  "altLabels": {
+    "pl": [
+      "urządzenia introligatorskie"
+    ]
+  }
+}

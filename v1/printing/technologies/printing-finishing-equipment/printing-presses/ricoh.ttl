@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/ricoh> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:isReplacedBy <https://ptpge.org/v1/suppliers/ricoh> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> ;
+    skos:definition "Ricoh — japansk producent af digitale produktionspresser (Pro C-serien til farve, Pro VC inkjet-rotationspresser) med stærk tilstedeværelse i kommercielt digitaltryk."@da,
+        "Ricoh — japanischer Hersteller digitaler Produktionsdruckmaschinen (Pro C-Serie für Farbe, Pro VC Inkjet-Rollendruckmaschinen), mit starker Präsenz im kommerziellen Digitaldruck."@de,
+        "Ricoh — Japanese manufacturer of digital production presses (Pro C series for color, Pro VC inkjet web presses), with strong presence in commercial digital printing."@en,
+        "Ricoh Company — fabricante japonés de prensas digitales de producción basadas en tóner (serie Pro C) e inyección de tinta (serie Pro VC)."@es,
+        "Ricoh — डिजिटल प्रोडक्शन प्रेस (रंग के लिए Pro C सीरीज़, Pro VC इंकजेट वेब प्रेस) का जापानी निर्माता, व्यावसायिक डिजिटल प्रिंटिंग में मज़बूत उपस्थिति।"@hi,
+        "リコー — デジタル生産印刷機（カラー向けPro Cシリーズ、インクジェット輪転機Pro VC）の日本のメーカー。商業デジタル印刷で強い存在感を持つ。"@ja,
+        "Ricoh — japansk produsent av digitale produksjonspresser (Pro C-serien for farge, Pro VC inkjet web-presser), med sterk tilstedeværelse i kommersiell digital trykk."@nb,
+        "Ricoh — Japanse fabrikant van digitale productiepersen (Pro C-serie voor kleur, Pro VC-inkjetrotatiepersen), met sterke aanwezigheid in commercieel digitaal drukwerk."@nl,
+        "Ricoh — japoński producent cyfrowych maszyn produkcyjnych (seria Pro C dla koloru, zwojowe atramentowe Pro VC), z silną obecnością w komercyjnym druku cyfrowym."@pl,
+        "Ricoh — fabricante japonês de impressoras digitais de produção (série Pro C para cores, Pro VC de jato de tinta em bobina), com forte presença na impressão digital comercial."@pt,
+        "Ricoh — japansk tillverkare av digitala produktionspressar (Pro C-serien för färg, Pro VC inkjet-rullpressar), med stark närvaro inom kommersiellt digitaltryck."@sv,
+        "Ricoh Company —— 日本基于碳粉（Pro C系列）和喷墨（Pro VC系列）的数码生产印刷机制造商。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-PRES-RICO" ;
+    skos:prefLabel "Ricoh"@da,
+        "Ricoh"@de,
+        "Ricoh"@en,
+        "Ricoh"@es,
+        "Ricoh"@hi,
+        "Ricoh"@ja,
+        "Ricoh"@nb,
+        "Ricoh"@nl,
+        "Ricoh"@pl,
+        "Ricoh"@pt,
+        "Ricoh"@sv,
+        "Ricoh"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

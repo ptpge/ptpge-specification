@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/rollem-international",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Rollem International",
+    "es": "Rollem International",
+    "zh-Hans": "Rollem International",
+    "nb": "Rollem International",
+    "de": "Rollem International",
+    "ja": "Rollem International",
+    "sv": "Rollem International",
+    "da": "Rollem International",
+    "nl": "Rollem International",
+    "pl": "Rollem International",
+    "pt": "Rollem International",
+    "hi": "Rollem International"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Rollem International — British manufacturer of slitting, perforating, scoring, numbering, and pressure-sealing equipment for commercial print finishing.",
+    "nb": "Rollem International — britisk produsent av slitting-, perforering-, scoring-, nummerering- og trykkforseglingsutstyr for kommersiell trykk-etterbehandling.",
+    "de": "Rollem International — britischer Hersteller von Schneide-, Perforier-, Rill-, Nummerier- und Drucksiegelgeräten für die kommerzielle Druckweiterverarbeitung.",
+    "ja": "Rollem International — 商業印刷の仕上げ向けのスリット、ミシン目、筋入れ、ナンバリング、圧着シール機器を製造する英国のメーカー。",
+    "es": "Rollem International — fabricante británico de equipo de acabado en línea: numeradoras, perforadoras, troqueladoras rotativas para producción comercial.",
+    "zh-Hans": "Rollem International —— 英国联线印后设备制造商：编号机、打孔机、旋转模切机，用于商业生产。",
+    "sv": "Rollem International — brittisk tillverkare av utrustning för slittning, perforering, ritsning, numrering och tryckförsegling för civiltryckets efterbehandling.",
+    "da": "Rollem International — britisk producent af udstyr til slitning, perforering, rilning, nummerering og trykforsegling til kommercielt tryks efterbehandling.",
+    "nl": "Rollem International — Britse fabrikant van apparatuur voor snijden, perforeren, rillen, nummeren en drukzegelen voor commerciële drukafwerking.",
+    "pl": "Rollem International — brytyjski producent urządzeń do cięcia wzdłużnego, perforowania, bigowania, numerowania i zgrzewania ciśnieniowego dla wykończenia druku komercyjnego.",
+    "pt": "Rollem International — fabricante britânico de equipamentos de refile, picote, vinco, numeração e selagem por pressão para acabamento de impressão comercial.",
+    "hi": "Rollem International — व्यावसायिक प्रिंट फ़िनिशिंग के लिए स्लिटिंग, परफ़ोरेटिंग, स्कोरिंग, नंबरिंग और प्रेशर-सीलिंग उपकरणों का ब्रिटिश निर्माता।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-ROLL",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

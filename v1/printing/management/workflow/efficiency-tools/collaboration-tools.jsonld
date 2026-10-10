@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools/collaboration-tools",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Collaboration Tools",
+    "es": "Herramientas de Colaboración",
+    "zh-Hans": "协作工具",
+    "nb": "Samarbeids-verktøy",
+    "de": "Kollaborationswerkzeuge",
+    "ja": "コラボレーションツール",
+    "sv": "Samarbetsverktyg",
+    "da": "Samarbejdsværktøjer",
+    "nl": "Samenwerkingstools",
+    "pl": "Narzędzia współpracy",
+    "pt": "Ferramentas de colaboração",
+    "hi": "सहयोग औज़ार"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§COLLABORATION-TOOLS",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow/efficiency-tools",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Software platforms that connect customers, designers, prepress operators, and production staff across the print-job lifecycle — including project management tools, client portals, and approval-and-annotation systems.",
+    "nb": "Programvareplattformer som kobler kunder, designere, prepress-operatører og produksjonsmedarbeidere på tvers av livssyklusen til en trykkjobb — inkludert prosjektledelsesverktøy, kundeportaler og godkjennings- og annoteringssystemer.",
+    "de": "Software-Plattformen, die Kunden, Designer, Druckvorstufen-Mitarbeiter und Produktionsmitarbeiter über den gesamten Lebenszyklus eines Druckauftrags hinweg verbinden — einschließlich Projektmanagement-Werkzeugen, Kundenportalen sowie Freigabe- und Annotationssystemen.",
+    "ja": "印刷ジョブのライフサイクルを通じて顧客、デザイナー、製版オペレーター、生産スタッフをつなぐソフトウェアプラットフォーム — プロジェクト管理ツール、顧客ポータル、承認・注釈システムを含む。",
+    "es": "Sistemas que permiten la coordinación entre cliente, agencia, pre-prensa y producción — incluyen portales de aprobación, mensajería y revisión multi-usuario.",
+    "zh-Hans": "在客户、代理、印前和生产之间实现协调的系统 —— 包括批准门户、消息传递和多用户审查。",
+    "sv": "Programvaruplattformar som kopplar samman kunder, formgivare, prepressoperatörer och produktionspersonal genom tryckjobbets livscykel — inklusive projekthanteringsverktyg, kundportaler och system för godkännande och annotering.",
+    "da": "Softwareplatforme, der forbinder kunder, designere, prepress-operatører og produktionspersonale gennem trykopgavens livscyklus — projektstyringsværktøjer, kundeportaler og godkendelsessystemer.",
+    "nl": "Softwareplatformen die klanten, ontwerpers, prepressoperators en productiemedewerkers verbinden gedurende de levenscyclus van een drukopdracht — projectmanagementtools, klantportalen en goedkeuringssystemen.",
+    "pl": "Platformy programowe łączące klientów, projektantów, operatorów prepress i personel produkcyjny w całym cyklu życia zlecenia — w tym narzędzia zarządzania projektami, portale klienta oraz systemy akceptacji i adnotacji.",
+    "pt": "Plataformas de software que conectam clientes, designers, operadores de pré-impressão e equipe de produção ao longo do ciclo de vida do trabalho de impressão — incluindo ferramentas de gestão de projetos, portais de cliente e sistemas de aprovação e anotação.",
+    "hi": "सॉफ़्टवेयर प्लेटफ़ॉर्म जो प्रिंट-जॉब जीवनचक्र में ग्राहकों, डिज़ाइनरों, प्रीप्रेस ऑपरेटरों और उत्पादन कर्मचारियों को जोड़ते हैं — परियोजना प्रबंधन औज़ार, ग्राहक पोर्टल और अनुमोदन-व-टिप्पणी सिस्टम सहित।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "collaboration",
+      "review tools"
+    ],
+    "nb": [
+      "samarbeidsverktøy"
+    ],
+    "pl": [
+      "współpraca",
+      "narzędzia do przeglądu"
+    ],
+    "pt": [
+      "colaboração",
+      "ferramentas de revisão"
+    ],
+    "hi": [
+      "सहयोग",
+      "समीक्षा औज़ार"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/sheet-materials/cardstock> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Card stock"@en,
+        "Heavy card"@en,
+        "आर्ट कार्ड"@hi,
+        "कार्ड पेपर"@hi,
+        "कार्ड स्टॉक"@hi,
+        "बोर्ड पेपर"@hi,
+        "मोटा काग़ज़"@hi,
+        "Kartong"@nb,
+        "brystol"@pl,
+        "karton ozdobny"@pl,
+        "papier kartonowy"@pl,
+        "cartolina"@pt,
+        "cartão"@pt,
+        "cartão pesado"@pt,
+        "papel-cartão"@pt,
+        "supremo"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/sheet-materials> ;
+    skos:definition "Kraftigt, stift papir mellem cirka 200 og 350 g/m², brugt til produkter der kræver stivhed men ikke pladetykkelse: visitkort, postkort, bogomslag, emballageindstik, invitationer. Grænsen mellem papir og karton er glidende."@da,
+        "Schweres, steifes Papier zwischen etwa 200 und 350 g/m², eingesetzt für Produkte, die Steifigkeit, aber nicht die Dicke einer Platte benötigen: Visitenkarten, Postkarten, Buchcover, Verpackungseinleger, Einladungen. Die Grenze zwischen Papier und Karton ist konventionell und nicht physikalisch festgelegt, beginnt aber typischerweise bei rund 200 g/m²."@de,
+        "Heavyweight, stiff paper between roughly 200 and 350 gsm, used for products that need rigidity but not the thickness of board: business cards, postcards, book covers, packaging inserts, invitations. The boundary between paper and cardstock is conventional rather than physical, but typically begins around 200 gsm."@en,
+        "Papel grueso y rígido (típicamente 200+ gsm) — utilizado para tarjetas, portadas, embalaje ligero y postales."@es,
+        "लगभग 200 से 350 GSM का भारी, कड़ा काग़ज़, ऐसे उत्पादों के लिए जिन्हें कड़ापन चाहिए पर बोर्ड जितनी मोटाई नहीं: विज़िटिंग कार्ड, पोस्टकार्ड, किताब के कवर, पैकेजिंग इन्सर्ट, निमंत्रण। काग़ज़ और कार्डस्टॉक की सीमा भौतिक नहीं, परंपरागत है, पर आमतौर पर 200 GSM के आसपास शुरू होती है।"@hi,
+        "おおよそ200〜350gsmの厚手で硬い紙。剛性が必要だがボードほどの厚みは不要な製品（名刺、ハガキ、書籍カバー、パッケージインサート、招待状）に使用される。紙とカード紙の境界は物理的というより慣例的だが、通常200gsm前後から始まる。"@ja,
+        "Tungt, stivt papir mellom omtrent 200 og 350 gsm, brukt for produkter som trenger stivhet uten tykkelsen til kartong: visittkort, postkort, bokomslag, pakke­innlegg, invitasjoner. Grensen mellom papir og kartong er konvensjonell snarere enn fysisk, men begynner typisk rundt 200 gsm."@nb,
+        "Zwaar, stijf papier tussen circa 200 en 350 g/m², gebruikt voor producten die stijfheid vragen maar geen plaatdikte: visitekaartjes, kaarten, boekomslagen, verpakkingsinlays, uitnodigingen. De grens tussen papier en karton is vloeiend."@nl,
+        "Ciężki, sztywny papier o gramaturze około 200–350 g/m², używany do produktów wymagających sztywności, lecz nie grubości tektury: wizytówek, pocztówek, okładek książek, wkładek opakowaniowych, zaproszeń. Granica między papierem a kartonem jest umowna, nie fizyczna, lecz zwykle zaczyna się około 200 g/m²."@pl,
+        "Papel pesado e rígido, entre cerca de 200 e 350 g/m², usado em produtos que precisam de rigidez mas não da espessura de uma chapa: cartões de visita, postais, capas de livro, encartes de embalagem, convites. A fronteira entre papel e cartão é convencional, não física, mas normalmente começa em torno de 200 g/m²."@pt,
+        "Tungt, styvt papper mellan ungefär 200 och 350 g/m², används för produkter som behöver styvhet men inte skivmaterialets tjocklek: visitkort, vykort, bokomslag, förpackningsinlagor, inbjudningar. Gränsen mellan papper och kartong är konventionell snarare än fysisk, men börjar typiskt runt 200 g/m²."@sv,
+        "厚而硬的纸（通常200+克）—— 用于卡片、封面、轻量包装和明信片。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§CARDSTOCK" ;
+    skos:prefLabel "Karton (cardstock)"@da,
+        "Kartonpapier"@de,
+        "Cardstock"@en,
+        "Cartulina"@es,
+        "कार्डस्टॉक"@hi,
+        "カードストック"@ja,
+        "Kartong"@nb,
+        "Karton (cardstock)"@nl,
+        "Karton"@pl,
+        "Cartão (cardstock)"@pt,
+        "Kartong (cardstock)"@sv,
+        "卡纸"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

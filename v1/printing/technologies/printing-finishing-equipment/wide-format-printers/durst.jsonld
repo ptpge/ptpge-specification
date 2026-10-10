@@ -1,0 +1,53 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers/durst",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Durst",
+    "es": "Durst",
+    "zh-Hans": "Durst",
+    "nb": "Durst",
+    "de": "Durst",
+    "ja": "Durst",
+    "sv": "Durst",
+    "da": "Durst",
+    "nl": "Durst",
+    "pl": "Durst",
+    "pt": "Durst",
+    "hi": "Durst"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/wide-format-printers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Durst Group — Italian manufacturer of premium UV flatbed printers, ceramic decoration systems, and industrial inkjet for textile, label, and packaging applications.",
+    "nb": "Durst Group — italiensk produsent av premium UV flatbed-skrivere, keramikkdekorasjonssystemer og industriell inkjet for tekstil-, etikett- og emballasjeanvendelser.",
+    "de": "Durst Group — italienischer Hersteller hochwertiger UV-Flachbettdrucker, Keramikdekorationsanlagen und industrieller Inkjet-Systeme für Textil-, Etiketten- und Verpackungsanwendungen.",
+    "ja": "Durst Group — プレミアムUVフラットベッドプリンター、セラミック装飾システム、テキスタイル・ラベル・パッケージ用途向けの工業用インクジェットのイタリアのメーカー。",
+    "es": "Durst Group — fabricante italo-austriaco de impresoras industriales de gran formato, con presencia notable en packaging, cerámica y textil.",
+    "zh-Hans": "Durst Group —— 意大利-奥地利工业大幅面打印机制造商，在包装、陶瓷和纺织品中占显著地位。",
+    "sv": "Durst Group — italiensk tillverkare av UV-flatbäddsskrivare i premiumklass, keramikdekorationssystem och industriell inkjet för textil-, etikett- och förpackningstillämpningar.",
+    "da": "Durst Group — italiensk producent af UV-flatbedprintere i premiumklassen, keramikdekorationssystemer og industriel inkjet til tekstil-, etiket- og emballageanvendelser.",
+    "nl": "Durst Group — Italiaanse fabrikant van premium UV-flatbedprinters, keramiekdecoratiesystemen en industriële inkjet voor textiel-, etiketten- en verpakkingstoepassingen.",
+    "pl": "Durst Group — włoski producent płaskich drukarek UV klasy premium, systemów dekoracji ceramiki i przemysłowego druku atramentowego do tekstyliów, etykiet i opakowań.",
+    "pt": "Durst Group — fabricante italiano de impressoras UV flatbed premium, sistemas de decoração de cerâmica e jato de tinta industrial para têxteis, rótulos e embalagens.",
+    "hi": "Durst Group — प्रीमियम UV फ़्लैटबेड प्रिंटरों, सिरेमिक सजावट प्रणालियों और टेक्सटाइल, लेबल व पैकेजिंग के औद्योगिक इंकजेट का इतालवी निर्माता।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-WIDE-DURS",
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/newspaper-formats/broadsheet> a skos:Concept ;
+    dcterms:created "2026-08-12T11:00:47+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats> ;
+    skos:definition "597 × 749 mm (nominelt — de præcise mål varierer med presse og titel). Det største almindelige avisformat, traditionelt hjemsted for kvalitetsdagblade."@da,
+        "597 × 749 mm (nominell — genaue Maße variieren je nach Rotation und Titel). Das größte gängige Zeitungsformat, traditionell die Heimat der Qualitätszeitungen (Nordisches Format)."@de,
+        "597 × 749 mm (nominal — exact dimensions vary by press and title). The largest common newspaper format, traditional home of quality dailies."@en,
+        "597 × 749 mm (nominal — las dimensiones exactas varían según rotativa y cabecera). El mayor formato de periódico común, hogar tradicional de los diarios de referencia (formato sábana)."@es,
+        "597 × 749 mm (नाममात्र — सटीक आयाम प्रेस और शीर्षक से बदलते हैं). सबसे बड़ा आम अख़बार फ़ॉर्मेट, गुणवत्तापूर्ण दैनिकों का पारंपरिक घर।"@hi,
+        "597 × 749 mm（公称 — 実寸は輪転機と題字により異なる）。最も大きい一般的な新聞判型で、伝統的に高級紙が用いる（ブランケット判）。"@ja,
+        "597 × 749 mm (nominelt — eksakte mål varierer med presse og avis). Det største vanlige avisformatet, tradisjonelt brukt av fullformataviser."@nb,
+        "597 × 749 mm (nominellt — exakta mått varierar met press en titel). Het grootste gangbare krantenformaat, traditioneel het domein van kwaliteitskranten."@nl,
+        "597 × 749 mm (nominalnie — dokładne wymiary zależą od maszyny i tytułu). Największy popularny format gazetowy, tradycyjny dla dzienników opiniotwórczych."@pl,
+        "597 × 749 mm (nominal — as dimensões exatas variam conforme a rotativa e o título). O maior formato de jornal comum, lar tradicional dos diários de qualidade."@pt,
+        "597 × 749 mm (nominellt — exakta mått varierar med press och titel). Det största vanliga tidningsformatet, traditionellt hemvist för kvalitetsdagstidningar."@sv,
+        "597 × 749 毫米（名义尺寸 — 具体尺寸因轮转机与报纸而异）。最大的常见报纸幅面，传统上为大报（对开报）所用。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§BROADSHEET" ;
+    skos:prefLabel "Fullformat/Broadsheet (597 x 749 mm)"@da,
+        "Broadsheet (597 x 749 mm)"@de,
+        "Broadsheet (597 x 749 mm)"@en,
+        "Broadsheet (597 × 749 mm)"@es,
+        "Broadsheet (597 x 749 mm)"@hi,
+        "Broadsheet (597 x 749 mm)"@ja,
+        "Broadsheet (597 x 749 mm)"@nb,
+        "Broadsheet (597 x 749 mm)"@nl,
+        "Broadsheet (597 x 749 mm)"@pl,
+        "Broadsheet (597 x 749 mm)"@pt,
+        "Fullformat/Broadsheet (597 x 749 mm)"@sv,
+        "Broadsheet (597 × 749 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 447153.0 ;
+            ptpge:aspectRatio 1.2546 ;
+            ptpge:height 749.0 ;
+            ptpge:standard "trade convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 597.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-08-12" .
+

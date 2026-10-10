@@ -1,0 +1,202 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/business-cards> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-07T18:30:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "businesskort"@da,
+        "visitkortet"@da,
+        "Geschäftskarten"@de,
+        "Kundenkarten"@de,
+        "Stempelkarten"@de,
+        "Visitenkarten"@de,
+        "Appointment cards"@en,
+        "Business Card"@en,
+        "Business cards"@en,
+        "Calling card"@en,
+        "Loyalty card"@en,
+        "Loyalty cards"@en,
+        "Membership cards"@en,
+        "Name card"@en,
+        "Stamp cards"@en,
+        "Visiting card"@en,
+        "tarjeta comercial"@es,
+        "tarjeta de fidelidad"@es,
+        "tarjeta de presentación"@es,
+        "tarjeta personal"@es,
+        "tarjetas de visita"@es,
+        "अपॉइंटमेंट कार्ड"@hi,
+        "कॉलिंग कार्ड"@hi,
+        "नाम कार्ड"@hi,
+        "बिज़नेस कार्ड"@hi,
+        "लॉयल्टी कार्ड"@hi,
+        "विज़िटिंग कार्ड"@hi,
+        "सदस्यता कार्ड"@hi,
+        "ショップカード"@ja,
+        "ビジネスカード"@ja,
+        "ポイントカード"@ja,
+        "メンバーズカード"@ja,
+        "Kundekort"@nb,
+        "Stempelkort"@nb,
+        "Visittkort"@nb,
+        "Naamkaartjes"@nl,
+        "businesskaartje"@nl,
+        "naamkaartje"@nl,
+        "visitekaartjes"@nl,
+        "karta członkowska"@pl,
+        "karta lojalnościowa"@pl,
+        "karta pieczątkowa"@pl,
+        "karta wizytowa"@pl,
+        "wizytówka"@pl,
+        "cartão de agendamento"@pt,
+        "cartão de contato"@pt,
+        "cartão de sócio"@pt,
+        "cartão de visita"@pt,
+        "cartão de visitas"@pt,
+        "cartão fidelidade"@pt,
+        "cartão profissional"@pt,
+        "businesskort"@sv,
+        "visitkorten"@sv,
+        "个人名片"@zh-Hans,
+        "会员卡"@zh-Hans,
+        "商务名片"@zh-Hans,
+        "积分卡"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "Et lille trykt kort med kontaktoplysninger for en person eller organisation. Flat Sheet-opsætning med to flader (for- og bagside), typisk trykt på kraftigt substrat (250–400 g/m²). Flere regionale formatstandarder understøttes via supportsFormat — EU (85×55 mm), US (89×51 mm), ISO/IEC 7810 ID-1, skandinavisk (90×55 mm), Japan (91×55 mm), Kina (90×54 mm) — og leverandørvarianter er almindelige."@da,
+        "Eine kleine Druckkarte mit Kontaktinformationen einer Person oder Organisation. Flachbogen-Setup mit zwei Surfaces (Front und Back), typischerweise auf schwerem Substrat (250–400 gsm) gedruckt. Mehrere regionale Größenstandards werden über supportsFormat unterstützt — EU (85×55 mm), US (89×51 mm), ISO/IEC 7810 ID-1, skandinavisch (90×55 mm), Japan (91×55 mm), China (90×54 mm) — vendor-spezifische Varianten sind üblich."@de,
+        "A small printed card carrying contact information for an individual or organisation. Flat Sheet setup with two Surfaces (Front and Back), typically printed on heavy substrate (250–400 gsm). Multiple regional size standards are supported via supportsFormat — EU (85×55 mm), US (89×51 mm), ISO/IEC 7810 ID-1, Scandinavian (90×55 mm), Japan (91×55 mm), China (90×54 mm) — and per-vendor variants are common."@en,
+        "Las tarjetas de visita son productos impresos pequeños que presentan información de contacto. Las variantes incluyen formato estándar (occidental 85×55 mm, norteamericano 85×55 mm, japonés 91×55 mm), gramaje de papel, color y acabados (esquinas redondeadas, relieve, estampado con lámina, UV, laminación). Uno de los productos impresos profesionales más clásicos, que ejercita todo el patrón de Print Layer Stack."@es,
+        "किसी व्यक्ति या संस्था की संपर्क जानकारी वाला छोटा मुद्रित कार्ड। दो सतहों (आगे और पीछे) वाला फ़्लैट शीट सेटअप, आमतौर पर भारी सब्सट्रेट (250–400 gsm) पर मुद्रित। supportsFormat के ज़रिए कई क्षेत्रीय आकार मानक समर्थित हैं — EU (85×55 मिमी), US (89×51 मिमी), ISO/IEC 7810 ID-1, स्कैंडिनेवियाई (90×55 मिमी), जापान (91×55 मिमी), चीन (90×54 मिमी) — और विक्रेता-विशेष वेरिएंट आम हैं।"@hi,
+        "名刺は連絡先情報を提示する小型の印刷物。標準フォーマット（西側85x55 mm、北米85x55 mm、日本91x55 mm）、用紙ウェイト、色、後加工（角丸、エンボス、箔押し、UV、ラミネーション）でバリエーションがある。最も古典的なプロフェッショナル印刷物の一つで、Print Layer Stackパターン全体をテストする。"@ja,
+        "Et lite trykkort som inneholder kontaktinformasjon for en person eller organisasjon. Flat Sheet-oppsett med to Surfaces (Front og Back), typisk trykt på tungt substrat (250–400 gsm). Flere regionale størrelsesstandarder støttes via supportsFormat — EU (85×55 mm), US (89×51 mm), ISO/IEC 7810 ID-1, skandinavisk (90×55 mm), Japan (91×55 mm), Kina (90×54 mm) — og vendor-spesifikke varianter er vanlig."@nb,
+        "Een klein gedrukt kaartje met contactgegevens van een persoon of organisatie. Flat Sheet-opbouw met twee vlakken (voor- en achterzijde), doorgaans gedrukt op zwaar substraat (250–400 g/m²). Meerdere regionale formaatstandaarden worden ondersteund via supportsFormat — EU (85×55 mm), VS (89×51 mm), ISO/IEC 7810 ID-1, Scandinavisch (90×55 mm), Japan (91×55 mm), China (90×54 mm)."@nl,
+        "Mała drukowana karta z danymi kontaktowymi osoby lub organizacji. Konfiguracja Arkusz płaski z dwiema powierzchniami (Awers i Rewers), zwykle na ciężkim podłożu (250–400 g/m²). Poprzez supportsFormat obsługiwanych jest kilka standardów regionalnych — UE (85×55 mm), USA (89×51 mm), ISO/IEC 7810 ID-1, skandynawski (90×55 mm), Japonia (91×55 mm), Chiny (90×54 mm) — a warianty dostawców są powszechne."@pl,
+        "Pequeno cartão impresso com os dados de contato de uma pessoa ou organização. Montagem em folha plana com duas Faces (Frente e Verso), normalmente impresso em substrato pesado (250–400 g/m²). Vários padrões regionais de tamanho são suportados via supportsFormat — UE (85×55 mm), EUA (89×51 mm), ISO/IEC 7810 ID-1, escandinavo (90×55 mm), Japão (91×55 mm), China (90×54 mm) — e variantes por fornecedor são comuns."@pt,
+        "Ett litet tryckt kort med kontaktuppgifter för en person eller organisation. Uppbyggnad som plant ark med två ytor (fram- och baksida), vanligen tryckt på tungt substrat (250–400 g/m²). Flera regionala formatstandarder stöds via supportsFormat — EU (85×55 mm), US (89×51 mm), ISO/IEC 7810 ID-1, skandinaviskt (90×55 mm), Japan (91×55 mm), Kina (90×54 mm) — och leverantörsspecifika varianter är vanliga."@sv,
+        "名片是用于呈现联系信息的小型印刷品。变体包括标准规格（欧美 85×55 mm、北美 85×55 mm、日本 91×55 mm）、纸张克重、颜色和加工（圆角、压凸、烫箔、UV、覆膜）。是最经典的专业印刷品之一，覆盖完整的 Print Layer Stack 模式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§BUSINESS-CARD" ;
+    skos:prefLabel "Visitkort"@da,
+        "Visitenkarte"@de,
+        "Business Cards"@en,
+        "Tarjeta de visita"@es,
+        "विज़िटिंग कार्ड"@hi,
+        "名刺"@ja,
+        "Visittkort"@nb,
+        "Visitekaartje"@nl,
+        "Wizytówki"@pl,
+        "Cartões de visita"@pt,
+        "Visitkort"@sv,
+        "名片"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:fulfilmentClass "flat" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:perSurfaceSupportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/debossing>,
+        <https://ptpge.org/v1/printing/features/embellishments/embossing/blind>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/configuration/back-orientation>,
+        <https://ptpge.org/v1/variables/configuration/page-count>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/surface-finish>,
+        <https://ptpge.org/v1/variables/finishing/folding>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsBackOrientation <https://ptpge.org/v1/printing/configurations/back-orientation/head-to-foot>,
+        <https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head> ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/black>,
+        <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/spot-color>,
+        <https://ptpge.org/v1/printing/features/colors/white> ;
+    ptpge:supportsEmbellishment <https://ptpge.org/v1/printing/features/embellishments/debossing>,
+        <https://ptpge.org/v1/printing/features/embellishments/embossing>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/custom-foil>,
+        <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
+        <https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish>,
+        <https://ptpge.org/v1/printing/features/embellishments/none>,
+        <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
+    ptpge:supportsFoldDirection <https://ptpge.org/v1/printing/completions/fold-binding-edge/left>,
+        <https://ptpge.org/v1/printing/completions/fold-binding-edge/top> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-china>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-eu>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-iso-216>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-japan-91-x-55-mm>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-scandinavian>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards/business-card-us> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/landscape>,
+        <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper> ;
+    ptpge:supportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/silk>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch>,
+        <https://ptpge.org/v1/printing/features/surface-finish/varnish/flood-varnishing> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/letterpress>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:typicalAudience <https://ptpge.org/v1/ordering/audiences/b2b>,
+        <https://ptpge.org/v1/ordering/audiences/b2c>,
+        <https://ptpge.org/v1/ordering/audiences/professional> ;
+    ptpge:typicalUse <https://ptpge.org/v1/ordering/use-cases/branding>,
+        <https://ptpge.org/v1/ordering/use-cases/networking>,
+        <https://ptpge.org/v1/ordering/use-cases/professional-contact> ;
+    ptpge:version "2026-10-07" .
+

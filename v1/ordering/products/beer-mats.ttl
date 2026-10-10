@@ -1,0 +1,148 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/products/beer-mats> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "coasters"@da,
+        "glasbrik"@da,
+        "glasbrikker"@da,
+        "ølbrik"@da,
+        "Getränkeuntersetzer"@de,
+        "Untersetzer"@de,
+        "Beer Mats"@en,
+        "Beer mat"@en,
+        "Beer mats"@en,
+        "Beermats"@en,
+        "Coasters"@en,
+        "Drink Coasters"@en,
+        "Drink coasters"@en,
+        "bar mat"@en,
+        "coaster"@en,
+        "drink mat"@en,
+        "bases para vasos"@es,
+        "posavasos"@es,
+        "posavasos de cartón"@es,
+        "posavasos publicitario"@es,
+        "कोस्टर"@hi,
+        "गिलास मैट"@hi,
+        "ड्रिंक कोस्टर"@hi,
+        "बीयर मैट"@hi,
+        "コースター"@ja,
+        "ドリンクコースター"@ja,
+        "紙コースター"@ja,
+        "販促コースター"@ja,
+        "Drikkebrikker"@nb,
+        "glassbrikke"@nb,
+        "pappbrikke"@nb,
+        "Ølunderlag"@nb,
+        "ølbrikke"@nb,
+        "bierviltje"@nl,
+        "onderzetter"@nl,
+        "onderzetters"@nl,
+        "viltjes"@nl,
+        "podkładka"@pl,
+        "podkładka barowa"@pl,
+        "podkładka pod piwo"@pl,
+        "base para copos"@pt,
+        "bolacha de cerveja"@pt,
+        "bolacha de chope"@pt,
+        "descanso de copo"@pt,
+        "porta-copo"@pt,
+        "Glasunderlägg"@sv,
+        "drinkunderlägg"@sv,
+        "underlägg"@sv,
+        "Ölunderlägg"@sv,
+        "ölbrickor"@sv,
+        "啤酒垫"@zh-Hans,
+        "广告杯垫"@zh-Hans,
+        "杯垫"@zh-Hans,
+        "纸杯垫"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/ordering/products> ;
+    skos:definition "En absorberende trykt brik, der lægges under drikkevarer — et promoverings- og brandprodukt til barer, pubber og arrangementer."@da,
+        "Ein saugfähiger bedruckter Untersetzer für Getränke — Werbe- und Markenartikel für Bars, Pubs und Events."@de,
+        "An absorbent printed coaster placed under drinks — a promotional and brand item for bars, pubs and events."@en,
+        "Un posavasos impreso y absorbente que se coloca bajo las bebidas — artículo promocional y de marca para bares, pubs y eventos."@es,
+        "पेय के नीचे रखा जाने वाला सोखने वाला मुद्रित कोस्टर — बार, पब और आयोजनों के लिए प्रचार और ब्रांड आइटम।"@hi,
+        "飲み物の下に敷く吸水性の印刷コースター。バーやパブ、イベント向けの販促・ブランドアイテム。"@ja,
+        "En absorberende trykt brikke som settes under drikke — en kampanje- og merkevareartikkel for barer, puber og arrangementer."@nb,
+        "Een absorberend gedrukt viltje onder drankjes — een promotie- en merkartikel voor cafés, bars en evenementen."@nl,
+        "Chłonna drukowana podkładka kładziona pod napoje — artykuł promocyjny i brandingowy dla barów, pubów i wydarzeń."@pl,
+        "Porta-copos absorvente impresso, colocado sob bebidas — item promocional e de marca para bares, pubs e eventos."@pt,
+        "Ett absorberande tryckt underlägg som placeras under drycker — en profil- och varumärkesprodukt för barer, pubar och evenemang."@sv,
+        "垫在饮品下的吸水印刷杯垫——酒吧、酒馆和活动的促销与品牌用品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:PR§BEER-MATS" ;
+    skos:prefLabel "Ølbrikker"@da,
+        "Bierdeckel"@de,
+        "Coasters"@en,
+        "Posavasos de cerveza"@es,
+        "कोस्टर"@hi,
+        "ビアコースター"@ja,
+        "Ølbrikker"@nb,
+        "Bierviltjes"@nl,
+        "Podkładki pod napoje"@pl,
+        "Porta-copos"@pt,
+        "Glasunderlägg"@sv,
+        "啤酒杯垫"@zh-Hans ;
+    ptpge:elementType "product" ;
+    ptpge:group "products" ;
+    ptpge:level "element" ;
+    ptpge:perSurfaceSupportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk>,
+        <https://ptpge.org/v1/printing/features/colors/none> ;
+    ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
+        <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/production/technology>,
+        <https://ptpge.org/v1/variables/substrate/substrate-class>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating>,
+        <https://ptpge.org/v1/variables/substrate/substrate-color>,
+        <https://ptpge.org/v1/variables/substrate/substrate-finish>,
+        <https://ptpge.org/v1/variables/substrate/substrate-type>,
+        <https://ptpge.org/v1/variables/substrate/substrate-weight> ;
+    ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
+        <https://ptpge.org/v1/variables/configuration/orientation>,
+        <https://ptpge.org/v1/variables/configuration/setup-model>,
+        <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/features/color-mode> ;
+    ptpge:status "proposed" ;
+    ptpge:supportsCertification <https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/fsc>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel>,
+        <https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm> ;
+    ptpge:supportsColorMode <https://ptpge.org/v1/printing/features/colors/cmyk> ;
+    ptpge:supportsFormat <https://ptpge.org/v1/printing/configurations/formats/customized> ;
+    ptpge:supportsOrientation <https://ptpge.org/v1/printing/configurations/orientation/portrait> ;
+    ptpge:supportsPrintStandard <https://ptpge.org/v1/printing/standards/print-standards/crpc1>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc3>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc4>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc5>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc6>,
+        <https://ptpge.org/v1/printing/standards/print-standards/crpc7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra39>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra51>,
+        <https://ptpge.org/v1/printing/standards/print-standards/fogra52>,
+        <https://ptpge.org/v1/printing/standards/print-standards/g7>,
+        <https://ptpge.org/v1/printing/standards/print-standards/gracol-2013>,
+        <https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2>,
+        <https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011>,
+        <https://ptpge.org/v1/printing/standards/print-standards/pso>,
+        <https://ptpge.org/v1/printing/standards/print-standards/swop> ;
+    ptpge:supportsSubstrate <https://ptpge.org/v1/printing/substrates/sheet-materials/paper> ;
+    ptpge:supportsSubstrateClass <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated>,
+        <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated> ;
+    ptpge:supportsSubstrateFinish <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper> ;
+    ptpge:supportsSubstrateWeight <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock> ;
+    ptpge:supportsTechnology <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
+        <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
+    ptpge:version "2026-09-28" .
+

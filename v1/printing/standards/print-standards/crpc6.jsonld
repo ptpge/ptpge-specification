@@ -1,0 +1,63 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "CRPC6",
+    "nb": "CRPC6",
+    "sv": "CRPC6",
+    "da": "CRPC6",
+    "nl": "CRPC6",
+    "pl": "CRPC6",
+    "pt": "CRPC6",
+    "hi": "CRPC6"
+  },
+  "notation": "P:ST§CRPC6",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Characterized Reference Printing Condition 6 of ISO/PAS 15339-2:2015 (CGATS 21-2): large-gamut commercial printing on premium coated paper (GRACoL 2013 aligns with this condition). Process-agnostic reference conditions spanning the range of printable gamuts.",
+    "nb": "Karakterisert referanse-trykkbetingelse 6 i ISO/PAS 15339-2:2015 (CGATS 21-2): kommersielt trykk med stort fargerom på premium bestrøket papir (GRACoL 2013 samsvarer). Prosessuavhengige referansebetingelser som spenner over de trykkbare fargerommene.",
+    "de": "Charakterisierte Referenzdruckbedingung 6 nach ISO/PAS 15339-2:2015 (CGATS 21-2): großgamut Akzidenzdruck auf Premium gestrichenem Papier (GRACoL 2013 entspricht). Prozessunabhängige Referenzbedingungen über die Spanne der druckbaren Farbräume.",
+    "es": "Condición de impresión de referencia caracterizada 6 de ISO/PAS 15339-2:2015 (CGATS 21-2): impresión comercial de gran gama en estucado premium (GRACoL 2013 se alinea). Condiciones de referencia independientes del proceso que abarcan las gamas imprimibles.",
+    "ja": "ISO/PAS 15339-2:2015（CGATS 21-2）の特性化参照印刷条件 6：プレミアム塗工紙への広色域商業印刷（GRACoL 2013 が対応）。印刷可能な色域の範囲をカバーする、プロセス非依存の参照条件。",
+    "zh-Hans": "ISO/PAS 15339-2:2015（CGATS 21-2）特性化参考印刷条件 6：高级涂布纸上的大色域商业印刷（GRACoL 2013 与之对应）。与工艺无关、覆盖可印刷色域范围的参考条件。",
+    "sv": "Karakteriserat referenstryckvillkor 6 i ISO/PAS 15339-2:2015 (CGATS 21-2): kommersiellt tryck med stort färgomfång på premium bestruket papper (GRACoL 2013 motsvarar). Processoberoende referensvillkor som spänner över de tryckbara färgomfången.",
+    "da": "Karakteriseret referencetrykbetingelse 6 i ISO/PAS 15339-2:2015 (CGATS 21-2): kommercielt tryk med stort farverum på premium bestrøget papir (GRACoL 2013 svarer til). Procesuafhængige referencebetingelser der spænder over de trykbare farverum.",
+    "nl": "Gekarakteriseerde referentiedrukconditie 6 van ISO/PAS 15339-2:2015 (CGATS 21-2): commercieel drukwerk met groot kleurbereik op premium gestreken papier (GRACoL 2013 komt overeen). Procesonafhankelijke referentiecondities die het bereik van drukbare kleurbereiken omspannen.",
+    "pl": "Characterized Reference Printing Condition 6 wg ISO/PAS 15339-2:2015 (CGATS 21-2): druk komercyjny o dużym gamucie na papierze powlekanym premium (GRACoL 2013 odpowiada temu warunkowi). Warunki odniesienia niezależne od procesu, obejmujące zakres drukowalnych gamutów.",
+    "pt": "Characterized Reference Printing Condition 6 da ISO/PAS 15339-2:2015 (CGATS 21-2): impressão comercial de gamut amplo em papel revestido premium (o GRACoL 2013 alinha-se a esta condição). Condições de referência independentes de processo que abrangem a gama de gamuts imprimíveis.",
+    "hi": "ISO/PAS 15339-2:2015 (CGATS 21-2) की Characterized Reference Printing Condition 6: प्रीमियम कोटेड काग़ज़ पर बड़े-गैमट व्यावसायिक मुद्रण (GRACoL 2013 इस स्थिति से संरेखित)। मुद्रण-योग्य गैमट की सीमा को समेटने वाली प्रक्रिया-निरपेक्ष संदर्भ स्थितियाँ।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "CRPC 6",
+      "Characterized Reference Printing Condition 6"
+    ],
+    "pl": [
+      "CRPC 6",
+      "Characterized Reference Printing Condition 6"
+    ],
+    "pt": [
+      "CRPC 6",
+      "Characterized Reference Printing Condition 6"
+    ],
+    "hi": [
+      "CRPC 6",
+      "Characterized Reference Printing Condition 6"
+    ]
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated"
+  ]
+}

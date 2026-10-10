@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases/packaging-presentation> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:definition "Produkter brugt som emballagens præsentationslag — etiketter, banderoler, hangtags, gavepapir, præsentationsæsker. Adskilt fra strukturel emballage (som er selve æsken/beholderen)."@da,
+        "Produkte als Präsentationsebene von Verpackungen — Etiketten, Hüllen, Hängeetiketten, Geschenkpapier, Präsentationsboxen."@de,
+        "Products used as the presentation layer of packaging — labels, sleeves, hang tags, gift wrap, presentation boxes. Distinct from structural packaging (which is the box/container itself)."@en,
+        "Productos usados como capa de presentación del packaging — etiquetas, fajas, etiquetas colgantes, papel de regalo, cajas de presentación. Distinto del packaging estructural (que es la caja o el contenedor en sí)."@es,
+        "पैकेजिंग की प्रस्तुति-परत के रूप में प्रयुक्त उत्पाद — लेबल, स्लीव, हैंग टैग, गिफ़्ट रैप, प्रेज़ेंटेशन बॉक्स। संरचनात्मक पैकेजिंग (जो स्वयं डिब्बा/कंटेनर है) से अलग।"@hi,
+        "パッケージの見せる層として使われる製品 — ラベル、スリーブ、下げ札、包装紙、化粧箱。構造としてのパッケージ（箱・容器そのもの）とは区別される。"@ja,
+        "Produkter brukt som presentasjonslag i emballasje — etiketter, omslag, henge-tags, gavepapir, presentasjonsesker. Skilt fra strukturell emballasje (selve esken/beholderen)."@nb,
+        "Producten als presentatielaag van verpakkingen — etiketten, wikkels, hangtags, cadeaupapier, presentatiedozen. Onderscheiden van structurele verpakking (de doos/container zelf)."@nl,
+        "Produkty stanowiące warstwę prezentacyjną opakowania — etykiety, banderole, zawieszki, papier prezentowy, pudełka prezentacyjne. W odróżnieniu od opakowania konstrukcyjnego (samego pudełka/pojemnika)."@pl,
+        "Produtos usados como camada de apresentação da embalagem — rótulos, cintas, tags, papel de presente, caixas de apresentação. Distinto da embalagem estrutural (que é a própria caixa/recipiente)."@pt,
+        "Produkter som utgör förpackningens presentationsskikt — etiketter, sleeves, hängetiketter, presentpapper och presentaskar. Skiljer sig från strukturell förpackning (själva lådan/behållaren)."@sv,
+        "作为包装呈现层使用的产品 — 标签、腰封、吊牌、礼品包装纸、展示盒。区别于结构性包装（即盒子/容器本身）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:UC§PACKAGING-PRESENTATION" ;
+    skos:prefLabel "Emballagepræsentation"@da,
+        "Verpackungs-Präsentation"@de,
+        "Packaging Presentation"@en,
+        "Presentación de embalaje"@es,
+        "पैकेजिंग प्रस्तुति"@hi,
+        "パッケージ提示"@ja,
+        "Emballasje-presentasjon"@nb,
+        "Verpakkingspresentatie"@nl,
+        "Prezentacja opakowania"@pl,
+        "Apresentação de embalagem"@pt,
+        "Förpackningspresentation"@sv,
+        "包装展示"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "use-cases" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

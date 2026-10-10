@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases/educational> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:closeMatch schema:EducateAction ;
+    skos:definition "Produkter brugt i uddannelsessammenhænge — skoler, universiteter, kursusforløb, museer. Omfatter lærebøger, arbejdshæfter, undervisningsmateriale, udstillingsfoldere og læringsressourcer."@da,
+        "Produkte für pädagogische Kontexte — Schulen, Universitäten, Schulungsprogramme, Museen."@de,
+        "Products used in educational contexts — schools, universities, training programmes, museums. Includes textbooks, workbooks, lesson materials, exhibition pamphlets, and learning resources."@en,
+        "Productos usados en contextos educativos — escuelas, universidades, programas de formación, museos. Incluye libros de texto, cuadernos de ejercicios, materiales de clase, folletos de exposición y recursos de aprendizaje."@es,
+        "शैक्षिक संदर्भों में उपयोग होने वाले उत्पाद — स्कूल, विश्वविद्यालय, प्रशिक्षण कार्यक्रम, संग्रहालय। पाठ्यपुस्तकें, अभ्यास-पुस्तिकाएँ, पाठ सामग्री, प्रदर्शनी पर्चे और अधिगम संसाधन शामिल।"@hi,
+        "教育の場 — 学校、大学、研修プログラム、博物館 — で使われる製品。教科書、ワークブック、授業教材、展示パンフレット、学習リソースを含む。"@ja,
+        "Produkter brukt i pedagogiske sammenhenger — skoler, universiteter, opplæringsprogrammer, museer. Inkluderer lærebøker, arbeidsbøker, undervisningsmateriell, utstillings-pamfletter og læringsressurser."@nb,
+        "Producten gebruikt in onderwijscontexten — scholen, universiteiten, opleidingen, musea. Omvat leerboeken, werkboeken, lesmateriaal, tentoonstellingsfolders en leermiddelen."@nl,
+        "Produkty używane w kontekstach edukacyjnych — szkoły, uczelnie, programy szkoleniowe, muzea. Obejmuje podręczniki, zeszyty ćwiczeń, materiały lekcyjne, foldery wystawowe i pomoce dydaktyczne."@pl,
+        "Produtos usados em contextos educacionais — escolas, universidades, programas de treinamento, museus. Inclui livros didáticos, cadernos de exercícios, materiais de aula, folhetos de exposição e recursos de aprendizagem."@pt,
+        "Produkter som används i utbildningssammanhang — skolor, universitet, utbildningsprogram, museer. Omfattar läroböcker, arbetsböcker, lektionsmaterial, utställningsbroschyrer och läranderesurser."@sv,
+        "用于教育场景的产品 — 学校、大学、培训项目、博物馆。包括教科书、练习册、课程材料、展览手册与学习资源。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:UC§EDUCATIONAL" ;
+    skos:prefLabel "Uddannelse"@da,
+        "Pädagogisch"@de,
+        "Educational"@en,
+        "Educación"@es,
+        "शैक्षिक"@hi,
+        "教育"@ja,
+        "Pedagogisk"@nb,
+        "Onderwijs"@nl,
+        "Edukacyjne"@pl,
+        "Educacional"@pt,
+        "Utbildning"@sv,
+        "教育"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "use-cases" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

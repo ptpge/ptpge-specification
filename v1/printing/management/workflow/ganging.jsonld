@@ -1,0 +1,102 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/ganging",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "value",
+  "notation": "P:MG§GANGING",
+  "label": {
+    "en": "Ganging",
+    "nb": "Samtrykk",
+    "de": "Sammeldruck",
+    "es": "Impresión agrupada",
+    "ja": "付け合わせ印刷",
+    "zh-Hans": "拼版合印",
+    "sv": "Samtryck",
+    "da": "Samtryk",
+    "nl": "Combinatiedruk",
+    "pl": "Druk zbiorczy",
+    "pt": "Agrupamento de trabalhos",
+    "hi": "गैंगिंग"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "broader": "https://ptpge.org/v1/printing/management/workflow",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Combining several independent jobs that share substrate, colour set and finishing on one press sheet or plate, so that make-ready and sheet cost are divided among them. The production model behind most online print pricing; the buyer meets it as gang-run quality, fixed quantity tiers and collective delivery dates.",
+    "nb": "Å samle flere uavhengige jobber med samme papir, fargesett og foredling på ett trykkark eller én plate, slik at innstillings- og arkkostnaden deles. Produksjonsmodellen bak det meste av online-trykk-prising; kjøperen møter den som samtrykkskvalitet, faste opplagstrinn og felles leveringsdatoer.",
+    "de": "Das Zusammenlegen mehrerer unabhängiger Aufträge mit gleichem Bedruckstoff, Farbsatz und gleicher Veredelung auf einem Druckbogen oder einer Platte, sodass Rüst- und Bogenkosten geteilt werden. Das Produktionsmodell hinter dem größten Teil der Online-Druck-Preise; der Käufer begegnet ihm als Sammeldruck-Qualität, festen Auflagenstufen und gemeinsamen Lieferterminen.",
+    "es": "Agrupar varios trabajos independientes que comparten sustrato, juego de colores y acabado en un mismo pliego o plancha, de modo que la puesta a punto y el coste del pliego se repartan. El modelo de producción detrás de la mayoría de los precios de impresión online; el comprador lo percibe como calidad de impresión agrupada, tramos de tirada fijos y fechas de entrega colectivas.",
+    "ja": "用紙・色構成・加工が共通する複数の独立した仕事を1枚の印刷用紙または版にまとめ、準備コストと用紙コストを分担する方式。オンライン印刷の価格設定の多くを支える生産モデルで、発注者には付け合わせ品質、固定の部数段階、共通の納期として現れる。",
+    "zh-Hans": "将承印物、色组和加工相同的多个独立活件拼在同一印张或印版上，共同分摊准备与印张成本。这是多数在线印刷定价背后的生产模式；买方以合印质量、固定印量档位和统一交货日期的形式接触到它。",
+    "sv": "Att samla flera oberoende jobb med samma papper, färguppsättning och efterbehandling på ett tryckark eller en plåt, så att ställ- och arkkostnaden delas. Produktionsmodellen bakom det mesta av prissättningen för onlinetryck; köparen möter den som samtryckskvalitet, fasta upplagesteg och gemensamma leveransdatum.",
+    "da": "At samle flere uafhængige job med samme papir, farvesæt og efterbehandling på ét trykark eller én plade, så indstillings- og arkomkostningen deles. Produktionsmodellen bag det meste af online-tryk-prissætning; køberen møder den som samtrykskvalitet, faste oplagstrin og fælles leveringsdatoer.",
+    "nl": "Het samenvoegen van meerdere onafhankelijke orders met dezelfde drukdrager, kleurenset en afwerking op één drukvel of plaat, zodat insteltijd en velkosten worden gedeeld. Het productiemodel achter het grootste deel van de online-drukprijzen; de koper ziet het als combinatiedrukkwaliteit, vaste oplagetrappen en gezamenlijke leverdata.",
+    "pl": "Łączenie kilku niezależnych zleceń o wspólnym podłożu, zestawie barw i wykończeniu na jednym arkuszu drukowym lub formie, tak aby koszt przygotowania i arkusza rozłożył się między nie. Model produkcji stojący za większością cen druku online; nabywca spotyka go jako jakość druku zbiorczego, stałe progi nakładów i wspólne terminy dostaw.",
+    "pt": "Combinação de vários trabalhos independentes que compartilham substrato, conjunto de cores e acabamento numa mesma folha ou chapa, de modo que o acerto e o custo da folha sejam divididos entre eles. O modelo de produção por trás da maior parte da precificação de impressão online; o comprador o encontra como qualidade de tiragem agrupada, faixas fixas de quantidade e datas de entrega coletivas.",
+    "hi": "एक ही प्रेस शीट या प्लेट पर समान सब्सट्रेट, रंग सेट और फ़िनिशिंग वाले कई स्वतंत्र कामों को मिलाना, ताकि मेक-रेडी और शीट लागत उनमें बँट जाए। अधिकांश ऑनलाइन प्रिंट मूल्य-निर्धारण के पीछे का उत्पादन मॉडल; ख़रीदार को यह गैंग-रन गुणवत्ता, निश्चित मात्रा स्तरों और सामूहिक डिलीवरी तिथियों के रूप में मिलता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "Gang run",
+      "Gang-run printing",
+      "Gang printing",
+      "Collective printing",
+      "Sammeldruck"
+    ],
+    "nb": [
+      "Samtrykking"
+    ],
+    "de": [
+      "Sammelform",
+      "Sammelbogen"
+    ],
+    "nl": [
+      "Verzameldruk"
+    ],
+    "pl": [
+      "druk łączony",
+      "gang run",
+      "zbiorówka",
+      "druk na wspólnym arkuszu"
+    ],
+    "pt": [
+      "Gang run",
+      "Impressão agrupada",
+      "Impressão coletiva",
+      "Amálgama",
+      "Sammeldruck"
+    ],
+    "hi": [
+      "गैंग रन",
+      "गैंग-रन प्रिंटिंग",
+      "सामूहिक मुद्रण",
+      "Sammeldruck"
+    ]
+  },
+  "related": [
+    "https://ptpge.org/v1/printing/management/workflow/file-preparation/impositioning"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "SheetOptimizingParams",
+        "GangElement",
+        "ForceGang / GangStatus"
+      ],
+      "refs": [
+        "§6.79 · p.271 · §7.4–7.5 · p.299"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 8"
+    }
+  ]
+}

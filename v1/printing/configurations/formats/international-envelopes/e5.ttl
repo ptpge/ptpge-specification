@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/e5> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "11.5 x 22 cm"@en,
+        "115 x 220 mm"@en,
+        "115x220"@en,
+        "115×220"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "115 × 220 mm. E-seriekuvert med proportioner tæt på DL, men lidt anderledes — bruges til forretningskorrespondance på vissa marknader."@da,
+        "115 × 220 mm. Briefumschlag der E-Reihe, in den Proportionen ähnlich zu DL, aber leicht abweichend — in einigen Märkten für Geschäftskorrespondenz verwendet."@de,
+        "115 × 220 mm. E-series envelope similar in proportions to DL but slightly different — used for business correspondence in some markets."@en,
+        "Sobre E5 — formato europeo especializado para correspondencia y marketing directo."@es,
+        "115 × 220 mm. E-सीरीज़ लिफ़ाफ़ा, DL से मिलते-जुलते पर थोड़े अलग अनुपात — कुछ बाज़ारों में व्यावसायिक पत्राचार के लिए।"@hi,
+        "115×220mm。DLと比例的に近いがわずかに異なるEシリーズ封筒 — 一部の市場でビジネス通信に使用される。"@ja,
+        "115 × 220 mm. E-serie-konvolutt med proporsjoner lik DL, men litt forskjellig — brukt til forretningskorrespondanse i enkelte markeder."@nb,
+        "115 × 220 mm. E-reeksenvelop met verhoudingen dicht bij DL, maar net iets anders — gebruikt voor zakelijke correspondentie på vissa marknader."@nl,
+        "115 × 220 mm. Koperta serii E o proporcjach zbliżonych do DL, lecz nieco innych — używana do korespondencji biznesowej na niektórych rynkach."@pl,
+        "115 × 220 mm. Envelope da série E, de proporções semelhantes ao DL mas ligeiramente diferentes — usado em correspondência comercial em alguns mercados."@pt,
+        "115 × 220 mm. E-seriekuvert med proportioner nära DL men något annorlunda — används för affärskorrespondens på vissa marknader."@sv,
+        "E5信封 —— 用于通信和直邮的欧洲专业格式。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§E5" ;
+    skos:prefLabel "E5 (115 x 220 mm)"@da,
+        "E5 (115 x 220 mm)"@de,
+        "E5 (115 x 220 mm)"@en,
+        "E5 (115 × 220 mm)"@es,
+        "E5 (115 x 220 mm)"@hi,
+        "E5 (115 x 220 mm)"@ja,
+        "E5 (115 x 220 mm)"@nb,
+        "E5 (115 x 220 mm)"@nl,
+        "E5 (115 x 220 mm)"@pl,
+        "E5 (115 x 220 mm)"@pt,
+        "E5 (115 x 220 mm)"@sv,
+        "E5 (115 × 220 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 25300.0 ;
+            ptpge:aspectRatio 1.913 ;
+            ptpge:height 220.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 115.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

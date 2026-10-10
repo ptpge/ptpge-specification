@@ -1,0 +1,150 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/features/colors/cmykog",
+  "type": "skos:Concept",
+  "version": "2026-08-27",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "CMYKOG",
+    "sv": "CMYKOG",
+    "da": "CMYKOG",
+    "nl": "CMYKOG",
+    "nb": "CMYKOG",
+    "de": "CMYKOG",
+    "ja": "CMYKOG",
+    "es": "CMYKOG",
+    "zh-Hans": "CMYKOG",
+    "pl": "CMYKOG",
+    "pt": "CMYKOG",
+    "hi": "CMYKOG"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "features",
+  "broader": "https://ptpge.org/v1/printing/features/colors",
+  "created": "2026-06-18T11:10:58Z",
+  "modified": "2026-09-23T06:18:57Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "notation": "P:FT§CMYKOG",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "definition": {
+    "en": "Extended 6-color gamut printing using CMYK plus Orange and Green inks, widening the reproducible gamut beyond process CMYK without the Violet of a full 7-color set.",
+    "nb": "Utvidet 6-fargers gamut-trykk med CMYK pluss oransje og grønt blekk, som utvider det gjengivbare fargeområdet utover prosess-CMYK uten fioletten i et fullt 7-fargersett.",
+    "de": "Erweiterter 6-Farben-Gamut-Druck mit CMYK plus Orange und Grün — erweitert den reproduzierbaren Farbraum über Prozess-CMYK hinaus, ohne das Violett des vollen 7-Farben-Satzes.",
+    "es": "Impresión de gama extendida de 6 colores con CMYK más tintas Naranja y Verde, ampliando la gama reproducible más allá del CMYK de proceso sin el Violeta del juego completo de 7 colores.",
+    "ja": "CMYK にオレンジとグリーンのインキを加えた6色の拡張ガモット印刷。7色セットのバイオレットなしで、プロセス CMYK を超える再現域へ広げる。",
+    "zh-Hans": "在 CMYK 基础上加入橙色与绿色油墨的6色扩展色域印刷，在不使用7色方案中紫色的情况下将可再现色域扩展至超越常规 CMYK。",
+    "sv": "Utökat 6-färgstryck med CMYK plus orange och grönt bläck, vilket vidgar den återgivbara färgrymden bortom process-CMYK utan sjufärgsuppsättningens violett.",
+    "da": "Udvidet 6-farvetryk med CMYK plus orange og grøn farve, som udvider det gengivelige farveomfang ud over proces-CMYK uden violet fra et fuldt 7-farvesæt.",
+    "nl": "Uitgebreide 6-kleurendruk met CMYK plus oranje en groene inkt, die het weergeefbare gamma verruimt voorbij proces-CMYK zonder het violet van een volledige 7-kleurenset.",
+    "pl": "Druk o rozszerzonym gamucie w 6 kolorach: CMYK plus farby pomarańczowa i zielona, poszerzający reprodukowalny gamut poza procesowy CMYK bez fioletu z pełnego zestawu 7-kolorowego.",
+    "pt": "Impressão em gama estendida de 6 cores usando CMYK mais tintas Laranja e Verde, ampliando a gama reproduzível além do CMYK sem o Violeta do conjunto completo de 7 cores.",
+    "hi": "CMYK के साथ नारंगी और हरी स्याही से 6-रंग विस्तारित गैमट छपाई — पूर्ण 7-रंग सेट के बैंगनी के बिना, प्रोसेस CMYK से आगे पुनरुत्पादन योग्य गैमट बढ़ाती है।"
+  },
+  "exactMatch": [
+    "https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cmykog"
+  ],
+  "altLabels": {
+    "en": [
+      "6-color",
+      "6-colour",
+      "Extended gamut",
+      "CMYK+OG",
+      "Orange Green",
+      "6-Color",
+      "Six-Color",
+      "Extended Gamut",
+      "EG Printing"
+    ],
+    "nb": [
+      "6-farge",
+      "Utvidet gamut",
+      "6-fargers trykk",
+      "Utvidet fargeomfang",
+      "CMYK+OG"
+    ],
+    "de": [
+      "6-Farben-Druck",
+      "Erweiterter Farbraum",
+      "CMYK+OG"
+    ],
+    "nl": [
+      "Zeskleurendruk",
+      "Uitgebreid kleurbereik",
+      "CMYK+OG"
+    ],
+    "sv": [
+      "Sexfärgstryck",
+      "Utökad färgrymd",
+      "CMYK+OG"
+    ],
+    "da": [
+      "Seksfarvetryk",
+      "Udvidet farverum",
+      "CMYK+OG"
+    ],
+    "es": [
+      "Hexacromía",
+      "Gama extendida",
+      "CMYK+OG"
+    ],
+    "ja": [
+      "6色印刷",
+      "拡張色域",
+      "CMYK+OG"
+    ],
+    "zh-Hans": [
+      "六色印刷",
+      "扩展色域",
+      "CMYK+OG"
+    ],
+    "pl": [
+      "6 kolorów",
+      "gamut rozszerzony",
+      "CMYK+OG"
+    ],
+    "pt": [
+      "6 cores",
+      "gama estendida",
+      "CMYK+OG",
+      "laranja e verde",
+      "hexacromia estendida"
+    ],
+    "hi": [
+      "6 रंग",
+      "विस्तारित गैमट",
+      "CMYK+OG",
+      "ऑरेंज ग्रीन",
+      "एक्सटेंडेड गैमट"
+    ]
+  },
+  "properties": {
+    "inkColorants": [
+      "C",
+      "M",
+      "Y",
+      "K",
+      "Orange",
+      "Green"
+    ],
+    "colorChannelCount": 6,
+    "colorModel": "subtractive"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ColorIntent",
+        "ColorantControl"
+      ],
+      "refs": [
+        "§4.4 · p.72",
+        "§6.15 · p.168"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 24"
+    }
+  ]
+}

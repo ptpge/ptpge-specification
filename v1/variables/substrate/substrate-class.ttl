@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/substrate/substrate-class> a skos:Concept ;
+    dcterms:created "2026-09-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "klasa papieru"@pl ;
+    skos:broader <https://ptpge.org/v1/variables/substrate> ;
+    skos:definition "Papirets tryksubstratklasse efter ISO 12647-2:2013 (PS1–PS5). Valgfri præcisering af substratet: bindes den, bliver klassen del af det konfigurerede produkt og dets identitet, fordi klassen — sammen med trykstandarden — forudsiger farveresultatet. Konsistens: PS1–PS4 er bestrøgne klasser, PS5 ubestrøget; en bundet bestrygning skal stemme. Ubundet betyder uspecificeret."@da,
+        "Die Bedruckstoffklasse des Papiers nach ISO 12647-2:2013 (PS1–PS5). Optionale Präzisierung des Bedruckstoffs: gebunden wird die Klasse Teil des konfigurierten Produkts und seiner Identität, weil sie — zusammen mit dem Druckstandard — das Farbergebnis vorhersagt. Konsistenz: PS1–PS4 sind gestrichene Klassen, PS5 ungestrichen; ein gebundener Strich muss dazu passen. Ungebunden bedeutet unspezifiziert."@de,
+        "The ISO 12647-2:2013 printing-substrate class (PS1–PS5) of the paper. Optional refinement of the substrate: binding it makes the class part of the configured product and its identity, because the class — together with the print standard — predicts the colour result. Consistency: PS1–PS4 are coated classes, PS5 is uncoated; a bound coating must agree. Unbound means unspecified."@en,
+        "La clase de sustrato de impresión del papel según ISO 12647-2:2013 (PS1–PS5). Refinamiento opcional del sustrato: al vincularla, la clase pasa a formar parte del producto configurado y de su identidad, porque —junto con el estándar de impresión— predice el resultado de color. Coherencia: PS1–PS4 son clases estucadas, PS5 no estucada; un estucado vinculado debe concordar. Sin vincular significa sin especificar."@es,
+        "काग़ज़ का ISO 12647-2:2013 मुद्रण-सब्सट्रेट वर्ग (PS1–PS5)। सब्सट्रेट का वैकल्पिक परिष्करण: इसे बाँधने से वर्ग कॉन्फ़िगर किए उत्पाद और उसकी पहचान का हिस्सा बन जाता है, क्योंकि वर्ग — मुद्रण मानक के साथ — रंग परिणाम की भविष्यवाणी करता है। संगति: PS1–PS4 कोटेड वर्ग हैं, PS5 अनकोटेड; बाँधी गई कोटिंग को इससे मेल खाना चाहिए। अनबाउंड का अर्थ अनिर्दिष्ट।"@hi,
+        "ISO 12647-2:2013 に基づく用紙の印刷用紙クラス（PS1–PS5）。基材の任意の精密化：束縛すると、クラスは構成済み製品とその識別子の一部になる。クラスは印刷標準と併せて色再現結果を予測するためである。整合性：PS1–PS4 は塗工クラス、PS5 は非塗工。束縛された塗工属性と一致すること。未束縛は未指定を意味する。"@ja,
+        "Papirets trykksubstrat-klasse etter ISO 12647-2:2013 (PS1–PS5). Valgfri presisering av substratet: bindes den, blir klassen del av det konfigurerte produktet og dets identitet, fordi klassen — sammen med trykkstandarden — forutsier fargeresultatet. Konsistens: PS1–PS4 er bestrøkne klasser, PS5 ubestrøket; en bundet bestrykning må stemme. Ubundet betyr uspesifisert."@nb,
+        "De drukdrager-klasse van het papier volgens ISO 12647-2:2013 (PS1–PS5). Optionele verfijning van de drukdrager: gebonden wordt de klasse deel van het geconfigureerde product en zijn identiteit, omdat de klasse — samen met de druknorm — het kleurresultaat voorspelt. Consistentie: PS1–PS4 zijn gestreken klassen, PS5 ongestreken; een gebonden strijklaag moet overeenkomen. Ongebonden betekent niet gespecificeerd."@nl,
+        "Klasa podłoża drukowego wg ISO 12647-2:2013 (PS1–PS5) papieru. Opcjonalne uściślenie podłoża: związanie jej czyni klasę częścią skonfigurowanego produktu i jego tożsamości, ponieważ klasa — wraz ze standardem druku — przewiduje wynik barwny. Spójność: PS1–PS4 to klasy powlekane, PS5 jest niepowlekana; związane powlekanie musi się zgadzać. Brak wartości oznacza nieokreślone."@pl,
+        "A classe de substrato de impressão ISO 12647-2:2013 (PS1–PS5) do papel. Refinamento opcional do substrato: vinculá-la torna a classe parte do produto configurado e de sua identidade, porque a classe — junto com a norma de impressão — prevê o resultado de cor. Consistência: PS1–PS4 são classes revestidas, PS5 é não revestida; um revestimento vinculado deve concordar. Não vinculado significa não especificado."@pt,
+        "Papprets trycksubstratklass enligt ISO 12647-2:2013 (PS1–PS5). Valfri precisering av substratet: binds den blir klassen del av den konfigurerade produkten och dess identitet, eftersom klassen — tillsammans med tryckstandarden — förutsäger färgresultatet. Konsistens: PS1–PS4 är bestrukna klasser, PS5 obestruket; en bunden bestrykning måste stämma. Obundet betyder ospecificerat."@sv,
+        "纸张按 ISO 12647-2:2013 的印刷承印物类别（PS1–PS5）。承印物的可选精化：绑定后，类别成为已配置产品及其标识的一部分，因为类别与印刷标准共同预测色彩结果。一致性：PS1–PS4 为涂布类别，PS5 为非涂布；已绑定的涂布属性须一致。未绑定即未指定。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:SB§SUBSTRATE-CLASS" ;
+    skos:prefLabel "Papirklasse"@da,
+        "Papierklasse"@de,
+        "Substrate Class"@en,
+        "Clase de papel"@es,
+        "सब्सट्रेट वर्ग"@hi,
+        "用紙クラス"@ja,
+        "Papirklasse"@nb,
+        "Papierklasse"@nl,
+        "Klasa podłoża"@pl,
+        "Classe de substrato"@pt,
+        "Pappersklass"@sv,
+        "纸张类别"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/variables/compliance/print-standard>,
+        <https://ptpge.org/v1/variables/substrate/substrate-coating> ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken papirklasse?"@da,
+        "Welche Papierklasse?"@de,
+        "Which paper class?"@en,
+        "¿Qué clase de papel?"@es,
+        "कागज़ की श्रेणी?"@hi,
+        "紙のクラスは？"@ja,
+        "Hvilken papirklasse?"@nb,
+        "Welke papierklasse?"@nl,
+        "Jaka klasa papieru?"@pl,
+        "Que classe de papel?"@pt,
+        "Vilken pappersklass?"@sv,
+        "什么纸张等级？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "SD-0076" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media",
+                "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes> ;
+    ptpge:version "2026-09-03" .
+

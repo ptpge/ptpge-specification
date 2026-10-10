@@ -1,0 +1,102 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/orientation/portrait",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Portrait",
+    "es": "Vertical (Retrato)",
+    "zh-Hans": "纵向",
+    "nb": "Stående",
+    "de": "Hochformat",
+    "ja": "縦向き",
+    "nl": "Staand",
+    "sv": "Stående",
+    "da": "Stående",
+    "pl": "Pionowa",
+    "pt": "Retrato",
+    "hi": "पोर्ट्रेट"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§PORTRAIT",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/orientation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Rectangular orientation where the vertical dimension is greater than the horizontal — the default orientation for documents, letters, and most printed publications.",
+    "nb": "Rektangulær orientering der den vertikale dimensjonen er større enn den horisontale — standard orientering for dokumenter, brev og de fleste trykte publikasjoner.",
+    "de": "Rechteckige Ausrichtung, bei der die vertikale Abmessung größer ist als die horizontale — die Standardausrichtung für Dokumente, Briefe und die meisten Druckpublikationen.",
+    "ja": "垂直方向の寸法が水平方向より大きい長方形の向き — 書類、手紙、大半の印刷物の既定の向き。",
+    "es": "Orientación vertical donde la altura es mayor que la anchura. Estándar para documentos, libros e informes.",
+    "zh-Hans": "高度大于宽度的纵向方向。文件、书籍和报告的标准。",
+    "sv": "Rektangulär orientering där det vertikala måttet är större än det horisontella — standardorienteringen för dokument, brev och de flesta trycksaker.",
+    "da": "Rektangulær orientering, hvor det lodrette mål er større end det vandrette — standardorienteringen for dokumenter, breve og de fleste tryksager.",
+    "nl": "Rechthoekige oriëntatie waarbij de verticale maat groter is dan de horizontale — de standaardoriëntatie voor documenten, brieven en het meeste drukwerk.",
+    "pl": "Orientacja prostokątna, w której wymiar pionowy jest większy od poziomego — domyślna orientacja dokumentów, listów i większości publikacji drukowanych.",
+    "pt": "Orientação retangular em que a dimensão vertical é maior que a horizontal — a orientação padrão de documentos, cartas e da maioria das publicações impressas.",
+    "hi": "आयताकार अभिविन्यास जिसमें ऊर्ध्वाधर आयाम क्षैतिज से बड़ा है — दस्तावेज़ों, पत्रों और अधिकांश मुद्रित प्रकाशनों की डिफ़ॉल्ट दिशा।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Vertical",
+      "Tall",
+      "Upright",
+      "Portrait orientation"
+    ],
+    "nb": [
+      "Stående",
+      "Vertikal"
+    ],
+    "nl": [
+      "Portret",
+      "Verticaal"
+    ],
+    "sv": [
+      "Vertikal"
+    ],
+    "da": [
+      "Højformat",
+      "Vertikal"
+    ],
+    "pl": [
+      "pionowo",
+      "orientacja pionowa",
+      "portrait"
+    ],
+    "pt": [
+      "vertical",
+      "em pé",
+      "alto",
+      "orientação retrato"
+    ],
+    "hi": [
+      "ऊर्ध्वाधर",
+      "खड़ा",
+      "लंबा",
+      "पोर्ट्रेट दिशा"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent"
+      ],
+      "refs": [
+        "§4.10 · p.78"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 21"
+    }
+  ]
+}

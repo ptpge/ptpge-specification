@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/paper-size-standards/ansi-paper-sizes> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "ANSI sizes"@en,
+        "ANSI आकार"@hi,
+        "ANSI sizes"@pl,
+        "tamanhos ANSI"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/paper-size-standards> ;
+    skos:definition "Papirformater fra American National Standards Institute (Letter 8.5×11\", Legal 8.5×14\", Tabloid 11×17\" samt ANSI A–E) — det dominerende system i Nordamerika til kontor og kommercielt tryk."@da,
+        "Papierformate des American National Standards Institute (Letter 8,5×11″, Legal 8,5×14″, Tabloid 11×17″ und ANSI A–E) — das dominierende System in Nordamerika für Büro- und gewerblichen Druck."@de,
+        "American National Standards Institute paper sizes (Letter 8.5×11\", Legal 8.5×14\", Tabloid 11×17\", and ANSI A–E) — the dominant system in North America for office and commercial print."@en,
+        "Sistema de tamaños del American National Standards Institute para papelería e ingeniería en Norteamérica — ANSI A a E."@es,
+        "American National Standards Institute के काग़ज़ आकार (Letter 8.5×11\", Legal 8.5×14\", Tabloid 11×17\" और ANSI A–E) — कार्यालय और व्यावसायिक प्रिंट के लिए उत्तर अमेरिका की प्रमुख प्रणाली।"@hi,
+        "American National Standards Instituteの用紙寸法（Letter 8.5×11″、Legal 8.5×14″、Tabloid 11×17″、ANSI A〜E）— 北米におけるオフィスおよび商用印刷の主導的な体系。"@ja,
+        "American National Standards Institutes papirstørrelser (Letter 8,5×11\", Legal 8,5×14\", Tabloid 11×17\" og ANSI A–E) — det dominerende systemet i Nord-Amerika for kontor- og kommersiell trykk."@nb,
+        "Papierformaten van het American National Standards Institute (Letter 8.5×11\", Legal 8.5×14\", Tabloid 11×17\" en ANSI A–E) — het dominante systeem in Noord-Amerika voor kantoor en commercieel drukwerk."@nl,
+        "Formaty papieru American National Standards Institute (Letter 8,5×11\", Legal 8,5×14\", Tabloid 11×17\" oraz ANSI A–E) — dominujący system w Ameryce Północnej dla druku biurowego i komercyjnego."@pl,
+        "Tamanhos de papel do American National Standards Institute (Letter 8,5×11\", Legal 8,5×14\", Tabloid 11×17\" e ANSI A–E) — o sistema dominante na América do Norte para impressão de escritório e comercial."@pt,
+        "Pappersformat från American National Standards Institute (Letter 8.5×11\", Legal 8.5×14\", Tabloid 11×17\" samt ANSI A–E) — det dominerande systemet i Nordamerika för kontor och civiltryck."@sv,
+        "American National Standards Institute用于北美文具和工程的尺寸系统 —— ANSI A到E。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§ANSI-PAPER-SIZES" ;
+    skos:prefLabel "ANSI-papirformater"@da,
+        "ANSI Paper Sizes"@de,
+        "ANSI Paper Sizes"@en,
+        "Tamaños ANSI"@es,
+        "ANSI काग़ज़ आकार"@hi,
+        "ANSI Paper Sizes"@ja,
+        "ANSI Paper Sizes"@nb,
+        "ANSI-papierformaten"@nl,
+        "Formaty ANSI"@pl,
+        "Tamanhos de papel ANSI"@pt,
+        "ANSI-pappersformat"@sv,
+        "ANSI尺寸"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 2" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

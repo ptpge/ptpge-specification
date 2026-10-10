@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check/esko-ae-pf",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "element",
+  "label": {
+    "en": "Esko Automation Engine (Preflight)",
+    "es": "Esko Automation Engine",
+    "zh-Hans": "Esko Automation Engine",
+    "nb": "Esko Automation Engine (Preflight)",
+    "de": "Esko Automation Engine (Preflight)",
+    "ja": "Esko Automation Engine (Preflight)",
+    "sv": "Esko Automation Engine (preflight)",
+    "da": "Esko Automation Engine (preflight)",
+    "nl": "Esko Automation Engine (preflight)",
+    "pl": "Esko Automation Engine (Preflight)",
+    "pt": "Esko Automation Engine (Preflight)",
+    "hi": "Esko Automation Engine (प्रीफ़्लाइट)"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§ESKO-AE-PF",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-06T19:29:35Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Esko Automation Engine — workflow automation platform with integrated preflight for packaging and label production, popular in flexographic and gravure environments.",
+    "nb": "Esko Automation Engine — workflow-automasjonsplattform med integrert preflight for emballasje- og etikettproduksjon, populær i fleksografi- og gravure-miljøer.",
+    "de": "Esko Automation Engine — Workflow-Automatisierungsplattform mit integriertem Preflight für die Verpackungs- und Etikettenproduktion, beliebt im Flexodruck- und Tiefdruckumfeld.",
+    "ja": "Esko Automation Engine — パッケージおよびラベル生産用のプリフライトを統合したワークフロー自動化プラットフォーム。フレキソ印刷およびグラビア印刷環境で人気がある。",
+    "es": "Plataforma de Esko orientada a packaging y artes gráficas, con preflight de archivos como parte de un flujo de automatización completo.",
+    "zh-Hans": "Esko面向包装和图艺的平台，文件飞检是完整自动化工作流程的一部分。",
+    "sv": "Esko Automation Engine — plattform för arbetsflödesautomation med integrerad preflight för förpacknings- och etikettproduktion, populär i flexo- och djuptrycksmiljöer.",
+    "da": "Esko Automation Engine — workflow-automatiseringsplatform med integreret preflight til emballage- og etiketproduktion, populær i flexografiske og dybtryksmiljøer.",
+    "nl": "Esko Automation Engine — workflowautomatiseringsplatform met geïntegreerde preflight voor verpakkings- en etikettenproductie, populair in flexo- en diepdrukomgevingen.",
+    "pl": "Esko Automation Engine — platforma automatyzacji workflow ze zintegrowanym preflightem dla produkcji opakowań i etykiet, popularna w środowiskach fleksograficznych i wklęsłodrukowych.",
+    "pt": "Esko Automation Engine — plataforma de automação de fluxo de trabalho com preflight integrado para produção de embalagens e rótulos, popular em ambientes flexográficos e de rotogravura.",
+    "hi": "Esko Automation Engine — पैकेजिंग और लेबल उत्पादन के लिए एकीकृत प्रीफ़्लाइट वाला वर्कफ़्लो स्वचालन प्लेटफ़ॉर्म, फ़्लेक्सोग्राफ़िक और ग्रेव्योर परिवेशों में लोकप्रिय।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Preflight",
+        "PreflightParams",
+        "PreflightReport",
+        "ContentCheckIntent"
+      ],
+      "refs": [
+        "§5.4.14 · p.100",
+        "§6.64 · p.249",
+        "§6.65 · p.250",
+        "§4.5 · p.73"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 13"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check",
+  "deprecationReason": {
+    "en": "A brand is a term only when the trade uses it as a standard, never when it is a product one buys (SD-0097). This is a product: it belongs in the maker's supplier catalogue and in a printer's vendor declaration as capability. Use the generic parent in the vocabulary; this URI keeps resolving.",
+    "nb": "Et merke er en term bare når bransjen bruker det som en standard, aldri når det er et produkt man kjøper (SD-0097). Dette er et produkt: det hører hjemme i produsentens katalog og i trykkeriets leverandørdeklarasjon som kapasitet. Bruk den generiske forelderen i vokabularet; denne URI-en fortsetter å svare."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/folding/tri-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Tri Fold",
+    "es": "Plegado en tríptico",
+    "zh-Hans": "三折",
+    "nb": "Tre-fold",
+    "de": "Wickelfalz / Dreibruch",
+    "ja": "三つ折り",
+    "sv": "C-fals (trefals)",
+    "da": "Trefals (C-fals)",
+    "nl": "Wikkelvouw (C-vouw)",
+    "pl": "Złam na C",
+    "pt": "Tríptico",
+    "hi": "ट्राई-फ़ोल्ड"
+  },
+  "altLabels": {
+    "en": [
+      "Letter Fold",
+      "C-Fold"
+    ],
+    "nb": [
+      "C-fals",
+      "Brevfals",
+      "Tre-spalters"
+    ],
+    "es": [
+      "Plegado tríptico",
+      "Doblez en tres"
+    ],
+    "pl": [
+      "składanie na C",
+      "złam listowy",
+      "złam zwijany na trzy",
+      "składanie na trzy"
+    ],
+    "pt": [
+      "dobra em três",
+      "dobra carta",
+      "dobra C",
+      "folheto três dobras"
+    ],
+    "hi": [
+      "लेटर फ़ोल्ड",
+      "C-फ़ोल्ड",
+      "तीन तह",
+      "तीन पैनल फ़ोल्ड"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "notation": "P:CP§TRI-FOLD",
+  "elementType": "reference",
+  "broader": "https://ptpge.org/v1/printing/completions/folding",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:12:20Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Sheet folded twice along parallel axes to create three equal panels — the most common brochure fold worldwide. Produces a six-page document and fits standard DL envelopes when based on A4.",
+    "nb": "Ark foldet to ganger langs parallelle akser for å skape tre like paneler — den vanligste brosjyre-folden globalt. Produserer et seks-sidig dokument og passer i standard DL-konvolutter når basert på A4.",
+    "de": "Bogen, der zweimal entlang paralleler Achsen gefalzt wird, um drei gleiche Felder zu bilden — der weltweit häufigste Broschürenfalz. Erzeugt ein sechsseitiges Dokument und passt bei A4-Basis in Standard-DL-Umschläge.",
+    "ja": "平行な軸でシートを2回折って3つの等しい面を作る — 世界で最も一般的なブローシュア折り。6ページの文書を作り、A4を基準とした場合は標準的なDL封筒に収まる。",
+    "es": "Tres paneles obtenidos con dos pliegues paralelos — los paneles exteriores se doblan sobre el central. Formato clásico de folleto.",
+    "zh-Hans": "通过两个平行折页得到三个面板 —— 外面板折叠在中央面板上。经典宣传册格式。",
+    "sv": "Ark falsat två gånger längs parallella axlar till tre lika paneler — världens vanligaste broschyrfals. Ger ett sexsidigt dokument och passar DL-standardkuvert när det utgår från A4.",
+    "da": "Ark falset to gange langs parallelle akser til tre lige store paneler — verdens mest almindelige brochurefals. Giver et sekssidet dokument og passer i standard DL-kuverter, når den er baseret på A4.",
+    "nl": "Vel tweemaal gevouwen langs parallelle assen tot drie gelijke panelen — wereldwijd de meest gebruikte brochurevouw. Geeft een zespaginadocument en past in standaard DL-enveloppen bij een A4-basis.",
+    "pl": "Arkusz złożony dwukrotnie wzdłuż równoległych osi na trzy równe skrzydła — najpopularniejszy złam folderów na świecie. Daje dokument sześciostronicowy i przy podstawie A4 mieści się w standardowych kopertach DL.",
+    "pt": "Folha dobrada duas vezes em eixos paralelos, formando três painéis iguais — a dobra de folheto mais comum do mundo. Produz um documento de seis páginas e, com base em A4, cabe em envelopes DL padrão.",
+    "hi": "समानांतर अक्षों पर दो बार मुड़ी शीट से तीन बराबर पैनल — दुनिया में सबसे आम ब्रोशर फ़ोल्ड। छह-पृष्ठ दस्तावेज़ बनाता है और A4 पर आधारित होने पर मानक DL लिफ़ाफ़े में समाता है।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    }
+  ]
+}

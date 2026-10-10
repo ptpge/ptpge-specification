@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/use-cases/event-promotion> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/use-cases> ;
+    skos:closeMatch schema:PromoteAction ;
+    skos:definition "Produkter brugt til at promovere, annoncere eller dokumentere arrangementer som koncerter, festivaler, konferencer, udstillinger og lanceringer. Omfatter plakater, flyers, programmer og eventbrochurer."@da,
+        "Produkte zur Bewerbung, Ankündigung oder Dokumentation von Veranstaltungen wie Konzerten, Festivals, Konferenzen und Ausstellungen."@de,
+        "Products used to promote, announce, or document events such as concerts, festivals, conferences, exhibitions, and launches. Includes posters, flyers, programmes, and event brochures."@en,
+        "Productos usados para promocionar, anunciar o documentar eventos como conciertos, festivales, conferencias, exposiciones y lanzamientos. Incluye pósteres, flyers, programas y folletos de evento."@es,
+        "संगीत कार्यक्रम, उत्सव, सम्मेलन, प्रदर्शनी और लॉन्च जैसे आयोजनों के प्रचार, घोषणा या दस्तावेज़ीकरण के लिए उत्पाद। पोस्टर, फ़्लायर, कार्यक्रम पुस्तिका और इवेंट ब्रोशर शामिल।"@hi,
+        "コンサート、フェスティバル、会議、展示会、ローンチなどのイベントを告知・宣伝・記録するための製品。ポスター、チラシ、プログラム、イベントパンフレットを含む。"@ja,
+        "Produkter brukt for å promotere, annonsere eller dokumentere arrangementer som konserter, festivaler, konferanser, utstillinger og lanseringer. Inkluderer plakater, flyere, programmer og arrangementsbrosjyrer."@nb,
+        "Producten om evenementen te promoten, aan te kondigen of te documenteren — concerten, festivals, congressen, tentoonstellingen en lanceringen. Omvat posters, flyers, programma's en evenementbrochures."@nl,
+        "Produkty służące promowaniu, zapowiadaniu lub dokumentowaniu wydarzeń, takich jak koncerty, festiwale, konferencje, wystawy i premiery. Obejmuje plakaty, ulotki, programy i broszury eventowe."@pl,
+        "Produtos usados para divulgar, anunciar ou documentar eventos como shows, festivais, congressos, exposições e lançamentos. Inclui pôsteres, flyers, programas e folhetos de evento."@pt,
+        "Produkter som marknadsför, tillkännager eller dokumenterar evenemang som konserter, festivaler, konferenser, utställningar och lanseringar. Omfattar affischer, flygblad, program och evenemangsbroschyrer."@sv,
+        "用于宣传、发布或记录活动（音乐会、节庆、会议、展览、发布会）的产品。包括海报、传单、节目单与活动手册。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:UC§EVENT-PROMOTION" ;
+    skos:prefLabel "Eventpromovering"@da,
+        "Eventpromotion"@de,
+        "Event Promotion"@en,
+        "Promoción de eventos"@es,
+        "आयोजन प्रचार"@hi,
+        "イベントプロモーション"@ja,
+        "Arrangementspromotering"@nb,
+        "Evenementpromotie"@nl,
+        "Promocja wydarzeń"@pl,
+        "Divulgação de eventos"@pt,
+        "Evenemangspromotion"@sv,
+        "活动推广"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "use-cases" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

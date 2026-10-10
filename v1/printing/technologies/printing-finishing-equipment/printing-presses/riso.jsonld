@@ -1,0 +1,54 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/riso",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "RISO",
+    "es": "RISO",
+    "zh-Hans": "RISO",
+    "nb": "RISO",
+    "de": "RISO",
+    "ja": "RISO",
+    "sv": "RISO",
+    "da": "RISO",
+    "nl": "RISO",
+    "pl": "RISO",
+    "pt": "RISO",
+    "hi": "RISO"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses",
+  "created": "2026-09-12T07:45:31Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "RISO — RISO Kagaku Corporation, Japanese manufacturer of Risograph digital duplicators (stencil printing with rice-bran-oil-based inks, one or two colour drums per pass, 20+ standard ink colours) and ComColor inkjet printers.",
+    "nb": "RISO — RISO Kagaku Corporation, japansk produsent av Risograph-duplikatorer (stensiltrykk med risoljebaserte farger, én eller to fargetromler per gjennomkjøring, 20+ standardfarger) og ComColor-blekkskrivere.",
+    "de": "RISO — RISO Kagaku Corporation, japanischer Hersteller von Risograph-Digitaldruckern (Schablonendruck mit Farben auf Reiskleieölbasis, eine oder zwei Farbtrommeln pro Durchlauf, über 20 Standardfarben) und ComColor-Tintenstrahldruckern.",
+    "es": "RISO — RISO Kagaku Corporation, fabricante japonés de duplicadoras digitales Risograph (impresión por esténcil con tintas a base de aceite de salvado de arroz, uno o dos tambores de color por pasada, más de 20 colores estándar) e impresoras de inyección ComColor.",
+    "zh-Hans": "RISO —— 理想科学工业株式会社，日本制造商，生产 Risograph 数码孔版印刷机（米糠油基油墨的孔版印刷，每次走纸一或两个色鼓，20 余种标准墨色）及 ComColor 喷墨打印机。",
+    "ja": "RISO — 理想科学工業株式会社。デジタル孔版印刷機「リソグラフ」（米ぬか油ベースのインク、1 パスにつき 1 または 2 色ドラム、20 色以上の標準インク）と ComColor インクジェットプリンターを製造する日本のメーカー。",
+    "sv": "RISO — RISO Kagaku Corporation, japansk tillverkare av Risograph-duplikatorer (stenciltryck med riskliolje-baserade färger, en eller två färgtrummor per genomkörning, 20+ standardfärger) och ComColor-bläckstråleskrivare.",
+    "da": "RISO — RISO Kagaku Corporation, japansk producent af Risograph-duplikatorer (stenciltryk med risklidolie-baserede farver, én eller to farvetromler pr. gennemløb, 20+ standardfarver) og ComColor-inkjetprintere.",
+    "nl": "RISO — RISO Kagaku Corporation, Japanse fabrikant van Risograph-duplicators (stencildruk met inkten op basis van rijstzemelenolie, één of twee kleurtrommels per doorgang, 20+ standaardkleuren) en ComColor-inkjetprinters.",
+    "pl": "RISO — RISO Kagaku Corporation, japoński producent powielaczy cyfrowych Risograph (druk sitowy z farbami na bazie oleju z otrębów ryżowych, jeden lub dwa bębny kolorów na przebieg, ponad 20 kolorów standardowych) oraz drukarek atramentowych ComColor.",
+    "pt": "RISO — RISO Kagaku Corporation, fabricante japonês de duplicadores digitais Risograph (impressão a estêncil com tintas à base de óleo de farelo de arroz, um ou dois cilindros de cor por passagem, mais de 20 cores padrão) e impressoras de jato de tinta ComColor.",
+    "hi": "RISO — RISO Kagaku Corporation, Risograph डिजिटल डुप्लीकेटरों (चावल-भूसी तेल आधारित स्याही से स्टेंसिल छपाई, प्रति पास एक या दो रंग ड्रम, 20+ मानक स्याही रंग) और ComColor इंकजेट प्रिंटरों का जापानी निर्माता।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-PRES-RISO",
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/riso",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

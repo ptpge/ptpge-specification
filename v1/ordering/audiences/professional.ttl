@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/audiences/professional> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/audiences> ;
+    skos:definition "Produkter rettet mod enkeltpersoner, der bruger tryksager i deres arbejde — konsulenter, freelancere, agenter, ejendomsmæglere, sundhedspersonale og jurister."@da,
+        "Produkte für einzelne Fachleute, die Druckmaterialien in ihrer Arbeit verwenden — Berater, Freiberufler, Makler, Immobilienprofis, Gesundheitsfachkräfte, Juristen."@de,
+        "Products targeted at individual professionals using printed materials in their work — consultants, freelancers, agents, real-estate professionals, healthcare workers, legal professionals."@en,
+        "Productos dirigidos a profesionales individuales que usan impresos en su trabajo — consultores, freelancers, agentes, profesionales inmobiliarios, sanitarios y jurídicos."@es,
+        "अपने काम में मुद्रित सामग्री का उपयोग करने वाले व्यक्तिगत पेशेवरों के लिए उत्पाद — सलाहकार, फ़्रीलांसर, एजेंट, रियल-एस्टेट पेशेवर, स्वास्थ्यकर्मी, विधि पेशेवर।"@hi,
+        "仕事で印刷物を使う個人の専門職 — コンサルタント、フリーランス、代理人、不動産・医療・法務の専門家 — に向けた製品。"@ja,
+        "Produkter rettet mot enkelte profesjonelle som bruker trykkmateriell i sitt arbeid — konsulenter, frilansere, agenter, eiendomsmeglere, helsepersonell, juridiske profesjonelle."@nb,
+        "Producten gericht op individuele professionals die drukwerk in hun werk gebruiken — consultants, freelancers, makelaars, zorgverleners en juristen."@nl,
+        "Produkty skierowane do indywidualnych profesjonalistów wykorzystujących druk w pracy — konsultantów, freelancerów, agentów, pośredników nieruchomości, pracowników ochrony zdrowia, prawników."@pl,
+        "Produtos voltados a profissionais individuais que usam impressos no trabalho — consultores, freelancers, agentes, corretores de imóveis, profissionais de saúde, profissionais do direito."@pt,
+        "Produkter riktade till enskilda yrkesverksamma som använder trycksaker i sitt arbete — konsulter, frilansare, mäklare, vårdpersonal och jurister."@sv,
+        "面向在工作中使用印刷品的个人专业人士的产品 — 顾问、自由职业者、经纪人、房地产、医疗与法律专业人士。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:AU§PROFESSIONAL" ;
+    skos:prefLabel "Fagpersoner"@da,
+        "Professionell"@de,
+        "Professional"@en,
+        "Profesional"@es,
+        "पेशेवर"@hi,
+        "プロフェッショナル"@ja,
+        "Profesjonell"@nb,
+        "Professionals"@nl,
+        "Profesjonaliści"@pl,
+        "Profissional"@pt,
+        "Yrkesverksamma"@sv,
+        "专业"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "audiences" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

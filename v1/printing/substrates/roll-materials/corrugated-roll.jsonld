@@ -1,0 +1,81 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/roll-materials/corrugated-roll",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Corrugated Roll",
+    "es": "Ondulado (Bobina)",
+    "zh-Hans": "瓦楞（卷材）",
+    "nb": "Bølgepapp på rull",
+    "de": "Wellpappe Rolle",
+    "ja": "段ボールロール",
+    "sv": "Wellpapp på rulle",
+    "da": "Bølgepap på rulle",
+    "nl": "Golfkarton op rol",
+    "pl": "Tektura falista w roli",
+    "pt": "Ondulado em rolo",
+    "hi": "कोरुगेटेड रोल"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB§CORRUGATED-ROLL",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/substrates/roll-materials",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Multi-layer corrugated board with a fluted middle layer — supplied on rolls for high-speed packaging production. Used for shipping boxes and protective packaging.",
+    "nb": "Flerlags bølgepapp med et bølget mellomlag — levert på rull for høyhastighets emballasjeproduksjon. Brukt til forsendelsesbokser og beskyttende emballasje.",
+    "de": "Mehrlagige Wellpappe mit gewellter Mittelschicht — in Rollen für die Hochgeschwindigkeits-Verpackungsproduktion. Verwendet für Versandkartons und Schutzverpackungen.",
+    "ja": "波状の中層を持つ多層段ボール — 高速パッケージ生産用にロールで供給される。輸送用箱および保護梱包に使用される。",
+    "es": "Cartón ondulado en bobina — sustrato dominante para cajas de envío y packaging industrial.",
+    "zh-Hans": "卷筒瓦楞纸板 —— 运输箱和工业包装的主导承印物。",
+    "sv": "Flerskiktswellpapp med vågformat mittskikt — levererad på rulle för höghastighetsproduktion av förpackningar. Används för fraktlådor och skyddsemballage.",
+    "da": "Flerlags bølgepap med et bølget mellemlag — leveret på ruller til højhastigheds-emballageproduktion. Bruges til forsendelsesæsker og beskyttende emballage.",
+    "nl": "Meerlaags golfkarton met een gegolfde middenlaag — op rollen geleverd voor verpakkingsproductie op hoge snelheid. Gebruikt voor verzenddozen en beschermende verpakkingen.",
+    "pl": "Wielowarstwowa tektura falista z pofalowaną warstwą środkową — dostarczana w rolach do szybkiej produkcji opakowań. Używana do pudeł wysyłkowych i opakowań ochronnych.",
+    "pt": "Papelão ondulado multicamada com miolo canelado — fornecido em rolos para produção de embalagens em alta velocidade. Usado em caixas de transporte e embalagens de proteção.",
+    "hi": "बीच में फ़्लूटेड परत वाला बहु-परत कोरुगेटेड बोर्ड — तेज़ पैकेजिंग उत्पादन के लिए रोल में। शिपिंग बॉक्स और सुरक्षात्मक पैकेजिंग में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Fluted roll"
+    ],
+    "nb": [
+      "Bølgepapp-rull"
+    ],
+    "pl": [
+      "fala w roli"
+    ],
+    "pt": [
+      "rolo de ondulado",
+      "papelão ondulado em bobina"
+    ],
+    "hi": [
+      "फ़्लूटेड रोल",
+      "कोरुगेटेड रील"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 31"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre",
+  "type": "skos:Concept",
+  "version": "2026-09-23",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§RECYCLED",
+  "elementType": "value",
+  "label": {
+    "en": "Recycled",
+    "nb": "Resirkulert",
+    "de": "Recycelt",
+    "es": "Reciclado",
+    "ja": "再生繊維",
+    "zh-Hans": "再生纤维",
+    "sv": "Återvunnet",
+    "da": "Genbrug",
+    "nl": "Gerecycled",
+    "pl": "Makulaturowy",
+    "pt": "Reciclado",
+    "hi": "रीसाइकल्ड"
+  },
+  "definition": {
+    "en": "Paper made wholly or mainly from recovered fibre (post-consumer waste or mill broke); the share is the maker's claim, often certified (Blue Angel, FSC Recycled). Coating and surface are expressed on their own axes.",
+    "nb": "Papir laget helt eller hovedsakelig av gjenvunnet fiber (returpapir fra forbruker eller fabrikkutskudd); andelen er makerens påstand, ofte sertifisert (Blauer Engel, FSC Recycled). Bestrykning og overflate uttrykkes på egne akser.",
+    "de": "Papier ganz oder überwiegend aus Altpapierfasern (Post-Consumer oder Ausschuss); der Anteil ist die Angabe des Herstellers, oft zertifiziert (Blauer Engel, FSC Recycled). Strich und Oberfläche werden auf eigenen Achsen ausgedrückt.",
+    "es": "Papel hecho total o principalmente de fibra recuperada (posconsumo o recortes de fábrica); la proporción es la declaración del fabricante, a menudo certificada (Ángel Azul, FSC Reciclado). Estucado y superficie se expresan en sus propios ejes.",
+    "ja": "回収繊維（使用済み古紙または工場損紙）を全部または主に用いた紙。配合率はメーカーの申告で、多くは認証付き（ブルーエンジェル、FSC リサイクル）。塗工と表面は各自の軸で表現される。",
+    "zh-Hans": "全部或主要由回收纤维（消费后废纸或厂内损纸）制成的纸张；比例为制造商声明，常有认证（蓝天使、FSC 再生）。涂布与表面在各自的轴上表达。",
+    "sv": "Papper helt eller huvudsakligen av returfiber (konsumentreturpapper eller bruksutskott); andelen är tillverkarens uppgift, ofta certifierad (Blå ängeln, FSC Recycled). Bestrykning och yta uttrycks på egna axlar.",
+    "da": "Papir helt eller overvejende af genvundet fiber (returpapir fra forbrugere eller fabriksudskud); andelen er producentens angivelse, ofte certificeret (Blauer Engel, FSC Recycled). Bestrygning og overflade udtrykkes på egne akser.",
+    "nl": "Papier geheel of hoofdzakelijk van teruggewonnen vezel (post-consumer of fabrieksuitval); het aandeel is de claim van de maker, vaak gecertificeerd (Blauer Engel, FSC Recycled). Strijklaag en oppervlak worden op eigen assen uitgedrukt.",
+    "pl": "Papier w całości lub głównie z włókien odzyskanych (makulatura pokonsumencka lub odpady produkcyjne); udział jest deklaracją producenta, często certyfikowaną (Błękitny Anioł, FSC Recycled). Powłoka i powierzchnia wyrażane są na własnych osiach.",
+    "pt": "Papel feito total ou principalmente de fibra recuperada (pós-consumo ou aparas de fábrica); a proporção é a declaração do fabricante, muitas vezes certificada (Anjo Azul, FSC Reciclado). Revestimento e superfície são expressos nos seus próprios eixos.",
+    "hi": "पूरी तरह या मुख्यतः पुनर्प्राप्त रेशे (उपभोक्ता-पश्चात रद्दी या मिल ब्रोक) से बना काग़ज़; हिस्सा निर्माता का दावा है, अक्सर प्रमाणित (ब्लू एंजल, FSC रीसाइकल्ड)। कोटिंग और सतह अपने-अपने अक्षों पर व्यक्त होती हैं।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre",
+  "created": "2026-09-23T16:40:00Z",
+  "modified": "2026-09-23T16:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "Recycled paper",
+      "Eco paper",
+      "Post-consumer recycled"
+    ],
+    "nb": [
+      "Resirkulert papir",
+      "Miljøpapir",
+      "Gjenvunnet papir",
+      "Returpapir"
+    ],
+    "de": [
+      "Recyclingpapier",
+      "Altpapier",
+      "Umweltpapier"
+    ],
+    "sv": [
+      "Returpapper",
+      "Miljöpapper",
+      "Återvunnet papper"
+    ],
+    "da": [
+      "Genbrugspapir",
+      "Miljøpapir"
+    ],
+    "nl": [
+      "Gerecycled papier",
+      "Kringlooppapier",
+      "Milieupapier"
+    ],
+    "pl": [
+      "Papier makulaturowy",
+      "Papier ekologiczny",
+      "Papier z recyklingu"
+    ],
+    "es": [
+      "Papel reciclado",
+      "Papel ecológico"
+    ],
+    "ja": [
+      "再生紙",
+      "古紙パルプ",
+      "エコ紙"
+    ],
+    "zh-Hans": [
+      "再生纸",
+      "环保纸",
+      "回收纸"
+    ],
+    "pt": [
+      "Papel reciclado",
+      "Papel ecológico"
+    ],
+    "hi": [
+      "रीसाइकल्ड काग़ज़",
+      "इको पेपर",
+      "पुनर्चक्रित काग़ज़"
+    ]
+  },
+  "replaces": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/recycled-paper"
+  ],
+  "related": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc"
+  ]
+}

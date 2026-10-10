@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Nordic Swan"@en,
+        "Svanemerket"@en,
+        "Swan label"@en,
+        "Nordic Swan"@hi,
+        "Svanemerket"@hi,
+        "नॉर्डिक स्वान"@hi,
+        "Svanemerket"@nb,
+        "Svanen"@nb,
+        "Nordic Swan"@pl,
+        "Svanemerket"@pl,
+        "znak Łabędzia"@pl,
+        "Cisne Nórdico"@pt,
+        "Nordic Swan"@pt,
+        "Svanemerket"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental> ;
+    skos:definition "Nordisk miljømærke (Svanemærket) drevet i fællesskab af Norge, Sverige, Danmark, Finland og Island siden 1989, certificerer produkter, der opfylder strenge miljøkriterier."@da,
+        "Nordisches Umwelt-Ecolabel (Svanemerket), das seit 1989 gemeinsam von Norwegen, Schweden, Dänemark, Finnland und Island betrieben wird, zertifiziert Produkte, die strenge Umweltkriterien erfüllen."@de,
+        "Nordic environmental ecolabel (Svanemerket) operated jointly by Norway, Sweden, Denmark, Finland, and Iceland since 1989, certifying products that meet strict environmental criteria."@en,
+        "Etiqueta ecológica nórdica (Svanemerket) operada conjuntamente por Noruega, Suecia, Dinamarca, Finlandia e Islandia desde 1989, que certifica productos que cumplen criterios ambientales estrictos."@es,
+        "नॉर्वे, स्वीडन, डेनमार्क, फ़िनलैंड और आइसलैंड द्वारा 1989 से संयुक्त रूप से संचालित नॉर्डिक पर्यावरण इकोलेबल (Svanemerket), जो कड़े पर्यावरणीय मानदंड पूरे करने वाले उत्पादों को प्रमाणित करता है।"@hi,
+        "北欧の環境エコラベル（Svanemerket）。1989年からノルウェー、スウェーデン、デンマーク、フィンランド、アイスランドが共同で運営しており、厳格な環境基準を満たす製品を認証する。"@ja,
+        "Nordisk miljømerke (Svanemerket) drevet i fellesskap av Norge, Sverige, Danmark, Finland og Island siden 1989, som sertifiserer produkter som oppfyller strenge miljøkriterier."@nb,
+        "Noords milieukeurmerk (Svanen), sinds 1989 gezamenlijk beheerd door Noorwegen, Zweden, Denemarken, Finland en IJsland, certificeert producten die aan strenge milieucriteria voldoen."@nl,
+        "Nordycki ekoznak środowiskowy (Svanemerket) prowadzony wspólnie przez Norwegię, Szwecję, Danię, Finlandię i Islandię od 1989 r., certyfikujący produkty spełniające ścisłe kryteria środowiskowe."@pl,
+        "Rótulo ecológico nórdico (Svanemerket) operado conjuntamente por Noruega, Suécia, Dinamarca, Finlândia e Islândia desde 1989, que certifica produtos que cumprem critérios ambientais rigorosos."@pt,
+        "Nordisk miljömärkning (Svanen/Svanemerket) som drivs gemensamt av Norge, Sverige, Danmark, Finland och Island sedan 1989, certifierar produkter som uppfyller strikta miljökriterier."@sv,
+        "北欧环境生态标签（Svanemerket），由挪威、瑞典、丹麦、芬兰和冰岛自1989年共同运营，认证符合严格环境标准的产品。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§NORDIC-SWAN-ECOLABEL" ;
+    skos:prefLabel "Svanemærket"@da,
+        "Nordic Swan Ecolabel"@de,
+        "Nordic Swan Ecolabel"@en,
+        "Nordic Swan (Cisne Nórdico)"@es,
+        "Nordic Swan Ecolabel"@hi,
+        "Nordic Swan Ecolabel"@ja,
+        "Nordic Swan Ecolabel"@nb,
+        "Nordic Swan Ecolabel"@nl,
+        "Nordycki Łabędź"@pl,
+        "Rótulo Ecológico Cisne Nórdico"@pt,
+        "Svanen"@sv,
+        "Nordic Swan（北欧天鹅）"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,47 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/audiences/b2c",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:AU§B2C",
+  "elementType": "context",
+  "label": {
+    "en": "B2C (Business-to-Consumer)",
+    "nb": "B2C (Bedrift-til-forbruker)",
+    "de": "B2C (Endverbraucher)",
+    "ja": "B2C (Business-to-Consumer)",
+    "es": "B2C (Business-to-Consumer)",
+    "zh-Hans": "B2C (Business-to-Consumer)",
+    "sv": "B2C (företag till konsument)",
+    "da": "B2C (business-to-consumer)",
+    "nl": "B2C (business-to-consumer)",
+    "pl": "B2C (business-to-consumer)",
+    "pt": "B2C (empresa para consumidor)",
+    "hi": "B2C (व्यवसाय-से-उपभोक्ता)"
+  },
+  "definition": {
+    "en": "Products targeted at individual consumers purchasing for personal use — invitations, photo books, greeting cards, personalised products.",
+    "nb": "Produkter rettet mot enkeltforbrukere som kjøper for personlig bruk — invitasjoner, fotobøker, gratulasjonskort og personaliserte produkter.",
+    "de": "Produkte für Endverbraucher zum persönlichen Gebrauch — Einladungen, Fotobücher, Grußkarten und personalisierte Produkte.",
+    "ja": "個人利用のために購入する個人消費者向けの製品 — 招待状、フォトブック、グリーティングカード、パーソナライズ製品。",
+    "es": "Productos dirigidos a consumidores individuales que compran para uso personal — invitaciones, álbumes de fotos, tarjetas de felicitación, productos personalizados.",
+    "zh-Hans": "面向为个人用途购买的个人消费者的产品 — 请柬、照片书、贺卡、个性化产品。",
+    "sv": "Produkter riktade till enskilda konsumenter som köper för personligt bruk — inbjudningar, fotoböcker, gratulationskort, personaliserade produkter.",
+    "da": "Produkter rettet mod individuelle forbrugere, der køber til personlig brug — invitationer, fotobøger, lykønskningskort, personaliserede produkter.",
+    "nl": "Producten gericht op individuele consumenten die voor persoonlijk gebruik kopen — uitnodigingen, fotoboeken, wenskaarten, gepersonaliseerde producten.",
+    "pl": "Produkty skierowane do konsumentów indywidualnych kupujących na użytek osobisty — zaproszenia, fotoksiążki, kartki okolicznościowe, produkty personalizowane.",
+    "pt": "Produtos voltados a consumidores individuais que compram para uso pessoal — convites, fotolivros, cartões, produtos personalizados.",
+    "hi": "निजी उपयोग के लिए खरीदने वाले व्यक्तिगत उपभोक्ताओं के लिए उत्पाद — निमंत्रण, फ़ोटो बुक, ग्रीटिंग कार्ड, व्यक्तिगत उत्पाद।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "audiences",
+  "broader": "https://ptpge.org/v1/ordering/audiences",
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-22T16:31:34Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "closeMatch": [
+    "https://schema.org/PeopleAudience"
+  ]
+}

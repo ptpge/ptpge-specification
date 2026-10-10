@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/substrates/board-materials/metal/galvanized-steel> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:24:41+00:00"^^xsd:dateTime ;
+    skos:altLabel "Galvanised steel"@en,
+        "Zinc-coated steel"@en,
+        "GI शीट"@hi,
+        "जस्तेदार स्टील"@hi,
+        "ज़िंक-कोटेड स्टील"@hi,
+        "Galvanisert stål"@nb,
+        "blacha ocynkowana"@pl,
+        "stal cynkowana"@pl,
+        "aço zincado"@pt,
+        "chapa galvanizada"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/substrates/board-materials/metal> ;
+    skos:definition "Zinkbelagte stålplader med korrosionsbeskyttelse — bruges til industriel skiltning, udendørs konstruktioner og anvendelser, der kræver holdbarhed uden prisen for rustfrit stål."@da,
+        "Mit Zink beschichtete Stahlplatten zum Korrosionsschutz — eingesetzt für Industriebeschilderung, Außenkonstruktionen und Anwendungen, die Langlebigkeit ohne die Kosten von Edelstahl erfordern."@de,
+        "Zinc-coated steel sheets offering corrosion protection — used for industrial signage, outdoor structures, and applications requiring durability without the cost of stainless steel."@en,
+        "Acero recubierto con zinc para protección contra la corrosión, utilizado en señalética industrial duradera."@es,
+        "जंग से बचाव के लिए ज़िंक-कोटेड स्टील शीट — औद्योगिक साइनेज, बाहरी संरचनाओं और स्टेनलेस स्टील की लागत के बिना टिकाऊपन चाहने वाले अनुप्रयोगों में।"@hi,
+        "防錆のための亜鉛コーティングを施した鋼板 — 工業用サイン、屋外構造物、ステンレス鋼のコストをかけずに耐久性が必要な用途に使用される。"@ja,
+        "Sinkbelagte stålplater med korrosjonsbeskyttelse — brukt til industriell skilting, utendørs konstruksjoner og anvendelser som krever holdbarhet uten kostnaden av rustfritt stål."@nb,
+        "Met zink beklede staalplaten met corrosiebescherming — gebruikt voor industriële signalisatie, buitenconstructies en toepassingen die duurzaamheid vragen zonder de prijs van roestvrij staal."@nl,
+        "Blachy stalowe powlekane cynkiem zapewniające ochronę przed korozją — używane do oznakowania przemysłowego, konstrukcji zewnętrznych i zastosowań wymagających trwałości bez kosztu stali nierdzewnej."@pl,
+        "Chapas de aço revestidas de zinco com proteção contra corrosão — usadas em sinalização industrial, estruturas externas e aplicações que exigem durabilidade sem o custo do aço inoxidável."@pt,
+        "Zinkbelagda stålplåtar med korrosionsskydd — används för industriskyltning, utomhuskonstruktioner och tillämpningar som kräver hållbarhet utan rostfritt ståls kostnad."@sv,
+        "镀锌钢，锌涂层防腐蚀，用于耐用工业标识。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:SB§GALVANIZED-STEEL" ;
+    skos:prefLabel "Galvaniseret stål"@da,
+        "Verzinkter Stahl"@de,
+        "Galvanized Steel"@en,
+        "Acero Galvanizado"@es,
+        "गैल्वनाइज़्ड स्टील"@hi,
+        "亜鉛メッキ鋼"@ja,
+        "Galvanisert stål"@nb,
+        "Verzinkt staal"@nl,
+        "Stal ocynkowana"@pl,
+        "Aço galvanizado"@pt,
+        "Galvaniserat stål"@sv,
+        "镀锌钢"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "substrates" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

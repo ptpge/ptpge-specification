@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/gbc> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-09T10:30:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment> ;
+    skos:definition "GBC (General Binding Corporation) — amerikansk producent af indbindingsudstyr, herunder spiralindbinding, wireindbinding, termoindbinding og lamineringssystemer."@da,
+        "GBC (General Binding Corporation) — US-amerikanischer Hersteller von Bindegeräten, einschließlich Plastikbindung, Drahtbindung, Thermobindung und Laminiersystemen."@de,
+        "GBC (General Binding Corporation) — American manufacturer of binding equipment, including comb binding, wire binding, thermal binding, and laminating systems."@en,
+        "General Binding Corporation (GBC) — fabricante estadounidense de equipo de encuadernación, plastificado y acabado para oficina y producción."@es,
+        "GBC (General Binding Corporation) — बाइंडिंग उपकरणों का अमेरिकी निर्माता, जिसमें कॉम्ब बाइंडिंग, वायर बाइंडिंग, थर्मल बाइंडिंग और लैमिनेटिंग सिस्टम शामिल।"@hi,
+        "GBC（General Binding Corporation）— 米国の製本機器メーカー。コーム綴じ、ワイヤー綴じ、サーマル綴じ、ラミネートシステムを扱う。"@ja,
+        "GBC (General Binding Corporation) — amerikansk produsent av innbindingsutstyr, inkludert kambinding, trådbinding, termisk binding og lamineringsystemer."@nb,
+        "GBC (General Binding Corporation) — Amerikaanse fabrikant van bindapparatuur, waaronder kambinding, draadbinding, thermobinding en lamineersystemen."@nl,
+        "GBC (General Binding Corporation) — amerykański producent urządzeń do oprawy, w tym bindownic grzebieniowych, drutowych, termicznych i systemów laminowania."@pl,
+        "GBC (General Binding Corporation) — fabricante americano de equipamentos de encadernação, incluindo espiral plástica (comb), wire-o, encadernação térmica e sistemas de laminação."@pt,
+        "GBC (General Binding Corporation) — amerikansk tillverkare av bindningsutrustning, inklusive spiralbindning, wirebindning, termobindning och lamineringssystem."@sv,
+        "General Binding Corporation (GBC) —— 美国办公和生产装订、覆膜及印后设备制造商。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:TC-PFE-FNEQ-GBC" ;
+    skos:prefLabel "GBC (General Binding Corporation)"@da,
+        "GBC (General Binding Corporation)"@de,
+        "GBC (General Binding Corporation)"@en,
+        "GBC"@es,
+        "GBC (General Binding Corporation)"@hi,
+        "GBC (General Binding Corporation)"@ja,
+        "GBC (General Binding Corporation)"@nb,
+        "GBC (General Binding Corporation)"@nl,
+        "GBC (General Binding Corporation)"@pl,
+        "GBC (General Binding Corporation)"@pt,
+        "GBC (General Binding Corporation)"@sv,
+        "GBC"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-06"^^xsd:date ;
+    ptpge:deprecationReason "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving."@en,
+        "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."@nb ;
+    ptpge:group "technologies" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-06" .
+

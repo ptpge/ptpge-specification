@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-spaces/srgb> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "sRGB colour space"@en,
+        "sRGB रंग स्पेस"@hi,
+        "przestrzeń barw sRGB"@pl,
+        "espaço de cor sRGB"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-spaces> ;
+    skos:definition "Standard-RGB — IEC 61966-2-1-specifikationen vedtaget i 1996 som standardfarverum for web, skærme, kameraer og forbrugerprintere verden over."@da,
+        "Standard-RGB — die 1996 verabschiedete Spezifikation IEC 61966-2-1, weltweit Standard-Farbraum für Web, Monitore, Kameras und Consumer-Drucker."@de,
+        "Standard RGB — the IEC 61966-2-1 specification adopted in 1996 as the default color space for the web, monitors, cameras, and consumer printers worldwide."@en,
+        "Espacio de color RGB estandarizado para web, vídeo y dispositivos de consumo. Tiene un gamut relativamente estrecho — adecuado para pantalla, limitado para impresión a color amplio."@es,
+        "Standard RGB — 1996 में अपनाया गया IEC 61966-2-1 विनिर्देश, दुनिया भर में वेब, मॉनिटर, कैमरों और उपभोक्ता प्रिंटरों का डिफ़ॉल्ट रंग स्पेस।"@hi,
+        "Standard RGB — 1996年に採用されたIEC 61966-2-1仕様。世界中のウェブ、モニター、カメラ、コンシューマー向け印刷機の既定の色空間。"@ja,
+        "Standard RGB — IEC 61966-2-1-spesifikasjonen vedtatt i 1996 som standard fargerom for web, skjermer, kameraer og forbrukerskrivere verden over."@nb,
+        "Standaard-RGB — de IEC 61966-2-1-specificatie, in 1996 aangenomen als standaardkleurruimte voor het web, monitoren, camera's en consumentenprinters wereldwijd."@nl,
+        "Standard RGB — specyfikacja IEC 61966-2-1 przyjęta w 1996 r. jako domyślna przestrzeń barw dla sieci, monitorów, aparatów i drukarek konsumenckich na całym świecie."@pl,
+        "Standard RGB — a especificação IEC 61966-2-1 adotada em 1996 como espaço de cor padrão para web, monitores, câmeras e impressoras de consumo em todo o mundo."@pt,
+        "Standard-RGB — IEC 61966-2-1-specifikationen antagen 1996 som standardfärgrymd för webben, bildskärmar, kameror och konsumentskrivare världen över."@sv,
+        "针对网络、视频和消费设备标准化的RGB色彩空间。色域相对较窄——适合屏幕，对宽色域印刷有限。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§SRGB" ;
+    skos:prefLabel "sRGB"@da,
+        "sRGB"@de,
+        "sRGB"@en,
+        "sRGB"@es,
+        "sRGB"@hi,
+        "sRGB"@ja,
+        "sRGB"@nb,
+        "sRGB"@nl,
+        "sRGB"@pl,
+        "sRGB"@pt,
+        "sRGB"@sv,
+        "sRGB"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

@@ -1,0 +1,185 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/roll-fold",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§ROLL-FOLD",
+  "elementType": "value",
+  "label": {
+    "en": "Roll-Fold Setup",
+    "nb": "Rull-brett oppsett",
+    "de": "Wickelfalz Endlos-Setup",
+    "ja": "巻き折り構成",
+    "es": "Configuración de plegado enrollado",
+    "zh-Hans": "卷折结构",
+    "nl": "Rolwikkelvouw-opzet",
+    "sv": "Rullfals",
+    "da": "Rullefals",
+    "pl": "Konfiguracja złam zwijany",
+    "pt": "Montagem dobra envolvente",
+    "hi": "रोल-फ़ोल्ड सेटअप"
+  },
+  "definition": {
+    "en": "A folded sheet setup with multiple parallel folds where each panel rolls into the next (each subsequent panel folds over the previous), typically producing 8 panels (4 per surface). Distinct from accordion-fold in that all folds run in the same direction rather than alternating. Used for compact multi-panel brochures, layered information pieces, and step-by-step product descriptions where the inside reveal happens in sequence.",
+    "nb": "Et brettet ark-oppsett med flere parallelle brett der hvert panel rulles inn i det neste (hvert påfølgende panel brettes over det forrige), som typisk produserer 8 paneler (4 per surface). Skiller seg fra accordion-fold ved at alle brett går i samme retning i stedet for å veksle.",
+    "de": "Ein Falzbogen-Setup mit mehreren parallelen Falzungen, bei denen sich jedes Paneel in das nächste einrollt.",
+    "ja": "各パネルが次のパネルへ巻き込まれる（後続のパネルが前のパネルに折り重なる）複数平行折りのセットアップ。通常8パネル（各面4パネル）。折りがすべて同一方向に走る点で、交互に折る蛇腹折りと区別される。コンパクトな多パネルパンフレット、層状の情報資料、順を追って内側が現れる段階的な製品説明に使われる。",
+    "es": "Una configuración de hoja plegada con múltiples pliegues paralelos donde cada panel se enrolla en el siguiente (cada panel sucesivo se pliega sobre el anterior), produciendo típicamente 8 paneles (4 por superficie). Se distingue del plegado en acordeón en que todos los pliegues van en la misma dirección en lugar de alternarse. Se usa para folletos compactos de varios paneles, piezas de información por capas y descripciones de producto paso a paso donde la revelación interior ocurre en secuencia.",
+    "zh-Hans": "多道平行折、每个面板卷入下一个（后续面板折叠在前一个之上）的折页构成，通常形成8个面板（每面4个）。与风琴折不同，所有折向相同而非交替。用于紧凑多板手册、分层信息印品及按顺序展开的分步产品说明。",
+    "sv": "En falsat ark-uppbyggnad med flera parallella falsar där varje panel rullas in i nästa (varje efterföljande panel viks över den föregående), typiskt med 8 paneler (4 per yta). Skiljer sig från dragspelsfals genom att alla falsar går åt samma håll i stället för att växla. Används för kompakta flerpanelsbroschyrer, skiktade informationsprodukter och steg-för-steg-produktbeskrivningar där insidan avslöjas i sekvens.",
+    "da": "En falset ark-opbygning med flere parallelle false i samme retning, hvor panelerne rulles ind i hinanden (hvert indre panel en anelse smallere). Variabelt panelantal; 2 flader: yderside og inderside.",
+    "nl": "Een gevouwen-vel-opbouw met meerdere parallelle vouwen in dezelfde richting, waarbij de panelen in elkaar rollen (elk binnenpaneel net iets smaller). Variabel paneelaantal; 2 vlakken: buiten- en binnenzijde.",
+    "pl": "Konfiguracja arkusza złożonego z wieloma równoległymi złamami, w której każde skrzydło zwija się na następne (każde kolejne skrzydło składa się na poprzednie), dając zwykle 8 skrzydeł (4 na powierzchnię). W odróżnieniu od złamu harmonijkowego wszystkie złamy biegną w tym samym kierunku, a nie naprzemiennie. Używana do kompaktowych folderów wieloskrzydłowych, warstwowych materiałów informacyjnych i opisów produktów krok po kroku, gdzie wnętrze odsłania się sekwencyjnie.",
+    "pt": "Montagem em folha dobrada com várias dobras paralelas em que cada painel se enrola no seguinte (cada painel subsequente dobra sobre o anterior), normalmente produzindo 8 painéis (4 por face). Distinta da sanfona porque todas as dobras vão na mesma direção, sem alternar. Usada em folhetos compactos de vários painéis, peças de informação em camadas e descrições de produto passo a passo, onde a revelação interna acontece em sequência.",
+    "hi": "कई समानांतर फ़ोल्ड वाला फ़ोल्डेड शीट सेटअप जिसमें हर पैनल अगले में लिपटता है (हर अगला पैनल पिछले पर मुड़ता है), आमतौर पर 8 पैनल (प्रति सतह 4)। अकॉर्डियन-फ़ोल्ड से अलग, क्योंकि सभी फ़ोल्ड बारी-बारी नहीं, एक ही दिशा में जाते हैं। कॉम्पैक्ट बहु-पैनल ब्रोशर, परतदार सूचना सामग्री और चरण-दर-चरण उत्पाद विवरणों में, जहाँ भीतरी हिस्सा क्रम से खुलता है।"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet",
+  "related": [
+    "https://ptpge.org/v1/printing/completions/folding/roll-fold"
+  ],
+  "surfaces": [
+    {
+      "id": "outside",
+      "label": {
+        "en": "Outside",
+        "nb": "Utside",
+        "de": "Außen"
+      },
+      "panels": [
+        {
+          "id": "outside-1",
+          "label": {
+            "en": "Outside Panel 1",
+            "nb": "Utside panel 1",
+            "de": "Außen Paneel 1"
+          }
+        },
+        {
+          "id": "outside-2",
+          "label": {
+            "en": "Outside Panel 2",
+            "nb": "Utside panel 2",
+            "de": "Außen Paneel 2"
+          }
+        },
+        {
+          "id": "outside-3",
+          "label": {
+            "en": "Outside Panel 3",
+            "nb": "Utside panel 3",
+            "de": "Außen Paneel 3"
+          }
+        },
+        {
+          "id": "outside-4",
+          "label": {
+            "en": "Outside Panel 4",
+            "nb": "Utside panel 4",
+            "de": "Außen Paneel 4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside",
+        "nb": "Innside",
+        "de": "Innen"
+      },
+      "panels": [
+        {
+          "id": "inside-1",
+          "label": {
+            "en": "Inside Panel 1",
+            "nb": "Innside panel 1",
+            "de": "Innen Paneel 1"
+          }
+        },
+        {
+          "id": "inside-2",
+          "label": {
+            "en": "Inside Panel 2",
+            "nb": "Innside panel 2",
+            "de": "Innen Paneel 2"
+          }
+        },
+        {
+          "id": "inside-3",
+          "label": {
+            "en": "Inside Panel 3",
+            "nb": "Innside panel 3",
+            "de": "Innen Paneel 3"
+          }
+        },
+        {
+          "id": "inside-4",
+          "label": {
+            "en": "Inside Panel 4",
+            "nb": "Innside panel 4",
+            "de": "Innen Paneel 4"
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2026-05-20T10:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "Folding",
+        "FoldingParams",
+        "Fold"
+      ],
+      "refs": [
+        "§4.7 · p.75",
+        "§5.6.15 · p.120",
+        "§6.36 · p.202",
+        "§8.21 · p.349"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 38"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FoldingIntent",
+        "FoldCatalog F8-5 (Barrel fold)"
+      ],
+      "refs": [
+        "Table 4.28 · p.76–77",
+        "Appendix A · Fold catalog"
+      ],
+      "match": "exact",
+      "via": "FoldCatalog"
+    }
+  ],
+  "altLabels": {
+    "en": [
+      "F8-5",
+      "FoldCatalog F8-5"
+    ],
+    "pl": [
+      "F8-5",
+      "FoldCatalog F8-5"
+    ],
+    "pt": [
+      "F8-5",
+      "FoldCatalog F8-5"
+    ],
+    "hi": [
+      "F8-5",
+      "FoldCatalog F8-5"
+    ]
+  }
+}

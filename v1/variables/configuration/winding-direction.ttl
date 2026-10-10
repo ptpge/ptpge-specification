@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/configuration/winding-direction> a skos:Concept ;
+    dcterms:created "2026-09-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "pozycja nawoju FINAT"@pl ;
+    skos:broader <https://ptpge.org/v1/variables/configuration> ;
+    skos:definition "Hvilken af de otte FINAT-rullepositioner de færdige etiketter har på rullen — trykside ud eller ind, og hvilken kant der går først (top, bund, højre, venstre). Bindbar, fordi en applikator accepterer præcis én retning. Overtaget fra XJDF Component/@WindingResult, der henviser til FINAT-nummereringen. Kun rulleprodukter; ubundet betyder uspecificeret."@da,
+        "Welche der acht FINAT-Wickelpositionen die fertigen Etiketten auf der Rolle einnehmen — Druckseite außen oder innen, und welche Kante vorausläuft (oben, unten, rechts, links). Bindbar, weil ein Etikettenspender genau eine Richtung akzeptiert. Übernommen aus XJDF Component/@WindingResult, das auf die FINAT-Nummerierung verweist. Nur für Rollenprodukte; ungebunden bedeutet nicht spezifiziert."@de,
+        "Which of the eight FINAT winding positions the finished labels or stickers take on the roll — printed face out or in, and which edge leads (top, bottom, right, left). Bindable because a label applicator accepts exactly one direction. Adopted from XJDF Component/@WindingResult, which references the FINAT numbering. Applies to roll-supplied products only; unbound means unspecified."@en,
+        "Cuál de las ocho posiciones de bobinado FINAT adoptan las etiquetas o adhesivos acabados en la bobina — cara impresa hacia fuera o hacia dentro, y qué borde va primero (superior, inferior, derecho, izquierdo). Vinculable porque una aplicadora acepta exactamente una dirección. Adoptado de XJDF Component/@WindingResult, que remite a la numeración FINAT. Solo para productos en bobina; sin vincular significa sin especificar."@es,
+        "तैयार लेबल या स्टिकर रोल पर आठ FINAT वाइंडिंग स्थितियों में से कौन-सी लेते हैं — छपा हुआ चेहरा बाहर या अंदर, और कौन-सा किनारा आगे (ऊपर, नीचे, दाएँ, बाएँ)। बाँधने योग्य क्योंकि लेबल एप्लिकेटर ठीक एक ही दिशा स्वीकार करता है। XJDF Component/@WindingResult से लिया गया, जो FINAT क्रमांकन को संदर्भित करता है। केवल रोल में दिए जाने वाले उत्पादों पर लागू; अनबाउंड का अर्थ अनिर्दिष्ट।"@hi,
+        "仕上がったラベル／ステッカーがロール上で取る 8 つの FINAT 巻き位置のいずれか——外巻きか内巻きか、どの辺が先行するか（上・下・右・左）。ラベラーは一方向しか受け付けないため束縛可能。FINAT 番号を参照する XJDF Component/@WindingResult から採用。ロール供給製品のみに適用。未束縛は未指定を意味する。"@ja,
+        "Hvilken av de åtte FINAT-viklingsposisjonene de ferdige etikettene eller stickerne har på rullen — trykkside ut eller inn, og hvilken kant som går først (topp, bunn, høyre, venstre). Bindbar fordi en etikettapplikator tar imot nøyaktig én retning. Adoptert fra XJDF Component/@WindingResult, som refererer FINAT-nummereringen. Gjelder bare produkter levert på rull; ubundet betyr uspesifisert."@nb,
+        "Welke van de acht FINAT-wikkelposities de afgewerkte etiketten op de rol innemen — beeld buiten of binnen, en welke rand voorop gaat (boven, onder, rechts, links). Bindbaar omdat een applicator precies één richting accepteert. Overgenomen uit XJDF Component/@WindingResult, dat naar de FINAT-nummering verwijst. Alleen voor rolproducten; ongebonden betekent niet gespecificeerd."@nl,
+        "Która z ośmiu pozycji nawoju FINAT przyjmują gotowe etykiety lub naklejki na roli — stroną zadrukowaną na zewnątrz lub do wewnątrz i którą krawędzią do przodu (górą, dołem, prawą, lewą). Wiązalna, ponieważ aplikator etykiet przyjmuje dokładnie jeden kierunek. Przyjęta z XJDF Component/@WindingResult, która odwołuje się do numeracji FINAT. Dotyczy tylko produktów dostarczanych w roli; brak wartości oznacza nieokreślone."@pl,
+        "Qual das oito posições de enrolamento FINAT as etiquetas ou adesivos acabados assumem no rolo — face impressa para fora ou para dentro, e qual borda lidera (superior, inferior, direita, esquerda). Vinculável porque um aplicador de etiquetas aceita exatamente um sentido. Adotado de XJDF Component/@WindingResult, que referencia a numeração FINAT. Aplica-se apenas a produtos fornecidos em rolo; não vinculado significa não especificado."@pt,
+        "Vilket av de åtta FINAT-rullägena de färdiga etiketterna har på rullen — tryck utåt eller inåt, och vilken kant som går först (topp, botten, höger, vänster). Bindbar eftersom en applikator tar exakt en riktning. Hämtad från XJDF Component/@WindingResult, som hänvisar till FINAT-numreringen. Endast rullprodukter; obunden betyder ospecificerad."@sv,
+        "成品标签或贴纸在卷上采用八个 FINAT 卷绕位置中的哪一个——印刷面朝外或朝内，以及哪一边先出（上、下、右、左）。可绑定，因为贴标机只接受一种方向。采用自引用 FINAT 编号的 XJDF Component/@WindingResult。仅适用于卷装产品；未绑定即未指定。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:CF§WINDING-DIRECTION" ;
+    skos:prefLabel "Rulleretning"@da,
+        "Wickelrichtung"@de,
+        "Winding Direction"@en,
+        "Sentido de bobinado"@es,
+        "वाइंडिंग दिशा"@hi,
+        "巻き方向"@ja,
+        "Viklingsretning"@nb,
+        "Wikkelrichting"@nl,
+        "Kierunek nawoju"@pl,
+        "Sentido de enrolamento"@pt,
+        "Rullriktning"@sv,
+        "卷绕方向"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilken vej er den rullet?"@da,
+        "In welche Richtung ist es gewickelt?"@de,
+        "Which way is it wound?"@en,
+        "¿En qué sentido está enrollado?"@es,
+        "किस दिशा में लपेटा गया है?"@hi,
+        "巻き方向は？"@ja,
+        "Hvilken vei er den rullet?"@nb,
+        "Welke kant op is het gewikkeld?"@nl,
+        "W którą stronę jest nawinięty?"@pl,
+        "Em que sentido está enrolado?"@pt,
+        "Åt vilket håll är den rullad?"@sv,
+        "卷绕方向是？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.38 · p.113",
+                "§6.18 · p.176" ;
+            ptpge:mappingRow "Component@WindingResult" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Component",
+                "Component@WindingResult",
+                "Winding" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/configurations/winding-direction> ;
+    ptpge:version "2026-09-05" .
+

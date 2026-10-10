@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/setup-models/multi-part",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§MULTI-PART",
+  "elementType": "value",
+  "label": {
+    "en": "Multi-part Setup",
+    "nb": "Flerdelt oppsett",
+    "de": "Mehrteiliges Setup",
+    "ja": "複写構成",
+    "es": "Configuración multicopia",
+    "zh-Hans": "多联结构",
+    "nl": "Meerdelige opzet",
+    "sv": "Flerdelad (självkopierande)",
+    "da": "Flerdelt (selvkopierende)",
+    "pl": "Konfiguracja wieloczęściowa",
+    "pt": "Montagem multivias",
+    "hi": "मल्टी-पार्ट सेटअप"
+  },
+  "altLabels": {
+    "en": [
+      "Carbonless setup",
+      "NCR setup",
+      "Duplicate/triplicate setup"
+    ],
+    "nb": [
+      "Gjenpart-oppsett",
+      "Karbonfritt oppsett",
+      "Blåkopi-oppsett"
+    ],
+    "pl": [
+      "konfiguracja samokopiująca",
+      "konfiguracja NCR",
+      "konfiguracja dwu-/trzyegzemplarzowa"
+    ],
+    "pt": [
+      "montagem autocopiativa",
+      "montagem NCR",
+      "montagem em duas/três vias"
+    ],
+    "hi": [
+      "कार्बनलेस सेटअप",
+      "NCR सेटअप",
+      "डुप्लीकेट/ट्रिप्लीकेट सेटअप"
+    ]
+  },
+  "definition": {
+    "en": "A set of stacked sheets that transfer an impression from the top part to the parts beneath — carbonless (NCR) pads and forms in duplicate, triplicate, etc. Each Part is an addressable surface (Part 1, Part 2 …), usually printed on the front, collated in colour-coded sequence and padded or booked. The number of parts is variable and resolved by the Configurator. Maps to digital/offset business-forms production with collation and padding.",
+    "nb": "Et sett av stablede ark som overfører et avtrykk fra den øverste delen til delene under — karbonfrie (NCR) blokker og skjemaer i to, tre eller flere eksemplarer. Hver Part er en adresserbar surface (Part 1, Part 2 …), vanligvis trykt på forsiden, samlet i fargekodet rekkefølge og limt eller heftet. Antall deler er variabelt og løses av Configurator.",
+    "de": "Ein Satz gestapelter Bogen, die einen Abdruck vom obersten Teil auf die darunterliegenden Teile übertragen — selbstdurchschreibende (SD/NCR) Blöcke und Formulare in zweifacher, dreifacher Ausfertigung usw. Jeder Part ist eine adressierbare Surface (Part 1, Part 2 …).",
+    "ja": "A set of stacked sheets that transfer an impression from the top part to the parts beneath — carbonless (NCR) pads and forms in duplicate, triplicate, etc. Each Part is an addressable surface, usually printed on the front.",
+    "es": "A set of stacked sheets that transfer an impression from the top part to the parts beneath — carbonless (NCR) pads and forms in duplicate, triplicate, etc. Each Part is an addressable surface, usually printed on the front.",
+    "zh-Hans": "A set of stacked sheets that transfer an impression from the top part to the parts beneath — carbonless (NCR) pads and forms in duplicate, triplicate, etc. Each Part is an addressable surface, usually printed on the front.",
+    "sv": "En uppsättning staplade ark som överför ett avtryck från den översta delen till delarna under — självkopierande (NCR) block och blanketter i två, tre eller fler exemplar. Varje del är en adresserbar yta (Del 1, Del 2 …), vanligen tryckt på framsidan, kollationerad i färgkodad ordning och blockad eller bokad. Antalet delar är variabelt och avgörs av Konfiguratorn. Motsvarar digital-/offsetproduktion av affärsblanketter med kollationering och blockning.",
+    "da": "Et sæt stablede ark, der overfører et aftryk fra den øverste del til delene nedenunder — selvkopierende (NCR) blokke og formularer i to, tre eller flere eksemplarer. Hver del er en adresserbar flade (Del 1, Del 2 …), som regel trykt på forsiden, kollationeret og limet.",
+    "nl": "Een set gestapelde vellen die een afdruk van het bovenste deel doorschrijven naar de delen eronder — zelfkopiërende (NCR) blokken en formulieren in twee-, drie- of meervoud. Elk deel is een adresseerbaar vlak (Deel 1, Deel 2 …), doorgaans aan de voorzijde bedrukt, vergaard en gelijmd.",
+    "pl": "Zestaw ułożonych arkuszy przenoszących zapis z górnej części na części poniżej — bloczki i formularze samokopiujące (NCR) w dwóch, trzech itd. egzemplarzach. Każda Część jest adresowalną powierzchnią (Część 1, Część 2 …), zwykle zadrukowaną z przodu, zbieraną w sekwencji oznaczonej kolorami i klejoną w bloczki lub zeszyty. Liczba części jest zmienna i ustalana przez Konfigurator. Odpowiada cyfrowej/offsetowej produkcji druków akcydensowych z zbieraniem i klejeniem bloczków.",
+    "pt": "Conjunto de folhas empilhadas que transferem a impressão da via de cima para as vias abaixo — blocos e formulários autocopiativos (NCR) em duas, três vias etc. Cada Via é uma face endereçável (Via 1, Via 2 …), normalmente impressa na frente, intercalada em sequência com código de cores e colada em bloco ou talão. O número de vias é variável e resolvido pelo Configurador. Corresponde à produção digital/offset de formulários comerciais com intercalação e colagem.",
+    "hi": "एक के ऊपर एक रखी शीटों का सेट जो ऊपरी प्रति की छाप नीचे की प्रतियों पर उतारता है — कार्बनलेस (NCR) पैड और फ़ॉर्म दो, तीन प्रतियों में। हर प्रति एक पता-योग्य सतह है (प्रति 1, प्रति 2 …), आमतौर पर सामने छपी, रंग-कोडित क्रम में लगाई और पैड या बुक में बँधी। प्रतियों की संख्या परिवर्तनशील है और कॉन्फ़िगरेटर तय करता है। कोलेशन और पैडिंग के साथ डिजिटल/ऑफसेट बिज़नेस-फ़ॉर्म उत्पादन से मेल खाता है।"
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/setup-models",
+  "surfaces": [
+    {
+      "id": "parts",
+      "label": {
+        "en": "Parts",
+        "nb": "Deler",
+        "de": "Teile"
+      },
+      "count": "variable"
+    }
+  ],
+  "scopeNote": {
+    "en": "The number of parts (duplicate, triplicate …) is variable and resolved by the Configurator; parts are usually printed on the front and collated in a colour-coded sequence, then padded or booked. Quantity is counted in sets.",
+    "pt": "O número de vias (duas, três …) é variável e resolvido pelo Configurador; as vias são normalmente impressas na frente e intercaladas em sequência com código de cores, depois coladas em bloco ou talão. A quantidade é contada em jogos.",
+    "hi": "प्रतियों की संख्या (दो, तीन …) परिवर्तनशील है और कॉन्फ़िगरेटर तय करता है; प्रतियाँ आमतौर पर सामने छपती हैं और रंग-कोडित क्रम में लगकर पैड या बुक में बँधती हैं। मात्रा सेट में गिनी जाती है।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

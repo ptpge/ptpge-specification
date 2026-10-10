@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-profiles/device-profiles> a skos:Concept ;
+    dcterms:created "2026-06-18T10:00:07+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-profiles> ;
+    skos:definition "Enhedsspecifikke farveprofiler, der karakteriserer en bestemt kombination af printer/presse/papir."@da,
+        "Gerätespezifische Farbprofile, die eine bestimmte Drucker-/Maschinen-/Papier-Kombination charakterisieren."@de,
+        "Device-specific colour profiles characterising a particular printer/press/paper combination."@en,
+        "Perfiles de color específicos de dispositivo que caracterizan una combinación concreta de impresora/prensa/papel."@es,
+        "किसी विशेष प्रिंटर/प्रेस/काग़ज़ संयोजन का लक्षण-वर्णन करने वाली डिवाइस-विशिष्ट रंग प्रोफ़ाइल।"@hi,
+        "特定のプリンター／印刷機／用紙の組み合わせを特性化するデバイス固有のカラープロファイル。"@ja,
+        "Enhetsspesifikke fargeprofiler som karakteriserer en bestemt printer/presse/papir-kombinasjon."@nb,
+        "Apparaatspecifieke kleurprofielen die een bepaalde combinatie van printer/pers/papier karakteriseren."@nl,
+        "Profile barw specyficzne dla urządzenia, charakteryzujące konkretne połączenie drukarki/maszyny i papieru."@pl,
+        "Perfis de cor específicos de dispositivo que caracterizam uma determinada combinação de impressora/máquina/papel."@pt,
+        "Enhetsspecifika färgprofiler som karakteriserar en viss kombination av skrivare/press/papper."@sv,
+        "描述特定打印机/印刷机/纸张组合特性的设备专用色彩配置文件。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§DEVICE-PROFILES" ;
+    skos:prefLabel "Enhedsprofiler"@da,
+        "Geräteprofile"@de,
+        "Device Profiles"@en,
+        "Perfiles de dispositivo"@es,
+        "डिवाइस प्रोफ़ाइल"@hi,
+        "デバイスプロファイル"@ja,
+        "Apparaatprofielen"@nl,
+        "Profile urządzeń"@pl,
+        "Perfis de dispositivo"@pt,
+        "Enhetsprofiler"@sv,
+        "设备配置文件"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

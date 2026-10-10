@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/ordering/audiences/institutional> a skos:Concept ;
+    dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-22T16:31:34+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/ordering/audiences> ;
+    skos:definition "Produkter rettet mod institutioner — hospitaler, museer, biblioteker, religiøse institutioner, nonprofitorganisationer og fonde. Indebærer ofte større ordremængder, særlige indkøbsprocesser og brandtilpasset materiale."@da,
+        "Produkte für Institutionen — Krankenhäuser, Museen, Bibliotheken, religiöse Einrichtungen, Non-Profit-Organisationen, Stiftungen."@de,
+        "Products targeted at institutions — hospitals, museums, libraries, religious institutions, non-profits, foundations. Often involves larger volume orders, specific procurement processes, and brand-aligned materials."@en,
+        "Productos dirigidos a instituciones — hospitales, museos, bibliotecas, instituciones religiosas, ONG, fundaciones. Suele implicar pedidos de mayor volumen, procesos de compra específicos y materiales alineados con la marca."@es,
+        "संस्थानों के लिए उत्पाद — अस्पताल, संग्रहालय, पुस्तकालय, धार्मिक संस्थाएँ, ग़ैर-लाभकारी संगठन, फ़ाउंडेशन। अक्सर बड़ी मात्रा के ऑर्डर, विशिष्ट खरीद प्रक्रियाएँ और ब्रांड-अनुरूप सामग्री शामिल।"@hi,
+        "施設・団体 — 病院、美術館・博物館、図書館、宗教団体、非営利団体、財団 — に向けた製品。大きめのロット、特有の調達プロセス、ブランドに沿った資料を伴うことが多い。"@ja,
+        "Produkter rettet mot institusjoner — sykehus, museer, biblioteker, religiøse institusjoner, ideelle organisasjoner, stiftelser. Innebærer ofte større volumordrer, spesifikke innkjøpsprosesser og merke-tilpasset materiale."@nb,
+        "Producten gericht op instellingen — ziekenhuizen, musea, bibliotheken, religieuze instellingen, non-profits en stichtingen. Vaak met grotere ordervolumes, specifieke inkoopprocessen en merkconform materiaal."@nl,
+        "Produkty skierowane do instytucji — szpitali, muzeów, bibliotek, instytucji religijnych, organizacji non-profit, fundacji. Często wiążą się z większymi nakładami, szczególnymi procedurami zakupowymi i materiałami zgodnymi z identyfikacją wizualną."@pl,
+        "Produtos voltados a instituições — hospitais, museus, bibliotecas, instituições religiosas, organizações sem fins lucrativos, fundações. Frequentemente envolve pedidos de maior volume, processos de compra específicos e materiais alinhados à marca."@pt,
+        "Produkter riktade till institutioner — sjukhus, museer, bibliotek, religiösa institutioner, ideella organisationer, stiftelser. Innebär ofta större volymer, särskilda upphandlingsprocesser och varumärkesanpassat material."@sv,
+        "面向机构的产品 — 医院、博物馆、图书馆、宗教机构、非营利组织、基金会。通常涉及较大批量订单、特定采购流程与品牌统一的材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "O:AU§INSTITUTIONAL" ;
+    skos:prefLabel "Institutioner"@da,
+        "Institutionell"@de,
+        "Institutional"@en,
+        "Institucional"@es,
+        "संस्थागत"@hi,
+        "機関"@ja,
+        "Institusjonell"@nb,
+        "Instellingen"@nl,
+        "Instytucje"@pl,
+        "Institucional"@pt,
+        "Institutioner"@sv,
+        "机构"@zh-Hans ;
+    ptpge:elementType "context" ;
+    ptpge:group "audiences" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

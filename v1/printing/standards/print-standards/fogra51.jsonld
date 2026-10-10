@@ -1,0 +1,62 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+  "type": "skos:Concept",
+  "version": "2026-06-17",
+  "status": "proposed",
+  "level": "element",
+  "elementType": "reference",
+  "label": {
+    "en": "Fogra51",
+    "nb": "Fogra51",
+    "sv": "Fogra51",
+    "da": "Fogra51",
+    "nl": "Fogra51",
+    "pl": "Fogra51",
+    "pt": "Fogra51",
+    "hi": "Fogra51"
+  },
+  "notation": "P:ST§FOGRA51",
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/print-standards",
+  "created": "2026-06-17T00:00:00Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Fogra characterization dataset for ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3).",
+    "nb": "Fogra-karakteriseringsdatasett for ISO 12647-2:2013 bestrøket (FOGRA51 / PSO Coated v3).",
+    "de": "Fogra-Charakterisierungsdatensatz für Premium gestrichen nach ISO 12647-2:2013 (FOGRA51 / PSO Coated v3).",
+    "es": "Conjunto de caracterización Fogra para estucado premium según ISO 12647-2:2013 (FOGRA51 / PSO Coated v3).",
+    "ja": "ISO 12647-2:2013 プレミアム塗工紙向けの Fogra 特性化データセット（FOGRA51／PSO Coated v3）。",
+    "zh-Hans": "ISO 12647-2:2013 高级涂布纸的 Fogra 特性化数据集（FOGRA51 / PSO Coated v3）。",
+    "sv": "Fogra-karakteriseringsdata för ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3).",
+    "da": "Fogra-karakteriseringsdata for ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3).",
+    "nl": "Fogra-karakteriseringsdata voor ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3).",
+    "pl": "Zbiór charakteryzacji Fogra dla papieru powlekanego premium wg ISO 12647-2:2013 (FOGRA51 / PSO Coated v3).",
+    "pt": "Conjunto de dados de caracterização Fogra para revestido premium ISO 12647-2:2013 (FOGRA51 / PSO Coated v3).",
+    "hi": "ISO 12647-2:2013 प्रीमियम कोटेड के लिए Fogra लक्षण-वर्णन डेटासेट (FOGRA51 / PSO Coated v3)।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "altLabels": {
+    "en": [
+      "FOGRA51",
+      "Fogra 51",
+      "PSO Coated v3"
+    ],
+    "pl": [
+      "Fogra 51",
+      "PSO Coated v3"
+    ],
+    "pt": [
+      "FOGRA51",
+      "Fogra 51",
+      "PSO Coated v3"
+    ],
+    "hi": [
+      "FOGRA51",
+      "Fogra 51",
+      "PSO Coated v3"
+    ]
+  }
+}

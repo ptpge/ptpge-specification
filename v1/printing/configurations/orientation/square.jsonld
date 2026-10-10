@@ -1,0 +1,88 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/orientation/square",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Square",
+    "es": "Cuadrado",
+    "zh-Hans": "方形",
+    "nb": "Kvadrat",
+    "de": "Quadrat",
+    "ja": "正方形",
+    "nl": "Vierkant",
+    "sv": "Kvadratisk",
+    "da": "Kvadratisk",
+    "pl": "Kwadratowa",
+    "pt": "Quadrado",
+    "hi": "वर्गाकार"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§SQUARE",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/orientation",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Rectangular orientation where horizontal and vertical dimensions are equal — used for art prints, social media content, and design-driven publications.",
+    "nb": "Rektangulær orientering der horisontale og vertikale dimensjoner er like — brukt for kunsttrykk, sosiale medier-innhold og designdrevne publikasjoner.",
+    "de": "Rechteckige Ausrichtung, bei der horizontale und vertikale Abmessungen gleich sind — verwendet für Kunstdrucke, Social-Media-Inhalte und designorientierte Publikationen.",
+    "ja": "水平方向と垂直方向の寸法が等しい長方形の向き — アートプリント、ソーシャルメディアコンテンツ、デザイン主導の出版物に使用される。",
+    "es": "Producto impreso con relación de aspecto 1:1. Habitual en catálogos de arte, libros fotográficos premium y packaging.",
+    "zh-Hans": "宽高比为1:1的印刷品。常见于艺术画册、高级摄影书和包装。",
+    "sv": "Rektangulär orientering där horisontellt och vertikalt mått är lika — används för konsttryck, sociala medier-innehåll och designdrivna publikationer.",
+    "da": "Rektangulær orientering, hvor vandret og lodret mål er ens — bruges til kunsttryk, indhold til sociale medier og designdrevne udgivelser.",
+    "nl": "Rechthoekige oriëntatie waarbij horizontale en verticale maat gelijk zijn — gebruikt voor kunstdrukken, socialemedia-content en designgedreven publicaties.",
+    "pl": "Orientacja prostokątna, w której wymiary poziomy i pionowy są równe — używana do wydruków artystycznych, treści do mediów społecznościowych i publikacji o charakterze projektowym.",
+    "pt": "Orientação retangular em que as dimensões horizontal e vertical são iguais — usada em impressões de arte, conteúdo para redes sociais e publicações orientadas por design.",
+    "hi": "आयताकार अभिविन्यास जिसमें क्षैतिज और ऊर्ध्वाधर आयाम बराबर हैं — आर्ट प्रिंट, सोशल मीडिया सामग्री और डिज़ाइन-प्रधान प्रकाशनों में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Square orientation",
+      "1:1",
+      "Equal sides"
+    ],
+    "nb": [
+      "Kvadratisk"
+    ],
+    "pl": [
+      "kwadrat",
+      "1:1",
+      "orientacja kwadratowa"
+    ],
+    "pt": [
+      "orientação quadrada",
+      "1:1",
+      "lados iguais"
+    ],
+    "hi": [
+      "चौकोर",
+      "1:1",
+      "बराबर भुजाएँ",
+      "स्क्वेयर"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent"
+      ],
+      "refs": [
+        "§4.10 · p.78"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 21"
+    }
+  ]
+}

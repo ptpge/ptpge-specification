@@ -1,0 +1,80 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/back-orientation/head-to-head",
+  "type": "skos:Concept",
+  "version": "2026-09-03",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:CF§HEAD-TO-HEAD",
+  "label": {
+    "en": "Head-to-head",
+    "nb": "Topp-mot-topp",
+    "de": "Kopf-an-Kopf",
+    "es": "Cabeza con cabeza",
+    "ja": "天地同方向",
+    "zh-Hans": "天对天",
+    "sv": "Huvud-mot-huvud",
+    "da": "Top-mod-top",
+    "nl": "Kop-aan-kop",
+    "pl": "Głowa do głowy",
+    "pt": "Cabeça com cabeça",
+    "hi": "हेड-टू-हेड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "created": "2026-09-03T00:00:00Z",
+  "modified": "2026-09-23T06:34:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "The back side is oriented the same way up as the front — turn the sheet over sideways and both read upright. XJDF: TwoSidedHeadToHead.",
+    "nb": "Baksiden har samme vei opp som forsiden — vend arket sideveis og begge leses rett. XJDF: TwoSidedHeadToHead.",
+    "de": "Die Rückseite ist gleich ausgerichtet wie die Vorderseite — seitlich gewendet lesen sich beide aufrecht. XJDF: TwoSidedHeadToHead.",
+    "es": "El reverso está orientado igual que el anverso: al girar la hoja lateralmente, ambos se leen derechos. XJDF: TwoSidedHeadToHead.",
+    "ja": "裏面が表面と同じ天地方向。用紙を横に返すと両面とも正しい向きで読める。XJDF: TwoSidedHeadToHead。",
+    "zh-Hans": "背面与正面天地同向——横向翻转纸张时两面均正向可读。XJDF：TwoSidedHeadToHead。",
+    "sv": "Baksidan har samma väg upp som framsidan — vänd arket i sidled och båda läses rättvända. XJDF: TwoSidedHeadToHead.",
+    "da": "Bagsiden har samme vej op som forsiden — vend arket sidelæns og begge læses retvendt. XJDF: TwoSidedHeadToHead.",
+    "nl": "De achterzijde staat dezelfde kant op als de voorzijde — zijwaarts omgedraaid lezen beide rechtop. XJDF: TwoSidedHeadToHead.",
+    "pl": "Rewers zorientowany tak samo do góry jak awers — po obróceniu arkusza wokół boku obie strony czyta się prosto. XJDF: TwoSidedHeadToHead.",
+    "pt": "O verso está orientado no mesmo sentido da frente — vire a folha de lado e ambos ficam na posição de leitura. XJDF: TwoSidedHeadToHead.",
+    "hi": "पिछला हिस्सा सामने की ही दिशा में — शीट को बग़ल से पलटें तो दोनों सीधे पढ़े जाते हैं। XJDF: TwoSidedHeadToHead।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/back-orientation",
+  "altLabels": {
+    "en": [
+      "TwoSidedHeadToHead",
+      "Work and turn"
+    ],
+    "pl": [
+      "TwoSidedHeadToHead",
+      "odwracanie przez oś podłużną"
+    ],
+    "pt": [
+      "TwoSidedHeadToHead",
+      "virar de lado",
+      "work and turn"
+    ],
+    "hi": [
+      "TwoSidedHeadToHead",
+      "बग़ल से पलटना",
+      "वर्क एंड टर्न"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "LayoutIntent@Sides"
+      ],
+      "refs": [
+        "§4.10 · p.78"
+      ],
+      "match": "exact",
+      "via": "LayoutIntent@Sides"
+    }
+  ]
+}

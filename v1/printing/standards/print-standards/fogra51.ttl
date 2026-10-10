@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/fogra51> a skos:Concept ;
+    dcterms:created "2026-06-17T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "FOGRA51"@en,
+        "Fogra 51"@en,
+        "PSO Coated v3"@en,
+        "FOGRA51"@hi,
+        "Fogra 51"@hi,
+        "PSO Coated v3"@hi,
+        "Fogra 51"@pl,
+        "PSO Coated v3"@pl,
+        "FOGRA51"@pt,
+        "Fogra 51"@pt,
+        "PSO Coated v3"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Fogra-karakteriseringsdata for ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3)."@da,
+        "Fogra-Charakterisierungsdatensatz für Premium gestrichen nach ISO 12647-2:2013 (FOGRA51 / PSO Coated v3)."@de,
+        "Fogra characterization dataset for ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3)."@en,
+        "Conjunto de caracterización Fogra para estucado premium según ISO 12647-2:2013 (FOGRA51 / PSO Coated v3)."@es,
+        "ISO 12647-2:2013 प्रीमियम कोटेड के लिए Fogra लक्षण-वर्णन डेटासेट (FOGRA51 / PSO Coated v3)।"@hi,
+        "ISO 12647-2:2013 プレミアム塗工紙向けの Fogra 特性化データセット（FOGRA51／PSO Coated v3）。"@ja,
+        "Fogra-karakteriseringsdatasett for ISO 12647-2:2013 bestrøket (FOGRA51 / PSO Coated v3)."@nb,
+        "Fogra-karakteriseringsdata voor ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3)."@nl,
+        "Zbiór charakteryzacji Fogra dla papieru powlekanego premium wg ISO 12647-2:2013 (FOGRA51 / PSO Coated v3)."@pl,
+        "Conjunto de dados de caracterização Fogra para revestido premium ISO 12647-2:2013 (FOGRA51 / PSO Coated v3)."@pt,
+        "Fogra-karakteriseringsdata för ISO 12647-2:2013 Premium coated (FOGRA51 / PSO Coated v3)."@sv,
+        "ISO 12647-2:2013 高级涂布纸的 Fogra 特性化数据集（FOGRA51 / PSO Coated v3）。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§FOGRA51" ;
+    skos:prefLabel "Fogra51"@da,
+        "Fogra51"@en,
+        "Fogra51"@hi,
+        "Fogra51"@nb,
+        "Fogra51"@nl,
+        "Fogra51"@pl,
+        "Fogra51"@pt,
+        "Fogra51"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-17" .
+

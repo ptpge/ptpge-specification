@@ -1,0 +1,95 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium/solid",
+  "type": "skos:Concept",
+  "version": "2026-06-22",
+  "status": "proposed",
+  "level": "element",
+  "notation": "P:SB§SOLID-ALUMINIUM",
+  "label": {
+    "en": "Solid Aluminium",
+    "nb": "Solid aluminium",
+    "de": "Vollaluminium",
+    "es": "Aluminio macizo",
+    "ja": "ソリッドアルミ",
+    "zh-Hans": "实心铝",
+    "sv": "Massiv aluminium",
+    "da": "Massiv aluminium",
+    "nl": "Massief aluminium",
+    "pl": "Aluminium lite",
+    "pt": "Alumínio maciço",
+    "hi": "ठोस एल्युमिनियम"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/board-materials/metal/aluminium",
+  "definition": {
+    "en": "A single-layer rigid aluminium sheet or plate.",
+    "nb": "En enkeltlags rigid aluminiumsplate.",
+    "de": "Ein einlagiges starres Aluminiumblech.",
+    "ja": "単層の硬質アルミシートまたはプレート。",
+    "es": "Una chapa o placa rígida de aluminio de una sola capa.",
+    "zh-Hans": "单层硬质铝板或铝片。",
+    "sv": "En styv aluminiumplåt eller -skiva i ett enda skikt.",
+    "da": "En stiv aluminiumsplade i ét lag.",
+    "nl": "Een stijve aluminiumplaat uit één laag.",
+    "pl": "Jednowarstwowa sztywna blacha lub płyta aluminiowa.",
+    "pt": "Chapa ou placa rígida de alumínio em camada única.",
+    "hi": "एक-परत की कठोर एल्युमिनियम शीट या प्लेट।"
+  },
+  "created": "2026-06-22T00:00:00Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "elementType": "value",
+  "altLabels": {
+    "en": [
+      "solid aluminum",
+      "aluminium sheet",
+      "aluminium plate"
+    ],
+    "nb": [
+      "aluminiumsplate"
+    ],
+    "pl": [
+      "blacha aluminiowa",
+      "płyta aluminiowa",
+      "aluminium pełne"
+    ],
+    "pt": [
+      "chapa de alumínio",
+      "placa de alumínio",
+      "alumínio maciço"
+    ],
+    "hi": [
+      "एल्युमिनियम शीट",
+      "एल्युमिनियम प्लेट",
+      "ठोस एल्युमिनियम शीट"
+    ]
+  },
+  "langStatus": {
+    "en": "production",
+    "nb": "production",
+    "de": "production",
+    "ja": "draft",
+    "es": "draft",
+    "zh-Hans": "draft"
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 32"
+    }
+  ]
+}

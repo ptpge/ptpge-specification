@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Native Files",
+    "es": "Archivos Nativos",
+    "zh-Hans": "原生文件",
+    "nb": "Native filer",
+    "de": "Native Dateien",
+    "ja": "ネイティブファイル",
+    "sv": "Programegna filer",
+    "da": "Programegne filer",
+    "nl": "Programma-eigen bestanden",
+    "pl": "Pliki natywne",
+    "pt": "Arquivos nativos",
+    "hi": "नेटिव फ़ाइलें"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "standards",
+  "broader": "https://ptpge.org/v1/printing/standards/graphic-file-formats",
+  "narrower": [
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/adobe",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/apple",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/microsoft",
+    "https://ptpge.org/v1/printing/standards/graphic-file-formats/native-files/quark-xpress"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:50:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Proprietary file formats specific to individual design or productivity applications, used during the creation phase before export to interchange formats.",
+    "nb": "Proprietære filformater spesifikke for individuelle design- eller produktivitetsapplikasjoner, brukt under skapelsesfasen før eksport til utvekslingsformater.",
+    "de": "Proprietäre Dateiformate für einzelne Design- oder Office-Anwendungen, die in der Erstellungsphase verwendet werden, bevor eine Konvertierung in Austauschformate erfolgt.",
+    "ja": "個別のデザインまたは生産性アプリケーション固有の独自ファイル形式。交換形式へのエクスポート前の制作段階で使用される。",
+    "es": "Formatos de archivo propietarios específicos de aplicaciones individuales de diseño o productividad, utilizados durante la fase de creación antes de la exportación a formatos de intercambio.",
+    "zh-Hans": "特定于单个设计或办公应用程序的专属文件格式，在创建阶段使用，导出到交换格式之前。",
+    "sv": "Proprietära filformat knutna till enskilda design- eller produktivitetsprogram, använda under skapandefasen före export till utbytesformat.",
+    "da": "Proprietære filformater knyttet til enkelte design- eller produktivitetsprogrammer, brugt i skabelsesfasen før eksport til udvekslingsformater.",
+    "nl": "Eigen bestandsformaten van individuele ontwerp- of productiviteitsprogramma's, gebruikt tijdens de creatiefase vóór export naar uitwisselformaten.",
+    "pl": "Własnościowe formaty plików specyficzne dla poszczególnych aplikacji projektowych lub biurowych, używane w fazie tworzenia przed eksportem do formatów wymiany.",
+    "pt": "Formatos de arquivo proprietários específicos de aplicativos de design ou produtividade, usados na fase de criação antes da exportação para formatos de intercâmbio.",
+    "hi": "अलग-अलग डिज़ाइन या उत्पादकता एप्लिकेशनों के स्वामित्व फ़ाइल फ़ॉर्मेट, विनिमय फ़ॉर्मेट में निर्यात से पहले निर्माण चरण में प्रयुक्त।"
+  },
+  "scopeNote": {
+    "en": "Includes major creative-suite formats from Adobe (.ai, .psd, .indd), Apple iWork (.pages, .key, .numbers), Microsoft Office (.docx, .xlsx, .pptx), and QuarkXPress (.qxp). These formats are typically not delivered to printers directly — PDFs are generated for production.",
+    "nb": "Inkluderer hovedformater fra Adobes kreative pakke (.ai, .psd, .indd), Apple iWork (.pages, .key, .numbers), Microsoft Office (.docx, .xlsx, .pptx), og QuarkXPress (.qxp). Disse formatene leveres vanligvis ikke direkte til trykkeriet — PDF-er genereres for produksjon.",
+    "de": "Umfasst die wichtigsten Creative-Suite-Formate von Adobe (.ai, .psd, .indd), Apple iWork (.pages, .key, .numbers), Microsoft Office (.docx, .xlsx, .pptx) und QuarkXPress (.qxp). Diese Formate werden typischerweise nicht direkt an Druckereien geliefert — für die Produktion werden PDFs erzeugt.",
+    "ja": "Adobe（.ai、.psd、.indd）、Apple iWork（.pages、.key、.numbers）、Microsoft Office（.docx、.xlsx、.pptx）、QuarkXPress（.qxp）の主要なクリエイティブスイート形式を含む。これらの形式は通常、印刷会社に直接納品されることはなく、生産用にPDFが生成される。",
+    "es": "Incluye los formatos principales de las suites creativas de Adobe (.ai, .psd, .indd), Apple iWork (.pages, .key, .numbers), Microsoft Office (.docx, .xlsx, .pptx) y QuarkXPress (.qxp). Estos formatos no suelen ser apropiados para entregar a la imprenta; se exportan a PDF para producción.",
+    "zh-Hans": "包括Adobe创意套件的主要格式（.ai、.psd、.indd）、Apple iWork（.pages、.key、.numbers）、Microsoft Office（.docx、.xlsx、.pptx）和QuarkXPress（.qxp）。这些格式通常不适合直接交付给印刷厂；导出为PDF以供生产。",
+    "pt": "Inclui os principais formatos de suítes criativas da Adobe (.ai, .psd, .indd), Apple iWork (.pages, .key, .numbers), Microsoft Office (.docx, .xlsx, .pptx) e QuarkXPress (.qxp). Esses formatos normalmente não são entregues diretamente aos impressores — PDFs são gerados para a produção.",
+    "hi": "Adobe (.ai, .psd, .indd), Apple iWork (.pages, .key, .numbers), Microsoft Office (.docx, .xlsx, .pptx) और QuarkXPress (.qxp) के प्रमुख क्रिएटिव-सूट फ़ॉर्मेट शामिल। ये फ़ॉर्मेट आमतौर पर सीधे प्रिंटरों को नहीं दिए जाते — उत्पादन के लिए PDF बनाई जाती हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:ST-GFF-NATV",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "FileSpec"
+      ],
+      "refs": [
+        "§8.19 · p.345"
+      ],
+      "match": "partial",
+      "via": "crosswalk row 3"
+    }
+  ]
+}

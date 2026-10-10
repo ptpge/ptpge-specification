@@ -1,0 +1,97 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "sub-category",
+  "label": {
+    "en": "Paper Suppliers",
+    "es": "Proveedores de Papel",
+    "zh-Hans": "纸张供应商",
+    "nb": "Papirleverandører",
+    "de": "Papierlieferanten",
+    "ja": "用紙サプライヤー",
+    "sv": "Papperstillverkare",
+    "da": "Papirleverandører",
+    "nl": "Papierleveranciers",
+    "pl": "Dostawcy papieru",
+    "pt": "Fabricantes de papel",
+    "hi": "काग़ज़ आपूर्तिकर्ता"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper",
+  "narrower": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/lessebo",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/antalis",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/sappi",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/hahnemuhle",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/holmen"
+  ],
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:24:41Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Major paper manufacturers supplying the printing industry — each with distinct product lines, regional presence, and specializations.",
+    "nb": "Store papirprodusenter som forsyner trykkbransjen — hver med distinkte produktlinjer, regional tilstedeværelse og spesialiseringer.",
+    "de": "Bedeutende Papierhersteller, die die Druckindustrie beliefern — jeder mit eigenen Produktreihen, regionaler Präsenz und Spezialisierungen.",
+    "ja": "印刷業界に紙を供給する主要なメーカー — 各社は異なる製品ライン、地域でのプレゼンス、専門分野を持つ。",
+    "es": "Principales fabricantes de papel que abastecen a la industria de la impresión — cada uno con líneas de producto distintas, presencia regional y especializaciones.",
+    "zh-Hans": "为印刷行业供应的主要造纸商——各有独特的产品线、地区存在和专长。",
+    "sv": "Större papperstillverkare som försörjer tryckindustrin — var och en med egna produktlinjer, regional närvaro och specialiseringar.",
+    "da": "Store papirproducenter, der leverer til trykbranchen — hver med egne produktlinjer, regional tilstedeværelse og specialer.",
+    "nl": "Grote papierfabrikanten die aan de grafische industrie leveren — elk met eigen productlijnen, regionale aanwezigheid en specialisaties.",
+    "pl": "Główni producenci papieru zaopatrujący przemysł poligraficzny — każdy z odrębnymi liniami produktów, obecnością regionalną i specjalizacjami.",
+    "pt": "Grandes fabricantes de papel que abastecem a indústria gráfica — cada um com linhas de produto, presença regional e especializações distintas.",
+    "hi": "मुद्रण उद्योग को आपूर्ति करने वाले प्रमुख काग़ज़ निर्माता — हर एक की अलग उत्पाद श्रृंखला, क्षेत्रीय उपस्थिति और विशेषज्ञता।"
+  },
+  "scopeNote": {
+    "en": "Includes Antalis (European distributor), Hahnemühle (German specialty papers), Holmen (Scandinavian publication papers), Lessebo (Swedish premium and design papers), and Sappi (global commercial papers). Specific product lines are tracked under each supplier.",
+    "nb": "Inkluderer Antalis (europeisk distributør), Hahnemühle (tyske spesialpapirer), Holmen (skandinaviske publikasjonspapirer), Lessebo (svenske premium- og designpapirer) og Sappi (globale kommersielle papirer). Spesifikke produktlinjer spores under hver leverandør.",
+    "de": "Umfasst Antalis (europäischer Distributor), Hahnemühle (deutsche Spezialpapiere), Holmen (skandinavische Publikationspapiere), Lessebo (schwedische Premium- und Designpapiere) und Sappi (globale gewerbliche Papiere). Spezifische Produktreihen werden unter dem jeweiligen Lieferanten geführt.",
+    "ja": "Antalis（欧州ディストリビューター）、Hahnemühle（ドイツの特殊紙）、Holmen（北欧の出版用紙）、Lessebo（スウェーデンの高級・デザイン紙）、Sappi（グローバルな商業紙）を含む。各サプライヤーごとに具体的な製品ラインを扱う。",
+    "es": "Incluye Antalis (distribuidor europeo), Hahnemühle (papeles especiales alemanes), Holmen (papeles escandinavos para publicación), Lessebo (papeles premium y de diseño suecos) y Sappi (proveedor global de papeles comerciales). Otros proveedores regionales se rastrean según se documenten.",
+    "zh-Hans": "包括Antalis（欧洲分销商）、Hahnemühle（德国特种纸）、Holmen（北欧出版用纸）、Lessebo（瑞典优质和设计用纸）和Sappi（全球商业用纸）。其他地区供应商按记录时跟踪。",
+    "pt": "Inclui Antalis (distribuidor europeu), Hahnemühle (papéis especiais alemães), Holmen (papéis de publicação escandinavos), Lessebo (papéis premium e de design suecos) e Sappi (papéis comerciais globais). Linhas de produto específicas são registradas sob cada fornecedor.",
+    "hi": "Antalis (यूरोपीय वितरक), Hahnemühle (जर्मन विशेष काग़ज़), Holmen (स्कैंडिनेवियाई प्रकाशन काग़ज़), Lessebo (स्वीडिश प्रीमियम और डिज़ाइन काग़ज़) और Sappi (वैश्विक व्यावसायिक काग़ज़) शामिल। विशिष्ट उत्पाद श्रृंखलाएँ हर आपूर्तिकर्ता के अंतर्गत दर्ज हैं।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:SB-SHT-PAPR-PSUP",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    },
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "Media"
+      ],
+      "refs": [
+        "§6.57 · p.229"
+      ],
+      "match": "concept",
+      "via": "crosswalk row 30"
+    }
+  ],
+  "altLabels": {
+    "pl": [
+      "producenci papieru"
+    ]
+  }
+}

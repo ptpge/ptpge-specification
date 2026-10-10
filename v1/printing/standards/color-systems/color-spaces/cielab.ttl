@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/color-systems/color-spaces/cielab> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "CIE Lab"@en,
+        "L*a*b*"@en,
+        "Lab"@en,
+        "CIE Lab"@hi,
+        "L*a*b*"@hi,
+        "Lab"@hi,
+        "CIE Lab"@pl,
+        "L*a*b*"@pl,
+        "Lab"@pl,
+        "CIE Lab"@pt,
+        "L*a*b*"@pt,
+        "Lab"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/color-systems/color-spaces> ;
+    skos:definition "CIE 1976 L*a*b* — et enhedsuafhængigt farverum, der tilnærmer menneskelig farveopfattelse, brugt som referencerum for farvekonvertering mellem enheder og ICC-profiltransformationer."@da,
+        "CIE 1976 L*a*b* — ein geräteunabhängiger Farbraum, der die menschliche Farbwahrnehmung näherungsweise abbildet, dient als Referenzraum für Farbkonvertierungen zwischen Geräten und für ICC-Profil-Transformationen."@de,
+        "CIE 1976 L*a*b* — a device-independent color space approximating human color perception, used as the reference space for color conversion between devices and ICC profile transformations."@en,
+        "Espacio de color independiente del dispositivo definido por la CIE en 1976, que describe los colores como tres coordenadas: L* (luminosidad), a* (rojo–verde) y b* (amarillo–azul). Utilizado como espacio de conexión de perfil en la gestión de color ICC."@es,
+        "CIE 1976 L*a*b* — मानव रंग-प्रत्यक्षण का अनुमान लगाने वाला डिवाइस-स्वतंत्र रंग स्पेस, डिवाइसों के बीच रंग रूपांतरण और ICC प्रोफ़ाइल परिवर्तनों के संदर्भ स्पेस के रूप में प्रयुक्त।"@hi,
+        "CIE 1976 L*a*b* — 人間の色知覚に近似したデバイス非依存の色空間。デバイス間の色変換およびICCプロファイル変換の参照色空間として使用される。"@ja,
+        "CIE 1976 L*a*b* — et enhetsuavhengig fargerom som tilnærmer menneskelig fargepersepsjon, brukt som referanserom for fargekonvertering mellom enheter og ICC-profilkonverteringer."@nb,
+        "CIE 1976 L*a*b* — een apparaatonafhankelijke kleurruimte die de menselijke kleurwaarneming benadert, gebruikt als referentieruimte voor kleurconversie tussen apparaten en ICC-profieltransformaties."@nl,
+        "CIE 1976 L*a*b* — niezależna od urządzenia przestrzeń barw przybliżająca ludzką percepcję koloru, używana jako przestrzeń odniesienia przy konwersji barw między urządzeniami i transformacjach profili ICC."@pl,
+        "CIE 1976 L*a*b* — espaço de cor independente de dispositivo que aproxima a percepção humana da cor, usado como espaço de referência para conversão de cor entre dispositivos e transformações de perfis ICC."@pt,
+        "CIE 1976 L*a*b* — en enhetsoberoende färgrymd som approximerar mänsklig färguppfattning, använd som referensrymd för färgkonvertering mellan enheter och ICC-profiltransformationer."@sv,
+        "由CIE于1976年定义的与设备无关的色彩空间，用三个坐标描述颜色：L*（亮度）、a*（红–绿）和b*（黄–蓝）。在ICC色彩管理中用作配置文件连接空间。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§CIELAB" ;
+    skos:prefLabel "CIELAB"@da,
+        "CIELAB"@de,
+        "CIELAB"@en,
+        "CIELAB"@es,
+        "CIELAB"@hi,
+        "CIELAB"@ja,
+        "CIELAB"@nb,
+        "CIELAB"@nl,
+        "CIELAB"@pl,
+        "CIELAB"@pt,
+        "CIELAB"@sv,
+        "CIELAB"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.14 · p.166",
+                "§6.15 · p.168",
+                "§6.17 · p.172" ;
+            ptpge:mappingRow "crosswalk row 4" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Color",
+                "ColorSpaceConversionParams",
+                "ColorantControl" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

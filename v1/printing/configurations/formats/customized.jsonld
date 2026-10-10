@@ -1,0 +1,91 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/customized",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Customized",
+    "es": "Personalizado",
+    "zh-Hans": "定制",
+    "nb": "Tilpasset",
+    "de": "Individuell",
+    "ja": "カスタマイズ",
+    "nl": "Op maat",
+    "sv": "Anpassat",
+    "da": "Anpassat",
+    "pl": "Niestandardowy",
+    "pt": "Personalizado",
+    "hi": "कस्टम"
+  },
+  "altLabels": {
+    "en": [
+      "Custom Size",
+      "Bespoke Format",
+      "Customised"
+    ],
+    "nb": [
+      "Spesialformat",
+      "Tilpasset størrelse",
+      "Egendefinert format"
+    ],
+    "pl": [
+      "format niestandardowy",
+      "format na zamówienie",
+      "wymiar indywidualny"
+    ],
+    "pt": [
+      "tamanho personalizado",
+      "formato sob medida",
+      "medida especial"
+    ],
+    "hi": [
+      "कस्टम साइज़",
+      "मनचाहा आकार",
+      "विशेष माप"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "notation": "P:CF§CUSTOMIZED",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:29:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Non-standard cut sizes specified by the customer — outside any of the international or national paper-size systems.",
+    "nb": "Ikke-standardiserte tilpassede størrelser spesifisert av kunden — utenfor alle internasjonale eller nasjonale papirstørrelse-systemer.",
+    "de": "Vom Kunden festgelegte Sonderformate — außerhalb sämtlicher internationaler oder nationaler Papierformatsysteme.",
+    "ja": "顧客が指定する非標準のカット寸法 — 国際的または国内の用紙寸法体系のいずれにも属さない。",
+    "es": "Formato a medida — dimensiones y proporciones definidas por el cliente fuera de los sistemas estándar (ISO, ANSI, US, Arch).",
+    "zh-Hans": "按客户在标准系统（ISO、ANSI、US、Arch）之外定义的尺寸和比例的定制格式。",
+    "sv": "Icke-standardiserade skurna format specificerade av kunden — utanför alla internationella och nationella pappersformatsystem.",
+    "da": "Icke-standardiserade skurna format specificerade av kunden — uden for alla internationella og nationella papirsformatsystem.",
+    "nl": "Icke-standardiserade skurna format specificerade av kunden — uden for alla internationella en nationella papirsformatsystem.",
+    "pl": "Niestandardowe formaty cięcia określone przez klienta — poza wszelkimi międzynarodowymi lub krajowymi systemami formatów papieru.",
+    "pt": "Tamanhos de corte não padrão especificados pelo cliente — fora de qualquer sistema internacional ou nacional de tamanhos de papel.",
+    "hi": "ग्राहक द्वारा निर्दिष्ट ग़ैर-मानक कट आकार — किसी भी अंतरराष्ट्रीय या राष्ट्रीय काग़ज़-आकार प्रणाली से बाहर।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.10 · p.78",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 20"
+    }
+  ]
+}

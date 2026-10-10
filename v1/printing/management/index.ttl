@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/management> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:54:01+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing> ;
+    skos:definition "Tværgående discipliner, der styrer hvordan et trykkeri drives: oprettelse og klargøring af filer (Kreation), styring af produktionsarbejdsgangen (Workflow) og kvalitetssikring (Quality Assurance). Administration er én af to tværgående grupper (jævnfør Standarder)."@da,
+        "Übergreifende Disziplinen, die den Betrieb einer Druckerei steuern: Erstellung und Aufbereitung von Dateien (Creation), Steuerung des Produktionsworkflows (Workflow) und Qualitätssicherung (Quality Assurance). Management ist eine von zwei übergreifenden Gruppen (neben Standards); diese gelten über alle Fertigungsfacetten hinweg und stellen keinen eigenständigen Produktionsschritt dar."@de,
+        "Cross-cutting disciplines that govern how a print shop operates: creating and preparing files (Creation), running the production workflow (Workflow), and maintaining quality (Quality Assurance). Management is one of two cross-cutting Groups (alongside Standards); these apply across every manufacturing facet rather than being a distinct step in production."@en,
+        "Disciplinas transversales que rigen el funcionamiento de un taller de impresión: la creación y preparación de archivos (Creación), la operación del flujo de producción (Flujo de Trabajo) y el mantenimiento de la calidad (Aseguramiento de Calidad). Gestión es uno de los dos grupos transversales — junto con Normas — que se aplican a toda actividad de fabricación."@es,
+        "वे व्यापक विधाएँ जो तय करती हैं कि प्रिंट शॉप कैसे चलती है: फ़ाइलें बनाना और तैयार करना (निर्माण), उत्पादन वर्कफ़्लो चलाना (वर्कफ़्लो) और गुणवत्ता बनाए रखना (गुणवत्ता आश्वासन)। प्रबंधन दो व्यापक समूहों में से एक है (मानक के साथ); ये उत्पादन के अलग चरण के बजाय हर निर्माण पहलू पर लागू होते हैं।"@hi,
+        "印刷会社の運営を支配する横断的領域：ファイルの作成と準備（Creation）、生産ワークフローの運用（Workflow）、品質維持（Quality Assurance）。Managementは、Standardsと並ぶ二つの横断グループの一つであり、製造の各側面に共通して適用されるものであり、生産過程における独立した工程ではない。"@ja,
+        "Kryssgående disipliner som styrer hvordan et trykkeri opererer: opprettelse og klargjøring av filer (Creation), kjøring av produksjons-workflowen (Workflow), og kvalitetssikring (Quality Assurance). Management er en av to kryssgående grupper (sammen med Standards); disse gjelder på tvers av alle produksjonsfasetter, ikke som et eget steg i produksjonen."@nb,
+        "Overkoepelende disciplines die bepalen hoe een drukkerij werkt: bestanden aanmaken en voorbereiden (Creatie), de productieworkflow aansturen (Workflow) en kwaliteit bewaken (Kwaliteitsborging). Beheer is één van twee overkoepelende groepen (naast Standaarden)."@nl,
+        "Przekrojowe dyscypliny rządzące działaniem drukarni: tworzenie i przygotowanie plików (Tworzenie), prowadzenie przepływu produkcji (Workflow) oraz utrzymanie jakości (Zapewnienie jakości). Zarządzanie jest jedną z dwóch grup przekrojowych (obok Standardów); dotyczą one wszystkich aspektów produkcji, a nie stanowią osobnego etapu produkcji."@pl,
+        "Disciplinas transversais que governam como uma gráfica opera: criar e preparar arquivos (Criação), conduzir o fluxo de produção (Fluxo de trabalho) e manter a qualidade (Garantia de qualidade). Gestão é um dos dois Grupos transversais (junto com Normas); aplicam-se a todas as facetas de fabricação em vez de ser uma etapa distinta da produção."@pt,
+        "Tvärgående discipliner som styr hur ett tryckeri drivs: att skapa och förbereda filer (Skapande), att köra produktionsflödet (Arbetsflöde) och att upprätthålla kvalitet (Kvalitetssäkring). Administration är en av två tvärgående grupper (jämte Standarder); de gäller över alla tillverkningsfacetter snarare än att vara ett eget steg i produktionen."@sv,
+        "管理印刷厂运营的横向学科：文件创建与准备（创建）、生产流程运营（工作流）和质量维护（质量保证）。管理是两个横向分组之一——与标准一起——适用于所有制造活动。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/management/creation>,
+        <https://ptpge.org/v1/printing/management/quality-assurance>,
+        <https://ptpge.org/v1/printing/management/workflow> ;
+    skos:notation "P:MG" ;
+    skos:prefLabel "Administration"@da,
+        "Steuerung"@de,
+        "Management"@en,
+        "Gestión"@es,
+        "प्रबंधन"@hi,
+        "管理"@ja,
+        "Styring"@nb,
+        "Beheer"@nl,
+        "Zarządzanie"@pl,
+        "Gestão"@pt,
+        "Administration"@sv,
+        "管理"@zh-Hans ;
+    skos:scopeNote "Management erfasst die Aktivitäten, Werkzeuge und Software, die eine Druckerei intern einsetzt. Die benannten externen Standards, auf die sich diese Aktivitäten beziehen (ICC-Profile, ISO 12647, FSC usw.), gehören zu Standards."@de,
+        "Management captures the activities, tools, and software a print shop uses internally. The named external standards those activities reference (ICC profiles, ISO 12647, FSC, etc.) belong to Standards."@en,
+        "Gestión recoge las actividades, herramientas y software que un taller utiliza internamente. Las normas externas a las que esas actividades hacen referencia (perfiles ICC, ISO 12647, FSC, etc.) pertenecen al grupo Normas."@es,
+        "प्रबंधन उन गतिविधियों, औज़ारों और सॉफ़्टवेयर को समेटता है जिन्हें प्रिंट शॉप आंतरिक रूप से उपयोग करती है। इन गतिविधियों द्वारा संदर्भित नामित बाहरी मानक (ICC प्रोफ़ाइल, ISO 12647, FSC आदि) मानक के अंतर्गत।"@hi,
+        "Managementは、印刷会社が社内で使用する活動、ツール、ソフトウェアを扱う。それらの活動が参照する名前付きの外部規格（ICCプロファイル、ISO 12647、FSCなど）はStandardsに属する。"@ja,
+        "Management dekker aktivitetene, verktøyene og programvaren et trykkeri bruker internt. De navngitte eksterne standardene som disse aktivitetene refererer til (ICC-profiler, ISO 12647, FSC, osv.) hører til Standards."@nb,
+        "Gestão captura as atividades, ferramentas e softwares que uma gráfica usa internamente. As normas externas nomeadas que essas atividades referenciam (perfis ICC, ISO 12647, FSC etc.) pertencem a Normas."@pt,
+        "管理涵盖印刷厂内部使用的活动、工具和软件。这些活动所参照的外部标准（ICC色彩配置文件、ISO 12647、FSC等）属于标准分组。"@zh-Hans ;
+    ptpge:group "management" ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" ;
+    ptpge:visual [ ptpge:color "#009383" ;
+            ptpge:colorName "PTPGE Turquoise 1" ;
+            ptpge:palette "#009383",
+                "#00AF9A",
+                "#00C4B3",
+                "#19D3C5",
+                "#79D1D4" ;
+            ptpge:pantone "P 3285 C" ] .
+

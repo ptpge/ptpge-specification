@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers/sappi",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "Sappi",
+    "es": "Sappi",
+    "zh-Hans": "Sappi",
+    "nb": "Sappi",
+    "de": "Sappi",
+    "ja": "Sappi",
+    "sv": "Sappi",
+    "da": "Sappi",
+    "nl": "Sappi",
+    "pl": "Sappi",
+    "pt": "Sappi",
+    "hi": "Sappi"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "substrates",
+  "notation": "P:SB-SHT-PAPR-PSUP-SAPP",
+  "broader": "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-suppliers",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-10-09T10:30:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Global paper manufacturer based in South Africa with major European and North American operations — supplies coated and specialty papers for commercial printing, packaging, and graphic arts.",
+    "nb": "Global papirprodusent basert i Sør-Afrika med store europeiske og nordamerikanske virksomheter — leverer belagte og spesialpapirer til kommersiell trykk, emballasje og grafiske kunst.",
+    "de": "Globaler Papierhersteller mit Sitz in Südafrika und großen europäischen und nordamerikanischen Werken — liefert gestrichene und Spezialpapiere für gewerblichen Druck, Verpackungen und Grafikbranche.",
+    "ja": "南アフリカに本社を置き、欧州および北米に主要拠点を持つグローバル紙メーカー — 商業印刷、パッケージ、グラフィックアーツ向けの塗工紙および特殊紙を供給する。",
+    "es": "Sappi Limited — proveedor global de papeles comerciales y especiales, con marcas reconocidas en pre-prensa y producción premium.",
+    "zh-Hans": "Sappi Limited —— 全球商业和特种纸供应商，在印前和高端生产中有知名品牌。",
+    "sv": "Global papperstillverkare med säte i Sydafrika och stora verksamheter i Europa och Nordamerika — levererar bestrukna papper och specialpapper för civiltryck, förpackningar och grafisk industri.",
+    "da": "Global papirproducent med base i Sydafrika og store europæiske og nordamerikanske aktiviteter — leverer bestrøgne papirer og specialpapirer til kommercielt tryk, emballage og grafisk industri.",
+    "nl": "Wereldwijde papierfabrikant met basis in Zuid-Afrika en grote Europese en Noord-Amerikaanse activiteiten — levert gestreken en speciaalpapieren voor commercieel drukwerk, verpakkingen en grafische toepassingen.",
+    "pl": "Globalny producent papieru z siedzibą w RPA, z dużymi operacjami w Europie i Ameryce Północnej — dostarcza papiery powlekane i specjalne do druku komercyjnego, opakowań i sztuk graficznych.",
+    "pt": "Fabricante global de papel sediado na África do Sul, com grandes operações na Europa e na América do Norte — fornece papéis revestidos e especiais para impressão comercial, embalagem e artes gráficas.",
+    "hi": "दक्षिण अफ़्रीका स्थित वैश्विक काग़ज़ निर्माता, यूरोप और उत्तर अमेरिका में बड़े परिचालन — व्यावसायिक छपाई, पैकेजिंग और ग्राफ़िक आर्ट्स के लिए कोटेड और विशेष काग़ज़ों की आपूर्ति।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "MediaIntent",
+        "Media"
+      ],
+      "refs": [
+        "§4.11 · p.79",
+        "§6.57 · p.229"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 29"
+    }
+  ],
+  "deprecatedOn": "2026-10-06",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06; SD-0101, 2026-10-09): a maker's identity is a register entry under /v1/suppliers/, created when the company claims it at ptpge.org/adopt, and its series and models live in its own catalogue. No register entry exists yet for this maker. This URI keeps resolving.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06; SD-0101, 2026-10-09): en produsents identitet er en registeroppføring under /v1/suppliers/, opprettet når selskapet gjør identiteten gjeldende på ptpge.org/adopt, og serier og modeller lever i dens egen katalog. Ingen registeroppføring finnes ennå for denne produsenten. Denne URI-en fortsetter å svare."
+  }
+}

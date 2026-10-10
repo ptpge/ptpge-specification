@@ -1,0 +1,54 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment/mgi",
+  "type": "skos:Concept",
+  "version": "2026-10-06",
+  "status": "deprecated",
+  "level": "sub-category",
+  "groupingType": "vendor",
+  "label": {
+    "en": "MGI Digital Technology",
+    "es": "MGI Digital Technology",
+    "zh-Hans": "MGI Digital Technology",
+    "nb": "MGI Digital Technology",
+    "de": "MGI Digital Technology",
+    "ja": "MGI Digital Technology",
+    "sv": "MGI Digital Technology",
+    "da": "MGI Digital Technology",
+    "nl": "MGI Digital Technology",
+    "pl": "MGI Digital Technology",
+    "pt": "MGI Digital Technology",
+    "hi": "MGI Digital Technology"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/finishing-equipment",
+  "created": "2026-09-10T08:40:26Z",
+  "modified": "2026-10-06T19:16:59Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "MGI Digital Technology — French manufacturer (Konica Minolta group) of digital embellishment systems: the JETvarnish 3D family applies spot UV varnish in variable thickness and hot foil in one digital pass, sheet-fed and web.",
+    "nb": "MGI Digital Technology — fransk produsent (Konica Minolta-konsernet) av digitale foredlingssystemer: JETvarnish 3D-familien påfører spot-UV-lakk i variabel tykkelse og varmfolie i én digital operasjon, ark og bane.",
+    "de": "MGI Digital Technology — französischer Hersteller (Konica-Minolta-Gruppe) digitaler Veredelungssysteme: die JETvarnish-3D-Familie trägt Spot-UV-Lack in variabler Schichtdicke und Heißfolie in einem digitalen Durchgang auf, Bogen und Rolle.",
+    "es": "MGI Digital Technology — fabricante francés (grupo Konica Minolta) de sistemas de embellecimiento digital: la familia JETvarnish 3D aplica barniz UV selectivo de espesor variable y estampado en caliente en una sola pasada digital, en hoja y en bobina.",
+    "zh-Hans": "MGI Digital Technology —— 法国数字装饰设备制造商（柯尼卡美能达集团）：JETvarnish 3D 系列可在一次数字作业中施加可变厚度的局部 UV 上光和烫金，支持单张与卷筒。",
+    "ja": "MGI Digital Technology — フランスのデジタル加飾装置メーカー（コニカミノルタグループ）。JETvarnish 3D シリーズは可変厚のスポットUVニスとホットフォイルを1回のデジタル工程で施し、枚葉・巻取の両方に対応する。",
+    "sv": "MGI Digital Technology — fransk tillverkare (Konica Minolta-koncernen) av digitala förädlingssystem: JETvarnish 3D-familjen lägger spot-UV-lack i variabel tjocklek och varmfolie i ett digitalt steg, ark och rulle.",
+    "da": "MGI Digital Technology — fransk producent (Konica Minolta-koncernen) af digitale forædlingssystemer: JETvarnish 3D-familien påfører spot-UV-lak i variabel tykkelse og varmfolie i én digital arbejdsgang, ark og bane.",
+    "nl": "MGI Digital Technology — Franse fabrikant (Konica Minolta-groep) van digitale veredelingssystemen: de JETvarnish 3D-familie brengt spot-uv-lak in variabele dikte en hete folie in één digitale bewerking aan, vel en rol.",
+    "pl": "MGI Digital Technology — francuski producent (grupa Konica Minolta) cyfrowych systemów uszlachetniania: rodzina JETvarnish 3D nakłada lakier UV punktowy o zmiennej grubości i folię na gorąco w jednym przebiegu cyfrowym, arkuszowo i z roli.",
+    "pt": "MGI Digital Technology — fabricante francês (grupo Konica Minolta) de sistemas digitais de enobrecimento: a família JETvarnish 3D aplica verniz UV localizado em espessura variável e hot stamping em uma única passagem digital, em folha e em bobina.",
+    "hi": "MGI Digital Technology — डिजिटल एम्बेलिशमेंट सिस्टम का फ़्रांसीसी निर्माता (Konica Minolta समूह): JETvarnish 3D परिवार एक ही डिजिटल पास में परिवर्तनशील मोटाई का स्पॉट UV वार्निश और हॉट फ़ॉइल लगाता है, शीट-फ़ेड और वेब।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "notation": "P:TC-PFE-FNEQ-MGI",
+  "deprecatedOn": "2026-10-06",
+  "replacedBy": "https://ptpge.org/v1/suppliers/mgi",
+  "deprecationReason": {
+    "en": "Company names leave the vocabulary (SD-0097, 2026-10-06): a maker's identity is a register entry under /v1/suppliers/, and its series and models live in its supplier catalogue. This URI keeps resolving and points to the register entry.",
+    "nb": "Firmanavn går ut av vokabularet (SD-0097, 2026-10-06): en produsents identitet er en registeroppføring under /v1/suppliers/, og serier og modeller lever i produsentkatalogen. Denne URI-en fortsetter å svare og peker til registeroppføringen."
+  }
+}

@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/order/incoterm> a skos:Concept ;
+    dcterms:created "2026-06-26T05:36:54+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    skos:altLabel "Delivery term"@en,
+        "Incoterms 2020"@en,
+        "Trade term"@en,
+        "Incoterms 2020"@hi,
+        "डिलीवरी शर्त"@hi,
+        "व्यापार शर्त"@hi,
+        "Incoterms 2020"@pl,
+        "reguła handlowa"@pl,
+        "warunki dostawy"@pl,
+        "Incoterms 2020"@pt,
+        "condição de entrega"@pt,
+        "termo comercial"@pt ;
+    skos:broader <https://ptpge.org/v1/variables/order> ;
+    skos:definition "Konfigurerbar akse: Incoterm (enum, enkeltvalg). Tilladte værdier er Incoterms 2020-klausulerne i det refererede værdidomæne."@da,
+        "Konfigurierbare Achse: Incoterm (Enum, Einfachauswahl). Zulässige Werte sind die Incoterms-2020-Klauseln in der referenzierten valueDomain."@de,
+        "Configurable axis: Incoterm (enum, single). Allowed values are the Incoterms 2020 terms in the referenced valueDomain."@en,
+        "Eje configurable: Incoterm (enum, selección única). Los valores permitidos son los términos Incoterms 2020 del valueDomain referenciado."@es,
+        "कॉन्फ़िगर करने योग्य अक्ष: इनकोटर्म (enum, एकल)। अनुमत मान संदर्भित valueDomain के Incoterms 2020 पद हैं।"@hi,
+        "構成可能な軸：インコタームズ（列挙型、単一選択）。許容値は参照先 valueDomain にある Incoterms 2020 の条件。"@ja,
+        "Konfigurerbar akse: Incoterm (enum, single). Verdier er Incoterms 2020-vilkårene i value-domain."@nb,
+        "Configureerbare as: Incoterm (enum, enkelvoudig). Toegestane waarden zijn de Incoterms 2020-termen in het gerefereerde waardedomein."@nl,
+        "Oś konfigurowalna: Incoterm (enum, pojedynczy). Dozwolone wartości to reguły Incoterms 2020 z przywołanej valueDomain."@pl,
+        "Eixo configurável: Incoterm (enumeração, único). Os valores permitidos são os termos Incoterms 2020 do valueDomain referenciado."@pt,
+        "Konfigurerbar axel: Incoterm (uppräkning, enkelval). Tillåtna värden är Incoterms 2020-termerna i den refererade värdedomänen."@sv,
+        "可配置轴：国际贸易术语（枚举，单选）。允许的取值为所引用 valueDomain 中的 Incoterms 2020 条款。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:OR§INCOTERM" ;
+    skos:prefLabel "Incoterm"@da,
+        "Incoterm"@de,
+        "Incoterm"@en,
+        "Incoterm"@es,
+        "इनकोटर्म"@hi,
+        "インコタームズ"@ja,
+        "Incoterm"@nb,
+        "Incoterm"@nl,
+        "Incoterm"@pl,
+        "Incoterm"@pt,
+        "Incoterm"@sv,
+        "国际贸易术语"@zh-Hans ;
+    ptpge:cardinality "single" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Hvilke leveringsbetingelser?"@da,
+        "Welche Lieferbedingungen?"@de,
+        "Which delivery terms?"@en,
+        "¿Qué condiciones de entrega?"@es,
+        "कौन-सी डिलीवरी शर्तें?"@hi,
+        "取引条件は？"@ja,
+        "Hvilke leveringsbetingelser?"@nb,
+        "Welke leveringsvoorwaarden?"@nl,
+        "Jakie warunki dostawy?"@pl,
+        "Que condições de entrega?"@pt,
+        "Vilka leveransvillkor?"@sv,
+        "什么交货条款？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/ordering/distribution/incoterms> ;
+    ptpge:version "2026-06-26" .
+

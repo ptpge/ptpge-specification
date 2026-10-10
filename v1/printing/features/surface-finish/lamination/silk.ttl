@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/features/surface-finish/lamination/silk> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Satin Lamination"@en,
+        "Satin laminated"@en,
+        "Satin lamination"@en,
+        "Silk laminated"@en,
+        "सिल्क लैमिनेट"@hi,
+        "सैटिन फ़िनिश लैमिनेशन"@hi,
+        "सैटिन लैमिनेशन"@hi,
+        "Satenglaminering"@nb,
+        "Silke-laminering"@nb,
+        "Silkematt laminering"@nb,
+        "folia satynowa"@pl,
+        "folia silk"@pl,
+        "laminat satynowy"@pl,
+        "acetinado"@pt,
+        "laminação cetim"@pt,
+        "laminação satin"@pt,
+        "laminação seda"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/lamination> ;
+    skos:definition "Silkeplastfilm lamineret på den trykte overflade. Giver en glat, let satineret finish mellem mat og blank — hverken kedelig eller stærkt reflekterende. Diskret eksklusiv fornemmelse, ofte valgt til redaktionelt arbejde."@da,
+        "Seiden-Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet ein glattes, leicht satiniertes Finish zwischen matt und glänzend."@de,
+        "Silk plastic film laminated to the printed surface. Provides a smooth, slightly satin finish between matte and gloss — neither dull nor highly reflective. Subtle premium feel, often chosen for editorial and corporate communications."@en,
+        "Película plástica sedosa laminada sobre la superficie impresa. Un acabado suave, ligeramente satinado, entre mate y brillo — ni apagado ni muy reflectante. Sensación premium sutil, a menudo elegida para comunicaciones editoriales y corporativas."@es,
+        "छपी सतह पर लैमिनेट की गई सिल्क प्लास्टिक फ़िल्म। मैट और ग्लॉस के बीच चिकनी, हल्की सैटिन फ़िनिश — न फीकी, न ज़्यादा चमकीली। सूक्ष्म प्रीमियम अहसास, अक्सर संपादकीय और कॉर्पोरेट संचार में।"@hi,
+        "印刷面に貼り合わせるシルクフィルム。マットとグロスの中間の、滑らかでわずかにサテン調の仕上げ — 沈まず、強く反射もしない。さりげない上質感があり、エディトリアルやコーポレートのコミュニケーションによく選ばれる。"@ja,
+        "Silke plastikkfilm laminert til den trykte overflaten. Gir en glatt, lett satin finish mellom matt og glans — verken matt eller svært reflekterende. Subtil premium-følelse, ofte valgt for redaksjonell og bedriftskommunikasjon."@nb,
+        "Silk-kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een gladde, licht satijnen afwerking tussen mat en glanzend — subtiel exclusief gevoel, vaak gekozen voor redactioneel werk."@nl,
+        "Satynowa folia laminowana na zadrukowanej powierzchni. Daje gładkie, lekko satynowe wykończenie między matem a połyskiem — ani matowe, ani silnie odbijające. Subtelne odczucie premium, często wybierane do komunikacji redakcyjnej i korporacyjnej."@pl,
+        "Filme plástico acetinado laminado sobre a superfície impressa. Dá um acabamento liso, levemente acetinado, entre fosco e brilho — nem opaco nem muito reflexivo. Toque premium sutil, escolhido com frequência para comunicação editorial e corporativa."@pt,
+        "Silkplastfilm laminerad på tryckytan. Ger en slät, lätt satinerad finish mellan matt och blank — varken glanslös eller starkt reflekterande. Subtil premiumkänsla, ofta vald för redaktionell och företagskommunikation."@sv,
+        "复合在印刷表面的丝光塑料薄膜。介于哑光与亮光之间的平滑微缎面效果 — 既不沉闷也不强反光。低调的高级质感，常用于出版物与企业宣传材料。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§SILK-LAMINATION" ;
+    skos:prefLabel "Silkelaminering"@da,
+        "Seiden-Laminierung"@de,
+        "Silk Lamination"@en,
+        "Laminado seda"@es,
+        "सिल्क लैमिनेशन"@hi,
+        "シルクラミネート"@ja,
+        "Silke-laminering"@nb,
+        "Zijdeglanslaminaat"@nl,
+        "Laminowanie satynowe"@pl,
+        "Laminação acetinada"@pt,
+        "Silklaminering"@sv,
+        "丝绒覆膜"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.9 · p.78",
+                "§5.6.23 · p.125" ;
+            ptpge:mappingRow "crosswalk row 45" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Laminating",
+                "LaminatingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

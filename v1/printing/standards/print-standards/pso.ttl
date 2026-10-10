@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/standards/print-standards/pso> a skos:Concept ;
+    dcterms:created "2026-06-17T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "Process Standard Offset"@en,
+        "Process Standard Offset"@hi,
+        "Process Standard Offset"@pl,
+        "Process Standard Offset"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/print-standards> ;
+    skos:definition "Process Standard Offset — Fogras/bvdm’s operationelle implementering af ISO 12647-2 for offsetproduktion."@da,
+        "Process Standard Offset — die operative Umsetzung von ISO 12647-2 für die Offsetproduktion durch Fogra/bvdm."@de,
+        "Process Standard Offset — the Fogra/bvdm operational implementation of ISO 12647-2 for offset production."@en,
+        "Process Standard Offset — la implementación operativa de Fogra/bvdm de ISO 12647-2 para la producción ófset."@es,
+        "Process Standard Offset — ऑफसेट उत्पादन के लिए ISO 12647-2 का Fogra/bvdm परिचालन कार्यान्वयन।"@hi,
+        "プロセス・スタンダード・オフセット — Fogra／bvdm による ISO 12647-2 のオフセット生産向け運用実装。"@ja,
+        "Process Standard Offset — Fogra/bvdm sin operasjonelle implementering av ISO 12647-2 for offset-produksjon."@nb,
+        "Process Standard Offset — de operationele implementatie van ISO 12647-2 voor offsetproductie door Fogra/bvdm."@nl,
+        "Process Standard Offset — operacyjna implementacja ISO 12647-2 dla produkcji offsetowej opracowana przez Fogra/bvdm."@pl,
+        "Process Standard Offset — a implementação operacional Fogra/bvdm da ISO 12647-2 para produção offset."@pt,
+        "Process Standard Offset — Fogras/bvdm:s operativa implementation av ISO 12647-2 för offsetproduktion."@sv,
+        "过程标准胶印（PSO）——Fogra/bvdm 对 ISO 12647-2 在胶印生产中的操作性实施。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PSO" ;
+    skos:prefLabel "PSO (Process Standard Offset)"@da,
+        "PSO (Process Standard Offset)"@en,
+        "PSO (Process Standard Offset)"@hi,
+        "PSO (Process Standard Offset)"@nb,
+        "PSO (Process Standard Offset)"@nl,
+        "PSO (Process Standard Offset)"@pl,
+        "PSO (Process Standard Offset)"@pt,
+        "PSO (Process Standard Offset)"@sv ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-17" .
+

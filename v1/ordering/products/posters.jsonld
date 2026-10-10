@@ -1,0 +1,303 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/ordering/products/posters",
+  "type": "skos:Concept",
+  "version": "2026-09-28",
+  "status": "proposed",
+  "level": "element",
+  "notation": "O:PR§POSTERS",
+  "elementType": "product",
+  "label": {
+    "en": "Posters",
+    "nb": "Plakater",
+    "de": "Poster",
+    "ja": "ポスター",
+    "es": "Pósteres",
+    "zh-Hans": "海报",
+    "nl": "Posters",
+    "sv": "Affischer",
+    "da": "Plakater",
+    "pl": "Plakaty",
+    "pt": "Pôsteres",
+    "hi": "पोस्टर"
+  },
+  "altLabels": {
+    "en": [
+      "Poster",
+      "Wall Poster",
+      "Display Poster",
+      "Advertising Poster",
+      "Large-Format Print",
+      "Large Format Poster"
+    ],
+    "nb": [
+      "Plakat",
+      "Postere",
+      "Veggplakat",
+      "Reklameplakat",
+      "Storformatplakat"
+    ],
+    "sv": [
+      "Planscher",
+      "affisch",
+      "plansch",
+      "postrar",
+      "storformatsaffisch",
+      "reklamaffisch"
+    ],
+    "de": [
+      "Plakate",
+      "Großplakate",
+      "Werbeplakate"
+    ],
+    "es": [
+      "Carteles publicitarios",
+      "Pósteres",
+      "Carteles",
+      "póster",
+      "cartel",
+      "afiche",
+      "cartel publicitario",
+      "gran formato",
+      "lámina"
+    ],
+    "pl": [
+      "plakat",
+      "plakat ścienny",
+      "plakat reklamowy",
+      "afisz",
+      "wydruk wielkoformatowy"
+    ],
+    "da": [
+      "plakat",
+      "postere",
+      "storformatplakat",
+      "reklameplakat"
+    ],
+    "nl": [
+      "affiche",
+      "affiches",
+      "grootformaat poster",
+      "reclameposter"
+    ],
+    "pt": [
+      "pôster",
+      "cartaz",
+      "cartaz de parede",
+      "cartaz publicitário",
+      "impressão em grande formato",
+      "poster"
+    ],
+    "hi": [
+      "पोस्टर",
+      "दीवार पोस्टर",
+      "विज्ञापन पोस्टर",
+      "डिस्प्ले पोस्टर",
+      "लार्ज-फॉर्मेट प्रिंट"
+    ],
+    "ja": [
+      "大判ポスター",
+      "販促ポスター",
+      "壁ポスター",
+      "大型印刷"
+    ],
+    "zh-Hans": [
+      "招贴",
+      "宣传海报",
+      "大幅面海报",
+      "挂画"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "products",
+  "broader": "https://ptpge.org/v1/ordering/products",
+  "created": "2026-05-18T12:24:24Z",
+  "modified": "2026-09-28T12:25:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "A large-format single-sheet print for display and promotion — walls, windows, events, and point-of-sale. Typically printed on one side in large A-series formats (A4 up to A0) on heavier paper, and delivered flat (no folding or binding). Built on the Flat Sheet Setup Model.",
+    "nb": "Et storformat enkeltark for visning og markedsføring — vegger, vinduer, arrangementer og salgssteder. Vanligvis trykt på én side i store A-formater (A4 opp til A0) på tyngre papir, og levert flatt (uten bretting eller innbinding). Bygget på Flat Sheet Setup Model.",
+    "de": "Ein großformatiger Einzelbogen-Druck für Präsentation und Werbung — Wände, Schaufenster, Veranstaltungen und POS. Meist einseitig in großen A-Formaten (A4 bis A0) auf schwererem Papier gedruckt und flach geliefert (ohne Falzung oder Bindung). Basiert auf dem Flat Sheet Setup Model.",
+    "ja": "掲示・販促向けの大判一枚物印刷——壁、窓、イベント、POP など。通常は大きな A 判（A4〜A0）の厚めの用紙に片面印刷し、フラット（折りや綴じなし）で提供される。Flat Sheet Setup Model に基づく。",
+    "es": "Impresión de gran formato en una sola hoja para exhibición y promoción — paredes, escaparates, eventos y punto de venta. Normalmente impreso por una cara en formatos A grandes (A4 hasta A0) sobre papel más grueso, y entregado plano (sin plegado ni encuadernación). Basado en el Flat Sheet Setup Model.",
+    "zh-Hans": "用于展示和推广的大幅面单张印刷品——墙面、橱窗、活动和卖场。通常采用较厚纸张、大尺寸 A 系列幅面（A4 至 A0）单面印刷，平张交付（不折页、不装订）。基于 Flat Sheet Setup Model。",
+    "sv": "Ett storformats enarkstryck för exponering och promotion — väggar, fönster, evenemang och butiksmiljö. Trycks vanligen ensidigt i större A-format (A4 upp till A0) på tyngre papper och levereras plant (ingen falsning eller bindning). Bygger på uppbyggnadsmodellen Plant ark.",
+    "da": "Et storformat enkeltarktryk til visning og promovering — vægge, vinduer, arrangementer og point-of-sale. Typisk trykt på én side i store A-formater (A4 op til A0) på kraftigere papir og leveret fladt (ingen falsning eller indbinding). Bygget på opsætningsmodellen Flat Sheet.",
+    "nl": "Een grootformaatdruk van één vel voor presentatie en promotie — wanden, ramen, evenementen en point-of-sale. Doorgaans enkelzijdig gedrukt in grote A-formaten (A4 tot A0) op zwaarder papier en vlak geleverd. Gebouwd op het opbouwmodel Flat Sheet.",
+    "pl": "Wielkoformatowy jednoarkuszowy wydruk do ekspozycji i promocji — ściany, witryny, wydarzenia i miejsca sprzedaży. Zwykle drukowany jednostronnie w dużych formatach serii A (od A4 do A0) na cięższym papierze i dostarczany na płasko (bez składania ani oprawy). Oparty na modelu konfiguracji Arkusz płaski.",
+    "pt": "Impresso de folha única em grande formato para exposição e promoção — paredes, vitrines, eventos e ponto de venda. Normalmente impresso em uma face, em formatos grandes da série A (A4 até A0) em papel mais pesado, e entregue plano (sem dobra nem encadernação). Baseado no Modelo de Montagem Folha Plana.",
+    "hi": "प्रदर्शन और प्रचार के लिए लार्ज-फॉर्मेट एक-शीट प्रिंट — दीवारें, खिड़कियाँ, आयोजन और बिक्री-स्थल। आमतौर पर बड़े A-सीरीज़ फ़ॉर्मेट (A4 से A0) में भारी काग़ज़ पर एक तरफ़ छपा, और सपाट दिया जाता है (बिना फ़ोल्ड या बाइंडिंग)। फ़्लैट शीट सेटअप मॉडल पर आधारित।"
+  },
+  "supportsFormat": [
+    "https://ptpge.org/v1/printing/configurations/formats/customized",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a3-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a2",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a1-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a0-plus",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/letter",
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/legal",
+    "https://ptpge.org/v1/printing/configurations/formats/us/ledger",
+    "https://ptpge.org/v1/printing/configurations/formats/us/tabloid",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-a",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-b",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-c",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-d",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series/ansi-e",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-a",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-b",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-c",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-d",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e1",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e"
+  ],
+  "supportsOrientation": [
+    "https://ptpge.org/v1/printing/configurations/orientation/landscape",
+    "https://ptpge.org/v1/printing/configurations/orientation/portrait"
+  ],
+  "supportsShape": [
+    "https://ptpge.org/v1/printing/configurations/shape/rectangle"
+  ],
+  "supportsTechnology": [
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset",
+    "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/screen"
+  ],
+  "supportsSubstrate": [
+    "https://ptpge.org/v1/printing/substrates/roll-materials/paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper"
+  ],
+  "supportsSubstrateWeight": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/heavy-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/light-medium-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/medium-paper"
+  ],
+  "supportsSubstrateFinish": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/matte-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/glossy-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/silk-paper",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-surfaces/textured-paper"
+  ],
+  "supportsSubstrateFibre": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/recycled-fibre",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-fibre/fresh-fibre"
+  ],
+  "supportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "supportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting"
+  ],
+  "supportsCertification": [
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/pefctm",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",
+    "https://ptpge.org/v1/printing/standards/certifications/environmental/nordic-swan-ecolabel"
+  ],
+  "supportsSetupModel": [
+    "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
+  ],
+  "perSurfaceSupportsColorMode": [
+    "https://ptpge.org/v1/printing/features/colors/black",
+    "https://ptpge.org/v1/printing/features/colors/cmyk",
+    "https://ptpge.org/v1/printing/features/colors/spot-color",
+    "https://ptpge.org/v1/printing/features/colors/none",
+    "https://ptpge.org/v1/printing/features/colors/white"
+  ],
+  "perSurfaceSupportsEmbellishment": [
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold",
+    "https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver"
+  ],
+  "perSurfaceSupportsSurfaceFinish": [
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte"
+  ],
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "customSizeRange": {
+    "min": 200,
+    "max": 1450,
+    "unit": "mm"
+  },
+  "supportsFormatFamilies": [
+    "https://ptpge.org/v1/printing/configurations/formats/a-series",
+    "https://ptpge.org/v1/printing/configurations/formats/us",
+    "https://ptpge.org/v1/printing/configurations/formats/ansi-series",
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series"
+  ],
+  "supportsSubstrateColor": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"
+  ],
+  "supportsSubstrateCoating": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/uncoated"
+  ],
+  "supportsPrintStandard": [
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra39",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra51",
+    "https://ptpge.org/v1/printing/standards/print-standards/fogra52",
+    "https://ptpge.org/v1/printing/standards/print-standards/pso",
+    "https://ptpge.org/v1/printing/standards/print-standards/iso-12647-2",
+    "https://ptpge.org/v1/printing/standards/print-standards/g7",
+    "https://ptpge.org/v1/printing/standards/print-standards/gracol-2013",
+    "https://ptpge.org/v1/printing/standards/print-standards/swop",
+    "https://ptpge.org/v1/printing/standards/print-standards/japan-color-2011",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc1",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc2",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc3",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc4",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc5",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc6",
+    "https://ptpge.org/v1/printing/standards/print-standards/crpc7"
+  ],
+  "supportsSubstrateClass": [
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps1-premium-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps2-improved-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps3-standard-glossy-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps4-standard-matte-coated",
+    "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-classes/ps5-wood-free-uncoated"
+  ],
+  "requiredVariables": [
+    "https://ptpge.org/v1/variables/configuration/setup-model",
+    "https://ptpge.org/v1/variables/configuration/format",
+    "https://ptpge.org/v1/variables/configuration/orientation",
+    "https://ptpge.org/v1/variables/features/color-mode"
+  ],
+  "recommendedVariables": [
+    "https://ptpge.org/v1/variables/configuration/shape",
+    "https://ptpge.org/v1/variables/production/technology",
+    "https://ptpge.org/v1/variables/substrate/substrate-type",
+    "https://ptpge.org/v1/variables/substrate/substrate-weight",
+    "https://ptpge.org/v1/variables/substrate/substrate-finish",
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/compliance/certification",
+    "https://ptpge.org/v1/variables/features/embellishment",
+    "https://ptpge.org/v1/variables/substrate/substrate-color",
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/substrate/substrate-fibre",
+    "https://ptpge.org/v1/variables/compliance/print-standard",
+    "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ]
+}

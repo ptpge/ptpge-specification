@@ -1,0 +1,74 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/management/workflow/versioning-storage",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Versioning & Storage",
+    "es": "Versionado y Almacenamiento",
+    "zh-Hans": "版本控制与存储",
+    "nb": "Versjonering & lagring",
+    "de": "Versionierung & Speicherung",
+    "ja": "バージョン管理とストレージ",
+    "sv": "Versionering & lagring",
+    "da": "Versionering & lagring",
+    "nl": "Versiebeheer & opslag",
+    "pl": "Wersjonowanie i przechowywanie",
+    "pt": "Versionamento e armazenamento",
+    "hi": "संस्करण और भंडारण"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "management",
+  "notation": "P:MG§VERSIONING-STORAGE",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/management/workflow",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:54:01Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Maintaining an auditable history of file versions and providing long-term storage of approved production files — for reprints, archival compliance, and rollback if errors are discovered after delivery.",
+    "nb": "Vedlikeholde en revisjonssporbar historikk av filversjoner og gi langsiktig lagring av godkjente produksjonsfiler — for opptrykk, arkivkrav og tilbakerulling hvis feil oppdages etter levering.",
+    "de": "Pflege einer überprüfbaren Versionshistorie von Dateien sowie Langzeitarchivierung freigegebener Produktionsdateien — für Nachdrucke, Archivierungs-Compliance und Rollback bei nachträglich entdeckten Fehlern.",
+    "ja": "ファイルバージョンの監査可能な履歴を維持し、承認済みの生産用ファイルを長期保存する — 増刷、アーカイブ準拠、納品後にエラーが発見された場合のロールバックのため。",
+    "es": "Control de versiones de archivos del trabajo — qué versión es la aprobada, qué cambios se han hecho y dónde se almacena el histórico.",
+    "zh-Hans": "作业文件的版本控制 —— 哪个版本已批准、做了什么更改、历史在哪里存储。",
+    "sv": "Upprätthållande av en spårbar historik över filversioner och långtidslagring av godkända produktionsfiler — för nytryck, arkivkrav och återställning om fel upptäcks efter leverans.",
+    "da": "Vedligeholdelse af en sporbar historik over filversioner og langtidslagring af godkendte produktionsfiler — til genoptryk, arkivkrav og tilbagerulning, hvis der opdages fejl efter produktion.",
+    "nl": "Het bijhouden van een controleerbare historie van bestandsversies en langdurige opslag van goedgekeurde productiebestanden — voor herdrukken, archiefverplichtingen en terugdraaien als na productie fouten worden ontdekt.",
+    "pl": "Utrzymywanie audytowalnej historii wersji plików i długoterminowe przechowywanie zatwierdzonych plików produkcyjnych — do dodruków, zgodności archiwalnej i wycofania zmian, jeśli błędy zostaną wykryte po dostawie.",
+    "pt": "Manutenção de um histórico auditável de versões de arquivo e armazenamento de longo prazo dos arquivos de produção aprovados — para reimpressões, conformidade de arquivamento e reversão caso erros sejam descobertos após a entrega.",
+    "hi": "फ़ाइल संस्करणों का ऑडिट-योग्य इतिहास बनाए रखना और अनुमोदित उत्पादन फ़ाइलों का दीर्घकालिक भंडारण — पुनर्मुद्रण, संग्रहण अनुपालन और डिलीवरी के बाद त्रुटि मिलने पर रोलबैक के लिए।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "versioning",
+      "file storage",
+      "version control"
+    ],
+    "nb": [
+      "versjonering",
+      "fillagring"
+    ],
+    "pl": [
+      "wersjonowanie",
+      "przechowywanie plików",
+      "kontrola wersji"
+    ],
+    "pt": [
+      "versionamento",
+      "armazenamento de arquivos",
+      "controle de versão"
+    ],
+    "hi": [
+      "संस्करण",
+      "फ़ाइल भंडारण",
+      "संस्करण नियंत्रण"
+    ]
+  }
+}

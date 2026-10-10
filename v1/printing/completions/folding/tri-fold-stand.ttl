@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/folding/tri-fold-stand> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions/folding> ;
+    skos:definition "Trefals-variant, hvor ét panel er dimensioneret som base eller stander, så det falsede tryk kan stå oprejst på en flad overflade. Bruges til bordkort, fritstående kampagnekort og diskdisplay."@da,
+        "Variante des Wickelfalzes, bei der ein Feld als Sockel oder Standfuß bemessen ist und so dem gefalzten Stück ermöglicht, aufrecht auf einer ebenen Fläche zu stehen. Verwendet für Tischaufsteller, freistehende Werbekarten und Thekendisplays."@de,
+        "Tri-fold variant where one panel is sized to act as a base or stand, allowing the folded piece to stand upright on a flat surface. Used for table tents, freestanding promotional cards, and counter displays."@en,
+        "Tríptico plegado de forma que permita al producto quedar de pie como display — habitual en menús, tarjetones de mesa."@es,
+        "ट्राई-फ़ोल्ड का वह रूप जिसमें एक पैनल आधार या स्टैंड की तरह मापा जाता है ताकि मुड़ी सामग्री सपाट सतह पर खड़ी रहे। टेबल टेंट, स्वयं खड़े प्रचार कार्ड और काउंटर डिस्प्ले में।"@hi,
+        "三つ折りのバリアントで、1つの面が台または支えとして機能するサイズに設定され、折った印刷物が平らな面に直立できるようにする。テーブルテント、自立型プロモーションカード、カウンターディスプレイに使用される。"@ja,
+        "Tri-fold-variant der ett panel er dimensjonert til å fungere som en base eller stativ, og lar den foldede biten stå oppreist på en flat overflate. Brukt til bordreklame, frittstående promoteringskort og diskdisplayer."@nb,
+        "Wikkelvouwvariant waarbij één paneel als basis of standaard is bemeten, zodat het gevouwen stuk rechtop kan staan op een vlak oppervlak. Gebruikt voor tafelkaarten, vrijstaande promotiekaarten en baliedisplays."@nl,
+        "Wariant złamu na C, w którym jedno skrzydło ma rozmiar podstawy lub stojaka, dzięki czemu złożony element stoi pionowo na płaskiej powierzchni. Stosowany w stojaczkach na stół, wolnostojących kartach promocyjnych i ekspozytorach ladowych."@pl,
+        "Variante do tríptico em que um painel é dimensionado para servir de base ou apoio, permitindo que a peça dobrada fique em pé sobre uma superfície plana. Usada em cartões de mesa, peças promocionais autoportantes e displays de balcão."@pt,
+        "C-falsvariant där en panel är dimensionerad som bas eller stöd, så att den falsade produkten kan stå upprätt på ett plant underlag. Används för bordsryttare, fristående kampanjkort och diskdisplayer."@sv,
+        "三折以使产品能像立式展示一样直立 —— 常见于菜单、桌面卡片。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§TRI-FOLD-STAND" ;
+    skos:prefLabel "Trefals bordstander"@da,
+        "Wickelfalz mit Standfuß"@de,
+        "Tri Fold Stand"@en,
+        "Tríptico Display"@es,
+        "ट्राई-फ़ोल्ड स्टैंड"@hi,
+        "三つ折りスタンド"@ja,
+        "Tre-fold stativ"@nb,
+        "Wikkelvouw tafelstandaard"@nl,
+        "Złam na C stojący"@pl,
+        "Tríptico de mesa"@pt,
+        "C-fals med ställ"@sv,
+        "三折立式"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+                "§5.6.15 · p.120",
+                "§6.36 · p.202",
+                "§8.21 · p.349" ;
+            ptpge:mappingRow "crosswalk row 38" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Fold",
+                "Folding",
+                "FoldingIntent",
+                "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+

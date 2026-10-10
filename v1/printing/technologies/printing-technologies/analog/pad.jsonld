@@ -1,0 +1,94 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog/pad",
+  "type": "skos:Concept",
+  "version": "2026-06-05",
+  "status": "proposed",
+  "level": "element",
+  "label": {
+    "en": "Pad",
+    "es": "Tampografía",
+    "zh-Hans": "移印",
+    "nb": "Tampo / pad-trykk",
+    "de": "Tampondruck",
+    "ja": "パッド印刷",
+    "sv": "Tampongtryck",
+    "da": "Tampontryk",
+    "nl": "Tampondruk",
+    "pl": "Tampodruk",
+    "pt": "Tampografia",
+    "hi": "पैड"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "technologies",
+  "notation": "P:TC§PAD",
+  "elementType": "value",
+  "broader": "https://ptpge.org/v1/printing/technologies/printing-technologies/analog",
+  "created": "2026-05-18T12:24:03Z",
+  "modified": "2026-09-23T06:42:30Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": {
+    "en": "Indirect printing technology using a flexible silicone pad that picks up ink from an etched plate and transfers it to a three-dimensional or curved object. Used for printing on pens, electronics, golf balls, medical devices, and other complex shapes.",
+    "nb": "Indirekte trykketeknologi som bruker en fleksibel silikonpad som plukker opp blekk fra en etset plate og overfører det til et tredimensjonalt eller buet objekt. Brukt til å trykke på penner, elektronikk, golfballer, medisinsk utstyr og andre komplekse former.",
+    "de": "Indirektes Druckverfahren mit einem flexiblen Silikon-Tampon, der Farbe von einer geätzten Platte aufnimmt und auf ein dreidimensionales oder gekrümmtes Objekt überträgt. Eingesetzt für den Druck auf Stiften, Elektronik, Golfbällen, Medizinprodukten und anderen komplexen Formen.",
+    "ja": "柔軟なシリコンパッドが彫刻された版からインキを拾い、三次元または曲面の物体に転写する間接印刷技術。ペン、電子機器、ゴルフボール、医療機器、その他の複雑な形状への印刷に使用される。",
+    "es": "Tecnología que utiliza un tampón de silicona para recoger tinta de una plancha grabada y transferirla a un objeto tridimensional irregular — bolígrafos, mecheros, componentes electrónicos.",
+    "zh-Hans": "使用硅胶移印头从蚀刻印版上拾取油墨并将其转移到不规则三维物体上的技术 —— 圆珠笔、打火机、电子元件。",
+    "sv": "Indirekt tryckteknik med en flexibel silikontampong som plockar upp bläck från en etsad plåt och överför det till ett tredimensionellt eller böjt föremål. Används för tryck på pennor, elektronik, golfbollar, medicinteknik och andra komplexa former.",
+    "da": "Indirekte trykteknik med en fleksibel silikonetampon, der opsamler farve fra en ætset plade og overfører den til et tredimensionelt eller buet emne. Bruges til tryk på kuglepenne, elektronik, golfbolde, medicinsk udstyr og andre komplekse former.",
+    "nl": "Indirecte druktechnologie met een flexibele siliconentampon die inkt van een geëtste plaat opneemt en overbrengt op een driedimensionaal of gebogen object. Gebruikt voor bedrukking van pennen, elektronica, golfballen, medische hulpmiddelen en andere complexe vormen.",
+    "pl": "Pośrednia technologia druku z użyciem elastycznego tamponu silikonowego, który pobiera farbę z wytrawionej formy i przenosi ją na obiekt trójwymiarowy lub zakrzywiony. Używana do druku na długopisach, elektronice, piłkach golfowych, wyrobach medycznych i innych złożonych kształtach.",
+    "pt": "Tecnologia de impressão indireta que usa um tampão flexível de silicone para recolher a tinta de uma chapa gravada e transferi-la a um objeto tridimensional ou curvo. Usada para imprimir em canetas, eletrônicos, bolas de golfe, dispositivos médicos e outras formas complexas.",
+    "hi": "अप्रत्यक्ष मुद्रण तकनीक जिसमें लचीला सिलिकॉन पैड उकेरी प्लेट से स्याही उठाकर त्रि-आयामी या वक्र वस्तु पर उतारता है। पेन, इलेक्ट्रॉनिक्स, गोल्फ़ गेंदों, चिकित्सा उपकरणों और अन्य जटिल आकारों पर छपाई में।"
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "altLabels": {
+    "en": [
+      "Pad printing",
+      "Tampography"
+    ],
+    "nb": [
+      "Tampotrykk"
+    ],
+    "sv": [
+      "Tampotryck"
+    ],
+    "da": [
+      "Tampotryk"
+    ],
+    "nl": [
+      "tampografie"
+    ],
+    "pl": [
+      "druk tamponowy",
+      "tampografia"
+    ],
+    "pt": [
+      "Impressão por tampão",
+      "Tampoprint"
+    ],
+    "hi": [
+      "पैड प्रिंटिंग",
+      "टैम्पोग्राफ़ी"
+    ]
+  },
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "ProductionIntent",
+        "ConventionalPrinting"
+      ],
+      "refs": [
+        "§4.12 · p.81",
+        "§5.5.1 · p.110"
+      ],
+      "match": "exact",
+      "via": "crosswalk row 16"
+    }
+  ]
+}
