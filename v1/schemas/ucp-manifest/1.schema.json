@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ptpge.org/v1/schemas/ucp-manifest/1.schema.json",
+  "title": "PTPGE ucp-manifest/1",
+  "description": "How a storefront carries the PTPGE identity in its Universal Commerce Protocol manifest (https://<domain>/.well-known/ucp). This schema validates the PTPGE parts of that manifest, not UCP itself: the capability entry for the published extension org.ptpge.print.identity, and a `ptpge` block that names the printer's register identity, where its vendor declaration lives, the vocabulary and the fingerprint resolver. On a checkout line the identity is the ptpge-cfs/1 fingerprint (see https://ptpge.org/ucp/schemas/identity.json). Everything else in the manifest is UCP's and is left open. Licence of the schema: CC BY 4.0.",
+  "type": "object",
+  "required": ["ucp", "ptpge"],
+  "properties": {
+    "ucp": {
+      "type": "object",
+      "required": ["version", "capabilities"],
+      "properties": {
+        "version":      { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$", "description": "The UCP protocol version the manifest follows." },
+        "capabilities": {
+          "type": "object",
+          "required": ["org.ptpge.print.identity"],
+          "properties": {
+            "org.ptpge.print.identity": {
+              "type": "array", "minItems": 1,
+              "items": { "$ref": "#/$defs/identityCapability" }
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "ptpge": { "$ref": "#/$defs/ptpgeBlock" }
+  },
+  "additionalProperties": true,
+
+  "$defs": {
+    "vendorUri": { "type": "string", "pattern": "^https://ptpge\\.org/v1/vendors/[a-z0-9-]+$" },
+
+    "identityCapability": {
+      "type": "object", "additionalProperties": true,
+      "required": ["version", "spec", "schema", "extends"],
+      "description": "The extension as UCP expects a capability to be declared: version, spec page, schema, and what it extends.",
+      "properties": {
+        "version": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$", "description": "The extension version — the date on https://ptpge.org/ucp/identity." },
+        "spec":    { "const": "https://ptpge.org/ucp/identity" },
+        "schema":  { "const": "https://ptpge.org/ucp/schemas/identity.json" },
+        "extends": { "type": "array", "minItems": 1, "contains": { "const": "dev.ucp.shopping.checkout" }, "items": { "type": "string" } }
+      }
+    },
+
+    "ptpgeBlock": {
+      "type": "object", "additionalProperties": false,
+      "required": ["identity", "declaration", "vocabulary", "fingerprint"],
+      "description": "Where an agent goes next: the printer's register identity, its own declaration (capability and offerings — never duplicated in the manifest), the vocabulary the identity is computed over, and the resolver.",
+      "properties": {
+        "identity":    { "$ref": "#/$defs/vendorUri" },
+        "declaration": { "type": "string", "format": "uri", "pattern": "^https://[^/]+/\\.well-known/ptpge/declaration\\.json$", "description": "The printer's vendor-declaration/1 at its known path on the same domain as this manifest." },
+        "vocabulary":  { "const": "https://ptpge.org/v1/" },
+        "fingerprint": {
+          "type": "object", "additionalProperties": false, "required": ["algorithm", "resolver"],
+          "properties": {
+            "algorithm": { "const": "ptpge-cfs/1" },
+            "resolver":  { "const": "https://ptpge.org/f/" }
+          }
+        },
+        "request": { "type": "string", "format": "uri", "pattern": "^https://", "description": "Optional: where a request/1 may be POSTed outside UCP checkout (an implementation's endpoint)." }
+      }
+    },
+
+    "lineItemIdentity": {
+      "$comment": "Mirror of https://ptpge.org/ucp/schemas/identity.json#/$defs/ptpge_identity — the object a checkout line item carries under `item.ptpge`.",
+      "type": "object", "additionalProperties": false, "required": ["fingerprint"],
+      "properties": {
+        "fingerprint":   { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "profile":       { "enum": ["spec", "offer"] },
+        "serialization": { "const": "ptpge-cfs/1" }
+      }
+    }
+  }
+}

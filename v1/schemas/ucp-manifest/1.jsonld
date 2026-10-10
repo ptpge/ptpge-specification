@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/schemas/ucp-manifest/1",
   "type": "ptpge:Schema",
-  "version": "2026-10-06",
+  "version": "2026-10-10",
   "status": "proposed",
   "notation": "SCH:UCP-MANIFEST",
   "level": "element",
@@ -16,12 +16,24 @@
   "stage": "draft",
   "writtenBy": "a storefront",
   "holds": "the PTPGE identity on a checkout line",
-  "jsonSchema": null,
+  "jsonSchema": "https://ptpge.org/v1/schemas/ucp-manifest/1.schema.json",
   "definition": {
     "en": "How a storefront carries the PTPGE identity in a Universal Commerce Protocol manifest: the fingerprint on the line item, the configuration behind it resolvable at ptpge.org/f. The bridge from the specification to agentic checkout.",
     "nb": "How a storefront carries the PTPGE identity in a Universal Commerce Protocol manifest: the fingerprint on the line item, the configuration behind it resolvable at ptpge.org/f. The bridge from the specification to agentic checkout."
   },
   "created": "2026-10-06T19:16:59Z",
-  "modified": "2026-10-06T19:16:59Z",
-  "license": "https://creativecommons.org/licenses/by/4.0/"
+  "modified": "2026-10-10T22:50:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "location": "https://<domain>/.well-known/ucp",
+  "carries": [
+    "ucp.capabilities[\"org.ptpge.print.identity\"] — the published extension (spec ptpge.org/ucp/identity, schema ptpge.org/ucp/schemas/identity.json), extending dev.ucp.shopping.checkout",
+    "ptpge.identity — the printer's register URI (/v1/vendors/<slug>)",
+    "ptpge.declaration — the vendor declaration at its known path on the same domain",
+    "ptpge.vocabulary · ptpge.fingerprint — https://ptpge.org/v1/ and ptpge-cfs/1 with resolver ptpge.org/f/",
+    "item.ptpge.fingerprint on every checkout line item — the identity of what is bought"
+  ],
+  "note": {
+    "en": "The manifest is UCP's document at UCP's known path; this schema validates only the PTPGE parts of it and leaves the rest open. Capability and offerings do not belong in the manifest — they live in the vendor declaration the manifest points to (SD-0101). JSON Schema published 2026-10-10 (draft 2020-12). Reference validator: tools/validate_declaration.py (detects a manifest by its ucp + ptpge blocks; checks same domain, known path, the capability entry, the ptpge block).",
+    "nb": "Manifestet er UCPs dokument på UCPs kjente sti; dette skjemaet validerer bare PTPGE-delene og lar resten stå åpent. Kapasitet og tilbud hører ikke hjemme i manifestet — de ligger i leverandørdeklarasjonen manifestet peker på (SD-0101). JSON Schema publisert 2026-10-10 (draft 2020-12)."
+  }
 }
