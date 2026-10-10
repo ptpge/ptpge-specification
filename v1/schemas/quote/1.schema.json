@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ptpge.org/v1/schemas/quote/1.schema.json",
+  "title": "PTPGE quote/1",
+  "description": "A printer's answer to one request: the same configuration and the same ptpge-cfs/1 fingerprint it was asked for, a quantity, a price in one currency, delivery terms and a validity period, addressed to the buyer who asked. Together with the request it is one deal; its acceptance is the event an implementation acts on. The fingerprint is what ties the two documents together without a system in between — a quote whose spec fingerprint differs from the request's is an offer for something else. Not published at a known path — it has a recipient. Licence of the schema: CC BY 4.0.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "schemaVersion", "id", "issued", "validUntil", "vendor", "inReplyTo", "configuration", "fingerprint", "quantity", "price"],
+  "properties": {
+    "schema":        { "const": "https://ptpge.org/v1/schemas/quote/1" },
+    "schemaVersion": { "const": 1 },
+    "id":            { "type": "string", "minLength": 1, "maxLength": 120, "description": "The printer's reference for this quote." },
+    "issued":        { "type": "string", "format": "date-time" },
+    "validUntil":    { "type": "string", "format": "date", "description": "The last day the quote may be accepted." },
+    "vendor":        { "$ref": "#/$defs/vendorUri", "description": "The printer's register identity — the party that will deliver." },
+    "inReplyTo":     {
+      "type": "object", "additionalProperties": false, "required": ["fingerprint"],
+      "properties": {
+        "request":     { "type": "string", "maxLength": 120, "description": "The request's id, as the buyer gave it." },
+        "fingerprint": { "$ref": "#/$defs/sha256", "description": "The request's spec fingerprint. Must equal fingerprint.spec below." }
+      }
+    },
+    "configuration": { "$ref": "https://ptpge.org/v1/schemas/request/1.schema.json#/$defs/configuration" },
+    "fingerprint":   { "$ref": "https://ptpge.org/v1/schemas/request/1.schema.json#/$defs/fingerprint" },
+    "quantity":      { "type": "integer", "minimum": 1 },
+    "price":         { "$ref": "#/$defs/price" },
+    "alternatives":  { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["quantity", "price"], "properties": { "quantity": { "type": "integer", "minimum": 1 }, "price": { "$ref": "#/$defs/price" } } }, "description": "The same configuration at other run lengths." },
+    "leadTimeWorkingDays": { "type": "integer", "minimum": 0, "description": "From approved artwork to dispatch." },
+    "delivery":      { "$ref": "https://ptpge.org/v1/schemas/request/1.schema.json#/$defs/delivery" },
+    "conditions":    { "type": "string", "maxLength": 2000, "description": "What the price assumes: artwork state, proofing, payment terms." },
+    "note":          { "type": "string", "maxLength": 2000 },
+    "generatedBy":   { "$ref": "https://ptpge.org/v1/schemas/request/1.schema.json#/$defs/generatedBy" }
+  },
+
+  "$defs": {
+    "vendorUri": { "type": "string", "pattern": "^https://ptpge\\.org/v1/vendors/[a-z0-9-]+$" },
+    "sha256":    { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "price": {
+      "type": "object", "additionalProperties": false, "required": ["currency", "total"],
+      "description": "One currency, amounts as decimal numbers excluding VAT unless vatIncluded says otherwise.",
+      "properties": {
+        "currency":    { "type": "string", "pattern": "^[A-Z]{3}$", "description": "ISO 4217." },
+        "total":       { "type": "number", "minimum": 0 },
+        "unit":        { "type": "number", "minimum": 0 },
+        "setup":       { "type": "number", "minimum": 0 },
+        "shipping":    { "type": "number", "minimum": 0, "description": "Included in total when present." },
+        "vatRate":     { "type": "number", "minimum": 0, "maximum": 100 },
+        "vatIncluded": { "type": "boolean", "default": false }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
 <https://ptpge.org/v1/schemas/quote/1> a ptpge:Schema ;
     dcterms:created "2026-10-09T17:30:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-09T17:30:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-10T22:10:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/schemas> ;
     skos:definition "A printer's answer to one request: the same configuration (the ptpge-cfs/1 fingerprint it was asked for), a quantity, a price in one currency, delivery terms and a validity period, addressed to the buyer who asked. Together with the request it is one deal; its acceptance is the event an implementation acts on. Not published at a known path — it has a recipient."@en,
         "Et trykkeris svar på én forespørsel: samme konfigurasjon (ptpge-cfs/1-fingeravtrykket det ble spurt om), et antall, en pris i én valuta, leveringsvilkår og en gyldighetsperiode, adressert til kjøperen som spurte. Sammen med forespørselen utgjør det én handel; aksepten er hendelsen en implementasjon handler på. Publiseres ikke på kjent sti – det har en mottaker."@nb ;
@@ -15,10 +15,11 @@
     skos:prefLabel "Quote"@en,
         "Tilbud"@nb ;
     ptpge:holds "price · quantity · delivery · validity, for one configuration" ;
+    ptpge:jsonSchema <https://ptpge.org/v1/schemas/quote/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
     ptpge:stage "draft" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-09" ;
+    ptpge:version "2026-10-10" ;
     ptpge:writtenBy "a printer, in answer to a request" .
 

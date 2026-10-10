@@ -16755,7 +16755,14 @@
     ptpge:level "element" ;
     ptpge:pageCountConstraint "even" ;
     ptpge:pageCountRange [ ] ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16765,13 +16772,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17001,7 +17001,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17011,14 +17019,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -18125,7 +18125,13 @@
     ptpge:group "features" ;
     ptpge:hasProperty [ ] ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.6 · p.74",
                 "§5.6.12 · p.118",
                 "§6.32 · p.197" ;
             ptpge:mappingRow "crosswalk row 27" ;
@@ -18133,12 +18139,6 @@
             ptpge:sourceElement "Embossing",
                 "EmbossingIntent",
                 "EmbossingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.6 · p.74" ;
-            ptpge:mappingRow "crosswalk row 25" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "EmbossingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23526,18 +23526,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23595,18 +23595,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23722,18 +23722,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23785,18 +23785,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -26459,7 +26459,7 @@
 <https://ptpge.org/v1/schemas/quote/1> a ptpge:Schema ;
     dcterms:created "2026-10-09T17:30:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-09T17:30:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-10T22:10:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/schemas> ;
     skos:definition "A printer's answer to one request: the same configuration (the ptpge-cfs/1 fingerprint it was asked for), a quantity, a price in one currency, delivery terms and a validity period, addressed to the buyer who asked. Together with the request it is one deal; its acceptance is the event an implementation acts on. Not published at a known path — it has a recipient."@en,
         "Et trykkeris svar på én forespørsel: samme konfigurasjon (ptpge-cfs/1-fingeravtrykket det ble spurt om), et antall, en pris i én valuta, leveringsvilkår og en gyldighetsperiode, adressert til kjøperen som spurte. Sammen med forespørselen utgjør det én handel; aksepten er hendelsen en implementasjon handler på. Publiseres ikke på kjent sti – det har en mottaker."@nb ;
@@ -26468,17 +26468,18 @@
     skos:prefLabel "Quote"@en,
         "Tilbud"@nb ;
     ptpge:holds "price · quantity · delivery · validity, for one configuration" ;
+    ptpge:jsonSchema <https://ptpge.org/v1/schemas/quote/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
     ptpge:stage "draft" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-09" ;
+    ptpge:version "2026-10-10" ;
     ptpge:writtenBy "a printer, in answer to a request" .
 
 <https://ptpge.org/v1/schemas/request/1> a ptpge:Schema ;
     dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-10T22:10:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/schemas> ;
     skos:definition "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between."@en,
         "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between."@nb ;
@@ -26487,11 +26488,12 @@
     skos:prefLabel "Request"@en,
         "Forespørsel"@nb ;
     ptpge:holds "a configuration + quantity, asked of one or many vendors" ;
+    ptpge:jsonSchema <https://ptpge.org/v1/schemas/request/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
     ptpge:stage "draft" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-06" ;
+    ptpge:version "2026-10-10" ;
     ptpge:writtenBy "a buyer or an agent" .
 
 <https://ptpge.org/v1/schemas/supplier-catalogue/1> a ptpge:Schema ;
@@ -35816,13 +35818,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -38619,16 +38621,16 @@
         "涂布"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -39711,13 +39713,13 @@
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -39841,16 +39843,16 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -40043,8 +40045,8 @@
     dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-10-10T19:20:00+00:00"^^xsd:dateTime ;
-    skos:definition "The five document forms the vocabulary is used in: vendor declaration and supplier catalogue (what a company is and offers, published on its own domain), request and quote (one deal between a buyer and a printer), UCP manifest (the identity on a checkout line). Each has a schema with a permanent URI and a version; a document carries its owner, the schema carries none. Status: draft. The vendor declaration and the supplier catalogue have published JSON Schemas (2026-10-10); the other three follow, written from the first live documents. The rule every schema sets: what a document says about products and options, it says with term URIs, not labels."@en,
-        "De fem dokumentformene vokabularet brukes i: leverandørdeklarasjon og produsentkatalog (hva en virksomhet er og tilbyr, publisert på eget domene), forespørsel og tilbud (én handel mellom kjøper og trykkeri), UCP-manifest (identiteten på en kasselinje). Hvert har et skjema med permanent URI og versjon; et dokument bærer sin eier, skjemaet bærer ingen. Status: utkast. Leverandørdeklarasjonen og produsentkatalogen har publisert JSON Schema (2026-10-10); de tre andre følger, skrevet ut fra de første dokumentene i drift. Regelen hvert skjema setter: det et dokument sier om produkter og valg, sier det med term-URI-er, ikke etiketter."@nb ;
+    skos:definition "The five document forms the vocabulary is used in: vendor declaration and supplier catalogue (what a company is and offers, published on its own domain), request and quote (one deal between a buyer and a printer), UCP manifest (the identity on a checkout line). Each has a schema with a permanent URI and a version; a document carries its owner, the schema carries none. Status: draft. Four of the five have published JSON Schemas (2026-10-10): vendor declaration, supplier catalogue, request and quote; the UCP manifest follows. The rule every schema sets: what a document says about products and options, it says with term URIs, not labels."@en,
+        "De fem dokumentformene vokabularet brukes i: leverandørdeklarasjon og produsentkatalog (hva en virksomhet er og tilbyr, publisert på eget domene), forespørsel og tilbud (én handel mellom kjøper og trykkeri), UCP-manifest (identiteten på en kasselinje). Hvert har et skjema med permanent URI og versjon; et dokument bærer sin eier, skjemaet bærer ingen. Status: utkast. Fire av fem har publisert JSON Schema (2026-10-10): leverandørdeklarasjon, produsentkatalog, forespørsel og tilbud; UCP-manifestet følger. Regelen hvert skjema setter: det et dokument sier om produkter og valg, sier det med term-URI-er, ikke etiketter."@nb ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/schemas/quote/1>,
         <https://ptpge.org/v1/schemas/request/1>,
@@ -41023,18 +41025,18 @@
         "包括Antalis（欧洲分销商）、Hahnemühle（德国特种纸）、Holmen（北欧出版用纸）、Lessebo（瑞典优质和设计用纸）和Sappi（全球商业用纸）。其他地区供应商按记录时跟踪。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 30" ;
+            ptpge:matchDegree "concept" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 30" ;
-            ptpge:matchDegree "concept" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;

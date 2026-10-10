@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ptpge.org/v1/schemas/request/1.schema.json",
+  "title": "PTPGE request/1",
+  "description": "A buyer's or agent's ask: one configuration — a product template plus bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint — with quantity and delivery terms, addressed to one or many printers. The document a receiving system acts on without a human in between. Every vocabulary value is a term URI under https://ptpge.org/v1/; the fingerprint is computed, not typed, and any recipient recomputes it. Not published at a known path — it has recipients. Licence of the schema: CC BY 4.0.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "schemaVersion", "id", "issued", "buyer", "configuration", "fingerprint", "quantity"],
+  "properties": {
+    "schema":        { "const": "https://ptpge.org/v1/schemas/request/1" },
+    "schemaVersion": { "const": 1 },
+    "id":            { "type": "string", "minLength": 1, "maxLength": 120, "description": "The sender's reference for this request. Quotes repeat it in inReplyTo." },
+    "issued":        { "type": "string", "format": "date-time" },
+    "respondBy":     { "type": "string", "format": "date-time", "description": "After this, the buyer no longer expects quotes." },
+    "language":      { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$", "description": "BCP 47 — the language the buyer wants to be answered in." },
+    "buyer":         { "$ref": "#/$defs/party" },
+    "to":            { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/vendorUri" }, "description": "The printers asked, by register identity. Absent or empty: an open request, routed by whatever implementation carries it." },
+    "configuration": { "$ref": "#/$defs/configuration" },
+    "fingerprint":   { "$ref": "#/$defs/fingerprint" },
+    "quantity":      { "type": "integer", "minimum": 1 },
+    "alternativeQuantities": { "type": "array", "uniqueItems": true, "items": { "type": "integer", "minimum": 1 }, "description": "Other run lengths the buyer would like priced." },
+    "delivery":      { "$ref": "#/$defs/delivery" },
+    "artwork":       { "type": "array", "items": { "$ref": "#/$defs/artwork" }, "description": "Hash first: the file's SHA-256 identifies it; a URL is optional and may expire." },
+    "note":          { "type": "string", "maxLength": 2000 },
+    "generatedBy":   { "$ref": "#/$defs/generatedBy" }
+  },
+
+  "$defs": {
+    "termUri":      { "type": "string", "pattern": "^https://ptpge\\.org/v1/(printing|ordering|variables)/[a-z0-9][a-z0-9/-]*$" },
+    "productUri":   { "type": "string", "pattern": "^https://ptpge\\.org/v1/ordering/products/[a-z0-9][a-z0-9/-]*$" },
+    "variableUri":  { "type": "string", "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$" },
+    "vendorUri":    { "type": "string", "pattern": "^https://ptpge\\.org/v1/vendors/[a-z0-9-]+$" },
+    "hostname":     { "type": "string", "pattern": "^([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z]{2,63}$" },
+    "sha256":       { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "surfaceSlug":  { "type": "string", "pattern": "^[a-z][a-z0-9-]*$", "description": "A face of the bound setup model: front, back, outside, inside, front-cover, inside-pages …" },
+
+    "party": {
+      "type": "object", "additionalProperties": false, "required": ["name"],
+      "properties": {
+        "name":     { "type": "string", "minLength": 1, "maxLength": 200 },
+        "domain":   { "$ref": "#/$defs/hostname" },
+        "email":    { "type": "string", "format": "email" },
+        "country":  { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "reference": { "type": "string", "maxLength": 120, "description": "The buyer's own order or project reference." }
+      }
+    },
+
+    "binding": {
+      "type": "object", "additionalProperties": false, "required": ["variable"],
+      "description": "One statement: a variable bound to a term URI, a number (pages, gsm, mm …) or a set/stack of term URIs; surface-scoped when the variable's scope is surface.",
+      "properties": {
+        "variable": { "$ref": "#/$defs/variableUri" },
+        "value":    { "oneOf": [ { "$ref": "#/$defs/termUri" }, { "type": "number" } ] },
+        "values":   { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/termUri" } },
+        "ordered":  { "type": "boolean", "description": "values is a stack (order significant — lamination under spot varnish), not a set." },
+        "surface":  { "$ref": "#/$defs/surfaceSlug" }
+      },
+      "oneOf": [ { "required": ["value"] }, { "required": ["values"] } ]
+    },
+
+    "configuration": {
+      "type": "object", "additionalProperties": false, "required": ["product", "bindings"],
+      "properties": {
+        "product":  { "$ref": "#/$defs/productUri" },
+        "bindings": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/binding" } }
+      }
+    },
+
+    "fingerprint": {
+      "type": "object", "additionalProperties": false, "required": ["algorithm", "spec"],
+      "description": "The identity of the configuration, computed with ptpge-cfs/1: spec = the manufacturable artifact; offer = spec plus the commercial cluster (quantity, lead time, delivery method, incoterm). Resolves at https://ptpge.org/f/<spec>.",
+      "properties": {
+        "algorithm": { "const": "ptpge-cfs/1" },
+        "spec":      { "$ref": "#/$defs/sha256" },
+        "offer":     { "$ref": "#/$defs/sha256" }
+      }
+    },
+
+    "delivery": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "by":        { "type": "string", "format": "date", "description": "Wanted in hand by this date." },
+        "method":    { "$ref": "#/$defs/termUri", "description": "A value of variables/order/delivery-method." },
+        "incoterm":  { "$ref": "#/$defs/termUri", "description": "A value of variables/order/incoterm." },
+        "country":   { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "postcode":  { "type": "string", "maxLength": 20 },
+        "city":      { "type": "string", "maxLength": 120 }
+      }
+    },
+
+    "artwork": {
+      "type": "object", "additionalProperties": false, "required": ["sha256"],
+      "properties": {
+        "sha256":   { "$ref": "#/$defs/sha256" },
+        "filename": { "type": "string", "maxLength": 200 },
+        "size":     { "type": "integer", "minimum": 0 },
+        "mediaType": { "type": "string", "maxLength": 100 },
+        "url":      { "type": "string", "format": "uri", "pattern": "^https://" }
+      }
+    },
+
+    "generatedBy": {
+      "type": "object",
+      "description": "Which tool wrote the document. Open: an implementation may add its own fields here.",
+      "properties": { "tool": { "type": "string" }, "version": { "type": "string" } },
+      "additionalProperties": true
+    }
+  }
+}

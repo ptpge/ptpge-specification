@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/schemas/request/1",
   "type": "ptpge:Schema",
-  "version": "2026-10-06",
+  "version": "2026-10-10",
   "status": "proposed",
   "notation": "SCH:REQUEST",
   "level": "element",
@@ -16,12 +16,16 @@
   "stage": "draft",
   "writtenBy": "a buyer or an agent",
   "holds": "a configuration + quantity, asked of one or many vendors",
-  "jsonSchema": null,
+  "jsonSchema": "https://ptpge.org/v1/schemas/request/1.schema.json",
   "definition": {
     "en": "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between.",
     "nb": "A buyer's or agent's ask: one validated configuration (bindings on vocabulary URIs, resolving to a ptpge-cfs/1 fingerprint) plus quantity and delivery terms, addressed to one or many vendors. The document a receiving system acts on without a human in between."
   },
   "created": "2026-10-06T19:16:59Z",
-  "modified": "2026-10-06T19:16:59Z",
-  "license": "https://creativecommons.org/licenses/by/4.0/"
+  "modified": "2026-10-10T22:10:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "note": {
+    "en": "JSON Schema published 2026-10-10 (draft 2020-12): buyer, recipients (register identities), one configuration (product template + bindings on variable URIs → term URIs or numbers, surface-scoped where the variable is), the ptpge-cfs/1 fingerprint (spec, optionally offer), quantity and alternatives, delivery, artwork hash-first. Any recipient recomputes the fingerprint; a document whose identity and statement disagree is refused. Reference validator: tools/validate_declaration.py.",
+    "nb": "JSON Schema publisert 2026-10-10 (draft 2020-12): kjøper, mottakere (registeridentiteter), én konfigurasjon (produktmal + bindinger på variabel-URI-er → term-URI-er eller tall, flatebundet der variabelen er det), ptpge-cfs/1-fingeravtrykket (spec, eventuelt offer), antall og alternativer, levering, trykkfil hash først. Mottakeren regner fingeravtrykket på nytt; et dokument der identitet og utsagn ikke stemmer, avvises."
+  }
 }

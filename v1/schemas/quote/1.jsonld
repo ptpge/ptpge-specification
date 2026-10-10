@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/schemas/quote/1",
   "type": "ptpge:Schema",
-  "version": "2026-10-09",
+  "version": "2026-10-10",
   "status": "proposed",
   "notation": "SCH:QUOTE",
   "level": "element",
@@ -16,16 +16,16 @@
   "stage": "draft",
   "writtenBy": "a printer, in answer to a request",
   "holds": "price · quantity · delivery · validity, for one configuration",
-  "jsonSchema": null,
+  "jsonSchema": "https://ptpge.org/v1/schemas/quote/1.schema.json",
   "definition": {
     "en": "A printer's answer to one request: the same configuration (the ptpge-cfs/1 fingerprint it was asked for), a quantity, a price in one currency, delivery terms and a validity period, addressed to the buyer who asked. Together with the request it is one deal; its acceptance is the event an implementation acts on. Not published at a known path — it has a recipient.",
     "nb": "Et trykkeris svar på én forespørsel: samme konfigurasjon (ptpge-cfs/1-fingeravtrykket det ble spurt om), et antall, en pris i én valuta, leveringsvilkår og en gyldighetsperiode, adressert til kjøperen som spurte. Sammen med forespørselen utgjør det én handel; aksepten er hendelsen en implementasjon handler på. Publiseres ikke på kjent sti – det har en mottaker."
   },
   "note": {
-    "en": "Pairs with request/1: a quote answers exactly one request and repeats its fingerprint, so the two can be matched without a system in between.",
-    "nb": "Hører sammen med request/1: et tilbud svarer på nøyaktig én forespørsel og gjentar dens fingeravtrykk, så de to kan kobles uten et system imellom."
+    "en": "Pairs with request/1: a quote answers exactly one request and repeats its fingerprint, so the two can be matched without a system in between. JSON Schema published 2026-10-10 (draft 2020-12): the printer's register identity, inReplyTo (the request's id and spec fingerprint — must equal the quote's own), the configuration and fingerprint repeated, quantity, price in one currency (total, unit, setup, VAT), alternatives at other run lengths, lead time, delivery, conditions, validUntil. The schema says nothing about how the price was made. Reference validator: tools/validate_declaration.py.",
+    "nb": "Hører sammen med request/1: et tilbud svarer på nøyaktig én forespørsel og gjentar dens fingeravtrykk, så de to kan kobles uten et system imellom. JSON Schema publisert 2026-10-10 (draft 2020-12): trykkeriets registeridentitet, inReplyTo (forespørselens id og spec-fingeravtrykk — må være lik tilbudets eget), konfigurasjon og fingeravtrykk gjentatt, antall, pris i én valuta (total, enhet, oppsett, mva), alternativer for andre opplag, leveringstid, levering, betingelser, validUntil. Skjemaet sier ingenting om hvordan prisen ble til."
   },
   "created": "2026-10-09T17:30:00Z",
-  "modified": "2026-10-09T17:30:00Z",
+  "modified": "2026-10-10T22:10:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/"
 }
