@@ -44,5 +44,5 @@
     ptpge:group "geography" ;
     ptpge:level "group" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
+    ptpge:version "2026-10-10" .
 

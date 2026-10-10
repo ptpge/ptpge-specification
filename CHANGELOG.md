@@ -3,6 +3,19 @@
 What changed in each data release, newest first. Mirrors https://ptpge.org/changelog/.
 Data releases are versioned by date; the API contract is `v1`.
 
+## 2026-10-10
+
+### Structure: Thin registers owned by ptpge.org; documents live on the business's own domain; quote/1; ptpge-id/1 (SD-0101)
+
+**The registers are thin.** A Suppliers or Vendors entry now carries identity only — URI, name, country, domain, claim status, the `location` of the business's own document, the schema it `carries`, last validation and an optional `logo` read from that document — no notation, level, definition or hierarchy. The 37 unclaimed name-only entries are removed (14 suppliers and 1 vendor remain). The document is owned by the business and lives at a well-known path on its domain: `/.well-known/ptpge/declaration.json` (vendor-declaration/1) or `/.well-known/ptpge/catalogue.json` (supplier-catalogue/1); ptpge.org validates it on claim and weekly, and never stores a copy. Admission is mechanical (control of the domain + a document that validates). **New schema `quote/1`**: a printer's answer to one request — same fingerprint, quantity, price, delivery, validity — addressed to the buyer; it has a recipient, so no well-known path. **Identity mark:** `ptpge-id/1` = sha256("ptpge-id/1:" + identity URI), drawn with the PTPGE mark; the same for every implementation. The pilot vendor is renamed `vendors/trykkverk-norge` (301 from the old URI). Also in this release: the Geography definition no longer names any product or marketplace.
+
+- `https://ptpge.org/v1/suppliers`
+- `https://ptpge.org/v1/vendors`
+- `https://ptpge.org/v1/schemas/quote/1`
+- `https://ptpge.org/v1/schemas/vendor-declaration/1`
+- `https://ptpge.org/v1/schemas/supplier-catalogue/1`
+- `https://ptpge.org/v1/ordering/geography`
+
 ## 2026-10-07
 
 ### Rule: Absence means «none»: a finish you do not ask for is not applied (SD-0098)

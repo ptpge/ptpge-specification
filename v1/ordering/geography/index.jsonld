@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/ordering/geography",
   "type": "skos:Concept",
-  "version": "2026-06-05",
+  "version": "2026-10-10",
   "status": "proposed",
   "level": "group",
   "notation": "O:GY",

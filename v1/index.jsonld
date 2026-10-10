@@ -5,7 +5,7 @@
   "title": "PTPGE API — v1",
   "description": "Public, read-only API for the PTPGE specification — the open reference for print, built as a structured vocabulary covering the Periodic Table of Print & Graphic Elements. Every endpoint returns JSON-LD with SKOS vocabulary. Free to use under CC BY 4.0 with attribution.",
   "apiVersion": "1",
-  "dataVersion": "2026-10-07",
+  "dataVersion": "2026-10-10",
   "termCount": 727,
   "deprecatedCount": 80,
   "variableCount": 35,
