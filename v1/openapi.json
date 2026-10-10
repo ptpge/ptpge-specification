@@ -21,16 +21,11 @@
   "servers": [
     {
       "url": "https://api.ptpge.org/v1",
-      "description": "Production (Public Beta — Bearer key required; apply at https://register.ptpge.org)"
+      "description": "Production (Public Beta — open, no key). Term URIs themselves resolve on https://ptpge.org/v1/."
     },
     {
       "url": "https://internal.ptpge.org/v1",
-      "description": "Read-only beta mirror (no auth) — for evaluation only; may lag production"
-    }
-  ],
-  "security": [
-    {
-      "bearerAuth": []
+      "description": "Mirror the PTPGE toolchain reads from; same data"
     }
   ],
   "paths": {
@@ -157,6 +152,110 @@
         }
       }
     },
+    "/schemas": {
+      "get": {
+        "summary": "The five document schemas",
+        "description": "request/1, quote/1, vendor-declaration/1, supplier-catalogue/1, ucp-manifest/1 — each a term under /schemas/{name}/{version}; a published JSON Schema sits next to it as /schemas/{name}/{version}.schema.json.",
+        "operationId": "getSchemas",
+        "responses": {
+          "200": {
+            "description": "schemas index (JSON-LD)",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/schemas/{name}/{version}.schema.json": {
+      "get": {
+        "summary": "JSON Schema (draft 2020-12) of a document form",
+        "operationId": "getJsonSchema",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "request",
+                "quote",
+                "vendor-declaration",
+                "supplier-catalogue",
+                "ucp-manifest"
+              ]
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The JSON Schema",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No published JSON Schema for this form yet"
+          }
+        }
+      }
+    },
+    "/suppliers": {
+      "get": {
+        "summary": "Suppliers register (makers of presses, substrates, inks)",
+        "description": "Identity entries, not terms: URI, name, country, domain, claim status, where the company's own supplier-catalogue/1 lives. One entry per /suppliers/{slug}.",
+        "operationId": "getSuppliers",
+        "responses": {
+          "200": {
+            "description": "register index (JSON-LD)",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vendors": {
+      "get": {
+        "summary": "Vendors register (print shops)",
+        "description": "Identity entries, not terms: URI, name, country, domain, claim status, where the company's own vendor-declaration/1 lives (https://<domain>/.well-known/ptpge/declaration.json). One entry per /vendors/{slug}.",
+        "operationId": "getVendors",
+        "responses": {
+          "200": {
+            "description": "register index (JSON-LD)",
+            "content": {
+              "application/ld+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/mappings": {
       "get": {
         "summary": "Crosswalk discovery document",
@@ -216,7 +315,7 @@
                     },
                     "notation": {
                       "type": "string",
-                      "description": "House notation, e.g. P:ST§SLUG / V:CM§SLUG."
+                      "description": "Notation v3, axis-typed: P:CF§A4, O:PR§BROCHURE, VAR:CFG§FORMAT; registers SUP:/VEN:, schemas SCH:."
                     },
                     "elementType": {
                       "type": "string",
@@ -239,7 +338,7 @@
                         "approved",
                         "deprecated"
                       ],
-                      "description": "Lifecycle. Fingerprints are treated as stable from 'approved'."
+                      "description": "Lifecycle. In the Public Beta every live term is 'proposed'; URIs are stable regardless, and deprecated terms keep resolving with a pointer to their successor."
                     },
                     "version": {
                       "type": "string",
@@ -293,13 +392,6 @@
     }
   },
   "components": {
-    "securitySchemes": {
-      "bearerAuth": {
-        "type": "http",
-        "scheme": "bearer",
-        "description": "Public Beta API key (ptpge_beta_…) issued via https://register.ptpge.org. Not needed on the internal mirror."
-      }
-    },
     "schemas": {
       "Term": {
         "type": "object",
@@ -319,7 +411,7 @@
           },
           "notation": {
             "type": "string",
-            "description": "House notation, e.g. P:ST§SLUG / V:CM§SLUG."
+            "description": "Notation v3, axis-typed: P:CF§A4, O:PR§BROCHURE, VAR:CFG§FORMAT; registers SUP:/VEN:, schemas SCH:."
           },
           "elementType": {
             "type": "string",
@@ -342,7 +434,7 @@
               "approved",
               "deprecated"
             ],
-            "description": "Lifecycle. Fingerprints are treated as stable from 'approved'."
+            "description": "Lifecycle. In the Public Beta every live term is 'proposed'; URIs are stable regardless, and deprecated terms keep resolving with a pointer to their successor."
           },
           "version": {
             "type": "string",

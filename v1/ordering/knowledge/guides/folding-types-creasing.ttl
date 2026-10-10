@@ -10,16 +10,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Falstyper & rilning — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Folding Types & Creasing — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Folding Types & Creasing — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Folding Types & Creasing — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Folding Types & Creasing — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "फ़ोल्ड के प्रकार और क्रीज़िंग — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Folding Types & Creasing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Folding Types & Creasing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Folding Types & Creasing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Folding Types & Creasing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Vouwsoorten & rillen — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Rodzaje składania i bigowanie — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Tipos de dobra e vinco — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Falstyper & bigning — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Folding Types & Creasing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Falstyper & bigning — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Folding Types & Creasing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§FOLDING-TYPES-CREASING" ;
     skos:prefLabel "Falstyper & rilning"@da,

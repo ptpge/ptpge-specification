@@ -95,18 +95,18 @@
         "entrega por courier"@pt,
         "motoboy"@pt ;
     skos:broader <https://ptpge.org/v1/ordering/distribution/delivery-methods> ;
-    skos:definition "Kurér — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4)."@da,
-        "Kurier — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4)."@de,
-        "Courier — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data."@en,
-        "Mensajería — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4)."@es,
-        "कूरियर — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"@hi,
-        "宅配便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。"@ja,
-        "Courier — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data."@nb,
-        "Koerier — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4)."@nl,
-        "Kurier — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4)."@pl,
-        "Courier — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4)."@pt,
-        "Bud — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4)."@sv,
-        "快递——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。"@zh-Hans ;
+    skos:definition "Kurér — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data — implementeringens, ikke vokabularets."@da,
+        "Kurier — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars."@de,
+        "Courier — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial data — an implementation's, not the vocabulary's."@en,
+        "Mensajería — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales — de la implementación, no del vocabulario."@es,
+        "कूरियर — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"@hi,
+        "宅配便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（語彙ではなく実装の領分）。"@ja,
+        "Courier — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersielle data — implementasjonens, ikke vokabularets."@nb,
+        "Koerier — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens — van de implementatie, niet van het vocabulaire."@nl,
+        "Kurier — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe — implementacji, nie słownictwa."@pl,
+        "Courier — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais — da implementação, não do vocabulário."@pt,
+        "Bud — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data — implementationens, inte vokabulärens."@sv,
+        "快递——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（属于实现，不属于词汇）。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:DS§COURIER" ;
     skos:prefLabel "Kurér"@da,
@@ -144,18 +144,18 @@
         "expressa"@pt,
         "urgente"@pt ;
     skos:broader <https://ptpge.org/v1/ordering/distribution/delivery-methods> ;
-    skos:definition "Ekspreslevering — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4)."@da,
-        "Expressversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4)."@de,
-        "Express Delivery — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data."@en,
-        "Entrega exprés — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4)."@es,
-        "एक्सप्रेस डिलीवरी — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"@hi,
-        "速達配送 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。"@ja,
-        "Express Delivery — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data."@nb,
-        "Expreslevering — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4)."@nl,
-        "Dostawa ekspresowa — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4)."@pl,
-        "Entrega expressa — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4)."@pt,
-        "Expressleverans — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4)."@sv,
-        "加急配送——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。"@zh-Hans ;
+    skos:definition "Ekspreslevering — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data — implementeringens, ikke vokabularets."@da,
+        "Expressversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars."@de,
+        "Express Delivery — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial data — an implementation's, not the vocabulary's."@en,
+        "Entrega exprés — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales — de la implementación, no del vocabulario."@es,
+        "एक्सप्रेस डिलीवरी — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"@hi,
+        "速達配送 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（語彙ではなく実装の領分）。"@ja,
+        "Express Delivery — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersielle data — implementasjonens, ikke vokabularets."@nb,
+        "Expreslevering — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens — van de implementatie, niet van het vocabulaire."@nl,
+        "Dostawa ekspresowa — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe — implementacji, nie słownictwa."@pl,
+        "Entrega expressa — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais — da implementação, não do vocabulário."@pt,
+        "Expressleverans — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data — implementationens, inte vokabulärens."@sv,
+        "加急配送——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（属于实现，不属于词汇）。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:DS§EXPRESS-DELIVERY" ;
     skos:prefLabel "Ekspreslevering"@da,
@@ -193,18 +193,18 @@
         "frete paletizado"@pt,
         "paletizado"@pt ;
     skos:broader <https://ptpge.org/v1/ordering/distribution/delivery-methods> ;
-    skos:definition "Fragt / palle — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4)."@da,
-        "Fracht/Palette — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4)."@de,
-        "Freight / Pallet — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data."@en,
-        "Carga/palé — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4)."@es,
-        "फ़्रेट / पैलेट — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"@hi,
-        "貨物・パレット便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。"@ja,
-        "Freight / Pallet — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data."@nb,
-        "Vracht / pallet — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4)."@nl,
-        "Fracht / paleta — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4)."@pl,
-        "Frete / palete — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4)."@pt,
-        "Frakt / pall — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4)."@sv,
-        "货运/托盘——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。"@zh-Hans ;
+    skos:definition "Fragt / palle — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data — implementeringens, ikke vokabularets."@da,
+        "Fracht/Palette — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars."@de,
+        "Freight / Pallet — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial data — an implementation's, not the vocabulary's."@en,
+        "Carga/palé — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales — de la implementación, no del vocabulario."@es,
+        "फ़्रेट / पैलेट — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"@hi,
+        "貨物・パレット便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（語彙ではなく実装の領分）。"@ja,
+        "Freight / Pallet — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersielle data — implementasjonens, ikke vokabularets."@nb,
+        "Vracht / pallet — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens — van de implementatie, niet van het vocabulaire."@nl,
+        "Fracht / paleta — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe — implementacji, nie słownictwa."@pl,
+        "Frete / palete — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais — da implementação, não do vocabulário."@pt,
+        "Frakt / pall — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data — implementationens, inte vokabulärens."@sv,
+        "货运/托盘——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（属于实现，不属于词汇）。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:DS§FREIGHT-PALLET" ;
     skos:prefLabel "Fragt / palle"@da,
@@ -242,18 +242,18 @@
         "retirada no local"@pt,
         "retirar na loja"@pt ;
     skos:broader <https://ptpge.org/v1/ordering/distribution/delivery-methods> ;
-    skos:definition "Afhentning — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4)."@da,
-        "Abholung — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4)."@de,
-        "Pickup / Collection — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data."@en,
-        "Recogida — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4)."@es,
-        "पिकअप / कलेक्शन — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"@hi,
-        "店頭受取 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。"@ja,
-        "Pickup / Collection — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data."@nb,
-        "Afhalen — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4)."@nl,
-        "Odbiór osobisty — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4)."@pl,
-        "Retirada — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4)."@pt,
-        "Avhämtning — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4)."@sv,
-        "自提——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。"@zh-Hans ;
+    skos:definition "Afhentning — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data — implementeringens, ikke vokabularets."@da,
+        "Abholung — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars."@de,
+        "Pickup / Collection — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial data — an implementation's, not the vocabulary's."@en,
+        "Recogida — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales — de la implementación, no del vocabulario."@es,
+        "पिकअप / कलेक्शन — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"@hi,
+        "店頭受取 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（語彙ではなく実装の領分）。"@ja,
+        "Pickup / Collection — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersielle data — implementasjonens, ikke vokabularets."@nb,
+        "Afhalen — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens — van de implementatie, niet van het vocabulaire."@nl,
+        "Odbiór osobisty — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe — implementacji, nie słownictwa."@pl,
+        "Retirada — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais — da implementação, não do vocabulário."@pt,
+        "Avhämtning — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data — implementationens, inte vokabulärens."@sv,
+        "自提——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（属于实现，不属于词汇）。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:DS§PICKUP" ;
     skos:prefLabel "Afhentning"@da,
@@ -292,18 +292,18 @@
         "correio"@pt,
         "encomenda postal"@pt ;
     skos:broader <https://ptpge.org/v1/ordering/distribution/delivery-methods> ;
-    skos:definition "Post — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4)."@da,
-        "Postversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4)."@de,
-        "Postal / Mail — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data."@en,
-        "Correo postal — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4)."@es,
-        "डाक — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"@hi,
-        "郵便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。"@ja,
-        "Postal / Mail — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data."@nb,
-        "Post — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4)."@nl,
-        "Poczta — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4)."@pl,
-        "Correio — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4)."@pt,
-        "Post — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4)."@sv,
-        "邮政——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。"@zh-Hans ;
+    skos:definition "Post — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data — implementeringens, ikke vokabularets."@da,
+        "Postversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars."@de,
+        "Postal / Mail — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial data — an implementation's, not the vocabulary's."@en,
+        "Correo postal — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales — de la implementación, no del vocabulario."@es,
+        "डाक — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"@hi,
+        "郵便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（語彙ではなく実装の領分）。"@ja,
+        "Postal / Mail — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersielle data — implementasjonens, ikke vokabularets."@nb,
+        "Post — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens — van de implementatie, niet van het vocabulaire."@nl,
+        "Poczta — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe — implementacji, nie słownictwa."@pl,
+        "Correio — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais — da implementação, não do vocabulário."@pt,
+        "Post — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data — implementationens, inte vokabulärens."@sv,
+        "邮政——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（属于实现，不属于词汇）。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:DS§POSTAL-MAIL" ;
     skos:prefLabel "Post"@da,
@@ -338,18 +338,18 @@
         "econômica"@pt,
         "padrão"@pt ;
     skos:broader <https://ptpge.org/v1/ordering/distribution/delivery-methods> ;
-    skos:definition "Standardlevering — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4)."@da,
-        "Standardversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4)."@de,
-        "Standard Delivery — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data."@en,
-        "Entrega estándar — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4)."@es,
-        "स्टैंडर्ड डिलीवरी — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"@hi,
-        "通常配送 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。"@ja,
-        "Standard Delivery — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data."@nb,
-        "Standaardlevering — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4)."@nl,
-        "Dostawa standardowa — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4)."@pl,
-        "Entrega padrão — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4)."@pt,
-        "Standardleverans — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4)."@sv,
-        "标准配送——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。"@zh-Hans ;
+    skos:definition "Standardlevering — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data — implementeringens, ikke vokabularets."@da,
+        "Standardversand — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars."@de,
+        "Standard Delivery — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial data — an implementation's, not the vocabulary's."@en,
+        "Entrega estándar — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales — de la implementación, no del vocabulario."@es,
+        "स्टैंडर्ड डिलीवरी — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"@hi,
+        "通常配送 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（語彙ではなく実装の領分）。"@ja,
+        "Standard Delivery — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersielle data — implementasjonens, ikke vokabularets."@nb,
+        "Standaardlevering — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens — van de implementatie, niet van het vocabulaire."@nl,
+        "Dostawa standardowa — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe — implementacji, nie słownictwa."@pl,
+        "Entrega padrão — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais — da implementação, não do vocabulário."@pt,
+        "Standardleverans — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data — implementationens, inte vokabulärens."@sv,
+        "标准配送——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（属于实现，不属于词汇）。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:DS§STANDARD-DELIVERY" ;
     skos:prefLabel "Standardlevering"@da,
@@ -3453,16 +3453,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Indbindingstyper & færdiggørelse — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Binding Types & Finishing — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Binding Types & Finishing — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Binding Types & Finishing — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Binding Types & Finishing — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "बाइंडिंग के प्रकार और फ़िनिशिंग — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Binding Types & Finishing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Binding Types & Finishing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Binding Types & Finishing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Binding Types & Finishing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Bindwijzen & afwerking — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Rodzaje oprawy i wykończenie — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Tipos de encadernação e acabamento — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Bindningstyper & efterbehandling — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Binding Types & Finishing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Bindningstyper & efterbehandling — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Binding Types & Finishing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§BINDING-TYPES-FINISHING" ;
     skos:prefLabel "Indbindingstyper & færdiggørelse"@da,
@@ -3491,16 +3491,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Beskæring & sikkerhedsmarginer — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Bleed & Safety Margins — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Bleed & Safety Margins — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Bleed & Safety Margins — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Bleed & Safety Margins — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "ब्लीड और सुरक्षा मार्जिन — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Bleed & Safety Margins — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Bleed & Safety Margins — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Bleed & Safety Margins — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Bleed & Safety Margins — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Afloop & veiligheidsmarges — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Spady i marginesy bezpieczeństwa — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Sangria e margens de segurança — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Utfall & säkerhetsmarginaler — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Bleed & Safety Margins——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Utfall & säkerhetsmarginaler — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Bleed & Safety Margins——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§BLEED-SAFETY-MARGINS" ;
     skos:prefLabel "Beskæring & sikkerhedsmarginer"@da,
@@ -3528,16 +3528,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Farver & ICC-profiler — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Colours & ICC Profiles — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Colours & ICC Profiles — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Colours & ICC Profiles — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Colours & ICC Profiles — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "रंग और ICC प्रोफ़ाइल — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Colours & ICC Profiles — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Colours & ICC Profiles — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Colours & ICC Profiles — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Colours & ICC Profiles — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Kleuren & ICC-profielen — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Kolory i profile ICC — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Cores e perfis ICC — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Färger & ICC-profiler — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Colours & ICC Profiles——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Färger & ICC-profiler — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Colours & ICC Profiles——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§COLOURS-ICC-PROFILES" ;
     skos:prefLabel "Farver & ICC-profiler"@da,
@@ -3567,16 +3567,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Digitaltryk vs. offsettryk — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Digital vs. Offset Printing — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Digital vs. Offset Printing — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Digital vs. Offset Printing — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Digital vs. Offset Printing — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "डिजिटल बनाम ऑफसेट प्रिंटिंग — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Digital vs. Offset Printing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Digital vs. Offset Printing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Digital vs. Offset Printing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Digital vs. Offset Printing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Digitaal drukken vs. offset — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Druk cyfrowy a offsetowy — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Impressão digital vs. offset — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Digitaltryck vs. offset — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Digital vs. Offset Printing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Digitaltryck vs. offset — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Digital vs. Offset Printing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§DIGITAL-VS-OFFSET-PRINTING" ;
     skos:prefLabel "Digitaltryk vs. offsettryk"@da,
@@ -3605,16 +3605,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Miljø & bæredygtighed — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Environment & Sustainability — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Environment & Sustainability — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Environment & Sustainability — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Environment & Sustainability — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "पर्यावरण और स्थिरता — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Environment & Sustainability — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Environment & Sustainability — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Environment & Sustainability — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Environment & Sustainability — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Milieu & duurzaamheid — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Środowisko i zrównoważony rozwój — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Meio ambiente e sustentabilidade — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Miljö & hållbarhet — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Environment & Sustainability——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Miljö & hållbarhet — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Environment & Sustainability——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§ENVIRONMENT-SUSTAINABILITY" ;
     skos:prefLabel "Miljø & bæredygtighed"@da,
@@ -3643,16 +3643,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Filformater & trykklare PDF’er — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "File Formats & Print Ready PDFs — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "File Formats & Print Ready PDFs — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "File Formats & Print Ready PDFs — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "File Formats & Print Ready PDFs — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "फ़ाइल फ़ॉर्मेट और प्रिंट-रेडी PDF — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "File Formats & Print Ready PDFs — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "File Formats & Print Ready PDFs — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "File Formats & Print Ready PDFs — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "File Formats & Print Ready PDFs — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Bestandsformaten & drukklare PDF’s — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Formaty plików i PDF-y gotowe do druku — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Formatos de arquivo e PDFs prontos para impressão — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Filformat & tryckfärdiga PDF:er — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "File Formats & Print Ready PDFs——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Filformat & tryckfärdiga PDF:er — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "File Formats & Print Ready PDFs——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§FILE-FORMATS-PRINT-READY-PDFS" ;
     skos:prefLabel "Filformater & trykklare PDF’er"@da,
@@ -3681,16 +3681,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Falstyper & rilning — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Folding Types & Creasing — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Folding Types & Creasing — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Folding Types & Creasing — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Folding Types & Creasing — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "फ़ोल्ड के प्रकार और क्रीज़िंग — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Folding Types & Creasing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Folding Types & Creasing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Folding Types & Creasing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Folding Types & Creasing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Vouwsoorten & rillen — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Rodzaje składania i bigowanie — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Tipos de dobra e vinco — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Falstyper & bigning — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Folding Types & Creasing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Falstyper & bigning — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Folding Types & Creasing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§FOLDING-TYPES-CREASING" ;
     skos:prefLabel "Falstyper & rilning"@da,
@@ -3719,16 +3719,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Skrifter & kurver — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Fonts & Paths — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Fonts & Paths — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Fonts & Paths — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Fonts & Paths — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "फ़ॉन्ट और पाथ — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Fonts & Paths — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Fonts & Paths — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Fonts & Paths — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Fonts & Paths — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Lettertypen & contouren — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Fonty i krzywe — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Fontes e contornos (paths) — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Typsnitt & banor — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Fonts & Paths——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Typsnitt & banor — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Fonts & Paths——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§FONTS-PATHS" ;
     skos:prefLabel "Skrifter & kurver"@da,
@@ -3757,16 +3757,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Papir- & materialekvaliteter — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Paper & Material Qualities — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Paper & Material Qualities — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Paper & Material Qualities — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Paper & Material Qualities — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "काग़ज़ और सामग्री की गुणवत्ता — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Paper & Material Qualities — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Paper & Material Qualities — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Paper & Material Qualities — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Paper & Material Qualities — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Papier- & materiaalkwaliteiten — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Jakości papieru i materiałów — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Qualidades de papel e material — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Pappers- & materialkvaliteter — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Paper & Material Qualities——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Pappers- & materialkvaliteter — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Paper & Material Qualities——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§PAPER-MATERIAL-QUALITIES" ;
     skos:prefLabel "Papir- & materialekvaliteter"@da,
@@ -3795,16 +3795,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Trykformater & sidestørrelser — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Printing Formats & Page Sizes — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Printing Formats & Page Sizes — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Printing Formats & Page Sizes — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Printing Formats & Page Sizes — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "मुद्रण फ़ॉर्मेट और पृष्ठ आकार — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Printing Formats & Page Sizes — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Printing Formats & Page Sizes — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Printing Formats & Page Sizes — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Printing Formats & Page Sizes — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Drukformaten & paginagroottes — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Formaty druku i rozmiary stron — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Formatos de impressão e tamanhos de página — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Tryckformat & sidstorlekar — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Printing Formats & Page Sizes——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Tryckformat & sidstorlekar — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Printing Formats & Page Sizes——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§PRINTING-FORMATS-PAGE-SIZES" ;
     skos:prefLabel "Trykformater & sidestørrelser"@da,
@@ -3834,16 +3834,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Opløsninger & filstørrelser — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Resolutions & File Sizes — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Resolutions & File Sizes — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Resolutions & File Sizes — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Resolutions & File Sizes — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "रिज़ॉल्यूशन और फ़ाइल आकार — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Resolutions & File Sizes — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Resolutions & File Sizes — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Resolutions & File Sizes — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Resolutions & File Sizes — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Resoluties & bestandsgroottes — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Rozdzielczości i rozmiary plików — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Resoluções e tamanhos de arquivo — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Upplösningar & filstorlekar — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Resolutions & File Sizes——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Upplösningar & filstorlekar — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Resolutions & File Sizes——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§RESOLUTIONS-FILE-SIZES" ;
     skos:prefLabel "Opløsninger & filstørrelser"@da,
@@ -3872,16 +3872,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Standardpapirformater — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Standard Paper Sizes — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Standard Paper Sizes — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Standard Paper Sizes — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Standard Paper Sizes — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "मानक काग़ज़ आकार — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Standard Paper Sizes — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Standard Paper Sizes — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Standard Paper Sizes — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Standard Paper Sizes — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Standaardpapierformaten — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Standardowe formaty papieru — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Tamanhos de papel padrão — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Standardpappersformat — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Standard Paper Sizes——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Standardpappersformat — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Standard Paper Sizes——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§STANDARD-PAPER-SIZES" ;
     skos:prefLabel "Standardpapirformater"@da,
@@ -3910,16 +3910,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/templates> ;
     skos:definition "Adobe Illustrator — designfil-skabelon for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Adobe Illustrator — Design-Dateivorlage für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Adobe Illustrator — design file template for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Adobe Illustrator — design file template for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Adobe Illustrator — plantilla de archivo de diseño para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "Adobe Illustrator — मुद्रण खरीदारों और डिज़ाइनरों के लिए डिज़ाइन फ़ाइल टेम्पलेट। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Adobe Illustrator — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Adobe Illustrator — design-fil-mal for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Adobe Illustrator — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Adobe Illustrator — design-fil-mal for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Adobe Illustrator — ontwerpbestandssjabloon voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt."@nl,
         "Adobe Illustrator — szablon pliku projektowego dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Adobe Illustrator — modelo de arquivo de design para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Adobe Illustrator — designfilsmall för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Adobe Illustrator——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Adobe Illustrator — designfilsmall för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Adobe Illustrator——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§ADOBE-ILLUSTRATOR" ;
     skos:prefLabel "Adobe Illustrator"@da,
@@ -3948,16 +3948,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/templates> ;
     skos:definition "Adobe InDesign — designfil-skabelon for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Adobe InDesign — Design-Dateivorlage für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Adobe InDesign — design file template for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Adobe InDesign — design file template for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Adobe InDesign — plantilla de archivo de diseño para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "Adobe InDesign — मुद्रण खरीदारों और डिज़ाइनरों के लिए डिज़ाइन फ़ाइल टेम्पलेट। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Adobe InDesign — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Adobe InDesign — design-fil-mal for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Adobe InDesign — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Adobe InDesign — design-fil-mal for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Adobe InDesign — ontwerpbestandssjabloon voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt."@nl,
         "Adobe InDesign — szablon pliku projektowego dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Adobe InDesign — modelo de arquivo de design para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Adobe InDesign — designfilsmall för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Adobe InDesign——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Adobe InDesign — designfilsmall för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Adobe InDesign——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§ADOBE-INDESIGN" ;
     skos:prefLabel "Adobe InDesign"@da,
@@ -3986,16 +3986,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/templates> ;
     skos:definition "Adobe PDF — designfil-skabelon for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Adobe PDF — Design-Dateivorlage für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Adobe PDF — design file template for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Adobe PDF — design file template for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Adobe PDF — plantilla de archivo de diseño para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "Adobe PDF — मुद्रण खरीदारों और डिज़ाइनरों के लिए डिज़ाइन फ़ाइल टेम्पलेट। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Adobe PDF — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Adobe PDF — design-fil-mal for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Adobe PDF — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Adobe PDF — design-fil-mal for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Adobe PDF — ontwerpbestandssjabloon voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt."@nl,
         "Adobe PDF — szablon pliku projektowego dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Adobe PDF — modelo de arquivo de design para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Adobe PDF — designfilsmall för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Adobe PDF——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Adobe PDF — designfilsmall för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Adobe PDF——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§ADOBE-PDF" ;
     skos:prefLabel "Adobe PDF"@da,
@@ -4024,16 +4024,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/tools> ;
     skos:definition "Papirvægte — interaktivt hjælpemiddel for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, det dækker."@da,
         "Paper Weights — interaktives Werkzeug für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Paper Weights — interactive utility for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Paper Weights — interactive utility for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Paper Weights — utilidad interactiva para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "काग़ज़ का वज़न — मुद्रण खरीदारों और डिज़ाइनरों के लिए इंटरैक्टिव उपयोगिता। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Paper Weights — 印刷物の購入者およびデザイナー向けのインタラクティブツール。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Paper Weights — interaktivt verktøy for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Paper Weights — 印刷物の購入者およびデザイナー向けのインタラクティブツール。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Paper Weights — interaktivt verktøy for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Papiergewichten — interactief hulpmiddel voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt."@nl,
         "Gramatury papieru — interaktywne narzędzie dla nabywców druku i projektantów. Odwołuje się poprzez skos:related do terminów słownictwa warstwy 1, które obejmuje."@pl,
         "Gramaturas de papel — utilitário interativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Pappersvikter — interaktivt verktyg för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer det täcker via skos:related."@sv,
-        "Paper Weights——面向印刷买方和设计师的交互式工具。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Pappersvikter — interaktivt verktyg för tryckköpare och formgivare. Korsrefererar de vokabulärtermer det täcker via skos:related."@sv,
+        "Paper Weights——面向印刷买方和设计师的交互式工具。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§PAPER-WEIGHTS" ;
     skos:prefLabel "Papirvægte"@da,
@@ -5427,15 +5427,15 @@
     skos:broader <https://ptpge.org/v1/ordering/products> ;
     skos:definition "En trykt brochure af ét falset ark, brugt til promoverings- og informationsindhold — foldere, programmer, menukort og produktpræsentationer. Falstopologien konfigureres via setup-model-variablen (enkeltfals, trefløjet, z-fals, portfals, leporellofals, krydsfals, rullefals m.fl. — se supportsSetupModel); panelantallet via sideantal-variablen."@da,
         "Eine Druckbroschüre aus einem einzelnen gefalzten Bogen, für Werbe- und Informationsinhalte — Leaflets, Programme, Menüs und Produktpräsentationen. Die Falztopologie wird über die Setup-Model-Variable konfiguriert (Single-Fold, Tri-Fold, Z-Fold, Gate-Fold, Accordion-Fold, Cross-Fold, Roll-Fold u. a. — siehe supportsSetupModel); die Panelanzahl über die Page-Count-Variable. Der gefalzte Bogen hat 2 Surfaces (Außen und Innen), jede unabhängig mit eigenem Print Layer Stack konfigurierbar."@de,
-        "A printed brochure made from a single folded sheet, used for promotional and informational content — leaflets, programmes, menus, and product presentations. The fold topology is configured via the setup-model variable (single-fold, tri-fold, z-fold, gate-fold, accordion-fold, cross-fold, roll-fold and related — see supportsSetupModel); the panel count via the numeric page-count variable (variables/configuration/page-count — numeric axes carry no envelope list; the nominal panel layout of each fold is published as panelProportions on the setup-model term). Format binds the finished (closed) size; the flat sheet is production geometry derived by the producer. The folded sheet exposes 2 Surfaces (Outside and Inside), each independently configurable with its own Print Layer Stack. Validity rules for topology/panel-count combinations are Layer 2 (Configurator) logic."@en,
+        "A printed brochure made from a single folded sheet, used for promotional and informational content — leaflets, programmes, menus, and product presentations. The fold topology is configured via the setup-model variable (single-fold, tri-fold, z-fold, gate-fold, accordion-fold, cross-fold, roll-fold and related — see supportsSetupModel); the panel count via the numeric page-count variable (variables/configuration/page-count — numeric axes carry no envelope list; the nominal panel layout of each fold is published as panelProportions on the setup-model term). Format binds the finished (closed) size; the flat sheet is production geometry derived by the producer. The folded sheet exposes 2 Surfaces (Outside and Inside), each independently configurable with its own Print Layer Stack. Validity rules for topology/panel-count combinations are an implementation's logic (a configurator), not the vocabulary's."@en,
         "Folleto impreso hecho de una sola hoja plegada, usado para contenido promocional e informativo — leaflets, programas, menús y presentaciones de producto. La topología de plegado se configura mediante la variable setup-model (single-fold, tri-fold, z-fold, gate-fold, accordion-fold, cross-fold, roll-fold y variantes — ver supportsSetupModel); el número de paneles mediante la variable page-count. La hoja plegada expone 2 Superficies (Exterior e Interior), cada una configurable independientemente con su propio Print Layer Stack."@es,
         "एक ही मुड़ी हुई शीट से बना मुद्रित ब्रोशर, प्रचार और सूचना सामग्री के लिए — लीफ़लेट, कार्यक्रम, मेन्यू और उत्पाद प्रस्तुतियाँ। फ़ोल्ड की बनावट सेटअप-मॉडल वेरिएबल से तय होती है (सिंगल फ़ोल्ड, ट्राई-फ़ोल्ड, Z-फ़ोल्ड, गेट-फ़ोल्ड, अकॉर्डियन, क्रॉस-फ़ोल्ड, रोल-फ़ोल्ड आदि — देखें supportsSetupModel); पैनल संख्या संख्यात्मक पृष्ठ-संख्या वेरिएबल से (variables/configuration/page-count — संख्यात्मक अक्षों में एन्वेलप सूची नहीं होती; हर फ़ोल्ड का नाममात्र पैनल लेआउट सेटअप-मॉडल पद पर panelProportions के रूप में प्रकाशित है)। फ़ॉर्मेट तैयार (बंद) आकार को बाँधता है; खुली शीट उत्पादक द्वारा निकाली गई उत्पादन ज्यामिति है। मुड़ी शीट की 2 सतहें (बाहरी और भीतरी) होती हैं, हर एक अपनी प्रिंट लेयर स्टैक के साथ स्वतंत्र रूप से कॉन्फ़िगर होती है। बनावट/पैनल-संख्या संयोजनों की वैधता के नियम लेयर 2 (कॉन्फ़िगरेटर) का तर्क हैं।"@hi,
         "1枚の折られた紙から作られる印刷ブローシュア。リーフレット、プログラム、メニュー、製品紹介などの販促・情報コンテンツに使用される。折りトポロジーはsetup-model変数で構成され（single-fold、tri-fold、z-fold、gate-fold、accordion-fold、cross-fold、roll-foldなど — supportsSetupModel参照）、パネル数はpage-count変数で構成される。折られた紙は2つのSurface（OutsideとInside）を持ち、それぞれ独自のPrint Layer Stackで個別に構成できる。"@ja,
-        "En trykkbrosjyre laget av ett falset ark, brukt til markedsførings- og informasjonsinnhold — leaflets, programmer, menyer og produktpresentasjoner. Fold-topologien konfigureres via setup-model-variabelen (single-fold, tri-fold, z-fold, gate-fold, accordion-fold, cross-fold, roll-fold m.fl. — se supportsSetupModel); panelantallet via den numeriske page-count-variabelen (variables/configuration/page-count — numeriske akser har ingen envelope-liste; hver fals' nominelle panelinndeling publiseres som panelProportions på setup-model-termen). Format binder ferdig (lukket) format; det flate arket er produksjonsgeometri som produsenten avleder. Det falsede arket har 2 surfaces (Outside og Inside), hver uavhengig konfigurerbar med egen Print Layer Stack. Gyldighetsregler for topologi/panelantall er Layer 2-logikk (Configurator)."@nb,
+        "En trykkbrosjyre laget av ett falset ark, brukt til markedsførings- og informasjonsinnhold — leaflets, programmer, menyer og produktpresentasjoner. Fold-topologien konfigureres via setup-model-variabelen (single-fold, tri-fold, z-fold, gate-fold, accordion-fold, cross-fold, roll-fold m.fl. — se supportsSetupModel); panelantallet via den numeriske page-count-variabelen (variables/configuration/page-count — numeriske akser har ingen envelope-liste; hver fals' nominelle panelinndeling publiseres som panelProportions på setup-model-termen). Format binder ferdig (lukket) format; det flate arket er produksjonsgeometri som produsenten avleder. Det falsede arket har 2 surfaces (Outside og Inside), hver uavhengig konfigurerbar med egen Print Layer Stack. Gyldighetsregler for topologi/panelantall er implementasjonslogikk (konfigurator), ikke vokabularets."@nb,
         "Een gedrukte brochure van één gevouwen vel, voor promotionele en informatieve inhoud — folders, programma's, menukaarten en productpresentaties. De vouwtopologie wordt geconfigureerd via de opbouwmodel-variabele (enkele vouw, wikkelvouw, zigzagvouw, luikvouw, leporello, kruisvouw, rolvouw e.a. — zie supportsSetupModel); het paneelaantal via de paginatal-variabele."@nl,
-        "Drukowana ulotka z jednego złożonego arkusza, do treści promocyjnych i informacyjnych — ulotki, programy, menu i prezentacje produktów. Topologię złamu konfiguruje zmienna model konfiguracji (jeden złam, na C, w Z, okienkowo, harmonijkowo, na krzyż, zwijane i pokrewne — patrz supportsSetupModel); liczbę skrzydeł numeryczna zmienna liczba stron (variables/configuration/page-count — osie numeryczne nie mają listy wartości; nominalny układ skrzydeł każdego złamu jest publikowany jako panelProportions na terminie modelu konfiguracji). Format wiąże wymiar gotowy (po złożeniu); arkusz rozłożony jest geometrią produkcyjną wyprowadzaną przez producenta. Złożony arkusz ma 2 powierzchnie (Zewnętrzna i Wewnętrzna), każda konfigurowana niezależnie z własnym stosem warstw druku. Reguły poprawności kombinacji topologia/liczba skrzydeł to logika warstwy 2 (Konfigurator)."@pl,
+        "Drukowana ulotka z jednego złożonego arkusza, do treści promocyjnych i informacyjnych — ulotki, programy, menu i prezentacje produktów. Topologię złamu konfiguruje zmienna model konfiguracji (jeden złam, na C, w Z, okienkowo, harmonijkowo, na krzyż, zwijane i pokrewne — patrz supportsSetupModel); liczbę skrzydeł numeryczna zmienna liczba stron (variables/configuration/page-count — osie numeryczne nie mają listy wartości; nominalny układ skrzydeł każdego złamu jest publikowany jako panelProportions na terminie modelu konfiguracji). Format wiąże wymiar gotowy (po złożeniu); arkusz rozłożony jest geometrią produkcyjną wyprowadzaną przez producenta. Złożony arkusz ma 2 powierzchnie (Zewnętrzna i Wewnętrzna), każda konfigurowana niezależnie z własnym stosem warstw druku. Reguły poprawności kombinacji topologia/liczba skrzydeł to logika implementacji (konfigurator), nie słownictwa."@pl,
         "Folheto impresso feito de uma única folha dobrada, para conteúdo promocional e informativo — panfletos, programas, cardápios e apresentações de produto. A topologia da dobra é configurada pela variável de modelo de montagem (dobra simples, tríptico, dobra Z, dobra janela, sanfona, dobra cruzada, dobra envolvente e afins — ver supportsSetupModel); o número de painéis pela variável numérica de número de páginas (variables/configuration/page-count — eixos numéricos não têm lista de envelope; a proporção nominal dos painéis de cada dobra é publicada como panelProportions no termo do modelo de montagem). O formato vincula o tamanho final (fechado); a folha aberta é geometria de produção derivada pelo produtor. A folha dobrada expõe 2 Faces (Exterior e Interior), cada uma configurável de forma independente com sua própria pilha de camadas de impressão. As regras de validade para combinações topologia/número de painéis são lógica da Camada 2 (Configurador)."@pt,
-        "En tryckt broschyr av ett enda falsat ark, för marknadsförings- och informationsinnehåll — foldrar, program, menyer och produktpresentationer. Falstopologin konfigureras via uppbyggnadsmodell-variabeln (enkelfals, C-fals, Z-fals, portfals, dragspelsfals, korsfals, rullfals med flera — se supportsSetupModel); panelantalet via sidantal-variabeln. Det falsade arket exponerar 2 ytor (utsida och insida), var och en oberoende konfigurerbar med sin egen tryckskiktstack. Giltighetsregler för kombinationer av topologi och panelantal är Layer 2-logik (Konfiguratorn)."@sv,
+        "En tryckt broschyr av ett enda falsat ark, för marknadsförings- och informationsinnehåll — foldrar, program, menyer och produktpresentationer. Falstopologin konfigureras via uppbyggnadsmodell-variabeln (enkelfals, C-fals, Z-fals, portfals, dragspelsfals, korsfals, rullfals med flera — se supportsSetupModel); panelantalet via sidantal-variabeln. Det falsade arket exponerar 2 ytor (utsida och insida), var och en oberoende konfigurerbar med sin egen tryckskiktstack. Giltighetsregler för kombinationer av topologi och panelantal är implementationslogik (konfiguratorn), inte vokabulärens."@sv,
         "由一张折叠纸制成的印刷宣传册，用于宣传和信息内容——传单、节目单、菜单和产品介绍。折叠拓扑通过setup-model变量配置（single-fold、tri-fold、z-fold、gate-fold、accordion-fold、cross-fold、roll-fold等——见supportsSetupModel）；面板数通过page-count变量配置。折叠纸有2个Surface（外面和内面），每个都可用自己的Print Layer Stack独立配置。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:PR§BROCHURE" ;
@@ -13564,7 +13564,15 @@
     ptpge:elementType "value" ;
     ptpge:group "completions" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.33 · p.132",
+                "§5.6.4 · p.114" ;
+            ptpge:mappingRow "crosswalk row 46" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Bundling",
+                "Strapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§5.6.25 · p.126",
                 "§5.6.28 · p.128",
                 "§5.6.3 · p.113",
                 "§5.6.39 · p.135",
@@ -13576,14 +13584,6 @@
                 "Palletizing",
                 "Shrinking",
                 "Wrapping" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§5.6.33 · p.132",
-                "§5.6.4 · p.114" ;
-            ptpge:mappingRow "crosswalk row 46" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "Bundling",
-                "Strapping" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16755,14 +16755,7 @@
     ptpge:level "element" ;
     ptpge:pageCountConstraint "even" ;
     ptpge:pageCountRange [ ] ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16772,6 +16765,13 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16879,7 +16879,14 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16889,13 +16896,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16936,14 +16936,7 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16953,6 +16946,13 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17001,15 +17001,7 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17019,6 +17011,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17135,7 +17135,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17145,14 +17153,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17202,7 +17202,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17212,14 +17220,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17268,7 +17268,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17278,14 +17286,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17340,15 +17340,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/2" "1/2" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F4-1 (Single fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17358,6 +17350,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F4-1 (Single fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17548,15 +17548,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17566,6 +17558,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23526,18 +23526,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23658,18 +23658,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23785,18 +23785,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -24756,7 +24756,7 @@
     skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/hp> ;
     skos:definition "HP's Indigo sub-brand — liquid-electroink (liquid electrophotography) digital presses. A sub-brand with independent trade currency («printed on an Indigo»), hence its own identity term; individual models (Indigo 7K, 100K, …) are Layer-2 catalog content in HP's Supplier Profile."@en,
         "HP का Indigo उप-ब्रांड — लिक्विड-इलेक्ट्रोइंक (लिक्विड इलेक्ट्रोफ़ोटोग्राफ़ी) डिजिटल प्रेस। बिरादरी में अपनी अलग पहचान वाला उप-ब्रांड («Indigo पर छपा»), इसलिए अपना पहचान-पद; अलग-अलग मॉडल (Indigo 7K, 100K, …) HP की आपूर्तिकर्ता प्रोफ़ाइल में लेयर-2 कैटलॉग सामग्री हैं।"@hi,
-        "HPs Indigo-undermerke — digitale presser med flytende elektroblekk (liquid electrophotography). Et undermerke med selvstendig valuta i bransjespråket («trykket på en Indigo»), derfor egen identitetsterm; enkeltmodellene (Indigo 7K, 100K, …) er Layer 2-kataloginnhold i HPs Supplier Profile."@nb,
+        "HPs Indigo-undermerke — digitale presser med flytende elektroblekk (liquid electrophotography). Et undermerke med selvstendig valuta i bransjespråket («trykket på en Indigo»), derfor egen identitetsterm; enkeltmodellene (Indigo 7K, 100K, …) er kataloginnhold i HPs Supplier Profile."@nb,
         "Submarka Indigo firmy HP — cyfrowe maszyny z ciekłą farbą elektrostatyczną (ciekła elektrofotografia). Submarka o samodzielnej wartości w branży («drukowane na Indigo»), stąd własny termin tożsamości; poszczególne modele (Indigo 7K, 100K, …) to treść katalogowa warstwy 2 w profilu dostawcy HP."@pl,
         "Submarca Indigo da HP — impressoras digitais de tinta eletrônica líquida (eletrofotografia líquida). Submarca com moeda própria no ofício («impresso numa Indigo»), daí seu próprio termo de identidade; modelos individuais (Indigo 7K, 100K, …) são conteúdo de catálogo da Camada 2 no perfil de fornecedor da HP."@pt ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
@@ -27339,16 +27339,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge> ;
     skos:definition "Interaktive hjælpemidler, der hjælper købere og designere med trykrelaterede beregninger og beslutninger. Eksempler: papirvægt-omregnere, formatberegnere, filstørrelses-estimatorer. Hvert værktøj refererer via skos:related til det lag 1-begreb, det arbejder på."@da,
         "Interaktive Hilfsprogramme, die Käufern und Designern bei druckbezogenen Berechnungen und Entscheidungen helfen. Beispiele: Papiergewicht-Konverter, Formatrechner, Dateigrößen-Schätzer. Jedes Werkzeug verweist über skos:related auf das Layer-1-Konzept, mit dem es arbeitet."@de,
-        "Interactive utilities that help buyers and designers make print-related calculations and decisions. Examples: paper weight converters, format calculators, file size estimators. Each tool references the Layer 1 concept it operates on via skos:related."@en,
+        "Interactive utilities that help buyers and designers make print-related calculations and decisions. Examples: paper weight converters, format calculators, file size estimators. Each tool references the vocabulary concept it operates on via skos:related."@en,
         "Utilidades interactivas que ayudan a compradores y diseñadores a realizar cálculos y tomar decisiones relacionados con la impresión. Ejemplos: convertidores de gramaje de papel, calculadoras de formato, estimadores de tamaño de archivo. Cada herramienta referencia mediante skos:related el concepto de la Capa 1 sobre el que opera."@es,
         "इंटरैक्टिव उपयोगिताएँ जो खरीदारों और डिज़ाइनरों को मुद्रण-संबंधी गणनाएँ और निर्णय करने में मदद करती हैं। उदाहरण: काग़ज़-वज़न कन्वर्टर, फ़ॉर्मेट कैलकुलेटर, फ़ाइल-आकार अनुमानक। हर टूल skos:related के ज़रिए उस लेयर 1 संकल्पना को संदर्भित करता है जिस पर वह काम करता है।"@hi,
-        "購入者やデザイナーが印刷関連の計算や意思決定を行うのを支援するインタラクティブなユーティリティ。例：用紙坪量変換ツール、フォーマット計算機、ファイルサイズ推定ツール。各ツールは操作対象のLayer 1概念をskos:relatedで参照する。"@ja,
-        "Interaktive verktøy som hjelper kjøpere og designere med å gjøre trykk-relaterte beregninger og beslutninger. Eksempler: papirvekt-konverterere, format-kalkulatorer, filstørrelse-estimatorer. Hvert verktøy refererer Layer 1-konseptet det opererer på via skos:related."@nb,
+        "購入者やデザイナーが印刷関連の計算や意思決定を行うのを支援するインタラクティブなユーティリティ。例：用紙坪量変換ツール、フォーマット計算機、ファイルサイズ推定ツール。各ツールは操作対象の語彙概念をskos:relatedで参照する。"@ja,
+        "Interaktive verktøy som hjelper kjøpere og designere med å gjøre trykk-relaterte beregninger og beslutninger. Eksempler: papirvekt-konverterere, format-kalkulatorer, filstørrelse-estimatorer. Hvert verktøy refererer vokabularkonseptet det opererer på via skos:related."@nb,
         "Interactieve tools die kopers en ontwerpers helpen bij drukgerelateerde berekeningen en beslissingen. Voorbeelden: papiergewicht-omrekenaars, formaatcalculators, bestandsgrootte-schatters. Elk hulpmiddel verwijst via skos:related naar het laag 1-concept waarop het werkt."@nl,
         "Interaktywne programy pomagające nabywcom i projektantom w obliczeniach i decyzjach związanych z drukiem. Przykłady: konwertery gramatury papieru, kalkulatory formatów, szacowanie rozmiaru plików. Każde narzędzie odwołuje się poprzez skos:related do pojęcia warstwy 1, na którym operuje."@pl,
         "Utilitários interativos que ajudam compradores e designers a fazer cálculos e tomar decisões relacionadas à impressão. Exemplos: conversores de gramatura, calculadoras de formato, estimadores de tamanho de arquivo. Cada ferramenta referencia via skos:related o conceito da Camada 1 sobre o qual opera."@pt,
-        "Interaktiva verktyg som hjälper köpare och formgivare att göra tryckrelaterade beräkningar och val. Exempel: pappersviktkonverterare, formatkalkylatorer och filstorleksuppskattare. Varje verktyg refererar det Layer 1-begrepp det arbetar med via skos:related."@sv,
-        "帮助买方和设计师进行印刷相关计算与决策的交互式工具。示例：纸张克重换算器、规格计算器、文件大小估算器。每个工具通过 skos:related 引用其所基于的 Layer 1 概念。"@zh-Hans ;
+        "Interaktiva verktyg som hjälper köpare och formgivare att göra tryckrelaterade beräkningar och val. Exempel: pappersviktkonverterare, formatkalkylatorer och filstorleksuppskattare. Varje verktyg refererar det vokabulärbegrepp det arbetar med via skos:related."@sv,
+        "帮助买方和设计师进行印刷相关计算与决策的交互式工具。示例：纸张克重换算器、规格计算器、文件大小估算器。每个工具通过 skos:related 引用其所基于的 词汇概念。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/ordering/knowledge/tools/paper-weights> ;
     skos:notation "O:KN-TLS" ;
@@ -31249,16 +31249,16 @@
     skos:broader <https://ptpge.org/v1/printing/features/embellishments/foil-stamping> ;
     skos:definition "Varmfolieprægning med specialfarvet pigmenteret folie. Fås i dækkende farver (rød, blå, grøn, kobber, hvid, sort m.fl.) og mat eller blank finish. Brug denne URI, når den specifikke foliefarve aftales med producenten."@da,
         "Heißfolienprägung mit kundenspezifischer pigmentierter Folie. Erhältlich in Vollfarben und matten oder glänzenden Ausführungen."@de,
-        "Hot-foil stamping with custom-colour pigmented foil. Available in solid colours (red, blue, green, copper, white, black, etc.) and matte or gloss finishes. Use this URI when the specific foil colour is not yet in the controlled vocabulary; vendor-specific colours can be expressed as Layer 2 extensions."@en,
-        "Estampación en caliente con foil pigmentado de color personalizado. Disponible en colores sólidos (rojo, azul, verde, cobre, blanco, negro, etc.) y acabados mate o brillo. Usa este URI cuando el color de foil específico aún no está en el vocabulario controlado; los colores propios de un proveedor pueden expresarse como extensiones de Layer 2."@es,
+        "Hot-foil stamping with custom-colour pigmented foil. Available in solid colours (red, blue, green, copper, white, black, etc.) and matte or gloss finishes. Use this URI when the specific foil colour is not yet in the controlled vocabulary; vendor-specific colours can be expressed as an implementation's extensions."@en,
+        "Estampación en caliente con foil pigmentado de color personalizado. Disponible en colores sólidos (rojo, azul, verde, cobre, blanco, negro, etc.) y acabados mate o brillo. Usa este URI cuando el color de foil específico aún no está en el vocabulario controlado; los colores propios de un proveedor pueden expresarse como extensiones de la implementación."@es,
         "कस्टम-रंग रंजित फ़ॉइल से हॉट-फ़ॉइल स्टैंपिंग। ठोस रंगों (लाल, नीला, हरा, तांबई, सफ़ेद, काला आदि) और मैट या ग्लॉस फ़िनिश में उपलब्ध। जब विशिष्ट फ़ॉइल रंग अभी नियंत्रित शब्दकोश में न हो तो यह URI प्रयोग करें; विक्रेता-विशेष रंग लेयर 2 विस्तार के रूप में व्यक्त किए जा सकते हैं।"@hi,
-        "カスタムカラーの顔料箔によるホットフォイル。ソリッドカラー（赤、青、緑、銅、白、黒など）とマット／グロス仕上げがある。特定の箔色がまだ管理語彙にない場合はこの URI を使う。ベンダー固有の色は Layer 2 拡張として表現できる。"@ja,
+        "カスタムカラーの顔料箔によるホットフォイル。ソリッドカラー（赤、青、緑、銅、白、黒など）とマット／グロス仕上げがある。特定の箔色がまだ管理語彙にない場合はこの URI を使う。ベンダー固有の色は 実装側の拡張として表現できる。"@ja,
         "Varmfolie-preging med egendefinert pigmentert folie. Tilgjengelig i solide farger (rød, blå, grønn, kobber, hvit, sort osv.) og matte eller glansede finisher. Bruk denne URI-en når den spesifikke folie-fargen ikke er i kontrollert vokabular ennå."@nb,
         "Warmfoliedruk met gepigmenteerde folie in maatwerkkleur. Verkrijgbaar in dekkende kleuren (rood, blauw, groen, koper, wit, zwart e.a.) en matte of glanzende afwerking. Gebruik deze URI wanneer de specifieke foliekleur met de producent wordt afgestemd."@nl,
         "Folia na gorąco w indywidualnym kolorze pigmentowanym. Dostępna w pełnych kolorach (czerwony, niebieski, zielony, miedziany, biały, czarny itd.) oraz w wykończeniu matowym lub błyszczącym. Użyj tego URI, gdy konkretny kolor folii nie jest jeszcze w kontrolowanym słownictwie; kolory specyficzne dla dostawcy można wyrazić jako rozszerzenia warstwy 2."@pl,
         "Hot stamping com foil pigmentado em cor personalizada. Disponível em cores sólidas (vermelho, azul, verde, cobre, branco, preto etc.) e acabamentos fosco ou brilhante. Use esta URI quando a cor específica do foil ainda não estiver no vocabulário controlado; cores específicas de fornecedor podem ser expressas como extensões da Camada 2."@pt,
-        "Varmfoliering med pigmenterad folie i specialkulör. Finns i solida kulörer (röd, blå, grön, koppar, vit, svart m.fl.) och matt eller blank finish. Använd denna URI när den specifika foliekulören ännu inte finns i den kontrollerade vokabulären; leverantörsspecifika kulörer kan uttryckas som Layer 2-utökningar."@sv,
-        "使用定制颜色颜料箔的烫印。提供实色（红、蓝、绿、铜、白、黑等）与哑光或亮光效果。当特定箔色尚未进入受控词汇时使用此 URI；厂商专属颜色可作为 Layer 2 扩展表达。"@zh-Hans ;
+        "Varmfoliering med pigmenterad folie i specialkulör. Finns i solida kulörer (röd, blå, grön, koppar, vit, svart m.fl.) och matt eller blank finish. Använd denna URI när den specifika foliekulören ännu inte finns i den kontrollerade vokabulären; leverantörsspecifika kulörer kan uttryckas som implementationsutökningar."@sv,
+        "使用定制颜色颜料箔的烫印。提供实色（红、蓝、绿、铜、白、黑等）与哑光或亮光效果。当特定箔色尚未进入受控词汇时使用此 URI；厂商专属颜色可作为 实现侧的扩展表达。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "P:FT§CUSTOM-FOIL" ;
     skos:prefLabel "Specialfolie"@da,
@@ -33854,18 +33854,18 @@
         "Heidelberg Speedmaster"@pt,
         "SM"@pt ;
     skos:broader <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses/heidelberg> ;
-    skos:definition "Heidelbergs undermærke Speedmaster — arkoffsetpresser fra 50 × 70 til 70 × 100 cm (CX-, SX- og XL-serierne). Et undermærke med selvstændig valuta i branchesproget («trykt på en Speedmaster»), derfor egen identitetsterm; enkeltmodellerne (XL 106, XL 75, CX 104, …) er Layer 2-katalogindhold i Heidelbergs leverandørprofil og i trykkeriets leverandørprofil."@da,
-        "Heidelbergs Untermarke Speedmaster — Bogenoffsetmaschinen von 50 × 70 bis 70 × 100 cm (Baureihen CX, SX und XL). Eine Untermarke mit eigener Geltung in der Branchensprache («auf einer Speedmaster gedruckt»), daher ein eigener Identitätsbegriff; einzelne Modelle (XL 106, XL 75, CX 104, …) sind Layer-2-Kataloginhalt im Lieferantenprofil von Heidelberg und im Anbieterprofil einer Druckerei."@de,
+    skos:definition "Heidelbergs undermærke Speedmaster — arkoffsetpresser fra 50 × 70 til 70 × 100 cm (CX-, SX- og XL-serierne). Et undermærke med selvstændig valuta i branchesproget («trykt på en Speedmaster»), derfor egen identitetsterm; enkeltmodellerne (XL 106, XL 75, CX 104, …) er katalogindhold i Heidelbergs leverandørprofil og i trykkeriets leverandørprofil."@da,
+        "Heidelbergs Untermarke Speedmaster — Bogenoffsetmaschinen von 50 × 70 bis 70 × 100 cm (Baureihen CX, SX und XL). Eine Untermarke mit eigener Geltung in der Branchensprache («auf einer Speedmaster gedruckt»), daher ein eigener Identitätsbegriff; einzelne Modelle (XL 106, XL 75, CX 104, …) sind Kataloginhalt im Lieferantenprofil von Heidelberg und im Anbieterprofil einer Druckerei."@de,
         "Heidelberg's Speedmaster sub-brand — sheet-fed offset presses from 50 × 70 to 70 × 100 cm (CX, SX and XL series). A sub-brand with independent trade currency («printed on a Speedmaster»), hence its own identity term; individual models (XL 106, XL 75, CX 104, …) are Layer-2 catalog content in Heidelberg's supplier profile and in a printer's vendor profile."@en,
-        "Submarca Speedmaster de Heidelberg — prensas de offset de pliego de 50 × 70 a 70 × 100 cm (series CX, SX y XL). Una submarca con valor propio en el lenguaje del sector («impreso en una Speedmaster»), por lo que tiene su propio término de identidad; los modelos individuales (XL 106, XL 75, CX 104, …) son contenido de catálogo de Layer 2 en el perfil de proveedor de Heidelberg y en el perfil del impresor."@es,
+        "Submarca Speedmaster de Heidelberg — prensas de offset de pliego de 50 × 70 a 70 × 100 cm (series CX, SX y XL). Una submarca con valor propio en el lenguaje del sector («impreso en una Speedmaster»), por lo que tiene su propio término de identidad; los modelos individuales (XL 106, XL 75, CX 104, …) son contenido de catálogo en el perfil de proveedor de Heidelberg y en el perfil del impresor."@es,
         "Heidelberg का Speedmaster उप-ब्रांड — 50 × 70 से 70 × 100 सेमी की शीट-फ़ेड ऑफसेट प्रेस (CX, SX और XL सीरीज़)। बिरादरी में अपनी अलग पहचान वाला उप-ब्रांड («Speedmaster पर छपा»), इसलिए अपना पहचान-पद; अलग-अलग मॉडल (XL 106, XL 75, CX 104, …) Heidelberg की आपूर्तिकर्ता प्रोफ़ाइल और प्रिंटर की विक्रेता प्रोफ़ाइल में लेयर-2 कैटलॉग सामग्री हैं।"@hi,
-        "ハイデルベルグのサブブランド Speedmaster — 50 × 70 から 70 × 100 cm の枚葉オフセット印刷機（CX、SX、XL シリーズ）。業界用語として独立した通用性を持つサブブランド（「Speedmaster で印刷」）であるため独自の識別ターム。個別機種（XL 106、XL 75、CX 104 など）はハイデルベルグのサプライヤープロファイルおよび印刷会社のベンダープロファイルにおける Layer 2 カタログ内容。"@ja,
-        "Heidelbergs undermerke Speedmaster — arkoffsetpresser fra 50 × 70 til 70 × 100 cm (CX-, SX- og XL-seriene). Et undermerke med selvstendig valuta i bransjespråket («trykket på en Speedmaster»), derfor egen identitetsterm; enkeltmodellene (XL 106, XL 75, CX 104, …) er Layer 2-kataloginnhold i Heidelbergs leverandørprofil og i trykkeriets leverandørprofil."@nb,
-        "Heidelbergs submerk Speedmaster — vellenoffsetpersen van 50 × 70 tot 70 × 100 cm (CX-, SX- en XL-series). Een submerk met eigen waarde in de vaktaal («gedrukt op een Speedmaster»), vandaar een eigen identiteitsterm; afzonderlijke modellen (XL 106, XL 75, CX 104, …) zijn Layer 2-cataloguscontent in het leveranciersprofiel van Heidelberg en in het vendorprofiel van een drukkerij."@nl,
+        "ハイデルベルグのサブブランド Speedmaster — 50 × 70 から 70 × 100 cm の枚葉オフセット印刷機（CX、SX、XL シリーズ）。業界用語として独立した通用性を持つサブブランド（「Speedmaster で印刷」）であるため独自の識別ターム。個別機種（XL 106、XL 75、CX 104 など）はハイデルベルグのサプライヤープロファイルおよび印刷会社のベンダープロファイルにおける カタログ内容。"@ja,
+        "Heidelbergs undermerke Speedmaster — arkoffsetpresser fra 50 × 70 til 70 × 100 cm (CX-, SX- og XL-seriene). Et undermerke med selvstendig valuta i bransjespråket («trykket på en Speedmaster»), derfor egen identitetsterm; enkeltmodellene (XL 106, XL 75, CX 104, …) er kataloginnhold i Heidelbergs leverandørprofil og i trykkeriets leverandørprofil."@nb,
+        "Heidelbergs submerk Speedmaster — vellenoffsetpersen van 50 × 70 tot 70 × 100 cm (CX-, SX- en XL-series). Een submerk met eigen waarde in de vaktaal («gedrukt op een Speedmaster»), vandaar een eigen identiteitsterm; afzonderlijke modellen (XL 106, XL 75, CX 104, …) zijn cataloguscontent in het leveranciersprofiel van Heidelberg en in het vendorprofiel van een drukkerij."@nl,
         "Submarka Speedmaster Heidelberga — arkuszowe maszyny offsetowe od 50 × 70 do 70 × 100 cm (serie CX, SX i XL). Submarka o samodzielnej wartości w branży («drukowane na Speedmasterze»), stąd własny termin tożsamości; poszczególne modele (XL 106, XL 75, CX 104, …) to treść katalogowa warstwy 2 w profilu dostawcy Heidelberga i w profilu drukarni."@pl,
         "Submarca Speedmaster da Heidelberg — impressoras offset de folha de 50 × 70 a 70 × 100 cm (séries CX, SX e XL). Submarca com moeda própria no ofício («impresso numa Speedmaster»), daí seu próprio termo de identidade; modelos individuais (XL 106, XL 75, CX 104, …) são conteúdo de catálogo da Camada 2 no perfil de fornecedor da Heidelberg e no perfil de fornecedor de um impressor."@pt,
-        "Heidelbergs undermärke Speedmaster — arkoffsetpressar från 50 × 70 till 70 × 100 cm (CX-, SX- och XL-serierna). Ett undermärke med egen valuta i branschspråket («tryckt på en Speedmaster»), därför egen identitetsterm; enskilda modeller (XL 106, XL 75, CX 104, …) är Layer 2-kataloginnehåll i Heidelbergs leverantörsprofil och i tryckeriets leverantörsprofil."@sv,
-        "海德堡子品牌 Speedmaster——50 × 70 至 70 × 100 cm 的单张纸胶印机（CX、SX、XL 系列）。该子品牌在行业语言中具有独立通用性（“在 Speedmaster 上印刷”），因此拥有自己的身份术语；具体机型（XL 106、XL 75、CX 104 等）属于海德堡供应商档案和印刷厂供应商档案中的 Layer 2 目录内容。"@zh-Hans ;
+        "Heidelbergs undermärke Speedmaster — arkoffsetpressar från 50 × 70 till 70 × 100 cm (CX-, SX- och XL-serierna). Ett undermärke med egen valuta i branschspråket («tryckt på en Speedmaster»), därför egen identitetsterm; enskilda modeller (XL 106, XL 75, CX 104, …) är kataloginnehåll i Heidelbergs leverantörsprofil och i tryckeriets leverantörsprofil."@sv,
+        "海德堡子品牌 Speedmaster——50 × 70 至 70 × 100 cm 的单张纸胶印机（CX、SX、XL 系列）。该子品牌在行业语言中具有独立通用性（“在 Speedmaster 上印刷”），因此拥有自己的身份术语；具体机型（XL 106、XL 75、CX 104 等）属于海德堡供应商档案和印刷厂供应商档案中的 目录内容。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "P:TC-PFE-PRES-HEID-SPMA" ;
     skos:prefLabel "Speedmaster"@da,
@@ -34582,18 +34582,18 @@
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-09-22T16:33:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/ordering> ;
-    skos:definition "Åbent checkout-/distributionsvokabular: neutrale typer og handelsklausuler, som en ordre eller agent refererer til ved forsendelse af en færdig trykopgave. Transportører, priser, afgifter og adresser er kommercielle data (lag 2/3/4) og ligger uden for Standarden."@da,
-        "Offenes Checkout-/Distributionsvokabular: neutrale Typen und Handelsklauseln, auf die eine Bestellung oder ein Agent beim Versand eines fertigen Druckauftrags verweist. Frachtführer, Tarife, Steuern und Adressen sind kommerzielle Daten (Layer 2/3/4) und liegen außerhalb des Standards."@de,
-        "Open checkout/distribution vocabulary: neutral types and trade terms an order or agent references when shipping a finished print job. Carriers, rates, taxes and addresses are commercial (Layer 2/3/4) data and live outside the Standard."@en,
-        "Vocabulario abierto de checkout/distribución: tipos neutrales y términos comerciales que una orden o un agente referencia al enviar un trabajo de impresión terminado. Transportistas, tarifas, impuestos y direcciones son datos comerciales (Layer 2/3/4) y viven fuera del Standard."@es,
-        "खुला चेकआउट/वितरण शब्दकोश: तटस्थ प्रकार और व्यापार शर्तें जिन्हें कोई ऑर्डर या एजेंट तैयार मुद्रण कार्य भेजते समय संदर्भित करता है। वाहक, दरें, कर और पते व्यावसायिक (लेयर 2/3/4) डेटा हैं और मानक से बाहर रहते हैं।"@hi,
-        "オープンなチェックアウト／配送語彙：完成した印刷ジョブを出荷する際に注文やエージェントが参照する中立的な型と貿易条件。運送業者、料金、税、住所は商用データ（Layer 2/3/4）であり、Standard の外にある。"@ja,
-        "Åpent checkout-/distribusjonsvokabular: nøytrale typer og handelsvilkår en ordre eller agent refererer til ved forsendelse av en ferdig trykkjobb. Transportører, rater, avgifter og adresser er kommersiell (Layer 2/3/4) data og ligger utenfor standarden."@nb,
-        "Open checkout-/distributievocabulaire: neutrale typen en handelstermen waarnaar een order of agent verwijst bij verzending van een afgewerkte drukopdracht. Vervoerders, tarieven, belastingen en adressen zijn commerciële gegevens (laag 2/3/4) en vallen buiten de Standaard."@nl,
-        "Otwarte słownictwo realizacji zamówienia i dystrybucji: neutralne typy i warunki handlowe, do których odwołuje się zamówienie lub agent przy wysyłce gotowego zlecenia drukarskiego. Przewoźnicy, stawki, podatki i adresy są danymi komercyjnymi (warstwa 2/3/4) i pozostają poza Standardem."@pl,
-        "Vocabulário aberto de checkout/distribuição: tipos neutros e termos comerciais que um pedido ou agente referencia ao expedir um trabalho gráfico acabado. Transportadoras, tarifas, impostos e endereços são dados comerciais (Camadas 2/3/4) e vivem fora da Norma."@pt,
-        "Öppen kassa-/distributionsvokabulär: neutrala typer och handelstermer som en order eller agent refererar till när ett färdigt tryckjobb skickas. Transportörer, priser, skatter och adresser är kommersiella data (Layer 2/3/4) och ligger utanför Standarden."@sv,
-        "开放的结算/配送词汇：订单或代理在发运已完成印件时引用的中立类型与贸易条款。承运商、费率、税费与地址属于商业数据（Layer 2/3/4），不在 Standard 之内。"@zh-Hans ;
+    skos:definition "Åbent checkout-/distributionsvokabular: neutrale typer og handelsklausuler, som en ordre eller agent refererer til ved forsendelse af en færdig trykopgave. Transportører, priser, afgifter og adresser er kommercielle data — implementeringens, ikke vokabularets."@da,
+        "Offenes Checkout-/Distributionsvokabular: neutrale Typen und Handelsklauseln, auf die eine Bestellung oder ein Agent beim Versand eines fertigen Druckauftrags verweist. Frachtführer, Tarife, Steuern und Adressen sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars."@de,
+        "Open checkout/distribution vocabulary: neutral types and trade terms an order or agent references when shipping a finished print job. Carriers, rates, taxes and addresses are commercial data — an implementation's, not the vocabulary's."@en,
+        "Vocabulario abierto de checkout/distribución: tipos neutrales y términos comerciales que una orden o un agente referencia al enviar un trabajo de impresión terminado. Transportistas, tarifas, impuestos y direcciones son datos comerciales — de la implementación, no del vocabulario."@es,
+        "खुला चेकआउट/वितरण शब्दकोश: तटस्थ प्रकार और व्यापार शर्तें जिन्हें कोई ऑर्डर या एजेंट तैयार मुद्रण कार्य भेजते समय संदर्भित करता है। वाहक, दरें, कर और पते व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"@hi,
+        "オープンなチェックアウト／配送語彙：完成した印刷ジョブを出荷する際に注文やエージェントが参照する中立的な型と貿易条件。運送業者、料金、税、住所は商用データであり、語彙ではなく実装の領分である。"@ja,
+        "Åpent checkout-/distribusjonsvokabular: nøytrale typer og handelsvilkår en ordre eller agent refererer til ved forsendelse av en ferdig trykkjobb. Transportører, rater, avgifter og adresser er kommersielle data — implementasjonens, ikke vokabularets."@nb,
+        "Open checkout-/distributievocabulaire: neutrale typen en handelstermen waarnaar een order of agent verwijst bij verzending van een afgewerkte drukopdracht. Vervoerders, tarieven, belastingen en adressen zijn commerciële gegevens — van de implementatie, niet van het vocabulaire."@nl,
+        "Otwarte słownictwo realizacji zamówienia i dystrybucji: neutralne typy i warunki handlowe, do których odwołuje się zamówienie lub agent przy wysyłce gotowego zlecenia drukarskiego. Przewoźnicy, stawki, podatki i adresy są danymi komercyjnymi — implementacji, nie słownictwa."@pl,
+        "Vocabulário aberto de checkout/distribuição: tipos neutros e termos comerciais que um pedido ou agente referencia ao expedir um trabalho gráfico acabado. Transportadoras, tarifas, impostos e endereços são dados comerciais — da implementação, não do vocabulário."@pt,
+        "Öppen kassa-/distributionsvokabulär: neutrala typer och handelstermer som en order eller agent refererar till när ett färdigt tryckjobb skickas. Transportörer, priser, skatter och adresser är kommersiella data — implementationens, inte vokabulärens."@sv,
+        "开放的结算/配送词汇：订单或代理在发运已完成印件时引用的中立类型与贸易条款。承运商、费率、税费与地址属于商业数据，属于实现而不属于词汇。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/ordering/distribution/delivery-methods>,
         <https://ptpge.org/v1/ordering/distribution/incoterms> ;
@@ -38618,16 +38618,16 @@
         "涂布"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -39417,12 +39417,12 @@
         "Contabilidade de carbono"@pt,
         "Koldioxidredovisning"@sv,
         "碳核算"@zh-Hans ;
-    skos:scopeNote "Wertebereich für die Variable climate-documentation. Die deklarierten Fußabdruckswerte selbst stehen in Angeboten und Vendor-Profilen (Layer 2) und referenzieren diese Methoden."@de,
-        "Value domain for the climate-documentation variable. The declared footprint figures themselves live in offers and vendor profiles (Layer 2), referencing these methods."@en,
+    skos:scopeNote "Wertebereich für die Variable climate-documentation. Die deklarierten Fußabdruckswerte selbst stehen in Angeboten und Vendor-Deklarationen und referenzieren diese Methoden."@de,
+        "Value domain for the climate-documentation variable. The declared footprint figures themselves live in offers and vendor declarations, referencing these methods."@en,
         "Dominio de valores para la variable climate-documentation. Las cifras de huella declaradas viven en ofertas y perfiles de proveedor (Capa 2), referenciando estos métodos."@es,
         "जलवायु-दस्तावेज़ीकरण वेरिएबल का मान-क्षेत्र। घोषित फ़ुटप्रिंट आँकड़े स्वयं ऑफ़र और विक्रेता प्रोफ़ाइल (लेयर 2) में रहते हैं, इन विधियों का संदर्भ देते हुए।"@hi,
         "climate-documentation 変数の値域。宣言されたフットプリント数値自体はオファーやベンダープロファイル（レイヤー2）にあり、これらの方法を参照する。"@ja,
-        "Verdidomene for variabelen climate-documentation. Selve de deklarerte fotavtrykkstallene bor i tilbud og vendor-profiler (Layer 2), med referanse til disse metodene."@nb,
+        "Verdidomene for variabelen climate-documentation. Selve de deklarerte fotavtrykkstallene bor i tilbud og leverandørdeklarasjoner, med referanse til disse metodene."@nb,
         "Domínio de valores da variável de documentação climática. Os valores de pegada declarados em si ficam em ofertas e perfis de fornecedor (Camada 2), referenciando estes métodos."@pt,
         "climate-documentation 变量的取值域。声明的碳足迹数值本身位于报价和供应商档案（第 2 层）中，并引用这些方法。"@zh-Hans ;
     ptpge:group "standards" ;
@@ -40041,9 +40041,9 @@
 <https://ptpge.org/v1/schemas> a skos:Concept ;
     dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-09T17:30:00+00:00"^^xsd:dateTime ;
-    skos:definition "The five document forms the vocabulary is used in: vendor declaration and supplier catalogue (what a company is and offers, published on its own domain), request and quote (one deal between a buyer and a printer), UCP manifest (the identity on a checkout line). Each has a schema with a permanent URI and a version; a document carries its owner, the schema carries none. Status: draft — field definitions are written from the first live documents, vendor declaration first."@en,
-        "De fem dokumentformene vokabularet brukes i: leverandørdeklarasjon og produsentkatalog (hva en virksomhet er og tilbyr, publisert på eget domene), forespørsel og tilbud (én handel mellom kjøper og trykkeri), UCP-manifest (identiteten på en kasselinje). Hvert har et skjema med permanent URI og versjon; et dokument bærer sin eier, skjemaet bærer ingen. Status: utkast – feltdefinisjonene skrives ut fra de første dokumentene i drift, leverandørdeklarasjonen først."@nb ;
+    dcterms:modified "2026-10-10T19:20:00+00:00"^^xsd:dateTime ;
+    skos:definition "The five document forms the vocabulary is used in: vendor declaration and supplier catalogue (what a company is and offers, published on its own domain), request and quote (one deal between a buyer and a printer), UCP manifest (the identity on a checkout line). Each has a schema with a permanent URI and a version; a document carries its owner, the schema carries none. Status: draft. The vendor declaration has a published JSON Schema (2026-10-10); the other four follow, written from the first live documents. The rule every schema sets: what a document says about products and options, it says with term URIs, not labels."@en,
+        "De fem dokumentformene vokabularet brukes i: leverandørdeklarasjon og produsentkatalog (hva en virksomhet er og tilbyr, publisert på eget domene), forespørsel og tilbud (én handel mellom kjøper og trykkeri), UCP-manifest (identiteten på en kasselinje). Hvert har et skjema med permanent URI og versjon; et dokument bærer sin eier, skjemaet bærer ingen. Status: utkast. Leverandørdeklarasjonen har publisert JSON Schema (2026-10-10); de fire andre følger, skrevet ut fra de første dokumentene i drift. Regelen hvert skjema setter: det et dokument sier om produkter og valg, sier det med term-URI-er, ikke etiketter."@nb ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/schemas/quote/1>,
         <https://ptpge.org/v1/schemas/request/1>,
@@ -41022,18 +41022,18 @@
         "包括Antalis（欧洲分销商）、Hahnemühle（德国特种纸）、Holmen（北欧出版用纸）、Lessebo（瑞典优质和设计用纸）和Sappi（全球商业用纸）。其他地区供应商按记录时跟踪。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 30" ;
-            ptpge:matchDegree "concept" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 30" ;
+            ptpge:matchDegree "concept" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -43221,17 +43221,17 @@
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     skos:definition "De konfigurerbare akser for et trykt produkt — parametrene (Format, Farvetilstand, Fals, Antal, …) en køber vælger langs. Variabler er det forbindende lag, som både Printing Process og Ordering Process refererer ind i."@da,
-        "Die konfigurierbaren Achsen eines Druckprodukts — die Parameter (Format, Farbmodus, Falzung, Auflage, …), entlang derer ein Käufer wählt. Variables ist die verbindende Schicht, auf die Printing Process und Ordering Process beide zeigen: Jede Variable definiert eine Achse und referenziert die Werte, aus denen sie schöpft (valueDomain). Variables enthält Definitionen, keine Werte; die Werte liegen in Printing/Ordering. Gültige Kombinationen und variablenübergreifende Regeln sind Layer 2 (PTPGE Configurator), nicht hier."@de,
-        "The configurable axes of a printed product — the parameters (Format, Color Mode, Fold, Quantity, …) a buyer selects along. Variables is the connective layer both the Printing Process and Ordering Process point into: each Variable defines an axis and references the values it draws from (valueDomain). Variables hold definitions, not values; the values live in Printing/Ordering. Valid combinations and cross-variable rules are Layer 2 (PTPGE Configurator), not here."@en,
-        "Los ejes configurables de un producto impreso — los parámetros (Formato, Modo de color, Plegado, Cantidad, …) a lo largo de los cuales elige un comprador. Variables es la capa conectiva a la que apuntan tanto el Printing Process como el Ordering Process: cada Variable define un eje y referencia los valores de los que se nutre (valueDomain). Variables contiene definiciones, no valores; los valores viven en Printing/Ordering. Las combinaciones válidas y las reglas entre variables son Layer 2 (PTPGE Configurator), no aquí."@es,
+        "Die konfigurierbaren Achsen eines Druckprodukts — die Parameter (Format, Farbmodus, Falzung, Auflage, …), entlang derer ein Käufer wählt. Variables ist die verbindende Schicht, auf die Printing Process und Ordering Process beide zeigen: Jede Variable definiert eine Achse und referenziert die Werte, aus denen sie schöpft (valueDomain). Variables enthält Definitionen, keine Werte; die Werte liegen in Printing/Ordering. Gültige Kombinationen und variablenübergreifende Regeln sind Sache der Implementierung (eines Konfigurators), nicht hier."@de,
+        "The configurable axes of a printed product — the parameters (Format, Color Mode, Fold, Quantity, …) a buyer selects along. Variables is the connective layer both the Printing Process and Ordering Process point into: each Variable defines an axis and references the values it draws from (valueDomain). Variables hold definitions, not values; the values live in Printing/Ordering. Valid combinations and cross-variable rules are an implementation's rules (a configurator), not the vocabulary's."@en,
+        "Los ejes configurables de un producto impreso — los parámetros (Formato, Modo de color, Plegado, Cantidad, …) a lo largo de los cuales elige un comprador. Variables es la capa conectiva a la que apuntan tanto el Printing Process como el Ordering Process: cada Variable define un eje y referencia los valores de los que se nutre (valueDomain). Variables contiene definiciones, no valores; los valores viven en Printing/Ordering. Las combinaciones válidas y las reglas entre variables son reglas de la implementación (un configurador), no aquí."@es,
         "मुद्रित उत्पाद के कॉन्फ़िगर किए जा सकने वाले अक्ष — वे पैरामीटर (फ़ॉर्मेट, कलर मोड, फ़ोल्ड, मात्रा, …) जिनके साथ खरीदार चुनाव करता है। वेरिएबल वह जोड़ने वाली परत है जिसकी ओर मुद्रण प्रक्रिया और ऑर्डरिंग प्रक्रिया दोनों इशारा करती हैं: हर वेरिएबल एक अक्ष परिभाषित करता है और उन मानों को संदर्भित करता है जिनसे वह लेता है (valueDomain)। वेरिएबल में परिभाषाएँ होती हैं, मान नहीं; मान मुद्रण/ऑर्डरिंग में रहते हैं। वैध संयोजन और वेरिएबलों के बीच के नियम लेयर 2 (PTPGE कॉन्फ़िगरेटर) हैं, यहाँ नहीं।"@hi,
-        "印刷物の構成可能な軸 — 買い手が選択するパラメータ（判型、カラーモード、折り、数量など）。Variables は Printing Process と Ordering Process の双方が指し示す結合層であり、各変数は軸を定義し、参照する値の出所（valueDomain）を示す。Variables が保持するのは定義であって値ではない。値は Printing/Ordering にある。有効な組み合わせや変数間ルールは Layer 2（PTPGE Configurator）の領分であり、ここでは扱わない。"@ja,
-        "De konfigurerbare aksene til et trykkprodukt — parameterne (Format, Fargemodus, Bretting, Antall, …) en kjøper velger langs. Variables er det forbindende laget begge sider peker inn i: hver variabel definerer en akse og refererer verdiene den henter fra (valueDomain). Variables holder definisjoner, ikke verdier; verdiene lever i Printing/Ordering. Gyldige kombinasjoner og kryssregler er Layer 2 (PTPGE Configurator)."@nb,
+        "印刷物の構成可能な軸 — 買い手が選択するパラメータ（判型、カラーモード、折り、数量など）。Variables は Printing Process と Ordering Process の双方が指し示す結合層であり、各変数は軸を定義し、参照する値の出所（valueDomain）を示す。Variables が保持するのは定義であって値ではない。値は Printing/Ordering にある。有効な組み合わせや変数間ルールは 実装（コンフィギュレータ）の領分であり、ここでは扱わない。"@ja,
+        "De konfigurerbare aksene til et trykkprodukt — parameterne (Format, Fargemodus, Bretting, Antall, …) en kjøper velger langs. Variables er det forbindende laget begge sider peker inn i: hver variabel definerer en akse og refererer verdiene den henter fra (valueDomain). Variables holder definisjoner, ikke verdier; verdiene lever i Printing/Ordering. Gyldige kombinasjoner og kryssregler er implementasjonens regler (en konfigurator), ikke vokabularets."@nb,
         "De configureerbare assen van een drukproduct — de parameters (Formaat, Kleurmodus, Vouw, Aantal, …) waarlangs een koper kiest. Variabelen vormen de verbindende laag waar zowel het Printing Process als het Ordering Process naar verwijzen."@nl,
-        "Konfigurowalne osie produktu drukowanego — parametry (Format, Tryb koloru, Składanie, Nakład, …), wzdłuż których wybiera nabywca. Zmienne to warstwa łącząca, na którą wskazują zarówno Proces druku, jak i Proces zamawiania: każda Zmienna definiuje oś i odwołuje się do wartości, z których czerpie (valueDomain). Zmienne zawierają definicje, nie wartości; wartości żyją w Druku/Zamawianiu. Dozwolone kombinacje i reguły między zmiennymi to warstwa 2 (Konfigurator PTPGE), nie tutaj."@pl,
+        "Konfigurowalne osie produktu drukowanego — parametry (Format, Tryb koloru, Składanie, Nakład, …), wzdłuż których wybiera nabywca. Zmienne to warstwa łącząca, na którą wskazują zarówno Proces druku, jak i Proces zamawiania: każda Zmienna definiuje oś i odwołuje się do wartości, z których czerpie (valueDomain). Zmienne zawierają definicje, nie wartości; wartości żyją w Druku/Zamawianiu. Dozwolone kombinacje i reguły między zmiennymi to reguły implementacji (konfigurator), nie tutaj."@pl,
         "Os eixos configuráveis de um impresso — os parâmetros (Formato, Modo de Cor, Dobra, Quantidade, …) ao longo dos quais o comprador escolhe. Variáveis é a camada conectiva para a qual apontam tanto o Processo de Impressão quanto o Processo de Compra: cada Variável define um eixo e referencia os valores de que se alimenta (valueDomain). As Variáveis guardam definições, não valores; os valores vivem em Impressão/Compra. Combinações válidas e regras entre variáveis são Camada 2 (Configurador PTPGE), não aqui."@pt,
-        "En trycksaks konfigurerbara axlar — de parametrar (format, färgläge, fals, kvantitet …) en köpare väljer längs. Variabler är det förbindande skikt som både Tryckprocessen och Beställningsprocessen pekar in i: varje variabel definierar en axel och refererar de värden den hämtar (valueDomain). Variabler bär definitioner, inte värden; värdena bor i Tryck/Beställning. Giltiga kombinationer och regler över variabelgränser är Layer 2 (PTPGE-konfiguratorn), inte här."@sv,
-        "印刷品的可配置轴——买方据以选择的参数（幅面、色彩模式、折页、数量等）。Variables 是 Printing Process 与 Ordering Process 共同指向的连接层：每个变量定义一条轴，并引用其取值来源（valueDomain）。Variables 承载定义而非取值；取值存在于 Printing/Ordering 中。有效组合与跨变量规则属于 Layer 2（PTPGE Configurator），不在此处。"@zh-Hans ;
+        "En trycksaks konfigurerbara axlar — de parametrar (format, färgläge, fals, kvantitet …) en köpare väljer längs. Variabler är det förbindande skikt som både Tryckprocessen och Beställningsprocessen pekar in i: varje variabel definierar en axel och refererar de värden den hämtar (valueDomain). Variabler bär definitioner, inte värden; värdena bor i Tryck/Beställning. Giltiga kombinationer och regler över variabelgränser är implementationens regler (en konfigurator), inte här."@sv,
+        "印刷品的可配置轴——买方据以选择的参数（幅面、色彩模式、折页、数量等）。Variables 是 Printing Process 与 Ordering Process 共同指向的连接层：每个变量定义一条轴，并引用其取值来源（valueDomain）。Variables 承载定义而非取值；取值存在于 Printing/Ordering 中。有效组合与跨变量规则属于实现（配置器），不在此处。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/variables/compliance>,
         <https://ptpge.org/v1/variables/configuration>,
@@ -45376,16 +45376,16 @@
     skos:broader <https://ptpge.org/v1/variables/configuration> ;
     skos:definition "Konfigurerbar akse: Sideantal. Et trykt produkt konfigureres langs denne variabel (numerisk, enkeltvalg, i sider). For flersidede produkter tæller værdien sider; for falsede ark tæller den paneler."@da,
         "Konfigurierbare Achse: Seitenzahl. Ein Druckprodukt wird entlang dieser Variablen konfiguriert (numerisch, Einfachauswahl, in Seiten). Bei mehrseitigen Produkten zählt der Wert Seiten; bei gefalzten Bogenprodukten zählt er Panels (die seitenäquivalenten Flächen, die der Falz erzeugt). Numerischer Wert — keine aufgezählte Wertemenge. Gültigkeitsregeln (z. B. Vielfache von 4 bei Rückstichheftung, gerade Panelzahlen bei Leporellofalz) sind Layer-2-Regeln (Configurator), kein Vokabular."@de,
-        "Configurable axis: Page Count. A printed product is configured along this variable (numeric, single selection, in pages). For multi-page products the value counts pages; for folded-sheet products it counts panels (the page-equivalent faces produced by the fold). A numeric literal — no enumerated domain. Validity constraints (e.g. multiples of 4 for saddle-stitched binding, even panel counts for accordion folds) are Layer 2 (Configurator) rules, not vocabulary."@en,
-        "Eje configurable: Número de páginas. Un producto impreso se configura a lo largo de esta variable (numérico, selección única, en páginas). En productos multipágina el valor cuenta páginas; en productos de hoja plegada cuenta paneles (las caras equivalentes a páginas que produce el plegado). Un literal numérico — sin dominio enumerado. Las restricciones de validez (p. ej., múltiplos de 4 para encuadernación a caballete, número par de paneles para plegado en acordeón) son reglas de Layer 2 (Configurator), no vocabulario."@es,
+        "Configurable axis: Page Count. A printed product is configured along this variable (numeric, single selection, in pages). For multi-page products the value counts pages; for folded-sheet products it counts panels (the page-equivalent faces produced by the fold). A numeric literal — no enumerated domain. Validity constraints (e.g. multiples of 4 for saddle-stitched binding, even panel counts for accordion folds) are an implementation's rules (a configurator), not vocabulary."@en,
+        "Eje configurable: Número de páginas. Un producto impreso se configura a lo largo de esta variable (numérico, selección única, en páginas). En productos multipágina el valor cuenta páginas; en productos de hoja plegada cuenta paneles (las caras equivalentes a páginas que produce el plegado). Un literal numérico — sin dominio enumerado. Las restricciones de validez (p. ej., múltiplos de 4 para encuadernación a caballete, número par de paneles para plegado en acordeón) son reglas de la implementación (configurador), no vocabulario."@es,
         "कॉन्फ़िगर करने योग्य अक्ष: पृष्ठ संख्या। मुद्रित उत्पाद इस वेरिएबल के साथ कॉन्फ़िगर होता है (संख्यात्मक, एकल चयन, पृष्ठों में)। बहु-पृष्ठ उत्पादों में मान पृष्ठ गिनता है; मुड़ी-शीट उत्पादों में पैनल (फ़ोल्ड से बनी पृष्ठ-समान सतहें)। संख्यात्मक लिटरल — कोई enum डोमेन नहीं। वैधता की शर्तें (जैसे सैडल-स्टिच बाइंडिंग के लिए 4 के गुणज, अकॉर्डियन फ़ोल्ड के लिए सम पैनल संख्या) लेयर 2 (कॉन्फ़िगरेटर) के नियम हैं, शब्दावली नहीं।"@hi,
-        "構成可能な軸：ページ数。印刷物はこの変数に沿って構成される（数値、単一選択、ページ単位）。複数ページの製品では値はページ数を数え、折り加工の枚葉製品ではパネル数（折りが生み出すページ相当の面）を数える。数値リテラル — 列挙された定義域はない。妥当性制約（例：中綴じは4の倍数、蛇腹折りは偶数パネル）は Layer 2（Configurator）のルールであり、語彙ではない。"@ja,
-        "Konfigurerbar akse: Sidetall. Et trykkprodukt konfigureres langs denne variabelen (numeric, single valg, i sider). For flersidige produkter telles sider; for falsede ark telles paneler (de side-ekvivalente flatene falsingen skaper). Numerisk verdi — ingen opptalt domene. Gyldighetsregler (f.eks. delelig på 4 for saddle-stitched, partall paneler for accordion) er Layer 2-regler (Configurator), ikke vokabular."@nb,
+        "構成可能な軸：ページ数。印刷物はこの変数に沿って構成される（数値、単一選択、ページ単位）。複数ページの製品では値はページ数を数え、折り加工の枚葉製品ではパネル数（折りが生み出すページ相当の面）を数える。数値リテラル — 列挙された定義域はない。妥当性制約（例：中綴じは4の倍数、蛇腹折りは偶数パネル）は 実装（コンフィギュレータ）のルールであり、語彙ではない。"@ja,
+        "Konfigurerbar akse: Sidetall. Et trykkprodukt konfigureres langs denne variabelen (numeric, single valg, i sider). For flersidige produkter telles sider; for falsede ark telles paneler (de side-ekvivalente flatene falsingen skaper). Numerisk verdi — ingen opptalt domene. Gyldighetsregler (f.eks. delelig på 4 for saddle-stitched, partall paneler for accordion) er implementasjonsregler (konfigurator), ikke vokabular."@nb,
         "Configureerbare as: Paginatal. Een drukproduct wordt langs deze variabele geconfigureerd (numeriek, enkelvoudig, in pagina's). Bij meerpaginaproducten telt de waarde pagina's; bij gevouwen vellen telt zij panelen."@nl,
-        "Oś konfigurowalna: Liczba stron. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (numeryczna, wybór pojedynczy, w stronach). Dla produktów wielostronicowych wartość liczy strony; dla produktów ze składanego arkusza liczy panele (odpowiedniki stron powstałe przez złożenie). Literał liczbowy — brak dziedziny wyliczeniowej. Ograniczenia poprawności (np. wielokrotność 4 dla oprawy zeszytowej, parzysta liczba paneli dla składania harmonijkowego) to reguły warstwy 2 (Konfigurator), nie słownictwo."@pl,
+        "Oś konfigurowalna: Liczba stron. Produkt drukowany jest konfigurowany wzdłuż tej zmiennej (numeryczna, wybór pojedynczy, w stronach). Dla produktów wielostronicowych wartość liczy strony; dla produktów ze składanego arkusza liczy panele (odpowiedniki stron powstałe przez złożenie). Literał liczbowy — brak dziedziny wyliczeniowej. Ograniczenia poprawności (np. wielokrotność 4 dla oprawy zeszytowej, parzysta liczba paneli dla składania harmonijkowego) to reguły implementacji (konfigurator), nie słownictwo."@pl,
         "Eixo configurável: Número de Páginas. Um impresso é configurado ao longo desta variável (numérico, seleção única, em páginas). Em produtos multipágina o valor conta páginas; em produtos de folha dobrada conta painéis (as faces equivalentes a páginas produzidas pela dobra). Literal numérico — sem domínio enumerado. Restrições de validade (p. ex. múltiplos de 4 para encadernação canoa/grampo, número par de painéis para dobra sanfona) são regras da Camada 2 (Configurador), não vocabulário."@pt,
-        "Konfigurerbar axel: Sidantal. En trycksak konfigureras längs denna variabel (numerisk, enkelval, i sidor). För flersidiga produkter räknar värdet sidor; för falsade ark räknar det paneler (de sidekvivalenta ytor falsningen ger). En numerisk literal — ingen uppräknad domän. Giltighetsvillkor (t.ex. multiplar av 4 för klammerhäftning, jämna panelantal för dragspelsfals) är Layer 2-regler (Konfiguratorn), inte vokabulär."@sv,
-        "可配置轴：页数。印刷品沿此变量进行配置（数值，单选，以页计）。多页产品按页计数；折页单张产品按面板计数（折页产生的等同于页面的面）。数值字面量——无枚举定义域。有效性约束（如骑马钉须为4的倍数、风琴折须为偶数面板）属于 Layer 2（Configurator）规则，不属于词汇。"@zh-Hans ;
+        "Konfigurerbar axel: Sidantal. En trycksak konfigureras längs denna variabel (numerisk, enkelval, i sidor). För flersidiga produkter räknar värdet sidor; för falsade ark räknar det paneler (de sidekvivalenta ytor falsningen ger). En numerisk literal — ingen uppräknad domän. Giltighetsvillkor (t.ex. multiplar av 4 för klammerhäftning, jämna panelantal för dragspelsfals) är implementationsregler (konfiguratorn), inte vokabulär."@sv,
+        "可配置轴：页数。印刷品沿此变量进行配置（数值，单选，以页计）。多页产品按页计数；折页单张产品按面板计数（折页产生的等同于页面的面）。数值字面量——无枚举定义域。有效性约束（如骑马钉须为4的倍数、风琴折须为偶数面板）属于实现（配置器）规则，不属于词汇。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "VAR:CF§PAGE-COUNT" ;
     skos:prefLabel "Sideantal"@da,
@@ -45480,16 +45480,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge> ;
     skos:definition "Pædagogiske guider, der forklarer trykfaglige begreber for købere i et klart sprog. Hver guide krydshenviser via skos:related til de lag 1-termer, den dækker — en bro mellem køberrettet dokumentation og produktionsvokabularet."@da,
         "Pädagogische Anleitungen, die Druckdomänenkonzepte in einfacher Sprache für Käufer erläutern. Jede Anleitung verweist über skos:related auf die abgedeckten Layer-1-Begriffe und bildet eine Brücke zwischen käuferorientierter Dokumentation und produzentenseitigem Vokabular."@de,
-        "Educational guides that explain print-domain concepts to buyers in plain language. Each guide cross-references the Layer 1 terms it covers via skos:related, providing a bridge between buyer-facing documentation and the production-side vocabulary."@en,
+        "Educational guides that explain print-domain concepts to buyers in plain language. Each guide cross-references the vocabulary terms it covers via skos:related, providing a bridge between buyer-facing documentation and the production-side vocabulary."@en,
         "Guías educativas que explican los conceptos del ámbito de la impresión a los compradores en lenguaje sencillo. Cada guía referencia mediante skos:related los términos de la Capa 1 que cubre, proporcionando un puente entre la documentación orientada al comprador y el vocabulario del lado de producción."@es,
         "शैक्षिक गाइड जो मुद्रण क्षेत्र की संकल्पनाएँ खरीदारों को सरल भाषा में समझाते हैं। हर गाइड skos:related के ज़रिए उन लेयर 1 पदों को संदर्भित करता है जिन्हें वह कवर करता है — खरीदार-उन्मुख दस्तावेज़ीकरण और उत्पादन-पक्ष की शब्दावली के बीच सेतु।"@hi,
-        "印刷分野の概念を購入者向けに平易な言葉で説明する教育ガイド。各ガイドは説明対象のLayer 1用語をskos:relatedで相互参照し、購入者向けドキュメントと生産者側の語彙との橋渡しを行う。"@ja,
-        "Pedagogiske veiledninger som forklarer print-domene-konsepter for kjøpere på enkelt språk. Hver veiledning cross-refererer Layer 1-termene den dekker via skos:related, og skaper en bro mellom kjøper-vendt dokumentasjon og produsentsidens vokabular."@nb,
+        "印刷分野の概念を購入者向けに平易な言葉で説明する教育ガイド。各ガイドは説明対象の語彙用語をskos:relatedで相互参照し、購入者向けドキュメントと生産者側の語彙との橋渡しを行う。"@ja,
+        "Pedagogiske veiledninger som forklarer print-domene-konsepter for kjøpere på enkelt språk. Hver veiledning cross-refererer vokabulartermene den dekker via skos:related, og skaper en bro mellom kjøper-vendt dokumentasjon og produsentsidens vokabular."@nb,
         "Educatieve gidsen die drukbegrippen in heldere taal aan kopers uitleggen. Elke gids verwijst via skos:related naar de laag 1-termen die hij behandelt — een brug tussen kopersgerichte documentatie en het productievocabulaire."@nl,
         "Przewodniki edukacyjne objaśniające nabywcom pojęcia z dziedziny druku prostym językiem. Każdy przewodnik odwołuje się poprzez skos:related do terminów warstwy 1, które omawia, łącząc dokumentację dla nabywców ze słownictwem produkcyjnym."@pl,
         "Guias educativos que explicam conceitos do domínio gráfico aos compradores em linguagem simples. Cada guia referencia via skos:related os termos da Camada 1 que cobre, fazendo a ponte entre a documentação voltada ao comprador e o vocabulário do lado da produção."@pt,
-        "Utbildande guider som förklarar tryckdomänens begrepp för köpare på ett enkelt språk. Varje guide korsrefererar de Layer 1-termer den täcker via skos:related och slår en bro mellan köparvänd dokumentation och produktionssidans vokabulär."@sv,
-        "以通俗语言向买方解释印刷领域概念的教学指南。每篇指南通过 skos:related 交叉引用其涵盖的 Layer 1 术语，在面向买方的文档与生产方词汇之间架起桥梁。"@zh-Hans ;
+        "Utbildande guider som förklarar tryckdomänens begrepp för köpare på ett enkelt språk. Varje guide korsrefererar de vokabulärtermer den täcker via skos:related och slår en bro mellan köparvänd dokumentation och produktionssidans vokabulär."@sv,
+        "以通俗语言向买方解释印刷领域概念的教学指南。每篇指南通过 skos:related 交叉引用其涵盖的 词汇术语，在面向买方的文档与生产方词汇之间架起桥梁。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/ordering/knowledge/guides/binding-types-finishing>,
         <https://ptpge.org/v1/ordering/knowledge/guides/bleed-safety-margins>,
@@ -51831,17 +51831,17 @@
     dcterms:created "2025-09-01T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-08T11:40:54+00:00"^^xsd:dateTime ;
-    skos:definition "En åben, mangefacetteret standard for trykbranchen, der dækker både hvordan tryksager produceres (brancheperspektiv) og hvordan de bestilles (slutkundeperspektiv). Lag 1 af PTPGE Print Infrastructure — den åbne reference for tryk, bygget som et struktureret vokabular med stabile URI'er, under CC BY 4.0."@da,
-        "Ein offener, facettenreicher Standard für die Druckindustrie, der sowohl die Herstellung von Druckerzeugnissen (Branchenperspektive) als auch deren Bestellung (Endkundenperspektive) abdeckt. Schicht 1 der PTPGE Print Infrastructure — die offene Referenz für die Druckindustrie, aufgebaut als strukturiertes Vokabular mit stabilen URIs, unter CC BY 4.0."@de,
-        "An open, multi-faceted Standard for the printing industry, covering how printed things are produced (Printing Process), how they are ordered (Ordering Process), and the configurable axes that connect the two (Variables). Layer 1 of PTPGE Infrastructure — the open reference for print, built as a structured vocabulary with stable URIs, under CC BY 4.0."@en,
-        "Norma abierta y multifacética para la industria de la impresión, que cubre tanto cómo se producen los productos impresos (vista del productor) como cómo se piden (vista del comprador). Capa 1 de PTPGE Print Infrastructure — la referencia abierta para la impresión, construida como vocabulario estructurado con URIs estables, bajo CC BY 4.0."@es,
-        "印刷業界向けのオープンな多面的標準。印刷物がどのように製造されるか（業界視点）と、どのように発注されるか（エンドユーザー視点）の両方を扱う。PTPGE Print Infrastructureのレイヤー1 — 安定したURIを持つ構造化された語彙として構築された、印刷業界のためのオープンな参照、CC BY 4.0で公開。"@ja,
-        "En åpen, fasettert Standard for trykkeribransjen som dekker både hvordan trykte ting produseres (bransjeperspektiv) og hvordan de bestilles (sluttbrukerperspektiv). Lag 1 av PTPGE Print Infrastructure — den åpne referansen for trykk, bygget som et strukturert vokabular med stabile URI-er, under CC BY 4.0."@nb,
-        "Een open, veelzijdige standaard voor de grafische industrie, die zowel beschrijft hoe drukwerk wordt geproduceerd (productieperspectief) als hoe het wordt besteld (klantperspectief). Laag 1 van PTPGE Print Infrastructure — de open referentie voor drukwerk, opgebouwd als een gestructureerd vocabulaire met stabiele URI's, onder CC BY 4.0."@nl,
-        "Otwarty, wielostronny standard dla przemysłu poligraficznego, opisujący zarówno sposób produkcji druku (perspektywa produkcyjna), jak i sposób jego zamawiania (perspektywa klienta). Warstwa 1 PTPGE Print Infrastructure — otwarte odniesienie dla druku, zbudowane jako ustrukturyzowane słownictwo ze stabilnymi URI, na licencji CC BY 4.0."@pl,
-        "En öppen, mångfacetterad standard för tryckbranschen som täcker både hur trycksaker produceras (branschperspektiv) och hur de beställs (slutkundsperspektiv). Lager 1 av PTPGE Print Infrastructure — den öppna referensen för tryck, byggd som ett strukturerat vokabulär med stabila URI:er, under CC BY 4.0."@sv,
-        "面向印刷行业的开放多面标准，涵盖印刷品如何生产（生产方视角）以及如何订购（买方视角）。PTPGE Print Infrastructure的第1层 —— 印刷行业的开放参照，以稳定URI的结构化词汇构建，采用CC BY 4.0许可。"@zh-Hans ;
+    dcterms:modified "2026-10-10T20:40:00+00:00"^^xsd:dateTime ;
+    skos:definition "Den åbne specifikation for tryk: et vokabular, der dækker hvordan tryksager produceres (Printing Process), hvordan de bestilles (Ordering Process) og de konfigurerbare akser, der forbinder de to (Variables), med produktskabeloner og én identitet pr. konfigureret produkt. Hver term har en permanent URI. Varetages af PTPGE, en almennyttig forening (under stiftelse); CC BY 4.0."@da,
+        "Die offene Spezifikation des Drucks: ein Vokabular, das beschreibt, wie Druckerzeugnisse hergestellt (Printing Process) und wie sie bestellt werden (Ordering Process), sowie die konfigurierbaren Achsen, die beides verbinden (Variables) — mit Produktvorlagen und einer Identität je konfiguriertem Produkt. Jeder Begriff hat eine permanente URI. Getragen von PTPGE, einem gemeinnützigen Verein (in Gründung); CC BY 4.0."@de,
+        "The open specification of print: a vocabulary covering how printed things are produced (Printing Process), how they are ordered (Ordering Process), and the configurable axes that connect the two (Variables), with product templates and one identity per configured product. Every term has a permanent URI. Held by PTPGE, a non-profit association (being formed); CC BY 4.0."@en,
+        "La especificación abierta de la impresión: un vocabulario que cubre cómo se producen los productos impresos (Printing Process), cómo se piden (Ordering Process) y los ejes configurables que conectan ambos (Variables), con plantillas de producto y una identidad por producto configurado. Cada término tiene una URI permanente. Custodiada por PTPGE, asociación sin ánimo de lucro (en constitución); CC BY 4.0."@es,
+        "印刷のオープン仕様。印刷物がどのように製造されるか（Printing Process）、どのように発注されるか（Ordering Process）、そして両者を結ぶ設定可能な軸（Variables）を扱う語彙で、製品テンプレートと、構成された製品ごとに一つの識別子を備える。すべての用語は恒久的なURIを持つ。非営利団体PTPGE（設立準備中）が保持。CC BY 4.0。"@ja,
+        "Den åpne spesifikasjonen for trykk: et vokabular som dekker hvordan trykte ting produseres (Printing Process), hvordan de bestilles (Ordering Process) og de konfigurerbare aksene som binder de to sammen (Variables), med produktmaler og én identitet per konfigurert produkt. Hver term har en permanent URI. Forvaltes av PTPGE, en ideell forening (under stiftelse); CC BY 4.0."@nb,
+        "De open specificatie van drukwerk: een vocabulaire dat beschrijft hoe drukwerk wordt geproduceerd (Printing Process), hoe het wordt besteld (Ordering Process) en de configureerbare assen die beide verbinden (Variables), met productsjablonen en één identiteit per geconfigureerd product. Elke term heeft een permanente URI. Beheerd door PTPGE, een vereniging zonder winstoogmerk (in oprichting); CC BY 4.0."@nl,
+        "Otwarta specyfikacja druku: słownictwo opisujące, jak powstają produkty drukowane (Printing Process), jak są zamawiane (Ordering Process) oraz konfigurowalne osie łączące oba obszary (Variables), wraz z szablonami produktów i jedną tożsamością dla każdego skonfigurowanego produktu. Każdy termin ma trwały URI. Prowadzona przez PTPGE, stowarzyszenie non-profit (w organizacji); CC BY 4.0."@pl,
+        "Den öppna specifikationen för tryck: ett vokabulär som täcker hur trycksaker produceras (Printing Process), hur de beställs (Ordering Process) och de konfigurerbara axlar som binder samman de två (Variables), med produktmallar och en identitet per konfigurerad produkt. Varje term har en permanent URI. Förvaltas av PTPGE, en ideell förening (under bildande); CC BY 4.0."@sv,
+        "印刷的开放规范：一套词汇，涵盖印刷品如何生产（Printing Process）、如何订购（Ordering Process），以及连接两者的可配置轴（Variables），并提供产品模板和每个已配置产品的唯一身份。每个术语都有永久 URI。由非营利协会 PTPGE（筹建中）持有；CC BY 4.0。"@zh-Hans ;
     skos:hasTopConcept <https://ptpge.org/v1/ordering>,
         <https://ptpge.org/v1/printing>,
         <https://ptpge.org/v1/variables> ;
@@ -51854,11 +51854,12 @@
         "PTPGE — Układ okresowy elementów druku i grafiki"@pl,
         "PTPGE — Periodiska systemet för tryck- och grafikelement"@sv,
         "PTPGE — 印刷与图形元素周期表"@zh-Hans ;
-    skos:scopeNote "Die Version 2026-05-18 umfasst beide Top-Konzepte: Printing Process (Branchenperspektive, sieben Gruppen) und Ordering Process (Endkundenperspektive, drei Gruppen). Das Zwei-Rollen-Design ermöglicht es demselben Vokabular, sowohl Produktions- als auch Endkundenbestellprozesse zu bedienen."@de,
-        "Release 2026-05-30 covers three top concepts: Printing Process (industry view, seven Groups), Ordering Process (end-user view, five Groups), and Variables (the configurable axes that bridge the two — Format, Color Mode, Fold, Quantity, etc.). Notation v3.0 is axis-typed (P:/O:/V:). The design lets the same vocabulary serve production workflows, end-customer ordering, and agentic configuration."@en,
-        "La versión 2026-05-18 cubre ambos conceptos principales: Proceso de Impresión (vista del productor, siete grupos) y Proceso de Pedido (vista del comprador, tres grupos). El diseño de dos roles permite que el mismo vocabulario sirva tanto para flujos de producción como para flujos de pedido del cliente final."@es,
-        "リリース2026-05-18では、Printing Process（業界視点、7グループ）とOrdering Process（エンドユーザー視点、3グループ）の両方のトップコンセプトを対象としている。この二役設計により、同じ語彙で製造ワークフローと顧客発注ワークフローの両方に対応できる。"@ja,
-        "2026-05-18版本涵盖两个顶层概念：印刷过程（生产方视角，七个分组）和订购过程（买方视角，三个分组）。两役设计使同一词汇能同时服务于生产工作流程和终端客户订购流程。"@zh-Hans ;
+    skos:scopeNote "Drei Top-Konzepte: Printing Process (Branchenperspektive, sieben Gruppen), Ordering Process (Käuferperspektive, fünf Gruppen) und Variables (die konfigurierbaren Achsen, die beide verbinden — Format, Farbmodus, Falz, Auflage …). Daneben: Schemas (die fünf Dokumentformen) und zwei schlanke Identitätsregister (Suppliers, Vendors). Die Notation ist achsentypisiert (P:/O:/VAR:). Dasselbe Vokabular dient Produktionsabläufen, der Bestellung durch Käufer und agentischer Konfiguration."@de,
+        "Three top concepts: Printing Process (industry view, seven groups), Ordering Process (buyer view, five groups) and Variables (the configurable axes that bridge the two — format, colour mode, fold, quantity …). Alongside them: Schemas (the five document forms), and two thin registers of identities (Suppliers, Vendors). Notation is axis-typed (P:/O:/VAR:). The same vocabulary serves production workflows, buyer-side ordering and agentic configuration."@en,
+        "Tres conceptos principales: Printing Process (vista del productor, siete grupos), Ordering Process (vista del comprador, cinco grupos) y Variables (los ejes configurables que los conectan — formato, modo de color, plegado, cantidad …). Junto a ellos: Schemas (las cinco formas de documento) y dos registros de identidad (Suppliers, Vendors). La notación está tipada por eje (P:/O:/VAR:). El mismo vocabulario sirve a flujos de producción, pedidos del comprador y configuración agéntica."@es,
+        "三つのトップコンセプト：Printing Process（業界視点、7グループ）、Ordering Process（購入者視点、5グループ）、Variables（両者をつなぐ設定可能な軸——判型、カラーモード、折り、数量など）。加えて Schemas（五つの文書形式）と、二つの軽量な識別子レジスタ（Suppliers、Vendors）。表記は軸で型付けされる（P:/O:/VAR:）。同じ語彙が製造ワークフロー、購入者の発注、エージェントによる構成に使われる。"@ja,
+        "Tre toppkonsepter: Printing Process (bransjeperspektiv, sju grupper), Ordering Process (kjøperperspektiv, fem grupper) og Variables (de konfigurerbare aksene som binder dem sammen — format, fargemodus, fals, antall …). Ved siden av: Schemas (de fem dokumentformene) og to tynne identitetsregistre (Suppliers, Vendors). Notasjonen er aksetypet (P:/O:/VAR:). Samme vokabular tjener produksjonsflyt, kjøpers bestilling og agentisk konfigurasjon."@nb,
+        "三个顶层概念：Printing Process（生产方视角，七个分组）、Ordering Process（买方视角，五个分组）和 Variables（连接两者的可配置轴——幅面、色彩模式、折页、数量等）。此外还有 Schemas（五种文档形式）和两个精简的身份登记（Suppliers、Vendors）。记法按轴分类（P:/O:/VAR:）。同一词汇服务于生产流程、买方订购和智能体配置。"@zh-Hans ;
     ptpge:translationProvenance [ ] ;
     ptpge:translationStatus [ ] ;
     ptpge:version "2026-05-30" .

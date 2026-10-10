@@ -31,13 +31,13 @@
     "https://ptpge.org/v1/printing/standards/graphic-file-formats"
   ],
   "definition": {
-    "en": "Adobe Illustrator — design file template for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related.",
-    "nb": "Adobe Illustrator — design-fil-mal for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related.",
+    "en": "Adobe Illustrator — design file template for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related.",
+    "nb": "Adobe Illustrator — design-fil-mal for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related.",
     "de": "Adobe Illustrator — Design-Dateivorlage für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe.",
-    "ja": "Adobe Illustrator — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。",
+    "ja": "Adobe Illustrator — 印刷物の購入者およびデザイナー向けのデザインファイルテンプレート。説明対象の語彙用語をskos:relatedで相互参照する。",
     "es": "Adobe Illustrator — plantilla de archivo de diseño para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre.",
-    "zh-Hans": "Adobe Illustrator——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。",
-    "sv": "Adobe Illustrator — designfilsmall för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related.",
+    "zh-Hans": "Adobe Illustrator——面向印刷买方和设计师的设计文件模板。通过 skos:related 交叉引用其涵盖的 词汇术语。",
+    "sv": "Adobe Illustrator — designfilsmall för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related.",
     "da": "Adobe Illustrator — designfil-skabelon for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker.",
     "nl": "Adobe Illustrator — ontwerpbestandssjabloon voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt.",
     "pl": "Adobe Illustrator — szablon pliku projektowego dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related.",

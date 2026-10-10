@@ -41,9 +41,9 @@
     "hi": "मुद्रित उत्पादों और प्रिंट संचालन के ग्रीनहाउस-गैस उत्सर्जन को मापने की विधियाँ और ढाँचे। ये लेखांकन मानक हैं, इकोलेबल नहीं — ये तय करते हैं कि CO₂e आँकड़ा कैसे निकाला जाए ताकि घोषित फ़ुटप्रिंट तुलनीय और मशीन-सत्यापन योग्य हों।"
   },
   "scopeNote": {
-    "en": "Value domain for the climate-documentation variable. The declared footprint figures themselves live in offers and vendor profiles (Layer 2), referencing these methods.",
-    "nb": "Verdidomene for variabelen climate-documentation. Selve de deklarerte fotavtrykkstallene bor i tilbud og vendor-profiler (Layer 2), med referanse til disse metodene.",
-    "de": "Wertebereich für die Variable climate-documentation. Die deklarierten Fußabdruckswerte selbst stehen in Angeboten und Vendor-Profilen (Layer 2) und referenzieren diese Methoden.",
+    "en": "Value domain for the climate-documentation variable. The declared footprint figures themselves live in offers and vendor declarations, referencing these methods.",
+    "nb": "Verdidomene for variabelen climate-documentation. Selve de deklarerte fotavtrykkstallene bor i tilbud og leverandørdeklarasjoner, med referanse til disse metodene.",
+    "de": "Wertebereich für die Variable climate-documentation. Die deklarierten Fußabdruckswerte selbst stehen in Angeboten und Vendor-Deklarationen und referenzieren diese Methoden.",
     "ja": "climate-documentation 変数の値域。宣言されたフットプリント数値自体はオファーやベンダープロファイル（レイヤー2）にあり、これらの方法を参照する。",
     "es": "Dominio de valores para la variable climate-documentation. Las cifras de huella declaradas viven en ofertas y perfiles de proveedor (Capa 2), referenciando estos métodos.",
     "zh-Hans": "climate-documentation 变量的取值域。声明的碳足迹数值本身位于报价和供应商档案（第 2 层）中，并引用这些方法。",

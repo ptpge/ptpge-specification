@@ -10,16 +10,16 @@
     skos:broader <https://ptpge.org/v1/ordering/knowledge/guides> ;
     skos:definition "Indbindingstyper & færdiggørelse — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker."@da,
         "Binding Types & Finishing — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe."@de,
-        "Binding Types & Finishing — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related."@en,
+        "Binding Types & Finishing — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related."@en,
         "Binding Types & Finishing — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre."@es,
         "बाइंडिंग के प्रकार और फ़िनिशिंग — मुद्रण खरीदारों और डिज़ाइनरों के लिए शैक्षिक गाइड। skos:related के ज़रिए उन लेयर 1 शब्दावली पदों को संदर्भित करता है जिन्हें यह कवर करता है।"@hi,
-        "Binding Types & Finishing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。"@ja,
-        "Binding Types & Finishing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related."@nb,
+        "Binding Types & Finishing — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。"@ja,
+        "Binding Types & Finishing — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related."@nb,
         "Bindwijzen & afwerking — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt."@nl,
         "Rodzaje oprawy i wykończenie — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related."@pl,
         "Tipos de encadernação e acabamento — guia educativo para compradores de impressos e designers. Referencia via skos:related os termos do vocabulário da Camada 1 que cobre."@pt,
-        "Bindningstyper & efterbehandling — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related."@sv,
-        "Binding Types & Finishing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。"@zh-Hans ;
+        "Bindningstyper & efterbehandling — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related."@sv,
+        "Binding Types & Finishing——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:notation "O:KN§BINDING-TYPES-FINISHING" ;
     skos:prefLabel "Indbindingstyper & færdiggørelse"@da,

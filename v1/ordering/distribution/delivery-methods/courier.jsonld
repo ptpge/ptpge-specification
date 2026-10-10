@@ -48,17 +48,17 @@
     ]
   },
   "definition": {
-    "en": "Courier — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial (Layer 2/3/4) data.",
-    "nb": "Courier — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersiell (Layer 2/3/4) data.",
-    "de": "Kurier — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten (Layer 2/3/4).",
-    "es": "Mensajería — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales (Layer 2/3/4).",
-    "ja": "宅配便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（Layer 2/3/4）。",
-    "zh-Hans": "快递——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（Layer 2/3/4）。",
-    "sv": "Bud — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data (Layer 2/3/4).",
-    "da": "Kurér — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data (lag 2/3/4).",
-    "nl": "Koerier — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens (laag 2/3/4).",
-    "pl": "Kurier — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe (warstwa 2/3/4).",
-    "pt": "Courier — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais (Camadas 2/3/4).",
-    "hi": "कूरियर — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक (लेयर 2/3/4) डेटा हैं।"
+    "en": "Courier — a distribution method in the open checkout vocabulary. The actual carrier, rate and address are commercial data — an implementation's, not the vocabulary's.",
+    "nb": "Courier — en distribusjonsmetode i det åpne checkout-vokabularet. Faktisk transportør, rate og adresse er kommersielle data — implementasjonens, ikke vokabularets.",
+    "de": "Kurier — eine Versandart im offenen Checkout-Vokabular. Tatsächlicher Frachtführer, Tarif und Adresse sind kommerzielle Daten — Sache der Implementierung, nicht des Vokabulars.",
+    "es": "Mensajería — un método de distribución del vocabulario abierto de checkout. El transportista, la tarifa y la dirección reales son datos comerciales — de la implementación, no del vocabulario.",
+    "ja": "宅配便 — オープンなチェックアウト語彙における配送方法。実際の運送業者・料金・住所は商用データ（語彙ではなく実装の領分）。",
+    "zh-Hans": "快递——开放结算词汇中的一种配送方式。实际承运商、费率与地址属于商业数据（属于实现，不属于词汇）。",
+    "sv": "Bud — ett leveranssätt i den öppna kassavokabulären. Faktisk transportör, pris och adress är kommersiella data — implementationens, inte vokabulärens.",
+    "da": "Kurér — en distributionsmetode i det åbne checkout-vokabular. Selve transportøren, prisen og adressen er kommercielle data — implementeringens, ikke vokabularets.",
+    "nl": "Koerier — een leveringsmethode in het open checkout-vocabulaire. De feitelijke vervoerder, het tarief en het adres zijn commerciële gegevens — van de implementatie, niet van het vocabulaire.",
+    "pl": "Kurier — metoda dystrybucji w otwartym słownictwie kasy (checkout). Rzeczywisty przewoźnik, stawka i adres to dane handlowe — implementacji, nie słownictwa.",
+    "pt": "Courier — método de distribuição no vocabulário aberto de checkout. A transportadora, a tarifa e o endereço reais são dados comerciais — da implementação, não do vocabulário.",
+    "hi": "कूरियर — खुले चेकआउट शब्दकोश में एक वितरण विधि। वास्तविक वाहक, दर और पता व्यावसायिक डेटा हैं — कार्यान्वयन के, शब्दावली के नहीं।"
   }
 }

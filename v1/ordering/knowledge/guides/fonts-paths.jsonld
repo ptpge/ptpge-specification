@@ -31,13 +31,13 @@
     "https://ptpge.org/v1/printing/standards/graphic-file-formats"
   ],
   "definition": {
-    "en": "Fonts & Paths — educational guide for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related.",
-    "nb": "Fonts & Paths — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related.",
+    "en": "Fonts & Paths — educational guide for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related.",
+    "nb": "Fonts & Paths — pedagogisk veiledning for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related.",
     "de": "Fonts & Paths — pädagogische Anleitung für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe.",
-    "ja": "Fonts & Paths — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。",
+    "ja": "Fonts & Paths — 印刷物の購入者およびデザイナー向けの教育ガイド。説明対象の語彙用語をskos:relatedで相互参照する。",
     "es": "Fonts & Paths — guía educativa para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre.",
-    "zh-Hans": "Fonts & Paths——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。",
-    "sv": "Typsnitt & banor — utbildande guide för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer den täcker via skos:related.",
+    "zh-Hans": "Fonts & Paths——面向印刷买方和设计师的教学指南。通过 skos:related 交叉引用其涵盖的 词汇术语。",
+    "sv": "Typsnitt & banor — utbildande guide för tryckköpare och formgivare. Korsrefererar de vokabulärtermer den täcker via skos:related.",
     "da": "Skrifter & kurver — pædagogisk guide for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, den dækker.",
     "nl": "Lettertypen & contouren — educatieve gids voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die hij behandelt.",
     "pl": "Fonty i krzywe — przewodnik edukacyjny dla nabywców druku i projektantów. Odsyła do terminów słownictwa warstwy 1, które obejmuje, przez skos:related.",

@@ -31,13 +31,13 @@
     "https://ptpge.org/v1/printing/substrates/sheet-materials"
   ],
   "definition": {
-    "en": "Paper Weights — interactive utility for print buyers and designers. Cross-references the Layer 1 vocabulary terms it covers via skos:related.",
-    "nb": "Paper Weights — interaktivt verktøy for trykk-kjøpere og designere. Cross-refererer Layer 1-vokabular-termene den dekker via skos:related.",
+    "en": "Paper Weights — interactive utility for print buyers and designers. Cross-references the vocabulary terms it covers via skos:related.",
+    "nb": "Paper Weights — interaktivt verktøy for trykk-kjøpere og designere. Cross-refererer vokabulartermene den dekker via skos:related.",
     "de": "Paper Weights — interaktives Werkzeug für Druck-Käufer und Designer. Verweist über skos:related auf die abgedeckten Layer-1-Vokabularbegriffe.",
-    "ja": "Paper Weights — 印刷物の購入者およびデザイナー向けのインタラクティブツール。説明対象のLayer 1語彙用語をskos:relatedで相互参照する。",
+    "ja": "Paper Weights — 印刷物の購入者およびデザイナー向けのインタラクティブツール。説明対象の語彙用語をskos:relatedで相互参照する。",
     "es": "Paper Weights — utilidad interactiva para compradores y diseñadores de impresión. Referencia mediante skos:related los términos del vocabulario de Capa 1 que cubre.",
-    "zh-Hans": "Paper Weights——面向印刷买方和设计师的交互式工具。通过 skos:related 交叉引用其涵盖的 Layer 1 词汇术语。",
-    "sv": "Pappersvikter — interaktivt verktyg för tryckköpare och formgivare. Korsrefererar de Layer 1-vokabulärtermer det täcker via skos:related.",
+    "zh-Hans": "Paper Weights——面向印刷买方和设计师的交互式工具。通过 skos:related 交叉引用其涵盖的 词汇术语。",
+    "sv": "Pappersvikter — interaktivt verktyg för tryckköpare och formgivare. Korsrefererar de vokabulärtermer det täcker via skos:related.",
     "da": "Papirvægte — interaktivt hjælpemiddel for trykkøbere og designere. Krydshenviser via skos:related til de lag 1-termer, det dækker.",
     "nl": "Papiergewichten — interactief hulpmiddel voor drukwerkinkopers en ontwerpers. Verwijst via skos:related naar de laag 1-termen die het behandelt.",
     "pl": "Gramatury papieru — interaktywne narzędzie dla nabywców druku i projektantów. Odwołuje się poprzez skos:related do terminów słownictwa warstwy 1, które obejmuje.",

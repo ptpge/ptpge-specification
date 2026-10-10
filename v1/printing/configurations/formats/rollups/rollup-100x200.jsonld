@@ -52,7 +52,7 @@
     "left": 0,
     "right": 0,
     "unit": "mm",
-    "note": "Nominal, per edge. The exact allowance is set by the cassette model and belongs to the producer's specification (Layer 2); the format itself is the visible graphic."
+    "note": "Nominal, per edge. The exact allowance is set by the cassette model and belongs to the producer's specification; the format itself is the visible graphic."
   },
   "created": "2026-08-21T00:00:00Z",
   "modified": "2026-09-23T06:29:18Z",
