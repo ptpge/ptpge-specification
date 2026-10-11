@@ -59857,7 +59857,7 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/ordering/products/brochures",
       "type": "skos:Concept",
-      "version": "2026-09-28",
+      "version": "2026-10-11",
       "status": "proposed",
       "level": "element",
       "notation": "O:PR§BROCHURE",
@@ -60100,7 +60100,7 @@
       ],
       "fulfilmentClass": "folded",
       "created": "2026-06-04T00:00:00Z",
-      "modified": "2026-09-28T12:25:00Z",
+      "modified": "2026-10-11T11:20:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": "https://ptpge.org/contributors/ptpge",
       "contributor": [
@@ -60140,7 +60140,8 @@
       ],
       "supportsSubstrateColor": [
         "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",
-        "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper"
+        "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/natural-paper",
+        "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/ivory-paper"
       ],
       "supportsSubstrateCoating": [
         "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-coatings/coated",

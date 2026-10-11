@@ -7,7 +7,7 @@
     dcterms:created "2026-06-04T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T11:20:00+00:00"^^xsd:dateTime ;
     skos:altLabel "brochure"@da,
         "falset folder"@da,
         "folder"@da,
@@ -230,6 +230,6 @@
         <https://ptpge.org/v1/ordering/use-cases/instructional>,
         <https://ptpge.org/v1/ordering/use-cases/marketing>,
         <https://ptpge.org/v1/ordering/use-cases/wayfinding> ;
-    ptpge:version "2026-09-28" ;
+    ptpge:version "2026-10-11" ;
     ptpge:visual [ ] .
 
