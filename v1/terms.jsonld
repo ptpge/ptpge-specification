@@ -18241,7 +18241,7 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/roll-fold",
       "type": "skos:Concept",
-      "version": "2026-06-05",
+      "version": "2026-10-11",
       "status": "proposed",
       "level": "element",
       "notation": "P:CF§ROLL-FOLD",
@@ -18367,7 +18367,7 @@
         }
       ],
       "created": "2026-05-20T10:00:00Z",
-      "modified": "2026-09-23T06:34:00Z",
+      "modified": "2026-10-11T10:40:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "semanticSource": [
         {
@@ -18406,11 +18406,18 @@
       "altLabels": {
         "en": [
           "F8-5",
-          "FoldCatalog F8-5"
+          "FoldCatalog F8-5",
+          "Roll fold",
+          "Roll-fold leaflet",
+          "Rolled fold",
+          "Barrel fold",
+          "4-panel roll fold"
         ],
         "pl": [
           "F8-5",
-          "FoldCatalog F8-5"
+          "FoldCatalog F8-5",
+          "Falcowanie zwijane",
+          "Falc zwijany"
         ],
         "pt": [
           "F8-5",
@@ -18419,6 +18426,29 @@
         "hi": [
           "F8-5",
           "FoldCatalog F8-5"
+        ],
+        "nb": [
+          "Rullefals",
+          "Rullefalset",
+          "Innrulling"
+        ],
+        "sv": [
+          "Rullfals",
+          "Rullfalsad"
+        ],
+        "da": [
+          "Rullefals"
+        ],
+        "de": [
+          "Wickelfalz",
+          "Wickelfalz-Flyer"
+        ],
+        "nl": [
+          "Wikkelvouw"
+        ],
+        "es": [
+          "Plegado envolvente",
+          "Plegado en rollo"
         ]
       }
     },
@@ -18747,7 +18777,7 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold",
       "type": "skos:Concept",
-      "version": "2026-06-05",
+      "version": "2026-10-11",
       "status": "proposed",
       "level": "element",
       "notation": "P:CF§TRI-FOLD",
@@ -18857,7 +18887,7 @@
         }
       ],
       "created": "2026-05-20T10:00:00Z",
-      "modified": "2026-09-23T06:34:00Z",
+      "modified": "2026-10-11T10:40:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "altLabels": {
         "nl": [
@@ -18868,8 +18898,7 @@
           "F6-4",
           "FoldCatalog F6-4",
           "C-fold",
-          "Letter fold",
-          "Roll fold (3-panel)"
+          "Letter fold"
         ],
         "pl": [
           "F6-4",

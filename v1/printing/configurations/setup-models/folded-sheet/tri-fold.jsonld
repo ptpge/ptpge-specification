@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold",
   "type": "skos:Concept",
-  "version": "2026-06-05",
+  "version": "2026-10-11",
   "status": "proposed",
   "level": "element",
   "notation": "P:CF§TRI-FOLD",
@@ -112,7 +112,7 @@
     }
   ],
   "created": "2026-05-20T10:00:00Z",
-  "modified": "2026-09-23T06:34:00Z",
+  "modified": "2026-10-11T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "altLabels": {
     "nl": [
@@ -123,8 +123,7 @@
       "F6-4",
       "FoldCatalog F6-4",
       "C-fold",
-      "Letter fold",
-      "Roll fold (3-panel)"
+      "Letter fold"
     ],
     "pl": [
       "F6-4",

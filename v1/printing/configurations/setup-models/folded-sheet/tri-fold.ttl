@@ -7,12 +7,11 @@
 <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold> a skos:Concept ;
     dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "C-fold"@en,
         "F6-4"@en,
         "FoldCatalog F6-4"@en,
         "Letter fold"@en,
-        "Roll fold (3-panel)"@en,
         "C-फ़ोल्ड"@hi,
         "F6-4"@hi,
         "FoldCatalog F6-4"@hi,
@@ -82,5 +81,5 @@
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
+    ptpge:version "2026-10-11" .
 

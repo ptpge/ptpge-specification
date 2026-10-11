@@ -6,15 +6,33 @@
 <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/roll-fold> a skos:Concept ;
     dcterms:created "2026-05-20T10:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
-    skos:altLabel "F8-5"@en,
+    dcterms:modified "2026-10-11T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Rullefals"@da,
+        "Wickelfalz"@de,
+        "Wickelfalz-Flyer"@de,
+        "4-panel roll fold"@en,
+        "Barrel fold"@en,
+        "F8-5"@en,
         "FoldCatalog F8-5"@en,
+        "Roll fold"@en,
+        "Roll-fold leaflet"@en,
+        "Rolled fold"@en,
+        "Plegado en rollo"@es,
+        "Plegado envolvente"@es,
         "F8-5"@hi,
         "FoldCatalog F8-5"@hi,
+        "Innrulling"@nb,
+        "Rullefals"@nb,
+        "Rullefalset"@nb,
+        "Wikkelvouw"@nl,
         "F8-5"@pl,
+        "Falc zwijany"@pl,
+        "Falcowanie zwijane"@pl,
         "FoldCatalog F8-5"@pl,
         "F8-5"@pt,
-        "FoldCatalog F8-5"@pt ;
+        "FoldCatalog F8-5"@pt,
+        "Rullfals"@sv,
+        "Rullfalsad"@sv ;
     skos:broader <https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet> ;
     skos:definition "En falset ark-opbygning med flere parallelle false i samme retning, hvor panelerne rulles ind i hinanden (hvert indre panel en anelse smallere). Variabelt panelantal; 2 flader: yderside og inderside."@da,
         "Ein Falzbogen-Setup mit mehreren parallelen Falzungen, bei denen sich jedes Paneel in das nächste einrollt."@de,
@@ -46,7 +64,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -57,15 +83,7 @@
                 "FoldingIntent",
                 "FoldingParams" ;
             ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
+    ptpge:version "2026-10-11" .
 
