@@ -7,7 +7,7 @@
     dcterms:created "2026-09-22T11:55:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T10:05:00+00:00"^^xsd:dateTime ;
     skos:altLabel "Uden folie"@da,
         "Uden prægning"@da,
         "Ohne Folie"@de,
@@ -68,10 +68,13 @@
         "Nenhum (sem enobrecimento)"@pt,
         "Ingen (utan dekor)"@sv,
         "无（无装饰工艺）"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-11"^^xsd:date ;
+    ptpge:deprecationReason "Absence is the specification's way of saying «none» (SD-0098, extended 2026-10-11 to embellishment): an effect the buyer does not ask for is not applied — foil, embossing, debossing and spot effects are additive, and a face with no embellishment binding is complete and fingerprintable. An explicit «none» value would make two identical products hash differently. No successor; this URI keeps resolving. The alt-labels remain useful as synonyms for «no embellishment» in mappers."@en,
+        "Fravær er spesifikasjonens måte å si «ingen» på (SD-0098, utvidet 11.10.2026 til embellishment): en effekt kjøperen ikke ber om, blir ikke påført — folie, preging og punkteffekter er additive, og en flate uten embellishment-binding er komplett og kan fingeravtrykkes. En eksplisitt «ingen»-verdi ville gitt to like produkter ulikt fingeravtrykk. Ingen etterfølger; URI-en fortsetter å løse opp. Alt-etikettene forblir nyttige som synonymer for «ingen effekt» i mappere."@nb ;
     ptpge:elementType "value" ;
     ptpge:group "features" ;
     ptpge:level "element" ;
     ptpge:standalone true ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-09-22" .
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-11" .
 

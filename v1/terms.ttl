@@ -5571,7 +5571,7 @@
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-07T18:30:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T10:05:00+00:00"^^xsd:dateTime ;
     skos:altLabel "businesskort"@da,
         "visitkortet"@da,
         "Geschäftskarten"@de,
@@ -5706,7 +5706,6 @@
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/custom-foil>,
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
         <https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish>,
-        <https://ptpge.org/v1/printing/features/embellishments/none>,
         <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
     ptpge:supportsFoldDirection <https://ptpge.org/v1/printing/completions/fold-binding-edge/left>,
         <https://ptpge.org/v1/printing/completions/fold-binding-edge/top> ;
@@ -5762,7 +5761,7 @@
     ptpge:typicalUse <https://ptpge.org/v1/ordering/use-cases/branding>,
         <https://ptpge.org/v1/ordering/use-cases/networking>,
         <https://ptpge.org/v1/ordering/use-cases/professional-contact> ;
-    ptpge:version "2026-10-07" .
+    ptpge:version "2026-10-11" .
 
 <https://ptpge.org/v1/ordering/products/calendars> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
@@ -6080,7 +6079,7 @@
 <https://ptpge.org/v1/ordering/products/cards> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T09:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "dobbeltkort"@da,
         "enkeltkort"@da,
         "hilsenkort"@da,
@@ -6181,7 +6180,8 @@
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/holographic>,
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
         <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
-    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
         <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
         <https://ptpge.org/v1/variables/compliance/print-standard>,
@@ -6268,7 +6268,7 @@
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
-    ptpge:version "2026-09-28" .
+    ptpge:version "2026-10-11" .
 
 <https://ptpge.org/v1/ordering/products/catalogues> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
@@ -6434,7 +6434,7 @@
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T09:55:00+00:00"^^xsd:dateTime ;
     skos:altLabel "bevis"@da,
         "certifikat"@da,
         "diplom"@da,
@@ -6513,7 +6513,9 @@
         <https://ptpge.org/v1/printing/features/embellishments/embossing/blind>,
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/gold>,
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver> ;
-    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte> ;
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
         <https://ptpge.org/v1/variables/compliance/print-standard>,
         <https://ptpge.org/v1/variables/configuration/shape>,
@@ -6591,7 +6593,7 @@
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
-    ptpge:version "2026-09-28" .
+    ptpge:version "2026-10-11" .
 
 <https://ptpge.org/v1/ordering/products/compliment-slips> a skos:Concept ;
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
@@ -8260,7 +8262,7 @@
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T09:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "bryllupsinvitation"@da,
         "invitation"@da,
         "invitationskort"@da,
@@ -8357,7 +8359,8 @@
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/holographic>,
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
         <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
-    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
         <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
         <https://ptpge.org/v1/variables/compliance/print-standard>,
@@ -8442,7 +8445,7 @@
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
-    ptpge:version "2026-09-28" .
+    ptpge:version "2026-10-11" .
 
 <https://ptpge.org/v1/ordering/products/labels> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
@@ -16755,7 +16758,14 @@
     ptpge:level "element" ;
     ptpge:pageCountConstraint "even" ;
     ptpge:pageCountRange [ ] ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16765,13 +16775,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16936,14 +16939,7 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16953,6 +16949,13 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17268,7 +17271,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17278,14 +17289,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17481,7 +17484,14 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17491,13 +17501,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -18125,7 +18128,13 @@
     ptpge:group "features" ;
     ptpge:hasProperty [ ] ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.6 · p.74",
                 "§5.6.12 · p.118",
                 "§6.32 · p.197" ;
             ptpge:mappingRow "crosswalk row 27" ;
@@ -18134,15 +18143,84 @@
                 "EmbossingIntent",
                 "EmbossingParams" ;
             ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.6 · p.74" ;
-            ptpge:mappingRow "crosswalk row 25" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "EmbossingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/printing/features/embellishments/none> a skos:Concept ;
+    dcterms:created "2026-09-22T11:55:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-11T10:05:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Uden folie"@da,
+        "Uden prægning"@da,
+        "Ohne Folie"@de,
+        "Ohne Prägung"@de,
+        "Ohne Veredelung"@de,
+        "No embossing"@en,
+        "No finishing effects"@en,
+        "No foil"@en,
+        "Plain"@en,
+        "Sin efectos"@es,
+        "Sin estampado"@es,
+        "Sin relieve"@es,
+        "बिना एम्बॉसिंग"@hi,
+        "बिना प्रभाव"@hi,
+        "बिना फ़ॉइल"@hi,
+        "सादा"@hi,
+        "エンボスなし"@ja,
+        "箔なし"@ja,
+        "Uten effekter"@nb,
+        "Uten folie"@nb,
+        "Uten preging"@nb,
+        "Zonder folie"@nl,
+        "Zonder preging"@nl,
+        "bez folii"@pl,
+        "bez tłoczenia"@pl,
+        "liso"@pt,
+        "sem efeitos"@pt,
+        "sem foil"@pt,
+        "sem relevo"@pt,
+        "Utan folie"@sv,
+        "Utan prägling"@sv,
+        "不压凹凸"@zh-Hans,
+        "不烫金"@zh-Hans ;
+    skos:broader <https://ptpge.org/v1/printing/features/embellishments> ;
+    skos:definition "Ingen forædling på fladen: ingen folie, prægning eller punkteffekt. Et udtrykkeligt udsagn, forskelligt fra at lade aksen stå uspecificeret (hvilket lader leverandøren foreslå en effekt). Står alene: tåler ingen anden forædlingsværdi på samme flade."@da,
+        "Keine Veredelung auf der Seite: keine Folie, keine Prägung, kein Spot-Effekt. Eine ausdrückliche Aussage, im Unterschied zur offen gelassenen Achse (bei der der Anbieter einen Effekt vorschlagen darf). Steht allein: duldet keinen anderen Veredelungswert auf derselben Seite."@de,
+        "No embellishment on the face: no foil, embossing, debossing or spot effect. An explicit statement, distinct from leaving the axis unspecified (which lets the vendor propose an effect). Stands alone: it tolerates no other embellishment value on the same face."@en,
+        "Sin ornamentación en la cara: sin estampado, relieve, bajorrelieve ni efecto localizado. Una declaración explícita, distinta de dejar el eje sin especificar (que permite al proveedor proponer un efecto). Va sola: no tolera otro valor de ornamentación en la misma cara."@es,
+        "सतह पर कोई सजावटी प्रभाव नहीं: न फ़ॉइल, न एम्बॉसिंग, न डिबॉसिंग, न स्पॉट प्रभाव। एक स्पष्ट कथन, अक्ष को अनिर्दिष्ट छोड़ने से अलग (जो विक्रेता को प्रभाव सुझाने देता है)। अकेला रहता है: उसी सतह पर कोई अन्य एम्बेलिशमेंट मान सहन नहीं करता।"@hi,
+        "面に加飾を施さない：箔、エンボス、デボス、スポット効果なし。軸を未指定のままにするのとは異なる明示的な指定。単独値：同じ面に他の加飾値を許さない。"@ja,
+        "Ingen dekor på flaten: verken folie, preging eller punkteffekt. Et eksplisitt utsagn, forskjellig fra å la aksen stå uspesifisert (som lar leverandøren foreslå en effekt). Står alene: tåler ingen annen dekor-verdi på samme flate."@nb,
+        "Geen veredeling op het vlak: geen folie, preging of spot-effect. Een expliciete uitspraak, anders dan de as open laten (waarbij de leverancier een effect mag voorstellen). Staat alleen: duldt geen andere veredelingswaarde op hetzelfde vlak."@nl,
+        "Brak uszlachetnienia na tej stronie: bez folii, tłoczenia ani efektu punktowego. Wyraźne oświadczenie, w odróżnieniu od pozostawienia osi nieokreślonej (co pozwala dostawcy zaproponować efekt). Wartość samodzielna: nie toleruje innej wartości uszlachetnienia na tej samej stronie."@pl,
+        "Nenhum enobrecimento na face: sem foil, relevo alto, relevo baixo ou efeito localizado. Uma declaração explícita, distinta de deixar o eixo sem especificar (o que permite ao fornecedor propor um efeito). Vai sozinho: não tolera outro valor de enobrecimento na mesma face."@pt,
+        "Ingen dekor på sidan: ingen folie, prägling eller punkteffekt. Ett uttryckligt påstående, skilt från att lämna axeln ospecificerad (vilket låter leverantören föreslå en effekt). Står ensam: tål inget annat dekorvärde på samma sida."@sv,
+        "该面不作任何装饰工艺：不烫金、不压凸、不压凹、无局部效果。明确的声明，不同于将该轴留空（由供应商提议）。独立值：同一面上不容许其他装饰工艺值。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§NO-EMBELLISHMENT" ;
+    skos:prefLabel "Ingen (uden forædling)"@da,
+        "Keine (keine Veredelung)"@de,
+        "None (no embellishment)"@en,
+        "Ninguno (sin ornamentación)"@es,
+        "कोई नहीं (बिना सजावटी प्रभाव)"@hi,
+        "なし（加飾なし）"@ja,
+        "Ingen (uten dekor)"@nb,
+        "Geen (zonder veredeling)"@nl,
+        "Brak (bez uszlachetnienia)"@pl,
+        "Nenhum (sem enobrecimento)"@pt,
+        "Ingen (utan dekor)"@sv,
+        "无（无装饰工艺）"@zh-Hans ;
+    ptpge:deprecatedOn "2026-10-11"^^xsd:date ;
+    ptpge:deprecationReason "Absence is the specification's way of saying «none» (SD-0098, extended 2026-10-11 to embellishment): an effect the buyer does not ask for is not applied — foil, embossing, debossing and spot effects are additive, and a face with no embellishment binding is complete and fingerprintable. An explicit «none» value would make two identical products hash differently. No successor; this URI keeps resolving. The alt-labels remain useful as synonyms for «no embellishment» in mappers."@en,
+        "Fravær er spesifikasjonens måte å si «ingen» på (SD-0098, utvidet 11.10.2026 til embellishment): en effekt kjøperen ikke ber om, blir ikke påført — folie, preging og punkteffekter er additive, og en flate uten embellishment-binding er komplett og kan fingeravtrykkes. En eksplisitt «ingen»-verdi ville gitt to like produkter ulikt fingeravtrykk. Ingen etterfølger; URI-en fortsetter å løse opp. Alt-etikettene forblir nyttige som synonymer for «ingen effekt» i mappere."@nb ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:level "element" ;
+    ptpge:standalone true ;
+    ptpge:status "deprecated" ;
+    ptpge:version "2026-10-11" .
 
 <https://ptpge.org/v1/printing/features/embellishments/spot-aqueous-varnish> a skos:Concept ;
     dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
@@ -23465,18 +23543,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23722,18 +23800,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23785,18 +23863,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -31290,78 +31368,6 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
-<https://ptpge.org/v1/printing/features/embellishments/none> a skos:Concept ;
-    dcterms:created "2026-09-22T11:55:00+00:00"^^xsd:dateTime ;
-    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
-    skos:altLabel "Uden folie"@da,
-        "Uden prægning"@da,
-        "Ohne Folie"@de,
-        "Ohne Prägung"@de,
-        "Ohne Veredelung"@de,
-        "No embossing"@en,
-        "No finishing effects"@en,
-        "No foil"@en,
-        "Plain"@en,
-        "Sin efectos"@es,
-        "Sin estampado"@es,
-        "Sin relieve"@es,
-        "बिना एम्बॉसिंग"@hi,
-        "बिना प्रभाव"@hi,
-        "बिना फ़ॉइल"@hi,
-        "सादा"@hi,
-        "エンボスなし"@ja,
-        "箔なし"@ja,
-        "Uten effekter"@nb,
-        "Uten folie"@nb,
-        "Uten preging"@nb,
-        "Zonder folie"@nl,
-        "Zonder preging"@nl,
-        "bez folii"@pl,
-        "bez tłoczenia"@pl,
-        "liso"@pt,
-        "sem efeitos"@pt,
-        "sem foil"@pt,
-        "sem relevo"@pt,
-        "Utan folie"@sv,
-        "Utan prägling"@sv,
-        "不压凹凸"@zh-Hans,
-        "不烫金"@zh-Hans ;
-    skos:broader <https://ptpge.org/v1/printing/features/embellishments> ;
-    skos:definition "Ingen forædling på fladen: ingen folie, prægning eller punkteffekt. Et udtrykkeligt udsagn, forskelligt fra at lade aksen stå uspecificeret (hvilket lader leverandøren foreslå en effekt). Står alene: tåler ingen anden forædlingsværdi på samme flade."@da,
-        "Keine Veredelung auf der Seite: keine Folie, keine Prägung, kein Spot-Effekt. Eine ausdrückliche Aussage, im Unterschied zur offen gelassenen Achse (bei der der Anbieter einen Effekt vorschlagen darf). Steht allein: duldet keinen anderen Veredelungswert auf derselben Seite."@de,
-        "No embellishment on the face: no foil, embossing, debossing or spot effect. An explicit statement, distinct from leaving the axis unspecified (which lets the vendor propose an effect). Stands alone: it tolerates no other embellishment value on the same face."@en,
-        "Sin ornamentación en la cara: sin estampado, relieve, bajorrelieve ni efecto localizado. Una declaración explícita, distinta de dejar el eje sin especificar (que permite al proveedor proponer un efecto). Va sola: no tolera otro valor de ornamentación en la misma cara."@es,
-        "सतह पर कोई सजावटी प्रभाव नहीं: न फ़ॉइल, न एम्बॉसिंग, न डिबॉसिंग, न स्पॉट प्रभाव। एक स्पष्ट कथन, अक्ष को अनिर्दिष्ट छोड़ने से अलग (जो विक्रेता को प्रभाव सुझाने देता है)। अकेला रहता है: उसी सतह पर कोई अन्य एम्बेलिशमेंट मान सहन नहीं करता।"@hi,
-        "面に加飾を施さない：箔、エンボス、デボス、スポット効果なし。軸を未指定のままにするのとは異なる明示的な指定。単独値：同じ面に他の加飾値を許さない。"@ja,
-        "Ingen dekor på flaten: verken folie, preging eller punkteffekt. Et eksplisitt utsagn, forskjellig fra å la aksen stå uspesifisert (som lar leverandøren foreslå en effekt). Står alene: tåler ingen annen dekor-verdi på samme flate."@nb,
-        "Geen veredeling op het vlak: geen folie, preging of spot-effect. Een expliciete uitspraak, anders dan de as open laten (waarbij de leverancier een effect mag voorstellen). Staat alleen: duldt geen andere veredelingswaarde op hetzelfde vlak."@nl,
-        "Brak uszlachetnienia na tej stronie: bez folii, tłoczenia ani efektu punktowego. Wyraźne oświadczenie, w odróżnieniu od pozostawienia osi nieokreślonej (co pozwala dostawcy zaproponować efekt). Wartość samodzielna: nie toleruje innej wartości uszlachetnienia na tej samej stronie."@pl,
-        "Nenhum enobrecimento na face: sem foil, relevo alto, relevo baixo ou efeito localizado. Uma declaração explícita, distinta de deixar o eixo sem especificar (o que permite ao fornecedor propor um efeito). Vai sozinho: não tolera outro valor de enobrecimento na mesma face."@pt,
-        "Ingen dekor på sidan: ingen folie, prägling eller punkteffekt. Ett uttryckligt påstående, skilt från att lämna axeln ospecificerad (vilket låter leverantören föreslå en effekt). Står ensam: tål inget annat dekorvärde på samma sida."@sv,
-        "该面不作任何装饰工艺：不烫金、不压凸、不压凹、无局部效果。明确的声明，不同于将该轴留空（由供应商提议）。独立值：同一面上不容许其他装饰工艺值。"@zh-Hans ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:notation "P:FT§NO-EMBELLISHMENT" ;
-    skos:prefLabel "Ingen (uden forædling)"@da,
-        "Keine (keine Veredelung)"@de,
-        "None (no embellishment)"@en,
-        "Ninguno (sin ornamentación)"@es,
-        "कोई नहीं (बिना सजावटी प्रभाव)"@hi,
-        "なし（加飾なし）"@ja,
-        "Ingen (uten dekor)"@nb,
-        "Geen (zonder veredeling)"@nl,
-        "Brak (bez uszlachetnienia)"@pl,
-        "Nenhum (sem enobrecimento)"@pt,
-        "Ingen (utan dekor)"@sv,
-        "无（无装饰工艺）"@zh-Hans ;
-    ptpge:elementType "value" ;
-    ptpge:group "features" ;
-    ptpge:level "element" ;
-    ptpge:standalone true ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-09-22" .
-
 <https://ptpge.org/v1/printing/features/surface-finish/varnish/flood-varnishing> a skos:Concept ;
     dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -35819,13 +35825,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -39844,16 +39850,16 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -39906,16 +39912,16 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -46428,74 +46434,6 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
-<https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> a skos:Concept ;
-    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
-    skos:altLabel "Soft touch lamination"@en,
-        "Soft-touch laminated"@en,
-        "Suede lamination"@en,
-        "Velvet Lamination"@en,
-        "Velvet laminate"@en,
-        "Velvet lamination"@en,
-        "मखमली लैमिनेशन"@hi,
-        "वेलवेट लैमिनेशन"@hi,
-        "सॉफ़्ट टच"@hi,
-        "स्वेड लैमिनेशन"@hi,
-        "Fløyel-laminering"@nb,
-        "Fløyelslaminat"@nb,
-        "Myk-touch laminering"@nb,
-        "Soft touch-folie"@nb,
-        "folia aksamitna"@pl,
-        "folia soft-touch"@pl,
-        "laminat soft touch"@pl,
-        "laminação aveludada"@pt,
-        "laminação camurça"@pt,
-        "laminação veludo"@pt,
-        "soft touch"@pt,
-        "toque aveludado"@pt ;
-    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/lamination> ;
-    skos:definition "Soft-touch-plastfilm lamineret på den trykte overflade. Giver en fløjlsagtig, ferskenhudsagtig taktil fornemmelse markant forskellig fra standard mat. Den mest eksklusive overfladefinish."@da,
-        "Soft-Touch-Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet eine samtige, pfirsichhaut-artige taktile Empfindung."@de,
-        "Soft-touch plastic film laminated to the printed surface. Provides a velvety, peach-skin tactile sensation that is dramatically different from standard matte. The most premium-feeling surface finish; used widely on luxury packaging, high-end business cards, and book jackets."@en,
-        "Película plástica de tacto suave laminada sobre la superficie impresa. Proporciona una sensación táctil aterciopelada, tipo piel de melocotón, muy distinta del mate estándar. El acabado de tacto más premium; muy usado en packaging de lujo, tarjetas de visita de gama alta y sobrecubiertas."@es,
-        "छपी सतह पर लैमिनेट की गई सॉफ़्ट-टच प्लास्टिक फ़िल्म। मखमली, आड़ू-छिलके जैसा स्पर्श जो मानक मैट से बिल्कुल अलग है। सबसे प्रीमियम अहसास वाली सतह फ़िनिश; लक्ज़री पैकेजिंग, हाई-एंड विज़िटिंग कार्ड और बुक जैकेट में व्यापक।"@hi,
-        "印刷面に貼り合わせるソフトタッチフィルム。標準のマットとは一線を画す、ビロードのようなピーチスキンの触感を与える。最もプレミアムな触感の表面仕上げで、高級パッケージ、ハイエンド名刺、ブックジャケットに広く使われる。"@ja,
-        "Soft-touch plastikkfilm laminert til den trykte overflaten. Gir en velour-aktig, fersken-skinn taktil følelse som er dramatisk forskjellig fra standard matt. Den mest premium-følende overflate-finishen; brukt mye på luksusemballasje, high-end visittkort og bok-omslag."@nb,
-        "Soft-touch-kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een fluweelachtige, perzikhuidachtige tactiele sensatie, duidelijk anders dan standaard mat. De meest premium aanvoelende oppervlakteafwerking."@nl,
-        "Folia soft-touch laminowana na zadrukowanej powierzchni. Daje aksamitne, przypominające skórkę brzoskwini odczucie dotykowe, wyraźnie inne niż standardowy mat. Najbardziej luksusowe w odbiorze wykończenie powierzchni; szeroko stosowane w opakowaniach luksusowych, wizytówkach z wyższej półki i obwolutach książek."@pl,
-        "Filme plástico soft-touch laminado sobre a superfície impressa. Dá uma sensação tátil aveludada, de pele de pêssego, muito diferente do fosco padrão. O acabamento de superfície de toque mais premium; muito usado em embalagens de luxo, cartões de visita sofisticados e sobrecapas."@pt,
-        "Soft touch-plastfilm laminerad på tryckytan. Ger en sammetslen, persikoskalsliknande taktil känsla dramatiskt skild från standardmatt. Den mest premiumkännande ytbehandlingen; används brett på lyxförpackningar, exklusiva visitkort och bokomslag."@sv,
-        "复合在印刷表面的肤感（soft-touch）塑料薄膜。带来与普通哑膜截然不同的天鹅绒般蜜桃肤触感。触感最高级的表面处理；广泛用于奢华包装、高端名片与书籍护封。"@zh-Hans ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:notation "P:FT§SOFT-TOUCH-LAMINATION" ;
-    skos:prefLabel "Soft-touch-laminering"@da,
-        "Soft-Touch-Laminierung"@de,
-        "Soft-touch Lamination"@en,
-        "Laminado soft-touch"@es,
-        "सॉफ़्ट-टच लैमिनेशन"@hi,
-        "ソフトタッチラミネート"@ja,
-        "Soft-touch laminering"@nb,
-        "Soft-touch-laminaat"@nl,
-        "Laminowanie soft-touch"@pl,
-        "Laminação soft-touch"@pt,
-        "Soft touch-laminering"@sv,
-        "触感膜覆膜"@zh-Hans ;
-    ptpge:elementType "value" ;
-    ptpge:group "features" ;
-    ptpge:hasProperty [ ] ;
-    ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.9 · p.78",
-                "§5.6.23 · p.125" ;
-            ptpge:mappingRow "crosswalk row 45" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Laminating",
-                "LaminatingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ] ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
-
 <https://ptpge.org/v1/printing/management/quality-assurance/proofing/prepress-proofing> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -46981,6 +46919,74 @@
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "LayoutIntent",
                 "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> a skos:Concept ;
+    dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    skos:altLabel "Soft touch lamination"@en,
+        "Soft-touch laminated"@en,
+        "Suede lamination"@en,
+        "Velvet Lamination"@en,
+        "Velvet laminate"@en,
+        "Velvet lamination"@en,
+        "मखमली लैमिनेशन"@hi,
+        "वेलवेट लैमिनेशन"@hi,
+        "सॉफ़्ट टच"@hi,
+        "स्वेड लैमिनेशन"@hi,
+        "Fløyel-laminering"@nb,
+        "Fløyelslaminat"@nb,
+        "Myk-touch laminering"@nb,
+        "Soft touch-folie"@nb,
+        "folia aksamitna"@pl,
+        "folia soft-touch"@pl,
+        "laminat soft touch"@pl,
+        "laminação aveludada"@pt,
+        "laminação camurça"@pt,
+        "laminação veludo"@pt,
+        "soft touch"@pt,
+        "toque aveludado"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/features/surface-finish/lamination> ;
+    skos:definition "Soft-touch-plastfilm lamineret på den trykte overflade. Giver en fløjlsagtig, ferskenhudsagtig taktil fornemmelse markant forskellig fra standard mat. Den mest eksklusive overfladefinish."@da,
+        "Soft-Touch-Kunststofffilm, der auf die bedruckte Oberfläche laminiert wird. Bietet eine samtige, pfirsichhaut-artige taktile Empfindung."@de,
+        "Soft-touch plastic film laminated to the printed surface. Provides a velvety, peach-skin tactile sensation that is dramatically different from standard matte. The most premium-feeling surface finish; used widely on luxury packaging, high-end business cards, and book jackets."@en,
+        "Película plástica de tacto suave laminada sobre la superficie impresa. Proporciona una sensación táctil aterciopelada, tipo piel de melocotón, muy distinta del mate estándar. El acabado de tacto más premium; muy usado en packaging de lujo, tarjetas de visita de gama alta y sobrecubiertas."@es,
+        "छपी सतह पर लैमिनेट की गई सॉफ़्ट-टच प्लास्टिक फ़िल्म। मखमली, आड़ू-छिलके जैसा स्पर्श जो मानक मैट से बिल्कुल अलग है। सबसे प्रीमियम अहसास वाली सतह फ़िनिश; लक्ज़री पैकेजिंग, हाई-एंड विज़िटिंग कार्ड और बुक जैकेट में व्यापक।"@hi,
+        "印刷面に貼り合わせるソフトタッチフィルム。標準のマットとは一線を画す、ビロードのようなピーチスキンの触感を与える。最もプレミアムな触感の表面仕上げで、高級パッケージ、ハイエンド名刺、ブックジャケットに広く使われる。"@ja,
+        "Soft-touch plastikkfilm laminert til den trykte overflaten. Gir en velour-aktig, fersken-skinn taktil følelse som er dramatisk forskjellig fra standard matt. Den mest premium-følende overflate-finishen; brukt mye på luksusemballasje, high-end visittkort og bok-omslag."@nb,
+        "Soft-touch-kunststoffilm gelamineerd op het gedrukte oppervlak. Geeft een fluweelachtige, perzikhuidachtige tactiele sensatie, duidelijk anders dan standaard mat. De meest premium aanvoelende oppervlakteafwerking."@nl,
+        "Folia soft-touch laminowana na zadrukowanej powierzchni. Daje aksamitne, przypominające skórkę brzoskwini odczucie dotykowe, wyraźnie inne niż standardowy mat. Najbardziej luksusowe w odbiorze wykończenie powierzchni; szeroko stosowane w opakowaniach luksusowych, wizytówkach z wyższej półki i obwolutach książek."@pl,
+        "Filme plástico soft-touch laminado sobre a superfície impressa. Dá uma sensação tátil aveludada, de pele de pêssego, muito diferente do fosco padrão. O acabamento de superfície de toque mais premium; muito usado em embalagens de luxo, cartões de visita sofisticados e sobrecapas."@pt,
+        "Soft touch-plastfilm laminerad på tryckytan. Ger en sammetslen, persikoskalsliknande taktil känsla dramatiskt skild från standardmatt. Den mest premiumkännande ytbehandlingen; används brett på lyxförpackningar, exklusiva visitkort och bokomslag."@sv,
+        "复合在印刷表面的肤感（soft-touch）塑料薄膜。带来与普通哑膜截然不同的天鹅绒般蜜桃肤触感。触感最高级的表面处理；广泛用于奢华包装、高端名片与书籍护封。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:FT§SOFT-TOUCH-LAMINATION" ;
+    skos:prefLabel "Soft-touch-laminering"@da,
+        "Soft-Touch-Laminierung"@de,
+        "Soft-touch Lamination"@en,
+        "Laminado soft-touch"@es,
+        "सॉफ़्ट-टच लैमिनेशन"@hi,
+        "ソフトタッチラミネート"@ja,
+        "Soft-touch laminering"@nb,
+        "Soft-touch-laminaat"@nl,
+        "Laminowanie soft-touch"@pl,
+        "Laminação soft-touch"@pt,
+        "Soft touch-laminering"@sv,
+        "触感膜覆膜"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "features" ;
+    ptpge:hasProperty [ ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.9 · p.78",
+                "§5.6.23 · p.125" ;
+            ptpge:mappingRow "crosswalk row 45" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Laminating",
+                "LaminatingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -50419,6 +50425,66 @@
     ptpge:valueDomain <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights> ;
     ptpge:version "2026-06-05" .
 
+<https://ptpge.org/v1/printing/standards/certifications/environmental/fsc> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    skos:altLabel "FSC certified"@en,
+        "Forest Stewardship Council"@en,
+        "FSC प्रमाणित"@hi,
+        "Forest Stewardship Council"@hi,
+        "FSC-sertifisert"@nb,
+        "Forest Stewardship Council"@pl,
+        "certyfikat FSC"@pl,
+        "papier FSC"@pl,
+        "Certificado FSC"@pt,
+        "Forest Stewardship Council"@pt ;
+    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental> ;
+    skos:definition "Forest Stewardship Council-certificering: en sporbarheds- og skovforvaltningsstandard, der kun lader en tryksag bære FSC-mærket, hvis papiret kan spores gennem hvert leverandørled fra ansvarligt forvaltet skov. Den mest anerkendte miljøreference for tryksager, ofte et krav fra offentlige og større virksomhedskøbere."@da,
+        "Zertifizierung des Forest Stewardship Council: ein Standard für Chain-of-Custody und Waldbewirtschaftung, der einem Druckerzeugnis nur dann erlaubt, das FSC-Label zu tragen, wenn dessen Papier von verantwortungsvoll bewirtschafteten Wäldern über alle Lieferanten hinweg rückverfolgbar ist. Die am weitesten anerkannte Umweltauszeichnung für Druckerzeugnisse, oft von öffentlichen Auftraggebern und Großunternehmen gefordert."@de,
+        "Forest Stewardship Council certification: a chain-of-custody and forest-management standard that lets a printed product carry the FSC label only if its paper is traceable through every supplier from a responsibly-managed forest. The most widely recognized environmental credential for printed goods, often required by public-sector and large-corporate buyers."@en,
+        "Certificación del Forest Stewardship Council: norma de cadena de custodia y gestión forestal que permite que un producto impreso lleve el sello FSC solo si su papel es rastreable a través de cada proveedor desde un bosque certificado."@es,
+        "Forest Stewardship Council प्रमाणन: चेन-ऑफ़-कस्टडी और वन-प्रबंधन मानक जो मुद्रित उत्पाद को FSC लेबल तभी देता है जब उसका काग़ज़ हर आपूर्तिकर्ता से होकर ज़िम्मेदारी से प्रबंधित वन तक ट्रेस किया जा सके। मुद्रित वस्तुओं के लिए सबसे व्यापक रूप से मान्य पर्यावरणीय प्रमाण, प्रायः सार्वजनिक-क्षेत्र और बड़े कॉर्पोरेट ख़रीदारों द्वारा अनिवार्य।"@hi,
+        "Forest Stewardship Council（森林管理協議会）認証：印刷物がFSCラベルを表示できるのは、その用紙が責任ある森林管理の下で生産され、全てのサプライヤーを通じて追跡可能な場合に限られる、加工流通過程（CoC）および森林管理の規格。印刷物に対して最も広く認知されている環境認証であり、公共部門および大企業の調達において必須要件とされることが多い。"@ja,
+        "Forest Stewardship Council-sertifisering: en chain-of-custody- og skogforvaltningsstandard som gjør at en trykksak kan bære FSC-merket kun dersom papiret er sporbart gjennom hver leverandør fra en ansvarlig forvaltet skog. Den mest anerkjente miljøsertifiseringen for trykte produkter, ofte påkrevd av offentlige innkjøpere og store bedrifter."@nb,
+        "Forest Stewardship Council-certificering: een chain-of-custody- en bosbeheerstandaard die drukwerk alleen het FSC-label laat dragen als het papier traceerbaar is door elke leveranciersschakel vanaf verantwoord beheerd bos. Het meest erkende milieukeurmerk voor drukwerk, vaak vereist door publieke en grote zakelijke inkopers."@nl,
+        "Certyfikacja Forest Stewardship Council: standard łańcucha dostaw i gospodarki leśnej, który pozwala produktowi drukowanemu nosić znak FSC tylko wtedy, gdy jego papier jest identyfikowalny przez każdego dostawcę aż do odpowiedzialnie zarządzanego lasu. Najszerzej rozpoznawane poświadczenie środowiskowe dla druków, często wymagane przez nabywców z sektora publicznego i dużych korporacji."@pl,
+        "Certificação do Forest Stewardship Council: norma de cadeia de custódia e manejo florestal que permite a um produto impresso levar o selo FSC apenas se o seu papel for rastreável por todos os fornecedores até uma floresta manejada de forma responsável. A credencial ambiental mais reconhecida para produtos impressos, muitas vezes exigida por compradores do setor público e grandes empresas."@pt,
+        "Forest Stewardship Council-certifiering: en spårbarhets- och skogsbruksstandard som låter en trycksak bära FSC-märket endast om dess papper är spårbart genom varje leverantörsled från ansvarsfullt brukad skog. Den mest erkända miljömeriten för trycksaker, ofta ett krav från offentliga och större företagsköpare."@sv,
+        "Forest Stewardship Council认证：产销监管链和森林管理标准，只有当印刷品的纸张可追溯至认证森林的每一供应商时，才能携带FSC标志。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q468515> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§FSC" ;
+    skos:prefLabel "FSC®"@da,
+        "FSC ®"@de,
+        "FSC ®"@en,
+        "FSC ®"@es,
+        "FSC ®"@hi,
+        "FSC ®"@ja,
+        "FSC ®"@nb,
+        "FSC®"@nl,
+        "FSC ®"@pl,
+        "FSC ®"@pt,
+        "FSC®"@sv,
+        "FSC ®（森林管理委员会认证）"@zh-Hans ;
+    skos:scopeNote "FSC zertifiziert Quelle und Lieferkette von Faserstoffen. ISO 14001 hingegen zertifiziert das gesamte Umweltmanagementsystem der Druckerei."@de,
+        "FSC certifies the source and chain of custody of fibrous materials. ISO 14001 by contrast certifies the printer's overall environmental management system."@en,
+        "FSC रेशेदार सामग्री के स्रोत और चेन-ऑफ़-कस्टडी को प्रमाणित करता है। इसके विपरीत ISO 14001 प्रिंटर की समग्र पर्यावरण प्रबंधन प्रणाली को प्रमाणित करता है।"@hi,
+        "FSCは繊維材料の出所と加工流通過程（CoC）を認証する。一方ISO 14001は印刷会社の環境マネジメントシステム全体を認証する。"@ja,
+        "FSC sertifiserer kilden og sporbarhets­kjeden for fiber­råstoff. ISO 14001 sertifiserer derimot trykkeriets samlede miljø­styringssystem."@nb,
+        "O FSC certifica a origem e a cadeia de custódia de materiais fibrosos. A ISO 14001, por contraste, certifica o sistema global de gestão ambiental do impressor."@pt ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
+            ptpge:mappingRow "crosswalk row 5" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Certification" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+
 <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss> a skos:Concept ;
     dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -50481,66 +50547,6 @@
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Laminating",
                 "LaminatingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ] ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
-
-<https://ptpge.org/v1/printing/standards/certifications/environmental/fsc> a skos:Concept ;
-    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
-    skos:altLabel "FSC certified"@en,
-        "Forest Stewardship Council"@en,
-        "FSC प्रमाणित"@hi,
-        "Forest Stewardship Council"@hi,
-        "FSC-sertifisert"@nb,
-        "Forest Stewardship Council"@pl,
-        "certyfikat FSC"@pl,
-        "papier FSC"@pl,
-        "Certificado FSC"@pt,
-        "Forest Stewardship Council"@pt ;
-    skos:broader <https://ptpge.org/v1/printing/standards/certifications/environmental> ;
-    skos:definition "Forest Stewardship Council-certificering: en sporbarheds- og skovforvaltningsstandard, der kun lader en tryksag bære FSC-mærket, hvis papiret kan spores gennem hvert leverandørled fra ansvarligt forvaltet skov. Den mest anerkendte miljøreference for tryksager, ofte et krav fra offentlige og større virksomhedskøbere."@da,
-        "Zertifizierung des Forest Stewardship Council: ein Standard für Chain-of-Custody und Waldbewirtschaftung, der einem Druckerzeugnis nur dann erlaubt, das FSC-Label zu tragen, wenn dessen Papier von verantwortungsvoll bewirtschafteten Wäldern über alle Lieferanten hinweg rückverfolgbar ist. Die am weitesten anerkannte Umweltauszeichnung für Druckerzeugnisse, oft von öffentlichen Auftraggebern und Großunternehmen gefordert."@de,
-        "Forest Stewardship Council certification: a chain-of-custody and forest-management standard that lets a printed product carry the FSC label only if its paper is traceable through every supplier from a responsibly-managed forest. The most widely recognized environmental credential for printed goods, often required by public-sector and large-corporate buyers."@en,
-        "Certificación del Forest Stewardship Council: norma de cadena de custodia y gestión forestal que permite que un producto impreso lleve el sello FSC solo si su papel es rastreable a través de cada proveedor desde un bosque certificado."@es,
-        "Forest Stewardship Council प्रमाणन: चेन-ऑफ़-कस्टडी और वन-प्रबंधन मानक जो मुद्रित उत्पाद को FSC लेबल तभी देता है जब उसका काग़ज़ हर आपूर्तिकर्ता से होकर ज़िम्मेदारी से प्रबंधित वन तक ट्रेस किया जा सके। मुद्रित वस्तुओं के लिए सबसे व्यापक रूप से मान्य पर्यावरणीय प्रमाण, प्रायः सार्वजनिक-क्षेत्र और बड़े कॉर्पोरेट ख़रीदारों द्वारा अनिवार्य।"@hi,
-        "Forest Stewardship Council（森林管理協議会）認証：印刷物がFSCラベルを表示できるのは、その用紙が責任ある森林管理の下で生産され、全てのサプライヤーを通じて追跡可能な場合に限られる、加工流通過程（CoC）および森林管理の規格。印刷物に対して最も広く認知されている環境認証であり、公共部門および大企業の調達において必須要件とされることが多い。"@ja,
-        "Forest Stewardship Council-sertifisering: en chain-of-custody- og skogforvaltningsstandard som gjør at en trykksak kan bære FSC-merket kun dersom papiret er sporbart gjennom hver leverandør fra en ansvarlig forvaltet skog. Den mest anerkjente miljøsertifiseringen for trykte produkter, ofte påkrevd av offentlige innkjøpere og store bedrifter."@nb,
-        "Forest Stewardship Council-certificering: een chain-of-custody- en bosbeheerstandaard die drukwerk alleen het FSC-label laat dragen als het papier traceerbaar is door elke leveranciersschakel vanaf verantwoord beheerd bos. Het meest erkende milieukeurmerk voor drukwerk, vaak vereist door publieke en grote zakelijke inkopers."@nl,
-        "Certyfikacja Forest Stewardship Council: standard łańcucha dostaw i gospodarki leśnej, który pozwala produktowi drukowanemu nosić znak FSC tylko wtedy, gdy jego papier jest identyfikowalny przez każdego dostawcę aż do odpowiedzialnie zarządzanego lasu. Najszerzej rozpoznawane poświadczenie środowiskowe dla druków, często wymagane przez nabywców z sektora publicznego i dużych korporacji."@pl,
-        "Certificação do Forest Stewardship Council: norma de cadeia de custódia e manejo florestal que permite a um produto impresso levar o selo FSC apenas se o seu papel for rastreável por todos os fornecedores até uma floresta manejada de forma responsável. A credencial ambiental mais reconhecida para produtos impressos, muitas vezes exigida por compradores do setor público e grandes empresas."@pt,
-        "Forest Stewardship Council-certifiering: en spårbarhets- och skogsbruksstandard som låter en trycksak bära FSC-märket endast om dess papper är spårbart genom varje leverantörsled från ansvarsfullt brukad skog. Den mest erkända miljömeriten för trycksaker, ofta ett krav från offentliga och större företagsköpare."@sv,
-        "Forest Stewardship Council认证：产销监管链和森林管理标准，只有当印刷品的纸张可追溯至认证森林的每一供应商时，才能携带FSC标志。"@zh-Hans ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q468515> ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:notation "P:ST§FSC" ;
-    skos:prefLabel "FSC®"@da,
-        "FSC ®"@de,
-        "FSC ®"@en,
-        "FSC ®"@es,
-        "FSC ®"@hi,
-        "FSC ®"@ja,
-        "FSC ®"@nb,
-        "FSC®"@nl,
-        "FSC ®"@pl,
-        "FSC ®"@pt,
-        "FSC®"@sv,
-        "FSC ®（森林管理委员会认证）"@zh-Hans ;
-    skos:scopeNote "FSC zertifiziert Quelle und Lieferkette von Faserstoffen. ISO 14001 hingegen zertifiziert das gesamte Umweltmanagementsystem der Druckerei."@de,
-        "FSC certifies the source and chain of custody of fibrous materials. ISO 14001 by contrast certifies the printer's overall environmental management system."@en,
-        "FSC रेशेदार सामग्री के स्रोत और चेन-ऑफ़-कस्टडी को प्रमाणित करता है। इसके विपरीत ISO 14001 प्रिंटर की समग्र पर्यावरण प्रबंधन प्रणाली को प्रमाणित करता है।"@hi,
-        "FSCは繊維材料の出所と加工流通過程（CoC）を認証する。一方ISO 14001は印刷会社の環境マネジメントシステム全体を認証する。"@ja,
-        "FSC sertifiserer kilden og sporbarhets­kjeden for fiber­råstoff. ISO 14001 sertifiserer derimot trykkeriets samlede miljø­styringssystem."@nb,
-        "O FSC certifica a origem e a cadeia de custódia de materiais fibrosos. A ISO 14001, por contraste, certifica o sistema global de gestão ambiental do impressor."@pt ;
-    ptpge:elementType "reference" ;
-    ptpge:group "standards" ;
-    ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§8.7 · p.336" ;
-            ptpge:mappingRow "crosswalk row 5" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Certification" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;

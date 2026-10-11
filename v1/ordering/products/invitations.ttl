@@ -7,7 +7,7 @@
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-11T09:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "bryllupsinvitation"@da,
         "invitation"@da,
         "invitationskort"@da,
@@ -104,7 +104,8 @@
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/holographic>,
         <https://ptpge.org/v1/printing/features/embellishments/foil-stamping/silver>,
         <https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish> ;
-    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
+    ptpge:perSurfaceSupportsSurfaceFinish <https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss>,
+        <https://ptpge.org/v1/printing/features/surface-finish/lamination/matte>,
         <https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/compliance/certification>,
         <https://ptpge.org/v1/variables/compliance/print-standard>,
@@ -189,5 +190,5 @@
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/inkjet>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/digital/laser>,
         <https://ptpge.org/v1/printing/technologies/printing-technologies/hybrid/digital-offset> ;
-    ptpge:version "2026-09-28" .
+    ptpge:version "2026-10-11" .
 

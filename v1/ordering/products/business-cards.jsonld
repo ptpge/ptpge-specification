@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/ordering/products/business-cards",
   "type": "skos:Concept",
-  "version": "2026-10-07",
+  "version": "2026-10-11",
   "status": "proposed",
   "level": "element",
   "notation": "O:PR§BUSINESS-CARD",
@@ -111,7 +111,7 @@
   ],
   "fulfilmentClass": "flat",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-10-07T18:30:00Z",
+  "modified": "2026-10-11T10:05:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "altLabels": {
     "en": [
@@ -287,8 +287,7 @@
     "https://ptpge.org/v1/printing/features/embellishments/debossing",
     "https://ptpge.org/v1/printing/features/embellishments/embossing",
     "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
-    "https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish",
-    "https://ptpge.org/v1/printing/features/embellishments/none"
+    "https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish"
   ],
   "supportsShape": [
     "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle",

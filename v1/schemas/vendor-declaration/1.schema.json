@@ -5,147 +5,568 @@
   "description": "What a printer is and can make, in the vocabulary: identity, production capability, the products it offers. Written by the printer or its MIS and published on the printer's own domain at /.well-known/ptpge/declaration.json (SD-0101). Every vocabulary value is a term URI under https://ptpge.org/v1/ — never a label (SD-0097). Prices and price rules are not part of this document. Licence of the schema: CC BY 4.0.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema", "schemaVersion", "identity", "name", "domain", "country", "capability", "offerings", "modified"],
+  "required": [
+    "schema",
+    "schemaVersion",
+    "identity",
+    "name",
+    "domain",
+    "country",
+    "capability",
+    "offerings",
+    "modified"
+  ],
   "properties": {
-    "schema":        { "const": "https://ptpge.org/v1/schemas/vendor-declaration/1" },
-    "schemaVersion": { "const": 1 },
-    "identity":      { "$ref": "#/$defs/vendorUri", "description": "The printer's entry in the Vendors register — the subject of this document." },
-    "name":          { "type": "string", "minLength": 1, "maxLength": 200, "description": "Trading name as shown on the register entry." },
-    "legalName":     { "type": "string", "minLength": 1, "maxLength": 200 },
-    "domain":        { "$ref": "#/$defs/hostname", "description": "The domain this document is published on; the register points at it. Ownership is proven by the file being there." },
-    "website":       { "type": "string", "format": "uri", "pattern": "^https://" },
-    "country":       { "type": "string", "pattern": "^[A-Z]{2}$", "description": "ISO 3166-1 alpha-2." },
-    "vendorTypes":   { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["commercial-printer", "online-printer", "trade-printer", "packaging-converter", "label-printer", "large-format-signage", "specialty", "in-plant", "print-broker", "other"] }, "description": "What kind of vendor; pick all that apply." },
-    "languages":     { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$" }, "description": "BCP 47 tags the printer answers requests in." },
-    "logo":          { "type": "string", "pattern": "^(https://|data:image/(png|svg\\+xml|jpeg|webp);base64,)", "maxLength": 400000, "description": "Optional. Shown on the register entry next to the ptpge-id/1 mark." },
-    "capability":    { "$ref": "#/$defs/capability" },
-    "offerings":     { "type": "array", "items": { "$ref": "#/$defs/offering" }, "description": "The products the printer offers, each as a product term plus the subset of its template the printer accepts. May be empty: a declaration without offerings still states identity and capability." },
-    "modified":      { "type": "string", "format": "date-time" },
-    "generatedBy":   {
+    "schema": {
+      "const": "https://ptpge.org/v1/schemas/vendor-declaration/1"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "identity": {
+      "$ref": "#/$defs/vendorUri",
+      "description": "The printer's entry in the Vendors register — the subject of this document."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Trading name as shown on the register entry."
+    },
+    "legalName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Registered company name, where it differs from the trading name."
+    },
+    "domain": {
+      "$ref": "#/$defs/hostname",
+      "description": "The domain this document is published on; the register points at it. Ownership is proven by the file being there."
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "The printer's site, https."
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2."
+    },
+    "vendorTypes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "commercial-printer",
+          "online-printer",
+          "trade-printer",
+          "packaging-converter",
+          "label-printer",
+          "large-format-signage",
+          "specialty",
+          "in-plant",
+          "print-broker",
+          "other"
+        ]
+      },
+      "description": "What kind of vendor; pick all that apply."
+    },
+    "languages": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+      },
+      "description": "BCP 47 tags the printer answers requests in."
+    },
+    "logo": {
+      "type": "string",
+      "pattern": "^(https://|data:image/(png|svg\\+xml|jpeg|webp);base64,)",
+      "maxLength": 400000,
+      "description": "Optional. Shown on the register entry next to the ptpge-id/1 mark."
+    },
+    "capability": {
+      "$ref": "#/$defs/capability"
+    },
+    "offerings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/offering"
+      },
+      "description": "The products the printer offers, each as a product term plus the subset of its template the printer accepts. May be empty: a declaration without offerings still states identity and capability."
+    },
+    "modified": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this document was last changed; the register's weekly re-check compares it."
+    },
+    "generatedBy": {
       "type": "object",
       "description": "Which tool wrote the document. Open: an implementation may add its own fields here (a profile seal, a version) — nothing under generatedBy is read by the register.",
-      "properties": { "tool": { "type": "string" }, "version": { "type": "string" } },
+      "properties": {
+        "tool": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
       "additionalProperties": true
     }
   },
-
   "$defs": {
     "termUri": {
       "type": "string",
       "pattern": "^https://ptpge\\.org/v1/(printing|ordering|variables)/[a-z0-9][a-z0-9/-]*$",
       "description": "A term in the vocabulary. Absolute URI; resolves to JSON-LD."
     },
-    "technologyUri":  { "type": "string", "pattern": "^https://ptpge\\.org/v1/printing/technologies/[a-z0-9][a-z0-9/-]*$" },
-    "substrateUri":   { "type": "string", "pattern": "^https://ptpge\\.org/v1/printing/substrates/[a-z0-9][a-z0-9/-]*$" },
-    "colorModeUri":   { "type": "string", "pattern": "^https://ptpge\\.org/v1/printing/features/colors/[a-z0-9][a-z0-9/-]*$" },
-    "completionUri":  { "type": "string", "pattern": "^https://ptpge\\.org/v1/printing/completions/[a-z0-9][a-z0-9/-]*$" },
-    "featureUri":     { "type": "string", "pattern": "^https://ptpge\\.org/v1/printing/features/[a-z0-9][a-z0-9/-]*$" },
-    "productUri":     { "type": "string", "pattern": "^https://ptpge\\.org/v1/ordering/products/[a-z0-9][a-z0-9/-]*$" },
-    "variableUri":    { "type": "string", "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$" },
-    "supplierUri":    { "type": "string", "pattern": "^https://ptpge\\.org/v1/suppliers/[a-z0-9-]+$" },
-    "vendorUri":      { "type": "string", "pattern": "^https://ptpge\\.org/v1/vendors/[a-z0-9-]+$" },
-    "hostname":       { "type": "string", "pattern": "^([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z]{2,63}$" },
-    "colorNotation":  { "type": "string", "pattern": "^[0-9]{1,2}/[0-9]{1,2}$", "description": "Front/back ink counts, e.g. 4/4, 4/0, 1/1 — resolved against the vocabulary by implementations (ptpge_resolve_color_notation)." },
-
+    "technologyUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/printing/technologies/[a-z0-9][a-z0-9/-]*$"
+    },
+    "substrateUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/printing/substrates/[a-z0-9][a-z0-9/-]*$"
+    },
+    "colorModeUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/printing/features/colors/[a-z0-9][a-z0-9/-]*$"
+    },
+    "completionUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/printing/completions/[a-z0-9][a-z0-9/-]*$"
+    },
+    "featureUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/printing/features/[a-z0-9][a-z0-9/-]*$"
+    },
+    "productUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/ordering/products/[a-z0-9][a-z0-9/-]*$"
+    },
+    "variableUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$"
+    },
+    "supplierUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/suppliers/[a-z0-9-]+$"
+    },
+    "vendorUri": {
+      "type": "string",
+      "pattern": "^https://ptpge\\.org/v1/vendors/[a-z0-9-]+$"
+    },
+    "hostname": {
+      "type": "string",
+      "pattern": "^([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z]{2,63}$"
+    },
+    "colorNotation": {
+      "type": "string",
+      "pattern": "^[0-9]{1,2}/[0-9]{1,2}$",
+      "description": "Front/back ink counts, e.g. 4/4, 4/0, 1/1 — resolved against the vocabulary by implementations (ptpge_resolve_color_notation)."
+    },
     "dimensionsMm": {
-      "type": "object", "additionalProperties": false, "required": ["width", "height"],
-      "properties": { "width": { "type": "number", "exclusiveMinimum": 0 }, "height": { "type": "number", "exclusiveMinimum": 0 } }
-    },
-    "range": {
-      "type": "object", "additionalProperties": false, "required": ["min", "max"],
-      "properties": { "min": { "type": "number", "minimum": 0 }, "max": { "type": "number", "minimum": 0 } }
-    },
-
-    "equipment": {
-      "type": "object", "additionalProperties": false, "required": ["supplier", "model"],
-      "description": "A machine. The maker is a supplier in the register; the model is the maker's own designation (models are not terms — SD-0097). A grade of 'catalog-listed' means the model appears in the supplier's catalogue; 'self-declared' means it does not, or the supplier has no catalogue yet.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "width",
+        "height"
+      ],
       "properties": {
-        "supplier":      { "$ref": "#/$defs/supplierUri" },
-        "model":         { "type": "string", "minLength": 1, "maxLength": 120 },
-        "equipmentGrade": { "enum": ["catalog-listed", "self-declared"] },
-        "installedUnits": { "type": "integer", "minimum": 1 }
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
       }
     },
-
+    "range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "min",
+        "max"
+      ],
+      "properties": {
+        "min": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "equipment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "supplier",
+        "model"
+      ],
+      "description": "A machine. The maker is a supplier in the register; the model is the maker's own designation (models are not terms — SD-0097). A grade of 'catalog-listed' means the model appears in the supplier's catalogue; 'self-declared' means it does not, or the supplier has no catalogue yet.",
+      "properties": {
+        "supplier": {
+          "$ref": "#/$defs/supplierUri",
+          "description": "The maker, as its entry in the Suppliers register."
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120,
+          "description": "The maker's model designation, without the maker's name («Speedmaster XL 106»)."
+        },
+        "equipmentGrade": {
+          "enum": [
+            "catalog-listed",
+            "self-declared"
+          ],
+          "description": "catalog-listed — the model is in the maker's catalogue; self-declared — named by the printer only."
+        },
+        "installedUnits": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "How many of this model the printer runs."
+        }
+      }
+    },
     "substrate": {
       "description": "A substrate the line prints on: either a vocabulary term (a class — coated paper, foam board …) or an item in a supplier's catalogue (a series or grade), optionally with the grammages and shades stocked.",
       "oneOf": [
-        { "$ref": "#/$defs/substrateUri" },
         {
-          "type": "object", "additionalProperties": false, "required": ["supplier", "item"],
+          "$ref": "#/$defs/substrateUri"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "supplier",
+            "item"
+          ],
           "properties": {
-            "supplier":   { "$ref": "#/$defs/supplierUri" },
-            "item":       { "type": "string", "minLength": 1, "maxLength": 120, "description": "The item's identifier in the supplier's catalogue (supplier-catalogue/1)." },
-            "class":      { "$ref": "#/$defs/substrateUri", "description": "The vocabulary class the item belongs to." },
-            "grammages":  { "type": "array", "uniqueItems": true, "items": { "type": "integer", "minimum": 1 } },
-            "thicknessMm": { "type": "array", "uniqueItems": true, "items": { "type": "number", "exclusiveMinimum": 0 } },
-            "shades":     { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1, "maxLength": 60 } }
+            "supplier": {
+              "$ref": "#/$defs/supplierUri"
+            },
+            "item": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120,
+              "description": "The item's identifier in the supplier's catalogue (supplier-catalogue/1)."
+            },
+            "class": {
+              "$ref": "#/$defs/substrateUri",
+              "description": "The vocabulary class the item belongs to."
+            },
+            "grammages": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "thicknessMm": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            },
+            "shades": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 60
+              }
+            }
           }
         }
       ]
     },
-
     "finishingMachine": {
-      "type": "object", "additionalProperties": false, "required": ["supplier", "model", "serves"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "supplier",
+        "model",
+        "serves"
+      ],
       "properties": {
-        "supplier":       { "$ref": "#/$defs/supplierUri" },
-        "model":          { "type": "string", "minLength": 1, "maxLength": 120 },
-        "kind":           { "$ref": "#/$defs/technologyUri", "description": "Equipment class in the vocabulary (folder, cutter, saddle stitcher …)." },
-        "serves":         { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/completionUri" }, "description": "The completions this machine performs." },
-        "inline":         { "type": "boolean" },
-        "maxFormatMm":    { "$ref": "#/$defs/dimensionsMm" },
-        "equipmentGrade": { "enum": ["catalog-listed", "self-declared"] },
-        "installedUnits": { "type": "integer", "minimum": 1 }
+        "supplier": {
+          "$ref": "#/$defs/supplierUri",
+          "description": "The maker, as its entry in the Suppliers register."
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120,
+          "description": "The maker's model designation, without the maker's name («Speedmaster XL 106»)."
+        },
+        "kind": {
+          "$ref": "#/$defs/technologyUri",
+          "description": "Equipment class in the vocabulary (folder, cutter, saddle stitcher …)."
+        },
+        "serves": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/completionUri"
+          },
+          "description": "The completions this machine performs."
+        },
+        "inline": {
+          "type": "boolean",
+          "description": "Runs inline with the press (no separate pass)."
+        },
+        "maxFormatMm": {
+          "$ref": "#/$defs/dimensionsMm",
+          "description": "Largest sheet the machine takes, width × height in mm."
+        },
+        "equipmentGrade": {
+          "enum": [
+            "catalog-listed",
+            "self-declared"
+          ],
+          "description": "catalog-listed — the model is in the maker's catalogue; self-declared — named by the printer only."
+        },
+        "installedUnits": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "How many of this model the printer runs."
+        }
       }
     },
-
     "line": {
-      "type": "object", "additionalProperties": false,
-      "required": ["name", "technology", "substrates", "colorModes"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "technology",
+        "substrates",
+        "colorModes"
+      ],
       "description": "A production line: one printing technology, one or more presses, what it prints on and how.",
       "properties": {
-        "name":              { "type": "string", "minLength": 1, "maxLength": 120 },
-        "technology":        { "$ref": "#/$defs/technologyUri" },
-        "presses":           { "type": "array", "items": { "$ref": "#/$defs/equipment" } },
-        "inkStations":       { "type": "integer", "minimum": 1, "maximum": 20 },
-        "maxFormatMm":       { "$ref": "#/$defs/dimensionsMm" },
-        "sides":             { "enum": ["simplex", "perfecting", "turn"] },
-        "substrates":        { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/substrate" } },
-        "substrateWeightGsm": { "$ref": "#/$defs/range" },
-        "colorModes":        { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/colorModeUri" } },
-        "variableData":      { "type": "boolean" },
-        "finishing":         { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/completionUri" } },
-        "embellishment":     { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/featureUri" } },
-        "finishingMachines": { "type": "array", "items": { "$ref": "#/$defs/finishingMachine" } }
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120,
+          "description": "The printer's own name for the line, as it appears on quotes and job tickets («Sheet-fed Offset 70×100»)."
+        },
+        "technology": {
+          "$ref": "#/$defs/technologyUri",
+          "description": "The printing technology of the line, as a vocabulary term (offset, UV inkjet, laser, riso …)."
+        },
+        "presses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/equipment"
+          },
+          "description": "The presses on the line: each a supplier identity from the register plus the maker's model designation."
+        },
+        "inkStations": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20,
+          "description": "Number of printing units / ink stations on the press (8 = eight colours or 4/4 in one pass)."
+        },
+        "maxFormatMm": {
+          "$ref": "#/$defs/dimensionsMm",
+          "description": "Largest sheet the line takes, width × height in mm."
+        },
+        "sides": {
+          "enum": [
+            "simplex",
+            "perfecting",
+            "turn"
+          ],
+          "description": "simplex — one side per pass; perfecting — both sides in one pass; turn — both sides with a work-and-turn."
+        },
+        "substrates": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/substrate"
+          },
+          "description": "What the line prints on: vocabulary classes (coated paper, foam board …) and/or catalogue items from a supplier's catalogue, with grammages and shades stocked."
+        },
+        "substrateWeightGsm": {
+          "$ref": "#/$defs/range",
+          "description": "The grammage range the line runs, g/m²."
+        },
+        "colorModes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/colorModeUri"
+          },
+          "description": "Colour modes the line can print: CMYK, black, spot colour, white, extended gamut … as vocabulary terms."
+        },
+        "variableData": {
+          "type": "boolean",
+          "description": "Whether the line prints variable data (personalised content per copy)."
+        },
+        "finishing": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/completionUri"
+          },
+          "description": "Completions the line offers in-house, as vocabulary terms (folding, saddle stitching, die-cutting …)."
+        },
+        "embellishment": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/featureUri"
+          },
+          "description": "Surface finishes and embellishments offered: laminations, spot UV, foil … as vocabulary terms."
+        },
+        "finishingMachines": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/finishingMachine"
+          },
+          "description": "The finishing equipment behind the finishing list: supplier identity, model, and the completions each machine performs."
+        }
       }
     },
-
     "capability": {
-      "type": "object", "additionalProperties": false, "required": ["technologies", "lines"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "technologies",
+        "lines"
+      ],
       "properties": {
-        "technologies":   { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/technologyUri" } },
-        "lines":          { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/line" } },
-        "certifications": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/termUri" }, "description": "Print standards and certifications held (terms under printing/standards)." }
+        "technologies": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/technologyUri"
+          },
+          "description": "Every printing technology the printer runs, as vocabulary terms — the union of the lines' technologies."
+        },
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/line"
+          },
+          "description": "The production lines, one per press or press family (what the Vendor Profile builder calls production lines): technology, presses, what each prints on and how it finishes."
+        },
+        "certifications": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/termUri"
+          },
+          "description": "Print standards and certifications held (terms under printing/standards)."
+        }
       }
     },
-
     "offering": {
-      "type": "object", "additionalProperties": false, "required": ["product", "name", "line", "supports"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "product",
+        "name",
+        "line",
+        "supports"
+      ],
       "description": "A product the printer offers: the product term, which line makes it, and — per variable of the product's template — the values the printer accepts. Keys of `supports` are variable URIs the template lists; values are term URIs from the template's envelope. Implementations validate a request against this the same way they validate it against the template.",
       "properties": {
-        "product":   { "$ref": "#/$defs/productUri" },
-        "name":      { "type": "string", "minLength": 1, "maxLength": 120 },
-        "line":      { "type": "integer", "minimum": 0, "description": "Index into capability.lines." },
-        "supports":  {
-          "type": "object", "minProperties": 1,
-          "propertyNames": { "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$" },
-          "additionalProperties": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/termUri" } }
+        "product": {
+          "$ref": "#/$defs/productUri",
+          "description": "The product template offered (a term under ordering/products/)."
         },
-        "colour":    { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/colorNotation" }, "description": "Front/back colour combinations accepted." },
-        "pages":     { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "integer", "minimum": 1 } },
-        "customSizeMm": { "type": "object", "additionalProperties": false, "required": ["width", "height"], "properties": { "width": { "$ref": "#/$defs/range" }, "height": { "$ref": "#/$defs/range" } } },
-        "minimumQuantity": { "type": "integer", "minimum": 1 },
-        "leadTimeWorkingDays": { "type": "integer", "minimum": 0 }
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120,
+          "description": "The printer's own name for the offering («Business Cards 85×55»)."
+        },
+        "line": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Index into capability.lines."
+        },
+        "supports": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$"
+          },
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/$defs/termUri"
+            }
+          },
+          "description": "Per variable of the product's template, the values the printer accepts — the template's envelope narrowed to this printer. Keys are variable URIs, values lists of term URIs."
+        },
+        "colour": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/colorNotation"
+          },
+          "description": "Front/back colour combinations accepted."
+        },
+        "pages": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": "Page counts offered, for multi-page products."
+        },
+        "customSizeMm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "width",
+            "height"
+          ],
+          "properties": {
+            "width": {
+              "$ref": "#/$defs/range"
+            },
+            "height": {
+              "$ref": "#/$defs/range"
+            }
+          },
+          "description": "For products with free dimensions: the width and height ranges accepted, mm."
+        },
+        "minimumQuantity": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Smallest run the printer takes for this offering."
+        },
+        "leadTimeWorkingDays": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Standard lead time from approved artwork to dispatch, working days."
+        }
       }
     }
   }

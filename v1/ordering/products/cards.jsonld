@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/ordering/products/cards",
   "type": "skos:Concept",
-  "version": "2026-09-28",
+  "version": "2026-10-11",
   "status": "proposed",
   "level": "element",
   "notation": "O:PR§CARDS",
@@ -112,7 +112,7 @@
   "group": "products",
   "broader": "https://ptpge.org/v1/ordering/products",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-10-11T09:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "A folded or flat greeting card for occasions — birthdays, holidays, thank-yous and events.",
@@ -213,6 +213,7 @@
   ],
   "perSurfaceSupportsSurfaceFinish": [
     "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
     "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
   ],
   "langStatus": {

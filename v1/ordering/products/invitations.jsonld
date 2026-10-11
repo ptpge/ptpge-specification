@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/ordering/products/invitations",
   "type": "skos:Concept",
-  "version": "2026-09-28",
+  "version": "2026-10-11",
   "status": "proposed",
   "level": "element",
   "notation": "O:PR§INVITATIONS",
@@ -134,7 +134,7 @@
     "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/single-fold"
   ],
   "created": "2026-06-22T00:00:00Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-10-11T09:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "https://ptpge.org/contributors/ptpge",
   "contributor": [
@@ -222,6 +222,7 @@
   ],
   "perSurfaceSupportsSurfaceFinish": [
     "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+    "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
     "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
   ],
   "customSizeRange": {

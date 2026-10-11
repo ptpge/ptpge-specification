@@ -22869,8 +22869,8 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/printing/features/embellishments/none",
       "type": "skos:Concept",
-      "version": "2026-09-22",
-      "status": "proposed",
+      "version": "2026-10-11",
+      "status": "deprecated",
       "level": "element",
       "label": {
         "en": "None (no embellishment)",
@@ -22963,7 +22963,7 @@
       "group": "features",
       "broader": "https://ptpge.org/v1/printing/features/embellishments",
       "created": "2026-09-22T11:55:00Z",
-      "modified": "2026-09-23T06:18:57Z",
+      "modified": "2026-10-11T10:05:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "notation": "P:FT§NO-EMBELLISHMENT",
       "elementType": "value",
@@ -22971,7 +22971,12 @@
       "contributor": [
         "https://ptpge.org/contributors/patrik-knutsson"
       ],
-      "standalone": true
+      "standalone": true,
+      "deprecatedOn": "2026-10-11",
+      "deprecationReason": {
+        "en": "Absence is the specification's way of saying «none» (SD-0098, extended 2026-10-11 to embellishment): an effect the buyer does not ask for is not applied — foil, embossing, debossing and spot effects are additive, and a face with no embellishment binding is complete and fingerprintable. An explicit «none» value would make two identical products hash differently. No successor; this URI keeps resolving. The alt-labels remain useful as synonyms for «no embellishment» in mappers.",
+        "nb": "Fravær er spesifikasjonens måte å si «ingen» på (SD-0098, utvidet 11.10.2026 til embellishment): en effekt kjøperen ikke ber om, blir ikke påført — folie, preging og punkteffekter er additive, og en flate uten embellishment-binding er komplett og kan fingeravtrykkes. En eksplisitt «ingen»-verdi ville gitt to like produkter ulikt fingeravtrykk. Ingen etterfølger; URI-en fortsetter å løse opp. Alt-etikettene forblir nyttige som synonymer for «ingen effekt» i mappere."
+      }
     },
     {
       "@context": "https://ptpge.org/v1/context.jsonld",
@@ -60170,7 +60175,7 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/ordering/products/business-cards",
       "type": "skos:Concept",
-      "version": "2026-10-07",
+      "version": "2026-10-11",
       "status": "proposed",
       "level": "element",
       "notation": "O:PR§BUSINESS-CARD",
@@ -60279,7 +60284,7 @@
       ],
       "fulfilmentClass": "flat",
       "created": "2026-05-18T12:24:24Z",
-      "modified": "2026-10-07T18:30:00Z",
+      "modified": "2026-10-11T10:05:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "altLabels": {
         "en": [
@@ -60455,8 +60460,7 @@
         "https://ptpge.org/v1/printing/features/embellishments/debossing",
         "https://ptpge.org/v1/printing/features/embellishments/embossing",
         "https://ptpge.org/v1/printing/features/embellishments/spot-uv-varnish",
-        "https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish",
-        "https://ptpge.org/v1/printing/features/embellishments/none"
+        "https://ptpge.org/v1/printing/features/embellishments/full-uv-varnish"
       ],
       "supportsShape": [
         "https://ptpge.org/v1/printing/configurations/shape/rounded-rectangle",
@@ -60951,7 +60955,7 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/ordering/products/cards",
       "type": "skos:Concept",
-      "version": "2026-09-28",
+      "version": "2026-10-11",
       "status": "proposed",
       "level": "element",
       "notation": "O:PR§CARDS",
@@ -61061,7 +61065,7 @@
       "group": "products",
       "broader": "https://ptpge.org/v1/ordering/products",
       "created": "2026-05-18T12:24:24Z",
-      "modified": "2026-09-28T12:25:00Z",
+      "modified": "2026-10-11T09:40:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": {
         "en": "A folded or flat greeting card for occasions — birthdays, holidays, thank-yous and events.",
@@ -61162,6 +61166,7 @@
       ],
       "perSurfaceSupportsSurfaceFinish": [
         "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
         "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
       ],
       "langStatus": {
@@ -61508,7 +61513,7 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/ordering/products/certificates",
       "type": "skos:Concept",
-      "version": "2026-09-28",
+      "version": "2026-10-11",
       "status": "proposed",
       "level": "element",
       "notation": "O:PR§CERTIFICATES",
@@ -61622,7 +61627,7 @@
         "https://ptpge.org/v1/printing/configurations/setup-models/flat-sheet"
       ],
       "created": "2026-06-22T00:00:00Z",
-      "modified": "2026-09-28T12:25:00Z",
+      "modified": "2026-10-11T09:55:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": "https://ptpge.org/contributors/ptpge",
       "contributor": [
@@ -61704,7 +61709,9 @@
         "https://ptpge.org/v1/printing/features/embellishments/debossing"
       ],
       "perSurfaceSupportsSurfaceFinish": [
-        "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte"
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
       ],
       "customSizeRange": {
         "min": 148,
@@ -64397,7 +64404,7 @@
       "@context": "https://ptpge.org/v1/context.jsonld",
       "id": "https://ptpge.org/v1/ordering/products/invitations",
       "type": "skos:Concept",
-      "version": "2026-09-28",
+      "version": "2026-10-11",
       "status": "proposed",
       "level": "element",
       "notation": "O:PR§INVITATIONS",
@@ -64529,7 +64536,7 @@
         "https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/single-fold"
       ],
       "created": "2026-06-22T00:00:00Z",
-      "modified": "2026-09-28T12:25:00Z",
+      "modified": "2026-10-11T09:40:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": "https://ptpge.org/contributors/ptpge",
       "contributor": [
@@ -64617,6 +64624,7 @@
       ],
       "perSurfaceSupportsSurfaceFinish": [
         "https://ptpge.org/v1/printing/features/surface-finish/lamination/matte",
+        "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss",
         "https://ptpge.org/v1/printing/features/surface-finish/lamination/soft-touch"
       ],
       "customSizeRange": {

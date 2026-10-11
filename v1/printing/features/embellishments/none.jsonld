@@ -2,8 +2,8 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/printing/features/embellishments/none",
   "type": "skos:Concept",
-  "version": "2026-09-22",
-  "status": "proposed",
+  "version": "2026-10-11",
+  "status": "deprecated",
   "level": "element",
   "label": {
     "en": "None (no embellishment)",
@@ -96,7 +96,7 @@
   "group": "features",
   "broader": "https://ptpge.org/v1/printing/features/embellishments",
   "created": "2026-09-22T11:55:00Z",
-  "modified": "2026-09-23T06:18:57Z",
+  "modified": "2026-10-11T10:05:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "notation": "P:FT§NO-EMBELLISHMENT",
   "elementType": "value",
@@ -104,5 +104,10 @@
   "contributor": [
     "https://ptpge.org/contributors/patrik-knutsson"
   ],
-  "standalone": true
+  "standalone": true,
+  "deprecatedOn": "2026-10-11",
+  "deprecationReason": {
+    "en": "Absence is the specification's way of saying «none» (SD-0098, extended 2026-10-11 to embellishment): an effect the buyer does not ask for is not applied — foil, embossing, debossing and spot effects are additive, and a face with no embellishment binding is complete and fingerprintable. An explicit «none» value would make two identical products hash differently. No successor; this URI keeps resolving. The alt-labels remain useful as synonyms for «no embellishment» in mappers.",
+    "nb": "Fravær er spesifikasjonens måte å si «ingen» på (SD-0098, utvidet 11.10.2026 til embellishment): en effekt kjøperen ikke ber om, blir ikke påført — folie, preging og punkteffekter er additive, og en flate uten embellishment-binding er komplett og kan fingeravtrykkes. En eksplisitt «ingen»-verdi ville gitt to like produkter ulikt fingeravtrykk. Ingen etterfølger; URI-en fortsetter å løse opp. Alt-etikettene forblir nyttige som synonymer for «ingen effekt» i mappere."
+  }
 }

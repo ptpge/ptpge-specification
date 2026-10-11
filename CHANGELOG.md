@@ -3,6 +3,18 @@
 What changed in each data release, newest first. Mirrors https://ptpge.org/changelog/.
 Data releases are versioned by date; the API contract is `v1`.
 
+## 2026-10-11
+
+### Envelope: Gloss lamination on Cards, Invitations and Certificates; surface finish has no «none» value anywhere
+
+`ordering/products/cards`, `ordering/products/invitations` and `ordering/products/certificates` now accept `surface-finish/lamination/gloss` per surface, next to matte and soft-touch — found when an agent was asked for a 210 × 210 mm four-page card with gloss lamination outside and could not bind it. Following SD-0098, the MCP server (0.32.0) no longer appends `surface-finish/none` to any envelope: a finish you do not ask for is not applied, the axis is simply absent. The same rule now covers embellishment: `printing/features/embellishments/none` is deprecated without successor (SD-0098 extended) and leaves the Business Cards envelope — foil, embossing and spot effects are additive, a face without an embellishment binding is complete; `colors/none` stays (a face with no ink is a physical statement). Schema pages: every field of the five document schemas now carries a one-line meaning. No URIs change.
+
+- `https://ptpge.org/v1/ordering/products/cards`
+- `https://ptpge.org/v1/ordering/products/invitations`
+- `https://ptpge.org/v1/ordering/products/certificates`
+- `https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss`
+- `https://ptpge.org/v1/printing/features/embellishments/none`
+
 ## 2026-10-10
 
 ### Structure: Thin registers owned by ptpge.org; documents live on the business's own domain; quote/1; ptpge-id/1 (SD-0101)
