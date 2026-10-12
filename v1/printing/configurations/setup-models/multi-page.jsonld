@@ -2,7 +2,7 @@
   "@context": "https://ptpge.org/v1/context.jsonld",
   "id": "https://ptpge.org/v1/printing/configurations/setup-models/multi-page",
   "type": "skos:Concept",
-  "version": "2026-06-05",
+  "version": "2026-10-12",
   "status": "proposed",
   "level": "element",
   "notation": "P:CF§MULTI-PAGE",
@@ -38,12 +38,12 @@
   "group": "configurations",
   "broader": "https://ptpge.org/v1/printing/configurations/setup-models",
   "scopeNote": {
-    "en": "v1 pilot ships with saddle-stitched only. Perfect-bound, wire-O, sewn-binding, and case-bound (hardback) follow in subsequent releases.",
+    "en": "v1 pilot ships with saddle-stitched only. Perfect-bound, wire-O, sewn-binding, and case-bound (hardback) follow in subsequent releases. Parts (SD-0102): a multi-page product has two parts, cover and inside; substrate axes (weight, finish, type, coating, class, colour, fibre, thickness) may be bound per part — variable@cover, variable@inside — so a 300 g cover and a 130 g inside are two statements in one identity. A substrate bound without a part applies to the whole product, as before.",
     "pt": "O piloto v1 traz apenas grampo canoa. Lombada colada, wire-o, costura e capa dura seguem em versões posteriores.",
     "hi": "v1 पायलट में केवल सैडल-स्टिच। परफेक्ट-बाउंड, वायर-ओ, सिलाई बाइंडिंग और केस-बाउंड (हार्डबैक) बाद के संस्करणों में।"
   },
   "created": "2026-05-19T22:00:00Z",
-  "modified": "2026-09-23T06:34:00Z",
+  "modified": "2026-10-12T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "elementType": "value",
   "pageCountMultiple": 2,
@@ -132,6 +132,65 @@
         "zh-Hans": "封底"
       },
       "surfaceGroup": "cover-outside"
+    }
+  ],
+  "parts": [
+    {
+      "id": "cover",
+      "label": {
+        "en": "Cover",
+        "nb": "Omslag",
+        "de": "Umschlag",
+        "sv": "Omslag",
+        "da": "Omslag",
+        "nl": "Omslag",
+        "fi": "Kansi",
+        "is": "Kápa",
+        "fr": "Couverture",
+        "pl": "Okładka",
+        "es": "Cubierta",
+        "ja": "表紙",
+        "zh-Hans": "封面",
+        "pt": "Capa",
+        "hi": "आवरण"
+      },
+      "surfaces": [
+        "front-cover",
+        "inside-front-cover",
+        "inside-back-cover",
+        "back-cover"
+      ],
+      "definition": {
+        "en": "The outer sheet — front cover, its inside, the inside back cover and the back cover. The part a substrate binding addresses as @cover.",
+        "nb": "Det ytre arket – forside, innside forside, innside bakside og bakside. Delen en substratbinding adresserer som @cover."
+      }
+    },
+    {
+      "id": "inside",
+      "label": {
+        "en": "Inside pages",
+        "nb": "Innmat",
+        "de": "Innenteil",
+        "sv": "Inlaga",
+        "da": "Indmad",
+        "nl": "Binnenwerk",
+        "fi": "Sisäsivut",
+        "is": "Innsíður",
+        "fr": "Pages intérieures",
+        "pl": "Środek",
+        "es": "Páginas interiores",
+        "ja": "本文",
+        "zh-Hans": "内页",
+        "pt": "Miolo",
+        "hi": "भीतरी पृष्ठ"
+      },
+      "surfaces": [
+        "inside-pages"
+      ],
+      "definition": {
+        "en": "Every page between the covers. The part a substrate binding addresses as @inside.",
+        "nb": "Alle sidene mellom omslagene. Delen en substratbinding adresserer som @inside."
+      }
     }
   ]
 }

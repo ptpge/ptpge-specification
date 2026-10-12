@@ -6,7 +6,7 @@
 <https://ptpge.org/v1/printing/configurations/setup-models/multi-page> a skos:Concept ;
     dcterms:created "2026-05-19T22:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:34:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-12T10:40:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/printing/configurations/setup-models> ;
     skos:definition "Et flersidet produkt (hæfte, katalog, magasin, manual), der dannes ved at flere ark indbindes sammen. Fem adresserbare flader dækker hæftet — omslagets forside, omslagets inderside for, indholdet, omslagets inderside bag og omslagets bagside."@da,
         "Ein mehrseitiges Produkt (Broschüre, Katalog, Magazin, Handbuch), das durch Binden mehrerer Bogen entsteht. Fünf adressierbare Oberflächen decken das Heft ab — Front Cover, Inside Front Cover, Inside Pages (Innenteil), Inside Back Cover, Back Cover — jede unabhängig konfigurierbar (Farbe → Veredelung → Oberflächenveredelung). Die Innenseitenzahl steuert die Variable Page Count; das Bindeverfahren (Rückstichheftung, Klebebindung, Spirale …) und seine Seitenzahlgrenzen sind eine separate Weiterverarbeitungswahl auf der Binding-Achse."@de,
@@ -34,7 +34,7 @@
         "Montagem multipágina"@pt,
         "Flersidig"@sv,
         "多页结构"@zh-Hans ;
-    skos:scopeNote "v1 pilot ships with saddle-stitched only. Perfect-bound, wire-O, sewn-binding, and case-bound (hardback) follow in subsequent releases."@en,
+    skos:scopeNote "v1 pilot ships with saddle-stitched only. Perfect-bound, wire-O, sewn-binding, and case-bound (hardback) follow in subsequent releases. Parts (SD-0102): a multi-page product has two parts, cover and inside; substrate axes (weight, finish, type, coating, class, colour, fibre, thickness) may be bound per part — variable@cover, variable@inside — so a 300 g cover and a 130 g inside are two statements in one identity. A substrate bound without a part applies to the whole product, as before."@en,
         "v1 पायलट में केवल सैडल-स्टिच। परफेक्ट-बाउंड, वायर-ओ, सिलाई बाइंडिंग और केस-बाउंड (हार्डबैक) बाद के संस्करणों में।"@hi,
         "O piloto v1 traz apenas grampo canoa. Lombada colada, wire-o, costura e capa dura seguem em versões posteriores."@pt ;
     ptpge:elementType "value" ;
@@ -42,5 +42,5 @@
     ptpge:level "element" ;
     ptpge:pageCountMultiple 2 ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
+    ptpge:version "2026-10-12" .
 

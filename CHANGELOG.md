@@ -5,6 +5,10 @@ Data releases are versioned by date; the API contract is `v1`.
 
 ## 2026-10-12
 
+### Parts: A booklet can have one paper on the cover and another inside: multi-page declares parts
+
+`printing/configurations/setup-models/multi-page` now declares two *parts* — `cover` (front cover, inside front cover, inside back cover, back cover) and `inside` (inside pages) — the sheets a booklet is physically made of. The substrate variables (weight, finish, type, coating, class, colour, fibre, thickness) can be bound per part: `variables/substrate/substrate-weight@cover=300`, `…@inside=130`. The ptpge-cfs/1 scope slug now means *surface or part*; the grammar is unchanged, so every existing fingerprint is unchanged, and a binding without scope still covers the whole product. The MCP server (0.36.0) validates that a part exists in the chosen setup and, when the weight is bound for one part only, asks for the other rather than assuming (SD-0102). Labels and definitions in all languages.
+
 ### Schemas: The five document schemas are marked published
 
 The five schema terms (`schemas/vendor-declaration/1`, `supplier-catalogue/1`, `request/1`, `quote/1`, `ucp-manifest/1`) carried `stage: draft` from the day they were named, while their JSON Schemas have been published since 2026-10-10 — the pages said both. Stage is now `published`. No other data changed. The identity extension for UCP (`org.ptpge.print.identity`) was brought to one version, 2026-10-11, on the same day; the register and the MCP server now draw the fingerprint mark in black on a white tile in every theme.
