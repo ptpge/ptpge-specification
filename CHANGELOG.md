@@ -3,6 +3,12 @@
 What changed in each data release, newest first. Mirrors https://ptpge.org/changelog/.
 Data releases are versioned by date; the API contract is `v1`.
 
+## 2026-10-12
+
+### Schemas: The five document schemas are marked published
+
+The five schema terms (`schemas/vendor-declaration/1`, `supplier-catalogue/1`, `request/1`, `quote/1`, `ucp-manifest/1`) carried `stage: draft` from the day they were named, while their JSON Schemas have been published since 2026-10-10 — the pages said both. Stage is now `published`. No other data changed. The identity extension for UCP (`org.ptpge.print.identity`) was brought to one version, 2026-10-11, on the same day; the register and the MCP server now draw the fingerprint mark in black on a white tile in every theme.
+
 ## 2026-10-11
 
 ### Envelope: Gloss lamination on Cards, Invitations and Certificates; surface finish has no «none» value anywhere

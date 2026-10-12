@@ -18,8 +18,8 @@
     ptpge:jsonSchema <https://ptpge.org/v1/schemas/quote/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
-    ptpge:stage "draft" ;
+    ptpge:stage "published" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-10" ;
+    ptpge:version "2026-10-12" ;
     ptpge:writtenBy "a printer, in answer to a request" .
 

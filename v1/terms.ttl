@@ -16758,7 +16758,14 @@
     ptpge:level "element" ;
     ptpge:pageCountConstraint "even" ;
     ptpge:pageCountRange [ ] ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16768,13 +16775,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16824,15 +16824,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16842,6 +16834,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17004,15 +17004,7 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17022,6 +17014,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17361,7 +17361,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/2" "1/2" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F4-1 (Single fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17371,14 +17379,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F4-1 (Single fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17440,7 +17440,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-4 (Tri-fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17450,14 +17458,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-4 (Tri-fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17568,7 +17568,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17578,14 +17586,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23560,18 +23560,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23817,18 +23817,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -26566,9 +26566,9 @@
     ptpge:jsonSchema <https://ptpge.org/v1/schemas/quote/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
-    ptpge:stage "draft" ;
+    ptpge:stage "published" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-10" ;
+    ptpge:version "2026-10-12" ;
     ptpge:writtenBy "a printer, in answer to a request" .
 
 <https://ptpge.org/v1/schemas/request/1> a ptpge:Schema ;
@@ -26586,9 +26586,9 @@
     ptpge:jsonSchema <https://ptpge.org/v1/schemas/request/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
-    ptpge:stage "draft" ;
+    ptpge:stage "published" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-10" ;
+    ptpge:version "2026-10-12" ;
     ptpge:writtenBy "a buyer or an agent" .
 
 <https://ptpge.org/v1/schemas/supplier-catalogue/1> a ptpge:Schema ;
@@ -26606,9 +26606,9 @@
     ptpge:jsonSchema <https://ptpge.org/v1/schemas/supplier-catalogue/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
-    ptpge:stage "draft" ;
+    ptpge:stage "published" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-10" ;
+    ptpge:version "2026-10-12" ;
     ptpge:writtenBy "a paper or equipment maker" .
 
 <https://ptpge.org/v1/schemas/ucp-manifest/1> a ptpge:Schema ;
@@ -26626,9 +26626,9 @@
     ptpge:jsonSchema <https://ptpge.org/v1/schemas/ucp-manifest/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
-    ptpge:stage "draft" ;
+    ptpge:stage "published" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-10" ;
+    ptpge:version "2026-10-12" ;
     ptpge:writtenBy "a storefront" .
 
 <https://ptpge.org/v1/schemas/vendor-declaration/1> a ptpge:Schema ;
@@ -26646,9 +26646,9 @@
     ptpge:jsonSchema <https://ptpge.org/v1/schemas/vendor-declaration/1.schema.json> ;
     ptpge:level "element" ;
     ptpge:schemaVersion 1 ;
-    ptpge:stage "draft" ;
+    ptpge:stage "published" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-10-10" ;
+    ptpge:version "2026-10-12" ;
     ptpge:writtenBy "a printer, or its MIS" .
 
 <https://ptpge.org/v1/variables/compliance/climate-documentation> a skos:Concept ;
@@ -38645,16 +38645,16 @@
         "涂布"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -39867,16 +39867,16 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -39929,16 +39929,16 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -41049,18 +41049,18 @@
         "包括Antalis（欧洲分销商）、Hahnemühle（德国特种纸）、Holmen（北欧出版用纸）、Lessebo（瑞典优质和设计用纸）和Sappi（全球商业用纸）。其他地区供应商按记录时跟踪。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 30" ;
-            ptpge:matchDegree "concept" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 30" ;
+            ptpge:matchDegree "concept" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -43167,18 +43167,18 @@
         "范围从牛皮纸和天然纸（CIE 60–80，暖调）经象牙和灰色（中间）到白色和亮白色（CIE 90+）。选择影响印刷颜色的感知色调和产品的整体视觉特性。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
