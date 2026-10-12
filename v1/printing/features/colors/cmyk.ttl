@@ -7,11 +7,13 @@
     dcterms:created "2026-05-19T20:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:18:57+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-12T12:05:00+00:00"^^xsd:dateTime ;
     skos:altLabel "4 farver"@da,
         "4-farve"@da,
         "Firefarve"@da,
         "Firefarvetryk"@da,
+        "Fuldfarve"@da,
+        "Fuldfarvetryk"@da,
         "Processfarver"@da,
         "4-farbig"@de,
         "4c"@de,
@@ -19,6 +21,8 @@
         "Prozessfarben"@de,
         "Skalenfarben"@de,
         "Vierfarbdruck"@de,
+        "Vollfarbe"@de,
+        "Vollfarbig"@de,
         "4 Color"@en,
         "4 Colour"@en,
         "4-Color"@en,
@@ -52,8 +56,11 @@
         "4 farger"@nb,
         "4-fargers trykk"@nb,
         "CMYK-farger"@nb,
+        "Firefarge"@nb,
         "Firefargetrykk"@nb,
         "Fullfarge"@nb,
+        "Fullfarget"@nb,
+        "Fullfargetrykk"@nb,
         "Prosessfarger"@nb,
         "Full colour"@nl,
         "Vierkleurendruk"@nl,
@@ -67,6 +74,8 @@
         "quadricromia"@pt,
         "4 färger"@sv,
         "4-färg"@sv,
+        "Fullfärg"@sv,
+        "Fullfärgstryck"@sv,
         "Fyrfärg"@sv,
         "Fyrfärgstryck"@sv,
         "Processfärger"@sv,

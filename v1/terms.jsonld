@@ -908,7 +908,7 @@
       "group": "completions",
       "broader": "https://ptpge.org/v1/printing/completions/binding",
       "created": "2026-05-30T00:00:00Z",
-      "modified": "2026-09-23T06:12:20Z",
+      "modified": "2026-10-12T12:05:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "pageCountConstraint": "multipleOf(4)",
       "pageCountRange": {
@@ -926,10 +926,15 @@
         "nb": [
           "Stiftet",
           "Stifting",
-          "Midtstiftet"
+          "Midtstiftet",
+          "Ryggstiftet",
+          "Ryggstifting",
+          "Ryggstift"
         ],
         "da": [
-          "Ryghæftning"
+          "Ryghæftning",
+          "Ryghæftet",
+          "Hæftet med klammer"
         ],
         "nl": [
           "nieten",
@@ -953,6 +958,17 @@
           "सेंटर स्टेपल",
           "पिनिंग",
           "स्टेपल बाइंडिंग"
+        ],
+        "sv": [
+          "Klammerhäftad",
+          "Klammerhäftning",
+          "Häftad"
+        ],
+        "de": [
+          "Rückstichheftung",
+          "Drahtheftung",
+          "Klammerheftung",
+          "Geheftet"
         ]
       },
       "semanticSource": [
@@ -21168,7 +21184,10 @@
           "Prosessfarger",
           "4-fargers trykk",
           "4 farge",
-          "4 farger"
+          "4 farger",
+          "Fullfargetrykk",
+          "Fullfarget",
+          "Firefarge"
         ],
         "nl": [
           "Vierkleurendruk",
@@ -21180,21 +21199,27 @@
           "4c",
           "Prozessfarben",
           "Skalenfarben",
-          "Euroskala"
+          "Euroskala",
+          "Vollfarbe",
+          "Vollfarbig"
         ],
         "sv": [
           "Fyrfärgstryck",
           "Fyrfärg",
           "4-färg",
           "4 färger",
-          "Processfärger"
+          "Processfärger",
+          "Fullfärg",
+          "Fullfärgstryck"
         ],
         "da": [
           "Firefarvetryk",
           "Firefarve",
           "4-farve",
           "4 farver",
-          "Processfarver"
+          "Processfarver",
+          "Fuldfarve",
+          "Fuldfarvetryk"
         ],
         "es": [
           "Cuatricromía",
@@ -21264,7 +21289,7 @@
         "colorModel": "subtractive"
       },
       "created": "2026-05-19T20:00:00Z",
-      "modified": "2026-09-23T06:18:57Z",
+      "modified": "2026-10-12T12:05:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "notation": "P:FT§CMYK",
       "elementType": "value",

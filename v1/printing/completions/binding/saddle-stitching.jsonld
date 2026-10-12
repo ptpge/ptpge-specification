@@ -40,7 +40,7 @@
   "group": "completions",
   "broader": "https://ptpge.org/v1/printing/completions/binding",
   "created": "2026-05-30T00:00:00Z",
-  "modified": "2026-09-23T06:12:20Z",
+  "modified": "2026-10-12T12:05:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "pageCountConstraint": "multipleOf(4)",
   "pageCountRange": {
@@ -58,10 +58,15 @@
     "nb": [
       "Stiftet",
       "Stifting",
-      "Midtstiftet"
+      "Midtstiftet",
+      "Ryggstiftet",
+      "Ryggstifting",
+      "Ryggstift"
     ],
     "da": [
-      "Ryghæftning"
+      "Ryghæftning",
+      "Ryghæftet",
+      "Hæftet med klammer"
     ],
     "nl": [
       "nieten",
@@ -85,6 +90,17 @@
       "सेंटर स्टेपल",
       "पिनिंग",
       "स्टेपल बाइंडिंग"
+    ],
+    "sv": [
+      "Klammerhäftad",
+      "Klammerhäftning",
+      "Häftad"
+    ],
+    "de": [
+      "Rückstichheftung",
+      "Drahtheftung",
+      "Klammerheftung",
+      "Geheftet"
     ]
   },
   "semanticSource": [
