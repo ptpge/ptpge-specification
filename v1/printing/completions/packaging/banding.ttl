@@ -51,15 +51,7 @@
     ptpge:elementType "value" ;
     ptpge:group "completions" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.33 · p.132",
-                "§5.6.4 · p.114" ;
-            ptpge:mappingRow "crosswalk row 46" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "Bundling",
-                "Strapping" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§5.6.25 · p.126",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§5.6.25 · p.126",
                 "§5.6.28 · p.128",
                 "§5.6.3 · p.113",
                 "§5.6.39 · p.135",
@@ -71,6 +63,14 @@
                 "Palletizing",
                 "Shrinking",
                 "Wrapping" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§5.6.33 · p.132",
+                "§5.6.4 · p.114" ;
+            ptpge:mappingRow "crosswalk row 46" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "Bundling",
+                "Strapping" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;

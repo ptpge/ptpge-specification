@@ -509,7 +509,7 @@
           "type": "object",
           "minProperties": 1,
           "propertyNames": {
-            "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*$"
+            "pattern": "^https://ptpge\\.org/v1/variables/[a-z0-9][a-z0-9/-]*(@[a-z0-9][a-z0-9-]*)?$"
           },
           "additionalProperties": {
             "type": "array",
@@ -519,7 +519,7 @@
               "$ref": "#/$defs/termUri"
             }
           },
-          "description": "Per variable of the product's template, the values the printer accepts — the template's envelope narrowed to this printer. Keys are variable URIs, values lists of term URIs."
+          "description": "Per variable of the product's template, the values the printer accepts — the template's envelope narrowed to this printer. Keys are variable URIs, values lists of term URIs. A key may carry a part scope, <variable>@<part> (SD-0102, the same notation as the ptpge-cfs/1 fingerprint): the values accepted for that part of the product — substrate-weight@cover and substrate-weight@inside for a booklet whose cover and inside pages are different sheets. Only the substrate variables take a part scope, and the part must be one the product's setup model declares (multi-page: cover, inside). A key without scope covers the whole product; a scoped key, where present, replaces it for that part."
         },
         "colour": {
           "type": "array",

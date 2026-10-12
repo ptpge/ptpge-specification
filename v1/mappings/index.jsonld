@@ -3,7 +3,7 @@
   "id": "https://ptpge.org/v1/mappings",
   "type": "MappingsCatalog",
   "description": "Cross-vocabulary mapping tables. Each entry below points to a JSON file giving the relationship between PTPGE terms and another printing-industry vocabulary. Use these to integrate PTPGE with existing systems that already speak another standard.",
-  "generated": "2026-10-12T10:59:47+0200",
+  "generated": "2026-10-12T11:18:33+0200",
   "items": [
     {
       "id": "https://ptpge.org/v1/mappings/upt",

@@ -6,7 +6,7 @@
 <https://ptpge.org/v1/schemas/vendor-declaration/1> a ptpge:Schema ;
     dcterms:created "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-10T18:50:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-12T11:40:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/schemas> ;
     skos:definition "What a printer is and can make, in the vocabulary: identity, production capability, the products it offers. Written by the printer or its MIS; carries the printer's identity (/v1/vendors/…)."@en,
         "Hva et trykkeri er og kan lage, i vokabularet: identitet, produksjonskapasitet, produktene det tilbyr. Skrives av trykkeriet eller dets MIS; bærer trykkeriets identitet (/v1/vendors/…)."@nb ;
