@@ -22,14 +22,15 @@
   "inScheme": "https://ptpge.org/v1/scheme",
   "broader": "https://ptpge.org/v1/variables",
   "created": "2026-06-17T10:05:27Z",
-  "modified": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-12T15:00:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "notation": "VAR:FT",
   "creator": "https://ptpge.org/contributors/ptpge",
   "narrower": [
     "https://ptpge.org/v1/variables/features/color-mode",
     "https://ptpge.org/v1/variables/features/embellishment",
-    "https://ptpge.org/v1/variables/features/surface-finish"
+    "https://ptpge.org/v1/variables/features/surface-finish",
+    "https://ptpge.org/v1/variables/features/spot-ink"
   ],
   "definition": {
     "en": "Feature configuration variables — the visual and tactile feature axes a printed product can be configured along: color mode, surface finish and embellishment.",

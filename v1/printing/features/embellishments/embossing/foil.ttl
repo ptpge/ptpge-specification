@@ -52,7 +52,13 @@
     ptpge:group "features" ;
     ptpge:hasProperty [ ] ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.6 · p.74",
                 "§5.6.12 · p.118",
                 "§6.32 · p.197" ;
             ptpge:mappingRow "crosswalk row 27" ;
@@ -60,12 +66,6 @@
             ptpge:sourceElement "Embossing",
                 "EmbossingIntent",
                 "EmbossingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.6 · p.74" ;
-            ptpge:mappingRow "crosswalk row 25" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "EmbossingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;

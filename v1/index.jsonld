@@ -8,7 +8,7 @@
   "dataVersion": "2026-10-12",
   "termCount": 726,
   "deprecatedCount": 81,
-  "variableCount": 35,
+  "variableCount": 36,
   "schemaCount": 5,
   "supplierCount": 14,
   "vendorCount": 1,
@@ -60,7 +60,7 @@
     "byGroup": {
       "completions": 49,
       "configurations": 185,
-      "features": 41,
+      "features": 42,
       "management": 55,
       "standards": 113,
       "substrates": 87,

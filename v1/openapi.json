@@ -3,7 +3,7 @@
   "info": {
     "title": "PTPGE API",
     "version": "2026-10-12",
-    "summary": "The open, semantic vocabulary for print — 873 terms with permanent URIs.",
+    "summary": "The open, semantic vocabulary for print — 874 terms with permanent URIs.",
     "description": "REST surface of the PTPGE specification (Periodic Table of Print & Graphic Elements). Every term is a permanent, dereferenceable URI returning JSON-LD/SKOS; the same vocabulary backs the MCP server for AI agents (mcp.ptpge.org) and the ptpge-cfs/1 Configuration Fingerprint.\n\nContent negotiation: extensionless URLs return `application/ld+json` by default, `text/turtle` when the Accept header asks for it, and an HTML page in browsers. Append `?format=json` to receive the identical bytes with `Content-Type: application/json` (for clients that choke on ld+json). All endpoints are read-only (GET).",
     "license": {
       "name": "CC BY 4.0 (term data)",

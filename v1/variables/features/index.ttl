@@ -7,7 +7,7 @@
     dcterms:created "2026-06-17T10:05:27+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-12T15:00:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/variables> ;
     skos:definition "Karakteristik-konfigurationsvariabler — de visuelle og taktile akser et trykt produkt kan konfigureres langs: farvetilstand, overfladefinish og forædling."@da,
         "Merkmal-Konfigurationsvariablen — die Achsen visueller und haptischer Merkmale, entlang derer ein Druckprodukt konfiguriert werden kann: Farbmodus, Oberflächenveredelung und Zusatzveredelung."@de,
@@ -24,6 +24,7 @@
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/variables/features/color-mode>,
         <https://ptpge.org/v1/variables/features/embellishment>,
+        <https://ptpge.org/v1/variables/features/spot-ink>,
         <https://ptpge.org/v1/variables/features/surface-finish> ;
     skos:notation "VAR:FT" ;
     skos:prefLabel "Karakteristika"@da,

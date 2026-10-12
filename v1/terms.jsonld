@@ -74078,14 +74078,15 @@
       "inScheme": "https://ptpge.org/v1/scheme",
       "broader": "https://ptpge.org/v1/variables",
       "created": "2026-06-17T10:05:27Z",
-      "modified": "2026-10-06T19:16:59Z",
+      "modified": "2026-10-12T15:00:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "notation": "VAR:FT",
       "creator": "https://ptpge.org/contributors/ptpge",
       "narrower": [
         "https://ptpge.org/v1/variables/features/color-mode",
         "https://ptpge.org/v1/variables/features/embellishment",
-        "https://ptpge.org/v1/variables/features/surface-finish"
+        "https://ptpge.org/v1/variables/features/surface-finish",
+        "https://ptpge.org/v1/variables/features/spot-ink"
       ],
       "definition": {
         "en": "Feature configuration variables — the visual and tactile feature axes a printed product can be configured along: color mode, surface finish and embellishment.",
@@ -74274,6 +74275,132 @@
           "फ़ॉइल और एम्बॉसिंग"
         ]
       }
+    },
+    {
+      "@context": "https://ptpge.org/v1/context.jsonld",
+      "id": "https://ptpge.org/v1/variables/features/spot-ink",
+      "type": "skos:Concept",
+      "version": "2026-10-12",
+      "status": "proposed",
+      "notation": "VAR:FT§SPOT-INK",
+      "level": "element",
+      "elementType": "variable",
+      "label": {
+        "en": "Spot Ink",
+        "nb": "Spotfarge (navngitt)",
+        "de": "Sonderfarbe (benannt)",
+        "sv": "Dekorfärg (namngiven)",
+        "da": "Staffagefarve (navngivet)",
+        "nl": "Steunkleur (benoemd)",
+        "fi": "Spottiväri (nimetty)",
+        "is": "Sérlitur (nefndur)",
+        "fr": "Ton direct (nommé)",
+        "pl": "Kolor dodatkowy (nazwany)",
+        "es": "Tinta directa (nombrada)",
+        "ja": "特色（指定）",
+        "zh-Hans": "专色（指定）",
+        "pt": "Cor direta (nomeada)",
+        "hi": "स्पॉट स्याही (नामित)"
+      },
+      "altLabels": {
+        "en": [
+          "Named ink",
+          "Pantone number",
+          "PMS colour",
+          "Spot colour reference",
+          "HKS number"
+        ],
+        "nb": [
+          "Pantone-nummer",
+          "PMS-farge",
+          "Navngitt spotfarge"
+        ],
+        "de": [
+          "Pantone-Nummer",
+          "HKS-Nummer",
+          "Schmuckfarbe"
+        ],
+        "sv": [
+          "Pantone-nummer",
+          "PMS-färg"
+        ],
+        "da": [
+          "Pantone-nummer",
+          "PMS-farve"
+        ],
+        "nl": [
+          "Pantone-nummer",
+          "PMS-kleur"
+        ],
+        "fr": [
+          "Numéro Pantone"
+        ],
+        "es": [
+          "Número Pantone"
+        ],
+        "pl": [
+          "Numer Pantone"
+        ],
+        "ja": [
+          "パントン番号",
+          "PANTONE 指定"
+        ],
+        "zh-Hans": [
+          "潘通色号"
+        ],
+        "pt": [
+          "Número Pantone"
+        ]
+      },
+      "definition": {
+        "en": "Configurable axis: the named ink behind each spot-color layer, as a code under a colour matching system — Pantone 300 C, HKS 43 K, RAL 5015. The value is the matching-system term followed by the code (…/pantone-matching-system/300-c); the code is checked for form, never against a list, because the libraries are the systems' own. One value per spot-color layer on the same face (SD-0104).",
+        "nb": "Konfigurerbar akse: den navngitte blekkfargen bak hvert spotfargelag, som en kode under et fargematchingsystem — Pantone 300 C, HKS 43 K, RAL 5015. Verdien er systemtermen fulgt av koden (…/pantone-matching-system/300-c); koden sjekkes på form, aldri mot en liste, for bibliotekene er systemenes egne. Én verdi per spotfargelag på samme flate (SD-0104).",
+        "de": "Konfigurierbare Achse: die benannte Farbe hinter jeder Sonderfarbenebene, als Code unter einem Farbsystem — Pantone 300 C, HKS 43 K, RAL 5015. Der Wert ist der Systembegriff gefolgt vom Code; der Code wird auf Form geprüft, nie gegen eine Liste. Ein Wert je Sonderfarbenebene auf derselben Fläche (SD-0104).",
+        "sv": "Konfigurerbar axel: den namngivna färgen bakom varje dekorfärgslager, som en kod under ett färgmatchningssystem — Pantone 300 C, HKS 43 K, RAL 5015. Värdet är systemtermen följd av koden; koden kontrolleras på form, aldrig mot en lista. Ett värde per dekorfärgslager på samma yta (SD-0104).",
+        "da": "Konfigurerbar akse: den navngivne farve bag hvert staffagefarvelag, som en kode under et farvematchingsystem — Pantone 300 C, HKS 43 K, RAL 5015. Værdien er systemtermen efterfulgt af koden; koden kontrolleres på form, aldrig mod en liste. Én værdi pr. staffagefarvelag på samme flade (SD-0104).",
+        "nl": "Configureerbare as: de benoemde inkt achter elke steunkleurlaag, als code onder een kleurmatchingsysteem — Pantone 300 C, HKS 43 K, RAL 5015. De waarde is de systeemterm gevolgd door de code; de code wordt op vorm gecontroleerd, nooit tegen een lijst. Eén waarde per steunkleurlaag op hetzelfde vlak (SD-0104).",
+        "fi": "Konfiguroitava akseli: nimetty väri kunkin spottiväritason takana, koodina värijärjestelmän alla — Pantone 300 C, HKS 43 K, RAL 5015. Arvo on järjestelmätermi ja koodi; koodi tarkistetaan muodoltaan, ei listaa vasten. Yksi arvo per spottiväritaso samalla pinnalla (SD-0104).",
+        "is": "Stillanlegur ás: nefndur litur á bak við hvert sérlitalag, sem kóði undir litakerfi — Pantone 300 C, HKS 43 K, RAL 5015. Gildið er kerfishugtakið og kóðinn; kóðinn er athugaður á formi, aldrei gegn lista. Eitt gildi á hvert sérlitalag á sama fleti (SD-0104).",
+        "fr": "Axe configurable : l’encre nommée derrière chaque couche de ton direct, comme code sous un système de référence couleur — Pantone 300 C, HKS 43 K, RAL 5015. La valeur est le terme du système suivi du code ; le code est vérifié sur sa forme, jamais contre une liste. Une valeur par couche de ton direct sur la même face (SD-0104).",
+        "pl": "Konfigurowalna oś: nazwana farba za każdą warstwą koloru dodatkowego, jako kod w systemie dopasowania kolorów — Pantone 300 C, HKS 43 K, RAL 5015. Wartość to termin systemu i kod; kod sprawdzany jest pod kątem formy, nigdy względem listy. Jedna wartość na warstwę koloru dodatkowego na tej samej powierzchni (SD-0104).",
+        "es": "Eje configurable: la tinta nombrada detrás de cada capa de tinta directa, como código bajo un sistema de referencia de color — Pantone 300 C, HKS 43 K, RAL 5015. El valor es el término del sistema seguido del código; el código se comprueba por su forma, nunca contra una lista. Un valor por capa de tinta directa en la misma cara (SD-0104).",
+        "ja": "設定可能な軸：各特色レイヤーの背後にある指定インキを、カラーマッチングシステム下のコードとして — Pantone 300 C、HKS 43 K、RAL 5015。値はシステム用語とコード；コードは形式のみ検証され、リストとは照合されない。同一面の特色レイヤーごとに1値（SD-0104）。",
+        "zh-Hans": "可配置轴：每个专色层背后的指定油墨，以配色系统下的色号表示 — Pantone 300 C、HKS 43 K、RAL 5015。值为系统术语加色号；色号只检查格式，不与列表比对。同一面上每个专色层一个值（SD-0104）。",
+        "pt": "Eixo configurável: a tinta nomeada por trás de cada camada de cor direta, como código sob um sistema de correspondência de cor — Pantone 300 C, HKS 43 K, RAL 5015. O valor é o termo do sistema seguido do código; o código é verificado na forma, nunca contra uma lista. Um valor por camada de cor direta na mesma face (SD-0104).",
+        "hi": "कॉन्फ़िगर करने योग्य अक्ष: प्रत्येक स्पॉट-रंग परत के पीछे नामित स्याही, रंग मिलान प्रणाली के अंतर्गत कोड के रूप में — Pantone 300 C, HKS 43 K, RAL 5015। मान प्रणाली शब्द और कोड है; कोड की केवल बनावट जाँची जाती है, सूची से नहीं। एक ही सतह पर प्रति स्पॉट-रंग परत एक मान (SD-0104)।"
+      },
+      "question": {
+        "en": "Which spot ink? (e.g. Pantone 300 C)",
+        "nb": "Hvilken spotfarge? (f.eks. Pantone 300 C)",
+        "de": "Welche Sonderfarbe? (z. B. Pantone 300 C)",
+        "es": "¿Qué tinta directa? (p. ej. Pantone 300 C)",
+        "ja": "どの特色ですか？（例：Pantone 300 C）",
+        "zh-Hans": "哪种专色？（例如 Pantone 300 C）",
+        "sv": "Vilken dekorfärg? (t.ex. Pantone 300 C)",
+        "da": "Hvilken staffagefarve? (fx Pantone 300 C)",
+        "nl": "Welke steunkleur? (bv. Pantone 300 C)",
+        "pl": "Który kolor dodatkowy? (np. Pantone 300 C)",
+        "pt": "Que cor direta? (p. ex. Pantone 300 C)",
+        "hi": "कौन-सी स्पॉट स्याही? (जैसे Pantone 300 C)",
+        "fi": "Mikä spottiväri? (esim. Pantone 300 C)",
+        "is": "Hvaða sérlitur? (t.d. Pantone 300 C)",
+        "fr": "Quel ton direct ? (p. ex. Pantone 300 C)"
+      },
+      "datatype": "code",
+      "cardinality": "multiple",
+      "scope": "surface",
+      "valueDomain": "https://ptpge.org/v1/printing/standards/color-systems/color-matching-systems",
+      "codePattern": "^[a-z0-9][a-z0-9-]*$",
+      "scopeNote": {
+        "en": "Written as <matching-system term>/<code>, the code lower-cased with spaces as hyphens: Pantone 300 C → …/pantone-matching-system/300-c; HKS 43 K → …/hks/43-k; RAL 5015 → …/ral/5015. The number of spot-ink values on a face must equal the number of spot-color layers bound there; the specification sets no upper limit — the press does (vendor-declaration/1 inkStations).",
+        "nb": "Skrives som <matchingsystem-term>/<kode>, koden i små bokstaver med mellomrom som bindestrek: Pantone 300 C → …/pantone-matching-system/300-c; HKS 43 K → …/hks/43-k; RAL 5015 → …/ral/5015. Antall spot-ink-verdier på en flate må være lik antall spotfargelag bundet der; spesifikasjonen setter ingen øvre grense — det gjør pressen (vendor-declaration/1 inkStations)."
+      },
+      "inScheme": "https://ptpge.org/v1/scheme",
+      "broader": "https://ptpge.org/v1/variables/features",
+      "created": "2026-10-12T15:00:00Z",
+      "modified": "2026-10-12T15:00:00Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": "https://ptpge.org/contributors/ptpge"
     },
     {
       "@context": "https://ptpge.org/v1/context.jsonld",
