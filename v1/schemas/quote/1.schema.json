@@ -21,7 +21,16 @@
       }
     },
     "configuration": { "$ref": "https://ptpge.org/v1/schemas/request/1.schema.json#/$defs/configuration" },
-    "fingerprint":   { "$ref": "https://ptpge.org/v1/schemas/request/1.schema.json#/$defs/fingerprint" },
+    "fingerprint":   {
+      "type": "object", "additionalProperties": false, "required": ["algorithm", "spec", "request"],
+      "description": "The identities this quote answers and mints (ptpge-cfs/1, SD-0108): spec and request repeat the request's; offer = request plus variables/order/vendor (this printer's identity) — one per vendor, computed by the printer, kept by the two parties.",
+      "properties": {
+        "algorithm": { "const": "ptpge-cfs/1" },
+        "spec":      { "$ref": "#/$defs/sha256" },
+        "request":   { "$ref": "#/$defs/sha256" },
+        "offer":     { "$ref": "#/$defs/sha256" }
+      }
+    },
     "quantity":      { "type": "integer", "minimum": 1 },
     "price":         { "$ref": "#/$defs/price" },
     "alternatives":  { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["quantity", "price"], "properties": { "quantity": { "type": "integer", "minimum": 1 }, "price": { "$ref": "#/$defs/price" } } }, "description": "The same configuration at other run lengths." },

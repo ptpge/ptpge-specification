@@ -68,11 +68,11 @@
 
     "fingerprint": {
       "type": "object", "additionalProperties": false, "required": ["algorithm", "spec"],
-      "description": "The identity of the configuration, computed with ptpge-cfs/1: spec = the manufacturable artifact; offer = spec plus the commercial cluster (quantity, lead time, delivery method, incoterm). Resolves at https://ptpge.org/f/<spec>.",
+      "description": "The identity of the configuration, computed with ptpge-cfs/1 (SD-0108): spec = the manufacturable artifact, public with content at https://ptpge.org/f/<spec>; request = spec plus the commercial cluster (quantity, lead time, delivery method, incoterm), never the vendor — the key every quote repeats. Until 2026-10-14 the second profile was named offer; an offer is now request plus the vendor and is minted by the quote.",
       "properties": {
         "algorithm": { "const": "ptpge-cfs/1" },
         "spec":      { "$ref": "#/$defs/sha256" },
-        "offer":     { "$ref": "#/$defs/sha256" }
+        "request":   { "$ref": "#/$defs/sha256" }
       }
     },
 
