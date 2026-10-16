@@ -4225,7 +4225,7 @@
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "PVC-banner"@da,
         "banner"@da,
         "stofbanner"@da,
@@ -4331,6 +4331,7 @@
         <https://ptpge.org/v1/printing/features/colors/none>,
         <https://ptpge.org/v1/printing/features/colors/white> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/finishing/banner-finishing>,
         <https://ptpge.org/v1/variables/production/technology>,
         <https://ptpge.org/v1/variables/substrate/substrate-coating>,
         <https://ptpge.org/v1/variables/substrate/substrate-color>,
@@ -4662,7 +4663,7 @@
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "hæfte"@da,
         "hæftet brochure"@da,
         "klammehæftet"@da,
@@ -5766,7 +5767,7 @@
 <https://ptpge.org/v1/ordering/products/calendars> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "almanak"@da,
         "bordkalender"@da,
         "kalender"@da,
@@ -7747,7 +7748,7 @@
 <https://ptpge.org/v1/ordering/products/flags> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "beachflag"@da,
         "beachflags"@da,
         "dråbeflag"@da,
@@ -7861,6 +7862,7 @@
         <https://ptpge.org/v1/printing/features/colors/none>,
         <https://ptpge.org/v1/printing/features/colors/white> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/finishing/banner-finishing>,
         <https://ptpge.org/v1/variables/production/technology>,
         <https://ptpge.org/v1/variables/substrate/substrate-type> ;
     ptpge:requiredVariables <https://ptpge.org/v1/variables/configuration/format>,
@@ -9498,7 +9500,7 @@
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "NCR-blok"@da,
         "dublet-blok"@da,
         "gennemslagspapir"@da,
@@ -10013,7 +10015,7 @@
 <https://ptpge.org/v1/ordering/products/notepads> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "blok"@da,
         "notesblok"@da,
         "reklameblok"@da,
@@ -11083,7 +11085,7 @@
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "plakat"@da,
         "postere"@da,
         "reklameplakat"@da,
@@ -11288,7 +11290,7 @@
 <https://ptpge.org/v1/ordering/products/rollups> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "oprullelig banner"@da,
         "roll-up"@da,
         "rollup"@da,
@@ -11387,6 +11389,7 @@
         <https://ptpge.org/v1/printing/features/colors/none>,
         <https://ptpge.org/v1/printing/features/colors/white> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/finishing/banner-finishing>,
         <https://ptpge.org/v1/variables/production/technology>,
         <https://ptpge.org/v1/variables/substrate/substrate-coating>,
         <https://ptpge.org/v1/variables/substrate/substrate-color>,
@@ -12109,7 +12112,7 @@
 <https://ptpge.org/v1/ordering/products/tear-off-pads> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "afrivningsblok"@da,
         "afrivningsplakat"@da,
         "kuponblok"@da,
@@ -13216,6 +13219,199 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
+<https://ptpge.org/v1/printing/completions/banner-finishing/eyelets> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Øjer isat"@da,
+        "Geöst"@de,
+        "Metallösen"@de,
+        "Eyeleted"@en,
+        "Grommets"@en,
+        "Metal eyelets"@en,
+        "Maljert"@nb,
+        "Øyer"@nb,
+        "Nestels"@nl,
+        "Ogen"@nl,
+        "Öljetterad"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "Metalringe sat gennem sømmen med mellemrum, så banneret kan bindes eller hægtes op; afstanden angives i ordren."@da,
+        "Metallringe, die in Abständen durch den Saum gesetzt werden, damit das Banner gebunden oder eingehängt werden kann; der Abstand steht im Auftrag."@de,
+        "Metal rings set through the hem at intervals so the banner can be tied or hooked; spacing is stated on the order."@en,
+        "Anillas metálicas colocadas a intervalos en el dobladillo para atar o colgar el banner; la separación se indica en el pedido."@es,
+        "हेम में निश्चित दूरी पर लगे धातु के छल्ले ताकि बैनर बांधा या टांगा जा सके; दूरी ऑर्डर में बताई जाती है।"@hi,
+        "バナーを結んだり引っ掛けたりできるよう、ヘムに一定間隔で打つ金属リング。間隔は注文で指定。"@ja,
+        "Metallringer satt gjennom falden med jevne mellomrom så banneret kan bindes eller hektes opp; avstanden oppgis i bestillingen."@nb,
+        "Metalen ringen op afstand door de zoom gezet zodat de banner kan worden vastgebonden of opgehangen; de afstand staat in de order."@nl,
+        "Metalowe pierścienie osadzone w obszyciu w odstępach, aby baner można było przywiązać lub zawiesić; rozstaw podaje zamówienie."@pl,
+        "Anéis metálicos aplicados na bainha a intervalos para atar ou pendurar o banner; o espaçamento consta da encomenda."@pt,
+        "Metallringar satta genom fållen med jämna mellanrum så att bannern kan knytas eller hakas upp; avståndet anges i ordern."@sv,
+        "按间隔穿过包边安装的金属环，便于系绳或挂钩；间距在订单中说明。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§EYELETS" ;
+    skos:prefLabel "Øjer"@da,
+        "Ösen"@de,
+        "Eyelets"@en,
+        "Ojales"@es,
+        "आईलेट"@hi,
+        "ハトメ"@ja,
+        "Maljer"@nb,
+        "Ringen"@nl,
+        "Oczka"@pl,
+        "Ilhós"@pt,
+        "Öljetter"@sv,
+        "扣眼"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing/hemming> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Sømmet"@da,
+        "Gesäumt"@de,
+        "Saum"@de,
+        "Folded edge"@en,
+        "Hem"@en,
+        "Hemmed"@en,
+        "Fald"@nb,
+        "Faldet"@nb,
+        "Gezoomd"@nl,
+        "Zoom"@nl,
+        "Fållad"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "Kanten foldes ind og fastgøres (syet, limet eller tapet), så banneret tåler øjer og træk uden at rive."@da,
+        "Die Kante wird umgeschlagen und fixiert (genäht, geklebt oder getapet), damit das Banner Ösen und Zug ohne Einreißen trägt."@de,
+        "The edge is folded back and fixed (sewn, glued or taped) so the banner can carry eyelets and tension without tearing."@en,
+        "El borde se dobla y se fija (cosido, pegado o con cinta) para que el banner soporte ojales y tensión sin rasgarse."@es,
+        "किनारे को मोड़कर (सिलाई, गोंद या टेप से) फिक्स किया जाता है ताकि बैनर आईलेट और खिंचाव सह सके।"@hi,
+        "端を折り返して固定（縫製・接着・テープ）し、ハトメや張力で破れないようにする。"@ja,
+        "Kanten brettes inn og festes (sydd, limt eller tapet) så banneret tåler maljer og strekk uten å rives."@nb,
+        "De rand wordt omgevouwen en vastgezet (genaaid, gelijmd of getapet) zodat de banner ringen en spanning verdraagt zonder te scheuren."@nl,
+        "Krawędź jest zawinięta i utrwalona (szyta, klejona lub taśmą), aby baner wytrzymał oczka i naciąg bez rozdarcia."@pl,
+        "A borda é dobrada e fixada (costurada, colada ou com fita) para que o banner suporte ilhós e tensão sem rasgar."@pt,
+        "Kanten viks in och fixeras (sydd, limmad eller tejpad) så att bannern tål öljetter och spänning utan att rivas."@sv,
+        "将边缘折回并固定（缝合、粘合或贴带），使横幅可承受扣眼与张力而不撕裂。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§HEMMING" ;
+    skos:prefLabel "Sømning"@da,
+        "Säumen"@de,
+        "Hemming"@en,
+        "Dobladillo"@es,
+        "हेमिंग"@hi,
+        "ヘム加工"@ja,
+        "Falding"@nb,
+        "Zomen"@nl,
+        "Obszycie"@pl,
+        "Bainha"@pt,
+        "Fållning"@sv,
+        "包边"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing/pole-pocket> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Stangkanal"@da,
+        "Hohlsaum"@de,
+        "Stangentasche"@de,
+        "Pole hem"@en,
+        "Pole sleeve"@en,
+        "Rod pocket"@en,
+        "Sleeve"@en,
+        "Lomme"@nb,
+        "Stanglomme"@nb,
+        "Koker"@nl,
+        "Tunnel"@nl,
+        "Stångkanal"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "En lomme syet eller svejset langs en kant, så en stang, et rør eller en wire kan trækkes igennem; typisk for flag, hængende bannere og roll-ups."@da,
+        "Ein entlang einer Kante genähter oder geschweißter Tunnel, durch den eine Stange, ein Rohr oder ein Seil geführt wird; typisch für Fahnen, Hängebanner und Roll-ups."@de,
+        "A sleeve sewn or welded along an edge so a pole, rod or cable can be threaded through; typical for flags, hanging banners and roll-ups."@en,
+        "Una vaina cosida o soldada a lo largo de un borde para pasar una barra, varilla o cable; típica de banderas, banners colgantes y roll-ups."@es,
+        "किनारे के साथ सिली या वेल्ड की गई आस्तीन जिसमें पोल, छड़ या केबल डाली जा सके; झंडों, लटकते बैनरों और रोल-अप में आम।"@hi,
+        "ポール・棒・ワイヤーを通せるよう端に沿って縫製または溶着した袋状の部分。旗、吊りバナー、ロールアップで典型的。"@ja,
+        "En lomme sydd eller sveiset langs en kant så en stang, et rør eller en wire kan tres gjennom; typisk for flagg, hengende bannere og roll-ups."@nb,
+        "Een tunnel genaaid of gelast langs een rand zodat een stok, buis of kabel erdoor kan; typisch voor vlaggen, hangende banners en roll-ups."@nl,
+        "Tunel wszyty lub zgrzany wzdłuż krawędzi, przez który przechodzi drążek, rurka lub linka; typowy dla flag, banerów wiszących i roll-upów."@pl,
+        "Uma bolsa costurada ou soldada ao longo de uma borda para passar um varão, haste ou cabo; típica de bandeiras, banners suspensos e roll-ups."@pt,
+        "En ficka sydd eller svetsad längs en kant så att en stång, ett rör eller en vajer kan träs igenom; typisk för flaggor, hängande banners och roll-ups."@sv,
+        "沿边缘缝制或焊接的套管，可穿入杆、棒或钢索；常见于旗帜、悬挂横幅与易拉宝。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§POLE-POCKET" ;
+    skos:prefLabel "Stanglomme"@da,
+        "Hohlsaum"@de,
+        "Pole Pocket"@en,
+        "Vaina para barra"@es,
+        "पोल पॉकेट"@hi,
+        "ポールポケット"@ja,
+        "Stanglomme"@nb,
+        "Tunnelzoom"@nl,
+        "Tunel na rurkę"@pl,
+        "Bolsa para varão"@pt,
+        "Stångficka"@sv,
+        "穿杆袋"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing/welding> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Svejset"@da,
+        "Geschweißt"@de,
+        "HF-geschweißt"@de,
+        "HF-welded"@en,
+        "Heat-welded"@en,
+        "Welded"@en,
+        "Welded seam"@en,
+        "Sveis"@nb,
+        "Sveiset"@nb,
+        "Gelast"@nl,
+        "Svetsad"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "Kanter eller baner samlet med varme- eller højfrekvenssvejsning i stedet for syning – standardsømmen på PVC-bannere og samlingen, der gør flere baner til ét stykke."@da,
+        "Kanten oder Bahnen werden durch Heiß- oder Hochfrequenzschweißen statt Nähen verbunden – der Standardsaum bei PVC-Bannern und die Naht, die Bahnen zu einem großen Stück fügt."@de,
+        "Edges or panels joined by heat or high-frequency welding instead of sewing — the standard hem on PVC banners and the seam that joins widths into one large piece."@en,
+        "Bordes o paños unidos por soldadura térmica o de alta frecuencia en lugar de costura — el dobladillo estándar en banners de PVC y la unión de anchos en una sola pieza."@es,
+        "सिलाई के बजाय हीट या हाई-फ़्रीक्वेंसी वेल्डिंग से किनारे या पैनल जोड़ना — PVC बैनर का मानक हेम और कई चौड़ाइयों को एक टुकड़ा बनाने वाला जोड़।"@hi,
+        "縫製ではなく熱または高周波溶着で端やパネルを接合する — PVCバナーの標準的なヘムと、複数幅を1枚に接ぐ継ぎ目。"@ja,
+        "Kanter eller baner sammenføyd med varme- eller høyfrekvenssveising i stedet for søm – standardfalden på PVC-bannere og skjøten som gjør flere baner til ett stort stykke."@nb,
+        "Randen of banen verbonden door warmte- of hoogfrequentlassen in plaats van naaien – de standaardzoom op pvc-banners en de naad die banen tot één groot stuk voegt."@nl,
+        "Krawędzie lub bryty łączone zgrzewaniem termicznym lub wysokoczęstotliwościowym zamiast szycia – standardowe obszycie banerów PVC i łączenie brytów w jedną całość."@pl,
+        "Bordas ou painéis unidos por soldadura térmica ou de alta frequência em vez de costura — a bainha padrão em banners de PVC e a emenda que junta larguras numa só peça."@pt,
+        "Kanter eller våder sammanfogade med värme- eller högfrekvenssvetsning i stället för söm – standardfållen på PVC-banners och skarven som gör flera våder till ett stycke."@sv,
+        "以热焊或高频焊接而非缝合连接边缘或幅面——PVC横幅的标准包边，以及将多幅拼成一整幅的接缝。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§WELDING" ;
+    skos:prefLabel "Svejsning"@da,
+        "Schweißen"@de,
+        "Welding"@en,
+        "Soldadura"@es,
+        "वेल्डिंग"@hi,
+        "溶着"@ja,
+        "Sveising"@nb,
+        "Lassen"@nl,
+        "Zgrzewanie"@pl,
+        "Soldadura"@pt,
+        "Svetsning"@sv,
+        "焊接"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+
 <https://ptpge.org/v1/printing/completions/binding/corner-stapling> a skos:Concept ;
     dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -14159,6 +14355,68 @@
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/drilling> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Boret"@da,
+        "Hulning"@da,
+        "2-fach gelocht"@de,
+        "4-fach gelocht"@de,
+        "Gebohrt"@de,
+        "Lochung"@de,
+        "2-hole"@en,
+        "4-hole"@en,
+        "Drilled"@en,
+        "Hole drilling"@en,
+        "Hole punching"@en,
+        "2 hull"@nb,
+        "4 hull"@nb,
+        "Boret"@nb,
+        "Hulling"@nb,
+        "Geboord"@nl,
+        "Perforatie voor ringband"@nl,
+        "2 otwory"@pl,
+        "4 otwory"@pl,
+        "Dziurkowanie"@pl,
+        "2 furos"@pt,
+        "4 furos"@pt,
+        "Furado"@pt,
+        "Borrad"@sv,
+        "Hålning"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Runde huller boret gennem en stak ark eller et færdigt produkt – typisk 2 eller 4 huller til ringbind, eller ét hul til ophæng. Antal og placering angives i ordren, ikke i termen."@da,
+        "Runde Löcher, die durch einen Stapel Bogen oder ein fertiges Produkt gebohrt werden – typisch 2 oder 4 Löcher für Ringordner oder ein Loch zum Aufhängen. Anzahl und Position stehen im Auftrag, nicht im Begriff."@de,
+        "Round holes drilled through a stack of sheets or a finished piece — typically 2 or 4 holes for ring binders, or one hole for hanging. The number and position of holes are stated on the order, not in the term."@en,
+        "Agujeros redondos taladrados a través de una pila de hojas o de una pieza acabada — típicamente 2 o 4 para archivadores, o uno para colgar. Número y posición se indican en el pedido, no en el término."@es,
+        "शीटों के ढेर या तैयार उत्पाद में गोल छेद — आम तौर पर रिंग बाइंडर के लिए 2 या 4 छेद, या टांगने के लिए एक। संख्या और स्थिति ऑर्डर में बताई जाती है, टर्म में नहीं।"@hi,
+        "重ねた用紙や完成品に丸穴をあける加工 — リングバインダー用の2穴・4穴、または吊り下げ用の1穴が典型。穴数と位置は注文で指定し、用語には含めない。"@ja,
+        "Runde hull boret gjennom en stabel ark eller et ferdig produkt – typisk 2 eller 4 hull til ringperm, eller ett hull til oppheng. Antall og plassering oppgis i bestillingen, ikke i termen."@nb,
+        "Ronde gaten geboord door een stapel vellen of een afgewerkt product – typisch 2 of 4 gaten voor ringbanden, of één gat om op te hangen. Aantal en positie staan in de order, niet in de term."@nl,
+        "Okrągłe otwory wiercone przez stos arkuszy lub gotowy produkt – zwykle 2 lub 4 do segregatorów albo jeden do zawieszenia. Liczbę i położenie podaje zamówienie, nie termin."@pl,
+        "Furos redondos feitos através de uma pilha de folhas ou de uma peça acabada — tipicamente 2 ou 4 para dossiês, ou um para pendurar. Número e posição constam da encomenda, não do termo."@pt,
+        "Runda hål borrade genom en bunt ark eller en färdig produkt – typiskt 2 eller 4 hål för ringpärm, eller ett hål för upphängning. Antal och placering anges i ordern, inte i termen."@sv,
+        "在一叠纸或成品上钻圆孔——通常为活页夹用的2孔或4孔，或用于悬挂的1孔。孔数与位置在订单中说明，不在术语中。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§DRILLING" ;
+    skos:prefLabel "Boring"@da,
+        "Bohren"@de,
+        "Drilling"@en,
+        "Taladrado"@es,
+        "ड्रिलिंग"@hi,
+        "ドリル穴あけ"@ja,
+        "Boring"@nb,
+        "Boren"@nl,
+        "Wiercenie"@pl,
+        "Furação"@pt,
+        "Borrning"@sv,
+        "钻孔"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
 
 <https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting> a skos:Concept ;
     dcterms:created "2026-08-12T11:02:25+00:00"^^xsd:dateTime ;
@@ -16758,7 +17016,14 @@
     ptpge:level "element" ;
     ptpge:pageCountConstraint "even" ;
     ptpge:pageCountRange [ ] ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16768,13 +17033,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16882,7 +17140,14 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16892,13 +17157,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -16939,7 +17197,14 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -16949,13 +17214,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17004,7 +17262,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17014,14 +17280,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17071,7 +17329,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/4" "1/4" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-2 (Parallel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17081,14 +17347,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F8-2 (Parallel fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17138,15 +17396,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17156,6 +17406,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17205,15 +17463,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17223,6 +17473,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17440,15 +17698,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-4 (Tri-fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17458,6 +17708,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-4 (Tri-fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17501,14 +17759,7 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17518,6 +17769,13 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -18145,7 +18403,13 @@
     ptpge:group "features" ;
     ptpge:hasProperty [ ] ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.6 · p.74",
                 "§5.6.12 · p.118",
                 "§6.32 · p.197" ;
             ptpge:mappingRow "crosswalk row 27" ;
@@ -18153,12 +18417,6 @@
             ptpge:sourceElement "Embossing",
                 "EmbossingIntent",
                 "EmbossingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.6 · p.74" ;
-            ptpge:mappingRow "crosswalk row 25" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "EmbossingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23560,18 +23818,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23690,18 +23948,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23753,18 +24011,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23817,18 +24075,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23880,18 +24138,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -35930,13 +36188,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -38392,13 +38650,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -38921,6 +39179,59 @@
     ptpge:status "proposed" ;
     ptpge:unit "mm" ;
     ptpge:version "2026-09-03" .
+
+<https://ptpge.org/v1/variables/finishing/banner-finishing> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables/finishing> ;
+    skos:definition "Hvilke kantkonfektioner et fleksibelt storformatprodukt har – sømning, svejsning, øjer, stanglomme. Flere kan gælde. Værdier fra printing/completions/banner-finishing."@da,
+        "Welche Kantenkonfektion ein flexibles Großformatprodukt trägt – Saum, Schweißen, Ösen, Hohlsaum. Mehrere möglich. Werte aus printing/completions/banner-finishing."@de,
+        "Which edge finishes a flexible large-format piece carries — hemming, welding, eyelets, pole pocket. Several may apply. Values from printing/completions/banner-finishing."@en,
+        "Qué acabados de borde lleva una pieza flexible de gran formato — dobladillo, soldadura, ojales, vaina. Pueden aplicarse varios. Valores de printing/completions/banner-finishing."@es,
+        "लचीले लार्ज-फॉर्मेट उत्पाद के किनारों की कौन-सी फ़िनिशिंग है — हेमिंग, वेल्डिंग, आईलेट, पोल पॉकेट। कई हो सकती हैं। मान printing/completions/banner-finishing से।"@hi,
+        "柔軟な大判製品が持つ端仕上げ — ヘム、溶着、ハトメ、ポールポケット。複数可。値は printing/completions/banner-finishing から。"@ja,
+        "Hvilke kantferdiggjøringer et fleksibelt storformatprodukt har – falding, sveising, maljer, stanglomme. Flere kan gjelde. Verdier fra printing/completions/banner-finishing."@nb,
+        "Welke randafwerkingen een flexibel grootformaatproduct heeft – zomen, lassen, ringen, tunnelzoom. Meerdere mogelijk. Waarden uit printing/completions/banner-finishing."@nl,
+        "Jakie wykończenia krawędzi ma elastyczny wydruk wielkoformatowy – obszycie, zgrzewanie, oczka, tunel. Może być kilka. Wartości z printing/completions/banner-finishing."@pl,
+        "Que acabamentos de borda tem uma peça flexível de grande formato — bainha, soldadura, ilhós, bolsa para varão. Podem aplicar-se vários. Valores de printing/completions/banner-finishing."@pt,
+        "Vilka kantkonfektioner ett flexibelt storformatstryck har – fållning, svetsning, öljetter, stångficka. Flera kan gälla. Värden från printing/completions/banner-finishing."@sv,
+        "柔性宽幅产品带有哪些边缘加工——包边、焊接、扣眼、穿杆袋。可多选。取值来自 printing/completions/banner-finishing。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:FN§BANNER-FINISHING" ;
+    skos:prefLabel "Bannerkonfektion"@da,
+        "Bannerkonfektion"@de,
+        "Banner Finishing"@en,
+        "Acabado de banners"@es,
+        "बैनर फ़िनिशिंग"@hi,
+        "バナー仕上げ"@ja,
+        "Bannerferdiggjøring"@nb,
+        "Bannerafwerking"@nl,
+        "Wykończenie banerów"@pl,
+        "Acabamento de banners"@pt,
+        "Bannerkonfektion"@sv,
+        "横幅加工"@zh-Hans ;
+    ptpge:cardinality "multiple" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Nogen strukturel efterbehandling?"@da,
+        "Eine strukturelle Weiterverarbeitung?"@de,
+        "Any structural finishing?"@en,
+        "¿Algún acabado estructural?"@es,
+        "कोई संरचनात्मक फ़िनिशिंग?"@hi,
+        "構造的な加工はありますか？"@ja,
+        "Noen strukturell etterbehandling?"@nb,
+        "Een structurele nabewerking?"@nl,
+        "Jakaś obróbka strukturalna?"@pl,
+        "Algum acabamento estrutural?"@pt,
+        "Någon strukturell efterbehandling?"@sv,
+        "需要结构加工吗？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    ptpge:version "2026-10-16" .
 
 <https://ptpge.org/v1/ordering/geography/south-america> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
@@ -40217,45 +40528,6 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
-<https://ptpge.org/v1/variables/finishing> a skos:Concept ;
-    dcterms:created "2026-06-17T10:05:27+00:00"^^xsd:dateTime ;
-    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
-    skos:broader <https://ptpge.org/v1/variables> ;
-    skos:definition "Færdiggørelses-konfigurationsvariabler — de færdiggørelsesakser et trykt produkt kan konfigureres langs: indbinding, kantbehandling og strukturel efterbehandling."@da,
-        "Weiterverarbeitungs-Konfigurationsvariablen — die Weiterverarbeitungsachsen, entlang derer ein Druckprodukt konfiguriert werden kann: Bindung, Kantenbearbeitung und strukturelle Verarbeitung."@de,
-        "Finishing configuration variables — the finishing axes a printed product can be configured along: binding, edge treatment and structural finishing."@en,
-        "Variables de configuración de acabado — los ejes de acabado a lo largo de los cuales puede configurarse un producto impreso: encuadernación, tratamiento de bordes y acabado estructural."@es,
-        "फ़िनिशिंग कॉन्फ़िगरेशन वेरिएबल — वे फ़िनिशिंग अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है: बाइंडिंग, किनारे का उपचार और संरचनात्मक फ़िनिशिंग।"@hi,
-        "後加工の構成変数 — 印刷物を構成できる後加工の軸。製本、小口加工、構造加工など。"@ja,
-        "Ferdiggjøringsvariabler — ferdiggjøringsaksene et trykkprodukt kan konfigureres langs: innbinding, kantbehandling og strukturell etterbehandling."@nb,
-        "Afwerkings-configuratievariabelen — de afwerkingsassen waarlangs een drukproduct kan worden geconfigureerd: binden, zijdebehandeling en structurele afwerking."@nl,
-        "Zmienne konfiguracyjne wykończenia — osie wykończenia, wzdłuż których można skonfigurować produkt drukowany: oprawa, krawędź i wykończenie strukturalne."@pl,
-        "Variáveis de configuração de acabamento — os eixos de acabamento ao longo dos quais um impresso pode ser configurado: encadernação, tratamento de borda e acabamento estrutural."@pt,
-        "Konfigurationsvariabler för efterbehandling — de efterbehandlingsaxlar en trycksak kan konfigureras längs: bindning, kantbehandling och strukturell efterbehandling."@sv,
-        "印后加工配置变量 — 印刷品可沿其配置的印后加工轴：装订、边缘处理与结构加工。"@zh-Hans ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/variables/finishing/binding>,
-        <https://ptpge.org/v1/variables/finishing/edge>,
-        <https://ptpge.org/v1/variables/finishing/structural-finishing> ;
-    skos:notation "VAR:FN" ;
-    skos:prefLabel "Færdiggørelse"@da,
-        "Weiterverarbeitung"@de,
-        "Finishing"@en,
-        "Acabado"@es,
-        "फ़िनिशिंग"@hi,
-        "後加工"@ja,
-        "Ferdiggjøring"@nb,
-        "Afwerking"@nl,
-        "Wykończenie"@pl,
-        "Acabamento"@pt,
-        "Efterbehandling"@sv,
-        "印后加工"@zh-Hans ;
-    ptpge:level "group" ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
-
 <https://ptpge.org/v1/variables/order> a skos:Concept ;
     dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -40336,60 +40608,45 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
-<https://ptpge.org/v1/printing/completions> a skos:Concept ;
-    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+<https://ptpge.org/v1/printing/completions/banner-finishing> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
-    skos:broader <https://ptpge.org/v1/printing> ;
-    skos:definition "De operationer, der forvandler trykte ark til et færdigt, leverbart produkt: efterbehandling (falsning, indbinding, rilning, perforering, laminering, bandering), placeringsvalgene for disse operationer (venstre/højre/top/bund) og emballering til forsendelse."@da,
-        "Die Schritte, die bedruckte Bogen in ein fertiges, lieferbares Produkt verwandeln: Veredelung (Falzen, Bindung, Rillen, Perforation, Laminierung, Banderolieren), die Platzierungsentscheidungen für diese Operationen (Falzung oder Bindung an der Längs- vs. Schmalseite) und die Verpackung, die das Produkt auf dem Transportweg schützt. Completions ist die letzte Facette in der Fertigungssequenz — alles davor produziert bedrucktes Material; alles in Completions verwandelt dieses Material in etwas, das versendet werden kann."@de,
-        "The operations that turn printed sheets into a finished, deliverable product: finishing (folding, binding, scoring, perforation, lamination, banding), the placement decisions for those operations (left-side vs top-side fold or binding), and the packaging that protects the product in transit. Completions is the last facet in the manufacturing sequence — everything before it produces printed material; everything in Completions turns that material into something that can be shipped."@en,
-        "Las operaciones que convierten hojas impresas en un producto terminado y entregable: acabado (plegado, encuadernación, hendido, perforación, plastificado, fajeado), decisiones de colocación para esas operaciones (pliegue o encuadernación al lado izquierdo o superior) y el embalaje que protege el producto durante el transporte. Acabados cubre todo lo que ocurre después de aplicar la tinta."@es,
-        "वे क्रियाएँ जो छपी शीटों को तैयार, सुपुर्द करने योग्य उत्पाद बनाती हैं: फ़िनिशिंग (फ़ोल्डिंग, बाइंडिंग, क्रीज़िंग, परफ़ोरेशन, लैमिनेशन, बैंडिंग), उन क्रियाओं की स्थिति के निर्णय (बाईं ओर बनाम ऊपर की ओर फ़ोल्ड या बाइंडिंग), और वह पैकेजिंग जो उत्पाद को परिवहन में बचाती है। यह निर्माण क्रम का अंतिम पहलू है — इससे पहले का सब कुछ छपी सामग्री बनाता है; यहाँ का सब कुछ उस सामग्री को भेजने योग्य चीज़ में बदलता है।"@hi,
-        "印刷されたシートを完成した出荷可能な製品に変える工程：仕上げ加工（折り、製本、筋入れ、ミシン目、ラミネート、帯掛け）、それらの工程の配置に関する決定（左綴じ・上綴じ、左折り・上折り）、および輸送中に製品を保護する梱包。Completionsは製造シーケンスの最後のファセットであり、これより前の工程はすべて印刷物を生産し、Completionsの工程はその印刷物を出荷可能なものに変える。"@ja,
-        "Operasjonene som forvandler trykte ark til et ferdig, leveringsklart produkt: etterbehandling (folding, innbinding, scoring, perforering, laminering, banding), plasseringsbeslutninger for disse operasjonene (venstre vs topp folding eller innbinding), og pakkingen som beskytter produktet under transport. Completions er den siste fasetten i produksjonssekvensen — alt før denne produserer trykt materiale; alt i Completions forvandler dette materialet til noe som kan sendes."@nb,
-        "De bewerkingen die bedrukte vellen omvormen tot een afgewerkt, leverbaar product: afwerking (vouwen, binden, rillen, perforeren, lamineren, banderolleren), de plaatsingskeuzes voor die bewerkingen (links/rechts/boven/onder) en verpakking voor verzending."@nl,
-        "Operacje, które zamieniają zadrukowane arkusze w gotowy produkt do dostarczenia: uszlachetnianie i obróbka (falcowanie, oprawa, bigowanie, perforacja, laminowanie, banderolowanie), decyzje o umiejscowieniu tych operacji (złam lub oprawa po lewej stronie czy u góry) oraz pakowanie chroniące produkt w transporcie. Wykończenie jest ostatnim aspektem w sekwencji produkcji — wszystko przed nim wytwarza zadrukowany materiał; wszystko w Wykończeniu zamienia ten materiał w coś, co można wysłać."@pl,
-        "As operações que transformam folhas impressas em um produto acabado e entregável: acabamento (dobra, encadernação, vinco, picote, laminação, cintagem), as decisões de posicionamento dessas operações (dobra ou encadernação à esquerda ou no topo) e a embalagem que protege o produto no transporte. Acabamentos é a última faceta da sequência de fabricação — tudo antes dela produz material impresso; tudo em Acabamentos transforma esse material em algo que pode ser expedido."@pt,
-        "Operationerna som förvandlar tryckta ark till en färdig, leveransklar produkt: efterbehandling (falsning, bindning, bigning, perforering, laminering, banderollering), placeringsbesluten för dessa operationer (fals eller bindning på vänster- kontra ovansida) och emballaget som skyddar produkten under transport. Färdigställande är den sista facetten i tillverkningssekvensen — allt före den producerar tryckt material; allt i Färdigställande förvandlar materialet till något som kan skickas."@sv,
-        "将印刷张转化为可交付成品的操作：印后加工（折页、装订、压痕、打孔、覆膜、捆扎）、这些操作的位置决策（左侧或顶部折页/装订）以及保护产品运输的包装。印后加工涵盖所有油墨施加之后的环节。"@zh-Hans ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Hvordan kanterne på et fleksibelt storformattryk konfektioneres, så det kan hænges op eller monteres – sømning, svejsning, øjer, stanglommer."@da,
+        "Wie die Kanten eines flexiblen Großformatdrucks konfektioniert werden, damit er aufgehängt oder montiert werden kann – Saum, Schweißen, Ösen, Hohlsaum."@de,
+        "How the edges of a flexible large-format print are finished so it can be hung or mounted — hemming, welding, eyelets, pole pockets."@en,
+        "Cómo se rematan los bordes de una impresión flexible de gran formato para colgarla o montarla — dobladillo, soldadura, ojales, vainas."@es,
+        "लचीले लार्ज-फॉर्मेट प्रिंट के किनारों को टांगने या लगाने के लिए कैसे तैयार किया जाता है — हेमिंग, वेल्डिंग, आईलेट, पोल पॉकेट।"@hi,
+        "柔軟な大判プリントを吊り下げ・設置できるよう端を仕上げる方法 — ヘム、溶着、ハトメ、ポールポケット。"@ja,
+        "Hvordan kantene på et fleksibelt storformattrykk ferdiggjøres så det kan henges opp eller monteres – falding, sveising, maljer, stanglommer."@nb,
+        "Hoe de randen van een flexibele grootformaatprint worden afgewerkt zodat hij opgehangen of gemonteerd kan worden – zomen, lassen, ringen, tunnelzomen."@nl,
+        "Sposób wykończenia krawędzi elastycznego wydruku wielkoformatowego, aby można go było zawiesić lub zamontować – obszycie, zgrzewanie, oczka, tunele."@pl,
+        "Como as bordas de uma impressão flexível de grande formato são acabadas para pendurar ou montar — bainha, soldadura, ilhós, bolsas para varão."@pt,
+        "Hur kanterna på ett flexibelt storformatstryck konfektioneras så att det kan hängas eller monteras – fållning, svetsning, öljetter, stångfickor."@sv,
+        "柔性宽幅印刷品边缘的加工方式，以便悬挂或安装——包边、焊接、扣眼、穿杆袋。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/printing/completions/binding>,
-        <https://ptpge.org/v1/printing/completions/fold-binding-edge>,
-        <https://ptpge.org/v1/printing/completions/folding>,
-        <https://ptpge.org/v1/printing/completions/packaging>,
-        <https://ptpge.org/v1/printing/completions/structural-finishing> ;
-    skos:notation "P:CP" ;
-    skos:prefLabel "Færdiggørelse"@da,
-        "Weiterverarbeitung"@de,
-        "Completions"@en,
-        "Acabados"@es,
-        "पोस्ट-प्रेस (फ़िनिशिंग)"@hi,
-        "後加工"@ja,
-        "Ferdiggjøring"@nb,
-        "Afwerking"@nl,
-        "Wykończenie"@pl,
-        "Acabamentos"@pt,
-        "Färdigställande"@sv,
-        "印后加工"@zh-Hans ;
-    skos:scopeNote "Completions umfasst Weiterverarbeitungsschritte, die Form, Struktur oder Schutz des Druckerzeugnisses verändern. Dekorative Oberflächeneffekte — Prägung, Lack, Folienveredelung — gehören zu Features, auch wenn sie nach dem Druck angebracht werden."@de,
-        "Completions covers post-press operations that change the form, structure, or protection of the printed product. Decorative surface effects — embossing, varnish, foiling — belong to Features even when applied post-print."@en,
-        "Acabados cubre las operaciones post-prensa que cambian la forma, estructura o protección del producto impreso. Los efectos decorativos de superficie — gofrado, barniz, estampado en lámina — pertenecen a Características, aun cuando se apliquen post-prensa."@es,
-        "इसमें वे पोस्ट-प्रेस क्रियाएँ आती हैं जो मुद्रित उत्पाद का रूप, संरचना या सुरक्षा बदलती हैं। सजावटी सतह प्रभाव — एम्बॉसिंग, वार्निश, फ़ॉइलिंग — फ़ीचर के अंतर्गत आते हैं, भले ही छपाई के बाद लगाए जाएँ।"@hi,
-        "Completionsは、印刷物の形状、構造、または保護を変える後加工工程を扱う。装飾的な表面効果 — エンボス、ニス、箔押し — は印刷後に施される場合でもFeaturesに属する。"@ja,
-        "Completions dekker post-press-operasjoner som endrer form, struktur eller beskyttelse på det trykte produktet. Dekorative overflateeffekter — prege, lakk, folie — hører til Features selv når de påføres etter trykking."@nb,
-        "Acabamentos cobre as operações pós-impressão que alteram a forma, a estrutura ou a proteção do impresso. Efeitos decorativos de superfície — relevo, verniz, hot stamping — pertencem a Características mesmo quando aplicados após a impressão."@pt,
-        "印后加工涵盖改变印刷品形态、结构或保护的印后操作。装饰性表面效果——凹凸压印、上光、烫金——属于特性分组，即使它们也在印后应用。"@zh-Hans ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/banner-finishing/eyelets>,
+        <https://ptpge.org/v1/printing/completions/banner-finishing/hemming>,
+        <https://ptpge.org/v1/printing/completions/banner-finishing/pole-pocket>,
+        <https://ptpge.org/v1/printing/completions/banner-finishing/welding> ;
+    skos:notation "P:CP-BAN" ;
+    skos:prefLabel "Bannerkonfektion"@da,
+        "Bannerkonfektion"@de,
+        "Banner Finishing"@en,
+        "Acabado de banners"@es,
+        "बैनर फ़िनिशिंग"@hi,
+        "バナー仕上げ"@ja,
+        "Bannerferdiggjøring"@nb,
+        "Bannerafwerking"@nl,
+        "Wykończenie banerów"@pl,
+        "Acabamento de banners"@pt,
+        "Bannerkonfektion"@sv,
+        "横幅加工"@zh-Hans ;
     ptpge:group "completions" ;
-    ptpge:level "group" ;
+    ptpge:level "category" ;
     ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" ;
-    ptpge:visual [ ptpge:color "#0071CE" ;
-            ptpge:colorName "PTPGE Blue 1" ;
-            ptpge:palette "#0071CE",
-                "#00AEEF",
-                "#9164CC" ;
-            ptpge:pantone "P 285 C" ] .
+    ptpge:version "2026-10-16" .
 
 <https://ptpge.org/v1/printing/completions/binding/coil-binding> a skos:Concept ;
     dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
@@ -41399,6 +41656,102 @@
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/variables/finishing> a skos:Concept ;
+    dcterms:created "2026-06-17T10:05:27+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables> ;
+    skos:definition "Færdiggørelses-konfigurationsvariabler — de færdiggørelsesakser et trykt produkt kan konfigureres langs: indbinding, kantbehandling og strukturel efterbehandling."@da,
+        "Weiterverarbeitungs-Konfigurationsvariablen — die Weiterverarbeitungsachsen, entlang derer ein Druckprodukt konfiguriert werden kann: Bindung, Kantenbearbeitung und strukturelle Verarbeitung."@de,
+        "Finishing configuration variables — the finishing axes a printed product can be configured along: binding, edge treatment and structural finishing."@en,
+        "Variables de configuración de acabado — los ejes de acabado a lo largo de los cuales puede configurarse un producto impreso: encuadernación, tratamiento de bordes y acabado estructural."@es,
+        "फ़िनिशिंग कॉन्फ़िगरेशन वेरिएबल — वे फ़िनिशिंग अक्ष जिनके साथ मुद्रित उत्पाद कॉन्फ़िगर किया जा सकता है: बाइंडिंग, किनारे का उपचार और संरचनात्मक फ़िनिशिंग।"@hi,
+        "後加工の構成変数 — 印刷物を構成できる後加工の軸。製本、小口加工、構造加工など。"@ja,
+        "Ferdiggjøringsvariabler — ferdiggjøringsaksene et trykkprodukt kan konfigureres langs: innbinding, kantbehandling og strukturell etterbehandling."@nb,
+        "Afwerkings-configuratievariabelen — de afwerkingsassen waarlangs een drukproduct kan worden geconfigureerd: binden, zijdebehandeling en structurele afwerking."@nl,
+        "Zmienne konfiguracyjne wykończenia — osie wykończenia, wzdłuż których można skonfigurować produkt drukowany: oprawa, krawędź i wykończenie strukturalne."@pl,
+        "Variáveis de configuração de acabamento — os eixos de acabamento ao longo dos quais um impresso pode ser configurado: encadernação, tratamento de borda e acabamento estrutural."@pt,
+        "Konfigurationsvariabler för efterbehandling — de efterbehandlingsaxlar en trycksak kan konfigureras längs: bindning, kantbehandling och strukturell efterbehandling."@sv,
+        "印后加工配置变量 — 印刷品可沿其配置的印后加工轴：装订、边缘处理与结构加工。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/variables/finishing/banner-finishing>,
+        <https://ptpge.org/v1/variables/finishing/binding>,
+        <https://ptpge.org/v1/variables/finishing/edge>,
+        <https://ptpge.org/v1/variables/finishing/structural-finishing> ;
+    skos:notation "VAR:FN" ;
+    skos:prefLabel "Færdiggørelse"@da,
+        "Weiterverarbeitung"@de,
+        "Finishing"@en,
+        "Acabado"@es,
+        "फ़िनिशिंग"@hi,
+        "後加工"@ja,
+        "Ferdiggjøring"@nb,
+        "Afwerking"@nl,
+        "Wykończenie"@pl,
+        "Acabamento"@pt,
+        "Efterbehandling"@sv,
+        "印后加工"@zh-Hans ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/printing/completions> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing> ;
+    skos:definition "De operationer, der forvandler trykte ark til et færdigt, leverbart produkt: efterbehandling (falsning, indbinding, rilning, perforering, laminering, bandering), placeringsvalgene for disse operationer (venstre/højre/top/bund) og emballering til forsendelse."@da,
+        "Die Schritte, die bedruckte Bogen in ein fertiges, lieferbares Produkt verwandeln: Veredelung (Falzen, Bindung, Rillen, Perforation, Laminierung, Banderolieren), die Platzierungsentscheidungen für diese Operationen (Falzung oder Bindung an der Längs- vs. Schmalseite) und die Verpackung, die das Produkt auf dem Transportweg schützt. Completions ist die letzte Facette in der Fertigungssequenz — alles davor produziert bedrucktes Material; alles in Completions verwandelt dieses Material in etwas, das versendet werden kann."@de,
+        "The operations that turn printed sheets into a finished, deliverable product: finishing (folding, binding, scoring, perforation, lamination, banding), the placement decisions for those operations (left-side vs top-side fold or binding), and the packaging that protects the product in transit. Completions is the last facet in the manufacturing sequence — everything before it produces printed material; everything in Completions turns that material into something that can be shipped."@en,
+        "Las operaciones que convierten hojas impresas en un producto terminado y entregable: acabado (plegado, encuadernación, hendido, perforación, plastificado, fajeado), decisiones de colocación para esas operaciones (pliegue o encuadernación al lado izquierdo o superior) y el embalaje que protege el producto durante el transporte. Acabados cubre todo lo que ocurre después de aplicar la tinta."@es,
+        "वे क्रियाएँ जो छपी शीटों को तैयार, सुपुर्द करने योग्य उत्पाद बनाती हैं: फ़िनिशिंग (फ़ोल्डिंग, बाइंडिंग, क्रीज़िंग, परफ़ोरेशन, लैमिनेशन, बैंडिंग), उन क्रियाओं की स्थिति के निर्णय (बाईं ओर बनाम ऊपर की ओर फ़ोल्ड या बाइंडिंग), और वह पैकेजिंग जो उत्पाद को परिवहन में बचाती है। यह निर्माण क्रम का अंतिम पहलू है — इससे पहले का सब कुछ छपी सामग्री बनाता है; यहाँ का सब कुछ उस सामग्री को भेजने योग्य चीज़ में बदलता है।"@hi,
+        "印刷されたシートを完成した出荷可能な製品に変える工程：仕上げ加工（折り、製本、筋入れ、ミシン目、ラミネート、帯掛け）、それらの工程の配置に関する決定（左綴じ・上綴じ、左折り・上折り）、および輸送中に製品を保護する梱包。Completionsは製造シーケンスの最後のファセットであり、これより前の工程はすべて印刷物を生産し、Completionsの工程はその印刷物を出荷可能なものに変える。"@ja,
+        "Operasjonene som forvandler trykte ark til et ferdig, leveringsklart produkt: etterbehandling (folding, innbinding, scoring, perforering, laminering, banding), plasseringsbeslutninger for disse operasjonene (venstre vs topp folding eller innbinding), og pakkingen som beskytter produktet under transport. Completions er den siste fasetten i produksjonssekvensen — alt før denne produserer trykt materiale; alt i Completions forvandler dette materialet til noe som kan sendes."@nb,
+        "De bewerkingen die bedrukte vellen omvormen tot een afgewerkt, leverbaar product: afwerking (vouwen, binden, rillen, perforeren, lamineren, banderolleren), de plaatsingskeuzes voor die bewerkingen (links/rechts/boven/onder) en verpakking voor verzending."@nl,
+        "Operacje, które zamieniają zadrukowane arkusze w gotowy produkt do dostarczenia: uszlachetnianie i obróbka (falcowanie, oprawa, bigowanie, perforacja, laminowanie, banderolowanie), decyzje o umiejscowieniu tych operacji (złam lub oprawa po lewej stronie czy u góry) oraz pakowanie chroniące produkt w transporcie. Wykończenie jest ostatnim aspektem w sekwencji produkcji — wszystko przed nim wytwarza zadrukowany materiał; wszystko w Wykończeniu zamienia ten materiał w coś, co można wysłać."@pl,
+        "As operações que transformam folhas impressas em um produto acabado e entregável: acabamento (dobra, encadernação, vinco, picote, laminação, cintagem), as decisões de posicionamento dessas operações (dobra ou encadernação à esquerda ou no topo) e a embalagem que protege o produto no transporte. Acabamentos é a última faceta da sequência de fabricação — tudo antes dela produz material impresso; tudo em Acabamentos transforma esse material em algo que pode ser expedido."@pt,
+        "Operationerna som förvandlar tryckta ark till en färdig, leveransklar produkt: efterbehandling (falsning, bindning, bigning, perforering, laminering, banderollering), placeringsbesluten för dessa operationer (fals eller bindning på vänster- kontra ovansida) och emballaget som skyddar produkten under transport. Färdigställande är den sista facetten i tillverkningssekvensen — allt före den producerar tryckt material; allt i Färdigställande förvandlar materialet till något som kan skickas."@sv,
+        "将印刷张转化为可交付成品的操作：印后加工（折页、装订、压痕、打孔、覆膜、捆扎）、这些操作的位置决策（左侧或顶部折页/装订）以及保护产品运输的包装。印后加工涵盖所有油墨施加之后的环节。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/banner-finishing>,
+        <https://ptpge.org/v1/printing/completions/binding>,
+        <https://ptpge.org/v1/printing/completions/fold-binding-edge>,
+        <https://ptpge.org/v1/printing/completions/folding>,
+        <https://ptpge.org/v1/printing/completions/packaging>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:notation "P:CP" ;
+    skos:prefLabel "Færdiggørelse"@da,
+        "Weiterverarbeitung"@de,
+        "Completions"@en,
+        "Acabados"@es,
+        "पोस्ट-प्रेस (फ़िनिशिंग)"@hi,
+        "後加工"@ja,
+        "Ferdiggjøring"@nb,
+        "Afwerking"@nl,
+        "Wykończenie"@pl,
+        "Acabamentos"@pt,
+        "Färdigställande"@sv,
+        "印后加工"@zh-Hans ;
+    skos:scopeNote "Completions umfasst Weiterverarbeitungsschritte, die Form, Struktur oder Schutz des Druckerzeugnisses verändern. Dekorative Oberflächeneffekte — Prägung, Lack, Folienveredelung — gehören zu Features, auch wenn sie nach dem Druck angebracht werden."@de,
+        "Completions covers post-press operations that change the form, structure, or protection of the printed product. Decorative surface effects — embossing, varnish, foiling — belong to Features even when applied post-print."@en,
+        "Acabados cubre las operaciones post-prensa que cambian la forma, estructura o protección del producto impreso. Los efectos decorativos de superficie — gofrado, barniz, estampado en lámina — pertenecen a Características, aun cuando se apliquen post-prensa."@es,
+        "इसमें वे पोस्ट-प्रेस क्रियाएँ आती हैं जो मुद्रित उत्पाद का रूप, संरचना या सुरक्षा बदलती हैं। सजावटी सतह प्रभाव — एम्बॉसिंग, वार्निश, फ़ॉइलिंग — फ़ीचर के अंतर्गत आते हैं, भले ही छपाई के बाद लगाए जाएँ।"@hi,
+        "Completionsは、印刷物の形状、構造、または保護を変える後加工工程を扱う。装飾的な表面効果 — エンボス、ニス、箔押し — は印刷後に施される場合でもFeaturesに属する。"@ja,
+        "Completions dekker post-press-operasjoner som endrer form, struktur eller beskyttelse på det trykte produktet. Dekorative overflateeffekter — prege, lakk, folie — hører til Features selv når de påføres etter trykking."@nb,
+        "Acabamentos cobre as operações pós-impressão que alteram a forma, a estrutura ou a proteção do impresso. Efeitos decorativos de superfície — relevo, verniz, hot stamping — pertencem a Características mesmo quando aplicados após a impressão."@pt,
+        "印后加工涵盖改变印刷品形态、结构或保护的印后操作。装饰性表面效果——凹凸压印、上光、烫金——属于特性分组，即使它们也在印后应用。"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "group" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" ;
+    ptpge:visual [ ptpge:color "#0071CE" ;
+            ptpge:colorName "PTPGE Blue 1" ;
+            ptpge:palette "#0071CE",
+                "#00AEEF",
+                "#9164CC" ;
+            ptpge:pantone "P 285 C" ] .
 
 <https://ptpge.org/v1/printing/completions/binding/perfect-binding> a skos:Concept ;
     dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
@@ -43544,49 +43897,6 @@
     ptpge:unit "mm" ;
     ptpge:version "2026-08-22" .
 
-<https://ptpge.org/v1/printing/completions/structural-finishing> a skos:Concept ;
-    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
-    skos:broader <https://ptpge.org/v1/printing/completions> ;
-    skos:definition "Efterbehandlingsoperationer, der skærer, riller eller former selve substratet — udstansning, laserskæring, kiss-cutting, rilning, perforering og fræsning."@da,
-        "Weiterverarbeitung, die den Bedruckstoff selbst schneidet, rillt oder formt — Stanzen, Laserschneiden, Kiss-Cutting, Rillen, Perforation und Fräsen."@de,
-        "Finishing operations that cut, crease or shape the substrate itself — die-cutting, laser-cutting, kiss-cutting, scoring, perforation and routing."@en,
-        "Operaciones de acabado que cortan, hienden o dan forma al propio sustrato — troquelado, corte láser, kiss-cut, hendido, perforado y fresado."@es,
-        "वे फ़िनिशिंग क्रियाएँ जो सब्सट्रेट को ही काटती, क्रीज़ करती या आकार देती हैं — डाई-कटिंग, लेज़र-कटिंग, किस-कटिंग, स्कोरिंग, परफ़ोरेशन और राउटिंग।"@hi,
-        "基材そのものを切断・スジ入れ・成形する後加工 — 型抜き、レーザーカット、キスカット、スジ入れ、ミシン目、ルーター加工。"@ja,
-        "Etterbehandling som skjærer, riller eller former selve substratet — stansing, laserskjæring, kiss-cutting, rilling, perforering og fresing."@nb,
-        "Afwerkingsbewerkingen die het substraat zelf snijden, rillen of vormen — stansen, lasersnijden, kiss-cutting, rillen, perforeren en frezen."@nl,
-        "Operacje wykończeniowe, które tną, bigują lub kształtują samo podłoże — wykrawanie, cięcie laserowe, nacinanie warstwy wierzchniej, bigowanie, perforacja i frezowanie."@pl,
-        "Operações de acabamento que cortam, vincam ou dão forma ao próprio substrato — corte especial, corte a laser, meio-corte, vinco, picote e fresagem."@pt,
-        "Efterbehandlingsoperationer som skär, bigar eller formar själva substratet — stansning, laserskärning, kiss-cutting, bigning, perforering och fräsning."@sv,
-        "对承印材料本身进行切割、压痕或成形的印后工序 — 模切、激光切割、半切、压痕、打孔线与铣切。"@zh-Hans ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting>,
-        <https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting>,
-        <https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting>,
-        <https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting>,
-        <https://ptpge.org/v1/printing/completions/structural-finishing/perforation>,
-        <https://ptpge.org/v1/printing/completions/structural-finishing/routing>,
-        <https://ptpge.org/v1/printing/completions/structural-finishing/scoring> ;
-    skos:notation "P:CP-MFN" ;
-    skos:prefLabel "Strukturel efterbehandling"@da,
-        "Strukturelle Weiterverarbeitung"@de,
-        "Structural Finishing"@en,
-        "Structural Finishing"@es,
-        "संरचनात्मक फ़िनिशिंग"@hi,
-        "Structural Finishing"@ja,
-        "Strukturell etterbehandling"@nb,
-        "Structurele afwerking"@nl,
-        "Obróbka konstrukcyjna"@pl,
-        "Acabamento estrutural"@pt,
-        "Strukturell efterbehandling"@sv,
-        "Structural Finishing"@zh-Hans ;
-    ptpge:group "completions" ;
-    ptpge:level "category" ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
-
 <https://ptpge.org/v1/printing/configurations/formats/arch-series> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -44252,6 +44562,50 @@
                 "Wrapping" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing> a skos:Concept ;
+    dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Efterbehandlingsoperationer, der skærer, riller eller former selve substratet — udstansning, laserskæring, kiss-cutting, rilning, perforering og fræsning."@da,
+        "Weiterverarbeitung, die den Bedruckstoff selbst schneidet, rillt oder formt — Stanzen, Laserschneiden, Kiss-Cutting, Rillen, Perforation und Fräsen."@de,
+        "Finishing operations that cut, crease or shape the substrate itself — die-cutting, laser-cutting, kiss-cutting, scoring, perforation and routing."@en,
+        "Operaciones de acabado que cortan, hienden o dan forma al propio sustrato — troquelado, corte láser, kiss-cut, hendido, perforado y fresado."@es,
+        "वे फ़िनिशिंग क्रियाएँ जो सब्सट्रेट को ही काटती, क्रीज़ करती या आकार देती हैं — डाई-कटिंग, लेज़र-कटिंग, किस-कटिंग, स्कोरिंग, परफ़ोरेशन और राउटिंग।"@hi,
+        "基材そのものを切断・スジ入れ・成形する後加工 — 型抜き、レーザーカット、キスカット、スジ入れ、ミシン目、ルーター加工。"@ja,
+        "Etterbehandling som skjærer, riller eller former selve substratet — stansing, laserskjæring, kiss-cutting, rilling, perforering og fresing."@nb,
+        "Afwerkingsbewerkingen die het substraat zelf snijden, rillen of vormen — stansen, lasersnijden, kiss-cutting, rillen, perforeren en frezen."@nl,
+        "Operacje wykończeniowe, które tną, bigują lub kształtują samo podłoże — wykrawanie, cięcie laserowe, nacinanie warstwy wierzchniej, bigowanie, perforacja i frezowanie."@pl,
+        "Operações de acabamento que cortam, vincam ou dão forma ao próprio substrato — corte especial, corte a laser, meio-corte, vinco, picote e fresagem."@pt,
+        "Efterbehandlingsoperationer som skär, bigar eller formar själva substratet — stansning, laserskärning, kiss-cutting, bigning, perforering och fräsning."@sv,
+        "对承印材料本身进行切割、压痕或成形的印后工序 — 模切、激光切割、半切、压痕、打孔线与铣切。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/drilling>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/perforation>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/routing>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/scoring> ;
+    skos:notation "P:CP-MFN" ;
+    skos:prefLabel "Strukturel efterbehandling"@da,
+        "Strukturelle Weiterverarbeitung"@de,
+        "Structural Finishing"@en,
+        "Structural Finishing"@es,
+        "संरचनात्मक फ़िनिशिंग"@hi,
+        "Structural Finishing"@ja,
+        "Strukturell etterbehandling"@nb,
+        "Structurele afwerking"@nl,
+        "Obróbka konstrukcyjna"@pl,
+        "Acabamento estrutural"@pt,
+        "Strukturell efterbehandling"@sv,
+        "Structural Finishing"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "category" ;
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 

@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/banner-finishing/eyelets",
+  "type": "skos:Concept",
+  "version": "2026-10-16",
+  "status": "proposed",
+  "notation": "P:CP§EYELETS",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Eyelets",
+    "nb": "Maljer",
+    "de": "Ösen",
+    "ja": "ハトメ",
+    "es": "Ojales",
+    "zh-Hans": "扣眼",
+    "sv": "Öljetter",
+    "da": "Øjer",
+    "nl": "Ringen",
+    "pl": "Oczka",
+    "pt": "Ilhós",
+    "hi": "आईलेट"
+  },
+  "definition": {
+    "en": "Metal rings set through the hem at intervals so the banner can be tied or hooked; spacing is stated on the order.",
+    "nb": "Metallringer satt gjennom falden med jevne mellomrom så banneret kan bindes eller hektes opp; avstanden oppgis i bestillingen.",
+    "de": "Metallringe, die in Abständen durch den Saum gesetzt werden, damit das Banner gebunden oder eingehängt werden kann; der Abstand steht im Auftrag.",
+    "ja": "バナーを結んだり引っ掛けたりできるよう、ヘムに一定間隔で打つ金属リング。間隔は注文で指定。",
+    "es": "Anillas metálicas colocadas a intervalos en el dobladillo para atar o colgar el banner; la separación se indica en el pedido.",
+    "sv": "Metallringar satta genom fållen med jämna mellanrum så att bannern kan knytas eller hakas upp; avståndet anges i ordern.",
+    "da": "Metalringe sat gennem sømmen med mellemrum, så banneret kan bindes eller hægtes op; afstanden angives i ordren.",
+    "nl": "Metalen ringen op afstand door de zoom gezet zodat de banner kan worden vastgebonden of opgehangen; de afstand staat in de order.",
+    "pl": "Metalowe pierścienie osadzone w obszyciu w odstępach, aby baner można było przywiązać lub zawiesić; rozstaw podaje zamówienie.",
+    "pt": "Anéis metálicos aplicados na bainha a intervalos para atar ou pendurar o banner; o espaçamento consta da encomenda.",
+    "hi": "हेम में निश्चित दूरी पर लगे धातु के छल्ले ताकि बैनर बांधा या टांगा जा सके; दूरी ऑर्डर में बताई जाती है।",
+    "zh-Hans": "按间隔穿过包边安装的金属环，便于系绳或挂钩；间距在订单中说明。"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/banner-finishing",
+  "created": "2026-10-16T10:40:00Z",
+  "modified": "2026-10-16T10:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Grommets",
+      "Eyeleted",
+      "Metal eyelets"
+    ],
+    "nb": [
+      "Maljert",
+      "Øyer"
+    ],
+    "de": [
+      "Geöst",
+      "Metallösen"
+    ],
+    "nl": [
+      "Nestels",
+      "Ogen"
+    ],
+    "sv": [
+      "Öljetterad"
+    ],
+    "da": [
+      "Øjer isat"
+    ]
+  }
+}

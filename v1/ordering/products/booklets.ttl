@@ -7,7 +7,7 @@
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "hæfte"@da,
         "hæftet brochure"@da,
         "klammehæftet"@da,

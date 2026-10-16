@@ -140,7 +140,7 @@
     "https://ptpge.org/v1/printing/configurations/setup-models/multi-part"
   ],
   "created": "2026-06-22T00:00:00Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-10-16T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "https://ptpge.org/contributors/ptpge",
   "contributor": [
@@ -187,7 +187,8 @@
     "https://ptpge.org/v1/printing/features/colors/spot-color"
   ],
   "supportsStructuralFinishing": [
-    "https://ptpge.org/v1/printing/completions/structural-finishing/perforation"
+    "https://ptpge.org/v1/printing/completions/structural-finishing/perforation",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/drilling"
   ],
   "supportsCertification": [
     "https://ptpge.org/v1/printing/standards/certifications/environmental/fsc",

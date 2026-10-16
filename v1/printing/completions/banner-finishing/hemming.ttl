@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing/hemming> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Sømmet"@da,
+        "Gesäumt"@de,
+        "Saum"@de,
+        "Folded edge"@en,
+        "Hem"@en,
+        "Hemmed"@en,
+        "Fald"@nb,
+        "Faldet"@nb,
+        "Gezoomd"@nl,
+        "Zoom"@nl,
+        "Fållad"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "Kanten foldes ind og fastgøres (syet, limet eller tapet), så banneret tåler øjer og træk uden at rive."@da,
+        "Die Kante wird umgeschlagen und fixiert (genäht, geklebt oder getapet), damit das Banner Ösen und Zug ohne Einreißen trägt."@de,
+        "The edge is folded back and fixed (sewn, glued or taped) so the banner can carry eyelets and tension without tearing."@en,
+        "El borde se dobla y se fija (cosido, pegado o con cinta) para que el banner soporte ojales y tensión sin rasgarse."@es,
+        "किनारे को मोड़कर (सिलाई, गोंद या टेप से) फिक्स किया जाता है ताकि बैनर आईलेट और खिंचाव सह सके।"@hi,
+        "端を折り返して固定（縫製・接着・テープ）し、ハトメや張力で破れないようにする。"@ja,
+        "Kanten brettes inn og festes (sydd, limt eller tapet) så banneret tåler maljer og strekk uten å rives."@nb,
+        "De rand wordt omgevouwen en vastgezet (genaaid, gelijmd of getapet) zodat de banner ringen en spanning verdraagt zonder te scheuren."@nl,
+        "Krawędź jest zawinięta i utrwalona (szyta, klejona lub taśmą), aby baner wytrzymał oczka i naciąg bez rozdarcia."@pl,
+        "A borda é dobrada e fixada (costurada, colada ou com fita) para que o banner suporte ilhós e tensão sem rasgar."@pt,
+        "Kanten viks in och fixeras (sydd, limmad eller tejpad) så att bannern tål öljetter och spänning utan att rivas."@sv,
+        "将边缘折回并固定（缝合、粘合或贴带），使横幅可承受扣眼与张力而不撕裂。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§HEMMING" ;
+    skos:prefLabel "Sømning"@da,
+        "Säumen"@de,
+        "Hemming"@en,
+        "Dobladillo"@es,
+        "हेमिंग"@hi,
+        "ヘム加工"@ja,
+        "Falding"@nb,
+        "Zomen"@nl,
+        "Obszycie"@pl,
+        "Bainha"@pt,
+        "Fållning"@sv,
+        "包边"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+

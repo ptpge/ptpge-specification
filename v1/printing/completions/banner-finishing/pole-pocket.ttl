@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing/pole-pocket> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Stangkanal"@da,
+        "Hohlsaum"@de,
+        "Stangentasche"@de,
+        "Pole hem"@en,
+        "Pole sleeve"@en,
+        "Rod pocket"@en,
+        "Sleeve"@en,
+        "Lomme"@nb,
+        "Stanglomme"@nb,
+        "Koker"@nl,
+        "Tunnel"@nl,
+        "Stångkanal"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "En lomme syet eller svejset langs en kant, så en stang, et rør eller en wire kan trækkes igennem; typisk for flag, hængende bannere og roll-ups."@da,
+        "Ein entlang einer Kante genähter oder geschweißter Tunnel, durch den eine Stange, ein Rohr oder ein Seil geführt wird; typisch für Fahnen, Hängebanner und Roll-ups."@de,
+        "A sleeve sewn or welded along an edge so a pole, rod or cable can be threaded through; typical for flags, hanging banners and roll-ups."@en,
+        "Una vaina cosida o soldada a lo largo de un borde para pasar una barra, varilla o cable; típica de banderas, banners colgantes y roll-ups."@es,
+        "किनारे के साथ सिली या वेल्ड की गई आस्तीन जिसमें पोल, छड़ या केबल डाली जा सके; झंडों, लटकते बैनरों और रोल-अप में आम।"@hi,
+        "ポール・棒・ワイヤーを通せるよう端に沿って縫製または溶着した袋状の部分。旗、吊りバナー、ロールアップで典型的。"@ja,
+        "En lomme sydd eller sveiset langs en kant så en stang, et rør eller en wire kan tres gjennom; typisk for flagg, hengende bannere og roll-ups."@nb,
+        "Een tunnel genaaid of gelast langs een rand zodat een stok, buis of kabel erdoor kan; typisch voor vlaggen, hangende banners en roll-ups."@nl,
+        "Tunel wszyty lub zgrzany wzdłuż krawędzi, przez który przechodzi drążek, rurka lub linka; typowy dla flag, banerów wiszących i roll-upów."@pl,
+        "Uma bolsa costurada ou soldada ao longo de uma borda para passar um varão, haste ou cabo; típica de bandeiras, banners suspensos e roll-ups."@pt,
+        "En ficka sydd eller svetsad längs en kant så att en stång, ett rör eller en vajer kan träs igenom; typisk för flaggor, hängande banners och roll-ups."@sv,
+        "沿边缘缝制或焊接的套管，可穿入杆、棒或钢索；常见于旗帜、悬挂横幅与易拉宝。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§POLE-POCKET" ;
+    skos:prefLabel "Stanglomme"@da,
+        "Hohlsaum"@de,
+        "Pole Pocket"@en,
+        "Vaina para barra"@es,
+        "पोल पॉकेट"@hi,
+        "ポールポケット"@ja,
+        "Stanglomme"@nb,
+        "Tunnelzoom"@nl,
+        "Tunel na rurkę"@pl,
+        "Bolsa para varão"@pt,
+        "Stångficka"@sv,
+        "穿杆袋"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+

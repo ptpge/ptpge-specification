@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/variables/finishing/banner-finishing> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/variables/finishing> ;
+    skos:definition "Hvilke kantkonfektioner et fleksibelt storformatprodukt har – sømning, svejsning, øjer, stanglomme. Flere kan gælde. Værdier fra printing/completions/banner-finishing."@da,
+        "Welche Kantenkonfektion ein flexibles Großformatprodukt trägt – Saum, Schweißen, Ösen, Hohlsaum. Mehrere möglich. Werte aus printing/completions/banner-finishing."@de,
+        "Which edge finishes a flexible large-format piece carries — hemming, welding, eyelets, pole pocket. Several may apply. Values from printing/completions/banner-finishing."@en,
+        "Qué acabados de borde lleva una pieza flexible de gran formato — dobladillo, soldadura, ojales, vaina. Pueden aplicarse varios. Valores de printing/completions/banner-finishing."@es,
+        "लचीले लार्ज-फॉर्मेट उत्पाद के किनारों की कौन-सी फ़िनिशिंग है — हेमिंग, वेल्डिंग, आईलेट, पोल पॉकेट। कई हो सकती हैं। मान printing/completions/banner-finishing से।"@hi,
+        "柔軟な大判製品が持つ端仕上げ — ヘム、溶着、ハトメ、ポールポケット。複数可。値は printing/completions/banner-finishing から。"@ja,
+        "Hvilke kantferdiggjøringer et fleksibelt storformatprodukt har – falding, sveising, maljer, stanglomme. Flere kan gjelde. Verdier fra printing/completions/banner-finishing."@nb,
+        "Welke randafwerkingen een flexibel grootformaatproduct heeft – zomen, lassen, ringen, tunnelzoom. Meerdere mogelijk. Waarden uit printing/completions/banner-finishing."@nl,
+        "Jakie wykończenia krawędzi ma elastyczny wydruk wielkoformatowy – obszycie, zgrzewanie, oczka, tunel. Może być kilka. Wartości z printing/completions/banner-finishing."@pl,
+        "Que acabamentos de borda tem uma peça flexível de grande formato — bainha, soldadura, ilhós, bolsa para varão. Podem aplicar-se vários. Valores de printing/completions/banner-finishing."@pt,
+        "Vilka kantkonfektioner ett flexibelt storformatstryck har – fållning, svetsning, öljetter, stångficka. Flera kan gälla. Värden från printing/completions/banner-finishing."@sv,
+        "柔性宽幅产品带有哪些边缘加工——包边、焊接、扣眼、穿杆袋。可多选。取值来自 printing/completions/banner-finishing。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "VAR:FN§BANNER-FINISHING" ;
+    skos:prefLabel "Bannerkonfektion"@da,
+        "Bannerkonfektion"@de,
+        "Banner Finishing"@en,
+        "Acabado de banners"@es,
+        "बैनर फ़िनिशिंग"@hi,
+        "バナー仕上げ"@ja,
+        "Bannerferdiggjøring"@nb,
+        "Bannerafwerking"@nl,
+        "Wykończenie banerów"@pl,
+        "Acabamento de banners"@pt,
+        "Bannerkonfektion"@sv,
+        "横幅加工"@zh-Hans ;
+    ptpge:cardinality "multiple" ;
+    ptpge:datatype "enum" ;
+    ptpge:elementType "variable" ;
+    ptpge:level "element" ;
+    ptpge:question "Nogen strukturel efterbehandling?"@da,
+        "Eine strukturelle Weiterverarbeitung?"@de,
+        "Any structural finishing?"@en,
+        "¿Algún acabado estructural?"@es,
+        "कोई संरचनात्मक फ़िनिशिंग?"@hi,
+        "構造的な加工はありますか？"@ja,
+        "Noen strukturell etterbehandling?"@nb,
+        "Een structurele nabewerking?"@nl,
+        "Jakaś obróbka strukturalna?"@pl,
+        "Algum acabamento estrutural?"@pt,
+        "Någon strukturell efterbehandling?"@sv,
+        "需要结构加工吗？"@zh-Hans ;
+    ptpge:scope "product" ;
+    ptpge:status "proposed" ;
+    ptpge:valueDomain <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    ptpge:version "2026-10-16" .
+

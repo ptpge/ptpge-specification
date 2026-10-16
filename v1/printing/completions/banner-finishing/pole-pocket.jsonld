@@ -1,0 +1,70 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/banner-finishing/pole-pocket",
+  "type": "skos:Concept",
+  "version": "2026-10-16",
+  "status": "proposed",
+  "notation": "P:CP§POLE-POCKET",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Pole Pocket",
+    "nb": "Stanglomme",
+    "de": "Hohlsaum",
+    "ja": "ポールポケット",
+    "es": "Vaina para barra",
+    "zh-Hans": "穿杆袋",
+    "sv": "Stångficka",
+    "da": "Stanglomme",
+    "nl": "Tunnelzoom",
+    "pl": "Tunel na rurkę",
+    "pt": "Bolsa para varão",
+    "hi": "पोल पॉकेट"
+  },
+  "definition": {
+    "en": "A sleeve sewn or welded along an edge so a pole, rod or cable can be threaded through; typical for flags, hanging banners and roll-ups.",
+    "nb": "En lomme sydd eller sveiset langs en kant så en stang, et rør eller en wire kan tres gjennom; typisk for flagg, hengende bannere og roll-ups.",
+    "de": "Ein entlang einer Kante genähter oder geschweißter Tunnel, durch den eine Stange, ein Rohr oder ein Seil geführt wird; typisch für Fahnen, Hängebanner und Roll-ups.",
+    "ja": "ポール・棒・ワイヤーを通せるよう端に沿って縫製または溶着した袋状の部分。旗、吊りバナー、ロールアップで典型的。",
+    "es": "Una vaina cosida o soldada a lo largo de un borde para pasar una barra, varilla o cable; típica de banderas, banners colgantes y roll-ups.",
+    "sv": "En ficka sydd eller svetsad längs en kant så att en stång, ett rör eller en vajer kan träs igenom; typisk för flaggor, hängande banners och roll-ups.",
+    "da": "En lomme syet eller svejset langs en kant, så en stang, et rør eller en wire kan trækkes igennem; typisk for flag, hængende bannere og roll-ups.",
+    "nl": "Een tunnel genaaid of gelast langs een rand zodat een stok, buis of kabel erdoor kan; typisch voor vlaggen, hangende banners en roll-ups.",
+    "pl": "Tunel wszyty lub zgrzany wzdłuż krawędzi, przez który przechodzi drążek, rurka lub linka; typowy dla flag, banerów wiszących i roll-upów.",
+    "pt": "Uma bolsa costurada ou soldada ao longo de uma borda para passar um varão, haste ou cabo; típica de bandeiras, banners suspensos e roll-ups.",
+    "hi": "किनारे के साथ सिली या वेल्ड की गई आस्तीन जिसमें पोल, छड़ या केबल डाली जा सके; झंडों, लटकते बैनरों और रोल-अप में आम।",
+    "zh-Hans": "沿边缘缝制或焊接的套管，可穿入杆、棒或钢索；常见于旗帜、悬挂横幅与易拉宝。"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/banner-finishing",
+  "created": "2026-10-16T10:40:00Z",
+  "modified": "2026-10-16T10:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Pole sleeve",
+      "Rod pocket",
+      "Pole hem",
+      "Sleeve"
+    ],
+    "nb": [
+      "Stanglomme",
+      "Lomme"
+    ],
+    "de": [
+      "Hohlsaum",
+      "Stangentasche"
+    ],
+    "nl": [
+      "Tunnel",
+      "Koker"
+    ],
+    "sv": [
+      "Stångkanal"
+    ],
+    "da": [
+      "Stangkanal"
+    ]
+  }
+}

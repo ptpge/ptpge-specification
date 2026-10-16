@@ -3,6 +3,16 @@
 What changed in each data release, newest first. Mirrors https://ptpge.org/changelog/.
 Data releases are versioned by date; the API contract is `v1`.
 
+## 2026-10-16
+
+### Completions: Drilling, and how a banner is finished: five terms found by mapping a live MIS
+
+Reading all wizard products of a MultiPress test environment through the vocabulary (14 October) left ten finishing lines without a term. Frames were hardware; the rest were real gaps. New: `printing/completions/structural-finishing/drilling` (2- or 4-hole drilling for binders, one hole for hanging — count and position belong to the order), and a new category `printing/completions/banner-finishing` with `hemming`, `welding`, `eyelets` and `pole-pocket` — the edge work that lets a flexible large-format print be hung. New variable `variables/finishing/banner-finishing` (enum, multiple, product scope); templates Banners, Flags and Roll-ups carry `supportsBannerFinishing`; drilling joins `supportsStructuralFinishing` on Notepads, NCR pads, Calendars, Posters, Tear-off pads and Booklets. First vocabulary change proposed from a partner's production data (SD-0109).
+
+- `https://ptpge.org/v1/printing/completions/structural-finishing/drilling`
+- `https://ptpge.org/v1/printing/completions/banner-finishing`
+- `https://ptpge.org/v1/variables/finishing/banner-finishing`
+
 ## 2026-10-12
 
 ### Spot inks: A spot colour is named: variables/features/spot-ink carries the Pantone, HKS or RAL code

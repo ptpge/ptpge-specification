@@ -141,7 +141,7 @@
   "group": "products",
   "broader": "https://ptpge.org/v1/ordering/products",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-10-16T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "A multi-page printed product made from several sheets bound along one edge — used for programmes, catalogues, manuals, reports, and magazines. The interior page count is driven by the Page Count variable; the binding method (saddle-stitching, perfect binding, or wire-O) is chosen on the Binding axis. Built on the Multi-page Setup Model.",
@@ -220,7 +220,8 @@
     "https://ptpge.org/v1/printing/completions/binding/coil-binding"
   ],
   "supportsStructuralFinishing": [
-    "https://ptpge.org/v1/printing/completions/structural-finishing/scoring"
+    "https://ptpge.org/v1/printing/completions/structural-finishing/scoring",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/drilling"
   ],
   "supportsCertification": [
     "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",

@@ -7,7 +7,7 @@
     dcterms:created "2026-06-17T10:05:27+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-06T19:16:59+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/variables> ;
     skos:definition "Færdiggørelses-konfigurationsvariabler — de færdiggørelsesakser et trykt produkt kan konfigureres langs: indbinding, kantbehandling og strukturel efterbehandling."@da,
         "Weiterverarbeitungs-Konfigurationsvariablen — die Weiterverarbeitungsachsen, entlang derer ein Druckprodukt konfiguriert werden kann: Bindung, Kantenbearbeitung und strukturelle Verarbeitung."@de,
@@ -22,7 +22,8 @@
         "Konfigurationsvariabler för efterbehandling — de efterbehandlingsaxlar en trycksak kan konfigureras längs: bindning, kantbehandling och strukturell efterbehandling."@sv,
         "印后加工配置变量 — 印刷品可沿其配置的印后加工轴：装订、边缘处理与结构加工。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/variables/finishing/binding>,
+    skos:narrower <https://ptpge.org/v1/variables/finishing/banner-finishing>,
+        <https://ptpge.org/v1/variables/finishing/binding>,
         <https://ptpge.org/v1/variables/finishing/edge>,
         <https://ptpge.org/v1/variables/finishing/structural-finishing> ;
     skos:notation "VAR:FN" ;

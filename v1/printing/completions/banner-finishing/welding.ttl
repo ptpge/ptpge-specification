@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing/welding> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Svejset"@da,
+        "Geschweißt"@de,
+        "HF-geschweißt"@de,
+        "HF-welded"@en,
+        "Heat-welded"@en,
+        "Welded"@en,
+        "Welded seam"@en,
+        "Sveis"@nb,
+        "Sveiset"@nb,
+        "Gelast"@nl,
+        "Svetsad"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "Kanter eller baner samlet med varme- eller højfrekvenssvejsning i stedet for syning – standardsømmen på PVC-bannere og samlingen, der gør flere baner til ét stykke."@da,
+        "Kanten oder Bahnen werden durch Heiß- oder Hochfrequenzschweißen statt Nähen verbunden – der Standardsaum bei PVC-Bannern und die Naht, die Bahnen zu einem großen Stück fügt."@de,
+        "Edges or panels joined by heat or high-frequency welding instead of sewing — the standard hem on PVC banners and the seam that joins widths into one large piece."@en,
+        "Bordes o paños unidos por soldadura térmica o de alta frecuencia en lugar de costura — el dobladillo estándar en banners de PVC y la unión de anchos en una sola pieza."@es,
+        "सिलाई के बजाय हीट या हाई-फ़्रीक्वेंसी वेल्डिंग से किनारे या पैनल जोड़ना — PVC बैनर का मानक हेम और कई चौड़ाइयों को एक टुकड़ा बनाने वाला जोड़।"@hi,
+        "縫製ではなく熱または高周波溶着で端やパネルを接合する — PVCバナーの標準的なヘムと、複数幅を1枚に接ぐ継ぎ目。"@ja,
+        "Kanter eller baner sammenføyd med varme- eller høyfrekvenssveising i stedet for søm – standardfalden på PVC-bannere og skjøten som gjør flere baner til ett stort stykke."@nb,
+        "Randen of banen verbonden door warmte- of hoogfrequentlassen in plaats van naaien – de standaardzoom op pvc-banners en de naad die banen tot één groot stuk voegt."@nl,
+        "Krawędzie lub bryty łączone zgrzewaniem termicznym lub wysokoczęstotliwościowym zamiast szycia – standardowe obszycie banerów PVC i łączenie brytów w jedną całość."@pl,
+        "Bordas ou painéis unidos por soldadura térmica ou de alta frequência em vez de costura — a bainha padrão em banners de PVC e a emenda que junta larguras numa só peça."@pt,
+        "Kanter eller våder sammanfogade med värme- eller högfrekvenssvetsning i stället för söm – standardfållen på PVC-banners och skarven som gör flera våder till ett stycke."@sv,
+        "以热焊或高频焊接而非缝合连接边缘或幅面——PVC横幅的标准包边，以及将多幅拼成一整幅的接缝。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§WELDING" ;
+    skos:prefLabel "Svejsning"@da,
+        "Schweißen"@de,
+        "Welding"@en,
+        "Soldadura"@es,
+        "वेल्डिंग"@hi,
+        "溶着"@ja,
+        "Sveising"@nb,
+        "Lassen"@nl,
+        "Zgrzewanie"@pl,
+        "Soldadura"@pt,
+        "Svetsning"@sv,
+        "焊接"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+

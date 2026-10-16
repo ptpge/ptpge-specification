@@ -1,0 +1,69 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/completions/banner-finishing/hemming",
+  "type": "skos:Concept",
+  "version": "2026-10-16",
+  "status": "proposed",
+  "notation": "P:CP§HEMMING",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Hemming",
+    "nb": "Falding",
+    "de": "Säumen",
+    "ja": "ヘム加工",
+    "es": "Dobladillo",
+    "zh-Hans": "包边",
+    "sv": "Fållning",
+    "da": "Sømning",
+    "nl": "Zomen",
+    "pl": "Obszycie",
+    "pt": "Bainha",
+    "hi": "हेमिंग"
+  },
+  "definition": {
+    "en": "The edge is folded back and fixed (sewn, glued or taped) so the banner can carry eyelets and tension without tearing.",
+    "nb": "Kanten brettes inn og festes (sydd, limt eller tapet) så banneret tåler maljer og strekk uten å rives.",
+    "de": "Die Kante wird umgeschlagen und fixiert (genäht, geklebt oder getapet), damit das Banner Ösen und Zug ohne Einreißen trägt.",
+    "ja": "端を折り返して固定（縫製・接着・テープ）し、ハトメや張力で破れないようにする。",
+    "es": "El borde se dobla y se fija (cosido, pegado o con cinta) para que el banner soporte ojales y tensión sin rasgarse.",
+    "sv": "Kanten viks in och fixeras (sydd, limmad eller tejpad) så att bannern tål öljetter och spänning utan att rivas.",
+    "da": "Kanten foldes ind og fastgøres (syet, limet eller tapet), så banneret tåler øjer og træk uden at rive.",
+    "nl": "De rand wordt omgevouwen en vastgezet (genaaid, gelijmd of getapet) zodat de banner ringen en spanning verdraagt zonder te scheuren.",
+    "pl": "Krawędź jest zawinięta i utrwalona (szyta, klejona lub taśmą), aby baner wytrzymał oczka i naciąg bez rozdarcia.",
+    "pt": "A borda é dobrada e fixada (costurada, colada ou com fita) para que o banner suporte ilhós e tensão sem rasgar.",
+    "hi": "किनारे को मोड़कर (सिलाई, गोंद या टेप से) फिक्स किया जाता है ताकि बैनर आईलेट और खिंचाव सह सके।",
+    "zh-Hans": "将边缘折回并固定（缝合、粘合或贴带），使横幅可承受扣眼与张力而不撕裂。"
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "completions",
+  "broader": "https://ptpge.org/v1/printing/completions/banner-finishing",
+  "created": "2026-10-16T10:40:00Z",
+  "modified": "2026-10-16T10:40:00Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "altLabels": {
+    "en": [
+      "Hemmed",
+      "Hem",
+      "Folded edge"
+    ],
+    "nb": [
+      "Faldet",
+      "Fald"
+    ],
+    "de": [
+      "Gesäumt",
+      "Saum"
+    ],
+    "nl": [
+      "Gezoomd",
+      "Zoom"
+    ],
+    "sv": [
+      "Fållad"
+    ],
+    "da": [
+      "Sømmet"
+    ]
+  }
+}

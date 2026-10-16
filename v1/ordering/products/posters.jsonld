@@ -112,7 +112,7 @@
   "group": "products",
   "broader": "https://ptpge.org/v1/ordering/products",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-10-16T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "A large-format single-sheet print for display and promotion — walls, windows, events, and point-of-sale. Typically printed on one side in large A-series formats (A4 up to A0) on heavier paper, and delivered flat (no folding or binding). Built on the Flat Sheet Setup Model.",
@@ -205,7 +205,8 @@
     "https://ptpge.org/v1/printing/features/surface-finish/lamination/gloss"
   ],
   "supportsStructuralFinishing": [
-    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting"
+    "https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/drilling"
   ],
   "supportsCertification": [
     "https://ptpge.org/v1/printing/standards/certifications/environmental/eu-ecolabel",

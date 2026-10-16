@@ -44,9 +44,10 @@
     "https://ptpge.org/v1/printing/completions/structural-finishing/scoring",
     "https://ptpge.org/v1/printing/completions/structural-finishing/perforation",
     "https://ptpge.org/v1/printing/completions/structural-finishing/routing",
-    "https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting"
+    "https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting",
+    "https://ptpge.org/v1/printing/completions/structural-finishing/drilling"
   ],
   "created": "2026-05-30T00:00:00Z",
-  "modified": "2026-09-23T06:12:20Z",
+  "modified": "2026-10-16T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/"
 }

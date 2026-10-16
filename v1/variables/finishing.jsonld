@@ -22,14 +22,15 @@
   "inScheme": "https://ptpge.org/v1/scheme",
   "broader": "https://ptpge.org/v1/variables",
   "created": "2026-06-17T10:05:27Z",
-  "modified": "2026-10-06T19:16:59Z",
+  "modified": "2026-10-16T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "notation": "VAR:FN",
   "creator": "https://ptpge.org/contributors/ptpge",
   "narrower": [
     "https://ptpge.org/v1/variables/finishing/edge",
     "https://ptpge.org/v1/variables/finishing/binding",
-    "https://ptpge.org/v1/variables/finishing/structural-finishing"
+    "https://ptpge.org/v1/variables/finishing/structural-finishing",
+    "https://ptpge.org/v1/variables/finishing/banner-finishing"
   ],
   "definition": {
     "en": "Finishing configuration variables — the finishing axes a printed product can be configured along: binding, edge treatment and structural finishing.",

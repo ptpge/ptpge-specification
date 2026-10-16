@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing/eyelets> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Øjer isat"@da,
+        "Geöst"@de,
+        "Metallösen"@de,
+        "Eyeleted"@en,
+        "Grommets"@en,
+        "Metal eyelets"@en,
+        "Maljert"@nb,
+        "Øyer"@nb,
+        "Nestels"@nl,
+        "Ogen"@nl,
+        "Öljetterad"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/banner-finishing> ;
+    skos:definition "Metalringe sat gennem sømmen med mellemrum, så banneret kan bindes eller hægtes op; afstanden angives i ordren."@da,
+        "Metallringe, die in Abständen durch den Saum gesetzt werden, damit das Banner gebunden oder eingehängt werden kann; der Abstand steht im Auftrag."@de,
+        "Metal rings set through the hem at intervals so the banner can be tied or hooked; spacing is stated on the order."@en,
+        "Anillas metálicas colocadas a intervalos en el dobladillo para atar o colgar el banner; la separación se indica en el pedido."@es,
+        "हेम में निश्चित दूरी पर लगे धातु के छल्ले ताकि बैनर बांधा या टांगा जा सके; दूरी ऑर्डर में बताई जाती है।"@hi,
+        "バナーを結んだり引っ掛けたりできるよう、ヘムに一定間隔で打つ金属リング。間隔は注文で指定。"@ja,
+        "Metallringer satt gjennom falden med jevne mellomrom så banneret kan bindes eller hektes opp; avstanden oppgis i bestillingen."@nb,
+        "Metalen ringen op afstand door de zoom gezet zodat de banner kan worden vastgebonden of opgehangen; de afstand staat in de order."@nl,
+        "Metalowe pierścienie osadzone w obszyciu w odstępach, aby baner można było przywiązać lub zawiesić; rozstaw podaje zamówienie."@pl,
+        "Anéis metálicos aplicados na bainha a intervalos para atar ou pendurar o banner; o espaçamento consta da encomenda."@pt,
+        "Metallringar satta genom fållen med jämna mellanrum så att bannern kan knytas eller hakas upp; avståndet anges i ordern."@sv,
+        "按间隔穿过包边安装的金属环，便于系绳或挂钩；间距在订单中说明。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§EYELETS" ;
+    skos:prefLabel "Øjer"@da,
+        "Ösen"@de,
+        "Eyelets"@en,
+        "Ojales"@es,
+        "आईलेट"@hi,
+        "ハトメ"@ja,
+        "Maljer"@nb,
+        "Ringen"@nl,
+        "Oczka"@pl,
+        "Ilhós"@pt,
+        "Öljetter"@sv,
+        "扣眼"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+

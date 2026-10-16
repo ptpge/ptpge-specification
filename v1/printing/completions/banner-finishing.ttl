@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/banner-finishing> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/completions> ;
+    skos:definition "Hvordan kanterne på et fleksibelt storformattryk konfektioneres, så det kan hænges op eller monteres – sømning, svejsning, øjer, stanglommer."@da,
+        "Wie die Kanten eines flexiblen Großformatdrucks konfektioniert werden, damit er aufgehängt oder montiert werden kann – Saum, Schweißen, Ösen, Hohlsaum."@de,
+        "How the edges of a flexible large-format print are finished so it can be hung or mounted — hemming, welding, eyelets, pole pockets."@en,
+        "Cómo se rematan los bordes de una impresión flexible de gran formato para colgarla o montarla — dobladillo, soldadura, ojales, vainas."@es,
+        "लचीले लार्ज-फॉर्मेट प्रिंट के किनारों को टांगने या लगाने के लिए कैसे तैयार किया जाता है — हेमिंग, वेल्डिंग, आईलेट, पोल पॉकेट।"@hi,
+        "柔軟な大判プリントを吊り下げ・設置できるよう端を仕上げる方法 — ヘム、溶着、ハトメ、ポールポケット。"@ja,
+        "Hvordan kantene på et fleksibelt storformattrykk ferdiggjøres så det kan henges opp eller monteres – falding, sveising, maljer, stanglommer."@nb,
+        "Hoe de randen van een flexibele grootformaatprint worden afgewerkt zodat hij opgehangen of gemonteerd kan worden – zomen, lassen, ringen, tunnelzomen."@nl,
+        "Sposób wykończenia krawędzi elastycznego wydruku wielkoformatowego, aby można go było zawiesić lub zamontować – obszycie, zgrzewanie, oczka, tunele."@pl,
+        "Como as bordas de uma impressão flexível de grande formato são acabadas para pendurar ou montar — bainha, soldadura, ilhós, bolsas para varão."@pt,
+        "Hur kanterna på ett flexibelt storformatstryck konfektioneras så att det kan hängas eller monteras – fållning, svetsning, öljetter, stångfickor."@sv,
+        "柔性宽幅印刷品边缘的加工方式，以便悬挂或安装——包边、焊接、扣眼、穿杆袋。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/completions/banner-finishing/eyelets>,
+        <https://ptpge.org/v1/printing/completions/banner-finishing/hemming>,
+        <https://ptpge.org/v1/printing/completions/banner-finishing/pole-pocket>,
+        <https://ptpge.org/v1/printing/completions/banner-finishing/welding> ;
+    skos:notation "P:CP-BAN" ;
+    skos:prefLabel "Bannerkonfektion"@da,
+        "Bannerkonfektion"@de,
+        "Banner Finishing"@en,
+        "Acabado de banners"@es,
+        "बैनर फ़िनिशिंग"@hi,
+        "バナー仕上げ"@ja,
+        "Bannerferdiggjøring"@nb,
+        "Bannerafwerking"@nl,
+        "Wykończenie banerów"@pl,
+        "Acabamento de banners"@pt,
+        "Bannerkonfektion"@sv,
+        "横幅加工"@zh-Hans ;
+    ptpge:group "completions" ;
+    ptpge:level "category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+

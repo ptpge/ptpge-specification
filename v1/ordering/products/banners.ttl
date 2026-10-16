@@ -7,7 +7,7 @@
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:altLabel "PVC-banner"@da,
         "banner"@da,
         "stofbanner"@da,
@@ -113,6 +113,7 @@
         <https://ptpge.org/v1/printing/features/colors/none>,
         <https://ptpge.org/v1/printing/features/colors/white> ;
     ptpge:recommendedVariables <https://ptpge.org/v1/variables/configuration/shape>,
+        <https://ptpge.org/v1/variables/finishing/banner-finishing>,
         <https://ptpge.org/v1/variables/production/technology>,
         <https://ptpge.org/v1/variables/substrate/substrate-coating>,
         <https://ptpge.org/v1/variables/substrate/substrate-color>,

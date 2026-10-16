@@ -6,7 +6,7 @@
 <https://ptpge.org/v1/printing/completions> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/printing> ;
     skos:definition "De operationer, der forvandler trykte ark til et færdigt, leverbart produkt: efterbehandling (falsning, indbinding, rilning, perforering, laminering, bandering), placeringsvalgene for disse operationer (venstre/højre/top/bund) og emballering til forsendelse."@da,
         "Die Schritte, die bedruckte Bogen in ein fertiges, lieferbares Produkt verwandeln: Veredelung (Falzen, Bindung, Rillen, Perforation, Laminierung, Banderolieren), die Platzierungsentscheidungen für diese Operationen (Falzung oder Bindung an der Längs- vs. Schmalseite) und die Verpackung, die das Produkt auf dem Transportweg schützt. Completions ist die letzte Facette in der Fertigungssequenz — alles davor produziert bedrucktes Material; alles in Completions verwandelt dieses Material in etwas, das versendet werden kann."@de,
@@ -21,7 +21,8 @@
         "Operationerna som förvandlar tryckta ark till en färdig, leveransklar produkt: efterbehandling (falsning, bindning, bigning, perforering, laminering, banderollering), placeringsbesluten för dessa operationer (fals eller bindning på vänster- kontra ovansida) och emballaget som skyddar produkten under transport. Färdigställande är den sista facetten i tillverkningssekvensen — allt före den producerar tryckt material; allt i Färdigställande förvandlar materialet till något som kan skickas."@sv,
         "将印刷张转化为可交付成品的操作：印后加工（折页、装订、压痕、打孔、覆膜、捆扎）、这些操作的位置决策（左侧或顶部折页/装订）以及保护产品运输的包装。印后加工涵盖所有油墨施加之后的环节。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/printing/completions/binding>,
+    skos:narrower <https://ptpge.org/v1/printing/completions/banner-finishing>,
+        <https://ptpge.org/v1/printing/completions/binding>,
         <https://ptpge.org/v1/printing/completions/fold-binding-edge>,
         <https://ptpge.org/v1/printing/completions/folding>,
         <https://ptpge.org/v1/printing/completions/packaging>,

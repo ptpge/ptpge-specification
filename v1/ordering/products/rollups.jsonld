@@ -115,7 +115,7 @@
   "group": "products",
   "broader": "https://ptpge.org/v1/ordering/products",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-10-16T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "A retractable banner that pulls up from a base cassette into a free-standing display — for events and retail.",
@@ -206,6 +206,11 @@
     "https://ptpge.org/v1/variables/substrate/substrate-color",
     "https://ptpge.org/v1/variables/substrate/substrate-weight",
     "https://ptpge.org/v1/variables/substrate/substrate-finish",
-    "https://ptpge.org/v1/variables/substrate/substrate-coating"
+    "https://ptpge.org/v1/variables/substrate/substrate-coating",
+    "https://ptpge.org/v1/variables/finishing/banner-finishing"
+  ],
+  "supportsBannerFinishing": [
+    "https://ptpge.org/v1/printing/completions/banner-finishing/hemming",
+    "https://ptpge.org/v1/printing/completions/banner-finishing/pole-pocket"
   ]
 }

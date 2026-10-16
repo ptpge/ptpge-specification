@@ -6,7 +6,7 @@
 <https://ptpge.org/v1/printing/completions/structural-finishing> a skos:Concept ;
     dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:12:20+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/printing/completions> ;
     skos:definition "Efterbehandlingsoperationer, der skærer, riller eller former selve substratet — udstansning, laserskæring, kiss-cutting, rilning, perforering og fræsning."@da,
         "Weiterverarbeitung, die den Bedruckstoff selbst schneidet, rillt oder formt — Stanzen, Laserschneiden, Kiss-Cutting, Rillen, Perforation und Fräsen."@de,
@@ -22,6 +22,7 @@
         "对承印材料本身进行切割、压痕或成形的印后工序 — 模切、激光切割、半切、压痕、打孔线与铣切。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
     skos:narrower <https://ptpge.org/v1/printing/completions/structural-finishing/die-cutting>,
+        <https://ptpge.org/v1/printing/completions/structural-finishing/drilling>,
         <https://ptpge.org/v1/printing/completions/structural-finishing/guillotine-cutting>,
         <https://ptpge.org/v1/printing/completions/structural-finishing/kiss-cutting>,
         <https://ptpge.org/v1/printing/completions/structural-finishing/laser-cutting>,

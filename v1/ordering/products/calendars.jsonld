@@ -124,7 +124,7 @@
   "group": "products",
   "broader": "https://ptpge.org/v1/ordering/products",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-10-16T10:40:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "A printed calendar for wall, desk or pocket — dated month grids, often with images, for promotion and personal use.",
@@ -282,5 +282,8 @@
     "https://ptpge.org/v1/variables/configuration/back-orientation",
     "https://ptpge.org/v1/variables/compliance/print-standard",
     "https://ptpge.org/v1/variables/substrate/substrate-class"
+  ],
+  "supportsStructuralFinishing": [
+    "https://ptpge.org/v1/printing/completions/structural-finishing/drilling"
   ]
 }

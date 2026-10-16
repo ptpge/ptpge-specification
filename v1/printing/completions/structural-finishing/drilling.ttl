@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/completions/structural-finishing/drilling> a skos:Concept ;
+    dcterms:created "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "Boret"@da,
+        "Hulning"@da,
+        "2-fach gelocht"@de,
+        "4-fach gelocht"@de,
+        "Gebohrt"@de,
+        "Lochung"@de,
+        "2-hole"@en,
+        "4-hole"@en,
+        "Drilled"@en,
+        "Hole drilling"@en,
+        "Hole punching"@en,
+        "2 hull"@nb,
+        "4 hull"@nb,
+        "Boret"@nb,
+        "Hulling"@nb,
+        "Geboord"@nl,
+        "Perforatie voor ringband"@nl,
+        "2 otwory"@pl,
+        "4 otwory"@pl,
+        "Dziurkowanie"@pl,
+        "2 furos"@pt,
+        "4 furos"@pt,
+        "Furado"@pt,
+        "Borrad"@sv,
+        "Hålning"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/completions/structural-finishing> ;
+    skos:definition "Runde huller boret gennem en stak ark eller et færdigt produkt – typisk 2 eller 4 huller til ringbind, eller ét hul til ophæng. Antal og placering angives i ordren, ikke i termen."@da,
+        "Runde Löcher, die durch einen Stapel Bogen oder ein fertiges Produkt gebohrt werden – typisch 2 oder 4 Löcher für Ringordner oder ein Loch zum Aufhängen. Anzahl und Position stehen im Auftrag, nicht im Begriff."@de,
+        "Round holes drilled through a stack of sheets or a finished piece — typically 2 or 4 holes for ring binders, or one hole for hanging. The number and position of holes are stated on the order, not in the term."@en,
+        "Agujeros redondos taladrados a través de una pila de hojas o de una pieza acabada — típicamente 2 o 4 para archivadores, o uno para colgar. Número y posición se indican en el pedido, no en el término."@es,
+        "शीटों के ढेर या तैयार उत्पाद में गोल छेद — आम तौर पर रिंग बाइंडर के लिए 2 या 4 छेद, या टांगने के लिए एक। संख्या और स्थिति ऑर्डर में बताई जाती है, टर्म में नहीं।"@hi,
+        "重ねた用紙や完成品に丸穴をあける加工 — リングバインダー用の2穴・4穴、または吊り下げ用の1穴が典型。穴数と位置は注文で指定し、用語には含めない。"@ja,
+        "Runde hull boret gjennom en stabel ark eller et ferdig produkt – typisk 2 eller 4 hull til ringperm, eller ett hull til oppheng. Antall og plassering oppgis i bestillingen, ikke i termen."@nb,
+        "Ronde gaten geboord door een stapel vellen of een afgewerkt product – typisch 2 of 4 gaten voor ringbanden, of één gat om op te hangen. Aantal en positie staan in de order, niet in de term."@nl,
+        "Okrągłe otwory wiercone przez stos arkuszy lub gotowy produkt – zwykle 2 lub 4 do segregatorów albo jeden do zawieszenia. Liczbę i położenie podaje zamówienie, nie termin."@pl,
+        "Furos redondos feitos através de uma pilha de folhas ou de uma peça acabada — tipicamente 2 ou 4 para dossiês, ou um para pendurar. Número e posição constam da encomenda, não do termo."@pt,
+        "Runda hål borrade genom en bunt ark eller en färdig produkt – typiskt 2 eller 4 hål för ringpärm, eller ett hål för upphängning. Antal och placering anges i ordern, inte i termen."@sv,
+        "在一叠纸或成品上钻圆孔——通常为活页夹用的2孔或4孔，或用于悬挂的1孔。孔数与位置在订单中说明，不在术语中。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CP§DRILLING" ;
+    skos:prefLabel "Boring"@da,
+        "Bohren"@de,
+        "Drilling"@en,
+        "Taladrado"@es,
+        "ड्रिलिंग"@hi,
+        "ドリル穴あけ"@ja,
+        "Boring"@nb,
+        "Boren"@nl,
+        "Wiercenie"@pl,
+        "Furação"@pt,
+        "Borrning"@sv,
+        "钻孔"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "completions" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-16" .
+
