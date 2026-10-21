@@ -14,9 +14,6 @@
     "sv": "Dekorfärg (namngiven)",
     "da": "Staffagefarve (navngivet)",
     "nl": "Steunkleur (benoemd)",
-    "fi": "Spottiväri (nimetty)",
-    "is": "Sérlitur (nefndur)",
-    "fr": "Ton direct (nommé)",
     "pl": "Kolor dodatkowy (nazwany)",
     "es": "Tinta directa (nombrada)",
     "ja": "特色（指定）",
@@ -54,9 +51,6 @@
       "Pantone-nummer",
       "PMS-kleur"
     ],
-    "fr": [
-      "Numéro Pantone"
-    ],
     "es": [
       "Número Pantone"
     ],
@@ -81,9 +75,6 @@
     "sv": "Konfigurerbar axel: den namngivna färgen bakom varje dekorfärgslager, som en kod under ett färgmatchningssystem — Pantone 300 C, HKS 43 K, RAL 5015. Värdet är systemtermen följd av koden; koden kontrolleras på form, aldrig mot en lista. Ett värde per dekorfärgslager på samma yta (SD-0104).",
     "da": "Konfigurerbar akse: den navngivne farve bag hvert staffagefarvelag, som en kode under et farvematchingsystem — Pantone 300 C, HKS 43 K, RAL 5015. Værdien er systemtermen efterfulgt af koden; koden kontrolleres på form, aldrig mod en liste. Én værdi pr. staffagefarvelag på samme flade (SD-0104).",
     "nl": "Configureerbare as: de benoemde inkt achter elke steunkleurlaag, als code onder een kleurmatchingsysteem — Pantone 300 C, HKS 43 K, RAL 5015. De waarde is de systeemterm gevolgd door de code; de code wordt op vorm gecontroleerd, nooit tegen een lijst. Eén waarde per steunkleurlaag op hetzelfde vlak (SD-0104).",
-    "fi": "Konfiguroitava akseli: nimetty väri kunkin spottiväritason takana, koodina värijärjestelmän alla — Pantone 300 C, HKS 43 K, RAL 5015. Arvo on järjestelmätermi ja koodi; koodi tarkistetaan muodoltaan, ei listaa vasten. Yksi arvo per spottiväritaso samalla pinnalla (SD-0104).",
-    "is": "Stillanlegur ás: nefndur litur á bak við hvert sérlitalag, sem kóði undir litakerfi — Pantone 300 C, HKS 43 K, RAL 5015. Gildið er kerfishugtakið og kóðinn; kóðinn er athugaður á formi, aldrei gegn lista. Eitt gildi á hvert sérlitalag á sama fleti (SD-0104).",
-    "fr": "Axe configurable : l’encre nommée derrière chaque couche de ton direct, comme code sous un système de référence couleur — Pantone 300 C, HKS 43 K, RAL 5015. La valeur est le terme du système suivi du code ; le code est vérifié sur sa forme, jamais contre une liste. Une valeur par couche de ton direct sur la même face (SD-0104).",
     "pl": "Konfigurowalna oś: nazwana farba za każdą warstwą koloru dodatkowego, jako kod w systemie dopasowania kolorów — Pantone 300 C, HKS 43 K, RAL 5015. Wartość to termin systemu i kod; kod sprawdzany jest pod kątem formy, nigdy względem listy. Jedna wartość na warstwę koloru dodatkowego na tej samej powierzchni (SD-0104).",
     "es": "Eje configurable: la tinta nombrada detrás de cada capa de tinta directa, como código bajo un sistema de referencia de color — Pantone 300 C, HKS 43 K, RAL 5015. El valor es el término del sistema seguido del código; el código se comprueba por su forma, nunca contra una lista. Un valor por capa de tinta directa en la misma cara (SD-0104).",
     "ja": "設定可能な軸：各特色レイヤーの背後にある指定インキを、カラーマッチングシステム下のコードとして — Pantone 300 C、HKS 43 K、RAL 5015。値はシステム用語とコード；コードは形式のみ検証され、リストとは照合されない。同一面の特色レイヤーごとに1値（SD-0104）。",
@@ -103,10 +94,7 @@
     "nl": "Welke steunkleur? (bv. Pantone 300 C)",
     "pl": "Który kolor dodatkowy? (np. Pantone 300 C)",
     "pt": "Que cor direta? (p. ex. Pantone 300 C)",
-    "hi": "कौन-सी स्पॉट स्याही? (जैसे Pantone 300 C)",
-    "fi": "Mikä spottiväri? (esim. Pantone 300 C)",
-    "is": "Hvaða sérlitur? (t.d. Pantone 300 C)",
-    "fr": "Quel ton direct ? (p. ex. Pantone 300 C)"
+    "hi": "कौन-सी स्पॉट स्याही? (जैसे Pantone 300 C)"
   },
   "datatype": "code",
   "cardinality": "multiple",
