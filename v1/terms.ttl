@@ -17016,7 +17016,14 @@
     ptpge:level "element" ;
     ptpge:pageCountConstraint "even" ;
     ptpge:pageCountRange [ ] ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17026,13 +17033,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17082,15 +17082,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17100,6 +17092,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17197,7 +17197,14 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17207,13 +17214,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17262,7 +17262,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17272,14 +17280,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17463,15 +17463,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17481,6 +17473,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17547,7 +17547,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17557,14 +17565,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17826,15 +17826,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17844,6 +17836,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -18403,13 +18403,7 @@
     ptpge:group "features" ;
     ptpge:hasProperty [ ] ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
-            ptpge:mappingRow "crosswalk row 25" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "EmbossingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.6 · p.74",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
                 "§5.6.12 · p.118",
                 "§6.32 · p.197" ;
             ptpge:mappingRow "crosswalk row 27" ;
@@ -18417,6 +18411,12 @@
             ptpge:sourceElement "Embossing",
                 "EmbossingIntent",
                 "EmbossingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23065,6 +23065,56 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-07-18" .
 
+<https://ptpge.org/v1/printing/standards/regulations/packaging-and-packaging-waste-regulation> a skos:Concept ;
+    dcterms:created "2026-10-23T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-23T00:00:00+00:00"^^xsd:dateTime ;
+    skos:altLabel "PPWR"@da,
+        "PPWR"@de,
+        "Verordnung (EU) 2025/40"@de,
+        "PPWR"@en,
+        "Regulation (EU) 2025/40"@en,
+        "PPWR"@es,
+        "PPWR"@hi,
+        "Forordning (EU) 2025/40"@nb,
+        "PPWR"@nb,
+        "PPWR"@nl,
+        "PPWR"@pl,
+        "PPWR"@pt,
+        "PPWR"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/standards/regulations> ;
+    skos:definition "EU-forordning (EU) 2025/40 om emballage og emballageaffald — i kraft 11. februar 2025, gældende fra 12. august 2026, erstatter direktiv 94/62/EF. Ét direkte gældende regelsæt for al emballage på EU-markedet: design til genanvendelse, minimumsindhold af genanvendt materiale, genbrugsformater, harmoniseret mærkning af materialesammensætning og sortering samt begrænsninger for problematiske stoffer. Refereret her som det regulatoriske anker for trykt emballage — de materiale-, genanvendelses- og mærkningsfakta, en emballagekonfiguration skal kunne udtrykke. PTPGE-termerne leverer den trykfaglige semantik; forordningen fastlægger, hvad der skal være sandt."@da,
+        "EU-Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle — in Kraft seit 11. Februar 2025, anwendbar ab 12. August 2026, ersetzt die Richtlinie 94/62/EG. Ein unmittelbar geltendes Regime für alle auf dem EU-Markt bereitgestellten Verpackungen: recyclinggerechtes Design, Mindestrezyklatanteile, Mehrwegformate, harmonisierte Kennzeichnung von Materialzusammensetzung und Sortierung sowie Beschränkungen besorgniserregender Stoffe. Hier referenziert als regulatorischer Anker für bedruckte Verpackungen — die Material-, Recycling- und Kennzeichnungsfakten, die eine Verpackungskonfiguration ausdrücken können muss. PTPGE-Begriffe liefern die Druckfach-Semantik; die Verordnung legt fest, was zutreffen muss."@de,
+        "EU Regulation (EU) 2025/40 on packaging and packaging waste — in force 11 February 2025, applicable from 12 August 2026, replacing Directive 94/62/EC. One directly applicable regime for all packaging placed on the EU market: design for recycling, recycled-content minimums, reuse formats, harmonised marking of material composition and sorting, and restrictions on substances of concern. Referenced here as the regulatory anchor for printed packaging — the material, recyclability and marking facts a packaging configuration must be able to state. PTPGE terms supply the print-domain semantics; the regulation defines what must be true."@en,
+        "Reglamento (UE) 2025/40 sobre envases y residuos de envases — en vigor desde el 11 de febrero de 2025, aplicable desde el 12 de agosto de 2026, que sustituye a la Directiva 94/62/CE. Un régimen directamente aplicable a todos los envases comercializados en la UE: diseño para el reciclado, contenido mínimo reciclado, formatos reutilizables, marcado armonizado de composición de materiales y clasificación, y restricciones a sustancias preocupantes. Referenciado aquí como ancla regulatoria del envase impreso: los hechos de material, reciclabilidad y marcado que una configuración de envase debe poder declarar. Los términos PTPGE aportan la semántica del dominio de impresión; el reglamento define lo que debe ser cierto."@es,
+        "पैकेजिंग और पैकेजिंग अपशिष्ट पर EU विनियम (EU) 2025/40 — 11 फ़रवरी 2025 से प्रभावी, 12 अगस्त 2026 से लागू, निर्देश 94/62/EC का स्थान लेता है। EU बाज़ार में रखी गई सभी पैकेजिंग के लिए एक सीधे लागू होने वाली व्यवस्था: पुनर्चक्रण-अनुकूल डिज़ाइन, न्यूनतम पुनर्चक्रित सामग्री, पुन: उपयोग प्रारूप, सामग्री संरचना और छँटाई का समरूप अंकन, तथा चिंताजनक पदार्थों पर प्रतिबंध। यहाँ मुद्रित पैकेजिंग के नियामक लंगर के रूप में संदर्भित — वे सामग्री, पुनर्चक्रणीयता और अंकन तथ्य जिन्हें एक पैकेजिंग विन्यास व्यक्त कर सके। PTPGE पद प्रिंट-क्षेत्र का शब्दार्थ देते हैं; विनियम तय करता है कि क्या सत्य होना चाहिए।"@hi,
+        "包装及び包装廃棄物に関するEU規則（EU）2025/40。2025年2月11日発効、2026年8月12日から適用、指令94/62/ECを置き換える。EU市場に投入されるすべての包装に直接適用される単一の制度：リサイクル設計、再生材の最低含有率、再使用形態、材料組成と分別の統一表示、懸念物質の制限。印刷包装の規制上のアンカーとしてここで参照される——包装の構成が表明できなければならない材料・リサイクル性・表示の事実。PTPGEの用語は印刷分野の意味論を提供し、規則は何が真でなければならないかを定める。"@ja,
+        "EU-forordning (EU) 2025/40 om emballasje og emballasjeavfall — i kraft 11. februar 2025, gjeldende fra 12. august 2026, erstatter direktiv 94/62/EF. Ett direkte gjeldende regelverk for all emballasje på EU-markedet: design for gjenvinning, minimumsandel resirkulert materiale, ombruksformater, harmonisert merking av materialsammensetning og sortering, og begrensninger på problematiske stoffer. Referert her som det regulatoriske ankeret for trykt emballasje — de material-, gjenvinnings- og merkefakta en emballasjekonfigurasjon må kunne uttrykke. PTPGE-termene leverer trykkfagets semantikk; forordningen bestemmer hva som må være sant."@nb,
+        "EU-verordening (EU) 2025/40 betreffende verpakkingen en verpakkingsafval — in werking sinds 11 februari 2025, van toepassing vanaf 12 augustus 2026, ter vervanging van Richtlijn 94/62/EG. Eén rechtstreeks toepasselijk regime voor alle verpakkingen op de EU-markt: ontwerp voor recycling, minimumgehalte gerecycled materiaal, herbruikbare formaten, geharmoniseerde markering van materiaalsamenstelling en sortering, en beperkingen op zorgwekkende stoffen. Hier gerefereerd als het regulatoire anker voor bedrukte verpakking — de materiaal-, recyclebaarheids- en markeringsfeiten die een verpakkingsconfiguratie moet kunnen uitdrukken. De PTPGE-termen leveren de drukvakspecifieke semantiek; de verordening bepaalt wat waar moet zijn."@nl,
+        "Rozporządzenie (UE) 2025/40 w sprawie opakowań i odpadów opakowaniowych — w mocy od 11 lutego 2025 r., stosowane od 12 sierpnia 2026 r., zastępujące dyrektywę 94/62/WE. Jeden bezpośrednio stosowany reżim dla wszystkich opakowań wprowadzanych na rynek UE: projektowanie z myślą o recyklingu, minimalna zawartość materiału z recyklingu, formaty wielokrotnego użytku, zharmonizowane oznakowanie składu materiałowego i sortowania oraz ograniczenia substancji budzących obawy. Przywołane tu jako regulacyjna kotwica dla opakowań drukowanych — fakty o materiale, recyklowalności i oznakowaniu, które konfiguracja opakowania musi umieć wyrazić. Terminy PTPGE dostarczają semantyki dziedziny druku; rozporządzenie określa, co musi być prawdą."@pl,
+        "Regulamento (UE) 2025/40 relativo a embalagens e resíduos de embalagens — em vigor desde 11 de fevereiro de 2025, aplicável a partir de 12 de agosto de 2026, substituindo a Diretiva 94/62/CE. Um regime diretamente aplicável a todas as embalagens colocadas no mercado da UE: conceção para a reciclagem, teor mínimo de material reciclado, formatos reutilizáveis, marcação harmonizada da composição dos materiais e da triagem, e restrições a substâncias que suscitam preocupação. Referenciado aqui como âncora regulatória da embalagem impressa — os factos de material, reciclabilidade e marcação que uma configuração de embalagem tem de poder declarar. Os termos PTPGE fornecem a semântica do domínio gráfico; o regulamento define o que tem de ser verdade."@pt,
+        "EU-förordning (EU) 2025/40 om förpackningar och förpackningsavfall — i kraft 11 februari 2025, tillämplig från 12 augusti 2026, ersätter direktiv 94/62/EG. Ett direkt tillämpligt regelverk för alla förpackningar på EU-marknaden: design för återvinning, minimiandel återvunnet material, återanvändningsformat, harmoniserad märkning av materialsammansättning och sortering samt begränsningar av ämnen som inger betänkligheter. Refererad här som det regulatoriska ankaret för tryckta förpackningar — de material-, återvinnings- och märkningsfakta en förpackningskonfiguration måste kunna uttrycka. PTPGE-termerna tillhandahåller tryckdomänens semantik; förordningen bestämmer vad som måste vara sant."@sv,
+        "欧盟关于包装和包装废弃物的法规（EU）2025/40——2025年2月11日生效，2026年8月12日起适用，取代指令94/62/EC。对投放欧盟市场的所有包装直接适用的统一制度：可回收设计、最低再生材料含量、重复使用形式、材料成分与分类的统一标识，以及对关注物质的限制。在此作为印刷包装的监管锚点——包装配置必须能够表明的材料、可回收性与标识事实。PTPGE 术语提供印刷领域语义；法规规定必须成立的内容。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:ST§PACKAGING-AND-PACKAGING-WASTE-REGULATION" ;
+    skos:prefLabel "Emballageforordningen (PPWR)"@da,
+        "Verpackungsverordnung (PPWR)"@de,
+        "Packaging and Packaging Waste Regulation (PPWR)"@en,
+        "Reglamento sobre envases y residuos de envases (PPWR)"@es,
+        "पैकेजिंग और पैकेजिंग अपशिष्ट विनियम (PPWR)"@hi,
+        "包装及び包装廃棄物規則（PPWR）"@ja,
+        "Emballasjeforordningen (PPWR)"@nb,
+        "Verpakkingsverordening (PPWR)"@nl,
+        "Rozporządzenie w sprawie opakowań i odpadów opakowaniowych (PPWR)"@pl,
+        "Regulamento relativo a embalagens e resíduos de embalagens (PPWR)"@pt,
+        "Förpackningsförordningen (PPWR)"@sv,
+        "包装和包装废弃物法规（PPWR）"@zh-Hans ;
+    ptpge:elementType "reference" ;
+    ptpge:group "standards" ;
+    ptpge:level "element" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-10-23" .
+
 <https://ptpge.org/v1/printing/substrates/board-materials/glass> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -23818,18 +23868,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23948,18 +23998,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -24011,18 +24061,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -24075,18 +24125,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -33425,44 +33475,6 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
-<https://ptpge.org/v1/printing/standards/regulations> a skos:Concept ;
-    dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
-    skos:broader <https://ptpge.org/v1/printing/standards> ;
-    skos:definition "Regulatoriske instrumenter, der former trykhandel og produktdatakrav. Dette er referencer — ankre for maskinlæsbare compliancedata — ikke certificeringer, et trykkeri tilmelder sig."@da,
-        "Regulatorische Instrumente, die den Druckhandel und Produktdatenanforderungen prägen. Es sind Referenzen — Anker für maschinenlesbare Compliance-Daten — keine Zertifizierungen, für die sich eine Druckerei entscheidet."@de,
-        "Regulatory instruments that shape print commerce and product-data requirements. These are references — anchors for machine-readable compliance data — not certifications a printer opts into."@en,
-        "Instrumentos regulatorios que dan forma al comercio de impresión y a los requisitos de datos de producto. Son referencias —anclas para datos de cumplimiento legibles por máquina— no certificaciones que una imprenta elige."@es,
-        "प्रिंट वाणिज्य और उत्पाद-डेटा आवश्यकताओं को आकार देने वाले नियामक साधन। ये संदर्भ हैं — मशीन-पठनीय अनुपालन डेटा के लंगर — प्रमाणन नहीं जिन्हें प्रिंटर अपनी मर्ज़ी से चुने।"@hi,
-        "印刷取引と製品データ要件を形作る規制手段。これらは参照であり——機械可読なコンプライアンスデータのアンカー——印刷会社が選択する認証ではない。"@ja,
-        "Regulatoriske instrumenter som former trykkhandel og krav til produktdata. Dette er referanser — ankre for maskinlesbare samsvarsdata — ikke sertifiseringer et trykkeri velger."@nb,
-        "Regulatoire instrumenten die drukhandel en productdatavereisten vormgeven. Dit zijn referenties — ankers voor machineleesbare compliancedata — geen certificeringen waarvoor een drukkerij zich aanmeldt."@nl,
-        "Instrumenty regulacyjne kształtujące handel drukiem i wymagania dotyczące danych o produkcie. Są to odniesienia — kotwice dla maszynowo czytelnych danych o zgodności — a nie certyfikaty, do których drukarnia przystępuje dobrowolnie."@pl,
-        "Instrumentos regulatórios que moldam o comércio de impressão e os requisitos de dados de produto. São referências — âncoras para dados de conformidade legíveis por máquina — e não certificações que um impressor escolhe obter."@pt,
-        "Regulatoriska instrument som formar tryckhandel och produktdatakrav. Detta är referenser — ankare för maskinläsbara efterlevnadsdata — inte certifieringar ett tryckeri väljer att ansluta sig till."@sv,
-        "塑造印刷贸易和产品数据要求的监管工具。它们是参照——机器可读合规数据的锚点——而非印刷企业自行选择的认证。"@zh-Hans ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/printing/standards/regulations/digital-product-passport> ;
-    skos:notation "P:ST-REG" ;
-    skos:prefLabel "Regulering"@da,
-        "Regulierungen"@de,
-        "Regulations"@en,
-        "Regulaciones"@es,
-        "विनियम"@hi,
-        "規制"@ja,
-        "Reguleringer"@nb,
-        "Regelgeving"@nl,
-        "Regulacje"@pl,
-        "Regulamentos"@pt,
-        "Regelverk"@sv,
-        "法规"@zh-Hans ;
-    ptpge:group "standards" ;
-    ptpge:level "sub-category" ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-07-18" .
-
 <https://ptpge.org/v1/printing/substrates/board-materials/wood/solid> a skos:Concept ;
     dcterms:created "2026-06-22T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -36130,6 +36142,45 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
+<https://ptpge.org/v1/printing/standards/regulations> a skos:Concept ;
+    dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-10-23T00:00:00+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/standards> ;
+    skos:definition "Regulatoriske instrumenter, der former trykhandel og produktdatakrav. Dette er referencer — ankre for maskinlæsbare compliancedata — ikke certificeringer, et trykkeri tilmelder sig."@da,
+        "Regulatorische Instrumente, die den Druckhandel und Produktdatenanforderungen prägen. Es sind Referenzen — Anker für maschinenlesbare Compliance-Daten — keine Zertifizierungen, für die sich eine Druckerei entscheidet."@de,
+        "Regulatory instruments that shape print commerce and product-data requirements. These are references — anchors for machine-readable compliance data — not certifications a printer opts into."@en,
+        "Instrumentos regulatorios que dan forma al comercio de impresión y a los requisitos de datos de producto. Son referencias —anclas para datos de cumplimiento legibles por máquina— no certificaciones que una imprenta elige."@es,
+        "प्रिंट वाणिज्य और उत्पाद-डेटा आवश्यकताओं को आकार देने वाले नियामक साधन। ये संदर्भ हैं — मशीन-पठनीय अनुपालन डेटा के लंगर — प्रमाणन नहीं जिन्हें प्रिंटर अपनी मर्ज़ी से चुने।"@hi,
+        "印刷取引と製品データ要件を形作る規制手段。これらは参照であり——機械可読なコンプライアンスデータのアンカー——印刷会社が選択する認証ではない。"@ja,
+        "Regulatoriske instrumenter som former trykkhandel og krav til produktdata. Dette er referanser — ankre for maskinlesbare samsvarsdata — ikke sertifiseringer et trykkeri velger."@nb,
+        "Regulatoire instrumenten die drukhandel en productdatavereisten vormgeven. Dit zijn referenties — ankers voor machineleesbare compliancedata — geen certificeringen waarvoor een drukkerij zich aanmeldt."@nl,
+        "Instrumenty regulacyjne kształtujące handel drukiem i wymagania dotyczące danych o produkcie. Są to odniesienia — kotwice dla maszynowo czytelnych danych o zgodności — a nie certyfikaty, do których drukarnia przystępuje dobrowolnie."@pl,
+        "Instrumentos regulatórios que moldam o comércio de impressão e os requisitos de dados de produto. São referências — âncoras para dados de conformidade legíveis por máquina — e não certificações que um impressor escolhe obter."@pt,
+        "Regulatoriska instrument som formar tryckhandel och produktdatakrav. Detta är referenser — ankare för maskinläsbara efterlevnadsdata — inte certifieringar ett tryckeri väljer att ansluta sig till."@sv,
+        "塑造印刷贸易和产品数据要求的监管工具。它们是参照——机器可读合规数据的锚点——而非印刷企业自行选择的认证。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/regulations/digital-product-passport>,
+        <https://ptpge.org/v1/printing/standards/regulations/packaging-and-packaging-waste-regulation> ;
+    skos:notation "P:ST-REG" ;
+    skos:prefLabel "Regulering"@da,
+        "Regulierungen"@de,
+        "Regulations"@en,
+        "Regulaciones"@es,
+        "विनियम"@hi,
+        "規制"@ja,
+        "Reguleringer"@nb,
+        "Regelgeving"@nl,
+        "Regulacje"@pl,
+        "Regulamentos"@pt,
+        "Regelverk"@sv,
+        "法规"@zh-Hans ;
+    ptpge:group "standards" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-07-18" .
+
 <https://ptpge.org/v1/printing/substrates/board-materials/cardboard/solid-board> a skos:Concept ;
     dcterms:created "2026-08-23T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -38640,13 +38691,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -40087,13 +40138,13 @@
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -41397,18 +41448,18 @@
         "包括Antalis（欧洲分销商）、Hahnemühle（德国特种纸）、Holmen（北欧出版用纸）、Lessebo（瑞典优质和设计用纸）和Sappi（全球商业用纸）。其他地区供应商按记录时跟踪。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 30" ;
-            ptpge:matchDegree "concept" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 30" ;
+            ptpge:matchDegree "concept" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -43611,18 +43662,18 @@
         "范围从牛皮纸和天然纸（CIE 60–80，暖调）经象牙和灰色（中间）到白色和亮白色（CIE 90+）。选择影响印刷颜色的感知色调和产品的整体视觉特性。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;

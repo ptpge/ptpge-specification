@@ -7,7 +7,7 @@
     dcterms:created "2026-07-18T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:50:01+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-23T00:00:00+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/printing/standards> ;
     skos:definition "Regulatoriske instrumenter, der former trykhandel og produktdatakrav. Dette er referencer — ankre for maskinlæsbare compliancedata — ikke certificeringer, et trykkeri tilmelder sig."@da,
         "Regulatorische Instrumente, die den Druckhandel und Produktdatenanforderungen prägen. Es sind Referenzen — Anker für maschinenlesbare Compliance-Daten — keine Zertifizierungen, für die sich eine Druckerei entscheidet."@de,
@@ -22,7 +22,8 @@
         "Regulatoriska instrument som formar tryckhandel och produktdatakrav. Detta är referenser — ankare för maskinläsbara efterlevnadsdata — inte certifieringar ett tryckeri väljer att ansluta sig till."@sv,
         "塑造印刷贸易和产品数据要求的监管工具。它们是参照——机器可读合规数据的锚点——而非印刷企业自行选择的认证。"@zh-Hans ;
     skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/printing/standards/regulations/digital-product-passport> ;
+    skos:narrower <https://ptpge.org/v1/printing/standards/regulations/digital-product-passport>,
+        <https://ptpge.org/v1/printing/standards/regulations/packaging-and-packaging-waste-regulation> ;
     skos:notation "P:ST-REG" ;
     skos:prefLabel "Regulering"@da,
         "Regulierungen"@de,

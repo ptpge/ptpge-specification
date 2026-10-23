@@ -3,6 +3,14 @@
 What changed in each data release, newest first. Mirrors https://ptpge.org/changelog/.
 Data releases are versioned by date; the API contract is `v1`.
 
+## 2026-10-23
+
+### Standards: PPWR — the packaging regulation as a reference term
+
+New reference under `printing/standards/regulations`: `packaging-and-packaging-waste-regulation` — Regulation (EU) 2025/40, in force 11 February 2025, applicable from 12 August 2026, replacing Directive 94/62/EC. Like the Digital Product Passport next to it, it is an anchor, not a certification: the regulatory source for the material, recyclability and marking facts a printed-packaging configuration must be able to state. Twelve languages. Follow-up noted: the packaging-material identification codes of Decision 97/129/EC (PAP 20–22, PP 5 …) as terms, when packaging substrates are worked through (SD-0111).
+
+- `https://ptpge.org/v1/printing/standards/regulations/packaging-and-packaging-waste-regulation`
+
 ## 2026-10-16
 
 ### Completions: Drilling, and how a banner is finished: five terms found by mapping a live MIS

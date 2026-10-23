@@ -37509,7 +37509,7 @@
       "notation": "P:ST-REG",
       "broader": "https://ptpge.org/v1/printing/standards",
       "created": "2026-07-18T00:00:00Z",
-      "modified": "2026-09-23T06:50:01Z",
+      "modified": "2026-10-23T00:00:00Z",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": {
         "en": "Regulatory instruments that shape print commerce and product-data requirements. These are references — anchors for machine-readable compliance data — not certifications a printer opts into.",
@@ -37530,7 +37530,8 @@
         "https://ptpge.org/contributors/patrik-knutsson"
       ],
       "narrower": [
-        "https://ptpge.org/v1/printing/standards/regulations/digital-product-passport"
+        "https://ptpge.org/v1/printing/standards/regulations/digital-product-passport",
+        "https://ptpge.org/v1/printing/standards/regulations/packaging-and-packaging-waste-regulation"
       ]
     },
     {
@@ -37588,6 +37589,85 @@
         "hi": [
           "DPP",
           "Digital Product Passport"
+        ]
+      }
+    },
+    {
+      "@context": "https://ptpge.org/v1/context.jsonld",
+      "id": "https://ptpge.org/v1/printing/standards/regulations/packaging-and-packaging-waste-regulation",
+      "type": "skos:Concept",
+      "version": "2026-10-23",
+      "status": "proposed",
+      "level": "element",
+      "label": {
+        "en": "Packaging and Packaging Waste Regulation (PPWR)",
+        "nb": "Emballasjeforordningen (PPWR)",
+        "de": "Verpackungsverordnung (PPWR)",
+        "ja": "包装及び包装廃棄物規則（PPWR）",
+        "es": "Reglamento sobre envases y residuos de envases (PPWR)",
+        "zh-Hans": "包装和包装废弃物法规（PPWR）",
+        "sv": "Förpackningsförordningen (PPWR)",
+        "da": "Emballageforordningen (PPWR)",
+        "nl": "Verpakkingsverordening (PPWR)",
+        "pl": "Rozporządzenie w sprawie opakowań i odpadów opakowaniowych (PPWR)",
+        "pt": "Regulamento relativo a embalagens e resíduos de embalagens (PPWR)",
+        "hi": "पैकेजिंग और पैकेजिंग अपशिष्ट विनियम (PPWR)"
+      },
+      "inScheme": "https://ptpge.org/v1/scheme",
+      "group": "standards",
+      "notation": "P:ST§PACKAGING-AND-PACKAGING-WASTE-REGULATION",
+      "broader": "https://ptpge.org/v1/printing/standards/regulations",
+      "created": "2026-10-23T00:00:00Z",
+      "modified": "2026-10-23T00:00:00Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "definition": {
+        "en": "EU Regulation (EU) 2025/40 on packaging and packaging waste — in force 11 February 2025, applicable from 12 August 2026, replacing Directive 94/62/EC. One directly applicable regime for all packaging placed on the EU market: design for recycling, recycled-content minimums, reuse formats, harmonised marking of material composition and sorting, and restrictions on substances of concern. Referenced here as the regulatory anchor for printed packaging — the material, recyclability and marking facts a packaging configuration must be able to state. PTPGE terms supply the print-domain semantics; the regulation defines what must be true.",
+        "nb": "EU-forordning (EU) 2025/40 om emballasje og emballasjeavfall — i kraft 11. februar 2025, gjeldende fra 12. august 2026, erstatter direktiv 94/62/EF. Ett direkte gjeldende regelverk for all emballasje på EU-markedet: design for gjenvinning, minimumsandel resirkulert materiale, ombruksformater, harmonisert merking av materialsammensetning og sortering, og begrensninger på problematiske stoffer. Referert her som det regulatoriske ankeret for trykt emballasje — de material-, gjenvinnings- og merkefakta en emballasjekonfigurasjon må kunne uttrykke. PTPGE-termene leverer trykkfagets semantikk; forordningen bestemmer hva som må være sant.",
+        "de": "EU-Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle — in Kraft seit 11. Februar 2025, anwendbar ab 12. August 2026, ersetzt die Richtlinie 94/62/EG. Ein unmittelbar geltendes Regime für alle auf dem EU-Markt bereitgestellten Verpackungen: recyclinggerechtes Design, Mindestrezyklatanteile, Mehrwegformate, harmonisierte Kennzeichnung von Materialzusammensetzung und Sortierung sowie Beschränkungen besorgniserregender Stoffe. Hier referenziert als regulatorischer Anker für bedruckte Verpackungen — die Material-, Recycling- und Kennzeichnungsfakten, die eine Verpackungskonfiguration ausdrücken können muss. PTPGE-Begriffe liefern die Druckfach-Semantik; die Verordnung legt fest, was zutreffen muss.",
+        "ja": "包装及び包装廃棄物に関するEU規則（EU）2025/40。2025年2月11日発効、2026年8月12日から適用、指令94/62/ECを置き換える。EU市場に投入されるすべての包装に直接適用される単一の制度：リサイクル設計、再生材の最低含有率、再使用形態、材料組成と分別の統一表示、懸念物質の制限。印刷包装の規制上のアンカーとしてここで参照される——包装の構成が表明できなければならない材料・リサイクル性・表示の事実。PTPGEの用語は印刷分野の意味論を提供し、規則は何が真でなければならないかを定める。",
+        "es": "Reglamento (UE) 2025/40 sobre envases y residuos de envases — en vigor desde el 11 de febrero de 2025, aplicable desde el 12 de agosto de 2026, que sustituye a la Directiva 94/62/CE. Un régimen directamente aplicable a todos los envases comercializados en la UE: diseño para el reciclado, contenido mínimo reciclado, formatos reutilizables, marcado armonizado de composición de materiales y clasificación, y restricciones a sustancias preocupantes. Referenciado aquí como ancla regulatoria del envase impreso: los hechos de material, reciclabilidad y marcado que una configuración de envase debe poder declarar. Los términos PTPGE aportan la semántica del dominio de impresión; el reglamento define lo que debe ser cierto.",
+        "zh-Hans": "欧盟关于包装和包装废弃物的法规（EU）2025/40——2025年2月11日生效，2026年8月12日起适用，取代指令94/62/EC。对投放欧盟市场的所有包装直接适用的统一制度：可回收设计、最低再生材料含量、重复使用形式、材料成分与分类的统一标识，以及对关注物质的限制。在此作为印刷包装的监管锚点——包装配置必须能够表明的材料、可回收性与标识事实。PTPGE 术语提供印刷领域语义；法规规定必须成立的内容。",
+        "sv": "EU-förordning (EU) 2025/40 om förpackningar och förpackningsavfall — i kraft 11 februari 2025, tillämplig från 12 augusti 2026, ersätter direktiv 94/62/EG. Ett direkt tillämpligt regelverk för alla förpackningar på EU-marknaden: design för återvinning, minimiandel återvunnet material, återanvändningsformat, harmoniserad märkning av materialsammansättning och sortering samt begränsningar av ämnen som inger betänkligheter. Refererad här som det regulatoriska ankaret för tryckta förpackningar — de material-, återvinnings- och märkningsfakta en förpackningskonfiguration måste kunna uttrycka. PTPGE-termerna tillhandahåller tryckdomänens semantik; förordningen bestämmer vad som måste vara sant.",
+        "da": "EU-forordning (EU) 2025/40 om emballage og emballageaffald — i kraft 11. februar 2025, gældende fra 12. august 2026, erstatter direktiv 94/62/EF. Ét direkte gældende regelsæt for al emballage på EU-markedet: design til genanvendelse, minimumsindhold af genanvendt materiale, genbrugsformater, harmoniseret mærkning af materialesammensætning og sortering samt begrænsninger for problematiske stoffer. Refereret her som det regulatoriske anker for trykt emballage — de materiale-, genanvendelses- og mærkningsfakta, en emballagekonfiguration skal kunne udtrykke. PTPGE-termerne leverer den trykfaglige semantik; forordningen fastlægger, hvad der skal være sandt.",
+        "nl": "EU-verordening (EU) 2025/40 betreffende verpakkingen en verpakkingsafval — in werking sinds 11 februari 2025, van toepassing vanaf 12 augustus 2026, ter vervanging van Richtlijn 94/62/EG. Eén rechtstreeks toepasselijk regime voor alle verpakkingen op de EU-markt: ontwerp voor recycling, minimumgehalte gerecycled materiaal, herbruikbare formaten, geharmoniseerde markering van materiaalsamenstelling en sortering, en beperkingen op zorgwekkende stoffen. Hier gerefereerd als het regulatoire anker voor bedrukte verpakking — de materiaal-, recyclebaarheids- en markeringsfeiten die een verpakkingsconfiguratie moet kunnen uitdrukken. De PTPGE-termen leveren de drukvakspecifieke semantiek; de verordening bepaalt wat waar moet zijn.",
+        "pl": "Rozporządzenie (UE) 2025/40 w sprawie opakowań i odpadów opakowaniowych — w mocy od 11 lutego 2025 r., stosowane od 12 sierpnia 2026 r., zastępujące dyrektywę 94/62/WE. Jeden bezpośrednio stosowany reżim dla wszystkich opakowań wprowadzanych na rynek UE: projektowanie z myślą o recyklingu, minimalna zawartość materiału z recyklingu, formaty wielokrotnego użytku, zharmonizowane oznakowanie składu materiałowego i sortowania oraz ograniczenia substancji budzących obawy. Przywołane tu jako regulacyjna kotwica dla opakowań drukowanych — fakty o materiale, recyklowalności i oznakowaniu, które konfiguracja opakowania musi umieć wyrazić. Terminy PTPGE dostarczają semantyki dziedziny druku; rozporządzenie określa, co musi być prawdą.",
+        "pt": "Regulamento (UE) 2025/40 relativo a embalagens e resíduos de embalagens — em vigor desde 11 de fevereiro de 2025, aplicável a partir de 12 de agosto de 2026, substituindo a Diretiva 94/62/CE. Um regime diretamente aplicável a todas as embalagens colocadas no mercado da UE: conceção para a reciclagem, teor mínimo de material reciclado, formatos reutilizáveis, marcação harmonizada da composição dos materiais e da triagem, e restrições a substâncias que suscitam preocupação. Referenciado aqui como âncora regulatória da embalagem impressa — os factos de material, reciclabilidade e marcação que uma configuração de embalagem tem de poder declarar. Os termos PTPGE fornecem a semântica do domínio gráfico; o regulamento define o que tem de ser verdade.",
+        "hi": "पैकेजिंग और पैकेजिंग अपशिष्ट पर EU विनियम (EU) 2025/40 — 11 फ़रवरी 2025 से प्रभावी, 12 अगस्त 2026 से लागू, निर्देश 94/62/EC का स्थान लेता है। EU बाज़ार में रखी गई सभी पैकेजिंग के लिए एक सीधे लागू होने वाली व्यवस्था: पुनर्चक्रण-अनुकूल डिज़ाइन, न्यूनतम पुनर्चक्रित सामग्री, पुन: उपयोग प्रारूप, सामग्री संरचना और छँटाई का समरूप अंकन, तथा चिंताजनक पदार्थों पर प्रतिबंध। यहाँ मुद्रित पैकेजिंग के नियामक लंगर के रूप में संदर्भित — वे सामग्री, पुनर्चक्रणीयता और अंकन तथ्य जिन्हें एक पैकेजिंग विन्यास व्यक्त कर सके। PTPGE पद प्रिंट-क्षेत्र का शब्दार्थ देते हैं; विनियम तय करता है कि क्या सत्य होना चाहिए।"
+      },
+      "elementType": "reference",
+      "altLabels": {
+        "en": [
+          "PPWR",
+          "Regulation (EU) 2025/40"
+        ],
+        "nb": [
+          "PPWR",
+          "Forordning (EU) 2025/40"
+        ],
+        "de": [
+          "PPWR",
+          "Verordnung (EU) 2025/40"
+        ],
+        "sv": [
+          "PPWR"
+        ],
+        "da": [
+          "PPWR"
+        ],
+        "nl": [
+          "PPWR"
+        ],
+        "pl": [
+          "PPWR"
+        ],
+        "pt": [
+          "PPWR"
+        ],
+        "es": [
+          "PPWR"
+        ],
+        "hi": [
+          "PPWR"
         ]
       }
     },

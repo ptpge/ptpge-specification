@@ -24,7 +24,7 @@
   "notation": "P:ST-REG",
   "broader": "https://ptpge.org/v1/printing/standards",
   "created": "2026-07-18T00:00:00Z",
-  "modified": "2026-09-23T06:50:01Z",
+  "modified": "2026-10-23T00:00:00Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "Regulatory instruments that shape print commerce and product-data requirements. These are references — anchors for machine-readable compliance data — not certifications a printer opts into.",
@@ -45,6 +45,7 @@
     "https://ptpge.org/contributors/patrik-knutsson"
   ],
   "narrower": [
-    "https://ptpge.org/v1/printing/standards/regulations/digital-product-passport"
+    "https://ptpge.org/v1/printing/standards/regulations/digital-product-passport",
+    "https://ptpge.org/v1/printing/standards/regulations/packaging-and-packaging-waste-regulation"
   ]
 }
