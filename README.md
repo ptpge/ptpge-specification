@@ -46,7 +46,7 @@ vocabulary agree on the fingerprint. See https://ptpge.org/developers/ for the i
 ## Contributing
 
 Proposals for new or changed terms are welcome as GitHub issues — see `CONTRIBUTING.md`. Terms are adopted
-through the process described in `GOVERNANCE.md` and published in the next data release; this repository is not edited
+through the PTPGE decision process and published in the next data release; this repository is not edited
 directly (pull requests against `v1/` will be closed, since the files are regenerated).
 
 ## Licence and attribution

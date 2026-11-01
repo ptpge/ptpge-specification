@@ -27,8 +27,8 @@ You do not need to assign a notation — maintainers do that on adoption.
 
 ## Process
 
-Proposals are reviewed by the maintainers, decided as described in `GOVERNANCE.md` (every adopted change gets a
-numbered decision record), and published in the next data release. Every release is tagged here (`vYYYY-MM-DD`) and described in `CHANGELOG.md`. Term URIs never
+Proposals are reviewed by the maintainers, decided by the maintainers (every adopted change gets a numbered decision record), and published in the
+next data release. Every release is tagged here (`vYYYY-MM-DD`) and described in `CHANGELOG.md`. Term URIs never
 break: a retired term stays resolvable, marked `deprecated`, with a pointer to its successor where one exists.
 
 ## Pull requests
@@ -37,12 +37,10 @@ The files under `v1/` are generated from the maintainers' build and regenerated 
 requests that edit them directly cannot be merged today. That is a limitation of the beta, not a principle:
 the intention is to publish the source term files so that a correction is a pull request like anywhere else.
 Until then, open an issue per change (or send a batch to post@ptpge.org) and a maintainer applies it and
-credits you in the decision record. Pull requests against `README.md`, `CONTRIBUTING.md`, `GOVERNANCE.md`
-and the documentation are welcome now.
+credits you in the decision record. Pull requests against `README.md`, `CONTRIBUTING.md` and the documentation are welcome now.
 
 ## Licence of contributions
 
 The specification is CC BY 4.0, and contributions are accepted under the same licence, inbound as outbound:
 by proposing a term or a correction you agree that it may be published as part of the specification under
-CC BY 4.0. Contributors are credited in the decision record. See `GOVERNANCE.md` for how decisions are made,
-and `CODE_OF_CONDUCT.md` for how we treat each other.
+CC BY 4.0. Contributors are credited in the decision record.
