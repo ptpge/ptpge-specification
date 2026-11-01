@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://ptpge.org/v1/schemas/vendor-declaration/1.schema.json",
   "title": "PTPGE vendor-declaration/1",
-  "description": "What a printer is and can make, in the vocabulary: identity, production capability, the products it offers. Written by the printer or its MIS and published on the printer's own domain at /.well-known/ptpge/declaration.json (SD-0101). Every vocabulary value is a term URI under https://ptpge.org/v1/ — never a label (SD-0097). Prices and price rules are not part of this document. Licence of the schema: CC BY 4.0.",
+  "description": "What a printer is and can make, in the vocabulary: identity, production capability, the products it offers. Written by the printer or its MIS and published on the printer's own domain at /.well-known/ptpge/declaration.json (SD-0101). Every vocabulary value is a term URI under https://ptpge.org/v1/ — never a label (SD-0097). Production sites and own/partner per machine (2026-10-27, SD-0114) let an agent derive where a product is made and whether it is made in-house, partly or fully outsourced (TN-2). Prices and price rules are not part of this document. Licence of the schema: CC BY 4.0.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -91,6 +91,14 @@
     },
     "capability": {
       "$ref": "#/$defs/capability"
+    },
+    "sites": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/site"
+      },
+      "description": "Production sites (optional). ids must be unique; line.site refers to them."
     },
     "offerings": {
       "type": "array",
@@ -235,6 +243,13 @@
           "type": "integer",
           "minimum": 1,
           "description": "How many of this model the printer runs."
+        },
+        "operated": {
+          "enum": [
+            "own",
+            "partner"
+          ],
+          "description": "Who operates this equipment: own — the declaring vendor's; partner — another business produces on it for the vendor (not named). Absent = the line's operated, else own. Production status per offering is derived from this (TN-2): all own → in-house; mixed → partly outsourced; all partner → outsourced."
         }
       }
     },
@@ -322,9 +337,16 @@
           "minItems": 1,
           "uniqueItems": true,
           "items": {
-            "$ref": "#/$defs/completionUri"
+            "anyOf": [
+              {
+                "$ref": "#/$defs/completionUri"
+              },
+              {
+                "$ref": "#/$defs/featureUri"
+              }
+            ]
           },
-          "description": "The completions this machine performs."
+          "description": "The completions this machine performs — and, for laminators, foil and spot-UV units, the surface-finish features it applies (terms under printing/features/). Widened 2026-10-27 so an embellishment can carry its own `operated`."
         },
         "inline": {
           "type": "boolean",
@@ -345,6 +367,13 @@
           "type": "integer",
           "minimum": 1,
           "description": "How many of this model the printer runs."
+        },
+        "operated": {
+          "enum": [
+            "own",
+            "partner"
+          ],
+          "description": "Who operates this equipment: own — the declaring vendor's; partner — another business produces on it for the vendor (not named). Absent = the line's operated, else own. Production status per offering is derived from this (TN-2): all own → in-house; mixed → partly outsourced; all partner → outsourced."
         }
       }
     },
@@ -381,6 +410,10 @@
           "minimum": 1,
           "maximum": 20,
           "description": "Number of printing units / ink stations on the press (8 = eight colours or 4/4 in one pass)."
+        },
+        "minFormatMm": {
+          "$ref": "#/$defs/dimensionsMm",
+          "description": "Smallest sheet the line takes, width × height in mm (optional, 28.10.2026). With maxFormatMm it gives the line's format window; an agent reads both ends — a 50 × 50 mm label is refused by a press as surely as an oversized sheet."
         },
         "maxFormatMm": {
           "$ref": "#/$defs/dimensionsMm",
@@ -441,6 +474,18 @@
             "$ref": "#/$defs/finishingMachine"
           },
           "description": "The finishing equipment behind the finishing list: supplier identity, model, and the completions each machine performs."
+        },
+        "operated": {
+          "enum": [
+            "own",
+            "partner"
+          ],
+          "description": "Default for every press and finishing machine on the line that does not state its own `operated`. Absent = own. A pure broker sets the line to partner; a printer that laminates elsewhere marks only that machine."
+        },
+        "site": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,39}$",
+          "description": "Where the line stands: the id of an entry in sites[]."
         }
       }
     },
@@ -475,7 +520,7 @@
           "items": {
             "$ref": "#/$defs/termUri"
           },
-          "description": "Print standards and certifications held (terms under printing/standards)."
+          "description": "Print standards and certifications held by the vendor (terms under printing/standards). Facility-bound certifications (FSC, PEFC, ISO 14001 …) are better stated per site in sites[].certifications; a vendor-level entry is read as holding at every own site (TN-2)."
         }
       }
     },
@@ -566,6 +611,48 @@
           "type": "integer",
           "minimum": 0,
           "description": "Standard lead time from approved artwork to dispatch, working days."
+        }
+      }
+    },
+    "site": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "country",
+        "operated"
+      ],
+      "description": "A production site, coarse: country and optionally city. No street address, no partner names — a broker declares «NO, partner» without saying who. Where a product is made, for an agent choosing suppliers before any order exists; where it is delivered is not stated here (that is the commerce protocol's, per order).",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,39}$",
+          "description": "Short stable id, referenced by line.site («oslo», «partner-se»)."
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 alpha-2."
+        },
+        "city": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "operated": {
+          "enum": [
+            "own",
+            "partner"
+          ],
+          "description": "own — the vendor's own plant; partner — a partner's plant the vendor produces through."
+        },
+        "certifications": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/termUri"
+          },
+          "description": "Standards and certifications that hold at this site (terms under printing/standards): FSC, PEFC, ISO 14001 … A certification covers an offering only through the site its equipment stands on (TN-2)."
         }
       }
     }

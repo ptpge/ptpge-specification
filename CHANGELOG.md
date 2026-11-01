@@ -3,6 +3,22 @@
 What changed in each data release, newest first. Mirrors https://ptpge.org/changelog/.
 Data releases are versioned by date; the API contract is `v1`.
 
+## 2026-10-28
+
+### Schemas: The small end of the window: minFormatMm on a production line
+
+A production line in vendor-declaration/1 may now state its smallest sheet as well as its largest: `line.minFormatMm` (width × height in mm), the mirror of `maxFormatMm`. Together with `substrateWeightGsm` (already a min–max window) it lets an agent answer both ends of «can you make this?» — a 50 × 50 mm label is refused by a sheet-fed press as surely as an oversized poster, and until now only the large end was declared. Optional, backward compatible; ptpge.org/declare writes it.
+
+- `https://ptpge.org/v1/schemas/vendor-declaration/1`
+
+## 2026-10-27
+
+### Schemas: Where it is made, and by whom: production sites and own/partner in vendor-declaration/1
+
+A vendor declaration may now say where a product is produced and whether each step is the vendor's own or a partner's. New, all optional: `sites[]` — production sites, coarse (country, city, `operated: own | partner`, and the certifications that hold at that site); `operated` on every press and finishing machine, with the line as default and `own` as the default of defaults; `line.site`. A finishing machine's `serves` may also list surface-finish features, so a laminator or foil unit can carry its own `operated`. From this an agent derives, per offering, whether the product is made in-house, partly outsourced (and which steps) or outsourced, in which countries, and which certifications actually cover it — nothing is stated on the product, it is computed from the equipment, so the two can never disagree. The rule is TN-2; `mcp.ptpge.org/validate-document` and `/check` return it (`production`). Where a product is delivered is deliberately not in the declaration: that is the commerce protocol's question, per order. A global broker and a one-plant printer declare themselves on the same terms; the difference is visible, not hidden. Existing declarations validate unchanged. SD-0114; ptpge.org/declare writes the fields; MCP server 0.41.0.
+
+- `https://ptpge.org/v1/schemas/vendor-declaration/1`
+
 ## 2026-10-23
 
 ### Standards: PPWR — the packaging regulation as a reference term
