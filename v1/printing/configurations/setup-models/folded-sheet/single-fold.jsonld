@@ -162,5 +162,36 @@
   "panelProportions": [
     "1/2",
     "1/2"
-  ]
+  ],
+  "imposition": {
+    "panels": 2,
+    "pages": 4,
+    "folds": [
+      1
+    ],
+    "panelWidths": [
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        4,
+        1
+      ],
+      "side2": [
+        2,
+        3
+      ]
+    },
+    "foldProfile": "V",
+    "coverPanel": 1,
+    "coverSide": "side1"
+  },
+  "foldCatalog": {
+    "standard": "XJDF",
+    "version": "2.2",
+    "code": "F4-1",
+    "note": "Single fold (§4.7.1)",
+    "match": "exact"
+  }
 }

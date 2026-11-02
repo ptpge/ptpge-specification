@@ -173,5 +173,40 @@
     "1/3",
     "1/3",
     "1/3"
-  ]
+  ],
+  "imposition": {
+    "panels": 3,
+    "pages": 6,
+    "folds": [
+      1,
+      2
+    ],
+    "panelWidths": [
+      1,
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        1,
+        4,
+        5
+      ],
+      "side2": [
+        6,
+        3,
+        2
+      ]
+    },
+    "foldProfile": "Z",
+    "coverPanel": 0,
+    "coverSide": "side1"
+  },
+  "foldCatalog": {
+    "standard": "XJDF",
+    "version": "2.2",
+    "code": "F6-7",
+    "note": "Z fold (§4.7.1); A.3.8 prose also calls F6-2 a Z-fold — ambiguity reported to CIP4",
+    "match": "exact"
+  }
 }

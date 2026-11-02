@@ -1,0 +1,49 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF-FMT-FOLD",
+  "level": "sub-category",
+  "label": {
+    "en": "Folded-sheet formats",
+    "nb": "Falsede formater",
+    "de": "Falzformate",
+    "es": "Folded-sheet formats",
+    "ja": "Folded-sheet formats",
+    "zh-Hans": "Folded-sheet formats",
+    "sv": "Falsade format",
+    "da": "Falsede formater",
+    "nl": "Vouwformaten",
+    "pl": "Folded-sheet formats",
+    "pt": "Folded-sheet formats",
+    "hi": "Folded-sheet formats"
+  },
+  "definition": {
+    "en": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "nb": "De lukkede målene et falset ark selges som — det bransjen kaller «DL-flyer» eller «Lang-DL». Formatet er det lukkede målet; hvordan arket deles i paneler er oppsettsmodellens sak.",
+    "de": "Die geschlossenen Maße, in denen ein gefalzter Bogen verkauft wird — «DIN lang», «Lang-DL». Das Format ist das geschlossene Maß; die Panelaufteilung gehört zum Setup-Modell.",
+    "es": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "ja": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "zh-Hans": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "sv": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "da": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "nl": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "pl": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "pt": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business.",
+    "hi": "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats",
+  "narrower": [
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold"
+  ],
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": "https://ptpge.org/contributors/ptpge"
+}

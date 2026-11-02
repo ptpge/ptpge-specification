@@ -1,0 +1,86 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§LANG-DL",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Lang-DL (105 x 210 mm)",
+    "nb": "Lang-DL (105 x 210 mm)",
+    "de": "Lang-DL (105 x 210 mm)",
+    "es": "Lang-DL (105 x 210 mm)",
+    "ja": "Lang-DL (105 x 210 mm)",
+    "zh-Hans": "Lang-DL (105 x 210 mm)",
+    "sv": "Lang-DL (105 x 210 mm)",
+    "da": "Lang-DL (105 x 210 mm)",
+    "nl": "Lang-DL (105 x 210 mm)",
+    "pl": "Lang-DL (105 x 210 mm)",
+    "pt": "Lang-DL (105 x 210 mm)",
+    "hi": "Lang-DL (105 x 210 mm)"
+  },
+  "altLabels": {
+    "en": [
+      "Lang DL",
+      "105 x 210",
+      "105x210",
+      "half A4 lengthwise",
+      "DL long"
+    ],
+    "de": [
+      "Lang-DIN",
+      "DIN Lang breit"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats",
+  "properties": {
+    "width": 105,
+    "height": 210,
+    "unit": "mm",
+    "aspectRatio": 2.0,
+    "standard": "convention",
+    "area": 22050
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "nb": "105 × 210 mm — halve A4-bredden i full høyde (A4 brettet én gang på langs, eller stående A5); tysk bransjeformat «Lang-DL», bredere enn DL og passer ikke i DL-konvolutt.",
+    "de": "105 × 210 mm — halbe A4-Breite bei voller Höhe; das «Lang-DL» der deutschen Branche, breiter als DL und passt nicht mehr in den DL-Umschlag.",
+    "es": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "ja": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "zh-Hans": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "sv": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "da": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "nl": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "pl": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "pt": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope.",
+    "hi": "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "related": [
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4"
+  ]
+}

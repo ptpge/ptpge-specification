@@ -194,5 +194,49 @@
       "match": "partial",
       "via": "FoldCatalog"
     }
-  ]
+  ],
+  "imposition": {
+    "panels": 3,
+    "pages": 12,
+    "folds": [
+      1,
+      2
+    ],
+    "panelWidths": [
+      0.98,
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        [
+          8,
+          7,
+          12
+        ],
+        [
+          5,
+          6,
+          1
+        ]
+      ],
+      "side2": [
+        [
+          11,
+          10,
+          9
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    "foldProfile": "C+",
+    "coverPanel": 2,
+    "rows": 2,
+    "coverSide": "side1"
+  },
+  "foldCatalog": null
 }

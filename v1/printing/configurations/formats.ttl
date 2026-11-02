@@ -7,7 +7,7 @@
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
     skos:broader <https://ptpge.org/v1/printing/configurations> ;
     skos:definition "Standardiserede fysiske størrelser for skårne ark, kuverter og færdige trykte objekter — de dimensioner et produkt produceres i, bestilles i eller leveres som."@da,
         "Standardisierte physische Größen für zugeschnittene Bogen, Briefumschläge und fertige Druckprodukte — die Maße, in denen ein Produkt produziert, bestellt oder ausgeliefert wird."@de,
@@ -29,8 +29,10 @@
         <https://ptpge.org/v1/printing/configurations/formats/business-cards>,
         <https://ptpge.org/v1/printing/configurations/formats/c-series>,
         <https://ptpge.org/v1/printing/configurations/formats/event-tents>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats>,
         <https://ptpge.org/v1/printing/configurations/formats/international-envelopes>,
         <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats>,
         <https://ptpge.org/v1/printing/configurations/formats/ra-series>,
         <https://ptpge.org/v1/printing/configurations/formats/rollups>,
         <https://ptpge.org/v1/printing/configurations/formats/sra-series>,

@@ -6,7 +6,7 @@
 <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
     skos:altLabel "11 x 22 cm"@en,
         "110 x 220 mm"@en,
         "110x220"@en,
@@ -44,6 +44,7 @@
         "DL (110 x 220 mm)"@pt,
         "DL (110 x 220 mm)"@sv,
         "DL (110 × 220 mm)"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl> ;
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:hasProperty [ ptpge:area 24200.0 ;

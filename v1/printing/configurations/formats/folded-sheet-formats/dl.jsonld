@@ -1,0 +1,106 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§DL",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "DL (99 x 210 mm)",
+    "nb": "DL (99 x 210 mm)",
+    "de": "DL (99 x 210 mm)",
+    "es": "DL (99 x 210 mm)",
+    "ja": "DL (99 x 210 mm)",
+    "zh-Hans": "DL (99 x 210 mm)",
+    "sv": "DL (99 x 210 mm)",
+    "da": "DL (99 x 210 mm)",
+    "nl": "DL (99 x 210 mm)",
+    "pl": "DL (99 x 210 mm)",
+    "pt": "DL (99 x 210 mm)",
+    "hi": "DL (99 x 210 mm)"
+  },
+  "altLabels": {
+    "en": [
+      "DL flyer",
+      "DL brochure",
+      "DIN lang",
+      "99 x 210",
+      "99x210",
+      "A4 folded in three",
+      "A4 tri-fold",
+      "one-third A4"
+    ],
+    "nb": [
+      "DL-flyer",
+      "DL-brosjyre",
+      "tredelt A4"
+    ],
+    "de": [
+      "DIN-lang-Flyer",
+      "DIN lang",
+      "Langformat"
+    ],
+    "sv": [
+      "DL-folder",
+      "DL-broschyr"
+    ],
+    "da": [
+      "DL-folder",
+      "M65"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats",
+  "properties": {
+    "width": 99,
+    "height": 210,
+    "unit": "mm",
+    "aspectRatio": 2.1212,
+    "standard": "convention",
+    "area": 20790
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "nb": "99 × 210 mm — et A4-ark brettet i tre på langs; bransjens «DL» for flyere og brosjyrer, passer i DL-konvolutten (110 × 220). Formatet er det lukkede målet; panelbreddene følger oppsettsmodellen (like tredeler for Z-fals, innbrettet panel 2–3 mm smalere for wickelfalz). Ikke samme term som DL-konvolutten.",
+    "de": "99 × 210 mm — ein A4-Bogen, längs in drei gefalzt; das «DIN lang» der Branche für Flyer und Broschüren, passend für den DL-Umschlag (110 × 220). Das Format ist das geschlossene Maß; die Panelbreiten folgen dem Setup-Modell. Nicht derselbe Begriff wie der DL-Umschlag.",
+    "es": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "ja": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "zh-Hans": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "sv": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "da": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "nl": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "pl": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "pt": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope.",
+    "hi": "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ],
+  "related": [
+    "https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl",
+    "https://ptpge.org/v1/printing/configurations/formats/a-series/a4"
+  ],
+  "exactMatch": [
+    "https://www.wikidata.org/wiki/Q1201349"
+  ]
+}

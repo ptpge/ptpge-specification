@@ -7,7 +7,7 @@
     dcterms:created "2026-06-04T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-11T11:20:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
     skos:altLabel "brochure"@da,
         "falset folder"@da,
         "folder"@da,
@@ -173,6 +173,9 @@
         <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
         <https://ptpge.org/v1/printing/configurations/formats/a-series/a7>,
         <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-legal>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
         <https://ptpge.org/v1/printing/configurations/formats/us/half-letter>,

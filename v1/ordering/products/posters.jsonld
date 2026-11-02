@@ -112,7 +112,7 @@
   "group": "products",
   "broader": "https://ptpge.org/v1/ordering/products",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-10-16T10:40:00Z",
+  "modified": "2026-11-02T07:56:18Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "A large-format single-sheet print for display and promotion — walls, windows, events, and point-of-sale. Typically printed on one side in large A-series formats (A4 up to A0) on heavier paper, and delivered flat (no folding or binding). Built on the Flat Sheet Setup Model.",
@@ -156,7 +156,19 @@
     "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2",
     "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3",
     "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e1",
-    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e"
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x25",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x35",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x40",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-35x50",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x60",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x50",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x70",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-60x60",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x70",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x100",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x100",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x140"
   ],
   "supportsOrientation": [
     "https://ptpge.org/v1/printing/configurations/orientation/landscape",
@@ -245,7 +257,8 @@
     "https://ptpge.org/v1/printing/configurations/formats/a-series",
     "https://ptpge.org/v1/printing/configurations/formats/us",
     "https://ptpge.org/v1/printing/configurations/formats/ansi-series",
-    "https://ptpge.org/v1/printing/configurations/formats/arch-series"
+    "https://ptpge.org/v1/printing/configurations/formats/arch-series",
+    "https://ptpge.org/v1/printing/configurations/formats/poster-formats"
   ],
   "supportsSubstrateColor": [
     "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper"

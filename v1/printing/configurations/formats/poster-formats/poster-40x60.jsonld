@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x60",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§PSTR-40X60",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Poster 40 × 60 cm",
+    "nb": "Plakat 40 × 60 cm",
+    "de": "Plakat 40 × 60 cm",
+    "es": "Póster 40 × 60 cm",
+    "ja": "Poster 40 × 60 cm",
+    "zh-Hans": "Poster 40 × 60 cm",
+    "sv": "Affisch 40 × 60 cm",
+    "da": "Plakat 40 × 60 cm",
+    "nl": "Poster 40 × 60 cm",
+    "pl": "Plakat 40 × 60 cm",
+    "pt": "Pôster 40 × 60 cm",
+    "hi": "Poster 40 × 60 cm"
+  },
+  "altLabels": {
+    "en": [
+      "40x60 cm",
+      "40 x 60 cm",
+      "400 x 600 mm",
+      "400x600"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/poster-formats",
+  "properties": {
+    "width": 400,
+    "height": 600,
+    "unit": "mm",
+    "aspectRatio": 1.5,
+    "standard": "convention",
+    "area": 240000
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nb": "40 × 60 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216.",
+    "de": "40 × 60 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216.",
+    "es": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "ja": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "zh-Hans": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "sv": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "da": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nl": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pl": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pt": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "hi": "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

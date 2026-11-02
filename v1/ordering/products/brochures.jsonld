@@ -172,7 +172,10 @@
     "https://ptpge.org/v1/printing/configurations/formats/us/half-letter",
     "https://ptpge.org/v1/printing/configurations/formats/us/government-letter",
     "https://ptpge.org/v1/printing/configurations/formats/us/letter",
-    "https://ptpge.org/v1/printing/configurations/formats/us/government-legal"
+    "https://ptpge.org/v1/printing/configurations/formats/us/government-legal",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl"
   ],
   "supportsOrientation": [
     "https://ptpge.org/v1/printing/configurations/orientation/portrait",
@@ -245,7 +248,7 @@
   ],
   "fulfilmentClass": "folded",
   "created": "2026-06-04T00:00:00Z",
-  "modified": "2026-10-11T11:20:00Z",
+  "modified": "2026-11-02T07:56:18Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": "https://ptpge.org/contributors/ptpge",
   "contributor": [
@@ -281,7 +284,8 @@
   },
   "supportsFormatFamilies": [
     "https://ptpge.org/v1/printing/configurations/formats/a-series",
-    "https://ptpge.org/v1/printing/configurations/formats/us"
+    "https://ptpge.org/v1/printing/configurations/formats/us",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats"
   ],
   "supportsSubstrateColor": [
     "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",

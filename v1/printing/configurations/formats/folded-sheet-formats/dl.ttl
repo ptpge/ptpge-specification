@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "DL-folder"@da,
+        "M65"@da,
+        "DIN lang"@de,
+        "DIN-lang-Flyer"@de,
+        "Langformat"@de,
+        "99 x 210"@en,
+        "99x210"@en,
+        "A4 folded in three"@en,
+        "A4 tri-fold"@en,
+        "DIN lang"@en,
+        "DL brochure"@en,
+        "DL flyer"@en,
+        "one-third A4"@en,
+        "DL-brosjyre"@nb,
+        "DL-flyer"@nb,
+        "tredelt A4"@nb,
+        "DL-broschyr"@sv,
+        "DL-folder"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats> ;
+    skos:definition "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@da,
+        "99 × 210 mm — ein A4-Bogen, längs in drei gefalzt; das «DIN lang» der Branche für Flyer und Broschüren, passend für den DL-Umschlag (110 × 220). Das Format ist das geschlossene Maß; die Panelbreiten folgen dem Setup-Modell. Nicht derselbe Begriff wie der DL-Umschlag."@de,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@en,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@es,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@hi,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@ja,
+        "99 × 210 mm — et A4-ark brettet i tre på langs; bransjens «DL» for flyere og brosjyrer, passer i DL-konvolutten (110 × 220). Formatet er det lukkede målet; panelbreddene følger oppsettsmodellen (like tredeler for Z-fals, innbrettet panel 2–3 mm smalere for wickelfalz). Ikke samme term som DL-konvolutten."@nb,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@nl,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@pl,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@pt,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@sv,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@zh-Hans ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1201349> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§DL" ;
+    skos:prefLabel "DL (99 x 210 mm)"@da,
+        "DL (99 x 210 mm)"@de,
+        "DL (99 x 210 mm)"@en,
+        "DL (99 x 210 mm)"@es,
+        "DL (99 x 210 mm)"@hi,
+        "DL (99 x 210 mm)"@ja,
+        "DL (99 x 210 mm)"@nb,
+        "DL (99 x 210 mm)"@nl,
+        "DL (99 x 210 mm)"@pl,
+        "DL (99 x 210 mm)"@pt,
+        "DL (99 x 210 mm)"@sv,
+        "DL (99 x 210 mm)"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 20790.0 ;
+            ptpge:aspectRatio 2.1212 ;
+            ptpge:height 210.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 99.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+

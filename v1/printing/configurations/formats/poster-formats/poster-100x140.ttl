@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x140> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "100 x 140 cm"@en,
+        "1000 x 1400 mm"@en,
+        "1000x1400"@en,
+        "100x140 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "100 × 140 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "100 × 140 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-100X140" ;
+    skos:prefLabel "Plakat 100 × 140 cm"@da,
+        "Plakat 100 × 140 cm"@de,
+        "Poster 100 × 140 cm"@en,
+        "Póster 100 × 140 cm"@es,
+        "Poster 100 × 140 cm"@hi,
+        "Poster 100 × 140 cm"@ja,
+        "Plakat 100 × 140 cm"@nb,
+        "Poster 100 × 140 cm"@nl,
+        "Plakat 100 × 140 cm"@pl,
+        "Pôster 100 × 140 cm"@pt,
+        "Affisch 100 × 140 cm"@sv,
+        "Poster 100 × 140 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 1400000.0 ;
+            ptpge:aspectRatio 1.4 ;
+            ptpge:height 1400.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 1000.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+

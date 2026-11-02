@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x70",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§PSTR-50X70",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Poster 50 × 70 cm",
+    "nb": "Plakat 50 × 70 cm",
+    "de": "Plakat 50 × 70 cm",
+    "es": "Póster 50 × 70 cm",
+    "ja": "Poster 50 × 70 cm",
+    "zh-Hans": "Poster 50 × 70 cm",
+    "sv": "Affisch 50 × 70 cm",
+    "da": "Plakat 50 × 70 cm",
+    "nl": "Poster 50 × 70 cm",
+    "pl": "Plakat 50 × 70 cm",
+    "pt": "Pôster 50 × 70 cm",
+    "hi": "Poster 50 × 70 cm"
+  },
+  "altLabels": {
+    "en": [
+      "50x70 cm",
+      "50 x 70 cm",
+      "500 x 700 mm",
+      "500x700"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/poster-formats",
+  "properties": {
+    "width": 500,
+    "height": 700,
+    "unit": "mm",
+    "aspectRatio": 1.4,
+    "standard": "convention",
+    "area": 350000
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nb": "50 × 70 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216.",
+    "de": "50 × 70 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216.",
+    "es": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "ja": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "zh-Hans": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "sv": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "da": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nl": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pl": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pt": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "hi": "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

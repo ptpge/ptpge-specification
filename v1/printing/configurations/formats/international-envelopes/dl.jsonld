@@ -43,7 +43,7 @@
   "elementType": "value",
   "broader": "https://ptpge.org/v1/printing/configurations/formats/international-envelopes",
   "created": "2026-05-18T12:24:03Z",
-  "modified": "2026-09-23T06:29:18Z",
+  "modified": "2026-11-02T07:56:18Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "110 × 220 mm. The most common envelope size in Europe, sized to hold an A4 sheet folded in three. Used for business correspondence, invoices, and direct-mail. The designation comes from 'DIN Lang', the German long-format standard.",
@@ -82,5 +82,8 @@
       "match": "exact",
       "via": "crosswalk row 20"
     }
+  ],
+  "related": [
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl"
   ]
 }

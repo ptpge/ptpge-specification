@@ -186,5 +186,12 @@
         "nb": "Alle sidene mellom omslagene. Delen en substratbinding adresserer som @inside."
       }
     }
-  ]
+  ],
+  "imposition": {
+    "panels": 1,
+    "pages": null,
+    "pageMap": null,
+    "coverPanel": null
+  },
+  "foldCatalog": null
 }

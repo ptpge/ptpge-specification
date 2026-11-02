@@ -7,7 +7,7 @@
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
     skos:altLabel "plakat"@da,
         "postere"@da,
         "reklameplakat"@da,
@@ -157,6 +157,18 @@
         <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2>,
         <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3>,
         <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x140>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x25>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x35>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-35x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x40>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x70>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-60x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x70>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-legal>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
         <https://ptpge.org/v1/printing/configurations/formats/us/ledger>,

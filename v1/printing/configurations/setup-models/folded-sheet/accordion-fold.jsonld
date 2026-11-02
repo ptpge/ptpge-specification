@@ -130,5 +130,44 @@
       "match": "partial",
       "via": "FoldCatalog"
     }
-  ]
+  ],
+  "imposition": {
+    "panels": 4,
+    "pages": 8,
+    "folds": [
+      1,
+      2,
+      3
+    ],
+    "panelWidths": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "side2": [
+        7,
+        6,
+        3,
+        2
+      ]
+    },
+    "foldProfile": "Z",
+    "coverPanel": 0,
+    "coverSide": "side1"
+  },
+  "foldCatalog": {
+    "standard": "XJDF",
+    "version": "2.2",
+    "code": "F8-1",
+    "match": "close",
+    "note": "Four-panel zigzag (accordion). F6-1 is the three-panel zigzag; the catalog's Fn-i numbering counts finished pages, so a 4-panel accordion is F8-1."
+  }
 }

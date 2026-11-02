@@ -3,6 +3,17 @@
 What changed in each data release, newest first. Mirrors https://ptpge.org/changelog/.
 Data releases are versioned by date; the API contract is `v1`.
 
+## 2026-11-02
+
+### Formats: DL is a brochure size too: folded-sheet formats, and the trade's poster sizes
+
+Two new format families. `printing/configurations/formats/folded-sheet-formats` holds the closed sizes a folded sheet is sold as: `dl` 99 × 210 mm (an A4 in three — the trade's «DL flyer», now a term of its own, cross-linked to the DL envelope 110 × 220, which stays where it was), `lang-dl` 105 × 210 and `letter-tri-fold` 93 × 216. The format is the closed size; how the sheet divides into panels is the setup model's business — the letter fold's inner panel is 2 mm narrower by `imposition.panelWidths` on `tri-fold`, not by a format. `poster-formats` holds twelve trade poster sizes in centimetres (25 × 25 to 100 × 140), matched to common frames rather than to ISO 216. Brochures and Flyers accept the folded-sheet family; Posters accept the poster family. Also since 2026-10-23: every folded-sheet setup model carries its imposition facts (`imposition`: panels, folds, page map, cover panel) and, where XJDF 2.2 names the fold, its FoldCatalog code (`foldCatalog`: F6-7 Z-fold, F6-4 letter fold, F8-4 gate …). Drawings of a configuration are illustrations derived from these facts; the specification defines the facts, not the picture.
+
+- `https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl`
+- `https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats`
+- `https://ptpge.org/v1/printing/configurations/formats/poster-formats`
+- `https://ptpge.org/v1/printing/configurations/setup-models/folded-sheet/tri-fold`
+
 ## 2026-10-28
 
 ### Schemas: The small end of the window: minFormatMm on a production line

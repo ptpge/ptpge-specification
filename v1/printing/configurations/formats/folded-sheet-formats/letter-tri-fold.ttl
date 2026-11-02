@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "#10 brochure"@en,
+        "3.67 x 8.5"@en,
+        "3.67x8.5 in"@en,
+        "Letter tri-fold"@en,
+        "US tri-fold brochure"@en,
+        "rack card"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats> ;
+    skos:definition "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@da,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@de,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@en,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@es,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@hi,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@ja,
+        "93 × 216 mm (3⅔ × 8½ in) — et US Letter-ark brettet i tre; standard nordamerikansk brosjyreformat, passer i #10-konvolutt."@nb,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@nl,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@pl,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@pt,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@sv,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§LTR-TRI" ;
+    skos:prefLabel "Letter tri-fold (3.67 x 8.5 in)"@da,
+        "Letter tri-fold (3.67 x 8.5 in)"@de,
+        "Letter tri-fold (3.67 x 8.5 in)"@en,
+        "Letter tri-fold (3.67 x 8.5 in)"@es,
+        "Letter tri-fold (3.67 x 8.5 in)"@hi,
+        "Letter tri-fold (3.67 x 8.5 in)"@ja,
+        "Letter tri-fold (3,67 x 8,5 in)"@nb,
+        "Letter tri-fold (3.67 x 8.5 in)"@nl,
+        "Letter tri-fold (3.67 x 8.5 in)"@pl,
+        "Letter tri-fold (3.67 x 8.5 in)"@pt,
+        "Letter tri-fold (3.67 x 8.5 in)"@sv,
+        "Letter tri-fold (3.67 x 8.5 in)"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/configurations/formats/us/letter> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 20088.0 ;
+            ptpge:aspectRatio 2.3226 ;
+            ptpge:height 216.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 93.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+

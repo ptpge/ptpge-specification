@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x100",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§PSTR-70X100",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Poster 70 × 100 cm",
+    "nb": "Plakat 70 × 100 cm",
+    "de": "Plakat 70 × 100 cm",
+    "es": "Póster 70 × 100 cm",
+    "ja": "Poster 70 × 100 cm",
+    "zh-Hans": "Poster 70 × 100 cm",
+    "sv": "Affisch 70 × 100 cm",
+    "da": "Plakat 70 × 100 cm",
+    "nl": "Poster 70 × 100 cm",
+    "pl": "Plakat 70 × 100 cm",
+    "pt": "Pôster 70 × 100 cm",
+    "hi": "Poster 70 × 100 cm"
+  },
+  "altLabels": {
+    "en": [
+      "70x100 cm",
+      "70 x 100 cm",
+      "700 x 1000 mm",
+      "700x1000"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/poster-formats",
+  "properties": {
+    "width": 700,
+    "height": 1000,
+    "unit": "mm",
+    "aspectRatio": 1.4286,
+    "standard": "convention",
+    "area": 700000
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nb": "70 × 100 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216.",
+    "de": "70 × 100 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216.",
+    "es": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "ja": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "zh-Hans": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "sv": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "da": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nl": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pl": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pt": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "hi": "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

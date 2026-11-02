@@ -162,5 +162,49 @@
       "match": "partial",
       "via": "FoldCatalog"
     }
-  ]
+  ],
+  "imposition": {
+    "panels": 2,
+    "pages": 8,
+    "folds": [
+      1
+    ],
+    "panelWidths": [
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        [
+          5,
+          4
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "side2": [
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    "foldProfile": "V+",
+    "coverPanel": 1,
+    "rows": 2,
+    "coverSide": "side1"
+  },
+  "foldCatalog": {
+    "standard": "XJDF",
+    "version": "2.2",
+    "code": "F8-7",
+    "note": "2×2 cross fold (A.3.8 figure)",
+    "match": "close"
+  }
 }

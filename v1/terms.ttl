@@ -5342,7 +5342,7 @@
     dcterms:created "2026-06-04T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-11T11:20:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
     skos:altLabel "brochure"@da,
         "falset folder"@da,
         "folder"@da,
@@ -5508,6 +5508,9 @@
         <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
         <https://ptpge.org/v1/printing/configurations/formats/a-series/a7>,
         <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-legal>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
         <https://ptpge.org/v1/printing/configurations/formats/us/half-letter>,
@@ -7884,7 +7887,7 @@
 <https://ptpge.org/v1/ordering/products/flyers> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-28T12:25:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
     skos:altLabel "Løbesedler"@da,
         "flyer"@da,
         "håndbill"@da,
@@ -8031,6 +8034,9 @@
         <https://ptpge.org/v1/printing/configurations/formats/a-series/a6>,
         <https://ptpge.org/v1/printing/configurations/formats/a-series/a7>,
         <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold>,
         <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-legal>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
@@ -11085,7 +11091,7 @@
     dcterms:created "2026-05-18T12:24:24+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-16T10:40:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
     skos:altLabel "plakat"@da,
         "postere"@da,
         "reklameplakat"@da,
@@ -11235,6 +11241,18 @@
         <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e2>,
         <https://ptpge.org/v1/printing/configurations/formats/arch-series/arch-e3>,
         <https://ptpge.org/v1/printing/configurations/formats/customized>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x140>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x25>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x35>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-35x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x40>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x70>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-60x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x70>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-legal>,
         <https://ptpge.org/v1/printing/configurations/formats/us/government-letter>,
         <https://ptpge.org/v1/printing/configurations/formats/us/ledger>,
@@ -17016,14 +17034,7 @@
     ptpge:level "element" ;
     ptpge:pageCountConstraint "even" ;
     ptpge:pageCountRange [ ] ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17033,6 +17044,13 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17140,14 +17158,7 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17157,6 +17168,13 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17197,7 +17215,14 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17207,13 +17232,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17262,7 +17280,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17272,14 +17298,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F8-4 (Gate fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17329,7 +17347,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/4" "1/4" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-2 (Parallel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17339,14 +17365,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F8-2 (Parallel fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17463,7 +17481,15 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/4" "1/2" "1/4" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "partial" ;
+            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17473,14 +17499,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "partial" ;
-            ptpge:sourceElement "FoldCatalog F6-3 (Altar fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17547,7 +17565,15 @@
     ptpge:elementType "value" ;
     ptpge:group "configurations" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
+                "FoldingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17557,14 +17583,6 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F8-5 (Barrel fold)",
-                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17698,15 +17716,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-4 (Tri-fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17716,6 +17726,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-4 (Tri-fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -17826,15 +17844,7 @@
     ptpge:group "configurations" ;
     ptpge:level "element" ;
     ptpge:panelProportions ( "1/3" "1/3" "1/3" ) ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
-                "Table 4.28 · p.76–77" ;
-            ptpge:mappingRow "FoldCatalog" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
-                "FoldingIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.7 · p.75",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.7 · p.75",
                 "§5.6.15 · p.120",
                 "§6.36 · p.202",
                 "§8.21 · p.349" ;
@@ -17844,6 +17854,14 @@
                 "Folding",
                 "FoldingIntent",
                 "FoldingParams" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "Appendix A · Fold catalog",
+                "Table 4.28 · p.76–77" ;
+            ptpge:mappingRow "FoldCatalog" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "FoldCatalog F6-1 (Zigzag fold)",
+                "FoldingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -18403,7 +18421,13 @@
     ptpge:group "features" ;
     ptpge:hasProperty [ ] ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.6 · p.74" ;
+            ptpge:mappingRow "crosswalk row 25" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "EmbossingIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.6 · p.74",
                 "§5.6.12 · p.118",
                 "§6.32 · p.197" ;
             ptpge:mappingRow "crosswalk row 27" ;
@@ -18411,12 +18435,6 @@
             ptpge:sourceElement "Embossing",
                 "EmbossingIntent",
                 "EmbossingParams" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.6 · p.74" ;
-            ptpge:mappingRow "crosswalk row 25" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "EmbossingIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23868,18 +23886,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23929,18 +23947,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -23998,18 +24016,18 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -31202,6 +31220,642 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-08-12" .
 
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x100> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "100 x 100 cm"@en,
+        "1000 x 1000 mm"@en,
+        "1000x1000"@en,
+        "100x100 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "100 × 100 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "100 × 100 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-100X100" ;
+    skos:prefLabel "Plakat 100 × 100 cm"@da,
+        "Plakat 100 × 100 cm"@de,
+        "Poster 100 × 100 cm"@en,
+        "Póster 100 × 100 cm"@es,
+        "Poster 100 × 100 cm"@hi,
+        "Poster 100 × 100 cm"@ja,
+        "Plakat 100 × 100 cm"@nb,
+        "Poster 100 × 100 cm"@nl,
+        "Plakat 100 × 100 cm"@pl,
+        "Pôster 100 × 100 cm"@pt,
+        "Affisch 100 × 100 cm"@sv,
+        "Poster 100 × 100 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 1000000.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 1000.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 1000.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x140> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "100 x 140 cm"@en,
+        "1000 x 1400 mm"@en,
+        "1000x1400"@en,
+        "100x140 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "100 × 140 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "100 × 140 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "100 × 140 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-100X140" ;
+    skos:prefLabel "Plakat 100 × 140 cm"@da,
+        "Plakat 100 × 140 cm"@de,
+        "Poster 100 × 140 cm"@en,
+        "Póster 100 × 140 cm"@es,
+        "Poster 100 × 140 cm"@hi,
+        "Poster 100 × 140 cm"@ja,
+        "Plakat 100 × 140 cm"@nb,
+        "Poster 100 × 140 cm"@nl,
+        "Plakat 100 × 140 cm"@pl,
+        "Pôster 100 × 140 cm"@pt,
+        "Affisch 100 × 140 cm"@sv,
+        "Poster 100 × 140 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 1400000.0 ;
+            ptpge:aspectRatio 1.4 ;
+            ptpge:height 1400.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 1000.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x25> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "25 x 25 cm"@en,
+        "250 x 250 mm"@en,
+        "250x250"@en,
+        "25x25 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "25 × 25 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "25 × 25 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "25 × 25 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-25X25" ;
+    skos:prefLabel "Plakat 25 × 25 cm"@da,
+        "Plakat 25 × 25 cm"@de,
+        "Poster 25 × 25 cm"@en,
+        "Póster 25 × 25 cm"@es,
+        "Poster 25 × 25 cm"@hi,
+        "Poster 25 × 25 cm"@ja,
+        "Plakat 25 × 25 cm"@nb,
+        "Poster 25 × 25 cm"@nl,
+        "Plakat 25 × 25 cm"@pl,
+        "Pôster 25 × 25 cm"@pt,
+        "Affisch 25 × 25 cm"@sv,
+        "Poster 25 × 25 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 62500.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 250.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 250.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x35> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "25 x 35 cm"@en,
+        "250 x 350 mm"@en,
+        "250x350"@en,
+        "25x35 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "25 × 35 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "25 × 35 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-25X35" ;
+    skos:prefLabel "Plakat 25 × 35 cm"@da,
+        "Plakat 25 × 35 cm"@de,
+        "Poster 25 × 35 cm"@en,
+        "Póster 25 × 35 cm"@es,
+        "Poster 25 × 35 cm"@hi,
+        "Poster 25 × 35 cm"@ja,
+        "Plakat 25 × 35 cm"@nb,
+        "Poster 25 × 35 cm"@nl,
+        "Plakat 25 × 35 cm"@pl,
+        "Pôster 25 × 35 cm"@pt,
+        "Affisch 25 × 35 cm"@sv,
+        "Poster 25 × 35 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 87500.0 ;
+            ptpge:aspectRatio 1.4 ;
+            ptpge:height 350.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 250.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-35x50> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "35 x 50 cm"@en,
+        "350 x 500 mm"@en,
+        "350x500"@en,
+        "35x50 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "35 × 50 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "35 × 50 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "35 × 50 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-35X50" ;
+    skos:prefLabel "Plakat 35 × 50 cm"@da,
+        "Plakat 35 × 50 cm"@de,
+        "Poster 35 × 50 cm"@en,
+        "Póster 35 × 50 cm"@es,
+        "Poster 35 × 50 cm"@hi,
+        "Poster 35 × 50 cm"@ja,
+        "Plakat 35 × 50 cm"@nb,
+        "Poster 35 × 50 cm"@nl,
+        "Plakat 35 × 50 cm"@pl,
+        "Pôster 35 × 50 cm"@pt,
+        "Affisch 35 × 50 cm"@sv,
+        "Poster 35 × 50 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 175000.0 ;
+            ptpge:aspectRatio 1.4286 ;
+            ptpge:height 500.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 350.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x40> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "40 x 40 cm"@en,
+        "400 x 400 mm"@en,
+        "400x400"@en,
+        "40x40 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "40 × 40 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "40 × 40 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "40 × 40 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-40X40" ;
+    skos:prefLabel "Plakat 40 × 40 cm"@da,
+        "Plakat 40 × 40 cm"@de,
+        "Poster 40 × 40 cm"@en,
+        "Póster 40 × 40 cm"@es,
+        "Poster 40 × 40 cm"@hi,
+        "Poster 40 × 40 cm"@ja,
+        "Plakat 40 × 40 cm"@nb,
+        "Poster 40 × 40 cm"@nl,
+        "Plakat 40 × 40 cm"@pl,
+        "Pôster 40 × 40 cm"@pt,
+        "Affisch 40 × 40 cm"@sv,
+        "Poster 40 × 40 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 160000.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 400.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 400.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x60> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "40 x 60 cm"@en,
+        "400 x 600 mm"@en,
+        "400x600"@en,
+        "40x60 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "40 × 60 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "40 × 60 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "40 × 60 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-40X60" ;
+    skos:prefLabel "Plakat 40 × 60 cm"@da,
+        "Plakat 40 × 60 cm"@de,
+        "Poster 40 × 60 cm"@en,
+        "Póster 40 × 60 cm"@es,
+        "Poster 40 × 60 cm"@hi,
+        "Poster 40 × 60 cm"@ja,
+        "Plakat 40 × 60 cm"@nb,
+        "Poster 40 × 60 cm"@nl,
+        "Plakat 40 × 60 cm"@pl,
+        "Pôster 40 × 60 cm"@pt,
+        "Affisch 40 × 60 cm"@sv,
+        "Poster 40 × 60 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 240000.0 ;
+            ptpge:aspectRatio 1.5 ;
+            ptpge:height 600.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 400.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x50> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "50 x 50 cm"@en,
+        "500 x 500 mm"@en,
+        "500x500"@en,
+        "50x50 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "50 × 50 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "50 × 50 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-50X50" ;
+    skos:prefLabel "Plakat 50 × 50 cm"@da,
+        "Plakat 50 × 50 cm"@de,
+        "Poster 50 × 50 cm"@en,
+        "Póster 50 × 50 cm"@es,
+        "Poster 50 × 50 cm"@hi,
+        "Poster 50 × 50 cm"@ja,
+        "Plakat 50 × 50 cm"@nb,
+        "Poster 50 × 50 cm"@nl,
+        "Plakat 50 × 50 cm"@pl,
+        "Pôster 50 × 50 cm"@pt,
+        "Affisch 50 × 50 cm"@sv,
+        "Poster 50 × 50 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 250000.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 500.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 500.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x70> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "50 x 70 cm"@en,
+        "500 x 700 mm"@en,
+        "500x700"@en,
+        "50x70 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "50 × 70 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "50 × 70 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "50 × 70 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-50X70" ;
+    skos:prefLabel "Plakat 50 × 70 cm"@da,
+        "Plakat 50 × 70 cm"@de,
+        "Poster 50 × 70 cm"@en,
+        "Póster 50 × 70 cm"@es,
+        "Poster 50 × 70 cm"@hi,
+        "Poster 50 × 70 cm"@ja,
+        "Plakat 50 × 70 cm"@nb,
+        "Poster 50 × 70 cm"@nl,
+        "Plakat 50 × 70 cm"@pl,
+        "Pôster 50 × 70 cm"@pt,
+        "Affisch 50 × 70 cm"@sv,
+        "Poster 50 × 70 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 350000.0 ;
+            ptpge:aspectRatio 1.4 ;
+            ptpge:height 700.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 500.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-60x60> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "60 x 60 cm"@en,
+        "600 x 600 mm"@en,
+        "600x600"@en,
+        "60x60 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "60 × 60 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "60 × 60 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "60 × 60 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-60X60" ;
+    skos:prefLabel "Plakat 60 × 60 cm"@da,
+        "Plakat 60 × 60 cm"@de,
+        "Poster 60 × 60 cm"@en,
+        "Póster 60 × 60 cm"@es,
+        "Poster 60 × 60 cm"@hi,
+        "Poster 60 × 60 cm"@ja,
+        "Plakat 60 × 60 cm"@nb,
+        "Poster 60 × 60 cm"@nl,
+        "Plakat 60 × 60 cm"@pl,
+        "Pôster 60 × 60 cm"@pt,
+        "Affisch 60 × 60 cm"@sv,
+        "Poster 60 × 60 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 360000.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 600.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 600.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x100> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "70 x 100 cm"@en,
+        "700 x 1000 mm"@en,
+        "700x1000"@en,
+        "70x100 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "70 × 100 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "70 × 100 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "70 × 100 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-70X100" ;
+    skos:prefLabel "Plakat 70 × 100 cm"@da,
+        "Plakat 70 × 100 cm"@de,
+        "Poster 70 × 100 cm"@en,
+        "Póster 70 × 100 cm"@es,
+        "Poster 70 × 100 cm"@hi,
+        "Poster 70 × 100 cm"@ja,
+        "Plakat 70 × 100 cm"@nb,
+        "Poster 70 × 100 cm"@nl,
+        "Plakat 70 × 100 cm"@pl,
+        "Pôster 70 × 100 cm"@pt,
+        "Affisch 70 × 100 cm"@sv,
+        "Poster 70 × 100 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 700000.0 ;
+            ptpge:aspectRatio 1.4286 ;
+            ptpge:height 1000.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 700.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x70> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "70 x 70 cm"@en,
+        "700 x 700 mm"@en,
+        "700x700"@en,
+        "70x70 cm"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/poster-formats> ;
+    skos:definition "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@da,
+        "70 × 70 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216."@de,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@en,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@es,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@hi,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@ja,
+        "70 × 70 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216."@nb,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@nl,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pl,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@pt,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@sv,
+        "70 × 70 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§PSTR-70X70" ;
+    skos:prefLabel "Plakat 70 × 70 cm"@da,
+        "Plakat 70 × 70 cm"@de,
+        "Poster 70 × 70 cm"@en,
+        "Póster 70 × 70 cm"@es,
+        "Poster 70 × 70 cm"@hi,
+        "Poster 70 × 70 cm"@ja,
+        "Plakat 70 × 70 cm"@nb,
+        "Poster 70 × 70 cm"@nl,
+        "Plakat 70 × 70 cm"@pl,
+        "Pôster 70 × 70 cm"@pt,
+        "Affisch 70 × 70 cm"@sv,
+        "Poster 70 × 70 cm"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 490000.0 ;
+            ptpge:aspectRatio 1.0 ;
+            ptpge:height 700.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 700.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
 <https://ptpge.org/v1/printing/configurations/formats/rollups/rollup-100x200> a skos:Concept ;
     dcterms:created "2026-08-21T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -35302,6 +35956,120 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
+<https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "DIN Lang breit"@de,
+        "Lang-DIN"@de,
+        "105 x 210"@en,
+        "105x210"@en,
+        "DL long"@en,
+        "Lang DL"@en,
+        "half A4 lengthwise"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats> ;
+    skos:definition "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@da,
+        "105 × 210 mm — halbe A4-Breite bei voller Höhe; das «Lang-DL» der deutschen Branche, breiter als DL und passt nicht mehr in den DL-Umschlag."@de,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@en,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@es,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@hi,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@ja,
+        "105 × 210 mm — halve A4-bredden i full høyde (A4 brettet én gang på langs, eller stående A5); tysk bransjeformat «Lang-DL», bredere enn DL og passer ikke i DL-konvolutt."@nb,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@nl,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@pl,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@pt,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@sv,
+        "105 × 210 mm — half of an A4 sheet's short side by its full height (A4 folded once lengthwise, or A5 standing); the German trade's «Lang-DL», wider than DL and no longer fitting a DL envelope."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§LANG-DL" ;
+    skos:prefLabel "Lang-DL (105 x 210 mm)"@da,
+        "Lang-DL (105 x 210 mm)"@de,
+        "Lang-DL (105 x 210 mm)"@en,
+        "Lang-DL (105 x 210 mm)"@es,
+        "Lang-DL (105 x 210 mm)"@hi,
+        "Lang-DL (105 x 210 mm)"@ja,
+        "Lang-DL (105 x 210 mm)"@nb,
+        "Lang-DL (105 x 210 mm)"@nl,
+        "Lang-DL (105 x 210 mm)"@pl,
+        "Lang-DL (105 x 210 mm)"@pt,
+        "Lang-DL (105 x 210 mm)"@sv,
+        "Lang-DL (105 x 210 mm)"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 22050.0 ;
+            ptpge:aspectRatio 2.0 ;
+            ptpge:height 210.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 105.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
+<https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "#10 brochure"@en,
+        "3.67 x 8.5"@en,
+        "3.67x8.5 in"@en,
+        "Letter tri-fold"@en,
+        "US tri-fold brochure"@en,
+        "rack card"@en ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats> ;
+    skos:definition "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@da,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@de,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@en,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@es,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@hi,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@ja,
+        "93 × 216 mm (3⅔ × 8½ in) — et US Letter-ark brettet i tre; standard nordamerikansk brosjyreformat, passer i #10-konvolutt."@nb,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@nl,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@pl,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@pt,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@sv,
+        "93 × 216 mm (3⅔ × 8½ in) — a US Letter sheet folded in three; the standard North-American brochure and rack-card size, fitting a #10 envelope."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§LTR-TRI" ;
+    skos:prefLabel "Letter tri-fold (3.67 x 8.5 in)"@da,
+        "Letter tri-fold (3.67 x 8.5 in)"@de,
+        "Letter tri-fold (3.67 x 8.5 in)"@en,
+        "Letter tri-fold (3.67 x 8.5 in)"@es,
+        "Letter tri-fold (3.67 x 8.5 in)"@hi,
+        "Letter tri-fold (3.67 x 8.5 in)"@ja,
+        "Letter tri-fold (3,67 x 8,5 in)"@nb,
+        "Letter tri-fold (3.67 x 8.5 in)"@nl,
+        "Letter tri-fold (3.67 x 8.5 in)"@pl,
+        "Letter tri-fold (3.67 x 8.5 in)"@pt,
+        "Letter tri-fold (3.67 x 8.5 in)"@sv,
+        "Letter tri-fold (3.67 x 8.5 in)"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/configurations/formats/us/letter> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 20088.0 ;
+            ptpge:aspectRatio 2.3226 ;
+            ptpge:height 216.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 93.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
 <https://ptpge.org/v1/printing/configurations/winding-direction/finat-1> a skos:Concept ;
     dcterms:created "2026-09-05T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/v1/contributors/ptpge" ;
@@ -36229,13 +36997,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -37971,6 +38739,46 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
+<https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@da,
+        "Die geschlossenen Maße, in denen ein gefalzter Bogen verkauft wird — «DIN lang», «Lang-DL». Das Format ist das geschlossene Maß; die Panelaufteilung gehört zum Setup-Modell."@de,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@en,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@es,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@hi,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@ja,
+        "De lukkede målene et falset ark selges som — det bransjen kaller «DL-flyer» eller «Lang-DL». Formatet er det lukkede målet; hvordan arket deles i paneler er oppsettsmodellens sak."@nb,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@nl,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@pl,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@pt,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@sv,
+        "The closed sizes a folded sheet is sold as — what the trade calls a «DL flyer» or «Lang-DL». The format is the closed size; how the sheet is divided into panels is the setup model's business."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold> ;
+    skos:notation "P:CF-FMT-FOLD" ;
+    skos:prefLabel "Falsede formater"@da,
+        "Falzformate"@de,
+        "Folded-sheet formats"@en,
+        "Folded-sheet formats"@es,
+        "Folded-sheet formats"@hi,
+        "Folded-sheet formats"@ja,
+        "Falsede formater"@nb,
+        "Vouwformaten"@nl,
+        "Folded-sheet formats"@pl,
+        "Folded-sheet formats"@pt,
+        "Falsade format"@sv,
+        "Folded-sheet formats"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
 <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats> a skos:Concept ;
     dcterms:created "2026-08-12T11:00:47+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -38691,13 +39499,13 @@
     ptpge:group "substrates" ;
     ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 32" ;
+            ptpge:mappingRow "crosswalk row 37" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
         [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 37" ;
+            ptpge:mappingRow "crosswalk row 32" ;
             ptpge:matchDegree "partial" ;
             ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
@@ -39032,16 +39840,16 @@
         "涂布"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+        [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -39487,6 +40295,76 @@
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "DL-folder"@da,
+        "M65"@da,
+        "DIN lang"@de,
+        "DIN-lang-Flyer"@de,
+        "Langformat"@de,
+        "99 x 210"@en,
+        "99x210"@en,
+        "A4 folded in three"@en,
+        "A4 tri-fold"@en,
+        "DIN lang"@en,
+        "DL brochure"@en,
+        "DL flyer"@en,
+        "one-third A4"@en,
+        "DL-brosjyre"@nb,
+        "DL-flyer"@nb,
+        "tredelt A4"@nb,
+        "DL-broschyr"@sv,
+        "DL-folder"@sv ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats> ;
+    skos:definition "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@da,
+        "99 × 210 mm — ein A4-Bogen, längs in drei gefalzt; das «DIN lang» der Branche für Flyer und Broschüren, passend für den DL-Umschlag (110 × 220). Das Format ist das geschlossene Maß; die Panelbreiten folgen dem Setup-Modell. Nicht derselbe Begriff wie der DL-Umschlag."@de,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@en,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@es,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@hi,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@ja,
+        "99 × 210 mm — et A4-ark brettet i tre på langs; bransjens «DL» for flyere og brosjyrer, passer i DL-konvolutten (110 × 220). Formatet er det lukkede målet; panelbreddene følger oppsettsmodellen (like tredeler for Z-fals, innbrettet panel 2–3 mm smalere for wickelfalz). Ikke samme term som DL-konvolutten."@nb,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@nl,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@pl,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@pt,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@sv,
+        "99 × 210 mm — an A4 sheet folded in three along its long side; the trade's «DL» for flyers and brochures, sized to fit the DL envelope (110 × 220). The format is the closed size; the panel widths follow the setup model (equal thirds for a Z-fold, the inner panel 2–3 mm narrower for a letter fold). Not the same term as the DL envelope."@zh-Hans ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1201349> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§DL" ;
+    skos:prefLabel "DL (99 x 210 mm)"@da,
+        "DL (99 x 210 mm)"@de,
+        "DL (99 x 210 mm)"@en,
+        "DL (99 x 210 mm)"@es,
+        "DL (99 x 210 mm)"@hi,
+        "DL (99 x 210 mm)"@ja,
+        "DL (99 x 210 mm)"@nb,
+        "DL (99 x 210 mm)"@nl,
+        "DL (99 x 210 mm)"@pl,
+        "DL (99 x 210 mm)"@pt,
+        "DL (99 x 210 mm)"@sv,
+        "DL (99 x 210 mm)"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/configurations/formats/a-series/a4>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 20790.0 ;
+            ptpge:aspectRatio 2.1212 ;
+            ptpge:height 210.0 ;
+            ptpge:standard "convention" ;
+            ptpge:unit "mm" ;
+            ptpge:width 99.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§ 7.3 LayoutIntent/FinishedDimensions" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
 
 <https://ptpge.org/v1/printing/configurations/orientation> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
@@ -40330,16 +41208,16 @@
     ptpge:elementType "value" ;
     ptpge:group "substrates" ;
     ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
-            ptpge:mappingRow "crosswalk row 35" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 29" ;
+        [ dcterms:bibliographicCitation "§6.57 · p.229 · §4.11 · p.79" ;
+            ptpge:mappingRow "crosswalk row 35" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
@@ -43662,18 +44540,18 @@
         "范围从牛皮纸和天然纸（CIE 60–80，暖调）经象牙和灰色（中间）到白色和亮白色（CIE 90+）。选择影响印刷颜色的感知色调和产品的整体视觉特性。"@zh-Hans ;
     ptpge:group "substrates" ;
     ptpge:level "sub-category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 36" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ],
-        [ dcterms:bibliographicCitation "§4.11 · p.79",
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.11 · p.79",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 29" ;
             ptpge:matchDegree "exact" ;
             ptpge:sourceElement "Media",
                 "MediaIntent" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ],
+        [ dcterms:bibliographicCitation "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 36" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "Media" ;
             ptpge:sourceStandard "XJDF" ;
             ptpge:sourceVersion "2.2" ] ;
     ptpge:status "proposed" ;
@@ -46164,6 +47042,55 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@da,
+        "Handelsübliche Plakatformate in Zentimetern — quadratische und hochformatige Maße für gängige Rahmen (25 × 25 bis 100 × 140), neben den ISO- und US-Reihen."@de,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@en,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@es,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@hi,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@ja,
+        "Bransjens plakatformater i centimeter — kvadratiske og stående mål tilpasset vanlige rammer (25 × 25 til 100 × 140), ved siden av ISO- og US-seriene."@nb,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@nl,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@pl,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@pt,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@sv,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x140>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x25>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x35>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-35x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x40>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x70>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-60x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x70> ;
+    skos:notation "P:CF-FMT-PSTR" ;
+    skos:prefLabel "Plakatformater"@da,
+        "Plakatformate"@de,
+        "Poster formats"@en,
+        "Poster formats"@es,
+        "Poster formats"@hi,
+        "Poster formats"@ja,
+        "Plakatformater"@nb,
+        "Posterformaten"@nl,
+        "Poster formats"@pl,
+        "Poster formats"@pt,
+        "Affischformat"@sv,
+        "Poster formats"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+
 <https://ptpge.org/v1/printing/management/quality-assurance/preflight-file-check> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -46522,67 +47449,6 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-09-03" .
 
-<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> a skos:Concept ;
-    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
-    skos:altLabel "11 x 22 cm"@en,
-        "110 x 220 mm"@en,
-        "110x220"@en,
-        "110×220"@en,
-        "DL Envelope"@en,
-        "DL envelope"@en,
-        "DL size"@en,
-        "DL-konvolutt"@nb,
-        "koperta DL"@pl,
-        "koperta podłużna"@pl ;
-    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
-    skos:definition "110 × 220 mm. Det mest almindelige kuvertformat i Europa, dimensioneret til et A4-ark foldet i tre dele. Bruges til forretningskorrespondance, fakturaer og direct mail. Betegnelsen kommer fra 'DIN Lang', den tyske langformatstandard."@da,
-        "110 × 220 mm. Das verbreitetste Briefumschlagformat in Europa, dimensioniert zur Aufnahme eines dreimal gefalteten A4-Bogens. Verwendet für Geschäftskorrespondenz, Rechnungen und Direktwerbung. Die Bezeichnung leitet sich vom deutschen Standard „DIN Lang“ ab."@de,
-        "110 × 220 mm. The most common envelope size in Europe, sized to hold an A4 sheet folded in three. Used for business correspondence, invoices, and direct-mail. The designation comes from 'DIN Lang', the German long-format standard."@en,
-        "Sobre DL — formato comercial estándar internacional, contiene un A4 doblado en tres. El sobre más común en correspondencia europea."@es,
-        "110 × 220 mm. यूरोप का सबसे आम लिफ़ाफ़ा आकार, तीन में मुड़ी A4 शीट के लिए। व्यावसायिक पत्राचार, इनवॉइस और डायरेक्ट मेल में। नाम «DIN Lang» — जर्मन लंबे-फ़ॉर्मेट मानक — से आया है।"@hi,
-        "110×220mm。欧州で最も一般的な封筒サイズで、A4を3つ折りで収納するように設計されている。ビジネス通信、請求書、ダイレクトメールに使用される。名称はドイツの長尺形式規格「DIN Lang」に由来する。"@ja,
-        "110 × 220 mm. Den vanligste konvoluttstørrelsen i Europa, dimensjonert for å romme et A4-ark brettet i tre. Brukes til forretningskorrespondanse, fakturaer og direkte­reklame. Forkortelsen kommer fra «DIN Lang», den tyske langformat-standarden."@nb,
-        "110 × 220 mm. Het meest gangbare envelopformaat in Europa, bemeten voor een in drieën gevouwen A4-vel. Gebruikt voor zakelijke correspondentie, facturen en direct mail. De aanduiding komt van 'DIN Lang', de Duitse langwerpige standaard."@nl,
-        "110 × 220 mm. Najpopularniejszy format koperty w Europie, dobrany do arkusza A4 złożonego na trzy. Używany do korespondencji biznesowej, faktur i direct mail. Oznaczenie pochodzi od „DIN Lang”, niemieckiego standardu formatu podłużnego."@pl,
-        "110 × 220 mm. O tamanho de envelope mais comum na Europa, feito para uma folha A4 dobrada em três. Usado em correspondência comercial, faturas e mala direta. A designação vem de «DIN Lang», o padrão alemão de formato longo."@pt,
-        "110 × 220 mm. Det vanligaste kuvertformatet i Europa, dimensionerat för ett A4-ark vikt i tre delar. Används för affärskorrespondens, fakturor och direktreklam. Beteckningen kommer från 'DIN Lang', den tyska långformatsstandarden."@sv,
-        "DL信封 —— 国际标准商业格式，装对折三次的A4。欧洲商业通信中最常见的信封。"@zh-Hans ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:notation "P:CF§DL" ;
-    skos:prefLabel "DL (110 x 220 mm)"@da,
-        "DL (110 x 220 mm)"@de,
-        "DL (110 x 220 mm)"@en,
-        "DL (110 × 220 mm)"@es,
-        "DL (110 x 220 mm)"@hi,
-        "DL (110 x 220 mm)"@ja,
-        "DL (110 x 220 mm)"@nb,
-        "DL (110 x 220 mm)"@nl,
-        "DL (110 x 220 mm)"@pl,
-        "DL (110 x 220 mm)"@pt,
-        "DL (110 x 220 mm)"@sv,
-        "DL (110 × 220 mm)"@zh-Hans ;
-    ptpge:elementType "value" ;
-    ptpge:group "configurations" ;
-    ptpge:hasProperty [ ptpge:area 24200.0 ;
-            ptpge:aspectRatio 2.0 ;
-            ptpge:height 220.0 ;
-            ptpge:standard "ISO 269" ;
-            ptpge:unit "mm" ;
-            ptpge:width 110.0 ] ;
-    ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 20" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "LayoutIntent",
-                "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ] ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
-
 <https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-weights/extra-thick-cardstock> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -46700,6 +47566,68 @@
     ptpge:status "proposed" ;
     ptpge:valueDomain <https://ptpge.org/v1/printing/configurations/back-orientation> ;
     ptpge:version "2026-09-03" .
+
+<https://ptpge.org/v1/printing/configurations/formats/international-envelopes/dl> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "11 x 22 cm"@en,
+        "110 x 220 mm"@en,
+        "110x220"@en,
+        "110×220"@en,
+        "DL Envelope"@en,
+        "DL envelope"@en,
+        "DL size"@en,
+        "DL-konvolutt"@nb,
+        "koperta DL"@pl,
+        "koperta podłużna"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/international-envelopes> ;
+    skos:definition "110 × 220 mm. Det mest almindelige kuvertformat i Europa, dimensioneret til et A4-ark foldet i tre dele. Bruges til forretningskorrespondance, fakturaer og direct mail. Betegnelsen kommer fra 'DIN Lang', den tyske langformatstandard."@da,
+        "110 × 220 mm. Das verbreitetste Briefumschlagformat in Europa, dimensioniert zur Aufnahme eines dreimal gefalteten A4-Bogens. Verwendet für Geschäftskorrespondenz, Rechnungen und Direktwerbung. Die Bezeichnung leitet sich vom deutschen Standard „DIN Lang“ ab."@de,
+        "110 × 220 mm. The most common envelope size in Europe, sized to hold an A4 sheet folded in three. Used for business correspondence, invoices, and direct-mail. The designation comes from 'DIN Lang', the German long-format standard."@en,
+        "Sobre DL — formato comercial estándar internacional, contiene un A4 doblado en tres. El sobre más común en correspondencia europea."@es,
+        "110 × 220 mm. यूरोप का सबसे आम लिफ़ाफ़ा आकार, तीन में मुड़ी A4 शीट के लिए। व्यावसायिक पत्राचार, इनवॉइस और डायरेक्ट मेल में। नाम «DIN Lang» — जर्मन लंबे-फ़ॉर्मेट मानक — से आया है।"@hi,
+        "110×220mm。欧州で最も一般的な封筒サイズで、A4を3つ折りで収納するように設計されている。ビジネス通信、請求書、ダイレクトメールに使用される。名称はドイツの長尺形式規格「DIN Lang」に由来する。"@ja,
+        "110 × 220 mm. Den vanligste konvoluttstørrelsen i Europa, dimensjonert for å romme et A4-ark brettet i tre. Brukes til forretningskorrespondanse, fakturaer og direkte­reklame. Forkortelsen kommer fra «DIN Lang», den tyske langformat-standarden."@nb,
+        "110 × 220 mm. Het meest gangbare envelopformaat in Europa, bemeten voor een in drieën gevouwen A4-vel. Gebruikt voor zakelijke correspondentie, facturen en direct mail. De aanduiding komt van 'DIN Lang', de Duitse langwerpige standaard."@nl,
+        "110 × 220 mm. Najpopularniejszy format koperty w Europie, dobrany do arkusza A4 złożonego na trzy. Używany do korespondencji biznesowej, faktur i direct mail. Oznaczenie pochodzi od „DIN Lang”, niemieckiego standardu formatu podłużnego."@pl,
+        "110 × 220 mm. O tamanho de envelope mais comum na Europa, feito para uma folha A4 dobrada em três. Usado em correspondência comercial, faturas e mala direta. A designação vem de «DIN Lang», o padrão alemão de formato longo."@pt,
+        "110 × 220 mm. Det vanligaste kuvertformatet i Europa, dimensionerat för ett A4-ark vikt i tre delar. Används för affärskorrespondens, fakturor och direktreklam. Beteckningen kommer från 'DIN Lang', den tyska långformatsstandarden."@sv,
+        "DL信封 —— 国际标准商业格式，装对折三次的A4。欧洲商业通信中最常见的信封。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§DL" ;
+    skos:prefLabel "DL (110 x 220 mm)"@da,
+        "DL (110 x 220 mm)"@de,
+        "DL (110 x 220 mm)"@en,
+        "DL (110 × 220 mm)"@es,
+        "DL (110 x 220 mm)"@hi,
+        "DL (110 x 220 mm)"@ja,
+        "DL (110 x 220 mm)"@nb,
+        "DL (110 x 220 mm)"@nl,
+        "DL (110 x 220 mm)"@pl,
+        "DL (110 x 220 mm)"@pt,
+        "DL (110 x 220 mm)"@sv,
+        "DL (110 × 220 mm)"@zh-Hans ;
+    skos:related <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl> ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 24200.0 ;
+            ptpge:aspectRatio 2.0 ;
+            ptpge:height 220.0 ;
+            ptpge:standard "ISO 269" ;
+            ptpge:unit "mm" ;
+            ptpge:width 110.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
 
 <https://ptpge.org/v1/variables/finishing/edge> a skos:Concept ;
     dcterms:created "2026-05-30T00:00:00+00:00"^^xsd:dateTime ;
@@ -46822,72 +47750,6 @@
     ptpge:scope "product" ;
     ptpge:status "proposed" ;
     ptpge:valueDomain <https://ptpge.org/v1/printing/completions/structural-finishing> ;
-    ptpge:version "2026-06-05" .
-
-<https://ptpge.org/v1/printing/configurations/formats> a skos:Concept ;
-    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
-    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
-    skos:broader <https://ptpge.org/v1/printing/configurations> ;
-    skos:definition "Standardiserede fysiske størrelser for skårne ark, kuverter og færdige trykte objekter — de dimensioner et produkt produceres i, bestilles i eller leveres som."@da,
-        "Standardisierte physische Größen für zugeschnittene Bogen, Briefumschläge und fertige Druckprodukte — die Maße, in denen ein Produkt produziert, bestellt oder ausgeliefert wird."@de,
-        "Standardized physical sizes for cut sheets, envelopes, and finished printed objects — the dimensions a product is produced at, ordered in, or delivered as."@en,
-        "Tamaños físicos estandarizados para hojas cortadas, sobres y objetos impresos terminados — las dimensiones en las que se produce, pide o entrega un producto."@es,
-        "कटी शीटों, लिफ़ाफ़ों और तैयार मुद्रित वस्तुओं के मानकीकृत भौतिक आकार — वे आयाम जिनमें उत्पाद बनाया, ऑर्डर किया या सुपुर्द किया जाता है।"@hi,
-        "カットシート、封筒、完成印刷物のための標準化された物理寸法 — 製品が生産、発注、納品される寸法。"@ja,
-        "Standardiserte fysiske størrelser for ark, konvolutter og ferdige trykte objekter — dimensjonene et produkt produseres i, bestilles i eller leveres som."@nb,
-        "Gestandaardiseerde fysieke afmetingen voor gesneden vellen, enveloppen en afgewerkte drukobjecten — de afmetingen waarin een product wordt geproduceerd, besteld of geleverd."@nl,
-        "Ustandaryzowane wymiary fizyczne arkuszy ciętych, kopert i gotowych obiektów drukowanych — wymiary, w jakich produkt jest wytwarzany, zamawiany lub dostarczany."@pl,
-        "Tamanhos físicos padronizados de folhas cortadas, envelopes e objetos impressos acabados — as dimensões em que um produto é produzido, pedido ou entregue."@pt,
-        "Standardiserade fysiska storlekar för skurna ark, kuvert och färdiga tryckta objekt — de dimensioner en produkt produceras i, beställs i eller levereras som."@sv,
-        "切张、信封和印刷成品的标准化物理尺寸——产品被生产、订购或交付的尺寸。"@zh-Hans ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/a-series>,
-        <https://ptpge.org/v1/printing/configurations/formats/ansi-series>,
-        <https://ptpge.org/v1/printing/configurations/formats/arch-series>,
-        <https://ptpge.org/v1/printing/configurations/formats/b-series>,
-        <https://ptpge.org/v1/printing/configurations/formats/business-cards>,
-        <https://ptpge.org/v1/printing/configurations/formats/c-series>,
-        <https://ptpge.org/v1/printing/configurations/formats/event-tents>,
-        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes>,
-        <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats>,
-        <https://ptpge.org/v1/printing/configurations/formats/ra-series>,
-        <https://ptpge.org/v1/printing/configurations/formats/rollups>,
-        <https://ptpge.org/v1/printing/configurations/formats/sra-series>,
-        <https://ptpge.org/v1/printing/configurations/formats/us> ;
-    skos:notation "P:CF-FMT" ;
-    skos:prefLabel "Formater"@da,
-        "Formate"@de,
-        "Formats"@en,
-        "Formatos"@es,
-        "फ़ॉर्मेट"@hi,
-        "フォーマット"@ja,
-        "Formater"@nb,
-        "Formaten"@nl,
-        "Formaty"@pl,
-        "Formatos"@pt,
-        "Format"@sv,
-        "开本"@zh-Hans ;
-    skos:scopeNote "Umfasst die ISO-216-A- und -B-Reihe, ISO-269-C-Reihen-Briefumschläge, nordamerikanische ANSI- und Architektenformate, US-Standardformate (Letter, Legal, Tabloid), regionale Visitenkartenformate und gängige Briefumschlagsformate. Die Standards hinter diesen Formaten (ISO 216, ANSI, JIS) werden unter Standards › Papierformat-Standards erfasst."@de,
-        "Includes ISO 216 A and B series, ISO 269 C series envelopes, North American ANSI and Architectural sizes, US standard sizes (Letter, Legal, Tabloid), regional business card sizes, and common envelope formats. The standards behind these formats (ISO 216, ANSI, JIS) are tracked under Standards › Paper Size Standards."@en,
-        "Incluye las series A y B de ISO 216, los sobres serie C de ISO 269, los formatos ANSI y arquitectónicos norteamericanos, los tamaños estándar de EE. UU. (Carta, Oficio, Tabloide), los tamaños regionales de tarjeta de visita y los formatos comunes de sobre."@es,
-        "ISO 216 A और B सीरीज़, ISO 269 C-सीरीज़ लिफ़ाफ़े, उत्तर अमेरिकी ANSI और Arch आकार, US मानक आकार (Letter, Legal, Tabloid), क्षेत्रीय विज़िटिंग कार्ड आकार और आम लिफ़ाफ़ा फ़ॉर्मेट शामिल। इन फ़ॉर्मेटों के पीछे के मानक (ISO 216, ANSI, JIS) मानक › काग़ज़ आकार मानक के अंतर्गत हैं।"@hi,
-        "ISO 216 AおよびBシリーズ、ISO 269 Cシリーズ封筒、北米ANSIおよびArchitecturalサイズ、米国標準サイズ（Letter、Legal、Tabloid）、地域別の名刺サイズ、一般的な封筒形式を含む。これらの形式の背景にある規格（ISO 216、ANSI、JIS）はStandards › Paper Size Standardsで扱う。"@ja,
-        "Inkluderer ISO 216 A- og B-serien, ISO 269 C-serien-konvolutter, nordamerikanske ANSI- og Architectural-størrelser, US-standardstørrelser (Letter, Legal, Tabloid), regionale visittkortstørrelser og vanlige konvoluttformater. Selve standardene (ISO 216, ANSI, JIS) spores under Standards › Paper Size Standards."@nb,
-        "Inclui as séries A e B da ISO 216, envelopes da série C da ISO 269, tamanhos norte-americanos ANSI e Arch, tamanhos padrão dos EUA (Letter, Legal, Tabloid), tamanhos regionais de cartão de visita e formatos comuns de envelope. As normas por trás desses formatos (ISO 216, ANSI, JIS) estão em Normas › Normas de tamanho de papel."@pt,
-        "包括ISO 216 A和B系列、ISO 269 C系列信封、北美ANSI和建筑系列、美国标准尺寸（Letter、Legal、Tabloid）、地区名片尺寸和常见信封格式。"@zh-Hans ;
-    ptpge:group "configurations" ;
-    ptpge:level "category" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 20" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "LayoutIntent",
-                "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ] ;
-    ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
 <https://ptpge.org/v1/printing/configurations/formats/us/half-letter> a skos:Concept ;
@@ -47579,6 +48441,74 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-09-23" .
 
+<https://ptpge.org/v1/printing/configurations/formats> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations> ;
+    skos:definition "Standardiserede fysiske størrelser for skårne ark, kuverter og færdige trykte objekter — de dimensioner et produkt produceres i, bestilles i eller leveres som."@da,
+        "Standardisierte physische Größen für zugeschnittene Bogen, Briefumschläge und fertige Druckprodukte — die Maße, in denen ein Produkt produziert, bestellt oder ausgeliefert wird."@de,
+        "Standardized physical sizes for cut sheets, envelopes, and finished printed objects — the dimensions a product is produced at, ordered in, or delivered as."@en,
+        "Tamaños físicos estandarizados para hojas cortadas, sobres y objetos impresos terminados — las dimensiones en las que se produce, pide o entrega un producto."@es,
+        "कटी शीटों, लिफ़ाफ़ों और तैयार मुद्रित वस्तुओं के मानकीकृत भौतिक आकार — वे आयाम जिनमें उत्पाद बनाया, ऑर्डर किया या सुपुर्द किया जाता है।"@hi,
+        "カットシート、封筒、完成印刷物のための標準化された物理寸法 — 製品が生産、発注、納品される寸法。"@ja,
+        "Standardiserte fysiske størrelser for ark, konvolutter og ferdige trykte objekter — dimensjonene et produkt produseres i, bestilles i eller leveres som."@nb,
+        "Gestandaardiseerde fysieke afmetingen voor gesneden vellen, enveloppen en afgewerkte drukobjecten — de afmetingen waarin een product wordt geproduceerd, besteld of geleverd."@nl,
+        "Ustandaryzowane wymiary fizyczne arkuszy ciętych, kopert i gotowych obiektów drukowanych — wymiary, w jakich produkt jest wytwarzany, zamawiany lub dostarczany."@pl,
+        "Tamanhos físicos padronizados de folhas cortadas, envelopes e objetos impressos acabados — as dimensões em que um produto é produzido, pedido ou entregue."@pt,
+        "Standardiserade fysiska storlekar för skurna ark, kuvert och färdiga tryckta objekt — de dimensioner en produkt produceras i, beställs i eller levereras som."@sv,
+        "切张、信封和印刷成品的标准化物理尺寸——产品被生产、订购或交付的尺寸。"@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/a-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/ansi-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/arch-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/b-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/business-cards>,
+        <https://ptpge.org/v1/printing/configurations/formats/c-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/event-tents>,
+        <https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats>,
+        <https://ptpge.org/v1/printing/configurations/formats/international-envelopes>,
+        <https://ptpge.org/v1/printing/configurations/formats/newspaper-formats>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats>,
+        <https://ptpge.org/v1/printing/configurations/formats/ra-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/rollups>,
+        <https://ptpge.org/v1/printing/configurations/formats/sra-series>,
+        <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:notation "P:CF-FMT" ;
+    skos:prefLabel "Formater"@da,
+        "Formate"@de,
+        "Formats"@en,
+        "Formatos"@es,
+        "फ़ॉर्मेट"@hi,
+        "フォーマット"@ja,
+        "Formater"@nb,
+        "Formaten"@nl,
+        "Formaty"@pl,
+        "Formatos"@pt,
+        "Format"@sv,
+        "开本"@zh-Hans ;
+    skos:scopeNote "Umfasst die ISO-216-A- und -B-Reihe, ISO-269-C-Reihen-Briefumschläge, nordamerikanische ANSI- und Architektenformate, US-Standardformate (Letter, Legal, Tabloid), regionale Visitenkartenformate und gängige Briefumschlagsformate. Die Standards hinter diesen Formaten (ISO 216, ANSI, JIS) werden unter Standards › Papierformat-Standards erfasst."@de,
+        "Includes ISO 216 A and B series, ISO 269 C series envelopes, North American ANSI and Architectural sizes, US standard sizes (Letter, Legal, Tabloid), regional business card sizes, and common envelope formats. The standards behind these formats (ISO 216, ANSI, JIS) are tracked under Standards › Paper Size Standards."@en,
+        "Incluye las series A y B de ISO 216, los sobres serie C de ISO 269, los formatos ANSI y arquitectónicos norteamericanos, los tamaños estándar de EE. UU. (Carta, Oficio, Tabloide), los tamaños regionales de tarjeta de visita y los formatos comunes de sobre."@es,
+        "ISO 216 A और B सीरीज़, ISO 269 C-सीरीज़ लिफ़ाफ़े, उत्तर अमेरिकी ANSI और Arch आकार, US मानक आकार (Letter, Legal, Tabloid), क्षेत्रीय विज़िटिंग कार्ड आकार और आम लिफ़ाफ़ा फ़ॉर्मेट शामिल। इन फ़ॉर्मेटों के पीछे के मानक (ISO 216, ANSI, JIS) मानक › काग़ज़ आकार मानक के अंतर्गत हैं।"@hi,
+        "ISO 216 AおよびBシリーズ、ISO 269 Cシリーズ封筒、北米ANSIおよびArchitecturalサイズ、米国標準サイズ（Letter、Legal、Tabloid）、地域別の名刺サイズ、一般的な封筒形式を含む。これらの形式の背景にある規格（ISO 216、ANSI、JIS）はStandards › Paper Size Standardsで扱う。"@ja,
+        "Inkluderer ISO 216 A- og B-serien, ISO 269 C-serien-konvolutter, nordamerikanske ANSI- og Architectural-størrelser, US-standardstørrelser (Letter, Legal, Tabloid), regionale visittkortstørrelser og vanlige konvoluttformater. Selve standardene (ISO 216, ANSI, JIS) spores under Standards › Paper Size Standards."@nb,
+        "Inclui as séries A e B da ISO 216, envelopes da série C da ISO 269, tamanhos norte-americanos ANSI e Arch, tamanhos padrão dos EUA (Letter, Legal, Tabloid), tamanhos regionais de cartão de visita e formatos comuns de envelope. As normas por trás desses formatos (ISO 216, ANSI, JIS) estão em Normas › Normas de tamanho de papel."@pt,
+        "包括ISO 216 A和B系列、ISO 269 C系列信封、北美ANSI和建筑系列、美国标准尺寸（Letter、Legal、Tabloid）、地区名片尺寸和常见信封格式。"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+
 <https://ptpge.org/v1/printing/configurations/formats/a-series/a4h> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -47756,66 +48686,6 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
-<https://ptpge.org/v1/printing/configurations/formats/us/letter> a skos:Concept ;
-    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
-    skos:altLabel "8.5 x 11 in"@en,
-        "8.5x11"@en,
-        "8.5×11"@en,
-        "ANSI A"@en,
-        "Letter size"@en,
-        "US Letter"@en,
-        "Amerikansk brevformat"@nb,
-        "US Letter"@pl ;
-    skos:broader <https://ptpge.org/v1/printing/configurations/formats/us> ;
-    skos:definition "8.5 × 11 tommer (215.9 × 279.4 mm). Standardformatet til kontor og forbrugere i USA, Canada, Mexico, Filippinerne og Chile. Lidt bredere og kortere end A4, med andre proportioner — A4 og Letter kan ikke udskiftes med hinanden, uden at dokumentet layoutes om."@da,
-        "8,5 × 11 Zoll (215,9 × 279,4 mm). Das Standardpapierformat für Büro und Privatgebrauch in den Vereinigten Staaten, Kanada, Mexiko, auf den Philippinen und in Chile. Etwas breiter und kürzer als A4, mit einem anderen Seitenverhältnis — A4 und Letter lassen sich nicht ohne Neugestaltung des Dokuments austauschen."@de,
-        "8.5 × 11 inches (215.9 × 279.4 mm). The default office and consumer paper size in the United States, Canada, Mexico, the Philippines, and Chile. Slightly wider and shorter than A4, with a different aspect ratio — A4 and Letter cannot be substituted without re-laying out the document."@en,
-        "Tamaño Carta de EE. UU., 8,5 × 11 pulgadas. Estándar de papelería, oficinas, informes y documentos generales en Norteamérica."@es,
-        "8.5 × 11 inches (215.9 × 279.4 mm). संयुक्त राज्य, कनाडा, मेक्सिको, फ़िलीपींस और चिली का डिफ़ॉल्ट ऑफ़िस और उपभोक्ता काग़ज़ आकार। A4 से थोड़ा चौड़ा और छोटा, अलग अनुपात — A4 और Letter को दस्तावेज़ का लेआउट दोबारा बनाए बिना बदला नहीं जा सकता।"@hi,
-        "8.5×11インチ（215.9×279.4mm）。米国、カナダ、メキシコ、フィリピン、チリにおける既定のオフィスおよびコンシューマー用紙サイズ。A4よりわずかに広く短く、アスペクト比も異なる — A4とLetterは書類のレイアウトを再構成しないと相互置換できない。"@ja,
-        "8,5 × 11 tommer (215,9 × 279,4 mm). Standard kontor- og forbrukerpapirstørrelse i USA, Canada, Mexico, Filippinene og Chile. Litt bredere og kortere enn A4, med et annet sideforhold — A4 og Letter kan ikke byttes ut uten å re-layoute dokumentet."@nb,
-        "8.5 × 11 inch (215.9 × 279.4 mm). Het standaardformaat voor kantoor en consument in de VS, Canada, Mexico, de Filipijnen en Chili. Iets breder en korter dan A4, met andere verhoudingen — A4 en Letter zijn niet uitwisselbaar zonder het document opnieuw op te maken."@nl,
-        "8,5 × 11 cali (215,9 × 279,4 mm). Domyślny format papieru biurowego i konsumenckiego w Stanach Zjednoczonych, Kanadzie, Meksyku, na Filipinach i w Chile. Nieco szerszy i krótszy niż A4, o innych proporcjach — A4 i Letter nie są zamienne bez ponownego złożenia dokumentu."@pl,
-        "8.5 × 11 inches (215.9 × 279.4 mm). O tamanho de papel padrão de escritório e consumo nos Estados Unidos, Canadá, México, Filipinas e Chile. Um pouco mais largo e mais curto que o A4, com proporção diferente — A4 e Letter não são intercambiáveis sem rediagramar o documento."@pt,
-        "8.5 × 11 tum (215.9 × 279.4 mm). Standardformatet för kontor och konsumenter i USA, Kanada, Mexiko, Filippinerna och Chile. Något bredare och kortare än A4, med andra proportioner — A4 och Letter kan inte bytas mot varandra utan att dokumentet layoutas om."@sv,
-        "美国Letter尺寸，8.5 × 11英寸。北美文具、办公、报告和一般文件的标准。"@zh-Hans ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q254446> ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:notation "P:CF§LETTER" ;
-    skos:prefLabel "Letter (8.5 x 11 tum)"@da,
-        "Letter (8.5 x 11 in)"@de,
-        "Letter (8.5 x 11 in)"@en,
-        "Letter (216 × 279 mm / 8.5 × 11 in)"@es,
-        "Letter (8.5 x 11 in)"@hi,
-        "Letter (8.5 x 11 in)"@ja,
-        "Letter (8.5 x 11 in)"@nb,
-        "Letter (8.5 x 11 in)"@nl,
-        "Letter (8.5 x 11 in)"@pl,
-        "Letter (8.5 x 11 in)"@pt,
-        "Letter (8.5 x 11 tum)"@sv,
-        "Letter (216 × 279 mm / 8.5 × 11 in)"@zh-Hans ;
-    ptpge:elementType "value" ;
-    ptpge:group "configurations" ;
-    ptpge:hasProperty [ ptpge:area 93.5 ;
-            ptpge:aspectRatio 1.2941 ;
-            ptpge:height 11.0 ;
-            ptpge:standard "ANSI" ;
-            ptpge:unit "in" ;
-            ptpge:width 8.5 ] ;
-    ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 20" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "LayoutIntent",
-                "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ] ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" .
-
 <https://ptpge.org/v1/printing/configurations/formats/a-series> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -47885,6 +48755,66 @@
         "包括A0到A13（每个面积为前一个的一半）、印刷用的加大尺寸（A0+、A1+、A3+）以及罕见的半A4（A4H）和双倍/四倍A0（2A0、4A0）。"@zh-Hans ;
     ptpge:group "configurations" ;
     ptpge:level "sub-category" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" .
+
+<https://ptpge.org/v1/printing/configurations/formats/us/letter> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "8.5 x 11 in"@en,
+        "8.5x11"@en,
+        "8.5×11"@en,
+        "ANSI A"@en,
+        "Letter size"@en,
+        "US Letter"@en,
+        "Amerikansk brevformat"@nb,
+        "US Letter"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/us> ;
+    skos:definition "8.5 × 11 tommer (215.9 × 279.4 mm). Standardformatet til kontor og forbrugere i USA, Canada, Mexico, Filippinerne og Chile. Lidt bredere og kortere end A4, med andre proportioner — A4 og Letter kan ikke udskiftes med hinanden, uden at dokumentet layoutes om."@da,
+        "8,5 × 11 Zoll (215,9 × 279,4 mm). Das Standardpapierformat für Büro und Privatgebrauch in den Vereinigten Staaten, Kanada, Mexiko, auf den Philippinen und in Chile. Etwas breiter und kürzer als A4, mit einem anderen Seitenverhältnis — A4 und Letter lassen sich nicht ohne Neugestaltung des Dokuments austauschen."@de,
+        "8.5 × 11 inches (215.9 × 279.4 mm). The default office and consumer paper size in the United States, Canada, Mexico, the Philippines, and Chile. Slightly wider and shorter than A4, with a different aspect ratio — A4 and Letter cannot be substituted without re-laying out the document."@en,
+        "Tamaño Carta de EE. UU., 8,5 × 11 pulgadas. Estándar de papelería, oficinas, informes y documentos generales en Norteamérica."@es,
+        "8.5 × 11 inches (215.9 × 279.4 mm). संयुक्त राज्य, कनाडा, मेक्सिको, फ़िलीपींस और चिली का डिफ़ॉल्ट ऑफ़िस और उपभोक्ता काग़ज़ आकार। A4 से थोड़ा चौड़ा और छोटा, अलग अनुपात — A4 और Letter को दस्तावेज़ का लेआउट दोबारा बनाए बिना बदला नहीं जा सकता।"@hi,
+        "8.5×11インチ（215.9×279.4mm）。米国、カナダ、メキシコ、フィリピン、チリにおける既定のオフィスおよびコンシューマー用紙サイズ。A4よりわずかに広く短く、アスペクト比も異なる — A4とLetterは書類のレイアウトを再構成しないと相互置換できない。"@ja,
+        "8,5 × 11 tommer (215,9 × 279,4 mm). Standard kontor- og forbrukerpapirstørrelse i USA, Canada, Mexico, Filippinene og Chile. Litt bredere og kortere enn A4, med et annet sideforhold — A4 og Letter kan ikke byttes ut uten å re-layoute dokumentet."@nb,
+        "8.5 × 11 inch (215.9 × 279.4 mm). Het standaardformaat voor kantoor en consument in de VS, Canada, Mexico, de Filipijnen en Chili. Iets breder en korter dan A4, met andere verhoudingen — A4 en Letter zijn niet uitwisselbaar zonder het document opnieuw op te maken."@nl,
+        "8,5 × 11 cali (215,9 × 279,4 mm). Domyślny format papieru biurowego i konsumenckiego w Stanach Zjednoczonych, Kanadzie, Meksyku, na Filipinach i w Chile. Nieco szerszy i krótszy niż A4, o innych proporcjach — A4 i Letter nie są zamienne bez ponownego złożenia dokumentu."@pl,
+        "8.5 × 11 inches (215.9 × 279.4 mm). O tamanho de papel padrão de escritório e consumo nos Estados Unidos, Canadá, México, Filipinas e Chile. Um pouco mais largo e mais curto que o A4, com proporção diferente — A4 e Letter não são intercambiáveis sem rediagramar o documento."@pt,
+        "8.5 × 11 tum (215.9 × 279.4 mm). Standardformatet för kontor och konsumenter i USA, Kanada, Mexiko, Filippinerna och Chile. Något bredare och kortare än A4, med andra proportioner — A4 och Letter kan inte bytas mot varandra utan att dokumentet layoutas om."@sv,
+        "美国Letter尺寸，8.5 × 11英寸。北美文具、办公、报告和一般文件的标准。"@zh-Hans ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q254446> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§LETTER" ;
+    skos:prefLabel "Letter (8.5 x 11 tum)"@da,
+        "Letter (8.5 x 11 in)"@de,
+        "Letter (8.5 x 11 in)"@en,
+        "Letter (216 × 279 mm / 8.5 × 11 in)"@es,
+        "Letter (8.5 x 11 in)"@hi,
+        "Letter (8.5 x 11 in)"@ja,
+        "Letter (8.5 x 11 in)"@nb,
+        "Letter (8.5 x 11 in)"@nl,
+        "Letter (8.5 x 11 in)"@pl,
+        "Letter (8.5 x 11 in)"@pt,
+        "Letter (8.5 x 11 tum)"@sv,
+        "Letter (216 × 279 mm / 8.5 × 11 in)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 93.5 ;
+            ptpge:aspectRatio 1.2941 ;
+            ptpge:height 11.0 ;
+            ptpge:standard "ANSI" ;
+            ptpge:unit "in" ;
+            ptpge:width 8.5 ] ;
+    ptpge:level "element" ;
     ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
                 "§6.57 · p.229" ;
             ptpge:mappingRow "crosswalk row 20" ;
@@ -48428,70 +49358,6 @@
     ptpge:status "proposed" ;
     ptpge:version "2026-06-05" .
 
-<https://ptpge.org/v1/printing/configurations/formats/a-series/a4> a skos:Concept ;
-    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
-    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
-    skos:altLabel "21 x 29.7 cm"@en,
-        "210 x 297 mm"@en,
-        "210x297"@en,
-        "210×297"@en,
-        "A4 Size"@en,
-        "DIN A4"@en,
-        "A4-format"@nb,
-        "A4-størrelse"@nb,
-        "format A4"@pl ;
-    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
-    skos:definition "210 × 297 mm (8.27 × 11.69 tommer). Standardformatet til kontor og forbrugere i næsten alle lande undtagen USA og Canada. Del af A-serien i ISO 216, hvor hvert format er halvdelen af arealet af det nærmeste større: A4 er halvdelen af A3 og dobbelt så stort areal som A5."@da,
-        "210 × 297 mm (8,27 × 11,69 in). Das Standardpapierformat für Büro und Privatgebrauch in nahezu allen Ländern außer den Vereinigten Staaten und Kanada. Teil der ISO-216-A-Reihe, in der jedes Format halb so groß wie das nächstgrößere ist: A4 ist die Hälfte von A3 und die doppelte Fläche von A5."@de,
-        "210 × 297 mm (8.27 × 11.69 in). The default office and consumer paper size in nearly every country except the United States and Canada. Part of the ISO 216 A series, where each size is half the area of the next: A4 is half of A3, twice the area of A5."@en,
-        "Formato A4 de la serie A de ISO 216, dimensiones 210 × 297 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
-        "210 × 297 mm (8.27 × 11.69 in). संयुक्त राज्य और कनाडा को छोड़कर लगभग हर देश का डिफ़ॉल्ट ऑफ़िस और उपभोक्ता काग़ज़ आकार। ISO 216 A-सीरीज़ का हिस्सा, जहाँ हर आकार अगले का आधा क्षेत्रफल है: A4, A3 का आधा और A5 का दोगुना।"@hi,
-        "210×297mm（8.27×11.69インチ）。米国およびカナダを除くほぼ全ての国における既定のオフィスおよびコンシューマー用紙サイズ。ISO 216 Aシリーズの一部で、各サイズが次のサイズの半分の面積となる：A4はA3の半分、A5の2倍の面積。"@ja,
-        "210 × 297 mm (8,27 × 11,69 in). Standard kontor- og forbrukerpapirstørrelse i nesten alle land utenom USA og Canada. Del av ISO 216 A-serien, der hver størrelse har halve arealet av den neste: A4 er halvparten av A3, dobbelt så stort som A5."@nb,
-        "210 × 297 mm (8.27 × 11.69 inch). Het standaardformaat voor kantoor en consument in vrijwel alle landen behalve de VS en Canada. Onderdeel van de A-reeks in ISO 216, waarbij elk formaat de helft van het oppervlak van het eerstvolgende grotere is: A4 is de helft van A3 en dubbel zo groot als A5."@nl,
-        "210 × 297 mm (8,27 × 11,69 cala). Domyślny format papieru biurowego i konsumenckiego niemal w każdym kraju poza Stanami Zjednoczonymi i Kanadą. Część serii A normy ISO 216, w której każdy format ma połowę powierzchni następnego: A4 to połowa A3 i dwukrotność A5."@pl,
-        "210 × 297 mm (8.27 × 11.69 in). O tamanho de papel padrão de escritório e consumo em quase todos os países, exceto Estados Unidos e Canadá. Faz parte da série A da ISO 216, em que cada tamanho tem metade da área do seguinte: A4 é metade de A3 e o dobro de A5."@pt,
-        "210 × 297 mm (8.27 × 11.69 tum). Standardformatet för kontor och konsumenter i nästan alla länder utom USA och Kanada. Del av A-serien i ISO 216, där varje format är halva arean av det närmast större: A4 är hälften av A3 och dubbla arean av A5."@sv,
-        "ISO 216 A系列A4开本，尺寸210 × 297 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
-    skos:exactMatch <https://www.iso.org/standard/36631.html>,
-        <https://www.wikidata.org/wiki/Q280184> ;
-    skos:inScheme <https://ptpge.org/v1/scheme> ;
-    skos:notation "P:CF§A4" ;
-    skos:prefLabel "A4 (210 x 297 mm)"@da,
-        "A4 (210 x 297 mm)"@de,
-        "A4 (210 x 297 mm)"@en,
-        "A4 (210 × 297 mm)"@es,
-        "A4 (210 x 297 mm)"@hi,
-        "A4 (210 x 297 mm)"@ja,
-        "A4 (210 x 297 mm)"@nb,
-        "A4 (210 x 297 mm)"@nl,
-        "A4 (210 x 297 mm)"@pl,
-        "A4 (210 x 297 mm)"@pt,
-        "A4 (210 x 297 mm)"@sv,
-        "A4 (210 × 297 mm)"@zh-Hans ;
-    ptpge:elementType "value" ;
-    ptpge:group "configurations" ;
-    ptpge:hasProperty [ ptpge:area 62370.0 ;
-            ptpge:aspectRatio 1.4143 ;
-            ptpge:height 297.0 ;
-            ptpge:standard "ISO 216" ;
-            ptpge:unit "mm" ;
-            ptpge:width 210.0 ] ;
-    ptpge:level "element" ;
-    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
-                "§6.57 · p.229" ;
-            ptpge:mappingRow "crosswalk row 20" ;
-            ptpge:matchDegree "exact" ;
-            ptpge:sourceElement "LayoutIntent",
-                "Media" ;
-            ptpge:sourceStandard "XJDF" ;
-            ptpge:sourceVersion "2.2" ] ;
-    ptpge:status "proposed" ;
-    ptpge:version "2026-06-05" ;
-    ptpge:visual [ ] .
-
 <https://ptpge.org/v1/printing/configurations/formats/a-series/a6> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
     dcterms:creator "https://ptpge.org/contributors/ptpge" ;
@@ -48825,6 +49691,70 @@
     ptpge:status "proposed" ;
     ptpge:valueDomain <https://ptpge.org/v1/printing/features/surface-finish> ;
     ptpge:version "2026-09-20" .
+
+<https://ptpge.org/v1/printing/configurations/formats/a-series/a4> a skos:Concept ;
+    dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-09-23T06:29:18+00:00"^^xsd:dateTime ;
+    skos:altLabel "21 x 29.7 cm"@en,
+        "210 x 297 mm"@en,
+        "210x297"@en,
+        "210×297"@en,
+        "A4 Size"@en,
+        "DIN A4"@en,
+        "A4-format"@nb,
+        "A4-størrelse"@nb,
+        "format A4"@pl ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats/a-series> ;
+    skos:definition "210 × 297 mm (8.27 × 11.69 tommer). Standardformatet til kontor og forbrugere i næsten alle lande undtagen USA og Canada. Del af A-serien i ISO 216, hvor hvert format er halvdelen af arealet af det nærmeste større: A4 er halvdelen af A3 og dobbelt så stort areal som A5."@da,
+        "210 × 297 mm (8,27 × 11,69 in). Das Standardpapierformat für Büro und Privatgebrauch in nahezu allen Ländern außer den Vereinigten Staaten und Kanada. Teil der ISO-216-A-Reihe, in der jedes Format halb so groß wie das nächstgrößere ist: A4 ist die Hälfte von A3 und die doppelte Fläche von A5."@de,
+        "210 × 297 mm (8.27 × 11.69 in). The default office and consumer paper size in nearly every country except the United States and Canada. Part of the ISO 216 A series, where each size is half the area of the next: A4 is half of A3, twice the area of A5."@en,
+        "Formato A4 de la serie A de ISO 216, dimensiones 210 × 297 mm. Relación 1:√2 — al doblarlo por la mitad se obtiene el siguiente tamaño A."@es,
+        "210 × 297 mm (8.27 × 11.69 in). संयुक्त राज्य और कनाडा को छोड़कर लगभग हर देश का डिफ़ॉल्ट ऑफ़िस और उपभोक्ता काग़ज़ आकार। ISO 216 A-सीरीज़ का हिस्सा, जहाँ हर आकार अगले का आधा क्षेत्रफल है: A4, A3 का आधा और A5 का दोगुना।"@hi,
+        "210×297mm（8.27×11.69インチ）。米国およびカナダを除くほぼ全ての国における既定のオフィスおよびコンシューマー用紙サイズ。ISO 216 Aシリーズの一部で、各サイズが次のサイズの半分の面積となる：A4はA3の半分、A5の2倍の面積。"@ja,
+        "210 × 297 mm (8,27 × 11,69 in). Standard kontor- og forbrukerpapirstørrelse i nesten alle land utenom USA og Canada. Del av ISO 216 A-serien, der hver størrelse har halve arealet av den neste: A4 er halvparten av A3, dobbelt så stort som A5."@nb,
+        "210 × 297 mm (8.27 × 11.69 inch). Het standaardformaat voor kantoor en consument in vrijwel alle landen behalve de VS en Canada. Onderdeel van de A-reeks in ISO 216, waarbij elk formaat de helft van het oppervlak van het eerstvolgende grotere is: A4 is de helft van A3 en dubbel zo groot als A5."@nl,
+        "210 × 297 mm (8,27 × 11,69 cala). Domyślny format papieru biurowego i konsumenckiego niemal w każdym kraju poza Stanami Zjednoczonymi i Kanadą. Część serii A normy ISO 216, w której każdy format ma połowę powierzchni następnego: A4 to połowa A3 i dwukrotność A5."@pl,
+        "210 × 297 mm (8.27 × 11.69 in). O tamanho de papel padrão de escritório e consumo em quase todos os países, exceto Estados Unidos e Canadá. Faz parte da série A da ISO 216, em que cada tamanho tem metade da área do seguinte: A4 é metade de A3 e o dobro de A5."@pt,
+        "210 × 297 mm (8.27 × 11.69 tum). Standardformatet för kontor och konsumenter i nästan alla länder utom USA och Kanada. Del av A-serien i ISO 216, där varje format är halva arean av det närmast större: A4 är hälften av A3 och dubbla arean av A5."@sv,
+        "ISO 216 A系列A4开本，尺寸210 × 297 mm。比例1:√2 —— 对折后得到下一个A尺寸。"@zh-Hans ;
+    skos:exactMatch <https://www.iso.org/standard/36631.html>,
+        <https://www.wikidata.org/wiki/Q280184> ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:notation "P:CF§A4" ;
+    skos:prefLabel "A4 (210 x 297 mm)"@da,
+        "A4 (210 x 297 mm)"@de,
+        "A4 (210 x 297 mm)"@en,
+        "A4 (210 × 297 mm)"@es,
+        "A4 (210 x 297 mm)"@hi,
+        "A4 (210 x 297 mm)"@ja,
+        "A4 (210 x 297 mm)"@nb,
+        "A4 (210 x 297 mm)"@nl,
+        "A4 (210 x 297 mm)"@pl,
+        "A4 (210 x 297 mm)"@pt,
+        "A4 (210 x 297 mm)"@sv,
+        "A4 (210 × 297 mm)"@zh-Hans ;
+    ptpge:elementType "value" ;
+    ptpge:group "configurations" ;
+    ptpge:hasProperty [ ptpge:area 62370.0 ;
+            ptpge:aspectRatio 1.4143 ;
+            ptpge:height 297.0 ;
+            ptpge:standard "ISO 216" ;
+            ptpge:unit "mm" ;
+            ptpge:width 210.0 ] ;
+    ptpge:level "element" ;
+    ptpge:semanticSource [ dcterms:bibliographicCitation "§4.10 · p.78",
+                "§6.57 · p.229" ;
+            ptpge:mappingRow "crosswalk row 20" ;
+            ptpge:matchDegree "exact" ;
+            ptpge:sourceElement "LayoutIntent",
+                "Media" ;
+            ptpge:sourceStandard "XJDF" ;
+            ptpge:sourceVersion "2.2" ] ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-06-05" ;
+    ptpge:visual [ ] .
 
 <https://ptpge.org/v1/printing/technologies/printing-finishing-equipment/printing-presses> a skos:Concept ;
     dcterms:created "2026-05-18T12:24:03+00:00"^^xsd:dateTime ;

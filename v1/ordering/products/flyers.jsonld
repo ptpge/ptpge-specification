@@ -124,7 +124,7 @@
   "group": "products",
   "broader": "https://ptpge.org/v1/ordering/products",
   "created": "2026-05-18T12:24:24Z",
-  "modified": "2026-09-28T12:25:00Z",
+  "modified": "2026-11-02T07:56:18Z",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "definition": {
     "en": "A single-sheet printed handout for promotion — events, offers and announcements, printed one or both sides.",
@@ -159,7 +159,10 @@
     "https://ptpge.org/v1/printing/configurations/formats/us/government-legal",
     "https://ptpge.org/v1/printing/configurations/formats/us/legal",
     "https://ptpge.org/v1/printing/configurations/formats/us/ledger",
-    "https://ptpge.org/v1/printing/configurations/formats/us/tabloid"
+    "https://ptpge.org/v1/printing/configurations/formats/us/tabloid",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/letter-tri-fold",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/dl",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats/lang-dl"
   ],
   "supportsOrientation": [
     "https://ptpge.org/v1/printing/configurations/orientation/portrait",
@@ -240,7 +243,8 @@
   },
   "supportsFormatFamilies": [
     "https://ptpge.org/v1/printing/configurations/formats/a-series",
-    "https://ptpge.org/v1/printing/configurations/formats/us"
+    "https://ptpge.org/v1/printing/configurations/formats/us",
+    "https://ptpge.org/v1/printing/configurations/formats/folded-sheet-formats"
   ],
   "supportsSubstrateColor": [
     "https://ptpge.org/v1/printing/substrates/sheet-materials/paper/paper-color-shades/white-paper",

@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x50",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§PSTR-50X50",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Poster 50 × 50 cm",
+    "nb": "Plakat 50 × 50 cm",
+    "de": "Plakat 50 × 50 cm",
+    "es": "Póster 50 × 50 cm",
+    "ja": "Poster 50 × 50 cm",
+    "zh-Hans": "Poster 50 × 50 cm",
+    "sv": "Affisch 50 × 50 cm",
+    "da": "Plakat 50 × 50 cm",
+    "nl": "Poster 50 × 50 cm",
+    "pl": "Plakat 50 × 50 cm",
+    "pt": "Pôster 50 × 50 cm",
+    "hi": "Poster 50 × 50 cm"
+  },
+  "altLabels": {
+    "en": [
+      "50x50 cm",
+      "50 x 50 cm",
+      "500 x 500 mm",
+      "500x500"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/poster-formats",
+  "properties": {
+    "width": 500,
+    "height": 500,
+    "unit": "mm",
+    "aspectRatio": 1.0,
+    "standard": "convention",
+    "area": 250000
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nb": "50 × 50 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216.",
+    "de": "50 × 50 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216.",
+    "es": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "ja": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "zh-Hans": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "sv": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "da": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nl": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pl": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pt": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "hi": "50 × 50 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

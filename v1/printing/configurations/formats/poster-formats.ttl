@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ptpge: <https://ptpge.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ptpge.org/v1/printing/configurations/formats/poster-formats> a skos:Concept ;
+    dcterms:created "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    dcterms:creator "https://ptpge.org/contributors/ptpge" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2026-11-02T07:56:18+00:00"^^xsd:dateTime ;
+    skos:broader <https://ptpge.org/v1/printing/configurations/formats> ;
+    skos:definition "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@da,
+        "Handelsübliche Plakatformate in Zentimetern — quadratische und hochformatige Maße für gängige Rahmen (25 × 25 bis 100 × 140), neben den ISO- und US-Reihen."@de,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@en,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@es,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@hi,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@ja,
+        "Bransjens plakatformater i centimeter — kvadratiske og stående mål tilpasset vanlige rammer (25 × 25 til 100 × 140), ved siden av ISO- og US-seriene."@nb,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@nl,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@pl,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@pt,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@sv,
+        "Trade poster sizes in centimetres — square and portrait sizes matched to common frames (25 × 25 up to 100 × 140), alongside the ISO and US series."@zh-Hans ;
+    skos:inScheme <https://ptpge.org/v1/scheme> ;
+    skos:narrower <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x140>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x25>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x35>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-35x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x40>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-40x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x50>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-50x70>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-60x60>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x100>,
+        <https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-70x70> ;
+    skos:notation "P:CF-FMT-PSTR" ;
+    skos:prefLabel "Plakatformater"@da,
+        "Plakatformate"@de,
+        "Poster formats"@en,
+        "Poster formats"@es,
+        "Poster formats"@hi,
+        "Poster formats"@ja,
+        "Plakatformater"@nb,
+        "Posterformaten"@nl,
+        "Poster formats"@pl,
+        "Poster formats"@pt,
+        "Affischformat"@sv,
+        "Poster formats"@zh-Hans ;
+    ptpge:group "configurations" ;
+    ptpge:level "sub-category" ;
+    ptpge:status "proposed" ;
+    ptpge:version "2026-11-02" .
+

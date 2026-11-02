@@ -184,5 +184,40 @@
     "1/3",
     "1/3",
     "1/3"
-  ]
+  ],
+  "imposition": {
+    "panels": 3,
+    "pages": 6,
+    "folds": [
+      1,
+      2
+    ],
+    "panelWidths": [
+      0.98,
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        5,
+        6,
+        1
+      ],
+      "side2": [
+        2,
+        3,
+        4
+      ]
+    },
+    "foldProfile": "C",
+    "coverPanel": 2,
+    "coverSide": "side1"
+  },
+  "foldCatalog": {
+    "standard": "XJDF",
+    "version": "2.2",
+    "code": "F6-4",
+    "note": "Tri-fold (§4.7.1)",
+    "match": "exact"
+  }
 }

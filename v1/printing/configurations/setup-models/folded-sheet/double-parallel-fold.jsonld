@@ -187,5 +187,44 @@
     "1/4",
     "1/4",
     "1/4"
-  ]
+  ],
+  "imposition": {
+    "panels": 4,
+    "pages": 8,
+    "folds": [
+      1,
+      2,
+      3
+    ],
+    "panelWidths": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        8,
+        1,
+        2,
+        7
+      ],
+      "side2": [
+        6,
+        3,
+        4,
+        5
+      ]
+    },
+    "foldProfile": "W",
+    "coverPanel": 1,
+    "coverSide": "side1"
+  },
+  "foldCatalog": {
+    "standard": "XJDF",
+    "version": "2.2",
+    "code": "F8-2",
+    "note": "Parallel fold (§4.7.1)",
+    "match": "exact"
+  }
 }

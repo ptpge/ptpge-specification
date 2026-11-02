@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-25x35",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§PSTR-25X35",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Poster 25 × 35 cm",
+    "nb": "Plakat 25 × 35 cm",
+    "de": "Plakat 25 × 35 cm",
+    "es": "Póster 25 × 35 cm",
+    "ja": "Poster 25 × 35 cm",
+    "zh-Hans": "Poster 25 × 35 cm",
+    "sv": "Affisch 25 × 35 cm",
+    "da": "Plakat 25 × 35 cm",
+    "nl": "Poster 25 × 35 cm",
+    "pl": "Plakat 25 × 35 cm",
+    "pt": "Pôster 25 × 35 cm",
+    "hi": "Poster 25 × 35 cm"
+  },
+  "altLabels": {
+    "en": [
+      "25x35 cm",
+      "25 x 35 cm",
+      "250 x 350 mm",
+      "250x350"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/poster-formats",
+  "properties": {
+    "width": 250,
+    "height": 350,
+    "unit": "mm",
+    "aspectRatio": 1.4,
+    "standard": "convention",
+    "area": 87500
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nb": "25 × 35 cm — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216.",
+    "de": "25 × 35 cm — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216.",
+    "es": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "ja": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "zh-Hans": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "sv": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "da": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nl": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pl": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pt": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "hi": "25 × 35 cm — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

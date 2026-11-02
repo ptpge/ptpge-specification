@@ -211,5 +211,44 @@
       "Plegado envolvente",
       "Plegado en rollo"
     ]
+  },
+  "imposition": {
+    "panels": 4,
+    "pages": 8,
+    "folds": [
+      1,
+      2,
+      3
+    ],
+    "panelWidths": [
+      0.96,
+      0.98,
+      1,
+      1
+    ],
+    "pageMap": {
+      "side1": [
+        6,
+        7,
+        8,
+        1
+      ],
+      "side2": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "foldProfile": "C",
+    "coverPanel": 3,
+    "coverSide": "side1"
+  },
+  "foldCatalog": {
+    "standard": "XJDF",
+    "version": "2.2",
+    "code": "F8-5",
+    "note": "Barrel fold (§4.7.1) — roll fold is the common name",
+    "match": "close"
   }
 }

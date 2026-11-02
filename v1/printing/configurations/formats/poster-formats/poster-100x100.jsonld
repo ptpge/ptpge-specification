@@ -1,0 +1,77 @@
+{
+  "@context": "https://ptpge.org/v1/context.jsonld",
+  "id": "https://ptpge.org/v1/printing/configurations/formats/poster-formats/poster-100x100",
+  "type": "skos:Concept",
+  "version": "2026-11-02",
+  "status": "proposed",
+  "notation": "P:CF§PSTR-100X100",
+  "level": "element",
+  "elementType": "value",
+  "label": {
+    "en": "Poster 100 × 100 cm",
+    "nb": "Plakat 100 × 100 cm",
+    "de": "Plakat 100 × 100 cm",
+    "es": "Póster 100 × 100 cm",
+    "ja": "Poster 100 × 100 cm",
+    "zh-Hans": "Poster 100 × 100 cm",
+    "sv": "Affisch 100 × 100 cm",
+    "da": "Plakat 100 × 100 cm",
+    "nl": "Poster 100 × 100 cm",
+    "pl": "Plakat 100 × 100 cm",
+    "pt": "Pôster 100 × 100 cm",
+    "hi": "Poster 100 × 100 cm"
+  },
+  "altLabels": {
+    "en": [
+      "100x100 cm",
+      "100 x 100 cm",
+      "1000 x 1000 mm",
+      "1000x1000"
+    ]
+  },
+  "inScheme": "https://ptpge.org/v1/scheme",
+  "group": "configurations",
+  "broader": "https://ptpge.org/v1/printing/configurations/formats/poster-formats",
+  "properties": {
+    "width": 1000,
+    "height": 1000,
+    "unit": "mm",
+    "aspectRatio": 1.0,
+    "standard": "convention",
+    "area": 1000000
+  },
+  "created": "2026-11-02T07:56:18Z",
+  "modified": "2026-11-02T07:56:18Z",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "semanticSource": [
+    {
+      "standard": "XJDF",
+      "version": "2.2",
+      "elements": [
+        "LayoutIntent",
+        "Media"
+      ],
+      "refs": [
+        "§ 7.3 LayoutIntent/FinishedDimensions"
+      ]
+    }
+  ],
+  "definition": {
+    "en": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nb": "100 × 100 cm (kvadratisk) — bransjeformat for plakater, slik trykkerier og rammemakere selger det; tilpasset vanlige rammer, ikke ISO 216.",
+    "de": "100 × 100 cm (quadratisch) — ein handelsübliches Plakatformat, auf gängige Rahmen abgestimmt, nicht auf ISO 216.",
+    "es": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "ja": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "zh-Hans": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "sv": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "da": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "nl": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pl": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "pt": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216.",
+    "hi": "100 × 100 cm (square) — a trade poster size, as sold by print shops and framers; sized to common frames rather than to ISO 216."
+  },
+  "creator": "https://ptpge.org/contributors/ptpge",
+  "contributor": [
+    "https://ptpge.org/contributors/patrik-knutsson"
+  ]
+}

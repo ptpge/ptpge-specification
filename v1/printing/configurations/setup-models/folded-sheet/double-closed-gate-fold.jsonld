@@ -181,5 +181,38 @@
       "F8-4",
       "FoldCatalog F8-4"
     ]
-  }
+  },
+  "imposition": {
+    "panels": 4,
+    "pages": 8,
+    "folds": [
+      1,
+      2,
+      3
+    ],
+    "panelWidths": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "pageMap": {
+      "side1": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "side2": [
+        2,
+        8,
+        7,
+        1
+      ]
+    },
+    "foldProfile": "gate2",
+    "coverPanel": 3,
+    "coverSide": "side2"
+  },
+  "foldCatalog": null
 }
